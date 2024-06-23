@@ -113,6 +113,7 @@
 - [WebSocket](#WebSocket)
 - [游戏服务器](#游戏服务器)
 - [即时通讯](#即时通讯)
+- [视频会议](#视频会议)
 - [FTP服务器](#FTP服务器)
 - [JakartaEE产品](#JakartaEE产品)
 - [工具库](#工具库)
@@ -166,6 +167,7 @@
 - [专家系统](#专家系统)
 - [约束求解](#约束求解)
 - [数据科学](#数据科学)
+- [商业智能](#商业智能)
 - [指纹识别](#指纹识别)
 - [推荐系统](#推荐系统)
 - [逻辑编程](#逻辑编程)
@@ -602,6 +604,7 @@
 * [MilvusPlus](https://gitee.com/dromara/MilvusPlus)：MilvusPlus是一个功能强大的Java库，旨在简化与Milvus向量数据库的交互，为开发者提供类似MyBatisPlus注解和方法调用风格的直观API，由dromara社区开源。
 * [FluentJdbc](https://github.com/zsoltherpai/fluent-jdbc)：FluentJdbc是一个用于方便原生SQL查询的Java库。
 * [Elsql](https://github.com/OpenGamma/ElSql)：ElSql允许SQL从Java应用程序外部化。
+* [Yank](https://github.com/knowm/Yank)：适用于Java应用程序的超轻量JDBC持久层。
 
 ## Mybatis生态
 
@@ -789,7 +792,9 @@
 #### 突变测试
 
 * [Pitest](https://github.com/hcoles/pitest)：Pitest是最先进的Java和JVM突变测试系统。
+* [Major](https://mutation-testing.org/)：Major是一个高效、灵活的突变分析框架。
 * [Descartes](https://github.com/STAMP-project/pitest-descartes)：Descartes通过报告所覆盖代码中的弱点来支持开发人员改进他们的测试套件。
+* [Judy](http://mutationtesting.org/judy2/)：Judy是一个用Java编写的突变测试器，由弗罗茨瓦夫理工大学开源。
 * [PG Index Health](https://github.com/mfvanek/pg-index-health)：PG Index Health是一个用于分析和维护PostgreSQL数据库中索引和表健康状况的Java库。
 
 #### 模糊测试
@@ -840,6 +845,7 @@
 * [Sixpack Java](https://github.com/sixpack/sixpack-java)：Sixpack A/B测试框架的Java客户端。
 * [PlanOut4J](https://github.com/Glassdoor/planout4j)：PlanOut4J是Facebook PlanOut的基于Java的实现，PlanOut是一个A/B测试框架，旨在在网络上进行大规模实验。
 * [Izanami](https://github.com/MAIF/izanami)：Izanami是一款共享配置、功能翻转和A/B测试服务器，非常适合微服务架构实现。
+* [Apache Unomi](https://github.com/apache/unomi)：Apache Unomi存储用户个人资料信息，主要用于为A/B测试和个性化提供后端服务器，由Jahia开源。
 
 #### 验收测试
 
@@ -972,6 +978,7 @@
 * [MockNeat](https://github.com/nomemory/mockneat)：Mockneat是一个用Java编写的任意数据生成器开源库。
 * [jFairy](https://github.com/Devskiller/jfairy)：Java测试数据生成器。
 * [Jmockdata](https://github.com/jsonzou/jmockdata)：Jmockdata是一款实现模拟Java类或对象的实例化并随机初始化对象的数据的工具框架。
+* [Fixture Monkey](https://github.com/naver/fixture-monkey)：Fixture Monkey旨在轻松生成可控的任意实例，它允许你在多个测试中重复使用实例的相同配置，由Naver开源。
 * [JMock](https://github.com/jmock-developers/jmock-library)：JMock是一个支持使用Mock对象进行Java代码测试驱动开发的库。
 * [Burst](https://github.com/square/burst)：用于不同测试数据的单元测试库，由Square开源。
 * [EasyModeling](https://github.com/easymodeling/easy-modeling)：EasyModeling是一个Java注解处理器，可生成随机填充的对象以供测试使用。
@@ -986,10 +993,10 @@
 * [JFixture](https://github.com/FlexTradeUKLtd/jfixture)：JFixture是一个自动填充测试数据的Java库。
 * [DataFactory](https://github.com/andygibson/datafactory)：用于生成测试数据的Java库。
 * [Mock.java](https://gitee.com/ForteScarlet/Mock.java)：这是一个仿照Mock.js语法的Java语言使用的假数据生成工具框架。
-* [Java-Generator](https://gitee.com/binary/java-generator)：Java实现的各种随机测试数据生成器，包括身份证号码、银行卡号、姓名、汉字、手机号、电子邮箱地址和生成insert sql参数列表字符串等。
+* [Java-Generator](https://github.com/binarywang/java-testdata-generator)：Java实现的各种随机测试数据生成器，包括身份证号码、银行卡号、姓名、汉字、手机号、电子邮箱地址和生成insert sql参数列表字符串等。
 * [Test Data Supplier](https://github.com/sskorol/test-data-supplier)：该仓库包含TestNG DataProvider包装器，有助于以更灵活的方式提供测试数据。
 * [Data-Factory](https://github.com/houbb/data-factory)：Data-Factory用于根据对象随机自动生成初始化信息。
-* [EvoSQL](https://github.com/SERG-Delft/evosql)：EvoSQL是一种自动为SQL查询生成测试数据的工具。
+* [EvoSQL](https://github.com/SERG-Delft/evosql)：EvoSQL是一种自动为SQL查询生成测试数据的工具，由代尔夫特理工大学开源。
 * [Nomen est Omen](https://github.com/igr/nomen-est-omen)：这个Java库有助于生成一些随机名称，你可以将它们用于某些唯一的ID或密码。
 * [Model Citizen](https://github.com/mguymon/model-citizen)：Model Citizen是一个基于注解的Java模型工厂。
 * [Test Arranger](https://github.com/ocadotechnology/test-arranger)：将测试数据排列为完全填充的对象。
@@ -1167,7 +1174,6 @@
 
 * [JsonUnit](https://github.com/lukas-krecan/JsonUnit)：JsonUnit是一个简化测试中JSON比较的库。
 * [EqualsVerifier](https://github.com/jqno/equalsverifier)：EqualsVerifier可用于Java单元测试，以验证类中equals和hashCode方法的约定是否得到满足。
-* [Fixture Monkey](https://github.com/naver/fixture-monkey)：Fixture Monkey旨在轻松生成可控的任意实例，它允许你在多个测试中重复使用实例的相同配置，由Naver开源。
 * [OpenTest4J](https://github.com/ota4j-team/opentest4j)：该项目是JUnit 5团队倡议的成果。
 * [HtmlUnit](https://github.com/HtmlUnit/htmlunit)：HtmlUnit是Java程序的无GUI浏览器。
 * [Apache Commons Testing](https://github.com/apache/commons-testing)：用于测试的Java实用程序类包。
@@ -1563,6 +1569,7 @@
 * [XGVela](https://github.com/XGVela/XGVela)：XGVela是由中国移动主导发起的5G云原生PaaS平台开源项目。
 * [Asgard](https://github.com/Netflix/asgard)：Asgard是一个基于Web的工具，用于管理基于云的应用程序和基础设施，由Netflix开源。
 * [Poja](https://github.com/hei-school/poja)：Poja是一个完整的Java基础设施，由马达加斯加计算机科学高中开源。
+* [Eclipse Xpanse](https://github.com/eclipse-xpanse/xpanse)：Xpanse是一个开源项目，允许在任何云服务提供商上轻松实施本机托管服务。
 
 ## APM
 
@@ -1895,7 +1902,6 @@
 * [Apache Livy](https://github.com/apache/incubator-livy)：Apache Livy是一个开源REST接口，用于从任何地方与Apache Spark交互，由Cloudera开源。
 * [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
 * [Squall](https://github.com/epfldata/squall)：Squall是一个构建在Storm之上的在线查询处理引擎，由洛桑联邦理工学院数据实验室开源。
-* [KNOWAGE](https://github.com/KnowageLabs/Knowage-Server)：KNOWAGE是开源分析和商业智能套件，可让你将传统数据和大/云数据源组合成有价值且有意义的信息，由OW2开源。
 * [Cascading](https://github.com/cwensel/cascading)：Cascading是一个功能丰富的API，用于在本地或集群上定义和执行复杂且容错的数据处理流。
 * [UberScriptQuery](https://github.com/uber/uberscriptquery)：UberScriptQuery是一个用于运行Spark SQL作业的脚本查询包装器，由Uber开源。
 * [Spark-JobServer](https://github.com/spark-jobserver/spark-jobserver)：Spark-JobServer提供了一个RESTful接口，用于提交和管理Apache Spark作业、jar和作业上下文。
@@ -1936,7 +1942,6 @@
 * [Esper](https://github.com/espertechinc/esper)：Esper是用于复杂事件处理(CEP)、流式SQL和事件系列分析的组件。
 * [Apache Falcon](http://falcon.apache.org/)：Falcon是一个Feed处理和Feed管理系统，旨在让最终消费者更轻松地在Hadoop集群上进行Feed处理和管理。
 * [Marquez](https://github.com/MarquezProject/marquez)：Marquez是一种开源元数据服务，用于数据生态系统元数据的收集、聚合和可视化，由WeWork开源。
-* [ODD](https://github.com/opendatadiscovery/odd-platform)：ODD是一款面向数据团队的开源数据发现和可观察性工具。
 * [Egeria](https://github.com/odpi/egeria)：Egeria提供开放元数据和治理类型系统、框架、API、事件有效负载和交换协议，由IBM开源。
 * [BigQuery Data Lineage](https://github.com/GoogleCloudPlatform/bigquery-data-lineage)：使用审核日志、ZetaSQL和Dataflow对BigQuery进行实时数据沿袭跟踪的参考实现，由Google开源。
 * [Suro](https://github.com/Netflix/suro)：Suro是一种数据管道服务，用于收集、聚合和调度大量应用程序事件(包括日志数据)，由Netflix开发。
@@ -1991,6 +1996,8 @@
 * [McIDAS-V](https://www.ssec.wisc.edu/%7Ebillh/visad.html)：McIDAS-V是一款免费、开源、可视化和数据分析软件包，是SSEC 50年复杂McIDAS软件包历史中的下一代产品，由威斯康星大学麦迪逊分校开源。
 * [TelemetryViewer](https://github.com/farrellf/TelemetryViewer)：数据可视化工具。
 * [MDSplus](https://github.com/MDSplus/mdsplus)：MDSplus是一套用于数据采集和存储的软件工具，以及管理复杂科学数据的方法，由麻省理工学院、意大利帕多瓦聚变研究小组和洛斯阿拉莫斯国家实验室联合开发。
+* [AAChartCore](https://github.com/AAChartModel/AAChartCore)：极其精美而又强大的Android数据可视化图表框架，支持柱状图、条形图、折线图、曲线图。
+* [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
 
 ## 图分析
 
@@ -1998,9 +2005,13 @@
 * [PGX](https://www.oracle.com/middleware/technologies/parallel-graph-analytix.html)：PGX是一个用于图分析的工具包，支持高效的图算法和快速的类似SQL的图模式匹配查询，由Oracle开发。
 * [Gradoop](https://github.com/dbs-leipzig/gradoop)：Gradoop是一个开源研究框架，用于构建在Apache Flink之上的可扩展图分析，由莱比锡大学数据库研究组开发。
 * [SociaLite](https://github.com/socialite-lang/socialite)：SociaLite是一种用于分布式图分析的高级查询语言，由斯坦福开源。
+* [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
 * [PGQL](https://github.com/oracle/pgql-lang)：PGQL是一种基于SQL的属性图数据模型查询语言，为SQL和NoSQL用户带来图模式匹配功能，由Oracle开源。
 * [Ant Graph Learning](https://github.com/TuGraph-family/TuGraph-AntGraphLearning)：Ant Graph Learning为工业规模的图学习任务提供了全面的解决方案，由蚂蚁开源。
 * [GraphBuilder](https://github.com/intel/graphbuilder)：GraphBuilder库提供了构建大规模图的函数，由Intel开源。
+* [GraphStream](https://github.com/graphstream/gs-core)：GraphStream项目是一个Java库，提供API来建模、分析和可视化图和动态图，由勒阿弗尔大学开源。
+* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：Erdos是一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
+* [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
 
 ## 流处理平台
 
@@ -2054,7 +2065,6 @@
 * [Apatar](https://www.altoros.com/blog/tag/apatar/)：Apatar是一个开源的数据抽取、转换、装载(ETL)项目。
 * [Flowman](https://github.com/dimajix/flowman)：Flowman是一个由Apache Spark支持的ETL框架，简化了复杂数据管道的开发。
 * [WhiteRabbit](https://github.com/OHDSI/WhiteRabbit)：WhiteRabbit是一个小型应用程序，可用于分析数据库的结构和内容，为设计ETL做准备。
-* [DFLib](https://github.com/dflib/dflib)：DFLib是通用DataFrame数据结构的轻量级纯Java实现。
 * [DataPull](https://github.com/homeaway/datapull)：DataPull是一种自助式分布式ETL工具，用于连接和转换来自异构数据存储的数据。
 
 ## CDC组件
@@ -2819,6 +2829,12 @@
 * [Xiaper](https://github.com/xiaper/xiaper)：Xiaper是一款开源企业IM解决方案。
 * [盒子IM](https://gitee.com/bluexsx/box-im)：盒子IM是一个仿微信实现的网页版聊天软件，不依赖任何第三方收费组件。
 
+## 视频会议
+
+* [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)：BigBlueButton是一个开源虚拟教室，旨在帮助教师教学和学习者学习。
+* [Apache OpenMeetings](https://github.com/apache/openmeetings)：Openmeetings提供视频会议、即时消息、白板、协作文档编辑和其他群件工具。
+* [OpenVidu Call](https://github.com/OpenVidu/openvidu-call)：OpenVidu是一个方便在Web或移动应用程序中添加视频通话的平台。
+
 ## FTP服务器
 
 * [MinimalFTP](https://github.com/Guichaguri/MinimalFTP)：一个轻量级、简单的FTP服务器。
@@ -3523,6 +3539,7 @@
 * [Pear Admin Boot](https://gitee.com/pear-admin/Pear-Admin-Boot)：基于Spring Boot生态、权限、工作流的开发平台。
 * [金合技术中台](https://gitee.com/ikingtech/iking-platform)：现代化的下一代企业级技术中台，简洁、高效、稳定、开源。
 * [MLDong](https://gitee.com/mldong/mldong)：Spring Boot + Vue 3快速开发平台、自研工作流引擎。
+* [ContiNew Admin](https://github.com/continew-org/continew-admin)：ContiNew Admin持续迭代优化的前后端分离中后台管理系统框架。
 
 ## 低代码
 
@@ -3548,7 +3565,6 @@
 * [ApiBoot](https://gitee.com/minbox-projects/api-boot)：ApiBoot是接口服务的落地解决方案，提供了一系列开箱即用的组件，通过封装来简化主流第三方框架的集成。
 * [Appsmith](https://github.com/appsmithorg/appsmith)：用于构建管理面板、内部工具和仪表板的平台。
 * [Openkoda](https://github.com/openkoda/openkoda)：即用型开发平台，可加速构建业务应用程序和内部工具的过程。
-* [Abixen Platform](https://github.com/abixen/abixen-platform)：Abixen是一个基于微服务的软件平台，用于构建企业应用程序，通过创建特定的微服务并通过提供的CMS集成来提供功能。
 * [VLife](https://gitee.com/wwwlike/vlife)：VLife是一套采用前后端分离(Java + React)架构的企业级低代码研发平台。
 * [SmartAdmin](https://gitee.com/lab1024/smart-admin)：SmartAdmin是1024创新实验室使用Spring Boot 2和Vue 3开发出的一套简洁、易用的低代码中后台解决方案。
 * [EOVA](https://gitee.com/eova/eova)：国产开源的简单快速开发平台。
@@ -4085,6 +4101,8 @@
 * [Fregata](https://github.com/TalkingData/Fregata)：Fregata是一个基于Apache Spark的轻量级、超快速的大规模机器学习库，并在Scala中提供高级API，由TalkingData开源。
 * [RuleKit](https://github.com/adaa-polsl/RuleKit)：RuleKit是一种用于规则学习的多功能工具，基于顺序覆盖归纳算法，它适用于分类、回归和生存问题，由西里西亚理工大学开源。
 * [Chronon](https://github.com/airbnb/chronon)：Chronon是一个平台，它消除了数据计算的复杂性并为AI/ML应用程序提供服务，由Airbnb开源。
+* [BEAST](https://github.com/beast-dev/beast-mcmc)：BEAST是一个使用MCMC对分子序列进行贝叶斯分析的跨平台程序。
+* [BEAST 2](https://github.com/CompEvol/beast2)：BEAST是一个使用分子序列MCMC进行贝叶斯推理的跨平台程序，由奥克兰大学领导开发。
 
 #### 自然语言处理
 
@@ -4100,6 +4118,7 @@
 * [Neo4j NLP](https://github.com/graphaware/neo4j-nlp)：提供基于图的自然语言处理功能的Neo4j插件。
 * [MiNLP](https://github.com/XiaoMi/MiNLP)：小米自然语言处理平台(MiNLP)具备词法、句法、语义分析等数十个功能模块，在小米内部广泛应用。
 * [NLP-Lang](https://github.com/NLPchina/nlp-lang)：这个项目是一个基本包，封装了大多数NLP项目中常用工具。
+* [SimpleNLG](https://github.com/simplenlg/simplenlg)：SimpleNLG是一个简单的Java API，旨在促进自然语言的生成，最初由阿伯丁大学开发。
 * [MyNLP](https://github.com/mayabot/mynlp)：MyNLP是一个生产级、高性能、模块化、可扩展的中文NLP工具包，由上海万行公司开源。
 * [Apache UIMA](https://github.com/apache/uima-uimaj)：UIMA是分析大量非结构化信息以发现与最终用户相关的知识的软件系统，由IBM开源。
 * [Apache cTAKES](https://github.com/apache/ctakes)：Apache cTAKES是一个用于临床文本的自然语言处理平台。
@@ -4197,38 +4216,39 @@
 ## 数据科学
 
 * [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个数据框架和可视化库，支持加载、清理、转换、过滤和汇总数据。
+* [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充，由Google开源。
 * [Enso](https://github.com/enso-org/enso)：Enso是一种屡获殊荣的交互式编程语言，具有双重视觉和文本表示形式。
+* [ODD](https://github.com/opendatadiscovery/odd-platform)：ODD是一款面向数据团队的开源数据发现和可观察性工具。
 * [XChart](https://github.com/knowm/XChart)：XChart是一个轻量且方便的数据绘制库，旨在在尽可能短的时间内从数据到图表，并消除自定义图表样式时的猜测工作。
-* [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
 * [Incanter](https://github.com/incanter/incanter)：Incanter是一个基于Clojure、类似R的JVM统计计算和图形环境。
+* [RumbleDB](https://github.com/RumbleDB/rumble)：RumbleDB是一个查询引擎，可让你轻松高效地查询大型、混乱的数据集，由苏黎世联邦理工学院开源。
+* [Hopsworks](https://github.com/logicalclocks/hopsworks)：Hopsworks是一个ML数据平台，具有以Python为中心的特征存储和MLOps功能，由Hopsworks开源。
 * [Eclipse ICE](https://github.com/eclipse/ice)：Eclipse ICE是一个科学工作台和工作流程环境，旨在改善计算科学家的用户体验。
-* [GraphStream](https://github.com/graphstream/gs-core)：GraphStream项目是一个Java库，提供API来建模、分析和可视化图和动态图。
 * [Morpheus](https://github.com/zavtech/morpheus-core)：Morpheus库旨在促进涉及大型数据集的高性能分析软件的开发，以便在JVM上进行离线和实时分析。
-* [LogicNG](https://github.com/logic-ng/LogicNG)：用于创建、操作和求解布尔和伪布尔公式的Java库，它包括MiniSAT、Glucose、PBLib或OpenWBO等流行工具的纯Java实现。
-* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
 * [Apache Commons Statistics](https://github.com/apache/commons-statistics)：Apache Commons Statistics提供用于统计应用程序的工具，为常用的连续和离散分布提供支持。
 * [JScience](https://github.com/javolution/jscience)：提供一组用于处理科学测量和单位的类。
-* [SimpleNLG](https://github.com/simplenlg/simplenlg)：一个简单的Java API，旨在促进自然语言的生成。它最初由阿伯丁大学计算科学系教授、Arria NLG联合创始人Ehud Reiter开发。
-* [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
-* [KNIME Python](https://github.com/knime/knime-python)：KNIME Python集成缩小了KNIME分析平台和Python之间的差距，它提供了编写和执行Python脚本的节点以及在KNIME分析平台的其他部分使用Python的功能。
-* [JFreeChart](https://github.com/jfree/jfreechart)：用于Java应用程序的2D图表库。
-* [DataMelt](https://datamelt.org/)：一款为科学家、工程师和学生提供的免费数学软件，它可用于数值计算、统计、符号计算、数据分析和数据可视化。
+* [JFreeChart](https://github.com/jfree/jfreechart)：JFreeChart是一个适用于Java平台的综合免费图表库，可在客户端(JavaFX和Swing)或服务器端使用。
+* [DataMelt](https://datamelt.org/)：DataMelt是一款用于数值计算、统计、符号计算、数据分析和数据可视化的软件。
 * [Dataframe](https://github.com/Kotlin/dataframe)：Dataframe旨在利用Kotlin语言的全部功能以及Jupyter Notebook和REPL中间歇性代码执行提供的机会，协调Kotlin的静态类型与数据的动态特性，JetBrains开源。
-* [krangl](https://github.com/holgerbrandl/krangl)：krangl是一个用于数据处理的Kotlin库，通过使用现代函数式API实现数据操作语法，它允许过滤、转换、聚合和重塑表格数据。
-* [Science Parse](https://github.com/allenai/science-parse)：用于解析科学论文并以结构化形式返回的Java库。
-* [OpenRefine](https://github.com/OpenRefine/OpenRefine)：基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充，由Google开源。
-* [Hopsworks](https://github.com/logicalclocks/hopsworks)：一个ML数据平台，具有以Python为中心的特征存储和MLOps功能。
-* [ELKI](https://github.com/elki-project/elki)：用Java编写的开源数据挖掘软件，由德国多特蒙德大学开发。
-* [Zingg](https://github.com/zinggAI/zingg)：使用机器学习进行可扩展的身份解析、实体解析、数据掌握和重复数据删除。
+* [Krangl](https://github.com/holgerbrandl/krangl)：Krangl是一个用于数据处理的Kotlin库，通过使用现代函数式API实现数据操作语法，它允许过滤、转换、聚合和重塑表格数据。
+* [ELKI](https://github.com/elki-project/elki)：ELKI是一款用Java编写的开源数据挖掘软件，由德国多特蒙德大学开发。
+* [Zingg](https://github.com/zinggAI/zingg)：Zingg是一种基于ML的实体解析工具。
 * [DataCleaner](https://github.com/datacleaner/DataCleaner)：DataCleaner是一个数据质量工具包，可让你分析、更正和丰富你的数据。
-* [RumbleDB](https://github.com/RumbleDB/rumble)：适用于Spark，对大规模、混乱的类JSON数据(JSON、文本、CSV、Parquet、ROOT、AVRO、SVM)运行查询、声明式机器学习等。
-* [Featran](https://github.com/spotify/featran)：用于数据科学和机器学习的Scala特征转换库，由Spotify开源。
-* [Datavines](https://github.com/datavane/datavines)：下一代数据观测平台，支持元数据管理和数据质量。
+* [Featran](https://github.com/spotify/featran)：Featran是用于数据科学和机器学习的Scala特征转换库，由Spotify开源。
+* [Datavines](https://github.com/datavane/datavines)：DataVines是一个易于使用的数据质量服务平台，支持多种指标。
 * [TMD](https://github.com/techascent/tech.ml.dataset)：tech.ml.dataset(TMD)是一个用于表格数据处理的Clojure库，类似于Python的Pandas或R的data.table。
-* [IDV](https://github.com/Unidata/IDV)：IDV是一个用于分析和显示地球科学数据的框架，由美国国家科学基金会Unidata开源。
-* [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
-* [BEAST](https://github.com/beast-dev/beast-mcmc)：BEAST是一个使用MCMC对分子序列进行贝叶斯分析的跨平台程序。
-* [BEAST 2](https://github.com/CompEvol/beast2)：BEAST是一个使用分子序列MCMC进行贝叶斯推理的跨平台程序，由奥克兰大学领导开发。
+* [Joinery](https://github.com/cardillo/joinery)：Java的DataFrame。
+* [DFLib](https://github.com/dflib/dflib)：DFLib是通用DataFrame数据结构的轻量级纯Java实现。
+* [Classifai](https://github.com/CertifaiAI/classifai)：Classifai是最全面的开源数据标注平台之一。
+
+## 商业智能
+
+* [Poli](https://github.com/shzlw/poli)：Poli是一款易于使用的SQL报告应用程序，专为SQL爱好者打造。
+* [Abixen Platform](https://github.com/abixen/abixen-platform)：Abixen是一个基于微服务的软件平台，用于构建企业应用程序，通过创建特定的微服务并通过提供的CMS集成来提供功能。
+* [Helical Insight](https://github.com/helicalinsight/helicalinsight)：Helical Insight是世界上第一个开源商业智能框架，可以帮助你从一个或多个数据源中获取见解。
+* [Wren Engine](https://github.com/Canner/wren-engine)：Wren Engine被设计为独立的语义引擎，你可以轻松地使用任何AI代理实现它，可以将其`用作语义层的通用语义引擎。
+* [Guitar](https://github.com/iflytek/Guitar)：Guitar是一款简单、高效的分布式多维BI报表分析引擎，由科大讯飞开源。
+* [KNOWAGE](https://github.com/KnowageLabs/Knowage-Server)：KNOWAGE是开源分析和商业智能套件，可让你将传统数据和大/云数据源组合成有价值且有意义的信息，由OW2开源。
 
 ## 指纹识别
 
@@ -4245,6 +4265,7 @@
 
 ## 逻辑编程
 
+* [LogicNG](https://github.com/logic-ng/LogicNG)：LogicNG是一个用于创建、操作和求解布尔和伪布尔公式的Java库，它包括MiniSAT、Glucose、PBLib或OpenWBO等流行工具的纯Java实现。
 * [NeuraLogic](https://github.com/GustikS/NeuraLogic)：该框架的核心是一种自定义语言，你可以使用它来编写可微分程序来编码你的学习场景，类似于经典的深度学习框架。
 * [Formulog](https://github.com/HarvardPL/formulog)：Formulog通过构建和推理SMT公式的机制以及一些一阶函数编程来扩展逻辑编程语言Datalog，由哈佛编程语言研究小组开源。
 * [Alpha](https://github.com/alpha-asp/Alpha)：Alpha是一个答案集编程(ASP)系统：它读取逻辑程序(一组逻辑规则)并计算相应的答案集，由维也纳工业大学开源。
@@ -5502,7 +5523,7 @@
 * [Waves](https://github.com/wavesplatform/Waves)：Waves是一个基于社区的去中心化开源技术堆栈，用于构建可扩展、用户友好的应用程序。
 * [MD BlockChain](https://gitee.com/tianyalei/md_blockchain)：开源Java区块链平台，可做联盟链、私链使用，不适用于公链。
 * [Arbitrader](https://github.com/agonyforge/arbitrader)：市场中立的加密货币交易机器人。
-* [Apache Tuweni](https://github.com/apache/incubator-tuweni)：Tuweni是一组库和其他工具，可帮助使用Java和其他JVM语言开发区块链和其他去中心化软件。
+* [Apache Tuweni](https://github.com/apache/incubator-tuweni)：Tuweni是一组库和其他工具，可帮助使用Java和其他JVM语言开发区块链和其他去中心化软件。 
 * [FundRequest](https://github.com/FundRequest/platform)：FundRequest平台代码。
 * [Blockj](https://gitee.com/blackfox/blockj)：Java实现的一个简易区块链(联盟链)项目，包括加密工具、钱包、P2P传输、区块同步、网络共识等基础实现。
 * [JD Chain](https://gitee.com/jdchain/jdchain)：京东区块链是一个企业级的区块链框架系统，具有简洁、易用、可扩展和高性能的特点。
@@ -6030,6 +6051,7 @@
 
 #### Swing图表库
 
+* [JFreeChart](https://github.com/jfree/jfreechart)：JFreeChart是一个适用于Java平台的综合免费图表库，可在客户端(JavaFX和Swing)或服务器端使用。
 * [Orson Charts](https://github.com/jfree/orson-charts)：Orson Charts是一个用于Java平台的3D图表库，可以生成各种3D图表，用于客户端应用程序(JavaFX和Swing)和服务器端应用程序(导出为PDF、SVG、PNG和JPEG)。
 * [Matplotlib4j](https://github.com/sh0nk/matplotlib4j)：Matplotlib4j是一个用于Java、Scala和Kotlin的简单绘图库。
 * [Ardor3D](https://github.com/Renanse/Ardor3D)：Ardor3D是一个基于Java的免费、面向专业的开源3D图形引擎。
@@ -6121,6 +6143,7 @@
 
 #### JavaFX图表库
 
+* [JFreeChart](https://github.com/jfree/jfreechart)：JFreeChart是一个适用于Java平台的综合免费图表库，可在客户端(JavaFX和Swing)或服务器端使用。
 * [TilesFX](https://github.com/HanSolo/tilesfx)：包含可用于仪表板的图块的JavaFX库。
 * [Medusa](https://github.com/HanSolo/medusa)：用于仪表的JavaFX库，该项目的主要重点是提供可以多种方式配置的仪表。
 * [Charts](https://github.com/HanSolo/charts)：JavaFX中的科学图表库。
@@ -6224,6 +6247,7 @@
 * [GeoGebra](https://github.com/geogebra/geogebra)：GeoGebra是一款动态数学软件，于2001年由Markus Hohenwarter在奥地利萨尔茨堡大学制作。
 * [BIMserver](https://github.com/opensourceBIM/BIMserver)：BIMserver使你能够存储和管理建筑(或其他建筑相关)项目的信息，由荷兰国家应用科学院和埃因霍芬理工大学开发。
 * [ImageJ](https://imagej.net/ij/index.html)：ImageJ是一个基于Java的公共图像处理软件，由美国国立卫生研究院开发。
+* [EtherPad](https://github.com/ether/pad)：Etherpad Lite是一种更简单、更快、更轻的协作编辑解决方案。
 * [Freeplane](https://github.com/freeplane/freeplane)：Freeplane是一款免费的开源软件应用程序，支持在工作、学校和家庭中思考、共享信息、完成工作。
 * [OpenRocket](https://github.com/openrocket/openrocket)：OpenRocket是一款免费、功能齐全的模型火箭模拟器，可让你在实际建造和飞行火箭之前设计和模拟火箭。
 * [Vivado](https://www.xilinx.com/products/design-tools/vivado.html)：Vivado是赛灵思开发的用于HDL设计的合成和分析的软件套件，具有用于片上系统开发和高级综合的附加功能。
@@ -6998,6 +7022,7 @@
 * [NemakiWare](https://github.com/aegif/NemakiWare)：NemakiWare是一个开源企业内容管理系统。
 * [Grain](https://github.com/sysgears/grain)：Grain是一个轻量级框架和一个非常强大的静态网站生成器，用Groovy编写，可帮助使网站创建直观且愉快。
 * [WebSight](https://www.websight.io/)：WebSight是一个容器化内容管理系统，与StreamX数字体验服务网格进行原生集成。
+* [Lutece](https://github.com/lutece-platform/lutece-core)：Lutece是一个开放平台，使城市政府能够共享、重复使用和改编其他城市创建的数字服务。
 
 ## DMS系统
 
@@ -7154,7 +7179,6 @@
 * [R3-Query](https://gitee.com/aagagagag/R3-Query)：R3 Query整合了企业报表领域各个周期的支持，其中包括报表设计、报表发布、报表生成、报表管理、订阅发布和报表监控等报表的整个生命周期的步骤。
 * [Pentaho Platform](https://github.com/pentaho/pentaho-platform)：该项目构成了Pentaho的核心平台和业务分析服务器。
 * [UReport-kepp](https://gitee.com/summer-T/ureport-keep)：UReport的替代项目。
-* [Poli](https://github.com/shzlw/poli)：Poli是一款易于使用的SQL报告应用程序，专为SQL爱好者打造。
 * [ART](https://art.sourceforge.net/)：ART是一种报告和商业智能解决方案，它可以快速部署SQL查询结果，支持表格报告、图表、仪表板、调度。
 * [Skyeye Report](https://gitee.com/doc_wei01/skyeye-report)：Skyeye Report是一款高性能的Java报表引擎，提供完善的基于网页的报表设计器，可快速做出各种复杂的中式报表。
 * [Dynamic Reports](https://github.com/dynamicreports/dynamicreports)：DynamicReports是一个基于JasperReports的开源Java报表库，它允许创建动态报表设计，并且不需要可视化报表设计器。
@@ -7324,6 +7348,7 @@
 * [Starlink Java](https://github.com/Starlink/starjava)：星链项目是一个长期运行的英国项目，支持天文数据处理。它于2005年关闭，但该软件继续在联合天文中心开发，直到2015年3月，现在由东亚天文台维护。
 * [Java Astrodynamics Toolkit](https://sourceforge.net/projects/jat/)：JAT是一个开源软件组件库，用于用Java或Matlab编写的航天应用程序，该软件由NASA使用，是德克萨斯大学计算机科学系的主要合作项目。
 * [JSky](https://jsky.sourceforge.net/)：JSky项目的目标是构建一系列可重用的Java组件以用于天文学，最初源于ESO的Skycat应用程序的开发。
+* [IDV](https://github.com/Unidata/IDV)：IDV是一个用于分析和显示地球科学数据的框架，由美国国家科学基金会Unidata开源。
 * [Mars-SIM](https://github.com/mars-sim/mars-sim)：Mars-SIM被设计为一个通用模拟器，描绘火星上人类住区的早期发展。
 * [Simple-Astronomy-Lib](https://github.com/SimpleAstronomy/simple-astronomy-lib)：一个简单的天文学库，用于计算月相、日食等。
 * [Aerie](https://github.com/NASA-AMMOS/aerie)：Aerie是一个用于航天器建模的软件框架，NASA开源。
@@ -8388,11 +8413,8 @@
 
 * [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)：FizzBuzz是一款作为编程作业而广受欢迎的游戏，用于在工作面试期间淘汰非程序员。
 * [Graphviz Java](https://github.com/nidi3/graphviz-java)：将graphviz与纯Java一起使用，使用Java代码创建graphviz模型并将其转换为漂亮的图形。
-* [Apache OpenMeetings](https://github.com/apache/openmeetings)：Openmeetings提供视频会议、即时消息、白板、协作文档编辑和其他群件工具。
-* [Grep4j](https://github.com/marcocast/grep4j)：Grep4j是一个简单的API，用于在Unix环境中集中和方便地搜索远程或本地文件中的表达式。
 * [Jpostal](https://github.com/openvenues/jpostal)：libpostal的Java绑定，用于快速国际街道地址解析/规范化。
 * [Gurux.DLMS](https://github.com/Gurux/gurux.dlms.java)：Gurux.DLMS库是一个高性能Java组件，可帮助你读取DLMS/COSEM兼容的电表、燃气表或水表。
-* [EtherPad](https://github.com/ether/pad)：Etherpad Lite是一种更简单、更快、更轻的协作编辑解决方案。
 * [OpenDaylight Controller](https://github.com/opendaylight/controller)：OpenDaylight Controller是基于Java的模型驱动控制器，使用YANG作为系统和应用程序各个方面的建模语言，并以其组件作为其他OpenDaylight应用程序的基础平台。
 * [52°North Sensor Observation Service](https://github.com/52North/SOS)：SOS提供了一个可互操作的基于Web的界面，用于插入和查询传感器数据和传感器描述。
 * [FlowGate](https://github.com/vmware/flowgate)：FlowGate是一个与供应商无关的开源项目，可帮助企业集成设施系统数据和IT数据，形成其运营的单一整体视图，由VMWare开源。
@@ -8413,7 +8435,7 @@
 * [OpenAMASE](https://github.com/afrl-rq/OpenAMASE)：模拟多无人机任务的项目，由空军研究实验室、航空航天系统局、动力和控制部门开发。
 * [AsTeRICS](https://github.com/asterics/AsTeRICS)：AsTeRICS是一个用于辅助技术的免费开源图形构建集。
 * [Neptus](https://github.com/LSTS/neptus)：用于操作所有类型无人驾驶车辆的分布式指挥和控制基础设施，由波尔图大学开源。
-* [JIDT](https://github.com/jlizier/jidt)：Java信息动力学工具包，用于研究复杂系统中的信息理论计算测量。
+* [JIDT](https://github.com/jlizier/jidt)：JIDT提供了复杂系统中分布式计算的信息论测量的独立、开源代码Java实现。
 * [Mil Sym Java](https://github.com/missioncommand/mil-sym-java)：Mil Sym Java是一组陈旧的Java库，已在美国陆军任务指挥软件中使用多年。
 * [Metis](https://github.com/europeana/metis-framework)：Metis是数据发布框架，包括客户端应用程序和许多数据处理服务，由欧洲数位图书馆开源。
 
