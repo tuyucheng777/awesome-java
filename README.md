@@ -253,7 +253,7 @@
 - [设计模式](docs/other.md/#设计模式)
 - [幂等处理](docs/other.md/#幂等处理)
 - [数据字典](docs/other.md/#数据字典)
-- [迁移&重构docs/other.md/](#迁移重构)
+- [迁移&重构](docs/other.md/#迁移重构)
 - [Bot](docs/other.md/#Bot)
 - [安卓库](docs/other.md/#安卓库)
 - [GUI框架](docs/other2.md/#GUI框架)
