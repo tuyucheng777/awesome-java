@@ -292,7 +292,7 @@
 - [LLVM](docs/other3.md/#LLVM)
 - [WebAssembly](docs/other3.md/#WebAssembly)
 - [JavaScript](docs/other3.md/#JavaScript)
-- [编译器&插件docs/other3.md/](#编译器插件)
+- [编译器&插件](docs/other3.md/#编译器插件)
 - [语言服务器](docs/other3.md/#语言服务器)
 - [数据库驱动](docs/other3.md/#数据库驱动)
 - [音视频处理](docs/other3.md/#音视频处理)
