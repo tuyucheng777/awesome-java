@@ -74,6 +74,7 @@
 - [GC日志分析](#GC日志分析)
 - [堆转储](#堆转储)
 - [线程转储](#线程转储)
+- [对象测量](#对象测量)
 - [火焰图](#火焰图)
 - [大数据框架](#大数据框架)
 - [大数据工具](#大数据工具)
@@ -170,6 +171,7 @@
 - [指纹识别](#指纹识别)
 - [推荐系统](#推荐系统)
 - [逻辑编程](#逻辑编程)
+- [多智能体](#多智能体)
 - [MATLAB](#MATLAB)
 - [Jupyter](#Jupyter)
 - [元启发式框架](#元启发式框架)
@@ -359,6 +361,7 @@
 - [语言库](#语言库)
 - [泛型库](#泛型库)
 - [国际化](#国际化)
+- [翻译库](#翻译库)
 - [短链接](#短链接)
 - [单位库](#单位库)
 - [词法解析](#词法解析)
@@ -1189,6 +1192,7 @@
 * [Tempus Fugit](https://github.com/tobyweston/tempus-fugit)：用于编写和测试并发代码的小型库。
 * [Concutest](https://www.concutest.org/)：Concutest是一套工具，旨在使并发Java程序的开发和测试更加轻松可靠，由由莱斯大学开源。
 * [Threads Collider](https://github.com/stawirej/threads-collider)：Threads Collider尝试在“完全相同”的时刻对多个线程执行所需的操作，以增加出现由竞争条件或死锁引起的问题的几率。
+* [VerCors](https://github.com/utwente-fmt/vercors)：VerCors是一个用于验证并发和并行程序的工具集，由特文特大学开源。
 
 #### JUnit扩展
 
@@ -1611,7 +1615,7 @@
 * [Easy-Manager-Tool](https://gitee.com/aizuda/easy-manager-tool)：Easy-Manager-Tool集成各类工具的核心使用方法，打造集成化程度高且专业的开、测、维一体化管理工具，由爱组搭开源。
 * [RackShift](https://github.com/fit2cloud/rackshift)：RackShift是开源的裸金属服务器管理平台，功能覆盖裸金属服务器的发现、带外管理、RAID配置、固件更新、操作系统安装等。
 * [Hinemos](https://github.com/hinemos/hinemos)：Hinemos是一款开源集成系统管理软件，提供监控和作业管理(工作负载调度)功能，实现系统操作自动化，由NTT Data开源。
-* [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
+* [NeatLogic](https://gitee.com/neat-logic/neatlogic-itom-all)：NeatLogic是一套渐进式ITOM平台，致力为不同类型、不同规模用户提供完整的ITOM解决方案。
 
 ## 云服务
 
@@ -1858,6 +1862,7 @@
 * [JETM](https://github.com/frenchc/jetm)：JETM是一个用于编程或声明式性能监控的Java库。
 * [DiSL](https://gitlab.ow2.org/disl/disl)：DiSL是一个Java字节码检测框架，旨在观察Java虚拟机中执行的程序。
 * [JPlusOne](https://github.com/adgadev/jplusone)：JPlusOne是用于自动检测和断言基于JPA的Spring Boot Java应用程序中发生的“N+1问题”并查找JPA发出的SQL语句的一般来源的工具。
+* [Kieker](https://github.com/kieker-monitoring/kieker)：Kieker提供动态分析功能，即监控和分析软件系统的运行时行为，从而实现应用程序性能监控和架构发现，由斯图加特大学和基尔大学开源。
 
 ## GC日志分析
 
@@ -1885,6 +1890,13 @@
 * [FastThread](https://fastthread.io/)：Java线程转储分析器。
 * [Java Thread Dump Analyzer](https://github.com/spotify/threaddump-analyzer)：这是一个用Javascript编写的Java线程转储分析器，由Spotify开源。
 * [TDA](https://github.com/irockel/tda)：TDA是一个小型Swing GUI，用于分析Java VM生成的线程转储和堆信息。
+* [MJProf](https://github.com/AdoptOpenJDK/mjprof)：MJProf是一个单子线程转储分析工具集，它使用一系列简单的可组合构建块(monad)来分析jstack输出。
+
+## 对象测量
+
+* [Jamm](https://github.com/jbellis/jamm)：Jamm提供MemoryMeter，这是一个适用于所有Java版本的Java代理，用于测量实际对象内存使用情况，包括JVM开销。
+* [Sizeof](https://github.com/ehcache/sizeof)：该库允许你以字节为单位获取Java对象实例的大小。
+* [Sizeofag](https://github.com/fracpete/sizeofag)：Sizeofag是一个Java代理，允许你在运行时确定JVM内Java对象的大小。
 
 ## 火焰图
 
@@ -2706,6 +2718,7 @@
 * [Jetty ReactiveStream HttpClient](https://github.com/jetty-project/jetty-reactive-httpclient)：Jetty HttpClient的响应流包装器。
 * [Methanol](https://github.com/mizosoft/methanol)：Java的轻量级HttpClient扩展。
 * [Jodd HTTP](https://github.com/oblac/jodd-http)：Jodd HTTP是一个小型、原始的HTTP客户端，但又简单又方便。
+* [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
 * [Avaje Http Client](https://github.com/avaje/avaje-http/tree/master/http-client)：JDK 11 HttpClient的轻量级包装器。
 * [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：流式的Java HTTP客户端。
 * [ESA RestClient](https://github.com/esastack/esa-restclient)：ESA RestClient是一个基于Netty的异步事件驱动的HTTP客户端。
@@ -3426,7 +3439,6 @@
 * [MicroProfile Config](https://github.com/eclipse/microprofile-config)：MicroProfile配置功能。
 * [Jeesuite Config](https://gitee.com/vakinge/jeesuite-config)：功能齐全、适合二开的配置中心，由dromara社区开源。
 * [ConfigKeeper](https://gitee.com/sxfad/config-keeper)：基于Spring Boot和Spring Cloud开发的配置中心，由随行付开源。
-* [NeatLogic CMDB](https://github.com/neatlogic/neatlogic-cmdb)：NeatLogic CMDB是一个强大的企业级配置管理平台，支持自动发现、自动收集、拓扑映射和可定制的配置项模型等功能。
 * [JadConfig](https://github.com/Graylog2/JadConfig)：JadConfig是一个最小依赖的Java的简约注解驱动配置解析框架。
 * [Sjsonnet](https://github.com/databricks/sjsonnet)：Jsonnet配置语言的JVM实现，由Databricks开源。
 
@@ -3944,6 +3956,8 @@
 * [Fugerit Doc](https://github.com/fugerit-org/fj-doc)：从XML文档元模型开始生成不同输出格式的文档的框架。
 * [Silencio](https://github.com/damianszczepanik/silencio)：Silencio是一个用于转换XML、JSON、YAML、Properties和其他格式的Java库。
 * [JODConverter](https://github.com/jodconverter/jodconverter)：JODConverter使用LibreOffice或Apache OpenOffice自动执行文档转换。
+* [Meico](https://github.com/cemfi/meico)：Meico是MEI文件的转换器框架，由帕德博恩大学开源。
+* [Jcabi Manifests](https://github.com/jcabi/jcabi-manifests)：用于方便读取类路径中可用的MANIFEST.MF文件的Java库。
 
 #### 文档管理系统
 
@@ -4253,6 +4267,7 @@
 * [SMTInterpol](https://github.com/ultimate-pa/smtinterpol)：SMTInterpol是弗莱堡大学开发的插值SMT求解器。
 * [Statix Solver](https://mvnrepository.com/artifact/org.metaborg/statix.solver)：由代尔夫特理工大学开源的约束求解器。
 * [JSCIPOpt](https://github.com/scipopt/JSCIPOpt)：SCIP是目前混合整数规划(MIP)和混合整数非线性规划(MINLP)最快的非商业求解器之一，由柏林自由大学开源。
+* [CLP Java](https://github.com/quantego/clp-java)：CLP线性求解器的Java接口，针对快速模型构建和快速解析进行了优化。
 
 ## 实体解析
 
@@ -4322,6 +4337,12 @@
 * [NeuraLogic](https://github.com/GustikS/NeuraLogic)：该框架的核心是一种自定义语言，你可以使用它来编写可微分程序来编码你的学习场景，类似于经典的深度学习框架。
 * [Formulog](https://github.com/HarvardPL/formulog)：Formulog通过构建和推理SMT公式的机制以及一些一阶函数编程来扩展逻辑编程语言Datalog，由哈佛编程语言研究小组开源。
 * [Alpha](https://github.com/alpha-asp/Alpha)：Alpha是一个答案集编程(ASP)系统：它读取逻辑程序(一组逻辑规则)并计算相应的答案集，由维也纳工业大学开源。
+
+## 多智能体
+
+* [Jason](https://github.com/jason-lang/jason)：Jason是AgentSpeak扩展版本的成熟解释器，AgentSpeak是一种面向BDI代理的逻辑编程语言，由圣卡塔琳娜联邦大学开源。
+* [JaCaMo](https://github.com/jacamo-lang/jacamo)：JaCaMo项目旨在通过提供一个集成工具和语言的开发平台来推广面向多智能体编程(MAOP)方法。
+* [Yggdrasil](https://github.com/Interactions-HSG/yggdrasil)：使用Vert.x构建的超媒体多代理系统(MAS)平台，由圣加仑大学交互研究团队开源。
 
 ## MATLAB
 
@@ -5043,6 +5064,7 @@
 * [Throwing Function](https://github.com/pivovarit/throwing-function)：支持受检异常的Java 8函数接口+适配器。
 * [Cyclops](https://github.com/aol/cyclops)：用于构建现代Java 8应用程序的强大流和函数数据类型。
 * [Linq4j](https://github.com/julianhyde/linq4j)：LINQ的Java实现库。
+* [Functions](https://github.com/mintern-java/functions)：Functions为每个可能的0到3个参数的函数提供@FunctionalInterface。
 * [Functional](https://github.com/io-fairy/functional)：Functional提供更简单、更好用的Java函数式编程接口。
 * [NoException](https://github.com/robertvazan/noexception)：用于以简洁、统一且架构干净的方式处理异常的Java库。
 * [Totallylazy](https://github.com/bodar/totallylazy)：TotallyLazy补充了标准库，如持久数据结构、解析器组合器等。
@@ -5379,6 +5401,7 @@
 * [OpenAPI Style Validator](https://github.com/OpenAPITools/openapi-style-validator)：可定制的样式验证器，可确保你的OpenAPI规范遵循你组织的标准。
 * [Smart-Doc](https://gitee.com/TongchengOpenSource/smart-doc)：一款同时支持Java REST API和Dubbo RPC接口文档生成的工具，由同程开源。
 * [Doc APIs](https://gitee.com/easy-es/doc-apis)：Doc APIs是一款零侵入接口文档生成工具，由dromara社区开源。
+* [Zally](https://github.com/zalando/zally)：Zally是一个简约、易于使用的OpenAPI 2和3 linter。
 * [Swagger-Coverage](https://github.com/viclovsky/swagger-coverage)：基于OAS(Swagger) v2和v3生成API测试覆盖率全貌的工具。
 * [Swagger Maven Plugin](https://github.com/kongchen/swagger-maven-plugin)：该插件使你的Swagger注解项目能够在Maven构建阶段生成Swagger规范和可定制的模板化静态文档。
 * [Swagger2Markup](https://github.com/Swagger2Markup/swagger2markup)：Swagger到AsciiDoc或Markdown转换器，通过将手写文档与自动生成的API文档相结合，简化最新RESTful API文档的生成。
@@ -6612,8 +6635,9 @@
 
 #### 数据库工具
 
-* [DBeaver](https://github.com/dbeaver/dbeaver)：免费的通用数据库工具和SQL客户端。
-* [Chat2DB](https://github.com/chat2db/Chat2DB)：智能的通用数据库SQL客户端和报表工具，由阿里开源。
+* [DBeaver](https://github.com/dbeaver/dbeaver)：DBeaver是一款免费的跨平台数据库工具。
+* [Chat2DB](https://github.com/chat2db/Chat2DB)：Chat2DB是一款AI first的数据管理、开发、分析工具，由阿里开源。
+* [CloudDM](https://www.clougence.com/clouddm-personal)：CloudDM是ClouGence公司推出的一款一站式多数据源开发管理工具。
 * [MDUT](https://github.com/SafeGroceryStore/MDUT)：MDUT是一款集成了多种主流数据库类型的中文数据库跨平台利用工具。
 * [Jailer](https://github.com/Wisser/Jailer)：数据库子集和关系数据浏览工具。
 * [Airpal](https://github.com/airbnb/airpal)：Airpal是一种基于Web的查询执行工具，它利用Facebook的PrestoDB使用户可以轻松编写查询和检索结果，由Airbnb开源。
@@ -6790,6 +6814,7 @@
 * [ModernUI](https://github.com/BloCamLimb/ModernUI)：从低级3D图形API到高级视图模型的现代桌面框架，用于开发2D/3D渲染软件或游戏引擎，具有国际化支持和许多新技术。
 * [Art of Illusion](https://github.com/ArtOfIllusion/ArtOfIllusion)：Art of Illusion是一个免费、开源的3D建模和渲染软件。
 * [Scenery](https://github.com/scenerygraphics/scenery)：由Kotlin和Vulkan提供支持的JVM上体积和几何数据的灵活VR可视化。
+* [Grafx](https://grafx.sourceforge.net/)：Grafx是一个开源Java库，用于使用浮点端点坐标绘制线条和填充多边形。
 
 ## 移动开发框架
 
@@ -6808,7 +6833,6 @@
 * [Spring-Loaded](https://github.com/spring-projects/spring-loaded)：Spring Loaded是一个JVM代理，用于在JVM运行时重新加载class文件更改。
 * [Hotswap Agent](https://github.com/HotswapProjects/HotswapAgent)：Java无限运行时类和资源重定义。
 * [BlockHound](https://github.com/reactor/BlockHound)：用于检测来自非阻塞线程的阻塞调用的Java代理。
-* [Jamm](https://github.com/jbellis/jamm)：Jamm提供MemoryMeter，这是一个适用于所有Java版本的Java代理，用于测量实际对象内存使用情况，包括JVM开销。
 * [One Java Agent](https://github.com/alibaba/one-java-agent)：One Java Agent提供插件化支持，统一管理众多的Java Agent，由阿里开源。
 * [Dongtai-agent-java](https://github.com/HXSecurity/DongTai-agent-java)：DongTai Agent是针对Java应用程序的数据采集工具，由火线安全开源。
 * [KnowAgent](https://github.com/didi/KnowAgent)：基于日志模板构建，采集任务动态管控、数据质量精确度量，一站式日志采集平台，由滴滴开源。
@@ -7189,6 +7213,7 @@
 * [Jssembly](https://github.com/dvx/jssembly)：Jssembly是一个库，允许你通过JNI桥从Java执行本机汇编。
 * [Facebook JNI](https://github.com/facebookincubator/fbjni)：Facebook JNI工具库旨在简化Java JNI的使用。
 * [JFFI](https://github.com/jnr/jffi)：libffi的Java绑定。
+* [GlueGen](https://github.com/sgothel/gluegen)：GlueGen是一个用于函数和数据结构声明的编译器，可在编译时离线生成Java和JNI C代码，并允许在Java应用程序中使用本机库。
 
 ## COM桥
 
@@ -7603,6 +7628,7 @@
 * [Geotoolkit](https://github.com/Geomatys/geotoolkit)：Geotoolkit是一个开源库，提供了操作制图数据的工具。
 * [Photon](https://github.com/komoot/photon)：Photon是一个为OpenStreetMap数据构建的开源地理编码器。
 * [Geo](https://github.com/davidmoten/geo)：用于地理哈希的Java实用方法。
+* [SEPAL](https://github.com/openforis/sepal)：SEPAL是一个用于地理数据处理的云计算平台。
 * [GeoPackage Java](https://github.com/ngageoint/geopackage-java)：GeoPackage是开放地理空间联盟GeoPackage规范的Java实现，由美国国家地理空间情报局开源。
 * [GeoGig](https://github.com/locationtech/geogig)：GeoGig是一个地理空间分布式版本控制系统。
 * [GeoWebCache](https://github.com/GeoWebCache/geowebcache)：GeoWebCache是一个用Java实现的图块缓存服务器，提供各种图块缓存服务，如WMS-C、TMS、WMTS、谷歌Maps、MS Bing等。
@@ -8036,6 +8062,12 @@
 * [Singleton](https://github.com/vmware/singleton)：Singleton是一个用于简化软件全球化的开源应用程序，由VMWare开源。
 * [CLDR](https://github.com/unicode-org/cldr)：CLDR为支持世界语言的软件提供了关键构建块，拥有最大、最广泛的可用区域设置数据标准存储库，由Unicode Consortium开源。
 * [Kilt](https://github.com/poiu-de/kilt)：Kilt是一组小工具，用于简化Java i18n资源包的处理。
+
+## 翻译库
+
+* [MTrans](https://github.com/hujingshuang/MTrans)：MTrans提供了集多种主流的在线翻译及TTS功能于一身的轻量级服务。
+* [Zanata](https://github.com/zanata/zanata-platform)：Zanata是一个基于Web的系统，供翻译人员使用Web浏览器在线翻译文档和软件。
+* [Translator](https://github.com/therealbush/translator)：适用于Kotlin/JVM和Java的简单且免费的Google翻译库。
 
 ## 短链接
 
