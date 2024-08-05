@@ -52,7 +52,7 @@
 - [CI/CD](#CICD)
 - [发布工具](#发布工具)
 - [Java环境管理](#Java环境管理)
-- [开源JDK](#开源JDK)
+- [JDK](#JDK)
 - [JVM语言](#JVM语言)
 - [JVM实现](#JVM实现)
 - [IDE](#IDE)
@@ -1355,7 +1355,7 @@
 * [IDE](https://github.com/devonfw/ide)：该工具旨在帮助开发人员设置开发环境，并能够在整个团队中共享相同的项目设置。
 * [JVMS](https://github.com/ystyle/jvms)：适用于Windows的JDK版本管理器。
 
-## 开源JDK
+## JDK
 
 * [Oracle OpenJDK](https://github.com/openjdk/jdk)：Oracle开源的OpenJDK官方版本。
 * [AWS Corretto](https://github.com/corretto/corretto-8)：Amazon Corretto是OpenJDK的免费、多平台、生产就绪发行版。
@@ -1378,7 +1378,7 @@
 * [Huawei Bisheng](https://gitee.com/openeuler/bishengjdk-8)：华为开源的JDK版本，代号毕昇。
 * [Loongson JDK](https://github.com/loongson/jdk)：龙芯中科基于OpenJDK研制并发布的龙芯平台Java环境。
 * [RunSoon OpenJDK](https://www.digitalchina.com/product/details10.html)：神州数码提供的基于OpenJDK的企业级JVM版本。
-* [泰山JDK](https://github.com/tsitcn/ts-jdk8)：泰山Office软件使用的JDK版本。
+* [坤泽JDK](https://www.primeton.com/products/jdk/)：坤泽JDK是基于OpenJDK进行信创适配与增强、一款高性能、可用于生产环境的商业发行版，由普元提供。
 
 ## JVM语言
 
@@ -2399,17 +2399,17 @@
 
 ## 分布式事务
 
-* [Seata](https://github.com/seata/seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
+* [Seata](https://github.com/apache/incubator-seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
 * [ByteTCC](https://github.com/liuyangming/ByteTCC)：ByteTCC是分布式事务管理器的实现，基于尝试-确认-取消(TCC)机制。
 * [Atomikos](https://github.com/atomikos/transactions-essentials)：Java的分布式事务管理库。
 * [Narayana](https://github.com/jbosstm/narayana)：Narayana是一个事务工具包，为使用各种基于标准的事务协议开发的应用程序提供支持，JBoss开源。
 * [Bitronix](https://github.com/bitronix/btm)：Bitronix是Java Transaction API(JTA) 1.1的简单但完整的实现。
+* [EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)：EasyTransaction是一个分布式事务解决方案，统一使用TCC、SAGA、FMT、可靠消息、补偿等，由齐牛金融开源。
 * [AtlasDB](https://github.com/palantir/atlasdb)：AtlasDB是一个构建在任何通用键值存储之上的事务层，由Palantir开源。
 * [Hmily](https://github.com/dromara/hmily)：金融级分布式事务解决方案，由dromara社区开源。
 * [TCC Transaction](https://github.com/changmingxie/tcc-transaction)：TCC-Transaction是一款开源的微服务架构下的TCC型分布式事务解决方案，致力于提供高性能和简单易用的分布式事务服务。
 * [Multiverse](https://github.com/pveentjer/Multiverse)：JVM的软件事务内存实现。
 * [LCN](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库，由CodingAPI组织开源。
-* [EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)：分布式事务解决方案，统一使用TCC、SAGA、FMT、可靠消息、补偿等，由齐牛金融开源。
 * [TAPIR](https://github.com/UWSysLab/tapir)：TAPIR是一种用于线性化分布式事务的新协议，使用复制构建，没有一致性保证，由华盛顿大学CSE系统实验室开源。
 * [Apache ServiceComb Pack](https://github.com/apache/servicecomb-pack)：Apache ServiceComb Pack是微服务应用程序的最终数据一致性解决方案，目前提供TCC和Saga分布式事务协调解决方案，使用Alpha作为事务协调器，Omega作为事务代理，由华为开源。
 * [Raincat](https://github.com/dromara/raincat)：强一致分布式事务框架，由dromara社区开源。
@@ -6071,6 +6071,7 @@
 
 ## Raft算法
 
+* [KRaft](https://github.com/apache/kafka/tree/trunk/raft)：KRaft是基于Raft共识协议为Apache Kafka量身定制的协议。
 * [SOFAJRaft](https://github.com/sofastack/sofa-jraft)：SOFAJRaft是基于RAFT一致性算法的生产级高性能Java实现，支持MULTI-RAFT-GROUP，适用于高负载、低延迟的场景，由蚂蚁开源。
 * [Raft Java](https://github.com/wenweihu86/raft-java)：Raft算法的简单Java实现。
 * [Apache Ratis](https://github.com/apache/ratis)：Apache Ratis是一个实现Raft协议的Java库。
