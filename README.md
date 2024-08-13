@@ -659,6 +659,7 @@
 * [MyBatis Generator UI](https://github.com/zouzg/mybatis-generator-gui)：MyBatis Generator UI是基于MyBatis Generator开发一款界面工具。
 * [MyBatis Generator Plugin](https://github.com/itfsw/mybatis-generator-plugin)：Mybatis Generator代码生成插件拓展。
 * [MyBatis Plus Generator UI](https://github.com/davidfantasy/mybatis-plus-generator-ui)：提供交互式的Web UI用于生成兼容Mybatis Plus框架的相关功能代码。
+* [MybatisPlus Code Generator](https://github.com/fengwenyi/mybatis-plus-code-generator)：MyBatisPlus代码生成器。
 
 ## 应用框架
 
@@ -704,7 +705,7 @@
 * [Light-4J](https://github.com/networknt/light-4j)：Light-4J是快速、轻量级且更高效的微服务框架。
 * [Ballerina](https://github.com/ballerina-platform/ballerina-lang)：Ballerina是一种针对集成进行了优化的开源云原生编程语言，它由WSO2开发和支持。
 * [Apache JClouds](https://github.com/apache/jclouds)：Apache JClouds是一个适用于Java平台的开源多云工具包，可让你自由地创建可跨云移植的应用程序，同时让你完全控制使用特定于云的功能。
-* [MSF4J](https://github.com/wso2/msf4j)：一个用于开发和运行微服务的轻量级高性能框架。
+* [WSO2 Microservices Framework](https://github.com/wso2/msf4j)：MSF4J是一个用于开发和运行微服务的轻量级高性能框架，由WSO2开源。
 * [NutzBoot](https://github.com/nutzam/nutzboot)：NutzBoot是可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、服务治理、负载均衡、Hystrix、RPC等解决方案。
 * [Ja-Micro](https://github.com/Sixt/ja-micro)：Ja-Micro是一个用于构建微服务的轻量级Java框架。
 * [JBoot](https://github.com/yangfuhai/jboot)：JBoot是一个基于JFinal、Dubbo、Seata、Sentinel、ShardingSphere、Nacos等开发的国产框架。
@@ -1029,6 +1030,7 @@
 * [Mock-OAuth2-Server](https://github.com/navikt/mock-oauth2-server)：可编写脚本/可自定义的Web服务器，用于使用OAuth2/OpenID Connect测试HTTP客户端或依赖于正在运行的OAuth2服务器的应用程序。
 * [Thrift Mock](https://github.com/didi/thrift-mock)：Thrift Mock是用于Thrift服务的轻量级Java单元测试库，由滴滴开源。
 * [Spring Data Mock](https://github.com/mmnaseri/spring-data-mock)：Spring Data Repository的Mock工具。
+* [MockFtpServer](https://github.com/dx42/MockFtpServer)：MockFtpServer项目提供模拟/虚拟FTP服务器实现来测试FTP客户端代码。
 
 #### 测试数据生成器
 
@@ -2783,30 +2785,28 @@
 
 * [Apache Dubbo](https://github.com/apache/dubbo)：Apache Dubbo是一个高性能、基于Java的开源RPC框架，由阿里开源。
 * [gRPC](https://github.com/grpc/grpc-java)：Google RPC的Java实现，基于HTTP/2的RPC。
-* [Finagle](https://github.com/twitter/finagle)：容错、协议无关的RPC系统，由Twitter开源并广泛使用。
+* [Finagle](https://github.com/twitter/finagle)：Finagle是JVM的一个可扩展的RPC系统，用于构建高并发服务器，由Twitter开源。
 * [Motan](https://github.com/weibocom/motan)：Motan是一个跨语言RPC框架，用于快速开发高性能分布式服务，由微博开源。
 * [SOFARPC](https://github.com/sofastack/sofa-rpc)：SOFARPC是一个高性能、高扩展性、生产级的Java RPC框架，由蚂蚁金服开源并广泛使用。
-* [SOFABolt](https://github.com/sofastack/sofa-bolt)：SOFABolt是一个基于Netty的轻量级、易用且高性能的远程框架，由蚂蚁开源。
-* [Pigeon](https://github.com/dianping/pigeon)：大众点评开源的RPC框架。
-* [tRPC Java](https://github.com/trpc-group/trpc-java)：tRPC-Java作为tRPC的Java语言实现，是一个久经考验的微服务框架，在生产环境中得到了广泛的验证，由腾讯开源。
-* [Apache Thrift](https://github.com/apache/thrift)：由Facebook开源的轻量级、用于点对点RPC实现的框架。
+* [Pigeon](https://github.com/dianping/pigeon)：Pigeon是一个分布式RPC框架，在大众点评内部广泛使用。
+* [tRPC Java](https://github.com/trpc-group/trpc-java)：tRPC-Java作为tRPC的Java语言实现，是一个久经考验的微服务框架，由腾讯开源。
+* [Apache Thrift](https://github.com/apache/thrift)：Thrift是一个轻量级、独立于语言的软件堆栈，用于点对点RPC实现，由Facebook开源。
 * [OCTO-RPC](https://github.com/Meituan-Dianping/octo-rpc)：OCTO-RPC是支持Java和C++的企业级通信框架，在RPC服务之上扩展了丰富的服务治理功能，由美团开源。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint/tree/master/rpc)：Naver开源的RPC框架，服务于Pinpoint。
 * [TChannel](https://github.com/uber/tchannel-java)：TChannel协议的Java实现，由Uber开源。
-* [Hessian](http://hessian.caucho.com/)：基于HTTP协议的二进制序列化框架，它可以用于快速、简单地实现远程方法调用。
-* [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
-* [Starlight](https://github.com/baidu/starlight)：百度多协议、高性能RPC的Java实现。
-* [NettyRpc](https://github.com/luxiaoxun/NettyRpc)：一个基于Netty、ZooKeeper和Spring的简单RPC框架。
+* [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
+* [Starlight](https://github.com/baidu/starlight)：Starlight是一套面向云原生的微服务通信框架，兼容Spring生态，由百度开源。
+* [NettyRPC](https://github.com/luxiaoxun/NettyRpc)：NettyRpc是一个基于Netty、ZooKeeper和Spring的简单RPC框架。
 * [Koalas RPC](https://gitee.com/dromara/koalas-rpc)：dromara社区开源的高可用、可拓展的RPC框架。
 * [Kotlinx RPC](https://github.com/Kotlin/kotlinx-rpc)：Kotlinx RPC是一个Kotlin库，用于向应用程序添加RPC服务，由JetBrains开源。
 * [IceRPC](https://github.com/zeroc-ice/ice)：IceRPC是一个新的开源RPC框架，可帮助你使用很少的代码构建速度极快的网络应用程序。
-* [XXL-RPC](https://github.com/xuxueli/xxl-rpc)：XXL社区开源的国产高性能、分布式RPC框架。
-* [RPC-Framework](https://github.com/Snailclimb/guide-rpc-framework)：一款基于Netty + Kyro + Zookeeper实现的自定义RPC框架。
-* [JoyRPC](https://github.com/jd-opensource/joyrpc)：高性能、高扩展性的Java RPC框架，由京东开源。
+* [XXL-RPC](https://github.com/xuxueli/xxl-rpc)：XXL-RPC是一个分布式服务框架，提供稳定高性能的RPC远程服务调用功能。
+* [RPC-Framework](https://github.com/Snailclimb/guide-rpc-framework)：RPC-Framework是一款基于Netty + Kyro + Zookeeper实现的自定义RPC框架。
+* [JoyRPC](https://github.com/jd-opensource/joyrpc)：JoyRPC是一款基于Java实现的RPC服务框架，由京东开源。
 * [Thunder](https://github.com/Nepxion/Thunder)：多协议、多组件、多序列化的分布式RPC调用框架。
 * [Sekiro](https://github.com/yint-tech/sekiro-open)：Sekiro是一个RPC框架，主要用于将内网环境的一个API功能发布到公开的外网环境，作为一个RPC API应用市场资源被其他业务方调用，由因体信息开源。
 * [ONCRPC4J](https://github.com/dCache/oncrpc4j)：ONCRPC/SUNRPC的纯Java实现。
-* [Hprose](https://github.com/hprose/hprose-java)：Hprose是一个跨语言的RPC。
+* [Hprose](https://github.com/hprose/hprose-java)：Hprose是一个高性能远程对象服务引擎。
 * [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错的，轻量级的分布式服务框架。
 * [NettyRPC](https://github.com/tang-jie/NettyRPC)：基于Netty的高性能Java RPC服务器，使用kryo、hessian、protostuff支持消息序列化。
 
@@ -4265,7 +4265,7 @@
 * [OptaPlanner](https://github.com/apache/incubator-kie-optaplanner)：OptaPlanner是一个轻量级、可嵌入的约束满足引擎，可优化规划问题，最初由RedHat开发。
 * [Choco Solver](https://github.com/chocoteam/choco-solver)：Choco-Solver是一个用于约束编程的开源Java库，由国立南特高等矿业学院开发。
 * [JaCoP](https://github.com/radsz/jacop)：JaCoP求解器是基于Java的开源求解器，主要由瑞典隆德大学开发和维护。
-* [Sat4j](http://www.sat4j.org)：Sat4j是一个用于解决布尔满足和优化问题的Java库，它可以解决SAT、MAXSAT、伪布尔、最小不可满足子集问题，由阿图瓦大学开源。
+* [Sat4j](https://gitlab.ow2.org/sat4j/sat4j)：Sat4j是一个用于解决布尔满足和优化问题的Java库，它可以解决SAT、MAXSAT、伪布尔、最小不可满足子集问题，由阿图瓦大学开源。
 * [Timefold](https://github.com/TimefoldAI/timefold-solver)：Timefold是开源AI求解器，用于优化Java、Python或Kotlin中的操作和调度。
 * [ACE](https://github.com/xcsp3team/ACE)：ACE是Christophe Lecoutre(CRIL)用Java开发的开源约束求解器，由阿图瓦大学开源。
 * [OptaPy](https://github.com/optapy/optapy)：OptaPy是Python的人工智能约束求解器，可优化车辆路线问题、员工排班、维护计划、任务分配、学校时间表、云优化、会议安排、作业车间调度、装箱和更多规划问题。
@@ -5268,10 +5268,11 @@
 * [Bit-Lib4j](https://github.com/devnied/Bit-lib4j)：Bit-Lib4j是一个用于在Java中处理字节或位的库。
 * [WebGraph](https://github.com/vigna/webgraph)：WebGraph是一个旨在研究网络图的图压缩框架，它利用现代压缩技术提供了管理非常大的图形的简单方法。
 * [Qat-Java](https://github.com/intel/qat-java)：Qat-Java库使用英特尔QuickAssist技术QATzip库提供加速压缩和解压缩。
+* [XZ Java](https://github.com/tukaani-project/xz-java)：XZ Java是纯Java中XZ数据压缩的完整实现。
 
 ## 爬虫框架
 
-* [Crawler4j](https://github.com/yasserg/crawler4j)：Crawler4j是一个开源的Java网络爬虫库，它提供了一个用于爬虫的简单界面。
+* [Crawler4j](https://github.com/yasserg/crawler4j)：Crawler4j是一个开源的Java网络爬虫库，它提供了一个用于爬虫的简单界面，由加州大学欧文分校开源。
 * [Apache Nutch](https://github.com/apache/nutch)：Apache Nutch是一个可扩展的爬虫库。
 * [Jsoup](https://github.com/jhy/jsoup)：Java HTML解析器，专为HTML编辑、清理、抓取和XSS安全而构建。
 * [StormCrawler](https://github.com/DigitalPebble/storm-crawler)：StormCrawler是一个开源框架，用于在Apache Storm上构建低延迟、可扩展的网络爬虫。
@@ -7133,6 +7134,7 @@
 * [JavaEWAH](https://github.com/lemire/javaewah)：Java BitSet类的压缩替代方案。
 * [RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap)：Java中更好的压缩位集。
 * [Setfilters](https://github.com/google/setfilters)：该仓库包含集合过滤器数据结构的集合的实现，通常也称为近似成员资格查询数据结构，由Google开源。
+* [Wurmloch CRDT](https://github.com/netopyr/wurmloch-crdt)：JVM无冲突复制数据类型(CRDT)的实验实现。
 
 ## 堆外内存管理
 
@@ -7472,6 +7474,7 @@
 ## 网络库
 
 * [T-IO](https://gitee.com/tywo45/t-io)：T-IO是基于Java开发的一款高性能网络编程框架。
+* [SOFABolt](https://github.com/sofastack/sofa-bolt)：SOFABolt是蚂蚁金融开发的一套基于Netty实现的网络通信框架。
 * [Network-Connection](https://github.com/facebookarchive/network-connection-class)：Network Connection是一个Android库，可让你了解当前用户的互联网连接质量，由Facebook开源。
 * [ONOS](https://github.com/opennetworkinglab/onos)：ONOS是唯一支持从传统“棕地”网络向SDN“绿地”网络过渡的SDN控制器平台，由Linux基金会开源。
 * [SNF4J](https://github.com/snf4j/snf4j)：SNF4J是一个异步事件驱动的网络应用程序框架，用于快速轻松地开发网络应用程序。
@@ -8450,14 +8453,15 @@
 
 ## 数字资产管理
 
-* [DSpace](https://github.com/DSpace/DSpace)：DSpace是一个专门的数字资产管理系统，它管理和发布由数字文件或“位流”组成的数字条目，并且允许创建、索引和搜索相关的元数据以便定位和存取该条目，由MIT联合美国惠普公司实验室开源。
-* [Cudami](https://github.com/dbmdz/cudami)：Cudami是一个编辑后台，用于管理网站、文章、数字化对象、数字原生对象和实体等文化数字资产。
+* [DSpace](https://github.com/DSpace/DSpace)：DSpace是一个专门的数字资产管理系统，它管理和发布由数字文件或“位流”组成的数字条目，并且允许创建、索引和搜索相关的元数据以便定位和存取该条目，由麻省理工学院联合美国惠普公司实验室开源。
+* [Cudami](https://github.com/dbmdz/cudami)：Cudami是一个编辑后台，用于管理网站、文章、数字化对象、数字原生对象和实体等文化数字资产，由巴伐利亚国立图书馆开源。
 * [DuraCloud](https://github.com/duracloud/duracloud)：DuraCloud是一种开源托管数字保存服务，它将灵活的存储选项与强大的工具相结合，以简化你的保存工作流程。
 * [Goobi](https://github.com/intranda/goobi-workflow)：Goobi是一款用于数字化项目的开源软件应用程序，它允许你对可自由定义的生产流程进行建模、管理和监督，并且许多机构每天都使用它来处理创建数字图书馆或博物馆所涉及的所有步骤。
 * [Kitodo](https://www.kitodo.org/)：Kitodo是一款开源软件套件，用于对大大小小的图书馆、档案馆、博物馆和文献中心的文化资产进行数字化。
 * [MyCoRe](https://github.com/MyCoRe-Org/mycore)：MyCoRe是一个开源仓库软件框架，用于构建学科或机构存储库、数字档案、数字图书馆和科学期刊。
 * [MARC4J](https://github.com/marc4j/marc4j)：MARC4J的目标是提供一个易于使用的API，以便在Java中使用MARC和MARCXML。
 * [Kitodo.Production](https://github.com/kitodo/kitodo-production)：Kitodo.Production是一种用于大规模数字化的工作流程管理工具，是Kitodo数字图书馆套件的一部分。
+* [Fedora](https://github.com/fcrepo/fcrepo)：Fedora是一个强大、模块化、开源存储库系统，用于管理和传播数字内容，它特别适合数字图书馆和档案馆的访问和保存。
 
 ## 文档管理系统
 
@@ -8969,7 +8973,6 @@
 * [LinkWeChat](https://github.com/qwdigital/LinkWechat-Scrm)：LinkWeChat是基于企业微信的开源SCRM系统，是企业私域流量管理与营销的综合解决方案。
 * [Portico](https://github.com/openlvc/portico)：Portico是一个开源HLA运行时基础设施(RTI)实现，它旨在确保开源和免费访问驱动HLA联盟所需的必要基础设施。
 * [PRISM](https://github.com/prismmodelchecker/prism)：PRISM是一种概率模型检查器，是一种对表现出随机或概率行为的系统进行形式建模和分析的工具。
-* [Fedora](https://github.com/fcrepo/fcrepo)：Fedora是一个强大、模块化、开源存储库系统，用于管理和传播数字内容，它特别适合数字图书馆和档案馆的访问和保存。
 * [K Framework](https://github.com/runtimeverification/k)：K Framework是一种用于设计和建模编程语言和软件/硬件系统的工具。
 * [OpenWayback](https://github.com/iipc/openwayback)：OpenWayback是全球网络档案馆用来在用户浏览器中“回放”存档网站的关键软件。
 * [Alf.io](https://github.com/alfio-event/alf.io)：Alf.io是一款免费开源活动出席管理系统，专为关心客户隐私、安全和公平定价政策的活动组织者而开发。
