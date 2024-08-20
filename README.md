@@ -1,12 +1,3 @@
----
-layout: post
-title: Java生态
-titlebar: Java生态
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; Java生态大全
-menu: Java生态
-permalink: /javalibs
----
-
 # Java生态资源大全
 
 这里汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、软件测试、物联网、Android等领域。
