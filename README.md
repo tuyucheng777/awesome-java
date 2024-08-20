@@ -1,3 +1,12 @@
+---
+layout: post
+title: Java生态
+titlebar: Java生态
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; Java生态大全
+menu: Java生态
+permalink: /javalibs
+---
+
 # Java生态资源大全
 
 这里汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、软件测试、物联网、Android等领域。
@@ -661,7 +670,6 @@
 ## 应用框架
 
 * [SiteMesh 3](https://github.com/sitemesh/sitemesh3)：SiteMesh是一个网页布局和装饰框架以及Web应用程序集成框架，可帮助创建由需要一致外观/感觉、导航和布局方案的页面组成的网站。
-* [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，支持跨平台，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
 * [Jmix](https://github.com/jmix-framework/jmix)：Jmix是一组库和工具，用于加速Spring Boot以数据为中心的应用程序开发。
 * [Apache Usergrid](https://github.com/apache/usergrid)：Usergrid是一个基于RESTful API的用于Web和移动应用程序的多租户后端即服务堆栈。
 * [Para](https://github.com/Erudika/para)：Para是一个可扩展的多租户后端服务器/框架，用于对象持久化和检索。
@@ -2641,6 +2649,7 @@
 * [TChannel](https://github.com/uber/tchannel-java)：TChannel协议的Java实现，由Uber开源。
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [Starlight](https://github.com/baidu/starlight)：Starlight是一套面向云原生的微服务通信框架，兼容Spring生态，由百度开源。
+* [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
 * [NettyRPC](https://github.com/luxiaoxun/NettyRpc)：NettyRpc是一个基于Netty、ZooKeeper和Spring的简单RPC框架。
 * [Koalas RPC](https://gitee.com/dromara/koalas-rpc)：dromara社区开源的高可用、可拓展的RPC框架。
 * [Kotlinx RPC](https://github.com/Kotlin/kotlinx-rpc)：Kotlinx RPC是一个Kotlin库，用于向应用程序添加RPC服务，由JetBrains开源。
