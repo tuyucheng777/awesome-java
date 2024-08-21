@@ -3510,75 +3510,74 @@
 #### 机器学习
 
 * [Angel](https://github.com/Angel-ML/angel)：Angel是一个基于参数服务器理念的高性能分布式机器学习和图计算平台，由腾讯联合北京大学开源。
-* [Spark-MLlib](https://github.com/apache/spark/tree/master/mllib)：Spark的可扩展机器学习库。
-* [Alluxio](https://github.com/Alluxio/alluxio)：用于云中分析和机器学习的数据编排，由李浩源于2013年在加州大学伯克利分校AMP实验室创建。
+* [Spark MLlib](https://github.com/apache/spark/tree/master/mllib)：Spark的可扩展机器学习库。
+* [Alluxio](https://github.com/Alluxio/alluxio)：Alluxio是一个面向基于云的数据分析和人工智能的数据编排技术，由加州大学伯克利分校AMP实验室开源。
 * [Smile](https://github.com/haifengl/smile)：Smile是一个使用Java和Scala编写的快速且全面的机器学习、NLP、线性代数、图形、插值和可视化系统。
 * [Flink ML](https://github.com/apache/flink-ml)：Flink ML是一个提供机器学习API和基础设施的库，可简化ML管道的构建。
-* [Apache Mahout](https://github.com/apache/mahout)：Apache Mahout项目的目标是构建一个用于快速创建可扩展、高性能机器学习应用程序的环境。
+* [Apache Mahout](https://github.com/apache/mahout)：Mahout的目标是构建一个用于快速创建可扩展、高性能机器学习应用程序的环境。
 * [Weka](https://www.cs.waikato.ac.nz/ml/weka/)：Weka是用于数据挖掘任务的机器学习算法的集合，它包含用于数据准备、分类、回归、聚类、关联规则挖掘和可视化的工具，由新西兰怀卡托大学开发。
 * [Breeze](https://github.com/scalanlp/breeze)：Breeze是一组用于机器学习和数值计算的库。
-* [TorchServe](https://github.com/pytorch/serve)：TorchServe是一种灵活且易于使用的工具，用于在生产中提供和扩展PyTorch模型。
-* [Apache Samoa](https://github.com/apache/incubator-samoa)：Apache SAMOA是一个用于挖掘大数据流的平台，它是一个分布式流式机器学习框架，包含分布式流式机器学习算法的编程抽象，由Yahoo开源。
-* [Alink](https://github.com/alibaba/Alink)：Alink是基于Flink的机器学习算法平台，由阿里巴巴计算平台PAI团队开发。
-* [SynapseML](https://github.com/microsoft/SynapseML)：SynapseML是一个开源库，可简化大规模可扩展机器学习管道的创建，由微软开源。
-* [H2O](https://github.com/h2oai/h2o-3)：H2O是一个用于分布式、可扩展机器学习的内存平台。
-* [Apache Submarine](https://github.com/apache/submarine)：Apache Submarine是一个端到端机器学习平台，允许数据科学家创建端到端机器学习工作流程。
-* [GROBID](https://github.com/kermitt2/grobid)：GROBID是一个机器学习库，用于提取、解析PDF等原始文档并将其重新构建为结构化XML/TEI编码文档，重点关注技术和科学出版物。
+* [TorchServe](https://github.com/pytorch/serve)：TorchServe是一种灵活且易于使用的工具，用于在生产中提供和扩展PyTorch模型，由AWS和Facebook开源。
+* [Apache Samoa](https://github.com/apache/incubator-samoa)：SAMOA是一个用于挖掘大数据流的平台，它是一个分布式流式机器学习框架，包含分布式流式机器学习算法的编程抽象，由Yahoo开源。
+* [Alink](https://github.com/alibaba/Alink)：Alink是基于Flink的机器学习算法平台，由阿里计算平台PAI团队开发。
+* [SynapseML](https://github.com/microsoft/SynapseML)：SynapseML是一个开源库，可简化大规模可扩展机器学习管道的创建，由Microsoft开源。
+* [H2O](https://github.com/h2oai/h2o-3)：H2O是一个用于分布式、可扩展机器学习的内存平台，由Oxdata开源。
+* [Apache Submarine](https://github.com/apache/submarine)：Submarine是一个端到端机器学习平台，允许数据科学家创建端到端机器学习工作流程。
+* [GROBID](https://github.com/kermitt2/grobid)：GROBID是一个用于从学术文档中提取信息的机器学习软件，由法国国家信息与自动化研究所开源。
 * [EasyML](https://github.com/ICT-BDA/EasyML)：EasyML是一种基于数据流的通用系统，可简化将机器学习算法应用于现实世界任务的过程，由中科大数据研究院开源。
-* [DeepDive](https://github.com/HazyResearch/deepdive)：斯坦福大学开发的信息抽取系统。
-* [Oryx 2](https://github.com/OryxProject/oryx)：Apache Spark、Apache Kafka上的Lambda架构，用于实时大规模机器学习。
-* [Seldon](https://github.com/SeldonIO/seldon-server)：基于Kubernetes构建的机器学习平台和推荐引擎。
+* [DeepDive](https://github.com/HazyResearch/deepdive)：DeepDive是斯坦福开发的信息抽取系统。
+* [Oryx 2](https://github.com/OryxProject/oryx)：Oryx 2是基于Spark和Kafka构建的Lambda架构的实现，专门用于实时大规模机器学习。
+* [Seldon](https://github.com/SeldonIO/seldon-server)：Seldon Server是一个机器学习平台，可帮助你的数据科学团队将模型部署到生产中。
 * [Tribuo](https://github.com/oracle/tribuo)：Tribuo是Java中的机器学习库，提供多类分类、回归、聚类、异常检测和多标签分类，Oracle开源。
 * [OpenMLDB](https://github.com/4paradigm/OpenMLDB)：OpenMLDB是一个开源机器学习数据库，为训练和推理提供计算一致特征的特征平台，由4Paradigm开源。
-* [AeroSolve](https://github.com/airbnb/aerosolve)：一个从头开始设计的人性化机器学习库，由Airbnb开源。
-* [Apache SystemDS](https://github.com/apache/systemds)：用于端到端数据科学生命周期的开源机器学习系统。
+* [AeroSolve](https://github.com/airbnb/aerosolve)：AeroSolve是一个人性化机器学习库，由Airbnb开源。
+* [Apache SystemDS](https://github.com/apache/systemds)：SystemDS是一个开源ML系统，适用于端到端数据科学生命周期。
 * [PSL](https://github.com/linqs/psl)：PSL是一种用于开发概率模型的机器学习框架，由马里兰大学和加州大学圣克鲁斯分校开发。
-* [QuickML](https://github.com/sanity/quickml)：一个易于使用、功能强大且快速的Java机器学习库。
+* [QuickML](https://github.com/sanity/quickml)：QuickML是一个易于使用、功能强大且快速的Java机器学习库。
 * [Datumbox](https://github.com/datumbox/datumbox-framework)：Datumbox是一个用Java编写的开源机器学习框架，可以快速开发机器学习和统计应用程序。
 * [Dagli](https://github.com/linkedin/dagli)：Dagli是一个机器学习框架，可以轻松地用Java 9+编写防错误、可读、高效、可维护且可轻松部署的模型，由LinkedIn开源。
 * [Sandwood](https://github.com/oracle/sandwood)：Sandwood是一种基于JVM的概率模型的语言、编译器和运行时，由Oracle开源。
-* [Ytk-learn](https://github.com/kanyun-inc/ytk-learn)：Ytk-learn是一个分布式机器学习库，它实现了大多数流行的机器学习算法。
-* [CERMINE](https://github.com/CeON/CERMINE)：CERMINE是一个Java库和一个Web服务，用于从包含学术出版物的PDF文件中提取元数据和内容。CERMINE是在华沙大学数学和计算建模跨学科中心的开放科学中心用Java编写的。
-* [FATE-Serving](https://github.com/FederatedAI/FATE-Serving)：FATE-Serving是一个高性能、工业化的联邦学习模型服务系统，专为生产环境而设计。
+* [Ytk-Learn](https://github.com/kanyun-inc/ytk-learn)：Ytk-Learn是一个分布式机器学习库，它实现了大多数流行的机器学习算法，由看云控股技术团队开源。
+* [CERMINE](https://github.com/CeON/CERMINE)：CERMINE是一个Java库和一个Web服务，用于从包含学术出版物的PDF文件中提取元数据和内容，由华沙大学开源。
+* [FATE-Serving](https://github.com/FederatedAI/FATE-Serving)：FATE-Serving是一个高性能、工业化的联邦学习模型服务系统，由微众开源。
 * [Meka](https://github.com/Waikato/meka)：MEKA项目提供了多标签学习和评估方法的开源实现，由怀卡托大学开发。
-* [TensorFlow Java](https://github.com/tensorflow/java)：TensorFlow的Java绑定。
+* [TensorFlow Java](https://github.com/tensorflow/java)：TensorFlow可以在任何JVM上运行，用于构建、训练和运行机器学习模型，Google开源。
 * [Mallet](https://github.com/mimno/Mallet)：MALLET是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用。
 * [Primus](https://github.com/bytedance/primus)：Primus是用于机器学习应用程序的通用分布式调度框架，它管理TensorFlow等机器学习训练器的训练生命周期和数据分布，以执行大规模分布式训练，由字节开源。
-* [AMIDST](https://github.com/amidst/toolbox)：用于可扩展概率机器学习的Java工具包。
+* [AMIDST](https://github.com/amidst/toolbox)：AMIDST是用于可扩展概率机器学习的Java工具包。
 * [Metarank](https://github.com/metarank/metarank)：Metarank是一项开源排名服务，它可以帮助你构建个性化的语义/神经搜索和推荐。
 * [ModelMesh](https://github.com/kserve/modelmesh)：ModelMesh框架是一个成熟的通用模型，服务于管理层/路由层，专为高规模、高密度和频繁变化的模型用例而设计，由IBM开源。
 * [RapidMiner](https://rapidminer.com/)：RapidMiner是一个数据科学平台，通过GUI和Java API提供各种机器学习算法。
-* [MOA](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法(分类、回归、聚类、异常值检测、概念漂移检测和推荐系统)和评估工具，由怀卡托大学开发。
+* [MOA](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法和评估工具，由怀卡托大学开发。
 * [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是一个纯Java机器学习框架，用于支持遗传编程、NEAT/HyperNEAT和其他神经网络技术。
 * [Neuroph](https://github.com/neuroph/neuroph)：Neuroph是一个开源Java神经网络框架和神经网络开发环境。
 * [SimpleDNN](https://github.com/KotlinNLP/SimpleDNN)：SimpleDNN是一个用Kotlin编写的机器学习轻量级开源库，旨在支持自然语言处理任务中的相关神经网络架构。
-* [Apache PredictionIO](https://github.com/apache/predictionio)：Apache PredictionIO是一个面向开发人员、数据科学家和最终用户的开源机器学习框架。
+* [Apache PredictionIO](https://github.com/apache/predictionio)：PredictionIO是一个面向开发人员、数据科学家和最终用户的开源机器学习框架。
 * [Voyager](https://github.com/spotify/voyager)：Voyager是一个适用于Python和Java的近似最近邻搜索库，注重易用性、简单性和可部署性，由Spotify开源。
-* [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Spark上构建模块化、可重用、强类型的机器学习工作流，只需最少的手动调整，由Salesforce开源。
+* [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Spark上构建模块化、可重用、强类型的机器学习工作流，由Salesforce开源。
 * [JSAT](https://github.com/EdwardRaff/JSAT)：JSAT是一个用于快速入门机器学习问题的库。
-* [Java-ML](https://github.com/charliermarsh/java-ml)：用Java实现的一系列标准机器学习(分类)算法。
+* [JavaML](https://github.com/charliermarsh/java-ml)：用Java实现的一系列标准机器学习(分类)算法。
 * [HTM.Java](https://github.com/numenta/htm.java)：Java中的分层临时内存实现-Numenta智能计算平台的官方社区驱动Java端口。
-* [Libsvm](https://github.com/cjlin1/libsvm)：一款简单、易用、高效的SVM分类和回归软件。它可以解决C-SVM分类、nu-SVM分类、一类SVM、epsilon-SVM回归和nu-SVM回归问题，由台湾大学林智仁教授开发。
-* [Elasticsearch Learning](https://github.com/o19s/elasticsearch-learning-to-rank)：用于将机器学习与Elasticsearch集成的插件。
-* [ModelDB](https://github.com/VertaAI/modeldb)：用于机器学习模型版本控制、元数据和实验管理的开源系统，由Verta首席执行官Manasi Vartak在麻省理工学院进行博士研究期间创建。
-* [FeatureFu](https://github.com/linkedin/FeatureFu)：FeatureFu项目旨在为大多数机器学习任务(例如统计建模(分类、聚类和回归)和基于规则的决策引擎)提供创造性和敏捷的特征工程，由LinkedIn开源。
+* [Libsvm](https://github.com/cjlin1/libsvm)：Libsvm是一款简单、易用、高效的SVM分类和回归软件，由台湾大学林智仁教授开发。
+* [Elasticsearch Learning](https://github.com/o19s/elasticsearch-learning-to-rank)：Elasticsearch Learning插件使用机器学习来提高搜索相关性排名。
+* [ModelDB](https://github.com/VertaAI/modeldb)：ModelDB是一个开源系统，用于对机器学习模型进行版本控制，并在整个模型生命周期中跟踪ML元数据，由Manasi Vartak在MIT博士研究期间创建。
+* [FeatureFu](https://github.com/linkedin/FeatureFu)：FeatureFu项目旨在为大多数机器学习任务提供创造性和敏捷的特征工程，由LinkedIn开源。
 * [Feathr](https://github.com/feathr-ai/feathr)：Feathr是一个数据和人工智能工程平台，在LinkedIn生产中广泛使用多年，并于2022年开源。
 * [Shifu](https://github.com/ShifuML/shifu)：Shifu是一个构建在Hadoop之上的开源端到端机器学习和数据挖掘框架。
 * [Byzer](https://github.com/byzer-org/byzer-lang)：Byzer是一种低代码、开源和分布式编程语言，用于以云原生方式进行数据管道、分析和人工智能。
-* [Neureka](https://github.com/Gleethos/neureka)：一个轻量级、独立于平台、OpenCL加速的nd数组/张量库。
-* [Morel](https://github.com/hydromatic/morel)：标准ML解释器，具有关系扩展，用Java实现。
-* [Aurora](https://github.com/AcaiSoftware/aurora)：用于模型训练、评估、部署、调整和基准测试的Java机器学习框架。
+* [Neureka](https://github.com/Gleethos/neureka)：Neureka是一个轻量级、独立于平台、OpenCL加速的ND数组/张量库。
+* [Morel](https://github.com/hydromatic/morel)：Morel是一个标准ML解释器，具有关系扩展，用Java实现。
+* [Aurora](https://github.com/AcaiSoftware/aurora)：Aurora是用于模型训练、评估、部署、调整和基准测试的Java机器学习框架。
 * [StackNet](https://github.com/kaz-Anova/StackNet)：StackNet是一个计算、可扩展和分析框架，类似于前馈神经网络，并在多个级别使用Wolpert的堆栈泛化来提高机器学习问题的准确性，由伦敦大学开源。
 * [ML4AI](https://gitee.com/sleechengn/ml4ai)：机器学习、人工智能、张量库。
-* [Eggroll](https://gitee.com/WeBank/eggroll)：用于机器学习的简单高性能计算框架，由微众开源。
+* [Eggroll](https://gitee.com/WeBank/eggroll)：Eggroll是用于机器学习的简单高性能计算框架，由微众开源。
 * [9nFL](https://github.com/jd-opensource/9n-mpc)：九数联邦学习整体解决方案，由京东开源。
-* [WeFe](https://gitee.com/tianmiantech/WeFe)：WeFe是Welab汇立集团子公司天冕科技发起的开源项目，为联邦学习生态系统提供了一套好用的可靠的安全计算框架。
+* [WeFe](https://gitee.com/tianmiantech/WeFe)：WeFe是Welab汇立集团子公司天冕科技发起的开源项目，为联邦学习生态系统提供了一套好用、可靠的安全计算框架。
 * [MacroBase](https://github.com/stanford-futuredata/macrobase)：MacroBase是一种数据分析工具，它使用机器学习优先考虑大型数据集中的注意力，由斯坦福开源。
-* [MLReef](https://github.com/MLReef/mlreef)：MLReef是一个开源ML-Ops平台，可帮助你与数千名其他用户协作、复制和共享你的机器学习工作。
-* [Fregata](https://github.com/TalkingData/Fregata)：Fregata是一个基于Apache Spark的轻量级、超快速的大规模机器学习库，并在Scala中提供高级API，由TalkingData开源。
+* [MLReef](https://github.com/MLReef/mlreef)：MLReef是一个开源MLOps平台，可帮助你与数千名其他用户协作、复制和共享你的机器学习工作。
+* [Fregata](https://github.com/TalkingData/Fregata)：Fregata是一个基于Spark的轻量级、超快速的大规模机器学习库，并在Scala中提供高级API，由TalkingData开源。
 * [RuleKit](https://github.com/adaa-polsl/RuleKit)：RuleKit是一种用于规则学习的多功能工具，基于顺序覆盖归纳算法，它适用于分类、回归和生存问题，由西里西亚理工大学开源。
 * [Chronon](https://github.com/airbnb/chronon)：Chronon是一个平台，它消除了数据计算的复杂性并为AI/ML应用程序提供服务，由Airbnb开源。
-* [BEAST](https://github.com/beast-dev/beast-mcmc)：BEAST是一个使用MCMC对分子序列进行贝叶斯分析的跨平台程序。
 * [BEAST 2](https://github.com/CompEvol/beast2)：BEAST是一个使用分子序列MCMC进行贝叶斯推理的跨平台程序，由奥克兰大学领导开发。
 
 #### 自然语言处理
