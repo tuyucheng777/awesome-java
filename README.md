@@ -100,6 +100,7 @@
   * [关系型数据库](#关系型数据库)
   * [NoSQL数据库](#NoSQL数据库)
   * [OLAP数据库](#OLAP数据库)
+  * [向量数据库](#向量数据库)
   * [对象数据库](#对象数据库)
   * [Datalog数据库](#Datalog数据库)
   * [其他数据库](#其他数据库)
@@ -164,7 +165,7 @@
 * [生物信息学](#生物信息学)
 * [基因组学](#基因组学)
 * [医疗平台](#医疗平台)
-* [化学领域](#化学领域)
+* [化学库](#化学库)
 * [安全库](#安全库)
 * [安全工具](#安全工具)
 * [自保护](#自保护)
@@ -2086,7 +2087,7 @@
 * [Exchangis](https://github.com/WeBankFinTech/Exchangis)：微众银行大数据平台WeDataSphere与社区用户共同开发的新版数据交换工具，支持异构数据源之间结构化和非结构化数据的同步传输。
 * [Smooks](https://github.com/smooks/smooks)：Smooks是一个可扩展的Java框架，用于构建基于XML和非XML数据(CSV、EDI、POJO等)的基于片段的应用程序。
 * [Kafka Connect File Pulse](https://github.com/streamthoughts/kafka-connect-file-pulse)：Connect FilePulse是一种多用途、可扩展且可靠的Kafka连接器，可以轻松解析、转换任何格式的任何文件并将其流式传输到Kafka，由StreamThoughts开源。
-* [Extract](https://github.com/ICIJ/extract)：用于并行、分布式内容提取的跨平台命令行工具。
+* [Extract](https://github.com/ICIJ/extract)：Extract是用于并行、分布式内容提取的跨平台命令行工具，由由国际调查记者联盟开源。
 * [Bender](https://github.com/Nextdoor/bender)：该项目提供了一个可扩展的Java框架，用于在AWS Lambda上创建Serverless ETL函数，Bender处理复杂的管道并提供为ETL过程的各个方面构建模块所需的接口。
 * [Orbital](https://github.com/orbitalapi/orbital)：Orbital是一个数据网关，可自动集成、转换和发现整个企业中数据源(API、数据库、消息代理)的数据。
 * [LinkMove](https://github.com/nhl/link-move)：LinkMove是一个模型驱动的动态可配置框架，用于从外部源获取数据并将其保存在数据库中，由北美职业冰球联盟开源。
@@ -2311,29 +2312,27 @@
 * [Apache Lucene](https://github.com/apache/lucene)：Lucene是一个用Java编写的高性能、全功能的文本搜索引擎库。
 * [Apache Solr](https://github.com/apache/solr)：Solr是一款流行、速度极快的开源搜索平台，基于Lucene构建。
 * [OpenSearch](https://github.com/opensearch-project/OpenSearch)：OpenSearch是一个基于Lucene的分布式搜索和分析引擎，由Amazon主导。
-* [Vespa](https://github.com/vespa-engine/vespa)：Yahoo开源的大数据服务引擎，在服务时存储、搜索、组织大数据并进行机器学习推理。
-* [YaCy](https://github.com/yacy/yacy_search_server)：YaCy是一个开源的基于P2P的分布式网页搜索引擎系统，任何人都可以用YaCy为自己建立个人的搜索门户，以实现信息的自由共享。
+* [Vespa](https://github.com/vespa-engine/vespa)：Vespa是一个开源的大规模分布式实时计算的向量和文本搜索引擎，Yahoo开发。
+* [YaCy](https://github.com/yacy/yacy_search_server)：YaCy是一个完整的搜索引擎应用程序，包含托管搜索索引的服务器。
 * [JVector](https://github.com/jbellis/jvector)：JVector是一个纯Java嵌入式矢量搜索引擎，由DataStax Astra DB和Cassandra使用。
-* [Linden](https://github.com/XiaoMi/linden)：Linden是一个构建在Lucene之上的分布式实时搜索系统，在小米中被广泛使用。
-* [Fess](https://github.com/codelibs/fess)：Fess是一个非常强大且易于部署的企业搜索服务器。
+* [Linden](https://github.com/XiaoMi/linden)：Linden是一个构建在Lucene之上的分布式实时搜索系统，小米开源。
+* [Fess](https://github.com/codelibs/fess)：Fess是一个非常强大且易于部署的企业搜索服务器，CodeLibs开源。
 * [Zoie](https://github.com/senseidb/zoie)：Zoie是一个用Java编写的实时搜索/索引系统，由LinkedIn开源。
 * [Cleo](https://github.com/LinkedInAttic/cleo)：Cleo是一个灵活的软件库，用于快速开发部分、无序和实时的预输入搜索，由LinkedIn开源。
 * [OpenSearchServer](https://github.com/jaeksoft/opensearchserver)：OpenSearchServer是一款功能强大的、基于Lucene的企业级搜索引擎软件。
 * [Bobo](https://github.com/senseidb/bobo)：Bobo是一个用Java编写的多面搜索引擎，由LinkedIn开源。
 * [Loklak](https://github.com/loklak/loklak_server)：Loklak是一个服务器应用程序，能够从各种来源收集消息，包括Twitter，服务器包含搜索索引和点对点索引共享接口。
 * [Kooder](https://gitee.com/koode/kooder)：Kooder是Gitee团队开发的一个代码搜索系统，为Gitee/GitLab/Gitea提供代码搜索服务。
-* [IndexTank Engine](https://github.com/LinkedInAttic/indextank-engine)：该项目包含IndexTank搜索引擎实现，包括变量(提升)、类别、分面搜索、片段、自定义评分函数、建议和自动完成等功能，由LinkedIn开源。
-* [Anserini](https://github.com/castorini/anserini)：Anserini是一个用于可重复信息检索研究的Lucene工具包。
+* [IndexTank](https://github.com/LinkedInAttic/indextank-engine)：该项目包含IndexTank搜索引擎实现，包括变量(提升)、类别、分面搜索、片段、自定义评分函数、建议和自动完成等功能，由LinkedIn开源。
 * [SearchCode](https://github.com/boyter/searchcode-server)：SearchCode是一个功能强大的代码搜索引擎，具有时尚的Web用户界面。
-* [Terrier](https://github.com/terrier-org/terrier-core)：Terrier是一个高度灵活、高效且有效的开源搜索引擎，可轻松部署在大规模文档集合上，由格拉斯哥大学计算机科学学院的信息检索小组开发。
-* [Indexer4j](https://github.com/haeungun/indexer4j)：Java的简单全文索引和搜索库。
+* [Terrier](https://github.com/terrier-org/terrier-core)：Terrier是一个高度灵活、高效且有效的开源搜索引擎，可轻松部署在大规模文档集合上，由格拉斯哥大学开发。
 * [Solandra](https://github.com/tjake/Solandra)：Solandra是一个基于Solr和Cassandra构建的实时分布式搜索引擎。
-* [Lemur Project](https://www.lemurproject.org/)：Lemur项目开发搜索引擎、浏览器工具栏、文本分析工具和数据资源，以支持信息检索和文本挖掘软件的研究和开发，由马萨诸塞大学阿默斯特分校智能信息检索中心(CIIR)和卡内基梅隆大学语言技术研究所(LTI)发起。
-* [Search Framework](https://gitee.com/oschina/search-framework)：这是OSChina网站的全文搜索框架源码。
+* [Indri](https://www.lemurproject.org/)：Indri是一款搜索引擎，可提供最先进的文本搜索和丰富的结构化查询语言，可搜索多达5000万个文档(单机)或5亿个文档(分布式)的文本集合，由马萨诸塞大学和CMU语言技术研究所发起。
+* [Search Framework](https://gitee.com/oschina/search-framework)：Search Framework是OSChina网站的全文搜索框架源码。
 * [TngouDB](https://gitee.com/397713572/TngouDB)：TngouDB是天狗网开发的中文搜索引擎数据库，用于天狗农业网的农业搜索引擎。
 * [MontySolr](https://github.com/adsabs/montysolr)：MontySolr是天体物理数据系统背后的搜索引擎，由哈佛大学和NASA开源。
 * [Astra](https://github.com/slackhq/astra)：Astra是一个用于日志、跟踪和审计数据的云原生搜索和分析引擎，由Slack开源。
-* [MG4J](https://mg4j.di.unimi.it/)：MG4J是一个用Java编写的免费全文搜索引擎，用于大型文档集合。
+* [MG4J](https://mg4j.di.unimi.it/)：MG4J是一个用Java编写的免费全文搜索引擎，用于大型文档集合，由米兰大学开发。
 * [Zulia](https://github.com/zuliaio/zuliasearch)：Zulia是一个实时分布式搜索和存储系统。
 * [Datafari](https://github.com/francelabs/datafari)：Datafari是一个开源企业搜索解决方案，由法国实验室开源。
 
@@ -2344,11 +2343,11 @@
 * [Apache HugeGraph](https://github.com/apache/incubator-hugegraph)：HugeGraph是一个速度快、高度可扩展的图数据库，该项目正在Apache基金会下孵化，最早由百度开源。
 * [Titan](https://github.com/thinkaurelius/titan)：Titan是一个高度可扩展的图形数据库，针对存储和查询分布在多机集群上的数十亿个顶点和边的大型图形进行了优化，由Aurelius开源。
 * [Amazon Neptune](https://aws.amazon.com/cn/neptune/)：Amazon Neptune是一个高性能图数据库，并对图的存储和查询进行了优化，可以存储数十亿个关系并将图形查询延迟降低到毫秒级。
-* [OrientDB](https://github.com/orientechnologies/orientdb)：OrientDB是最通用的DBMS，在一个多模型产品中支持图、文档、响应式、全文和地理空间模型。
+* [OrientDB](https://github.com/orientechnologies/orientdb)：OrientDB是最通用的DBMS，在一个多模型产品中支持图、文档、响应式、全文和地理空间模型，被SAP收购。
 * [Apache TinkerPop](https://github.com/apache/tinkerpop)：TinkerPop是一个面向实时事务处理(OLAP)以及批量、分析型图分析(OLTP)的图计算框架，诞生于洛斯阿拉莫斯国家实验室。
-* [GraphDB](https://www.ontotext.com/)：企业级RDF和图数据库，具有高效推理、集群和外部索引同步支持。它还支持通过SPARQL对知识图和GraphQL进行SQL JDBC访问。
-* [ArcadeDB](https://github.com/ArcadeData/arcadedb)：支持SQL、Cypher、Gremlin、HTTP/JSON、MongoDB和Redis的多模型DBMS。
-* [Stardog](https://www.stardog.com/)：一款商业图数据库。
+* [GraphDB](https://www.ontotext.com/)：GraphDB是一个企业级RDF和图数据库，具有高效推理、集群和外部索引同步支持。
+* [ArcadeDB](https://github.com/ArcadeData/arcadedb)：ArcadeDB多模型数据库，一种支持SQL、Cypher、Gremlin、HTTP/JSON、MongoDB和Redis的DBMS。
+* [Stardog](https://www.stardog.com/)：Stardog是一款商业图数据库。
 * [Apache Giraph](https://giraph.apache.org/)：Giraph是一个专为高可扩展性而构建的迭代图处理系统，Facebook基于Pregel思想的开源实现。
 * [InfiniteGraph](http://www.objectivity.com/products/infinitegraph/)：InfiniteGraph是一个用Java和C++实现的分布式图数据库，这是Objectivity公司的产品。
 * [AnzoGraph](https://cambridgesemantics.com/anzograph/)：AnzoGraph是为在线分析和数据协调而构建的水平可扩展图数据库。
@@ -2357,18 +2356,17 @@
 * [AllegroGraph](https://allegrograph.com/)：AllegroGraph是一个闭源的三元组存储，也可用作文档存储，目前用于美国国防部项目。
 * [Gaffer](https://github.com/gchq/Gaffer)：Gaffer是一个图数据库框架，它允许存储在节点和边上包含丰富属性的非常大的图，由英国政府通讯总部开源。
 * [TypeDB](https://github.com/vaticle/typedb)：TypeDB是一个多态数据库，具有概念数据模型、强大的子类型系统、符号推理引擎和美观优雅的类型理论语言TypeQL，由Vaticle Ltd开发。
-* [HyperGraphDB](https://github.com/hypergraphdb/hypergraphdb)：专为人工智能和语义Web项目设计的图数据库，也可以用作各种规模项目的嵌入式面向对象数据库。
+* [HyperGraphDB](https://github.com/hypergraphdb/hypergraphdb)：HyperGraphDB是专为人工智能和语义Web项目设计的图数据库，也可以用作各种规模项目的嵌入式面向对象数据库。
 * [FlockDB](https://github.com/twitter-archive/flockdb)：FlockDB是一个用于存储邻接列表的分布式图数据库，由Twitter开源。
 * [YangDB](https://github.com/YANG-DB/yang-db)：YangDB是一个开源、可扩展、非原生图数据库(由Elasticsearch提供支持)。
-* [GalaxyBase](https://galaxybase.com/)：国产高性能图数据库。
-* [ONgDB](https://github.com/graphfoundation/ongdb)：一个开源、高性能、原生图存储，包括高可用性集群、ACID事务和Geequel(一种直观的、以模式为中心的图形查询语言)。
+* [GalaxyBase](https://galaxybase.com/)：GalaxyBase国产的高性能图数据库。
+* [ONgDB](https://github.com/graphfoundation/ongdb)：ONgDB是一个开源、高性能、原生图存储，由Graph基金会开发。
 * [TuGraph Analytics](https://github.com/TuGraph-family/tugraph-analytics)：TuGraph Analytics是蚂蚁集团开发的开源OLAP图数据库。
 * [Bitsy](https://github.com/lambdazen/bitsy)：Bitsy是一个小型、快速、可嵌入、持久的内存图数据库，与Tinkerpop3兼容。
-* [OverflowDB](https://github.com/ShiftLeftSecurity/overflowdb)：具有低内存占用的内存图数据库。
+* [OverflowDB](https://github.com/ShiftLeftSecurity/overflowdb)：OverflowDB是一个低内存占用的内存图数据库，由ShiftLeft开源。
 * [OhmDB](https://github.com/ohmdb/ohmdb)：OhmDB提供了关系数据库的强大功能和NoSQL数据库的灵活性。
-* [Aerospike Graph](https://aerospike.com/products/graph-database/)：用于实时数据的可扩展图数据库，商业软件。
+* [Aerospike Graph](https://aerospike.com/products/graph-database/)：Aerospike Graph是一种高性能分布式图形数据库，商业软件。
 * [AutomataLib](https://github.com/LearnLib/automatalib)：AutomataLib是一个免费的开源Java库，用于对自动机、图形和转换系统进行建模，由德国多特蒙德工业大学开发。
-* [GraphScope](https://github.com/alibaba/GraphScope)：GraphScope是阿里巴巴达摩院智能计算实验室研发并开源的一站式图计算平台。
 * [HGraphDB](https://github.com/rayokota/hgraphdb)：HGraphDB是使用HBase作为图数据库的客户端层。
 * [StarGraph](https://github.com/Lambda-3/Stargraph)：StarGraph是一个用于查询大型知识图的图数据库，由帕绍大学开源。
 * [Apache S2Graph](https://github.com/apache/incubator-s2graph)：S2Graph是一个基于HBase构建的分布式、可扩展的OLTP图数据库，支持超大图的快速遍历。
@@ -2470,7 +2468,6 @@
 * [OrientDB](https://github.com/orientechnologies/orientdb)：OrientDB是一个开源多模型NoSQL DBMS，支持原生图、文档、全文搜索、响应式、地理空间和面向对象的概念。
 * [Paper](https://github.com/pilgr/Paper)：Paper是Android上Java/Kotlin对象的快速类NoSQL存储，具有自动模式迁移支持。
 * [Lealone](https://github.com/lealone/Lealone)：Lealone是一个高性能的面向OLTP场景的关系数据库，由阿里开源。
-* [DingoDB](https://github.com/dingodb/dingo)：DingoDB是一个分布式多模态向量数据库，它结合了数据湖和矢量数据库的功能，允许存储任何类型的数据，由九章云极开源。
 * [ToroDB](https://github.com/torodb/server)：ToroDB Server是一个运行在RDBMS之上的开源NoSQL数据库。
 * [Concourse](https://github.com/cinchapi/concourse)：Concourse是一个分布式数据库仓库，用于跨时间的事务搜索和分析，由Cinchapi开源。
 * [ElephantDB](https://github.com/nathanmarz/elephantdb)：ElephantDB是一个专门从Hadoop导出键/值数据的数据库。
@@ -2497,6 +2494,13 @@
 * [CrateDB](https://github.com/crate/crate)：CrateDB是一个分布式SQL数据库，可以轻松地实时存储和分析大量数据。
 * [COOL](https://github.com/COOL-cohort/COOL)：COOL是一种非常高效的OLAP引擎，用于对时序数据进行队列和OLAP分析。
 
+#### 向量数据库
+
+* [Vespa](https://github.com/vespa-engine/vespa)：Vespa是一个开源的大规模分布式实时计算的向量和文本搜索引擎，Yahoo开发。
+* [DingoDB](https://github.com/dingodb/dingo)：DingoDB是由DataCanvas设计和开发的开源分布式多模态向量数据库。
+* [Simbase](https://github.com/guokr/simbase)：Simbase是一个类似Redis的向量相似度数据库，由果壳科技开源。
+* [Cottontail DB](https://github.com/vitrivr/cottontaildb)：Cottontail DB是一个旨在多媒体检索的列存储，它允许经典的布尔和向量空间检索，即相似性搜索中使用的最近邻查找，由巴塞尔大学开源。
+
 #### 对象数据库
 
 * [ObjectDB](https://www.objectdb.com/)：ObjectDB是Java的对象数据库，可以在客户端-服务器模式和嵌入式模式下使用。
@@ -2511,7 +2515,6 @@
 #### 其他数据库
 
 * [XTDB](https://github.com/xtdb/xtdb)：XTDB是一个具有双时态索引的通用数据库。
-* [Simbase](https://github.com/guokr/simbase)：Simbase是一个类似Redis的向量相似度数据库，由果壳科技开源。
 * [JsonDB](https://github.com/Jsondb/jsondb-core)：JsonDB是一个纯Java数据库，它将数据存储为Json文件。
 * [Instant](https://github.com/instantdb/instant)：Instant是一个客户端数据库，可以轻松构建Notion或Figma等实时协作应用程序，由Facebook和Airbnb开源。
 * [SnappyData](https://github.com/TIBCOSoftware/snappydata)：SnappyData是一个分布式、内存优化分析数据库。
@@ -2522,7 +2525,6 @@
 * [EmoDB](https://github.com/bazaarvoice/emodb)：EmoDB是一个RESTful HTTP服务器，用于存储JSON对象并监视这些事件的更改，由Bazaarvoice开源。
 * [RSQLDB](https://github.com/alibaba/rsqldb)：RSQLDB是一个基于RocketMQ的流处理数据库，由阿里开源。
 * [Apollo Delphinius](https://github.com/salesforce/apollo)：Apollo Delphinius项目是一个实验性多租户分布式系统平台，由Salesforce开源。
-* [Cottontail DB](https://github.com/vitrivr/cottontaildb)：Cottontail DB是一个旨在多媒体检索的列存储，它允许经典的布尔和向量空间检索，即相似性搜索中使用的最近邻查找，由巴塞尔大学开源。
 
 ## 存储引擎
 
@@ -2538,6 +2540,7 @@
 * [PGX](https://www.oracle.com/middleware/technologies/parallel-graph-analytix.html)：PGX是一个用于图分析的工具包，支持高效的图算法和快速的类似SQL的图模式匹配查询，由Oracle开发。
 * [Gradoop](https://github.com/dbs-leipzig/gradoop)：Gradoop是一个开源研究框架，用于构建在Flink之上的可扩展图分析，由莱比锡大学数据库研究组开发。
 * [SociaLite](https://github.com/socialite-lang/socialite)：SociaLite是一种用于分布式图分析的高级查询语言，由斯坦福开源。
+* [GraphScope](https://github.com/alibaba/GraphScope)：GraphScope是阿里巴巴达摩院智能计算实验室研发并开源的一站式图计算平台。
 * [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
 * [PGQL](https://github.com/oracle/pgql-lang)：PGQL是一种基于SQL的属性图数据模型查询语言，为SQL和NoSQL用户带来图模式匹配功能，由Oracle开源。
 * [Ant Graph Learning](https://github.com/TuGraph-family/TuGraph-AntGraphLearning)：Ant Graph Learning为工业规模的图学习任务提供了全面的解决方案，由蚂蚁开源。
@@ -3089,7 +3092,7 @@
 
 * [Apache Commons Collections](https://github.com/apache/commons-collections)：Commons Collections包含扩展和增强Java集合框架的类型。
 * [Eclipse Collections](https://github.com/eclipse/eclipse-collections)：Eclipse Collections是一个综合性的Java集合库，通过提供一组富有表现力且高效的API和类型来提高生产力和性能，由高盛银行开源。
-* [Fastutil](https://github.com/vigna/fastutil)：Fastutil通过提供特定类型的Map、Set、List和Queue来扩展Java集合框架。
+* [Fastutil](https://github.com/vigna/fastutil)：Fastutil通过提供特定类型的Map、Set、List和Queue来扩展Java集合框架，由米兰大学开发。
 * [HPPC](https://github.com/carrotsearch/hppc)：HPPC使用专门版本实现典型集合(列表、双端队列、集合、映射)，这些版本存储原始类型而不将它们装箱为对象。
 * [PCollections](https://github.com/hrldcpr/pcollections)：PCollections充当Java集合框架的持久且不可变的类似物。
 * [CQEngine](https://github.com/npgall/cqengine)：CQEngine是一个高性能Java集合，可以使用类似SQL的查询进行搜索，并且延迟极低。
@@ -3922,7 +3925,7 @@
 * [Neanderthal](https://github.com/uncomplicate/neanderthal)：Neanderthal是一个用于快速矩阵和线性代数计算的Clojure库，基于针对CPU和GPU的高度优化的BLAS和LAPACK计算例程的原生库。
 * [Hacktoberfest-Mathematics](https://github.com/BaReinhard/Hacktoberfest-Mathematics)：数学公式和函数的脚本和/或程序库。
 * [Decimal4j](https://github.com/tools4j/decimal4j)：用于基于长整型的快速定点算术的Java库，支持最多18位小数。
-* [DSI Utils](https://github.com/vigna/dsiutils)：DSI Utils是过去20年在米兰大学信息科学系开发的项目中积累的类的混杂。
+* [DSI Utils](https://github.com/vigna/dsiutils)：DSI Utils是过去20年在米兰大学信息科学系开发的项目中积累的工具类。
 * [KMath](https://github.com/SciProgCentre/kmath)：Kotlin数学扩展库。
 * [ParallelColt](https://github.com/rwl/ParallelColt)：Parallel Colt是Colt的多线程版本，由欧洲核子研究组织开源。
 * [LIBLINEAR](https://github.com/bwaldvogel/liblinear-java)：LIBLINEAR的Java版本，LIBLINEAR是一个用于解决大规模正则化线性问题分类、回归和异常值检测的简单包。
@@ -4145,7 +4148,7 @@
 * [LinuxForHealth FHIR](https://github.com/LinuxForHealth/FHIR)：LinuxForHealth FHIR服务器(以前称为IBM FHIR服务器)是HL7 FHIR规范的模块化Java实现，支持版本R4和R4B，重点关注性能和可配置性。
 * [Pathling](https://github.com/aehrc/pathling)：Pathling是一组工具，可让你在健康数据分析中更轻松地使用FHIR和临床术语，由澳大利亚电子健康研究中心开源。
 
-## 化学领域
+## 化学库
 
 * [CDK](https://github.com/cdk/cdk)：CDK是一个用于化学信息学和生物信息学的开源Java库。
 * [Eclipse ChemClipse](https://github.com/eclipse/chemclipse)：Eclipse ChemClipse项目提供化学信息学和生物信息学领域的数据读取和处理功能，由Eclipse科学工作组开源。
@@ -4153,6 +4156,7 @@
 * [OpenChemLib](https://github.com/Actelion/openchemlib)：OpenChemLib是基于Java的框架，提供化学信息学核心功能和用户界面组件。
 * [ChemicalTagger](https://github.com/BlueObelisk/chemicaltagger)：ChemicalTagger是化学领域语义文本挖掘的工具。
 * [JMol](https://github.com/BobHanson/Jmol-SwingJS)：JMol是一个开源Java/SwingJS应用程序，用于可视化和分析具有化学品特征的3D分子结构、晶体、材料和生物分子。
+* [LaMa4J](https://lama4j.di.unimi.it/)：LaMa4J是一组实现许多晶格和晶格运算的Java类。
 * [Toxtree](https://toxtree.sourceforge.net/)：Toxtree是一个功能齐全、灵活、用户友好的开源应用程序，它能够通过应用决策树方法来估计毒性危害。
 * [OPSIN](https://github.com/dan2097/opsin)：OPSIN是一个用于IUPAC名称到结构转换的Java库，可为有机化学命名法提供高召回率和精确度，由剑桥大学化学系开源。
 * [MolVec](https://github.com/ncats/molvec)：NCATS(化学) OCR引擎，可以将化学图像矢量化为化学对象，并尽可能保留2D布局，由国家转化科学促进中心开源。
@@ -4817,7 +4821,7 @@
 * [LLJ-ZIP](https://github.com/Col-E/LL-Java-Zip)：LLJ-ZIP是一个用于可查找文件的zip格式读取器，可以容忍前导和尾随垃圾，并容忍针对前导垃圾调整内部偏移。
 * [Brotli4j](https://github.com/hyperxpro/Brotli4j)：Brotli4j为Java提供Brotli压缩和解压缩。
 * [Bit-Lib4j](https://github.com/devnied/Bit-lib4j)：Bit-Lib4j是一个用于在Java中处理字节或位的库。
-* [WebGraph](https://github.com/vigna/webgraph)：WebGraph是一个旨在研究网络图的图压缩框架，它利用现代压缩技术提供了管理非常大的图形的简单方法。
+* [WebGraph](https://github.com/vigna/webgraph)：WebGraph是一个旨在研究网络图的图压缩框架，它利用现代压缩技术提供了管理非常大的图形的简单方法，由米兰大学开发。
 * [Qat-Java](https://github.com/intel/qat-java)：Qat-Java库使用英特尔QuickAssist技术QATzip库提供加速压缩和解压缩。
 * [XZ Java](https://github.com/tukaani-project/xz-java)：XZ Java是纯Java中XZ数据压缩的完整实现。
 
@@ -4853,7 +4857,7 @@
 * [NewCrawler](https://github.com/speed/newcrawler)：鸟巢采集器是一款Web版的网页数据采集工具，拥有强大的内容采集和数据过滤功能，能将你采集的数据发布到远程服务器。
 * [HtmlCleaner](https://htmlcleaner.sourceforge.net/)：HtmlCleaner是一个用Java编写的开源HTML解析器。
 * [Crawler-Commons](https://github.com/crawler-commons/crawler-commons)：Crawler-Commons是一组可重用的Java组件，可实现任何网络爬虫的通用功能。
-* [Norconex HTTP Collector](https://github.com/Norconex/collector-http)：Norconex HTTP Collector是一个功能齐全的爬虫库，可以操作收集的数据并将其存储到你选择的仓库(例如搜索引擎)中。
+* [Norconex HTTP Collector](https://github.com/Norconex/crawlers)：Norconex是一个功能齐全的爬虫库，可以操作收集的数据并将其存储到你选择的仓库(例如搜索引擎)中。
 * [Phoneutria](https://sourceforge.net/projects/phoneutria/)：可用于对任何Web或企业网站进行爬取和索引，并且可通过XML配置文件进行配置。
 * [CrawlerDemon](https://gitee.com/spirit_demon/CrawlerDemon)：基于Akka的高性能分布式爬虫框架。
 * [Nokogiri](https://github.com/sparklemotion/nokogiri)：HTML、XML、SAX和Reader解析器，支持XPath和CSS选择器。
@@ -6568,7 +6572,7 @@
 * [Gephi](https://github.com/gephi/gephi/)：Gephi是适用于各种图形和网络的领先可视化和探索软件。
 * [MooInfo](https://github.com/rememberber/MooInfo)：OSHI的可视化实现，用于查看有关系统和硬件的信息。
 * [Freenet](https://github.com/hyphanet/fred)：Freenet是一个抗审查通信和发布平台，它是一种点对点软件，提供分布式、加密、去中心化的数据存储，起源于爱丁堡大学。
-* [Datashare](https://github.com/ICIJ/datashare)：由国际调查记者联盟(ICIJ)开发的自托管文档搜索引擎。
+* [Datashare](https://github.com/ICIJ/datashare)：Datashare是由国际调查记者联盟(ICIJ)开发的自托管文档搜索引擎。
 * [RuneLite](https://github.com/runelite/runelite)：RuneLite是一个免费、开源的OldSchool RuneScape客户端。
 * [Chatty](https://github.com/chatty/chatty)：Chatty是一款用Java编写的Twitch桌面聊天客户端，具有许多Twitch特定功能。
 * [Moneydance](https://infinitekind.com/moneydance)：Moneydance是一款易于使用且功能齐全的个人理财应用程序。
@@ -7105,6 +7109,7 @@
 * [Elastic4s](https://github.com/Philippus/elastic4s)：Elastic4s是一个简洁、惯用、响应式、类型安全的Elasticsearch Scala客户端。
 * [Ebatis](https://github.com/ymm-tech/ebatis)：Ebatis是一个声明式ElasticSearch ORM框架。
 * [Querqy](https://github.com/querqy/querqy)：Querqy是一个在基于Java的搜索引擎中进行查询预处理的框架。
+* [Anserini](https://github.com/castorini/anserini)：Anserini是一个用于可重复信息检索研究的Lucene工具包，由滑铁卢大学开源。
 * [ES Fastloader](https://github.com/didi/ES-Fastloader)：ES Fastloader利用Hadoop的容错性和并行性，在多个reducer节点中构建单独的ElasticSearch分片，然后将分片传输到ElasticSearch集群进行服务，由滴滴开源。
 * [Elasticsearch JDBC](https://github.com/jprante/elasticsearch-jdbc)：JDBC导入器允许从JDBC源获取数据以索引到Elasticsearch中。
 * [Elasticsearch SQL](https://github.com/NLPchina/elasticsearch-sql)：使用此插件，你可以使用熟悉的SQL语法查询Elasticsearch。
@@ -7199,7 +7204,7 @@
 * [RTree](https://github.com/davidmoten/rtree)：使用响应式API在Java中实现不可变的内存中R树和R*树。
 * [Tree](https://github.com/Scalified/tree)：该库包含树数据结构的不同实现，例如K进制、二叉树、表达式树等。
 * [BTree4j](https://github.com/myui/btree4j)：Btree4j是一个用纯Java编写的基于磁盘的B+树。
-* [Sux4J](https://github.com/vigna/Sux4J)：Sux4J提供了许多相关数据结构的实现，涵盖位数组、压缩列表和最小完美哈希函数的排名/选择。
+* [Sux4J](https://github.com/vigna/Sux4J)：Sux4J提供了许多相关数据结构的实现，涵盖位数组、压缩列表和最小完美哈希函数的排名/选择，由米兰大学开发。
 * [Conversant](https://github.com/conversant/disruptor)：Conversant Disruptor是环形缓冲区中性能最高的实现，它几乎没有开销，并且采用了特别简单的设计。
 * [NetflixGraph](https://github.com/Netflix/netflix-graph)：NetflixGraph是一种紧凑的内存数据结构，用于表示有向图数据，由Netflix开源。
 * [BPlusTree](https://github.com/andylamp/BPlusTree)：一种高效、简洁、简单的纯磁盘B+Tree数据结构实现。
@@ -7301,7 +7306,7 @@
 * [T-SNE-Java](https://github.com/lejon/T-SNE-Java)：Van Der Maaten和Hinton的t-SNE聚类算法的纯Java实现。
 * [Streaminer](https://github.com/mayconbordin/streaminer)：用于挖掘数据流的算法集合，包括频繁项集、分位数、采样、移动平均、集合成员资格和基数。
 * [Patricia-Trie](https://github.com/rkapsi/patricia-trie)：检索以字母数字编码的信息的实用算法。
-* [LearnLib](https://github.com/LearnLib/learnlib)：一个免费的开源Java库，用于自动机学习算法。
+* [LearnLib](https://github.com/LearnLib/learnlib)：一个免费的开源Java库，用于自动机学习算法，由德国多特蒙德工业大学开发。
 * [Simhash Java](https://github.com/sing1ee/simhash-java)：Simhash算法的Java简单实现。
 * [Junto](https://github.com/parthatalukdar/junto)：该工具包由各种基于图的半监督学习(SSL)算法的实现组成，包含高斯随机场、吸附和修正吸附。
 * [Clust4j](https://github.com/tgsmith61591/clust4j)：一组基于Java的分类聚类算法。
