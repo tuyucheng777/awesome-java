@@ -1407,10 +1407,10 @@
 * [Microsoft JDK](https://github.com/microsoft/openjdk)：由微软开源的新的JDK免费长期支持发行版。
 * [Azul Zulu](https://www.azul.com/zh-hans/core/)：Azul开源的JDK版本。
 * [IBM Semeru](https://www.ibm.com/support/pages/java-sdk-downloads)：IBM开源的JDK版本，基于OpenJ9构建。
-* [Redhat JDK](https://developers.redhat.com/products/openjdk/download)：Redhat开源的JDK版本。
+* [RedHat JDK](https://developers.redhat.com/products/openjdk/download)：RedHat版本的OpenJDK是Java SE的开源实现。
 * [JetBrains JDK](https://github.com/JetBrains/JetBrainsRuntime)：JetBrains开发的基于OpenJDK的运行时环境。
-* [OpenLogic](https://www.openlogic.com/openjdk-downloads)：Openlogic开源的JDK版本。
-* [VMS Software OpenJDK](https://vmssoftware.com/products/openjdk/)：VMS软件公司的OpenJDK免费开源实现。
+* [OpenLogic](https://www.openlogic.com/openjdk-downloads)：Perforce公司开源的OpenLogic为Linux、Windows和MacOS提供免费的OpenJDK 8、11、17和21季度版本。
+* [VMS OpenJDK](https://vmssoftware.com/products/openjdk/)：VMS软件公司的OpenJDK免费开源实现。
 * [SapMachine](https://github.com/SAP/SapMachine)：由SAP维护和支持的OpenJDK版本。
 * [Alibaba Dragonwell](https://github.com/dragonwell-project/dragonwell8)：阿里开源的JDK版本。
 * [Tencent Kona](https://github.com/Tencent/TencentKona-17)：腾讯开源的JDK版本。
