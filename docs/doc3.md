@@ -1023,6 +1023,7 @@
 * [OVal](https://github.com/sebthom/oval)：OVal是一个实用且可扩展的验证框架，适用于任何类型的Java对象，可以使用注解(@NotNull、@MaxLength)、POJO或XML来声明约束。
 * [Functional Validation](https://github.com/MAIF/functional-validation)：该库提供了工具来验证Bean并组合验证堆栈错误。
 * [Vador](https://github.com/salesforce-misc/Vador)：Vador是一个现代验证框架，旨在简化和提高REST API验证，由Salesforce开源。
+* [SpEL Validator](https://github.com/stick-i/spel-validator)：SpEL Validator是基于Spring EL的参数校验包，也是javax.validation的扩展增强包，用于简化参数校验。
 
 ## 元编程
 
