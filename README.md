@@ -6,15 +6,16 @@
 
 ## 目录
 
-* [Web框架](#Web框架)
-* [RPC框架](#RPC框架)
-* [JSF框架](#JSF框架)
-* [REST框架](#REST框架)
-* [ORM框架](#ORM框架)
-* [持久层库](#持久层库)
-* [应用框架](#应用框架)
-* [微服务框架](#微服务框架)
-* [Spring Cloud](#SpringCloud)
+* [开发框架](#开发框架)
+  * [Web框架](#Web框架)
+  * [RPC框架](#RPC框架)
+  * [JSF框架](#JSF框架)
+  * [REST框架](#REST框架)
+  * [ORM框架](#ORM框架)
+  * [持久层库](#持久层库)
+  * [应用框架](#应用框架)
+  * [微服务框架](#微服务框架)
+  * [Spring Cloud](#SpringCloud)
 * [微服务工具](#微服务工具)
 * [测试](#测试)
   * [单元测试](#单元测试)
@@ -89,6 +90,7 @@
   * [数据湖框架](#数据湖框架)
   * [Kafka生态](#Kafka生态)
 * [消息中间件](#消息中间件)
+* [分布式开发](#分布式开发)
 * [分布式组件](#分布式组件)
 * [分布式锁](#分布式锁)
 * [分布式事务](#分布式事务)
@@ -463,7 +465,11 @@
   * [源码分析](docs/doc3.md#源码分析)
   * [面试宝典](docs/doc3.md#面试宝典)
 
-## Web框架
+## 开发框架
+
+这里列出了Java中的开发框架，包括Web、REST框架、ORM框架、微服务等。
+
+#### Web框架
 
 * [Spring Boot](https://github.com/spring-projects/spring-boot)：Spring Boot可帮助轻松创建由Spring驱动的生产级应用程序和服务，由Pivotal开源。
 * [Apache Struts](https://github.com/apache/struts)：Struts是一个用于创建Java Web应用程序的免费开源解决方案。
@@ -534,7 +540,7 @@
 * [Windward](https://github.com/Flmelody/windward)：Windward是一个Java轻量级Web框架。
 * [Kora](https://github.com/kora-projects/kora)：Kora是一个用于编写Java/Kotlin应用程序的框架，重点关注性能、效率和透明度。
 
-## RPC框架
+#### RPC框架
 
 * [Apache Dubbo](https://github.com/apache/dubbo)：Dubbo是一个高性能、基于Java的开源RPC框架，由阿里开源。
 * [gRPC](https://github.com/grpc/grpc-java)：Google RPC的Java实现，基于HTTP/2的RPC。
@@ -565,7 +571,7 @@
 * [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错的，轻量级的分布式服务框架。
 * [NettyRPC](https://github.com/tang-jie/NettyRPC)：基于Netty的高性能Java RPC服务器，使用kryo、hessian、protostuff支持消息序列化。
 
-## JSF框架
+#### JSF框架
 
 * [PrimeFaces](https://github.com/primefaces/primefaces)：PrimeFaces是Java EE生态系统中最受欢迎的UI库之一。
 * [JoinFaces](https://github.com/joinfaces/joinfaces)：该项目允许在Spring Boot应用程序中使用JSF。
@@ -581,7 +587,7 @@
 * [BootsFaces](https://github.com/TheCoder4eu/BootsFaces-OSP)：这是下一代JSF框架，它充分利用了Bootstrap 3和jQuery UI，让你可以快速轻松地开发前端企业应用程序。
 * [Reasonable ServerFaces](https://rsf.github.io/wiki/Wikib2ab.html)：Reasonable ServerFaces是一个用Java编写的开源Web编程框架，由剑桥大学教育技术应用研究中心开发。
 
-## REST框架
+#### REST框架
 
 * [Rest.li](https://github.com/linkedin/rest.li)：Rest.li是一个开源REST框架，用于使用类型安全绑定和异步、非阻塞IO构建健壮、可扩展的RESTful架构，由LinkedIn开源。
 * [Eclipse Jersey](https://github.com/eclipse-ee4j/jersey)：Jersey是一个REST框架，提供JAX-RS参考实现等。
@@ -611,7 +617,7 @@
 * [AceQL HTTP](https://github.com/kawansoft/aceql-http)：AceQL HTTP是一个类似REST的API库，允许你从任何支持HTTP的设备通过HTTP访问远程SQL数据库。
 * [Conjure Java Runtime](https://github.com/palantir/conjure-java-runtime)：该项目提供了一组固定的库，用于定义和创建RESTish/RPC服务器和客户端，基于Feign作为客户端，以Dropwizard/Jersey和JAX-RS服务定义作为服务器，由Palantir开源。
 
-## ORM框架
+#### ORM框架
 
 * [Hibernate](https://github.com/hibernate/hibernate-orm)：Hibernate是一个强大的Java ORM解决方案，可以轻松地为应用程序、库和框架开发持久层逻辑，由RedHat开源。
 * [Spring Data JPA](https://github.com/spring-projects/spring-data-jpa)：Spring Data JPA是Spring Data系列的一部分，可以轻松实现基于JPA的Repository。
@@ -653,7 +659,7 @@
 * [Android Orma](https://github.com/maskarade/Android-Orma)：Orma是一个适用于Android SQLite数据库的ORM框架。
 * [Norm](https://github.com/dieselpoint/norm)：Norm是一种访问JDBC数据库的简单方法，通常只需一行代码。
 
-## 持久层库
+#### 持久层库
 
 * [Eclipse JNoSQL](https://github.com/eclipse/jnosql)：JNoSQL是Jakarta NoSQL和Jakarta Data规范的兼容实现，可简化Java应用程序与NoSQL数据库的集成。
 * [Jdbi](https://github.com/jdbi/jdbi)：Jdbi库提供了对Java和其他JVM语言中的关系数据库的便捷、惯用的访问。
@@ -696,7 +702,7 @@
 * [SqlRender](https://github.com/OHDSI/SqlRender)：这是一个R包和Java库，用于呈现参数化SQL，并将其转换为不同的SQL方言，由OHDSI开源。
 * [DoytoQuery](https://github.com/doytowin/doyto-query)：DoytoQuery是一个功能强大且易于使用的对象SQL映射框架。
 
-## 应用框架
+#### 应用框架
 
 * [Jmix](https://github.com/jmix-framework/jmix)：Jmix是一组库和工具，用于加速Spring Boot以数据为中心的应用程序开发，由Haulmont开源。
 * [Apache Usergrid](https://github.com/apache/usergrid)：Usergrid是一个基于RESTful API的用于Web和移动应用程序的多租户后端即服务堆栈。
@@ -715,7 +721,7 @@
 * [Las2peer](https://github.com/rwth-acis/las2peer)：Las2peer是一个基于Java的服务器框架，用于在分布式点对点(P2P)环境中开发和部署微服务，由亚琛工业大学开发。
 * [Chill PL](https://github.com/bigskysoftware/chill)：Chill Platform是一个Java Web和云应用程序开发平台。
 
-## 微服务框架
+#### 微服务框架
 
 * [Spring Cloud](https://spring.io/projects/spring-cloud)：Spring Cloud为开发人员提供了快速构建分布式系统中一些常见模式的工具，由Pivotal开源。
 * [Apache Dubbo](https://github.com/apache/dubbo)：Dubbo是一个高性能、基于Java的开源RPC框架，由阿里开源。
@@ -754,7 +760,7 @@
 * [Moleculer Java](https://github.com/moleculer-java/moleculer-java)：Moleculer Java是JVM的Moleculer微服务框架的实现。
 * [Worker Framework](https://github.com/WorkerFramework/worker-framework)：Worker Framework为跨平台、云就绪、分布式数据处理微服务提供了基础。
 
-## Spring Cloud
+#### Spring Cloud
 
 * [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix)：Spring Cloud Netflix项目为Spring Boot应用程序提供Netflix OSS集成。
 * [Spring Cloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba)：Spring Cloud Alibaba为分布式应用开发提供一站式解决方案。
@@ -2251,6 +2257,7 @@
 * [Mongeez](https://github.com/mongeez/mongeez)：Mongeez允许你管理Mongo文档的更改，并在执行部署时与代码更改同步传播这些更改。
 * [Redis Replicator](https://github.com/leonchen83/redis-replicator)：Redis Replicator是一个Redis复制工具，支持同步、psync、psync2，可以解析RDB、AOF、混合RDB和AOF文件。
 * [RedisSyncer](https://github.com/TraceNature/redissyncer-server)：RedisSyncer是一个Redis多任务同步工具集，应用于Redis单实例及集群同步。
+* [MyDataHarbor](https://gitee.com/mydataharbor/mydataharbor)：MyDataHarbor是一个致力于解决异构数据源之间的分布式、高扩展性、高性能、事务级的数据同步中间件。
 * [Canal MySQL NoSQL Sync](https://github.com/liukelin/canal_mysql_nosql_sync)：基于Canal的MySQL、RabbitMQ、Redis/Memcached/MongoDB同步工具。
 
 #### 数据湖框架
@@ -2335,7 +2342,9 @@
 * [Ytk-mp4j](https://github.com/kanyun-inc/ytk-mp4j)：Ytk-mp4j是一个快速、用户友好、跨平台、多进程、多线程的集体消息传递Java库，用于分布式机器学习，由看云控股技术团队开源。
 * [FolkMQ](https://gitee.com/noear/folkmq)：FolkMQ内存型消息中间件，支持快照持久化和Broker集群模式。
 
-## 分布式组件
+## 分布式开发
+
+#### 分布式组件
 
 * [Oracle Coherence](https://github.com/oracle/coherence)：Coherence是一个可扩展、容错、云就绪的分布式平台，用于构建基于网格的应用程序并可靠地存储数据，由Oracle开源。
 * [Brooklin](https://github.com/linkedin/brooklin)：Brooklin是一个分布式系统，旨在在各种异构源和目标系统之间流式传输数据，具有高可靠性和大规模吞吐量，由LinkedIn开发。
@@ -2363,7 +2372,7 @@
 * [Drasyl](https://github.com/drasyl/drasyl)：Drasyl是一个用于快速开发分布式应用程序的高性能框架，由汉堡大学开源。
 * [ScaleCube Cluster](https://github.com/scalecube/scalecube-cluster)：ScaleCube Cluster是一个轻量级的去中心化集群成员资格、故障检测和八卦协议库。
 
-## 分布式锁
+#### 分布式锁
 
 * [Redisson](https://github.com/redisson/redisson)：Redisson是一个具有内存数据网格功能的Redis Java客户端，包含实现分布式锁的功能。
 * [ShedLock](https://github.com/lukas-krecan/ShedLock)：ShedLock确保你的计划任务最多同时执行一次。
@@ -2380,7 +2389,7 @@
 * [WLock](https://github.com/wuba/WLock)：WLock是一套基于一致性算法组件WPaxos实现的高可靠、高吞吐分布式锁服务，由58同城开源。
 * [Distributor](https://gitee.com/HappyChicken/Distributor)：Distributor基于Redis实现常用的分布式组件，简单、可靠、开箱即用。
 
-## 分布式事务
+#### 分布式事务
 
 * [Seata](https://github.com/apache/incubator-seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
 * [Apache ShardingSphere](https://github.com/apache/shardingsphere)：ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
@@ -2405,7 +2414,7 @@
 * [Eventuate Tram Sagas](https://github.com/eventuate-tram/eventuate-tram-sagas)：Eventuate Tram Sagas框架是一个适用于使用JDBC/JPA和Spring Boot/Micronaut的Java微服务的Saga框架。
 * [Txle](https://github.com/actiontech/txle)：Txle是爱可生开发的分布式事务解决方案，可以保证业务数据的最终一致性。
 
-## 分布式ID
+#### 分布式ID
 
 * [Snowflake](https://github.com/twitter-archive/snowflake)：Snowflake是一种网络服务，用于大规模生成唯一ID号并提供一些简单的保证，由Twitter开源。
 * [Leaf](https://github.com/Meituan-Dianping/Leaf)：Leaf是美团开源的分布式ID生成服务。
@@ -3811,6 +3820,7 @@
 * [Origami](https://github.com/hellonico/origami)：Origami是JVM上的图像处理、计算机视觉和神经网络库。
 * [OpenCV Processing](https://github.com/atduskgreg/opencv-processing)：OpenCV Processing基于OpenCV的官方Java绑定，为常见的OpenCV函数提供方便的包装器。
 * [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
+* [JavaVision](https://gitee.com/giteeClass/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
 
 #### 光学字符识别
 
