@@ -2188,4 +2188,4 @@
 * [Interview Guide](https://github.com/NotFound9/interviewGuide)：包括Java基础、JVM、数据库、MySQL、Redis、计算机网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。
 * [Internet Architect](https://github.com/bjmashibing/InternetArchitect)：互联网架构师课程文档及源码。
 * [Java Notes](https://github.com/DreamCats/java-notes)：秋招经历、牛客面经问题按照频率总结、Java系列知识、数据库、分布式、微服务、前端、技术面试、每日文章等。
-* [System Design Interview](https://github.com/DreamOfTheRedChamber/system-design-interviews)：系统设计面试。**
+* [System Design Interview](https://github.com/DreamOfTheRedChamber/system-design-interviews)：系统设计面试。
