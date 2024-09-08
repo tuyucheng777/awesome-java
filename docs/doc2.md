@@ -245,6 +245,7 @@
 * [Drop-seq](https://github.com/broadinstitute/Drop-seq)：用于分析Drop-seq数据的Java和R工具，由麻省理工学院和哈佛大学布罗德研究所开源。
 * [Cytoscape](https://cytoscape.org/)：Cytoscape是一个开源的生物信息学软件平台，用于可视化分子相互作用网络并与基因表达谱和其他状态数据集成，最初由西雅图系统生物学研究所开发。
 * [BioTapestry](https://biotapestry.systemsbiology.net/)：BioTapestry是一种交互式工具，用于通过网络构建、可视化和共享基因调控网络模型，由西雅图系统生物学研究所与加州理工学院戴维森实验室合作创建。
+* [InterProScan](https://github.com/ebi-pf-team/interproscan)：InterPro通过将蛋白质归类为家族并预测域和重要位点来提供蛋白质的功能分析，由欧洲分子生物学实验室开源。
 * [Cloud-Pipeline](https://github.com/epam/cloud-pipeline)：与云无关的基因组学分析、科学计算和存储平台。
 * [IRIDA](https://github.com/phac-nml/irida)：IRIDA是加拿大基因组流行病学综合快速传染病分析平台。
 * [SnpEff](https://github.com/pcingola/SnpEff)：基因组变异注释和功能效果预测工具包。
@@ -271,6 +272,7 @@
 * [HMIS](https://github.com/hmislk/hmis)：HMIS是一个医院信息管理系统，自2004年推出以来一直积极为40多家医疗机构提供服务。
 * [HAPI FHIR Core](https://github.com/hapifhir/org.hl7.fhir.core)：适用于FHIR规范的Java核心对象处理代码，带有实用程序(包括验证器)。
 * [OpenMRS](https://github.com/openmrs/openmrs-core)：OpenMRS是一个基于患者的医疗记录系统，专注于为提供商提供免费的可定制电子医疗记录系统(EMR)。
+* [EHRbase](https://github.com/ehrbase/ehrbase)：EHRbase是一个OpenEHR临床数据存储库，为可互操作的临床应用程序提供基于标准的后端，由德国布伦瑞克工业大学及汉诺威医学院联合开发。
 * [DCM4che](https://github.com/dcm4che/dcm4che)：Java中的DICOM实现。
 * [Synthea](https://github.com/synthetichealth/synthea)：Synthea是一款合成患者群体模拟器，目标是以各种格式输出合成的、真实的(但不是真实的)患者数据和相关的健康记录。
 * [Weasis](https://github.com/nroduit/Weasis)：Weasis是一款独立的基于Web的软件，用于可视化从医疗成像设备获得的图像。
@@ -461,6 +463,7 @@
 * [Conceal](https://github.com/facebookarchive/conceal)：Conceal提供了一组Java API来在Android上执行加密，由Facebook开源。
 * [BouncyCastle Java](https://github.com/bcgit/bc-java)：BouncyCastle Java发行版。
 * [Apache Commons Crypto](https://github.com/apache/commons-crypto)：Commons Crypto是一个使用AES-NI优化的加密库，它提供了密码级别和Java流级别的Java API。
+* [Amazon Corretto Crypto Provider](https://github.com/corretto/amazon-corretto-crypto-provider)：Amazon Corretto Crypto Provider是通过标准JCA/JCE接口公开的高性能加密实现的集合。
 * [Themis](https://github.com/cossacklabs/themis)：Themis是一个开源高级加密服务库，用于在身份验证、存储、消息传递、网络交换等过程中保护数据。
 * [Jasypt](https://github.com/jasypt/jasypt)：Jasypt是一个Java库，允许开发人员以最小的努力向项目添加基本的加密功能，而无需深入了解密码学的工作原理。
 * [Cryptomator](https://github.com/cryptomator/cryptomator)：Cryptomator为云中的文件提供多平台透明客户端加密。
@@ -485,6 +488,7 @@
 * [Clusion](https://github.com/encryptedsystems/Clusion)：来自布朗大学加密系统实验室的可搜索加密库。
 * [Encryptor4j](https://github.com/martinwithaar/Encryptor4j)：Encryptor4j由一组包装器和实用程序类组成，使你可以更轻松地在应用程序中利用加密技术。
 * [EJBCA](https://github.com/Keyfactor/ejbca-ce)：开源公钥基础设施(PKI)和证书颁发机构(CA)软件。
+* [Dogtag PKI](https://github.com/dogtagpki/pki)：Dogtag证书系统是一个企业级开源证书颁发机构(CA)。
 * [MPC4j](https://github.com/alibaba-edu/mpc4j)：MPC4j是一个高效且易于使用的安全多方计算(MPC)和差分隐私(DP)库，阿里开源。
 * [FRESCO](https://github.com/aicis/fresco)：FRESCO是一个高效、安全的计算框架，用Java编写。
 * [PrimiHub Platform](https://github.com/primihub/primihub-platform)：PrimiHub Platform是一个多方计算和多方联合任务安全调度平台，用于MPC和FL点对点服务。
@@ -1983,6 +1987,7 @@
 * [Zeus IoT](https://github.com/zmops/zeus-iot)：Zeus IoT是一个分布式物联网采集、分析、存储平台，是全球第一个基于zabbix二次开发的物联网开源平台。
 * [Eclipse Leshan](https://github.com/eclipse-leshan/leshan)：Leshan是OMA轻量级M2M服务器和客户端Java实现。
 * [Groza](https://github.com/IoT-Technology/Groza)：开源物联网平台-物联网解决方案的设备管理、数据收集、处理。
+* [TcMenu](https://github.com/TcMenu/tcMenu)：TcMenu是一个模块化、物联网就绪的多级菜单库，适用于Arduino、mbed、Pico-SDK和许多其他平台，支持多种输入、显示和物联网/远程接口。
 * [SiteWhere](https://github.com/sitewhere/sitewhere)：SiteWhere是一个具有工业实力的开源物联网应用支持平台，可促进大规模物联网设备数据的摄取、存储、处理和集成。
 * [SolarNode](https://github.com/SolarNetwork/solarnetwork-node)：SolarNode是用于收集数据和控制设备的分布式SolarNetwork组件。
 * [ThingLinks](https://gitee.com/mqttsnet/thinglinks)：采用Spring Cloud微服务架构，一款高性能、高吞吐量、高扩展性的物联网平台。
@@ -2740,6 +2745,7 @@
 * [MagicPlot](https://www.magicplot.com/)：MagicPlot是一款技术绘图、曲线拟合和数据分析应用程序，这是一个商业软件。
 * [SmartPLS](https://www.smartpls.com/)：SmartPLS是用于使用偏最小二乘(PLS)路径建模方法进行基于方差的结构方程建模(SEM)的软件。
 * [CaR](http://car.rene-grothmann.de/doc_en/index.html)：CaR是动态几何程序，它模拟计算机上的指南针和尺子结构，由艾希施泰特天主教大学开源。
+* [JGEX](https://github.com/kovzol/Java-Geometry-Expert)：JGEX是一款结合了动态几何软件(DGS)、自动几何定理证明器(GTP)和视觉动态证明呈现方法的软件，由奥地利林茨教区私立大学教育学院开源。
 * [CARMetal](https://carmetal.en.uptodown.com/windows)：CARMetal是动态几何程序C.a.R.的改编版本。
 * [Hodoku](https://github.com/PseudoFish/Hodoku)：HoDoKu是一个用Java编写的数独助手，有英语和德语版本。
 * [JLaTeXMath](https://github.com/opencollab/jlatexmath)：JLaTeXMath是显示LaTeX代码的最佳Java库。

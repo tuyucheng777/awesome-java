@@ -1139,6 +1139,11 @@
 * [Measured](https://github.com/nacular/measured)：Measured提供了一种安全且简单的使用测量单位的方法。
 * [QUDTLib](https://github.com/qudtlib/qudtlib-java)：QUDTLib为Java提供单位转换及相关功能。
 
+## 调用图
+
+* [Java CallGraph](https://github.com/Adrninistrator/java-all-call-graph)：Java CallGraph能够通过静态分析的方式批量生成指定Java方法向下的完整调用链。
+* [Java CallGraph](https://github.com/gousiosg/java-callgraph)：一套用于在Java中生成静态和动态调用图的程序。
+
 ## 词法解析
 
 * [ANTLR](https://github.com/antlr/antlr4)：ANTLR是一个强大的解析器生成器，用于读取、处理、执行或翻译结构化文本或二进制文件。
