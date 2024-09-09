@@ -461,6 +461,12 @@
 * [Batfish](https://github.com/batfish/batfish)：Batfish是一种网络验证工具，通过分析网络设备的配置，为安全性、可靠性和合规性提供正确性保证。
 * [FDT](https://github.com/fast-data-transfer/fdt)：FDT是一种高效数据传输应用程序，能够通过广域网(使用标准TCP)以磁盘速度读写。
 
+## SDN
+
+* [OpenDaylight](https://github.com/opendaylight)：OpenDaylight由Linux基金会支持，其目标在于开发支援软件定义网络(SDN)的各种软件工具，建立网络功能虚拟化的基础。
+* [Floodlight](https://github.com/floodlight/floodlight)：Floodlight是领先的开源OpenFlow控制器，由Cisco维护。
+* [Lighty](https://github.com/PANTHEONtech/lighty)：Lighty是一个由OpenDaylight提供支持的SDK，用于支持、简化和加速Java中软件定义网络(SDN)解决方案的开发，由PANTHEON开源。
+
 ## IP操作库
 
 * [Ip2region](https://github.com/lionsoul2014/ip2region)：Ip2region是一个离线IP地址定位库和IP定位数据管理框架，提供了众多主流编程语言的xdb数据生成和查询客户端实现。
@@ -569,7 +575,6 @@
 
 * [OneinStack](https://github.com/oneinstack/oneinstack)：OneinStack是一个PHP/Java部署工具。
 * [Capsule](https://github.com/puniverse/capsule)：Capsule是JVM应用程序的打包和部署工具。
-* [ShinyProxy](https://github.com/openanalytics/shinyproxy)：用于Shiny和数据科学应用程序的开源企业部署。
 * [Rultor](https://github.com/yegor256/rultor)：Rultor是一个DevOps团队助理，它通过易于使用的直观聊天机器人界面帮助你自动执行日常操作(合并、部署和发布)。
 * [jDeploy](https://github.com/shannah/jdeploy)：jDeploy Github Action允许你在Github工作流中为Java项目生成本机桌面安装程序。
 * [JReleaser](https://github.com/jreleaser/jreleaser)：JReleaser是一个用于Java和非Java项目的自动化发布工具。
