@@ -88,7 +88,6 @@
   * [Notebook](#Notebook)
   * [数据同步](#数据同步)
   * [数据湖框架](#数据湖框架)
-  * [Kafka生态](#Kafka生态)
 * [消息中间件](#消息中间件)
 * [分布式开发](#分布式开发)
 * [分布式组件](#分布式组件)
@@ -145,6 +144,7 @@
   * [机器学习](#机器学习)
   * [自然语言处理](#自然语言处理)
   * [深度学习](#深度学习)
+  * [联邦学习](#联邦学习)
   * [遗传算法](#遗传算法)
   * [专家系统](#专家系统)
   * [计算机视觉](#计算机视觉)
@@ -222,6 +222,7 @@
   * [XML库](docs/doc2.md#XML库)
   * [YML库](docs/doc2.md#YML库)
   * [文件库](docs/doc2.md#文件库)
+  * [文件转换](docs/doc2.md#文件转换)
   * [License库](docs/doc2.md#License库)
   * [Markdown库](docs/doc2.md#Markdown库)
 * [集群管理](docs/doc2.md#集群管理)
@@ -257,9 +258,12 @@
 * [以太坊](docs/doc2.md#以太坊)
 * [比特币](docs/doc2.md#比特币)
 * [物联网](docs/doc2.md#物联网)
-* [车联网](docs/doc2.md#车联网)
-* [嵌入式](docs/doc2.md#嵌入式)
-* [MQTT](docs/doc2.md#MQTT)
+  * [物联网框架/工具](docs/doc2.md#物联网框架工具)
+  * [车联网](docs/doc2.md#车联网)
+  * [嵌入式](docs/doc2.md#嵌入式)
+  * [MQTT](docs/doc2.md#MQTT)
+  * [串口](docs/doc2.md#串口)
+  * [Modbus](docs/doc2.md#Modbus)
 * [金融](docs/doc2.md#金融)
 * [短信](docs/doc2.md#短信)
 * [DSL](docs/doc2.md#DSL)
@@ -302,7 +306,8 @@
   * [数学软件](docs/doc2.md#数学软件)
   * [UML工具](docs/doc2.md#UML工具)
   * [办公软件](docs/doc2.md#办公软件)
-  * [数据库工具](docs/doc2.md#数据库工具)
+  * [思维导图](docs/doc2.md#思维导图)
+  * [数据库软件](docs/doc2.md#数据库软件)
   * [数据库建模](docs/doc2.md#数据库建模)
   * [字节码工具](docs/doc2.md#字节码工具)
   * [字节码混淆工具](docs/doc2.md#字节码混淆工具)
@@ -321,10 +326,13 @@
 * [数据库驱动](docs/doc2.md#数据库驱动)
 * [数据库迁移](docs/doc2.md#数据库迁移)
 * [数据源增强](docs/doc2.md#数据源增强)
+* [数据库工具](docs/doc2.md#数据库工具)
 * [Redis库/工具](docs/doc2.md#Redis库工具)
+* [Kafka库/工具](docs/doc2.md#Kafka库工具)
 * [MongoDB库/工具](docs/doc2.md#MongoDB库工具)
 * [Cassandra库/工具](docs/doc2.md#Cassandra库工具)
 * [Memcached库/工具](docs/doc2.md#Memcached库工具)
+* [Zookeeper库/工具](docs/doc2.md#Zookeeper库工具)
 * [ClickHouse库/工具](docs/doc2.md#ClickHouse库工具)
 * [ElasticSearch库/工具](docs/doc2.md#ElasticSearch库工具)
 * [对象存储](docs/doc2.md#对象存储)
@@ -372,6 +380,7 @@
 * [AIS库](docs/doc3.md#AIS库)
 * [跨语言](docs/doc3.md#跨语言)
 * [序列化](docs/doc3.md#序列化)
+* [转换库](docs/doc3.md#转换库)
 * [IO操作](docs/doc3.md#IO操作)
 * [文件操作](docs/doc3.md#文件操作)
 * [文件上传](docs/doc3.md#文件上传)
@@ -388,7 +397,6 @@
 * [OData](docs/doc3.md#OData)
 * [数控](docs/doc3.md#数控)
 * [数电](docs/doc3.md#数电)
-* [工业](docs/doc3.md#工业)
 * [海关](docs/doc3.md#海关)
 * [蓝牙](docs/doc3.md#蓝牙)
 * [校验](docs/doc3.md#校验)
@@ -416,6 +424,7 @@
 * [表情处理](docs/doc3.md#表情处理)
 * [行为分析](docs/doc3.md#行为分析)
 * [ASCII艺术](docs/doc3.md#ASCII艺术)
+* [Unicode](docs/doc3.md#Unicode)
 * [URL操作](docs/doc3.md#URL操作)
 * [WebRTC](docs/doc3.md#WebRTC)
 * [Expect库](docs/doc3.md#Expect库)
@@ -446,10 +455,10 @@
 * [表达式引擎](docs/doc3.md#表达式引擎)
 * [数学表达式](docs/doc3.md#数学表达式)
 * [SQL解析器](docs/doc3.md#SQL解析器)
+* [源代码解析](docs/doc3.md#源代码解析)
 * [对象图导航](docs/doc3.md#对象图导航)
 * [超媒体类型](docs/doc3.md#超媒体类型)
 * [术语服务器](docs/doc3.md#术语服务器)
-* [解析&转换](docs/doc3.md#解析转换)
 * [Minecraft](docs/doc3.md#Minecraft)
 * [Maven插件](docs/doc3.md#Maven插件)
 * [Gradle插件](docs/doc3.md#Gradle插件)
@@ -488,6 +497,8 @@
 * [SOFABoot](https://github.com/sofastack/sofa-boot)：SOFABoot是一个基于Spring Boot的Java开发框架，由蚂蚁开源。
 * [Vaadin](https://github.com/vaadin/framework)：Vaadin允许你使用纯Java高效构建现代Web应用程序，而无需接触低级Web技术。
 * [Jooby](https://github.com/jooby-project/jooby)：Jooby是一个现代、高性能且易于使用的Java和Kotlin Web框架上。
+* [JSweet](https://github.com/cincheo/jsweet)：JSweet利用TypeScript通过JavaScript库和框架用Java编写丰富且响应迅速的Web应用程序。
+* [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA(Rich Internet Applications)的SDK，由Adobe维护。
 * [Pippo](https://github.com/pippo-java/pippo)：Pippo是一个Java开源微型Web框架，具有最小的依赖性和快速的学习曲线。
 * [Spark](https://github.com/perwendel/spark)：Spark是一个Java 8的小型Web框架。
 * [Citrus](https://github.com/webx/citrus)：Citrus是阿里开源的基于Java的Web框架。
@@ -2019,7 +2030,6 @@
 * [YCSB](https://github.com/brianfrankcooper/YCSB)：雅虎云服务基准测试框架。
 * [Flink Spector](https://github.com/ottogroup/flink-spector)：该项目提供了一个框架来定义Flink数据流的单元测试。
 * [CloudEon](https://github.com/dromara/CloudEon)：CloudEon使用Kubernetes安装和部署开源大数据组件，实现开源大数据平台的容器化运行，dromara社区开源。
-* [Exhibitor](https://github.com/soabase/exhibitor)：ZooKeeper协同处理实例，例如监控、备份/恢复、清理和可视化，由Netflix开源。
 * [Spark RAPIDS](https://github.com/NVIDIA/spark-rapids)：Spark的RAPIDS加速器利用GPU通过RAPIDS库加速处理，由NVIDIA开源。
 * [BigQuery Utils](https://github.com/GoogleCloudPlatform/bigquery-utils)：BigQuery是一个Serverless、高度可扩展且经济高效的云数据仓库，内置内存BI引擎和机器学习，该库提供有用的实用程序来帮助你迁移和使用BigQuery，由Google开发。
 * [Apache Metron](https://github.com/apache/metron)：Metron集成了多种开源大数据技术，以提供集中的安全监控和分析工具，由Cisco开源。
@@ -2291,38 +2301,6 @@
 * [Pixels](https://github.com/pixelsdb/pixels)：Pixels的核心是专为数据湖和数据仓库设计的列式存储引擎，由中国人民大学开源。
 * [Apache XTable](https://github.com/apache/incubator-xtable)：XTable是一种表格式的跨表转换器，可促进跨数据处理系统和查询引擎的全方位互操作性，由Onehouse开源。
 
-#### Kafka生态
-
-* [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Kafka集群的工具，由Yahoo开源。
-* [Kafka-UI](https://github.com/provectus/kafka-ui)：用于管理Kafka集群的多功能、快速且轻量级的Web UI。
-* [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
-* [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
-* [KnowStreaming](https://github.com/didi/KnowStreaming)：Know Streaming是一套云原生的Kafka管控平台，脱胎于众多互联网内部多年的Kafka运营实践经验，专注于Kafka运维管控、监控告警、资源治理、多活容灾等核心场景，由滴滴开源。
-* [EFAK](https://github.com/smartloli/EFAK)：EAFK是一个开源的Kafka集群管理和监控工具，旨在帮助用户更好地管理和监控其Kafka集群。
-* [Cruise-control](https://github.com/linkedin/cruise-control)：Cruise Control是一款帮助大规模运行Kafka集群的产品，由LinkedIn开源。
-* [KCenter](https://github.com/xaecbd/KCenter)：KCenter是一个统一的Kafka集群管理维护、生产者/消费者监控、生态组件使用的一站式平台。
-* [Kstreamplify](https://github.com/michelin/kstreamplify)：Kstreamplify是一个Java库，使你能够快速创建基于Kafka Stream的应用程序，并提供许多附加高级功能，由米其林开源。
-* [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：Kafka Sprout是一个Web GUI，可以帮助你在本地计算机上快速启动Zookeeper和Kafka服务器，无需任何代码配置。
-* [Xinfra-Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor是一个在真实集群中实现和执行长时间运行的kafka系统测试的框架，由LinkedIn开源。
-* [Confluent Schema Registry](https://github.com/confluentinc/schema-registry)：Kafka的Confluence模式注册中心。
-* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Kafka集群的UI。
-* [Mirus](https://github.com/salesforce/mirus)：Mirus是Kafka的跨数据中心数据复制工具，由Salesforce开源。
-* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
-* [Jikkou](https://github.com/streamthoughts/jikkou)：Jikkou是一款开源工具，旨在提供一种高效且简单的方法来管理、自动化和配置事件流平台上的资源。
-* [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Kafka集群的方法，由RedHat开源。
-* [Julie](https://github.com/kafka-ops/julie)：JulieOps帮助你自动化管理Kafka中的事物，从主题、配置到元数据，以及访问控制、模式。
-* [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Kafka之上的流式任务处理框架，由Line开源。
-* [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
-* [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
-* [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载平衡的服务，由Pinterest开源。
-* [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例。
-* [Zilla](https://github.com/aklivity/zilla)：Zilla将Kafka抽象为Web应用程序、物联网客户端和微服务。
-* [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
-* [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
-* [Kafka-Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka-Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
-* [Kafbat UI](https://github.com/kafbat/kafka-ui)：Kafbat UI是一个免费的开源Web UI，用于监控和管理Kafka集群。
-* [Klaw](https://github.com/Aiven-Open/klaw)：Klaw是一个自助式Kafka主题管理/治理工具/门户，由Aiven开源。
-
 ## 消息中间件
 
 * [Apache Kafka](https://github.com/apache/kafka)：Kafka是一个开源分布式事件流平台，已被数千家公司用于高性能数据管道、流分析、数据集成和关键任务应用程序，由LinkedIn开源。
@@ -2370,7 +2348,6 @@
 * [Chronos](https://github.com/XiaoMi/chronos)：Chronos是实现高可用、高性能、提供全局唯一而且严格单调递增Timestamp的服务，由小米开源。
 * [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
 * [Onyx](https://github.com/onyx-platform/onyx)：Onyx是一个无主、云规模、容错、高性能分布式计算系统。
-* [ZkClient](https://github.com/sgroschupf/zkclient)：ZkClient是Zookeeper的客户端库，由Datameer开源。
 * [Redis Session Manager](https://github.com/jcoleman/tomcat-redis-session-manager)：Session管理器实现，将Session存储在Redis中，以便在Tomcat服务器集群中轻松分发请求。
 * [Octobot](https://github.com/cscotta/Octobot)：Octobot是一款任务队列工作程序，旨在实现可靠性、易用性和吞吐量。
 * [DIZK](https://github.com/scipr-lab/dizk)：DIZK是一个用于分布式零知识证明系统的Java库，由SCIPR实验室开源。
@@ -3451,7 +3428,6 @@
 * [ConfigMe](https://github.com/AuthMe/ConfigMe)：ConfigMe是一个开箱即用的配置管理库，支持YAML。
 * [Configurate](https://github.com/SpongePowered/Configurate)：Configurate是一个用于Java应用程序的简单配置库，它提供基于节点的数据表示，能够处理各种配置格式。
 * [Avaje Config](https://github.com/avaje/avaje-config)：Avaje Config为JVM应用程序提供外部配置，可以通过YAML或Properties文件提供配置，并使用命令行参数和资源指定要加载的文件。
-* [Shepher](https://github.com/XiaoMi/shepher)：Shepher是ZooKeeper的管理工具，在小米作为配置管理中心使用。
 * [Waterfall Config](https://github.com/Accenture/waterfall-config)：一个简单的Java配置库，很大程度上基于Typesafe Config，并具有一些附加的固执己见的功能，由Accenture开源。
 * [ScaleCube Config](https://github.com/scalecube/scalecube-config)：ScaleCube Config是一个基于JVM的分布式应用程序的配置管理库。
 * [OWNER](https://github.com/matteobaccan/owner)：OWNER是一个Java库，其目标是最大限度地减少通过Java properties处理应用程序配置所需的代码。
@@ -3600,7 +3576,6 @@
 
 ## 人工智能
 
-* [FATE](https://github.com/FederatedAI/FATE)：FATE是全球首个工业级联邦学习开源框架，使企业和机构能够在数据上进行协作，同时保护数据安全和隐私，由微众银行开源。
 * [Artemis](https://github.com/ls1intum/Artemis)：Artemis通过对编程练习、测验、建模任务等的即时、个人反馈，将交互式学习带入生活，由慕尼黑工业大学开源。
 * [Lucida](https://github.com/claritylab/lucida)：Lucida是一款基于语音和视觉的智能个人助理，灵感来自Sirius。
 * [EasyAI](https://gitee.com/dromara/easyAi)：EasyAI是一个原生Java人工智能算法框架，由dormara社区开源。
@@ -3697,7 +3672,6 @@
 * [Sandwood](https://github.com/oracle/sandwood)：Sandwood是一种基于JVM的概率模型的语言、编译器和运行时，由Oracle开源。
 * [Ytk-Learn](https://github.com/kanyun-inc/ytk-learn)：Ytk-Learn是一个分布式机器学习库，它实现了大多数流行的机器学习算法，由看云控股技术团队开源。
 * [CERMINE](https://github.com/CeON/CERMINE)：CERMINE是一个Java库和一个Web服务，用于从包含学术出版物的PDF文件中提取元数据和内容，由华沙大学开源。
-* [FATE-Serving](https://github.com/FederatedAI/FATE-Serving)：FATE-Serving是一个高性能、工业化的联邦学习模型服务系统，由微众开源。
 * [Meka](https://github.com/Waikato/meka)：MEKA项目提供了多标签学习和评估方法的开源实现，由怀卡托大学开发。
 * [Airy](https://github.com/airyhq/airy)：Airy是一个开源流应用程序框架，用于训练ML模型并向其提供历史和实时数据。
 * [TensorFlow Java](https://github.com/tensorflow/java)：TensorFlow可以在任何JVM上运行，用于构建、训练和运行机器学习模型，Google开源。
@@ -3731,8 +3705,6 @@
 * [StackNet](https://github.com/kaz-Anova/StackNet)：StackNet是一个计算、可扩展和分析框架，类似于前馈神经网络，并在多个级别使用Wolpert的堆栈泛化来提高机器学习问题的准确性，由伦敦大学开源。
 * [ML4AI](https://gitee.com/sleechengn/ml4ai)：机器学习、人工智能、张量库。
 * [Eggroll](https://gitee.com/WeBank/eggroll)：Eggroll是用于机器学习的简单高性能计算框架，由微众开源。
-* [9nFL](https://github.com/jd-opensource/9n-mpc)：九数联邦学习整体解决方案，由京东开源。
-* [WeFe](https://gitee.com/tianmiantech/WeFe)：WeFe是Welab汇立集团子公司天冕科技发起的开源项目，为联邦学习生态系统提供了一套好用、可靠的安全计算框架。
 * [MacroBase](https://github.com/stanford-futuredata/macrobase)：MacroBase是一种数据分析工具，它使用机器学习优先考虑大型数据集中的注意力，由斯坦福开源。
 * [MLReef](https://github.com/MLReef/mlreef)：MLReef是一个开源MLOps平台，可帮助你与数千名其他用户协作、复制和共享你的机器学习工作。
 * [Fregata](https://github.com/TalkingData/Fregata)：Fregata是一个基于Spark的轻量级、超快速的大规模机器学习库，并在Scala中提供高级API，由TalkingData开源。
@@ -3801,6 +3773,14 @@
 * [OpenLabeler](https://github.com/kinhong/OpenLabeler)：OpenLabeler是一个用于注释对象的开源应用程序，它可以生成PASCAL VOC格式的XML注释文件，用于人工智能和深度学习训练。
 * [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark)：CaffeOnSpark将深度学习引入Hadoop和Spark集群，由Yahoo开源。
 * [JDLL](https://github.com/bioimage-io/JDLL)：JDLL提供了一个用于运行深度学习模型的Java库，支持Java软件和各种深度学习框架之间的通信。
+
+#### 联邦学习
+
+* [FATE](https://github.com/FederatedAI/FATE)：FATE是全球首个工业级联邦学习开源框架，使企业和机构能够在数据上进行协作，同时保护数据安全和隐私，由微众银行开源。
+* [9nFL](https://github.com/jd-opensource/9n-mpc)：九数联邦学习整体解决方案，由京东开源。
+* [WeFe](https://gitee.com/tianmiantech/WeFe)：WeFe是Welab汇立集团子公司天冕科技发起的开源项目，为联邦学习生态系统提供了一套好用、可靠的安全计算框架。
+* [HIGHFLIP](https://github.com/baidu/highflip)：HIGHFLIP是一个顶层联邦学习互通服务，用于解决异构联邦平台间相互通信的问题，百度开源。
+* [FATE Serving](https://github.com/FederatedAI/FATE-Serving)：FATE Serving是一个高性能、工业化的联邦学习模型服务系统，由微众开源。
 
 #### 遗传算法
 
@@ -3932,6 +3912,7 @@
 
 * [Metabase](https://github.com/metabase/metabase)：Metabase是一个开源的商业智能工具，你可以通过它理解数据、分析数据，进行数据查询并获取格式化结果，以数据驱动决策。
 * [Poli](https://github.com/shzlw/poli)：Poli是一款易于使用的SQL报告应用程序，专为SQL爱好者打造。
+* [FineBI](https://www.finebi.com/)：FineBI是帆软公司推出的一款商业智能产品。
 * [SuperSonic](https://github.com/tencentmusic/supersonic)：SuperSonic是下一代LLM支持的数据分析平台，集成了ChatBI和HeadlessBI，由腾讯音乐娱乐开源。
 * [CBoard](https://gitee.com/tuiqiao/CBoard)：CBoard由上海楚果信息技术有限公司主导开源，它不仅仅是一款自助BI数据分析产品，还是开放的BI产品开发平台。
 * [BI Platform](https://github.com/baidu/BIPlatform)：百度开源，业内领先的Holap敏捷BI分析平台，提供高性能、准实时、可扩展的、一站式的BI建模、分析平台。
