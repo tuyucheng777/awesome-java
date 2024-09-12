@@ -70,7 +70,7 @@
 * [APM](#APM)
 * [分布式追踪](#分布式追踪)
 * [指标报告](#指标报告)
-* [注册中心](#注册中心)
+* [服务发现](#服务发现)
 * [容错组件](#容错组件)
   * [限流/降级](#限流降级)
   * [重试](#重试)
@@ -1924,16 +1924,19 @@
 * [Tritium](https://github.com/palantir/tritium)：Tritium是一个用于检测应用程序的库，以在运行时提供更好的可观察性，Palantir开源。
 * [Jmxtrans](https://github.com/jmxtrans/jmxtrans)：Jmxtrans是一个工具，允许你连接到任意数量的JVM并查询它们的属性，而无需编写任何Java代码。
 
-## 注册中心
+## 服务发现
 
 * [Nacos](https://github.com/alibaba/nacos)：Nacos是一个易于使用的平台，专为动态服务发现、配置和服务管理而设计，由阿里开源。
 * [Eureka](https://github.com/Netflix/eureka)：Eureka是一项RESTful服务，主要用于AWS云中，用于中间层服务器的发现、负载均衡和故障转移，由Netflix开源。
 * [Zookeeper](https://github.com/apache/zookeeper)：Zookeeper是一个集中式服务，用于维护配置信息、命名、提供分布式同步、提供组服务，由Yahoo开源。
 * [Polaris Java](https://github.com/polarismesh/polaris-java)：腾讯Polaris注册中心Java SDK。
+* [Apache River](https://river.apache.org/)：Apache River是一种基于Jini规范的分布式计算架构，最早由Sun开发。
 * [Pantheon](https://github.com/ProgrammerAnthony/Pantheon)：Pantheon是分布式微服务注册中心。
 * [SOFARegistry](https://github.com/sofastack/sofa-registry)：SOFARegistry是蚂蚁金服开源的一个生产级、高时效、高可用的服务注册中心。
 * [JHipster Registry](https://github.com/jhipster/jhipster-registry)：JHipster Registry是JHipster的注册中心服务，基于Spring Cloud Netflix Eureka和Spring Cloud Config。
+* [Vert.x Service Discovery](https://github.com/vert-x3/vertx-service-discovery)：Vert.x Service Discovery提供了一个发现基础设施来注册和发现微服务应用程序公开的服务。
 * [SnoopEE](https://github.com/ivargrimstad/snoop)：SnoopEE是一个基于Java EE的微服务的实验性注册和发现服务。
+* [Discovery](https://github.com/Comcast/discovery)：Comcast开源的服务发现库。
 
 ## 容错组件
 
