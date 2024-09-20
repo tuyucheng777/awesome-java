@@ -213,6 +213,7 @@
 ## 知识图谱
 
 * [DMX](https://github.com/dmx-systems/dmx-platform)：DMX是一个知识构建平台。
+* [Renku](https://github.com/SwissDataScienceCenter/renku)：Renku是一个将各种工具捆绑在一起的平台，用于可重复和协作的数据分析项目，由瑞士数据科学中心开源。
 * [OpenSPG](https://github.com/OpenSPG/openspg)：OpenSPG是蚂蚁集团与OpenKG合作开发的基于SPG(语义增强可编程图)框架的知识图引擎。
 * [Wandora](https://github.com/wandora-team/wandora)：Wandora是一个基于主题图和Java的通用信息提取、管理和发布应用程序。
 * [LinkedDataHub](https://github.com/AtomGraph/LinkedDataHub)：LinkedDataHub是一款开源软件，可用于管理数据、创建可视化以及在RDF知识图上构建应用程序。
@@ -2079,6 +2080,7 @@
 * [IoTLink](https://gitee.com/sdyunze/iotlink)：IoTLink是一个基于Spring Boot、Vue、Mybatis、RabbitMQ、MySQK、Redis等开发的物联网平台，支持对物联网卡、物联网模组以及卡+模组的融合管理。
 * [Apache StreamPipes](https://github.com/apache/streampipes)：StreamPipes是一个自助物联网工具箱，使非技术用户能够连接、分析和探索物联网数据流。
 * [Eclipse HawkBit](https://github.com/eclipse/hawkbit)：HawkBit是一个独立于域的后端解决方案，用于向受限边缘设备以及连接到基于IP的网络基础设施的更强大的控制器和网关推出软件更新。
+* [OpenMUC](https://www.openmuc.org/openmuc/)：OpenMUC是一个基于Java和OSGi的软件框架，可简化定制监控、日志记录和控制系统的开发，由弗劳恩霍夫太阳能系统研究所开发。
 * [DeviceHive](https://github.com/devicehive/devicehive-java-server)：DeviceHive将任何连接的设备变成物联网的一部分。它提供通信层、控制软件和多平台库，以引导智能能源、家庭自动化、遥感、遥测、远程控制和监控软件等的开发。
 * [Freedomotic](https://github.com/freedomotic/freedomotic)：Freedomotic是一个开源、灵活、安全的IoT应用程序框架，可用于构建和管理现代智能空间。
 * [Tigase Server](https://github.com/tigase/tigase-server)：Tigase XMPP Server是用Java编写的高度优化、高度模块化且非常灵活的XMPP/Jabber服务器。
@@ -2249,6 +2251,7 @@
 ## gRPC
 
 * [Wire](https://github.com/square/wire)：Wire是适用于Android、Kotlin、Swift和Java的gRPC和协议缓冲区，Square开源。
+* [Spring Grpc](https://github.com/spring-projects-experimental/spring-grpc)：Spring Grpc项目为开发Grpc应用程序提供了Spring友好的API和抽象。
 * [JProtobuf](https://github.com/jhunters/jprotobuf)：JProtobuf是针对Java程序开发的一套简易类库，目的是简化Java语言对protobuf类库的使用，百度开源。
 * [Polyglot](https://github.com/grpc-ecosystem/polyglot)：Polyglot是一个gRPC客户端，可以与任何gRPC服务器通信。
 * [Milkman](https://github.com/warmuuh/milkman)：Postman的可扩展替代方案，用于制作各种请求，不仅适用于gRPC，还适用于HTTP、SQL等。
@@ -2363,6 +2366,7 @@
 * [Decorator](https://github.com/eyeem/decorator)：动态继承库，装饰器模式的实现。
 * [AutoProxy](https://github.com/OleksandrKucherenko/autoproxy)：在接口/抽象类之上生成代理类，允许拦截调用。
 * [Dynamic Proxy](https://github.com/neoremind/dynamic-proxy)：Dynamic Proxy是用于Java生成代理对象的有用库。
+* [Pie](https://github.com/feiniaojin/pie)：Pie是一个可快速上手的责任链框架。
 
 ## 幂等处理
 
@@ -3138,6 +3142,7 @@
 
 ## WebAssembly
 
+* [GraalWasm](https://www.graalvm.org/webassembly/)：GraalWasm是一个适用于Java的高性能嵌入式WebAssembly运行时。
 * [Bytecoder](https://github.com/mirkosertic/Bytecoder)：用于将JVM字节码解释和转换为JavaScript、OpenCL或WebAssembly的框架。
 * [JWebAssembly](https://github.com/i-net-software/JWebAssembly)：Java字节码到WebAssembly的编译器。
 * [TeaVM](https://github.com/konsoletyper/teavm)：用于将Java字节码编译为JavaScript、WebAssembly和C。
