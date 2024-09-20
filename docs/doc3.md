@@ -682,6 +682,7 @@
 * [MATSim](https://github.com/matsim-org/matsim-libs)：MATSim提供了一个工具箱来运行和实施大规模基于代理的运输模拟，由柏林工业大学开源。
 * [EqaSim](https://github.com/eqasim-org/eqasim-java)：EqaSim包是用于基于代理和基于活动的传输模拟框架MATSim的准备运行的高质量场景的集合。
 * [OpenTrafficSim](https://github.com/averbraeck/opentrafficsim)：OpenTrafficSim是一个多级交通模拟器，由代尔夫特理工大学开源。
+* [RouteConverter](https://github.com/cpesch/RouteConverter)：RouteConverter是一款流行的开源工具，用于显示、编辑、丰富和转换路线、轨迹和航点。
 
 ## 几何学
 
