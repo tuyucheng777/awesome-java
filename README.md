@@ -533,7 +533,7 @@
 * [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
 * [CUBA Platform](https://github.com/cuba-platform/cuba)：CUBA Platform是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
 * [Tiny Framework](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
-* [Minum](https://github.com/byronka/minum)：一个从头开始构建的最小Java Web框架，零依赖，使用虚拟线程。
+* [Minum](https://github.com/byronka/minum)：Minum是一个从头开始构建的最小Java Web框架，零依赖，使用虚拟线程。
 * [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
 * [ACT Framework](https://gitee.com/actframework/actframework)：ACT是一个简洁易用，具有强大表达力的Java MVC全栈框架。
 * [Hasor](https://github.com/ClouGence/hasor)：Hasor是一套基于Java语言的开发框架，可以和现有技术体系做到完美融合，由开云集致开源。
@@ -548,13 +548,13 @@
 * [Albianj2](https://github.com/crosg/Albianj2)：Albianj是阅文集团设计并开发的一套分布式统一框架。
 * [Restlight](https://github.com/esastack/esa-restlight)：Restlight是一个轻量级且面向REST的Web框架。
 * [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
-* [Vert.x-Web](https://github.com/vert-x3/vertx-web)：Vert.x-Web是一组用于使用Vert.x构建Web应用程序的构建块。
+* [Vert.x Web](https://github.com/vert-x3/vertx-web)：Vert.x Web是一组用于使用Vert.x构建Web应用程序的构建块。
 * [TeamApps](https://github.com/teamapps-org/teamapps)：TeamApps是一个Java Web应用程序框架。
 * [DotWebStack](https://github.com/dotwebstack/dotwebstack-framework)：DotWebStack框架提供了一组标准化构建块，可以用最少的开发工作构建丰富的数据服务。
-* [Aspectran](https://github.com/aspectran/aspectran)：Aspectran是一个用于开发Java应用程序的框架，可用于构建简单的shell应用程序和大型企业Web应用程序。
 * [Prime MVC](https://github.com/prime-framework/prime-mvc)：Prime MVC是一个用Java构建的高性能模型视图控制器框架，由Inversoft公司开源。
-* [Tentackle](https://bitbucket.org/krake-oss/tentackle/src/master/)：Tentackle是一个开源Java框架，适用于在多个JVM上运行的分层应用程序，其灵感来自领域驱动设计的原理。
-* [appNG](https://github.com/appNG/appng)：appNG是一个Web应用程序平台和Web应用程序框架，基于Tomcat和Spring框架。
+* [Aspectran](https://github.com/aspectran/aspectran)：Aspectran是一个用于开发Java应用程序的框架，可用于构建简单的shell应用程序和大型企业Web应用程序。
+* [Tentackle](https://bitbucket.org/krake-oss/tentackle)：Tentackle是一个开源Java框架，适用于在多个JVM上运行的分层应用程序，其灵感来自领域驱动设计的原理。
+* [AppNG](https://github.com/appNG/appng)：AppNG是一个Web应用程序平台和Web应用程序框架，基于Tomcat和Spring框架。
 * [Wisdom](https://github.com/wisdom-framework/wisdom)：模块化、动态的Web框架。
 * [Nablarch](https://github.com/nablarch/nablarch)：Nablarch是一个基于中间件模式的Java应用程序框架。
 * [Astrix](https://github.com/AvanzaBank/astrix)：Astrix是一个Java框架，旨在简化微服务的开发和维护，由Avanza银行开源。
@@ -2999,6 +2999,7 @@
 * [Commons Core](https://github.com/ponfee/commons-core)：Java工具类库。
 * [XXL-TOOL](https://github.com/xuxueli/xxl-tool)：XXL-TOOL是一个Java工具类库，致力于让Java开发更高效。
 * [ACS AEM Commons](https://github.com/Adobe-Consulting-Services/acs-aem-commons)：这是包含一组可重用组件和AEM开发工具包的项目，由Adobe开源。
+* [Lazy](https://github.com/l123456789jy/Lazy)：Lazy包含一些常用的工具类。
 * [XUtils](https://github.com/wyouflf/xUtils3)：XUtils包含了ORM、HTTP、图片处理等工具类。
 * [LogiCommon](https://github.com/didi/LogiCommon)：LogiCommon包含认证、鉴权、管理、任务调度通用功能组件，由滴滴开源。
 * [Camellia](https://github.com/netease-im/camellia)：Camellia是网易云信开发的服务器基础组件。
