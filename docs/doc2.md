@@ -476,6 +476,7 @@
 * [AntiSamy](https://github.com/nahsra/antisamy)：AntiSamy是一个用于快速、可配置地清理来自不受信任来源的HTML的库。
 * [Fosstars Rating Core](https://github.com/SAP/fosstars-rating-core)：这是一个用于定义和计算开源项目评级的框架，由SAP开源。
 * [RFC3161 Timestamping Server](https://github.com/elbosso/rfc3161timestampingserver)：该项目提供了一个符合RFC 3161的时间戳权威/服务器。
+* [PortEx](https://github.com/struppigel/PortEx)：PortEx是一个用于对可移植可执行文件进行静态恶意软件分析的Java库。
 
 #### 安全工具
 
@@ -664,7 +665,7 @@
 
 ## 性能分析
 
-* [BTrace](https://github.com/btraceio/btrace)：BTrace是一个用于Java平台的安全、动态跟踪工具。
+* [BTrace](https://github.com/btraceio/btrace)：BTrace是一个用于Java平台的安全、动态跟踪工具，由SUN开源。
 * [jHiccup](https://github.com/giltene/jHiccup)：提供平台中JVM暂停的日志和记录，由Azul开源。
 * [Kamon](https://github.com/kamon-io/Kamon)：Kamon是一组用于检测在JVM上运行的应用程序的库。
 * [Spark](https://github.com/lucko/spark)：Spark是适用于Minecraft客户端、服务器和代理的性能分析器。
@@ -691,12 +692,12 @@
 * [Microservice Monitoring](https://github.com/xeraa/microservice-monitoring)：监控分布式(微)服务的日志、指标、ping和跟踪。
 * [KoTime](https://github.com/huoyo/ko-time)：KoTime是一个轻量级的Spring Boot项目性能分析工具，通过追踪方法调用链路以及对应的运行时长快速定位性能瓶颈。
 * [Djigger](https://github.com/exense/djigger)：Djigger是一个用于Java应用程序的生产就绪性能分析和监控解决方案，主要依赖于先进的全天候采样器和仪器代理模式。
-* [Eclipse Trace Compass](https://git.eclipse.org/r/plugins/gitiles/tracecompass/org.eclipse.tracecompass)：Eclipse Trace Compass是一个开源应用程序，通过读取和分析系统的日志或跟踪来解决性能和可靠性问题。
 * [JRat](https://jrat.sourceforge.net/)：JRat是一个低开销、易于使用的Java平台开源性能分析器。
 * [RemoraJ](https://github.com/Nastel/remoraj)：RemoraJ是一个可扩展的Java分析代理，它使用字节码检测以最小的开销拦截Java IPC调用。
 * [JETM](https://github.com/frenchc/jetm)：JETM是一个用于编程或声明式性能监控的Java库。
 * [DiSL](https://gitlab.ow2.org/disl/disl)：DiSL是一个Java字节码检测框架，旨在观察Java虚拟机中执行的程序。
 * [Kieker](https://github.com/kieker-monitoring/kieker)：Kieker提供动态分析功能，即监控和分析软件系统的运行时行为，从而实现应用程序性能监控和架构发现，由斯图加特大学和基尔大学开源。
+* [Eclipse Trace Compass](https://github.com/eclipse-tracecompass/org.eclipse.tracecompass)：Trace Compass是一款开源应用程序，可通过读取和分析系统日志或跟踪来解决性能和可靠性问题。
 
 ## GC日志分析
 
@@ -1461,6 +1462,7 @@
 * [Dotenv Kotlin](https://github.com/cdimascio/dotenv-kotlin)：用于Java和Kotlin的Ruby dotenv项目的端口。
 * [HWPLib](https://github.com/neolord0/hwplib)：Java的HWP库。
 * [MPXJ](https://github.com/joniles/mpxj)：该库使您能够从各种文件格式和数据库中读取项目计划(有时称为进度表或项目集)，还可以将该信息写入各种文件格式。
+* [OSMPBF](https://github.com/openstreetmap/OSM-binary)：OSMPBF是一个用于读取和写入OpenStreetMap PBF文件的Java/C++库。
 * [JavaDBF](https://github.com/albfernandez/javadbf)：用于读写Xbase(dBase/DBF)文件的Java库。
 * [WaveAccess](https://github.com/sintrb/WaveAccess)：波形文件(.wav)的Java读写操作库。
 * [JPMML-Evaluator](https://github.com/jpmml/jpmml-evaluator)：用于生成和使用PMML文档的Java库。
@@ -1811,7 +1813,6 @@
 * [Aliyun Java SDK](https://github.com/aliyun/aliyun-openapi-java-sdk)：阿里云Java SDK。
 * [Aliyun Log](https://github.com/aliyun/aliyun-log-java-sdk)：阿里云日志服务Java SDK。
 * [Azure Java SDK](https://github.com/Azure/azure-sdk-for-java)：Azure Java SDK。
-* [Azure IoT SDK Java](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
 * [Tencent SDK Java](https://github.com/TencentCloud/tencentcloud-sdk-java)：腾讯云API 3.0 Java SDK。
 * [Aliyun ODPS Java SDK](https://github.com/aliyun/aliyun-odps-java-sdk)：面向Java开发者的ODPS SDK。
 * [Volcengine Java SDK](https://github.com/volcengine/volcengine-java-sdk)：火山引擎Java SDK。
@@ -2143,6 +2144,8 @@
 * [Eclipse Kapua](https://github.com/eclipse/kapua)：Kapua是一个模块化平台，提供管理物联网网关和智能边缘设备所需的服务。
 * [Eclipse Hono](https://github.com/eclipse-hono/hono)：Hono提供统一(远程)服务接口，用于将大量IoT设备连接到(云)后端。
 * [Azure IoT SDK](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
+* [Eclipse Sparkplug](https://github.com/eclipse-sparkplug/sparkplug)：Sparkplug为网络边缘网关(Sparkplug边缘节点)或支持本机MQTT的终端设备与Sparkplug主机应用程序如何在MQTT基础设施内进行双向通信提供了开放且免费的规范。
+* [Eclipse Arrowhead](https://github.com/eclipse-arrowhead/core-java-spring)：Arrowhead是一个用于构建自动化和数字化解决方案的框架和实施平台。
 * [IOTGate](https://gitee.com/willbeahero/IOTGate)：Java版基于Netty的物联网高并发智能网关。
 * [Indriya](https://github.com/unitsofmeasurement/indriya)：JSR 385参考实现。
 * [SteVe](https://github.com/steve-community/steve)：SteVe于2013年在亚琛工业大学成立，提供了管理充电点、用户数据和用于用户身份验证的RFID卡的基本功能，并已在运行中进行了成功测试。
@@ -2170,6 +2173,7 @@
 
 * [MICROEJ](https://developer.microej.com/)：MicroEJ的使命是将虚拟化和OOP民主化到嵌入式世界。
 * [Arduino](https://github.com/arduino/Arduino)：Arduino是一个开源嵌入式硬件平台，用来供用户制作可交互式的嵌入式项目。
+* [Eclipse Mita](https://github.com/eclipse/mita)：Mita是一种用于嵌入式物联网的新型编程语言。
 * [CocktailPi](https://github.com/alex9849/CocktailPi)：基于树莓派的DIY鸡尾酒制作机的Web界面和控制软件。
 * [Pi4J](https://github.com/Pi4J/pi4j-v1)：Pi4J旨在为Java程序员提供一个友好的面向对象的I/O API和实现库，以访问Raspberry Pi平台的完整I/O功能，起源于瑞士西北应用科学与艺术大学。
 * [Ardulink 2](https://github.com/Ardulink/Ardulink-2)：Ardulink 2是一个完整的开源Java解决方案，用于控制和协调Arduino板。
