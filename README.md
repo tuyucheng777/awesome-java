@@ -165,8 +165,8 @@
   * [差分隐私](#差分隐私)
   * [计算机视觉](#计算机视觉)
   * [光学字符识别](#光学字符识别)
-* [约束求解](#约束求解)
-* [实体解析](#实体解析)
+* [约束求解](docs/doc2.md#约束求解)
+* [实体解析](docs/doc2.md#实体解析)
 * [数据科学](docs/doc2.md#数据科学)
 * [异常检测](docs/doc2.md#异常检测)
 * [商业智能](docs/doc2.md#商业智能)
@@ -199,14 +199,16 @@
   * [加密算法](docs/doc2.md#加密算法)
   * [接口加密](docs/doc2.md#接口加密)
 * [模板引擎](docs/doc2.md#模板引擎)
-* [诊断工具](docs/doc2.md#诊断工具)
-* [性能分析](docs/doc2.md#性能分析)
-* [日志分析](docs/doc2.md#日志分析)
-* [GC日志分析](docs/doc2.md#GC日志分析)
-* [堆转储](docs/doc2.md#堆转储)
-* [线程转储](docs/doc2.md#线程转储)
-* [对象测量](docs/doc2.md#对象测量)
-* [火焰图](docs/doc2.md#火焰图)
+* [应用分析与监控](docs/doc2.md#应用分析与监控)
+  * [诊断工具](docs/doc2.md#诊断工具)
+  * [性能分析](docs/doc2.md#性能分析)
+  * [Spring Boot仪表板](docs/doc2.md#SpringBoot仪表板)
+  * [日志分析](docs/doc2.md#日志分析)
+  * [GC日志分析](docs/doc2.md#GC日志分析)
+  * [堆转储](docs/doc2.md#堆转储)
+  * [线程转储](docs/doc2.md#线程转储)
+  * [对象测量](docs/doc2.md#对象测量)
+  * [火焰图](docs/doc2.md#火焰图)
 * [脚本](docs/doc2.md#脚本)
 * [CLI工具](docs/doc2.md#CLI工具)
 * [命令行参数解析](docs/doc2.md#命令行参数解析)
@@ -456,6 +458,7 @@
 * [形式验证](docs/doc3.md#形式验证)
 * [项目模板](docs/doc3.md#项目模板)
 * [印章生成](docs/doc3.md#印章生成)
+* [数据脱敏](docs/doc3.md#数据脱敏)
 * [N+1问题](docs/doc3.md#N1问题)
 * [敏感词过滤](docs/doc3.md#敏感词过滤)
 * [正则表达式](docs/doc3.md#正则表达式)
@@ -877,6 +880,7 @@
 ## REST错误处理
 
 * [Problem](https://github.com/zalando/problem)：Problem是一个实现application/problem+json的Java库，由Zalando开源。
+* [Problem Spring Web](https://github.com/zalando/problem-spring-web)：用于从Spring应用程序生成application/problem+json响应，由Zalando开源。
 * [EitherNet](https://github.com/slackhq/EitherNet)：EitherNet是一种多平台、可插入且密封的API结果类型，用于对Web API响应进行建模，由Slack开源。
 * [Backstopper](https://github.com/Nike-Inc/backstopper)：Backstopper是一个与框架无关的API错误处理和模型验证解决方案，适用于Java 7及更高版本，由Nike开源。
 * [Graceful Response](https://github.com/feiniaojin/graceful-response)：Graceful Response是一个Spring Boot技术栈下的优雅响应处理器，提供一站式统一返回值封装、全局异常处理、自定义异常错误码等功能。
@@ -943,6 +947,7 @@
 
 * [Rest Assured](https://github.com/rest-assured/rest-assured)：Rest Assured是用于轻松测试REST服务的Java DSL。
 * [Wisdom](https://github.com/wisdom-projects/rest-client)：Wisdom可以自动化测试REST API并生成精美的测试报告，同时基于测试过的历史数据，可以生成精美的REST API文档。
+* [Milkman](https://github.com/warmuuh/milkman)：Postman的可扩展替代方案，用于制作各种请求，不仅适用于gRPC，还适用于HTTP、SQL等。
 * [CATS](https://github.com/Endava/cats)：CATS是一个REST API模糊器和OpenAPI端点的负面测试工具，由Endava开源。
 * [Webtau](https://github.com/testingisdocumenting/webtau)：WebTau是一个测试API、命令行工具和一个用于编写单元、集成和端到端测试的框架。
 * [Stove](https://github.com/Trendyol/stove)：Stove是一个端到端测试框架，可以将物理依赖项和你的应用程序一起启动，由Trendyol开源。
@@ -2060,6 +2065,7 @@
 * [SnowJena](https://github.com/onblog/SnowJena)：SnowJena是基于令牌桶算法实现的分布式无锁限流框架，支持动态配置规则，支持可视化监控，开箱即用。
 * [FastBreak](https://github.com/Nike-Inc/fastbreak)：FastBreak是一个简单的Java 8原生断路器，支持异步Future、阻塞和回调/手动模式，由Nike开源。
 * [Token Bucket](https://github.com/bbeck/token-bucket)：该库提供了令牌桶算法的实现。
+* [RateLimiter Spring Boot Starter](https://github.com/taptap/ratelimiter-spring-boot-starter)：基于Redis的偏业务应用的分布式限流组件，目前支持时间窗口、令牌桶两种限流算法，由Taptap开源。
 
 #### 重试
 
@@ -2962,6 +2968,7 @@
 * [Sqlbrite](https://github.com/square/sqlbrite)：围绕SupportSQLiteOpenHelper和ContentResolver的轻量级包装器，它向查询引入了响应式流语义，由Square开源。
 * [StorIO](https://github.com/pushtorefresh/storio)：SQLiteDatabase和ContentResolver的响应式API。
 * [RxNetty](https://github.com/ReactiveX/RxNetty)：RxNetty是Netty的Rx适配器。
+* [Netty Reactive Streams](https://github.com/playframework/netty-reactive-streams)：Netty的Reactive Streams实现。
 * [Reactive gRPC](https://github.com/salesforce/reactive-grpc)：Reactive gRPC是一套将gRPC与Reactive Streams编程库结合使用的库，由Salesforce开源。
 * [Reactive Wizard](https://github.com/FortnoxAB/reactive-wizard)：Reactive Wizard项目可以轻松构建利用Reactor和Netty强大功能的高性能且可扩展的Web应用程序，由Fortnox开源。
 * [QBit](https://github.com/advantageous/qbit)：QBit是一个用于构建微服务的响应式编程库。
@@ -3342,6 +3349,7 @@
 * [Snack3](https://gitee.com/noear/snack3)：Snack3是一个高性能的JsonPath框架，支持序列化反序列化、解析和转换、构建、查找、JsonPath查询。
 * [JsonSurfer](https://github.com/wanglingsong/JsonSurfer)：Java中的流式JsonPath处理器。
 * [JMESPath Java](https://github.com/burtcorp/jmespath-java)：这是JMESPath的Java实现。
+* [Vert.x JsonPath](https://github.com/NoEnv/vertx-jsonpath)：Vert.x JsonPath是使用Vert.x的JsonObject和JsonArray对JsonPath的一个非常基本的实现。
 
 ## 缓存库
 
@@ -3656,6 +3664,7 @@
 * [ConfigKeeper](https://gitee.com/sxfad/config-keeper)：ConfigKeeper是由随行付基于Spring Cloud研发的分布式配置中心。
 * [JadConfig](https://github.com/Graylog2/JadConfig)：JadConfig是一个最小依赖的Java的简约注解驱动配置解析框架。
 * [Sjsonnet](https://github.com/databricks/sjsonnet)：Jsonnet配置语言的JVM实现，由Databricks开源。
+* [Fig](https://github.com/theapache64/fig)：使用Google Sheet作为远程配置。
 
 ## 功能切换
 
@@ -3846,6 +3855,7 @@
 * [Java LangChain](https://github.com/Starcloud-Cloud/java-langchain)：Java-LangChain是一个Java 8+的LangChain实现，在Java环境中构建强大的基于LLM的应用程序。
 * [CodeMind](https://github.com/Intelligent-CAT-Lab/CodeMind)：CodeMind是一个用于评估LLMs归纳代码推理的通用框架，它配备了静态分析组件，可以对结果进行深入分析，由伊利诺伊大学香槟分校开源。
 * [HugAi](https://github.com/TouShang6015/Hugai-chatgpt)：HugAi是由Spring Boot集成Open AI SDK开发的一套智能AI知识库，支持GPT对话，AI绘图Midjourney、Stable Diffusion、Open AI。
+* [LangGraph4j](https://github.com/bsorrentino/langgraph4j)：Java版LangGraph。
 
 #### LLM客户端
 
@@ -3868,6 +3878,7 @@
 #### 机器学习
 
 * [Angel](https://github.com/Angel-ML/angel)：Angel是一个基于参数服务器理念的高性能分布式机器学习和图计算平台，由腾讯联合北京大学开源。
+* [XGBoost](https://github.com/dmlc/xgboost)：XGBoost是一个优化的分布式梯度提升库，旨在高效、灵活和便携，由NVIDIA开源。
 * [Spark MLlib](https://github.com/apache/spark/tree/master/mllib)：Spark的可扩展机器学习库。
 * [Alluxio](https://github.com/Alluxio/alluxio)：Alluxio是一个面向基于云的数据分析和人工智能的数据编排技术，由加州大学伯克利分校AMP实验室开源。
 * [Smile](https://github.com/haifengl/smile)：Smile是一个使用Java和Scala编写的快速且全面的机器学习、NLP、线性代数、图形、插值和可视化系统。
@@ -4091,37 +4102,6 @@
 * [TreeHole OCR](https://github.com/AnyListen/tools-ocr)：TreeHole OCR是一款跨平台的OCR小工具，调用本地OCR进行识别，无需联网即可使用用到的技术和框架。
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
 * [RapidOcr Java](https://github.com/MyMonsterCat/RapidOcr-Java)：Java代码实现调用RapidOCR。
-
-## 约束求解
-
-* [OptaPlanner](https://github.com/apache/incubator-kie-optaplanner)：OptaPlanner是一个轻量级、可嵌入的约束满足引擎，可优化规划问题，最初由RedHat开发。
-* [Choco Solver](https://github.com/chocoteam/choco-solver)：Choco Solver是一个用于约束编程的开源Java库，由国立南特高等矿业学院开发。
-* [JaCoP](https://github.com/radsz/jacop)：JaCoP是基于Java的开源求解器，由瑞典隆德大学开发和维护。
-* [Alloy](https://github.com/AlloyTools/org.alloytools.alloy)：Alloy是一个独立的可执行文件，其中包括Kodkod模型查找器和各种SAT求解器，由MIT开源。
-* [Sat4j](https://gitlab.ow2.org/sat4j/sat4j)：Sat4j是一个用于解决布尔满足和优化问题的Java库，它可以解决SAT、MAXSAT、伪布尔、最小不可满足子集问题，由阿图瓦大学开源。
-* [DuaLip](https://github.com/linkedin/DuaLip)：DuaLip是一种基于Spark的超大规模线性规划(LP)求解器，由LinkedIn开发。
-* [EUROPA](https://github.com/nasa/europa)：EUROPA是一个用于建模和解决规划、调度和约束规划问题的框架，NASA艾姆斯研究中心开源。
-* [Timefold](https://github.com/TimefoldAI/timefold-solver)：Timefold是开源AI求解器，用于优化Java、Python或Kotlin中的操作和调度。
-* [ACE](https://github.com/xcsp3team/ACE)：ACE是用Java开发的开源约束求解器，由阿图瓦大学开源。
-* [OptaPy](https://github.com/optapy/optapy)：OptaPy是Python的人工智能约束求解器，可优化车辆路线问题、员工排班、维护计划、任务分配、学校时间表、云优化、会议安排、作业车间调度、装箱和更多规划问题。
-* [JSolver](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=fff2046e43828a00c406835be84b571553b65087)：JSolver扩展了面向对象基于约束的声明式编程的Java编程范式，由香港城市大学开源。
-* [JSprit](https://github.com/graphhopper/jsprit)：JSprit是一个基于Java的开源工具包，用于解决丰富的旅行商问题(TSP)和车辆路径问题(VRP)。
-* [MiniCP](https://github.com/minicp/minicp)：MiniCP是一个用Java实现的轻量级CP求解器，由康涅狄格大学、鲁汶大学、佐治亚理工学院的三位教授共同开发。
-* [JavaSMT](https://github.com/sosy-lab/java-smt)：JavaSMT是用于访问各种SMT求解器的通用API层，由德国慕尼黑大学开源。
-* [CPSolver](https://github.com/UniTime/cpsolver)：CPSolver库包含一个基于本地搜索的框架，允许使用约束编程原语(变量、值、约束)对问题进行建模。
-* [Kiwi Solver](https://github.com/google/kiwi-solver)：Kiwi是一款专为教育设计的简约且可扩展的约束规划求解器，由Google开源。
-* [SMTInterpol](https://github.com/ultimate-pa/smtinterpol)：SMTInterpol是弗莱堡大学开发的插值SMT求解器。
-* [Statix Solver](https://mvnrepository.com/artifact/org.metaborg/statix.solver)：由代尔夫特理工大学开源的约束求解器。
-* [JSCIPOpt](https://github.com/scipopt/JSCIPOpt)：SCIP是目前混合整数规划(MIP)和混合整数非线性规划(MINLP)最快的非商业求解器之一，由柏林自由大学开源。
-* [CLP Java](https://github.com/quantego/clp-java)：CLP线性求解器的Java接口，针对快速模型构建和快速解析进行了优化。
-
-## 实体解析
-
-* [Zingg](https://github.com/zinggAI/zingg)：Zingg是一种基于ML的实体解析工具。
-* [JedAI](https://github.com/scify/JedAIToolkit)：JedAI是一个开源、高可扩展性的Java实体解析工具包，由鲁汶大学、巴黎西岱大学、摩德纳雷焦艾米利亚大学开源。
-* [Duke](https://github.com/larsga/Duke)：Duke是一款快速灵活的重复数据删除引擎。
-* [Zentity](https://github.com/zentity-io/zentity)：Zentity是一个用于实时实体解析的Elasticsearch插件。
-* [ReCiter](https://github.com/wcmc-its/ReCiter)：ReCiter是一个高度准确的系统，用于猜测某个人在PubMed上发表了哪些出版物，由康奈尔大学开源。
 
 ## [本体库-音视频处理](docs/doc2.md)
 
