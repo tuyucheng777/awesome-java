@@ -2462,6 +2462,7 @@
 * [Fluent Mybatis](https://github.com/atool/fluent-mybatis)：Fluent MyBatis是一个MyBatis增强工具。
 * [MybatisPlus Ext](https://gitee.com/dromara/mybatis-plus-ext)：MybatisPlus
   Ext对MybatisPlus做了进一步的拓展封装，即保留原功能，又添加了更多有用便捷的功能。
+* [Mybatis MP](https://gitee.com/mybatis-mp/mybatis-mp)：Mybatis MP是一款基于Mybatis的ORM框架。
 * [Mybatis PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)：Mybatis通用分页插件。
 * [Mapper](https://github.com/abel533/Mapper)：易于使用的Mybatis通用Mapper。
 * [Mapper](https://gitee.com/free/Mapper)：极其方便的使用Mybatis单表的增删改查工具。
