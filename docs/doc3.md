@@ -93,6 +93,7 @@
 * [ObjectLayout](https://github.com/ObjectLayout/ObjectLayout)：ObjectLayout提供了一组数据结构类，这些类的设计考虑了优化的内存布局。
 * [NetflixGraph](https://github.com/Netflix/netflix-graph)：NetflixGraph是一种紧凑的内存数据结构，用于表示有向图数据，由Netflix开源。
 * [BPlusTree](https://github.com/andylamp/BPlusTree)：一种高效、简洁、简单的纯磁盘B+Tree数据结构实现。
+* [CoralRing](https://github.com/coralblocks/CoralRing)：CoralRing是堆外共享内存中的超低延迟、无锁、无垃圾、批处理和并发循环队列(环)，用于使用内存映射文件跨不同JVM进行Java进程间通信。
 * [NetworkAnalysis](https://github.com/CWTSLeiden/networkanalysis)
   ：该库提供了用于网络分析的算法和数据结构，专注于网络的聚类(或社区检测)和布局(或映射)。
 * [Time-Utilities](https://github.com/Breinify/brein-time-utilities)：包含多个时间相关数据和索引结构(
@@ -180,6 +181,7 @@
 ## 算法库
 
 * [TLAPlus](https://github.com/tlaplus/tlaplus)：TLC是一个显式状态模型检查器，用于检查以TLA+编写的规范，TLA+Toolbox是TLA+的IDE。
+* [WikiSort](https://github.com/BonzaiThePenguin/WikiSort)：WikiSort是“块合并排序”的一种实现。
 * [Stream Lib](https://github.com/addthis/stream-lib)：Stream Lib是一个用于汇总无法存储所有事件的流中数据的Java库，由AddThis开源。
 * [Hashids.java](https://github.com/yomorun/hashids-java)：Hashids算法Java实现。
 * [AhoCorasickDoubleArrayTrie](https://github.com/hankcs/AhoCorasickDoubleArrayTrie)：基于双数组Trie结构的Aho-Corasick算法的极快实现。
@@ -1005,6 +1007,7 @@
 * [DWR](https://github.com/directwebremoting/dwr)：DWR是一个Java库，它使服务器上的Java和浏览器中的JavaScript能够尽可能简单地交互和调用。
 * [J2C](https://github.com/arnetheduck/j2c)：J2C可以将Java代码转换为可编译的C++(11)代码。
 * [JTcl](https://github.com/jtcl-project/jtcl)：JTcl是用Java编写的Tcl(工具命令语言)的实现。
+* [PemJa](https://github.com/alibaba/pemja)：PemJa是一个基于FFI的开源跨语言调用框架，由阿里开源。
 * [JNI4NET](https://github.com/jni4net/jni4net)：JVM和CLR之间的快速、面向对象、进程内桥梁。
 * [Trireme](https://github.com/apigee/trireme)：Trireme在JVM内运行Node.js脚本。
 * [Javonet](https://www.javonet.com/)：Javonet是一个高级库，可以在任何编程语言和模块之间进行直接方法调用，从而无需集成层。
@@ -1386,6 +1389,7 @@
 
 * [CLDR](https://github.com/unicode-org/cldr)：CLDR为支持世界语言的软件提供了关键构建块，拥有最大、最广泛的可用区域设置数据标准存储库，由Unicode
   Consortium开源。
+* [Java Locales](https://github.com/spotify/java-locales)：集中并标准化Java组件中Unicode区域设置的使用的库，由Spotify开发。
 * [L10nMessages](https://github.com/pinterest/l10nmessages)：L10nMessages是一个使Java应用程序的国际化(i18n)和本地化(l10n)
   变得简单且安全的库，由Pinterest开源。
 * [NV-1i8n](https://github.com/TakahikoKawasaki/nv-i18n)：支持国际化的包，包含ISO 3166-1国家代码枚举、ISO 639-1语言代码枚举、ISO
@@ -1474,6 +1478,7 @@
 ## 形式验证
 
 * [CATG](https://github.com/ksen007/janala2)：Concolic单元测试引擎，使用形式化方法自动生成单元测试。
+* [Asmeta](https://github.com/asmeta/asmeta)：Asmeta是抽象状态机(ASM)形式化方法的框架，它由用于执行不同验证和确认活动的不同工具组成，米兰大学开源。
 * [Checker Framework](https://checkerframework.org/)：可插拔类型系统，包括空类型、物理单位、不变性类型等等。
 * [Daikon](https://github.com/codespecs/daikon)：检测可能的程序不变量并根据这些不变量生成JML规范，由华盛顿大学开源。
 * [Java PathFinder](https://github.com/javapathfinder/jpf-core)：JVM形式验证工具，包含模型检查器等，由NASA开源。
@@ -1559,6 +1564,7 @@
 * [Java::Geci](https://github.com/verhas/javageci)：Java::Geci是一个用于生成Java代码的库，可以使用Java::
   Geci执行代码生成程序来生成新的源代码或修改现有的Java源文件。
 * [Fulib](https://github.com/fujaba/fulib)：Fulib是一个为UML类模型和一些模型管理功能提供代码生成的库，使用Java
+* [Wsilk](https://github.com/wuba/wsilk)：Wsilk是一个辅助开发人员通过Java语言生成代码的一个工具框架，由58同城开源。
   API提供的特定于域的语言，它允许你定义类、属性以及与元模型的关联。
 * [AutoRecord](https://github.com/pawellabaj/auto-record)：AutoRecord是一个代码生成器，可以帮助你轻松生成Java记录。
 * [MAKU](https://gitee.com/makunet/maku-generator)：一款低代码生成器，可根据自定义模板内容，快速生成代码，可实现项目的快速开发、上线，减少重复的代码编写。
@@ -2121,6 +2127,8 @@
 
 * [SQLSolver](https://github.com/SJTU-IPADS/SQLSolver)：SQLSolver是一个查询等效性验证器，由上海交通大学、耶鲁大学、纽约大学和普林斯顿大学的研究人员开发。
 * [JSqlParser](https://github.com/JSQLParser/JSqlParser)：JSqlParser是一个与RDBMS无关的SQL语句解析器，它将SQL语句转换为可遍历的Java类层次结构。
+* [SQL Parser](https://www.sqlparser.com/sql-parser-java.php)：SQL Parser提供了对各种数据库的SQL脚本的深入和详细分析，这是一个付费产品。
+* [ElasticSearch SQL](https://github.com/iamazy/elasticsearch-sql)：使用Antlr4将SQL解析为ElasticSearch DSL。
 
 ## 解析器组合器
 
