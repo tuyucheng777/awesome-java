@@ -128,6 +128,7 @@
 * [IoC](#IoC)
 * [AOP](#AOP)
 * [日志库](#日志库)
+* [结构化日志](#结构化日志)
 * [JSON库](#JSON库)
 * [JsonPath](#JsonPath)
 * [序列化](#序列化)
@@ -251,10 +252,11 @@
   * [HTML库](docs/doc2.md#HTML库)
   * [XML库](docs/doc2.md#XML库)
   * [YML库](docs/doc2.md#YML库)
-  * [文件库](docs/doc2.md#文件库)
-  * [文件转换](docs/doc2.md#文件转换)
+  * [Outlook库](docs/doc2.md#Outlook库)
   * [License库](docs/doc2.md#License库)
   * [Markdown库](docs/doc2.md#Markdown库)
+  * [文件库](docs/doc2.md#文件库)
+  * [文件转换](docs/doc2.md#文件转换)
 * [集群管理](docs/doc2.md#集群管理)
 * [软件质量](docs/doc2.md#软件质量)
 * [编码规范](docs/doc2.md#编码规范)
@@ -288,7 +290,6 @@
 * [Kubernetes客户端](docs/doc2.md#Kubernetes客户端)
 * [消息队列客户端](docs/doc2.md#消息队列客户端)
 * [Etcd客户端](docs/doc2.md#Etcd客户端)
-* [游戏服务器](docs/doc2.md#游戏服务器)
 * [即时通讯](docs/doc2.md#即时通讯)
 * [视频会议](docs/doc2.md#视频会议)
 * [FTP服务器](docs/doc2.md#FTP服务器)
@@ -351,7 +352,14 @@
   * [反编译](docs/doc2.md#反编译)
   * [代码混淆](docs/doc2.md#代码混淆)
   * [逆向工程](docs/doc2.md#逆向工程)
-  * [游戏开发](docs/doc2.md#游戏开发)
+* [游戏开发](docs/doc2.md#游戏开发)
+  * [游戏引擎](docs/doc2.md#游戏引擎)
+  * [游戏服务器](docs/doc2.md#游戏服务器)
+  * [游戏开发库](docs/doc2.md#游戏开发库)
+  * [实体框架](docs/doc2.md#实体框架)
+  * [游戏编辑器](docs/doc2.md#游戏编辑器)
+  * [开源游戏](docs/doc2.md#开源游戏)
+  * [游戏开发工具](docs/doc2.md#游戏开发工具)
 * [2D/3D渲染](docs/doc2.md#2D3D渲染)
 * [移动开发框架](docs/doc2.md#移动开发框架)
 * [JVM代理](docs/doc2.md#JVM代理)
@@ -622,7 +630,7 @@
 * [Apache Thrift](https://github.com/apache/thrift)：Thrift是一个轻量级、独立于语言的软件堆栈，用于点对点RPC实现，由Facebook开源。
 * [OCTO-RPC](https://github.com/Meituan-Dianping/octo-rpc)：OCTO-RPC是支持Java和C++的企业级通信框架，在RPC服务之上扩展了丰富的服务治理功能，由美团开源。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint/tree/master/rpc)：Naver开源的RPC框架，服务于Pinpoint。
-* [TChannel](https://github.com/uber/tchannel-java)：TChannel协议的Java实现，由Uber开源。
+* [TChannel](https://github.com/uber/tchannel)：TChannel是一种用于一般RPC的网络框架协议，支持无序响应，性能极高，中间人可以快速做出转发决策，由Uber开源。
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
 * [Joynr](https://github.com/bmwcarit/joynr)：Joynr是一个与传输协议无关(MQTT、HTTP、WebSockets等)、基于Franca IDL的通信框架，支持多种通信范例，由宝马开源。
@@ -630,7 +638,8 @@
 * [DubboX](https://github.com/dangdangdotcom/dubbox)：DubboX在Dubbo框架中添加了RESTful远程处理、Kyro/FST序列化等功能，由当当开发。
 * [DubboG](https://github.com/lenovoDTC/dubbo-G)：DubboG是联想基于Dubbo 2.5.3的二次开发版本。
 * [NettyRPC](https://github.com/luxiaoxun/NettyRpc)：NettyRpc是一个基于Netty、ZooKeeper和Spring的简单RPC框架。
-* [tRPC Java](https://github.com/trpc-group/trpc-java)：tRPC Java作为tRPC的Java语言实现，是一个久经考验的微服务框架，由腾讯开源。
+* [tRPC](https://github.com/trpc-group/trpc-java)：tRPC Java作为tRPC的Java语言实现，是一个久经考验的微服务框架，由腾讯开源。
+* [JoyRPC](https://github.com/jd-opensource/joyrpc)：JoyRPC是一款基于Java实现的RPC服务框架，由京东开源。
 * [Koalas RPC](https://gitee.com/dromara/koalas-rpc)：Koalas是dromara社区开源的高可用、可拓展的RPC框架。
 * [Kotlinx RPC](https://github.com/Kotlin/kotlinx-rpc)：Kotlinx RPC是一个Kotlin库，用于向应用程序添加RPC服务，由JetBrains开源。
 * [IceRPC](https://github.com/zeroc-ice/ice)：IceRPC是一个新的开源RPC框架，可帮助你使用很少的代码构建速度极快的网络应用程序。
@@ -638,7 +647,6 @@
 * [XXL-RPC](https://github.com/xuxueli/xxl-rpc)：XXL-RPC是一个分布式服务框架，提供稳定高性能的RPC远程服务调用功能。
 * [RSocket RPC](https://github.com/rsocket/rsocket-rpc-java)：RSocket RPC标准Java实现。
 * [RPC Framework](https://github.com/Snailclimb/guide-rpc-framework)：RPC Framework是一款基于Netty、Kyro、Zookeeper实现的自定义RPC框架。
-* [JoyRPC](https://github.com/jd-opensource/joyrpc)：JoyRPC是一款基于Java实现的RPC服务框架，由京东开源。
 * [Sekiro](https://github.com/yint-tech/sekiro-open)：Sekiro是一个多语言、分布式、与网络拓扑无关的服务发布平台，由因体信息开源。
 * [ONCRPC4J](https://github.com/dCache/oncrpc4j)：ONCRPC4J是ONCRPC/SUNRPC的纯Java实现，由费米实验室、德国电子加速器、北欧数据网格设施共同开源。
 * [Hprose](https://github.com/hprose/hprose-java)：Hprose是一个高性能远程对象服务引擎。
@@ -1102,6 +1110,7 @@
 * [Power Assert](https://github.com/jkschneider/java-power-assert)：Power Assert通过条件评估过程中产生的值的信息来增强断言失败，并以易于理解的形式呈现它们。
 * [Visible Assertions](https://github.com/rnorth/visible-assertions)：JUnit断言的替代方案，为你的测试提供更有洞察力的日志叙述。
 * [LogCapture](https://github.com/jsalinaspolo/logcapture)：LogCapture是一个用于断言日志消息的测试库。
+* [Log Capture](https://github.com/dm-drogeriemarkt/log-capture)：日志消息的简单断言。
 * [Atrium](https://github.com/robstoll/atrium)：Atrium是一个针对Kotlin的开源多平台期望/断言库，支持JVM、JS和Android。
 * [ModelAssert](https://github.com/webcompere/model-assert)：用于模型数据的断言库。
 * [Valid4j](https://github.com/valid4j/valid4j)：Java的简单断言和验证库。
@@ -2654,6 +2663,7 @@
 * [InfiniteGraph](http://www.objectivity.com/products/infinitegraph/)：InfiniteGraph是一个用Java和C++实现的分布式图数据库，这是Objectivity公司的产品。
 * [AnzoGraph](https://cambridgesemantics.com/anzograph/)：AnzoGraph是为在线分析和数据协调而构建的水平可扩展图数据库。
 * [Galaxybase](https://galaxybase.com/)：Galaxybase是浙江创邻科技公司研发的分布式图数据库产品。
+* [YouTrackDB](https://github.com/youtrackdb/youtrackdb)：YouTrackDB是一个面向对象的图数据库，支持文档、全文搜索、响应性和地理空间概念，由JetBrains开源。
 * [BlazeGraph](https://github.com/blazegraph/database)：Blazegraph是一个超高性能图数据库，支持蓝图和RDF/SPARQL API。
 * [AllegroGraph](https://allegrograph.com/)：AllegroGraph是一个闭源的三元组存储，也可用作文档存储，目前用于美国国防部项目。
 * [Gaffer](https://github.com/gchq/Gaffer)：Gaffer是一个图数据库框架，它允许存储在节点和边上包含丰富属性的非常大的图，由英国政府通讯总部开源。
@@ -2810,6 +2820,7 @@
 * [DingoDB](https://github.com/dingodb/dingo)：DingoDB是由DataCanvas设计和开发的开源分布式多模态向量数据库。
 * [Simbase](https://github.com/guokr/simbase)：Simbase是一个类似Redis的向量相似度数据库，由果壳科技开源。
 * [Cottontail DB](https://github.com/vitrivr/cottontaildb)：Cottontail DB是一个旨在多媒体检索的列存储，它允许经典的布尔和向量空间检索，即相似性搜索中使用的最近邻查找，由巴塞尔大学开源。
+* [VectoRex](https://gitee.com/giteeClass/VectoRex)：VectoRex是一个纯Java实现的高性能、可扩展的向量搜索引擎，专为现代AI和大数据应用设计。
 
 #### 对象数据库
 
@@ -3241,11 +3252,9 @@
 * [JBoss Logging](https://github.com/jboss-logging/jboss-logging)：JBoss Logging是一个日志门面，可以绑定到不同的日志管理器。
 * [Timbermill](https://github.com/salesforce/Timbermill)：Timbermill是专为ElasticSearch构建的高级开源日志服务，Salesforce开源。
 * [Scala Logging](https://github.com/lightbend-labs/scala-logging)：Scala Logging是一个包装SLF4J的方便快捷的日志库，由Lightbend开源。
-* [ECS Logging Java](https://github.com/elastic/ecs-logging-java)：ECS Logging Java可帮助开发者轻松地实现结构化日志。
 * [Logger](https://github.com/orhanobut/logger)：简单、功能强大的Android日志记录器。
 * [BqLog](https://github.com/Tencent/BqLog)：BqLog是一款轻量级、高性能的日志系统，应用于《王者荣耀》等项目中，由腾讯开源。
 * [Timbre](https://github.com/taoensso/timbre)：Timbre是纯Clojure/Script日志记录库。
-* [Java Grok](https://github.com/thekrakken/java-grok)：使用Java Grok，你可以将非结构化日志和事件数据转换为结构化数据(JSON)。
 * [Google Cloud Logging](https://github.com/googleapis/java-logging)：用于Java的Google Cloud Logging客户端库。
 * [GFLog](https://github.com/epam/gflog)：GFLog是适用于Java 8+的高效无垃圾日志记录框架，由EPAM开源。
 * [Timber](https://github.com/JakeWharton/timber)：Timber是一个带有小型可扩展API的记录器，它在Android的普通Log类之上提供实用程序。
@@ -3274,26 +3283,32 @@
 * [Logback Android](https://github.com/tony19/logback-android)：Logback Android是用于Android的精简版Logback。
 * [Zerolog](https://github.com/obsidiandynamics/zerolog)：Zerolog是一个日志门面，适用于性能敏感应用程序。
 * [Yolo](https://github.com/ustream/yolo)：Java中的日志尾随和解析框架，Ustream开源。
-* [Penna](https://github.com/hkupty/penna)：Penna是SLF4j的一个后端，专注于以JSON格式将结构化日志记录到控制台。
 * [BizLog](https://github.com/mouzt/mzt-biz-log)：Spring Boot注解通用操作日志组件，美团员工开源。
 * [Napier](https://github.com/AAkira/Napier)：Napier是Kotlin Multiplatform的记录器库。
 * [KLogging](https://github.com/klogging/klogging)：KLogging是一个纯Kotlin日志库，它使用Kotlin习惯用法来创建记录器和发送日志事件。
 * [Syslog4j](https://github.com/syslog4j/syslog4j)：Syslog4j提供Syslog协议(RFC 3164)和结构化Syslog协议(RFC 5424)的客户端和服务器实现，由JetBrains开源。
 * [Log4JDBC](https://github.com/arthurblake/log4jdbc)：Log4JDBC是一个Java JDBC驱动程序，可以使用SLF4J记录其他JDBC驱动程序的SQL和/或JDBC调用。
-* [Echopraxia](https://github.com/tersesystems/echopraxia)：Echopraxia是一个围绕结构化日志记录设计的Java API。
 * [OWASP Security Logging](https://github.com/augustd/owasp-security-logging)：用于记录安全相关事件的标准Java API。
 * [Logstash Logback Encoder](https://github.com/logfellow/logstash-logback-encoder)：Logback JSON编码器和附加器。
 * [Logback GELF](https://github.com/osiegmar/logback-gelf)：用于发送GELF消息的Logback Appender。
-* [Terse Logback](https://github.com/tersesystems/terse-logback)：Terse Logback是Logback扩展的集合，功能包括结构化日志记录、跟踪和可观察性。
 * [Log4j2 ElasticSearch](https://github.com/rfoltyns/log4j2-elasticsearch)：这是Log4j2 Appender插件的父项目，能够将日志批量推送到Elasticsearch集群。
 * [Logback Extensions](https://github.com/qos-ch/logback-extensions)：Logback Extensions项目为Logback日志框架提供社区支持的扩展。
 * [Splunk Logging](https://github.com/splunk/splunk-library-javalogging)：适用于流行Java日志框架的Splunk日志Appender。
 * [Logback More Appender](https://github.com/sndyuk/logback-more-appenders)：Logback的附加Appender，可以毫无顾虑地提供更好的性能和数据一致性。
 * [Logback Redis Appender](https://github.com/kmtong/logback-redis-appender)：将日志记录到Redis的Logback Appender。
-* [CloudFoundry Java Logging](https://github.com/SAP/cf-java-logging-support)：CloudFoundry的Java日志记录支持，可以创建结构化日志消息和收集请求指标，由SAP开源。
 * [TNT4J](https://github.com/Nastel/TNT4J)：TNT4J旨在通过易于使用的API来跟踪应用程序、活动、事务、行为和性能，其行为非常类似于日志记录框架。
 * [Rainbow Gum](https://github.com/jstachio/rainbowgum)：Rainbow Gum是一个快速、小型、JDK 21+、GraalVM原生友好的SLF4J日志框架。
 * [LogEvents](https://github.com/jhannes/logevents)：LogEvents是一个小型日志记录框架，构建在SLF4J之上。
+
+## 结构化日志
+
+* [Java Grok](https://github.com/thekrakken/java-grok)：使用Java Grok，你可以将非结构化日志和事件数据转换为结构化数据(JSON)。
+* [ECS Logging Java](https://github.com/elastic/ecs-logging-java)：ECS Logging Java可帮助开发者轻松地实现结构化日志。
+* [Structured Logging](https://github.com/dm-drogeriemarkt/structured-logging)：构化日志实用程序，设计用于与Logback和Logstash配合使用。
+* [Penna](https://github.com/hkupty/penna)：Penna是SLF4j的一个后端，专注于以JSON格式将结构化日志记录到控制台。
+* [Terse Logback](https://github.com/tersesystems/terse-logback)：Terse Logback是Logback扩展的集合，功能包括结构化日志记录、跟踪和可观察性。
+* [CloudFoundry Java Logging](https://github.com/SAP/cf-java-logging-support)：CloudFoundry的Java日志记录支持，可以创建结构化日志消息和收集请求指标，由SAP开源。
+* [Echopraxia](https://github.com/tersesystems/echopraxia)：Echopraxia是一个围绕结构化日志记录设计的Java API。
 
 ## JSON库
 
@@ -3519,6 +3534,7 @@
 * [Dexecutor](https://github.com/dexecutor/dexecutor-core)：Dexecutor是一个非常轻量级的框架，可以以可靠的方式执行依赖/独立任务，为此它提供了最少的API。
 * [Rqueue](https://github.com/sonus21/rqueue)：Rqueue是一个为Spring框架构建的异步任务执行器，基于Redis支持的Spring框架的消息传递库。
 * [JBoss Threads](https://github.com/jbossas/jboss-threads)：JBoss Threads是一个管理和执行Java线程的库。
+* [ConcurrentUtil](https://github.com/Tuinity/ConcurrentUtil)：适用于多线程安全编程的高性能实用程序。
 
 #### Future扩展
 
