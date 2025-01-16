@@ -282,6 +282,7 @@
 
 * [C-OCR](https://github.com/ctripcorp/C-OCR)：C-OCR是携程自研的OCR项目，主要包括身份证、护照、火车票、签证等旅游相关证件、材料的识别。
 * [Aspose.OCR](https://products.aspose.com/ocr/java/)：Aspose OCR是一种高效、用户友好且经济高效的OCR API。
+* [Spire.OCR](https://www.e-iceblue.com/Introduce/ocr-for-java.html)：Spire.OCR是一个专业的OCR库，可从JPG、PNG、GIF、BMP和TIFF格式的图像中读取文本。
 * [SikuliX](https://github.com/RaiMan/SikuliX1)：SikuliX可以自动化你在运行Windows、Mac或某些Linux/Unix的台式计算机屏幕上看到的任何内容，它使用由OpenCV提供支持的图像识别来识别GUI组件，并可以通过鼠标和键盘操作对其进行操作。
 * [CompreFace](https://github.com/exadel-inc/CompreFace)：Exadel CompreFace是一项免费的开源人脸识别服务，无需具备机器学习技能即可轻松集成到任何系统中。
 * [Face Recognition](https://github.com/Qualeams/Android-Face-Recognition-with-Deep-Learning-Library)：Face Recognition是用于Android和Java的人脸识别库，由苏黎世应用科学大学开源。
@@ -1725,6 +1726,7 @@
 * [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF)：这是一个强大的本地托管基于Web的PDF操作工具，允许对PDF文件执行各种操作，例如拆分合并、转换、重新组织、添加图像、旋转、压缩等。
 * [iText](https://github.com/itext/itext7)：iText是一个经过考验的高性能库，可创建、改编、检查和维护PDF文档。
 * [Aspose.PDF](https://products.aspose.com/pdf/java/)：Aspose.PDF是一个原生库，可让开发人员为其应用程序添加PDF处理功能。
+* [Spire.PDF](https://www.e-iceblue.com/Introduce/pdf-for-java.html)：Spire.PDF是一个PDF API，它使Java应用程序无需使用Adobe Acrobat即可读取、写入和保存PDF文档。
 * [OpenPDF](https://github.com/LibrePDF/OpenPDF)：OpenPDF是一个用于PDF文件的开源Java库。
 * [X-EasyPDF](https://gitee.com/dromara/x-easypdf)：X-EasyPDF是一个基于PDFBox/FOP二次封装的框架，由dromara社区开源。
 * [PDFsam](https://github.com/torakiki/pdfsam)：PDFsam是一款用于拆分、合并、混合、旋转PDF文件和提取页面的桌面应用程序。
@@ -1753,6 +1755,8 @@
 * [Apache POI](https://github.com/apache/poi)：POI是用于读写Office二进制和OOXML文件格式的Java库。
 * [EasyExcel](https://github.com/alibaba/easyexcel)：EasyExcel是一个基于Java的、快速、简洁、解决大文件内存溢出的Excel处理工具，由阿里开源。
 * [FastExcel](https://github.com/CodePhiliaX/fastexcel)：EasyExcel最新升级版本，快速、简洁、解决大文件内存溢出的Java处理Excel工具。
+* [Aspose.Cells](https://products.aspose.com/cells/java/)：Aspose.Cells提供Excel文件生成、转换和操作。
+* [Spire.XLS](https://www.e-iceblue.com/Introduce/xls-for-java.html)：Spire.XLS是一个专业的Java Excel API，使开发人员无需使用Microsoft Office或Microsoft Excel即可创建、管理、操作、转换和打印Excel工作表。
 * [Docx4j](https://github.com/plutext/docx4j)：Docx4j是一个开源库，用于创建、编辑和保存OpenXML“包”，包括docx、pptx和xslx。
 * [MyExcel](https://github.com/liaochong/myexcel)：MyExcel是一个集导入导出、加密Excel等多项功能的工具包。
 * [EasyPOI](https://gitee.com/lemur/easypoi)：EasyPOI是一个POI工具库，提供了Excel的快速导入导出、Excel模板导出、Word模板导出。
@@ -1809,10 +1813,17 @@
 #### Word库
 
 * [Aspose.Words](https://products.aspose.com/words/java/)：Aspose.Words是一个原生库，它为开发人员提供了丰富的功能来创建、编辑和转换Word、PDF、Web文档，而无需在系统上安装Microsoft Word环境。
+* [Spire.Doc](https://www.e-iceblue.com/Introduce/doc-for-java.html)：Spire.Doc是一个专业的Word API，它使Java应用程序能够创建、转换、处理和打印Word文档，而无需依赖Microsoft Word。
 * [POI-TL](https://github.com/Sayi/poi-tl)：POI-TL是一个Word模板引擎，可以根据Word模板和数据生成新文档。
 * [Docx4j](https://github.com/plutext/docx4j)：Docx4j是一个开源库，用于创建、编辑和保存OpenXML“包”，包括docx、pptx和xslx。
 * [Docx Stamper](https://github.com/thombergs/docx-stamper)：Docx Stamper是一个用于docx文档的Java模板引擎。
 * [WordGO](https://github.com/qrpcode/wordgo)：让Java生成word文档更容易。
+
+#### PPT库
+
+* [Aspose.Slides](https://products.aspose.com/slides/java/)：Aspose.Slides是一个用于演示文稿操作和管理的Java PowerPoint API。
+* [Spire.Presentation](https://www.e-iceblue.com/Introduce/presentation-for-java.html)：Spire.Presentation是一个专业的PowerPoint API，它使开发人员能够在Java应用程序中创建、读取、编写、转换和保存PowerPoint文档。
+* [PPTShow](https://github.com/qrpcode/pptshow)：Java生成PPT文档工具包，支持2010版PPTX新功能。
 
 #### Toml库
 
@@ -1932,8 +1943,6 @@
 * [LibPST](https://github.com/rjohnsondev/java-libpst)：用Java读取PST文件的库。
 * [jOpenDocument](https://www.jopendocument.org/)：用于OASIS Open Document文件操作的纯Java库。
 * [CDC](https://gitlab.com/cdc-java/cdc-office)：与Office文档相关的工具类。
-* [PPTShow](https://github.com/qrpcode/pptshow)：Java生成PPT文档工具包，支持2010版PPTX新功能。
-* [Aspose.Slides](https://products.aspose.com/slides/java/)：Aspose.Slides是一个用于演示文稿操作和管理的Java PowerPoint API。
 * [DotEnv](https://github.com/cdimascio/dotenv-java)：Ruby DotEnv项目的无依赖、纯Java端口，用于从.env文件加载环境变量。
 * [Dotenv Kotlin](https://github.com/cdimascio/dotenv-kotlin)：用于Java和Kotlin的Ruby dotenv项目的端口。
 * [HWPLib](https://github.com/neolord0/hwplib)：Java的HWP库。
