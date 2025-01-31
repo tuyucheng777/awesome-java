@@ -518,6 +518,8 @@
 * [IIWA STACK](https://github.com/IFL-CAMP/iiwa_stack)：适用于KUKA LBR IIWA R800/R820(7/14公斤)的ROS Indigo/Kinetic元包。
 * [MASON](https://github.com/eclab/mason)：MASON是一个基于Java的快速代理模拟库核心，旨在成为大型定制Java模拟的基础，并为许多轻量级模拟需求提供足够的功能，由乔治梅森大学开源。
 * [VirtualRoBot](https://github.com/Beta8397/virtual_robot)：VirtualRoBot是一款2D机器人模拟器，帮助初学者学习FTC Robotics的Java编程，由FTC Team 8397 Beta开源。
+* [Pedro Pathing](https://github.com/Pedro-Pathing/PedroPathing)：Pedro Pathing是一种先进的反应矢量跟随器，由FTC团队10158开发，旨在彻底改变机器人的自主导航。
+* [Third Coast](https://github.com/strykeforce/thirdcoast)：适用于FRC机器人的Third Coast转向驱动和遥测API，由Stryke Force FRC 2767机器人团队开发。
 
 ## 数学库
 
@@ -1431,6 +1433,7 @@
 * [Avaj](https://github.com/cg-dot/avaj)：Avaj是一个Java混淆器。
 * [Paramorphism](https://paramorphism.dev/)：Paramorphism是一个快速、现代的混淆器，支持Java 8到13、Kotlin和其他JVM语言。
 * [Serianalyzer](https://github.com/mbechler/serianalyzer)：Serianalyzer是一个静态字节码分析器，跟踪反序列化期间调用的方法进行的原生方法调用。
+* [Kex](https://github.com/vorpal-research/kex)：Kex是一个用于分析Java字节码的平台，由Jetbrains开发。
 
 ## 图像处理
 
@@ -1609,6 +1612,7 @@
 * [Crawler](https://github.com/vidageek/crawler)：简单的Java网络爬虫库。
 * [Fess Crawler](https://github.com/codelibs/fess-crawler)：Fess Crawler是一个用于爬取网站和文件系统的爬虫库。
 * [URL Frontier](https://github.com/crawler-commons/url-frontier)：URL Frontier项目的目标是开发一个爬虫/语言中立的API，用于网络爬虫在与网络前沿通信时执行的操作。
+* [Skraper](https://github.com/sokomishalov/skraper)：Kotlin/Java库和CLI工具，用于从各种来源抓取帖子和媒体，无需授权也无需整页渲染。
 
 ## 批处理框架
 
@@ -1729,6 +1733,7 @@
 * [Apigen](https://github.com/apiaddicts/apigen.springboot)：Apigen允许使用OpenAPI文件作为OpenAPI定义和数据库之间的映射工具来生成Spring Boot原型。
 * [AutoRest Java](https://github.com/Azure/autorest.java)：用于生成Java代码的AutoRest扩展。
 * [Swagger Brake](https://github.com/redskap/swagger-brake)：Swagger-Brake是一个简单的工具，可以验证新版本的API是否会破坏现有版本。
+* [OpenAPI Processor Spring](https://github.com/openapi-processor/openapi-processor-spring)：适用于Spring Boot的OpenAPI 3.0和3.1接口和模型Java代码生成器。
 
 ## 技术文档
 
@@ -2510,6 +2515,7 @@
 * [Universal Resolver](https://github.com/decentralized-identity/universal-resolver)：通用解析器实现和驱动程序。
 * [OmniJ](https://github.com/OmniLayer/OmniJ)：Omni Layer的Java/JVM实现，Omni Layer是一个基于比特币区块链构建的开源、完全去中心化的资产创建平台。
 * [Convex](https://github.com/Convex-Dev/convex)：Convex是价值互联网的去中心化网络和执行引擎。
+* [Waltid Identity](https://github.com/walt-id/waltid-identity)：多平台库、强大的API和易于使用的白标应用程序来构建身份和钱包解决方案。
 
 #### 区块链
 
@@ -3591,6 +3597,7 @@
 * [JObfuscator](https://www.pelock.com/products/jobfuscator)：JObfuscator是Java语言的源代码混淆器。
 * [Enigma](https://github.com/FabricMC/Enigma)：Enigma是用于Java字节码反混淆的工具。
 * [JMD](https://github.com/yocontra/JMD)：JMD是一个通用的Java字节码反混淆工具。
+* [Gruntpocalypse](https://github.com/SpartanB312/Grunt)：Gruntpocalypse是一个用Kotlin编写的JVM字节码混淆器，具有30多种功能。
 
 #### 逆向工程
 
@@ -3622,6 +3629,7 @@
 * [LibGDX](https://github.com/libgdx/libgdx)：LibGDX是一个基于OpenGL的跨平台Java游戏开发框架，专为Windows、Linux、macOS、Android、Web浏览器和iOS设计。
 * [LWJGL](https://github.com/LWJGL/lwjgl3)：LWJGL是一个Java库，支持跨平台访问流行的原生API，可用于图形(OpenGL、Vulkan、bgfx)、音频(OpenAL、Opus)、并行计算(OpenCL、CUDA)和XR(OpenVR、LibOVR、OpenXR)应用程序。
 * [FXGL](https://github.com/AlmasB/FXGL)：Java/JavaFX/Kotlin游戏引擎库。
+* [Godot Kotlin/JVM](https://github.com/utopia-rise/godot-kotlin-jvm)：这是Godot游戏引擎的Kotlin语言绑定。
 * [KTX](https://github.com/libktx/ktx)：KTX是一个扩展LibGDX的Kotlin游戏框架。
 * [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine)：jMonkeyEngine是一款适合富有冒险精神的Java开发人员的3D游戏引擎。
 * [Defold](https://github.com/defold/defold)：Defold是一款完全免费的游戏引擎，可用于开发桌面、移动和Web游戏。

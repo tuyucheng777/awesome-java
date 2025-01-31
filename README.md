@@ -391,6 +391,7 @@
   * [Zookeeper库/工具](docs/doc3.md#Zookeeper库工具)
   * [ClickHouse库/工具](docs/doc3.md#ClickHouse库工具)
   * [ElasticSearch库/工具](docs/doc3.md#ElasticSearch库工具)
+  * [DynamoDB库/工具](docs/doc3.md#DynamoDB库工具)
 * [Pub/Sub库](docs/doc2.md#PubSub库)
 * [对象存储](docs/doc3.md#对象存储)
 * [音视频处理](docs/doc3.md#音视频处理)
@@ -580,6 +581,7 @@
 * [SOFABoot](https://github.com/sofastack/sofa-boot)：SOFABoot是一个基于Spring Boot的Java开发框架，由蚂蚁开源。
 * [Vaadin](https://github.com/vaadin/framework)：Vaadin允许你使用纯Java高效构建现代Web应用程序，而无需接触低级Web技术。
 * [Jooby](https://github.com/jooby-project/jooby)：Jooby是一个现代、高性能且易于使用的Java和Kotlin Web框架上。
+* [Elide](https://github.com/elide-dev/elide)：Elide是一个用于开发快速Web应用程序的云优先多语言运行时。
 * [JSweet](https://github.com/cincheo/jsweet)：JSweet利用TypeScript通过JavaScript库和框架用Java编写丰富且响应迅速的Web应用程序。
 * [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
 * [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA(Rich Internet Applications)的SDK，由Adobe维护。
@@ -2520,6 +2522,7 @@
 
 #### 消息中间件
 
+* [Amazon SQS](https://aws.amazon.com/cn/sqs/)：Amazon SQS是亚马逊公司在2004年推出的分布式消息队列服务。
 * [Apache Kafka](https://github.com/apache/kafka)：Kafka是一个开源分布式事件流平台，已被数千家公司用于高性能数据管道、流分析、数据集成和关键任务应用程序，由LinkedIn开源。
 * [Apache Pulsar](https://github.com/apache/pulsar)：Pulsar是一个分布式Pub-Sub消息传递平台，具有非常灵活的消息传递模型和直观的客户端API，由Yahoo开源。
 * [Apache ActiveMQ](https://github.com/apache/activemq)：ActiveMQ是一个高性能的消息代理。
@@ -2885,6 +2888,7 @@
 
 #### NoSQL数据库
 
+* [Amazon DynamoDB](https://aws.amazon.com/dynamodb)：Amazon DynamoDB是一种无服务器、NoSQL、完全托管的数据库，在任何规模下都具有个位数毫秒的性能。
 * [Apache Cassandra](https://github.com/apache/cassandra)：Cassandra是一种高度可扩展的分区行存储，由Facebook开源。
 * [Apache HBase](https://github.com/apache/hbase)：HBase是一个开源、分布式、版本化、面向列的存储，这是Google Bigtable的开源版本。
 * [Apache IoTDB](https://github.com/apache/iotdb)：IoTDB是时序数据的数据管理系统，为用户提供数据采集、存储、分析等特定服务，该项目由清华大学主导。
@@ -3930,6 +3934,7 @@
 * [EUROPA](https://github.com/nasa/europa)：EUROPA是一个用于建模和解决规划、调度和约束规划问题的框架，NASA艾姆斯研究中心开源。
 * [Timefold](https://github.com/TimefoldAI/timefold-solver)：Timefold是开源AI求解器，用于优化Java、Python或Kotlin中的操作和调度。
 * [ACE](https://github.com/xcsp3team/ACE)：ACE是用Java开发的开源约束求解器，由阿图瓦大学开源。
+* [CVC5](https://github.com/cvc5/cvc5)：CVC5是一种用于确定一阶公式对一阶理论(或此类理论的组合)的可满足性的工具，由伯克利大学和三星研究院开发。
 * [OptaPy](https://github.com/optapy/optapy)：OptaPy是Python的人工智能约束求解器，可优化车辆路线问题、员工排班、维护计划、任务分配、学校时间表、云优化、会议安排、作业车间调度、装箱和更多规划问题。
 * [JSolver](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=fff2046e43828a00c406835be84b571553b65087)：JSolver扩展了面向对象基于约束的声明式编程的Java编程范式，由香港城市大学开源。
 * [JSprit](https://github.com/graphhopper/jsprit)：JSprit是一个基于Java的开源工具包，用于解决丰富的旅行商问题(TSP)和车辆路径问题(VRP)。
@@ -3942,6 +3947,7 @@
 * [JSCIPOpt](https://github.com/scipopt/JSCIPOpt)：SCIP是目前混合整数规划(MIP)和混合整数非线性规划(MINLP)最快的非商业求解器之一，由柏林自由大学开源。
 * [CLP Java](https://github.com/quantego/clp-java)：CLP线性求解器的Java接口，针对快速模型构建和快速解析进行了优化。
 * [EasyCSP](https://github.com/cordisvictor/easycsp-lib)：EasyCSP是一个用于约束满足编程的开源Java库。
+* [KSMT](https://github.com/UnitTestBot/ksmt)：满足各种SMT求解器的统一Kotlin/Java API。
 
 ## API管理
 
