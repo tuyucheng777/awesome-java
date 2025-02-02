@@ -124,6 +124,7 @@
 * [CodeMind](https://github.com/Intelligent-CAT-Lab/CodeMind)：CodeMind是一个用于评估LLMs归纳代码推理的通用框架，它配备了静态分析组件，可以对结果进行深入分析，由伊利诺伊大学香槟分校开源。
 * [HugAi](https://github.com/TouShang6015/Hugai-chatgpt)：HugAi是由Spring Boot集成Open AI SDK开发的一套智能AI知识库，支持GPT对话，AI绘图Midjourney、Stable Diffusion、Open AI。
 * [LangGraph4j](https://github.com/bsorrentino/langgraph4j)：Java版LangGraph。
+* [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
 
 #### LLM客户端
 
@@ -536,6 +537,8 @@
 * [Jampack](https://math.nist.gov/pub/Jampack/Jampack/AboutJampack.html)：Jampack是一个协作类的集合，旨在在Java应用程序中执行矩阵计算，由马里兰大学和美国国家标准与技术研究院开发。
 * [JAMA](https://math.nist.gov/javanumerics/jama/)：JAMA是Java的基本线性代数包，它提供了用于构造和操作真实的稠密矩阵的用户级类，由马里兰大学和美国国家标准与技术研究院开发。
 * [Symja](https://github.com/axkr/symja_android_library)：Symja是计算机代数语言和符号数学库，用纯Java实现的流行算法的集合。
+* [Jeigen](https://github.com/hughperkins/jeigen)：Jeigen提供了高性能C++矩阵库Eigen的包装器。
+* [Graphulo](https://github.com/Accla/graphulo)：Graphulo是一个用于Accumulo数据库的Java库，提供服务器端稀疏矩阵数学原语，支持更高级别的图形算法和分析，MIT开源。
 * [Orbital](https://github.com/LS-Lab/orbital)：Orbital是一个Java类库，为逻辑、数学和计算机科学提供面向对象的表示和算法，由卡尔斯鲁厄理工学院开源。
 * [Jafama](https://github.com/jeffhain/jafama)：Jafama是一个Java库，旨在提供更快版本的java.lang.Math处理，最终代价是1e-15ish精度误差，但仍能正确处理特殊情况。
 * [Ryu](https://github.com/ulfjack/ryu)：该项目包含使用最短、固定%f和科学%e格式将IEEE-754浮点数转换为十进制字符串的例程。
@@ -794,6 +797,7 @@
 * [ChemicalTagger](https://github.com/BlueObelisk/chemicaltagger)：ChemicalTagger是化学领域语义文本挖掘的工具。
 * [JMol](https://github.com/BobHanson/Jmol-SwingJS)：JMol是一个开源Java/SwingJS应用程序，用于可视化和分析具有化学品特征的3D分子结构、晶体、材料和生物分子。
 * [SMSD](https://github.com/asad/smsd)：SMSD是一个基于Java的软件库，用于查找小分子之间的最大公共子图(MCS)/子结构，由欧洲生物信息学研究所开源。
+* [Indigo](https://github.com/epam/Indigo)：通用化学信息学工具包、实用程序和数据库搜索工具。
 * [LaMa4J](https://lama4j.di.unimi.it/)：LaMa4J是一组实现许多晶格和晶格运算的Java类。
 * [Toxtree](https://toxtree.sourceforge.net/)：Toxtree是一个功能齐全、灵活、用户友好的开源应用程序，它能够通过应用决策树方法来估计毒性危害。
 * [OPSIN](https://github.com/dan2097/opsin)：OPSIN是一个用于IUPAC名称到结构转换的Java库，可为有机化学命名法提供高召回率和精确度，由剑桥大学化学系开源。
@@ -1538,6 +1542,7 @@
 * [XZ Java](https://github.com/tukaani-project/xz-java)：XZ Java是纯Java中XZ数据压缩的完整实现。
 * [LibDeflate Java](https://github.com/astei/libdeflate-java)：该项目为libdeflate库提供了安全、高性能的JNI绑定。
 * [HtmlCompressor](https://github.com/hazendaz/htmlcompressor)：HtmlCompressor通过删除多余的空格、注释和其他不需要的字符来缩小给定的HTML或XML源，而不会破坏内容结构。
+* [7 Zip JBinding](https://github.com/borisbrodski/sevenzipjbinding)：7 Zip JBinding是7-Zip免费压缩/解压缩库的免费跨平台Java绑定。
 
 ## 数组库
 
@@ -1880,6 +1885,7 @@
 * [jWebForm](https://github.com/jochen777/jWebForm)：jWebForm可以以简洁的方式定义HTML表单，用请求变量填充它们，验证并从中构建HTML。
 * [AttoParser](https://github.com/attoparser/attoparser)：AttoParser是一个用于XML和HTML标签的Java解析器。
 * [RenderSnake](https://github.com/emicklei/rendersnake)：RenderSnake是一个Java库，用于创建仅使用Java生成HTML的组件和页面。
+* [Ultralight Java](https://github.com/LabyMod/ultralight-java)：Ultralight Web引擎的Java包装器，Ultralight是一款轻量级、跨平台的HTML渲染引擎，适用于桌面应用和游戏。
 
 #### XML库
 
@@ -2227,6 +2233,7 @@
 * [AsmoBoot](https://github.com/RotaNova/asmoboot)：AsmoBoot是基于Spring Boot开发的快速开发框架，由福建新航科技公司开源。
 * [Dont-code](https://dont-code.net/)：Dont-code是一个低代码/无代码平台，允许用户基于IT开发的完整功能集创建自己的应用程序。
 * [Nussknacker](https://github.com/TouK/nussknacker)：Nussknacker是一款低代码可视化工具，可供领域专家构建、运行和监控实时决策算法，而不是在代码中实现它们。
+* [JeeLowCode](https://gitee.com/jeelowecode/JeeLowCode)：JeeLowCode是一款基于芋道源码精心二次封装的企业级低代码开发框架。
 
 ## Data API
 
@@ -2264,7 +2271,6 @@
 * [Axelor Open Platform](https://github.com/axelor/axelor-open-suite)：Axelor开放平台是一个开源Java框架，用于创建现代商业应用程序。
 * [Scipio ERP](https://github.com/ilscipio/scipio-erp)：Scipio ERP是一个基于Java 11+和内置Tomcat应用服务器的开源业务应用程序工具包。
 * [YesCart](https://github.com/inspire-software/yes-cart)：YesCart是一个使用Java技术构建的电子商务平台。
-* [NFE](https://github.com/wmixvideo/nfe)：Java中的电子发票。
 * [Qalingo](https://github.com/qalingo/qalingo-engine)：Qalingo是一个为B2C和B2B业务开发的开源Java电子商务平台。
 * [Mayocat](https://github.com/jvelo/mayocat-shop)：Mayocat是一个Java开源市场和电子商务平台。
 * [Kadro Merchant](https://kadro.com/ecommerce/)：Kadro Merchant是一个基于Java的全功能电子商务框架，专为电子商务业务生命周期的任何阶段而设计。
@@ -2788,11 +2794,16 @@
 * [IBC](https://github.com/IbcAlpha/IBC)：IBC可以自动化运行盈透证券交易者工作站和网关的许多方面。
 * [Billy](https://github.com/premium-minds/billy)：Billy是一个应用程序计费库，为应用程序提供创建、管理和存储计费工件(例如发票和贷方票据)的能力。
 * [Mustang](https://github.com/ZUGFeRD/mustangproject)：Mustang使你能够读取、写入和验证(例如重新计算)机器可读的发票、订单或交货通知。
-* [Java_NFe](https://github.com/Samuel-Oliveira/Java_NFe)：用于使用NFe/NFCe WebService的Java库。
 * [Univocity Trader](https://github.com/uniVocity/univocity-trader)：Univocity Trader是一个开源交易框架，旨在使任何具有基本编程技能的人都能有效地创建和测试用于买卖股票、加密货币或任何其他类型工具的交易算法。
 * [TA-Lib](https://github.com/BYVoid/TA-Lib)：TA-Lib是用于市场分析的多平台工具。
 * [Eclipse Tradista](https://github.com/eclipse-tradista/tradista)：Tradista是一种轻量级的金融风险管理解决方案，使你能够使用单一工具管理你的日常财务和风险管理任务。
 * [Quandl4J](https://github.com/jimmoores/quandl4j)：Quandl是一个通过开放REST API提供数百万个免费数据集的来源，涵盖金融、经济、社会和国家数据。
+
+## 电子发票
+
+* [NFE](https://github.com/wmixvideo/nfe)：Java中的电子发票。
+* [Java_NFe](https://github.com/Samuel-Oliveira/Java_NFe)：用于使用NFe/NFCe WebService的Java库。
+* [RSHK jsifenlib](https://github.com/roshkadev/rshk-jsifenlib)：RSHK jsifenlib是一个开源库，无需外部依赖，通过Java与SIFEN(全国综合电子发票系统)进行交互。
 
 ## 短信
 
@@ -3693,10 +3704,15 @@
 * [Slick2D](https://slick.ninjacave.com/)：Slick2D是一组易于使用的工具和实用程序，围绕LWJGL、OpenGL绑定，使2D Java游戏开发变得更加容易。
 * [ODE4j](https://github.com/tzaeschke/ode4j)：ODE是一个用于模拟刚体动力学的开源高性能库。
 * [JInput](https://github.com/jinput/jinput)：用于访问输入设备的库，由Sun公司游戏技术小组发起。
-* [Baritone](https://github.com/cabaletta/baritone)：Baritone是Impact从4.4版本开始使用的寻路系统。
 * [Dyn4j](https://github.com/dyn4j/dyn4j)：纯Java 2D碰撞检测和物理引擎，旨在快速、稳定、可扩展且易于使用。
 * [SquidLib](https://github.com/yellowstonegames/SquidLib)：SquidLib是一个功能非常齐全的库，部分目标是制作传统Roguelike和类似类型的游戏。
 * [Libbulletjme](https://github.com/stephengold/Libbulletjme)：BulletPhysics和V-HACD的JNI接口。
+
+#### 寻路算法
+
+* [Baritone](https://github.com/cabaletta/baritone)：Baritone是Impact从4.4版本开始使用的寻路系统。
+* [Pathetic](https://github.com/Metaphoriker/pathetic)：一个高性能、向后兼容、异步且易于使用的寻路库，用Java编写，适用于3D环境。
+* [Recast4j](https://github.com/recast4j/recast4j)：Recast和Detour导航网格工具集的Java端口。
 
 #### 实体框架
 

@@ -327,6 +327,7 @@
 * [V4L4j](https://code.google.com/archive/p/v4l4j/)：V4L4j是一个Java包，它提供了从Java简单访问Video4Linux(V4L) API捕获接口的功能。
 * [FMJ](http://fmj-sf.net/)：FMJ是一个开源项目，其目标是提供Java媒体框架(JMF)的替代方案，同时保持与JMF的API兼容。
 * [Tracker](https://github.com/OpenSourcePhysics/tracker)：基于开源物理(OSP)框架构建的视频分析和建模工具。
+* [MWEngine](https://github.com/igorski/MWEngine)：适用于Android的音频引擎和DSP库，以C++编写，在音乐环境中提供低延迟性能，同时提供Java/Kotlin API。
 
 ## 数据结构
 
@@ -502,7 +503,6 @@
 * [LensKit](https://github.com/lenskit/lenskit)：LensKit是协作过滤算法的实现以及一组用于对其进行基准测试的工具。
 * [Compression](https://github.com/lichess-org/compression)：lichess.org的国际象棋时钟和着法压缩算法。
 * [Timeseries-Forecast](https://github.com/Workday/timeseries-forecast)：这是一个Java开源库，提供时序预测功能。
-* [Graphulo](https://github.com/Accla/graphulo)：Graphulo是一个用于Accumulo数据库的Java库，提供服务器端稀疏矩阵数学原语，支持更高级别的图形算法和分析，MIT开源。
 * [Delaunay Triangulation](https://github.com/jdiemke/delaunay-triangulator)：增量2D Delaunay三角剖分算法的简单Java实现。
 * [JavaReedSolomon](https://github.com/Backblaze/JavaReedSolomon)：这是一个简单而高效的Java Reed-Solomon实现。
 * [Hnswlib](https://github.com/jelmerk/hnswlib)：用于执行近似最近邻搜索的分层可导航小世界图(HNSW)算法的Java实现。
@@ -548,6 +548,8 @@
 * [GlueGen](https://github.com/sgothel/gluegen)：GlueGen是一个用于函数和数据结构声明的编译器，可在编译时离线生成Java和JNI C代码，并允许在Java应用程序中使用本机库。
 * [Native Platform](https://github.com/gradle/native-platform)：用于各种本机API的跨平台Java API的集合，由Gradle团队开源。
 * [Libcore Syscall](https://github.com/cinit/LibcoreSyscall)：Libcore Syscall是一个适用于Android的Java库，允许你直接从Java代码进行任何Linux系统调用。
+* [JNI HPP](https://github.com/mapbox/jni.hpp)：JNI HPP是一个现代的、类型安全的、仅标头的C++14 JNI包装器，其目的是使从C++调用Java或从Java调用C++变得方便而安全。
+* [JNI4Android](https://github.com/bilibili/jni4android)：从伪Java生成C包装器，由B站开源。
 
 ## 操作系统信息
 
@@ -950,6 +952,7 @@
 * [Visual-QR-Code](https://gitee.com/boat824109722/visual-qr-code)：可以创建出设置了虚拟背景图片的二维码。
 * [QRext4j](https://gitee.com/BYSRepo/qrext4j)：一个简单易用的二维码生成工具，可自定义二维码颜色和码眼样式。
 * [FiwanQRCode](https://gitee.com/frogchou/FiwanQRCode)：飞网开发的二维码生成工具。
+* [WeChatQRCode](https://github.com/jenly1314/WeChatQRCode)：WeChatQRCode是一个基于OpenCV开源的微信二维码引擎移植封装的二维码识别库。
 * [QRCode Generator](https://github.com/kazuhikoarase/qrcode-generator)：以JavaScript、Java等语言实现的QR码生成器。
 * [QRGenerator](https://github.com/androidmads/QRGenerator)：二维码生成器库。
 * [QRCode-Utils](https://github.com/binarywang/qrcode-utils)：二维码生成工具。
@@ -1126,6 +1129,7 @@
 * [Maxent](https://github.com/mrmaxent/Maxent)：Maxent是一个独立的Java应用程序，用于对物种地理分布进行建模，由美国自然历史博物馆开源。
 * [JavAPRSlib](https://github.com/ab0oo/javAPRSlib)：JavAPRSlib是一个用于解析和创建APRS数据包的Java库。
 * [GeoGeometry](https://github.com/jillesvangurp/geogeometry)：GeoGeometry是一组用于处理地理哈希和具有地理坐标的几何形状的算法和函数。
+* [Mapbox Java SDK](https://github.com/mapbox/mapbox-java)：Mapbox Java SDK包含路线、地理编码以及更多可在Android或Java应用程序中使用的API。
 
 ## 大地测量
 
@@ -2547,6 +2551,7 @@
 * [JIDT](https://github.com/jlizier/jidt)：JIDT提供了复杂系统中分布式计算的信息论测量的独立、开源代码Java实现。
 * [Metis](https://github.com/europeana/metis-framework)：Metis是数据发布框架，包括客户端应用程序和许多数据处理服务，由欧洲数位图书馆开源。
 * [Hello eBPF](https://github.com/parttimenerd/hello-ebpf)：允许直接用Java编写eBPF程序。
+* [MetarParser](https://github.com/mivek/MetarParser)：这个Java库提供了Metar和TAF解码器。
 
 ## 教程系列
 

@@ -312,6 +312,7 @@
   * [Modbus](docs/doc2.md#Modbus)
   * [USB库](docs/doc2.md#USB库)
 * [金融](docs/doc2.md#金融)
+* [电子发票](docs/doc2.md#电子发票)
 * [短信](docs/doc2.md#短信)
 * [DSL](docs/doc2.md#DSL)
 * [JMX](docs/doc2.md#JMX)
@@ -362,6 +363,7 @@
   * [游戏引擎](docs/doc2.md#游戏引擎)
   * [游戏服务器](docs/doc2.md#游戏服务器)
   * [游戏开发库](docs/doc2.md#游戏开发库)
+  * [寻路算法](docs/doc2.md#寻路算法)
   * [实体框架](docs/doc2.md#实体框架)
   * [游戏编辑器](docs/doc2.md#游戏编辑器)
   * [开源游戏](docs/doc2.md#开源游戏)
@@ -1600,6 +1602,7 @@
 * [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs)：Find Security Bugs是用于Java Web应用程序安全审核的SpotBugs插件，由OWASP开源。
 * [Tai-e](https://github.com/pascal-lab/Tai-e)：Tai-e是一个易于学习/使用的Java静态分析框架，由南京大学开源。
 * [NullAway](https://github.com/uber/NullAway)：NullAway是一个帮助消除Java代码中的NPE的工具，由Uber开源。
+* [CodeCompass](https://github.com/Ericsson/CodeCompass)：CodeCompass是一个用C/C++和Java编写的大型软件的软件理解工具，由爱立信开源。
 * [JPlag](https://github.com/jplag/JPlag)：JPlag查找一组多个程序之间的成对相似性，它可以可靠地检测软件开发中的软件抄袭和共谋行为(即使是在混淆的情况下)，由卡尔斯鲁厄理工学院开源。
 * [Eclipse Steady](https://github.com/eclipse/steady)：Steady分析你的Java应用程序是否存在已知漏洞的开源依赖，同时使用静态分析和测试来确定代码上下文和使用情况，以提高准确性，由SAP开源。
 * [Checker Framework](https://github.com/typetools/checker-framework)：Checker Framework增强了Java的类型系统，这使得软件开发人员能够检测并防止其Java程序中的错误，由华盛顿大学开源。
@@ -1871,6 +1874,7 @@
 * [Koupleless](https://github.com/koupleless/koupleless)：Koupleless是一种模块化的Serverless技术解决方案，它能让普通应用以比较低的代价演进为Serverless研发模式，由蚂蚁开源。
 * [Powertools Lambda Java](https://github.com/aws-powertools/powertools-lambda-java)：Powertools是一个开发工具包，用于实现Serverless最佳实践并提高开发人员速度。
 * [Serverless Java Container](https://github.com/awslabs/aws-serverless-java-container)：Serverless Java Container让你可以在AWS Lambda中轻松运行使用Spring、Spring Boot、Struts、Jersey或Spark等框架编写的Java应用程序。
+* [AWS Lambda Java Libraries](https://github.com/aws/aws-lambda-java-libs)：在AWS Lambda平台上运行Java的关键库。
 * [Spring Cloud Function](https://github.com/spring-cloud/spring-cloud-function)：基于Spring Boot的函数计算框架。
 * [Apache OpenWhisk](https://github.com/apache/openwhisk)：OpenWhisk是一个用于构建云应用程序的Serverless函数平台，由IBM开源。
 * [Joylive Agent](https://github.com/jd-opensource/joylive-agent)：用于多活(单元)场景下流量治理的Java字节码增强框架，由京东开源。
