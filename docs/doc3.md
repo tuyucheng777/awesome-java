@@ -1566,6 +1566,7 @@
 * [NV-1i8n](https://github.com/TakahikoKawasaki/nv-i18n)：支持国际化的包，包含ISO 3166-1国家代码枚举、ISO 639-1语言代码枚举、ISO 15924脚本代码枚举等。
 * [Mojito](https://github.com/box/mojito)：Mojito是一个持续本地化平台，依靠持续集成将所有软件字符串收集到一处，实时查看哪些产品需要本地化。
 * [Tolgee](https://github.com/tolgee/tolgee-platform)：Tolgee是一个本地化平台，允许你将应用程序翻译成任何语言，而无需修改代码。
+* [Humanize](https://github.com/mfornos/humanize)：Humanize是一种Java工具，用于为数据添加国际化。
 * [Tradukisto](https://github.com/allegro/tradukisto)：用于将数字转换为其单词表示形式的Java库，由Allegro开源。
 * [Kilt](https://github.com/hupfdule/kilt)：Kilt是一组小工具，用于简化Java i18n资源包的处理。
 * [ICU4j](https://github.com/unicode-org/icu)：为软件应用提供Unicode和国际化支持，由IBM开源。
@@ -1884,7 +1885,7 @@
 
 ## WebService
 
-* [Apache CXF](https://github.com/apache/cxf)： CXF提供了用于方便地构建和开发Web Service的可靠基础架构。
+* [Apache CXF](https://github.com/apache/cxf)：CXF提供了用于方便地构建和开发Web Service的可靠基础架构。
 * [Spring WS](https://github.com/spring-projects/spring-ws)：Spring Web Services是Spring社区的一个产品，专注于创建文档驱动的Web服务。
 * [Apache Axis2](https://axis.apache.org/axis2/java/core/index.html)：Axis2是一个Web Services JSON/SOAP/WSDL引擎，是广泛使用的Axis SOAP堆栈的继承者。
 * [Apache Axiom](https://ws.apache.org/axiom/)：Axiom库提供了符合XML Infoset的对象模型实现，支持按需构建对象树。
