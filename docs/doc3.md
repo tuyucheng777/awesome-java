@@ -1,4 +1,4 @@
-## 数据库组件库
+## 数据库工具库
 
 这里列出了常用数据库的依赖、工具等。
 
@@ -2185,6 +2185,7 @@
 * [Janino](https://github.com/janino-compiler/janino)：Janino是一个超小、超快的Java编译器。
 * [JUEL](https://github.com/beckchr/juel)：JUEL是统一表达语言(EL)的实现，指定为JSP 2.1标准(JSR-245)的一部分，已在JEE5中引入。
 * [FEEL](https://github.com/camunda/feel-scala)：由Camunda用Scala编写的FEEL引擎。
+* [Liquor](https://gitee.com/noear/liquor)：Java动态编译、表达式、脚本工具。
 * [Cucumber Expressions](https://github.com/cucumber/cucumber-expressions)：Cucumber Expressions是正则表达式的替代品，具有更直观的语法。
 * [CEL Java](https://github.com/google/cel-java)：CEL是一种非图灵完备语言，旨在简单、快速、安全和可移植，由Google开发。
 * [Grammaticus](https://github.com/salesforce/grammaticus)：Grammaticus是一个语法引擎，允许用户重命名名词，同时保持内容的语法正确，由Salesforce开源。

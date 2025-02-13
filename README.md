@@ -15,7 +15,7 @@
   * [持久层库](#持久层库)
   * [应用框架](#应用框架)
   * [微服务框架](#微服务框架)
-  * [Spring Cloud](#SpringCloud)
+  * [Spring Cloud](#Spring-Cloud)
 * [微服务工具](#微服务工具)
 * [REST错误处理](#REST错误处理)
 * [测试](#测试)
@@ -136,7 +136,7 @@
 * [IoC](#IoC)
 * [AOP](#AOP)
 * [日志库](#日志库)
-* [Logback Appender](#LogbackAppender)
+* [Logback Appender](#Logback-Appender)
 * [结构化日志](#结构化日志)
 * [JSON库](#JSON库)
 * [JsonPath](#JsonPath)
@@ -212,7 +212,7 @@
 * [应用分析与监控](docs/doc2.md#应用分析与监控)
   * [诊断工具](docs/doc2.md#诊断工具)
   * [性能分析](docs/doc2.md#性能分析)
-  * [Spring Boot仪表板](docs/doc2.md#SpringBoot仪表板)
+  * [Spring Boot仪表板](docs/doc2.md#Spring-Boot仪表板)
   * [日志分析](docs/doc2.md#日志分析)
   * [GC日志分析](docs/doc2.md#GC日志分析)
   * [堆转储](docs/doc2.md#堆转储)
@@ -274,7 +274,7 @@
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
 * [脚手架](docs/doc2.md#脚手架)
 * [低代码](docs/doc2.md#低代码)
-* [Data API](docs/doc2.md#DataAPI)
+* [Data API](docs/doc2.md#Data-API)
 * [POS](docs/doc2.md#POS)
 * [业务](docs/doc2.md#业务)
 * [电商](docs/doc2.md#电商)
@@ -334,7 +334,7 @@
   * [GUI框架](docs/doc2.md#GUI框架)
   * [Swing](docs/doc2.md#Swing)
   * [Swing主题库](docs/doc2.md#Swing主题库)
-  * [Swing UI库](docs/doc2.md#SwingUI库)
+  * [Swing UI库](docs/doc2.md#Swing-UI库)
   * [Swing组件库](docs/doc2.md#Swing组件库)
   * [Swing布局库](docs/doc2.md#Swing布局库)
   * [Swing选择器](docs/doc2.md#Swing选择器)
@@ -382,7 +382,7 @@
 * [JavaScript](docs/doc2.md#JavaScript)
 * [编译器&插件](docs/doc2.md#编译器插件)
 * [语言服务器](docs/doc2.md#语言服务器)
-* [数据库组件库](docs/doc3.md#数据库查询)
+* [数据库工具库](docs/doc3.md#数据库工具库)
   * [数据库驱动](docs/doc3.md#数据库驱动)
   * [数据库迁移](docs/doc3.md#数据库迁移)
   * [数据源增强](docs/doc3.md#数据源增强)
@@ -397,7 +397,7 @@
   * [ClickHouse库/工具](docs/doc3.md#ClickHouse库工具)
   * [ElasticSearch库/工具](docs/doc3.md#ElasticSearch库工具)
   * [DynamoDB库/工具](docs/doc3.md#DynamoDB库工具)
-* [Pub/Sub库](docs/doc2.md#PubSub库)
+* [Pub/Sub库](docs/doc3.md#PubSub库)
 * [对象存储](docs/doc3.md#对象存储)
 * [音视频处理](docs/doc3.md#音视频处理)
 * [数据结构](docs/doc3.md#数据结构)
@@ -666,7 +666,6 @@
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
 * [Joynr](https://github.com/bmwcarit/joynr)：Joynr是一个与传输协议无关(MQTT、HTTP、WebSockets等)、基于Franca IDL的通信框架，支持多种通信范例，由宝马开源。
-* [DaRPC](https://github.com/zrlio/darpc)：DaRPC是一个Java库，为支持RDMA的网络接口提供超低延迟RPC，由IBM开源。
 * [SCF](https://juejin.cn/post/7123035209565470728)：转转RPC框架SCF继承自58集团RPC框架。
 * [DubboX](https://github.com/dangdangdotcom/dubbox)：DubboX在Dubbo框架中添加了RESTful远程处理、Kyro/FST序列化等功能，由当当开发。
 * [DubboG](https://github.com/lenovoDTC/dubbo-G)：DubboG是联想基于Dubbo 2.5.3的二次开发版本。
@@ -678,14 +677,11 @@
 * [IceRPC](https://github.com/zeroc-ice/ice)：IceRPC是一个新的开源RPC框架，可帮助你使用很少的代码构建速度极快的网络应用程序。
 * [ZBus](https://gitee.com/openforce/zbus)：ZBus致力于使消息队列和RPC变得快速、轻量级并且易于为许多不同的平台构建你自己的面向服务的架构，由开放金融技术开源。
 * [XXL-RPC](https://github.com/xuxueli/xxl-rpc)：XXL-RPC是一个分布式服务框架，提供稳定高性能的RPC远程服务调用功能。
-* [RSocket RPC](https://github.com/rsocket/rsocket-rpc-java)：RSocket RPC标准Java实现。
 * [RPC Framework](https://github.com/Snailclimb/guide-rpc-framework)：RPC Framework是一款基于Netty、Kyro、Zookeeper实现的自定义RPC框架。
 * [Sekiro](https://github.com/yint-tech/sekiro-open)：Sekiro是一个多语言、分布式、与网络拓扑无关的服务发布平台，由因体信息开源。
-* [ONCRPC4J](https://github.com/dCache/oncrpc4j)：ONCRPC4J是ONCRPC/SUNRPC的纯Java实现，由费米实验室、德国电子加速器、北欧数据网格设施共同开源。
 * [Hprose](https://github.com/hprose/hprose-java)：Hprose是一个高性能远程对象服务引擎。
 * [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错的，轻量级的分布式服务框架。
 * [NettyRPC](https://github.com/tang-jie/NettyRPC)：基于Netty的高性能Java RPC服务器，使用kryo、hessian、protostuff支持消息序列化。
-* [Ob1k](https://github.com/outbrain/ob1k)：Ob1k是一个异步轻量级RPC框架，用于快速开发异步、高性能微服务，由Outbrain开源。
 * [HARPC](https://github.com/baifendian/harpc)：HARPC是基于Thrift的跨语言、高可用的RPC框架，由百分点科技开源。
 
 #### JSF框架
@@ -2105,8 +2101,6 @@
 * [SOFARegistry](https://github.com/sofastack/sofa-registry)：SOFARegistry是蚂蚁金服开源的一个生产级、高时效、高可用的服务注册中心。
 * [Pantheon](https://github.com/ProgrammerAnthony/Pantheon)：Pantheon是分布式微服务注册中心。
 * [Artemis](https://github.com/ctripcorp/artemis)：Artemis是携程框架部门SOA服务注册表，包含服务自注册自发现、实例变更实时推送、服务分组路由功能。
-* [Vert.x Service Discovery](https://github.com/vert-x3/vertx-service-discovery)：Vert.x Service Discovery提供了一个发现基础设施来注册和发现微服务应用程序公开的服务。
-* [SnoopEE](https://github.com/ivargrimstad/snoop)：SnoopEE是一个基于Java EE的微服务的实验性注册和发现服务。
 
 ## 容错组件
 
@@ -2145,7 +2139,6 @@
 * [Snail Job](https://gitee.com/aizuda/snail-job)：Snail Job是一个功能强大的分布式重试和任务调度平台，为支持提高分布式业务系统一致性和分布式任务调度而设计，由爱组搭开源。
 * [Async Retry](https://github.com/nurkiewicz/async-retry)：Async Retry是用于Java 7/8的异步重试库。
 * [Retry4j](https://github.com/elennick/retry4j)：Retry4j是一个简单的Java库，可帮助重试瞬时故障情况或不可靠的代码。
-* [Retry](https://github.com/softwaremill/retry)：Retry提供了在 Scala Futures上运行的常见重试策略的接口，由SoftwareMill开发。
 * [Sisyphus](https://github.com/houbb/sisyphus)：Sisyphus是支持过程式编程和注解编程的Java重试框架。
 * [Retrieval](https://gitee.com/spjich/retrieval)：Retrieval是一个精简的Java重试组件，支持同步，异步，以及制定时间内重试。
 
