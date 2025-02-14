@@ -1,3 +1,23 @@
+## API管理
+
+* [RAP](https://github.com/thx/RAP)：RAP是一种Web工具，允许开发人员快速定义和记录在典型的基于RESTful API的Web应用程序中使用的Web API，阿里开源。
+* [Apigee](https://cloud.google.com/apigee)：Apigee是Google Cloud的原生API管理平台，可用于构建、管理和保护API。
+* [Yaade](https://github.com/EsperoTech/yaade)：Yaade是一个开源、自托管、协作式API开发环境。
+* [AgileTC](https://github.com/didi/AgileTC)：AgileTC是一个基于思维导图的具有多实时协作能力的测试用例管理平台，由滴滴开源。
+* [CrapApi](https://gitee.com/CrapApi/CrapApi)：CrapApi是完全开源、免费使用的API接口管理系统、BUG管理系统。
+* [XXL-API](https://github.com/xuxueli/xxl-api)：XXL-API是一个强大易用的API管理平台，提供API的管理、文档、Mock和测试等功能。
+* [WSO2 API Manager](https://github.com/wso2/product-apim)：WSO2 API Manager是一个用于创建、管理、使用和监控Web API的强大平台。
+* [Apiman](https://github.com/apiman/apiman)：Apiman是一个灵活的开源API管理平台，由RedHat开源。
+* [Repose](https://github.com/rackerlabs/repose)：Repose为API处理任务提供解决方案，例如身份验证、速率限制、API验证、HTTP请求日志记录等等。
+* [EasyOpen](https://gitee.com/durcframework/easyopen)：EasyOpen是一个简单易用的接口开放平台，平台封装了常用的参数校验、结果返回等功能。
+* [Torna](https://gitee.com/durcframework/torna)：Torna是一个接口文档解决方案，目标是让接口文档管理变得更加方便、快捷。
+* [Gravitee](https://github.com/gravitee-io/gravitee-api-management)：Gravitee是一种灵活、轻量级且速度极快的开源解决方案，可帮助你的组织控制用户访问API的人员、时间和方式。
+* [Apicurio Studio](https://github.com/Apicurio/apicurio-studio)：Apicurio Studio项目是一个独立的API设计工具，可用于创建新的或编辑现有的API设计(使用OpenAPI或AsyncAPI规范)，由RedHat开源。
+* [Apicurio Registry](https://github.com/Apicurio/apicurio-registry)：Apicurio Registry使你能够使用远程REST API在存储中添加、更新和删除工件，由RedHat开源。
+* [APK](https://github.com/wso2/apk)：APK即Kubernetes API平台，这是一种尖端的API管理解决方案，旨在利用Kubernetes的强大功能来实现无缝且可扩展的部署，WSO2开源。
+* [Otoroshi](https://github.com/MAIF/otoroshi)：Otoroshi是一个轻量级API管理层，由MAIF OSS团队开发，可以处理微服务之间的所有调用，无需服务定位器，并允许你在运行时动态更改配置。
+* [RESTFiddle](https://github.com/AnujaK/restfiddle)：适用于团队的企业级API管理平台，RESTFiddle帮助你设计、开发、测试和发布API。
+
 ## GraphQL
 
 * [GraphQL Java](https://github.com/graphql-java/graphql-java)：GraphQL Java实现。
@@ -1103,147 +1123,6 @@
 * [Pug4j](https://github.com/neuland/pug4j)：Pug4j的目的是能够在不需要JavaScript环境的情况下处理Java中的pug模板，同时与原始pug语法完全兼容。
 * [JMTE](https://code.google.com/archive/p/jmte/)：JMTE旨在填补使用String.format等基本Java类的简单字符串格式化与Velocity或StringTemplate等复杂模板解决方案之间的空白。
 * [FreshMarker](https://gitlab.com/schegge/freshmarker)：FreshMarker是一个简单的嵌入式Java 21模板引擎，其灵感来自FreeMarker。
-
-## 应用分析与监控
-
-#### 诊断工具
-
-* [VisualVM](https://github.com/oracle/visualvm)：VisualVM是一个集成了命令行JDK工具和轻量级分析功能的可视化工具，Oracle开源。
-* [Arthas](https://github.com/alibaba/arthas)：Arthas是阿里开源的Java诊断工具。
-* [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html)：JProfiler直观的UI帮助你解决性能瓶颈，确定内存泄漏并了解线程问题。
-* [YourKit](https://www.yourkit.com/features/)：YourKit是业界领先的Java剖析工具。
-* [Async Profiler](https://github.com/async-profiler/async-profiler)：该项目是一个低开销的Java采样分析器，不会遇到安全点偏差问题。
-* [JVM Profiler](https://github.com/uber-common/jvm-profiler)：JVM Profiler提供了一个Java Agent，以分布式方式收集Hadoop/Spark JVM进程的各种指标和堆栈跟踪，例如CPU/内存/IO指标，由Uber开源。
-* [TProfiler](https://github.com/alibaba/TProfiler)：TProfiler是一个可以在生产环境长期使用的性能分析工具，由阿里开源。
-* [NetBeans Profiler](https://github.com/apache/netbeans/tree/master/profiler)：NetBeans IDE的内置分析器。
-* [Greys](https://github.com/oldmanpushcart/greys-anatomy)：国产Java线上问题诊断工具。
-* [Bistoury](https://github.com/qunarcorp/bistoury)：Bistoury是去哪儿开源的一个对应用透明、无侵入的Java应用诊断工具，用于提升开发人员的诊断效率和能力。
-* [Mission Control](https://github.com/openjdk/jmc)：Mission Control是一个用于Java的开源生产时间分析和诊断工具，由Oracle开源。
-* [Honest Profiler](https://github.com/jvm-profiling-tools/honest-profiler)：没有安全点样本偏差的JVM采样分析器。
-* [Statsd JVM Profiler](https://github.com/etsy/statsd-jvm-profiler)：Statsd JVM Profiler是一个JVM代理分析器，它将分析数据发送到StatsD，由Esty开源。
-* [SJK](https://github.com/aragozin/jvm-tools)：SJK是一个用于JVM诊断、故障排除和分析的命令行工具。
-* [Jvmtop](https://github.com/patric-r/jvmtop)：Jvmtop是一个轻量级控制台应用程序，用于监视计算机上所有可访问的、正在运行的JVM。
-* [Aprof](https://github.com/devexperts/aprof)：Aprof是一个Java内存分配分析器，对分析的应用程序的性能影响非常低。
-* [Sniffy](https://github.com/sniffy/sniffy)：Sniffy是一个Java分析器，它直接在浏览器中显示结果。
-* [Spf4j](https://github.com/zolyfarkas/spf4j)：Spf4j库是旨在提高Java应用程序的可观察性和性能的组件集合。
-* [JavaMelody](https://github.com/javamelody/javamelody)：JavaMelody的目标是监控QA和生产环境中的Java或Java EE应用程序。
-* [Automon](https://github.com/stevensouza/automon)：Automon将AOP的强大功能与已使用的监视或日志记录工具相结合，以声明方式监视Java代码、JDK和第三方库。
-* [JCoz](https://github.com/Decave/JCoz)：JCoz是世界上第一个针对Java程序的因果分析器。
-* [LeakCanary](https://github.com/square/leakcanary)：LeakCanary是一个Android内存泄漏检测库，由Square开源。
-* [XRebel](https://www.jrebel.com/products/xrebel)：XRebel是不间断运行在Web应用的交互式分析器。
-* [JVM-Mon](https://github.com/ajermakovics/jvm-mon)：基于控制台的JVM监控工具。
-* [New Relic](https://newrelic.com/)：New Relic是一个很强大的服务器性能监控工具。
-* [SPM](https://sematext.com/spm/)：商业性能监视器，可为JVM应用程序提供分布式事务跟踪。
-* [Riemann JVM Profiler](https://github.com/riemann/riemann-jvm-profiler)：Riemann JVM Profiler是一个JVM代理，将功能级探查器遥测数据发送到Riemann服务器以进行分析、可视化和存储。
-* [Perf Map Agent](https://github.com/jvm-profiling-tools/perf-map-agent)：一个Java代理，用于生成与Linux perf工具一起使用的方法映射。
-* [MAT](https://eclipse.dev/mat/)：Eclipse Memory Analyzer是一款快速且功能丰富的Java堆分析器，可帮助你查找内存泄漏并减少内存消耗。
-* [Heapster](https://github.com/mariusae/heapster)：Heapster提供了一个代理库，用于对JVM进程进行堆分析，其输出与Google perftools兼容。
-* [PSI Probe](https://github.com/psi-probe/psi-probe)：Tomcat的高级管理器和监视器。
-* [Jarboot](https://gitee.com/majz0908/jarboot)：Jarboot是一个Java进程启停、管理、诊断的平台，可以管理、守护、监控及诊断本地和远程的Java进程。
-* [Gradle Profiler](https://github.com/gradle/gradle-profiler)：一种自动收集Gradle构建的分析和基准测试信息的工具。
-* [Perfino](https://www.ej-technologies.com/products/perfino/overview.html)：Perfino是一款JVM监测工具，有虚拟机管理、商业交易策略、跨虚拟机追踪、遥测数据、末端用户体验检测等实用功能。
-* [HeapStats](https://github.com/HeapStats/heapstats)：HeapStats是Java故障排除工具。
-
-#### 性能分析
-
-* [BTrace](https://github.com/btraceio/btrace)：BTrace是一个用于Java平台的安全、动态跟踪工具，由SUN开源。
-* [jHiccup](https://github.com/giltene/jHiccup)：提供平台中JVM暂停的日志和记录，由Azul开源。
-* [Kamon](https://github.com/kamon-io/Kamon)：Kamon是一组用于检测在JVM上运行的应用程序的库。
-* [Spark](https://github.com/lucko/spark)：Spark是适用于Minecraft客户端、服务器和代理的性能分析器。
-* [KOOM](https://github.com/KwaiAppTeam/KOOM)：KOOM是快手推出的一款移动平台OOM杀手。
-* [XPocket](https://github.com/PerfMa/xpocket)：XPocket是PerfMa为终结性能问题而生的开源的插件容器。
-* [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils)：用于延迟测量和报告的工具。
-* [JOL](https://github.com/openjdk/jol)：JOL是用于分析JVM中对象布局的微型工具箱，Oracle开源。
-* [Cornerstone](https://github.com/ctripcorp/vi)：Cornerstone是携程框架部门研发的内部可视化组件VI的开源版本，VI主要是一个应用及应用相关环境的可视化工具，和应用健康状态及启动管理的工具。
-* [HdrHistogram](https://github.com/HdrHistogram/HdrHistogram)：HdrHistogram支持在可配置的整数值范围内记录和分析采样数据值计数，并在该范围内具有可配置的值精度。
-* [JMX Exporter](https://github.com/prometheus/jmx_exporter)：通过HTTP公开JMX Bean供Prometheus使用的工具。
-* [Sidekick](https://github.com/runsidekick/sidekick)：Sidekick是一个开源实时应用程序调试器。
-* [Atlassian Profiling](https://bitbucket.org/atlassian/atlassian-profiling)：Atlassian Profiling是Atlassian应用程序中使用的框架，用于提供简单的服务器端分析和指标收集。
-* [MySQL Performance Analyzer](https://github.com/yahoo/mysql_perf_analyzer)：一个用于MySQL性能监控和分析的开源项目，由Yahoo开源。
-* [Spring Boot Startup Report](https://github.com/maciejwalkowiak/spring-boot-startup-report)：Spring Boot启动报告库生成交互式Spring Boot应用程序启动报告，让你了解影响应用程序启动时间的因素，并可能有助于优化它。
-* [Spring Startup Ananlyzer](https://github.com/linyimin0812/spring-startup-analyzer)：Spring Startup Analyzer生成交互式Spring应用程序启动报告，让你了解影响应用程序启动时间的因素并帮助优化它。
-* [Takin](https://github.com/shulieTech/Takin)：Takin是一个基于Java的开源系统，旨在用于全链路，特别是微服务的在线测量或测试环境性能测试，由数列科技开源。
-* [PerfJ](https://github.com/coderplay/perfj)：PerfJ是Java程序的Linux Perf的包装器。
-* [Hawtio](https://github.com/hawtio/hawtio)：Hawtio是一个轻量级、模块化的Web控制台，用于管理Java应用程序，由IBM开源。
-* [Speed4j](https://github.com/jalkanen/speed4j)：Speed4j是一个非常简单且快速的Java性能分析库。
-* [Parfait](https://github.com/performancecopilot/parfait)：Parfait是一个Java性能监控库，能够提取指标并以多种方式提供它们。
-* [Cryostat](https://github.com/cryostatio/cryostat-legacy)：用于从云工作负载中生成、分析和检索JDK Flight Recorder数据。
-* [Instrumental](https://www.expectedbehavior.com/products/instrumental/)：实时Java应用程序性能监控，具有免费开发帐户的商业服务。
-* [Jolokia](https://github.com/jolokia/jolokia)：Jolokia是一个JMX-HTTP桥接器，提供JSR-160连接器的替代方案。
-* [Nudge4j](https://github.com/lorenzoongithub/nudge4j)：通过字节码注入从Java 8浏览器远程开发控制台。
-* [Sysmon](https://github.com/palantir/Sysmon)：Sysmon是一个用于JVM的轻量级平台监控工具，由Palantir开源。
-* [Microservice Monitoring](https://github.com/xeraa/microservice-monitoring)：监控分布式(微)服务的日志、指标、ping和跟踪。
-* [KoTime](https://github.com/huoyo/ko-time)：KoTime是一个轻量级的Spring Boot项目性能分析工具，通过追踪方法调用链路以及对应的运行时长快速定位性能瓶颈。
-* [Djigger](https://github.com/exense/djigger)：Djigger是一个用于Java应用程序的生产就绪性能分析和监控解决方案，主要依赖于先进的全天候采样器和仪器代理模式。
-* [JRat](https://jrat.sourceforge.net/)：JRat是一个低开销、易于使用的Java平台开源性能分析器。
-* [RemoraJ](https://github.com/Nastel/remoraj)：RemoraJ是一个可扩展的Java分析代理，它使用字节码检测以最小的开销拦截Java IPC调用。
-* [JETM](https://github.com/frenchc/jetm)：JETM是一个用于编程或声明式性能监控的Java库。
-* [DiSL](https://gitlab.ow2.org/disl/disl)：DiSL是一个Java字节码检测框架，旨在观察Java虚拟机中执行的程序。
-* [Kieker](https://github.com/kieker-monitoring/kieker)：Kieker提供动态分析功能，即监控和分析软件系统的运行时行为，从而实现应用程序性能监控和架构发现，由斯图加特大学和基尔大学开源。
-* [Eclipse Trace Compass](https://github.com/eclipse-tracecompass/org.eclipse.tracecompass)：Trace Compass是一款开源应用程序，可通过读取和分析系统日志或跟踪来解决性能和可靠性问题。
-
-#### Spring Boot仪表板
-
-* [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin)：该项目为公开Actuator端点的Spring Boot Web应用程序提供了一个管理界面。
-* [Microservices Dashboard](https://github.com/Ordina-Group/microservices-dashboard)：该项目的主要目标是为微服务仪表板UI项目提供服务器实现。
-* [SnapAdmin](https://github.com/aileftech/snap-admin)：适用于Spring Boot应用的即插即用、自动生成的CRUD数据库管理面板。
-* [Ostara](https://github.com/krud-dev/ostara)：Ostara是一款开源桌面应用程序，旨在简化Spring Boot应用程序的管理和监控。
-* [KoTime](https://gitee.com/huoyo/ko-time)：KoTime是一个轻量级的Spring Boot项目性能分析工具，通过追踪方法调用链路以及对应的运行时长快速定位性能瓶颈。
-
-#### 日志分析
-
-* [OtrosLogViewer](https://github.com/otros-systems/otroslogviewer)：OtrosLogViewer是一款用于分析应用程序日志和堆栈跟踪的软件。
-* [LogoRRR](https://github.com/rladstaetter/LogoRRR)：LogoRRR是一款跨平台日志分析工具，它提供了一种清晰、快速的方式来浏览大型文本文件，通过其交互式、用户友好的界面强调关键事件。
-* [LogViewer](https://github.com/sevdokimov/log-viewer)：LogViewer是一个Web应用程序，用于在浏览器中实时监控服务器日志。
-* [JLogViewer](http://jlogviewer.sourceforge.net)：JLogViewer是一个轻量级纯Java图形应用程序，可轻松查看和管理由“java.util.logging”包生成的日志文件。
-* [Vigilog](https://vigilog.sourceforge.net/index.html)：Vigilog是一款易于使用的日志文件查看器，支持即时过滤、颜色过滤器等。
-* [LogMX](https://logmx.com/)：LogMX是一种直观的跨平台工具，供开发人员和管理员分析日志文件，由LightySoft软件公司提供。
-* [Lilith](https://github.com/huxi/lilith)：Lilith是Logback、Log4j、Log4j2和JUL的日志和访问事件查看器。
-* [Apache Chainsaw](https://github.com/apache/logging-chainsaw)：Apache Chainsaw是一个GUI日志文件查看器。
-
-#### GC日志分析
-
-* [GCeasy](https://gceasy.io/)：GCeasy是业界首款机器学习引导的垃圾收集日志分析工具。
-* [GCGC](https://github.com/apple/GCGC)：GCGC使用Jupyter Notebook界面来分析GC日志文件，由Apple开源。
-* [Sematext Logs](https://sematext.com/logsene/)：Sematext Logs是一种日志集中解决方案，针对各种以日志为中心的用例。
-* [GCViewer](https://github.com/chewiebug/GCViewer)：GCViewer是一个小工具，可以可视化Sun/Oracle、IBM、HP和BEA Java虚拟机生成的详细GC输出。
-* [GCPlot](https://github.com/GCPlot/gcplot)：GCPlot是一个Java垃圾收集器(GC)日志分析器。
-* [GCProf](https://github.com/twitter-archive/jvmgcprof)：GCProf是一个简单的实用程序，用于JVM中的配置文件分配和垃圾收集活动，Twitter开源。
-* [GarbageCat](https://github.com/mgm3746/garbagecat)：GarbageCat是一个命令行工具，可解析Java GC日志记录并进行分析，以支持OpenJDK和Oracle JDK的JVM调整和故障排除。
-* [Heapothesys](https://github.com/corretto/heapothesys)：Heapothesys是由Amazon Corretto团队开发的JVM垃圾回收工作负载的集合。
-* [JITWatch](https://github.com/AdoptOpenJDK/jitwatch)：Java HotSpot JIT编译器的日志分析器/可视化器。
-* [Eclipse Jifa](https://github.com/eclipse/jifa)：Jifa是一款在线分析工具，支持分析Java堆转储、GC日志、线程转储以及JFR文件，由阿里开源。
-* [JVM GC Logs Analyzer](https://github.com/krzysztofslusarski/jvm-gc-logs-analyzer)：该项目是一个Java虚拟机和GC日志分析器，它专用于JVM 11及更高版本。
-* [GCToolkit](https://github.com/microsoft/gctoolkit)：GCToolkit是一组用于分析HotSpot Java GC日志文件的库，由Microsoft开源。
-* [Gchisto](https://github.com/jewes/gchisto)：Hotspot JVM垃圾收集日志可视化工具。
-
-#### 堆转储
-
-* [HAHA](https://github.com/square/haha)：HAHA是一个用于自动分析Android堆转储的Java库，由Square开源。
-* [Heap Dump Tool](https://github.com/paypal/heap-dump-tool)：Heap Dump Tool可以捕获，更重要的是，可以清理Java堆转储中的敏感数据，由Paypal开源。
-* [JDumpSpider](https://github.com/whwlsfb/JDumpSpider)：HeapDump敏感信息提取工具。
-* [Eclipse Memory Analyzer](https://git.eclipse.org/r/plugins/gitiles/mat/org.eclipse.mat)：Eclipse Memory Analyzer提供了一个通用工具包来分析Java堆转储。
-
-#### 线程转储
-
-* [FastThread](https://fastthread.io/)：Java线程转储分析器。
-* [Java Thread Dump Analyzer](https://github.com/spotify/threaddump-analyzer)：这是一个用Javascript编写的Java线程转储分析器，由Spotify开源。
-* [TDA](https://github.com/irockel/tda)：TDA是一个小型Swing GUI，用于分析Java VM生成的线程转储和堆信息。
-* [MJProf](https://github.com/AdoptOpenJDK/mjprof)：MJProf是一个单子线程转储分析工具集，它使用一系列简单的可组合构建块(monad)来分析jstack输出。
-
-#### 对象测量
-
-* [Jamm](https://github.com/jbellis/jamm)：Jamm提供MemoryMeter，这是一个适用于所有Java版本的Java代理，用于测量实际对象内存使用情况，包括JVM开销。
-* [Sizeof](https://github.com/ehcache/sizeof)：该库允许你以字节为单位获取Java对象实例的大小。
-* [Sizeofag](https://github.com/fracpete/sizeofag)：Sizeofag是一个Java代理，允许你在运行时确定JVM内Java对象的大小。
-
-#### 火焰图
-
-* [JFR Flame Graph](https://github.com/chrishantha/jfr-flame-graph)：这是一个简单的应用程序，用于从Java Flight Recorder转储中读取方法分析示例，并将这些堆栈跟踪转换为FlameGraph兼容格式。
-* [Flamegrapher](https://github.com/flamegrapher/flamegrapher)：Flamegrapher是Java Flight Recorder的前端，允许你启动、转储、停止、保存以及从浏览器下载JFR记录。
-* [Gumshoe](https://github.com/worstcase/gumshoe)：监控与各个调用堆栈相关的应用程序性能统计数据，以火焰图或根图的形式交互过滤和查看，由Dell开源。
-* [JavaFlame](https://github.com/beothorn/javaflame)：Java的简单易用的火焰图，无需服务器或打开连接，只需插入代理并获取结果。
-* [PerfGenie](https://github.com/salesforce-misc/perfGenie)：PerfGenie是一种持续的低开销上下文分析解决方案，可以解析和可视化JFR格式配置文件和Jstack，由Salesforce开源。
 
 ## 脚本
 
