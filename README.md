@@ -1214,7 +1214,7 @@
 
 #### 数据Mock
 
-* [JMock](https://github.com/xcancloud/JMock)：Mock是基于 Java 语言实现的高性能数据生成和模拟的组件库，生成的数据相比随机数据更加接近业务数据特征。
+* [JMock](https://github.com/xcancloud/JMock)：Mock是基于Java语言实现的高性能数据生成和模拟的组件库，生成的数据相比随机数据更加接近业务数据特征。
 * [Java Faker](https://github.com/DiUS/java-faker)：Java Faker是Ruby的stympy/faker gem的Java端口，用于生成假数据。
 * [Instancio](https://github.com/instancio/instancio)：Instancio是一个Java库，可以自动为单元测试创建和填充对象。
 * [JUnit DataProvider](https://github.com/TNG/junit-dataprovider)：DataProvider类似TestNG的JUnit数据提供者运行程序，具有许多附加功能。
