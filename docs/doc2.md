@@ -147,7 +147,6 @@
 * [HugAi](https://github.com/TouShang6015/Hugai-chatgpt)：HugAi是由Spring Boot集成Open AI SDK开发的一套智能AI知识库，支持GPT对话，AI绘图Midjourney、Stable Diffusion、Open AI。
 * [LangGraph4j](https://github.com/bsorrentino/langgraph4j)：Java版LangGraph。
 * [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
-* [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk)：为模型上下文协议提供Java SDK集成的一组项目。
 
 #### LLM客户端
 
@@ -169,6 +168,8 @@
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
 * [DeepSeek4j](https://github.com/pig-mesh/deepseek4j)：DeepSeek4j是一个用于快速集成DeepSeek AI能力的Spring Boot Starter。
+* [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk)：为模型上下文协议提供Java SDK集成的一组项目。
+* [Google Gen AI Java SDK](https://github.com/googleapis/java-genai)：Gemini Developer API和Vertex AI API的Java惯用SDK。
 
 #### 机器学习
 
@@ -244,6 +245,7 @@
 * [RuleKit](https://github.com/adaa-polsl/RuleKit)：RuleKit是一种用于规则学习的多功能工具，基于顺序覆盖归纳算法，它适用于分类、回归和生存问题，由西里西亚理工大学开源。
 * [Chronon](https://github.com/airbnb/chronon)：Chronon是一个平台，它消除了数据计算的复杂性并为AI/ML应用程序提供服务，由Airbnb开源。
 * [BEAST 2](https://github.com/CompEvol/beast2)：BEAST是一个使用分子序列MCMC进行贝叶斯推理的跨平台程序，由奥克兰大学领导开发。
+* [Foundry](https://github.com/algorithmfoundry/Foundry)：Cognitive Foundry是一个开源Java库，用于构建专注于机器学习的智能系统，由桑迪亚国家实验室领导。
 
 #### 自然语言处理
 
@@ -732,6 +734,7 @@
 * [CDK](https://github.com/cdk/cdk)：CDK是一个用于化学信息学和生物信息学的开源Java库。
 * [InterMine](https://github.com/intermine/intermine)：InterMine是一个强大的开源数据仓库系统，允许用户以最少的努力集成不同的数据源，InterMine为生命科学领域一些最大的数据仓库提供支持，由剑桥大学开源。
 * [BBMap](https://github.com/BioInfoTools/BBMap)：用于DNA/RNAseq的BBMap短读对齐器和其他生物信息学工具。
+* [AliView](https://github.com/AliView/AliView)：用于对齐、查看和编辑DNA/氨基酸序列的软件，直观、快速且轻量，由乌普萨拉大学开源。
 * [Pegasus](https://github.com/pegasus-isi/pegasus)：Pegasus是一个可配置系统，用于在各种计算基础设施上映射和执行科学工作流程，由南加州大学信息科学研究所、威斯康星大学麦迪逊分校开源。
 * [GloBI](https://github.com/globalbioticinteractions/globalbioticinteractions)：GloBI提供对现有物种相互作用数据集的访问。
 * [MOLGENIS](https://github.com/molgenis/molgenis)：MOLGENIS是一个协作开源项目，其目的是为生命科学研究生成出色的软件基础设施，由格罗宁根大学开源。
@@ -981,6 +984,7 @@
 * [Mariana Trench](https://github.com/facebook/mariana-trench)：Mariana Trench是一个针对Android的专注于安全的静态分析平台，由Facebook开源。
 * [CTFCrackTools](https://github.com/0Chencc/CTFCrackTools)：中国国内首个CTF工具框架，旨在帮助CTFer快速攻克难关。
 * [HaE](https://github.com/gh0stkey/HaE)：HaE是一款网络安全、领域下的辅助型框架式项目，旨在实现对HTTP消息(包含WebSocket)的高亮标记和信息提取。
+* [CaA](https://github.com/gh0stkey/CaA)：CaA是一款网络安全(漏洞挖掘)领域下的辅助型项目，主要用于分析、拆解HTTP协议报文，提取HTTP协议报文中的参数、路径、文件、参数值等信息。
 * [Zest](https://github.com/zaproxy/zest)：Zest是一种专门的脚本语言，由Mozilla安全团队开发，旨在用于面向Web的安全工具。
 * [Keywhiz](https://github.com/square/keywhiz)：Keywhiz是一个用于分发和管理密钥的系统，由Square开源。
 * [Mixeway](https://github.com/mixeway/mixewayhub)：Mixeway是一款开源软件，旨在简化使用CICD程序实施的项目的安全保证过程。
@@ -1062,6 +1066,7 @@
 * [Java-OTP](https://github.com/jchambers/java-otp)：Java-OTP是一个用于生成HOTP(RFC 4226)或TOTP(RFC 6238)一次性密码的Java库。
 * [OneTrickPony](https://github.com/Osmerion/OneTrickPony)：OneTrickPony是一个现代Java库，它实现了对一次性密码(OTP)的支持。
 * [1Time](https://github.com/atlassian/1time)：RFC-6238和RFC-4226的Java/Kotlin轻量级实现，用于生成和验证基于时间的一次性密码(TOTP)，Atlassian开源。
+* [JHash](https://github.com/amdelamar/jhash)：Java中的密码哈希实用程序，支持PBKDF2 hmac SHA1/SHA256/SHA512、BCRYPT和SCRYPT，它会自动加盐，并具有Pepper选项。
 * [RandPassGenerator](https://github.com/nsacyber/RandPassGenerator)：RandPassGenerator是一个简单的命令行实用程序，用于生成随机密码、密码短语和原始密钥，由美国国家安全局网络安全局开源。
 
 #### 加密算法
@@ -1384,6 +1389,7 @@
 * [SCIFIO](https://github.com/scifio/scifio)：SCIFIO是一个可扩展的Java框架，用于读取和写入图像，特别是N维科学图像。
 * [Kim](https://github.com/Ashampoo/kim)：Kim是一个用于读取和写入图像元数据的Kotlin多平台库。
 * [Java Image Filters](http://www.jhlabs.com/ip/filters/index.html)：Java Image Filters是由Jhlabs开发的一组用来处理Java图像的类库，提供各种常用的图像处理效果，例如反转色、扭曲、水波纹、凹凸、黑白效果等等数十种效果。
+* [JAI EXT](https://github.com/geosolutions-it/jai-ext)：JAI EXT是一个开源项目，旨在扩展JAI API，由GeoSolutions开源。
 
 ## SVG库
 
@@ -1922,6 +1928,7 @@
 * [Meico](https://github.com/cemfi/meico)：Meico是MEI文件的转换器框架，由帕德博恩大学开源。
 * [OneBusAway GTFS](https://github.com/OneBusAway/onebusaway-gtfs-modules)：用于读取和写入GTFS源的Java库，包括数据库支持。
 * [Jcabi Manifests](https://github.com/jcabi/jcabi-manifests)：用于方便读取类路径中可用的MANIFEST.MF文件的Java库。
+* [FastODS](https://github.com/jferard/fastods)：FastODS是一个非常快速且轻量级的库，用于在Java中创建ODS(开放文档电子表格，主要用于Calc)文件。
 
 #### 文件转换
 
@@ -2257,6 +2264,7 @@
 * [FastBootWeixin](https://gitee.com/kingshine/FastBootWeixin)：基于Spring Boot的注解驱动式公众号极速开发框架，用注解重新定义公众号开发。
 * [Weixin Popular](https://github.com/liyiorg/weixin-popular)：微信Java SDK(公众平台、开放平台、商户平台、服务商平台)。
 * [WeiXin4j](https://github.com/foxinmy/weixin4j)：WeiXin4j是一个用Java编写针对微信开发的工具包。
+* [WeiXin4j](https://github.com/jeecgboot/weixin4j)：微信和钉钉开发Java SDK，主要提供微信公众号、企业微信、钉钉、微信小程序、支付的Java封装，降低集成难度。
 * [WeChat4j](https://github.com/sword-org/wechat4j)：WeChat4j是一个微信开发框架。
 * [WX Dump4j](https://github.com/xuchengsheng/wx-dump-4j)：WX Dump4j是一款基于Java开发的微信数据分析工具。
 * [JEEWX-API](https://github.com/jeecgboot/jeewx-api)：JEEWX-API是一款Java版的微信开发SDK，支持微信公众号、小程序、微信企业号、支付宝生活号SDK和微博SDK。
@@ -2516,6 +2524,7 @@
 * [XDAGJ](https://github.com/XDagger/xdagj)：XDAGJ是XDAG在Java中的实现。
 * [Snowblossom](https://github.com/snowblossomcoin/snowblossom)：Snowblossom是一种简单的加密货币。
 * [Arbitrader](https://github.com/agonyforge/arbitrader)：Arbitrader是一个在两个不同的加密货币交易所之间寻找交易机会并执行自动低风险交易的程序。
+* [BITISAN](https://github.com/bitisanop/CryptoExchange_TradingPlatform_CoinExchange)：BITISAN交易所支持多种数字资产的交易，涵盖加密货币、代币化资产以及其他数字化资产。
 
 #### 区块链SDK
 
@@ -2747,7 +2756,7 @@
 * [Neo4j Cypher DSL](https://github.com/neo4j-contrib/cypher-dsl)：用于Cypher查询语言的Java DSL。
 * [Structurizr DSL](https://github.com/structurizr/dsl)：此项目包含Structurizr DSL的实现-一种使用DSL基于C4 Model创建Structurizr软件架构模型的方法。
 * [DeepDSL](https://github.com/deepdsl/deepdsl)：DeepDSL是一种嵌入在Scala中的DSL，用于编写深度学习网络应用程序。
-* [MontiCore](https://github.com/MontiCore/monticore)：MontiCore是一个用于高效开发DSL的语言工作，它处理定义DSL的扩展语法格式并生成用于处理DSL文档的Java组件。
+* [MontiCore](https://github.com/MontiCore/monticore)：MontiCore是一个用于高效开发DSL的语言工作台，它处理定义DSL的扩展语法格式并生成用于处理DSL文档的Java组件。
 * [Rosetta](https://github.com/REGnosys/rosetta-dsl)：Rosetta是一种DSL，支持金融市场行业的操作流程建模。
 * [WebDSL](https://github.com/webdsl/webdsl)：WebDSL是一种特定于领域的语言，用于使用丰富的数据模型对Web应用程序进行建模。
 * [Spoofax](https://github.com/metaborg/spoofax)：Spoofax是一个帮助开发者快速开发领域特定语言(DSL)的平台。
@@ -3687,6 +3696,7 @@
 * [Art of Illusion](https://github.com/ArtOfIllusion/ArtOfIllusion)：Art of Illusion是一个免费、开源的3D建模和渲染软件。
 * [Scenery](https://github.com/scenerygraphics/scenery)：由Kotlin和Vulkan提供支持的JVM上体积和几何数据的灵活VR可视化。
 * [Grafx](https://grafx.sourceforge.net/)：Grafx是一个开源Java库，用于使用浮点端点坐标绘制线条和填充多边形。
+* [ClearVolume](https://github.com/ClearVolume/clearvolume)：ClearVolume是一个实时3D可视化库，专为SPIM和DLSM显微镜等高端体积显微镜而设计，由马克斯普朗克分子细胞生物学和遗传学研究所开源。
 
 ## 移动开发框架
 
