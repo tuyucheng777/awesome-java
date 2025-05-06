@@ -235,6 +235,7 @@
 * [字节码操作](docs/doc2.md#字节码操作)
 * [字节码工具库](docs/doc2.md#字节码工具库)
 * [图像处理](docs/doc2.md#图像处理)
+* [水印](docs/doc2.md#水印)
 * [SVG库](docs/doc2.md#SVG库)
 * [验证码](docs/doc2.md#验证码)
 * [压缩库](docs/doc2.md#压缩库)
