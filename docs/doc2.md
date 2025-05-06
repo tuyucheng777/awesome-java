@@ -1185,6 +1185,7 @@
 * [Spring Shell](https://github.com/spring-projects/spring-shell)：Spring Shell可帮助你创建基于Spring的、针对CLI空间的生产级应用程序。
 * [Babun](https://github.com/babun/babun)：Babun是Windows上类似Linux的控制台。
 * [Just](https://github.com/maciejwalkowiak/just)：Just是一个智能零配置命令行接口，用于在开发模式下运行Spring Boot应用程序。
+* [BuildCLI](https://github.com/BuildCLI/BuildCLI)：BuildCLI是一个CLI工具，用于管理和自动化Java项目开发中的常见任务。
 * [Signal CLI](https://github.com/AsamK/signal-cli)：Signal CLI是Signal Messenger的命令行接口，它支持注册、验证、发送和接收消息。
 * [Open PDF Sign](https://github.com/open-pdf-sign/open-pdf-sign)：Open PDF Sign CLI应用程序允许从命令行轻松签署PDF文件，签名可以是不可见的(默认)或可见的(可以自定义)。
 * [JReleaser](https://github.com/jreleaser/jreleaser)：JReleaser是一个用于Java和非Java项目的自动化发布工具。

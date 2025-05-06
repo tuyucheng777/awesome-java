@@ -1714,7 +1714,7 @@
 * [VMS OpenJDK](https://vmssoftware.com/products/openjdk/)：VMS软件公司的OpenJDK免费开源实现。
 * [SapMachine](https://github.com/SAP/SapMachine)：SapMachine是SAP维护的OpenJDK的一个发行版。
 * [Alibaba Dragonwell](https://github.com/dragonwell-project/dragonwell8)：阿里开源的JDK版本。
-* [Tencent Kona](https://github.com/Tencent/TencentKona-17)：腾讯开源的JDK版本。
+* [Tencent Kona](https://github.com/Tencent/TencentKona-8)：腾讯开源的JDK版本。
 * [Huawei Bisheng](https://gitee.com/openeuler/bishengjdk-8)：华为开源的JDK版本，代号毕昇。
 * [CompoundVM](https://github.com/bytedance/CompoundVM)：CVM是一个旨在将高版本JVM的性能提升到低版本JDK的项目，你可以几乎零成本地升级项目，并在应用程序上运行高级JVM功能，由字节开发。
 * [Loongson JDK](https://github.com/loongson/jdk)：龙芯中科基于OpenJDK研制并发布的龙芯平台Java环境。
