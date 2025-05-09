@@ -4091,6 +4091,6 @@
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
 * [RapidOcr Java](https://github.com/MyMonsterCat/RapidOcr-Java)：Java代码实现调用RapidOCR。
 
-## [本体库-音视频处理](docs/doc2.md)
+## [测试-汇编](docs/doc2.md)
 
-## [数据结构-面试宝典](docs/doc3.md)
+## [LLVM-面试宝典](docs/doc3.md)
