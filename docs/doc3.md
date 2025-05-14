@@ -953,8 +953,6 @@
 * [SimpleNet](https://github.com/jhg023/SimpleNet)：SimpleNet是一个用Java编写的简单的客户端/服务器框架。
 * [DiSNI](https://github.com/zrlio/disni)：DiSNI是一个Java库，用于从用户空间直接存储和网络访问，它提供了一个RDMA接口来访问远程内存，由IBM开源。
 * [Barchart UDT](https://github.com/barchart/barchart-udt)：Barchart UDT是原生C++ UDT协议的Java包装器。
-* [WeUPnP](https://github.com/bitletorg/weupnp)：WeUPnP是用Java编写的小型UPnP客户端库。
-* [Cybergarage UPnP](https://github.com/cybergarage/cybergarage-upnp)：Cybergarage UPnP是面向Java开发人员的UPnP开发包。
 * [Dragonite](https://github.com/dragonite-network/dragonite-java)：Dragonite是一种基于UDP的可靠应用级数据传输协议，针对有损和不稳定的网络进行了高度优化。
 * [OkSocket](https://github.com/xuuhaoo/OkSocket)：OkSocket是一个Java库，旨在解决轻量级的Socket通信。
 * [Java KCP](https://gitee.com/344453111/java-Kcp)：基于Netty实现的可靠UDP网络库(kcp算法)，包含fec实现。
@@ -1033,12 +1031,20 @@
 * [OpenVirteX](https://github.com/os-libera/OpenVirteX)：OVX是一个网络管理程序，可以在单个物理基础设施之上创建多个虚拟和可编程网络。
 * [Angry IP Scanner](https://github.com/angryip/ipscan)：Angry IP Scanner是适用于Windows、Linux和Mac的快速且友好的网络扫描器。
 * [Nzyme](https://github.com/nzymedefense/nzyme)：借助Nzyme，你可以监控所有以太网和WiFi网络流量是否存在威胁、确认预期行为并有选择地将数据转发到你的SIEM或日志管理系统。
-* [UPnP PortMapper](https://github.com/kaklakariada/portmapper)：UPnP PortMapper是一个易于使用的程序，用于管理本地网络中启用UPnP的互联网网关设备的端口映射。
 * [jNetMap](https://rakudave.ch/jnetmap/)：jNetMap是一个图形网络监控和文档工具，它会每x分钟ping所有注册的设备，并根据ping的结果更新状态。
 * [Discourse Network Analyzer](https://github.com/leifeld/dna)：Discourse Network Analyzer是一种具有网络导出功能的定性内容分析工具。
 * [Batfish](https://github.com/batfish/batfish)：Batfish是一种网络验证工具，通过分析网络设备的配置，为安全性、可靠性和合规性提供正确性保证。
 * [FDT](https://github.com/fast-data-transfer/fdt)：FDT是一种高效数据传输应用程序，能够通过广域网(使用标准TCP)以磁盘速度读写。
 * [ANX](https://github.com/cisco-ie/anx)：适用于Java的高级NETCONF浏览器和NETCONF客户端库，Cisco开源。
+
+#### 端口转发
+
+* [Cling](https://github.com/4thline/cling)：Cling致力于用Java创建一个兼容UPnP的软件栈。
+* [UPnP PortMapper](https://github.com/kaklakariada/portmapper)：UPnP PortMapper是一个易于使用的程序，用于管理本地网络中启用UPnP的互联网网关设备的端口映射。
+* [Port Mapper](https://github.com/offbynull/portmapper)：Port Mapper项目是一个Java库，可用于在启用NAT的路由器上转发端口。
+* [WeUPnP](https://github.com/bitletorg/weupnp)：WeUPnP是用Java编写的小型UPnP客户端库。
+* [Cybergarage UPnP](https://github.com/cybergarage/cybergarage-upnp)：Cybergarage UPnP是面向Java开发人员的UPnP开发包。
+* [WaifUPnP](https://github.com/adolfintel/WaifUPnP)：WaifUPnP是UPnP的一个非常基本的实现。
 
 #### SDN
 
@@ -1062,11 +1068,12 @@
 * [Spring Statemachine](https://github.com/spring-projects/spring-statemachine)：Spring Statemachine项目提供了一个通用的基础设施来在Spring应用程序中使用状态机概念。
 * [Stateless4j](https://github.com/stateless4j/stateless4j)：轻量级Java状态机。
 * [EasyFlow](https://github.com/Beh01der/EasyFlow)：EasyFlow是一个简单且轻量级的Java有限状态机。
+* [KStateMachine](https://github.com/KStateMachine/kstatemachine)：KStateMachine是一个强大的Kotlin多平台库，具有清晰的DSL语法，用于创建由Kotlin Coroutines驱动的复杂状态机和状态图。
 * [Easy States](https://github.com/j-easy/easy-states)：Easy States是Java中事件驱动的确定性有限自动机实现。
 * [StatefulJ](https://github.com/statefulj/statefulj)：StatefulJ是一个轻量级、开源的Java事件驱动有限状态机(FSM)和一个完整的基于Spring Data的框架，可让你轻松定义状态机并将其集成到你的应用程序中。
 * [nFlow](https://github.com/NitorCreations/nflow)：nFlow是一种经过验证的用于编排业务流程的解决方案。
 * [Winder](https://github.com/eBay/Winder)：Winder是一个基于Quartz的简单状态机，由eBay开源。
-* [State-Machine](https://github.com/davidmoten/state-machine)：Java的有限状态机类生成器。
+* [State Machine](https://github.com/davidmoten/state-machine)：Java的有限状态机类生成器。
 * [Makina](https://github.com/clnhlzmn/makina)：Makina是一个分层状态机源到源转换器，它将状态机描述作为输入并生成这些状态机的C语言实现。
 * [JState](https://github.com/UnquietCode/JState)：Java中的高级状态机。
 * [State Machine Compiler](https://smc.sourceforge.net/)：SMC最大限度地利用了状态模式，允许你的对象处理意外事件、恢复并继续提供服务(而不是崩溃)的转换。
@@ -1324,6 +1331,7 @@
 * [Yamcs](https://github.com/yamcs/yamcs)：Yamcs是一个用Java开发的任务控制框架。
 * [CCSDS](https://github.com/dariol83/ccsds)：基于Java 11的CCSDS协议和格式的开源实现。
 * [ProsEO](https://github.com/dlr-eoc/prosEO)：ProsEO软件系统是一个开源处理控制系统，旨在执行处理地球观测卫星数据(例如Sentinel数据)所需的所有活动，根据配置的任务生成用户级数据、工程数据和/或内部遥测数据，由德国航空航天中心开发。
+* [Aladin](http://aladin.cds.unistra.fr/aladin.gml)：Aladin是一款广泛使用的Java工具，能够解决诸如定位目标数据、访问和探索分布式数据集以及可视化多波长数据等挑战，由法国斯特拉斯堡数据中心开发。
 
 ## 水文学
 
@@ -2179,7 +2187,6 @@
 * [Sardine](https://github.com/lookfirst/sardine)：Sardine可用于与WebDAV服务器交互，并且与FTP相比，以编程方式管理远程文件要容易得多。
 * [JCIFS](https://github.com/codelibs/jcifs)：JCIFS是一个开源客户端库，以纯Java实现CIFS/SMB网络协议。
 * [jCIFS  NG](https://github.com/AgNO3/jcifs-ng)：jCIFS库的清理和改进版本。
-* [Cling](https://github.com/4thline/cling)：适用于Java和Android的UPnP/DLNA库。
 * [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
 * [IRI](https://github.com/iotaledger/iri)：IOTA参考实现。
 * [Open eCard](https://github.com/ecsec/open-ecard)：Open eCard旨在提供eCard-API-Framework(BSI TR-03112)和相关国际标准ISO/IEC 24727的开源和跨平台实现。
@@ -2210,6 +2217,7 @@
 
 ## BitTorrent
 
+* [PeerBanHelper](https://github.com/PBH-BTN/PeerBanHelper)：PeerBanHelper是一个开源的个人网络防火墙安全软件。
 * [Bt](https://github.com/atomashpolskiy/bt)：BitTorrent库和客户端，具有DHT、磁力链接、加密等功能。
 * [BitLet](https://github.com/bitletorg/bitlet)：BitLet是BitTorrent协议的简单Java实现。
 * [Ttorrent](https://github.com/mpetazzoni/ttorrent)：BitTorrent协议的Java实现。

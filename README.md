@@ -461,6 +461,7 @@
   * [DNS、内网穿透和代理](docs/doc3.md#DNS内网穿透和代理)
   * [IO_Uring](docs/doc3.md#IO_Uring)
   * [网络工具](docs/doc3.md#网络工具)
+  * [端口转发](docs/doc3.md#端口转发)
   * [SDN](docs/doc3.md#SDN)
   * [IP操作库](docs/doc3.md#IP操作库)
 * [状态机](docs/doc3.md#状态机)
@@ -655,7 +656,7 @@
 * [Stripes](https://github.com/StripesFramework/stripes)：Stripes是一个Java Web框架，其目标是使Java中基于Servlet/JSP的Web开发尽可能简单、直观。
 * [BBoss](https://github.com/bbossgroups/bboss)：BBoss是一个Java EE框架，包括AOP/IoC、MVC、持久层、RPC等。
 * [Latke](https://github.com/88250/latke)：Latke是一个简单易用的Java Web应用开发框架，包含MVC、IoC、事件通知、ORM、插件等组件。
-* [NutzWk](https://github.com/Wizzercn/NutzWk)：NutzWk是基于国产框架NutzBoot开发的开源Java企业级Web框架。
+* [Nutz](https://github.com/nutzam/nutz)：面向所有Java开发人员的Web框架。
 * [WebforJ](https://github.com/webforj/webforj)：WebforJ是一个强大且灵活的Web框架，可让你使用Java轻松创建现代且引人入胜的用户界面，由BASIS开源。
 * [Albianj2](https://github.com/crosg/Albianj2)：Albianj是阅文集团设计并开发的一套分布式统一框架。
 * [Restlight](https://github.com/esastack/esa-restlight)：Restlight是一个轻量级且面向REST的Web框架。
