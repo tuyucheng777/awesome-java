@@ -344,6 +344,11 @@
 * [数据字典](docs/doc2.md#数据字典)
 * [迁移&重构](docs/doc2.md#迁移重构)
 * [Bot](docs/doc2.md#Bot)
+  * [Discord机器人](docs/doc2.md#Discord机器人)
+  * [Telegram机器人](docs/doc2.md#Telegram机器人)
+  * [Facebook机器人](docs/doc2.md#Facebook机器人)
+  * [QQ机器人](docs/doc2.md#QQ机器人)
+  * [微信机器人](docs/doc2.md#微信机器人)
 * [安卓库](docs/doc2.md#安卓库)
 * [GUI开发/程序](docs/doc2.md#GUI开发程序)
   * [GUI框架](docs/doc2.md#GUI框架)
@@ -983,9 +988,8 @@
 * [Moss](https://github.com/GrailStack/Moss)：Moss是Spring Cloud体系的服务治理平台。
 * [Misk](https://github.com/cashapp/misk)：Misk是来自Cash App的开源微服务容器，它允许你使用Kotlin或Java快速创建微服务。
 * [Stitch](https://github.com/twitter/stitch)：Stitch是一个Scala库，用于优雅高效地组合对服务的RPC调用，由Twitter开发。
-* [Blade-Tool](https://github.com/chillzhuang/blade-tool)：Spring Blade 3.0架构核心工具包。
+* [Blade Tool](https://github.com/chillzhuang/blade-tool)：Spring Blade 3.0架构核心工具包。
 * [Conjure](https://github.com/palantir/conjure)：Conjure是一个简单的工具链，用于定义一次API并生成多种语言的客户端/服务器接口，由Palantir开源。
-* [GreenLightning](https://github.com/oci-pronghorn/GreenLightning)：高性能微服务运行时。
 * [Hexagon](https://github.com/hexagonkt/hexagon)：Hexagon是一个用Kotlin编写的微服务工具包，其目的是简化在云平台内运行的服务器应用程序的构建。
 * [Mica](https://gitee.com/596392912/mica)：Spring Cloud微服务开发核心工具集，支持Web和WebFlux。
 * [Baker](https://github.com/ing-bank/baker)：Baker是一个库，它提供了一种简单直观的方法来编排基于微服务的流程，由ING银行开源。
@@ -999,7 +1003,6 @@
 * [Squbs](https://github.com/paypal/squbs)：Squbs是一套组件，可在大规模托管云环境中实现Akka和Akka HTTP应用程序/服务的标准化和可操作化，Paypal开源。
 * [iBizLab-Runtime](https://gitee.com/ibizlab/ibizlab-runtime)：提供一个完整的微服务架构轻量级支撑运行时系统。
 * [Infinitic](https://github.com/infiniticio/infinitic)：Infinitic是一个基于Pulsar的框架，可大大简化异步分布式应用程序的构建。
-* [Oracle Bedrock](https://github.com/coherence-community/oracle-bedrock)：Oracle Bedrock提供了一个通用Java框架，用于开发、编排和测试高度并发的分布式应用程序。
 * [SIP Framework](https://github.com/IKOR-GmbH/sip-framework)：该框架能够使用微服务构建轻量级集成适配器，以实现系统的技术和非技术解耦，因此具有高度可扩展性。
 * [Mats3](https://github.com/centiservice/mats3)：Mats3是一个Java库，可促进异步、无状态、多阶段、基于消息的服务的开发。
 * [Poseidon](https://github.com/flipkart-incubator/Poseidon)：Poseidon是一个用于构建API应用程序的平台，该应用程序必须以高效的方式聚合来自分布式服务的数据，由Flipkart开源。
@@ -2564,6 +2567,7 @@
 * [ScaleCube Cluster](https://github.com/scalecube/scalecube-cluster)：ScaleCube Cluster是一个轻量级的去中心化集群成员资格、故障检测和八卦协议库。
 * [Apache Gossip](https://github.com/apache/incubator-retired-gossip)：Apache Gossip是一个基于Gossip协议的开源项目，旨在提供一个可靠、高效的分布式通信机制。
 * [Fallout](https://github.com/datastax/fallout)：Fallout是一款用于运行本地或大规模远程分布式正确性、验证和性能测试的工具，由Datastax开源。
+* [Oracle Bedrock](https://github.com/coherence-community/oracle-bedrock)：Oracle Bedrock提供了一个通用Java框架，用于开发、编排和测试高度并发的分布式应用程序。
 
 #### 分布式锁
 
