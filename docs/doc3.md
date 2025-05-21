@@ -8,15 +8,15 @@
 ## WebAssembly
 
 * [GraalWasm](https://www.graalvm.org/webassembly/)：GraalWasm是一个适用于Java的高性能嵌入式WebAssembly运行时。
-* [Bytecoder](https://github.com/mirkosertic/Bytecoder)：用于将JVM字节码解释和转换为JavaScript、OpenCL或WebAssembly的框架。
-* [JWebAssembly](https://github.com/i-net-software/JWebAssembly)：Java字节码到WebAssembly的编译器。
-* [TeaVM](https://github.com/konsoletyper/teavm)：用于将Java字节码编译为JavaScript、WebAssembly和C。
+* [Bytecoder](https://github.com/mirkosertic/Bytecoder)：Bytecoder是Java字节码和框架的富域模型，用于将其解释并转换为其他语言，例如JavaScript、OpenCL或WebAssembly。
+* [JWebAssembly](https://github.com/i-net-software/JWebAssembly)：JWebAssembly是Java字节码到WebAssembly的编译器。
+* [TeaVM](https://github.com/konsoletyper/teavm)：TeaVM是Java字节码的提前编译器，可生成在浏览器中运行的JavaScript和WebAssembly。
 * [DoppioJVM](https://github.com/plasma-umass/doppio)：Doppio是一个兼容POSIX的运行时系统以及一个用TypeScript编写的JVM，也是马萨诸塞大学PLASMA小组的一个活跃的研究项目。
 * [Asmble](https://github.com/cretz/asmble)：Asmble是一个将WebAssembly代码编译为JVM字节码的编译器，它还包含一个解释器和实用程序，用于从命令行和JVM语言处理WASM代码。
-* [Wasmtime-Java](https://github.com/kawamuray/wasmtime-java)：Wasmtime的Java语言绑定。
+* [Wasmtime Java](https://github.com/kawamuray/wasmtime-java)：Wasmtime的Java语言绑定。
 * [CheerpJ](https://github.com/leaningtech/cheerpj-meta)：CheerpJ是一个基于WebAssembly的浏览器JVM，它与Java 8兼容，并提供完整的运行时环境，无需插件即可在浏览器中运行Java应用程序、Applet、库和Java Web Start/JNLP应用程序。
 * [Chicory](https://github.com/dylibso/chicory)：Chicory是JVM原生WebAssembly运行时，它允许你以零本机依赖或JNI运行WebAssembly程序。
-* [Wasmer](https://github.com/wasmerio/wasmer-java)：Java的WebAssembly运行时。
+* [Wasmer](https://github.com/wasmerio/wasmer-java)：基于Wasmer的完整且成熟的Java WebAssembly运行时。
 
 ## JavaScript
 
@@ -681,6 +681,7 @@
 * [Libcore Syscall](https://github.com/cinit/LibcoreSyscall)：Libcore Syscall是一个适用于Android的Java库，允许你直接从Java代码进行任何Linux系统调用。
 * [JNI HPP](https://github.com/mapbox/jni.hpp)：JNI HPP是一个现代的、类型安全的、仅标头的C++14 JNI包装器，其目的是使从C++调用Java或从Java调用C++变得方便而安全。
 * [JNI4Android](https://github.com/bilibili/jni4android)：从伪Java生成C包装器，由B站开源。
+* [JFA](https://github.com/0x4a616e/jfa)：JFA是一个用于访问Apple Foundation框架的纯Java库。
 
 ## 操作系统信息
 
@@ -2054,10 +2055,11 @@
 
 ## Expect库
 
-* [ExpectIt](https://github.com/agavrilov76/ExpectIt)：Expect工具的另一个纯Java 1.6+实现。
+* [ExpectIt](https://github.com/agavrilov76/ExpectIt)：ExpectIt是Expect工具的另一个纯Java 1.6+实现。
 * [Expect4J](https://github.com/cverges/expect4j)：用Java重写Expect并提供与TclJava解释器的绑定。
-* [ExpectJ](https://expectj.sourceforge.net/)：Unix Expect实用程序的Java实现。
-* [Expect-Java](https://github.com/ronniedong/Expect-for-Java)：Expect工具的纯Java实现。
+* [ExpectJ](https://expectj.sourceforge.net/)：ExpectJ可用于自动与进程或telnet会话进行交互。
+* [Enchanter](https://bitbucket.org/mrdon/enchanter)：Enchanter是一个小型库，可以帮助你以类似于Expect的方式编写SSH会话脚本。
+* [Expect Java](https://github.com/ronniedong/Expect-for-Java)：Expect工具的纯Java实现。
 * [Expect4Java](https://github.com/iTransformers/expect4java)：Java的Expect语言实现，使用Java 8闭包。
 
 ## JavaME
