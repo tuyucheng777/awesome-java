@@ -1,4 +1,4 @@
-# Java生态资源大全
+`# Java生态资源大全
 
 这里汇总了Java生态圈中的各种框架、库、中间件，包括Web开发、大数据、桌面开发、机器学习、软件测试、物联网、Android等领域。
 
@@ -154,6 +154,7 @@
 * [人工智能](#人工智能)
   * [LLM](#LLM)
   * [LLM客户端](#LLM客户端)
+  * [代理框架](#代理框架)
   * [机器学习](#机器学习)
   * [自然语言处理](#自然语言处理)
   * [深度学习](#深度学习)
@@ -248,6 +249,7 @@
 * [图像处理](docs/doc2.md#图像处理)
 * [水印](docs/doc2.md#水印)
 * [SVG库](docs/doc2.md#SVG库)
+* [TIFF库](docs/doc2.md#TIFF库)
 * [验证码](docs/doc2.md#验证码)
 * [压缩库](docs/doc2.md#压缩库)
 * [反射库](docs/doc2.md#反射库)
@@ -266,8 +268,12 @@
   * [CSV库](docs/doc2.md#CSV库)
   * [Word库](docs/doc2.md#Word库)
   * [PPT库](docs/doc2.md#PPT库)
+  * [ODS库](docs/doc2.md#ODS库)
+  * [DBF库](docs/doc2.md#DBF库)
+  * [INI库](docs/doc2.md#INI库)
   * [Toml库](docs/doc2.md#Toml库)
   * [HTML库](docs/doc2.md#HTML库)
+  * [EPUB库](docs/doc2.md#EPUB库)
   * [Outlook库](docs/doc2.md#Outlook库)
   * [License库](docs/doc2.md#License库)
   * [Markdown库](docs/doc2.md#Markdown库)
@@ -983,6 +989,7 @@
 ## 微服务工具
 
 * [Dapr Java](https://github.com/dapr/java-sdk)：Dapr是Microsoft开源的一个可移植、事件驱动的运行时，用于跨云和边缘构建分布式应用程序。
+* [Joylive Agent](https://github.com/jd-opensource/joylive-agent)：微服务治理框架，基于字节码增强技术，由京东开源。
 * [Nepxion Discovery](https://github.com/Nepxion/Discovery)：Nepxion Discovery是专注于企业级云原生微服务开源解决方案
 * [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行REST微服务，由AOL开源。
 * [Eventuate Tram Core](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
@@ -1692,7 +1699,6 @@
 * [AWS Lambda Java Libraries](https://github.com/aws/aws-lambda-java-libs)：在AWS Lambda平台上运行Java的关键库。
 * [Spring Cloud Function](https://github.com/spring-cloud/spring-cloud-function)：基于Spring Boot的函数计算框架。
 * [Apache OpenWhisk](https://github.com/apache/openwhisk)：OpenWhisk是一个用于构建云应用程序的Serverless函数平台，由IBM开源。
-* [Joylive Agent](https://github.com/jd-opensource/joylive-agent)：用于多活(单元)场景下流量治理的Java字节码增强框架，由京东开源。
 * [Jerverless](https://github.com/jerverless/jerverless)：Jerverless是一个Serverless运行器，它将以Serverless函数的形式执行任何内容(二进制文件、命令或脚本)。
 * [Pulumi AWS](https://github.com/pulumi/pulumi-aws)：Pulumi的AWS资源提供商允许你在云程序中使用AWS资源。
 * [Open Runtimes](https://github.com/open-runtimes/open-runtimes)：适用于多种编程语言的Serverless云计算运行时环境，旨在为在容器化系统中编写云函数创建一致且可预测的开放标准。
@@ -3853,12 +3859,10 @@
 * [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)：Spring AI Alibaba基于Spring AI构建，是阿里云通义系列模型及服务在Java AI应用开发领域的最佳实践。
 * [GhidraMCP](https://github.com/LaurieWired/GhidraMCP)：GhidraMCP是一个模型上下文协议服务器，允许LLM自主地对应用程序进行逆向工程。
 * [Opik](https://github.com/comet-ml/opik)：Opik是一个用于评估、测试和监控LLM应用程序的开源平台，由Comet开源。
-* [Koog](https://github.com/JetBrains/koog)：Koog是一个基于Kotlin的框架，旨在完全使用惯用的Kotlin语言构建和运行AI代理，由JetBrains开源。
 * [Agents Flex](https://gitee.com/agents-flex/agents-flex)：Agents Flex是一个用Java开发的AI应用开发框架，旨在简化AI应用开发。
 * [FIT Framework](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
 * [Ali LangEngine](https://github.com/AIDC-AI/ali-langengine)：Ali LangEngine是一个用Java编写的AI应用开发框架，由阿里开源。
 * [LangChain Java](https://github.com/HamaWhiteGG/langchain-java)：Java版LangChain，同时赋能LLM大数据。
-* [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
 * [TorchV](https://torchv.com/)：TorchV AI是一款基于LLM、RAG和Agent技术的人工智能PaaS产品，目标是帮助企业快速建立AI应用。
 * [Optimus-1](https://github.com/JiuTian-VL/Optimus-1)：混合多模态记忆赋能智能体，在长期任务中表现出色，由哈尔滨工业大学开发。
 * [UseOpen LLM Server](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，这是永源的产品。
@@ -3902,6 +3906,13 @@
 * [Google Gen AI Java SDK](https://github.com/googleapis/java-genai)：Gemini Developer API和Vertex AI API的Java惯用SDK。
 * [Anthropic Java API](https://github.com/anthropics/anthropic-sdk-java)：Anthropic Java SDK提供了从用Java编写的应用程序方便访问Anthropic REST API的功能。
 * [Dify Java Client](https://github.com/imfangs/dify-java-client)：Dify Java Client是一个用于与Dify平台进行交互的Java客户端库。
+
+#### 代理框架
+
+* [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
+* [Koog](https://github.com/JetBrains/koog)：Koog是一个基于Kotlin的框架，旨在完全使用惯用的Kotlin语言构建和运行AI代理，由JetBrains开源。
+* [Embabel](https://github.com/embabel/embabel-agent)：用于在JVM上编写代理流的框架，将LLM触发的交互与代码和领域模型无缝融合。
+* [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
 
 #### 机器学习
 
@@ -4056,6 +4067,7 @@
 #### 信息提取
 
 * [GROBID](https://github.com/kermitt2/grobid)：GROBID是一个用于从学术文档中提取信息的机器学习软件，由法国国家信息与自动化研究所开源。
+* [Apache Tika](https://github.com/apache/tika)：Tika是一个工具包，用于使用现有解析器库从各种文档中检测和提取元数据和结构化文本内容。
 * [ReVerb](https://github.com/knowitall/reverb)：ReVerb是一个自动识别和提取英语句子中二元关系的程序，专为网络规模的信息提取而设计，由华盛顿大学开源。
 * [DeepDive](https://github.com/HazyResearch/deepdive)：DeepDive是斯坦福开发的信息抽取系统。
 * [CERMINE](https://github.com/CeON/CERMINE)：CERMINE是一个Java库和一个Web服务，用于从包含学术出版物的PDF文件中提取元数据和内容，由华沙大学开源。
