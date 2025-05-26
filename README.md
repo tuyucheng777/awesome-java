@@ -251,6 +251,7 @@
 * [SVG库](docs/doc2.md#SVG库)
 * [TIFF库](docs/doc2.md#TIFF库)
 * [验证码](docs/doc2.md#验证码)
+* [二维码生成器](docs/doc2.md#二维码生成器)
 * [压缩库](docs/doc2.md#压缩库)
 * [反射库](docs/doc2.md#反射库)
 * [注解库](docs/doc2.md#注解库)
@@ -489,7 +490,6 @@
   * [以太网](docs/doc3.md#以太网)
   * [IP操作库](docs/doc3.md#IP操作库)
 * [状态机](docs/doc3.md#状态机)
-* [二维码生成器](docs/doc3.md#二维码生成器)
 * [文件系统](docs/doc3.md#文件系统)
 * [IPFS](docs/doc3.md#IPFS)
 * [物流系统](docs/doc3.md#物流系统)
@@ -705,6 +705,7 @@
 * [AppFuse](https://github.com/appfuse/appfuse)：AppFuse是一个用于在JVM上构建Web应用程序的全栈框架。
 * [HServer](https://gitee.com/HServer/HServer)：HServer是一个基于Netty开发的一个功能强大、资源丰富、开发灵活、轻量级、低入侵、高并发的新型Web开发框架。
 * [YMP](https://gitee.com/suninformation/ymate-platform-v2)：YMP是一个非常简单、易用的轻量级Java应用开发框架，涵盖AOP、IoC、Web、ORM、Validation、Plugin、Serv、Cache等特性。
+* [TinyStruct](https://github.com/tinystruct/tinystruct)：TinyStruct是一个轻量级Java应用框架，设计用于构建从命令行工具到Web应用的各种应用程序。
 
 #### RPC框架
 
@@ -2136,7 +2137,7 @@
 * [Squall](https://github.com/epfldata/squall)：Squall是一个构建在Storm之上的在线查询处理引擎，由洛桑联邦理工学院数据实验室开源。
 * [Cascading](https://github.com/cwensel/cascading)：Cascading是一个功能丰富的API，用于在本地或集群上定义和执行复杂且容错的数据处理流。
 * [UberScriptQuery](https://github.com/uber/uberscriptquery)：UberScriptQuery是一个用于运行Spark SQL作业的脚本查询包装器，由Uber开源。
-* [Spark-JobServer](https://github.com/spark-jobserver/spark-jobserver)：Spark-JobServer提供了一个RESTful接口，用于提交和管理Spark作业、jar和作业上下文。
+* [Spark JobServer](https://github.com/spark-jobserver/spark-jobserver)：Spark-JobServer提供了一个RESTful接口，用于提交和管理Spark作业、jar和作业上下文。
 * [Apache Tephra](https://github.com/cdapio/tephra)：Tephra在HBase等分布式数据存储之上提供全局一致的事务，由Google开源。
 * [Haeinsa](https://github.com/VCNC/haeinsa)：Haeinsa是HBase的线性可扩展的多行、多表事务库，由VCNC开源。
 * [Lipstick](https://github.com/Netflix/Lipstick)：Lipstick将Pig工作流程的图形描述与作业执行时的相关信息结合起来，由Netflix开源。
@@ -2144,6 +2145,7 @@
 * [Marmaray](https://github.com/uber/marmaray)：Marmaray是一个通用的Hadoop数据摄取和分散框架和库，由Uber开源。
 * [Spatial Framework Hadoop](https://github.com/Esri/spatial-framework-for-hadoop)：Hadoop空间框架允许开发人员和数据科学家使用Hadoop数据处理系统进行空间数据分析。
 * [IGinX](https://github.com/IGinX-THU/IGinX)：IGinX是清华大学大数据软件栈的“大数据总线”。
+* [Data Platform Open](https://github.com/shaiwz/data-platform-open)：可视化拖拽式大数据集成平台、大数据平台、大数据，包含数据流、数据源、数据对齐、查询模板、完善的监控等。
 
 #### 大数据组件
 
@@ -4164,6 +4166,7 @@
 * [TreeHole OCR](https://github.com/AnyListen/tools-ocr)：TreeHole OCR是一款跨平台的OCR小工具，调用本地OCR进行识别，无需联网即可使用用到的技术和框架。
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
 * [RapidOcr Java](https://github.com/MyMonsterCat/RapidOcr-Java)：Java代码实现调用RapidOCR。
+* [Java OCR API](https://github.com/Asprise/java-ocr-api)：Java OCR允许你对图像(JPEG、PNG、TIFF、PDF等)执行OCR和条形码识别，并输出为纯文本、具有完整坐标的XML以及可搜索的PDF。
 
 ## [测试-类加载](docs/doc2.md)
 
