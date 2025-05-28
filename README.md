@@ -627,11 +627,11 @@
 
 #### Web框架
 
-* [Jakarta Servlet](https://github.com/jakartaee/servlet)：Jakarta Servlet定义了用于处理HTTP请求和响应的服务器端API。
-* [Spring Boot](https://github.com/spring-projects/spring-boot)：Spring Boot可帮助轻松创建由Spring驱动的生产级应用程序和服务，由Pivotal开源。
+* [Jakarta Servlet](https://github.com/jakartaee/servlet)：Jakarta Servlet定义了用于处理HTTP请求和响应的服务器端API。[![GitHub stars](https://img.shields.io/github/stars/jakartaee/servlet.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jakartaee/servlet)
+* [Spring Boot](https://github.com/spring-projects/spring-boot)：Spring Boot可帮助轻松创建由Spring驱动的生产级应用程序和服务，由Pivotal开源。[![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-framework.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-boot)
 * [Apache Struts](https://github.com/apache/struts)：Struts是一个用于创建Java Web应用程序的免费开源解决方案。
 * [GWT](https://github.com/gwtproject/gwt)：GWT是一个开发工具包，用于构建和优化复杂的基于浏览器的应用程序，由Google开源。
-* [Solon](https://gitee.com/noear/solon)：Java新的应用开发框架，更小、更快、更简单。
+* [Solon](https://gitee.com/noear/solon)：Java新的应用开发框架，更小、更快、更简单。[![GitHub stars](https://gitee.com/opensolon/solon/badge/star.svg)](https://gitee.com/opensolon/solon/stargazers)
 * [Play](https://github.com/playframework/playframework)：Play框架结合了生产力和性能，可以轻松使用Java和Scala构建可扩展的Web应用程序，由Lightbend开源。
 * [Ring](https://github.com/ring-clojure/ring)：Ring是一个受Python的WSGI和Ruby的Rack启发的Clojure Web应用程序库。
 * [Dropwizard](https://github.com/dropwizard/dropwizard)：Dropwizard是一个Java框架，用于开发操作友好、高性能、RESTful Web Service，由Yammer开源。
