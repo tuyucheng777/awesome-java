@@ -627,86 +627,86 @@
 
 #### Web框架
 
-* [Jakarta Servlet](https://github.com/jakartaee/servlet)：Jakarta Servlet定义了用于处理HTTP请求和响应的服务器端API。[![GitHub stars](https://img.shields.io/github/stars/jakartaee/servlet.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jakartaee/servlet)
-* [Spring Boot](https://github.com/spring-projects/spring-boot)：Spring Boot可帮助轻松创建由Spring驱动的生产级应用程序和服务，由Pivotal开源。[![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-boot.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-boot)
-* [Apache Struts](https://github.com/apache/struts)：Struts是一个用于创建Java Web应用程序的免费开源解决方案。[![GitHub stars](https://img.shields.io/github/stars/apache/struts.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/struts)
-* [GWT](https://github.com/gwtproject/gwt)：GWT是一个开发工具包，用于构建和优化复杂的基于浏览器的应用程序，由Google开源。[![GitHub stars](https://img.shields.io/github/stars/gwtproject/gwt.svg?style=social&label=Star&maxAge=2592000)](https://github.com/gwtproject/gwt)
-* [Solon](https://gitee.com/noear/solon)：Java新的应用开发框架，更小、更快、更简单。[![GitHub stars](https://gitee.com/opensolon/solon/badge/star.svg)](https://gitee.com/opensolon/solon/stargazers)
-* [Play](https://github.com/playframework/playframework)：Play框架结合了生产力和性能，可以轻松使用Java和Scala构建可扩展的Web应用程序，由Lightbend开源。[![GitHub stars](https://img.shields.io/github/stars/playframework/playframework.svg?style=social&label=Star&maxAge=2592000)](https://github.com/playframework/playframework)
-* [Ring](https://github.com/ring-clojure/ring)：Ring是一个受Python的WSGI和Ruby的Rack启发的Clojure Web应用程序库。[![GitHub stars](https://img.shields.io/github/stars/ring-clojure/ring.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ring-clojure/ring)
-* [Dropwizard](https://github.com/dropwizard/dropwizard)：Dropwizard是一个Java框架，用于开发操作友好、高性能、RESTful Web Service，由Yammer开源。[![GitHub stars](https://img.shields.io/github/stars/dropwizard/dropwizard.svg?style=social&label=Star&maxAge=2592000)](https://github.com/dropwizard/dropwizard)
-* [Blade](https://github.com/lets-blade/blade)：Blade是一个追求简单、高效的Web框架。[![GitHub stars](https://img.shields.io/github/stars/lets-blade/blade.svg?style=social&label=Star&maxAge=2592000)](https://github.com/lets-blade/blade)
-* [JFinal](https://gitee.com/jfinal/jfinal)：JFinal是基于Java语言的极速Web + ORM框架，其核心设计目标是开发迅速、代码量少、学习简单、功能强大、轻量级、易扩展、RESTful。[![GitHub stars](https://gitee.com/jfinal/jfinal/badge/star.svg)](https://gitee.com/jfinal/jfinal/stargazers)
-* [Grails](https://github.com/grails/grails-core)：Grails是一个用于使用Groovy编程语言构建Web应用程序的框架，由Pivotal开源。[![GitHub stars](https://img.shields.io/github/stars/grails/grails-core.svg?style=social&label=Star&maxAge=2592000)](https://github.com/grails/grails-core)
-* [Javalin](https://github.com/javalin/javalin)：Javalin是一个非常轻量级的Kotlin和Java Web框架，支持WebSockets、HTTP2和异步请求。[![GitHub stars](https://img.shields.io/github/stars/javalin/javalin.svg?style=social&label=Star&maxAge=2592000)](https://github.com/javalin/javalin)
-* [Ninja](https://github.com/ninjaframework/ninja)：Ninja是Java的全栈Web框架，坚如磐石、快速且高效。[![GitHub stars](https://img.shields.io/github/stars/ninjaframework/ninja.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ninjaframework/ninja)
-* [Panshi](https://gitee.com/aizuda/panshi)：稳定可靠的Web开发框架，由爱组搭维护。[![GitHub stars](https://gitee.com/aizuda/panshi/badge/star.svg)](https://gitee.com/aizuda/panshi/stargazers)
-* [KVision](https://github.com/rjaros/kvision)：KVision是一个为Kotlin语言创建的开源Web框架，它允许开发人员使用Kotlin构建现代Web应用程序。[![GitHub stars](https://img.shields.io/github/stars/rjaros/kvision.svg?style=social&label=Star&maxAge=2592000)](https://github.com/rjaros/kvision)
-* [SOFABoot](https://github.com/sofastack/sofa-boot)：SOFABoot是一个基于Spring Boot的Java开发框架，由蚂蚁开源。[![GitHub stars](https://img.shields.io/github/stars/sofastack/sofa-boot.svg?style=social&label=Star&maxAge=2592000)](https://github.com/sofastack/sofa-boot)
-* [Vaadin](https://github.com/vaadin/framework)：Vaadin允许你使用纯Java高效构建现代Web应用程序，而无需接触低级Web技术。[![GitHub stars](https://img.shields.io/github/stars/vaadin/framework.svg?style=social&label=Star&maxAge=2592000)](https://github.com/vaadin/framework)
-* [Jooby](https://github.com/jooby-project/jooby)：Jooby是一个现代、高性能且易于使用的Java和Kotlin Web框架上。[![GitHub stars](https://img.shields.io/github/stars/jooby-project/jooby.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jooby-project/jooby)
-* [Elide](https://github.com/elide-dev/elide)：Elide是一个用于开发快速Web应用程序的云优先多语言运行时。[![GitHub stars](https://img.shields.io/github/stars/elide-dev/elide.svg?style=social&label=Star&maxAge=2592000)](https://github.com/elide-dev/elide)
-* [JSweet](https://github.com/cincheo/jsweet)：JSweet利用TypeScript通过JavaScript库和框架用Java编写丰富且响应迅速的Web应用程序。[![GitHub stars](https://img.shields.io/github/stars/cincheo/jsweet.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cincheo/jsweet)
-* [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。[![GitHub stars](https://img.shields.io/github/stars/wocommunity/wonder.svg?style=social&label=Star&maxAge=2592000)](https://github.com/wocommunity/wonder)
-* [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA(Rich Internet Applications)的SDK，由Adobe维护。[![GitHub stars](https://img.shields.io/github/stars/apache/flex-sdk.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/flex-sdk)
-* [Eclipse Krazo](https://github.com/eclipse-ee4j/krazo)：Eclipse Krazo是Jakarta MVC 2.0指定的基于操作的MVC实现。[![GitHub stars](https://img.shields.io/github/stars/eclipse-ee4j/krazo.svg?style=social&label=Star&maxAge=2592000)](https://github.com/eclipse-ee4j/krazo)
-* [Pippo](https://github.com/pippo-java/pippo)：Pippo是一个Java开源微型Web框架，具有最小的依赖性和快速的学习曲线。[![GitHub stars](https://img.shields.io/github/stars/pippo-java/pippo.svg?style=social&label=Star&maxAge=2592000)](https://github.com/pippo-java/pippo)
-* [Spark](https://github.com/perwendel/spark)：Spark是一个Java 8的小型Web框架。[![GitHub stars](https://img.shields.io/github/stars/perwendel/spark.svg?style=social&label=Star&maxAge=2592000)](https://github.com/perwendel/spark)
-* [Smart](https://gitee.com/huangyong/smart-framework)：Smart是一款轻量级Java Web框架，内置IoC、AOP、ORM、DAO、MVC等特性。[![GitHub stars](https://gitee.com/huangyong/smart-framework/badge/star.svg)](https://gitee.com/huangyong/smart-framework/stargazers)
-* [Citrus](https://github.com/webx/citrus)：Citrus是阿里开源的基于Java的Web框架。[![GitHub stars](https://img.shields.io/github/stars/webx/citrus.svg?style=social&label=Star&maxAge=2592000)](https://github.com/webx/citrus)
-* [Kobweb](https://github.com/varabyte/kobweb)：Kobweb是一个用于创建网站和Web应用程序的Kotlin框架，它建立在Compose HTML之上，并受到Next.js和Chakra UI的启发。[![GitHub stars](https://img.shields.io/github/stars/varabyte/kobweb.svg?style=social&label=Star&maxAge=2592000)](https://github.com/varabyte/kobweb)
-* [Apache Wicket](https://github.com/apache/wicket)：Wicket是一个开源、基于组件的Java Web应用程序框架。[![GitHub stars](https://img.shields.io/github/stars/apache/wicket.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/wicket)
-* [RIFE2](https://github.com/rife2/rife2)：RIFE2是一个全栈、无声明的框架，可以使用现代Java快速、轻松地创建Web应用程序。[![GitHub stars](https://img.shields.io/github/stars/rife2/rife2.svg?style=social&label=Star&maxAge=2592000)](https://github.com/rife2/rife2)
-* [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。[![GitHub stars](https://img.shields.io/github/stars/apache/tapestry-5.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/tapestry-5)
-* [Ratpack](https://github.com/ratpack/ratpack)：Ratpack是一个简单、功能强大的工具包，用于创建高性能Web应用程序。[![GitHub stars](https://img.shields.io/github/stars/ratpack/ratpack.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ratpack/ratpack)
-* [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。[![GitHub stars](https://img.shields.io/github/stars/zkoss/zk.svg?style=social&label=Star&maxAge=2592000)](https://github.com/zkoss/zk)
-* [FIT](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。[![GitHub stars](https://img.shields.io/github/stars/ModelEngine-Group/fit-framework.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ModelEngine-Group/fit-framework)
-* [Feat](https://gitee.com/smartboot/feat)：Feat是一个类似于Vert.x和Spring Boot的Java Web服务开发框架，专注于提供高性能、低资源消耗的解决方案。[![GitHub stars](https://gitee.com/smartboot/feat/badge/star.svg)](https://gitee.com/smartboot/feat/stargazers)
-* [Rose](https://github.com/XiaoMi/rose)：Rose是由人人网、糯米网、小米提供的，基于Servlet规范的Web框架。[![GitHub stars](https://img.shields.io/github/stars/XiaoMi/rose.svg?style=social&label=Star&maxAge=2592000)](https://github.com/XiaoMi/rose)
-* [Lift](https://github.com/lift/framework)：Lift是一个强大、安全的Web框架。[![GitHub stars](https://img.shields.io/github/stars/lift/framework.svg?style=social&label=Star&maxAge=2592000)](https://github.com/lift/framework)
-* [Kora](https://github.com/kora-projects/kora)：Kora是一个用于编写Java/Kotlin应用程序的框架，重点关注性能、效率和透明度。[![GitHub stars](https://img.shields.io/github/stars/kora-projects/kora.svg?style=social&label=Star&maxAge=2592000)](https://github.com/kora-projects/kora)
-* [Duct](https://github.com/duct-framework/duct)：Duct是一个高度模块化的框架，用于使用数据驱动架构在Clojure中构建服务器端应用程序。[![GitHub stars](https://img.shields.io/github/stars/duct-framework/duct.svg?style=social&label=Star&maxAge=2592000)](https://github.com/duct-framework/duct)
-* [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。[![GitHub stars](https://img.shields.io/github/stars/javalite/javalite.svg?style=social&label=Star&maxAge=2592000)](https://github.com/javalite/javalite)
-* [Vraptor4](https://github.com/caelum/vraptor4)：VRaptor是一个开源MVC框架，构建于CDI之上。[![GitHub stars](https://img.shields.io/github/stars/caelum/vraptor4.svg?style=social&label=Star&maxAge=2592000)](https://github.com/caelum/vraptor4)
-* [Scalatra](https://github.com/scalatra/scalatra)：Scalatra是一个小型、类似Sinatra的Scala Web框架。[![GitHub stars](https://img.shields.io/github/stars/scalatra/scalatra.svg?style=social&label=Star&maxAge=2592000)](https://github.com/scalatra/scalatra)
-* [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是围绕Pipeline，关注点分离和基于组件的Web开发的概念构建的Web应用程序框架。[![GitHub stars](https://img.shields.io/github/stars/apache/cocoon.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/cocoon)
-* [Apache Turbine](https://github.com/apache/turbine-core)：Turbine是一个基于Servlet的框架，允许Java开发人员快速构建Web应用程序。[![GitHub stars](https://img.shields.io/github/stars/apache/turbine-core.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/turbine-core)
-* [Takes](https://github.com/yegor256/takes)：Takes是一个真正的面向对象且不可变的Java Web开发框架。[![GitHub stars](https://img.shields.io/github/stars/yegor256/takes.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yegor256/takes)
-* [Argo](https://github.com/58code/Argo)：Argo是起源于58同城的内部Web框架。[![GitHub stars](https://img.shields.io/github/stars/58code/Argo.svg?style=social&label=Star&maxAge=2592000)](https://github.com/58code/Argo)
-* [Kora](https://github.com/Tinkoff/kora)：Kora是一个基于JVM的框架，用于构建后端应用程序。[![GitHub stars](https://img.shields.io/github/stars/Tinkoff/kora.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Tinkoff/kora)
-* [IGRP](https://github.com/NOSiCode-CV/IGRP-Framework)：IGRP是由美国NOSi开发的平台，用于创建Web应用程序，基于业务步骤、流程、自动代码生成和一次性原则的合并。[![GitHub stars](https://img.shields.io/github/stars/NOSiCode-CV/IGRP-Framework.svg?style=social&label=Star&maxAge=2592000)](https://github.com/NOSiCode-CV/IGRP-Framework)
-* [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。[![GitHub stars](https://img.shields.io/github/stars/TogetherOS/cicada.svg?style=social&label=Star&maxAge=2592000)](https://github.com/TogetherOS/cicada)
-* [HappyX](https://github.com/HapticX/happyx)：HappyX是一个异步、面向宏、全栈支持的Web框架。[![GitHub stars](https://img.shields.io/github/stars/HapticX/happyx.svg?style=social&label=Star&maxAge=2592000)](https://github.com/HapticX/happyx)
-* [CUBA Platform](https://github.com/cuba-platform/cuba)：CUBA Platform是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。[![GitHub stars](https://img.shields.io/github/stars/cuba-platform/cuba.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cuba-platform/cuba)
-* [Tiny Framework](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。[![GitHub stars](https://gitee.com/tinyframework/tiny/badge/star.svg)](https://gitee.com/tinyframework/tiny/stargazers)
-* [Minum](https://github.com/byronka/minum)：Minum是一个从头开始构建的最小Java Web框架，零依赖，使用虚拟线程。[![GitHub stars](https://img.shields.io/github/stars/byronka/minum.svg?style=social&label=Star&maxAge=2592000)](https://github.com/byronka/minum)
-* [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。[![GitHub stars](https://img.shields.io/github/stars/Atmosphere/atmosphere.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Atmosphere/atmosphere)
-* [ACT Framework](https://gitee.com/actframework/actframework)：ACT是一个简洁易用，具有强大表达力的Java MVC全栈框架。[![GitHub stars](https://gitee.com/actframework/actframework/badge/star.svg)](https://gitee.com/actframework/actframework/stargazers)
-* [Hasor](https://gitee.com/clougence/hasor)：Hasor是一套基于Java语言的开发框架，可以和现有技术体系做到完美融合，由开云集致开源。[![GitHub stars](https://gitee.com/clougence/hasor/badge/star.svg)](https://gitee.com/clougence/hasor/stargazers)
-* [SiteMesh](https://github.com/sitemesh/sitemesh3)：SiteMesh是一个网页布局和装饰框架以及Web应用程序集成框架，可帮助创建由需要一致外观/感觉、导航和布局方案的页面组成的网站，由OpenSymphony开源。[![GitHub stars](https://img.shields.io/github/stars/sitemesh/sitemesh3.svg?style=social&label=Star&maxAge=2592000)](https://github.com/sitemesh/sitemesh3)
-* [Vert.x Web](https://github.com/vert-x3/vertx-web)：Vert.x Web是一套用于构建Web应用程序的构建块，可用于构建现代、可扩展的Web应用程序。[![GitHub stars](https://img.shields.io/github/stars/vert-x3/vertx-web.svg?style=social&label=Star&maxAge=2592000)](https://github.com/vert-x3/vertx-web)
-* [Eclipse Scout](https://github.com/eclipse-scout/scout.rt)：Scout是一个成熟且开源的框架，适用于Web上的现代业务应用程序。[![GitHub stars](https://img.shields.io/github/stars/eclipse-scout/scout.rt.svg?style=social&label=Star&maxAge=2592000)](https://github.com/eclipse-scout/scout.rt)
-* [Cloudopt Next](https://github.com/cloudoptlab/cloudopt-next)：Cloudopt Next是一个非常轻量级、基于JVM的全栈Kotlin框架，支持Java、Kotlin语言，由最好的Java库和标准精心打造。[![GitHub stars](https://img.shields.io/github/stars/cloudoptlab/cloudopt-next.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cloudoptlab/cloudopt-next)
-* [Errai Framework](https://github.com/errai/errai)：Errai是一个Java/GWT Web框架，用于构建富客户端Web应用程序，由RedHat开源。[![GitHub stars](https://img.shields.io/github/stars/errai/errai.svg?style=social&label=Star&maxAge=2592000)](https://github.com/errai/errai)
-* [Stripes](https://github.com/StripesFramework/stripes)：Stripes是一个Java Web框架，其目标是使Java中基于Servlet/JSP的Web开发尽可能简单、直观。[![GitHub stars](https://img.shields.io/github/stars/StripesFramework/stripes.svg?style=social&label=Star&maxAge=2592000)](https://github.com/StripesFramework/stripes)
-* [BBoss](https://github.com/bbossgroups/bboss)：BBoss是一个Java EE框架，包括AOP/IoC、MVC、持久层、RPC等。[![GitHub stars](https://img.shields.io/github/stars/bbossgroups/bboss.svg?style=social&label=Star&maxAge=2592000)](https://github.com/bbossgroups/bboss)
-* [Latke](https://github.com/88250/latke)：Latke是一个简单易用的Java Web应用开发框架，包含MVC、IoC、事件通知、ORM、插件等组件。[![GitHub stars](https://img.shields.io/github/stars/88250/latke.svg?style=social&label=Star&maxAge=2592000)](https://github.com/88250/latke)
-* [Nutz](https://github.com/nutzam/nutz)：面向所有Java开发人员的Web框架。[![GitHub stars](https://img.shields.io/github/stars/nutzam/nutz.svg?style=social&label=Star&maxAge=2592000)](https://github.com/nutzam/nutz)
-* [WebforJ](https://github.com/webforj/webforj)：WebforJ是一个强大且灵活的Web框架，可让你使用Java轻松创建现代且引人入胜的用户界面，由BASIS开源。[![GitHub stars](https://img.shields.io/github/stars/webforj/webforj.svg?style=social&label=Star&maxAge=2592000)](https://github.com/webforj/webforj)
-* [Albianj2](https://github.com/crosg/Albianj2)：Albianj是阅文集团设计并开发的一套分布式统一框架。[![GitHub stars](https://img.shields.io/github/stars/crosg/Albianj2.svg?style=social&label=Star&maxAge=2592000)](https://github.com/crosg/Albianj2)
-* [Restlight](https://github.com/esastack/esa-restlight)：Restlight是一个轻量级且面向REST的Web框架。[![GitHub stars](https://img.shields.io/github/stars/esastack/esa-restlight.svg?style=social&label=Star&maxAge=2592000)](https://github.com/esastack/esa-restlight)
-* [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。[![GitHub stars](https://img.shields.io/github/stars/rapidoid/rapidoid.svg?style=social&label=Star&maxAge=2592000)](https://github.com/rapidoid/rapidoid)
-* [Aspectran](https://github.com/aspectran/aspectran)：Aspectran是一个用于开发Java应用程序的框架，可用于构建简单的shell应用程序和大型企业Web应用程序。[![GitHub stars](https://img.shields.io/github/stars/aspectran/aspectran.svg?style=social&label=Star&maxAge=2592000)](https://github.com/aspectran/aspectran)
+* [Jakarta Servlet](https://github.com/jakartaee/servlet)：Jakarta Servlet定义了用于处理HTTP请求和响应的服务器端API。
+* [Spring Boot](https://github.com/spring-projects/spring-boot)：Spring Boot可帮助轻松创建由Spring驱动的生产级应用程序和服务，由Pivotal开源。
+* [Apache Struts](https://github.com/apache/struts)：Struts是一个用于创建Java Web应用程序的免费开源解决方案。
+* [GWT](https://github.com/gwtproject/gwt)：GWT是一个开发工具包，用于构建和优化复杂的基于浏览器的应用程序，由Google开源。
+* [Solon](https://gitee.com/noear/solon)：Java新的应用开发框架，更小、更快、更简单。
+* [Play](https://github.com/playframework/playframework)：Play框架结合了生产力和性能，可以轻松使用Java和Scala构建可扩展的Web应用程序，由Lightbend开源。
+* [Ring](https://github.com/ring-clojure/ring)：Ring是一个受Python的WSGI和Ruby的Rack启发的Clojure Web应用程序库。
+* [Dropwizard](https://github.com/dropwizard/dropwizard)：Dropwizard是一个Java框架，用于开发操作友好、高性能、RESTful Web Service，由Yammer开源。
+* [Blade](https://github.com/lets-blade/blade)：Blade是一个追求简单、高效的Web框架。
+* [JFinal](https://gitee.com/jfinal/jfinal)：JFinal是基于Java语言的极速Web + ORM框架，其核心设计目标是开发迅速、代码量少、学习简单、功能强大、轻量级、易扩展、RESTful。
+* [Grails](https://github.com/grails/grails-core)：Grails是一个用于使用Groovy编程语言构建Web应用程序的框架，由Pivotal开源。
+* [Javalin](https://github.com/javalin/javalin)：Javalin是一个非常轻量级的Kotlin和Java Web框架，支持WebSockets、HTTP2和异步请求。
+* [Ninja](https://github.com/ninjaframework/ninja)：Ninja是Java的全栈Web框架，坚如磐石、快速且高效。
+* [Panshi](https://gitee.com/aizuda/panshi)：稳定可靠的Web开发框架，由爱组搭维护。
+* [KVision](https://github.com/rjaros/kvision)：KVision是一个为Kotlin语言创建的开源Web框架，它允许开发人员使用Kotlin构建现代Web应用程序。
+* [SOFABoot](https://github.com/sofastack/sofa-boot)：SOFABoot是一个基于Spring Boot的Java开发框架，由蚂蚁开源。
+* [Vaadin](https://github.com/vaadin/framework)：Vaadin允许你使用纯Java高效构建现代Web应用程序，而无需接触低级Web技术。
+* [Jooby](https://github.com/jooby-project/jooby)：Jooby是一个现代、高性能且易于使用的Java和Kotlin Web框架上。
+* [Elide](https://github.com/elide-dev/elide)：Elide是一个用于开发快速Web应用程序的云优先多语言运行时。
+* [JSweet](https://github.com/cincheo/jsweet)：JSweet利用TypeScript通过JavaScript库和框架用Java编写丰富且响应迅速的Web应用程序。
+* [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
+* [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA(Rich Internet Applications)的SDK，由Adobe维护。
+* [Eclipse Krazo](https://github.com/eclipse-ee4j/krazo)：Eclipse Krazo是Jakarta MVC 2.0指定的基于操作的MVC实现。
+* [Pippo](https://github.com/pippo-java/pippo)：Pippo是一个Java开源微型Web框架，具有最小的依赖性和快速的学习曲线。
+* [Spark](https://github.com/perwendel/spark)：Spark是一个Java 8的小型Web框架。
+* [Smart](https://gitee.com/huangyong/smart-framework)：Smart是一款轻量级Java Web框架，内置IoC、AOP、ORM、DAO、MVC等特性。
+* [Citrus](https://github.com/webx/citrus)：Citrus是阿里开源的基于Java的Web框架。
+* [Kobweb](https://github.com/varabyte/kobweb)：Kobweb是一个用于创建网站和Web应用程序的Kotlin框架，它建立在Compose HTML之上，并受到Next.js和Chakra UI的启发。
+* [Apache Wicket](https://github.com/apache/wicket)：Wicket是一个开源、基于组件的Java Web应用程序框架。
+* [RIFE2](https://github.com/rife2/rife2)：RIFE2是一个全栈、无声明的框架，可以使用现代Java快速、轻松地创建Web应用程序。
+* [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。
+* [Ratpack](https://github.com/ratpack/ratpack)：Ratpack是一个简单、功能强大的工具包，用于创建高性能Web应用程序。
+* [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
+* [FIT](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
+* [Feat](https://gitee.com/smartboot/feat)：Feat是一个类似于Vert.x和Spring Boot的Java Web服务开发框架，专注于提供高性能、低资源消耗的解决方案。
+* [Rose](https://github.com/XiaoMi/rose)：Rose是由人人网、糯米网、小米提供的，基于Servlet规范的Web框架。
+* [Lift](https://github.com/lift/framework)：Lift是一个强大、安全的Web框架。
+* [Kora](https://github.com/kora-projects/kora)：Kora是一个用于编写Java/Kotlin应用程序的框架，重点关注性能、效率和透明度。
+* [Duct](https://github.com/duct-framework/duct)：Duct是一个高度模块化的框架，用于使用数据驱动架构在Clojure中构建服务器端应用程序。
+* [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。
+* [Vraptor4](https://github.com/caelum/vraptor4)：VRaptor是一个开源MVC框架，构建于CDI之上。
+* [Scalatra](https://github.com/scalatra/scalatra)：Scalatra是一个小型、类似Sinatra的Scala Web框架。
+* [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是围绕Pipeline，关注点分离和基于组件的Web开发的概念构建的Web应用程序框架。
+* [Apache Turbine](https://github.com/apache/turbine-core)：Turbine是一个基于Servlet的框架，允许Java开发人员快速构建Web应用程序。
+* [Takes](https://github.com/yegor256/takes)：Takes是一个真正的面向对象且不可变的Java Web开发框架。
+* [Argo](https://github.com/58code/Argo)：Argo是起源于58同城的内部Web框架。
+* [Kora](https://github.com/Tinkoff/kora)：Kora是一个基于JVM的框架，用于构建后端应用程序。
+* [IGRP](https://github.com/NOSiCode-CV/IGRP-Framework)：IGRP是由美国NOSi开发的平台，用于创建Web应用程序，基于业务步骤、流程、自动代码生成和一次性原则的合并。
+* [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
+* [HappyX](https://github.com/HapticX/happyx)：HappyX是一个异步、面向宏、全栈支持的Web框架。
+* [CUBA Platform](https://github.com/cuba-platform/cuba)：CUBA Platform是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
+* [Tiny Framework](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
+* [Minum](https://github.com/byronka/minum)：Minum是一个从头开始构建的最小Java Web框架，零依赖，使用虚拟线程。
+* [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
+* [ACT Framework](https://gitee.com/actframework/actframework)：ACT是一个简洁易用，具有强大表达力的Java MVC全栈框架。
+* [Hasor](https://gitee.com/clougence/hasor)：Hasor是一套基于Java语言的开发框架，可以和现有技术体系做到完美融合，由开云集致开源。
+* [SiteMesh](https://github.com/sitemesh/sitemesh3)：SiteMesh是一个网页布局和装饰框架以及Web应用程序集成框架，可帮助创建由需要一致外观/感觉、导航和布局方案的页面组成的网站，由OpenSymphony开源。
+* [Vert.x Web](https://github.com/vert-x3/vertx-web)：Vert.x Web是一套用于构建Web应用程序的构建块，可用于构建现代、可扩展的Web应用程序。
+* [Eclipse Scout](https://github.com/eclipse-scout/scout.rt)：Scout是一个成熟且开源的框架，适用于Web上的现代业务应用程序。
+* [Cloudopt Next](https://github.com/cloudoptlab/cloudopt-next)：Cloudopt Next是一个非常轻量级、基于JVM的全栈Kotlin框架，支持Java、Kotlin语言，由最好的Java库和标准精心打造。
+* [Errai Framework](https://github.com/errai/errai)：Errai是一个Java/GWT Web框架，用于构建富客户端Web应用程序，由RedHat开源。
+* [Stripes](https://github.com/StripesFramework/stripes)：Stripes是一个Java Web框架，其目标是使Java中基于Servlet/JSP的Web开发尽可能简单、直观。
+* [BBoss](https://github.com/bbossgroups/bboss)：BBoss是一个Java EE框架，包括AOP/IoC、MVC、持久层、RPC等。
+* [Latke](https://github.com/88250/latke)：Latke是一个简单易用的Java Web应用开发框架，包含MVC、IoC、事件通知、ORM、插件等组件。
+* [Nutz](https://github.com/nutzam/nutz)：面向所有Java开发人员的Web框架。
+* [WebforJ](https://github.com/webforj/webforj)：WebforJ是一个强大且灵活的Web框架，可让你使用Java轻松创建现代且引人入胜的用户界面，由BASIS开源。
+* [Albianj2](https://github.com/crosg/Albianj2)：Albianj是阅文集团设计并开发的一套分布式统一框架。
+* [Restlight](https://github.com/esastack/esa-restlight)：Restlight是一个轻量级且面向REST的Web框架。
+* [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
+* [Aspectran](https://github.com/aspectran/aspectran)：Aspectran是一个用于开发Java应用程序的框架，可用于构建简单的shell应用程序和大型企业Web应用程序。
 * [Tentackle](https://bitbucket.org/krake-oss/tentackle)：Tentackle是一个开源Java框架，适用于在多个JVM上运行的分层应用程序，其灵感来自领域驱动设计的原理。
-* [Wisdom](https://github.com/wisdom-framework/wisdom)：模块化、动态的Web框架。[![GitHub stars](https://img.shields.io/github/stars/wisdom-framework/wisdom.svg?style=social&label=Star&maxAge=2592000)](https://github.com/wisdom-framework/wisdom)
-* [Astrix](https://github.com/AvanzaBank/astrix)：Astrix是一个Java框架，旨在简化微服务的开发和维护，由Avanza银行开源。[![GitHub stars](https://img.shields.io/github/stars/AvanzaBank/astrix.svg?style=social&label=Star&maxAge=2592000)](https://github.com/AvanzaBank/astrix)
-* [Uberfire](https://github.com/kiegroup/appformer)：Uberfire是一个Web框架，可在构建可扩展工作台和控制台类型应用程序方面提供卓越的体验，由JBoss社区开源。[![GitHub stars](https://img.shields.io/github/stars/kiegroup/appformer.svg?style=social&label=Star&maxAge=2592000)](https://github.com/kiegroup/appformer)
-* [TERASOLUNA](https://github.com/terasolunaorg/terasoluna-gfw)：TERASOLUNA是一种通过结合NTT Data的技术和知识来全面支持系统开发的解决方案。[![GitHub stars](https://img.shields.io/github/stars/terasolunaorg/terasoluna-gfw.svg?style=social&label=Star&maxAge=2592000)](https://github.com/terasolunaorg/terasoluna-gfw)
-* [Core NG](https://github.com/neowu/core-ng-project)：Core NG是专为长期可维护性和代码质量控制而设计和优化的Web框架。[![GitHub stars](https://img.shields.io/github/stars/neowu/core-ng-project.svg?style=social&label=Star&maxAge=2592000)](https://github.com/neowu/core-ng-project)
-* [AppFuse](https://github.com/appfuse/appfuse)：AppFuse是一个用于在JVM上构建Web应用程序的全栈框架。[![GitHub stars](https://img.shields.io/github/stars/appfuse/appfuse.svg?style=social&label=Star&maxAge=2592000)](https://github.com/appfuse/appfuse)
-* [HServer](https://gitee.com/HServer/HServer)：HServer是一个基于Netty开发的一个功能强大、资源丰富、开发灵活、轻量级、低入侵、高并发的新型Web开发框架。[![GitHub stars](https://gitee.com/HServer/HServer/badge/star.svg)](https://gitee.com/HServer/HServer/stargazers)
-* [YMP](https://gitee.com/suninformation/ymate-platform-v2)：YMP是一个非常简单、易用的轻量级Java应用开发框架，涵盖AOP、IoC、Web、ORM、Validation、Plugin、Serv、Cache等特性。[![GitHub stars](https://gitee.com/suninformation/ymate-platform-v2/badge/star.svg)](https://gitee.com/suninformation/ymate-platform-v2/stargazers)
-* [TinyStruct](https://github.com/tinystruct/tinystruct)：TinyStruct是一个轻量级Java应用框架，设计用于构建从命令行工具到Web应用的各种应用程序。[![GitHub stars](https://img.shields.io/github/stars/tinystruct/tinystruct.svg?style=social&label=Star&maxAge=2592000)](https://github.com/tinystruct/tinystruct)
+* [Wisdom](https://github.com/wisdom-framework/wisdom)：模块化、动态的Web框架。
+* [Astrix](https://github.com/AvanzaBank/astrix)：Astrix是一个Java框架，旨在简化微服务的开发和维护，由Avanza银行开源。
+* [Uberfire](https://github.com/kiegroup/appformer)：Uberfire是一个Web框架，可在构建可扩展工作台和控制台类型应用程序方面提供卓越的体验，由JBoss社区开源。
+* [TERASOLUNA](https://github.com/terasolunaorg/terasoluna-gfw)：TERASOLUNA是一种通过结合NTT Data的技术和知识来全面支持系统开发的解决方案。
+* [Core NG](https://github.com/neowu/core-ng-project)：Core NG是专为长期可维护性和代码质量控制而设计和优化的Web框架。
+* [AppFuse](https://github.com/appfuse/appfuse)：AppFuse是一个用于在JVM上构建Web应用程序的全栈框架。
+* [HServer](https://gitee.com/HServer/HServer)：HServer是一个基于Netty开发的一个功能强大、资源丰富、开发灵活、轻量级、低入侵、高并发的新型Web开发框架。
+* [YMP](https://gitee.com/suninformation/ymate-platform-v2)：YMP是一个非常简单、易用的轻量级Java应用开发框架，涵盖AOP、IoC、Web、ORM、Validation、Plugin、Serv、Cache等特性。
+* [TinyStruct](https://github.com/tinystruct/tinystruct)：TinyStruct是一个轻量级Java应用框架，设计用于构建从命令行工具到Web应用的各种应用程序。
 
 #### RPC框架
 
