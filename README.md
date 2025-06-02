@@ -109,7 +109,7 @@
   * [FTP服务器](#FTP服务器)
   * [网络库](#网络库)
   * [Socket](#Socket)
-  * [Pacp](#Pacp)
+  * [Pcap](#Pcap)
   * [SSH工具](#SSH工具)
   * [DNS、内网穿透和代理](#DNS内网穿透和代理)
   * [IO_Uring](#IO_Uring)
@@ -2890,7 +2890,7 @@
 * [JUnixSocket](https://github.com/kohlschutter/junixsocket)：JUnixSocket是一个Java/JNI库，允许在Java中使用Unix域套接字(AF_UNIX套接字)和其他地址/协议系列(AF_TIPC、AF_VSOCK和AF_SYSTEM)。
 * [JNR UnixSocket](https://github.com/jnr/jnr-unixsocket)：Java的本机I/O访问。
 
-#### Pacp
+#### Pcap
 
 * [Pcap4J](https://github.com/kaitoy/pcap4j)：Pcap4J是一个用于捕获、制作和发送数据包的Java库。
 * [Jpcap](https://github.com/jpcap/jpcap)：Jpcap是一组Java类，提供用于网络数据包捕获的接口和系统，由加州大学欧文分校开源。
