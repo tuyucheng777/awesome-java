@@ -3578,6 +3578,7 @@
 #### 其他技术教程
 
 * [RabbitMQ Tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)：该项目包含RabbitMQ教程的代码及其对各种语言的移植。
+* [Leave Sample](https://github.com/ouchuangxin/leave-sample)：本代码源于极客时间《DDD实战课》，DDD知识体系和代码详解可参考专栏。
 * [API Samples](https://github.com/youtube/api-samples)：YouTube API的代码示例，包括YouTube Data API、YouTube Analytics API和YouTube Live Streaming API。
 * [RxJava Samples](https://github.com/rengwuxian/RxJavaSamples)：RxJava 2和Retrofit结合使用的几个最常见使用方式举例。
 * [Vert.x 4 Examples](https://github.com/vert-x3/vertx-examples)：该仓库包含一系列Vert.x 4示例。
