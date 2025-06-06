@@ -355,8 +355,15 @@
   * [Modbus](docs/doc2.md#Modbus)
   * [USB库](docs/doc2.md#USB库)
 * [金融](docs/doc2.md#金融)
-* [智能卡](docs/doc2.md#智能卡)
-* [电子发票](docs/doc2.md#电子发票)
+  * [银行API](docs/doc2.md#银行API)
+  * [量化交易](docs/doc2.md#量化交易)
+  * [FIX引擎](docs/doc2.md#FIX引擎)
+  * [信用卡数据交换](docs/doc2.md#信用卡数据交换)
+  * [金融信息交换](docs/doc2.md#金融信息交换)
+  * [货币](docs/doc2.md#货币)
+  * [FinTS](docs/doc2.md#FinTS)
+  * [智能卡](docs/doc2.md#智能卡)
+  * [电子发票](docs/doc2.md#电子发票)
 * [短信](docs/doc2.md#短信)
 * [DSL](docs/doc2.md#DSL)
 * [JMX](docs/doc2.md#JMX)
@@ -533,7 +540,6 @@
 * [校验](docs/doc3.md#校验)
 * [IPP](docs/doc3.md#IPP)
 * [OSC](docs/doc3.md#OSC)
-* [FinTS](docs/doc3.md#FinTS)
 * [CalDAV](docs/doc3.md#CalDAV)
 * [WebDav](docs/doc3.md#WebDav)
 * [AirPlay](docs/doc3.md#AirPlay)
@@ -1008,6 +1014,7 @@
 * [TCC Transaction](https://github.com/changmingxie/tcc-transaction)：TCC Transaction是一款开源的微服务架构下的TCC型分布式事务解决方案，致力于提供高性能和简单易用的分布式事务服务。
 * [Multiverse](https://github.com/pveentjer/Multiverse)：Multiverse是JVM的软件事务内存实现。
 * [LCN](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库，由CodingAPI组织开源。
+* [CAP4j](https://github.com/netcorepal/cap4j)：CAP4j是一个基于最终一致性的微服务分布式事务解决方案。
 * [TAPIR](https://github.com/UWSysLab/tapir)：TAPIR是一种用于线性化分布式事务的新协议，使用复制构建，没有一致性保证，由华盛顿大学CSE系统实验室开源。
 * [Apache ServiceComb Pack](https://github.com/apache/servicecomb-pack)：ServiceComb Pack是微服务应用程序的最终数据一致性解决方案，目前提供TCC和Saga分布式事务协调解决方案，使用Alpha作为事务协调器，Omega作为事务代理，由华为开源。
 * [Raincat](https://github.com/dromara/raincat)：Raincat是强一致分布式事务框架，由dromara社区开源。
@@ -2378,7 +2385,7 @@
 * [NixieSearch](https://github.com/nixiesearch/nixiesearch)：Nixiesearch是一个混合搜索引擎，可以根据你的数据进行微调，由Carrot Search开源。
 * [Vespa](https://github.com/vespa-engine/vespa)：Vespa是一个开源的大规模分布式实时计算的向量和文本搜索引擎，Yahoo开发。
 * [YaCy](https://github.com/yacy/yacy_search_server)：YaCy是一个完整的搜索引擎应用程序，包含托管搜索索引的服务器。
-* [JVector](https://github.com/jbellis/jvector)：JVector是一个纯Java嵌入式矢量搜索引擎，由DataStax Astra DB和Cassandra使用。
+* [JVector](https://github.com/datastax/jvector)：JVector是一个纯Java嵌入式矢量搜索引擎，由DataStax开源。
 * [Linden](https://github.com/XiaoMi/linden)：Linden是一个构建在Lucene之上的分布式实时搜索系统，小米开源。
 * [Fess](https://github.com/codelibs/fess)：Fess是一个非常强大且易于部署的企业搜索服务器，CodeLibs开源。
 * [Zoie](https://github.com/senseidb/zoie)：Zoie是一个用Java编写的实时搜索/索引系统，由LinkedIn开源。
@@ -3171,6 +3178,7 @@
 * [ReMap](https://github.com/remondis-it/remap)：ReMap简化了对象逐个字段的转换，并大大减少了单元测试映射器类的工作量。
 * [Bull](https://github.com/ExpediaGroup/bull)：Bull是一种Java Bean到Java Bean转换器，通用、灵活、可重用、可配置，并且速度非常快，由Expedia开源。
 * [Datus](https://github.com/roookeee/datus)：Datus能够在流式的函数式API中定义两个数据结构之间的转换过程。
+* [Mappie](https://github.com/Mr-Mappie/mappie)：Mappie是一款Kotlin多平台编译器插件，它可以生成代码来简化对象映射代码的开发。
 * [Crane4j](https://github.com/opengoofy/crane4j)：一个简单易用的数据映射框架，通过简单的注解配置快速根据外键/编码值填充相关字段，支持字典、枚举、方法等多种数据源。
 * [Cloning](https://github.com/kostaskougios/cloning)：Cloning是一个小型开源Java库，可深度克隆对象。
 * [BeanUtils](https://github.com/yangtu222/BeanUtils)：BeanUtils库是一个Java bean复制实用程序，具有强大的功能和高性能。
@@ -3575,6 +3583,7 @@
 * [JBeret](https://github.com/jberet/jsr352)：JBeret是Jakarta Batch的实现，它还包含在WildFly中，以在Jakarta EE环境中提供便携式批处理支持。
 * [JBatch](https://github.com/WASdev/standards.jsr352.jbatch)：JBatch是Jakarta Batch规范的兼容实现，由IBM开源。
 * [Easy Batch](https://github.com/j-easy/easy-batch)：Easy Batch是一个旨在简化Java批处理的框架，它专为简单的单任务ETL作业而设计。
+* [Spring Batch Plus](https://github.com/naver/spring-batch-plus)：Spring Batch Plus为Spring Batch提供了扩展功能，NAVER开源。
 
 ## 并发编程
 
