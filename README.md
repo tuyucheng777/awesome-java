@@ -315,6 +315,15 @@
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
 * [脚手架](docs/doc2.md#脚手架)
 * [低代码](docs/doc2.md#低代码)
+* [QA系统](docs/doc2.md#QA系统)
+* [CMS系统](docs/doc2.md#CMS系统)
+* [ERP系统](docs/doc2.md#ERP系统)
+* [DMS系统](docs/doc2.md#DMS系统)
+* [知识管理系统](docs/doc2.md#知识管理系统)
+* [SCRM系统](docs/doc2.md#SCRM系统)
+* [门户框架](docs/doc2.md#门户框架)
+* [教育软件](docs/doc2.md#教育软件)
+* [静态站点生成器](docs/doc2.md#静态站点生成器)
 * [BaaS](docs/doc2.md#BaaS)
 * [Data API](docs/doc2.md#Data-API)
 * [POS](docs/doc2.md#POS)
@@ -494,14 +503,6 @@
 * [操作系统](docs/doc3.md#操作系统)
 * [电力系统](docs/doc3.md#电力系统)
 * [量子计算](docs/doc3.md#量子计算)
-* [QA系统](docs/doc3.md#QA系统)
-* [CMS系统](docs/doc3.md#CMS系统)
-* [ERP系统](docs/doc3.md#ERP系统)
-* [DMS系统](docs/doc3.md#DMS系统)
-* [SCRM系统](docs/doc3.md#SCRM系统)
-* [门户框架](docs/doc3.md#门户框架)
-* [教育软件](docs/doc3.md#教育软件)
-* [静态站点生成器](docs/doc3.md#静态站点生成器)
 * [状态机](docs/doc3.md#状态机)
 * [文件系统](docs/doc3.md#文件系统)
 * [IPFS](docs/doc3.md#IPFS)
@@ -589,7 +590,6 @@
 * [数字信号处理](docs/doc3.md#数字信号处理)
 * [企业集成模式](docs/doc3.md#企业集成模式)
 * [数字资产管理](docs/doc3.md#数字资产管理)
-* [文档管理系统](docs/doc3.md#文档管理系统)
 * [数据匿名工具](docs/doc3.md#数据匿名工具)
 * [外部进程执行](docs/doc3.md#外部进程执行)
 * [苹果推送通知](docs/doc3.md#苹果推送通知)
@@ -1053,7 +1053,6 @@
 * [Prana](https://github.com/Netflix/Prana)：用于基于Netflix OSS的服务的Sidecar，由Netflix开源。
 * [Sermant](https://github.com/huaweicloud/Sermant)：Sermant是基于Java字节码增强技术的无代理服务网格，其利用Java字节码增强技术为宿主应用程序提供服务治理功能，以解决大规模微服务体系结构中的服务治理问题，由华为开源。
 * [Water](https://gitee.com/noear/water)：为Java服务开发和治理，提供一站式解决方案(可以理解为微服务架构支持套件)。
-* [Juggle](https://gitee.com/Somta/Juggle)：Juggle是一个可用于接口编排、定制开发等场景的一套完整解决方案。
 * [Edison MicroService](https://github.com/otto-de/edison-microservice)：Spring Boot之上的独立库集合，可提供更快的JVM微服务设置。
 * [Squbs](https://github.com/paypal/squbs)：Squbs是一套组件，可在大规模托管云环境中实现Akka和Akka HTTP应用程序/服务的标准化和可操作化，Paypal开源。
 * [iBizLab-Runtime](https://gitee.com/ibizlab/ibizlab-runtime)：提供一个完整的微服务架构轻量级支撑运行时系统。
@@ -1308,6 +1307,7 @@
 
 ## JVM实现
 
+* [HotSpot](https://github.com/openjdk/jdk/tree/master/src/hotspot)：HotSpot是一款用于桌面和服务器计算机的Java虚拟机，由Sun开发。
 * [DCEVM](https://github.com/dcevm/dcevm)：DCEVM是Java HotSpot VM的修改版，允许在运行时无限地重新定义已加载的类，由约翰普勒林茨大学开源。
 * [LeJOS](https://lejos.sourceforge.io/)：LeJOS是乐高Mindstorms EV3、NXT和RCX积木的替换固件，你可以使用Java对乐高机器人进行编程，使用LeJOS开发的机器人曾在国际空间站上运行。
 * [Jikes RVM](https://github.com/JikesRVM/JikesRVM)：Jikes RVM提供了一个灵活的开放式测试平台，可以对虚拟机技术进行原型设计并尝试多种设计方案，曾经为虚拟机技术前沿研究超过180篇出版物和36篇论文。
@@ -1398,6 +1398,7 @@
 * [Teambition](https://www.teambition.com/)：阿里旗下数字化协作平台，提供项目管理、任务协同等解决方案。
 * [GanttProject](https://github.com/bardsoftware/ganttproject)：GanttProject是一款免费的桌面项目管理应用程序，由BarD软件公司开源。
 * [Atlassian Confluence](https://www.atlassian.com/zh/software)：Confluence是一个专业的企业知识管理与协同软件，也可以用于构建企业Wiki，由Atlassian开发。
+* [Wukong PM](https://github.com/WuKongOpenSource/Wukong_ProjectManagement)：基于Spring Cloud Alibaba微服务架构、Vue、ElementUI的前后端分离项目管理系统。
 * [Mone](https://github.com/XiaoMi/mone)：Mone是一个以微服务为核心的一站式企业协同研发平台，支持公有云、私有云、混合云等多种部署形态，由小米开源。
 * [Lavagna](https://github.com/digitalfondue/lavagna)：Lavagna是一款小型且易于使用的问题/项目跟踪软件。
 * [Yobi](https://github.com/yona-projects/yona)：Yobi是一个基于Web的项目托管软件，由Naver开源。
@@ -1735,7 +1736,6 @@
 * [Okapi](https://github.com/folio-org/okapi)：Okapi是一个多租户API网关，由Open Library基金会开源。
 * [Kaazing Gateway](https://github.com/kaazing/gateway)：Kaazing Gateway是一个网络网关，旨在为基于Web的实时协议提升提供单一接入点，支持负载均衡、集群和安全管理。
 * [API ML](https://github.com/zowe/api-layer)：API ML为大型机服务REST API提供单一访问点。
-* [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由链家开源。
 * [OWASP Application Gateway](https://github.com/The-OAG-Development-Project/Application-Gateway)：OWASP Application Gateway是一个HTTP反向代理，位于你的Web应用程序和客户端之间，负责处理Oauth2登录和会话管理。
 
 ## 服务发现
