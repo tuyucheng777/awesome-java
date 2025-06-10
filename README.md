@@ -315,6 +315,7 @@
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
 * [脚手架](docs/doc2.md#脚手架)
 * [低代码](docs/doc2.md#低代码)
+* [商城系统](docs/doc2.md#商城系统)
 * [QA系统](docs/doc2.md#QA系统)
 * [CMS系统](docs/doc2.md#CMS系统)
 * [ERP系统](docs/doc2.md#ERP系统)
