@@ -173,6 +173,7 @@
   * [差分隐私](#差分隐私)
   * [计算机视觉](#计算机视觉)
   * [光学字符识别](#光学字符识别)
+  * [语音识别](#语音识别)
 * [测试](docs/doc2.md#测试)
   * [单元测试](docs/doc2.md#单元测试)
   * [集成测试](docs/doc2.md#集成测试)
@@ -4163,6 +4164,14 @@
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
 * [RapidOcr Java](https://github.com/MyMonsterCat/RapidOcr-Java)：Java代码实现调用RapidOCR。
 * [Java OCR API](https://github.com/Asprise/java-ocr-api)：Java OCR允许你对图像(JPEG、PNG、TIFF、PDF等)执行OCR和条形码识别，并输出为纯文本、具有完整坐标的XML以及可搜索的PDF。
+
+#### 语音识别
+
+* [Vosk](https://github.com/alphacep/vosk-api)：Vosk是一款离线开源语音识别工具包。
+* [Sphinx-4](https://github.com/cmusphinx/sphinx4)：Sphinx-4是一款先进、独立于说话人的连续语音识别系统，由美国卡内基梅隆大学开发。
+* [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
+* [JARVIS Speech API](https://github.com/lkuza2/java-speech-api)：JARVIS Speech API的设计简洁高效，使用Google开发的语音引擎来提供部分API功能。
+* [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
 
 ## [测试-安卓库](docs/doc2.md)
 
