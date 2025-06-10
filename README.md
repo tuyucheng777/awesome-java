@@ -1525,10 +1525,8 @@
 * [HoloInsight](https://github.com/traas-stack/holoinsight)：HoloInsight是一个云原生可观测平台，重点专注于实时日志分析和人工智能集成，这是蚂蚁集团观测平台AntMonitor的开源版本。
 * [Watchman](https://www.infoq.cn/article/weibo-watchman/)：Watchman是微博的链路追踪及服务质量保障系统。
 * [EagleEye](https://www.infoq.cn/article/jgzbemozgmbsukewff6j)：鹰眼是Google的分布式调用跟踪系统Dapper在淘宝的Java实现。
-* [CallGraph](https://www.51cto.com/article/528304.html)：京东的分布式跟踪解决方案。
 * [SOFATracer](https://github.com/sofastack/sofa-tracer)：SOFATracer是一个用于分布式系统调用跟踪的组件，由蚂蚁开源。
 * [Cat](https://github.com/dianping/cat)：CAT是基于Java开发的实时应用监控平台，为大众点评提供了全面的实时监控告警服务。
-* [凤晴](http://www.uml.org.cn/wfw/202108185.asp)：凤睛是百度商业业务系统的APM，它侧重于对Java应用的监控，基本接入了百度绝大部分Java应用。
 * [Hiro](https://www.infoq.cn/article/suning-call-chain-monitoring-system-escort-818)：Hiro是苏宁易购开发的分布式跟踪系统。
 * [Brave](https://github.com/openzipkin/brave)：Brave是一个分布式跟踪仪器库。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint)：Pinpoint是一个用Java编写的大型分布式系统的APM工具，由韩国Naver研发团队开源。
@@ -1721,11 +1719,6 @@
 * [Apache ShenYu](https://github.com/apache/shenyu)：ShenYu是一个Java原生API网关，用于服务代理、协议转换和API治理，由dromara社区开源。
 * [Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway)：Spring Cloud Gateway旨在提供一种简单而有效的方法来路由到API并为其提供横切关注点，由Pivotal开源。
 * [FizzGate](https://github.com/fizzgate/fizz-gateway-node)：FizzGate是一个基于Java开发的微服务聚合网关，由正元信息公司提供。
-* [有赞API网关](https://tech.youzan.com/api-gateway-in-practice/)：有赞API网关承载着微商城、零售、微小店、餐饮、美业、AppSDK、部分PC、三方开发者等多个业务的调用。
-* [唯品会API网关](https://mp.weixin.qq.com/s/gREMe-G7nqNJJLzbZ3ed3A)：唯品会网关是基于Netty自研的API网关。
-* [DAG](https://tech.dewu.com/article?id=98)：DAG是得物研发的内部API网关产品。
-* [Shepherd](https://tech.meituan.com/2021/05/20/shepherd-api-gateway.html)：Shepherd是美团的高性能、高可用、可扩展的统一API网关解决方案。
-* [携程API网关](https://www.51cto.com/article/776528.html)：携程研发的基于Netty的高性能网关。
 * [Gateleen](https://github.com/swisspost/gateleen)：Gateleen是一个用于构建API网关的RESTFul中间件工具包，瑞士邮政开源。
 * [VX API Gateway](https://gitee.com/mirren/VX-API-Gateway)：VX API Gateway是基于Vert.x开发的一个全异步、高性能、可扩展、轻量级的API网关。
 * [SIA Gateway](https://github.com/siaorg/sia-gateway)：SIA Gateway是基于Spring Cloud微服务生态体系下开发的一个分布式微服务网关系统，宜信开源。
