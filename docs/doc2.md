@@ -1991,8 +1991,8 @@
 * [Mirror](https://github.com/Genymobile/mirror)：Java和Android的轻松反射。
 * [Intimate](https://github.com/eleme/Intimate)：Intimate提供了友好的API让Java反射的使用更加简单平滑，由饿了么开源。
 * [Apache Commons ClassScan](https://commons.apache.org/sandbox/commons-classscan)：ClassScan可以提供有关运行时可用的所有类的信息，无论该类是否已加载。
-* [FEST-Reflect](https://github.com/alexruiz/fest-reflect)：FEST-Reflect提供了直观、紧凑且类型安全的流式API，使Java反射非常易于使用：不再需要强制转换、检查异常、PriviledgedActions或setAccessible调用。
-* [Lambda-Factory](https://github.com/Hervian/lambda-factory)：Lambda-Factory是一个Java实用程序项目，它提供了基于反射的方法调用的快速替代方案。
+* [FEST Reflect](https://github.com/alexruiz/fest-reflect)：FEST Reflect提供了直观、紧凑且类型安全的流式API，使Java反射非常易于使用：不再需要强制转换、检查异常、PriviledgedActions或setAccessible调用。
+* [Lambda Factory](https://github.com/Hervian/lambda-factory)：Lambda Factory是一个Java实用程序项目，它提供了基于反射的方法调用的快速替代方案。
 * [Mirror](http://projetos.vidageek.net/mirror/mirror/)：Mirror的创建是为了解决一个简单的问题，通常命名为ReflectionUtil，它几乎适用于所有依赖反射来完成高级任务的项目。
 * [Reflection Util](https://github.com/cronn/reflection-util)：简化Java反射常见用例的工具类。
 * [Paranamer](https://github.com/paul-hammant/paranamer)：Paranamer是一个允许在运行时访问非私有方法和构造函数的参数名称的库，由ThoughtWorks开源。
@@ -2881,6 +2881,7 @@
 * [ηCMS](https://ncms.softmotions.com/)：开发人员可以基于ηCMS核心框架创建自己的Java项目，由Softmotions开发。
 * [NoraCMS](http://inbox-online.com/noracms/)：NoraCMS是一个企业CMS，它为你提供创建引人入胜的Web体验和通过所有渠道接触客户所需的自由和灵活性。
 * [CONTENTBOX](https://www.contentboxcms.org/)：CONTENTBOX是一款功能强大的开源无头CMS，100%完全可定制。
+
 ## ERP系统
 
 * [华夏ERP](https://gitee.com/jishenghua/JSH_ERP)：华夏ERP是基于Spring Boot框架和SaaS模式开源的ERP软件，目前专注进销存、财务、生产功能。
@@ -3000,6 +3001,7 @@
 * [POS System](https://github.com/hanlinag/point-of-sale-system)：用JavaFX编写的销售点系统。
 * [NORD POS](https://github.com/nordpos/nordpos)：NORD POS是Openbravo POS应用的一个分支，专为触摸屏设计。
 * [Sanguine POS](https://sanguinesoftwares.com/sanguine-pos/)：Sanguine POS采用Java开发，可管理餐饮行业的所有计费复杂性。
+* [ReadySTORE POS](https://www.utcretail.com/readystore-pos)：UTC RETAIL的ReadySTORE POS解决方案是一款专为多店零售商设计的企业软件解决方案。
 
 ## 业务
 
@@ -3036,31 +3038,32 @@
 
 ## 支付
 
-* [WxJava](https://gitee.com/binary/weixin-java-tools)：微信开发Java SDK，支持微信支付、开放平台、公众号、企业号/企业微信、小程序等的后端开发。
+* [WxJava](https://github.com/binarywang/WxJava)：微信开发Java SDK，支持微信支付、开放平台、公众号、企业号/企业微信、小程序等的后端开发。
 * [Jeepay](https://gitee.com/jeequan/jeepay)：Jeepay是一套适合互联网企业使用的开源支付系统，支持多渠道服务商和普通商户模式。
-* [IJPay](https://gitee.com/javen205/IJPay)：封装了微信支付、QQ支付、支付宝支付、京东支付、银联支付、PayPal支付等常用的支付方式以及各种常用的接口。
-* [Roncoo-Pay](https://gitee.com/roncoocom/roncoo-pay)：龙果支付系统是国内首款开源的互联网支付系统，拥有独立的账户体系、用户体系、支付接入体系、支付交易体系、对账清结算体系。
-* [Pay-Java](https://gitee.com/egzosn/pay-java-parent)：全能第三方支付对接Java开发工具包。
-* [Pay-SDK](https://github.com/Pay-Group/best-pay-sdk)：支付宝、微信支付SDK。
-* [PayPal](https://github.com/paypal/PayPal-Android-SDK)：接入PayPal支付的Android SDK。
-* [KillBill](https://github.com/killbill/killbill)：KillBill在过去10年中一直是领先的开源订阅计费和支付平台，该平台的存在是为了帮助扩展计费和支付基础设施并发展业务。
-* [微信支付Java SDK](https://github.com/YClimb/wxpay-sdk)：最新最全微信支付集成SDK，一行代码调用微信支付，包含基础支付功能。
+* [IJPay](https://gitee.com/javen205/IJPay)：IJPay封装了微信支付、QQ支付、支付宝支付、京东支付、银联支付、PayPal支付等常用的支付方式以及各种常用的接口。
+* [Roncoo Pay](https://gitee.com/roncoocom/roncoo-pay)：龙果支付系统是国内首款开源的互联网支付系统，拥有独立的账户体系、用户体系、支付接入体系、支付交易体系、对账清结算体系。
+* [Pay Java](https://gitee.com/egzosn/pay-java-parent)：全能第三方支付对接Java开发工具包。
+* [Pay SDK](https://github.com/Pay-Group/best-pay-sdk)：支付宝、微信支付SDK。
+* [PayPal](https://github.com/paypal/PayPal-Android-SDK)：PayPal Android SDK可以轻松地将PayPal付款添加到移动应用程序。
+* [KillBill](https://github.com/killbill/killbill)：KillBill在过去十年中一直是领先的开源订阅计费和支付平台。
+* [WxPay SDK](https://github.com/YClimb/wxpay-sdk)：最新最全微信支付集成SDK，一行代码调用微信支付，包含基础支付功能。
+* [Android Pay](https://github.com/mayubao/Android-Pay)：支持微信和支付宝两种主流支付的集成库。
 * [微信支付API v3](https://github.com/wechatpay-apiv3/wechatpay-java)：微信支付API v3的官方Java SDK。
-* [Paypal](https://github.com/paypal/Checkout-Java-SDK)：PayPal结账Java SDK。
-* [Alipay](https://github.com/alipay/alipay-easysdk)：支付宝开放平台服务端SDK。
-* [YunGouOS-PAY-SDK](https://gitee.com/YunGouOS/YunGouOS-PAY-SDK)：微信/支付宝官方服务商接口(支持个人、个体户、企业)签约开通。
-* [Payment-Spring-Boot](https://gitee.com/dromara/payment-spring-boot)：Java微信支付V3支付Spring Boot Starter，支持微信优惠券，代金券、商家转账到零钱、公众号支付、微信小程序支付、电商收付通等全部微信支付功能API，由dromara社区开源。
-* [EMV-NFC-Paycard-Enrollment](https://github.com/devnied/EMV-NFC-Paycard-Enrollment)：用于从NFC EMV信用卡读取和提取公共数据的Java库。
+* [Alipay](https://github.com/alipay/alipay-easysdk)：Alipay Easy SDK让你享受极简编程体验，快速访问支付宝开放平台开放的各项核心能力。
+* [YunGouOS Pay SDK](https://gitee.com/YunGouOS/YunGouOS-PAY-SDK)：微信/支付宝官方服务商接口(支持个人、个体户、企业)签约开通，一行代码搞定所有支付。
+* [Payment Spring Boot](https://gitee.com/dromara/payment-spring-boot)：Java微信支付v3 Spring Boot Starter，支持微信优惠券，代金券、商家转账到零钱、公众号支付、微信小程序支付、电商收付通等全部微信支付功能API，由dromara社区开源。
+* [EMV NFC Paycard Enrollment](https://github.com/devnied/EMV-NFC-Paycard-Enrollment)：用于从NFC EMV信用卡读取和提取公共数据的Java库。
 * [Alipay Java SDK](https://github.com/alipay/alipay-sdk-java-all)：支付宝开放平台Java SDK。
-* [XPay](https://github.com/Exrick/xpay)：XPay个人收款支付系统。
+* [XPay](https://github.com/Exrick/xpay)：XPay个人免签收款支付系统。
+* [JPay](https://github.com/Javen205/JPay)：对微信App支付、支付宝App支付、银联App支付的二次封装，对外提供一个相对简单的接口以及支付结果的回调。
 * [J2PAY](https://github.com/tranxactive/J2PAY)：J2Pay是一个用于Java的开源多网关支付处理库。
 * [Braintree Java](https://github.com/braintree/braintree_java)：Braintree Java库提供对Braintree网关的集成访问。
 * [Adyen Java API](https://github.com/Adyen/adyen-java-api-library)：官方支持使用Adyen API的Java库。
-* [WXPay-SDK](https://github.com/jkrains/wxpay-sdk-v3)：实现了微信支付V3版本的SDK，包括命令式和异步编程SDK。
-* [Easy-Pay](https://github.com/easy-pay/easy-pay)：一行代码解决支付宝和微信的二维码生成，支付回调、退款、H5支付等功能。
-* [Wallee Java SDK](https://github.com/wallee-payment/java-sdk)：Wallee Java库封装了wallee API，该库方便你与各种服务(例如交易、帐户和订阅)进行交互。
+* [WXPay SDK](https://github.com/jkrains/wxpay-sdk-v3)：微信支付v3版本的SDK，目前包含同步API和异步API。
+* [EasyPay](https://github.com/easy-pay/easy-pay)：一行代码解决支付宝和微信的二维码生成，支付回调、退款、H5支付等功能。
+* [Wallee Java SDK](https://github.com/wallee-payment/java-sdk)：Wallee Java库封装了Wallee API，该库方便你与各种服务(例如交易、帐户和订阅)进行交互。
 * [Razorpay Java SDK](https://github.com/razorpay/razorpay-java)：Razorpay API的官方Java绑定。
-* [DaxPay](https://gitee.com/bootx/dax-pay)：DaxPay是一套基于Bootx-Platform脚手架构建的一套开源支付网关系统，已经对接支付宝、微信支付相关的接口，以及扩展了钱包支付、储值卡支付、现金支付等新的支付方式。
+* [DaxPay](https://gitee.com/dromara/dax-pay)：DaxPay是一套开源支付网关系统，已经对接支付宝、微信支付、云闪付相关的接口。
 * [Ping++ Java](https://github.com/PingPlusPlus/pingpp-java)：Ping++是为移动端应用以及PC网页量身打造的下一代支付系统。
 
 ## 云服务SDK
@@ -3092,7 +3095,7 @@
 ## 微信开发
 
 * [Weixin SDK](https://github.com/borball/weixin-sdk)：Weixin SDK是对微信公众平台(订阅号、服务号、企业号、小程序)、微信开放平台和微信支付的Java版封装。
-* [WxJava](https://github.com/Wechat-Group/WxJava)：微信开发Java SDK，支持包括微信支付、开放平台、小程序、企业微信、公众号等的后端开发。
+* [WxJava](https://github.com/binarywang/WxJava)：微信开发Java SDK，支持包括微信支付、开放平台、小程序、企业微信、公众号等的后端开发。
 * [Gewechat](https://github.com/Devo919/Gewechat)：个人微信免费开源框架，支持二次开发、任意语言都可接入，REST API接入。
 * [Weixin Java Tools](https://github.com/chanjarster/weixin-java-tools)：微信公众号、企业号Java SDK。
 * [JFinal Weixin](https://gitee.com/jfinal/jfinal-weixin)：JFinal Weixin是基于JFinal的微信公众号极速开发SDK，只需浏览Demo代码即可进行极速开发。
@@ -3103,10 +3106,10 @@
 * [WeiXin4j](https://github.com/jeecgboot/weixin4j)：微信和钉钉开发Java SDK，主要提供微信公众号、企业微信、钉钉、微信小程序、支付的Java封装，降低集成难度，由北京国炬公司开发。
 * [WeChat4j](https://github.com/sword-org/wechat4j)：WeChat4j是一个微信开发框架。
 * [WX Dump4j](https://github.com/xuchengsheng/wx-dump-4j)：WX Dump4j是一款基于Java开发的微信数据分析工具。
-* [JEEWX-API](https://github.com/jeecgboot/jeewx-api)：JEEWX-API是一款Java版的微信开发SDK，支持微信公众号、小程序、微信企业号、支付宝生活号SDK和微博SDK，由北京国炬公司开发。
+* [JeewxBoot](https://github.com/jeecgboot/jeewx-api)：JeewxBoot是一款免费的JAVA微信管家平台，支持微信公众号、小程序、微信第三方平台、抽奖活动等，由北京国炬公司开发。
 * [QYWX](https://github.com/shuaidd/qywx)：企业微信API封装。
 * [ItChat4j](https://github.com/yaphone/itchat4j)：ItChat4j提供了简单易用的API，可以很方便地对个人微信号进行扩展，实现自动回复，微信挂机机器人等。
-* [WeChat-API](https://github.com/hellokaton/wechat-api)：WeChat-API是微信个人号的Java版本API，让个人号具备更多能力，提供方便的接口调用。
+* [WeChat API](https://github.com/hellokaton/wechat-api)：WeChat API是微信个人号的Java版本API，让个人号具备更多能力，提供方便的接口调用。
 * [WeCOM SDK](https://gitee.com/felord/wecom-sdk)：WeCOM SDK是开源的企业微信开放API的Java实现。
 * [FastWeixin](https://github.com/sd4324530/fastweixin)：FastWeixin可以简化微信公众平台服务端开发。
 
