@@ -462,6 +462,7 @@
 
 #### 在线编辑器
 
+* [CodeCafé](https://github.com/mrktsm/codecafe)：CodeCafé为你提供浏览器中高度协作的实时开发环境。
 * [Online Java](https://www.online-java.com)：Online Java是一个基于Web的工具，它是快速、健壮、强大的Java语言在线编译器之一。
 * [JDoodle](https://www.jdoodle.com/)：JDoodle是一款在线Java编译器IDE，它能够让你在浏览器中编写、运行和调试Java代码，无需在本地安装任何开发环境。
 * [SnapCode](https://github.com/reportmill/SnapCode)：SnapCode使你可以在任何现代浏览器中快速轻松地开始编写Java代码。
@@ -2202,7 +2203,6 @@
 ## 元编程
 
 * [JParsec](https://github.com/jparsec/jparsec)：Jparsec是一个为Java编写的递归下降解析器组合器框架。
-* [Parboiled](https://github.com/sirthias/parboiled)：Parboiled是一个混合Java/Scala库，提供基于解析表达式语法(PEG)的轻量级且易于使用但功能强大且优雅的任意输入文本解析。
 * [Eclipse Xtext](https://github.com/eclipse/xtext)：Xtext是一个用于开发编程语言和特定领域语言的框架。
 * [MPS](https://github.com/JetBrains/MPS)：JetBrains元编程系统。
 * [GenSym](https://github.com/Generative-Program-Analysis/GenSym)：GenSym是LLVM IR的高性能并行符号执行引擎。
@@ -2346,7 +2346,7 @@
 
 * [ANTLR](https://github.com/antlr/antlr4)：ANTLR是一个强大的解析器生成器，用于读取、处理、执行或翻译结构化文本或二进制文件。
 * [SableCC](https://github.com/SableCC/sablecc)：SableCC是一个解析器生成器，它能够生成功能齐全的面向对象框架，用于构建编译器、解释器和其他文本解析器，由麦吉尔大学开发。
-* [JavaParser](https://github.com/javaparser/javaparser)：该项目包含一组实现具有高级分析功能的Java 1.0 - Java 17解析器的库。
+* [JavaParser](https://github.com/javaparser/javaparser)：该项目包含一组实现具有高级分析功能的Java 1.0-Java 21解析器的库。
 * [Flexmark Java](https://github.com/vsch/flexmark-java)：Flexmark Java是CommonMark(规范0.28)解析器的Java实现，使用块优先、内联后Markdown解析架构。
 * [Kotlinx.AST](https://github.com/kotlinx/ast)：Kotlinx.AST是一个通用的AST解析库，Kotlin是目前唯一支持的语言。
 * [PartiQL Lang Kotlin](https://github.com/partiql/partiql-lang-kotlin)：PartiQL是一种富有表现力的、与SQL兼容的查询语言，可以访问关系型、半结构化和嵌套数据，由Amazon开源。
@@ -2360,6 +2360,7 @@
 * [CUP](http://www2.cs.tum.edu/projects/cup/)：CUP是Java的一个LALR解析器生成器，慕尼黑工业大学开发。
 * [Parrot](https://github.com/daniellansun/groovy-parser)：Parrot可以解析Groovy源代码并构造相关的AST，与旧解析器生成的AST几乎相同。
 * [Canopy](https://github.com/jcoglan/canopy)：Canopy是一个针对Java、JavaScript、Python和Ruby的解析器编译器。
+* [CongoCC](https://github.com/congo-cc/congo-parser-generator)：Congo Parser Generator是一个递归下降解析器生成器，可生成Java、Python和C#代码。
 
 ## Tree Sitter
 
@@ -2861,6 +2862,7 @@
 * [Apache Commons JEXL](https://github.com/apache/commons-jexl)：Commons JEXL库是Java共生表达式语言的实现。
 * [AviatorScript](https://github.com/killme2008/aviatorscript)：AviatorScript是一门高性能、轻量级寄宿于JVM(包括Android平台)之上的脚本语言。
 * [JSEL](https://code.google.com/archive/p/lite/wikis/JSEL.wiki)：JSEL是一个兼容JavaScript运算规则的简单表达式解释引擎。
+* [ACE4J](https://javacalculationengine.com/)：ACE4J是由Crystal Prism Software开发的Java库，旨在无需实际的Excel文件即可执行类似Excel的公式。
 * [IK Expression](https://code.google.com/archive/p/ik-expression/)：IK Expression是一个开源、可扩展、基于Java语言开发的一个超轻量级的公式化语言解析执行工具包。
 * [FastEL](https://github.com/dbcxy/fast-el)：轻量级的高效表达式计算引擎。
 * [QLExpress](https://github.com/alibaba/QLExpress)：QLExpress是一种强大的、轻量级的、动态的Java平台语言，旨在提高开发人员在不同业务场景中的生产力，阿里开源。
@@ -2925,13 +2927,12 @@
 
 ## 超媒体类型
 
-* [Spring HATEOAS](https://github.com/spring-projects/spring-hateoas)：该项目提供了一些API来简化创建在使用Spring时遵循HATEOAS原则的REST表示。
+* [Spring HATEOAS](https://github.com/spring-projects/spring-hateoas)：Spring HATEOAS提供了一些API，以便在与Spring配合使用时轻松创建遵循HATEOAS原则的REST表示。
 * [Hate](https://github.com/blackdoor/hate)：根据HAL规范构建超媒体友好的对象。
-* [Siren4J](https://github.com/eserating-chwy/siren4j)：Siren规范库。
-* [Spring HATEOAS JSON API](https://github.com/toedter/spring-hateoas-jsonapi)：这是与Spring
-  HATEOAS集成的媒体类型application/vnd.api+json(JSON:API)的实现。
+* [Siren4J](https://github.com/eserating-chwy/siren4j)：这是一个Java库，用于帮助创建和使用Siren超媒体规范中规定的超媒体实体。
+* [Katharsis](https://github.com/katharsis-project/katharsis-framework)：Katharsis实现了JSON API标准，引入了一致的REST接口定义，可以通过统一的机制轻松地与其他系统集成。
+* [Spring HATEOAS JSON API](https://github.com/toedter/spring-hateoas-jsonapi)：这是与Spring HATEOAS集成的媒体类型application/vnd.api+json(JSON:API)的实现。
 * [Edison HAL](https://github.com/otto-de/edison-hal)：使用Jackson生成和使用REST资源的application/hal+json表示的库。
-* [REST-Shell](https://github.com/spring-attic/rest-shell)：用于与Spring HATEOAS兼容的REST资源交互的命令行shell。
 
 ## 术语服务器
 
