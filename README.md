@@ -1371,7 +1371,7 @@
 * [Lux](https://github.com/LuxLang/lux)：Lux编程语言是一个函数式、静态类型的Lisp，可以在多个平台上运行，例如JVM和JavaScript、Python、Lua或Ruby解释器。
 * [Flix](https://github.com/flix/flix)：Flix是一种静态类型函数式、命令式和逻辑编程语言，由奥胡斯大学、滑铁卢大学开发。
 * [Vale](https://github.com/ValeLang/Vale)：Vale是一种快速、安全且简单的编程语言。
-* [Virgil](https://github.com/titzer/virgil)：Virgil是一种编程语言，旨在构建轻量级高性能系统，由卡内基梅隆大学开源。
+* [Virgil](https://github.com/titzer/virgil)：Virgil是一种编程语言，旨在构建轻量级高性能系统，由CMU开源。
 * [Eclipse Golo](https://github.com/eclipse-archived/golo-lang)：Golo是一种用于JVM的简单动态弱类型语言，由法国CITI实验室开源。
 * [JPHP](https://github.com/jphp-group/jphp)：JPHP是使用JVM的PHP的新实现，支持PHP语言(7.1+)的许多功能。
 * [JGO](https://github.com/thomasmodeneis/jgo)：Golang的Java编译器和运行时环境。
@@ -2556,7 +2556,7 @@
 * [CrateDB](https://github.com/crate/crate)：CrateDB是一个分布式SQL数据库，可以轻松地实时存储和分析大量数据。
 * [Deephaven Community](https://github.com/deephaven/deephaven-core)：Deephaven Community是一个实时、时序、面向列的分析引擎，具有关系型数据库功能。
 * [KarelDB](https://github.com/rayokota/kareldb)：KarelDB是一个由Kafka支持的全功能关系型数据库。
-* [H-Store](https://github.com/apavlo/h-store)：H-Store是一个实验性主存并行数据库管理系统，针对OLTP应用程序进行了优化，它是一个高度分布式、基于行存储的关系型数据库，这是麻省理工学院、布朗大学、卡内基梅隆大学、耶鲁大学和英特尔之间的合作项目。
+* [H-Store](https://github.com/apavlo/h-store)：H-Store是一个实验性主存并行数据库管理系统，针对OLTP应用程序进行了优化，它是一个高度分布式、基于行存储的关系型数据库，这是MIT、布朗大学、CMU、耶鲁大学和英特尔之间的合作项目。
 * [SimpleDB](https://github.com/iamxpy/SimpleDB)：加州大学伯克利分校的数据库课程CS186实现。
 * [Simple DB HW 2021](https://github.com/MIT-DB-Class/simple-db-hw-2021)：MIT数据库课程6.830实现。
 * [TMDB](https://github.com/whu-totemdb/tmdb)：武汉大学移动端Totem数据库系统。
@@ -4145,7 +4145,7 @@
 #### 语音识别
 
 * [Vosk](https://github.com/alphacep/vosk-api)：Vosk是一款离线开源语音识别工具包。
-* [Sphinx-4](https://github.com/cmusphinx/sphinx4)：Sphinx-4是一款先进、独立于说话人的连续语音识别系统，由美国卡内基梅隆大学开发。
+* [Sphinx-4](https://github.com/cmusphinx/sphinx4)：Sphinx-4是一款先进、独立于说话人的连续语音识别系统，由CMU开发。
 * [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
 * [JARVIS Speech API](https://github.com/lkuza2/java-speech-api)：JARVIS Speech API的设计简洁高效，使用Google开发的语音引擎来提供部分API功能。
 * [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。

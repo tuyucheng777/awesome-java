@@ -543,6 +543,7 @@
 * [QStudio](https://github.com/timeseries/qstudio)：QStudio是一个免费的SQL GUI，它允许运行SQL脚本、轻松浏览表格、绘制图表和导出结果，由TimeStored开源。
 * [Rel](https://reldb.org/c/)：Rel是一个主要用于教育目的的DBMS，但也适合用作桌面DBMS或轻量级服务器。
 * [ODC](https://github.com/oceanbase/odc)：ODC是一款开源、全能的跨场景数据库协同开发和数据管理工具，阿里开源。
+* [JookDB](https://jookdb.com/)：免费通用的数据库管理工具，支持多种数据库，由杰恩软件公司开发。
 * [CloudBeaver](https://github.com/dbeaver/cloudbeaver)：CloudBeaver是一个云数据库管理器，提供丰富的Web界面。
 * [EXperDB Management](https://github.com/experdb/eXperDB-Management)：EXperDB Management是一款PostgreSQL管理工具。
 * [Binjr](https://github.com/binjr/binjr)：Binjr是一个独立的时序浏览器，它将其他应用程序生成的时序数据呈现为动态可编辑视图，并提供高级功能以顺畅高效地导航数据。
