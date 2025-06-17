@@ -865,6 +865,9 @@
 * [Dilithium](https://github.com/mthiim/dilithium-java)：后量子加密算法Dilithium的实验性Java实现。
 * [jBCrypt](https://github.com/jeremyh/jBCrypt)：jBCrypt是OpenBSD Blowfish密码哈希算法的Java实现。
 * [SM2Java](https://github.com/PopezLotado/SM2Java)：国密SM2、SM3 Java实现。
+* [GMSM Java](https://gitee.com/cn-openjava/gmsm-java)：国密算法Java版，包含非对称算法SM2、对称算法SM4、摘要算法SM3。
+* [SM2/SM3/SM4 Encrypt](https://github.com/xjfuuu/SM2_SM3_SM4Encrypt)：基于Java语言的国密SM2/SM3/SM4算法库，包含加密/解密、签名/验签、摘要算法的实现。
+* [HSD Cipher SM](https://github.com/gotoworld/hsd-cipher-sm)：国密算法SM2、SM3、SM4实现。
 * [Cat](https://gitee.com/bat/cat)：一款小巧的Java加密与解密算法调用工具包。
 * [Bcrypt](https://github.com/patrickfav/bcrypt)：bcrypt密码哈希函数的Java独立实现。
 * [Shamir](https://github.com/codahale/shamir)：Shamir的秘密共享算法在GF(256)上的Java实现。
@@ -1464,7 +1467,7 @@
 * [BAMOE](https://github.com/IBM/bamoe)：IBM BAMOE是用于工作流和决策管理的企业自动化软件。
 * [行云流程引擎](https://gitee.com/bestfeng/oa_git_free)：行云流程引擎具备Activiti的常用功能，上手更容易。
 * [Emissary](https://github.com/NationalSecurityAgency/emissary)：Emissary是一种基于P2P的数据驱动工作流引擎，运行在异构的、可能广泛分散的多层P2P计算资源网络中，由美国国家安全局开源。
-* [Digdag](https://github.com/treasure-data/digdag)：简单、开源、多云工作流程引擎。
+* [Digdag](https://github.com/treasure-data/digdag)：Digdag是一款简单的工具，可帮助您构建、运行、调度和监控复杂的任务流水线。
 * [LittleHorse](https://github.com/littlehorse-enterprises/littlehorse)：LittleHorse是一个高性能的微服务编排引擎，允许开发人员构建可扩展、可维护和可观察的应用程序。
 * [AgileBPM](https://gitee.com/agile-bpm/agile-bpm-basic)：快速、简洁且强大的低代码流程开发平台，国产开源。
 * [Schedulis](https://github.com/WeBankFinTech/Schedulis)：Schedulis是一个基于LinkedIn的开源项目Azkaban开发的工作流任务调度系统，由微众开源。

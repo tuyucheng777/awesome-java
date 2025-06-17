@@ -2331,6 +2331,7 @@
 * [Unit API](https://github.com/unitsofmeasurement/unit-api)：Unit API提供了一组用于处理单位和数量的Java语言编程接口。
 * [Measured](https://github.com/nacular/measured)：Measured提供了一种安全且简单的使用测量单位的方法。
 * [QUDTLib](https://github.com/qudtlib/qudtlib-java)：QUDTLib为Java提供单位转换及相关功能。
+* [UNITILITY](https://github.com/pjazdzyk/unitility)：适用于Java的计量单位和物理量转换器，支持Spring Boot和Quarkus，可用于Web应用开发。
 
 ## 调用图
 
@@ -3261,6 +3262,7 @@
 * [Hello eBPF](https://github.com/parttimenerd/hello-ebpf)：允许直接用Java编写eBPF程序。
 * [MetarParser](https://github.com/mivek/MetarParser)：这个Java库提供了Metar和TAF解码器。
 * [XINCHECK](https://github.com/tianlian0/duplicate-check-sample)：文本查重SDK，可用于论文查重、标书查重、文档查重、作业查重、合同查重、防串标等场景，由芯锋科技公司开发。
+* [Nginx Java Parser](https://github.com/odiszapc/nginx-java-parser)：基于ANTLR4语法的Nginx配置解析器。
 
 ## 教程系列
 
