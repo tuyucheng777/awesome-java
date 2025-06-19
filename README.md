@@ -328,6 +328,7 @@
 * [QA系统](docs/doc2.md#QA系统)
 * [CMS系统](docs/doc2.md#CMS系统)
 * [ERP系统](docs/doc2.md#ERP系统)
+* [AI系统](docs/doc2.md#AI系统)
 * [DMS系统](docs/doc2.md#DMS系统)
 * [物流系统](docs/doc2.md#物流系统)
 * [知识管理系统](docs/doc2.md#知识管理系统)
@@ -699,6 +700,7 @@
 * [Argo](https://github.com/58code/Argo)：Argo是起源于58同城的内部Web框架。
 * [Kora](https://github.com/Tinkoff/kora)：Kora是一个基于JVM的框架，用于构建后端应用程序。
 * [IGRP](https://github.com/NOSiCode-CV/IGRP-Framework)：IGRP是由美国NOSi开发的平台，用于创建Web应用程序，基于业务步骤、流程、自动代码生成和一次性原则的合并。
+* [Klite](https://github.com/codeborne/klite)：Klite是一个适用于JVM上Kotlin协程的超轻量级非阻塞HTTP框架，由Codeborne开发。
 * [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
 * [Coody](https://gitee.com/coodyer/Coody-Framework)：Coody是一个国产IoC框架，轻量级、简单快速。
 * [HappyX](https://github.com/HapticX/happyx)：HappyX是一个异步、面向宏、全栈支持的Web框架。
@@ -818,6 +820,7 @@
 * [Lambada Framework](https://github.com/cagataygurturk/lambadaframework)：Lambada Framework是一个实现JAX-RS API的REST框架，可让你以Serverless方式将应用程序部署到AWS Lambda和API Gateway。
 * [AceQL HTTP](https://github.com/kawansoft/aceql-http)：AceQL HTTP是一个类似REST的API库，允许你从任何支持HTTP的设备通过HTTP访问远程SQL数据库。
 * [Conjure Java Runtime](https://github.com/palantir/conjure-java-runtime)：该项目提供了一组固定的库，用于定义和创建RESTish/RPC服务器和客户端，基于Feign作为客户端，以Dropwizard/Jersey和JAX-RS服务定义作为服务器，由Palantir开源。
+* [Utterlyidle](https://github.com/bodar/utterlyidle)：另一个受JSR 311优点启发的Java REST库。
 
 #### 微服务框架
 
@@ -1620,6 +1623,7 @@
 * [Gradle Profiler](https://github.com/gradle/gradle-profiler)：一种自动收集Gradle构建的分析和基准测试信息的工具。
 * [Perfino](https://www.ej-technologies.com/products/perfino/overview.html)：Perfino是一款JVM监测工具，有虚拟机管理、商业交易策略、跨虚拟机追踪、遥测数据、末端用户体验检测等实用功能。
 * [HeapStats](https://github.com/HeapStats/heapstats)：HeapStats是Java故障排除工具。
+* [Meteor](https://gitee.com/reywong/meteor)：该项目基于阿里开源的Arthas基础之上完成，是线上问题定位的神器。
 
 #### 性能分析
 
@@ -3804,26 +3808,20 @@
 * [Alan AI](https://github.com/alan-ai/alan-sdk-android)：适用于Android的对话式AI SDK，可通过操作实现文本和语音对话。
 * [EdgeChains](https://github.com/arakoodev/EdgeChains)：EdgeChains.js是一种用于生产友好的生成式AI的语法。
 * [AIAS](https://gitee.com/mymagicpower/AIAS)：人工智能加速器套件，提供SDK、平台引擎、场景套件。
-* [Dubhe](https://gitee.com/zhijiangtianshu/Dubhe)：之江天枢人工智能开源平台是由之江实验室牵头，联合国内顶尖科研力量共同打造的国产化自主可控的人工智能开源平台。
-* [XiaoZhi ESP32 Server](https://github.com/xinnan-tech/xiaozhi-esp32-server)：本项目为开源智能硬件项目XiaoZhi ESP32提供后端服务。
 * [Mobius](https://github.com/ray-project/mobius)：Mobius是一个包括实时计算和训练的人工智能基础平台，由加州大学伯克利分校开源。
 * [CrowdOS](https://github.com/crowdosNWPU/CrowdOS)：CrowdOS是一个适用于众包和移动众包感知的通用操作系统，可以同时处理多种类型的众包问题，由西北工业大学开发。
-* [AllData](https://github.com/alldatacenter/alldata)：AllData大数据产品是可定义数据中台，以数据平台为底座、数据中台为桥梁，以机器学习平台、GPT平台为框架，提供全链路数字化解决方案。
 * [Hbox](https://github.com/Qihoo360/hbox)：Hbox是一个结合大数据和人工智能的便捷高效的调度平台，支持多种机器学习、深度学习框架，由360开源。
-* [AIFlowy](https://gitee.com/aiflowy/aiflowy)：AIFlowy是一个使用Java开发的AI产品的底座和基石。
 * [ModernMT](https://github.com/modernmt/modernmt)：ModernMT是一种基于Fairseq Transformer模型的上下文感知、增量和分布式通用神经机器翻译技术。
 * [Malmo](https://github.com/microsoft/malmo)：Malmo是一个建立在Minecraft之上的人工智能实验和研究平台，由Microsoft开源。
 * [XEF](https://github.com/xebia-functional/xef)：XEF是一站式库，以LLM、图像生成等形式将现代AI的力量带入你的应用程序或服务，由Xebia开源。
 * [AI Descartes](https://github.com/IBM/AI-Descartes)：IBM开发的用于加速基本定律符号发现的开源包。
 * [Baidu AIP SDK](https://github.com/Baidu-AIP/java-sdk)：百度AI开放平台Java SDK。
 * [Xtreme1](https://github.com/xtreme1-io/xtreme1)：Xtreme1是一款用于多模态数据训练的一体化数据标记和注释平台，支持3D LiDAR点云、图像和LLM。
-* [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
 * [Intelligent Java](https://github.com/intelligentnode/IntelliJava)：IntelliJava是使用Java与最新语言模型和深度学习框架集成的终极工具。
 * [SD4J](https://github.com/oracle-samples/sd4j)：此仓库包含在ONNX运行时之上运行的Stable Diffusion推理的实现，由Oracle开源。
 * [jAER](https://github.com/SensorsINI/jaer)：用于地址事件表示(AER)神经形态处理的Java工具，由苏黎世联邦理工学院开源。
 * [JSoar](https://github.com/soartech/jsoar)：Soar认知架构的纯Java实现，由密歇根大学人工智能实验室开源。
 * [Serenade](https://github.com/serenadeai/serenade)：该仓库包含Serenade客户端应用程序、在线服务(如语音引擎、代码引擎和核心应用程序)和模型训练的代码。
-* [RuoYi AI](https://github.com/ageerle/ruoyi-ai)：RuoYi AI是一个全栈式AI开发平台，旨在帮助开发者快速构建和部署个性化的AI应用。
 
 #### LLM
 
@@ -3837,23 +3835,20 @@
 * [FIT Framework](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
 * [Ali LangEngine](https://github.com/AIDC-AI/ali-langengine)：Ali LangEngine是一个用Java编写的AI应用开发框架，由阿里开源。
 * [LangChain Java](https://github.com/HamaWhiteGG/langchain-java)：Java版LangChain，同时赋能LLM大数据。
-* [TorchV](https://torchv.com/)：TorchV AI是一款基于LLM、RAG和Agent技术的人工智能PaaS产品，目标是帮助企业快速建立AI应用。
 * [Optimus-1](https://github.com/JiuTian-VL/Optimus-1)：混合多模态记忆赋能智能体，在长期任务中表现出色，由哈尔滨工业大学开发。
 * [UseOpen LLM Server](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，这是永源的产品。
 * [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多代理系统。
 * [JBoltAI](https://jboltai.com/)：JBoltAI是Java企业级全栈AI数智化应用极速开发框架，旨在帮助Java系统快速接入大模型能力并开发具有AI能力的功能模块。
 * [Freeplay](https://freeplay.ai/)：Freeplay让产品团队能够为客户试验、测试、监控和优化AI功能，它是一个为整个团队管理端到端LLM产品开发生命周期的工具。
-* [LangChat](https://github.com/TyCoding/langchat)：LangChat是Java生态下企业级AIGC项目解决方案，在RBAC权限体系的基础上，集成AIGC大模型能力，帮助企业快速定制AI知识库、企业AI机器人。
 * [LangStream](https://github.com/LangStream/langstream)：LangStream是一个用于构建和运行GenAI应用程序的框架，DataStax开源。
 * [JLama](https://github.com/tjake/Jlama)：JLama是Java的现代LLM推理引擎，由DataStax开发。
-* [FreeChat](https://github.com/freechat-fun/freechat)：FreeChat的宗旨是构建一个云原生、健壮并且可快速商用化的企业级AI虚拟角色平台。
 * [Langtorch](https://github.com/Knowly-ai/langtorch)：Langtorch是一个Java库，可让你轻松构建可组合的LLM应用程序。
 * [Java LangChain](https://github.com/Starcloud-Cloud/java-langchain)：Java-LangChain是一个Java 8+的LangChain实现，在Java环境中构建强大的基于LLM的应用程序。
-* [HugAi](https://github.com/TouShang6015/Hugai-chatgpt)：HugAi是由Spring Boot集成Open AI SDK开发的一套智能AI知识库，支持GPT对话，AI绘图Midjourney、Stable Diffusion、Open AI。
 * [LangGraph4j](https://github.com/bsorrentino/langgraph4j)：Java版LangGraph。
 * [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow-java)：Tinyflow是一个使用Java开发的智能体编排解决方案。
 * [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL和Kotlin Scripting的强大功能来定义一种针对构建LLM支持的解决方案而优化的语言，由德国电信股份公司开发。
+* [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
 
 #### LLM客户端
 
@@ -3862,15 +3857,13 @@
 * [OpenAI Kotlin](https://github.com/Aallam/openai-kotlin)：OpenAI API的Kotlin客户端，具有多平台和协程功能。
 * [ChatGPT Java](https://github.com/PlexPt/chatgpt-java)：ChatGPT Java SDK，支持GPT3.5、GPT4 API。
 * [ChatGPT Java](https://github.com/Grt1228/chatgpt-java)：ChatGPT的Java客户端。
-* [ChatGPT Java](https://github.com/AcaiSoftware/chatgpt-java)：非官方逆向工程ChatGPT API的Java包装器。
+* [ChatGPT Java](https://github.com/arctisio/chatgpt-java)：使用逆向工程API的OpenAI ChatGPT的轻量级Java库。
 * [ChatGPT Java](https://gitee.com/grt1228/chatgpt-java)：ChatGPT的Java客户端，OpenAI官方API的Java版SDK。
 * [OpenAI Java SDK](https://gitee.com/devlive-community/openai-java-sdk)：为Java开发人员提供方便易用的SDK来与OpenAI模型的API进行交互。
 * [EDDI](https://github.com/labsai/eddi)：EDDI是一个中间件，用于连接和管理LLM API机器人，为OpenAI ChatGPT、Facebook Hugging Face、Anthropic Claude、Google Gemini和Ollama等API提供高级提示和对话管理。
 * [OpenAI4j](https://github.com/ai-for-java/openai4j)：这是一个非官方的Java客户端库，可帮助你的Java应用程序与OpenAI API连接。
-* [Easy OpenAI](https://github.com/namankhurpia/Easy-open-ai)：该仓库包含社区维护的Java中OpenAI API库，这是在应用程序中使用GPT 3/4的最简单方法。
 * [Ollama4j](https://github.com/ollama4j/ollama4j)：用于与Ollama服务器交互的Java库。
 * [LLaMA Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
-* [Google Bard](https://github.com/LarryDpk/Google-Bard)：用于Google Bard提出问题并接收答案的Java库。
 * [OpenAi4J](https://github.com/Lambdua/openai4j)：OpenAi4J是一个非官方Java库，旨在促进与OpenAI的GPT模型的交互，包括gpt4-turbo Vision、assistant-v2等最新功能。
 * [Simple OpenAI](https://github.com/sashirestela/simple-openai)：Simple OpenAI是一个Java HTTP客户端库，用于向OpenAI API发送请求并接收响应。
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
@@ -4002,7 +3995,6 @@
 * [Processors](https://github.com/clulab/processors)：Processors是亚利桑那大学开源的自然语言处理器。
 * [LAC](https://github.com/baidu/lac)：LAC是百度自然语言处理部研发的一款联合的词法分析工具，实现中文分词、词性标注、专名识别等功能。
 * [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp)：Spark NLP是一个构建在Spark之上的最先进的自然语言处理库。
-* [NLP API](https://gitee.com/stonedtx/free-nlp-api)：免费的NLP、情感分析、实体识别、图像识别与分类、OCR识别、语音识别接口，由思通数科开源。
 * [Twitter Text](https://github.com/twitter/twitter-text)：Twitter使用此代码对文本进行标记和解析，以满足平台上可用内容的期望。
 * [MetaMapLite](https://github.com/lhncbc/metamaplite)：MetaMapLite的主要目标是提供近乎实时的命名实体识别器，由利斯特山国家生物医学通讯中心开源。
 * [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP)：VnCoreNLP是一个快速、准确的越南语NLP标注管道，通过分词、词性标注、命名实体识别和依存句法分析等关键NLP组件提供丰富的语言标注。

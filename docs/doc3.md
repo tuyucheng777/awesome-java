@@ -370,6 +370,7 @@
 * [JDemetra+](https://github.com/jdemetra/jdemetra-app)：JDemetra+是比利时国家银行(NBB)与德意志联邦银行和欧盟统计局根据欧洲统计系统(ESS)指南合作开发的季节性调整(SA)新工具。
 * [Bitwig Studio](https://www.bitwig.com/)：Bitwig Studio是由Bitwig公司开发的专有数字音频工作站。
 * [Archi](https://github.com/archimatetool/archi)：Archi是一款免费、开源、跨平台的工具和编辑器，用于创建ArchiMate模型。
+* [Lizzie](https://github.com/featurecat/lizzie)：Lizzie是一个图形界面，允许用户使用Leela Zero实时分析游戏。
 * [JLearnIt](https://www.jlearnit.com/)：JLearnIt是一款免费的多语言词典，按类别分类，帮助你循序渐进地学习其他语言的词汇。
 * [TuxGuitar](https://github.com/helge17/tuxguitar)：TuxGuitar是一个用Java编写的开源多轨指法谱编辑器和播放器。
 * [DocFetcher](https://github.com/docfetcher/DocFetcher)：DocFetcher是一个开源桌面搜索应用程序，它允许你搜索计算机上的文件内容。
@@ -1998,10 +1999,10 @@
 
 ## 邮件操作
 
-* [Simple Java Mail](https://github.com/bbottema/simple-java-mail)：最简单的Java轻量级邮件库，同时能够发送复杂的电子邮件，包括CLI支持、附件、嵌入图像、自定义标头和属性、强大的地址验证、构建模式甚至DKIM签名、S/MIME支持和具有属性覆盖的外部配置文件、Spring支持和电子邮件转换工具。
+* [Simple Java Mail](https://github.com/bbottema/simple-java-mail)：Simple Java Mail是Java中最易于使用的轻量级邮件库。
 * [FakeSMTP](https://github.com/Nilhcem/FakeSMTP)：FakeSMTP是一个带有GUI的免费虚拟SMTP服务器，可轻松测试应用程序中的电子邮件。
-* [Apache James](https://github.com/apache/james-project)：具有基于丰富的现代高效组件的模块化架构，最终提供在JVM上运行的完整、稳定、安全和可扩展的邮件服务器。
-* [Mail Utils](https://github.com/hellokaton/oh-my-email)：非常轻量的Java邮件发送类库，支持抄送、附件、模板等功能。
+* [Apache James](https://github.com/apache/james-project)：James提供在JVM上运行的完整、稳定、安全且可扩展的邮件服务器。
+* [Oh My Email](https://github.com/hellokaton/oh-my-email)：非常轻量的Java邮件发送类库，支持抄送、附件、模板等功能。
 * [SendGrid](https://github.com/sendgrid/sendgrid-java)：该库允许你通过Java快速轻松地使用Twilio SendGrid Web API v3。
 * [Fake SMTP Server](https://github.com/gessnerfl/fake-smtp-server)：Fake SMTP Server是一个简单的SMTP服务器，专为开发目的而设计。
 * [Mailgun](https://github.com/sargue/mailgun)：这是一个小型Java库，可以使用出色的Mailgun服务轻松发送电子邮件。
