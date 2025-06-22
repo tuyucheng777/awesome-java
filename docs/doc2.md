@@ -1461,6 +1461,7 @@
 * [Schedulis](https://github.com/WeBankFinTech/Schedulis)：Schedulis是一个基于LinkedIn的开源项目Azkaban开发的工作流任务调度系统，由微众开源。
 * [UFLO2](https://github.com/youseries/uflo)：UFLO是一款基于Spring的纯Java流程引擎，支持并行、动态并行、串行、会签等各种流转方式。
 * [NFlow](https://github.com/NitorCreations/nflow)：NFlow是一种经过验证的用于编排业务流程的解决方案，它可以用作微服务编排器(Saga模式)、业务流程引擎或持久有限状态机。
+* [WFlow](http://wflow.willianfu.top/)：WFlow工作流是一个简单易用，面向普通用户的工作流系统。
 * [FlowLong](https://gitee.com/aizuda/flowlong)：由爱组搭开源的工作流引擎。
 * [Nextflow](https://github.com/nextflow-io/nextflow)：Nextflow是一个工作流程系统，用于创建可扩展、可移植和可重复的工作流程，由西班牙巴塞罗那的生物医学和基因组学研究中心CRG开发。
 * [Concord](https://github.com/walmartlabs/concord)：Concord是一个工作流服务器，它是使用用户创建的场景和插件将不同系统连接在一起的编排引擎，由沃尔玛开源。
@@ -2754,6 +2755,11 @@
 * [ContiNew Admin](https://github.com/continew-org/continew-admin)：ContiNew Admin是持续迭代优化的前后端分离中后台管理系统框架。
 * [Cool Admin](https://github.com/cool-team-official/cool-admin-java)：Cool Admin后台权限管理系统，开源免费、AI编码、流程编排、模块化、插件化，用于快速构建后台应用程序。
 * [TwelveT](https://github.com/twelvet-projects/twelvet)：基于Spring Boot 3.X的Spring Cloud Alibaba/Spring Cloud Tencent + React的微服务框架。
+* [JSite](https://gitee.com/baseweb/JSite)：JSite快速开发框架，内置Flowable工作流引擎。
+* [Spring Boot Manager](https://gitee.com/zwens/springboot-manager)：基于Spring Boot、Mybatis Plus、SaToken、Thymeleaf、Layui的后台管理系统。
+* [HxyFrame](https://gitee.com/soEasyCode/hxyFrame)：HxyFrame是一个后台管理系统，采用Spring MVC、Mybatis、Shiro、Redis、Ehcache开发。
+* [Zjmzxfzhl](https://gitee.com/zjm16/zjmzxfzhl)：Zjmzxfzhl集成了Spring Boot、Flowable、Vue、ElementUI、FormGenerator，采用前后端分离架构。
+* [JFinal LayUI](https://gitee.com/QinHaiSenLin/Jfinal-layui)：JFinal LayUI极速企业应用开发管理系统。
 
 ## 低代码
 
@@ -2794,7 +2800,6 @@
 * [H5VE](https://gitee.com/h5ve/h5ve-boot)：H5VE是一个以数据驱动、AI编程为核心的企业级低代码开发平台。
 * [Joget](https://github.com/jogetworkflow/jw-community)：Joget是下一代开源无代码/低代码应用程序平台，可实现更快、更简单的数字化转型。
 * [VisionX](https://visionx.sibvisions.com/)：VisionX是一个开放的低代码平台，由SIB Visions公司开发。
-* [心通达OA](https://gitee.com/xtdoa/xtdoa)：心通达低代码开发平台，由北京高速波软件公司开源。
 * [LsFusion](https://github.com/lsfusion/platform)：LsFusion是一个免费的开源平台，用于基于同名第五代编程语言的信息系统开发。
 * [JECloud](https://gitee.com/ketr/jecloud)：JECloud平台后端采用微服务架构，前端采用微应用架构，可做到不同服务使用不同数据库独立运行，由北京凯特伟业公司开源。
 * [Bsin PaaS](https://gitee.com/s11e-DAO/bsin-paas-all-in-one)：Bsin-PaaS是一套企业级的低代码、零代码去中心化应用搭建平台，可帮助企业快速搭建基于云原生的有竞争力的业务中台、流程中台、业务前台。
@@ -2826,6 +2831,8 @@
 * [CRMEB](https://gitee.com/ZhongBangKeJi/crmeb_java)：CRMEB开源商城系统Java版，基于Java、Vue、UniApp开发。
 * [ZKMall](https://gitee.com/zkmall/b2b2c)：ZKMall是一款基于当前流行技术组合Spring Boot 3、MybatisPlus、Shiro、JWT、XXL-Job、Redisson、Redis、Mysql、Vue3、UniApp前后端分离B2B2C多商户Java电商系统。
 * [GPMall](https://github.com/2227324689/gpmall)：基于Spring Boot、Dubbo构建的电商平台。
+* [GoShop](https://github.com/pzhgugu/goshop2)：分布式多店铺电商系统。
+* [Uni4Mall](https://gitee.com/mallcloud/uni4mall)：基于Spring Boot、MyBatis Plus的电商系统，包括前台商城系统及后台管理系统。
 * [Laiketui](https://gitee.com/laiketui/open)：来客推商城系统。
 * [LiteMall](https://github.com/linlinjava/litemall)：基于Spring Boot、Vue的小商场系统。
 * [DTS Mall](https://gitee.com/qiguliuxing/dts-shop)：聚惠星商城DTS-SHOP，基于微信小程序、Spring Boot、Vue构建，支持单店铺、多店铺入驻的商城平台。
@@ -2905,6 +2912,7 @@
 * [ForestBlog](https://github.com/saysky/ForestBlog)：ForestBlog是一个简单漂亮的SSM博客系统。
 * [Apache Stanbol](https://stanbol.apache.org/)：Stanbol提供了一组用于语义内容管理的可重用组件。
 * [Solo](https://github.com/88250/solo)：Solo是一款小而美的开源博客系统，专为程序员设计。
+* [BBS](https://github.com/maliangnansheng/bbs-springboot)：开源Java论坛(社区/问答/BBS/社交网络/博客)。
 * [Jease](https://jease.org/)：Jease是一个由Java驱动的开源CMS。
 * [Quanta](https://github.com/Clay-Ferguson/quantizr)：Quanta是一种新型内容管理平台，具有强大的功能。
 * [WallRide](https://github.com/tagbangers/wallride)：WallRide是一个多语言、易于定制的开源CMS。
@@ -2976,6 +2984,17 @@
 * [HugAI](https://github.com/TouShang6015/Hugai-chatgpt)：HugAI是由Spring Boot集成Open AI SDK开发的一套智能AI知识库，支持GPT对话，AI绘图Midjourney、Stable Diffusion、Open AI。
 * [AppPlatform](https://github.com/ModelEngine-Group/app-platform)：AppPlatform是一个前沿的大模型应用工程，旨在通过集成的声明式编程和低代码配置工具，简化AI应用的开发过程。
 
+## OA系统
+
+* [OASys](https://gitee.com/aaluoxiang/oa_system)：OASys是一个OA办公自动化系统，使用Maven进行项目管理。
+* [O2OA](https://gitee.com/o2oa/O2OA)：O2OA低代码开发平台，100%开源企业协同办公定制平台，提供完整的前后端API和模块定制能力。
+* [JFinalOA](https://gitee.com/glorylion/JFinalOA)：点狮OA是一套多租户的企业办公系统，可以提供给集团级企业用户使用，也可对外提供未SAAS服务多公司进行入驻。
+* [云网OA](https://gitee.com/bestfeng/yimioa)：云网OA是一款本地化部署的OA软件。
+* [心通达OA](https://gitee.com/xtdoa/xtdoa)：心通达低代码开发平台，由北京高速波软件公司开源。
+* [Smart Web2](https://gitee.com/bcworld/smart-web2)：Smart Web2是一套相对简单的OA系统，包含了流程设计器、表单设计器、权限管理、简单报表管理等功能。
+* [稠云智能办公系统](https://gitee.com/cysoft_1/oa)：基于Spring Boot、MyBatis、Redis、Durid、Beetl框架组合的开源OA系统，自研工作流引擎，支持可视化表单设计与流程设计。
+* [LemonOA](https://github.com/xuhuisheng/lemon)：LemonOA是一个通用的OA产品。
+
 ## DMS系统
 
 * [Teedy](https://github.com/sismics/docs)：Teedy是一个面向个人和企业的开源、轻量级文档管理系统。
@@ -2990,8 +3009,10 @@
 * [RinSim](https://github.com/rinde/RinSim)：RinSim是一个用Java编写的物流模拟器，支持动态取货和送货问题的(去)中心化算法，由比利时鲁汶大学计算机科学系部门的imec-DistriNet小组开发。
 * [OpenWMS](https://github.com/openwms/org.openwms)：OpenWMS是一个免费使用且可扩展的仓库管理系统(WMS)，带有适用于自动和手动仓库的物料流控制(MFC)系统。
 * [Deer WMS](https://gitee.com/deerwms/deer-wms-2)：Deer WMS是基于自动化输送线、机械臂、点数机、提升机、堆垛机等自动化设备和现代化仓储精益管理思想开发出来的仓库管理系统，由南京大鹿智造开发。
-* [myWMS](https://github.com/wms2/mywms)：myWMS LOS是开源仓库管理系统WMS，它在工业24/7环境中运行并支持所有基本流程。
+* [MyWMS](https://github.com/wms2/mywms)：MyWMS LOS是开源仓库管理系统WMS，它在工业24/7环境中运行并支持所有基本流程。
 * [OpenBoxes](https://github.com/openboxes/openboxes)：OpenBoxes是一个开源供应链管理系统，用于管理医疗机构和救灾工作的物资和药物。
+* [WarehouseManager](https://gitee.com/yangshare/warehouseManager)：基于SSM框架的仓库管理系统。
+* [S-PMS](https://github.com/s-pms/SPMS-Server)：S-PMS智能生产管理系统，是一个集成化、智能化的企业级应用软件，
 
 ## 知识管理系统
 
