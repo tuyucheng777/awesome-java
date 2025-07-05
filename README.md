@@ -325,6 +325,7 @@
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
 * [脚手架](docs/doc2.md#脚手架)
 * [低代码](docs/doc2.md#低代码)
+* [权限管理系统](docs/doc2.md#权限管理系统)
 * [商城系统](docs/doc2.md#商城系统)
 * [QA系统](docs/doc2.md#QA系统)
 * [CMS系统](docs/doc2.md#CMS系统)
@@ -332,7 +333,9 @@
 * [AI系统](docs/doc2.md#AI系统)
 * [OA系统](docs/doc2.md#OA系统)
 * [DMS系统](docs/doc2.md#DMS系统)
-* [物流系统](docs/doc2.md#物流系统)
+* [WMS系统](docs/doc2.md#WMS系统)
+* [MES系统](docs/doc2.md#MES系统)
+* [数据中台](docs/doc2.md#数据中台)
 * [知识管理系统](docs/doc2.md#知识管理系统)
 * [SCRM系统](docs/doc2.md#SCRM系统)
 * [门户框架](docs/doc2.md#门户框架)
@@ -439,6 +442,7 @@
     * [反编译](docs/doc3.md#反编译)
     * [代码混淆](docs/doc3.md#代码混淆)
     * [逆向工程](docs/doc3.md#逆向工程)
+    * [远程控制](docs/doc3.md#远程控制)
 * [游戏开发](docs/doc3.md#游戏开发)
     * [游戏引擎](docs/doc3.md#游戏引擎)
     * [游戏服务器](docs/doc3.md#游戏服务器)
@@ -1976,7 +1980,6 @@
 * [MR4C](https://github.com/google/mr4c)：MR4C是一个允许你在Hadoop执行框架内运行本机代码的框架，由Google开源。
 * [Apache Tajo](https://github.com/apache/tajo)：Tajo是Hadoop的开源分布式数据仓库框架，最初由韩国基础设施公司Gruter开发。
 * [Apache Airavata](https://github.com/apache/airavata)：Airavata是一个软件框架，用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算性任务，最初由印第安纳大学开发。
-* [LarkMidTable](https://gitee.com/LarkMidTable/LarkMidTable)：LarkMidTable是一站式开源的数据中台，实现元数据管理，数据仓库开发，数据质量管理，数据的可视化，实现高效赋能数据前台并提供数据服务的产品。
 * [云雀](https://gitee.com/LarkMidTable/yunque)：云雀是一款数据集成工具，实现异构数据源的整合，帮助企业构建数据仓库、数据湖等应用架构。
 * [DeltaFi](https://gitlab.com/deltafi/deltafi)：DeltaFi是一个灵活、轻量代码的数据转换和标准化平台。
 * [Datacube](https://github.com/urbanairship/datacube)：具有数值数据汇总的多维数据存储，由Airship开源。
@@ -2795,7 +2798,6 @@
 * [Communication](https://github.com/foundation-runtime/communication)：Communication包含与HTTP客户端和服务器通信相关的库，由Cisco开发。
 * [Netty HTTP Client](https://github.com/timboudreau/netty-http-client)：Java中的异步HTTP客户端，具有干净、基于回调的API，基于Netty 4.x。
 * [Jetty HttpClient](https://github.com/eclipse/jetty.project/tree/jetty-10.0.x/jetty-client)：Jetty中执行HTTP和HTTPS请求的模块。
-* [Apache HttpAsyncClient Wrapper](https://github.com/puppetlabs/clj-http-client)：这是Apache HttpAsyncClient库的包装器，提供一些额外的功能，用于以与Puppet兼容的方式配置SSL。
 * [HTTP4J](https://github.com/IntellectualSites/HTTP4J)：HTTP4J是Java HttpURLConnection的一个简单、轻量级且小型的包装器。
 * [Donkey](https://github.com/AppsFlyer/donkey)：现代Clojure、Ring兼容的HTTP服务器和客户端，专为易用性和性能而设计。
 * [HTTPBuilder](https://github.com/jgritman/httpbuilder)：Groovy的简单HTTP客户端。
@@ -4139,7 +4141,7 @@
 * [Origami](https://github.com/hellonico/origami)：Origami是JVM上的图像处理、计算机视觉和神经网络库。
 * [OpenCV Processing](https://github.com/atduskgreg/opencv-processing)：OpenCV Processing基于OpenCV的官方Java绑定，为常见的OpenCV函数提供方便的包装器。
 * [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
-* [JavaVision](https://gitee.com/giteeClass/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
+* [JavaVision](https://gitee.com/javpower/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
 
 #### 光学字符识别
 
