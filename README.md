@@ -250,7 +250,6 @@
 * [生物信息学](docs/doc2.md#生物信息学)
 * [基因组学](docs/doc2.md#基因组学)
 * [NGS](docs/doc2.md#NGS)
-* [医疗平台](docs/doc2.md#医疗平台)
 * [化学库](docs/doc2.md#化学库)
 * [工作流](docs/doc2.md#工作流)
 * [编排引擎](docs/doc2.md#编排引擎)
@@ -323,10 +322,11 @@
 * [代码属性图](docs/doc2.md#代码属性图)
 * [API变更管理](docs/doc2.md#API变更管理)
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
-* [脚手架](docs/doc2.md#脚手架)
+* [项目模板](docs/doc2.md#项目模板)
 * [低代码](docs/doc2.md#低代码)
 * [权限管理系统](docs/doc2.md#权限管理系统)
 * [商城系统](docs/doc2.md#商城系统)
+* [医疗系统](docs/doc2.md#医疗系统)
 * [QA系统](docs/doc2.md#QA系统)
 * [CMS系统](docs/doc2.md#CMS系统)
 * [ERP系统](docs/doc2.md#ERP系统)
@@ -335,6 +335,7 @@
 * [DMS系统](docs/doc2.md#DMS系统)
 * [WMS系统](docs/doc2.md#WMS系统)
 * [MES系统](docs/doc2.md#MES系统)
+* [充电桩系统](docs/doc2.md#充电桩系统)
 * [数据中台](docs/doc2.md#数据中台)
 * [知识管理系统](docs/doc2.md#知识管理系统)
 * [SCRM系统](docs/doc2.md#SCRM系统)
@@ -565,7 +566,6 @@
 * [CalDAV](docs/doc3.md#CalDAV)
 * [WebDav](docs/doc3.md#WebDav)
 * [AirPlay](docs/doc3.md#AirPlay)
-* [充电桩](docs/doc3.md#充电桩)
 * [元编程](docs/doc3.md#元编程)
 * [分词器](docs/doc3.md#分词器)
 * [文本表](docs/doc3.md#文本表)
@@ -583,7 +583,6 @@
 * [词法解析](docs/doc3.md#词法解析)
 * [Tree Sitter](docs/doc3.md#Tree-Sitter)
 * [形式验证](docs/doc3.md#形式验证)
-* [项目模板](docs/doc3.md#项目模板)
 * [印章生成](docs/doc3.md#印章生成)
 * [数据脱敏](docs/doc3.md#数据脱敏)
 * [N+1问题](docs/doc3.md#N1问题)
@@ -1036,6 +1035,7 @@
 * [Cantor](https://github.com/salesforce/cantor)：Cantor是一个数据服务层，它为各种存储解决方案(例如MySQL和S3)之上的多种基本数据结构提供持久化，由Salesforce开源。
 * [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
+* [Super SQL](https://gitee.com/guocjsh/supersql-open)：Super SQL是一个基于国内外先进生成式大模型的Java框架，实现从自然语言文本到SQL查询的智能转换。
 
 #### 事务
 

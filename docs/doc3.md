@@ -2215,12 +2215,6 @@
 * [Open AirPlay](https://github.com/openairplay/open-airplay)：Apple的AirPlay协议的库集合。
 * [Java AirPlay Lib](https://github.com/serezhka/java-airplay-lib)：此库旨在轻松创建类似Apple TV的AirPlay2服务器。
 
-## 充电桩
-
-* [SteVe](https://github.com/steve-community/steve)：SteVe于2013年在亚琛工业大学成立，提供了管理充电点、用户数据和用于用户身份验证的RFID卡的基本功能，并已在运行中进行了成功测试。
-* [Java OCA OCPP](https://github.com/ChargeTimeEU/Java-OCA-OCPP)：OCA定义的开放充电点协议(OCPP)的开源客户端和服务器库。
-* [OCPP](https://github.com/ShellRechargeSolutionsEU/ocpp)：该库是欧洲最大的电动汽车充电站运营商之一NewMotion开发和使用的OCPP的实现。
-
 ## 元编程
 
 * [JParsec](https://github.com/jparsec/jparsec)：Jparsec是一个为Java编写的递归下降解析器组合器框架。
