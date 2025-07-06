@@ -2660,7 +2660,11 @@
 * [OpenGrok](https://github.com/oracle/opengrok)：OpenGrok是一个快速且可用的源代码搜索和交叉引用引擎，可以帮助你搜索、交叉引用和导航源树，由Oracle开源。
 * [PySonar2](https://github.com/yinwang0/pysonar2)：PySonar2是Python的语义索引器库，专为大型代码库的批处理而设计，生成的索引可用于构建代码浏览器和代码搜索引擎。
 
-## 项目模板
+## 企业软件开发
+
+这里列出了各行业企业级开发的管理系统，包括CMS、低代码、ERP等。
+
+#### 项目模板
 
 * [JHipster](https://github.com/jhipster/generator-jhipster)：JHipster是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
 * [PLMCodeTemplate](https://github.com/xwjie/PLMCodeTemplate)：Spring开发代码模板。
@@ -2727,7 +2731,6 @@
 * [Spring Boot Boilerplate](https://github.com/Genc/spring-boot-boilerplate)：Spring Boot Boilerplate是一个Starter套件，该项目包括Spring Boot、Spring Data JPA、Spring Validation、Spring Security、JWT、PostgreSQL、Mapstruct、Lombok、Swagger。
 * [Spring Boot V2](https://gitee.com/bdj/SpringBoot_v2)：Spring Boot V2项目是努力打造Spring Boot框架的极致细腻的脚手架。
 * [Slife](https://gitee.com/jamen/slife)：Slife是一个使用Spring Boot搭建的企业级快速开发脚手架。
-* [Vhr](https://gitee.com/lenve/vhr)：Spring Boot + Vue前后端分离的人力资源管理项目，可做常规企业级应用脚手架。
 * [Maozi](https://github.com/1095071913/maozi-cloud-parent)：Maozi基于Spring Cloud Alibaba、Dubbo二开封装。
 * [JBone](https://github.com/417511458/jbone)：JBone基于Spring Cloud框架开发，旨在为中小企业提供稳定的微服务解决方案，为开发人员提供基础开发骨架。
 * [HsWeb](https://github.com/hs-web/hsweb-framework)：HsWeb是一个基于Spring Boot开发，使用全响应式编程的企业级后台管理系统基础项目。
@@ -2758,8 +2761,10 @@
 * [JFinal LayUI](https://gitee.com/QinHaiSenLin/Jfinal-layui)：JFinal LayUI极速企业应用开发管理系统。
 * [FHS Framework](https://gitee.com/fhs-opensource/fhs-framework)：FHS Framework是一个集成了国内外诸多优秀开源项目的快速开发平台。
 * [Spring Microservices Boilerplate](https://github.com/danielliao11/spring-microservice-boilerplate)：Spring Microservices Boilerplate是一个方便Java后端人员快速开发的微服务脚手架。
+* [Spring Boot Plus](https://gitee.com/xiandafu/springboot-plus)：Spring Boot Plus是一个基于Spring Boot 2的管理后台系统。
+* [EuBackend](https://gitee.com/zhaoeryu/eu-backend)：EuBackend是一套全部开源的前后端分离Java EE企业级快速开发平台。
 
-## 低代码
+#### 低代码
 
 * [Appsmith](https://github.com/appsmithorg/appsmith)：Appsmith是一个开源低代码平台，可简化自定义应用程序的开发、部署和维护。
 * [JeecgBoot](https://github.com/jeecgboot/JeecgBoot)：JeecgBoot是一款基于AIGC和低代码引擎的AI低代码平台，旨在帮助开发者快速实现低代码开发和构建、部署个性化的AI应用，由北京国炬公司开发。
@@ -2815,7 +2820,7 @@
 * [Informat](https://www.informat.cn/)：织信是基石协作科技自研的低代码应用构建平台。
 * [MyApps](http://www.teemlink.com/myapps/)：MyApps是天翎自主研发的第四代可视化低代码快速开发平台。
 
-## 权限管理系统
+#### 权限管理系统
 
 * [Pig](https://gitee.com/log4j/pig)：Pig是基于Spring Boot 3.0、Spring Cloud 2022 & Alibaba、SAS OAuth2的微服务RBAC权限管理系统。
 * [RenRen Security](https://gitee.com/renrenio/renren-security)：RenRen Security是采用Spring Boot、MyBatisPlus、Shiro、Vue 3、ElementPlus等框架开发的一套权限系统。
@@ -2829,9 +2834,10 @@
 * [JeeSpringCloud](https://gitee.com/JeeHuangBingGui/jeeSpringCloud)：基于Spring Boot 2.0的后台权限管理系统，界面简洁美观。
 * [Cool Admin](https://github.com/cool-team-official/cool-admin-java)：Cool Admin后台权限管理系统，开源免费、AI编码、流程编排、模块化、插件化，用于快速构建后台应用程序。
 
-## 商城系统
+#### 商城系统
 
 * [微同商城](https://gitee.com/fuyang_lipengjun/platform)：减少重复造轮子，开源微信小程序商城。
+* [智汇商城](https://gitee.com/catshen/zhsc)：智汇商城是一款持续更新得轻量级、高性能、前后端分离的电商系统。
 * [Mall](https://github.com/macrozheng/mall)：Mall项目致力于打造一个完整的电商系统，采用现阶段主流技术实现。
 * [Xbin Store](https://github.com/xubinux/xbin-store)：模仿国内知名B2C网站，实现的一个分布式B2C商城。
 * [SuperMarket](https://github.com/ZongXR/SuperMarket)：设计精良的网上商城系统，使用Spring Cloud框架，基于Java开发。
@@ -2888,14 +2894,13 @@
 * [QiHang ERP](https://gitee.com/qiliping/qihangerp-cloud)：启航电商ERP是一个完整开箱即用的开源电商ERP系统。
 * [EDEN](https://gitee.com/codingdb/distribution_management)：微服务下的分销管理利器，更加灵活的管理佣金，涵盖并且总结了目前流行的分销模式。
 
-## 医疗系统
+#### 医疗系统
 
 * [HAPI FHIR](https://github.com/hapifhir/hapi-fhir)：HAPI FHIR是HL7 FHIR标准的完整实现，用于Java中的医疗保健互操作性。
 * [Mirth Connect](https://github.com/nextgenhealthcare/connect)：Mirth Connect是一个基于开源标准的医疗保健集成引擎，它通过接受传入的信息包并根据你提供的规则处理它们来实现两个系统之间的互操作性。
 * [HIS](https://github.com/ZainZhao/HIS)：HIS主要功能按照数据流量、流向及处理过程分为临床诊疗、药品管理、财务管理、患者管理。
 * [Open Hospital](https://github.com/informatici/openhospital)：Open Hospital是一款免费的开源健康信息管理系统(HIMS)软件应用程序。
 * [Clinical Quality Language](https://github.com/cqframework/clinical_quality_language)：CQL是用于表达临床知识的HL7标准，可在广泛的临床领域中使用，包括临床决策支持(CDS)和临床质量测量(CQM)。
-* [IPF](https://github.com/oehf/ipf)：Camel路由和中介引擎的扩展，为医疗保健领域的消息处理和连接信息系统提供全面支持。
 * [HMIS](https://github.com/hmislk/hmis)：HMIS是一个医院信息管理系统，自2004年推出以来一直积极为40多家医疗机构提供服务。
 * [HAPI FHIR Core](https://github.com/hapifhir/org.hl7.fhir.core)：适用于FHIR规范的Java核心对象处理代码，带有实用程序(包括验证器)。
 * [OpenMRS](https://github.com/openmrs/openmrs-core)：OpenMRS是一个基于患者的医疗记录系统，专注于为提供商提供免费的可定制电子医疗记录系统(EMR)。
@@ -2908,11 +2913,43 @@
 * [Phoenix CTMS](https://github.com/phoenixctms/ctsms)：Phoenix CTMS是一款大型Web应用程序，将临床研究中使用的数据库软件的功能结合在一个模块化系统中。
 * [SIMRS Khanza](https://github.com/mas-elkhanza/SIMRS-Khanza)：适用于医院、诊所、保健中心、私人医生的软件，已在印度尼西亚1000多家医院使用。
 * [OpenELIS Global 2](https://github.com/I-TECH-UW/OpenELIS-Global-2)：OpenELIS Global是专为公共卫生实验室量身定制的开放式企业级实验室信息系统软件，由华盛顿大学开源。
-* [LinuxForHealth FHIR](https://github.com/LinuxForHealth/FHIR)：LinuxForHealth FHIR服务器(以前称为IBM FHIR服务器)是HL7 FHIR规范的模块化Java实现，支持版本R4和R4B，重点关注性能和可配置性。
+* [LinuxForHealth FHIR](https://github.com/LinuxForHealth/FHIR)：LinuxForHealth FHIR服务器是HL7 FHIR规范的模块化Java实现，支持版本R4和R4B，重点关注性能和可配置性。
 * [Pathling](https://github.com/aehrc/pathling)：Pathling是一组工具，可让你在健康数据分析中更轻松地使用FHIR和临床术语，由澳大利亚电子健康研究中心开源。
 * [E-Medical System](https://github.com/soumyadip007/E-Medical-System-Web-Project-Using-Spring-Boot-Security-JPA-Rest-Thymeleaf-HQL)：使用Spring Boot开发的电子医疗系统Web项目。
 
-## QA系统
+#### 项目管理
+
+* [JIRA](https://www.atlassian.com/software/jira)：JIRA是一个Bug跟踪管理系统，为针对Bug管理、任务追踪和项目管理的商业性应用软件，由Atlassian开发。
+* [YouTrack](https://www.jetbrains.com/youtrack/)：YouTrack是JetBrains开发的专有、基于商业浏览器的错误跟踪器、问题跟踪系统和项目管理软件。
+* [Atlassian Confluence](https://www.atlassian.com/zh/software)：Confluence是一个专业的企业知识管理与协同软件，也可以用于构建企业Wiki，由Atlassian开发。
+* [Teambition](https://www.teambition.com/)：阿里旗下数字化协作平台，提供项目管理、任务协同等解决方案。
+* [MyCollab](https://github.com/MyCollab/mycollab)：MyCollab是免费的开源项目管理软件。
+* [GanttProject](https://github.com/bardsoftware/ganttproject)：GanttProject是一款免费的桌面项目管理应用程序，由BarD软件公司开源。
+* [Twproject](https://twproject.com/)：Twproject是一个灵活的基于Web的工作和项目管理平台，专为小型和大型团队打造。
+* [Wukong PM](https://github.com/WuKongOpenSource/Wukong_ProjectManagement)：基于Spring Cloud Alibaba微服务架构、Vue、ElementUI的前后端分离项目管理系统。
+* [Mone](https://github.com/XiaoMi/mone)：Mone是一个以微服务为核心的一站式企业协同研发平台，支持公有云、私有云、混合云等多种部署形态，由小米开源。
+* [Lavagna](https://github.com/digitalfondue/lavagna)：Lavagna是一款小型且易于使用的问题/项目跟踪软件。
+* [Yobi](https://github.com/yona-projects/yona)：Yobi是一个基于Web的项目托管软件，由Naver开源。
+* [Codes](https://gitee.com/xiaoming1q/icodes)：Codes是一个高效、简洁、轻量的一站式研发项目管理平台，由四川无限智达公司开源。
+* [IceScrum](https://github.com/icescrum/iceScrum)：IceScrum是一款Web应用，它使用Scrum的同时，也保留了协作工作空间的精髓。
+* [Atlas CMMS](https://github.com/Grashjs/cmms)：Atlas CMMS是一款功能强大的自托管维护管理系统，基于Docker架构，适用于Web和移动平台。
+* [Gerrit](https://github.com/GerritCodeReview/gerrit)：Gerrit是基于Git的项目的代码审查和项目管理工具，由Google开源。
+* [Kooteam](https://gitee.com/sinbo/kooteam)：Kooteam是一款轻量级的在线团队协作工具，提供各类文档工具、在线思维导图、在线流程图、项目管理、任务分发，知识库管理等工具。
+* [BugCatcher](https://github.com/youzan/bugCatcher)：BugCatcher是有赞开发的项目管理、测试用例管理、项目进度和质量监控工具。
+* [LibrePlan](https://github.com/LibrePlan/libreplan)：LibrePlan是一款用于项目管理、监控和控制的免费软件Web应用程序。
+* [ProjectForge](https://github.com/micromata/projectforge)：ProjectForge是一个基于Web的项目管理解决方案，包括时间跟踪、团队日历、甘特图、财务管理、问题管理、控制和管理工作分解结构(例如与JIRA一起作为问题管理系统)。
+* [Naikan](https://github.com/enofex/naikan)：Naikan是一款开源软件库存管理工具，适用于由CI/CD管道驱动的开发团队。
+* [TMS](https://gitee.com/xiweicheng/tms)：TMS是基于频道模式的团队沟通协作+轻量级任务看板，支持Markdown、富文本、在线表格和思维导图的团队博文wiki，i18n国际化翻译管理的响应式Web开源团队协作系统。
+* [Rapla](https://github.com/rapla/rapla)：Rapla是一个灵活的多用户资源和活动规划系统，它具有多个日历视图、冲突管理、完全可配置的资源和事件类型以及许多导入/导出功能。
+* [Kanass](https://github.com/tiklab-project/tiklab-kanass)：Kanass是专为项目管理而设计的应用软件，帮助项目管理者在有限的资源约束下，运用系统项目涉及的全部工作进行有效管理。
+* [OpenFastTrace](https://github.com/itsallcode/openfasttrace)：OpenFastTrace是一个需求跟踪套件，可以帮助你跟踪是否真正实现了规范中计划的所有内容。
+* [ProjectLibre](https://www.projectlibre.com/)：ProjectLibre是Microsoft Project的第一大替代品，ProjectLibre提供免费桌面和订阅云解决方案。
+* [PNC](https://github.com/project-ncl/pnc)：用于管理、执行和跟踪跨平台构建的系统。
+* [Plan](https://calligra.org/plan/)：Plan是一个项目管理应用程序，旨在管理具有多种资源的中等大型项目。
+* [HeartBeat](https://github.com/thoughtworks/HeartBeat)：HeartBeat是一个用于跟踪项目交付指标的工具，可以帮助你更好地了解交付绩效，由ThoughtWorks开发。
+* [Cat2Bug Platform](https://gitee.com/cat2bug/cat2bug-platform)：Cat2Bug Platform是一套永久免费开源的Bug管理平台，可以完全私有化部署。
+
+#### QA系统
 
 * [TDuck](https://gitee.com/TDuckApp/tduck-platform)：TDuck是国内首批基于Vue开源的问卷/表单收集工具。
 * [DWSurvey](https://gitee.com/wkeyuan/DWSurvey)：DWSurvey是一款免费、高效、稳定的开源问卷表单系统，由北京极推科技公司开发。
@@ -2926,7 +2963,7 @@
 * [Mamute](https://github.com/caelum/mamute)：Mamute是一个基于CDI和VRaptor 4使用Java开发的问答引擎。
 * [Openauth](https://gitee.com/yubaolee/openauth.qa)：Openauth是一个简洁实用的问答网站。
 
-## CMS系统
+#### CMS系统
 
 * [Halo](https://github.com/halo-dev/halo)：Halo是一个强大易用的开源建站工具，由飞致云开源。
 * [Novel](https://github.com/201206030/novel)：Novel是一套基于Java技术栈Spring Boot 3、Vue 3开发的前后端分离学习型小说项目。
@@ -2934,6 +2971,7 @@
 * [JPress](https://gitee.com/JPressProjects/jpress)：JPress是一个使用Java开发、类似WordPress的产品，支持多站点、多语种自动切换等，由小码科技开源。
 * [师说CMS](https://gitee.com/shishuo/CMS_old)：师说CMS是一款使用Java语言开发的CMS，使用了Spring MVC、Spring、MyBatis等流行框架，提供首页大图管理、目录管理、文章管理和管理员管理等功能。
 * [VBlog](https://github.com/lenve/VBlog)：V部落是一个多用户博客管理平台，采用Vue、Spring Boot开发。
+* [NiceFish](https://gitee.com/mumu-osc/NiceFish)：NiceFish是一个系列项目，目标是示范前后端分离的开发模式。
 * [JFinal CMS](https://gitee.com/jflyfox/jfinal_cms)：JFinal CMS是一个Java开发的功能强大的信息咨询网站，采用JFinal作为Web框架。
 * [FastCMS](https://gitee.com/dianbuapp_admin/fastcms)：FastCMS是基于Spring Boot前后端分离技术，且具有插件化架构的CMS系统。
 * [MoguBlog](https://github.com/moxi624/mogu_blog_v2)：MoguBlog是一个基于微服务架构的前后端分离博客系统。
@@ -2961,6 +2999,7 @@
 * [Bolo Solo](https://github.com/adlered/bolo-solo)：菠萝博客是专为程序员设计的精致Java博客系统。
 * [Brix](https://github.com/brix-cms/brix-cms)：Brix基于Wicket和JCR，是当今最好的基于Wicket的CMS框架。
 * [OFCMS](https://gitee.com/oufu/ofcms)：Java版CMS、基于Java研发的内容管理系统。
+* [Mawen](https://github.com/codedrinker/community)：开源论坛、问答系统，现有功能提问、回复、通知、最新、最热、消除零回复功能。
 * [WeBlog](https://gitee.com/AllenJiang/WeBlog)：一款由Spring Boot、Vue 3.2、Vite 4.3开发的前后端分离博客。
 * [ForestBlog](https://github.com/saysky/ForestBlog)：ForestBlog是一个简单漂亮的SSM博客系统。
 * [Apache Stanbol](https://stanbol.apache.org/)：Stanbol提供了一组用于语义内容管理的可重用组件。
@@ -2997,7 +3036,7 @@
 * [ChestnutCMS](https://gitee.com/liweiyi/ChestnutCMS)：ChestnutCMS是前后端分离的企业级内容管理系统。
 * [Shiyi Blog](https://gitee.com/quequnlong/shiyi-blog)：一款基于Vue、Spring Boot的前后端分离博客系统。
 
-## ERP系统
+#### ERP系统
 
 * [华夏ERP](https://gitee.com/jishenghua/JSH_ERP)：华夏ERP是基于Spring Boot框架和SaaS模式开源的ERP软件，目前专注进销存、财务、生产功能。
 * [赤龙ERP](https://gitee.com/redragon/redragon-erp)：赤龙ERP是一款免费开源、业务闭环、灵活稳定的企业级ERP系统。
@@ -3011,8 +3050,6 @@
 * [Skyeye](https://gitee.com/doc_wei01/erp-pro)：Skyeye基于Spring Boot框架，为中小企业打造的开源好用ERP软件。
 * [MyCompany](https://github.com/lsfusion-solutions/mycompany)：MyCompany是一个适用于小型企业免费的开源ERP构建器。
 * [Wukong CRM](https://github.com/WuKongOpenSource/WukongCRM-11.0-JAVA)：悟空CRM是基于Spring Cloud Alibaba微服务架构、Vue ElementUI的前后端分离CRM系统。
-* [Wukong HRM](https://github.com/WuKongOpenSource/Wukong_HRM)：悟空HRM人力资源管理系统，提供入职管理、招聘管理、绩效考核管理等一站式人力管理流程。
-* [iBizEHR](https://gitee.com/ibizlab/iBizEHR)：iBizEHR是一套可满足万人应用的高性能人力资源管理软件，埃毕致开源。
 * [Saas ERP](https://gitee.com/hy417393356/saas-java)：简云Saas平台是基于Spring Boot 2.2.0、Mybatis、JWT、Redis、Vue、ElementUI的前后端分离的Saas平台后台管理系统。
 * [星云ERP](https://gitee.com/lframework/xingyun)：星云ERP基于Spring Boot框架，为中小企业提供完全开源、永久免费、用户体验好的进销存ERP系统。
 * [Qcadoo MES](https://github.com/qcadoo/mes)：Qcadoo MES是一款针对中小企业的生产管理互联网应用，它结合了大型ERP系统的功能，适应中小企业的具体特点。
@@ -3024,7 +3061,14 @@
 * [BlueSeer ERP](https://github.com/BlueSeerERP/blueseer)：BlueSeer ERP是一个免费的开源多语言ERP软件包。
 * [EAIRP](https://github.com/eairps/eairp)：开源Sass AI ERP系统。
 
-## AI系统
+#### HRM系统
+
+* [Vhr](https://github.com/lenve/vhr)：Spring Boot + Vue前后端分离的人力资源管理项目，可做常规企业级应用脚手架。
+* [Wukong HRM](https://github.com/WuKongOpenSource/Wukong_HRM)：悟空HRM人力资源管理系统，提供入职管理、招聘管理、绩效考核管理等一站式人力管理流程。
+* [iBizEHR](https://gitee.com/ibizlab/iBizEHR)：iBizEHR是一套可满足万人应用的高性能人力资源管理软件，埃毕致开源。
+* [AEAI HR](https://gitee.com/agileai/aeaihr)：AEAI HR是数通畅联软件基于AEAI DP开发的开源Java Web系统，用来协助管理公司人力、薪酬等事务。
+
+#### AI系统
 
 * [ChatMaster](https://gitee.com/panday94/chat-master)：ChatMaster是基于AI大模型API实现的自建后端对话服务。
 * [WGAI](https://gitee.com/dromara/wgai)：开箱即用的Java AI平台，融合了AI图像识别、AI智能客服、AI语言模型，可定制化、自主、离线化部署。
@@ -3042,7 +3086,7 @@
 * [HugAI](https://github.com/TouShang6015/Hugai-chatgpt)：HugAI是由Spring Boot集成Open AI SDK开发的一套智能AI知识库，支持GPT对话，AI绘图Midjourney、Stable Diffusion、Open AI。
 * [AppPlatform](https://github.com/ModelEngine-Group/app-platform)：AppPlatform是一个前沿的大模型应用工程，旨在通过集成的声明式编程和低代码配置工具，简化AI应用的开发过程。
 
-## OA系统
+#### OA系统
 
 * [OASys](https://gitee.com/aaluoxiang/oa_system)：OASys是一个OA办公自动化系统，使用Maven进行项目管理。
 * [O2OA](https://gitee.com/o2oa/O2OA)：O2OA低代码开发平台，100%开源企业协同办公定制平台，提供完整的前后端API和模块定制能力。
@@ -3053,7 +3097,7 @@
 * [稠云智能办公系统](https://gitee.com/cysoft_1/oa)：基于Spring Boot、MyBatis、Redis、Durid、Beetl框架组合的开源OA系统，自研工作流引擎，支持可视化表单设计与流程设计。
 * [LemonOA](https://github.com/xuhuisheng/lemon)：LemonOA是一个通用的OA产品。
 
-## DMS系统
+#### DMS系统
 
 * [Teedy](https://github.com/sismics/docs)：Teedy是一个面向个人和企业的开源、轻量级文档管理系统。
 * [MxsDoc](https://gitee.com/RainyGao/DocSys)：MxsDoc是基于Web的文件管理系统，主要用于企业或个人的文件存储管理，方便随时查看和统一管理。
@@ -3062,9 +3106,12 @@
 * [FormKiQ](https://github.com/formkiq/formkiq-core)：FormKiQ是一个功能齐全的文档管理平台/文档层。
 * [ECMS](https://github.com/exoplatform/ecms)：eXo的组合ECM(文档)和CMS管理系统。
 
-## WMS系统
+#### WMS系统
 
 * [RinSim](https://github.com/rinde/RinSim)：RinSim是一个用Java编写的物流模拟器，支持动态取货和送货问题的(去)中心化算法，由比利时鲁汶大学计算机科学系部门的imec-DistriNet小组开发。
+* [Warehouse](https://github.com/yeqifu/warehouse)：Warehouse是一个仓库管理系统。
+* [WMS RuoYi](https://gitee.com/zccbbg/wms-ruoyi)：若依WMS是一套基于若依的仓库管理系统，支持lodop和网页打印入库单、出库单。
+* [Finer](https://gitee.com/FINERME/psi)：面向中小企业的进销存管理PSI和仓库管理系统WMS。
 * [OpenWMS](https://github.com/openwms/org.openwms)：OpenWMS是一个免费使用且可扩展的仓库管理系统(WMS)，带有适用于自动和手动仓库的物料流控制(MFC)系统。
 * [Deer WMS](https://gitee.com/deerwms/deer-wms-2)：Deer WMS是基于自动化输送线、机械臂、点数机、提升机、堆垛机等自动化设备和现代化仓储精益管理思想开发出来的仓库管理系统，由南京大鹿智造开发。
 * [MyWMS](https://github.com/wms2/mywms)：MyWMS LOS是开源仓库管理系统WMS，它在工业24/7环境中运行并支持所有基本流程。
@@ -3073,7 +3120,7 @@
 * [S-PMS](https://github.com/s-pms/SPMS-Server)：S-PMS智能生产管理系统，是一个集成化、智能化的企业级应用软件，
 * [JeeWMS](https://gitee.com/erzhongxmu/JEEWMS)：JeeWMS是基于Java全栈技术打造的智能仓储中枢系统。
 
-## MES系统
+#### MES系统
 
 * [KTG MES](https://gitee.com/kutangguo/ktg-mes)：苦糖果MES系统是一款B/S结构、开源、免费的生产执行管理系统。
 * [MES MOM](https://gitee.com/wangziyangyang/MES-Springboot)：MES制造执行系统。
@@ -3081,7 +3128,17 @@
 * [Industry MES](https://github.com/ricefishtech/industry4.0-mes)：开源MES，生产制造管理系统。
 * [HM MES](https://gitee.com/imdreamer/hm-MES)：这里汇聚了开源社区最好的MES系统，一共有几套系统。
 
-## 充电桩系统
+#### 云盘系统
+
+* [ZFile](https://github.com/zfile-dev/zfile)：ZFile是一个适用于个人或小团队的在线网盘程序。
+* [QiWen File](https://gitee.com/qiwen-cloud/qiwen-file)：基于Spring Boot、VUE CLI框架开发的分布式文件系统。
+* [ZWZ](https://gitee.com/college996/zwz-netdisk)：基于Spring Boot、Dubbo、Zookeeper、Nacos技术栈的网盘系统。
+* [Kiftd](https://gitee.com/kohgylw/kiftd)：Kiftd是一款便捷、开源、功能完善的Java网盘/云盘系统。
+* [JmalCloud](https://github.com/jamebal/jmal-cloud-server)：JmalCloud是一款私有云存储网盘项目，能够简单安全管理你的云端文件。
+* [Free FS](https://gitee.com/xddcode/free-fs)：Free FS是基于Spring Boot 3、MyBatis Flex、MySQL、Sa-Token、LayUI等搭配阿里云Oss、Minio、七牛云等各种云存储实现的云存储管理系统。
+* [Network Drive](https://github.com/risesoft-y9/Network-Drive)：网络硬盘是通过存储、分类、检索、分享、协作、下发、回收、展示等方式管理文档、文件、图片、音频、视频等资料的工具，由北京有生博大软件开发。
+
+#### 充电桩系统
 
 * [SteVe](https://github.com/steve-community/steve)：SteVe提供充电桩管理、用户数据以及用于用户身份验证的RFID卡等基本功能，由亚琛工业大学开发。
 * [Java OCA OCPP](https://github.com/ChargeTimeEU/Java-OCA-OCPP)：OCA定义的开放充电点协议(OCPP)的开源客户端和服务器库。
@@ -3092,7 +3149,7 @@
 * [JChargePointProtocol](https://gitee.com/san-bing/JChargePointProtocol)：一个高性能、分布式、支持海量并发量的充电桩Java服务端。
 * [YunCharging](https://github.com/yuncitys/YunCharging)：YunCharge是一套用于二轮电单车和四轮充电桩充电领域的运营和计费系统，由深圳云创智城科技公司开发。
 
-## 数据中台
+#### 数据中台
 
 * [LarkMidTable](https://gitee.com/LarkMidTable/LarkMidTable)：LarkMidTable是一站式开源的数据中台，实现元数据管理，数据仓库开发，数据质量管理，数据的可视化，实现高效赋能数据前台并提供数据服务的产品。
 * [QData](https://gitee.com/qiantongtech/qData)：QData是一款一站式开源数据中台，覆盖中台基础建设、数据治理、数据开发、监控告警、数据服务与数据可视化等核心能力，由江苏千桐科技公司开发。
@@ -3102,7 +3159,7 @@
 * [SRT Data Center](https://gitee.com/zrxjava/srt-data-center)：数睿通数据中台采用Spring Cloud Alibaba、Tidb、Doris、Flink、Hadoop等技术开发。
 * [Sanzuwu](https://gitee.com/sanzujinwu/sanzuwu)：三足乌数据中台融合数据接入、数据开发、数据仓库、数据治理、数据资产、数据服务、BI可视化、系统管理、系统运维等功能模块为一体。
 
-## 知识管理系统
+#### 知识管理系统
 
 * [Logseq](https://github.com/logseq/logseq)：Logseq是一个知识管理和协作平台。
 * [Athens](https://github.com/athensresearch/athens)：Athens是一个开源的协作知识图谱。
@@ -3118,7 +3175,7 @@
 * [Hackpad](https://github.com/dropbox/hackpad)：Hackpad是一个基于Web的实时Wiki，基于开源EtherPad协作文档编辑器。
 * [InfoSphere](https://gitee.com/devlive-community/incubator-infosphere)：InfoSphere是一款面向企业和个人的开源Wiki系统，旨在提供简单而强大的知识管理解决方案，由Devlive社区开源。
 
-## SCRM系统
+#### SCRM系统
 
 * [LinkWeChat](https://gitee.com/LinkWeChat/link-wechat)：LinkWeChat是基于企业微信的开源SCRM系统，是企业私域流量管理与营销的综合解决方案。
 * [源雀SCRM](https://gitee.com/iyque/iYqueCode)：源雀SCRM是完全开源的私域数智化营销解决方案。
@@ -3127,13 +3184,13 @@
 * [Pumplabs SCRM](https://github.com/Pumplabs/scrm)：Pumplabs SCRM是一款开源、基于企业微信、简洁便捷、高效协作的CRM应用，主要面向一定售周期的业务，如家装、汽车服务、保险、IT、美容、教培等。
 * [MoChat](https://gitee.com/mochat/mochat-java)：MoChat是基于企业微信的开源应用开发框架&引擎，也是一套通用的企业私域流量管理系统。
 
-## 门户框架
+#### 门户框架
 
 * [Apache Protals](http://portals.apache.org/)：Portals项目提供各种软件产品，包括Jetspeed-2、Pluto和Portals Applications。
 * [Liferay Portal](https://github.com/liferay/liferay-portal)：Liferay是一个现成的，即开即用的，功能完备的门户网站。
 * [Apereo uPortal](https://github.com/uPortal-Project/uPortal)：uPortal是由高等教育界构建并为其服务的领先开源企业门户框架，由威斯康星大学开源。
 
-## 教育软件
+#### 教育软件
 
 * [TEAMMATES](https://github.com/TEAMMATES/teammates)：TEAMMATES是一个免费的在线工具，用于管理学生的同行评估和其他反馈路径，由新加坡国立大学开源。
 * [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)：BigBlueButton是一个开源虚拟教室，旨在帮助教师教学和学习者学习。
@@ -3149,9 +3206,14 @@
 * [Exam++](https://gitee.com/ocelot/examxx)：Exam++是基于Java与MySQL开发的网络考试系统。
 * [Inxedu](https://gitee.com/inxeduopen/inxedu)：免费开源网校系统，轻松搭建在线教育平台。
 * [TamGuo](https://gitee.com/smiletocandy/tamguo)：TamGuo是基于Java开发的在线题库系统。
-* [PlayEdu](https://gitee.com/playeduxyz/playedu)：PlayEdu是由白书科技团队打造出的一款业内领先的线上培训解决方案。
+* [PlayEdu](https://github.com/PlayEdu/PlayEdu)：PlayEdu是由白书科技团队打造出的一款业内领先的线上培训解决方案。
+* [HOJ](https://gitee.com/himitzh0730/hoj)：基于Vue、Spring Boot、Spring Cloud Alibaba构建的前后端分离，分布式架构的评测系统。
+* [SDUOJ](https://github.com/SDUOJ/OnlineJudge)：SDUOJ是一款开源在线评测系统。
+* [PassJava](https://github.com/Jackson0714/PassJava-Platform)：一款面试刷题的Spring Cloud开源系统。
+* [VOJ](https://github.com/hzxie/voj)：VOJ是一个基于Spring MVC框架的跨平台在线评判系统。
+* [Judgels](https://github.com/ia-toki/judgels)：Judgels是一个现代编程竞赛系统。
 
-## 静态站点生成器
+#### 静态站点生成器
 
 * [JBake](https://github.com/jbake-org/jbake)：JBake是一个为开发人员提供的基于Java的开源静态站点/博客生成器。
 * [Orchid](https://github.com/orchidhq/Orchid)：Orchid是一个用于生成具有所有功能的项目文档网站的框架。
@@ -3159,20 +3221,20 @@
 * [OpooPress](https://github.com/opoo/opoopress)：OpooPress框架是一个完全灵活、完全可扩展的基于Java的静态站点生成器。
 * [Grain](https://github.com/sysgears/grain)：Grain是一个轻量级框架和一个非常强大的静态网站生成器，用Groovy编写，可帮助使网站创建直观且愉快。
 
-## BaaS
+#### BaaS
 
 * [Apache Usergrid](https://github.com/apache/usergrid)：Usergrid是一个基于RESTful API的用于Web和移动应用程序的多租户后端即服务堆栈，由Apigee开发。
 * [Para](https://github.com/Erudika/para)：Para是一个可扩展的多租户后端服务器/框架，用于对象持久化和检索。
 * [BaasBox](https://github.com/baasbox/baasbox)：BaasBox是一个开源项目，旨在为移动和Web应用程序提供后端。
 * [Appwrite](https://github.com/appwrite/sdk-for-android)：Appwrite是一个用于开发Web、移动和Flutter应用程序的后端平台。
 
-## Data API
+#### Data API
 
 * [DB2Rest](https://github.com/kdhrubo/db2rest)：DB2Rest是一个现代低代码REST Data API平台，可以轻松构建智能应用程序。
 * [Spring Data REST](https://github.com/spring-projects/spring-data-rest)：该项目的目标是提供一种灵活且可配置的机制来编写可以通过HTTP公开的简单服务。
 * [SQLREST](https://gitee.com/inrgihc/sqlrest)：SQLREST是一个开源项目，旨在提供一种简单而强大的方式来将SQL查询转化为RESTful API。
 
-## POS
+#### POS
 
 * [Salespoint Framework](https://github.com/st-tu-dresden/salespoint)：Salespoint是一个用于开发销售点应用程序的框架，由德累斯顿工业大学、慕尼黑联邦国防军大学共同开发。
 * [MinPOS](https://sourceforge.net/projects/minpos/)：MinPOS是一款销售点免费软件，它基于Openbravo POS开发，但经过大量修改。
@@ -3187,7 +3249,7 @@
 * [Sanguine POS](https://sanguinesoftwares.com/sanguine-pos/)：Sanguine POS采用Java开发，可管理餐饮行业的所有计费复杂性。
 * [ReadySTORE POS](https://www.utcretail.com/readystore-pos)：UTC RETAIL的ReadySTORE POS解决方案是一款专为多店零售商设计的企业软件解决方案。
 
-## 业务
+#### 业务
 
 * [CDM](https://github.com/microsoft/CDM)：CDM是一种声明性规范，是标准实体的定义，代表业务和生产力应用程序中常用的概念和活动，并且也正在扩展到观察和分析数据，由Microsoft开源。
 * [EventHub](https://github.com/Codecademy/EventHub)：EventHub使公司能够进行跨设备事件跟踪。
@@ -3199,7 +3261,7 @@
 * [eXo Platform](https://github.com/exoplatform/platform-public-distributions)：eXo Platform是面向成长型团队和企业的开源数字工作场所解决方案。
 * [Lattice](https://github.com/hiforce/lattice)：Lattice是一个强大、轻量级的业务扩展调用框架。
 
-## 电商
+#### 电商
 
 * [Broadleaf Commerce](https://github.com/BroadleafCommerce/BroadleafCommerce)：Broadleaf Commerce CE是一个完全用Java编写并利用Spring框架的电子商务框架。
 * [SAP Commerce](https://www.sap.com/products/crm/commerce-cloud.html)：SAP Commerce是一个使用Java、基于Spring MVC框架的电子商务平台。
@@ -3590,6 +3652,7 @@
 * [SmartThings](https://www.samsung.com/us/smartthings/)：SmartThings是一款免费应用程序，它使用Wi-Fi连接基于Matter协议的智能设备，无论其制造商是哪家公司，这是三星的产品。
 * [FastBee](https://gitee.com/beecue/fastbee)：FastBee开源物联网平台，简单易用，更适合中小企业和个人学习使用，由曲靖蜂信科技公司开发。
 * [MzMedia](https://gitee.com/mzmedia/mz-media)：MzMedia开源视频联动物联网平台，简单易用，更适合中小企业和个人学习使用。
+* [Syhthems](https://github.com/ehaut/syhthems-platform)：Syhthems是一个开源的物联网平台项目，由河南工业大学开源。
 * [Enjoy IoT](https://gitee.com/open-enjoy/enjoy-iot)：Enjoy IoT是一个开源物联网平台。
 * [Eclipse Californium](https://github.com/eclipse-californium/californium)：Californium是RFC7252(物联网云服务的约束应用协议)的Java实现。
 * [Zeus IoT](https://github.com/zmops/zeus-iot)：Zeus IoT是一个分布式物联网采集、分析、存储平台，是全球第一个基于zabbix二次开发的物联网开源平台。

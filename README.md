@@ -34,7 +34,6 @@
 * [JDK](#JDK)
 * [JVM实现](#JVM实现)
 * [JVM语言](#JVM语言)
-* [项目管理](#项目管理)
 * [云原生](#云原生)
 * [云计算](#云计算)
 * [Serverless](#Serverless)
@@ -322,31 +321,35 @@
 * [代码属性图](docs/doc2.md#代码属性图)
 * [API变更管理](docs/doc2.md#API变更管理)
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
-* [项目模板](docs/doc2.md#项目模板)
-* [低代码](docs/doc2.md#低代码)
-* [权限管理系统](docs/doc2.md#权限管理系统)
-* [商城系统](docs/doc2.md#商城系统)
-* [医疗系统](docs/doc2.md#医疗系统)
-* [QA系统](docs/doc2.md#QA系统)
-* [CMS系统](docs/doc2.md#CMS系统)
-* [ERP系统](docs/doc2.md#ERP系统)
-* [AI系统](docs/doc2.md#AI系统)
-* [OA系统](docs/doc2.md#OA系统)
-* [DMS系统](docs/doc2.md#DMS系统)
-* [WMS系统](docs/doc2.md#WMS系统)
-* [MES系统](docs/doc2.md#MES系统)
-* [充电桩系统](docs/doc2.md#充电桩系统)
-* [数据中台](docs/doc2.md#数据中台)
-* [知识管理系统](docs/doc2.md#知识管理系统)
-* [SCRM系统](docs/doc2.md#SCRM系统)
-* [门户框架](docs/doc2.md#门户框架)
-* [教育软件](docs/doc2.md#教育软件)
-* [静态站点生成器](docs/doc2.md#静态站点生成器)
-* [BaaS](docs/doc2.md#BaaS)
-* [Data API](docs/doc2.md#Data-API)
-* [POS](docs/doc2.md#POS)
-* [业务](docs/doc2.md#业务)
-* [电商](docs/doc2.md#电商)
+* [企业软件开发](docs/doc2.md#企业软件开发)
+    * [项目模板](docs/doc2.md#项目模板)
+    * [低代码](docs/doc2.md#低代码)
+    * [权限管理系统](docs/doc2.md#权限管理系统)
+    * [商城系统](docs/doc2.md#商城系统)
+    * [医疗系统](docs/doc2.md#医疗系统)
+    * [项目管理](docs/doc2.md#项目管理)
+    * [QA系统](docs/doc2.md#QA系统)
+    * [CMS系统](docs/doc2.md#CMS系统)
+    * [ERP系统](docs/doc2.md#ERP系统)
+    * [HRM系统](docs/doc2.md#HRM系统)
+    * [AI系统](docs/doc2.md#AI系统)
+    * [OA系统](docs/doc2.md#OA系统)
+    * [DMS系统](docs/doc2.md#DMS系统)
+    * [WMS系统](docs/doc2.md#WMS系统)
+    * [MES系统](docs/doc2.md#MES系统)
+    * [云盘系统](docs/doc2.md#云盘系统)
+    * [充电桩系统](docs/doc2.md#充电桩系统)
+    * [数据中台](docs/doc2.md#数据中台)
+    * [知识管理系统](docs/doc2.md#知识管理系统)
+    * [SCRM系统](docs/doc2.md#SCRM系统)
+    * [门户框架](docs/doc2.md#门户框架)
+    * [教育软件](docs/doc2.md#教育软件)
+    * [静态站点生成器](docs/doc2.md#静态站点生成器)
+    * [BaaS](docs/doc2.md#BaaS)
+    * [Data API](docs/doc2.md#Data-API)
+    * [POS](docs/doc2.md#POS)
+    * [业务](docs/doc2.md#业务)
+    * [电商](docs/doc2.md#电商)
 * [支付](docs/doc2.md#支付)
 * [云服务SDK](docs/doc2.md#云服务SDK)
 * [微信开发](docs/doc2.md#微信开发)
@@ -1425,37 +1428,6 @@
 * [BoxLang](https://github.com/ortus-boxlang/BoxLang)：BoxLang是一种现代动态JVM语言，可以部署在多个运行时上。
 * [Swift/T](https://github.com/swift-lang/swift-t)：Swift/T是一种隐式并行编程语言，用于将外部函数和命令行可执行文件组合成大规模并行应用程序，由芝加哥大学开源。
 * [SARL](https://github.com/sarl/sarl)：SARL是一种通用的面向代理的语言，由皇家墨尔本理工大学开源。
-
-## 项目管理
-
-* [JIRA](https://www.atlassian.com/software/jira)：JIRA是一个Bug跟踪管理系统，为针对Bug管理、任务追踪和项目管理的商业性应用软件，由Atlassian开发。
-* [YouTrack](https://www.jetbrains.com/youtrack/)：YouTrack是JetBrains开发的专有、基于商业浏览器的错误跟踪器、问题跟踪系统和项目管理软件。
-* [Atlassian Confluence](https://www.atlassian.com/zh/software)：Confluence是一个专业的企业知识管理与协同软件，也可以用于构建企业Wiki，由Atlassian开发。
-* [Teambition](https://www.teambition.com/)：阿里旗下数字化协作平台，提供项目管理、任务协同等解决方案。
-* [MyCollab](https://github.com/MyCollab/mycollab)：MyCollab是免费的开源项目管理软件。
-* [GanttProject](https://github.com/bardsoftware/ganttproject)：GanttProject是一款免费的桌面项目管理应用程序，由BarD软件公司开源。
-* [Twproject](https://twproject.com/)：Twproject是一个灵活的基于Web的工作和项目管理平台，专为小型和大型团队打造。
-* [Wukong PM](https://github.com/WuKongOpenSource/Wukong_ProjectManagement)：基于Spring Cloud Alibaba微服务架构、Vue、ElementUI的前后端分离项目管理系统。
-* [Mone](https://github.com/XiaoMi/mone)：Mone是一个以微服务为核心的一站式企业协同研发平台，支持公有云、私有云、混合云等多种部署形态，由小米开源。
-* [Lavagna](https://github.com/digitalfondue/lavagna)：Lavagna是一款小型且易于使用的问题/项目跟踪软件。
-* [Yobi](https://github.com/yona-projects/yona)：Yobi是一个基于Web的项目托管软件，由Naver开源。
-* [Codes](https://gitee.com/xiaoming1q/icodes)：Codes是一个高效、简洁、轻量的一站式研发项目管理平台，由四川无限智达公司开源。
-* [Atlas CMMS](https://github.com/Grashjs/cmms)：Atlas CMMS是一款功能强大的自托管维护管理系统，基于Docker架构，适用于Web和移动平台。
-* [Gerrit](https://github.com/GerritCodeReview/gerrit)：Gerrit是基于Git的项目的代码审查和项目管理工具，由Google开源。
-* [Kooteam](https://gitee.com/sinbo/kooteam)：Kooteam是一款轻量级的在线团队协作工具，提供各类文档工具、在线思维导图、在线流程图、项目管理、任务分发，知识库管理等工具。
-* [BugCatcher](https://github.com/youzan/bugCatcher)：BugCatcher是有赞开发的项目管理、测试用例管理、项目进度和质量监控工具。
-* [LibrePlan](https://github.com/LibrePlan/libreplan)：LibrePlan是一款用于项目管理、监控和控制的免费软件Web应用程序。
-* [ProjectForge](https://github.com/micromata/projectforge)：ProjectForge是一个基于Web的项目管理解决方案，包括时间跟踪、团队日历、甘特图、财务管理、问题管理、控制和管理工作分解结构(例如与JIRA一起作为问题管理系统)。
-* [Naikan](https://github.com/enofex/naikan)：Naikan是一款开源软件库存管理工具，适用于由CI/CD管道驱动的开发团队。
-* [TMS](https://gitee.com/xiweicheng/tms)：TMS是基于频道模式的团队沟通协作+轻量级任务看板，支持Markdown、富文本、在线表格和思维导图的团队博文wiki，i18n国际化翻译管理的响应式Web开源团队协作系统。
-* [Rapla](https://github.com/rapla/rapla)：Rapla是一个灵活的多用户资源和活动规划系统，它具有多个日历视图、冲突管理、完全可配置的资源和事件类型以及许多导入/导出功能。
-* [Kanass](https://github.com/tiklab-project/tiklab-kanass)：Kanass是专为项目管理而设计的应用软件，帮助项目管理者在有限的资源约束下，运用系统项目涉及的全部工作进行有效管理。
-* [OpenFastTrace](https://github.com/itsallcode/openfasttrace)：OpenFastTrace是一个需求跟踪套件，可以帮助你跟踪是否真正实现了规范中计划的所有内容。
-* [ProjectLibre](https://www.projectlibre.com/)：ProjectLibre是Microsoft Project的第一大替代品，ProjectLibre提供免费桌面和订阅云解决方案。
-* [PNC](https://github.com/project-ncl/pnc)：用于管理、执行和跟踪跨平台构建的系统。
-* [Plan](https://calligra.org/plan/)：Plan是一个项目管理应用程序，旨在管理具有多种资源的中等大型项目。
-* [HeartBeat](https://github.com/thoughtworks/HeartBeat)：HeartBeat是一个用于跟踪项目交付指标的工具，可以帮助你更好地了解交付绩效，由ThoughtWorks开发。
-* [Cat2Bug Platform](https://gitee.com/cat2bug/cat2bug-platform)：Cat2Bug Platform是一套永久免费开源的Bug管理平台，可以完全私有化部署。
 
 ## 云原生
 
