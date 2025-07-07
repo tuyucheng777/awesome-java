@@ -787,7 +787,7 @@
 * [Scenery](https://github.com/scenerygraphics/scenery)：由Kotlin和Vulkan提供支持的JVM上体积和几何数据的灵活VR可视化。
 * [Grafx](https://grafx.sourceforge.net/)：Grafx是一个开源Java库，用于使用浮点端点坐标绘制线条和填充多边形。
 * [ClearVolume](https://github.com/ClearVolume/clearvolume)：ClearVolume是一个实时3D可视化库，专为SPIM和DLSM显微镜等高端体积显微镜而设计，由马克斯普朗克分子细胞生物学和遗传学研究所开源。
-* [Vulkan4j](https://github.com/chuigda/vulkan4j)：使用Project Panama API的Java Vulkan绑定。
+* [Vulkan4j](https://github.com/club-doki7/vulkan4j)：Vulkan4j是一系列针对Java的图形和相关API绑定，使用Java 22 Panama API实现。
 
 ## 移动开发框架
 

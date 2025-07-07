@@ -3008,6 +3008,8 @@
 * [Solo](https://github.com/88250/solo)：Solo是一款小而美的开源博客系统，专为程序员设计。
 * [Jease](https://jease.org/)：Jease是一个由Java驱动的开源CMS。
 * [Quanta](https://github.com/Clay-Ferguson/quantizr)：Quanta是一种新型内容管理平台，具有强大的功能。
+* [SpringBlog](https://github.com/Raysmond/SpringBlog)：SpringBlog是一个用Spring Boot实现的非常简单且设计干净的博客系统。
+* [MyBlog](https://github.com/shuleisanshi/myblog)：MyBlog是采用SSM架构开发的个人博客。
 * [WallRide](https://github.com/tagbangers/wallride)：WallRide是一个多语言、易于定制的开源CMS。
 * [MyBlog](https://github.com/ZHENFENG13/My-Blog)：MyBlog是由Spring Boot、Mybatis、Thymeleaf等技术实现的Java博客系统。
 * [Magnolia CMS](https://www.magnolia-cms.com/)：Magnolia是一个开源CMS，由总部位于瑞士巴塞尔的Magnolia开发。
@@ -3021,6 +3023,7 @@
 * [NemakiWare](https://github.com/aegif/NemakiWare)：NemakiWare是一个开源企业内容管理系统。
 * [WebSight](https://www.websight.io/)：WebSight是一个容器化内容管理系统，与StreamX数字体验服务网格进行原生集成。
 * [Lutece](https://github.com/lutece-platform/lutece-core)：Lutece是一个开放平台，使城市政府能够共享、重复使用和改编其他城市创建的数字服务。
+* [ForFun](https://github.com/shimh-develop/blog-vue-springboot)：Vue + Spring Boot实现的博客系统。
 * [Antville](https://github.com/antville/antville)：Antville是一个开源项目，提供高性能、功能丰富的博客托管软件。
 * [JTopCMS](https://gitee.com/mjtop/JTopCMSV3)：JTopCMS基于Java EE标准研发，用于管理站群内容的内容管理软件，由合肥明靖信息科技公司开源。
 * [Plumemo](https://github.com/open-snail/plumemo)：Plumemo是一个轻量、易用、前后端分离的博客系统。
@@ -3028,9 +3031,15 @@
 * [Shio CMS](https://github.com/openviglet/shio)：模型内容、使用GraphQL并使用带有本机缓存和搜索的Javascript创建站点。
 * [CrafterCMS](https://github.com/craftercms/craftercms)：CrafterCMS是一个现代内容管理平台，用于构建数字体验应用程序。
 * [ηCMS](https://ncms.softmotions.com/)：开发人员可以基于ηCMS核心框架创建自己的Java项目，由Softmotions开发。
+* [VueBlog](https://github.com/MarkerHub/vueblog)：一个基于Spring Boot、Vue开发的前后端分离博客项目。
+* [Blog](https://github.com/zhisheng17/blog)：Spring Boot、Mybatis、Thymeleaf搭建的个人博客。
+* [NewBlog](https://github.com/Zephery/newblog)：NewBlog是一个简单的个人博客系统。
+* [ScBlogs](https://github.com/stick-i/scblogs)：校园博客，基于微服务架构且前后端分离的博客社区系统。
 * [NoraCMS](http://inbox-online.com/noracms/)：NoraCMS是一个企业CMS，它为你提供创建引人入胜的Web体验和通过所有渠道接触客户所需的自由和灵活性。
+* [NBlog](https://github.com/Naccl/NBlog)：Spring Boot + Vue前后端分离博客系统。
 * [CONTENTBOX](https://www.contentboxcms.org/)：CONTENTBOX是一款功能强大的开源无头CMS，100%完全可定制。
 * [CicadasCMS](https://gitee.com/westboy/CicadasCMS)：CicadasCMS是使用Spring Boot、Mybatis、Beetl开发的一款CMS，支持自定义内容模型、模板标签、全站静态化等功能。
+* [Kyrie Blog](https://github.com/caozongpeng/SpringBootBlog)：Kyrie Blog是由Spring Boot 1.5、MyBatis、Thymeleaf等技术实现的个人网站。
 * [ChestnutCMS](https://gitee.com/liweiyi/ChestnutCMS)：ChestnutCMS是前后端分离的企业级内容管理系统。
 * [Shiyi Blog](https://gitee.com/quequnlong/shiyi-blog)：一款基于Vue、Spring Boot的前后端分离博客系统。
 * [Spring Content](https://github.com/paulcwarren/spring-content)：适用于Spring的云原生存储和企业内容服务。
