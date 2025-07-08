@@ -116,7 +116,7 @@
     * [网络库](#网络库)
     * [Socket](#Socket)
     * [Pcap](#Pcap)
-    * [SSH工具](#SSH工具)
+    * [SSH库](#SSH库)
     * [DNS、内网穿透和代理](#DNS内网穿透和代理)
     * [IO_Uring](#IO_Uring)
     * [网络工具](#网络工具)
@@ -421,6 +421,7 @@
     * [Swing主题库](docs/doc3.md#Swing主题库)
     * [Swing UI库](docs/doc3.md#Swing-UI库)
     * [Swing组件库](docs/doc3.md#Swing组件库)
+    * [Swing Dock库](docs/doc3.md#Swing-Dock库)
     * [Swing布局库](docs/doc3.md#Swing布局库)
     * [Swing选择器](docs/doc3.md#Swing选择器)
     * [Swing图表库](docs/doc3.md#Swing图表库)
@@ -429,6 +430,7 @@
     * [JavaFX主题库](docs/doc3.md#JavaFX主题库)
     * [JavaFX样式库](docs/doc3.md#JavaFX样式库)
     * [JavaFX组件库](docs/doc3.md#JavaFX组件库)
+    * [JavaFX Dock库](docs/doc3.md#JavaFX-Dock库)
     * [JavaFX图表库](docs/doc3.md#JavaFX图表库)
     * [JavaFX图标库](docs/doc3.md#JavaFX图标库)
     * [JavaFX布局库](docs/doc3.md#JavaFX布局库)
@@ -449,7 +451,9 @@
     * [反编译](docs/doc3.md#反编译)
     * [代码混淆](docs/doc3.md#代码混淆)
     * [逆向工程](docs/doc3.md#逆向工程)
-    * [远程控制](docs/doc3.md#远程控制)
+    * [远程连接](docs/doc3.md#远程连接)
+    * [终端模拟器](docs/doc3.md#终端模拟器)
+    * [远程桌面控制](docs/doc3.md#远程桌面控制)
 * [游戏开发](docs/doc3.md#游戏开发)
     * [游戏引擎](docs/doc3.md#游戏引擎)
     * [游戏服务器](docs/doc3.md#游戏服务器)
@@ -2995,23 +2999,18 @@
 * [Pcap](https://github.com/ardikars/pcap)：Pcap提供了一个数据包处理库，可以在JVM语言之上进行快速开发。
 * [jNetPcap](https://github.com/slytechs-repos/jnetpcap-wrapper)：jNetPcap是一个用Java编写的软件库，提供与流行的libpcap本机库类似的API。
 
-#### SSH工具
+#### SSH库
 
-* [Bastillion](https://github.com/bastillion-io/Bastillion)：基于Web的SSH控制台，可集中管理对系统的管理访问。
 * [ConnectBot](https://github.com/connectbot/connectbot)：适用于Android的安全Shell客户端，可让你通过加密安全链接连接到远程服务器。
-* [Snowflake](https://github.com/subhra74/snowflake)：图形化SFTP客户端和终端仿真器以及有用的实用程序。
-* [Termora](https://github.com/TermoraDev/termora)：Termora是一个终端模拟器和SSH客户端，支持Windows，macOS和Linux。
 * [Apache MINA SSHD](https://github.com/apache/mina-sshd)：用于客户端和服务器端SSH的综合Java库。
 * [Trilead SSH](https://github.com/jenkinsci/trilead-ssh2)：Trilead SSH-2是一个用纯Java实现SSH-2协议的库。
 * [Pty4J](https://github.com/JetBrains/pty4j)：Java中的伪终端实现，由JetBrains开源。
-* [JediTerm](https://github.com/JetBrains/jediterm)：纯Java终端模拟器，适用于SSH和PTY，由JetBrains开源。
 * [JSch](https://github.com/mwiede/jsch)：实现SSH功能的Java库，可用于连接SFTP服务器。
-* [Jcabi-SSH](https://github.com/jcabi/jcabi-ssh)：Java SSH客户端。
+* [Jcabi SSH](https://github.com/jcabi/jcabi-ssh)：Java SSH客户端。
 * [JSch](https://github.com/is/jsch)：JSch是SSH2的纯Java实现。
 * [Maverick Synergy](https://github.com/sshtools/maverick-synergy)：下一代Java SSH API。
 * [SSHJ](https://github.com/hierynomus/sshj)：以编程方式使用SSH、SCP或SFTP。
 * [WebSSH](https://github.com/NoCortY/WebSSH)：纯Java实现的WebSSH。
-* [T-Shell](https://github.com/TheBlindM/T-Shell)：T-Shell是一个可配置命令提示的终端模拟器和SSH客户端，目前只支持Windows。
 * [SSH Proxy](http://github.com/cronn/ssh-proxy)：SSH端口隧道的纯Java实现，能够理解涉及多跳才能到达目标主机的OpenSSH配置。
 
 #### DNS、内网穿透和代理
