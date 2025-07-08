@@ -454,6 +454,7 @@
     * [远程连接](docs/doc3.md#远程连接)
     * [终端模拟器](docs/doc3.md#终端模拟器)
     * [远程桌面控制](docs/doc3.md#远程桌面控制)
+    * [Git客户端](docs/doc3.md#Git客户端)
 * [游戏开发](docs/doc3.md#游戏开发)
     * [游戏引擎](docs/doc3.md#游戏引擎)
     * [游戏服务器](docs/doc3.md#游戏服务器)
