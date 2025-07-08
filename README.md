@@ -641,7 +641,6 @@
 * [对象图导航](docs/doc3.md#对象图导航)
 * [超媒体类型](docs/doc3.md#超媒体类型)
 * [术语服务器](docs/doc3.md#术语服务器)
-* [Minecraft](docs/doc3.md#Minecraft)
 * [Maven插件](docs/doc3.md#Maven插件)
 * [Gradle插件](docs/doc3.md#Gradle插件)
 * [Intellij插件](docs/doc3.md#Intellij插件)
