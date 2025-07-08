@@ -24,7 +24,6 @@
 * [JxCapture](https://teamdev.com/jxcapture/)：JxCapture是一种跨平台、能Java应用程序提供综合屏幕抓取API的库程序。
 * [DJ Native Swing](https://github.com/Chrriis/DJ-Native-Swing)：DJ Native Swing库允许将一些原生组件轻松集成到Swing应用程序中，并提供一些本机实用程序来增强Swing的API。
 * [AutoComplete](https://github.com/bobbylight/AutoComplete)：AutoComplete是Swing JTextComponents的代码完成库，具有可用于RSyntaxTextArea实例的增强功能。
-* [Chromium](https://github.com/equodev/chromium)：Equo Chromium Community小部件是一个跨平台浏览器，允许用户在Java应用程序内创建和呈现基于Web的现代UI。
 * [jSystemThemeDetector](https://github.com/Dansoftowner/jSystemThemeDetector)：用于检测(桌面)操作系统是否使用深色UI主题的Java库。
 * [Sierra](https://github.com/HTTP-RPC/Sierra)：Sierra是一个用于简化Java Swing应用程序开发的开源框架。
 * [Cinch](https://github.com/palantir/Cinch)：管理MVC模式的组件操作/事件绑定的Java库，由Palantir开源。
@@ -59,6 +58,7 @@
 * [JGoodies](https://www.jgoodies.com/downloads/libraries/)：JGoodies可帮助美化桌面应用程序并更快地构建设计良好、一致的视图。
 * [Eclipse Nebula](https://github.com/eclipse/nebula)：该项目包含大量UI元素，可在基于Java和SWT的胖或瘦客户端应用程序中使用。
 * [JIDE](https://github.com/jidesoft/jide-oss)：JIDE提供专业的Java UI组件，专注于为软件开发人员提供富客户端应用程序。
+* [Swing Modal Dialog](https://github.com/DJ-Raven/swing-modal-dialog)：使用FlatLaf定制的Java Swing UI库。
 
 #### Swing组件库
 
@@ -78,6 +78,9 @@
 * [File Manager](https://github.com/javadev/file-manager)：Java/Swing基本文件管理器。
 * [Fireplace](https://github.com/bric3/fireplace)：Java Swing火焰图组件。
 * [JInputValidator](https://github.com/rhwood/jinputvalidator)：Java Swing的InputVerifier，在验证组件的右侧显示验证状态。
+* [SwingX](https://github.com/arotenberg/swingx)：SwingX是一个扩展Java Swing库的组件和实用程序库。
+* [SwingBox](https://github.com/radkovo/SwingBox)：SwingBox是一个Java Swing组件，允许显示包含CSS支持的(X)HTML文档。
+* [Swing Toast Notifications](https://github.com/DJ-Raven/swing-toast-notifications)：Java桌面应用程序使用Swing Toast通知。
 
 #### Swing Dock库
 
@@ -93,6 +96,7 @@
 * [SlidingLayout](https://github.com/AurelienRibon/sliding-layout)：功能强大的Java Swing面板/布局，具有涉及滑动子面板的炫酷过渡。
 * [Swing Library](https://github.com/oliverwatkins/swing_library)：该库包含许多Java Swing框架所缺少的高级组件和布局管理器。
 * [PanelMatic](https://github.com/codeworth-gh/PanelMatic)：PanelMatic是一个成熟的Swing工具库，旨在轻松创建复杂的高质量布局。
+* [KGradientPanel](https://github.com/k33ptoo/KGradientPanel)：Swing渐变面板。
 
 #### Swing选择器
 
@@ -119,6 +123,7 @@
 * [AssertJ Swing](https://github.com/assertj/assertj-swing)：该项目提供了一个简单直观的API，用于Swing用户界面的功能测试。
 * [FEST-Swing](https://github.com/alexruiz/fest-swing-1.x)：该项目为Swing用户界面的功能测试提供了一个简单直观的API，从而使测试变得紧凑、易于编写和阅读，就像规范一样。
 * [UISpec4J](https://github.com/UISpec4J/UISpec4J)：UISpec4J是一个开源功能和/或单元测试库，用于基于Swing的Java应用程序。
+* [Automaton](https://github.com/renatoathaydes/Automaton)：Automaton是一个框架，它可以轻松测试使用Swing、JavaFX或两者开发的Java GUI。
 
 #### JavaFX
 
@@ -186,7 +191,7 @@
 * [XmFX](https://gitee.com/xm2013/xmfx)：针对企业级的JavaFX UI，简单易用。
 * [Actlist](https://github.com/actlist/actlist)：Actlist是一个实用平台，可以轻松简单地执行你自己的行为列表。
 * [Tornado FXControls](https://github.com/edvin/tornadofx-controls)：JavaFX的CSS样式控件库。
-* [FX-BorderlessScene](https://github.com/goxr3plus/FX-BorderlessScene)：未修饰的JavaFX场景，实现了移动、调整大小、最小化、最大化、关闭和Windows Aero Snap控件。
+* [FX BorderlessScene](https://github.com/goxr3plus/FX-BorderlessScene)：未修饰的JavaFX场景，实现了移动、调整大小、最小化、最大化、关闭和Windows Aero Snap控件。
 * [LitFX](https://github.com/Birdasaur/LitFX)：LitFX可以将其效果作为透明覆盖层应用到你的JavaFX GUI，这样效果就可以与你的各种节点进行交互，而无需先验了解你的布局。
 * [TUIOFX](http://tuiofx.org/)：TUIOFX工具包旨在支持想要开发共享交互表面(如支持TUIO协议的多用户、多点触控桌面和墙壁)的Java开发人员。
 * [Undecorator](https://github.com/in-sideFX/Undecorator)：使用自定义皮肤来装饰未装饰的JavaFX阶段。
@@ -295,6 +300,7 @@
 * [JCEF](https://github.com/chromiumembedded/java-cef)：JCEF是一个简单的框架，用于使用Java编程语言将基于Chromium的浏览器嵌入到其他应用程序中。
 * [GNGR](https://github.com/gngrOrg/gngr)：这是一款支持隐私的新型跨平台浏览器，GNGR是纯Java的Web标准的独立实现。
 * [JxBrowser](https://teamdev.com/jxbrowser/)：将Chromium Web浏览器添加到你的Java应用程序中。
+* [Chromium](https://github.com/equodev/chromium)：Equo Chromium Community小部件是一个跨平台浏览器，允许用户在Java应用程序内创建和呈现基于Web的现代UI。
 * [Gophie](https://github.com/jankammerath/gophie)：Gophie是“The Internet Gopher”的现代图形跨平台客户端或浏览器。
 * [Lobo Evolution](https://github.com/LoboEvolution/LoboEvolution)：Lobo Evolution是一个可扩展的全Java Web浏览器和RIA平台。
 * [Easy Browser](https://gitee.com/fhs-opensource/easy-browser)：Java开源浏览器，基于JxBrowser实现，已经包含了绝大多数的浏览器基础功能。
