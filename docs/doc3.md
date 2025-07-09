@@ -11,9 +11,9 @@
 * [AWT](https://docs.oracle.com/en/java/javase/21/docs/api/java.desktop/java/awt/package-summary.html)：AWT是Java最初的依赖于平台的窗口、图形和用户界面小部件工具包，早于Swing。
 * [TotalCross](https://github.com/TotalCross/totalcross)：TotalCross是一款帮助跨平台应用程序开发的工具包。
 * [NetBeans Platform](https://netbeans.apache.org/tutorial/main/kb/docs/platform/)：NetBeans Platform是一个广泛的Java框架，可以在其上构建大型桌面应用程序。
-* [JGoodies](https://www.jgoodies.com/)：JGoodies提供免费软件、产品、设计和服务，帮助你高效地使用Java桌面。
 * [QtJambi](https://github.com/OmixVisualization/qtjambi)：QtJambi是Java编程语言的Qt绑定，最初由Qt公司的前身Trolltech开发。
-* [Dragome](https://www.dragome.com/)：Dragome是一款开源工具，用于以纯Java语言创建客户端Web应用程序。
+* [Kotlin LibUI](https://github.com/msink/kotlin-libui)：libui是一个轻量级的C语言多平台UI库，使用此绑定，你可以开发跨平台且外观原生的GUI程序。
+* [Membrane](https://github.com/phronmophobic/membrane)：Membrane提供了构建用户界面所需的所有工具。
 * [Apache Pivot](https://github.com/apache/pivot)：Pivot是一个用Java构建丰富互联网应用程序的平台，其中WTK工具包是它的图形组件，由VMware开源。
 
 #### Swing
@@ -319,7 +319,6 @@
 * [xJavaFxTool](https://gitee.com/xwintop/xJavaFxTool)：xJavaFxTool是使用JavaFX开发的实用小工具集。
 * [Phoenicis](https://github.com/PhoenicisOrg/phoenicis)：Phoenicis PlayOnLinux是一款软件，可让你轻松安装和使用大量专为Windows运行的游戏和应用程序。
 * [XR3Player](https://github.com/goxr3plus/XR3Player)：XR3Player是一个先进的JavaFX媒体播放器。
-* [Artillery](https://github.com/Weik1/Artillery)：Artillery是一个插件化Java漏洞扫描器。
 * [DrawingBotV3](https://github.com/SonarSonic/DrawingBotV3)：DrawingBotV3是一款用于将图像转换为风格化绘图的软件。
 * [LaTeXDraw](https://github.com/latexdraw/latexdraw)：LaTeXDraw是LaTeX的图形绘图编辑器。
 * [JDKMon](https://github.com/HanSolo/JDKMon)：JDKMon是一个用JavaFX编写的小工具，它会尝试检测你计算机上安装的所有JDK，并通知你发现的每个OpenJDK发行版的新更新和漏洞。
@@ -351,7 +350,6 @@
 * [SageTV](https://github.com/google/sagetv)：SageTV是一个跨平台联网DVR和媒体管理系统，由Google开发。
 * [Sonarqube](https://github.com/SonarSource/sonarqube)：SonarQube是一个开源的代码质量管理系统。
 * [TempestSDR](https://github.com/martinmarinov/TempestSDR)：该项目是一个软件工具包，用于使用软件定义无线电(SDR)接收器远程窃听视频监视器。
-* [Burp Suite](https://portswigger.net/burp)：Burp Suite是一个用于测试网络应用程序安全性的图形化工具，由PortSwigger开发。
 * [AnyLogic](https://www.anylogic.com/)：AnyLogic是一套结合多种模拟(仿真)理论的建模开发工具。
 * [yEd](https://www.yworks.com/products/yed)：yEd是一款功能强大的桌面应用程序，可用于快速有效地生成高质量图表，由yWorks开发。
 * [Uppaal](https://uppaal.org/)：Uppaal是一个集成工具环境，用于对实时系统进行建模、验证和确认，由乌普萨拉大学和奥尔堡大学开源。
@@ -364,7 +362,6 @@
 * [ImageJ](https://imagej.net/ij/index.html)：ImageJ是一个基于Java的公共图像处理软件，由美国国立卫生研究院开发。
 * [Repeat](https://github.com/repeats/Repeat)：跨平台鼠标/键盘记录/重播和自动化热键/宏创建，以及更高级的自动化功能。
 * [EtherPad](https://github.com/ether/pad)：Etherpad Lite是一种更简单、更快、更轻的协作编辑解决方案。
-* [Uncle Novel](https://github.com/uncle-novel/uncle-novel)：一个桌面端应用，支持MacOS/Windows，提供了全网小说的转码阅读功能。
 * [OpenSim](https://github.com/opensim-org/opensim-gui)：OpenSim是一款软件，可让用户开发肌肉骨骼结构模型并创建运动动态模拟，由斯坦福开源。
 * [OpenAPC](http://www.openapc.com/)：OpenAPC是一种开源APC(高级过程控制)解决方案，它具有高度灵活性和可配置性，涵盖了从家庭控制到工业自动化的各种自动化、可视化和过程控制任务。
 * [Wordfast](https://www.wordfast.com/)：Wordfast是一款翻译记忆软件，它为自由译者、语言服务供应者与跨国公司提供了翻译记忆独立平台的解决方案。
@@ -375,7 +372,6 @@
 * [ArcTime](https://arctime.org/)：ArcTime是一个易用、强大、高效的字幕制作软件，由南京亿铭科技开发。
 * [RapidWright](https://github.com/Xilinx/RapidWright)：RapidWright是AMD的一个开源项目，它通过DCP文件为Vivado提供了一个新的桥梁。
 * [Unidata AWIPS](https://github.com/Unidata/awips2)：AWIPS是一个气象软件包，它用于解码、显示和分析数据，最初由雷神公司为国家气象局(NWS)开发。
-* [ThinkPHP](https://github.com/Lotus6/ThinkphpGUI)：Thinkphp漏洞利用工具，支持各版本TP漏洞检测、命令执行、getshell。
 * [JMRI](https://github.com/JMRI/JMRI)：JMRI是一个模型铁路数字指挥与控制软件。
 * [IPED](https://github.com/sepinf-inc/IPED)：IPED是一款开源软件，可用于处理和分析数字证据，由巴西联邦警察局的数字取证专家开发。
 * [NodeBox](https://github.com/nodebox/nodebox)：NodeBox系列工具让你能够按照自己想要的方式创建生成设计，由布鲁塞尔圣卢卡斯大学学院开发。
@@ -407,7 +403,6 @@
 * [MuCommander](https://github.com/mucommander/mucommander)：MuCommander是一款轻量级、跨平台的文件管理器，具有双窗格界面。
 * [Open Visual Traceroute](https://github.com/leolewis/openvisualtraceroute)：Open Visual Traceroute是一款提供视觉化的路由追踪工具。
 * [Plot Digitizer](https://plotdigitizer.sourceforge.net/)：Plot Digitizer是一个Java程序，用于对功能数据的扫描图进行数字化。
-* [RipMe](https://github.com/RipMeApp/ripme)：RipMe是一个适用于各种网站的专辑翻录工具。
 * [FileBot](https://www.filebot.net/)：FileBot是重命名和组织电影、电视节目和动漫的终极工具。
 * [KSar](https://github.com/vlsi/ksar)：KSar是一个sar图形工具，可以绘制Linux、Mac和Solaris sar输出的图形。
 * [Pixelitor](https://github.com/lbalazscs/Pixelitor)：Pixelitor是一个高级Java图像编辑器，具有图层、图层蒙版、文本图层、110多个图像滤镜和颜色调整、多重撤消等。
@@ -667,6 +662,15 @@
 * [ABCDE](https://github.com/Yricky/abcde)：ABCDE是一个使用Kotlin编写的OpenHarmony逆向工具包。
 * [SkidSuite](https://github.com/GenericException/SkidSuite)：SkidSuite 3是与Java应用程序逆向工程相关的有用工具的集合。
 
+#### 漏洞利用
+
+* [Burp Suite](https://portswigger.net/burp)：Burp Suite是一个用于测试网络应用程序安全性的图形化工具，由PortSwigger开发。
+* [Super Xray](https://github.com/4ra1n/super-xray)：Web漏洞扫描工具Xray的GUI启动器。
+* [ThinkPHP](https://github.com/Lotus6/ThinkphpGUI)：Thinkphp漏洞利用工具，支持各版本TP漏洞检测、命令执行、getshell。
+* [NacosExploitGUI](https://github.com/charonlight/NacosExploitGUI)：Nacos漏洞综合利用GUI工具，集成了默认口令漏洞、SQL注入漏洞、身份认证绕过漏洞、反序列化漏洞的检测及其利用。
+* [Poc2jar](https://github.com/f0ng/poc2jar)：Java编写，Python作为辅助依赖的漏洞验证、利用工具。
+* [Artillery](https://github.com/Weik1/Artillery)：Java插件化漏洞扫描器，GUI基于JavaFX，POC目前集成Weblogic、Tomcat、Shiro、Spring。
+
 #### 远程连接
 
 * [XPipe](https://github.com/xpipe-io/xpipe)：XPipe是一种新型的Shell连接集线器和远程文件管理器，允许你从本地计算机访问整个服务器基础架构。
@@ -698,6 +702,18 @@
 * [Gitnuro](https://github.com/JetpackDuba/Gitnuro)：适合新手和专业人士的FOSS Git多平台客户端。
 * [MeGit](https://github.com/eclipsesource/megit)：基于EGit的独立Git GUI。
 * [Geetember](https://github.com/iazarny/gitember)：Gitember是一个用JavaFX编写的Git GUI客户端。
+
+#### 下载器
+
+* [AB Download Manager](https://github.com/amir1376/ab-download-manager)：AB Download Manager是一款桌面应用程序，可帮助你比以往更高效地管理和组织下载。
+* [MegaBasterd](https://github.com/tonikelope/megabasterd)：MegaBasterd是一个非官方的跨平台MEGA下载器/上传器/流媒体套件。
+* [Proxyee Down](https://github.com/proxyee-down-org/proxyee-down)：Proxyee Down是一款开源的免费HTTP高速下载器，底层使用Netty开发，支持自定义HTTP请求下载且支持扩展功能，可以通过安装扩展实现特殊的下载需求。
+* [Video Download Manager](https://github.com/ingbyr/vdm)：命令行视频下载器的GUI。
+* [RipMe](https://github.com/RipMeApp/ripme)：RipMe是一个适用于各种网站的专辑翻录工具。
+* [BilibiliDown](https://github.com/nICEnnnnnnnLee/BilibiliDown)：Bilibili视频下载器，用于下载B站视频。
+* [Uncle Novel](https://github.com/uncle-novel/uncle-novel)：一个桌面端应用，支持MacOS/Windows，提供了全网小说的转码阅读功能。
+* [Telegram Files](https://github.com/jarvis2f/telegram-files)：自托管的Telegram文件下载器，用于连续、稳定和无人值守的下载。
+* [Drifty](https://github.com/SaptarshiSarkar12/Drifty)：Drifty是一个用Java构建的开源交互式文件下载系统，它提供CLI和GUI，灵活易用。
 
 ## 游戏开发
 
@@ -2559,8 +2575,7 @@
 * [Rogue JNDI](https://github.com/veracode-research/rogue-jndi)：用于JNDI注入攻击的恶意LDAP服务器。
 * [Spring Data LDAP](https://github.com/spring-projects/spring-data-ldap)：Spring Data LDAP项目旨在为Spring LDAP提供熟悉且一致的存储库抽象。
 * [OpenDJ](https://github.com/OpenIdentityPlatform/OpenDJ)：OpenDJ是一种兼容LDAPv3的目录服务，专为Java平台开发，可为组织管理的身份提供高性能、高可用性且安全的存储。
-* [LDAP Synchronization Connector](https://github.com/lsc-project/lsc)：LDAP同步连接器从任何数据源(
-  包括数据库、LDAP目录或文件)读取数据，并转换此数据并将其与LDAP目录进行比较。
+* [LDAP Synchronization Connector](https://github.com/lsc-project/lsc)：LDAP同步连接器从任何数据源(包括数据库、LDAP目录或文件)读取数据，并转换此数据并将其与LDAP目录进行比较，由OW2开发。
 * [JXplorer](https://github.com/pegacat/jxplorer)：JXplorer是一个跨平台的LDAP浏览器和编辑器。
 * [Ldaptive](https://github.com/vt-middleware/ldaptive)：用于与LDAP服务器交互的简单、可扩展的Java API。
 

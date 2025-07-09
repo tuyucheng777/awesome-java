@@ -639,7 +639,7 @@
 * [jCasbin](https://github.com/casbin/jcasbin)：jCasbin是一个强大且高效的Java项目开源访问控制库，它为基于各种访问控制模型的强制授权提供支持。
 * [OACC](https://github.com/acciente/oacc-core)：OACC是一个功能齐全的API，可强制执行和管理应用程序的身份验证和授权需求。
 * [FIDO](https://www.strongkey.com/products/software/fido-strong-authentication)：FIDO2协议的开源实现，支持使用公钥加密的无密码强身份验证，由StrongKey开源。
-* [AuthzForce](https://github.com/authzforce/core)：AuthzForce项目提供了一个符合OASIS XACML标准v3.0的基于属性的访问控制(ABAC)框架，主要由授权策略引擎和RESTful授权服务器组成。
+* [AuthzForce](https://github.com/authzforce/core)：AuthzForce项目提供了一个符合OASIS XACML标准v3.0的基于属性的访问控制(ABAC)框架，主要由授权策略引擎和RESTful授权服务器组成，由OW2开发。
 * [Waffle](https://github.com/Waffle/waffle)：Waffle是一个原生Windows身份验证框架，执行与Windows身份验证相关的功能，支持Negotiate、NTLM和Kerberos。
 * [Easy Security](https://gitee.com/aizuda/easy-security)：Easy Security是基于过滤器实现的一款配合Spring快速开发的安全认证框架，由爱组搭开源。
 * [OpenIDM](https://www.forgerock.com)：OpenIDM是一个用Java编程语言编写的身份管理系统。
@@ -3164,6 +3164,11 @@
 
 * [HC](https://gitee.com/wuxw7/MicroCommunity)：HC小区管理系统是一套SaaS物业管理系统。
 * [ZhaoXin](https://gitee.com/fanhuibin1/zhaoxinpms)：肇新智慧物业是一个开源的小型物业管理系统，由山西肇新公司开发。
+
+#### PLM系统
+
+* [DocDokuPLM](https://github.com/docdoku)：DocDokuPLM是一款强大的先进开源PLM解决方案，由OW2开发。
+* [iBizPMS](https://gitee.com/ibizlab/iBizPMS)：iBiz产品生命周期管理在于通过简化操作界面，实现研发管理流程的自动化、数字化及智能化。
 
 #### 云盘系统
 

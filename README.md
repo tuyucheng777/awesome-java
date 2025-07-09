@@ -339,6 +339,7 @@
     * [WMS系统](docs/doc2.md#WMS系统)
     * [MES系统](docs/doc2.md#MES系统)
     * [PMS系统](docs/doc2.md#PMS系统)
+    * [PLM系统](docs/doc2.md#PLM系统)
     * [云盘系统](docs/doc2.md#云盘系统)
     * [充电桩系统](docs/doc2.md#充电桩系统)
     * [数据中台](docs/doc2.md#数据中台)
@@ -451,10 +452,12 @@
     * [反编译](docs/doc3.md#反编译)
     * [代码混淆](docs/doc3.md#代码混淆)
     * [逆向工程](docs/doc3.md#逆向工程)
+    * [漏洞利用](docs/doc3.md#漏洞利用)
     * [远程连接](docs/doc3.md#远程连接)
     * [终端模拟器](docs/doc3.md#终端模拟器)
     * [远程桌面控制](docs/doc3.md#远程桌面控制)
     * [Git客户端](docs/doc3.md#Git客户端)
+    * [下载器](docs/doc3.md#下载器)
 * [游戏开发](docs/doc3.md#游戏开发)
     * [游戏引擎](docs/doc3.md#游戏引擎)
     * [游戏服务器](docs/doc3.md#游戏服务器)
@@ -670,7 +673,7 @@
 * [Spring Boot](https://github.com/spring-projects/spring-boot)：Spring Boot可帮助轻松创建由Spring驱动的生产级应用程序和服务，由Pivotal开源。
 * [Apache Struts](https://github.com/apache/struts)：Struts是一个用于创建Java Web应用程序的免费开源解决方案。
 * [GWT](https://github.com/gwtproject/gwt)：GWT是一个开发工具包，用于构建和优化复杂的基于浏览器的应用程序，由Google开源。
-* [Solon](https://gitee.com/noear/solon)：Java新的应用开发框架，更小、更快、更简单。
+* [Solon](https://gitee.com/opensolon/solon)：Java新的应用开发框架，更小、更快、更简单。
 * [Play](https://github.com/playframework/playframework)：Play框架结合了生产力和性能，可以轻松使用Java和Scala构建可扩展的Web应用程序，由Lightbend开源。
 * [Ring](https://github.com/ring-clojure/ring)：Ring是一个受Python的WSGI和Ruby的Rack启发的Clojure Web应用程序库。
 * [Jodd](https://github.com/oblac/jodd)：Jodd是一组微框架和开发人员友好的工具和实用程序。
@@ -689,7 +692,7 @@
 * [JSweet](https://github.com/cincheo/jsweet)：JSweet利用TypeScript通过JavaScript库和框架用Java编写丰富且响应迅速的Web应用程序。
 * [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
 * [Avaje Jex](https://github.com/avaje/avaje-jex)：Avaje Jex是一个轻量级的JDK内置HTTP Server API包装器，并进行了一些关键的增强。
-* [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA(Rich Internet Applications)的SDK，由Adobe维护。
+* [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA的SDK，由Adobe维护。
 * [Eclipse Krazo](https://github.com/eclipse-ee4j/krazo)：Eclipse Krazo是Jakarta MVC 2.0指定的基于操作的MVC实现。
 * [Pippo](https://github.com/pippo-java/pippo)：Pippo是一个Java开源微型Web框架，具有最小的依赖性和快速的学习曲线。
 * [Spark](https://github.com/perwendel/spark)：Spark是一个Java 8的小型Web框架。
@@ -725,6 +728,7 @@
 * [CUBA Platform](https://github.com/cuba-platform/cuba)：CUBA Platform是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
 * [Tiny Framework](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
 * [Minum](https://github.com/byronka/minum)：Minum是一个从头开始构建的最小Java Web框架，零依赖，使用虚拟线程。
+* [Dragome](https://www.dragome.com/)：Dragome是一个使用纯Java语言创建客户端Web应用程序的开源工具。
 * [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
 * [ACT Framework](https://gitee.com/actframework/actframework)：ACT是一个简洁易用，具有强大表达力的Java MVC全栈框架。
 * [Hasor](https://gitee.com/clougence/hasor)：Hasor是一套基于Java语言的开发框架，可以和现有技术体系做到完美融合，由开云集致开源。
@@ -1221,7 +1225,7 @@
 * [1JPM](https://github.com/Osiris-Team/1JPM)：1JPM是一种Maven/Gradle替代方案，但有所不同，它本身是一个Java文件，你应该编辑该文件来配置你的项目。
 * [Apache Maven Daemon](https://github.com/apache/maven-mvnd)：Mvnd是Maven团队借鉴了Gradle和Takari后衍生出的更快的构建工具。
 * [Boot](https://github.com/boot-clj/boot)：Boot是一个Clojure构建框架和临时Clojure脚本评估器。
-* [JeKa](https://github.com/jeka-dev/jeka)：JeKa是一个Java构建工具，用于直接从源代码构建或执行Java应用程序和脚本。
+* [JeKa](https://github.com/jeka-dev/jeka)：JeKa是一个Java构建工具，用于直接从源代码构建或执行Java应用程序和脚本，由OW2开发。
 * [Amper](https://github.com/JetBrains/amper)：Amper是一个项目配置工具，其目标是改善项目配置体验和工具性，即IDE内部的支持，同时还提供流畅的开箱即用体验，由JetBrains开源。
 * [BLD](https://github.com/rife2/bld)：BLD是一个新的构建系统，允许你用纯Java编写构建逻辑。
 * [Pro](https://github.com/forax/pro)：Pro是与Java 9模块无缝协作的Java构建工具。
@@ -1662,7 +1666,6 @@
 * [JRat](https://jrat.sourceforge.net/)：JRat是一个低开销、易于使用的Java平台开源性能分析器。
 * [RemoraJ](https://github.com/Nastel/remoraj)：RemoraJ是一个可扩展的Java分析代理，它使用字节码检测以最小的开销拦截Java IPC调用。
 * [JETM](https://github.com/frenchc/jetm)：JETM是一个用于编程或声明式性能监控的Java库。
-* [DiSL](https://gitlab.ow2.org/disl/disl)：DiSL是一个Java字节码检测框架，旨在观察Java虚拟机中执行的程序。
 * [Eclipse Trace Compass](https://github.com/eclipse-tracecompass/org.eclipse.tracecompass)：Trace Compass是一款开源应用程序，可通过读取和分析系统日志或跟踪来解决性能和可靠性问题。
 
 #### Spring Boot仪表板
@@ -2295,8 +2298,8 @@
 * [Apache Synapse](https://github.com/apache/synapse)：Synapse是一种轻量级高性能企业服务总线，由WSO2开源。
 * [Apache ServiceMix](https://github.com/apache/servicemix)：ServiceMix是一个灵活的开源集成容器，它将ActiveMQ、Camel、CXF和Karaf的特性和功能成为一个强大的运行时平台，你可以使用它来构建自己的集成解决方案。它提供了一个完全由OSGi提供支持的企业级ESB。
 * [Bus](https://github.com/839128/bus)：Bus是一个基础框架、服务套件，它基于Java 17编写，参考、借鉴了大量已有框架、组件的设计，可以作为后端服务的开发基础中间件。
-* [WSO2 ESB](https://github.com/wso2-attic/product-esb)：WSO2 ESB是一款轻量级、高性能、接近零延迟的产品，为SOAP、WS和REST等多种不同技术以及SAP或HL7等特定领域的解决方案和协议提供全面支持。
 * [JBoss Fuse](https://github.com/jboss-fuse/fuse)：JBoss Fuse是一个开源ESB，其功能基于Apache Camel、Apache CXF、Apache ActiveMQ、Apache Karaf和Fabric8，集成在一个发行版中。
+* [Petals ESB](https://petals.linagora.com/)：Petals ESB是一个开源企业服务总线。
 
 ## 分布式开发
 
@@ -3036,7 +3039,6 @@
 * [PacketProxy](https://github.com/DeNA/PacketProxy)：PacketProxy是一个开源代理工具，可以拦截和检查TCP/UDP上的任何协议，而不仅限于HTTP/1.x、HTTP2或HTTPS，由DeNA开源。
 * [Proxyee](https://github.com/monkeyWie/proxyee)：Proxyee是一个Java编写的HTTP代理服务器库，支持HTTP、HTTPS、WebSocket协议，并支持MITM，可以捕获和篡改HTTP、HTTPS数据包。
 * [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG)：OpenIG是一种高性能反向代理服务器，具有专门的会话管理和凭证重播功能。
-* [NoPE Proxy](https://github.com/summitt/Burp-Non-HTTP-Extension)：Burp Suite的非HTTP协议扩展代理和DNS。
 * [HTTP Proxy Servlet](https://github.com/mitre/HTTP-Proxy-Servlet)：这是Java Servlet形式的HTTP代理。
 * [Lanproxy](https://github.com/ffay/lanproxy)：Lanproxy是一个将局域网个人电脑、服务器代理到公网的内网穿透工具，支持TCP流量转发，可支持任何TCP上层协议。
 * [S3Proxy](https://github.com/gaul/s3proxy)：S3Proxy实现S3 API和代理请求，支持多种用例。
