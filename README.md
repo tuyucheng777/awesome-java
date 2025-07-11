@@ -138,8 +138,8 @@
 * [IoC](#IoC)
 * [AOP](#AOP)
 * [日志库](#日志库)
-* [Logback Appender](#Logback-Appender)
-* [结构化日志](#结构化日志)
+    * [Logback Appender](#Logback-Appender)
+    * [结构化日志](#结构化日志)
 * [序列化](#序列化)
     * [Protocol Buffer](#Protocol-Buffer)
     * [CBOR](#CBOR)
@@ -424,6 +424,7 @@
 * [安卓库](docs/doc2.md#安卓库)
 * [GUI开发/程序](docs/doc3.md#GUI开发程序)
     * [GUI框架](docs/doc3.md#GUI框架)
+    * [移动开发框架](docs/doc3.md#移动开发框架)
     * [Swing](docs/doc3.md#Swing)
     * [Swing主题库](docs/doc3.md#Swing主题库)
     * [Swing UI库](docs/doc3.md#Swing-UI库)
@@ -467,14 +468,15 @@
 * [游戏开发](docs/doc3.md#游戏开发)
     * [游戏引擎](docs/doc3.md#游戏引擎)
     * [游戏服务器](docs/doc3.md#游戏服务器)
+    * [2D/3D渲染](docs/doc3.md#2D3D渲染)
     * [游戏开发库](docs/doc3.md#游戏开发库)
+    * [碰撞检测](docs/doc3.md#碰撞检测)
     * [寻路算法](docs/doc3.md#寻路算法)
     * [实体框架](docs/doc3.md#实体框架)
     * [游戏编辑器](docs/doc3.md#游戏编辑器)
     * [开源游戏](docs/doc3.md#开源游戏)
     * [游戏开发工具](docs/doc3.md#游戏开发工具)
-* [2D/3D渲染](docs/doc3.md#2D3D渲染)
-* [移动开发框架](docs/doc3.md#移动开发框架)
+    * [虚拟现实](docs/doc3.md#虚拟现实)
 * [JVM代理](docs/doc3.md#JVM代理)
 * [热加载](docs/doc3.md#热加载)
 * [类加载](docs/doc3.md#类加载)
@@ -921,6 +923,7 @@
 * [JdonFramework](https://github.com/banq/jdonframework)：JdonFramework是一个支持Pub-Sub异步编程模型的领域事件框架。
 * [PostgreSQL Event Sourcing](https://github.com/eugene-khyst/postgresql-event-sourcing)：这是一个使用PostgreSQL作为事件存储的事件源系统的参考实现，并使用Spring Boot构建。
 * [Reveno](https://github.com/dmart28/reveno)：Reveno是一款基于JVM、速度极快、持久耐用且简洁易用的异步事务处理框架。
+* [Evento](https://github.com/EventoFramework/evento-framework)：Evento框架为开发人员提供了一套强大的工具包，用于构建和管理利用事件溯源和CQRS架构模式的分布式应用程序。
 * [Splitet](https://github.com/Splitet/SplitetFramework)：Splitet是一个基于Java的事件溯源框架，由Kloia开源。
 * [Loom](https://github.com/loom/loom-java)：Loom是一组用于实现分布式消息传递和事件源模式的框架。
 * [Sourcerer](https://github.com/elder-oss/sourcerer)：Sourcerer是一个固执己见、功能性且与存储无关的框架，用于使用事件源在Java 8中实现CQRS架构，由Elder开发。
@@ -1289,9 +1292,10 @@
 * [Argus](https://github.com/arguslab/Argus-SAF)：Argus SAF是一个静态分析框架，用于对Android应用程序进行安全审查，由堪萨斯州立大学和南卡罗来纳大学开源。
 * [SWAN](https://github.com/themaplelab/swan)：SWAN是一个静态程序分析框架，支持对Swift应用程序进行深度数据流分析，由阿尔伯塔大学开源。
 * [Semgrep](https://github.com/semgrep/semgrep)：Semgrep是一种快速、开源、静态分析工具，用于在编辑期、提交和CI时搜索代码、查找错误并强制执行代码标准。
-* [CodeFuse Query](https://github.com/codefuse-ai/CodeFuse-Query)：CodeFuse-Query是一种强大的静态代码分析平台，适合大规模、复杂的代码库分析场景，由蚂蚁CodeFuse团队开发。
+* [CodeFuse Query](https://github.com/codefuse-ai/CodeFuse-Query)：CodeFuse Query是一种强大的静态代码分析平台，适合大规模、复杂的代码库分析场景，由蚂蚁CodeFuse团队开发。
 * [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs)：Find Security Bugs是用于Java Web应用程序安全审核的SpotBugs插件，由OWASP开源。
 * [Tai-e](https://github.com/pascal-lab/Tai-e)：Tai-e是一个易于学习/使用的Java静态分析框架，由南京大学开源。
+* [CodeCC](https://github.com/TencentBlueKing/bk-codecc)：CodeCC提供专业的代码检查解决方案及服务，为产品质量保驾护航，由腾讯开源。
 * [TLAPlus](https://github.com/tlaplus/tlaplus)：TLC是一个显式状态模型检查器，用于检查以TLA+编写的规范，由Microsoft开发。
 * [NullAway](https://github.com/uber/NullAway)：NullAway是一个帮助消除Java代码中的NPE的工具，由Uber开源。
 * [CodeCompass](https://github.com/Ericsson/CodeCompass)：CodeCompass是一个用C/C++和Java编写的大型软件的软件理解工具，由爱立信开源。
@@ -2002,6 +2006,7 @@
 * [AAChartCore](https://github.com/AAChartModel/AAChartCore)：AAChartCore是AAChartKit的Java语言版本，基于流行的开源前端图表库Highcharts的一套易于使用、极其优雅的图形绘制控件。
 * [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
 * [ALITA](https://github.com/didi/ALITA)：ALITA是一个基于层的数据分析工具，由滴滴开源。
+* [Constellation](https://github.com/constellation-app/constellation)：Constellation是一款以图形为中心的数据可视化和交互式分析应用程序，支持跨大型复杂数据集的数据访问、联合和操作功能。
 
 #### 数据目录
 
@@ -3352,7 +3357,7 @@
 * [LogEvents](https://github.com/jhannes/logevents)：LogEvents是一个小型日志记录框架，构建在SLF4J之上。
 * [Journal.IO](https://github.com/sbtourist/Journal.IO)：Journal.IO是一种轻量级、快速且易于使用的日志存储实现，基于仅追加旋转日志和校验和可变长度记录，支持并发读写、动态批处理、可调持久性和数据压缩。
 
-## Logback Appender
+#### Logback Appender
 
 * [Logback Elasticsearch Appender](https://github.com/internetitem/logback-elasticsearch-appender)：将日志事件直接从Logback发送到Elasticsearch。
 * [Logstash Logback Encoder](https://github.com/logfellow/logstash-logback-encoder)：Logback JSON编码器和附加器。
@@ -3371,7 +3376,7 @@
 * [GELFJ](https://github.com/t0xa/gelfj)：GELFJ是Java中非常简单的GELF实现，带有Log4j附加程序和JDK日志处理程序。
 * [Logback MDC TTL](https://github.com/ofpay/logback-mdc-ttl)：Logback扩展，支持跨线程池的MDC跟踪。
 
-## 结构化日志
+#### 结构化日志
 
 * [Java Grok](https://github.com/thekrakken/java-grok)：使用Java Grok，你可以将非结构化日志和事件数据转换为结构化数据(JSON)。
 * [ECS Logging Java](https://github.com/elastic/ecs-logging-java)：ECS Logging Java可帮助开发者轻松地实现结构化日志。
