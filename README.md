@@ -452,6 +452,8 @@
     * [在线编辑器](docs/doc3.md#在线编辑器)
     * [数学软件](docs/doc3.md#数学软件)
     * [UML工具](docs/doc3.md#UML工具)
+    * [数电](docs/doc3.md#数电)
+    * [CAD](docs/doc3.md#CAD)
     * [办公软件](docs/doc3.md#办公软件)
     * [思维导图](docs/doc3.md#思维导图)
     * [数据库软件](docs/doc3.md#数据库软件)
@@ -579,7 +581,6 @@
 * [RAML](docs/doc3.md#RAML)
 * [OData](docs/doc3.md#OData)
 * [数控](docs/doc3.md#数控)
-* [数电](docs/doc3.md#数电)
 * [海关](docs/doc3.md#海关)
 * [蓝牙](docs/doc3.md#蓝牙)
 * [校验](docs/doc3.md#校验)
@@ -3059,6 +3060,7 @@
 * [Carapaceproxy](https://github.com/diennea/carapaceproxy)：Carapac是一个分布式Java反向代理。
 * [Bouncer](https://github.com/ggrandes/bouncer)：Bouncer是一个开源Java网络代理。
 * [Proxy Vole](https://github.com/MarkusBernhardt/proxy-vole)：Proxy Vole是一个用于自动检测平台网络代理设置的Java库。
+* [Mallet](https://github.com/sensepost/mallet)：Mallet是一种用于创建任意协议代理的工具，类似于我们熟悉的拦截Web代理，只是更加通用。
 
 #### 内网穿透
 
