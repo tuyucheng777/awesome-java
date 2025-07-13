@@ -992,6 +992,7 @@
 * [Sunrise/SunsetLib Java](https://github.com/mikereedell/sunrisesunsetlib-java)：用于计算给定纬度/经度和日期组合的当地日出和日落的Java库。
 * [Lunar](https://gitee.com/6tail/lunar-java)：Lunar是一个支持阳历、阴历、佛历和道历的日历工具库。
 * [Tyme4j](https://github.com/6tail/tyme4j)：Tyme4j是一个非常强大的日历工具库，可以看作Lunar的升级版，拥有更优的设计和扩展性，支持公历和农历、星座、干支、生肖、节气、法定假日等。
+* [LunarCalendar](https://github.com/heqiao2010/LunarCalendar)：中国农历的Java实现，支持约300年公历范围：1850-02-12到2150-12-31。
 * [Natty](https://github.com/joestelmach/natty)：Natty是一个用Java编写的自然语言日期解析器。
 * [Business Hours Java](https://github.com/dhatim/business-hours-java)：这个Java库有助于处理工作时间，例如“周一到周五上午9点到下午6点，周六上午9点到中午12点”。
 * [JChronic](https://github.com/samtingleff/jchronic)：Java中的自然语言日期解析器，作为Ruby Chronic的直接移植。
@@ -1213,7 +1214,6 @@
 * [Math](https://github.com/SpongePowered/math)：用于Java的不可变数学库，提供数学类型、快速三角函数、向量、矩阵、复数、四元数和操作链之间的轻松转换，重点关注游戏和计算机图形。
 * [F2J](https://sourceforge.net/projects/f2j)：F2J项目的目标是为最初用Fortran编写的数值库(特别是BLAS和LAPACK)提供Java API，由田纳西大学开源。
 * [NumJ](https://github.com/J-Libraries/numJ)：NumJ是一个受NumPy启发的Java库，提供对多维数组和数学运算的支持。
-* [Netlib](https://github.com/luhenry/netlib)：该项目提供了BLAS、LAPACK和ARPACK子例程的多个Java实现，支持Java 8+，它通过OpenBLAS和Intel MKL等本机实现提供BLAS、LAPACK和ARPACK的硬件加速。
 * [DDoggeg](https://github.com/lessthanoptimal/ddogleg)：DDoggeg是一个高性能Java库，用于非线性优化、稳健模型拟合、多项式求根、排序等。
 * [Catalano](https://github.com/DiegoCatalano/Catalano-Framework)：Catalano框架是一个用于Java和Android的科学计算框架。
 * [Shared Scientific Toolbox](https://carsomyr.github.io/shared/)：SST是基础科学库的集合，其主要目的是充当所涉及的科学计算的高度特定需求与Java编程语言的更传统方面之间的桥梁。
@@ -1940,7 +1940,6 @@
 * [CompressHelper](https://github.com/nanchen2251/CompressHelper)：文件、图片压缩工具类。
 * [AdvancedLuban](https://github.com/shaohui10086/AdvancedLuban)：AdvancedLuban是一个方便简单的Android图像压缩工具库。
 * [Zstd](https://github.com/luben/zstd-jni)：Zstd是一种新的无损压缩算法，它可以为你的标准压缩需求提供良好的压缩比和速度。
-* [Luban](https://github.com/Curzibn/Luban)：Luban是Android图片压缩工具，仿微信朋友圈压缩策略。
 * [Archive Patcher](https://github.com/google/archive-patcher)：Archive Patcher是一个开源项目，允许对zip存档进行节省空间的修补，由Google开源。
 * [Apache Commons Compress](https://github.com/apache/commons-compress)：Commons Compress定义了一个用于处理压缩和存档格式的API。
 * [LZF Compressor](https://github.com/ning/compress)：LZF Compressor是一个用于编码和解码LZF格式数据的Java库。
@@ -2777,6 +2776,7 @@
 * [Spring Microservices Boilerplate](https://github.com/danielliao11/spring-microservice-boilerplate)：Spring Microservices Boilerplate是一个方便Java后端人员快速开发的微服务脚手架。
 * [Spring Boot Plus](https://gitee.com/xiandafu/springboot-plus)：Spring Boot Plus是一个基于Spring Boot 2的管理后台系统。
 * [EuBackend](https://gitee.com/zhaoeryu/eu-backend)：EuBackend是一套全部开源的前后端分离Java EE企业级快速开发平台。
+* [Spring Boot Angular 2](https://github.com/borysn/spring-boot-angular2)：使用Spring Boot、Angular 2和Bootstrap 4来构建RESTful应用程序原型的启动项目。
 
 #### 低代码
 
@@ -2786,6 +2786,7 @@
 * [JeeSite](https://gitee.com/thinkgem/jeesite5)：JeeSite是一个轻量级、企业级低代码解决方案，由济南卓源软件公司开源。
 * [Guns](https://gitee.com/stylefeng/guns)：Guns是一个现代化的Java应用开发框架，基于主流技术Spring Boot 2、Vue 3。
 * [MakuBoot](https://gitee.com/makunet/maku-boot)：MakuBoot是采用Spring Boot 3.1、Spring Security 6.1、MybatisPlus等框架开发的一套Spring Boot低代码开发平台。
+* [OpenXava](https://github.com/openxava/openxava)：OpenXava从JPA实体生成功能齐全的Web应用程序。
 * [MateCloud](https://gitee.com/matevip/matecloud)：MateCloud是一款基于Spring Cloud Alibaba的微服务架构，支持多租户的低代码平台。
 * [DiBoot](https://gitee.com/dibo_software/diboot)：Diboot是一个在开发框架上构建的低代码平台，由苏州帝博软件公司开源。
 * [Mendix](https://www.mendix.com/)：Mendix是一个低代码平台，由Siemens开发。
@@ -2990,6 +2991,7 @@
 * [VBlog](https://github.com/lenve/VBlog)：V部落是一个多用户博客管理平台，采用Vue、Spring Boot开发。
 * [NiceFish](https://gitee.com/mumu-osc/NiceFish)：NiceFish是一个系列项目，目标是示范前后端分离的开发模式。
 * [JFinal CMS](https://gitee.com/jflyfox/jfinal_cms)：JFinal CMS是一个Java开发的功能强大的信息咨询网站，采用JFinal作为Web框架。
+* [StubbornJava](https://github.com/StubbornJava/StubbornJava)：用于构建无需框架的Web服务器/服务的非常规Java代码。
 * [FastCMS](https://gitee.com/dianbuapp_admin/fastcms)：FastCMS是基于Spring Boot前后端分离技术，且具有插件化架构的CMS系统。
 * [MoguBlog](https://github.com/moxi624/mogu_blog_v2)：MoguBlog是一个基于微服务架构的前后端分离博客系统。
 * [DotCMS](https://github.com/dotCMS/core)：DotCMS是一种开源无头/混合内容管理系统，旨在跨多个渠道管理和提供基于权限的个性化内容体验。
@@ -3064,6 +3066,8 @@
 * [Shiyi Blog](https://gitee.com/quequnlong/shiyi-blog)：一款基于Vue、Spring Boot的前后端分离博客系统。
 * [Spring Content](https://github.com/paulcwarren/spring-content)：适用于Spring的云原生存储和企业内容服务。
 * [MDP ARC](https://gitee.com/maimengcloud/mdp-arc-backend)：MDP ARC以内容管理为核心，涵盖文章管理、广告管理、文件管理、图片管理、素材存储的内容管理一站式解决方案。
+* [Ikaros](https://github.com/ikaros-dev/ikaros)：专注于ACGMN的内容管理系统。
+* [Tumo](https://github.com/TyCoding/tumo)：Tumo Blog是一个简洁美观的博客系统，基于Spring Boot 2.X、Vue.js。
 
 #### 论坛系统
 
@@ -3279,6 +3283,7 @@
 * [Znai](https://github.com/testingisdocumenting/znai)：Znai将人类书写的文本与代码、图形、REST API、Java文档、Doxygen等工件相结合，以创建最新、可维护、精美的用户指南和教程。
 * [OpooPress](https://github.com/opoo/opoopress)：OpooPress框架是一个完全灵活、完全可扩展的基于Java的静态站点生成器。
 * [Grain](https://github.com/sysgears/grain)：Grain是一个轻量级框架和一个非常强大的静态网站生成器，用Groovy编写，可帮助使网站创建直观且愉快。
+* [Barber](https://github.com/cashapp/barber)：一种类型安全的Kotlin JVM库，用于使用Mustache模板构建本地化、可填写、主题化的文档，由Square开发。
 
 #### BaaS
 
@@ -3297,6 +3302,7 @@
 
 * [Spring Brick](https://gitee.com/starblues/springboot-plugin-framework-parent)：为动态扩展系统而生的插件开发框架。
 * [EXP](https://github.com/stateIs0/exp)：EXP是一款Java插件化热插拔框架。
+* [Mosaic](https://github.com/Time-Machine-Lab/Mosaic)：Mosaic是一个面向企业级应用的现代化Java插件框架。
 
 #### POS
 
@@ -3320,7 +3326,6 @@
 * [Apache ODE](https://ode.apache.org/)：ODE是一个WS-BPEL兼容的Web服务编配引擎，它可以使开发人员根据以BPEL XML语法写成的过程描述来编配Web服务。
 * [Spring Web Flow](https://github.com/spring-projects/spring-webflow)：Spring Web Flow有助于构建需要引导导航的Web应用程序-例如购物车、航班登记、贷款申请等等。
 * [EZ-vCard](https://github.com/mangstadt/ez-vcard)：EZ-vCard是一个用于Java的vCard解析器库。
-* [OpenXava](https://sourceforge.net/projects/openxava/)：用于快速将业务应用程序推向市场的Java平台。
 * [eXo Platform](https://github.com/exoplatform/platform-public-distributions)：eXo Platform是面向成长型团队和企业的开源数字工作场所解决方案。
 * [Lattice](https://github.com/hiforce/lattice)：Lattice是一个强大、轻量级的业务扩展调用框架。
 
@@ -3485,6 +3490,7 @@
 * [Slack Java SDK](https://github.com/slackapi/java-slack-sdk)：Slack Java SDK以Java惯用方式支持Slack平台。
 * [Slack Client](https://github.com/HubSpot/slack-client)：Slack Web API的异步HTTP客户端，由HubSpot开源。
 * [Simple Slack API](https://github.com/Itiviti/simple-slack-api)：该库允许应用程序连接到Slack以从任何通道接收和发送消息。
+* [Flower](https://github.com/PositiveTechnologies/flower)：Flower库是一组用于存储库、任务跟踪器和消息传递系统的通用协议，其中包括与Jira、TFS、GitLab、GitHub和Exchange等最常见协议的集成。
 
 #### Reddit
 

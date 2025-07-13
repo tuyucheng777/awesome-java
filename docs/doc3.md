@@ -13,6 +13,7 @@
 * [NetBeans Platform](https://netbeans.apache.org/tutorial/main/kb/docs/platform/)：NetBeans Platform是一个广泛的Java框架，可以在其上构建大型桌面应用程序。
 * [QtJambi](https://github.com/OmixVisualization/qtjambi)：QtJambi是Java编程语言的Qt绑定，最初由Qt公司的前身Trolltech开发。
 * [ImGui](https://github.com/kotlin-graphics/imgui)：这是ImGui的Kotlin重写，一个用于C++的无膨胀图形用户界面库。
+* [JImGUI](https://github.com/ice1000/jimgui)：ImGUI的的纯Java绑定。
 * [ImGui Java](https://github.com/SpaiR/imgui-java)：ImGui基于JNI的绑定。
 * [LEGUI](https://github.com/SpinyOwl/legui)：Java OpenGL GUI库，专为与最新的LWJGL(LWJGL 3)一起使用而创建。
 * [PolyUI](https://github.com/Polyfrost/polyui-jvm)：PolyUI是一个由Polyfrost开发的声明式UI框架。
@@ -35,7 +36,6 @@
 * [JxCapture](https://teamdev.com/jxcapture/)：JxCapture是一种跨平台、能Java应用程序提供综合屏幕抓取API的库程序。
 * [DJ Native Swing](https://github.com/Chrriis/DJ-Native-Swing)：DJ Native Swing库允许将一些原生组件轻松集成到Swing应用程序中，并提供一些本机实用程序来增强Swing的API。
 * [AutoComplete](https://github.com/bobbylight/AutoComplete)：AutoComplete是Swing JTextComponents的代码完成库，具有可用于RSyntaxTextArea实例的增强功能。
-* [jSystemThemeDetector](https://github.com/Dansoftowner/jSystemThemeDetector)：用于检测(桌面)操作系统是否使用深色UI主题的Java库。
 * [Sierra](https://github.com/HTTP-RPC/Sierra)：Sierra是一个用于简化Java Swing应用程序开发的开源框架。
 * [Cinch](https://github.com/palantir/Cinch)：管理MVC模式的组件操作/事件绑定的Java库，由Palantir开源。
 * [jGAF](https://github.com/pgdurand/jGAF)：jGAF是一个旨在促进为Java平台创建跨平台图形应用程序的库。
@@ -57,6 +57,7 @@
 * [VTerminal](https://github.com/Valkryst/VTerminal)：用于Java的新LaF，允许基于网格显示具有自定义前景色/背景色、字体大小和伪着色器的Unicode字符。
 * [Darcula](https://github.com/bulenkov/Darcula)：Darcula是Java桌面应用程序的LaF和代码编辑器主题。
 * [Synthetica](https://www.jyloo.com/)：Synthetica是Swing的LaF，基于Synth，通过主题为Swing的核心组件提供了许多不同的外观，包括圆形边框、阴影弹出菜单和漂亮的图标。
+* [Java Bootstrap LaF](https://github.com/danfickle/java-bootstrap-laf)：基于Bootstrap的Java Swing LaF。
 
 #### Swing UI库
 
@@ -186,6 +187,10 @@
 * [SyntheticaFX](https://www.jyloo.com/syntheticafx/)：SyntheticaFX提供主要为桌面上的专业商业应用程序制作的主题和组件。
 * [JavaFX Fluent Theme](https://github.com/Eroica/javafx-fluent-theme)：这是JavaFX的自定义主题，可让你的应用程序看起来像Windows 11(WinUI)程序。
 * [MonetFX](https://github.com/Glavo/MonetFX)：MonetFX为JavaFX提供了对Material 3颜色系统的支持。
+* [jSystemThemeDetector](https://github.com/Dansoftowner/jSystemThemeDetector)：用于检测(桌面)操作系统是否使用深色UI主题的Java库。
+* [FluentFX](https://github.com/Ivan-Kalatchev/FluentFX)：FluentFX是一个带有主题和一些控件的JavaFX库。
+* [DarculaFX](https://github.com/mouse0w0/darculafx)：JavaFX Darcula主题。
+* [FlatBee](https://github.com/marcschuler/FlatBee)：一个扁平化、流式的JavaFX CSS主题。
 
 #### JavaFX样式库
 
@@ -236,6 +241,7 @@
 * [FXTaskbarProgressBar](https://github.com/Dansoftowner/FXTaskbarProgressBar)：JavaFX的一个库，使你能够在Windows任务栏上显示进度。
 * [Grid](https://github.com/manuel-mauky/Grid)：Grid是一个JavaFX(8)组件，用于基于方格网格的不同类型的小游戏，例如国际象棋或数独。
 * [RichTextArea](https://github.com/gluonhq/rich-text-area)：RichTextArea是一种文本输入控件，它提供富文本功能以及表情符号和非文本对象(如图像、表格和超链接)。
+* [RichTextEditor](https://github.com/dankito/RichTextEditor)：适用于Android和JavaFX的所见即所得编辑器，具有丰富的支持格式选项。
 * [FXUI](https://gitee.com/lichenfei_fei/chenfei-fxui)：JavaFX常见自定义组件。
 
 #### JavaFX Dock库
@@ -857,9 +863,11 @@
 * [Grafx](https://grafx.sourceforge.net/)：Grafx是一个开源Java库，用于使用浮点端点坐标绘制线条和填充多边形。
 * [ClearVolume](https://github.com/ClearVolume/clearvolume)：ClearVolume是一个实时3D可视化库，专为SPIM和DLSM显微镜等高端体积显微镜而设计，由马克斯普朗克分子细胞生物学和遗传学研究所开源。
 * [Vulkan4j](https://github.com/club-doki7/vulkan4j)：Vulkan4j是一系列针对Java的图形和相关API绑定，使用Java 22 Panama API实现。
+* [Box2DLights](https://github.com/libgdx/box2dlights)：Box2DLights是一个2D光照框架，它使用Box2D进行光线投射，并使用OpenGL ES 2.0进行渲染。
 
 #### 游戏开发库
 
+* [Tiled](https://github.com/mapeditor/tiled)：Tiled是一款通用的图块地图编辑器，适用于所有基于图块的游戏，例如角色扮演游戏、平台游戏或Breakout克隆游戏。
 * [PlayN](https://github.com/playn/playn)：PlayN是一个用Java编写的跨平台Java游戏开发库，面向HTML5浏览器、桌面JVM、Android和iOS设备。
 * [Zircon](https://github.com/Hexworks/zircon)：Zircon是一个可扩展且用户友好的多平台图块引擎。
 * [Recast4j](https://github.com/ppiastucki/recast4j)：Recast和Detour导航网格工具集的Java端口。
@@ -1375,6 +1383,7 @@
 * [Horizon](https://github.com/Yalantis/Horizon)：Horizon是适用于Android的简单视觉均衡器。
 * [RxFFmpeg](https://github.com/microshow/RxFFmpeg)：RxFFmpeg是基于FFmpeg 4.0、X264、mp3lame、fdk-aac、opencore-amr、openssl编译的适用于Android平台的音视频编辑、视频剪辑的快速处理框架。
 * [RxAndroidAudio](https://github.com/Piasy/RxAndroidAudio)：Android音频封装库，部分Rx支持。
+* [Libpd](https://github.com/libpd/libpd)：Pure Data可嵌入音频合成库。
 * [Airsonic](https://github.com/airsonic/airsonic)：Airsonic是一款免费的基于Web的媒体服务器，可让你随时随地访问音乐。
 * [TarsosDSP](https://github.com/JorenSix/TarsosDSP)：TarsosDSP是一个用于音频处理的Java库，其目的是为实用的音乐处理算法提供一个易于使用的接口。
 * [FFmpeg CLI Wrapper](https://github.com/bramp/ffmpeg-cli-wrapper)：用于从Java运行FFmpeg的流式接口。
@@ -1918,6 +1927,8 @@
 * [JPX](https://github.com/jenetics/jpx)：JPX是一个Java库，用于创建、读取和写入GPX格式的GPS数据。
 * [GeoDesk](https://github.com/clarisma/geodesk)：GeoDesk是一个用于OpenStreetMap数据的快速且存储高效的地理空间数据库。
 * [Timeshape](https://github.com/RomanIakovlev/timeshape)：Timeshape是一个Java库，可用于确定给定地理坐标属于哪个时区。
+* [LatLongToTimezone](https://github.com/drtimcooper/LatLongToTimezone)：Java语言的经纬度到时区映射器。
+* [Time Zone Map](https://github.com/dustin-johnson/timezonemap)：用于将位置或地区映射到时区的Java/Kotlin库。
 * [Traccar](https://github.com/traccar/traccar)：Traccar是一个开源GPS跟踪系统，支持200多种GPS协议和2000多种GPS跟踪设备型号。
 * [goGPS](https://github.com/goGPS-Project/goGPS_Java)：goGPS是一个软件包，旨在通过相对定位提高低成本GPS设备的定位精度，由大阪市立大学维护。
 * [Apache Sedona](https://github.com/apache/sedona)：Sedona是一种空间计算引擎，使开发人员能够在Spark和Flink等现代集群计算系统中轻松处理任何规模的空间数据，由亚利桑那州立大学开源。
@@ -1938,7 +1949,6 @@
 * [GeoAPI](https://github.com/opengeospatial/geoapi)：GeoAPI为地理空间应用程序提供了一组Java和Python语言编程接口。
 * [THREDDS Data Server](https://github.com/Unidata/tds)：TDS提供对科学数据集的元数据和数据访问，由美国国家科学基金会开源。
 * [JGiscoTools](https://github.com/eurostat/JGiscoTools)：JGiscoTools是一个用于操作地理空间和统计数据的Java库，重点关注Eurostat和Eurostat-GISCO生成的欧洲数据，由欧盟统计局开源。
-* [Time Zone Map](https://github.com/dustin-johnson/timezonemap)：用于将位置或地区映射到时区的Java/Kotlin库。
 * [OpenMap](https://github.com/OpenMap-java/openmap)：OpenMap是一个基于Java Beans的工具包，用于构建需要地理信息的应用程序和Applet，由雷神公司开源。
 * [MapLibre Tiles](https://github.com/maplibre/maplibre-tile-spec)：下一代矢量切片格式。
 * [Mago 3DTiler](https://github.com/Gaia3D/mago-3d-tiler)：Mago 3DTiler是一款OGC 3D Tiles工具，由Gaia3D开源。
