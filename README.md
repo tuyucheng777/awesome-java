@@ -421,7 +421,6 @@
     * [Facebook机器人](docs/doc2.md#Facebook机器人)
     * [QQ机器人](docs/doc2.md#QQ机器人)
     * [微信机器人](docs/doc2.md#微信机器人)
-* [安卓库](docs/doc2.md#安卓库)
 * [GUI开发/程序](docs/doc3.md#GUI开发程序)
     * [GUI框架](docs/doc3.md#GUI框架)
     * [移动开发框架](docs/doc3.md#移动开发框架)
@@ -467,6 +466,7 @@
     * [远程桌面控制](docs/doc3.md#远程桌面控制)
     * [Git客户端](docs/doc3.md#Git客户端)
     * [下载器](docs/doc3.md#下载器)
+    * [MQTT客户端](docs/doc3.md#MQTT客户端)
 * [游戏开发](docs/doc3.md#游戏开发)
     * [游戏引擎](docs/doc3.md#游戏引擎)
     * [游戏服务器](docs/doc3.md#游戏服务器)
@@ -2288,7 +2288,6 @@
 #### 事件总线
 
 * [EventBus](https://github.com/greenrobot/EventBus)：EventBus是适用于Android和Java的发布/订阅事件总线。
-* [WeEvent](https://github.com/WeBankBlockchain/WeEvent)：WeEvent是一套分布式事件驱动架构，实现了可信、可靠、高效的跨机构、跨平台事件通知机制，由微众银行开源。
 * [EventBus](https://github.com/MinecraftForge/EventBus)：EventBus是一个简单的订阅者-发布者框架。
 * [MBassador](https://github.com/bennidi/mbassador)：MBassador是一个轻量级、高性能的事件总线，实现了发布订阅模式。
 * [Otto](https://github.com/square/otto)：Otto是一种事件总线，旨在解耦应用程序的不同部分，同时仍然允许它们高效通信，由Square开源。
@@ -3396,6 +3395,7 @@
 
 ## 序列化
 
+* [Protocol Buffers](https://github.com/protocolbuffers/protobuf)：Protocol Buffers是Google开发的用于序列化结构化数据的机制，它与语言和平台无关，并且可扩展。
 * [Hessian](http://hessian.caucho.com/)：Hessian是一种基于二进制的轻量级网络传输协议，用于在不同的应用程序之间进行远程过程调用，由Caucho开源。
 * [FlatBuffers](https://github.com/google/flatbuffers)：FlatBuffers是一个跨平台序列化库，旨在实现最大内存效率，由Google开源。
 * [Ysoserial](https://github.com/frohoff/ysoserial)：Ysoserial是一种概念验证工具，用于生成利用不安全的Java对象反序列化的有效负载。

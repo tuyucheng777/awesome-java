@@ -243,6 +243,7 @@
 * [RichTextArea](https://github.com/gluonhq/rich-text-area)：RichTextArea是一种文本输入控件，它提供富文本功能以及表情符号和非文本对象(如图像、表格和超链接)。
 * [RichTextEditor](https://github.com/dankito/RichTextEditor)：适用于Android和JavaFX的所见即所得编辑器，具有丰富的支持格式选项。
 * [FXUI](https://gitee.com/lichenfei_fei/chenfei-fxui)：JavaFX常见自定义组件。
+* [AppleFX](https://github.com/HanSolo/applefx)：用JavaFX实现的Apple UI控件集合。
 
 #### JavaFX Dock库
 
@@ -340,8 +341,6 @@
 * [DrawingBotV3](https://github.com/SonarSonic/DrawingBotV3)：DrawingBotV3是一款用于将图像转换为风格化绘图的软件。
 * [LaTeXDraw](https://github.com/latexdraw/latexdraw)：LaTeXDraw是LaTeX的图形绘图编辑器。
 * [JDKMon](https://github.com/HanSolo/JDKMon)：JDKMon是一个用JavaFX编写的小工具，它会尝试检测你计算机上安装的所有JDK，并通知你发现的每个OpenJDK发行版的新更新和漏洞。
-* [MQTT.fx](https://www.softblade.de/)：MQTT.fx是开发和生产中测试物联网路由的工具。
-* [CorreoMQTT](https://github.com/EXXETA/correomqtt)：CorreoMQTT是使用HiveMQ客户端库的现代图形MQTT客户端。
 * [VocabHunter](https://github.com/VocabHunter/VocabHunter)：VocabHunter是一个帮助外语学习者的系统。
 * [Quelea](https://github.com/quelea-projection/Quelea)：Quelea是适用于教堂的开源投影软件。
 * [Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix)：Image2LaTeX提供将图像转换为某些LaTeX方程格式和OCR的核心功能。
@@ -439,7 +438,6 @@
 * [Sweet Home 3D](http://www.sweethome3d.com/)：Sweet Home 3D是一款免费的室内设计应用程序，它可以帮助你绘制房屋平面图、在其上布置家具并以3D形式查看结果。
 * [Autopsy](https://github.com/sleuthkit/autopsy)：Autopsy是Sleuth Kit和其他开源数字取证工具的图形界面。
 * [Rachota](https://rachota.sourceforge.net/en/index.html)：Rachota是一款用于跟踪不同项目时间的便携式应用程序。
-* [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox)：JMSToolBox是一个“通用”JMS客户端，能够以一致的方式与市场上数量最多的队列管理器/队列提供程序进行交互。
 * [MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE)：这个应用程序给MS Paint带来了提升，可以让MS Paint突出显示、编译和执行代码。
 * [JDiskReport](https://www.jgoodies.com/freeware/jdiskreport/)：JDiskReport使你能够了解文件和目录在磁盘驱动器上占用了多少空间，并帮助你找到过时的文件和文件夹。
 * [Freerouting](https://github.com/freerouting/freerouting)：Freerouting是一款先进的自动布线器，适用于所有支持标准Specctra或Electra DSN接口的PCB程序。
@@ -752,6 +750,14 @@
 * [Telegram Files](https://github.com/jarvis2f/telegram-files)：自托管的Telegram文件下载器，用于连续、稳定和无人值守的下载。
 * [Drifty](https://github.com/SaptarshiSarkar12/Drifty)：Drifty是一个用Java构建的开源交互式文件下载系统，它提供CLI和GUI，灵活易用。
 
+#### MQTT客户端
+
+* [MQTT.fx](https://www.softblade.de/)：MQTT.fx是开发和生产中测试物联网路由的工具。
+* [CorreoMQTT](https://github.com/EXXETA/correomqtt)：CorreoMQTT是使用HiveMQ客户端库的现代图形MQTT客户端。
+* [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox)：JMSToolBox是一个通用JMS客户端，能够以一致的方式与市场上数量最多的队列管理器/队列提供程序进行交互。
+* [MqttInsight](https://github.com/ptma/mqtt-insight)：MqttInsight是一款开源跨平台MQTT桌面客户端。
+* [MQTT Spy](https://github.com/eclipse-paho/paho.mqtt-spy)：MQTT Spy是一款开源桌面和命令行实用程序，旨在帮助你监控MQTT主题上的活动。
+
 ## 游戏开发
 
 这里列出来Java中用于开发游戏的引擎、库、工具，以及Java开发的一些免费游戏
@@ -852,7 +858,8 @@
 * [GLM](https://github.com/kotlin-graphics/glm)：GLM是OpenGL Mathematics的Kotlin端口。
 * [OverrunGL](https://github.com/Over-Run/overrungl)：Overrun Game Library是一个用Java 24实现的高性能库，它支持跨平台访问一组C库绑定，提供各种有用的实用程序。
 * [Three Kt](https://github.com/markaren/three.kt)：流行的Three.js 3D库的Kotlin/JVM端口。
-* [Kotlin](https://github.com/zakgof/korender)：Kotlin基于OpenGL/OpenGL ES/WebGL的多平台3D图形渲染引擎。
+* [Korender](https://github.com/zakgof/korender)：Kotlin基于OpenGL/OpenGL ES/WebGL的多平台3D图形渲染引擎。
+* [Matplot3D](https://github.com/tanling8334/Matplot3D-for-Java)：Matplot3D旨在为Java开发者提供类似于Python中Matplotlib的三维绘图功能。
 * [JGLM](https://github.com/jroyalty/jglm)：OpenGL Mathematics C++库(GLM)的概念性移植。
 * [GLM](https://github.com/java-graphics/glm)：GLM是OpenGL Mathematics(GLM)的Java端口，它是一个基于OpenGL着色语言(GLSL)规范的图形软件数学库。
 * [Kgl](https://github.com/gergelydaniel/kgl)：Kotlin Multiplatform的轻量级OpenGL抽象。
