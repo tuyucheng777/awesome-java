@@ -574,7 +574,8 @@
 * [AIS库](docs/doc3.md#AIS库)
 * [跨语言](docs/doc3.md#跨语言)
 * [转换库](docs/doc3.md#转换库)
-* [IO操作](docs/doc3.md#IO操作)
+* [IO库](docs/doc3.md#IO库)
+* [Mime解析](docs/doc3.md#Mime解析)
 * [文件操作](docs/doc3.md#文件操作)
 * [文件上传](docs/doc3.md#文件上传)
 * [文件比较](docs/doc3.md#文件比较)
@@ -1218,6 +1219,7 @@
 * [JMTE](https://code.google.com/archive/p/jmte/)：JMTE旨在填补使用String.format等基本Java类的简单字符串格式化与Velocity或StringTemplate等复杂模板解决方案之间的空白。
 * [Jamon](http://www.jamon.org/index.html)：Jamon是一个Java文本模板引擎，用于生成动态HTML、XML或任何基于文本的内容。
 * [FreshMarker](https://gitlab.com/schegge/freshmarker)：FreshMarker是一个简单的嵌入式Java 21模板引擎，其灵感来自FreeMarker。
+* [ZML](https://gitee.com/zhiqim/zhiqim_zml)：ZML是知启蒙定义的、类似于Java、Javascript语法的语句和表达式，通常和XML/HTML混编在一起形成的一种新的标记语言。
 
 ## 爬虫框架
 
@@ -1749,6 +1751,7 @@
 * [LogMX](https://logmx.com/)：LogMX是一种直观的跨平台工具，供开发人员和管理员分析日志文件，由LightySoft软件公司提供。
 * [Lilith](https://github.com/huxi/lilith)：Lilith是Logback、Log4j、Log4j2和JUL的日志和访问事件查看器。
 * [Apache Chainsaw](https://github.com/apache/logging-chainsaw)：Apache Chainsaw是一个GUI日志文件查看器。
+* [Miaocha](https://github.com/Hinadt-Inc/miaocha)：Miaocha是一款专为企业设计的开源日志分析平台。
 
 #### GC日志分析
 
@@ -2908,6 +2911,7 @@
 * [JOnAS](https://jonas.ow2.org/)：JOnAS是由Bull和OW2开发的领先的Java EE 6 Web Profile认证开源OSGi企业服务器。
 * [UseOpen Application Server](http://www.useopen.com/p/uoas/)：UOAS是一款永源开源的Java应用服务器产品，支持Jakarta EE Web Profile规范的应用服务器功能。
 * [Smart Servlet](https://gitee.com/smartboot/smart-servlet)：Smart Servlet是一款实现了Servlet 4.0规范，支持多应用隔离部署的的Web容器。
+* [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
 
 #### WebSocket服务器
 
@@ -4142,10 +4146,17 @@
 * [OptaPy](https://github.com/optapy/optapy)：OptaPy是Python的人工智能约束求解器，可优化车辆路线问题、员工排班、维护计划、任务分配、学校时间表、云优化、会议安排、作业车间调度、装箱和更多规划问题。
 * [JSprit](https://github.com/graphhopper/jsprit)：JSprit是一个基于Java的开源工具包，用于解决丰富的旅行商问题(TSP)和车辆路径问题(VRP)。
 * [EasyCSP](https://github.com/cordisvictor/easycsp-lib)：EasyCSP是一个用于约束满足编程的开源Java库。
-* [Kiwi Solver](https://github.com/google/kiwi-solver)：Kiwi是一款专为教育设计的简约且可扩展的约束规划求解器，由Google开源。
+* [Kiwi](https://github.com/google/kiwi-solver)：Kiwi是一款专为教育设计的简约且可扩展的约束规划求解器，由Google开源。
+* [Loco](https://github.com/aengelberg/loco)：Loco是Clojure的一个约束编程库。
+* [OscaR](https://bitbucket.org/oscarlib/oscar)：OscaR是一个用于解决运筹学问题的Scala工具包，由鲁汶大学开发。
+* [MaxiCP](https://github.com/aia-uclouvain/maxicp)：MaxiCP是一个基于Java的约束规划(CP)求解器，用于解决调度和车辆路线问题，由鲁汶天主教大学开源。
 * [CPSolver](https://github.com/UniTime/cpsolver)：CPSolver库包含一个基于本地搜索的框架，允许使用约束编程原语(变量、值、约束)对问题进行建模。
 * [JSolver](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=fff2046e43828a00c406835be84b571553b65087)：JSolver扩展了面向对象基于约束的声明式编程的Java编程范式，由香港城市大学开源。
 * [JMiniZinc](https://github.com/siemens/JMiniZinc)：JMiniZinc是约束建模语言MiniZinc的Java接口，由西门子开发。
+* [jConstraints](https://github.com/psycopaths/jconstraints)：jConstraints是一个用于建模表达式和与约束求解器交互的库，由NASA开源。
+* [MiniCP](https://github.com/minicp/minicp)：MiniCP是一个用Java实现的轻量级CP求解器，由康涅狄格大学、鲁汶大学、佐治亚理工学院的三位教授共同开发。
+* [EUROPA](https://github.com/nasa/europa)：EUROPA是一个用于建模和解决规划、调度和约束规划问题的框架，NASA艾姆斯研究中心开源。
+* [Statix Solver](https://mvnrepository.com/artifact/org.metaborg/statix.solver)：由代尔夫特理工大学开源的约束求解器。
 
 #### 差分隐私
 
