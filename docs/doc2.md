@@ -580,6 +580,7 @@
 * [Component Test Framework](https://github.com/lydtechconsulting/component-test-framework)：允许对Spring Boot应用程序进行组件测试的库。
 * [Skippy](https://github.com/skippy-io/skippy)：Skippy是JVM的测试影响分析和预测测试选择框架。
 * [Taikai](https://github.com/enofex/taikai)：Taikai通过提供针对各种技术定制的一整套预定义规则来扩展流行的ArchUnit库的功能。
+* [Spring Test Smart Context](https://github.com/seregamorph/spring-test-smart-context)：提高Spring Boot测试效率。
 
 #### 测试套件
 
@@ -2553,7 +2554,7 @@
 * [Orion](https://github.com/pinterest/orion)：Orion是一个适用于有状态分布式系统的通用可插拔管理和自动化平台，由Pinterest开源。
 * [Apache Myriad](https://github.com/apache/incubator-myriad)：Myriad是一个Mesos框架，旨在扩展Mesos上的YARN集群，由eBay、MapR和Mesosphere开源。
 * [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：DCM使程序员能够使用高级声明性语言(SQL)构建调度程序和集群管理器，由VMware开源。
-* [Marathon](https://github.com/mesosphere/marathon)：Marathon是经过生产验证的用于容器编排的Mesos框架。
+* [Marathon](https://github.com/mesosphere/marathon)：Marathon是经过生产验证的用于容器编排的Mesos框架，由Mesosphere开源。
 
 ## 容器化工具
 
@@ -3231,6 +3232,7 @@
 * [RuoYi AI](https://github.com/ageerle/ruoyi-ai)：RuoYi AI是一个全栈式AI开发平台，旨在帮助开发者快速构建和部署个性化的AI应用。
 * [AIFlowy](https://gitee.com/aiflowy/aiflowy)：AIFlowy是一个使用Java开发的AI产品的底座和基石。
 * [XiaoZhi ESP32 Server](https://github.com/xinnan-tech/xiaozhi-esp32-server)：本项目为开源智能硬件项目XiaoZhi ESP32提供后端服务。
+* [Xiaozhi ESP32 Server Java](https://github.com/joey-zhou/xiaozhi-esp32-server-java)：基于Xiaozhi ESP32项目开发的Java版本服务端。
 * [AI Beehive](https://github.com/hncboy/ai-beehive)：AI蜂巢，基于Java使用Spring Boot 3和JDK 17，支持的功能有ChatGPT、OpenAI Image、Midjourney、NewBing、文心一言等等。
 * [LangChat](https://github.com/TyCoding/langchat)：LangChat是Java生态下企业级AIGC项目解决方案，在RBAC权限体系的基础上，集成AIGC大模型能力，帮助企业快速定制AI知识库、企业AI机器人。
 * [Spring Boot OpenAI ChatGPT](https://github.com/274056675/springboot-openai-chatgpt)：超级AI大脑是一个基于Spring Cloud的微服务架构，已对接GPT-3.5、GPT-4.0、百度文心一言、Stable Diffusion AI绘图、Midjourney绘图等。
