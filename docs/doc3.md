@@ -1,3 +1,269 @@
+## Android开发
+
+这里列出了Android开发中各种各样的组件、布局、视图、动画等库。
+
+#### ActionBar小部件
+
+* [ActionBarSherlock](https://github.com/JakeWharton/ActionBarSherlock)：ActionBarSherlock是一个独立库，旨在通过单一API促进所有Android版本中操作栏设计模式的使用。
+* [FadingActionBar](https://github.com/ManuelPeinado/FadingActionBar)：FadingActionBar是一个库，它实现了可以在新Play音乐应用中看到的炫酷淡入淡出操作条效果。
+* [GlassActionBar](https://github.com/ManuelPeinado/GlassActionBar)：GlassActionBar是一个Android库，它为操作栏实现了类似玻璃的效果。
+* [TabBarView](https://github.com/Mirkoddd/TabBarView)：一个Android库，可帮助你创建类似Cyril Mottier的“Capitaine train”应用程序的操作栏选项卡。
+
+#### Activity小部件
+
+* [Android Sliding Activity Library](https://github.com/klinker41/android-slidingactivity)：轻松创建可以在屏幕上垂直滑动的活动，并很好地融入Material Design时代。
+* [Material About Library](https://github.com/daniel-stoneuk/material-about-library)：轻松为你的应用创建美观的“关于”屏幕，生成Activity或Fragment。
+* [AwesomeSplash](https://github.com/ViksaaSkool/AwesomeSplash)：外观精美的可定制启动画面。
+* [RatingReviews](https://github.com/Inconnu08/android-ratingreviews)：RatingReviews是一个小部件和布局，它为你的应用添加了“Rating & Reviews”栏，类似于在Google Play Store和Apple App Store上看到的。
+* [AnimatedDismissableActivity](https://github.com/OpenCraft/AnimatedDismissableActivity)：简单酷炫的活动解散动画。
+
+#### Adapter
+
+* [Epoxy](https://github.com/airbnb/epoxy)：Epoxy是一个用于在RecyclerView中构建复杂屏幕的Android库，由Airbnb开源。
+* [FastAdapter](https://github.com/mikepenz/FastAdapter)：FastAdapter可以简化RecyclerViews适配器的创建。
+* [SectionedRecyclerViewAdapter](https://github.com/luizgrp/SectionedRecyclerViewAdapter)：允许将RecyclerView拆分为带有页眉和/或页脚的部分的适配器。
+* [Renderers](https://github.com/pedrovgs/Renderers)：Renderers是一个Android库，旨在避免在应用中创建数据列表/网格所需的所有RecyclerView/Adapter样板以及开发人员按照ViewHolder经典实现创建的所有混乱代码。
+* [MultiChoiceAdapter](https://github.com/ManuelPeinado/MultiChoiceAdapter)：MultiChoiceAdapter是ListAdapter的一个实现，它增加了对原生Gmail应用中模态多项选择的支持。
+* [AutoplayVideos](https://github.com/Krupen/AutoplayVideos)：创建此库的目的是为了轻松地实现带视频的RecyclerView。
+* [SlimAdapter](https://github.com/linisme/SlimAdapter)：一款纤薄、简洁、可打字的适配器。
+* [RecyclerViewHelper](https://github.com/nisrulz/recyclerviewhelper)：库提供了围绕Recycler-View的最常见功能的Android，如滑动以关闭、拖放、用户界面中的分隔符、项目被选中和未选中时的事件、项目的点击监听器。
+* [EasyAdapter](https://github.com/ribot/easy-adapter)：适用于Android的Easy Adapters库。
+* [Efficient Adapter](https://github.com/StanKocken/EfficientAdapter)：为RecyclerView或ViewPager创建新适配器现在变得更加容易。
+* [Smart Recycler Adapter](https://github.com/manneohlund/smart-recycler-adapter)：小型、智能且通用的回收器视图适配器，可轻松实现高级数据与ViewHolder的绑定。
+* [FunDapter](https://github.com/amigold/FunDapter)：FunDapter让你免于为Android应用中的每个ListView创建新适配器类的痛苦和麻烦。
+* [Items](https://github.com/nekocode/Items)：这个库可以为Android的RecyclerView生成基于Data-View-Binding的Adapter。
+* [RxRecyclerAdapter](https://github.com/ahmedrizwan/RxRecyclerAdapter)：基于Rx的通用RecyclerView适配器库。
+* [AutoAdapter](https://github.com/Zuluft/AutoAdapter)：此仓库简化了使用RecyclerView适配器的工作。
+
+#### Android图表库
+
+* [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)：适用于Android的强大且易于使用的图表库。
+* [HelloCharts](https://github.com/lecho/hellocharts-android)：适用于Android的图表库，兼容API 8+(Android 2.2)。
+* [Williamchart](https://github.com/diogobernardino/williamchart)：Williamchart是一个Android库，用于在Android应用程序中快速实现有吸引力且富有洞察力的图表。
+* [XCL Charts](https://github.com/xcltapestry/XCL-Charts)：XCL-Charts基于Android原生Canvas来绘制各种图表，使用简便，定制灵活。
+* [AndroidCharts](https://github.com/HackPlan/AndroidCharts)：一个易于使用的带有动画的Android图表库。
+* [Android Charts](https://github.com/limccn/Android-Charts)：Android Charts是一个基于Android SDK用Java编写的开源Android开发框架。
+* [AnyChart Android](https://github.com/AnyChart/AnyChart-Android)：AnyChart Android Charts是一个出色的数据可视化库，可轻松在Android应用中创建交互式图表。
+* [React Native Charts Wrapper](https://github.com/wuxudong/react-native-charts-wrapper)：这个库是流行的Native图表库MPAndroidChart和Charts的React Native包装器。
+* [JZAndroidChart](https://github.com/JingZhuanDuoYing/JZAndroidChart)：Android股票图表库。
+* [DecoView](https://github.com/bmarrdev/android-DecoView-charting)：DecoView是一个功能强大的库，可以在你的Android应用中创建高度可配置的动画圆形图表。
+* [EazeGraph](https://github.com/paulroehr/EazeGraph)：EazeGraph是一个用于创建精美图表的Android库。
+* [Androidplot](https://github.com/halfhp/androidplot)：用于在Android应用中创建动态和静态图表的库。
+* [KLineChart](https://github.com/fujianlian/KLineChart)：Android仿火币K线图实现。
+* [Compose Charts](https://github.com/tehras/charts)：这是一个使用Android Jetpack Compose库绘制和制作动画图表的库。
+* [Spark](https://github.com/robinhood/spark)：一个简单的Android迷你图视图。
+* [React Native PathJS Charts](https://github.com/capitalone/react-native-pathjs-charts)：该库是一个跨平台(iOS/Android)图表/图形库，使用react-native-svg和routes-js。
+* [OXChart](https://github.com/openXu/OXChart)：各种自定义图表库，使用简单、支持扩展。
+* [ChartProgressBar](https://github.com/hadiidbouk/ChartProgressBar-Android)：绘制进度条样式的图表。
+* [Fit Chart](https://github.com/txusballesteros/fit-chart)：Fit Chart是一个类似于Google Fit轮盘图表的Android视图。
+* [Vico](https://github.com/patrykandpatrick/vico)：Vico是一个功能强大且可扩展的多平台图表库。
+* [React Native Graph](https://github.com/margelo/react-native-graph)：React Native Graph是基于高性能2D图形渲染引擎Skia的线图实现。
+* [Charty](https://github.com/hi-manshu/charty)：一个简洁轻巧的Jetpack Compose图表库。
+* [AAChartCore](https://github.com/AAChartModel/AAChartCore)：AAChartCore是AAChartKit的Java语言版本，是一套面向对象的、易于使用的、极其优雅的图形绘制控件，基于流行的开源前端图表库Highcharts。
+* [AAInfographics](https://github.com/AAChartModel/AAChartCore-Kotlin)：AAInfographics是AAChartKit的Kotlin语言版本，是一套面向对象的、易于使用的、极其优雅的图形绘制控件，基于流行的开源前端图表库Highcharts。
+* [React Native ECharts](https://github.com/wuba/react-native-echarts)：Apache Echarts的React Native版本，基于react-native-svg和react-native-skia，由58同城开源。
+* [AChartEngine](https://github.com/ddanny/achartengine)：AChartEngine是一个适用于Android应用程序的图表库。
+* [SectorProgressView](https://github.com/timqi/SectorProgressView)：一个使用圆形和扇形的Android简单进度提示或图表小部件。
+* [YCharts](https://github.com/codeandtheory/YCharts)：YCharts是一个适用于Android的图库。
+* [Compose Charts](https://github.com/ehsannarmani/ComposeCharts)：Jetpack Compose的动画和灵活实用图表。
+* [AAY Chart](https://github.com/TheChance101/AAY-chart)：该库包含多个图表可组合项，可用于Kotlin Multiplatform项目和Android Native。
+* [IkvStockChart](https://github.com/lbglobal/ikvStockChart)：一个简单的Android股票图表库。
+* [RadarChartView](https://github.com/DmitriyZaitsev/RadarChartView)：用于渲染放射状图表的Android视图。
+* [RadarChart](https://github.com/qstumn/RadarChart)：一个可以自由定制、旋转交互的Android雷达图库。
+* [PercentageChartView](https://github.com/RamiJ3mli/PercentageChartView)：基于Java的易于使用且高度可调整的自定义视图，可显示单个给定任务的进度。
+* [Charts](https://github.com/dautovicharis/charts)：这是一个使用Jetpack Compose构建的简单图表库。
+* [Snake](https://github.com/txusballesteros/snake)：Snake库是适用于Android的简单动画折线图。
+* [SmartChart](https://github.com/huangyanbin/SmartChart)： SmartChart是一个Android图表框架，支持线性图(折线，曲线，散点)柱状图、面积图、饼图、3D柱状图、雷达图、风向玫瑰图，支持图表多样化配置。
+* [SparkLineLayout](https://github.com/majorkik/SparkLineLayout)：简单轻量级的迷你图/图表绘制库，支持标记和渐变。
+* [Stfalcon PriceRangeBar](https://github.com/stfalcon-studio/StfalconPriceRangeBar-android)：用于添加价格范围图表的Android库，可灵活定制，由Stfalcon开发。
+* [Sensify](https://github.com/JunkieLabs/sensify-android)：Jetpack Compose和Kotlin Flow中的MPAndroidChart。
+* [StockChart](https://github.com/wangyiqian/StockChart)：StockChart一款适用于Android的高扩展性、高性能股票图/K线图开发库。
+* [Android LineChart](https://github.com/jeanboydev/Android-LineChart)：一个简单的折线，贝塞尔曲线图表控件，高度可扩展，支持动态显示。
+* [Compose Charts](https://github.com/bytebeats/compose-charts)：适用于多平台的简单Jetpack Compose Charts，包括Android、Web和桌面。
+* [SlimChart](https://github.com/mancj/SlimChart)：SlimChart是一款轻量且易于使用的Android图表库。
+* [LChart](https://github.com/linheimx/LChart)：这是一个折线图框架，它提供了几个非常实用的功能，简单易用。
+* [Plot](https://github.com/Madrapps/plot)：具有不同图形和图表的Android Compose库。
+* [Rings](https://github.com/lalongooo/rings)：一个简单的Android图表，包含三个指标和一个用于显示总体摘要的指标。
+* [LiveChart](https://github.com/Pfuster12/LiveChart)：LiveChart是一个开源的Android库，用于绘制美观而强大的图表。
+* [SuperChartView](https://github.com/Victory-Over/SuperChartView)：可滑动的自动回滚图表控件、自定义View属性、折线曲线图表。
+* [Lightweight Charts Android](https://github.com/tradingview/lightweight-charts-android)：Android Lightweight Charts是TradingView Lightweight Charts库的Android包装器。
+* [WeatherChartView](https://github.com/kaku2015/WeatherChartView)：适用于Android的简单天气折线图视图。
+* [FlameBarChart](https://github.com/dyguests/FlameBarChart)：一个炫酷的柱状图表。
+* [ArcChartView](https://github.com/imaNNeo/ArcChartView)：你可以使用这个库来绘制弧形图。
+* [Timeline Chart View](https://github.com/jruesga/timeline-chart-view)：用于表示时间线上的数据的Android视图。
+* [EasyScrollerChartView](https://github.com/aiceking/EasyScrollerChartView)：EasyScrollerChartView是一个自定义绘制内容，可滑动、惯性滑动、边界回弹、可点击的坐标系图。
+* [GraphView](https://github.com/jjoe64/GraphView)：GraphView是一个Android库，用于以编程方式创建灵活且美观的图表。
+* [HoloGraphLibrary](https://github.com/Androguide/HoloGraphLibrary)：这是一个库，旨在让你轻松地将精美的图形和图表集成到你的Android应用程序中。
+* [DesCharts](https://github.com/bradipao/desCharts)：Android图表库。
+* [NumAndroidCharts](https://github.com/numetriclabz/numAndroidCharts)：Numetric Technologies推出的强大Android图表库。
+* [Finance.Android](https://github.com/ABTSoftware/Finance.Android)：Finance Charts SDK为原生iOS和Android应用添加了专业级财务图表功能。
+
+#### Android日历库
+
+* [SuperCalendar](https://github.com/MagicMashRoom/SuperCalendar)：Android自定义日历控件，支持左右无限滑动、周月切换、标记日期显示、自定义显示效果跳转到指定日期。
+* [Material Calendar View](https://github.com/prolificinteractive/material-calendarview)：Android CalendarView的Material Design移植版。
+* [CalendarView](https://github.com/huanghaibin-dev/CalendarView)：Android上一个优雅、万能自定义UI、仿iOS、自定义动画，支持垂直、水平方向切换、支持周视图、自定义周起始、性能高效的日历控件。
+* [Calendar](https://github.com/kizitonwose/Calendar)：一个高度可定制的Android和Compose Multiplatform日历库，由用于视图系统的RecyclerView和用于撰写的LazyRow/LazyColumn支持。
+* [TimesSquare](https://github.com/square/android-times-square)：独立的Android小部件，用于从日历视图中选择单个日期，由Square开发。
+* [Android Week View](https://github.com/alamkanak/Android-Week-View)：Android Week View是一个Android库，用于在应用内显示日历(周视图或日视图)。
+* [Simple Calendar](https://github.com/SimpleMobileTools/Simple-Calendar)：Simple Calendar 2023是一款高度可定制的Android离线月历应用程序。
+* [NCalendar](https://github.com/yannecer/NCalendar)：一款安卓日历，仿MIUI、钉钉、华为的日历，万年历、365、周日历、月日历、月视图、周视图滑动切换。
+* [CosmoCalendar](https://github.com/ApplikeySolutions/CosmoCalendar)：CosmoCalendar是一个完全可定制的日历，具有多种功能和显示模式。
+* [CompactCalendarView](https://github.com/SundeepK/CompactCalendarView)：CompactCalendarView是一个简单的日历视图，可在月份之间滚动。
+* [CalendarListview](https://github.com/traex/CalendarListview)：CalendarListview提供了一种使用日历选择日期的简便方法，适用于API 10及以上版本。
+* [Caldroid](https://github.com/roomorama/Caldroid)：Caldroid是一个显示月份日期日历的片段。
+* [Calendar](https://github.com/xiaojianglaile/Calendar)：Android日历，仿小米、华为、滴答清单、365日历。
+* [AgendaCalendarView](https://github.com/Tibolte/AgendaCalendarView)：该库复制了Sunrise日历应用程序中日历和日程视图的基本功能，并结合了Google日历应用程序的一些小设计风格。
+* [Horizontal Calendar](https://github.com/muraee/Horizontal-Calendar)：基于RecyclerView的Android Material水平日历视图。
+* [CalendarExaple](https://github.com/codbking/CalendarExaple)：这是一个高仿钉钉和小米的日历控件，支持快速滑动、界面缓存。
+* [CalendarListView](https://github.com/Kelin-Hong/CalendarListView)：自定义ListView与CalendarView相结合，相互交互。
+* [Material Calendar View](https://github.com/Applandeo/Material-Calendar-View)：Material Calendar View是一款基于Material Design的简单且可定制的Android日历小部件。
+* [React Native Calendar Events](https://github.com/wmcmahan/react-native-calendar-events)：React Native模块帮助访问和保存事件到iOS和Android日历。
+* [Kalendar](https://github.com/hi-manshu/kalendar)：Kalendar是日历组件中的老魔杖，专为追求强大与优雅的Compose魔法师打造。
+* [Date Range Picker](https://github.com/savvisingh/DateRangePicker)：Date Range Picker是一个日历选择器视图，用于显示自定义日期范围选择器，并改进了用户界面和功能，可以为日期添加字幕。
+* [CrunchyCalendar](https://github.com/CleverPumpkin/CrunchyCalendar)：精美的材质日历，具有无限滚动、范围选择等功能。
+* [WeekCalendar](https://github.com/nomanr/WeekCalendar)：WeekCalendar是一个提供每周日历的库。
+* [CollapseCalendarView](https://github.com/blazsolar/android-collapse-calendar-view)：CollapseCalendarView是一个开源Android库，允许开发者轻松地将日历添加到他们的应用中。
+* [EasyCalendar](https://github.com/shichaohui/EasyCalendar)：你可以使用EasyCalendar快速获取日历风格的UI。
+* [ExtendedCalendarView](https://github.com/tyczj/ExtendedCalendarView)：ExtendedCalendarView旨在可以显示日历并按日期显示事件。
+* [PrimeDatePicker](https://github.com/aminography/PrimeDatePicker)：PrimeDatePicker是一款提供单日、多日和日期范围选择的工具。
+* [Android Calendar Card](https://github.com/kenumir/android-calendar-card)：Android日历视图，简单易修改。
+* [CalendarView](https://github.com/shehuan/CalendarView)：Android自定义日历控件。
+* [LightCalendarView](https://github.com/recruit-mp/LightCalendarView)：一个轻量级的Android月历视图，完全用Kotlin编写。
+* [Android Calendar View](https://github.com/myjoybar/android-calendar-view)：使用方便、易扩展的Android日历控件库。
+* [Collapsible CalendarView](https://github.com/shrikanth7698/Collapsible-Calendar-View-Android)：Collapsible CalendarView是一个简单的日历视图，可以折叠以节省空间，并可以在需要时展开。
+* [CalendarView](https://github.com/henry-newbie/CalendarView)：CalendarListview是一个高度定制的日期选择器，可以满足多选日期的需求。
+* [SilkCal](https://github.com/NLMartian/SilkCal)：Android日历视图，受到日出日历和iOS7股票日历的启发。
+* [SingleRowCalendar](https://github.com/misosvec/SingleRowCalendar)：用于水平单行日历的Android库。
+* [Material Calendar View](https://github.com/BlackBoxVision/material-calendar-view)：MaterialCalendarView 是一款更漂亮、更简单的Material Design日历，允许完全自定义，并且向后兼容API 11+。
+* [Compose Calendar](https://github.com/boguszpawlowski/ComposeCalendar)：Compose Calendar是一个可组合的组件，用于处理渲染日历组件和日期选择的所有复杂性。
+* [Cadar](https://github.com/memfis19/Cadar)：Android解决方案，提供月历和列表日历视图，并支持显示事件-仅显示事件集和循环事件。
+* [Calendar](https://github.com/lichao315/Calendar)：这是一个符合中国人使用习惯的Android上自定义日历控件。
+* [PersianMaterialDateTimePicker](https://github.com/mohamad-amin/PersianMaterialDateTimePicker)：该库提供了一个hijri/shamsi(伊朗日历)日期选择器和一个正常时间选择器，它们是根据Google的Material Design Principals For Pickers为Android 4.0.3(API 15)+设计的。
+* [OneCalendarView](https://github.com/darwin-morocho/OneCalendarView)：OneCalendarView是一个自定义CalendarView，允许Android开发人员在任何Android应用程序中拥有相同的CalendarView。
+* [Calendar Picker](https://github.com/maxyou/CalendarPicker)：用于选择日期的日历选择器，可以预设所选日期。
+* [GregorianLunarCalendar](https://github.com/Carbs0126/GregorianLunarCalendar)：GregorianLunarCalendar提供了农历、公历的日期选择模式，同时支持公历、农历的无缝切换。
+* [CalendarDateRangePicker](https://github.com/ArchitShah248/CalendarDateRangePicker)：一个用于选择日期范围的Android库，可帮助用户从未来日期中选择范围。
+* [MCalendarView](https://github.com/SpongeBobSun/mCalendarView)：可定制且可扩展的Android日历小部件。
+* [Android Recurrence Picker](https://github.com/Shusshu/Android-RecurrencePicker)：Google日历重复选择器。
+* [SunDatePicker](https://github.com/alirezaafkar/SunDatePicker)：伊朗日历的日期选择器。
+* [EventsCalendar](https://github.com/tizisdeepan/EventsCalendar)：EventsCalendar是一个用户友好的库，可帮助你通过事件映射实现酷炫的日历UI。
+* [Android CalendarView](https://github.com/SimonVT/android-calendarview)：Android CalendarView小部件移植到2.2。
+* [CustomizableCalendar](https://github.com/MOLO17/CustomizableCalendar)：CustomizableCalendar是一个允许你创建日历、自定义UI和行为的库。
+* [Roboto Calendar View](https://github.com/marcohc/roboto-calendar-view)：Android Roboto Calendar View使用出色的Calligraphy字体库，提供简单且可自定义的日历视图。
+* [CalendarComponent](https://github.com/dengshiwei/CalendarComponent)：日历组件，包含了多个日历控件样式供使用，具有标识事务能力的一套日历组件。
+* [Clean Simple Calendar](https://github.com/dpreussler/clean-simple-calendar)：小型简单的Android日历实现。
+* [CalendarPager](https://github.com/ToDou/CalendarPager)：这是一个带有viewPager的水平日历。
+* [CompactCalendarViewToolbar](https://github.com/kleisauke/CompactCalendarViewToolbar)：在Android Toolbar中使用CompactCalendarView库。
+* [Android Week Calendar](https://github.com/chenyongci/Android-Week-Calendar)：Android可自定义日历方案，支持农历、自定义日历控件、排班、左右滑动、周月切换、跳转到指定日期等功能
+* [MaterialCalendar](https://github.com/jMavarez/MaterialCalendar)：受School Diary的CalendarView启发的Material Design日历。
+* [FlexibleCalendar](https://github.com/p-v/FlexibleCalendar)：适用于Android的可定制日历，具有可定制的事件。
+* [CalendarSelector](https://github.com/TUBB/CalendarSelector)：用于选择日期的日历选择器，支持选择连续的时间段和一些不连续的日期。
+* [Calendar365](https://github.com/haibuzou/Calendar365)：仿365的日历显示。
+* [CalendarView](https://github.com/huangyanbin/CalendarView)：这是使用RecyclerView做的日历，比之前ViewPager不管从逻辑，功能更加强大，实现更加简单。
+* [NestedCalendar](https://github.com/NanBox/NestedCalendar)：使MaterialCalendarView可以嵌套滚动，并平滑切换到周或月模式。
+* [CalendarView](https://github.com/mahendramahi/CalendarView)：这是一个简单的自定义日历视图。
+* [CalendarSelector](https://github.com/lvning/CalendarSelector)：仿淘宝预订日历。
+* [ScrollerCalendar](https://github.com/guanchao/ScrollerCalendar)：ScrollerCalendar为Android 4.0+提供了查看日历的直接方式。
+* [CalendarView](https://github.com/Airsaid/CalendarView)：Android平台上继承View实现的自定义日历控件。
+* [Calendar](https://github.com/WojciechOsak/Calendar)：Kotlin多平台日历库。
+* [Epic Calendar](https://github.com/epicarchitect/epic-calendar)：编写用于显示史诗日历的多平台库。
+* [TaskProgressView](https://github.com/ibrahimsn98/taskprogressview)：适用于Android的轻量级日历任务进度视图库。
+* [WeekCalendar](https://github.com/loonggg/WeekCalendar)：Android周日历库。
+* [DatePickerTimeline](https://github.com/101Loop/DatePickerTimeline)：提供水平日期选择器的Android包。
+* [CustomCalendarView](https://github.com/StackTipsLab/custom-calendar-view)：CustomCalendarView提供了一个简单易用的可自定义日历，用于创建日历。
+* [RecyclerCalendarAndroid](https://github.com/tejpratap46/RecyclerCalendarAndroid)：用Kotlin编写的Android DIY日历生成器库。
+* [Expandable Compose Calendar](https://github.com/mateusz800/Expandable-Compose-Calendar)：用于渲染可扩展日历组件的Jetpack Compose库。
+* [SuperCalendar](https://github.com/Cmahjong/SuperCalendar)：Android日历控件库。
+* [Android CalendarView](https://github.com/laserwave/calendar_view)：一个显示日历的Android小部件。
+
+#### Android布局库
+
+* [FlexboxLayout](https://github.com/google/flexbox-layout)：FlexboxLayout是一个库项目，它为Android带来了类似CSS弹性框布局模块的功能，由Google开发。
+* [Android Swipe Layout](https://github.com/daimajia/AndroidSwipeLayout)：最强大的滑动布局库。
+* [VLayout](https://github.com/alibaba/vlayout)：VLayout是RecyclerView的一个强大的LayoutManager扩展，它为RecyclerView提供了一组布局，由阿里开源。
+* [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)：Android流式布局，支持单选、多选等，适合用于产品标签等。
+* [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)：一个Android TabLayout库，目前有3个TabLayout。
+* [Alerter](https://github.com/Tapadoo/Alerter)：该库旨在克服Toasts和Snackbars的局限性，同时降低布局的复杂性。
+* [JKeyboardPanelSwitch](https://github.com/Jacksgong/JKeyboardPanelSwitch)：Android中键盘和面板布局冲突的处理程序。
+* [SuperTextView](https://github.com/lygttpod/SuperTextView)：SuperTextView是一个功能强大的View，可以满足日常大部分布局样式，开发者可已自行组合属性配置出属于自己风格的样式。
+* [ScalingLayout](https://github.com/iammert/ScalingLayout)：使用缩放布局可以根据用户交互缩放布局。
+* [Android ViewBadger](https://github.com/jgilfelt/android-viewbadger)：一种在运行时“标记”任何给定Android视图的简单方法，无需在布局中迎合它。
+* [ConsecutiveScrollerLayout](https://github.com/donkingliang/ConsecutiveScroller)：ConsecutiveScrollerLayout是Android下支持多个滑动布局(RecyclerView、ViewPager、WebView、ScrollView等)和普通控件(TextView、ImageView、LinearLayou、自定义View等)持续连贯滑动的容器，它使所有的子View像一个整体一样连续顺畅滑动。
+* [GridListViewAdapters](https://github.com/birajpatel/GridListViewAdapters)：该库使你能够在ListView中实现类似卡片布局的GridView，并添加分页、添加页眉页脚视图等功能，还简化了列表和光标数据的实现。
+* [SmartTabLayout](https://github.com/ogaclejapan/SmartTabLayout)：自定义ViewPager标题条，在滚动时向用户提供持续反馈。
+* [AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)：Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配。
+* [SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)：一个Android库，可帮助你构建具有滑动返回手势的应用程序。
+* [LayoutManagerGroup](https://github.com/DingMouRen/LayoutManagerGroup)：自定义RecyclerView的LayoutManager。
+
+#### Android下拉刷新
+
+* [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)：SmartRefreshLayout以打造一个强大、稳定、成熟的下拉刷新框架为目标，并集成各种的炫酷、多样、实用、美观的Header和Footer。
+* [BGARefreshLayout Android](https://github.com/bingoogolapple/BGARefreshLayout-Android)：开发者使用BGARefreshLayout Android可以对各种控件实现多种下拉刷新效果、上拉加载更多以及配置自定义头部广告位。
+* [TwinklingRefreshLayout](https://github.com/lcodecorex/TwinklingRefreshLayout)：TwinklingRefreshLayout扩展了SwipeRefreshLayout的思想，使用ViewGroup来包含View列表，保持了SwipeRefreshLayout的低耦合性和高通用性。
+* [Ultra Pull To Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)：Android超级下拉刷新，支持所有视图。
+* [Android Pull To Refresh](https://github.com/chrisbanes/Android-PullToRefresh)：该项目旨在为Android提供可重复使用的下拉刷新小部件。
+* [Phoenix](https://github.com/Yalantis/Phoenix)：Phoenix下拉刷新。
+* [LRecyclerView](https://github.com/jdsjlzx/LRecyclerView)：LRecyclerView是支持addHeaderView、addFooterView、下拉刷新、分页加载数据的RecyclerView。
+* [XRefreshView](https://github.com/huxq17/XRefreshView)：一个万能的Android下拉上拉刷新的框架，完美支持RecyclerView。
+* [MVCHelper](https://github.com/LuckyJayce/MVCHelper)：MVCHelper主要用于下拉刷新加载、失败、加载、空数据、成功的界面切换。
+* [PullLoadMoreRecyclerView](https://github.com/WuXiaolong/PullLoadMoreRecyclerView)：实现RecyclerView下拉刷新和上拉加载更多以及RecyclerView线性、网格、瀑布流效果演示。
+* [FunGameRefresh](https://github.com/Hitomis/FunGameRefresh)：有趣好玩的下拉刷新库。
+* [SmoothRefreshLayout](https://github.com/dkzwm/SmoothRefreshLayout)：一个高效的Android刷新库，理论上支持所有的视图，比官方的SwipeRefreshLayout更强大且使用方便。
+* [EasyBehavior](https://github.com/JmStefanAndroid/EasyBehavior)：一个可以上拉下滑的UI效果。
+* [ActionBar PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh)：ActionBar PullToRefresh提供了一种简单的方法来向你的应用程序添加现代版本的下拉刷新交互。
+* [Android PullToRefresh](https://github.com/johannilsson/android-pulltorefresh)：该项目旨在为Android提供可重复使用的下拉刷新小部件。
+* [BeautifulRefreshLayout](https://github.com/android-cjj/BeautifulRefreshLayout)：漂亮的RefreshLayout。
+* [MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)：这是一个下拉刷新控件，比SwipeRefreshLayout更美观、功能更强大，使用简单。
+* [SwipeToLoadLayout](https://github.com/Aspsine/SwipeToLoadLayout)：SwipeToLoadLayout是一个可重复使用的下拉刷新和下拉加载更多小部件。
+* [Android PullRefreshLayout](https://github.com/baoyongzhang/android-PullRefreshLayout)：这个组件类似于SwipeRefreshLayout，但是比SwipeRefreshLayout更美观。
+* [EasyRecyclerView](https://github.com/Jude95/EasyRecyclerView)：将开发中常用的RecyclerView的各种需求封装进库。
+* [SuperRecyclerView](https://github.com/Malinskiy/SuperRecyclerView)：这是为了让RecyclerView更易于使用的一次尝试。
+* [SpringView](https://github.com/liaoinstan/SpringView)：SpringView是一个提供上下拉拖拽功能的组件，可以高度定制，实现各种下拉\拉画效果。
+* [https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout)：该项目旨在为Android提供可重复使用的WaveSwipe刷新小部件。
+* [CircleRefreshLayout](https://github.com/tuesda/CircleRefreshLayout)：这是一个具有自定义下拉刷新布局的项目，其中包含有趣的动画。
+* [RecyclerRefreshLayout](https://github.com/dinuscxj/RecyclerRefreshLayout)：一个用于Android的下拉刷新布局，RecyclerRefreshLayout基于SwipeRefreshLayout。
+* [Taurus](https://github.com/Yalantis/Taurus)：该项目旨在提供一个简单且可定制的下拉刷新实现。
+* [PullToMakeSoup](https://github.com/Yalantis/pull-to-make-soup)：可轻松添加到RecyclerView的自定义动画下拉刷新。
+* [SuperSwipeRefreshLayout](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout)：自定义SwipeRefreshLayout以支持下拉刷新功能。
+* [CommonPullToRefresh](https://github.com/Chanven/CommonPullToRefresh)：Android小部件具有可下拉刷新所有视图的功能，并支持ListView、RecyclerView、GridView和SwipeRefreshLayout的loadMore功能。
+* [FlyRefresh](https://github.com/race604/FlyRefresh)：Replace的Android实现，由Zee Youn设计。
+
+#### Android项目模板
+
+* [Android CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)：这是一个示例应用程序，关于如何使用Uncle Bob的清洁架构方法构建Android应用程序。
+* [Android Clean Architecture Boilerplate](https://github.com/bufferapp/android-clean-architecture-boilerplate)：使用清洁架构的Android样板项目。
+* [Android Clean Boilerplate](https://github.com/dmilicic/Android-Clean-Boilerplate)：这是使用清洁架构编写Android应用程序的入门模板。
+* [Android Boilerplate](https://github.com/hitherejoe/Android-Boilerplate)：一个简单的样板应用程序，演示了数据的下载、保存和同步-以应用程序中使用的通用布局显示。
+* [Android Clean Architecture Components Boilerplate](https://github.com/bufferapp/clean-architecture-components-boilerplate)：这是原始Clean Architecture Boilerplate的一个分支，已将表示层中的MVP方法切换为使用Android Architecture Components Library中的ViewModels。
+
+#### Android图像库
+
+* [Glide](https://github.com/bumptech/glide)：Glide是一个快速高效的Android开源媒体管理和图像加载框架，它将媒体解码、内存和磁盘缓存以及资源池整合到一个简单易用的界面中。
+* [Picasso](https://github.com/square/picasso)：Picasso是一个强大的Android图像下载和缓存库，由Square开源。
+* [Fresco](https://github.com/facebook/fresco)：Fresco是一个用于在Android应用程序中显示图像的强大的系统，由Facebook开源。
+* [Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader)：用于在Android上加载、缓存和显示图像的强大而灵活的库。
+* [uCrop](https://github.com/Yalantis/uCrop)：Android图像裁剪库。
+* [Coil](https://github.com/coil-kt/coil)：适用于Android和Compose Multiplatform的图像加载库。
+* [Glide Transformations](https://github.com/wasabeef/glide-transformations)：一个Android转换库，为Glide提供各种图像转换。
+* [Subsampling Scale Image View](https://github.com/davemorrissey/subsampling-scale-image-view)：专为Android打造的自定义图像视图，专为照片库设计，可显示巨幅图像(例如地图和建筑平面图)，且不会出现OutOfMemoryError错误。
+* [Android Image Cropper](https://github.com/ArthurHub/Android-Image-Cropper)：适用于Android的图像裁剪库，针对相机/图库进行了优化。
+* [Compressor](https://github.com/zetbaitsu/Compressor)：Compressor是一款轻量级且功能强大的Android图像压缩库。
+* [Ion](https://github.com/koush/ion)：Android异步网络和图像加载。
+* [MagicCamera](https://github.com/wuhaoyu1990/MagicCamera)：适用于Android的实时滤镜相机和视频录制器以及具有美颜功能的图像编辑器。
+* [Android Crop](https://github.com/jdamcd/android-crop)：一个基于AOSP代码的Android库项目，提供简单的图像裁剪活动。
+* [PhotoEditor](https://github.com/burhanrashid52/PhotoEditor)：一个照片编辑器库，支持使用绘画、文本、过滤器、表情符号和贴纸等简单、轻松地进行图像编辑。
+
+#### Android ImageView
+
+* [PhotoView](https://github.com/Baseflow/PhotoView)：PhotoView旨在帮助生成一个易于使用的缩放Android ImageView实现。
+* [CircleImageView](https://github.com/hdodenhof/CircleImageView)：一个快速的圆形ImageView，非常适合用于头像。
+* [RoundedImageView](https://github.com/vinc3m1/RoundedImageView)：支持圆角、椭圆和圆形的快速ImageView。
+* [TouchImageView](https://github.com/MikeOrtiz/TouchImageView)：为Android ImageView添加触摸功能。
+* [TextDrawable](https://github.com/amulyakhare/TextDrawable)：TextDrawable这个轻量级库提供带有字母/文本的图像，就像Gmail应用程序一样。
+* [KenBurnsView](https://github.com/flavioarfaria/KenBurnsView)：Android库为ImageView提供了扩展，通过使用Ken Burns效果为其可绘制内容制作动画来创造身临其境的体验。
+* [Shape Image View](https://github.com/siyamed/android-shape-imageview)：提供一组自定义形状的Android ImageView组件，以及一个用于定义更多形状的框架。
+
 ## GUI开发/程序
 
 这里列出了Java中常用的Swing、JavaFX开发库，以及一些Java开发的GUI工具和游戏引擎。
@@ -780,7 +1046,6 @@
 * [Terasology](https://github.com/MovingBlocks/Terasology)：Terasology项目诞生于受Minecraft启发的技术演示，并正在成为体素世界中各种类型游戏设置的稳定平台。
 * [AndEngine](https://github.com/nicolasgramlich/AndEngine)：免费Android 2D OpenGL游戏引擎。
 * [XMage](https://github.com/magefree/mage)：XMage允许你与一名或多名在线玩家或电脑对手玩万智牌。
-* [JForGame](https://github.com/kingston-csj/jforgame)：JForGame是一个用Java编写的轻量级高性能手游服务端框架，包含游戏服、跨服、匹配服、后台管理系统等模块。
 * [FriceEngine](https://github.com/icela/FriceEngine)：FriceEngine是一个简单、轻量级的原生游戏引擎，主要运行在JVM上。
 * [TripleA](https://github.com/triplea-game/triplea)：TripleA是一款回合制策略游戏和棋盘游戏引擎，类似于Axis & Allies或Risk。
 * [Delver](https://github.com/Interrupt/delverengine)：Delver游戏引擎和编辑器。
@@ -821,6 +1086,7 @@
 * [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式java游戏服务器。
 * [AiJ](https://gitee.com/xiyoufang/aij)：AiJ是一套完整的房间类游戏解决方案，支持无限水平扩展来满足更大的人数承载，并且提供了良好的调试接口。
 * [Summer](https://github.com/SwingFrog/Summer)：Summer是一个轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
+* [JForGame](https://github.com/kingston-csj/jforgame)：JForGame是一个用Java编写的轻量级高性能手游服务端框架，包含游戏服、跨服、匹配服、后台管理系统等模块。
 * [Mmorpg](https://github.com/kingston-csj/mmorpg)：Mmorpg是一个用Java编写的分布式高性能mmorpg手游服务端框架。
 * [GameServer4j](https://github.com/jzyong/GameServer4j)：分布式Java游戏服务器，包括登录、网关、游戏演示。
 * [ZFoo](https://github.com/zfoo-project/zfoo)：ZFoo是一个极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。

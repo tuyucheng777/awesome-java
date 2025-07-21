@@ -246,6 +246,8 @@
     * [执行策略](docs/doc2.md#执行策略)
     * [GraphQL标量](docs/doc2.md#GraphQL标量)
 * [日期时间](docs/doc2.md#日期时间)
+    * [日历库](docs/doc2.md#日历库)
+    * [日期/时间解析器](docs/doc2.md#日期时间解析器)
 * [实体解析](docs/doc2.md#实体解析)
 * [数据科学](docs/doc2.md#数据科学)
     * [数据可视化](docs/doc2.md#数据可视化)
@@ -435,6 +437,17 @@
     * [Facebook机器人](docs/doc2.md#Facebook机器人)
     * [QQ机器人](docs/doc2.md#QQ机器人)
     * [微信机器人](docs/doc2.md#微信机器人)
+* [Android开发](docs/doc3.md#Android开发)
+    * [ActionBar小部件](docs/doc3.md#ActionBar小部件)
+    * [Activity小部件](docs/doc3.md#Activity小部件)
+    * [Adapter](docs/doc3.md#Adapter)
+    * [Android图表库](docs/doc3.md#Android图表库)
+    * [Android日历库](docs/doc3.md#Android日历库)
+    * [Android布局库](docs/doc3.md#Android布局库)
+    * [Android下拉刷新](docs/doc3.md#Android下拉刷新)
+    * [Android项目模板](docs/doc3.md#Android项目模板)
+    * [Android图像库](docs/doc3.md#Android图像库)
+    * [Android ImageView](docs/doc3.md#Android-ImageView)
 * [GUI开发/程序](docs/doc3.md#GUI开发程序)
     * [GUI框架](docs/doc3.md#GUI框架)
     * [移动开发框架](docs/doc3.md#移动开发框架)
@@ -3848,6 +3861,7 @@
 * [XXL-Conf](https://gitee.com/xuxueli0323/xxl-conf)：XXL-CONF是一个轻量级分布式配置管理平台，拥有轻量级、秒级动态推送、多环境、跨语言、跨机房、配置监听、权限控制、版本回滚等特性。
 * [Archaius](https://github.com/Netflix/archaius)：Archaius是一个配置库，用于将静态和动态配置的混合作为单个配置单元进行访问，由Netflix开源。
 * [Cerberus](https://github.com/Nike-Inc/cerberus)：Cerberus API是一个云原生、可扩展的Spring Boot应用程序，可以安全地存储应用程序属性和文件，并具有强大的审核功能，Nike开源。
+* [PureConfig](https://github.com/pureconfig/pureconfig)：PureConfig是一个用于加载配置文件的Scala库。
 * [Apache Commons Configuration](https://github.com/apache/commons-configuration)：Commons Configuration库提供了一个通用配置接口，使Java应用程序能够从各种源读取配置数据。
 * [QConfig](https://github.com/qunarcorp/qconfig)：QConfig中心式配置中心，提供高可用的配置托管/动态热更新服务，由去哪儿开源。
 * [Hoplite](https://github.com/sksamuel/hoplite)：Hoplite是一个Kotlin库，用于以非样板方式将配置文件加载到类型安全类中。
@@ -4078,7 +4092,6 @@
 * [Phrasal](https://github.com/stanfordnlp/phrasal)：Phrasal是用Java编写的大型统计机器翻译系统，由斯坦福开源。
 * [Apache NLPCraft](https://github.com/apache/incubator-nlpcraft)：NLPraft是一个开源库，用于为现代应用程序添加自然语言接口。
 * [HeidelTime](https://github.com/HeidelTime/heideltime)：HeidelTime是海德堡大学开发的多语言、领域敏感的时间标记器。
-* [Hawking](https://github.com/zoho/hawking)：Hawking是一个自然语言日期时间解析器，可以从具有上下文的文本中提取日期和时间并解析为所需的格式。
 * [NLP4J](https://github.com/emorynlp/nlp4j)：NLP4J为JVM语言提供了一个NLP工具包，由埃默里大学NLP研究小组开发。
 * [Apache Joshua](https://github.com/apache/joshua)：Joshua是一个开源统计机器翻译解码器，用于基于短语、分层和基于语法的机器翻译，由约翰霍普金斯大学人类语言技术卓越中心开发。
 * [ClearTK](https://github.com/ClearTK/cleartk)：ClearTK提供了一个用Java开发统计自然语言处理组件的框架，并构建在UIMA之上，由科罗拉多大学博尔德分校开发。
