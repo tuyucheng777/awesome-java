@@ -272,7 +272,6 @@
 * [DeepfakeHTTP](https://github.com/xnbox/DeepfakeHTTP)：DeepfakeHTTP是一个使用HTTP转储作为响应源的Web服务器。
 * [Jadler](https://github.com/jadler-mocking/jadler)：Jadler是一个Java库，用于以声明方式存根和模拟HTTP服务器和资源。
 * [SpecMock](https://github.com/specmock/specmock)：SpecMock提供了各种规格的Mock Server，提供轻量、快速且易于使用的体验。
-* [Logging Interceptor](https://github.com/ihsanbal/LoggingInterceptor)：Logging Interceptor是一个OkHttp拦截器，具有漂亮的请求和响应记录器，以及Mock支持。
 * [ZeroMock](https://github.com/tonivade/zeromock)：零依赖的模拟HTTP Server。
 * [OKHttp Client Mock](https://github.com/gmazzo/okhttp-client-mock)：一个简单的OKHttp客户端Mock，使用可编程请求拦截器。
 * [OkReplay](https://github.com/airbnb/okreplay)：OkReplay旨在通过拦截应用程序发起的HTTP连接并重放之前记录的响应，由Airbnb开发。
@@ -680,9 +679,8 @@
 * [JJWT](https://github.com/jwtk/jjwt)：JJWT旨在成为最易于使用和理解的库，用于在JVM和Android上创建和验证JWT和JWK。
 * [Java JWT](https://github.com/auth0/java-jwt)：JWT的Java实现。
 * [Pac4j](https://github.com/pac4j/pac4j)：Pac4j是一个简单而强大的Java安全框架，支持OAuth、CAS、SAML、OIDC、LDAP、JWT。
-* [JWT Starter](https://github.com/bfwg/springboot-jwt-starter)：适用于无状态和基于令牌的身份验证应用程序的Spring Boot JWT Starter套件。
 * [Jose4j](https://bitbucket.org/b_c/jose4j/src/master/)：Jose4j库是IETF JOSE工作组的JWS、JWE、JWA和JWK的开源实现，它是用Java编写的，并且仅依赖于JCA API进行加密。
-* [Nimbus JOSE JWT](https://connect2id.com/products/nimbus-jose-jwt)：适用于Java和Android的JWT库。
+* [Nimbus JOSE JWT](https://bitbucket.org/connect2id/nimbus-jose-jwt)：适用于Java和Android的JWT库，由Connect2id开源。
 * [FusionAuth JWT](https://github.com/FusionAuth/fusionauth-jwt)：一个简单易用的Java 8 JWT库，全天验证、签名、编码、解码。
 * [Vert.x Auth](https://github.com/vert-x3/vertx-auth)：Vertx框架提供JWT集成的库。
 * [Inverno](https://github.com/inverno-io/inverno-mods/tree/master/inverno-security-jose)：Inverno框架提供JWT库，提供JSON对象签名和加密RFC规范的完整实现。
@@ -691,6 +689,8 @@
 * [JWT Resource Server](https://github.com/entur/jwt-resource-server)：用于依赖使用Access Tokens进行授权的同步(基于Servlet)OpenID资源服务器的工具。
 * [JWTDecode](https://github.com/auth0/JWTDecode.Android)：JWTDecode是一个帮助你解码JWT的库。
 * [JWKS RSA Java](https://github.com/auth0/jwks-rsa-java)：一个用于从JWKS端点获取JSON Web Key的Java库。
+* [Okta JWT Verifier Java](https://github.com/okta/okta-jwt-verifier-java)：Java版Okta JWT验证器。
+* [JWT Scala](https://github.com/jwt-scala/jwt-scala)：Scala的JWT支持库。
 
 #### OAuth库
 
@@ -914,7 +914,6 @@
 * [WSO2 API Manager](https://github.com/wso2/product-apim)：WSO2 API Manager是一个用于创建、管理、使用和监控Web API的强大平台。
 * [Y9 API Platform](https://gitee.com/risesoft-y9/y9-interface-platform)：基于Spring Boot、Vue前后端分离的接口管理平台，由北京有生博大软件开发。
 * [Apiman](https://github.com/apiman/apiman)：Apiman是一个灵活的开源API管理平台，由RedHat开源。
-* [Repose](https://github.com/rackerlabs/repose)：Repose为API处理任务提供解决方案，例如身份验证、速率限制、API验证、HTTP请求日志记录等等。
 * [Postin](https://github.com/tiklab-project/tiklab-postin)：Postin提供API设计、调试、文档生成和Mock数据模拟等一站式解决方案。
 * [EasyOpen](https://gitee.com/durcframework/easyopen)：EasyOpen是一个简单易用的接口开放平台，平台封装了常用的参数校验、结果返回等功能。
 * [Torna](https://gitee.com/durcframework/torna)：Torna是一个接口文档解决方案，目标是让接口文档管理变得更加方便、快捷。
@@ -1190,9 +1189,9 @@
 * [Almond](https://github.com/almond-sh/almond)：Almond是Jupyter的Scala内核。
 * [Apache Toree](https://github.com/apache/incubator-toree)：Toree是Juypter Notebook内核，主要目标是为使用Scala语言连接和使用Spark的交互式应用程序提供基础。
 * [IJava](https://github.com/SpencerPark/IJava)：用于执行Java代码的Jupyter内核。
+* [JJava](https://github.com/dflib/jjava)：JJava是由DFLib社区维护的Jupyter Java内核。
 * [SciJava Kernel](https://github.com/scijava/scijava-jupyter-kernel)：基于BeakerX的已失效内核。
 * [BeakerX](https://github.com/twosigma/beakerx)：BeakerX是JVM内核和交互式小部件的集合，用于绘图、表格、自动翻译以及Jupyter Notebook和Jupyter Lab版本1.2.x和2.x的其他扩展。
-* [JNotebook](https://github.com/cyrilou242/jnotebook)：JNotebook是一个现代的Java Notebook系统，JNotebook解释Java JShell文件并将它们呈现为笔记本。
 
 ## 元启发式框架
 
@@ -2007,7 +2006,7 @@
 * [Spire.Barcode](https://www.e-iceblue.com/Introduce/barcode-for-java.html)：Spire.Barcode是一款专业的条形码组件，专为开发人员在Java应用程序上生成、读取和扫描1D和2D条形码而设计。
 * [QArt4J](https://github.com/dieforfree/qart4j)：提供ASCII Art输出图像的QR码生成器。
 * [Barbecue](https://barbecue.sourceforge.net/)：Barbecue是一个开源的Java库，它提供了创建用于在Java应用程序中打印和显示的条形码的方法。
-* [Barcode4J](https://barcode4j.sourceforge.net/)：Barcode4J是一个用Java编写的灵活的条形码生成器。
+* [Barcode4J](https://github.com/SingingBush/barcode4j)：Barcode4J是一个用Java编写的灵活的条形码生成器。
 * [QRGen](https://github.com/kenglxn/QRGen)：基于ZXING构建的简单的Java二维码生成API。
 * [ZXingGenerator](https://github.com/vivian8725118/ZXingGenerator)：花式二维码生成库，提供了6种样式。
 * [Visual QR Code](https://gitee.com/boat824109722/visual-qr-code)：Visual QR Code可以创建出设置了虚拟背景图片的二维码。
@@ -2665,9 +2664,10 @@
 * [Google Java Format](https://github.com/google/google-java-format)：Google Java Format是一个重新格式化Java源代码以符合Google Java风格的程序。
 * [Spring Java Format](https://github.com/spring-io/spring-javaformat)：一组可应用于任何Java项目以提供一致的Spring风格的插件。
 * [Square Java Code Style](https://github.com/square/java-code-styles)：Square的Java和Android项目的IntelliJ IDEA代码样式设置。
+* [P3C](https://github.com/alibaba/p3c)：阿里巴巴Java编码指南PMD实现和IDE插件。
+* [Cookpad Style Guide](https://github.com/cookpad/styleguide)：Cookpad的编码风格指南。
 * [Spotless](https://github.com/diffplug/spotless)：Spotless是支持多种语言的代码格式化工具。
 * [Prettier Java](https://github.com/jhipster/prettier-java)：Prettier是一个代码格式化程序，它通过解析代码并使用自己的规则重新打印代码来强制执行一致的样式。
-* [P3C](https://github.com/alibaba/p3c)：阿里巴巴Java编码指南PMD实现和IDE插件。
 * [CodeBuff](https://github.com/antlr/codebuff)：Codebuff是一种使用机器学习算法的格式化工具。
 * [Cornell Java Code Style](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)：康奈尔大学Java编程风格指南。
 * [Oracle Java Code Convention](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)：Oracle官方Java代码约定。
@@ -2696,6 +2696,7 @@
 * [FASTEN](https://github.com/fasten-project/fasten)：FASTEN项目是一个智能软件包管理系统，旨在增强软件生态系统的稳健性和安全性，由代尔夫特理工大学开源。
 * [MissingLink](https://github.com/spotify/missinglink)：用于检测Java项目中链接问题的构建时工具，由Spotify开源。
 * [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort)：OSS Review Toolkit是一个FOSS策略自动化和编排工具包，你可以使用它以战略、安全和高效的方式管理你的软件依赖项。
+* [Eureka](https://github.com/LegacyCodeHQ/eureka)：与Kotlin和Java代码库兼容的突破性工具。
 
 ## 污点分析
 
@@ -2872,6 +2873,7 @@
 * [Spring Boot Starter Kit](https://github.com/khandelwal-arpit/springboot-starterkit-mysql)：适用于带有MySQL数据库的Spring Boot应用程序的生产就绪入门套件。
 * [XDropWizard](https://github.com/knowm/XDropWizard)：一个快速启动的DropWizard Web应用程序，集成并演示了几个有用的开源项目。
 * [Spring Boot Application Template](https://github.com/AnanthaRajuC/Spring-Boot-Application-Template)：此代码库包含一个用于引导单体式Web应用的脚手架/配方。
+* [JWT Starter](https://github.com/bfwg/springboot-jwt-starter)：适用于无状态和基于令牌的身份验证应用程序的Spring Boot JWT Starter套件。
 
 #### 低代码
 
@@ -3080,6 +3082,7 @@
 
 * [Halo](https://github.com/halo-dev/halo)：Halo是一个强大易用的开源建站工具，由飞致云开源。
 * [Novel](https://github.com/201206030/novel)：Novel是一套基于Java技术栈Spring Boot 3、Vue 3开发的前后端分离学习型小说项目。
+* [AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)：AEM是一个以Java为核心开发的企业级内容管理系统，这是Adobe的商业产品。
 * [MCMS](https://gitee.com/mingSoft/MCMS)：MCMS是免费可商用的开源Java CMS内容管理系统，由铭软科技公司开源。
 * [JPress](https://gitee.com/JPressProjects/jpress)：JPress是一个使用Java开发、类似WordPress的产品，支持多站点、多语种自动切换等，由小码科技开源。
 * [师说CMS](https://gitee.com/shishuo/CMS_old)：师说CMS是一款使用Java语言开发的CMS，使用了Spring MVC、Spring、MyBatis等流行框架，提供首页大图管理、目录管理、文章管理和管理员管理等功能。
@@ -3167,6 +3170,7 @@
 * [MDP ARC](https://gitee.com/maimengcloud/mdp-arc-backend)：MDP ARC以内容管理为核心，涵盖文章管理、广告管理、文件管理、图片管理、素材存储的内容管理一站式解决方案。
 * [Ikaros](https://github.com/ikaros-dev/ikaros)：专注于ACGMN的内容管理系统。
 * [Tumo](https://github.com/TyCoding/tumo)：Tumo Blog是一个简洁美观的博客系统，基于Spring Boot 2.X、Vue.js。
+* [Dice](https://github.com/bihell/Dice)：Dice是一个前后端分离的个人内容管理(CMS)系统。
 
 #### 论坛系统
 
@@ -4088,7 +4092,6 @@
 * [gRPC Spring Boot](https://github.com/grpc-ecosystem/grpc-spring)：gRPC框架的Spring Boot Starter库。
 * [gRPC Spring Boot](https://github.com/LogNet/grpc-spring-boot-starter)：gRPC的Spring Boot Starter模块。
 * [gRPC Starter](https://github.com/DanielLiu1123/grpc-starter)：该项目为gRPC生态系统提供了开箱即用、高度可扩展的Spring Boot Starter。
-* [JProtobuf](https://github.com/jhunters/jprotobuf)：JProtobuf是针对Java程序开发的一套简易类库，目的是简化Java语言对protobuf类库的使用，百度开源。
 * [Polyglot](https://github.com/grpc-ecosystem/polyglot)：Polyglot是一个gRPC客户端，可以与任何gRPC服务器通信。
 * [gRPC Spring Boot Starter](https://github.com/AnoyiX/grpc-spring-boot-starter)：Spring Boot快速集成gRPC，轻松实现远程方法调用。
 * [gRPC Swagger](https://github.com/grpc-swagger/grpc-swagger)：使用Swagger-UI调试gRPC应用程序。
