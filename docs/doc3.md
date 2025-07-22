@@ -170,7 +170,6 @@
 * [Epic Calendar](https://github.com/epicarchitect/epic-calendar)：编写用于显示史诗日历的多平台库。
 * [TaskProgressView](https://github.com/ibrahimsn98/taskprogressview)：适用于Android的轻量级日历任务进度视图库。
 * [WeekCalendar](https://github.com/loonggg/WeekCalendar)：Android周日历库。
-* [DatePickerTimeline](https://github.com/101Loop/DatePickerTimeline)：提供水平日期选择器的Android包。
 * [CustomCalendarView](https://github.com/StackTipsLab/custom-calendar-view)：CustomCalendarView提供了一个简单易用的可自定义日历，用于创建日历。
 * [RecyclerCalendarAndroid](https://github.com/tejpratap46/RecyclerCalendarAndroid)：用Kotlin编写的Android DIY日历生成器库。
 * [Expandable Compose Calendar](https://github.com/mateusz800/Expandable-Compose-Calendar)：用于渲染可扩展日历组件的Jetpack Compose库。
@@ -228,6 +227,45 @@
 * [SuperSwipeRefreshLayout](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout)：自定义SwipeRefreshLayout以支持下拉刷新功能。
 * [CommonPullToRefresh](https://github.com/Chanven/CommonPullToRefresh)：Android小部件具有可下拉刷新所有视图的功能，并支持ListView、RecyclerView、GridView和SwipeRefreshLayout的loadMore功能。
 * [FlyRefresh](https://github.com/race604/FlyRefresh)：Replace的Android实现，由Zee Youn设计。
+* [XListView](https://github.com/Maxwin-z/XListView-Android)：ListView支持下拉刷新和上拉加载更多功能。
+* [PullToRefreshAndLoad](https://github.com/jingchenUSTC/PullToRefreshAndLoad)：Android下拉刷新上拉加载控件，对所有View通用。
+* [IRecyclerView](https://github.com/Aspsine/IRecyclerView)：IRecyclerView是一个自定义的RecyclerView，支持下拉刷新、下拉加载更多、自定义刷新页眉和加载更多页脚、添加页眉视图和页脚视图。
+* [PullToRefresh](https://github.com/MarkMjw/PullToRefresh)：根据Maxwin的XListView改造而来，完善下拉刷新上拉加载更多的功能并实现自动刷新以及自动加载等功能，并增加对ScrollView的支持。
+* [PullRefreshLayout](https://github.com/genius158/PullRefreshLayout)：PullRefreshLayout是一个专注回弹和手势操作无阻塞的刷新库。
+* [EasyRefreshLayout](https://github.com/anzaizai/EasyRefreshLayout)：继承此库可以让你轻松实现下拉刷新和上传。
+* [FireworkyPullToRefresh](https://github.com/Cleveroad/FireworkyPullToRefresh)：使用此库可以刷新你的数据。
+* [PullToRefresh ListView](https://github.com/erikwt/PullToRefresh-ListView)：一个通用、可定制、开源的Android ListView实现，具有下拉刷新功能。
+* [JellyRefreshLayout](https://github.com/imallan/JellyRefreshLayout)：受Lollipop滚动效果启发的下拉刷新布局。
+* [AnimRefreshRecyclerView](https://github.com/shichaohui/AnimRefreshRecyclerView)：下拉刷新和上拉加载更多的RecyclerView，具有下拉和刷新动画。
+* [PullToRefresh](https://github.com/lumenghz/PullToRefresh)：PullToRefresh小部件。
+* [Android PullToRefresh And LoadMore](https://github.com/shontauro-zz/android-pulltorefresh-and-loadmore)：Android自定义ListView，使用加载更多和下拉刷新的交互模式动态加载数据。
+* [BeerSwipeRefresh](https://github.com/recruit-lifestyle/BeerSwipeRefresh)：该项目旨在为Android系统提供一个可重复使用的滑动刷新小部件。
+* [Android PullToRefreshRecyclerView](https://github.com/HomHomLin/Android-PullToRefreshRecyclerView)：这是一个基于RecyclerView的具有下拉刷新功能的项目。
+* [SwipeRefreshLayout](https://github.com/hanks-zyh/SwipeRefreshLayout)：SwipeRefreshLayout是一个下拉刷新控件，几乎可以包裹一个任何可以滚动的内容，可以自动识别垂直滚动手势。
+* [CanRefresh](https://github.com/canyinghao/CanRefresh)：可适配所有视图的下拉刷新上拉加载，并支持各种风格。
+* [PullToRefresh](https://github.com/lynnchurch/PullToRefresh)：一个可下拉刷新与上拉加载更多的库。
+* [AlipayPullRefresh](https://github.com/xmuSistone/AlipayPullRefresh)：支付宝首页下拉刷新。
+* [CRefreshLayout](https://github.com/cloay/CRefreshLayout)：受CBStoreHouseRefreshControl启发的令人惊叹的Android拉刷新布局。
+* [PullRefreshView](https://github.com/pierreown/PullRefreshView)：方便快捷的帮滑动控件添加弹性阻尼和下拉刷新、上拉加载的功能。
+* [SHSwipeRefreshLayout](https://github.com/miomin/SHSwipeRefreshLayout)：Android升级版SwipeRefreshLayout，支持RecyclerView、ScrollView等大部分组件，下拉刷新和上拉加载，支持自定义HeaderView和FooterView。
+* [MeiTuanRefreshListView](https://github.com/nugongshou110/MeiTuanRefreshListView)：仿美团下拉刷新。
+* [UltraSwipeRefresh](https://github.com/jenly1314/UltraSwipeRefresh)：UltraSwipeRefresh是一个可带来极致体验的Compose刷新组件。
+* [GmailLikePullToRefresh](https://github.com/learnNcode/GmailLikePullToRefresh)：类似Gmail的下拉刷新实现。
+* [SmileRefresh](https://github.com/hsongxian/SmileRefresh)：微笑下拉刷新，这是在SwipeRefreshLayout基础上修改的下拉刷新库。
+* [PullLoadView](https://github.com/tosslife/PullLoadView)：下拉刷新和加载更多RecyclerView。
+* [SpringHeader](https://github.com/loopeer/SpringHeader)：使用CoordinatorLayout实现类似spring的标题(称为下拉刷新)。
+* [AutoHomeRefreshListView](https://github.com/nugongshou110/AutoHomeRefreshListView)：仿汽车之家下拉刷新。
+* [EasyPullLayout](https://github.com/huzenan/EasyPullLayout)：轻量级下拉刷新布局，支持垂直和水平。
+* [CustomRefreshView](https://github.com/zhangtuodd/CustomRefreshView)：一个支持网络错误重试、无数据页、无网络界面的上拉加载更多，下拉刷新控件。
+* [RefreshNow](https://github.com/mariotaku/RefreshNow)：Google Now风格下拉刷新。
+* [CommonRefreshLayout](https://github.com/mylhyl/Android-CommonRefreshLayout)：基于SwipeRefreshLayout下拉刷新、上拉加载支持的AbsListView、RecycleView、WebView。
+* [SimpleRecyclerView](https://github.com/xingda920813/SimpleRecyclerView)：RecyclerView和SwipeRefreshLayout的增强功能。
+* [Compose RefreshLayout](https://github.com/RicardoJiang/compose-refreshlayout)：Compose版SmartRefreshLayout。
+* [BaiduGoingRefreshLayout](https://github.com/Hankkin/BaiduGoingRefreshLayout)：仿百度外卖下拉刷新动画。
+* [Liquid Refresh Layout](https://github.com/mukeshsolanki/liquidrefreshlayout)：Liquid Refresh Layout是一个简单的SwipeToRefresh库，可帮助你轻松集成SwipeToRefresh并执行简单干净的液体动画。
+* [SSPullToRefresh](https://github.com/SimformSolutionsPvtLtd/SSPullToRefresh)：SSPullToRefresh使PullRefresh易于使用，你可以提供自己的自定义动画或在刷新视图上设置简单的GIF。
+* [Nest Refresh](https://github.com/ToDou/nestrefresh)：Nest Scroll的Android刷新套件，通过行为实现下拉刷新和下拉加载更多功能。
+* [RecyclerViewTools](https://github.com/eyeem/RecyclerViewTools)：RecyclerView的工具集合，包括标题栏、区块、下拉刷新等。
 
 #### Android项目模板
 
@@ -263,6 +301,260 @@
 * [TextDrawable](https://github.com/amulyakhare/TextDrawable)：TextDrawable这个轻量级库提供带有字母/文本的图像，就像Gmail应用程序一样。
 * [KenBurnsView](https://github.com/flavioarfaria/KenBurnsView)：Android库为ImageView提供了扩展，通过使用Ken Burns效果为其可绘制内容制作动画来创造身临其境的体验。
 * [Shape Image View](https://github.com/siyamed/android-shape-imageview)：提供一组自定义形状的Android ImageView组件，以及一个用于定义更多形状的框架。
+
+#### Android选择器
+
+* [AndroidPicker](https://github.com/gzu-liyujiang/AndroidPicker)：安卓选择器类库，包括日期及时间选择器、单项选择器、二三级联动选择器、城市地址选择器、数字选择器、日历选日期择器、颜色选择器、文件及目录选择器、图片选择器等。
+* [Android BetterPickers](https://github.com/code-troopers/android-betterpickers)：用于更好的Picker DialogFragments的Android库。
+* [React Native Picker](https://github.com/beefe/react-native-picker)：高性能的Native Picker。
+* [Android Pickers](https://github.com/addappcn/android-pickers)：安卓选择器类库，包括日期及时间选择器、单项选择器、城市地址选择器、数字选择器等、
+* [CharacterPickerView](https://github.com/imkarl/CharacterPickerView)：可实现三级联动的选择器，高仿iOS的滚轮控件，字体大小自适应。
+* [Compose Material Dialogs](https://github.com/PranavMaganti/compose-material-dialogs)：易于使用的库，可帮助你使用Jetpack Compose构建复杂的对话框。
+* [TeaPickerView](https://github.com/YangsBryant/TeaPickerView)：数据级联选择器、层级结构、多数据筛选、必藏。
+* [PickerUI](https://github.com/DavidPizarro/PickerUI)：Android库，用于显示项目列表以供选择，并带有模糊效果。
+* [RubberPicker](https://github.com/Chrisvin/RubberPicker)：RubberPicker库包含RubberSeekBar和RubberRangePicker。
+* [Collection Picker](https://github.com/anton46/Foursquare-CollectionPicker)：Collection Picker是一个Android View库，外观类似Foursquare的Tastes Picker。
+* [Icon Picker Dialog](https://github.com/maltaisn/icondialoglib)：一个完全可自定义的图标选择器对话框，让你轻松访问优质图标，无需单独添加图标到项目中。
+
+#### Android图片/视频选择器
+
+* [PictureSelector](https://github.com/LuckSiege/PictureSelector)：一个Android平台的图片选择器，支持从相册获取图片、视频、音频、照片、裁剪、压缩、主题自定义配置等功能。
+* [PickerView](https://github.com/Bigkoo/Android-PickerView)：这是一款仿iOS的PickerView控件，有时间选择器和选项选择器。
+* [Matisse](https://github.com/zhihu/Matisse)：Matisse是一款专为Android设计的本地图像和视频选择器，由知乎开源。
+* [Boxing](https://github.com/bilibili/boxing)：基于MVP模式的Android多媒体选择器，由B站开源。
+* [React Native Image Picker](https://github.com/react-native-image-picker/react-native-image-picker)：React Native模块允许你从设备库或相机中选择照片/视频。
+* [ImagePicker](https://github.com/jeasonlzy/ImagePicker)：Android自定义相册，完全仿微信UI，实现了拍照、图片选择(单选/多选)、裁剪 、旋转、等功能。
+* [MultiImageSelector](https://github.com/lovetuzitong/MultiImageSelector)：适用于Android设备的图像选择器，支持单选和多选。
+* [PhotoPicker](https://github.com/donglua/PhotoPicker)：类似微信的图片选择器。
+* [BGAPhotoPicker Android](https://github.com/bingoogolapple/BGAPhotoPicker-Android)：Android图片选择、预览、九宫格图片控件、拖拽排序九宫格图片控件。
+* [ImageSelector](https://github.com/smuyyh/ImageSelector)：Android图片选择器。
+* [Image Picker](https://github.com/Dhaval2404/ImagePicker)：易于使用和可配置的库，可从图库中选择图像或使用相机捕获图像。
+* [YImagePicker](https://github.com/yangpeixing/YImagePicker)：小红书多图剪裁、微信图片选择器、大图预览、图片剪裁。
+* [RxImagePicker](https://github.com/qingmei2/RxImagePicker)：灵活的Android图片选择器，提供了知乎和微信主题的支持。
+* [TedBottomPicker](https://github.com/ParkSangGwon/TedBottomPicker)：TedBottomPicker是使用底部表单的简单图像选择器。
+* [ImagePicker](https://github.com/martin90s/ImagePicker)：Super Image Picker是一款功能强大的图片选择器。
+* [PixImagePicker](https://github.com/akshay2211/PixImagePicker)：Pix是WhatsApp图像选择器的副本。
+* [InsGallery](https://github.com/JessYanCoding/InsGallery)：一款UI炫酷高仿Instagram的图片、视频选择器。
+* [FishBun](https://github.com/sangcomz/FishBun)：FishBun是一款高度可定制的Android图像选择器。
+* [React Native Image Picker](https://github.com/syanbo/react-native-syan-image-picker)：React Native多图片选择，支持裁剪、压缩。
+* [ImagePicker](https://github.com/nguyenhoanglam/ImagePicker)：一个Android库，允许你通过便捷的UI自定义从设备库或相机中选择图像。
+* [Louvre](https://github.com/andremion/Louvre)：一个小型可定制库，可用于处理应用程序内置的图库图像选择操作。
+* [RxGalleryFinal](https://github.com/FinalTeam/RxGalleryFinal)：RxGalleryFinal是一个Android图片/视频文件选择器。
+* [TedImagePicker](https://github.com/ParkSangGwon/TedImagePicker)：TedImagePicker是一款简单/美观/智能的图像选择器。
+* [RxPaparazzo](https://github.com/miguelbcr/RxPaparazzo)：Android的RxJava扩展可使用相机拍照、从设备中选择文件或照片以及选择性地裁剪或旋转任何选定的图像。
+* [PickPhotoView](https://github.com/werbhelius/PickPhotoSample)：Android库的照片选择器。
+* [ImagePicker](https://github.com/Lichenwei-Dev/ImagePicker)：高仿微信图片选择器。
+* [AndroidPicturePicker](https://github.com/ValuesFeng/AndroidPicturePicker)：Android强大的图片选择器。
+* [PolyPicker](https://github.com/jaydeepw/poly-picker)：用于从设备选择/捕获多幅图像的Android库项目。
+* [ImageSelector](https://github.com/ioneday/ImageSelector)：Android的图片选择器库，支持单选、多选、裁剪图片和预览图片。
+* [ChiliPhotoPicker](https://github.com/ChiliLabs/ChiliPhotoPicker)：安卓照片选择器库，可直接从文件中选择照片，或导航至相机或图库。
+* [AndroidImagePicker](https://github.com/easonline/AndroidImagePicker)：一个适用于Android的图像选择器。
+* [MultiImagePicker](https://github.com/yazeed44/MultiImagePicker)：Android中用于选择多张图片的库。
+* [Unsplash Photo Picker](https://github.com/unsplash/unsplash-photopicker-android)：UnsplashPhotoPicker是一个Android UI组件，只需几行代码即可让你快速在Unsplash库中搜索免费的高质量照片。
+* [RxPicker](https://github.com/imuhao/RxPicker)：基于RxJava的ImageSelect工具。
+* [Peekaboo](https://github.com/onseok/peekaboo)：Compose Multiplatform的Kotlin Multiplatform库，旨在在iOS和Android应用程序中无缝集成图像选择器功能。
+* [RxImagePicker](https://github.com/MLSDev/RxImagePicker)：使用RxJava2在Android M上请求运行时权限从图库或相机获取图像的简单方法。
+* [PhotoPicker](https://github.com/liuling07/PhotoPicker)：一个从图库中挑选照片的Android库。
+* [BottomSheet Image Picker](https://github.com/kroegerama/bottomsheet-imagepicker)：一个以BottomSheet形式实现的现代图像选择器。
+* [SSImagePicker](https://github.com/SimformSolutionsPvtLtd/SSImagePicker)：易于使用和可配置的库，可从图库中选择多张图像或使用具有最大尺寸、扩展、裁剪、旋转、缩放和压缩功能的相机捕获图像。
+* [TimeRangePicker](https://github.com/Droppers/TimeRangePicker)：一个可自定义、易于使用且功能强大的Android圆形时间范围选择器库。
+* [ImageShowPicker](https://github.com/yaozs/ImageShowPicker)：单纯的上传图片展示控件。
+* [TedPicker](https://github.com/ParkSangGwon/TedPicker)：TedPicker是适用于Android的图像选择器库，它允许你轻松地从图库或相机中拍摄照片，而无需使用大量样板代码。
+* [MediaPicker](https://github.com/alhazmy13/MediaPicker)：Media Picker是一个Android库，可让你选择多个图像或视频。
+* [ImagePicker](https://github.com/CYRUS-STUDIO/ImagePicker)：Android下的图片选择与裁剪开源库。
+* [ImagePicker](https://github.com/Drjacky/ImagePicker)：Android图像选择器，从图库中选择图像或使用相机拍摄新图像。
+* [Lassi Android](https://github.com/Mindinventory/Lassi-Android)：Lassi是选择媒体(图像、视频、音频或文档)的最简单方法。
+* [Android ImagesPickers](https://github.com/jaikydota/Android-ImagesPickers)：Android ImagesPickers是一个集图片选择(单选/多选)、拍照、裁剪、图片预览、图片显示容器的图片选择显示工具。
+* [BSImagePicker](https://github.com/siralam/BSImagePicker)：扩展BottomSheetDialogFragment的图像选择器。
+* [Multiple Media Picker](https://github.com/erikagtierrez/multiple-media-picker)：一个Android库，用于从内置图库中挑选多张图片和/或视频。
+* [Media Picker](https://github.com/robertlevonyan/media-picker)：轻松定制的选择器，满足你在Android应用程序中的所有需求。
+* [Android Media Picker](https://github.com/tungdx/android-media-picker)：用于从Android设备中选择照片、视频的库。
+* [MediaPickerPoject](https://github.com/DmcSDK/MediaPickerPoject)：仿微信视频图片选择器。
+* [Thumby](https://github.com/bufferapp/Thumby)：Thumby是一款易于使用的Android嵌入式视频缩略图选择器。
+* [SmartMediaPicker](https://github.com/BzCoder/SmartMediaPicker)：一款方便好用的仿微信多媒体选择器，集合图片选择、拍照、拍摄短视频功能。
+* [Awesome Image Picker](https://github.com/myinnos/AwesomeImagePicker)：超棒的图片选择器库，界面美观，可快速选择图片/动图。
+* [ImagePicker](https://github.com/Mariovc/ImagePicker)：ImagePicker是一个Android库，可以轻松地从图库或相机应用中选择图像。
+* [Gligar](https://github.com/OpenSooq/Gligar)：Gliger是一个适用于Android的简单、轻量级且高性能的图像选择器库。
+* [InstagramPhotoPicker](https://github.com/Skykai521/InstagramPhotoPicker)：类似Instagram的照片选择器功能。
+* [LQRImagePicker](https://github.com/GitLqr/LQRImagePicker)：完全仿微信的图片选择。
+* [Belvedere](https://github.com/zendesk/belvedere)：Android的图像选择器库。
+* [UW Media Picker Android](https://github.com/AnilFurkanOkcun/UWMediaPicker-Android)：易于使用且可定制的媒体选择器库，可为Android选择多个图像(带压缩)和视频。
+* [PhotoPicker](https://github.com/CNCoderX/PhotoPicker)：简洁、高效的Android图片选择库，支持图片压缩、裁剪，支持多图选择。
+* [GalleryPicker](https://github.com/tizisdeepan/GalleryPicker)：Gallery Picker允许你在Android项目中为图像/视频选择器设计自定义图库。
+* [LPhotoPicker](https://github.com/limuyang2/LPhotoPicker)：这是一个漂亮、纯粹的AndroidX图片选择框架。
+* [MediaPicker](https://github.com/FunkyMuse/MediaPicker)：Kotlin Android库用于选择图像、视频和音频。
+* [PhotoPicker](https://github.com/yudu233/PhotoPicker)：Android照片选择器，支持单图、多图、视频、GIF选择，内置鲁班压缩和Ucrop裁剪功能，以及主题自定义配置等功能。
+* [ContentManager](https://github.com/stfalcon-studio/ContentManager)：用于从设备图库、外部存储、云端(Google Drive、Dropbox等)或相机获取任何类型的照片、视频或文件的库。
+* [PhotoPicker](https://github.com/q805699513/PhotoPicker)：一款Android图片选择器，支持直接拍照、拍照并裁剪、单选裁剪、图片多选、图片放大预览、裁剪比例设置等。
+* [Picker](https://github.com/Parag2385/Picker)：基于CameraX的WhatsApp风格图像视频选择器。
+* [Android Multipicker Library](https://github.com/coomar2841/android-multipicker-library)：Android多选器库。
+
+#### Android颜色选择器
+
+* [ColorPickerView](https://github.com/skydoves/ColorPickerView)：Android颜色选择器，通过点击所需颜色从任何图像中获取颜色。
+* [Color Picker](https://github.com/QuadFlask/colorpicker)：带有色轮和亮度条的简单Android颜色选择器。
+* [HoloColorPicker](https://github.com/LarsWerkman/HoloColorPicker)：由Marie Schweiz设计的Android Holo主题颜色选择器。
+* [ColorPicker](https://github.com/jaredrummler/ColorPicker)：适用于Android的高度可定制的颜色选择器。
+* [ColorPickerPreference](https://github.com/attenzione/android-ColorPickerPreference)：安卓系统ColorPickerPreference，用于在偏好设置中创建颜色选择器。
+* [ColorPicker Compose](https://github.com/skydoves/colorpicker-compose)：Kotlin多平台颜色选择器库，允许你通过点击所需的颜色从任何图像中获取颜色。
+* [Sketchbook Compose](https://github.com/GetStream/sketchbook-compose)：Jetpack Compose画布库可帮助你使用颜色选择器和调色板在画布上绘制路径和图像。
+* [Compose Color Picker](https://github.com/godaddy/compose-color-picker)：用Jetpack Compose编写的提供两个不同HSV颜色选择器的组件。
+* [Color Picker Collection](https://github.com/gabrielemariotti/colorpickercollection)：该存储库提供了一个简单的颜色选择器集合。
+* [ColorPicker](https://github.com/duanhong169/ColorPicker)：Android版ColorPicker，使用色轮和滑块选择颜色。
+* [Android Color Picker](https://github.com/side-codes/Android-Color-Picker)：Android的颜色选择器库。
+* [Color Preference](https://github.com/kizitonwose/colorpreference)：一个用于在偏好设置屏幕中创建漂亮的颜色选择器的Android库。
+* [ColorPicker](https://github.com/Dhaval2404/ColorPicker)：Android颜色选择器库。
+* [HSV-Alpha Color Picker Android](https://github.com/martin-stone/hsv-alpha-color-picker-android)：该库实现了颜色选择器和颜色偏好，可用于Android应用程序。
+* [AndroidPhotoshopColorPicker](https://github.com/aziztitu/AndroidPhotoshopColorPicker)：适用于Android的功能齐全的颜色选择器库。
+* [AmbilWarna](https://github.com/yukuku/ambilwarna)：Android颜色选择器。
+* [ColorSheet](https://github.com/msasikanth/ColorSheet)：底部颜色选择器。
+* [Color Picker Android](https://github.com/chiralcode/Android-Color-Picker)：易于使用、功能齐全的颜色选择器，基于HSV颜色模型，设计紧凑。
+* [ColorPicker](https://github.com/kristiyanP/colorpicker)：一个简单的Android颜色选择器库。
+* [ColorPicker](https://github.com/DingMouRen/ColorPicker)：ColorPicker是一款为Android项目提供的取色器。
+* [Pikolo](https://github.com/Madrapps/Pikolo)：一个Android颜色选择器库。
+* [ShiftColorPicker](https://github.com/DASAR-zz/ShiftColorPicker)：Android的简单颜色选择器视图。
+* [ColorPickerView](https://github.com/danielnilsson9/color-picker-view)：一个简单好看的Android颜色选择器组件。
+* [ColorPickerDialog](https://github.com/fennifith/ColorPickerDialog)：ColorPickerDialog是一个简单的对话框，可以快速轻松地向任何应用程序添加颜色选择器功能。
+* [ColorSeekBar](https://github.com/divyanshub024/ColorSeekBar)：适用于Android的颜色选择器搜索栏。
+* [Multi ColorPicker](https://github.com/skydoves/Multi-ColorPicker)：Android多颜色选择器，通过点击所需颜色从任何图像中获取颜色。
+* [Chroma](https://github.com/ItsPriyesh/chroma)：用Kotlin编写的用于Android的简单、轻量级颜色选择器。
+* [ColorPickerPreference](https://github.com/skydoves/ColorPickerPreference)：一个允许你实现ColorPickerView、ColorPickerDialog、ColorPickerPreference的库。
+
+#### Android日期/时间选择器
+
+* [Material DateTime Picker](https://github.com/wdullaer/MaterialDateTimePicker)：Material DateTime Picker尝试为你提供Material Design规范中所示的日期和时间选择器，以及一个简单的主题API。
+* [React Native Date Picker](https://github.com/henninghall/react-native-date-picker)：React Native Date Picker是适用于Android和iOS的日期时间选择器。
+* [SublimePicker](https://github.com/vikramkakkar/SublimePicker)：可定制的视图，提供日期、时间和重复选项的选择，所有这些都来自单个用户界面。
+* [DatePicker](https://github.com/devaige/DatePicker)：实用且强大的Android日期选择器。
+* [TimePickerDialog](https://github.com/JZXiang/TimePickerDialog)：Android时间选择器库。
+* [Material Date Range Picker](https://github.com/heysupratim/material-daterange-picker)：基于wdullaers MaterialDateTimePicker的Material日期范围选择器。
+* [DateTimePicker](https://github.com/loper7/DateTimePicker)：一个高颜值日期时间选择器。
+* [BottomSheetPickers](https://github.com/philliphsu/BottomSheetPickers)：BottomSheetPickers是适用于Android的新日期和时间选择器库，支持API 14及更高版本。
+* [SingleDateAndTimePicker](https://github.com/florent37/SingleDateAndTimePicker)：只需一个小部件即可选择日期和时间。
+* [SlideDateTimePicker](https://github.com/jjobes/SlideDateTimePicker)：SlideDateTimePicker是一个Android库，它显示一个DialogFragment，用户可以在其中选择日期和时间。
+* [DateRangePicker](https://github.com/savvisingh/DateRangePicker)：Date Range Picker是一个日历选择器视图，用于显示自定义日期范围选择器，并改进了用户界面和功能，可以为日期添加字幕。
+* [Linear Time Picker](https://github.com/code-mc/linear-time-picker)：受Timely应用启发的精美时间和日期选择器库。
+* [WheelPickerCompose](https://github.com/commandiron/WheelPickerCompose)：Android Jetpack Compose中的时间选择器。
+* [DateTimeRangePicker](https://github.com/skedgo/DateTimeRangePicker)：Android的日期时间范围选择器。
+* [PrimeDatePicker](https://github.com/aminography/PrimeDatePicker)：PrimeDatePicker是一种提供选择单日、多日和一定范围的日期的工具。
+* [TimeRangePicker](https://github.com/tittojose/TimeRangePicker)：TimeRangePicker是一个可用于选择时间范围的库。
+* [Android SwitchDateTime Picker](https://github.com/Kunzisoft/Android-SwitchDateTimePicker)：SwitchDateTime Picker是一个库，用于在同一个UI中使用DatePicker(日历)和TimePicker(时钟)在对话框中选择日期对象。
+* [LazyDatePicker](https://github.com/lopspower/LazyDatePicker)：这是一个Android项目，旨在提供原生Android日期选择器的替代品。
+* [CustomDatePicker](https://github.com/liuwan1992/CustomDatePicker)：Android自定义日期选择控件。
+* [SpinnerDatePicker](https://github.com/drawers/SpinnerDatePicker)：适用于Android的可自定义样式的DatePicker，采用旧式旋转器样式。
+* [Persian Date Picker Dialog](https://github.com/aliab/Persian-Date-Picker-Dialog)：该库为你提供了一个带有简单API的漂亮的波斯日期选择器对话框。
+* [DatePicker](https://github.com/ycuwq/DatePicker)：Android日期选择器小部件。
+* [Time Selector](https://github.com/BurnieLiu/Time-Selector)：Android时间选择器库。
+* [Compose Datetime Wheel Picker](https://github.com/darkokoa/compose-datetime-wheel-picker)：Compose Multiplatform日期时间选择器实现，具有可定制的轮子选择器，用于日期、时间和日期时间选择。
+* [Easy Date Picker](https://github.com/Chaintech-Network/compose_multiplatform_date_time_picker)：Easy Date Picker是一个Kotlin多平台库，用于在Android、iOS和桌面应用程序中选择日期和时间。
+* [MonthAndYearPicker](https://github.com/premkumarroyal/MonthAndYearPicker)：MonthAndYearPicker允许用户根据需要仅选择月份和年份或仅选择月份或仅选择年份。
+* [Date Picker](https://github.com/afollestad/date-picker)：用Kotlin编写的适用于Android的自定义响应式日期选择器小部件。
+* [Compose Material3 DateTime Pickers](https://github.com/marosseleng/compose-material3-datetime-pickers)：高度可定制的Jetpack Compose组件，使用Material3支持日期和时间选择。
+* [HijriDatePicker](https://github.com/alhazmy13/HijriDatePicker)：该库提供了一个伊斯兰历日期选择器。
+* [Picker](https://github.com/ozcanalasalvar/picker)：Picker是一个日期和时间选择器库，支持基于视图和Jetpack Compose UI设计。
+* [DateRangePicker](https://github.com/yesidlazaro/DateRangePicker)：带有日期选择器的Dialogo片段，可用于选择时间范围。
+* [DatePickerDialog](https://github.com/xuningjack/datepickerdialog)：带有全日历图表和滚轮选择日期的对话框。
+* [SnapTimePicker](https://github.com/akexorcist/SnapTimePicker)：另一个针对不喜欢默认Material Time Picker的开发人员的Material Time Picker。
+* [DatePickerTimeline](https://github.com/101Loop/DatePickerTimeline)：提供水平日期选择器的Android包。
+* [CPicker](https://github.com/andrewjapar/rangedatepicker)：一个简单的Android垂直日期选择器。
+* [HorizontalPicker](https://github.com/jhonnyx2012/HorizontalPicker)：HorizontalPicker是一个定制的Android View，用于选择日期，但水平绘制到垂直狭窄的容器中。
+* [RetainedDateTimePickers](https://github.com/k0shk0sh/RetainedDateTimePickers)：Android库可帮助你使用日期和时间选择器，同时在方向改变时保留选择器的实例。
+* [WinKal](https://github.com/rahulrj/WinKal)：Android版Windows Phone日期选择器。
+* [PickerView](https://github.com/jaaksi/pickerview)：一个非常好用的Android PickerView库，内部提供2种常用类型的Picker。
+* [WheelPicker](https://github.com/zyyoona7/WheelPicker)：一个顺滑、高度自定义的滚轮控件和选择器，支持类似iOS的3D效果。
+
+#### Android文件/目录选择器
+
+* [Android FilePicker](https://github.com/DroidNinja/Android-FilePicker)：允许灵活选择图像和视频的文件选择器。
+* [MultiType FilePicker](https://github.com/fishwjy/MultiType-FilePicker)：这是一个轻量级的Android文件选择器库。
+* [Material File Picker](https://github.com/nbsp-team/MaterialFilePicker)：Android的Material文件选择器库，由Arte al Programar提供。
+* [LFilePicker](https://github.com/leonHua/LFilePicker)：这是一个轻量级的文件选择器，可以通过检索手机目录来选择文件。
+* [AndroidFilePicker](https://github.com/rosuH/AndroidFilePicker)：FilePicker是一个小型且快速的文件选择器库。
+* [Storage Chooser](https://github.com/codekidX/storage-chooser)：适用于4.4+设备的漂亮而简单的目录选择器和文件选择器库。
+* [NoNonsense FilePicker](https://github.com/spacecowboy/NoNonsense-FilePicker)：适用于Android的文件/目录选择器。
+* [Calf](https://github.com/MohamedRejeb/Calf)：Calf是一个库，可让你轻松创建自适应UI并从Compose Multiplatform应用程序访问特定于平台的API。
+* [FileListerDialog](https://github.com/FirzenYogesh/FileListerDialog)：FileListerDialog可帮助你列出并选择文件/目录。
+* [Compose Multiplatform File Picker](https://github.com/Wavesonics/compose-multiplatform-file-picker)：一个多Compose Multiplatform小部件，用于使用每个平台的原生文件选择器对话框来选择文件。
+* [FilePicker](https://github.com/imLibo/FilePicker)：Android文件、图片选择器，可按文件夹查找，文件类型查找，支持自定义相机。
+* [ExFilePicker](https://github.com/bartwell/ExFilePicker)：ExFilePicker是一个开源的Android库，允许开发人员轻松实现在应用程序中选择文件和目录。
+* [Android File Chooser](https://github.com/hedzr/android-file-chooser)：轻量级文件/文件夹选择器。
+* [FilePicker](https://github.com/jaiselrahman/FilePicker)：Android的FilePicker库用于选择多种类型的文件以及捕获图像和视频。
+* [FileBrowser](https://github.com/adityak368/Android-FileBrowser-FilePicker)：适用于Android的FileBrowser/FileChooser/FolderChooser。
+* [FilePicker](https://github.com/ChochaNaresh/FilePicker)：适用于Android的可定制现代媒体/文档选择器，支持图像和视频捕获、文件选择以及Jetpack的ActivityResult API集成。
+* [FilePicker](https://github.com/TutorialsAndroid/FilePicker)：Android库从设备存储中选择文件/目录。
+* [FilePicker](https://github.com/Atwa/filepicker)：无需权限的Android文件和图像选择器库。
+* [AppChooser](https://github.com/Pigcasso/AppChooser)：自定义打开指定文件的应用选择器。
+* [OneDrive Picker Android](https://github.com/OneDrive/onedrive-picker-android)：该库提供了一组Java API，你的应用可以使用它们浏览、选择、打开和保存用户OneDrive中的文件。
+
+#### Android国家选择器
+
+* [CountryCodePickerProject](https://github.com/hbb20/CountryCodePickerProject)：CCP是一个Android库，它提供了一种简单的方法来搜索和选择电话号码的国家或国家电话代码。
+* [Country Picker Android](https://github.com/mukeshsolanki/country-picker-android)：CountryPicker是一个简单的库，可以显示国家/地区选择器。
+* [CountryCodePicker](https://github.com/joielechong/CountryCodePicker)：CCP是一个Android库，它提供了一种简单的方法来搜索和选择电话号码的国家电话代码。
+* [Kompose Country Code Picker](https://github.com/joelkanyi/kompose-country-code-picker)：Kompose Country Code Picker是一个基于Material 3的Jetpack Compose库，它为Android应用提供了国家代码选择器。
+* [CountryCodePicker](https://github.com/chathudan/CountryCodePicker)：Android CountryCodePicker将帮助用户搜索和选择一个国家并检索所选国家的国家名称、代码、货币和拨号代码。
+* [Country Region Picker Android](https://github.com/sahooz/country-region-picker-android)：一个简洁的Android国家代码选择器，支持中英文、国旗、ISO 3166-1。
+* [AndroidCountryPicker](https://github.com/roomorama/AndroidCountryPicker)：CountryPicker是一个简单的片段，可以嵌入或以对话框形式显示。
+* [AndroidCountryPicker](https://github.com/hbb20/AndroidCountryPicker)：Android Country Picker是一个Kotlin优先、灵活且功能强大的Android库，只需几行代码即可集成国家选择器。
+* [Jetpack Compose Country Code Picker](https://github.com/togisoft/jetpack_compose_country_code_picker)：Jetpack Compose国家/地区代码选择。
+* [PhoneNumberKit](https://github.com/ibrahimsn98/PhoneNumberKit)：用于解析和格式化国际电话号码的Android Kotlin库，国家/地区代码选择器。
+
+#### Android城市选择器
+
+* [CityPicker](https://github.com/zaaach/CityPicker)：城市选择、定位、搜索及右侧字母导航，类似美团、百度糯米、饿了么等APP选择城市功能。
+* [XPopupExt](https://github.com/junixapp/XPopupExt)：XPopup扩展功能库，基于XPopup强大的弹窗能力和PickerView的选择器逻辑，封装了时间选择器弹窗、城市选择器弹窗和条件选择器。
+* [PickerView](https://github.com/duanhong169/PickerView)：Android滚动选择器(省市区联动选择、日期选择、时间选择)。
+* [PickerView](https://github.com/youth5201314/PickerView)：一种全新的选择器，可用于省市区选择和各种层级数据的展示。
+* [CityPicker](https://github.com/yuruizhe/CityPicker)：一个仿大众点评、美团的城市选择器，使用如同Rx一样优雅，并且UI和城市数据可以自定义。
+
+#### Android位置选择器
+
+* [Leku](https://github.com/AdevintaSpain/Leku)：Android地图位置选择器组件。
+* [React Native Google Place Picker](https://github.com/zhangtaii/react-native-google-place-picker)：针对iOS、Android的Google Place Picker的React Native包装器。
+* [PlacePicker](https://github.com/suchoX/PlacePicker)：使用Geocoder替代Google API的免费Android地图地点选择器。
+* [PING](https://github.com/rtchagas/pingplacepicker)：几乎即插即用的Google Place Picker替代品。
+* [Vanilla Place Picker](https://github.com/Mindinventory/vanilla-place-picker)：Vanilla Place Picker提供了一个UI，可显示交互式地图以获取地点详细信息和自动完成功能，该功能可根据用户搜索输入显示地点预测。
+* [AddressPickerLib](https://github.com/ywp0919/AddressPickerLib)：仿京东地址选择器。
+* [Nibo](https://github.com/aliumujib/Nibo)：Android库，为可定制的地点选择器、出发地和目的地选择器以及Google Places自动完成搜索视图提供UI。
+
+#### Android数字选择器
+
+* [NumberSlidingPicker](https://github.com/sephiroth74/NumberSlidingPicker)：一个允许用户从预定义范围中选择数字的小部件。
+* [NumberPickerView](https://github.com/Carbs0126/NumberPickerView)：Android平台上另一个属性更灵活的NumberPicker。
+* [NumberPicker](https://github.com/ShawnLin013/NumberPicker)：提供简单且可定制的NumberPicker的Android库。
+* [Jetpack Compose Number Picker](https://github.com/ChargeMap/Compose-NumberPicker)：Android库为Jetpack Compose提供数字选择器。
+* [Actual Number Picker](https://github.com/appifyhub/actual-number-picker)：Actual Number Picker是Android定制的用于选择数字的视图。
+* [SimpleNumberPicker](https://github.com/StephaneBg/SimpleNumberPicker)：适用于Android的可定制十进制和十六进制Material选择器视图。
+* [VNTNumberPickerPreference](https://github.com/vanniktech/VNTNumberPickerPreference)：这是一个易于使用的自定义首选项，它会打开一个带有数字选择器的对话框。
+* [WheelPicker](https://github.com/SuperRabbitD/NumberPicker)：该项目包含一个可定制的WheelPicker，它比Android原生NumberPicker小部件更灵活。
+* [MaterialNumberPicker](https://github.com/KasualBusiness/MaterialNumberPicker)：受Material Design指南启发的可定制Android NumberPicker。
+* [MaterialNumberPicker](https://github.com/StephenVinouze/MaterialNumberPicker)：基于Material Design指南的可自定义数字选择器。
+* [ClickNumberPicker](https://github.com/polok/ClickNumberPicker)：自定义视图使用单击按钮或滑动从给定范围中选取一个值。
+* [Android Ruler Picker](https://github.com/kevalpatel2106/android-ruler-picker)：Android自定义视图使用标尺从给定范围中选择数字。
+* [HorizontalPicker](https://github.com/adityagohad/HorizontalPicker)：一个简单、可定制且易于使用的选择器，其中中心视图按比例放大。
+* [HorizontalPicker](https://github.com/GoodieBag/HorizontalPicker)：适用于Android的水平选择器库，支持文本和图标。
+
+#### Android滚动选择器
+
+* [WheelPicker](https://github.com/devaige/WheelPicker)：简单而奇妙的Android轮盘视图，效果逼真。
+* [CarouselPicker](https://github.com/GoodieBag/CarouselPicker)：适用于Android的轮播选择器库，支持文本和图标。
+* [ReactNativeWheelPicker](https://github.com/Cero-Studio/ReactNativeWheelPicker)：适用于Android的简单Wheel Picker。
+* [React Native Wheel Picker](https://github.com/lesliesam/react-native-wheel-picker)：基于React Native的跨平台Picker组件。
+* [EasyPickerView](https://github.com/huzenan/EasyPickerView)：适用于Android的轻量级PickerView。
+* [TimePicker](https://github.com/jingchenUSTC/TimePicker)：Android滚动选择器PickerView。
+* [Two Step Picker Dialog](https://github.com/aliab/Two-Step-Picker-Dialog)：Android的两步选择器对话框可帮助你轻松选择Android上的嵌套数据。
+* [HorizontalPicker](https://github.com/blazsolar/HorizontalPicker)：HorizontalPicker是一个开源的Android库，它允许用户通过滚动或左右点击在项目数组之间移动来选择单个项目。
+* [SwipePicker](https://github.com/m4xp1/SwipePicker)：Android的一个小部件，允许用户使用滑动手势输入不同的值，例如：时间、日期、数字，而无需额外的对话框窗口。
+* [Compose Wheel Picker](https://github.com/zj565061763/compose-wheel-picker)：Android Compose轮盘选择器库基于垂直方向的LazyColumn和水平方向的LazyRow。
+* [PickerView](https://github.com/RameshBhupathi/PickerView)：OptionsPickerView类似iOS的三种选项选择器。
+* [WheelPicker](https://github.com/open-android/WheelPicker)：Android滚轮选择控件，包含3D效果，滑动流畅无比。
+* [UniversalPickerDialog](https://github.com/stfalcon-studio/UniversalPickerDialog)：可定制的对话框，其中包含根据数据集数量自动生成的选择器。
+
+#### Android联系人选择器
+
+* [UnifiedContactPicker](https://github.com/quiin/UnifiedContactPicker)：统一联系人选择器Android库。
+* [Android Contact Picker](https://github.com/codinguser/android_contact_picker)：在Android上轻松显示和检索联系人信息。
+* [MultiContactPicker](https://github.com/broakenmedia/MultiContactPicker)：一个使用RecyclerView和字母快速滚动的简单Material Design多触点选择器。
 
 ## GUI开发/程序
 
