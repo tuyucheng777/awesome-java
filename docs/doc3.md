@@ -219,7 +219,7 @@
 * [EasyRecyclerView](https://github.com/Jude95/EasyRecyclerView)：将开发中常用的RecyclerView的各种需求封装进库。
 * [SuperRecyclerView](https://github.com/Malinskiy/SuperRecyclerView)：这是为了让RecyclerView更易于使用的一次尝试。
 * [SpringView](https://github.com/liaoinstan/SpringView)：SpringView是一个提供上下拉拖拽功能的组件，可以高度定制，实现各种下拉\拉画效果。
-* [https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout)：该项目旨在为Android提供可重复使用的WaveSwipe刷新小部件。
+* [WaveSwipeRefreshLayout](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout)：该项目旨在为Android提供可重复使用的WaveSwipe刷新小部件。
 * [CircleRefreshLayout](https://github.com/tuesda/CircleRefreshLayout)：这是一个具有自定义下拉刷新布局的项目，其中包含有趣的动画。
 * [RecyclerRefreshLayout](https://github.com/dinuscxj/RecyclerRefreshLayout)：一个用于Android的下拉刷新布局，RecyclerRefreshLayout基于SwipeRefreshLayout。
 * [Taurus](https://github.com/Yalantis/Taurus)：该项目旨在提供一个简单且可定制的下拉刷新实现。
