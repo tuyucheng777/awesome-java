@@ -2,6 +2,41 @@
 
 这里列出了Android开发中各种各样的组件、布局、视图、动画等库。
 
+#### Android框架
+
+* [Flutter](https://github.com/flutter/flutter)：Flutter是Google的SDK，旨在通过单一代码库为移动端、网页端和桌面端打造美观、快速的用户体验。
+* [React Native](https://github.com/facebook/react-native)：React Native将React的声明式UI框架引入iOS和Android平台，由Facebook开源。
+* [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform)：Compose Multiplatform是一个声明式框架，用于使用Kotlin跨多个平台共享UI，由JetBrains开发。
+* [RIBs](https://github.com/uber/RIBs)：RIBs是Uber许多移动应用程序背后的跨平台架构框架。
+* [UniApp](https://github.com/dcloudio/uni-app)：UniApp是一个使用Vue.js开发小程序、Web、App的统一前端框架，由DCloud开源。
+* [Hummer](https://github.com/didi/Hummer)：Hummer是一套高性能高可用的跨端开发框架，一套代码可以同时支持开发Android和iOS应用，由滴滴开源。
+* [KuiklyUI](https://github.com/Tencent-TDS/KuiklyUI)：Kuikly是一个基于Kotlin多平台的全面的UI和逻辑跨平台解决方案，由腾讯开源。
+* [Lynx](https://github.com/lynx-family/lynx)：Lynx是一系列开源技术，使开发人员能够利用他们现有的Web技能，从单一代码库为移动和Web创建真正的原生UI，并具有规模和速度方面的性能，由字节开源。
+
+#### Android UI库
+
+* [Material Components Android](https://github.com/material-components/material-components-android)：适用于Android的模块化和可定制的Material Design UI组件。
+* [QMUI Android](https://github.com/Tencent/QMUI_Android)：QMUI Android的设计目的是用于辅助快速搭建一个具备基本设计还原效果的Android项目，由腾讯开源。
+* [RxBinding](https://github.com/JakeWharton/RxBinding)：RxJava从平台和支持库中绑定用于Android UI小部件的API。
+* [Aurora IMUI](https://github.com/jpush/aurora-imui)：Aurora IMUI是一个通用的IM UI组件库，不依赖于任何特定的IM SDK，极光开源。
+* [XUI](https://github.com/xuexiangjys/XUI)：一个简洁而优雅的Android原生UI框架。
+* [ShineButton](https://github.com/ChadCSong/ShineButton)：这是一个Android的UI库，效果类似闪光。
+* [FirebaseUI Android](https://github.com/firebase/FirebaseUI-Android)：FirebaseUI是Android的一个开源库，可让你快速将常见的UI元素连接到Firebase API。
+* [Tangram Android](https://github.com/alibaba/Tangram-Android)：Tangram是一个模块化UI解决方案，用于动态构建原生页面，由阿里开源。
+* [ChatKit](https://github.com/stfalcon-studio/ChatKit)：ChatKit是一个旨在简化聊天等简单UI开发的库。
+* [Litho](https://github.com/facebook/litho)：Litho是一个用于在Android上构建高效UI的声明性框架，由Facebook开源。
+* [GreenDroid](https://github.com/cyrilmottier/GreenDroid)：GreenDroid是一个Android平台的开发库，它使应用程序的UI开发更加轻松，并保持一致性。
+* [DivKit](https://github.com/divkit/divkit)：DivKit是一个开源的服务器驱动UI(SDUI)框架。
+* [Genius](https://github.com/qiujuer/Genius-Android)：Android Material Design主题UI和工具库。
+* [Android UI](https://github.com/markushi/android-ui)：用于UI组件的Android库。
+* [Android UI Animation Libraries](https://github.com/Ramotion/android-ui-animation-components-and-libraries)：Ramotion开发的Android库、UI组件和自定义动画的精选列表。
+* [RWidgetHelper](https://github.com/RuffianZhong/RWidgetHelper)：Android UI快速开发库。
+* [Redwood](https://github.com/cashapp/redwood)：Redwood是一个使用Kotlin构建响应式Android、iOS和Web UI的库。
+* [FlatUI](https://github.com/eluleci/FlatUI)：FlatUI是一个库，可让你使用具有更好和自定义外观的原生Android小部件。
+* [Anvil](https://github.com/anvil-ui/anvil)：Anvil是一个用于创建响应式用户界面的小型Java库。
+* [Compose Cupertino](https://github.com/alexzhirkevich/compose-cupertino)：用于iOS的Compose Multiplatform UI组件。
+* [RapidView](https://github.com/Tencent/RapidView)：RapidView是一套用于开发Android客户端界面、逻辑以及功能的开发组件，由腾讯开源。
+
 #### ActionBar小部件
 
 * [ActionBarSherlock](https://github.com/JakeWharton/ActionBarSherlock)：ActionBarSherlock是一个独立库，旨在通过单一API促进所有Android版本中操作栏设计模式的使用。
@@ -555,6 +590,18 @@
 * [UnifiedContactPicker](https://github.com/quiin/UnifiedContactPicker)：统一联系人选择器Android库。
 * [Android Contact Picker](https://github.com/codinguser/android_contact_picker)：在Android上轻松显示和检索联系人信息。
 * [MultiContactPicker](https://github.com/broakenmedia/MultiContactPicker)：一个使用RecyclerView和字母快速滚动的简单Material Design多触点选择器。
+
+#### 热修复
+
+* [Tinker](https://github.com/Tencent/tinker)：Tinker是Android的一个热修复解决方案库，它支持dex、库和资源更新，无需重新安装apk，由腾讯开源。
+* [Robust](https://github.com/Meituan-Dianping/Robust)：Robust是一款高兼容性、高稳定性的Android HotFix解决方案，由美团开发。
+* [Nuwa](https://github.com/jasonross/Nuwa)：纯Java实现，可以对你的Android应用程序进行热修复。
+* [Small](https://github.com/wequick/Small)：将应用程序拆分成小部分的小型框架。
+* [HotFix](https://github.com/dodola/HotFix)：安卓App热补丁动态修复框架。
+* [RocooFix](https://github.com/dodola/RocooFix)：另一个修补程序框架。
+* [FastDex](https://github.com/typ0520/fastdex)：FastDex可以帮助你加快APK生成过程。
+* [Aceso](https://github.com/meili/Aceso)：Aceso是一个通过优化AOSP的“InstantRun HotSwap”解决方案的Android HotFix，它用于修复线上BUG，而无需发布新的APK，由蘑菇街开源。
+* [Amigo](https://github.com/eleme/Amigo)：Amigo是一个修补程序库，可以修复Android应用的所有问题，由饿了么开源。
 
 ## GUI开发/程序
 

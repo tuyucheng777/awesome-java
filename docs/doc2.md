@@ -2829,6 +2829,7 @@
 * [ES](https://github.com/zhangkaitao/es)：ES是一个Java EE企业级项目的快速开发的脚手架，提供了底层抽象和通用功能。
 * [SOP](https://gitee.com/durcframework/SOP)：SOP是一个开放平台解决方案项目，基于Spring Cloud实现，目标让用户快速搭建自己的开放平台。
 * [Roses](https://gitee.com/stylefeng/roses)：Roses基于Spring Boot 3、JDK 17，是开源项目Guns的核心支撑层。
+* [JBolt](http://jbolt.cn/)：基于JFinal打造的企业级Java Web框架核心库，通过链式SQL构建器、约定优于配置和丰富的功能模块，让Java Web开发变得简单、高效。
 * [BallCat](https://github.com/ballcat-projects/ballcat)：BallCat是一个快速开发脚手架，快速搭建企业级后台管理系统，并提供多种便捷Starter进行功能扩展。
 * [Mall Tiny](https://github.com/macrozheng/mall-tiny)：Mall Tiny是一款基于Spring Boot、MyBatisPlus的快速开发脚手架。
 * [AgileBoot](https://github.com/valarchie/AgileBoot-Back-End)：AgileBoot是一套开源的全栈精简快速开发平台。
