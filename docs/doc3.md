@@ -591,7 +591,35 @@
 * [Android Contact Picker](https://github.com/codinguser/android_contact_picker)：在Android上轻松显示和检索联系人信息。
 * [MultiContactPicker](https://github.com/broakenmedia/MultiContactPicker)：一个使用RecyclerView和字母快速滚动的简单Material Design多触点选择器。
 
-#### 热修复
+#### Android更新库
+
+* [AppUpdate](https://github.com/WVector/AppUpdate)：一个用于Android版本更新的库。
+* [APKUpdater](https://github.com/rumboalla/apkupdater)：APKUpdater是一个开源工具，可以简化查找已安装应用程序更新的过程。
+* [CheckVersionLib](https://github.com/AlexLiuSheng/CheckVersionLib)：Android上的自动检查版本库。
+* [AppUpdate](https://github.com/azhon/AppUpdate)：Android版本更新库，简单、轻量、可随意定制。
+* [XUpdate](https://github.com/xuexiangjys/XUpdate)：一个轻量级、高可用性的Android版本更新框架。
+* [Update](https://github.com/czy1121/update)：清晰灵活简单易用的应用更新库。
+* [UpdatePlugin](https://github.com/easyandroidgroup/UpdatePlugin)：UpdatePlugin是一款用来进行App更新升级的框架。
+* [UpdateAppUtils](https://github.com/teprinciple/UpdateAppUtils)：一行代码快速实现App版本更新。
+* [AutoUpdateProject](https://github.com/MZCretin/AutoUpdateProject)：App内部更新，提供12种更新的样式，支持Android全系统版本，支持自定义UI断点续传。
+* [Android Auto Update](https://github.com/feicien/android-auto-update)：Android应用自动更新库。
+* [AppUpdater](https://github.com/jenly1314/AppUpdater)：AppUpdater是一个专注于App更新，一键傻瓜式集成App版本升级的轻量开源库。
+* [Device Firmware Update](https://github.com/NordicSemiconductor/Android-DFU-Library)：设备固件更新库和Android应用程序。
+* [UpdateFun](https://github.com/hugeterry/UpdateFun)：UpdateFun是一个fir.im的Android更新下载模块，在fir.im上上传自己的APP后接入该库即可实现检查更新下载。
+* [MNUpdateAPK](https://github.com/maning0303/MNUpdateAPK)：Android APK Update版本更新的下载和安装。
+* [InAppUpdater](https://github.com/SanojPunchihewa/InAppUpdater)：Android库，轻松实现应用内更新。
+* [AppUpdate](https://github.com/caikaidev/AppUpdate)：Android应用更新库。
+* [AndroidAppUpdater](https://github.com/hummatli/AndroidAppUpdater)：一个免费、开源的第三方Android库，用于通知有关Android设备上安装的Android应用程序的更新信息。
+* [UpdateHelper](https://github.com/shelwee/UpdateHelper)：UpdateHelper是一个只需一行代码即可实现APP在线升级的Android库。
+* [AppSmartUpdate](https://github.com/itlwy/AppSmartUpdate)：Android版本更新，支持增量更新。
+* [AppUpdate](https://github.com/NewHuLe/AppUpdate)：原生DownloadManager实现版本的检测更新，完美适配Android M/N/O/P/Q，兼容AndroidX。
+* [Android In-App Update](https://github.com/dioKaratzas/android-inapp-update)：Android应用内更新的轻量级实现。
+* [CheckUpdateLibrary](https://github.com/qiangxi/CheckUpdateLibrary)：Android检查更新库。
+* [AndroidAppUpdateLibrary](https://github.com/Piashsarker/AndroidAppUpdateLibrary)：Android应用更新库可用于从链接下载Apk，将其保存到外部或内部存储，然后自动安装Apk。
+* [Android Update Checker](https://github.com/danielemaddaluno/Android-Update-Checker)：该项目旨在提供一个可重复使用的工具，以异步检查商店中是否存在你的应用的任何较新发布的更新。
+* [Prince Versions](https://github.com/infinum/Android-Prince-of-Versions)：用于处理应用程序更新的Android库。
+
+#### Android热修复
 
 * [Tinker](https://github.com/Tencent/tinker)：Tinker是Android的一个热修复解决方案库，它支持dex、库和资源更新，无需重新安装apk，由腾讯开源。
 * [Robust](https://github.com/Meituan-Dianping/Robust)：Robust是一款高兼容性、高稳定性的Android HotFix解决方案，由美团开发。
@@ -602,6 +630,55 @@
 * [FastDex](https://github.com/typ0520/fastdex)：FastDex可以帮助你加快APK生成过程。
 * [Aceso](https://github.com/meili/Aceso)：Aceso是一个通过优化AOSP的“InstantRun HotSwap”解决方案的Android HotFix，它用于修复线上BUG，而无需发布新的APK，由蘑菇街开源。
 * [Amigo](https://github.com/eleme/Amigo)：Amigo是一个修补程序库，可以修复Android应用的所有问题，由饿了么开源。
+* [Stark](https://github.com/ximsfei/Stark)：Stark是Android的一个热修复框架。
+* [Phantom](https://github.com/ManbangGroup/Phantom)：Phantom是满帮集团开源的一套稳定、灵活、兼容性好的Android插件化方案。
+* [SDKHotFix](https://github.com/feelschaotic/SDKHotFix)：让SDK开发者能快速赋予SDK热修复的能力。
+* [Hotfix](https://github.com/lyr408/Hotfix)：Hotfix可以动态修复移动应用程序的在线错误。
+* [HotfixFlutter](https://github.com/magicbaby810/HotfixFlutter)：使用Tinker或Sophix实现Flutter热更新，兼容flutterboost。
+* [Titan](https://github.com/baidu/titan-hotfix)：Titan是一个Android平台上的热修复解决方案，无需发版就可以修复线上问题，由百度开源。
+
+#### Android运行时权限
+
+* [PermissionsDispatcher](https://github.com/permissions-dispatcher/PermissionsDispatcher)：PermissionsDispatcher提供了一个简单的基于注解的API来处理运行时权限。
+* [EasyPermissions](https://github.com/googlesamples/easypermissions)：EasyPermissions是一个包装库，用于简化针对Android M或更高版本时的基本系统权限逻辑，由Google开发。
+* [RxPermissions](https://github.com/tbruyelle/RxPermissions)：该库允许将RxJava与新的Android M权限模型一起使用。
+* [AndPermission](https://github.com/yanzhenjie/AndPermission)：Android平台的权限管理器。
+* [XXPermissions](https://github.com/getActivity/XXPermissions)：Android权限框架，适配Android 15。
+* [Dexter](https://github.com/Karumi/Dexter)：Dexter是一个Android库，它简化了运行时请求权限的过程。
+* [PermissionX](https://github.com/guolindev/PermissionX)：PermissionX是一个扩展Android库，它使得Android运行时权限请求变得非常容易。
+* [Permissions4M](https://github.com/jokermonn/permissions4m)：国产手机5.0、6.0权限适配框架/编译时注解框架。
+* [Libsu](https://github.com/topjohnwu/libsu)：一个为使用Root权限的应用程序提供完整解决方案的Android库。
+* [TedPermission](https://github.com/ParkSangGwon/TedPermission)：轻松检查Android Marshmallow的权限库。
+* [PermissionHelper](https://github.com/k0shk0sh/PermissionHelper)：Android库可帮助你处理运行时权限。
+* [HiPermission](https://github.com/yewei02538/HiPermission)：一个简洁美观的Android运行时权限库。
+* [PermissionGen](https://github.com/lovedise/PermissionGen)：PermissionGen可以轻松处理Android M中的权限。
+* [MPermissions](https://github.com/hongyangAndroid/MPermissions)：基于注解处理器的简单易用的处理Android M运行时权限的库。
+* [RuntimePermission](https://github.com/florent37/RuntimePermission)：在Android上请求运行时权限的最简单方法。
+* [Assent](https://github.com/afollestad/assent)：Assent旨在使Android的运行时权限更容易，并减少应用中的代码使用。
+* [Nammu](https://github.com/tajchert/Nammu)：使用Android 6.0 Marshmallow中引入的全新运行时权限功能，加速你的工作。
+* [SoulPermission](https://github.com/soulqw/SoulPermission)：Android的权限检查或请求。
+* [Let](https://github.com/canelmas/let)：基于注解的简单API，采用AOP风格来处理新的Android运行时权限模型。
+* [Moko Permissions](https://github.com/icerockdev/moko-permissions)：Kotlin MultiPlatform库，用于在iOS和Android上提供运行时权限。
+* [KPermissions](https://github.com/fondesa/kpermissions)：一个完全用Kotlin编写的Android库，有助于请求运行时权限。
+* [Android Permissions](https://github.com/nabinbhandari/Android-Permissions)：轻松处理Android中的运行时权限。
+* [QuickPermissions](https://github.com/QuickPermissions/QuickPermissions)：处理Android运行时权限最简单的方法。
+* [FcPermissions](https://github.com/lypeer/FcPermissions)：FcPermissions是一个用于简化针对Android M或更高版本的基本系统权限逻辑的库。
+* [HeiPermission](https://github.com/forJrking/HeiPermission)：Android M动态权限解决方案。
+* [Permissify](https://github.com/holidaycheck/Permissify)：Permissify是一个Android库，它使得在运行时请求权限变得更加容易。
+* [QuickPermissions](https://github.com/QuickPermissions/QuickPermissions-Kotlin)：在Kotlin中处理Android运行时权限的最简单方法。
+* [PermissionUtil](https://github.com/kayvannj/PermissionUtil)：Android 6.0运行时权限API的简单包装器。
+* [EazyPermission](https://github.com/sagar-viradiya/eazypermissions)：轻量级的Android库，它包装了运行时权限的样板代码并允许你请求权限。
+* [Aaper](https://github.com/LikeTheSalad/aaper)：仅使用注解来确保Android运行时权限。
+* [EasyPermission](https://github.com/panyiho/EasyPermission)：EasyPermission是一个简单易用，且无多余的第三方依赖的Android6.0动态权限申请库。
+* [RxPermission](https://github.com/vanniktech/RxPermission)：该库使用RxJava 2包装了Android运行时权限。
+* [Permiso](https://github.com/greysonp/permiso)：Permiso是一个Android库，它使得请求运行时权限变得更加容易。
+* [Aopermission](https://github.com/crazyqiang/Aopermission)：AOP方式封装的6.0运行时申请权限的库。
+* [RuntimePermissionsExtended](https://github.com/vuksa/RuntimePermissionsExtended)：该项目提供了Kotlin扩展函数，使得权限处理更加简单、简洁。
+* [Ask](https://github.com/00ec454/Ask)：让Android运行时权限更简单。
+* [PermissionsKt](https://github.com/sembozdemir/PermissionsKt)：以Kotlin方式处理Android运行时权限。
+* [Permission Compose](https://github.com/meticha/permissions-compose)：轻量级Android库，可简化Jetpack Compose应用程序中的运行时权限管理。
+* [Rx Android Permissions](https://github.com/sergejsha/rx-android-permissions)：Android 6.0中引入的用于观察和请求Android运行时权限的简单RxJava库。
+* [PowerPermission](https://github.com/underwindfall/PowerPermission)：PowerPermission使得处理运行时权限变得非常容易。
 
 ## GUI开发/程序
 
@@ -3102,6 +3179,7 @@
 
 ## 调用图
 
+* [AppMethodOrder](https://github.com/zjw-swun/AppMethodOrder)：一个能让你了解所有函数调用顺序以及函数耗时的Android库。
 * [Java CallGraph](https://github.com/Adrninistrator/java-all-call-graph)：Java CallGraph能够通过静态分析的方式批量生成指定Java方法向下的完整调用链。
 * [Java CallGraph](https://github.com/gousiosg/java-callgraph)：一套用于在Java中生成静态和动态调用图的程序。
 
