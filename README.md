@@ -241,6 +241,8 @@
     * [加密算法](docs/doc2#加密算法)
     * [接口加密](docs/doc2#接口加密)
     * [零知识证明](docs/doc2#零知识证明)
+    * [XSS](docs/doc2#XSS)
+    * [CORS](docs/doc2#CORS)
 * [API管理](docs/doc2.md#API管理)
 * [GraphQL](docs/doc2.md#GraphQL)
 * [GraphQL](docs/doc2.md#GraphQL)
@@ -321,6 +323,7 @@
     * [PPT库](docs/doc2.md#PPT库)
     * [ODS库](docs/doc2.md#ODS库)
     * [DBF库](docs/doc2.md#DBF库)
+    * [Office库](docs/doc2.md#Office库)
     * [XML库](docs/doc2.md#XML库)
     * [YML库](docs/doc2.md#YML库)
     * [INI库](docs/doc2.md#INI库)
@@ -332,6 +335,11 @@
     * [Markdown库](docs/doc2.md#Markdown库)
     * [文件库](docs/doc2.md#文件库)
     * [文件转换](docs/doc2.md#文件转换)
+    * [Mime解析](docs/doc2.md#Mime解析)
+    * [文件操作](docs/doc2.md#文件操作)
+    * [文件上传](docs/doc2.md#文件上传)
+    * [文件比较](docs/doc2.md#文件比较)
+    * [文件预览](docs/doc2.md#文件预览)
 * [集群管理](docs/doc2.md#集群管理)
 * [容器化工具](docs/doc2.md#容器化工具)
 * [DevOps](docs/doc2.md#DevOps)
@@ -426,6 +434,7 @@
     * [智能卡](docs/doc2.md#智能卡)
     * [电子发票](docs/doc2.md#电子发票)
 * [短信](docs/doc2.md#短信)
+* [邮件库](docs/doc2.md#邮件库)
 * [DSL](docs/doc2.md#DSL)
 * [JMX](docs/doc2.md#JMX)
 * [RMI](docs/doc2.md#RMI)
@@ -451,6 +460,7 @@
     * [Android图表库](docs/doc3.md#Android图表库)
     * [Android日历库](docs/doc3.md#Android日历库)
     * [Android布局库](docs/doc3.md#Android布局库)
+    * [Android富文本组件](docs/doc3.md#Android富文本组件)
     * [Android下拉刷新](docs/doc3.md#Android下拉刷新)
     * [Android项目模板](docs/doc3.md#Android项目模板)
     * [Android图像库](docs/doc3.md#Android图像库)
@@ -612,12 +622,6 @@
 * [跨语言](docs/doc3.md#跨语言)
 * [转换库](docs/doc3.md#转换库)
 * [IO库](docs/doc3.md#IO库)
-* [Mime解析](docs/doc3.md#Mime解析)
-* [文件操作](docs/doc3.md#文件操作)
-* [文件上传](docs/doc3.md#文件上传)
-* [文件比较](docs/doc3.md#文件比较)
-* [文件预览](docs/doc3.md#文件预览)
-* [邮件操作](docs/doc3.md#邮件操作)
 * [电子签名](docs/doc3.md#电子签名)
 * [安全培训](docs/doc3.md#安全培训)
 * [RSS](docs/doc3.md#RSS)
@@ -691,7 +695,6 @@
 * [打印机](docs/doc3.md#打印机)
 * [Web资源](docs/doc3.md#Web资源)
 * [Web开发库](docs/doc3.md#Web开发库)
-* [Web过滤器](docs/doc3.md#Web过滤器)
 * [Cron解析](docs/doc3.md#Cron解析)
 * [手机号解析](docs/doc3.md#手机号解析)
 * [表达式引擎](docs/doc3.md#表达式引擎)
@@ -1998,6 +2001,7 @@
 * [IGinX](https://github.com/IGinX-THU/IGinX)：IGinX是清华大学大数据软件栈的“大数据总线”。
 * [Bigtop Manager](https://github.com/apache/bigtop-manager)：Bigtop Manager是一款现代化、人工智能驱动的Web应用程序，旨在简化大数据集群管理的复杂性，由华为开发。
 * [Data Platform Open](https://github.com/shaiwz/data-platform-open)：可视化拖拽式大数据集成平台、大数据平台、大数据，包含数据流、数据源、数据对齐、查询模板、完善的监控等。
+* [SparkMeasure](https://github.com/LucaCanali/sparkMeasure)：SparkMeasure是一款旨在简化Apache Spark作业性能测量和故障排除的工具和库。
 
 #### 大数据组件
 
@@ -3860,9 +3864,10 @@
 * [JobX](https://github.com/datavane/jobx)：JobX是一个功能完善真正通用的Linux定时任务调度系统，由Datavane大数据组织开源。
 * [BigBen](https://github.com/walmartlabs/bigben)：BigBen是一个基于Cassandra和Hazelcast的通用、多租户、基于时间的事件调度程序和Cron调度框架，由沃尔玛开源。
 * [Light Task Scheduler](https://github.com/ltsopensource/light-task-scheduler)：LTS主要用于解决分布式任务调度问题，支持实时任务、定时任务和Cron任务。
+* [Atlassian Scheduler](https://bitbucket.org/atlassian/atlassian-scheduler)：Atlassian Scheduler库是用于在Atlassian应用程序中创建调度任务的API。
 * [CronMan](https://github.com/smmdwa/CronMan)：CronMan是一款轻量级的分布式任务调度系统。
 * [Chronus](https://github.com/360digitech/chronus)：Chronus是360数科技术团队基于阿里开源项目TBSchedule重写的分布式调度。
-* [Earth Frost](https://gitee.com/justlive1/earth-frost)：Earth-Frost是一个轻量级分布式任务调度框架。
+* [Earth Frost](https://gitee.com/justlive1/earth-frost)：Earth Frost是一个轻量级分布式任务调度框架。
 * [Schedulix](https://github.com/schedulix/schedulix)：Schedulix是一个开源企业作业调度系统。
 * [Hodor](https://github.com/dromara/hodor)：Hodor是一个专注于任务调度以及任务编排的一站式分布式任务调度系统，由dromara社区开源。
 * [TASKANA](https://github.com/Taskana/taskana)：TASKANA是一个任务管理组件开源库，它可以嵌入到你的应用程序中，也可以在适当的情况下独立运行。
@@ -4059,6 +4064,7 @@
 * [BIDMach](https://github.com/BIDData/BIDMach)：BIDMach是伯克利BID实验室研发的一个开源机器学习框架。
 * [Datumbox](https://github.com/datumbox/datumbox-framework)：Datumbox是一个用Java编写的开源机器学习框架，可以快速开发机器学习和统计应用程序。
 * [Dagli](https://github.com/linkedin/dagli)：Dagli是一个机器学习框架，可以轻松地用Java 9+编写防错误、可读、高效、可维护且可轻松部署的模型，由LinkedIn开源。
+* [MLeap](https://github.com/combust/mleap)：MLeap是机器学习管道的常见序列化格式和执行引擎。
 * [Sandwood](https://github.com/oracle/sandwood)：Sandwood是一种基于JVM的概率模型的语言、编译器和运行时，由Oracle开源。
 * [Ytk-Learn](https://github.com/kanyun-inc/ytk-learn)：Ytk-Learn是一个分布式机器学习库，它实现了大多数流行的机器学习算法，由看云控股技术团队开源。
 * [Meka](https://github.com/Waikato/meka)：MEKA项目提供了多标签学习和评估方法的开源实现，由怀卡托大学开发。
@@ -4116,6 +4122,7 @@
 * [Neo4j NLP](https://github.com/graphaware/neo4j-nlp)：Neo4j NLP是提供基于图的自然语言处理功能的Neo4j插件。
 * [MiNLP](https://github.com/XiaoMi/MiNLP)：MiNLP具备词法、句法、语义分析等数十个功能模块，在小米内部广泛应用。
 * [NLPLang](https://github.com/NLPchina/nlp-lang)：NLPLang是一个基本包，封装了大多数NLP项目中常用工具。
+* [SmoothNLP](https://github.com/smoothnlp/SmoothNLP)：专注于可解释推理的NLP工具集。
 * [SimpleNLG](https://github.com/simplenlg/simplenlg)：SimpleNLG是一个简单的Java API，旨在促进自然语言的生成，最初由阿伯丁大学开发。
 * [MyNLP](https://github.com/mayabot/mynlp)：MyNLP是一个生产级、高性能、模块化、可扩展的中文NLP工具包，由上海万行公司开源。
 * [Apache UIMA](https://github.com/apache/uima-uimaj)：UIMA是分析大量非结构化信息以发现与最终用户相关的知识的软件系统，由IBM开源。
