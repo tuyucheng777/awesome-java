@@ -2266,7 +2266,7 @@
 * [Codesnippet Javadoc Doclet](https://github.com/jtulach/codesnippet4javadoc)：Codesnippet Doclet可帮助你在文档中包含真实的代码片段，确保它们始终可编译。
 * [Deploy Publish JavaDoc](https://github.com/MathieuSoysal/Javadoc-publisher.yml)：自动从Java项目生成Javadoc并将其发布到GitHub Page。
 
-## 文件解析
+## 文件操作
 
 #### PDF库
 
@@ -2590,16 +2590,11 @@
 * [MIME Type](https://github.com/overview/mime-types)：用于检测文件MIME类型的Java库。
 * [Email Mime Parser](https://github.com/ram-sharma-6453/email-mime-parser)：基于Mime4j的简化Java电子邮件Mime解析器。
 
-#### 文件操作
+#### 文件监视
 
-* [AppDirs](https://github.com/harawata/appdirs)：AppDirs是一个小型Java库，它提供了平台相关的特殊文件夹/目录的路径。
-* [FSWatch](https://github.com/vorburger/ch.vorburger.fswatch)：用于基于java.nio.file.WatchService监视目录或单个文件的Java库。
+* [FSWatch](https://github.com/vorburger/ch.vorburger.fswatch)：基于java.nio.file.WatchService监控目录或单个文件的Java库。
 * [Directory Watcher](https://github.com/gmethvin/directory-watcher)：适用于JDK 8+的目录监视实用程序，旨在为Linux、macOS和Windows提供准确且高效的递归监视。
 * [Play File Watch Library](https://github.com/playframework/play-file-watch)：这是Play文件监视库，它可用于以独立于平台的方式监视文件。
-* [Giraffe](https://github.com/palantir/giraffe)：Giraffe是一个Java库，可让你轻松访问本地和远程计算机上的文件并执行命令，由Palantir开源。
-* [Wildcard](https://github.com/EsotericSoftware/wildcard)：Wildcard是一个小型Java库，用于执行文件和目录的高效模式匹配。
-* [Directories](https://github.com/dirs-dev/directories-jvm)：Directories是一个提供配置/缓存/数据路径的小型库，遵循Linux、MacOS、BSD和Windows上的相应约定。
-* [Resource Loader](https://github.com/terl/resource-loader)：Resource Loader为你提供了加载资源文件的功能，无论是从JAR文件内部还是外部加载。
 * [Kfswatch](https://github.com/irgaly/kfswatch)：Kotlin多平台文件系统观察器库。
 
 #### 文件上传
@@ -4051,6 +4046,7 @@
 * [Iot Modbus](https://gitee.com/flyoss/iot-modbus)：物联网通讯协议，基于Netty框架，支持COM(串口)和TCP协议，支持服务端和客户端两种模式。
 * [Modbus4Android](https://github.com/zgkxzx/Modbus4Android)：这是适用于Android的Modbus库。
 * [Modbus4Android](https://github.com/licheedev/Modbus4Android)：Modbus的Android实现，添加对Android串口(RTU)的支持。
+* [Nifty Modbus](https://github.com/SolarNetwork/nifty-modbus)：Nifty Modbus是一个优秀的Java Modbus库。
 
 #### USB库
 

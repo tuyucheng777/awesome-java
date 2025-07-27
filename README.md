@@ -316,7 +316,7 @@
 * [接口文档](docs/doc2.md#接口文档)
 * [技术文档](docs/doc2.md#技术文档)
 * [Javadoc](docs/doc2.md#Javadoc)
-* [文件解析](docs/doc2.md#文件解析)
+* [文件操作](docs/doc2.md#文件操作)
     * [PDF库](docs/doc2.md#PDF库)
     * [Excel库](docs/doc2.md#Excel库)
     * [CSV库](docs/doc2.md#CSV库)
@@ -338,7 +338,7 @@
     * [文件库](docs/doc2.md#文件库)
     * [文件转换](docs/doc2.md#文件转换)
     * [Mime解析](docs/doc2.md#Mime解析)
-    * [文件操作](docs/doc2.md#文件操作)
+    * [文件监视](docs/doc2.md#文件监视)
     * [文件上传](docs/doc2.md#文件上传)
     * [文件比较](docs/doc2.md#文件比较)
     * [文件预览](docs/doc2.md#文件预览)
@@ -624,6 +624,7 @@
 * [跨语言](docs/doc3.md#跨语言)
 * [转换库](docs/doc3.md#转换库)
 * [IO库](docs/doc3.md#IO库)
+* [目录库](docs/doc3.md#目录库)
 * [电子签名](docs/doc3.md#电子签名)
 * [安全培训](docs/doc3.md#安全培训)
 * [RSS](docs/doc3.md#RSS)
@@ -3204,6 +3205,7 @@
 #### 以太网
 
 * [Nzyme](https://github.com/nzymedefense/nzyme)：借助Nzyme，你可以监控所有以太网和WiFi网络流量是否存在威胁、确认预期行为并有选择地将数据转发到你的SIEM或日志管理系统。
+* [Etherip](https://github.com/ornl-epics/etherip)：用于通过以太网/IP协议在AllenBradley Control Logix或Compact Logix PLC上读取和写入标签的Java库，由橡树岭国家实验室开源。
 * [EtherNet/IP](https://github.com/digitalpetri/ethernet-ip)：适用于Java的异步、非阻塞EtherNet/IP客户端实现。
 * [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter)：CICFlowMeter是一种用于异常检测的以太网流量双向流生成器和分析器，由约克大学开发。
 
