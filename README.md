@@ -599,6 +599,13 @@
     * [下采样](docs/doc3.md#下采样)
 * [噪声库](docs/doc3.md#噪声库)
 * [原生开发](docs/doc3.md#原生开发)
+* [互操作](docs/doc3.md#互操作)
+    * [Python](docs/doc3.md#Python)
+    * [Swift](docs/doc3.md#Swift)
+    * [Ruby](docs/doc3.md#Ruby)
+    * [Rust](docs/doc3.md#Rust)
+    * [R](docs/doc3.md#R)
+    * [.NET](docs/doc3.md#NET)
 * [操作系统信息](docs/doc3.md#操作系统信息)
 * [COM桥](docs/doc3.md#COM桥)
 * [GPU编程](docs/doc3.md#GPU编程)
@@ -621,7 +628,6 @@
 * [物理库](docs/doc3.md#物理库)
 * [无人机](docs/doc3.md#无人机)
 * [AIS库](docs/doc3.md#AIS库)
-* [跨语言](docs/doc3.md#跨语言)
 * [转换库](docs/doc3.md#转换库)
 * [IO库](docs/doc3.md#IO库)
 * [目录库](docs/doc3.md#目录库)
@@ -2913,6 +2919,7 @@
 * [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
 * [Nginx Clojure](https://github.com/nginx-clojure/nginx-clojure)：Nginx Clojure是一个Nginx模块，用于嵌入Clojure或Java或Groovy程序，通常是那些基于Ring的处理程序。
 * [Jibble](http://www.jibble.org/miniwebserver/)：Jibble是一个用Java编写的非常小的独立Web服务器，它打包在JAR文件中，也可以在你自己的Java程序中使用。
+* [TorqueBox](https://github.com/torquebox/torquebox)：TorqueBox运行在JRuby之上，并基于一个全新的轻量级、可插拔、多语言服务器。
 * [Android HTTP Server](https://github.com/piotrpolak/android-http-server)：完全用Java编写的小型但功能强大的多线程Web服务器。
 * [MuServer](https://github.com/3redronin/mu-server)：MuServer是一个基于Netty的现代Java Web服务器。
 * [Fluent HTTP](https://github.com/CodeStory/fluent-http)：Fluent HTTP是一个简单、快速、成熟的Web服务器。
@@ -3985,6 +3992,7 @@
 * [Java LangChain](https://github.com/Starcloud-Cloud/java-langchain)：Java LangChain是一个Java 8+的LangChain实现，在Java环境中构建强大的基于LLM的应用程序。
 * [ChocoBuilder](https://github.com/unit-mesh/choco-builder)：ChocoBuilder是一款开源的LLM应用开发框架，旨在帮助你轻松打造强大的软件开发SDLC、LLM生成助手。
 * [JBoltAI](https://jboltai.com/)：JBoltAI是Java企业级AI应用开发框架，旨在帮助Java系统快速接入大模型能力并开发具有AI能力的功能模块。
+* [DriftKit](https://github.com/driftkit-ai/driftkit-framework)：适用于Java的生产级AI框架。
 
 #### 推理引擎
 
