@@ -266,7 +266,6 @@
 * [指纹识别](docs/doc2.md#指纹识别)
 * [推荐系统](docs/doc2.md#推荐系统)
 * [逻辑编程](docs/doc2.md#逻辑编程)
-* [多智能体](docs/doc2.md#多智能体)
 * [MATLAB](docs/doc2.md#MATLAB)
 * [Jupyter](docs/doc2.md#Jupyter)
 * [元启发式框架](docs/doc2.md#元启发式框架)
@@ -592,7 +591,6 @@
     * [随机流算法](docs/doc3.md#随机流算法)
     * [HyperLogLog算法](docs/doc3.md#HyperLogLog算法)
     * [Simhash算法](docs/doc3.md#Simhash算法)
-    * [协同过滤算法](docs/doc3.md#协同过滤算法)
     * [LSH算法](docs/doc3.md#LSH算法)
     * [LDA算法](docs/doc3.md#LDA算法)
     * [实体链接](docs/doc3.md#实体链接)
@@ -4124,6 +4122,7 @@
 * [RuleKit](https://github.com/adaa-polsl/RuleKit)：RuleKit是一种用于规则学习的多功能工具，基于顺序覆盖归纳算法，它适用于分类、回归和生存问题，由西里西亚理工大学开源。
 * [Foundry](https://github.com/algorithmfoundry/Foundry)：Cognitive Foundry是一个开源Java库，用于构建专注于机器学习的智能系统，由桑迪亚国家实验室领导。
 * [Komputation](https://github.com/sekwiatkowski/komputation)：Komputation是一个用Kotlin和CUDA C编写的JVM神经网络框架。
+* [Harness](https://github.com/actionml/harness)：Harness是一个机器学习/人工智能服务器，带有许多算法的插件，包括通用推荐器。
 
 #### 自然语言处理
 

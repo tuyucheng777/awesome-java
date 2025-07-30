@@ -1181,13 +1181,17 @@
 ## 推荐系统
 
 * [Twitter Recommendation Algorithm](https://github.com/twitter/the-algorithm)：Twitter的推荐算法是一组服务和作业，负责在所有Twitter产品界面(例如For You时间线、搜索、探索、通知)上提供推文和其他内容的提要。
-* [RankSys](https://github.com/RankSys/RankSys)：RankSys是一个用于实施和评估推荐算法和技术的新框架。
 * [LibRec](https://github.com/guoguibing/librec)：LibRec是一个用于推荐系统的Java库，它实现了一套最先进的推荐算法，旨在解决两个经典的推荐任务：评级预测和项目排名。
+* [TagRec](https://github.com/learning-layers/TagRec)：TagRec的目的是为社区提供一个用Java编写的简单易用的通用标签推荐框架，以便使用一组众所周知的标准来评估新的标签推荐算法，由格拉茨技术大学开源。
+* [RankSys](https://github.com/RankSys/RankSys)：RankSys是一个用于实施和评估推荐算法和技术的新框架。
 * [LensKit](https://github.com/lenskit/lenskit)：LensKit是协同过滤算法的实现，也是一组用于对算法进行基准测试的工具，由明尼苏达大学开源。
 * [CARSKit](https://github.com/irecsys/CARSKit)：CARSKit是一款基于Java的开源上下文感知推荐引擎。
 * [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
 * [Neo4j Reco](https://github.com/graphaware/neo4j-reco)：GraphAware Neo4j推荐引擎是一个基于Neo4j构建高性能复杂推荐引擎的库。
 * [Samantha](https://github.com/grouplens/samantha)：Samantha是用于离线机器学习和推荐建模以及快速在线生产服务的通用推荐器和预测器服务器，由明尼苏达大学开源。
+* [Universal Recommender](https://github.com/actionml/universal-recommender)：Universal Recommender是一种新型的协同过滤推荐器，其基于一种能够利用各种用户偏好指标数据的算法-相关交叉出现算法。
+* [CF4j](https://github.com/ferortega/cf4j)：Java的协同过滤库，用于开展基于协同过滤的推荐系统研究实验。
+* [Sifarish](https://github.com/pranab/sifarish)：Sifarish是一套基于Hadoop和Storm实现的个性化推荐解决方案。
 
 ## 逻辑编程
 
@@ -1196,13 +1200,6 @@
 * [Alpha](https://github.com/alpha-asp/Alpha)：Alpha是一个答案集编程(ASP)系统：它读取逻辑程序(一组逻辑规则)并计算相应的答案集，由维也纳工业大学开源。
 * [2P-Kt](https://github.com/tuProlog/2p-kt)：2P-Kt旨在为逻辑编程和人工智能提供一个通用、可扩展和可互操作的生态系统，由新墨西哥州立大学开源。
 * [JIProlog](https://github.com/jiprolog/jiprolog)：JIProlog是一个Prolog解释器，100%纯Java，跨平台且开源。
-
-## 多智能体
-
-* [Jason](https://github.com/jason-lang/jason)：Jason是AgentSpeak扩展版本的成熟解释器，AgentSpeak是一种面向BDI代理的逻辑编程语言，由圣卡塔琳娜联邦大学开源。
-* [JaCaMo](https://github.com/jacamo-lang/jacamo)：JaCaMo项目旨在通过提供一个集成工具和语言的开发平台来推广面向多智能体编程(MAOP)方法。
-* [BURLAP](https://github.com/jmacglashan/burlap)：BURLAP是一个Java代码库，用于使用和开发单智能体或多智能体规划和学习算法以及伴随它们的域，由布朗大学开源。
-* [Yggdrasil](https://github.com/Interactions-HSG/yggdrasil)：使用Vert.x构建的超媒体多代理系统(MAS)平台，由圣加仑大学交互研究团队开源。
 
 ## MATLAB
 
@@ -1645,6 +1642,7 @@
 * [Jess](http://alvarestech.com/temp/fuzzyjess/Jess60/Jess70b7/docs/index.html)：Jess是最早能够轻松与Java集成的规则引擎之一，由桑迪亚国家实验室开源。
 * [JRuleEngine](https://jruleengine.sourceforge.net/)：JRuleEngine是一个Java规则引擎，基于JSR 94，版本1.1。
 * [URule](https://github.com/youseries/urule)：URule是一款基于RETE算法的纯Java规则引擎，提供规则集、决策表、决策树、评分卡、规则流等各种规则表现工具及基于网页的可视化设计器。
+* [Together](http://rongtek.com/col.jsp?id=115)：你可以通过Together规则引擎构建你的决策模型并将其打包成可独立运行的迷你jar包，快速部署到需要的任何IT环境中。
 * [DataFrames](https://github.com/databrickslabs/dataframe-rules-engine)：用于自定义数据框/数据集验证的可扩展规则引擎。
 * [JVS Rules](https://gitee.com/software-minister/jvs-rules)：本项目是基于JVS逻辑引擎构建的规则引擎。
 * [YARE](https://github.com/SabreOSS/yare)：YARE是一个用Java编写的规则引擎。
