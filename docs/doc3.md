@@ -703,6 +703,25 @@
 * [Rx Android Permissions](https://github.com/sergejsha/rx-android-permissions)：Android 6.0中引入的用于观察和请求Android运行时权限的简单RxJava库。
 * [PowerPermission](https://github.com/underwindfall/PowerPermission)：PowerPermission使得处理运行时权限变得非常容易。
 
+#### Android下载库
+
+* [FileDownloader](https://github.com/lingochamp/FileDownloader)：Android多任务文件下载引擎。
+* [OkDownload](https://github.com/lingochamp/okdownload)：可靠、灵活、快速且强大的下载引擎。
+* [Fast Android Networking](https://github.com/amitshekhariitbhu/Fast-Android-Networking)：Fast Android Networking是一个功能强大的库，用于在Android应用程序中执行任何类型的网络。
+* [RxDownload](https://github.com/ssseasonnn/RxDownload)：使用RxJava和Kotlin编写的多线程下载工具。
+* [Android Download Manager](https://github.com/majidgolshadi/Android-Download-Manager-Pro)：Android/Java下载管理器库可帮助你以并行机制分块下载文件。
+* [Multi Thread Downloader](https://github.com/devaige/MultiThreadDownloader)：轻量级、简单的Android多线程下载器。
+* [MultiThreadDownload](https://github.com/Aspsine/MultiThreadDownload)：Android多线程下载库。
+* [Thin DownloadManager](https://github.com/smanikandan14/ThinDownloadManager)：Thin DownloadManager是一个Android库，主要用于下载文件，并在应用程序中使用Android提供的DownloadManager时避免使用DOWNLOAD_WITHOUT_NOTIFICATION权限。
+* [Picasso 2 OkHttp 3 Downloader](https://github.com/JakeWharton/picasso2-okhttp3-downloader)：针对Picasso 2的OkHttp 3下载器实现。
+* [CoreProgress](https://github.com/lizhangqu/CoreProgress)：CoreProgress是一个支持OkHttp上传下载进度的框架。
+* [Download Manager](https://github.com/novoda/download-manager)：处理长时间下载、处理网络交互并在失败后自动重试下载的库。
+* [Android Downloader](https://github.com/ixuea/android-downloader)：Android Downloader是一个适用于Android的开源多线程和多任务下载信息框架。
+* [Downloader](https://github.com/Justson/Downloader)：Downloader是一个非常轻巧以及功能强大快速下载库。
+* [M3U8Downloader](https://github.com/Jay-Goo/M3U8Downloader)：M3U8下载器，支持多线程下载、断点续传、后台下载、本地播放解决方案、M3U8加密解决方案。
+* [FileDownloader](https://github.com/wlfcolin/file-downloader)：FileDownloader是一个强大的HTTP/HTTPS文件下载工具
+* [Pump](https://github.com/huxq17/Pump)：Pump是一个快速、易于使用的Android下载库，支持多任务、多线程、断点下载。
+
 ## GUI开发/程序
 
 这里列出了Java中常用的Swing、JavaFX开发库，以及一些Java开发的GUI工具和游戏引擎。
@@ -797,6 +816,7 @@
 * [SwingX](https://github.com/arotenberg/swingx)：SwingX是一个扩展Java Swing库的组件和实用程序库。
 * [SwingBox](https://github.com/radkovo/SwingBox)：SwingBox是一个Java Swing组件，允许显示包含CSS支持的(X)HTML文档。
 * [Swing Toast Notifications](https://github.com/DJ-Raven/swing-toast-notifications)：Java桌面应用程序使用Swing Toast通知。
+* [TableFilter](https://coderazzi.net/tablefilter/)：TableFilter是一组Swing组件，用于支持用户自定义的表格过滤功能。
 
 #### Swing Dock库
 
@@ -1033,7 +1053,7 @@
 * [JFX-Browser](https://github.com/badarshahzad/Jfx-Browser)：JFX Browser是一个多选项卡浏览器。
 * [Webview Java](https://github.com/webview/webview_java)：Webview项目的Java移植，它使用JNA并自动提取当前系统所需的dll/dylib/so库。
 
-#### JavaFX小工具
+#### JavaFX程序
 
 * [JabRef](https://github.com/JabRef/jabref)：JabRef是一个开源、跨平台的引文和引用管理工具。
 * [AsciidocFX](https://github.com/asciidocfx/AsciidocFX)：AsciidocFX是一款书籍/文档编辑工具，用户可以创建PDF、Epub、Mobi和HTML等形式的书籍/文档。
@@ -1060,6 +1080,7 @@
 * [Usagi](https://github.com/OHDSI/Usagi)：Usagi是一个帮助创建编码系统和词汇标准概念之间映射的应用程序，由OHDSI开源。
 * [Trinity](https://github.com/Birdasaur/Trinity)：Trinity提供性能分析和XAI工具，非常适合深度学习系统或执行复杂分类或解码的其他模型。
 * [Board Instrumentation Framework](https://github.com/intel/Board-Instrumentation-Framework)：这个项目允许你灵活地对几乎任何你想要的内容进行仪表化和图形化显示，由Intel开发。
+* [Officer Breaker](https://github.com/nedlir/OfficerBreaker)：Officer Breaker是一个简单的程序，它可以从属于Office Open XML格式系列(.pptx/.xlsx/.docx文件类型)的只读保护文件中删除密码。
 
 #### GUI程序
 
@@ -1285,7 +1306,7 @@
 * [VUE](https://github.com/VUE/VUE)：VUE是一个用Java编写的免费开源概念图应用程序，由塔夫茨大学学术技术小组开发。
 * [CompendiumNG](https://github.com/compendiumng/compendiumng)：CompendiumNG是一个功能强大的应用程序，可让你使用节点和链接结构创建广泛的地图，由英国开放大学开源。
 * [MindRaider](https://mindraider.sourceforge.net/)：MindRaider是一款个人笔记本和大纲编辑器。
-* [Mindolph](https://github.com/twasyl/jstackfx)：Mindolph是一款开源个人知识管理软件。
+* [Mindolph](https://github.com/mindolph/Mindolph)：Mindolph是一款开源个人知识管理软件。
 
 #### 数据库软件
 
@@ -3100,7 +3121,7 @@
 * [Mojito](https://github.com/box/mojito)：Mojito是一个持续本地化平台，依靠持续集成将所有软件字符串收集到一处，实时查看哪些产品需要本地化。
 * [Tolgee](https://github.com/tolgee/tolgee-platform)：Tolgee是一个本地化平台，允许你将应用程序翻译成任何语言，而无需修改代码。
 * [Humanize](https://github.com/mfornos/humanize)：Humanize是一种Java工具，用于为数据添加国际化。
-* [Tradukisto](https://github.com/allegro/tradukisto)：用于将数字转换为其单词表示形式的Java库，由Allegro开源。
+* [Tradukisto](https://github.com/allegro/tradukisto)：Tradukisto是一个强大的Java库，旨在将数字转换为相应的单词表示形式，由Allegro开源。
 * [Kilt](https://github.com/hupfdule/kilt)：Kilt是一组小工具，用于简化Java i18n资源包的处理。
 * [ICU4j](https://github.com/unicode-org/icu)：为软件应用提供Unicode和国际化支持，由IBM开源。
 * [Gettext](https://github.com/jgettext/gettext-commons)：Gettext Commons项目为国际化(i18n)通过GNU gettext和Java实现资源包。
@@ -3585,7 +3606,7 @@
 * [Simple Binary Encoding](https://github.com/real-logic/simple-binary-encoding)：SBE是OSI第6层表示，用于对低延迟金融应用程序的二进制应用程序消息进行编码和解码。
 * [Juniversalchardet](https://github.com/albfernandez/juniversalchardet)：Juniversalchardet是universalchardet的Java端口，universalchardet是Mozilla的编码检测器库。
 * [PETSCII BBS Builder](https://github.com/sblendorio/petscii-bbs)：一个Java框架，用于构建高度可定制的PETSCII(和ASCII)支持的BBS，可从8位Commodore计算机访问。
-* [FastProto](https://github.com/indunet/fastproto)：FastProto是一个功能强大的二进制数据处理工具，旨在简化Java环境中的二进制数据编码和解码。
+* [Xtream Codec](https://github.com/hylexus/xtream-codec)：基于Reactor Netty的私有协议编解码库。
 
 ## 打印机
 
