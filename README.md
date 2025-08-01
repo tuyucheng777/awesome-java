@@ -229,21 +229,27 @@
     * [测试套件](docs/doc2.md#测试套件)
     * [测试异味](docs/doc2.md#测试异味)
     * [代码覆盖率](docs/doc2#代码覆盖率)
-* [安全](docs/doc2#安全)
-    * [身份认证和授权](docs/doc2#身份认证和授权)
-    * [JWT库](docs/doc2#JWT库)
-    * [OAuth库](docs/doc2#OAuth库)
-    * [安全库](docs/doc2#安全库)
-    * [安全工具](docs/doc2#安全工具)
-    * [自保护](docs/doc2#自保护)
-    * [跨域身份管理](docs/doc2#跨域身份管理)
-    * [加密库](docs/doc2#加密库)
-    * [密码库](docs/doc2#密码库)
-    * [加密算法](docs/doc2#加密算法)
-    * [接口加密](docs/doc2#接口加密)
-    * [零知识证明](docs/doc2#零知识证明)
-    * [XSS](docs/doc2#XSS)
-    * [CORS](docs/doc2#CORS)
+* [安全](docs/doc2.md#安全)
+    * [安全框架](docs/doc2.md#安全框架)
+    * [JWT库](docs/doc2.md#JWT库)
+    * [授权服务器](docs/doc2.md#授权服务器)
+    * [OAuth库](docs/doc2.md#OAuth库)
+    * [身份管理平台](docs/doc2.md#身份管理平台)
+    * [单点登录](docs/doc2.md#单点登录)
+    * [安全库](docs/doc2.md#安全库)
+    * [安全工具](docs/doc2.md#安全工具)
+    * [自保护](docs/doc2.md#自保护)
+    * [跨域身份管理](docs/doc2.md#跨域身份管理)
+    * [加密库](docs/doc2.md#加密库)
+    * [密码库](docs/doc2.md#密码库)
+    * [加密算法](docs/doc2.md#加密算法)
+    * [接口加密](docs/doc2.md#接口加密)
+    * [零知识证明](docs/doc2.md#零知识证明)
+    * [XSS](docs/doc2.md#XSS)
+    * [TLS/SSL](docs/doc2.md#TLSSSL)
+    * [CORS](docs/doc2.md#CORS)
+    * [证书颁发机构](docs/doc2.md#证书颁发机构)
+    * [电子签名](docs/doc2.md#电子签名)
 * [API管理](docs/doc2.md#API管理)
 * [GraphQL](docs/doc2.md#GraphQL)
 * [GraphQL](docs/doc2.md#GraphQL)
@@ -334,6 +340,7 @@
     * [Outlook库](docs/doc2.md#Outlook库)
     * [License库](docs/doc2.md#License库)
     * [Markdown库](docs/doc2.md#Markdown库)
+    * [EDI库](docs/doc2.md#EDI库)
     * [文件库](docs/doc2.md#文件库)
     * [文件转换](docs/doc2.md#文件转换)
     * [Mime解析](docs/doc2.md#Mime解析)
@@ -1045,7 +1052,7 @@
 * [Hibernate](https://github.com/hibernate/hibernate-orm)：Hibernate是一个强大的Java ORM解决方案，可以轻松地为应用程序、库和框架开发持久层逻辑，由RedHat开源。
 * [Spring Data JPA](https://github.com/spring-projects/spring-data-jpa)：Spring Data JPA是Spring Data系列的一部分，可以轻松实现基于JPA的Repository。
 * [Mybatis](https://github.com/mybatis/mybatis-3)：MyBatis是一流的持久层框架，支持自定义SQL、存储过程和高级映射。
-* [MybatisPlus](https://github.com/baomidou/mybatis-plus)：MyBatisPlus是MyBatis的一个强大的增强工具包，用于简化开发。
+* [Mybatis Plus](https://github.com/baomidou/mybatis-plus)：MyBatis Plus是MyBatis的一个强大的增强工具包，用于简化开发。
 * [APIJSON](https://github.com/Tencent/APIJSON)：APIJSON是一种专为API而生的JSON网络传输协议以及基于这套协议实现的ORM库，由腾讯开源。
 * [Exposed](https://github.com/JetBrains/Exposed)：Exposed是一个Kotlin SQL库，有两种风格：轻量级ORM(使用DAO)和类型安全SQL(使用DSL)，由JetBrains开发。
 * [Prisma](https://github.com/prisma/prisma1)：Prisma是一个Scala ORM，具有直观的数据模型、自动迁移、类型安全和自动完成功能。
@@ -3495,7 +3502,7 @@
 * [Ysoserial](https://github.com/frohoff/ysoserial)：Ysoserial是一种概念验证工具，用于生成利用不安全的Java对象反序列化的有效负载。
 * [Apache Avro](https://github.com/apache/avro)：Avro是一个数据序列化系统。
 * [Protostuff](https://github.com/protostuff/protostuff)：Protostuff是一个Java序列化库，内置对向前向后兼容性(模式演化)和验证的支持。
-* [Apache Fury](https://github.com/apache/incubator-fury)：Fury是一种速度极快的多语言序列化框架，由JIT和零拷贝提供支持，可提供高达170倍的性能和终极易用性，阿里开源。
+* [Apache Fory](https://github.com/apache/fory)：Fory是一种速度极快的多语言序列化框架，由JIT和零拷贝提供支持，可提供高达170倍的性能和终极易用性，阿里开源。
 * [FST](https://github.com/RuedigerMoeller/fast-serialization)：完全兼容JDK序列化协议的Java序列化框架，在序列化速度上能达到JDK的10倍。
 * [MessagePack](https://github.com/msgpack/msgpack-java)：Java的MessagePack序列化器实现。
 * [Serial](https://github.com/twitter/Serial)：Serial是一种自定义序列化实现，旨在提高性能并增加开发人员对对象序列化的可见性和控制，由Twitter开源。
@@ -3503,6 +3510,9 @@
 * [Thrifty](https://github.com/microsoft/thrifty)：Thrifty是Apache Thrift软件堆栈的一个实现，它使用了Thrift编译器所采用的1/4方法数，由Microsoft开源。
 * [Ion Java](https://github.com/amazon-ion/ion-java)：Ion数据表示法的Java实现，由Amazon开源。
 * [SOFA Hessian](https://github.com/sofastack/sofa-hessian)：SOFA Hessian基于原生Hessian v4.0.51进行改进，目前已在蚂蚁金服内部稳定运行多年。
+* [Kotlin Serialization](https://github.com/Kotlin/kotlinx.serialization)：Kotlin Serialization由一个编译器插件组成，它为可序列化的类生成访问者代码，具有核心序列化API的运行时库以及具有各种序列化格式的支持库。
+* [Nippy](https://github.com/taoensso/nippy)：Clojure的快速序列化库。
+* [BooPickle](https://github.com/suzaku-io/boopickle)：BooPickle是速度最快、体积最高效的序列化库，适用于Scala和Scala.js。
 * [Colfer](https://github.com/pascaldekloe/colfer)：Colfer是一种针对速度和大小进行优化的二进制序列化格式。
 * [CapnProto](https://github.com/capnproto/capnproto-java)：Cap'n Proto是一种极其高效的数据和功能共享协议。
 * [Chronicle Wire](https://github.com/OpenHFT/Chronicle-Wire)：支持多种格式的低垃圾Java序列化库。
@@ -3562,6 +3572,8 @@
 * [Genson](https://github.com/owlike/genson)：Genson是一个完整的JSON Java转换库，提供完整的数据绑定、流媒体等等。
 * [DSL-JSON](https://github.com/ngs-doo/dsl-json)：最快的JVM JSON库，具有高级编译时数据绑定支持。
 * [Ason](https://github.com/afollestad/ason)：Ason旨在使JSON非常容易在Java中进行交互。
+* [QSON](https://github.com/quarkusio/qson)：QSON是一个对象到JSON的映射器，由Quarkus使用。
+* [Play JSON](https://github.com/playframework/play-json)：Play JSON是一个功能强大的Scala JSON库，最初由Play团队开发，用于Play框架。
 * [Instagram JSON Parser](https://github.com/Instagram/ig-json-parser)：用于Java项目的快速JSON解析器，由Instagram开源。
 * [Minimal JSON](https://github.com/ralfstx/minimal-json)：Minimal Json是用于Java的快速且最小的JSON解析器和编写器。
 * [Json-Smart](https://github.com/netplex/json-smart-v2)：Json-Smart是一个高性能JSON处理器库。

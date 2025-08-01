@@ -767,6 +767,7 @@
 * [ReflectionUI](https://github.com/dotxyteam/ReflectionUI)：基于Java反射的GUI构建器/生成器。
 * [Compositor](https://compositor.sourceforge.net/)：Compositor让你可以将应用程序的UI与代码分开描述。
 * [MDIUtilities](https://mdiutilities.sourceforge.io/)：MDIUtilities是一个提供各种实用程序类的Java库，主要用于Swing或JavaFX开发。
+* [Marathon](https://github.com/jalian-systems/marathonv5)：Marathon是一款用于录制、回放和重构使用Swing或FX组件开发的Java GUI程序测试用例的工具。
 
 #### Swing主题库
 
@@ -782,6 +783,8 @@
 * [Darcula](https://github.com/bulenkov/Darcula)：Darcula是Java桌面应用程序的LaF和代码编辑器主题。
 * [Synthetica](https://www.jyloo.com/)：Synthetica是Swing的LaF，基于Synth，通过主题为Swing的核心组件提供了许多不同的外观，包括圆形边框、阴影弹出菜单和漂亮的图标。
 * [Java Bootstrap LaF](https://github.com/danfickle/java-bootstrap-laf)：基于Bootstrap的Java Swing LaF。
+* [LittleLuck](https://github.com/freeseawind/littleluck)：LittleLuck是Java Swing跨平台外观实现。
+* [Sea Glass](https://github.com/khuxtable/seaglass)：Sea Glass是适用于JRE 1.6及更高版本的Java可插拔LaF。
 
 #### Swing UI库
 
@@ -824,6 +827,7 @@
 * [VLDocking](https://github.com/cmadsen/vldocking)：VLDocking是一个商业级的Swing框架，提供丰富的Dock功能，可以轻松地与现有应用程序集成。
 * [DockingFrames](https://github.com/Benoker/DockingFrames)：DockingFrames是一个开源Java Swing Dock框架。
 * [FlexDock](https://github.com/opencollab/flexdock)：FlexDock是一个用于跨平台Swing应用程序的Java Dock框架。
+* [Sanaware Java Docking](https://sanaware.com/)：Sanaware Java Docking是一个用于管理Java Swing应用程序窗口的库。
 
 #### Swing布局库
 
