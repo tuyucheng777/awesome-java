@@ -389,7 +389,6 @@
     * [SCRM系统](docs/doc2.md#SCRM系统)
     * [门户框架](docs/doc2.md#门户框架)
     * [教育软件](docs/doc2.md#教育软件)
-    * [静态站点生成器](docs/doc2.md#静态站点生成器)
     * [BaaS](docs/doc2.md#BaaS)
     * [Data API](docs/doc2.md#Data-API)
     * [插件框架](docs/doc2.md#插件框架)
@@ -1407,6 +1406,7 @@
 * [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs)：Find Security Bugs是用于Java Web应用程序安全审核的SpotBugs插件，由OWASP开源。
 * [Tai-e](https://github.com/pascal-lab/Tai-e)：Tai-e是一个易于学习/使用的Java静态分析框架，由南京大学开源。
 * [CodeCC](https://github.com/TencentBlueKing/bk-codecc)：CodeCC提供专业的代码检查解决方案及服务，为产品质量保驾护航，由腾讯开源。
+* [Booster](https://github.com/didi/booster)：Booster是一款专门为移动应用设计的易用、轻量级且可扩展的质量优化框架，由滴滴开发。
 * [TLAPlus](https://github.com/tlaplus/tlaplus)：TLC是一个显式状态模型检查器，用于检查以TLA+编写的规范，由Microsoft开发。
 * [NullAway](https://github.com/uber/NullAway)：NullAway是一个帮助消除Java代码中的NPE的工具，由Uber开源。
 * [CodeCompass](https://github.com/Ericsson/CodeCompass)：CodeCompass是一个用C/C++和Java编写的大型软件的软件理解工具，由爱立信开源。
@@ -2101,6 +2101,7 @@
 * [Ground](https://github.com/ground-context/ground)：Ground是加州大学伯克利分校RISE实验室开发的开源数据上下文服务。
 * [Superglue](https://github.com/intuit/superglue)：Superglue是一种谱系追踪工具，可帮助直观地了解数据在复杂管道中的传播，由Intuit开发。
 * [FlinkSQL Lineage](https://github.com/HamaWhiteGG/flink-sql-lineage)：FlinkSQL的血缘分析系统，支持Watermark、UDTF、CEP、Windowing TVF、CTAS等高级语法。
+* [HelloDATA BE](https://github.com/kanton-bern/hellodata-be)：HelloDATA BE是一个基于现代数据堆栈的开源工具构建的企业数据平台。
 
 #### 查询引擎
 
@@ -4021,6 +4022,7 @@
 * [JoyAgent JDGenie](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
 * [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
+* [SparkX](https://gitee.com/shop-sparker/spark-x)：SparkX是Spring Boot 3、PgSQL、Vue 3开发，采用大语言模型和编排的AI智能体开发平台。
 
 #### LLM客户端
 
