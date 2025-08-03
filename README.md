@@ -445,6 +445,7 @@
     * [电子发票](docs/doc2.md#电子发票)
 * [短信](docs/doc2.md#短信)
 * [邮件库](docs/doc2.md#邮件库)
+* [邮件服务器](docs/doc2.md#邮件服务器)
 * [DSL](docs/doc2.md#DSL)
 * [JMX](docs/doc2.md#JMX)
 * [RMI](docs/doc2.md#RMI)
@@ -1142,6 +1143,7 @@
 * [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
 * [Super SQL](https://gitee.com/guocjsh/supersql-open)：Super SQL是一个基于国内外先进生成式大模型的Java框架，实现从自然语言文本到SQL查询的智能转换。
+* [MySQL Backup4j](https://github.com/SeunMatt/mysql-backup4j)：MySQL Backup4j是一个用于以编程方式导出MySQL数据库并将压缩转储发送到电子邮件、Amazon S3、Google Drive或任何其他选择的云存储的库。
 
 #### NoSQL库
 
