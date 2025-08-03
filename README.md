@@ -534,6 +534,7 @@
     * [Git客户端](docs/doc3.md#Git客户端)
     * [下载器](docs/doc3.md#下载器)
     * [MQTT客户端](docs/doc3.md#MQTT客户端)
+    * [LaTeX编辑器](docs/doc3.md#LaTeX编辑器)
 * [游戏开发](docs/doc3.md#游戏开发)
     * [游戏引擎](docs/doc3.md#游戏引擎)
     * [游戏服务器](docs/doc3.md#游戏服务器)
