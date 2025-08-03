@@ -643,7 +643,6 @@
 * [RPM](docs/doc3.md#RPM)
 * [EPC](docs/doc3.md#EPC)
 * [FMI](docs/doc3.md#FMI)
-* [AS4](docs/doc3.md#AS4)
 * [OSGI](docs/doc3.md#OSGI)
 * [RAML](docs/doc3.md#RAML)
 * [OData](docs/doc3.md#OData)
@@ -2004,7 +2003,6 @@
 * [Fast Causal Inference](https://github.com/Tencent/fast-causal-inference)：Fast Causal Inference是腾讯开源的因果推理项目，它是一个基于OLAP的高性能因果推理(统计模型)计算库，解决了现有统计模型库(R/Python)在大数据下的性能瓶颈，为秒级和亚级海量数据执行提供因果推理能力。
 * [Flink Streaming Platform Web](https://github.com/zhp8341/flink-streaming-platform-web)：Flink Streaming Platform Web是基于Flink封装的一个可视化、轻量级的Flink Web客户端系统。
 * [WInte.r](https://github.com/olehmberg/winter)：WInte.r框架提供了端到端数据集成的方法，该框架实现了众所周知的数据预处理、模式匹配、身份解析、数据融合和结果评估方法。
-* [AGEIPort](https://github.com/alibaba/AGEIPort)：AGEIPort是数字供应链孵化并在阿里内广泛使用的一套性能卓越、稳定可靠、功能丰富、易于扩展、生态完整的数据导入导出方案，由阿里开源。
 * [Apache Livy](https://github.com/apache/incubator-livy)：Livy是一个开源REST接口，用于从任何地方与Spark交互，由Cloudera开源。
 * [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
 * [Cascading](https://github.com/cwensel/cascading)：Cascading是一个功能丰富的API，用于在本地或集群上定义和执行复杂且容错的数据处理流。
@@ -2440,6 +2438,8 @@
 * [TSID Creator](https://github.com/f4b6a3/tsid-creator)：TSID Creator是用于生成TSID的Java库。
 * [IdGenerator](https://github.com/yitter/IdGenerator)：IdGenerator是一个多语言的分布式ID生成库。
 * [KSUID](https://github.com/ksuid/ksuid)：KSUID是一种生成全局唯一ID的方法，类似于RFC 4122 UUID。
+* [Butterfly](https://github.com/simonalong/Butterfly)：Butterfly是一个超高性能的发号器框架。
+* [Snowflake](https://github.com/relops/snowflake)：用于生成K阶唯一64位整数的Java库。
 
 #### Raft算法
 
@@ -2583,6 +2583,7 @@
 * [LSM Tree](https://github.com/indeedeng/lsmtree)：LSM Tree是一种快速键/值存储，对于大容量随机访问读写非常有效，由Indeed开发。
 * [Distkv](https://github.com/distkv-project/distkv)：Distkv是一个具有表概念的轻量级分布式键值数据库系统。
 * [Chronos](https://github.com/Txture/chronos)：该项目致力于为Java虚拟机提供高效易用的版本化数据库持久化解决方案。
+* [Prithvi](https://github.com/psidh/Prithvi)：Prithvi是一个用Java从头构建的内存键值数据库，不依赖外部框架。
 * [PufferDB](https://github.com/adrielcafe/pufferdb)：PufferDB是一个键值存储，由Protobuf和协程提供支持。
 
 #### 数据网格
@@ -3577,7 +3578,7 @@
 * [Play JSON](https://github.com/playframework/play-json)：Play JSON是一个功能强大的Scala JSON库，最初由Play团队开发，用于Play框架。
 * [Instagram JSON Parser](https://github.com/Instagram/ig-json-parser)：用于Java项目的快速JSON解析器，由Instagram开源。
 * [Minimal JSON](https://github.com/ralfstx/minimal-json)：Minimal Json是用于Java的快速且最小的JSON解析器和编写器。
-* [Json-Smart](https://github.com/netplex/json-smart-v2)：Json-Smart是一个高性能JSON处理器库。
+* [Json Smart](https://github.com/netplex/json-smart-v2)：Json Smart是一个高性能JSON处理器库。
 * [JSON Sanitizer](https://github.com/OWASP/json-sanitizer)：JSON Sanitizer可以将类似JSON的内容转换为有效的JSON，由OWASP开源。
 * [CodeJson](https://gitee.com/eric_ds/jfire-codejson)：CodeJson是性能非常高的JSON序列化和反序列化库。
 * [Sawmill](https://github.com/logzio/sawmill)：Sawmill是一个JSON转换Java库。
@@ -3605,6 +3606,7 @@
 * [Hope](https://github.com/santanusinha/hope)：Hope是一种用Java编写的用于对JSON进行谓词评估的高级语言。
 * [JSON Canonicalization](https://github.com/cyberphone/json-canonicalization)：JSON Canonicalization Scheme的Java实现。
 * [Squiggly](https://github.com/bohnman/squiggly)：Squiggly是一个Jackson JSON PropertyFilter，它使用Facebook Graph API过滤语法的子集选择对象/列表/映射的属性。
+* [LazyJSON](https://github.com/doubledutch/LazyJSON)：LazyJSON是一款非常快速的Java JSON解析器。
 * [JsonPullParser](https://github.com/vvakame/JsonPullParser)：JsonPullParser是Java的JSON-POJO映射库。
 * [JSON Discoverer](https://github.com/SOM-Research/jsonDiscoverer)：JSON Discoverer是一款可让你获取JSON文档隐式架构的工具，由加泰罗尼亚开放大学开源。
 * [Jsonista](https://github.com/metosin/jsonista)：用于快速JSON编码和解码的Clojure库，由Metosin开源。
@@ -4171,6 +4173,7 @@
 * [Inception](https://github.com/inception-project/inception)：Inception提供了一个语义标注平台，提供智能标注帮助和知识管理，由达姆施塔特工业大学开源。
 * [Twitter NLP](https://github.com/brendano/ark-tweet-nlp)：Tweet NLP是一个快速而强大的基于Java的标记器和词性标记器，由CMU开源。
 * [GATE](https://github.com/GateNLP/gate-core)：GATE是一个开源软件工具包，能够解决几乎所有文本处理问题，由谢菲尔德大学开发。
+* [Beagle](https://github.com/tokenmill/beagle)：Beagle可帮助你识别文本文档流中感兴趣的关键字、短语、正则表达式和复杂的搜索查询。
 * [SemanticVectors](https://github.com/semanticvectors/semanticvectors)：SemanticVectors从自由自然语言文本创建语义WordSpace模型，由德克萨斯大学、昆士兰科技大学开源。
 * [AmbiverseNLU](https://github.com/ambiverse-nlu/ambiverse-nlu)：AmbiverseNLU是马克斯普朗克信息学研究所的自然语言理解套件。
 * [Processors](https://github.com/clulab/processors)：Processors是亚利桑那大学开源的自然语言处理器。

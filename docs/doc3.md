@@ -2941,11 +2941,6 @@
 * [FMI4j](https://github.com/NTNU-IHB/FMI4j)：FMI4j是一个用Kotlin编写的软件包，用于处理功能模型单元(FMU)，由挪威科技大学开源。
 * [JavaFMI](https://bitbucket.org/siani/javafmi)：JavaFMI是一组与功能模型接口FMI配合使用的组件。
 
-## AS4
-
-* [Phase4](https://github.com/phax/phase4)：Phase4是一个可嵌入的轻量级Java库，用于发送和接收不同配置文件的AS4消息。
-* [Oxalis](https://github.com/OxalisCommunity/oxalis)：Oxalis是AS4规范的领先开源软件实现。
-
 ## OSGI
 
 * [OSGi](https://github.com/osgi/osgi)：OSGi是Java动态化模块化系统的一系列规范。
@@ -3485,7 +3480,6 @@
 
 * [JDSP](https://github.com/psambit9791/jdsp)：JDSP是一个信号处理工具库，旨在提供MATLAB或Python的scipy-signal包中可用的功能。
 * [IIRJ](https://github.com/berndporr/iirj)：用Java编写的高效IIR滤波器库。
-* [Mines JTK](https://github.com/MinesJTK/jtk)：Mines Java Toolkit是一组用于科学和工程的Java包和原生软件库，目前的应用包括数字信号处理、线性代数、优化、网格划分、插值以及2D和3D图形，由科罗拉多矿业学院开发。
 * [JRadio](https://github.com/dernasherbrezon/jradio)：用Java编写的软件无线电解码，这个项目的想法是从gnuradio获取块并用Java实现它们。
 * [SpinCAD Designer](https://github.com/HolyCityAudio/SpinCAD-Designer)：SpinCAD Designer是一个开源Java项目，允许为Spin FV-1音频DSP芯片创建补丁并进行音频模拟。
 
@@ -3632,7 +3626,7 @@
 * [Wro4j](https://github.com/wro4j/wro4j)：Wro4j是一个免费的开源Java项目，可以帮助缩短Web应用程序页面加载时间。
 * [Closure Stylesheets](https://github.com/google/closure-stylesheets)：一个CSS+转译器，可进行Lints、优化和国际化，由Google开源。
 * [CSS Validator](https://github.com/w3c/css-validator)：W3C CSS验证服务。
-* [Ph-CSS](https://github.com/phax/ph-css)：Java CSS 2和CSS 3解析器和构建器。
+* [Ph CSS](https://github.com/phax/ph-css)：Java CSS 2和CSS 3解析器和构建器。
 * [Closure Templates](https://github.com/google/closure-templates)：客户端和服务器端模板系统，可帮助你动态构建可重用的HTML和UI元素，由Google开源。
 * [Chart.java](https://github.com/mdewilde/chart)：Chart.java可以在Java应用程序中与优秀的Chart.js库集成。
 * [LESS Engine](https://github.com/asual/lesscss-engine)：LESS引擎提供对核心LESS功能的基本访问。
@@ -3949,7 +3943,6 @@
 * [Spring Boot Jasypt](https://github.com/ulisesbocchio/jasypt-spring-boot)：Jasypt Spring Boot为Spring Boot应用程序中的属性源提供加密支持。
 * [Okta Spring Boot](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter。
 * [Spring Lemon](https://github.com/naturalprogrammer/spring-lemon)：Spring Boot Web应用程序的帮助库。
-* [Chaos Monkey Spring Boot](https://github.com/codecentric/chaos-monkey-spring-boot)：该项目为Spring Boot应用程序提供了Chaos Monkey，并将尝试攻击你正在运行的Spring Boot应用程序。
 * [Spring Boot Starter Calma](https://github.com/marvinSpring/spring-boot-starter-calma)：异常通知框架。
 * [Spring Boot HTMX](https://github.com/wimdeblauwe/htmx-spring-boot)：用于使用htmx的Spring Boot和Thymeleaf助手。
 * [WireMock Spring Boot](https://github.com/maciejwalkowiak/wiremock-spring-boot)：WireMock Spring Boot极大地简化了基于Spring Boot和Junit 5的集成测试中的HTTP客户端测试。
