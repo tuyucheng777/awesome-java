@@ -1450,6 +1450,7 @@
 * [Parliament](https://github.com/raytheonbbn/parliament)：Parliament是专为语义网设计的高性能三重存储和推理器，由雷神公司开源。
 * [jRDF2Vec](https://github.com/dwslab/jRDF2Vec)：jRDF2Vec是RDF2Vec的Java实现，它支持多线程、内存中(或基于磁盘访问)的步行生成和训练，由德国曼海姆大学开源。
 * [Mobi](https://github.com/inovexcorp/mobi)：Mobi是一个协作知识图谱平台，供团队和社区开发和发布语义数据和模型。
+* [SHACL](https://github.com/TopQuadrant/shacl)：基于Apache Jena的W3C形状约束语言(SHACL)的开源实现。
 
 ## 知识图谱
 
@@ -2516,6 +2517,7 @@
 
 * [Aspose.HTML](https://products.aspose.com/html/java/)：Aspose.HTML是一种高级HTML操作API，用于在Java应用程序内操作和生成HTML。
 * [JFiveParse](https://github.com/digitalfondue/jfiveparse)：一个符合Java HTML 5的解析器。
+* [Boilerplate](https://github.com/kohlschutter/boilerpipe)：Boilerplate库提供了算法来检测和删除网页主要文本内容周围多余的“混乱”(样板、模板)。
 * [JsoupXpath](https://github.com/zhegexiaohuozi/JsoupXpath)：纯Java实现的支持W3C Xpath 1.0标准语法的HTML解析器。
 * [JTidy](https://github.com/jtidy/jtidy)：JTidy是HTML Tidy的Java端口，一个HTML语法检查器和漂亮的打印机。
 * [J2Html](https://github.com/tipsy/j2html)：Java到HTML生成器。
@@ -3130,6 +3132,7 @@
 * [Spring Boot Application Template](https://github.com/AnanthaRajuC/Spring-Boot-Application-Template)：此代码库包含一个用于引导单体式Web应用的脚手架/配方。
 * [JWT Starter](https://github.com/bfwg/springboot-jwt-starter)：适用于无状态和基于令牌的身份验证应用程序的Spring Boot JWT Starter套件。
 * [Remi](https://gitee.com/remi-top/remi-cloud)：Remi Cloud是一款企业级AI、微服务架构的快速开发平台。
+* [Campus](https://github.com/oddfar/campus)：Campus是一款简单的后台管理系统、快速开发框架。
 
 #### 低代码
 
@@ -3261,6 +3264,8 @@
 * [LEKSHOP](https://www.lekshop.cn/)：LEKSHOP商城系统支持商家入驻，后端基于Spring Boot研发，前端使用Vue、Uniapp开发。
 * [QiHang ERP](https://gitee.com/qiliping/qihangerp-cloud)：启航电商ERP是一个完整开箱即用的开源电商ERP系统。
 * [EDEN](https://gitee.com/codingdb/distribution_management)：微服务下的分销管理利器，更加灵活的管理佣金，涵盖并且总结了目前流行的分销模式。
+* [LinjiaShop](https://github.com/microapp-store/linjiashop)：LinjiaShop是一个基于Spring Boot和Vue.js的Web商城系统。
+* [MyShop](https://gitee.com/tiankong0310/my-shop)：MyShop是基于Spring MVC、Vue、Swagger 2开发的小程序商城。
 
 #### 医疗系统
 
@@ -3371,6 +3376,7 @@
 * [Nuxeo Platform](https://github.com/nuxeo/nuxeo)：Nuxeo是一个开源的可定制和可扩展的内容管理平台，用于构建业务应用程序。
 * [MyBlog](https://github.com/zhyocean/MyBlog)：使用Spring Boot、MyBatis进行前后端开发的个人博客网站。
 * [Memory](https://github.com/LinMoQC/Memory-Blog)：这是一个用React、TypeScript和Spring Boot构建的个人博客平台。
+* [RuoYi Plus](https://gitee.com/markbro/ruoyi-plus)：基于RuoYi 4.1.0开发，新增内容管理模块CMS、缓存模块、博客模块以及爬虫模块等等。
 * [Blog SSM](https://github.com/rawchen/blog-ssm)：Java Web博客项目。
 * [IceCMS](https://github.com/Thecosy/IceCMS)：IceCMS是基于Spring Boot、Vue前后端分离的内容管理系统。
 * [Bolo Solo](https://github.com/adlered/bolo-solo)：菠萝博客是专为程序员设计的精致Java博客系统。
@@ -3430,6 +3436,9 @@
 * [Ikaros](https://github.com/ikaros-dev/ikaros)：专注于ACGMN的内容管理系统。
 * [Tumo](https://github.com/TyCoding/tumo)：Tumo Blog是一个简洁美观的博客系统，基于Spring Boot 2.X、Vue.js。
 * [Dice](https://github.com/bihell/Dice)：Dice是一个前后端分离的个人内容管理(CMS)系统。
+* [Blog](https://github.com/MQPearth/Blog)：前后端分离博客系统。
+* [Blog](https://github.com/iszhouhua/blog)：基于Spring Boot搭建的开源个人博客系统。
+* [DimpleBlog](https://github.com/martin-chips/DimpleBlog)：Dimple Blog是基于Spring Boot 2搭建的个人博客系统。
 
 #### 论坛系统
 
@@ -3649,6 +3658,7 @@
 * [Apache Usergrid](https://github.com/apache/usergrid)：Usergrid是一个基于RESTful API的用于Web和移动应用程序的多租户后端即服务堆栈，由Apigee开发。
 * [Para](https://github.com/Erudika/para)：Para是一个可扩展的多租户后端服务器/框架，用于对象持久化和检索。
 * [BaasBox](https://github.com/baasbox/baasbox)：BaasBox是一个开源项目，旨在为移动和Web应用程序提供后端。
+* [SwellRT](https://github.com/SwellRT/swellrt)：SwellRT是一个开源后端即服务，它提供预构建的功能来加速协作Web应用程序的开发。
 * [Appwrite](https://github.com/appwrite/sdk-for-android)：Appwrite是一个用于开发Web、移动和Flutter应用程序的后端平台。
 
 #### Data API

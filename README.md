@@ -252,7 +252,6 @@
     * [电子签名](docs/doc2.md#电子签名)
 * [API管理](docs/doc2.md#API管理)
 * [GraphQL](docs/doc2.md#GraphQL)
-* [GraphQL](docs/doc2.md#GraphQL)
     * [GraphQL Spring](docs/doc2.md#GraphQL-Spring)
     * [模式优先](docs/doc2.md#模式优先)
     * [代码优先](docs/doc2.md#代码优先)
@@ -555,8 +554,6 @@
 * [MIPS](docs/doc3.md#MIPS)
 * [汇编](docs/doc3.md#汇编)
 * [LLVM](docs/doc3.md#LLVM)
-* [WebAssembly](docs/doc3.md#WebAssembly)
-* [JavaScript](docs/doc3.md#JavaScript)
 * [编译器&插件](docs/doc3.md#编译器插件)
 * [语言服务器](docs/doc3.md#语言服务器)
 * [数据库工具库](docs/doc3.md#数据库工具库)
@@ -709,8 +706,12 @@
 * [BitTorrent](docs/doc3.md#BitTorrent)
 * [编解码](docs/doc3.md#编解码)
 * [打印机](docs/doc3.md#打印机)
-* [Web资源](docs/doc3.md#Web资源)
-* [Web开发库](docs/doc3.md#Web开发库)
+* [Web开发](docs/doc3.md#Web开发)
+    * [WebAssembly](docs/doc3.md#WebAssembly)
+    * [JavaScript引擎](docs/doc3.md#JavaScript引擎)
+    * [GWT库](docs/doc3.md#GWT库)
+    * [JavaScript/TypeScript转译器](docs/doc3.md#JavaScriptTypeScript转译器)
+    * [CSS库](docs/doc3.md#CSS库)
 * [Cron解析](docs/doc3.md#Cron解析)
 * [手机号解析](docs/doc3.md#手机号解析)
 * [表达式引擎](docs/doc3.md#表达式引擎)
@@ -810,6 +811,8 @@
 * [Wasabi](https://github.com/wasabifx/wasabi)：为JVM定义一个简单、可扩展的HTTP框架，并使用Kotlin构建。
 * [Java Express](https://github.com/simonwep/java-express)：基于Express.js的HTTP框架，无依赖，使用简单。
 * [HappyX](https://github.com/HapticX/happyx)：HappyX是一个异步、面向宏、全栈支持的Web框架。
+* [Jaggery](https://github.com/wso2/jaggery)：Jaggery是一个用于编写Web应用和基于HTTP的Web服务的框架，由WSO2开源。
+* [PurpleJS](https://github.com/purplejs/purplejs)：PurpleJS是一个简单而强大的框架，无需脱离JavaScript即可创建高性能Web应用程序。
 * [Pedestal](https://github.com/pedestal/pedestal)：Pedestal是一组用Clojure编写的库，旨在将语言及其原则引入服务器端开发。
 * [CUBA Platform](https://github.com/cuba-platform/cuba)：CUBA Platform是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
 * [Tiny Framework](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
@@ -1122,6 +1125,7 @@
 * [FluentJdbc](https://github.com/zsoltherpai/fluent-jdbc)：FluentJdbc是一个用于方便原生SQL查询的Java库。
 * [Yank](https://github.com/knowm/Yank)：Yank是适用于Java应用程序的超轻量JDBC持久层。
 * [Norm](https://github.com/dieselpoint/norm)：Norm是一种访问JDBC数据库的简单方法，通常只需一行代码。
+* [Iciql](https://github.com/gitblit/iciql)：Iciql是一个基于模型的JDBC数据库访问包装器。
 * [JDBCX](https://github.com/jdbcx/jdbcx)：JDBCX通过支持SQL之外的其他数据格式、压缩算法、对象映射、类型转换和查询语言来增强JDBC驱动程序。
 * [Carbonado](https://github.com/Carbonado/Carbonado)：Carbonado是Java应用程序的可扩展、高性能持久性抽象层，提供底层持久性技术的关系视图，由Amazon开源。
 
@@ -2318,6 +2322,7 @@
 * [OpenMOLE](https://github.com/openmole/openmole)：OpenMOLE提供了利用分布式计算环境来运行、探索、诊断和优化数值模型的工具。
 * [ModeShape](https://github.com/ModeShape/modeshape)：ModeShape是一种分布式、分层、事务性和一致的数据存储，支持查询、全文搜索、事件、版本控制、引用以及灵活的动态模式，由RedHat开源。
 * [Dempsy](https://github.com/Dempsy/dempsy)：Dempsy是一个用于轻松编写分布式和动态可扩展应用程序的框架。
+* [DDF](https://github.com/codice/ddf)：DDF是一个免费的开源通用数据层，它从底层数据结构中抽象出服务和业务逻辑，以便快速集成新的数据源，由Codice基金会开源。
 * [Nepxion Aquarius](https://github.com/Nepxion/Aquarius)：Nepxion Aquarius是一款基于Redis、Zookeeper的分布式应用组件集合，包含分布式锁，缓存，ID生成器，限速限流器。
 * [Redis Session Manager](https://github.com/chexagon/redis-session-manager)：Tomcat 8会话管理器通过持久化到Redis提供会话复制。
 * [DSLabs](https://github.com/emichael/dslabs)：DSLabs是一个用于创建、测试、模型检查、可视化和调试分布式系统实验室作业的新框架，由华盛顿大学开发。
@@ -3835,6 +3840,7 @@
 * [JQM](https://github.com/enioka-Haute-Couture/jqm)：JQM是一个任务队列管理器。
 * [Database Queue](https://github.com/yoomoney/db-queue)：该库在Java和数据库之上提供了工作队列实现，由YooMoney开源。
 * [TinyTask](https://github.com/inaka/TinyTask)：一个用于创建异步后台任务的小型Android库，由Inaka开发。
+* [Hashed Wheel Timer](https://github.com/ifesdjeen/hashed-wheel-timer)：与ScheduledExecutorService兼容的高性能计时器/调度程序库。
 
 ## 配置管理
 
