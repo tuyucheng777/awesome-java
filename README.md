@@ -277,11 +277,18 @@
 * [机器人开发](docs/doc2.md#机器人开发)
 * [数学库](docs/doc2.md#数学库)
 * [本体库](docs/doc2.md#本体库)
-* [语义Web](docs/doc2.md#语义Web)
-* [知识图谱](docs/doc2.md#知识图谱)
+    * [本体编辑器](docs/doc2.md#本体编辑器)
+    * [本体推理机](docs/doc2.md#本体推理机)
+    * [本体匹配](docs/doc2.md#本体匹配)
+    * [本体转换](docs/doc2.md#本体转换)
+    * [RDF库](docs/doc2.md#RDF库)
+    * [语义Web](docs/doc2.md#语义Web)
+    * [知识图谱](docs/doc2.md#知识图谱)
 * [生物信息学](docs/doc2.md#生物信息学)
-* [基因组学](docs/doc2.md#基因组学)
-* [NGS](docs/doc2.md#NGS)
+    * [生物工具](docs/doc2.md#生物工具)
+    * [生物工作流](docs/doc2.md#生物工作流)
+    * [基因组](docs/doc2.md#基因组)
+    * [NGS](docs/doc2.md#NGS)
 * [化学库](docs/doc2.md#化学库)
 * [工作流](docs/doc2.md#工作流)
 * [编排引擎](docs/doc2.md#编排引擎)
@@ -2481,6 +2488,9 @@
 * [Apache S2Graph](https://github.com/apache/incubator-s2graph)：S2Graph是一个基于HBase构建的分布式、可扩展的OLTP图数据库，支持超大图的快速遍历。
 * [Fluree](https://github.com/fluree/db)：Fluree是一个不可变、时态、账本支持的语义图数据库，具有云原生架构。
 * [Segrada](https://github.com/mkalus/segrada)：Segrada是一个用于研究和文献的语义图数据库。
+* [qEndpoint](https://github.com/the-qa-company/qEndpoint)：qEndpoint是一个高度可扩展的三元存储，具有全文和GeoSPARQL支持。
+* [Parliament](https://github.com/raytheonbbn/parliament)：Parliament是专为语义网设计的高性能三元存储和推理器，由雷神公司开源。
+* [Apache Rya](https://github.com/apache/rya)：Rya是一个可扩展的RDF存储，它构建在列式索引存储(例如Accumulo)之上，它作为RDF4J的扩展来实现，以提供简单的查询机制(SPARQL、SERQL等)和RDF数据存储(RDF/XML、NTriples等)。
 
 #### 键值存储
 
@@ -4217,6 +4227,7 @@
 * [JCLEC](https://sourceforge.net/projects/jclec)：JCLEC是一个用Java开发的通用进化计算框架，由科尔多瓦大学开源。
 * [EasyOpt](http://www.iescm.com/easyopt/)：EasyOpt这是一个轻量级的Java库，提供了遗传算法、粒子群优化等常用启发式优化算法的实现，适用于快速原型设计和教学。
 * [Chips-n-Salsa](https://github.com/cicirello/Chips-n-Salsa)：Chips-n-Salsa是一个可定制、可混合、迭代、并行、随机和自适应本地搜索算法的Java库。
+* [NSGA-II](https://github.com/onclave/NSGA-II)：NSGA-II的Java实现。
 
 #### 专家系统
 
