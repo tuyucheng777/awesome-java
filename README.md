@@ -279,6 +279,16 @@
 * [元启发式框架](docs/doc2.md#元启发式框架)
 * [机器人开发](docs/doc2.md#机器人开发)
 * [数学库](docs/doc2.md#数学库)
+    * [线性代数](docs/doc2.md#线性代数)
+    * [矩阵](docs/doc2.md#矩阵)
+    * [多维数组](docs/doc2.md#多维数组)
+    * [数值计算](docs/doc2.md#数值计算)
+    * [多精度](docs/doc2.md#多精度)
+    * [微分](docs/doc2.md#微分)
+    * [Math扩展](docs/doc2.md#Math扩展)
+    * [向量](docs/doc2.md#向量)
+    * [统计](docs/doc2.md#统计)
+    * [直方图](docs/doc2.md#直方图)
 * [本体库](docs/doc2.md#本体库)
     * [本体编辑器](docs/doc2.md#本体编辑器)
     * [本体推理机](docs/doc2.md#本体推理机)
@@ -1729,7 +1739,6 @@
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils)：用于延迟测量和报告的工具。
 * [JOL](https://github.com/openjdk/jol)：JOL是用于分析JVM中对象布局的微型工具箱，Oracle开源。
 * [Cornerstone](https://github.com/ctripcorp/vi)：Cornerstone是携程框架部门研发的内部可视化组件VI的开源版本，VI主要是一个应用及应用相关环境的可视化工具，和应用健康状态及启动管理的工具。
-* [HdrHistogram](https://github.com/HdrHistogram/HdrHistogram)：HdrHistogram支持在可配置的整数值范围内记录和分析采样数据值计数，并在该范围内具有可配置的值精度。
 * [JMX Exporter](https://github.com/prometheus/jmx_exporter)：通过HTTP公开JMX Bean供Prometheus使用的工具。
 * [Sidekick](https://github.com/runsidekick/sidekick)：Sidekick是一个开源实时应用程序调试器。
 * [Atlassian Profiling](https://bitbucket.org/atlassian/atlassian-profiling)：Atlassian Profiling是Atlassian应用程序中使用的框架，用于提供简单的服务器端分析和指标收集。

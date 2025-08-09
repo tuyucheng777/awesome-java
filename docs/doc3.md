@@ -2357,7 +2357,6 @@
 ## 基本类型
 
 * [jOOU](https://github.com/jOOQ/jOOU)：jOOU为四种Java整数类型byte、short、int和long提供无符号整数版本。
-* [Prim](https://github.com/mgormley/prim)：Prim是一个类似于Trove的Java原始类型库，重点关注向量和矩阵的稀疏表示，由约翰霍普金斯大学开发。
 * [Primitive](https://github.com/mintern-java/primitive)：Primitive提供与基本类型相关的功能的实用方法，包括基于自定义比较器的排序和搜索。
 
 ## 随机数生成器
