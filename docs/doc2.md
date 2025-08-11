@@ -847,7 +847,7 @@
 * [Themis](https://github.com/cossacklabs/themis)：易于使用的数据保护加密框架，具有前向保密和安全数据存储的安全消息传递，由小米开源。
 * [Password4j](https://github.com/Password4j/password4j)：Password4j是一个Java用户友好的加密库，用于使用不同的密钥派生函数(KDF)和加密哈希函数(CHF)来加密和验证密码。
 * [Lazysodium](https://github.com/terl/lazysodium-java)：Libsodium加密库的Java实现。
-* [Jscep](https://github.com/jscep/jscep)：Jscep是SCEP协议的Java实现。
+* [Jscep](https://github.com/seize-the-dave/jscep)：Jscep是SCEP协议的Java实现。
 * [Noise Java](https://github.com/rweather/noise-java)：Noise Java是Noise协议的纯Java实现。
 * [Keyczar](https://github.com/google/keyczar)：易于使用的加密工具包，由Google开源。
 * [AES](https://github.com/mervick/aes-everywhere)：AES是跨语言加密库，它提供了在不同编程语言和不同平台上使用单一算法加密和解密数据的能力。
@@ -1129,6 +1129,7 @@
 * [Hopsworks](https://github.com/logicalclocks/hopsworks)：Hopsworks是一个ML数据平台，具有以Python为中心的特征存储和MLOps功能，由Hopsworks开源。
 * [ShinyProxy](https://github.com/openanalytics/shinyproxy)：ShinyProxy是用于Shiny和数据科学应用程序的开源企业部署软件。
 * [Eclipse ICE](https://github.com/eclipse/ice)：ICE是一个科学工作台和工作流程环境，旨在改善计算科学家的用户体验。
+* [RapidMiner](https://github.com/rapidminer/rapidminer-studio)：RapidMiner是一个数据科学平台，通过GUI和Java API提供各种机器学习算法。
 * [Apache Commons Statistics](https://github.com/apache/commons-statistics)：Commons Statistics提供用于统计应用程序的工具，为常用的连续和离散分布提供支持。
 * [JScience](https://github.com/javolution/jscience)：提供一组用于处理科学测量和单位的类。
 * [DataMelt](https://datamelt.org/)：DataMelt是一款用于数值计算、统计、符号计算、数据分析和数据可视化的软件。
@@ -1942,7 +1943,6 @@
 * [DataEnum](https://github.com/spotify/dataenum)：DataEnum允许你在Java中使用代数数据类型，由Spotify开源。
 * [Pragmatic](https://github.com/siy/pragmatica)：在实践中应用实用函数式Java方法所需的最小Java类集。
 * [Typeof](https://github.com/nurkiewicz/typeof)：Java 8中的instanceof运算符和访问者模式替代品。
-* [Tail](https://github.com/nrktkt/tail)：使用尾调用优化启用无限递归。
 * [HighJ](https://github.com/highj/highj)：HighJ试图克服Java缺乏高阶类型多态性的问题，并将几个众所周知的类型类(包括Applicative、Monad和Foldable)和数据结构从Haskell转换为Java。
 * [Vallang](https://github.com/usethesource/vallang)：Vallang是JVM上高度集成且大部分封闭的相互递归基本数据类型的集合。
 * [Fluent](https://github.com/rogerkeays/fluent)：Fluent允许你像调用对象方法一样调用静态Java方法。
@@ -1987,6 +1987,7 @@
 * [Streamplify](https://github.com/beryx/streamplify)：该库的目标是提供有用的Java 8流并帮助你构建允许高效并行处理的新流。
 * [Seq](https://github.com/wolray/seq)：提供一个强大而完备的流式编程API，并为Java添加类似生成器的编程机制。
 * [StreamLine](https://github.com/YunaBraska/streamline)：StreamLine是一种增强型Java Stream API，针对并发处理进行了优化，充分利用了Project Loom虚拟线程的强大功能。
+* [UnixStream](https://github.com/fmbenhassine/unix-stream)：UnixStream是Java 8 Stream API的扩展，用于以Unix方式处理数据管道。
 
 #### Lambda扩展
 
@@ -2014,6 +2015,11 @@
 * [Motif](https://github.com/johnlcox/motif)：Motif在Java 8中提供类似Scala的模式匹配。
 * [SuitCase](https://github.com/d-plaindoux/suitcase)：SuitCase是一个方便的Java库，专用于使用模式匹配机制进行对象操作。
 * [Procrastination](https://github.com/gdejohn/procrastination)：Procrastination是一个小型、简单的库，将函数式编程的优势引入Java 11。
+
+#### 尾调用
+
+* [JVM Tail Recursion](https://github.com/Sipkab/jvm-tail-recursion)：Java字节码中尾递归调用的优化器库。
+* [Tail](https://github.com/nrktkt/tail)：Java的简单尾调用优化。
 
 #### 定理证明
 
@@ -2823,6 +2829,8 @@
 * [NeatLogic](https://gitee.com/neat-logic/neatlogic-itom-all)：NeatLogic是一套渐进式ITOM平台，致力为不同类型、不同规模用户提供完整的ITOM解决方案。
 * [Apitally](https://apitally.io/spring-boot)：Apitally可帮助你了解API的使用方式，并在出现问题时提醒你，只需向你的项目添加两行代码即可。
 * [Lite Monitor](https://github.com/haueosc/lite-monitor)：Lite Monitor是一个快速、准确、轻量化的服务器监控系统，拥有秒级的监控粒度，支持历史数据查看便于拥有多平台服务器的用户集中管理，由河南工程学院开发。
+* [MirrorGate](https://github.com/BBVA/mirrorgate)：MirrorGate是一款控制台应用程序，旨在为团队提供与软件开发相关的所有不同领域的快速反馈，由西班牙外换银行开源。
+* [UEH](https://github.com/china-alert/ueh)：UEH可对各种监控工具产生的告警进行汇聚，统一处理、集中展示，并通知。
 
 ## 云服务
 
@@ -3419,6 +3427,7 @@
 * [OpenQA](https://bitbucket.org/emarx/openqa/src/master/)：OpenQA是一个用于问答开发和发布的框架和平台。
 * [Mamute](https://github.com/caelum/mamute)：Mamute是一个基于CDI和VRaptor 4使用Java开发的问答引擎，由Caelum开源。
 * [Openauth](https://gitee.com/yubaolee/openauth.qa)：Openauth是一个简洁实用的问答网站。
+* [OpenEphyra](https://github.com/TScottJ/OpenEphyra)：OpenEphyra是一个开源的QA框架，由CMU开源。
 
 #### CMS系统
 
@@ -3533,7 +3542,7 @@
 * [Mawen](https://github.com/codedrinker/community)：开源论坛、问答系统，现有功能提问、回复、通知、最新、最热、消除零回复功能。
 * [FlowChat](https://github.com/dessalines/flowchat)：FlowChat是一个开源、可自托管的Reddit替代品，它拥有社区、主题标签、实时更新的讨论帖和投票功能。
 * [JCommune](https://github.com/jtalks-org/jcommune)：JCommune是一个用Java编写的论坛引擎。
-* [Symphony](https://github.com/88250/symphony)：Symphony是一款用Java实现的现代化社区(论坛/问答/BBS/社交网络/博客)系统平台。
+* [Symphony](https://github.com/88250/symphony)：Symphony是一款用Java实现的现代化社区(论坛/问答/BBS/社交网络/博客)系统平台，由房星科技开源。
 * [Forum Java](https://github.com/Qbian61/forum-java)：Forum Java是一个开源的现代化社区平台。
 * [Paicoding](https://github.com/itwanger/paicoding)：Paicoding是一个基于Spring Boot、MyBatis Plus、MySQL、Redis、ElasticSearch、MongoDB、Docker、RabbitMQ等技术栈实现的社区系统。
 * [JEESNS](https://gitee.com/lxinet/jeesns)：JEESNS是一款基于Java企业级平台研发的社交管理系统。
@@ -3762,6 +3771,7 @@
 * [EXP](https://github.com/stateIs0/exp)：EXP是一款Java插件化热插拔框架。
 * [Mosaic](https://github.com/Time-Machine-Lab/Mosaic)：Mosaic是一个面向企业级应用的现代化Java插件框架。
 * [Easy Extension](https://github.com/xiaoshicae/easy-extension)：Easy Extension框架主要解决复杂系统的扩展性问题。
+* [JPlugin](https://github.com/sunlet/jplugin)：JPlugin是轻量级的应用框架，支持便捷地开发插件式系统。
 
 #### POS
 
@@ -3958,6 +3968,7 @@
 * [Slack Client](https://github.com/HubSpot/slack-client)：Slack Web API的异步HTTP客户端，由HubSpot开源。
 * [Simple Slack API](https://github.com/Itiviti/simple-slack-api)：该库允许应用程序连接到Slack以从任何通道接收和发送消息。
 * [Flower](https://github.com/PositiveTechnologies/flower)：Flower库是一组用于存储库、任务跟踪器和消息传递系统的通用协议，其中包括与Jira、TFS、GitLab、GitHub和Exchange等最常见协议的集成。
+* [Slack API](https://github.com/allbegray/slack-api)：Slack Web API、传入Webhook、Slackbot远程控制、RTM API的Java客户端。
 
 #### Reddit
 
@@ -4385,6 +4396,7 @@
 * [Eclipse Tradista](https://github.com/eclipse-tradista/tradista)：Tradista是一种轻量级的金融风险管理解决方案，使你能够使用单一工具管理你的日常财务和风险管理任务。
 * [Quandl4J](https://github.com/jimmoores/quandl4j)：Quandl是一个通过开放REST API提供数百万个免费数据集的来源，涵盖金融、经济、社会和国家数据。
 * [Trading Backtest](https://github.com/lukstei/trading-backtest)：这是一个用Java编写的通用轻量级股票回溯测试引擎。
+* [AlphaVantage4j](https://github.com/patriques82/alphavantage4j)：该库实现了Alpha Vantage提供的免费API的包装器。
 
 #### 银行API
 

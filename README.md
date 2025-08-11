@@ -65,6 +65,7 @@
     * [数据沿袭](#数据沿袭)
     * [查询引擎](#查询引擎)
     * [存储格式](#存储格式)
+    * [存储系统](#存储系统)
     * [流处理平台](#流处理平台)
     * [ETL工具](#ETL工具)
     * [CDC组件](#CDC组件)
@@ -325,6 +326,7 @@
     * [Lambda扩展](docs/doc2.md#Lambda扩展)
     * [LINQ](docs/doc2.md#LINQ)
     * [模式匹配](docs/doc2.md#模式匹配)
+    * [尾调用](docs/doc2.md#尾调用)
     * [定理证明](docs/doc2.md#定理证明)
 * [字节码操作](docs/doc2.md#字节码操作)
 * [字节码工具库](docs/doc2.md#字节码工具库)
@@ -949,6 +951,7 @@
 * [Apache CXF](https://github.com/apache/cxf)：CXF是一个开源服务框架，可帮助你使用前端编程API(例如JAX-WS和JAX-RS)构建和开发服务，最初由IONA开发。
 * [Bootique](https://github.com/bootique/bootique)：Bootique是一种最简单的Java启动器和集成技术，它旨在构建无容器的可运行Java应用程序，由ObjectStyle开源。
 * [RESTX](https://github.com/restx/restx)：RESTX是一个完整的轻量级颠覆性堆栈，其中包括类似Swagger的UI并将REST规范测试视为文档。
+* [Netty HTTP](https://github.com/cdapio/netty-http)：一个使用Netty开发HTTP服务的库，支持基于JAX-RS风格注解路由端点的功能，由Google开源。
 * [Spray](https://github.com/spray/spray)：Spray是一套轻量级的Scala库，用于在Akka之上构建和使用RESTful Web服务。
 * [Xenon](https://github.com/vmware-archive/xenon)：Xenon是一个用于编写小型REST服务的框架，由VMware开发。
 * [Restlet](https://github.com/restlet/restlet-framework-java)：Restlet框架帮助Java开发人员构建更好的遵循REST架构风格的Web API，由Talend开源。
@@ -1028,7 +1031,6 @@
 * [Zebra](https://gitee.com/gszebra/zebra)：Zebra是国信证券的微服务框架。
 * [SeedStack](https://github.com/seedstack/seed)：SeedStack是一个固执己见、易于使用的Java开发堆栈。
 * [Moleculer Java](https://github.com/moleculer-java/moleculer-java)：Moleculer Java是JVM的Moleculer微服务框架的实现。
-* [Worker Framework](https://github.com/WorkerFramework/worker-framework)：Worker Framework为跨平台、云就绪、分布式数据处理微服务提供了基础。
 
 #### Spring Cloud框架
 
@@ -2062,7 +2064,6 @@
 * [Apache DataFusion Comet](https://github.com/apache/datafusion-comet)：DataFusion Comet是一个Spark插件，它使用DataFusion作为本机运行时，以实现查询效率和查询运行时方面的改进，由Apple开源。
 * [XL-LightHouse](https://github.com/xl-xueling/xl-lighthouse)：XL-LightHouse是一套支持超大数据量、支持超高并发的通用型流式大数据统计系统。
 * [Conquery](https://github.com/ingef/conquery)：Conquery是一个强大的基于Web的工具，用于针对大型事件类数据集编写和执行查询。
-* [Apache Crail](https://github.com/apache/incubator-crail)：Apache Crail是一个快速的多层分布式存储系统，专为高性能网络和存储硬件而设计，由IBM开源。
 * [Tempura](https://github.com/alibaba/cost-based-incremental-optimizer)：Tempura是一种基于成本的增量数据处理通用优化框架，由阿里开发。
 * [StreamSets](https://github.com/streamsets/datacollector-oss)：StreamSets Data Collector是一个企业级开源持续大数据采集平台。
 * [Hera](https://github.com/scxwhite/hera)：Hera是一个分布式大数据任务调度系统。
@@ -2126,6 +2127,11 @@
 * [Apache TsFile](https://github.com/apache/tsfile)：TsFile是一种专为时序数据设计的列式存储文件格式，支持高效压缩、读写高吞吐，并且兼容Spark、Flink等多种框架，由清华大学开源。
 * [IndexR](https://github.com/shunfei/indexr)：IndexR是HDFS上的超快速列式数据格式，专注于快速分析，既适用于海量静态(历史)数据，也适用于快速摄取实时数据，由舜飞开源。
 * [TrinityLake](https://github.com/trinitylake-io/trinitylake)：TrinityLake格式定义了Lakehouse中的对象，并提供了一种一致且高效的方式来访问和操作这些对象。
+
+#### 存储系统
+
+* [Pocket](https://github.com/stanford-mast/pocket)：Pocket是一个专为临时数据共享而设计的存储系统，由斯坦福大学开源。
+* [Apache Crail](https://github.com/apache/incubator-crail)：Apache Crail是一个快速的多层分布式存储系统，专为高性能网络和存储硬件而设计，由IBM开源。
 
 #### 流处理平台
 
@@ -2203,6 +2209,7 @@
 * [DataPull](https://github.com/homeaway/datapull)：DataPull是一种自助式分布式ETL工具，用于连接和转换来自异构数据存储的数据。
 * [Metorikku](https://github.com/YotpoLtd/metorikku)：Metorikku是一个简化在Apache Spark上编写和执行ETL的库。
 * [Wrangler](https://github.com/data-integrations/wrangler)：Wrangler是一组库、一个流水线插件和一个CDAP服务，用于使用一组数据操作指令执行数据清理、转换和过滤，由Google开源。
+* [Ares](https://github.com/rewerma/ares)：Ares是一个基于PL-SQL语法的数据计算集成引擎，用于ETL、跨源计算、数据分析和存储计算分离。
 
 #### CDC组件
 
@@ -2296,6 +2303,7 @@
 * [Spark TimeSeries](https://github.com/sryza/spark-timeseries)：用于与Apache Spark上的时序数据交互的Scala/Java/Python库。
 * [SFA](https://github.com/patrickzib/SFA)：可扩展的时序数据分析，由柏林洪堡大学开发。
 * [Chronicle TimeSeries](https://github.com/OpenHFT/Chronicle-TimeSeries)：多线程时序库。
+* [GrammarViz](https://github.com/GrammarViz2/grammarviz2_src)：GrammarViz是一款具有GUI和CLI界面的时序探索性分析软件。
 
 ## 进程间通信
 
@@ -2357,6 +2365,7 @@
 * [Events4J](https://github.com/PhilippHeuer/events4j)：Java事件调度程序/消费者。
 * [DamiBus](https://gitee.com/noear/dami)：DamiBus专为本地多模块之间通讯解耦而设计。
 * [IPC EventBus](https://github.com/Terracotta-OSS/ipc-eventbus)：IPC EventBus为JVM内和JVM外通信提供了一个简单的EventBus API。
+* [FastCast](https://github.com/RuedigerMoeller/fast-cast)：FastCast是一个高速无代理消息传递库，涵盖从简单的共享内存到大型LAN集群应用程序的Java进程间通信。
 
 #### 消息总线
 
@@ -4159,7 +4168,6 @@
 * [Conjecture](https://github.com/etsy/Conjecture)：Conjecture是一个使用Scalding DSL在Hadoop中构建机器学习模型的框架，由Etsy开源。
 * [Metarank](https://github.com/metarank/metarank)：Metarank是一项开源排名服务，它可以帮助你构建个性化的语义/神经搜索和推荐。
 * [ModelMesh](https://github.com/kserve/modelmesh)：ModelMesh框架是一个成熟的通用模型，服务于管理层/路由层，专为高规模、高密度和频繁变化的模型用例而设计，由IBM开源。
-* [RapidMiner](https://rapidminer.com/)：RapidMiner是一个数据科学平台，通过GUI和Java API提供各种机器学习算法。
 * [MOA](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法和评估工具，由怀卡托大学开发。
 * [JGAAP](https://github.com/evllabs/JGAAP)：JGAAP是一种允许非专家使用尖端机器学习技术解决文本归因问题的工具，由杜肯大学开源。
 * [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是一个纯Java机器学习框架，用于支持遗传编程、NEAT/HyperNEAT和其他神经网络技术。
@@ -4236,6 +4244,7 @@
 * [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP)：VnCoreNLP是一个快速、准确的越南语NLP标注管道，通过分词、词性标注、命名实体识别和依存句法分析等关键NLP组件提供丰富的语言标注。
 * [Zemberek NLP](https://github.com/ahmetaa/zemberek-nlp)：Zemberek NLP提供土耳其语自然语言处理工具。
 * [Baleen](https://github.com/dstl/baleen)：Baleen是一个文本分析框架，允许从非结构化和半结构化数据中提取信息，由英国国防科学技术实验室开源。
+* [FastText](https://github.com/ivanhk/fastText_java)：Facebook FastText的Java移植。
 
 #### 分词器
 
@@ -4469,6 +4478,7 @@
 * [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
 * [OpenDial](https://github.com/plison/opendial)：OpenDial是一个基于Java、领域无关的工具包，用于开发语音对话系统，由奥斯陆大学开源。
 * [Recognito](https://github.com/amaurycrickx/recognito)：Java中的文本独立说话人识别。
+* [ElevateAI Java SDK](https://github.com/NICEElevateAI/ElevateAIJavaSDK)：ElevateAI提供了用于语音转文本、语音交互的行为分析和情感分析的API。
 
 ## [测试-迁移&重构](docs/doc2.md)
 

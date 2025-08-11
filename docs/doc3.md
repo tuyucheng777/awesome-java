@@ -1084,6 +1084,7 @@
 * [Orson Charts](https://github.com/jfree/orson-charts)：Orson Charts是一个用于Java平台的3D图表库，可以生成各种3D图表，用于客户端应用程序(JavaFX和Swing)和服务器端应用程序(导出为PDF、SVG、PNG和JPEG)。
 * [JavaFxDataviewer](https://github.com/jasrodis/javafx-dataviewer-wrapper)：JavaFxDataviewer是JavaFX的开源数据可视化工具。
 * [JMathAnim](https://github.com/davidgutierrezrubio/jmathanim)：JMathAnim是一个用Java编写的库，旨在简化数学动画的制作过程。
+* [StockChartsFX](https://github.com/FueledByChai/StockChartsFX)：用于创建K线图的JavaFX API。
 
 #### JavaFX图标库
 
@@ -2281,6 +2282,8 @@
 
 * [SnapTree](https://github.com/nbronson/snaptree)：SnapTree是一种具有快速克隆、快照和一致迭代功能的并发AVL树，由斯坦福开源。
 * [Darts Java](https://github.com/komiya-atsushi/darts-java)：Darts Java是Darts(双数组Trie系统)的Java移植。
+* [DoubleArrayTrie](https://github.com/digitalstain/DoubleArrayTrie)：DoubleArrayTrie是双数组trie的纯Java实现。
+* [Adaptive Radix Tree](https://github.com/rohansuri/adaptive-radix-tree)：Java中快速且节省空间的基数树。
 * [RTree](https://github.com/davidmoten/rtree)：使用响应式API在Java中实现不可变的内存中R树和R*树。
 * [RTree](https://github.com/conversant/rtree)：RTree是一种索引，支持构建边界矩形树，用于任意范围搜索。
 * [Tree](https://github.com/Scalified/tree)：该库包含树数据结构的不同实现，例如K进制、二叉树、表达式树等。
@@ -3126,7 +3129,6 @@
 
 ## 元编程
 
-* [JParsec](https://github.com/jparsec/jparsec)：Jparsec是一个为Java编写的递归下降解析器组合器框架。
 * [Eclipse Xtext](https://github.com/eclipse/xtext)：Xtext是一个用于开发编程语言和特定领域语言的框架。
 * [MPS](https://github.com/JetBrains/MPS)：JetBrains元编程系统。
 * [GenSym](https://github.com/Generative-Program-Analysis/GenSym)：GenSym是LLVM IR的高性能并行符号执行引擎。
@@ -3902,7 +3904,9 @@
 
 ## 解析器组合器
 
+* [JParsec](https://github.com/jparsec/jparsec)：Jparsec是一个为Java编写的递归下降解析器组合器框架。
 * [Autumn](https://github.com/norswap/autumn)：Autumn是一个Java解析器组合器库。
+* [ParsecJ](https://github.com/jon-hanson/parsecj)：ParsecJ是一个用于构建LL(1)解析器的Java单子解析器组合器框架。
 * [Java PetitParser](https://github.com/petitparser/java-petitparser)：PetitParser结合了无扫描器解析、解析器组合器、解析表达式语法(PEG)和Packrat解析器的思想，将语法和解析器建模为可以动态重新配置的对象。
 
 ## 源代码解析
