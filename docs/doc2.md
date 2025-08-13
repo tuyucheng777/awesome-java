@@ -1037,6 +1037,7 @@
 * [RxStore](https://github.com/Gridstone/RxStore)：一个小型库，可帮助使用RxJava将对象保存到磁盘和从磁盘恢复对象。
 * [KStore](https://github.com/xxfast/KStore)：一个小型的Kotlin多平台库，使用kotlinx.coroutines、kotlinx.serialization和kotlinx.io辅助在磁盘上保存和恢复对象。
 * [Pherialize](https://github.com/kayahr/pherialize)：Pherialize是一个小型库，允许将Java对象序列化为PHP序列化格式，并将数据从该格式反序列化回Java对象。
+* [SerialKiller](https://github.com/ikkisoft/SerialKiller)：SerialKiller是一个易于使用的前瞻Java反序列化库，用于保护应用程序免受不受信任的输入。
 
 #### Protocol Buffer
 
@@ -1141,6 +1142,7 @@
 * [JSON Schema](https://github.com/harrel56/json-schema)：实现JSON模式规范的Java库。
 * [Jackson JsonSchema Generator](https://github.com/mbknor/mbknor-jackson-jsonSchema)：使用Jackson注解生成具有多态性的JSON模式。
 * [JSON Kotlin Schema](https://github.com/pwall567/json-kotlin-schema)：JSON Schema的Kotlin实现。
+* [CZML Writer](https://github.com/AnalyticalGraphicsInc/czml-writer)：该项目提供.NET和Java库，用于写入与Cesium一起使用的CZML内容。
 
 #### JsonPath
 
@@ -1383,6 +1385,7 @@
 ## 数据科学
 
 * [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个DataFrame和可视化库，支持加载、清理、转换、过滤和汇总数据。
+* [Luckysheet](https://github.com/dream-num/Luckysheet)：Luckysheet是一款类似Excel的在线电子表格，功能强大、配置简单。
 * [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充，由Google开源。
 * [Apache SystemDS](https://github.com/apache/systemds)：SystemDS是一个开源ML系统，适用于端到端数据科学生命周期。
 * [Incanter](https://github.com/incanter/incanter)：Incanter是一个基于Clojure、类似R的JVM统计计算和图形环境。
@@ -4246,6 +4249,12 @@
 * [Librespot Java](https://github.com/librespot-org/librespot-java)：最新的开源Spotify客户端。
 * [Spotify Web API Java](https://github.com/spotify-web-api-java/spotify-web-api-java)：这是Spotify Web API的Java包装器/客户端。
 
+#### Notion
+
+* [Notion SDK JVM](https://github.com/seratch/notion-sdk-jvm)：这是适用于任何JVM语言用户的Notion API SDK。
+* [Notion SDK](https://github.com/notionsdk/notion-sdk-kotlin-old)：非官方Notion API包装器，用Kotlin编写，可在Java中使用。
+* [klibnotion](https://github.com/BoD/klibnotion)：适用于Kotlin、Java等的Notion API客户端库。
+
 #### Riot
 
 * [Riot API Java](https://github.com/taycaldwell/riot-api-java)：一个易于使用的Java Riot Games API包装器。
@@ -4450,6 +4459,7 @@
 * [Cardano](https://github.com/bloxbean/cardano-client-lib)：Java中的Cardano客户端库。
 * [Hashgraph Java SDK](https://github.com/hashgraph/hedera-sdk-java)：适用于Java的Hedera Hashgraph SDK。
 * [Sol4k](https://github.com/sol4k/sol4k)：Sol4k是Solana的Kotlin客户端，可与Java或任何其他JVM语言以及Android一起使用。
+* [Java Stellar SDK](https://github.com/lightsail-network/java-stellar-sdk)：Java Stellar SDK库提供了用于构建交易并连接到Horizon和Soroban-RPC服务器的API。
 
 #### 智能合约
 

@@ -445,6 +445,7 @@
     * [Reddit](docs/doc2.md#Reddit)
     * [TikTok](docs/doc2.md#TikTok)
     * [Spotify](docs/doc2.md#Spotify)
+    * [Notion](docs/doc2.md#Notion)
     * [Riot](docs/doc2.md#Riot)
     * [TheMovieDb](docs/doc2.md#TheMovieDb)
     * [TeamSpeak](docs/doc2.md#TeamSpeak)
@@ -591,10 +592,11 @@
 * [JVM代理](docs/doc3.md#JVM代理)
 * [热加载](docs/doc3.md#热加载)
 * [类加载](docs/doc3.md#类加载)
-* [RISC-V](docs/doc3.md#RISC-V)
+* [芯片模拟器](docs/doc3.md#芯片模拟器)
 * [MIPS](docs/doc3.md#MIPS)
 * [汇编](docs/doc3.md#汇编)
 * [LLVM](docs/doc3.md#LLVM)
+* [PC模拟器](docs/doc3.md#PC模拟器)
 * [编译器&插件](docs/doc3.md#编译器插件)
 * [语言服务器](docs/doc3.md#语言服务器)
 * [数据库工具库](docs/doc3.md#数据库工具库)
@@ -1086,6 +1088,7 @@
 * [Aggregate Framework](https://github.com/changmingxie/aggregate-framework)：Aggregate Framework是一款基于DDD和CQRS思想开发的领域驱动框架。
 * [Cheddar](https://github.com/travel-cloud/Cheddar)：Cheddar是一个Java框架，适用于AWS上的企业应用程序，使用域驱动设计(DDD)。
 * [ZenWave SDK](https://github.com/ZenWave360/zenwave-sdk)：ZenWave SDK是一个用于DDD和API优先的可配置且可扩展的工具包，可以从不同模型的组合生成代码。
+* [Nest](https://github.com/jovezhao/nest)：Nest是一个帮助开发人员快速实现基于领域驱动设计的技术框架。
 
 #### 应用框架
 
@@ -2033,6 +2036,7 @@
 * [Fili](https://github.com/yahoo/fili)：Fili是一个基于Java的框架，可以轻松构建和维护用于时间序列报告和分析的RESTful Web服务，由Yahoo开源。
 * [Zeus](https://github.com/cloverfisher/zeus)：宙斯是阿里开源的一款分布式Hadoop作业调度平台，支持多机器的水平扩展。
 * [DBus](https://github.com/BriData/DBus)：DBus专注于数据的收集及实时数据流计算，通过简单灵活的配置，无侵入的方式对源端数据进行采集。
+* [Sylph](https://github.com/harbby/sylph)：Sylph是一个用于实时流计算的平台，核心是通过工作流描述构建分布式流计算应用程序。
 * [Hermes](https://www.infoq.cn/article/zx0g0ruv5nzxpfjdpvpr)：Hermes是腾讯数据平台部自研的实时分析平台。
 * [Qualitis](https://github.com/WeBankFinTech/Qualitis)：Qualitis是一个数据质量管理平台，支持各种数据源的质量验证、通知和管理，用于解决数据处理过程中引起的各种数据质量问题，由微众开源。
 * [Embulk](https://github.com/embulk/embulk)：Embulk是一个并行批量数据加载器，有助于在各种存储、数据库、NoSQL和云服务之间传输数据。
@@ -4293,6 +4297,7 @@
 #### 语音识别
 
 * [Vosk](https://github.com/alphacep/vosk-api)：Vosk是一款离线开源语音识别工具包。
+* [MaryTTS](https://github.com/marytts/marytts)：MaryTTS是一个用纯Java编写的开源、多语言文本到语音合成系统。
 * [Live Transcribe](https://github.com/google/live-transcribe-speech-engine)：Live Transcribe是一款Android应用，可为失聪或听力障碍人士提供实时字幕，包含与Google Cloud Speech API进行通信的客户端库，由Google开源。
 * [Sphinx-4](https://github.com/cmusphinx/sphinx4)：Sphinx-4是一款先进、独立于说话人的连续语音识别系统，由CMU开发。
 * [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
