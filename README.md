@@ -599,6 +599,7 @@
 * [LLVM](docs/doc3.md#LLVM)
 * [PC模拟器](docs/doc3.md#PC模拟器)
 * [编译器&插件](docs/doc3.md#编译器插件)
+* [AOT编译器](docs/doc3.md#AOT编译器)
 * [语言服务器](docs/doc3.md#语言服务器)
 * [数据库工具库](docs/doc3.md#数据库工具库)
     * [数据库驱动](docs/doc3.md#数据库驱动)
@@ -1478,7 +1479,6 @@
 * [Eclipse OpenJ9](https://github.com/eclipse-openj9/openj9)：OpenJ9是适用于OpenJDK的Java虚拟机，针对占用空间小、启动快和高吞吐量进行了优化，由IBM开发。
 * [Avian](https://github.com/ReadyTalk/avian)：Avian是一个轻量级虚拟机和类库，旨在提供有用的Java功能子集，适合构建独立的应用程序。
 * [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm)：ParparVM是Codename One开发的VM，用于取代最初构建它时已失效的XMLVM。
-* [RoboVM](https://github.com/MobiVM/robovm)：RoboVM是Java字节码的提前编译器，针对Linux、Mac OS X和iOS，由Xamarin维护。
 * [Maxine VM](https://github.com/beehive-lab/Maxine-VM)：Maxine VM是Java中的元循环虚拟机，由曼彻斯特大学高级处理器技术小组开发。
 * [Rembulan](https://github.com/mjanicek/rembulan)：Rembulan是JVM的Lua 5.3实现，用纯Java编写，依赖性最小。
 * [JOE](https://github.com/joekoolade/JOE)：JOE是一个软件虚拟化工具，它通过用Java语言编写操作系统和硬件子系统，将操作系统合并到程序中。
