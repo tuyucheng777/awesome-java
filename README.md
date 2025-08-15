@@ -190,6 +190,7 @@
     * [OCR](#OCR)
     * [人脸识别](#人脸识别)
     * [语音识别](#语音识别)
+    * [语音合成](#语音合成)
 * [测试](docs/doc2.md#测试)
     * [单元测试](docs/doc2.md#单元测试)
     * [集成测试](docs/doc2.md#集成测试)
@@ -565,6 +566,7 @@
     * [CAD](docs/doc3.md#CAD)
     * [办公软件](docs/doc3.md#办公软件)
     * [思维导图](docs/doc3.md#思维导图)
+    * [音视频软件](docs/doc3.md#音视频软件)
     * [数据库软件](docs/doc3.md#数据库软件)
     * [数据库建模](docs/doc3.md#数据库建模)
     * [反编译](docs/doc3.md#反编译)
@@ -581,6 +583,7 @@
 * [游戏开发](docs/doc3.md#游戏开发)
     * [游戏引擎](docs/doc3.md#游戏引擎)
     * [游戏服务器](docs/doc3.md#游戏服务器)
+    * [游戏模拟器](docs/doc3.md#游戏模拟器)
     * [2D/3D渲染](docs/doc3.md#2D3D渲染)
     * [游戏开发库](docs/doc3.md#游戏开发库)
     * [碰撞检测](docs/doc3.md#碰撞检测)
@@ -621,6 +624,12 @@
     * [Vault库/工具](docs/doc3.md#Vault库工具)
 * [对象存储](docs/doc3.md#对象存储)
 * [音视频处理](docs/doc3.md#音视频处理)
+    * [音频库](docs/doc3.md#音频库)
+    * [视频库](docs/doc3.md#视频库)
+    * [多媒体库](docs/doc3.md#多媒体库)
+    * [FFmpeg包装器](docs/doc3.md#FFmpeg包装器)
+    * [音频编解码器](docs/doc3.md#音频编解码器)
+    * [媒体服务器](docs/doc3.md#媒体服务器)
 * [数据结构](docs/doc3.md#数据结构)
     * [树](docs/doc3.md#树)
     * [堆](docs/doc3.md#堆)
@@ -668,10 +677,11 @@
 * [IPFS](docs/doc3.md#IPFS)
 * [打包部署运行](docs/doc3.md#打包部署运行)
 * [地理空间](docs/doc3.md#地理空间)
-* [大地测量](docs/doc3.md#大地测量)
+    * [大地测量](docs/doc3.md#大地测量)
 * [路由引擎](docs/doc3.md#路由引擎)
 * [GTFS](docs/doc3.md#GTFS)
 * [几何学](docs/doc3.md#几何学)
+* [航空航天](docs/doc3.md#航空航天)
 * [天文学](docs/doc3.md#天文学)
 * [水文学](docs/doc3.md#水文学)
 * [物理库](docs/doc3.md#物理库)
@@ -1599,6 +1609,7 @@
 * [Koupleless](https://github.com/koupleless/koupleless)：Koupleless是一种模块化的Serverless技术解决方案，它能让普通应用以比较低的代价演进为Serverless研发模式，由蚂蚁开源。
 * [Apiary](https://github.com/DBOS-project/apiary)：Apiary是一个事务性功能即服务(FaaS)框架，用于构建面向数据库的应用程序，例如微服务和Web服务后端，这是MIT、斯坦福合作的一个研究项目。
 * [Powertools Lambda Java](https://github.com/aws-powertools/powertools-lambda-java)：Powertools是一个开发工具包，用于实现Serverless最佳实践并提高开发人员速度。
+* [Google App Engine](https://github.com/GoogleCloudPlatform/appengine-java-standard)：Google App Engine标准Java运行时：Prod运行时、本地devappserver、Cloud SDK Java组件、GAE API和GAE API模拟器。
 * [Serverless Java Container](https://github.com/awslabs/aws-serverless-java-container)：Serverless Java Container让你可以在AWS Lambda中轻松运行使用Spring、Spring Boot、Struts、Jersey或Spark等框架编写的Java应用程序。
 * [AWS Lambda Java Libraries](https://github.com/aws/aws-lambda-java-libs)：在AWS Lambda平台上运行Java的关键库。
 * [Spring Cloud Function](https://github.com/spring-cloud/spring-cloud-function)：Spring Cloud Function是Pivotal开发的Spring项目，它致力于促进函数作为主要的开发单元。
@@ -2923,7 +2934,6 @@
 * [ScaleCube](https://github.com/scalecube/scalecube-services)：ScaleCube是一个通过提供可嵌入的微服务库来简化响应式和分布式应用程序开发的项目。
 * [CohereFlux](https://github.com/pellse/cohereflux)：CohereFlux是一个响应式、函数式、类型安全和无状态的数据聚合框架，用于查询和合并来自多个数据源/服务的数据。
 * [Reactive Commons](https://github.com/reactive-commons/reactive-commons-java)：Reactive Commons的目的是提供一组针对不同模式和实践的抽象和实现，这些模式和实践构成了响应式微服务架构的基础，由哥伦比亚银行维护。
-* [Arez](https://github.com/arez/arez)：Arez是一个简单、高效且可扩展的客户端应用程序状态管理库。
 * [IxJava](https://github.com/akarnokd/ixjava)：Java的Iterable Extensions，与RxJava类似。
 * [Functional Reactive Lib](https://github.com/svenruppert/functional-reactive-lib)：仅使用核心Java的函数式响应库。
 
@@ -3852,6 +3862,7 @@
 * [Artemis](https://github.com/ls1intum/Artemis)：Artemis通过对编程练习、测验、建模任务等的即时、个人反馈，将交互式学习带入生活，由慕尼黑工业大学开源。
 * [Lucida](https://github.com/claritylab/lucida)：Lucida是一款基于语音和视觉的智能个人助理，灵感来自Sirius。
 * [SUSI.AI Server](https://github.com/fossasia/susi_server)：SUSI.AI是一款智能开源个人助理，由FOSSASIA组织开源。
+* [Alexa Skills Kit Java SDK](https://github.com/alexa/alexa-skills-kit-sdk-for-java)：Alexa是Amazon基于云的语音服务，可在亚马逊和第三方设备制造商的数亿台设备上使用。
 * [GDX AI](https://github.com/libgdx/gdx-ai)：GDX AI是一个高性能框架，提供游戏行业使用的一些最常见的AI技术。
 * [AIMA Java](https://github.com/aimacode/aima-java)：Russell和Norvig的《人工智能-一种现代的方法》中算法的Java实现。
 * [Alan AI](https://github.com/alan-ai/alan-sdk-android)：适用于Android的对话式AI SDK，可通过操作实现文本和语音对话。
@@ -4303,16 +4314,22 @@
 #### 语音识别
 
 * [Vosk](https://github.com/alphacep/vosk-api)：Vosk是一款离线开源语音识别工具包。
-* [MaryTTS](https://github.com/marytts/marytts)：MaryTTS是一个用纯Java编写的开源、多语言文本到语音合成系统。
 * [Live Transcribe](https://github.com/google/live-transcribe-speech-engine)：Live Transcribe是一款Android应用，可为失聪或听力障碍人士提供实时字幕，包含与Google Cloud Speech API进行通信的客户端库，由Google开源。
 * [Sphinx-4](https://github.com/cmusphinx/sphinx4)：Sphinx-4是一款先进、独立于说话人的连续语音识别系统，由CMU开发。
-* [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
 * [JARVIS Speech API](https://github.com/lkuza2/java-speech-api)：JARVIS Speech API的设计简洁高效，使用Google开发的语音引擎来提供部分API功能。
-* [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
 * [OpenDial](https://github.com/plison/opendial)：OpenDial是一个基于Java、领域无关的工具包，用于开发语音对话系统，由奥斯陆大学开源。
 * [Recognito](https://github.com/amaurycrickx/recognito)：Java中的文本独立说话人识别。
 * [ElevateAI Java SDK](https://github.com/NICEElevateAI/ElevateAIJavaSDK)：ElevateAI提供了用于语音转文本、语音交互的行为分析和情感分析的API。
 * [WhisperJNI](https://github.com/GiviMAD/whisper-jni)：whisper.cpp的JNI包装器，允许将语音转录为Java中的文本。
+
+#### 语音合成
+
+* [MaryTTS](https://github.com/marytts/marytts)：MaryTTS是一个用纯Java编写的开源、多语言文本到语音合成系统。
+* [FreeTTS](https://freetts.sourceforge.io/)：FreeTTS是一个完全用Java编程语言编写的语音合成系统。
+* [VeloVoice](https://github.com/Mai-Onsyn/VeloVoice)：一个用于解析中文小说并通过TTS转换为语音的JavaFX软件。
+* [Java TTS](https://github.com/ikfly/java-tts)：参考其他语言版本写的Java版文字转语音，使用 Edge API。
+* [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
+* [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
 
 ## [测试-迁移&重构](docs/doc2.md)
 
