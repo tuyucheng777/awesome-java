@@ -3809,6 +3809,7 @@
 * [Aurora](https://github.com/xcyeye/aurora-blog)：Aurora是一个基于Spring Cloud Alibaba的多人微服务博客项目。
 * [CMS Boot](https://github.com/buttasam/cms-boot)：一个基于Spring Boot和SQL数据库构建的轻量级、灵活且可扩展的内容管理系统。
 * [WX Manage](https://github.com/niefy/wx-manage)：WX Manage是一个公众号管理系统，支持多公众号接入。
+* [OpenIsle](https://github.com/nagisa77/OpenIsle)：OpenIsle是一个使用Spring Boot和Vue 3构建的全栈开源社区平台。
 
 #### 论坛系统
 
