@@ -1885,37 +1885,40 @@
 * [MTMC](https://github.com/msu/mtmc)：MTMC是一台虚拟计算机，旨在以有趣和直观的方式展示数字计算的工作原理，由蒙大拿州立大学开源。
 * [Triton-64](https://github.com/LPC4/Triton-64)：完整的64位虚拟机实现，具有自定义CPU架构、汇编器、编译器和使用JavaFX用Java构建的开发环境。
 
-## 编译器&插件
+## 编译器
 
-* [VirtualAPK](https://github.com/didi/VirtualAPK)：VirtualAPK是一个强大而轻量级的Android插件框架，由滴滴开源。
-* [Janin](https://github.com/janino-compiler/janino)：Janino是一个超小、超快的Java编译器。
-* [BugVM](https://github.com/ibinti/bugvm)：BugVM使用独立的JVM将字节码编译为二进制代码。
-* [Turbine](https://github.com/google/turbine)：Turbine是Java的标头编译器，Google开发。
-* [Jarslink](https://github.com/sofastack/sofa-jarslink)：Jarslink是SOFABoot官方基于SOFAArk开发的功能插件，负责管理多应用在SOFAArk容器之上的合并部署，由蚂蚁开源。
-* [Chronicle Runtime Compiler](https://github.com/OpenHFT/Java-Runtime-Compiler)：Java运行时编译器。
-* [Java-OO](https://github.com/amelentev/java-oo)：Java-OO是Java编译器和IDE的模块化扩展，用于支持运算符重载(类似Scala)。
-* [Manifold](https://github.com/manifold-systems/manifold)：Manifold是一个Java编译器插件，其功能包括元编程、属性、扩展方法、运算符重载、模板、预处理器等。
-* [DroidPlugin](https://github.com/DroidPluginTeam/DroidPlugin)：DroidPlugin是一个新的插件框架，它使宿主应用程序无需安装、修改和重新打包即可运行任何第三方APK。
-* [Apache Commons JCI](https://github.com/apache/commons-jci)：Commons JCI是一个Java编译器接口，它可用于编译Java本身，或任何其他可编译为Java类的语言(例如Groovy或JavaScript)。
-* [Deptitive](https://github.com/moditect/deptective)：Deptitive是javac的一个插件，它根据允许的依赖的描述来验证项目包之间的依赖关系，并在检测到任何无意的依赖关系时使编译失败。
 * [Polyglot](https://github.com/polyglot-compiler/polyglot)：Polyglot是Java编程语言的高度可扩展的编译器前端，由康奈尔大学开源。
 * [Jikes](https://jikes.sourceforge.net/)：Jikes是一个编译器，它将Java语言规范中定义的Java源文件转换为Java虚拟机规范中定义的字节码指令集和二进制格式，由IBM开源。
-* [Qbicc](https://github.com/qbicc/qbicc)：Qbicc是一个实验性的Java原生镜像编译器。
 * [OpenLDK](https://github.com/atgreen/openldk)：OpenLDK是Java的JIT编译器和运行时环境，完全以Common Lisp实现。
-* [Java Comment Preprocessor](https://github.com/raydac/java-comment-preprocessor)：具有类似C注释格式的计算机语言预处理器。
+* [RubyFlux](https://github.com/headius/rubyflux)：RubyFlux是一个编译器，它将Ruby代码库转换为一组封闭的.java源文件，适合在任何JVM上运行，无需额外的运行时要求。
+* [MateVM](https://github.com/MateVM/MateVM)：MateVM是一个用Haskell编写的Java JIT编译器。
 * [Apache Royale Compiler](https://github.com/apache/royale-compiler)：Royale编译器将ActionScript 3.0和MXML代码编译为SWF或JavaScript。
+
+#### 内存中编译器
+
+* [Janin](https://github.com/janino-compiler/janino)：Janino是一个超小、超快的Java编译器。
+* [Chronicle Runtime Compiler](https://github.com/OpenHFT/Java-Runtime-Compiler)：Chronicle Runtime Compiler是一个Java运行时编译器。
+* [Apache Commons JCI](https://github.com/apache/commons-jci)：Commons JCI是一个Java编译器接口，它可用于编译Java本身，或任何其他可编译为Java类的语言(例如Groovy或JavaScript)。
 * [InMemoryJavaCompiler](https://github.com/trung/InMemoryJavaCompiler)：在内存中编译Java源代码的实用程序类。
 * [Compiler](https://github.com/michaelliao/compiler)：使用Java 6编译器API在内存中编译Java代码。
 * [SourceBuddy](https://github.com/sourcebuddy/sourcebuddy)：SourceBuddy是一个Java库，可用于在程序中编译和加载动态生成的Java源代码。
-* [RubyFlux](https://github.com/headius/rubyflux)：RubyFlux是一个编译器，它将Ruby代码库转换为一组封闭的.java源文件，适合在任何JVM上运行，无需额外的运行时要求。
 
-## AOT编译器
+#### AOT编译器
 
 * [GraalVM](https://github.com/oracle/graal)：GraalVM将Java应用程序编译为本机可执行文件，可立即启动、快速扩展并使用更少的计算资源，由Oracle开源。
 * [RoboVM](https://github.com/MobiVM/robovm)：RoboVM是Java字节码的提前编译器，针对Linux、Mac OS X和iOS，由Xamarin维护。
 * [TeaVM](https://github.com/konsoletyper/teavm)：TeaVM是Java字节码的提前编译器，可生成在浏览器中运行的JavaScript和WebAssembly。
 * [JTransc](https://github.com/soywiz-archive/jtransc)：JTransc是一个AOT编译器，它将.class和.jar文件编译为目标编程语言/可执行文件，将所有必需的依赖项捆绑在单个文件或文件夹中，无需抖动或外部运行时。
 * [Excelsior JET](https://github.com/excelsior-oss/excelsior-jet-maven-plugin)：Excelsior JET是一款带有AOT的Java虚拟机增强工具。
+* [BugVM](https://github.com/ibinti/bugvm)：BugVM使用独立的JVM将字节码编译为二进制代码。
+* [Qbicc](https://github.com/qbicc/qbicc)：Qbicc是一个实验性的Java原生镜像编译器，由RedHat开源。
+
+#### 编译器插件
+
+* [Java-OO](https://github.com/amelentev/java-oo)：Java-OO是Java编译器和IDE的模块化扩展，用于支持运算符重载(类似Scala)。
+* [Manifold](https://github.com/manifold-systems/manifold)：Manifold是一个Java编译器插件，其功能包括元编程、属性、扩展方法、运算符重载、模板、预处理器等。
+* [Deptitive](https://github.com/moditect/deptective)：Deptitive是javac的一个插件，它根据允许的依赖的描述来验证项目包之间的依赖关系，并在检测到任何无意的依赖关系时使编译失败。
+* [Turbine](https://github.com/google/turbine)：Turbine是Java的标头编译器，Google开发。
 
 ## 语言服务器
 
