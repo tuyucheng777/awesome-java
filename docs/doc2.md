@@ -2029,6 +2029,27 @@
 * [Rule Engine](https://github.com/jetlinks/rule-engine)：基于流程的流式规则引擎。
 * [Power Flows DMN](https://github.com/powerflows/powerflows-dmn)：Power Flows DMN是一个强大的决策引擎。
 
+## 状态机
+
+* [Squirrel](https://github.com/hekailiang/squirrel)：Squirrel为Java提供了一个易于使用、类型安全且高度可扩展的状态机实现。
+* [Spring Statemachine](https://github.com/spring-projects/spring-statemachine)：Spring Statemachine项目提供了一个通用的基础设施来在Spring应用程序中使用状态机概念。
+* [Stateless4j](https://github.com/stateless4j/stateless4j)：轻量级Java状态机。
+* [StateMachine](https://github.com/Tinder/StateMachine)：Kotlin和Swift中的状态机库，由Tinder开源。
+* [EasyFlow](https://github.com/Beh01der/EasyFlow)：EasyFlow是一个简单且轻量级的Java有限状态机。
+* [KStateMachine](https://github.com/KStateMachine/kstatemachine)：KStateMachine是一个强大的Kotlin多平台库，具有清晰的DSL语法，用于创建由Kotlin Coroutines驱动的复杂状态机和状态图。
+* [Easy States](https://github.com/j-easy/easy-states)：Easy States是Java中事件驱动的确定性有限自动机实现。
+* [StatefulJ](https://github.com/statefulj/statefulj)：StatefulJ是一个轻量级、开源的Java事件驱动有限状态机(FSM)和一个完整的基于Spring Data的框架，可让你轻松定义状态机并将其集成到你的应用程序中。
+* [nFlow](https://github.com/NitorCreations/nflow)：nFlow是一种经过验证的用于编排业务流程的解决方案。
+* [Mensa](https://github.com/QSFT/Mensa)：Mensa是一种通用、灵活、增强且高效的模式匹配状态机的Java实现，由Dell开源。
+* [Winder](https://github.com/eBay/Winder)：Winder是一个基于Quartz的简单状态机，由eBay开源。
+* [State Machine](https://github.com/davidmoten/state-machine)：Java的有限状态机类生成器。
+* [Makina](https://github.com/clnhlzmn/makina)：Makina是一个分层状态机源到源转换器，它将状态机描述作为输入并生成这些状态机的C语言实现。
+* [JState](https://github.com/UnquietCode/JState)：Java中的高级状态机。
+* [State Machine Compiler](https://smc.sourceforge.net/)：SMC最大限度地利用了状态模式，允许你的对象处理意外事件、恢复并继续提供服务(而不是崩溃)的转换。
+* [Morfologik Stemming](https://github.com/morfologik/morfologik-stemming)：用于有限状态自动机构建和基于字典的形态词典的工具。
+* [TSM4j](https://github.com/weilueluo/tsm4j)：Java的类型化状态机。
+* [Dk.Brics.Automaton](https://github.com/cs-au-dk/dk.brics.automaton)：Java的有限状态自动机和正则表达式，由奥胡斯大学开源。
+
 ## 报表引擎
 
 * [JimuReport](https://github.com/jeecgboot/JimuReport)：一款免费的数据可视化报表，含报表和大屏设计，功能涵盖数据报表、打印设计、图表报表、大屏设计等，由北京国炬公司开发。
@@ -3273,6 +3294,7 @@
 * [MOJI](https://github.com/nordicway/moji)：MOJI是Moss剽窃检测服务的非官方Java客户端。
 * [Antiplag](https://github.com/fanghon/antiplag)：作业查重软件，它实现了程序代码、文档文本、图片之间的相似度检查。
 * [AC](https://github.com/manuel-freire/ac2)：AC是一款源代码抄袭检测工具，由马德里康普顿斯大学开源。
+* [XINCHECK](https://github.com/tianlian0/duplicate-check-sample)：文本查重SDK，可用于论文查重、标书查重、文档查重、作业查重、合同查重、防串标等场景，由芯锋科技公司开发。
 
 #### 软件工程
 
