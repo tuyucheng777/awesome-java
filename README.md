@@ -321,6 +321,7 @@
 * [工作流](docs/doc2.md#工作流)
 * [编排引擎](docs/doc2.md#编排引擎)
 * [规则引擎](docs/doc2.md#规则引擎)
+* [状态机](docs/doc2.md#状态机)
 * [报表引擎](docs/doc2.md#报表引擎)
 * [商业智能](docs/doc2.md#商业智能)
 * [SMT求解器](docs/doc2.md#SMT求解器)
@@ -617,6 +618,7 @@
     * [数据源增强](docs/doc2.md#数据源增强)
     * [数据库工具](docs/doc2.md#数据库工具)
     * [存储过程](docs/doc2.md#存储过程)
+    * [N+1检测](docs/doc2.md#N1检测)
     * [Redis库/工具](docs/doc2.md#Redis库工具)
     * [Kafka库/工具](docs/doc2.md#Kafka库工具)
     * [MongoDB库/工具](docs/doc2.md#MongoDB库工具)
@@ -630,6 +632,7 @@
     * [Milvus库/工具](docs/doc2.md#Milvus库工具)
     * [Vault库/工具](docs/doc2.md#Vault库工具)
 * [对象存储](docs/doc2.md#对象存储)
+* [文件系统](docs/doc2.md#文件系统)
 * [音视频处理](docs/doc2.md#音视频处理)
     * [音频库](docs/doc2.md#音频库)
     * [视频库](docs/doc2.md#视频库)
@@ -674,15 +677,13 @@
 * [COM桥](docs/doc2.md#COM桥)
 * [GPU编程](docs/doc2.md#GPU编程)
 * [硬件操作](docs/doc2.md#硬件操作)
+* [操作系统](docs/doc2.md#操作系统)
 * [运动规划](docs/doc2.md#运动规划)
 * [自动规划](docs/doc2.md#自动规划)
-* [操作系统](docs/doc2.md#操作系统)
 * [电力系统](docs/doc2.md#电力系统)
 * [量子计算](docs/doc2.md#量子计算)
-* [状态机](docs/doc2.md#状态机)
-* [文件系统](docs/doc2.md#文件系统)
 * [IPFS](docs/doc2.md#IPFS)
-* [打包部署运行](docs/doc2.md#打包部署运行)
+* [打包/部署/运行](docs/doc2.md#打包部署运行)
 * [地理空间](docs/doc2.md#地理空间)
     * [坐标库](docs/doc2.md#坐标库)
     * [经纬度库](docs/doc2.md#经纬度库)
@@ -739,7 +740,6 @@
 * [形式验证](docs/doc2.md#形式验证)
 * [印章生成](docs/doc2.md#印章生成)
 * [数据脱敏](docs/doc2.md#数据脱敏)
-* [N+1问题](docs/doc2.md#N1问题)
 * [敏感词过滤](docs/doc2.md#敏感词过滤)
 * [正则表达式](docs/doc2.md#正则表达式)
 * [代码生成器](docs/doc2.md#代码生成器)
@@ -783,7 +783,6 @@
     * [GWT库](docs/doc2.md#GWT库)
     * [JavaScript/TypeScript转译器](docs/doc2.md#JavaScriptTypeScript转译器)
     * [CSS库](docs/doc2.md#CSS库)
-* [Cron解析](docs/doc2.md#Cron解析)
 * [手机号解析](docs/doc2.md#手机号解析)
 * [表达式引擎](docs/doc2.md#表达式引擎)
 * [数学表达式](docs/doc2.md#数学表达式)
@@ -919,6 +918,7 @@
 * [YMP](https://gitee.com/suninformation/ymate-platform-v2)：YMP是一个非常简单、易用的轻量级Java应用开发框架，涵盖AOP、IoC、Web、ORM、Validation、Plugin、Serv、Cache等特性。
 * [Sumk](https://github.com/youtongluan/sumk)：Sumk的定位是为互联网公司提供一个快速开发、接口交互(RPC和HTTP)、数据缓存、读写分离、负载均衡、故障转移的框架。
 * [TinyStruct](https://github.com/tinystruct/tinystruct)：TinyStruct是一个轻量级Java应用框架，设计用于构建从命令行工具到Web应用的各种应用程序。
+* [Fairy](https://github.com/FairyProject/fairy)：Fairy是一个兼容开源的Java框架。
 
 #### RPC框架
 
@@ -1082,6 +1082,7 @@
 * [Evento](https://github.com/EventoFramework/evento-framework)：Evento框架为开发人员提供了一套强大的工具包，用于构建和管理利用事件溯源和CQRS架构模式的分布式应用程序。
 * [Splitet](https://github.com/Splitet/SplitetFramework)：Splitet是一个基于Java的事件溯源框架，由Kloia开源。
 * [Loom](https://github.com/loom/loom-java)：Loom是一组用于实现分布式消息传递和事件源模式的框架。
+* [OpenCQRS](https://github.com/open-cqrs/opencqrs)：OpenCQRS是一个轻量级开源Java框架，用于基于CQRS和事件源模式构建应用程序。
 * [Sourcerer](https://github.com/elder-oss/sourcerer)：Sourcerer是一个固执己见、功能性且与存储无关的框架，用于使用事件源在Java 8中实现CQRS架构，由Elder开发。
 * [Apache Polygene](https://github.com/apache/polygene-java)：Apache Polygene实现了面向复合编程，无需使用任何预处理器或新的语言元素。
 * [Dewdrop](https://github.com/matsientst/dewdrop)：Dewdrop是一个固执己见、简单而强大的框架，用于在Java中实现事件源。
@@ -2047,6 +2048,7 @@
 * [HbaseGUI](https://github.com/Observe-secretly/HbaseGUI)：HbaseGUI可视化工具，通过Hbase Client直接操作Hbase。
 * [Bigdata File Viewer](https://github.com/Eugene-Mark/bigdata-file-viewer)：跨平台桌面应用程序，用于查看常见的大数据二进制格式，如Parquet、ORC、Avro等。
 * [Scaleph](https://github.com/flowerfine/scaleph)：Scaleph是一个基于Flink和Kubernetes打造的开放数据平台，具备Flink和SeaTunnel任务管理能力，同时支持Doris集群在Kubernetes上的运维部署。
+* [Base DMS](https://github.com/basedt/dms)：Base DMS是一个开源、免费且由AI驱动的智能数据管理系统。
 
 #### 大数据组件
 
@@ -2388,8 +2390,7 @@
 * [MemQ](https://github.com/pinterest/memq)：MemQ是高效、可扩展的云原生PubSub系统，由Pinterest开源。
 * [LCM](https://github.com/lcm-proj/lcm)：LCM是一组用于消息传递和数据编组的库和工具，针对高带宽和低延迟至关重要的实时系统，由MIT开源。
 * [CMB](https://github.com/Comcast/cmb)：CMB是一款高可用性、水平可扩展的队列和通知服务，兼容AWS SQS和SNS，由Comcast开源。
-* [DeFiBus](https://github.com/WeBankFinTech/DeFiBus)：DeFiBus是基于开源消息中间件打造的安全可控的分布式金融级消息总线，由微众开源。
-* [Ytk-mp4j](https://github.com/kanyun-inc/ytk-mp4j)：Ytk-mp4j是一个快速、用户友好、跨平台、多进程、多线程的集体消息传递Java库，用于分布式机器学习，由看云控股技术团队开源。
+* [Ytk-Mp4j](https://github.com/kanyun-inc/ytk-mp4j)：Ytk-Mp4j是一个快速、用户友好、跨平台、多进程、多线程的集体消息传递Java库，用于分布式机器学习，由看云控股技术团队开源。
 * [FolkMQ](https://gitee.com/noear/folkmq)：FolkMQ内存型消息中间件，支持快照持久化和Broker集群模式。
 
 #### 事件总线
@@ -2413,6 +2414,7 @@
 
 * [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)：Chronicle Queue是一个适用于高性能应用程序的持久低延迟消息传递框架，由Chronicle软件公司开源。
 * [Aeron](https://github.com/real-logic/Aeron)：Aeron是一个开源高性能消息传输机制(单向)，支持高效可靠的UDP单播、UDP多播和IPC消息传输，由Adaptive公司开源。
+* [DeFiBus](https://github.com/WeBankFinTech/DeFiBus)：DeFiBus是基于开源消息中间件打造的安全可控的分布式金融级消息总线，由微众开源。
 * [Mappedbus](https://github.com/caplogic/Mappedbus)：Mappedbus是一种用于利用共享内存的Java微服务的低延迟消息总线。
 * [Spring Cloud Stream](https://github.com/spring-cloud/spring-cloud-stream)：Spring Cloud Stream是一个用于构建与共享消息系统连接的高度可扩展的事件驱动微服务的框架，由Pivotal开发。
 * [CoralSequencer](https://www.coralblocks.com/index.php/category/coralsequencer/)：CoralSequencer是一款功能齐全、超低延迟、全序消息传递中间件，适用于基于异步消息的分布式系统。
@@ -2814,8 +2816,9 @@
 * [Vespa](https://github.com/vespa-engine/vespa)：Vespa是一个开源的大规模分布式实时计算的向量和文本搜索引擎，Yahoo开发。
 * [DingoDB](https://github.com/dingodb/dingo)：DingoDB是由DataCanvas设计和开发的开源分布式多模态向量数据库。
 * [Simbase](https://github.com/guokr/simbase)：Simbase是一个类似Redis的向量相似度数据库，由果壳科技开源。
-* [Cottontail DB](https://github.com/vitrivr/cottontaildb)：Cottontail DB是一个旨在多媒体检索的列存储，它允许经典的布尔和向量空间检索，即相似性搜索中使用的最近邻查找，由巴塞尔大学开源。
+* [Cottontail](https://github.com/vitrivr/cottontaildb)：CottontailDB是一个旨在多媒体检索的列存储，它允许经典的布尔和向量空间检索，即相似性搜索中使用的最近邻查找，由巴塞尔大学开源。
 * [VectoRex](https://gitee.com/giteeClass/VectoRex)：VectoRex是一个纯Java实现的高性能、可扩展的向量搜索引擎，专为现代AI和大数据应用设计。
+* [Research4j](https://github.com/bhavuklabs/research4j)：Research4j是一个功能全面的Java库，它通过智能查询分析、动态引文获取、自适应推理策略以及无缝LLM集成来实现研究工作流程的自动化。
 
 #### 对象数据库
 
@@ -3851,6 +3854,10 @@
 * [Database Queue](https://github.com/yoomoney/db-queue)：该库在Java和数据库之上提供了工作队列实现，由YooMoney开源。
 * [TinyTask](https://github.com/inaka/TinyTask)：一个用于创建异步后台任务的小型Android库，由Inaka开发。
 * [Hashed Wheel Timer](https://github.com/ifesdjeen/hashed-wheel-timer)：与ScheduledExecutorService兼容的高性能计时器/调度程序库。
+* [LogiCommon](https://github.com/didi/LogiCommon)：LogiCommon包含认证、鉴权、管理、任务调度通用功能组件，由滴滴开源。
+* [Cron Utils](https://github.com/jmrozanec/cron-utils)：CronUtils是一个Java库，用于定义、解析、验证、迁移Cron以及获取人类可读的描述。
+* [Cron Parser](https://github.com/grahamar/cron-parser)：将Cron表达式转换为人类可读字符串的Java库。
+* [Nlp2cron](https://gitee.com/huoyo/nlp2cron)：Nlp2cron是一个将自然语言转换为Cron表达式的工具包。
 
 ## 功能切换
 
@@ -3961,6 +3968,7 @@
 * [Opik](https://github.com/comet-ml/opik)：Opik是一个用于评估、测试和监控LLM应用程序的开源平台，由Comet开源。
 * [Freeplay](https://freeplay.ai/)：Freeplay让产品团队能够为客户试验、测试、监控和优化AI功能，它是一个为整个团队管理端到端LLM产品开发生命周期的工具。
 * [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
+* [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
 
 #### 代理框架
 
@@ -4092,6 +4100,7 @@
 * [Zemberek NLP](https://github.com/ahmetaa/zemberek-nlp)：Zemberek NLP提供土耳其语自然语言处理工具。
 * [Baleen](https://github.com/dstl/baleen)：Baleen是一个文本分析框架，允许从非结构化和半结构化数据中提取信息，由英国国防科学技术实验室开源。
 * [FastText](https://github.com/ivanhk/fastText_java)：Facebook FastText的Java移植。
+* [Jpostal](https://github.com/openvenues/jpostal)：Jpostal是libpostal的Java绑定，用于快速国际街道地址解析/规范化。
 
 #### 分词器
 
