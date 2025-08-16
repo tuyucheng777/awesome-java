@@ -446,11 +446,14 @@
     * [Twitter](docs/doc2.md#Twitter)
     * [Facebook](docs/doc2.md#Facebook)
     * [Instagram](docs/doc2.md#Instagram)
+    * [Whatsapp](docs/doc2.md#Whatsapp)
     * [Slack](docs/doc2.md#Slack)
     * [Reddit](docs/doc2.md#Reddit)
     * [TikTok](docs/doc2.md#TikTok)
     * [Spotify](docs/doc2.md#Spotify)
     * [Notion](docs/doc2.md#Notion)
+    * [JIRA](docs/doc2.md#JIRA)
+    * [Jenkins](docs/doc2.md#Jenkins)
     * [Riot](docs/doc2.md#Riot)
     * [TheMovieDb](docs/doc2.md#TheMovieDb)
     * [TeamSpeak](docs/doc2.md#TeamSpeak)
@@ -2568,7 +2571,7 @@
 * [NixieSearch](https://github.com/nixiesearch/nixiesearch)：Nixiesearch是一个混合搜索引擎，可以根据你的数据进行微调，由Carrot Search开源。
 * [Vespa](https://github.com/vespa-engine/vespa)：Vespa是一个开源的大规模分布式实时计算的向量和文本搜索引擎，Yahoo开发。
 * [YaCy](https://github.com/yacy/yacy_search_server)：YaCy是一个完整的搜索引擎应用程序，包含托管搜索索引的服务器。
-* [JVector](https://github.com/datastax/jvector)：JVector是一个纯Java嵌入式矢量搜索引擎，由DataStax开源。
+* [JVector](https://github.com/datastax/jvector)：JVector是一个纯Java嵌入式向量搜索引擎，由DataStax开源。
 * [Linden](https://github.com/XiaoMi/linden)：Linden是一个构建在Lucene之上的分布式实时搜索系统，小米开源。
 * [Fess](https://github.com/codelibs/fess)：Fess是一个非常强大且易于部署的企业搜索服务器，CodeLibs开源。
 * [Zoie](https://github.com/senseidb/zoie)：Zoie是一个用Java编写的实时搜索/索引系统，由LinkedIn开源。
@@ -2727,7 +2730,6 @@
 * [QuickIO](https://github.com/artbits/quickio)：QuickIO是一个Java嵌入式数据库，底层基于LevelDB引擎和Java NIO设计，并使用Protostaff来序列化/反序列化数据。
 * [Eclipse Store](https://github.com/eclipse-store/store)：EclipseStore是一个突破性的Java原生持久层，专为云原生微服务和Serverless应用程序而构建。
 * [MapDB](https://github.com/jankotek/mapdb)：MapDB提供由磁盘存储或堆外内存支持的并发Map、Set、List和Queue，它是一个快速且易于使用的嵌入式Java数据库引擎。
-* [ObjectBox](https://github.com/objectbox/objectbox-java)：ObjectBox是一个简单但功能强大的数据库，专为Java和Kotlin设计。
 * [Xodus](https://github.com/JetBrains/xodus)：JetBrains Xodus是一种用Java和Kotlin编写的事务型无模式嵌入式数据库。
 * [SirixDB](https://github.com/sirixdb/sirix)：SirixDB是一个可嵌入、双时态、仅附加的数据库系统和事件存储，存储不可变的轻量级快照。
 * [LMDB](https://github.com/lmdbjava/lmdbjava)：LMDB是一种使用B+树的有序、嵌入式、持久的键值存储。
@@ -2813,6 +2815,7 @@
 #### 向量数据库
 
 * [Vespa](https://github.com/vespa-engine/vespa)：Vespa是一个开源的大规模分布式实时计算的向量和文本搜索引擎，Yahoo开发。
+* [ObjectBox](https://github.com/objectbox/objectbox-java)：ObjectBox Java是一款轻量级但功能强大的设备端数据库和向量数据库，专为Java和Kotlin应用程序设计。
 * [DingoDB](https://github.com/dingodb/dingo)：DingoDB是由DataCanvas设计和开发的开源分布式多模态向量数据库。
 * [Simbase](https://github.com/guokr/simbase)：Simbase是一个类似Redis的向量相似度数据库，由果壳科技开源。
 * [Cottontail](https://github.com/vitrivr/cottontaildb)：CottontailDB是一个旨在多媒体检索的列存储，它允许经典的布尔和向量空间检索，即相似性搜索中使用的最近邻查找，由巴塞尔大学开源。
