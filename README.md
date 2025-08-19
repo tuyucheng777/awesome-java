@@ -448,6 +448,7 @@
     * [Twitter](docs/doc2.md#Twitter)
     * [Facebook](docs/doc2.md#Facebook)
     * [Instagram](docs/doc2.md#Instagram)
+    * [Telegram](docs/doc2.md#Telegram)
     * [Whatsapp](docs/doc2.md#Whatsapp)
     * [Slack](docs/doc2.md#Slack)
     * [Reddit](docs/doc2.md#Reddit)
@@ -1450,6 +1451,7 @@
 ## 包管理器
 
 * [Nuts](https://github.com/thevpc/nuts)：Nuts是一个Java包管理器，可帮助以简单直接的方式发现、下载、组装和执行本地和远程工件(包)。
+* [JPM](https://github.com/codejive/java-jpm)：一个简单的命令行工具，用于管理不使用Maven或Gradle等构建系统的Java项目的Maven依赖。
 * [Nix](https://github.com/fzakaria/mvn2nix)：Nix包管理器用于轻松打包Maven Java应用程序。
 * [JPM4j](https://github.com/jpm4j)：JPM是Java包管理器，可以在JPM的帮助下轻松安装应用程序和库。
 
@@ -3132,6 +3134,7 @@
 * [RxWebSocket](https://github.com/dhhAndroid/RxWebSocket)：RxWebSocket是一个基于Okhttp和RxJava封装的WebSocket客户端。
 * [MOKO SocketIo](https://github.com/icerockdev/moko-socket-io)：IceRock的MOKO SocketIo是Socket.IO实现Kotlin多平台库。
 * [WebSocket Android Phonegap](https://github.com/anismiles/websocket-android-phonegap)：这是一个为Android平台实现Websocket API的Java库。
+* [TubeSock](https://github.com/FirebaseExtended/TubeSock)：TubeSock是WebSocket协议客户端的Java实现，由Google开源。
 
 #### FTP服务器
 
@@ -3181,6 +3184,7 @@
 * [Jcabi URN](https://github.com/jcabi/jcabi-urn)：Jcabi URN是根据RFC 2141的URN的不可变实现。
 * [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
 * [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
+* [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
 
 #### Socket
 
@@ -3746,6 +3750,7 @@
 * [Future](https://github.com/traneio/future)：JVM的高性能Future实现。
 * [Futures Extra](https://github.com/spotify/futures-extra)：Futures Extra是一组小型实用函数，用于简化Guava的ListenableFuture类的使用，由Spotify开源。
 * [Future Converter](https://github.com/lukas-krecan/future-converter)：Future Converter可用于各种Future类型之间执行转换。
+* [Vert.x Completable Future](https://github.com/cescoffier/vertx-completable-future)：Vert.x的CompletableFuture实现。
 
 #### 协程库
 

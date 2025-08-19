@@ -316,6 +316,7 @@
 * [EasyRandom](https://github.com/j-easy/easy-random)：EasyRandom是一个生成随机Java对象的库。
 * [MockNeat](https://github.com/nomemory/mockneat)：Mockneat是一个用Java编写的任意数据生成器开源库。
 * [jFairy](https://github.com/Devskiller/jfairy)：Java测试数据生成器。
+* [Fakeit](https://github.com/thisisqubika/fakeit)：该库是Ruby Faker的移植版本。
 * [Jmockdata](https://github.com/jsonzou/jmockdata)：Jmockdata是一款实现模拟Java类或对象的实例化并随机初始化对象的数据的工具框架。
 * [Kotlin Faker](https://github.com/serpro69/kotlin-faker)：用Kotlin编写的流行Ruby faker gem的移植版。
 * [Fixture Monkey](https://github.com/naver/fixture-monkey)：Fixture Monkey旨在轻松生成可控的任意实例，它允许你在多个测试中重复使用实例的相同配置，由Naver开源。
@@ -2444,6 +2445,8 @@
 * [Animated GIF Library](https://github.com/rtyley/animated-gif-lib-for-java)：Java的动画GIF库。
 * [Color Thief](https://github.com/SvenWoltmann/color-thief-java)：从图像中抓取主色或代表性调色板。
 * [WebP ImageIO](https://github.com/sejda-pdf/webp-imageio)：适用于Google WebP图像格式的Java Image I/O读取器和写入器。
+* [Vips FFM](https://github.com/lopcode/vips-ffm)：用于Java/JVM项目中图像处理的快速、安全、完整的libvips绑定。
+* [JVips](https://github.com/criteo/JVips)：JVips是使用JNI的libvips的Java包装器。
 
 #### 图像元数据
 
@@ -2600,6 +2603,7 @@
 * [Type Parser](https://github.com/drapostolos/type-parser)：解析字符串并将其转换为另一种类型，支持所有适用的Java库类。
 * [String Format](https://github.com/JoanZapata/string-format)：当涉及大字符串时，String.format()的替代方案。
 * [NLP HanZi Similar](https://github.com/houbb/nlp-hanzi-similar)：汉字相似度计算工具，中文形近字算法。
+* [StringSearch](https://github.com/johannburkard/StringSearch)：Java中的高性能模式匹配算法。
 
 ## 字符串插值
 
@@ -4286,6 +4290,13 @@
 * [Instagram Java Scraper](https://github.com/postaddictme/instagram-java-scraper)：Instagram Java Scraper可以获取Instagram帐户信息、照片、视频和评论。
 * [EasyInsta](https://github.com/ErrorxCode/EasyInsta)：Instagram私有API的Java库，以及Instagram4j的封装器。
 
+#### Telegram
+
+* [TelegramApi](https://github.com/rubenlagus/TelegramApi)：实现Telegram API来创建Telegram客户端的Java库。
+* [Kotlogram](https://github.com/badoualy/kotlogram)：易于使用且直接的Kotlin和Java绑定Telegram API。
+* [Telegram API](https://github.com/telegram-s/telegram-api-old)：该库允许你对Telegram进行RPC调用。
+* [Telegram4J](https://github.com/Telegram4J/Telegram4J)：使用Java 17编写的Telegram MTProto API的响应式Java库。
+
 #### Whatsapp
 
 * [Cobalt](https://github.com/Auties00/Cobalt)：适用于Java和Kotlin的独立非官方全功能Whatsapp Web和移动API。
@@ -4996,7 +5007,9 @@
 * [Kotlin Telegram Bot](https://github.com/kotlin-telegram-bot/kotlin-telegram-bot)：用Kotlin编写的Telegram Bot API的包装器。
 * [TeleightBots](https://github.com/Teleight/TeleightBots)：TeleightBots是一个轻量级、高性能、易于使用的Java Telegram Bot API包装器。
 * [TDLight Java](https://github.com/tdlight-team/tdlight-java)：基于TDLib的完整Bot和Userbot Telegram库。
-* [TelegramApi](https://github.com/rubenlagus/TelegramApi)：实现Telegram API来创建Telegram客户端的Java库。
+* [TelegramBotAPI](https://github.com/InsanusMokrassar/ktgbotapi)：用于Telegram Bot API的类型安全库。
+* [Telegram](https://github.com/bot4s/telegram)：Telegram Bot API的简单、可扩展、强类型包装器。
+* [Telegram Bot](https://github.com/vendelieu/telegram-bot)：带有方便的Kotlin DSL的Telegram Bot API包装器。
 
 #### Facebook机器人
 
@@ -5781,7 +5794,6 @@
 * [JFormDesigner](https://www.formdev.com/)：JFormDesigner是一款专业的Java Swing用户界面GUI设计器。
 * [Radiance](https://github.com/kirill-grouchnikov/radiance)：Radiance是一个库集合，用于基于Ephemeral设计系统编写现代、优雅且快速的Swing应用程序。
 * [JxCapture](https://teamdev.com/jxcapture/)：JxCapture是一种跨平台、能Java应用程序提供综合屏幕抓取API的库程序。
-* [DJ Native Swing](https://github.com/Chrriis/DJ-Native-Swing)：DJ Native Swing库允许将一些原生组件轻松集成到Swing应用程序中，并提供一些本机实用程序来增强Swing的API。
 * [AutoComplete](https://github.com/bobbylight/AutoComplete)：AutoComplete是Swing JTextComponents的代码完成库，具有可用于RSyntaxTextArea实例的增强功能。
 * [Sierra](https://github.com/HTTP-RPC/Sierra)：Sierra是一个用于简化Java Swing应用程序开发的开源框架。
 * [Cinch](https://github.com/palantir/Cinch)：管理MVC模式的组件操作/事件绑定的Java库，由Palantir开源。
@@ -5828,6 +5840,7 @@
 * [JXMapViewer2](https://github.com/msteiger/jxmapviewer2)：该项目基于SwingX-WS的JXMapViewer组件。
 * [HMeter](https://sourceforge.net/projects/hasnatmeter/)：HMeter是一个高度可定制的Java Swing小部件，旨在直观地显示水平进度。
 * [Notify](https://github.com/dorkbox/Notify)：适用于Java 8+的桌面和应用程序的Linux、MacOS或Windows弹出窗口。
+* [DJ Native Swing](https://github.com/Chrriis/DJ-Native-Swing)：DJ Native Swing库允许将一些原生组件轻松集成到Swing应用程序中，并提供一些本机实用程序来增强Swing的API。
 * [RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea)：RSyntaxTextArea是一个用于Java Swing应用程序的可定制的语法突出显示文本组件。
 * [SystemTray](https://github.com/dorkbox/SystemTray)：对Java 8+上的Swing/AWT、GtkStatusIcon和AppIndicator提供专业、跨平台的SystemTray支持。
 * [AsciiPanel](https://github.com/trystan/AsciiPanel)：AsciiPanel模拟Code page 437 ASCII终端显示，它支持Code page 437的全部256个字符、任意前景色、任意背景色和任意终端大小。
@@ -5844,6 +5857,7 @@
 * [Swing Toast Notifications](https://github.com/DJ-Raven/swing-toast-notifications)：Java桌面应用程序使用Swing Toast通知。
 * [TableFilter](https://coderazzi.net/tablefilter/)：TableFilter是一组Swing组件，用于支持用户自定义的表格过滤功能。
 * [GC4S](https://github.com/sing-group/GC4S)：GC4S是一个开源库，为Swing提供面向生物信息学的GUI组件集合，由维戈大学开源。
+* [GlazedLists](https://github.com/glazedlists/glazedlists)：Java的开源List转换。
 
 #### Swing Dock库
 
@@ -6001,6 +6015,7 @@
 * [RichTextEditor](https://github.com/dankito/RichTextEditor)：适用于Android和JavaFX的所见即所得编辑器，具有丰富的支持格式选项。
 * [FXUI](https://gitee.com/lichenfei_fei/chenfei-fxui)：JavaFX常见自定义组件。
 * [AppleFX](https://github.com/HanSolo/applefx)：用JavaFX实现的Apple UI控件集合。
+* [DevToolsFX](https://github.com/mkpaz/devtoolsfx)：DevToolsFX是一款用于浏览应用程序场景图和探索节点属性的工具。
 
 #### JavaFX Dock库
 
@@ -7725,6 +7740,7 @@
 * [OneinStack](https://github.com/oneinstack/oneinstack)：OneinStack是一个PHP/Java部署工具。
 * [JReleaser](https://github.com/jreleaser/jreleaser)：JReleaser是一个用于Java和非Java项目的自动化发布工具。
 * [Capsule](https://github.com/puniverse/capsule)：Capsule是JVM应用程序的打包和部署工具。
+* [Conveyor](https://www.hydraulic.dev/)：Conveyor使得分发桌面应用程序变得像分发Web应用程序一样简单。
 * [Rultor](https://github.com/yegor256/rultor)：Rultor是一个DevOps团队助理，它通过易于使用的直观聊天机器人界面帮助你自动执行日常操作(合并、部署和发布)。
 * [jDeploy](https://github.com/shannah/jdeploy)：jDeploy Github Action允许你在Github工作流中为Java项目生成本机桌面安装程序。
 * [BDeploy](https://github.com/bdeployteam/bdeploy)：BDeploy是一款快速、可靠且可配置的部署解决方案，适用于任何类型的应用程序。
@@ -8298,6 +8314,9 @@
 * [CongoCC](https://github.com/congo-cc/congo-parser-generator)：Congo Parser Generator是一个递归下降解析器生成器，可生成Java、Python和C#代码。
 * [Pika Parser](https://github.com/lukehutch/pikaparser)：Pika解析器参考实现。
 * [Grammatica](https://github.com/cederberg/grammatica)：Grammatica是一款Java解析器生成器。
+* [Kolasu](https://github.com/Strumenta/kolasu)：Kolasu提供使用Kotlin构建自定义、可能可变的抽象语法树(AST)的基础设施。
+* [Kastree](https://github.com/cretz/kastree)：Kastree是一个简单的库，用于将Kotlin源代码作为一组AST对象进行操作。
+* [Despector](https://github.com/Despector/Despector)：一个Java/Kotlin反编译工具和AST库。
 
 ## Tree Sitter
 
