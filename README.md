@@ -403,6 +403,9 @@
 * [审计框架](docs/doc2.md#审计框架)
 * [原型工具](docs/doc2.md#原型工具)
 * [工件仓库](docs/doc2.md#工件仓库)
+* [打包](docs/doc2.md#打包)
+* [部署](docs/doc2.md#部署)
+* [运行](docs/doc2.md#运行)
 * [Java环境管理](docs/doc2.md#Java环境管理)
 * [API变更管理](docs/doc2.md#API变更管理)
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
@@ -689,7 +692,6 @@
 * [电力系统](docs/doc2.md#电力系统)
 * [量子计算](docs/doc2.md#量子计算)
 * [IPFS](docs/doc2.md#IPFS)
-* [打包/部署/运行](docs/doc2.md#打包部署运行)
 * [地理空间](docs/doc2.md#地理空间)
     * [坐标库](docs/doc2.md#坐标库)
     * [经纬度库](docs/doc2.md#经纬度库)
@@ -777,7 +779,6 @@
 * [外部进程执行](docs/doc2.md#外部进程执行)
 * [苹果推送通知](docs/doc2.md#苹果推送通知)
 * [自动程序修复](docs/doc2.md#自动程序修复)
-* [Java服务包装器](docs/doc2.md#Java服务包装器)
 * [守护进程](docs/doc2.md#守护进程)
 * [协议实现](docs/doc2.md#协议实现)
 * [BitTorrent](docs/doc2.md#BitTorrent)
@@ -2701,6 +2702,7 @@
 * [Riffle](https://github.com/Factual/riffle)：Riffle是一种只读键/值存储格式。
 * [HeftyDB](https://github.com/jordw/heftydb)：HeftyDB是一个适用于JVM的持久化、排序的键值对库。
 * [Remember](https://github.com/tumblr/Remember)：适用于Android的由共享偏好支持的内存数据存储，由Tumblr开源。
+* [MPH Table](https://github.com/indeedeng/mph-table)：MPH Table是一种不可变的键/值存储，具有高效的空间利用率和快速读取性能，由Indeed开源。
 
 #### 数据网格
 
