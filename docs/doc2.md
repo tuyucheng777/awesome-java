@@ -1594,6 +1594,7 @@
 * [Curves API](https://github.com/virtuald/curvesapi)：实现各种基于一组控制点定义的数学曲线。
 * [Java Math Library](https://github.com/TilmanNeumann/java-math-library)：专注于数论和整数分解的Java数学库。
 * [MorphoLibJ](https://github.com/ijpb/MorphoLibJ)：MorphoLibJ是ImageJ的数学形态学方法和插件的集合，由INRA-IJPB建模和数字成像实验室创建。
+* [Rings](https://github.com/PoslavskySV/rings)：Rings是一个高效的轻量级交换代数库。
 
 #### 线性代数
 
@@ -2269,6 +2270,7 @@
 * [Jamaica](https://www.patreon.com/Jamaica440)：Java的一种方言，添加了被Oracle拒绝的流行功能。
 * [JKScope](https://github.com/evpl/jkscope)：受Kotlin启发的Java作用域函数。
 * [KindedJ](https://github.com/KindedJ/KindedJ)：KindedJ提供一组通用接口，为使用JVM中基于证据的高级类型模拟的所有项目提供跨库和跨语言支持。
+* [Functional Utils](https://github.com/solita/functional-utils)：Java的函数工具库。
 
 #### 函数式异常处理
 
@@ -3024,6 +3026,7 @@
 * [Email To PDF Converter](https://github.com/nickrussler/email-to-pdf-converter)：该软件可用于将电子邮件文件转换为PDF文件，它可以用作库、命令行工具或带有GUI的桌面应用程序。
 * [MD2File](https://gitee.com/cevin15/MD2File)：文档导出工具类，能将Markdown格式的内容，转为Office Word、PDF、HTML等格式的文档。
 * [Excel2Pdf](https://github.com/caryyu/excel2pdf)：Java Excel转PDF解决方案。
+* [Markdown2Pdf](https://github.com/Qkyrie/Markdown2Pdf)：一个使用Java将Markdown转换为PDF的简单库。
 
 #### Mime解析
 
@@ -3760,6 +3763,7 @@
 * [LinuxForHealth FHIR](https://github.com/LinuxForHealth/FHIR)：LinuxForHealth FHIR服务器是HL7 FHIR规范的模块化Java实现，支持版本R4和R4B，重点关注性能和可配置性。
 * [Pathling](https://github.com/aehrc/pathling)：Pathling是一组工具，可让你在健康数据分析中更轻松地使用FHIR和临床术语，由澳大利亚电子健康研究中心开源。
 * [E-Medical System](https://github.com/soumyadip007/E-Medical-System-Web-Project-Using-Spring-Boot-Security-JPA-Rest-Thymeleaf-HQL)：使用Spring Boot开发的电子医疗系统Web项目。
+* [Open Healthcare Codegen Tool Framework](https://github.com/wso2/open-healthcare-codegen-tool-framework)：Open Healthcare Codegen Tool Framework包含一些常用实用程序和接口，用于实现针对常见医疗协议(FHIR、HL7v2)的工具，由WSO2开源。
 
 #### 项目管理
 
@@ -4669,7 +4673,10 @@
 * [Scada-LTS](https://github.com/SCADA-LTS/Scada-LTS)：Scada-LTS是一个基于Web的开源多平台解决方案，用于构建你自己的SCADA(监控和数据采集)系统。
 * [Aura Tower](https://github.com/blumek/aura-tower)：Aura Tower是一个开源项目，旨在通过直观的仪表板控制和监控物联网设备。
 * [OpenIoT](https://github.com/OpenIotOrg/openiot)：OpenIoT为物联网构建一个新颖的开源平台，该平台包含一些独特的功能，例如能够按照基于云/实用程序的范式组合非平凡的物联网服务，由瑞士苏黎世联邦理工学院、希腊信息技术与通信研究所开源。
-  https://gitee.com/laokouyun/KCloud-Platform-IoT
+* [KCloud Platform IoT](https://github.com/KouShenhai/KCloud-Platform-IoT)：KCloud Platform IoT是一个企业级微服务架构的IoT云平台。
+* [Frost IoT](https://github.com/footprintcat/frost-iot)：支持轻量化快速接入的IoT设备统一接入平台。
+* [IoTOS](https://gitee.com/chinaiot/iotos)：IoTOS是基于Spring Boot、Vue开源IoTCard系统，企业私域管理与运营综合解决方案。
+
 #### 智能家居
 
 * [OpenHAB](https://github.com/openhab/openhab-core)：OpenHAB是一个开源、与技术无关的家庭自动化平台，作为智能家居的中心运行。
@@ -4691,6 +4698,7 @@
 * [Eclipse Kapua](https://github.com/eclipse/kapua)：Kapua是一个模块化平台，提供管理物联网网关和智能边缘设备所需的服务。
 * [Eclipse Hono](https://github.com/eclipse-hono/hono)：Hono提供统一(远程)服务接口，用于将大量IoT设备连接到(云)后端。
 * [Automation Gateway](https://github.com/vogler75/automation-gateway)：OPC UA网关允许你通过MQTT或GraphQL(HTTP)访问OPC UA值。
+* [HiveMQ Edge](https://github.com/hivemq/hivemq-edge)：HiveMQ Edge是一个MQTT网关，可实现OT设备和IT系统之间的互操作性。
 
 #### MQTT
 
@@ -6887,6 +6895,7 @@
 * [Krakatau](https://github.com/Storyyeller/Krakatau)：Krakatau提供了Java字节码的汇编器和反汇编器，它允许你将二进制class文件转换为人类可读的文本格式，进行更改，然后将其转换回class文件，甚至对于混淆的代码也是如此。
 * [JASM](https://github.com/roscopeco/jasm)：现代JVM汇编器。
 * [Java Grinder](https://github.com/mikeakohn/java_grinder)：将Java字节码编译为微控制器程序集。
+* [Jasm](https://github.com/jumanji144/Jasm)：Jasm是Java和Dalvik汇编程序套件。
 
 ## LLVM
 
@@ -8220,6 +8229,7 @@
 * [PinyinSearchLibrary](https://github.com/handsomezhou/PinyinSearchLibrary)：提供Java语言中T9拼音搜索和Qwerty拼音搜索的数据分析方法、数据匹配方法等。
 * [Bopomofo4j](https://gitee.com/rnkrsoft/Bopomofo4j)：零依赖，纯Java开发的汉字转拼音库。
 * [JPinyin](https://github.com/qzw1210/jpinyin)：JPinyin是一个汉字转拼音的Java开源类库，在PinYin4j的功能基础上做了一些改进。
+* [PinIn](https://github.com/Towdium/PinIn)：一个用于解决各类汉语拼音匹配问题的Java库。
 * [Moji4J](https://github.com/andree-surya/moji4j)：Moji4J是一个开源Java库，用于在日语平假名、片假名和罗马字脚本之间进行转换。
 * [Myanmar Tools](https://github.com/google/myanmar-tools)：该项目包括用于处理缅甸使用的字体编码的工具，目前支持广泛的Zawgyi-One字体编码，由Google开源。
 * [BadWordFiltering](https://github.com/VaneProject/bad-word-filtering)：这是一个检查和处理脏话的库。
@@ -8410,6 +8420,7 @@
 * [JRegex](https://sourceforge.net/projects/jregex/)：Java正则表达式库。
 * [RegExodus](https://github.com/tommyettinger/RegExodus)：正则表达式库，可跨Java变体移植。
 * [Xeger](https://github.com/agarciadom/xeger)：Xeger是一个用于生成与特定正则表达式匹配的字符串的Java库。
+* [OpenRegex](https://github.com/knowitall/openregex)：OpenRegex是一种高效灵活的基于标记的正则表达式语言和引擎，由华盛顿大学开源。
 
 ## 代码生成器
 
