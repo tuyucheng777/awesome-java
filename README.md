@@ -305,6 +305,7 @@
     * [向量](docs/doc2.md#向量)
     * [统计](docs/doc2.md#统计)
     * [直方图](docs/doc2.md#直方图)
+    * [运筹学](docs/doc2.md#运筹学)
 * [本体库](docs/doc2.md#本体库)
     * [本体编辑器](docs/doc2.md#本体编辑器)
     * [本体推理机](docs/doc2.md#本体推理机)
@@ -380,10 +381,11 @@
     * [Markdown库](docs/doc2.md#Markdown库)
     * [EDI库](docs/doc2.md#EDI库)
     * [OBJ库](docs/doc2.md#OBJ库)
+    * [OFD库](docs/doc2.md#OFD库)
     * [文件库](docs/doc2.md#文件库)
     * [文件转换](docs/doc2.md#文件转换)
     * [Mime解析](docs/doc2.md#Mime解析)
-    * [文件监视](docs/doc2.md#文件监视)
+    * [文件监听](docs/doc2.md#文件监听)
     * [文件上传](docs/doc2.md#文件上传)
     * [文件比较](docs/doc2.md#文件比较)
     * [文件预览](docs/doc2.md#文件预览)
@@ -489,6 +491,7 @@
     * [串口](docs/doc2.md#串口)
     * [Modbus](docs/doc2.md#Modbus)
     * [USB库](docs/doc2.md#USB库)
+    * [XBee](docs/doc2.md#XBee)
 * [金融](docs/doc2.md#金融)
     * [银行API](docs/doc2.md#银行API)
     * [量化交易](docs/doc2.md#量化交易)
@@ -673,7 +676,7 @@
     * [LSH算法](docs/doc2.md#LSH算法)
     * [LDA算法](docs/doc2.md#LDA算法)
     * [下采样](docs/doc2.md#下采样)
-* [噪声库](docs/doc2.md#噪声库)
+    * [噪声库](docs/doc2.md#噪声库)
 * [原生开发](docs/doc2.md#原生开发)
 * [互操作](docs/doc2.md#互操作)
     * [Python](docs/doc2.md#Python)
@@ -3069,6 +3072,7 @@
 * [Fluent HTTP](https://github.com/CodeStory/fluent-http)：Fluent HTTP是一个简单、快速、成熟的Web服务器。
 * [JLHTTP](https://github.com/curtcox/JLHTTP)：JLHTTP是HTTP服务器的开源实现。
 * [TJWS](https://tjws.sourceforge.net/)：TJWS是作为Servlet容器构建的，其中HTTPD Servlet提供标准Web服务器功能。
+* [Aeromock](https://github.com/ca-archived/aeromock)：Aeromock是一个从模板文件和数据文件生成HTML的应用服务器。
 
 #### 应用服务器
 
@@ -3516,6 +3520,7 @@
 * [Inverno](https://github.com/inverno-io/inverno-core)：Inverno项目为Java平台提供了控制反转和依赖注入框架，所有内容都在编译期间静态验证和完成。
 * [JBoss MSC](https://github.com/jboss-msc/jboss-msc)：JBoss MSC是Java的轻量级高并发依赖注入容器。
 * [SIRIUS Kernel](https://github.com/scireum/sirius-kernel)：提供通用核心类和依赖注入微内核，为所有SIRIUS应用程序提供支持。
+* [Lightsaber](https://github.com/MichaelRocks/lightsaber)：Lightsaber的目标是提供闪电般快速的编译时依赖注入，同时不依赖APT。
 
 ## AOP
 
@@ -3822,6 +3827,7 @@
 * [Weak Lock Free](https://github.com/raphw/weak-lock-free)：这是一个并发、无锁HashMap的微型实现，具有弱键，其中键尊重引用相等性。
 * [Linked Blocking Multi Queue](https://github.com/marianobarrios/linked-blocking-multi-queue)：Linked Blocking Multi Queue是一个并发集合，它扩展了现有的Java并发集合库，提供了基于链接节点的可选有界阻塞“多队列”。
 * [Evictor](https://github.com/stoyanr/Evictor)：Evictor是一个Java库，它提供了java.util.concurrent.ConcurrentMap的实现，支持定时条目驱逐缓存。
+* [Low Latency Primitive ConcurrentQueues](https://github.com/RobAustin/low-latency-primitive-concurrent-queues)：低延迟、无锁、原始有界阻塞队列，由原始数组(如int[])支持。
 
 #### 竞争检测
 
