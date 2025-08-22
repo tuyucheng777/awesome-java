@@ -1533,6 +1533,7 @@
 * [JJava](https://github.com/dflib/jjava)：JJava是由DFLib社区维护的Jupyter Java内核。
 * [SciJava Kernel](https://github.com/scijava/scijava-jupyter-kernel)：基于BeakerX的已失效内核。
 * [BeakerX](https://github.com/twosigma/beakerx)：BeakerX是JVM内核和交互式小部件的集合，用于绘图、表格、自动翻译以及Jupyter Notebook和Jupyter Lab版本1.2.x和2.x的其他扩展。
+* [Jupyter Kernel JSR223](https://github.com/fiber-space/jupyter-kernel-jsr223)：该项目是Jupyter消息传递协议的Java实现，适用于实现JSR223 ScriptEngine规范的JVM语言。
 
 ## 元启发式框架
 
@@ -1657,6 +1658,7 @@
 * [SymJava](https://github.com/yuemingl/SymJava)：SymJava是一个用于符号数值计算的Java库。
 * [Maja](https://github.com/iczelia/Maja)：Maja是一个精巧的面向数值的Java数学库。
 * [Apache Commons Numbers](https://github.com/apache/commons-numbers)：Commons Numbers提供数字类型和实用程序的实现。
+* [IMSL](https://www.perforce.com/products/imsl)：IMSL是一套跨平台数值库，可用于Fortran、C、Java和Python。
 
 #### 多精度
 
@@ -1694,6 +1696,8 @@
 
 * [UnCommons Maths](https://github.com/dwdyer/uncommons-maths)：Java的随机数生成器、概率分布、组合学和统计库。
 * [Hipparchus](https://github.com/Hipparchus-Math/hipparchus)：Hiparchus项目是一个轻量级、独立的数学和统计组件库，可解决Java编程语言中无法解决的最常见问题。
+* [JMSL](http://www.aertia.com/en/productos.asp?pid=238)：JMSL是全面的Java数学、统计、金融、数据挖掘和图表类库。
+* [JDistlib](https://jdistlib.sourceforge.net/)：JDistlib是一个提供各种统计分布例程的Java包。
 
 #### 直方图
 
@@ -6123,6 +6127,7 @@
 * [ChartFX](https://github.com/fair-acc/chart-fx)：ChartFX是GSI为FAIR开发的一个科学图表库，专注于以25Hz更新速率对数字信号处理应用中常见的具有数万到500万个数据点的数据集进行性能优化的实时数据可视化。
 * [GMapsFX](https://github.com/dlsc-software-consulting-gmbh/GMapsFX)：纯JavaFX API，允许你将Google地图添加到JavaFX应用程序，而无需与底层Google地图JavaScript API交互。
 * [JCSG](https://github.com/miho/JCSG)：基于BSP的CSG(构造实体几何)的Java实现。
+* [ExtJFX](https://github.com/extjfx/extjfx)：ExtJFX是CERN开发的一个小型库，包含JavaFX应用程序所需的、标准JavaFX工具包不支持的功能。
 * [FXForm2](https://github.com/dooApp/FXForm2)：FXForm2是一个提供自动JavaFX表单生成的库。
 * [Piccolo2D](https://github.com/piccolo2d/piccolo2d.java)：Piccolo2D是一种在Java创建强大、功能齐全的图形应用程序的方式，具有诸如缩放和多重表示等引人注目的功能。
 * [VWorkflows](https://github.com/miho/VWorkflows)：用于构建特定领域的可视化编程环境的交互式流/图形可视化。
@@ -6952,6 +6957,7 @@
 * [RubyFlux](https://github.com/headius/rubyflux)：RubyFlux是一个编译器，它将Ruby代码库转换为一组封闭的.java源文件，适合在任何JVM上运行，无需额外的运行时要求。
 * [MateVM](https://github.com/MateVM/MateVM)：MateVM是一个用Haskell编写的Java JIT编译器。
 * [Apache Royale Compiler](https://github.com/apache/royale-compiler)：Royale编译器将ActionScript 3.0和MXML代码编译为SWF或JavaScript。
+* [JLLVM](https://github.com/JLLVM/JLLVM)：JLLVM是一个无需解释器的按需JIT编译JVM，由维也纳工业大学开源。
 
 #### 内存中编译器
 
@@ -8447,7 +8453,7 @@
 * [Generex](https://github.com/mifmif/Generex)：用于生成与给定正则表达式匹配的字符串的Java库。
 * [RE2/J](https://github.com/google/re2j)：一个正则表达式引擎，其运行时间与输入大小成线性关系，由Google开源。
 * [Joni](https://github.com/jruby/joni)：Oniguruma正则表达式库的Java端口。
-* [Hyperscan-Java](https://github.com/gliwka/hyperscan-java)：Hyperscan是一个高性能的多正则表达式匹配库。
+* [Hyperscan Java](https://github.com/gliwka/hyperscan-java)：Hyperscan是一个高性能的多正则表达式匹配库。
 * [DRegex](https://github.com/marianobarrios/dregex)：DRegex是一个Java库，它使用确定性有限自动机(DFA)实现正则表达式引擎。
 * [Readable Regex](https://github.com/ricoapon/readable-regex)：使用这个库，可以以可读的方式创建正则表达式。
 * [Readable Regex](https://github.com/codebox/readable-regex)：该库提供了一种使Java代码中的复杂正则表达式更具可读性的方法。
@@ -8456,6 +8462,7 @@
 * [RegExodus](https://github.com/tommyettinger/RegExodus)：正则表达式库，可跨Java变体移植。
 * [Xeger](https://github.com/agarciadom/xeger)：Xeger是一个用于生成与特定正则表达式匹配的字符串的Java库。
 * [OpenRegex](https://github.com/knowitall/openregex)：OpenRegex是一种高效灵活的基于标记的正则表达式语言和引擎，由华盛顿大学开源。
+* [Regex Builder](https://github.com/sgreben/regex-builder)：Regex Builder库是作为java.util.regex的轻量级包装器实现的。
 
 ## 代码生成器
 
@@ -8754,12 +8761,13 @@
 * [JProc](https://github.com/fleipold/jproc)：用于运行外部进程的Java库。
 * [Giraffe](https://github.com/palantir/giraffe)：Giraffe是一个Java库，可让你轻松访问本地和远程计算机上的文件并执行命令，由Palantir开源。
 * [Overthere](https://github.com/xebialabs/overthere)：Overthere是一个Java库，用于在远程主机上操作文件和执行进程。
-* [ZT-EXEC](https://github.com/zeroturnaround/zt-exec)：Java进程执行库。
-* [ZT-Process-Killer](https://github.com/zeroturnaround/zt-process-killer)：停止从Java启动的进程或通过PID的系统进程。
+* [ZT EXEC](https://github.com/zeroturnaround/zt-exec)：Java进程执行库。
+* [ZT Process Killer](https://github.com/zeroturnaround/zt-process-killer)：停止从Java启动的进程或通过PID的系统进程。
 * [Winrm4j](https://github.com/cloudsoft/winrm4j)：Winrm4j是一个使Java应用程序能够使用WinRM在远程Windows服务器上执行批处理或PowerShell命令的项目。
 * [JNR Process](https://github.com/jnr/jnr-process)：JNR Process库提供了JDK ProcessBuilder API的直接替代品，但它不是线程泵填充程序，而是围绕posix_spawn C API的直接抽象，并提供可选择的in、out和err通道。
 * [WinP](https://github.com/jenkinsci/winp)：该项目可以让你更好地控制Windows进程，超越JDK中的可用功能。
 * [Jash](https://github.com/jbangdev/jbang-jash)：Jash是一个Java库，提供流式、可预测且具有出色开发人员体验的Process接口。
+* [jProcesses](https://github.com/profesorfalken/jProcesses)：使用Java获取跨平台进程详细信息。
 
 ## 苹果推送通知
 
