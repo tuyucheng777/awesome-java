@@ -119,7 +119,7 @@
 * [PerfCake](https://github.com/PerfCake/PerfCake)：轻量级性能测试框架和负载生成器。
 * [Caliper](https://github.com/google/caliper)：Caliper是一个用于测量Java代码性能的工具，主要侧重于微基准测试，由Google开源。
 * [Criterium](https://github.com/hugoduncan/criterium)：使用Clojure编写的用于JVM的基准测试库。
-* [ScalaMeter](https://github.com/scalameter/scalameter)：适用于JVM平台的微基准测试和性能回归测试框架，ScalaMeter可以自动测量和收集程序的各种指标，然后生成漂亮的报告，或存储你的数据。
+* [ScalaMeter](https://github.com/scalameter/scalameter)：JVM平台的微基准测试和性能回归测试框架，由洛桑联邦理工学院开源。
 * [RabbitMQ Performance Testing Tool](https://github.com/rabbitmq/rabbitmq-perf-test)：RabbitMQ性能测试工具，由Broadcom的RabbitMQ团队维护。
 * [JLBH](https://github.com/OpenHFT/JLBH)：JLBH是一个可让你对在上下文中运行的代码进行基准测试(而不是在微基准测试中)的工具。
 * [KoPeMe](https://github.com/DaGeRe/KoPeMe)：KoPeMe是一个用于在Java中进行性能测试的框架。
@@ -259,7 +259,7 @@
 * [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver)：用于测试HTTP客户端的可编写脚本的Web服务器，由Square开源。
 * [AnyMock](https://github.com/duxiaoman/AnyMock)：AnyMock是一个通用接口Mock平台，提供Mock配置和模拟响应的服务，由度小满开源。
 * [Hoverfly](https://github.com/SpectoLabs/hoverfly-java)：Hoverfly的Java绑定，Hoverfly是一个允许你模拟HTTP服务的代理。
-* [Imposter](https://github.com/outofcoffee/imposter)：Imposter是REST API、OpenAPI规范、SOAP Web Services、Salesforce和HBase API的Mock服务器。
+* [Imposter](https://github.com/imposter-project/imposter-jvm-engine)：Imposter是REST API、OpenAPI规范、SOAP Web Services、Salesforce和HBase API的Mock服务器。
 * [Flashback](https://github.com/linkedin/flashback)：Flashback旨在模拟HTTP和HTTPS资源(例如Web服务和REST API)以用于测试目的，由LinkedIn开源。
 * [Mockey](https://github.com/clafonta/Mockey)：Mockey是一个用于测试通过HTTP的应用程序交互的工具，重点是测试Web服务，特别是使用XML、JSON和HTML的Web或原生应用程序。
 * [SMockin](https://github.com/matthewgallina/smockin)：SMockin是一种用于动态模拟API端点、S3存储桶和电子邮件帐户的开发工具。
@@ -705,6 +705,7 @@
 * [WSO2 Identity Server](https://github.com/wso2/product-is)：WSO2 Identity Server是一种开源身份和访问管理解决方案，跨企业和云服务环境联合和管理身份。
 * [OpenAM](https://github.com/OpenIdentityPlatform/OpenAM)：OpenAM是一种访问管理解决方案，包括身份验证、SSO、授权、联合、权利和Web服务安全，由ForegeRock公司发起。
 * [AuthzForce](https://github.com/authzforce/core)：AuthzForce项目提供了一个符合OASIS XACML标准v3.0的基于属性的访问控制(ABAC)框架，主要由授权策略引擎和RESTful授权服务器组成，由OW2开发。
+* [Ego](https://github.com/overture-stack/ego)：Ego是支持多个OpenID身份提供者的OAuth 2.0授权服务，由安大略癌症研究所开源。
 
 #### OAuth库
 
@@ -1916,6 +1917,7 @@
 * [NFlow](https://github.com/NitorCreations/nflow)：NFlow是一种经过验证的用于编排业务流程的解决方案，它可以用作微服务编排器(Saga模式)、业务流程引擎或持久有限状态机。
 * [WFlow](http://wflow.willianfu.top/)：WFlow工作流是一个简单易用，面向普通用户的工作流系统。
 * [FlowLong](https://gitee.com/aizuda/flowlong)：由爱组搭开源的工作流引擎。
+* [OpenMOLE](https://github.com/openmole/openmole)：OpenMOLE提供了利用分布式计算环境来运行、探索、诊断和优化数值模型的工具，由法国国家科学研究院开源。
 * [Nextflow](https://github.com/nextflow-io/nextflow)：Nextflow是一个工作流程系统，用于创建可扩展、可移植和可重复的工作流程，由西班牙巴塞罗那的生物医学和基因组学研究中心CRG开发。
 * [Concord](https://github.com/walmartlabs/concord)：Concord是一个工作流服务器，它是使用用户创建的场景和插件将不同系统连接在一起的编排引擎，由沃尔玛开源。
 * [DataBuilder](https://github.com/flipkart-incubator/databuilderframework)：DataBuilder框架是一个高级逻辑执行引擎，可用于执行多步骤工作流，该引擎目前为Flipkart的结账系统以及诊断和其他工作流提供支持。
@@ -2567,6 +2569,7 @@
 * [CompressHelper](https://github.com/nanchen2251/CompressHelper)：文件、图片压缩工具类。
 * [AdvancedLuban](https://github.com/shaohui10086/AdvancedLuban)：AdvancedLuban是一个方便简单的Android图像压缩工具库。
 * [Zstd](https://github.com/luben/zstd-jni)：Zstd是一种新的无损压缩算法，它可以为你的标准压缩需求提供良好的压缩比和速度。
+* [TurboJPEG](https://github.com/libjpeg-turbo/libjpeg-turbo/tree/main/java)：TurboJPEG是一个JPEG图像编解码器，它使用SIMD指令来加速x86、x86-64、Arm、PowerPC和MIPS系统上的基线JPEG压缩和解压缩，以及x86、x86-64和Arm系统上的渐进式JPEG压缩。
 * [Archive Patcher](https://github.com/google/archive-patcher)：Archive Patcher是一个开源项目，允许对zip存档进行节省空间的修补，由Google开源。
 * [Apache Commons Compress](https://github.com/apache/commons-compress)：Commons Compress定义了一个用于处理压缩和存档格式的API。
 * [LZF Compressor](https://github.com/ning/compress)：LZF Compressor是一个用于编码和解码LZF格式数据的Java库。
@@ -4349,6 +4352,7 @@
 * [Mosaic](https://github.com/Time-Machine-Lab/Mosaic)：Mosaic是一个面向企业级应用的现代化Java插件框架。
 * [Easy Extension](https://github.com/xiaoshicae/easy-extension)：Easy Extension框架主要解决复杂系统的扩展性问题。
 * [JPlugin](https://github.com/sunlet/jplugin)：JPlugin是轻量级的应用框架，支持便捷地开发插件式系统。
+* [Zephyr](https://github.com/sunshower-io/zephyr)：Zephyr是一个基于Java的开源插件框架，具有智能依赖管理、模块化设计和小巧的占用空间。
 
 #### POS
 
@@ -5140,6 +5144,7 @@
 * [MockMock](https://github.com/tweakers/MockMock)：MockMock是一个基于Java构建的跨平台SMTP服务器。
 * [Dumbster](https://github.com/kirviq/dumbster)：Dumbster是一个非常简单的伪SMTP服务器，专为发送电子邮件消息的单元和系统测试应用程序而设计。
 * [ElasticInbox](https://github.com/elasticinbox/elasticinbox-java)：ElasticInbox是可靠、分布式、可扩展的电子邮件存储。
+* [LunaticSMTP](https://github.com/anlar/lunaticsmtp)：带有JavaFX GUI的虚拟SMTP服务器，用于测试电子邮件发送应用程序。
 
 ## DSL
 
@@ -6241,6 +6246,7 @@
 * [TUIOFX](http://tuiofx.org/)：TUIOFX工具包旨在支持想要开发共享交互表面(如支持TUIO协议的多用户、多点触控桌面和墙壁)的Java开发人员。
 * [Undecorator](https://github.com/in-sideFX/Undecorator)：使用自定义皮肤来装饰未装饰的JavaFX阶段。
 * [VFX](https://github.com/wkgcass/vfx)：JavaFX UI组件库。
+* [VirtualizedFX](https://github.com/palexdev/VirtualizedFX)：VirtualizedFX是一个开源Java库，它提供虚拟化组件来显示大量数据，而不会因仅渲染其中一部分而影响性能。
 
 #### JavaFX组件库
 
@@ -6274,6 +6280,7 @@
 * [FXUI](https://gitee.com/lichenfei_fei/chenfei-fxui)：JavaFX常见自定义组件。
 * [AppleFX](https://github.com/HanSolo/applefx)：用JavaFX实现的Apple UI控件集合。
 * [DevToolsFX](https://github.com/mkpaz/devtoolsfx)：DevToolsFX是一款用于浏览应用程序场景图和探索节点属性的工具。
+* [NFX](https://github.com/xdsswar/nfx-lib)：NFX是适用于Windows 10/11的JavaFX/JNI库，可让你构建完全自定义、原生感觉的窗口Chrome-标题栏、按钮和框架行为。
 
 #### JavaFX Dock库
 
@@ -7779,6 +7786,7 @@
 * [DynamicObject](https://github.com/rschmitt/dynamic-object)：DynamicObject使Java开发人员能够以惯用的方式和最少的样板使用Clojure强大的数据建模功能。
 * [GraalPHP](https://github.com/abertschi/graalphp)：GraalPHP是一个实验性的即时(JIT)编译器和运行时，用于在GraalVM上托管的PHP 7.4+。
 * [TruffleSqueak](https://github.com/hpi-swa/trufflesqueak)：GraalVM的Squeak/Smalltalk VM和多语言编程环境，由波茨坦大学开源。
+* [Inline Java](https://github.com/tweag/inline-java)：Haskell/Java通过Haskell模块中的内联Java代码进行互操作。
 
 #### Python
 
@@ -8843,6 +8851,8 @@
 * [WinP](https://github.com/jenkinsci/winp)：该项目可以让你更好地控制Windows进程，超越JDK中的可用功能。
 * [Jash](https://github.com/jbangdev/jbang-jash)：Jash是一个Java库，提供流式、可预测且具有出色开发人员体验的Process接口。
 * [jProcesses](https://github.com/profesorfalken/jProcesses)：使用Java获取跨平台进程详细信息。
+* [PE/COFF4J](https://github.com/kichik/pecoff4j)：PE/COFF4J是一个用于可移植可执行文件(Windows使用的格式)的Java工程库。
+* [Turtle](https://github.com/lordcodes/turtle)：Turtle简化了从Kotlin(或Java)代码运行外部命令和进程的过程。
 
 ## 苹果推送通知
 
