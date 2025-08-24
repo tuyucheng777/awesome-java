@@ -62,6 +62,7 @@
     * [流处理平台](#流处理平台)
     * [ETL工具](#ETL工具)
     * [CDC组件](#CDC组件)
+    * [集群管理](#集群管理)
     * [CEP引擎](#CEP引擎)
     * [监控工具](#监控工具)
     * [Notebook](#Notebook)
@@ -76,9 +77,9 @@
     * [应用总线](#应用总线)
     * [消息队列客户端](#消息队列客户端)
 * [分布式开发](#分布式开发)
-    * [分布式组件](#分布式组件)
     * [分布式锁](#分布式锁)
     * [分布式ID](#分布式ID)
+    * [Session集群](#Session集群)
     * [Raft算法](#Raft算法)
     * [Paxos算法](#Paxos算法)
     * [Gossip算法](#Gossip算法)
@@ -122,6 +123,7 @@
     * [网络监控](#网络监控)
     * [网络工具](#网络工具)
     * [端口转发](#端口转发)
+    * [P2P](#P2P)
     * [SDN](#SDN)
     * [SMB](#SMB)
     * [KCP](#KCP)
@@ -385,7 +387,6 @@
     * [文件上传](docs/doc2.md#文件上传)
     * [文件比较](docs/doc2.md#文件比较)
     * [文件预览](docs/doc2.md#文件预览)
-* [集群管理](docs/doc2.md#集群管理)
 * [容器化工具](docs/doc2.md#容器化工具)
 * [DevOps](docs/doc2.md#DevOps)
 * [云服务](docs/doc2.md#云服务)
@@ -1887,7 +1888,6 @@
 * [Apache Nifi](https://github.com/apache/nifi)：NiFi是一个易于使用、功能强大且可靠的系统，用于处理和分发数据，由美国国家安全局开源。
 * [Apache Linkis](https://github.com/apache/linkis)：Linkis是一种计算中间件，充当上层应用程序和底层引擎(例如Spark、Hive和Flink)之间的层，由微众开源。
 * [Apache Drill](https://github.com/apache/drill)：Drill是一个分布式MPP查询层，支持针对NoSQL和Hadoop数据存储系统的SQL和替代查询语言，由LinkedIn、思科、威斯康星大学麦迪逊分校等开源。
-* [Apache InLong](https://github.com/apache/inlong)：InLong是一站式、全场景的海量数据集成框架，支持数据摄取、数据同步和数据订阅，提供自动、安全、可靠的数据传输能力，由腾讯大数据团队开源。
 * [Apache Oozie](https://github.com/apache/oozie)：Oozie是一个可扩展、可伸缩且可靠的系统，用于通过Web服务定义、管理、调度和执行复杂的Hadoop工作负载，由Yahoo开源。
 * [Apache Mnemonic](https://github.com/apache/mnemonic)：Mnemonic是一个面向非易失性混合内存存储的库，由Intel开源。
 * [Apache Kyuubi](https://github.com/apache/kyuubi)：Kyuubi是一个分布式多租户网关，用于在数据仓库和Lakehouse上提供Serverless SQL，由网易数帆开源。
@@ -1930,7 +1930,6 @@
 * [DataCompare](https://gitee.com/dromara/data-compare)：DataCompare是一个大数据数据比对和数据探测平台，由dromara社区开源。
 * [Hoptimator](https://github.com/linkedin/Hoptimator)：Hoptimator是一个基于SQL的复杂数据管道控制平面，由LinkedIn开源。
 * [Flink Streaming Platform Web](https://github.com/zhp8341/flink-streaming-platform-web)：Flink Streaming Platform Web是基于Flink封装的一个可视化、轻量级的Flink Web客户端系统。
-* [WInte.r](https://github.com/olehmberg/winter)：WInte.r框架提供了端到端数据集成的方法，由曼海姆大学开源。
 * [Apache Livy](https://github.com/apache/incubator-livy)：Livy是一个开源REST接口，用于从任何地方与Spark交互，由Cloudera开源。
 * [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
 * [Cascading](https://github.com/cwensel/cascading)：Cascading是一个功能丰富的API，用于在本地或集群上定义和执行复杂且容错的数据处理流。
@@ -1990,7 +1989,6 @@
 * [Stocator](https://github.com/CODAIT/stocator)：Stocator是Spark对象存储的高性能连接器，通过利用对象存储语义来实现性能，由IBM开源。
 * [MR4C](https://github.com/google/mr4c)：MR4C是一个允许你在Hadoop执行框架内运行本机代码的框架，由Google开源。
 * [Apache Tajo](https://github.com/apache/tajo)：Tajo是Hadoop的开源分布式数据仓库框架，最初由韩国基础设施公司Gruter开发。
-* [云雀](https://gitee.com/LarkMidTable/yunque)：云雀是一款数据集成工具，实现异构数据源的整合，帮助企业构建数据仓库、数据湖等应用架构。
 * [DeltaFi](https://gitlab.com/deltafi/deltafi)：DeltaFi是一个灵活、轻量代码的数据转换和标准化平台。
 * [Apache Eagle](https://github.com/apache/eagle)：Eagle是一种开源分析解决方案，用于在大数据平台上立即识别安全和性能问题，由eBay开源。
 * [Apache Gluten](https://github.com/apache/incubator-gluten)：Gluten是一个中间层，负责将基于JVM的SQL引擎的执行卸载到本机引擎，由Intel和Kyligence开源。
@@ -2016,6 +2014,7 @@
 * [Apache Gravitino](https://github.com/apache/gravitino)：Gravitino是一个高性能、地理分布式、联合元数据湖，由Datastrato开源。
 * [Magda](https://github.com/magda-io/magda)：Magda是适用于所有大数据和小数据的联合开源数据目录，由澳大利亚联邦科学与工业研究组织的Data61和澳大利亚总理及内阁部发起。
 * [Lightning Catalog](https://github.com/zetaris/lightning-catalog)：Lightning Catalog是Zetaris开源的数据目录，用于在临时分析、数据仓库、Lake House和ML项目中准备任意规模的数据。
+* [DDF](https://github.com/codice/ddf)：DDF是一个免费的开源通用数据层，它从底层数据结构中抽象出服务和业务逻辑，以便快速集成新的数据源，由Codice基金会开源。
 
 #### 数据沿袭
 
@@ -2125,6 +2124,9 @@
 * [TIS](https://github.com/datavane/tis)：TIS集成大数据领域优秀组件(FlinkX-CDC，Chunjun，DataX，Flink等)为你提供一站式、开箱即用的DataOps数据中台，大幅提高ETL实时数仓构建效率，由Datavane大数据组织开源。
 * [Exchangis](https://github.com/WeBankFinTech/Exchangis)：Exchangis是微众银行大数据平台与社区用户共同开发的新版数据交换工具，支持异构数据源之间结构化和非结构化数据的同步传输。
 * [Smooks](https://github.com/smooks/smooks)：Smooks是一个可扩展的Java框架，用于构建基于XML和非XML数据(CSV、EDI、POJO等)的基于片段的应用程序。
+* [Apache InLong](https://github.com/apache/inlong)：InLong是一站式、全场景的海量数据集成框架，支持数据摄取、数据同步和数据订阅，提供自动、安全、可靠的数据传输能力，由腾讯大数据团队开源。
+* [WInte.r](https://github.com/olehmberg/winter)：WInte.r框架提供了端到端数据集成的方法，由曼海姆大学开源。
+* [Yunque](https://gitee.com/LarkMidTable/yunque)：云雀是一款数据集成工具，实现异构数据源的整合，帮助企业构建数据仓库、数据湖等应用架构。
 * [Kafka Connect File Pulse](https://github.com/streamthoughts/kafka-connect-file-pulse)：Connect FilePulse是一种多用途、可扩展且可靠的Kafka连接器，可以轻松解析、转换任何格式的任何文件并将其流式传输到Kafka，由StreamThoughts开源。
 * [Extract](https://github.com/ICIJ/extract)：Extract是用于并行、分布式内容提取的跨平台命令行工具，由国际调查记者联盟开源。
 * [Bender](https://github.com/Nextdoor/bender)：该项目提供了一个可扩展的Java框架，用于在AWS Lambda上创建Serverless ETL函数，Bender处理复杂的管道并提供为ETL过程的各个方面构建模块所需的接口。
@@ -2167,6 +2169,23 @@
 * [ACDC](https://github.com/xdfdotcn/acdc)：ACDC是新东方集团架构部开源的数据平台产品。
 * [SyncLite](https://github.com/syncliteio/SyncLite)：SyncLite是一个开源、低代码、全面的关系数据整合平台，可帮助开发人员快速构建用于边缘、桌面和移动环境的数据密集型应用程序。
 * [CDC](https://github.com/rong360/cdc)：一个MySQL Binlog解析器，它将Binlog事件转换为JSON格式的数据，并写入到RabbitMQ或其他MQ(例如Kafka)中，由融360开源。
+
+#### 集群管理
+
+* [Apache Aurora](https://github.com/apache/aurora)：Aurora是一个用于长期运行服务和cron作业的Mesos框架，由Twitter开源。
+* [Chronos](https://github.com/mesos/chronos)：Chronos是cron的替代品，它是一个分布式容错调度程序，运行在Mesos之上，可用于作业编排。
+* [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
+* [Terracotta](https://github.com/Terracotta-OSS/terracotta-core)：Terracotta Server为Terracotta产品(例如Ehcache和TCStore)提供强大的分布式内存数据管理功能，是Terracotta集群的骨干。
+* [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
+* [Norbert](https://github.com/rhavyn/norbert)：Norbert是一个提供简单集群管理和集群感知客户端/服务器网络API的库，由Linkedin开源。
+* [Apache Helix](https://github.com/apache/helix)：Helix是一个通用集群管理框架，用于自动管理节点集群上托管的分区、复制和分布式资源，由LinkedIn开源。
+* [Apache Airavata](https://airavata.apache.org/)：用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业和工作流程的软件框架。
+* [Fenzo](https://github.com/Netflix/Fenzo)：适用于Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
+* [Apache REEF](https://github.com/apache/reef)：用于为集群资源管理器(例如Hadoop YARN或Mesos)开发可移植应用程序的库。例如，Microsoft Azure流分析是基于REEF和Hadoop构建的。
+* [Orion](https://github.com/pinterest/orion)：Orion是一个适用于有状态分布式系统的通用可插拔管理和自动化平台，由Pinterest开源。
+* [Apache Myriad](https://github.com/apache/incubator-myriad)：Myriad是一个Mesos框架，旨在扩展Mesos上的YARN集群，由eBay、MapR和Mesosphere开源。
+* [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：DCM使程序员能够使用高级声明性语言(SQL)构建调度程序和集群管理器，由VMware开源。
+* [Marathon](https://github.com/mesosphere/marathon)：Marathon是经过生产验证的用于容器编排的Mesos框架，由Mesosphere开源。
 
 #### CEP引擎
 
@@ -2355,27 +2374,16 @@
 
 ## 分布式开发
 
-#### 分布式组件
-
-* [Hive2Hive](https://github.com/Hive2Hive/Hive2Hive)：Hive2Hive是一个用Java编写的开源库，用于安全、分布式、基于P2P的文件同步和共享。
 * [Waltz](https://github.com/wepay/waltz)：Waltz是一种基于仲裁的分布式预写日志，用于复制事务，由WePay开源。
 * [Jepsen](https://github.com/jepsen-io/jepsen)：Jepsen致力于提高分布式数据库、队列、共识系统等的安全性。
-* [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
 * [Rapid](https://github.com/lalithsuresh/rapid)：Rapid是一种分布式成员服务，它允许一组进程轻松形成集群，并在成员资格发生变化时接收通知。
 * [Ordasity](https://github.com/boundary/ordasity)：Ordasity是Boundary用于在JVM上构建有状态集群服务的库。
-* [Redis Session Manager](https://github.com/jcoleman/tomcat-redis-session-manager)：Session管理器实现，将Session存储在Redis中，以便在Tomcat服务器集群中轻松分发请求。
 * [Dhalion](https://github.com/microsoft/Dhalion)：Dhalion是一个用于自动扩展和调整分布式系统的框架，由Microsoft开源。
-* [Redis Session Manager](https://github.com/chexagon/redis-session-manager)：Tomcat 8会话管理器通过持久化到Redis提供会话复制。
 * [DSLabs](https://github.com/emichael/dslabs)：DSLabs是一个用于创建、测试、模型检查、可视化和调试分布式系统实验室作业的新框架，由华盛顿大学开发。
-* [Distributor](https://gitee.com/HappyChicken/Distributor)：Distributor基于Redis实现常用的分布式组件，简单、可靠、开箱即用。
-* [COMP Superscalar](https://github.com/bsc-wdc/compss)：COMP Superscalar(COMPS)是一种编程模型，旨在简化分布式基础设施(例如集群、网格和云)的应用程序开发，由巴塞罗那超级计算中心开源。
-* [UNICORE](https://www.unicore.eu/)：UNICORE是一个用于构建联合系统的软件套件，提供对高性能计算和数据资源的安全、无缝访问，由于利希研究中心开发。
-* [Imhotep](https://github.com/indeedeng/imhotep)：Imhotep是Indeed打造的大型分析平台。
+* [COMPSs](https://github.com/bsc-wdc/compss)：COMPSs是一种编程模型，旨在简化分布式基础设施(例如集群、网格和云)的应用程序开发，由巴塞罗那超级计算中心开源。
+* [UNICORE](https://github.com/UNICORE-EU)：UNICORE是一个用于构建联合系统的软件套件，提供对高性能计算和数据资源的安全、无缝访问，由于利希研究中心开发。
 * [Drasyl](https://github.com/drasyl/drasyl)：Drasyl是一个用于快速开发分布式应用程序的高性能框架，由汉堡大学开源。
-* [ScaleCube Cluster](https://github.com/scalecube/scalecube-cluster)：ScaleCube Cluster是一个轻量级的去中心化集群成员资格、故障检测和八卦协议库。
-* [Fallout](https://github.com/datastax/fallout)：Fallout是一款用于运行本地或大规模远程分布式正确性、验证和性能测试的工具，由Datastax开源。
 * [Oracle Bedrock](https://github.com/coherence-community/oracle-bedrock)：Oracle Bedrock提供了一个通用Java框架，用于开发、编排和测试高度并发的分布式应用程序。
-* [Hydra](https://github.com/DragonKingpin/Hydra)：Hydra是一个面向云计算、多任务调度、大数据、通信、服务的分布式操作系统。
 
 #### 分布式锁
 
@@ -2417,6 +2425,19 @@
 * [Butterfly](https://github.com/simonalong/Butterfly)：Butterfly是一个超高性能的发号器框架。
 * [Snowflake](https://github.com/relops/snowflake)：用于生成K阶唯一64位整数的Java库。
 
+#### Session集群
+
+* [Redis Session Manager](https://github.com/jcoleman/tomcat-redis-session-manager)：Session管理器实现，将Session存储在Redis中，以便在Tomcat服务器集群中轻松分发请求。
+* [Mongo Tomcat Session Manager](https://github.com/simplicityitself/Mongo-Tomcat-Sessions)：这是一个Tomcat会话管理器，用于将会话保存到MongoDB中。
+* [Spring Session](https://github.com/spring-projects/spring-session)：Spring Session提供了一个API和实现来管理用户的会话信息，同时也使得支持集群会话变得很简单，而无需绑定到应用程序容器特定的解决方案。
+* [Memcached Session Manager](https://github.com/magro/memcached-session-manager)：Memcached Session Manager是一个Tomcat会话管理器，它将会话保存在Memcached或Redis中，以实现高可用性、可扩展性和容错性的Web应用程序。
+* [Redis Session Manager](https://github.com/chexagon/redis-session-manager)：Tomcat 8会话管理器通过持久化到Redis提供会话复制。
+* [Tomcat Clustering Redis Session Manager](https://github.com/ran-jit/tomcat-cluster-redis-session-manager)：Redis Session Manager是一个可插拔的管理器，它将会话存储到Redis中，以便轻松地在Tomcat服务器集群之间分发HTTP请求。
+* [Mongo Tomcat Session Manager](https://github.com/simplicityitself/Mongo-Tomcat-Sessions)：这是一个Tomcat会话管理器，用于将会话保存到MongoDB中。
+* [Jetty Session Redis](https://github.com/ovea-deprecated/jetty-session-redis)：使用Redis进行Jetty会话集群。
+* [Amazon DynamoDB Session Manager](https://github.com/amazon-archives/aws-dynamodb-session-tomcat)：基于Amazon DynamoDB的Apache Tomcat会话存储。
+* [Tomcat Session Manager](https://github.com/vmware-archive/session-managers)：Tomcat Session Manager的实现，将数据持久化到Redis中，由VMware开源。
+
 #### Raft算法
 
 * [KRaft](https://github.com/apache/kafka/tree/trunk/raft)：KRaft是基于Raft共识协议为Kafka量身定制的协议。
@@ -2448,6 +2469,7 @@
 
 * [Apache Gossip](https://github.com/apache/incubator-retired-gossip)：Apache Gossip是一个基于Gossip协议的开源项目，旨在提供一个可靠、高效的分布式通信机制。
 * [JGossip](https://github.com/monkeymq/jgossip)：Gossip协议的Java实现。
+* [ScaleCube Cluster](https://github.com/scalecube/scalecube-cluster)：ScaleCube Cluster是一个轻量级的去中心化集群成员资格、故障检测和Gossip协议库。
 
 ## 数据库
 
@@ -2702,6 +2724,7 @@
 * [CrateDB](https://github.com/crate/crate)：CrateDB是一个分布式SQL数据库，可以轻松地实时存储和分析大量数据。
 * [COOL](https://github.com/COOL-cohort/COOL)：COOL是一种非常高效的OLAP引擎，用于对时序数据进行队列和OLAP分析。
 * [QinSQL](https://github.com/qinsql/QinSQL)：QinSQL是一个基于Lealone的可暂停的渐进式OLAP引擎。
+* [Imhotep](https://github.com/indeedeng/imhotep)：Imhotep是Indeed打造的大型分析平台。
 * [Mondrian](https://github.com/pentaho/mondrian)：Mondrian是一款OLAP服务器，使业务用户能够实时分析大量数据。
 * [Datacube](https://github.com/urbanairship/datacube)：具有数值数据汇总的多维数据存储，由Airship开源。
 
@@ -3199,6 +3222,15 @@
 * [Cybergarage UPnP](https://github.com/cybergarage/cybergarage-upnp)：Cybergarage UPnP是面向Java开发人员的UPnP开发包。
 * [WaifUPnP](https://github.com/adolfintel/WaifUPnP)：WaifUPnP是UPnP的一个非常基本的实现。
 * [HPPT](https://github.com/codingmiao/hppt)：HPPT是一款可通过任意协议转发TCP端口的工具。
+
+#### P2P
+
+* [I2P](https://github.com/i2p/i2p.i2p)：I2P是一个匿名网络，提供一个简单的层，身份敏感的应用程序可以使用该层进行安全通信。
+* [Peergos](https://github.com/Peergos/Peergos)：Peergos是一个创新性的去中心化文件存储和协作平台，它致力于提供安全、私密和可验证的在线分享与交互体验，由牛津大学、墨尔本大学等开源。
+* [Diztl](https://github.com/gravetii/diztl)：用于LAN的点对点文件发现和共享工具。
+* [Nightweb](https://github.com/oakes/Nightweb)：Nightweb是一款适用于Android设备和PC的应用，可帮助你连接到匿名的点对点社交网络。
+* [Xeres](https://github.com/zapek/Xeres)：Xeres是一款朋友之间、去中心化且安全的通信和共享应用程序。
+* [Hive2Hive](https://github.com/Hive2Hive/Hive2Hive)：Hive2Hive是一个用Java编写的开源库，用于安全、分布式、基于P2P的文件同步和共享。
 
 #### SDN
 
