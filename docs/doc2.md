@@ -9,7 +9,8 @@
 * [TestNG](https://github.com/testng-team/testng)：TestNG是一个受JUnit启发的测试框架，但引入了一些新功能，使其更强大且更易于使用。
 * [Spock](https://github.com/spockframework/spock)：Spock是一个用于Java和Groovy应用程序的BDD风格的开发人员测试和规范框架。
 * [Kotest](https://github.com/kotest/kotest)：Kotest是一个灵活且全面的Kotlin测试工具，具有多平台支持。
-* [uTest](https://github.com/com-lihaoyi/utest)：uTest是一个简单、直观的Scala测试库。
+* [UTest](https://github.com/com-lihaoyi/utest)：UTest是一个简单、直观的Scala测试库。
+* [MUnit](https://github.com/scalameta/munit)：具有可操作错误和可扩展API的Scala测试库。
 
 #### 集成测试
 
@@ -68,6 +69,7 @@
 * [ChocoTea](https://github.com/cleopatra27/chocotea)：Chocotea是一个从Java代码生成Postman集合、环境和集成测试的库。
 * [Heat](https://github.com/ExpediaGroup/heat)：Heat是一个基于REST Assured框架的简单解决方案，由Expedia开源。
 * [Hrun4j](https://github.com/lematechvip/hrun4j)：Hrun4j是由乐马技术推出的开源一站式接口测试解决方案。
+* [Hsac Fitnesse Fixtures](https://github.com/fhoeben/hsac-fitnesse-fixtures)：该项目通过提供定义和运行测试的应用程序来协助测试Web Services和Web应用程序。
 
 #### 端到端测试
 
@@ -120,6 +122,7 @@
 * [Caliper](https://github.com/google/caliper)：Caliper是一个用于测量Java代码性能的工具，主要侧重于微基准测试，由Google开源。
 * [Criterium](https://github.com/hugoduncan/criterium)：使用Clojure编写的用于JVM的基准测试库。
 * [ScalaMeter](https://github.com/scalameter/scalameter)：JVM平台的微基准测试和性能回归测试框架，由洛桑联邦理工学院开源。
+* [Swingbench](https://github.com/domgiles/swingbench-public)：Swingbench是一款专为Oracle数据库设计的开源负载生成器及基准测试工具。
 * [RabbitMQ Performance Testing Tool](https://github.com/rabbitmq/rabbitmq-perf-test)：RabbitMQ性能测试工具，由Broadcom的RabbitMQ团队维护。
 * [JLBH](https://github.com/OpenHFT/JLBH)：JLBH是一个可让你对在上下文中运行的代码进行基准测试(而不是在微基准测试中)的工具。
 * [KoPeMe](https://github.com/DaGeRe/KoPeMe)：KoPeMe是一个用于在Java中进行性能测试的框架。
@@ -532,6 +535,12 @@
 * [POJO TESTER](https://github.com/sta-szek/pojo-tester)：POJO-TESTER是一个Java测试库，可以使POJO测试变得更加容易。
 * [BoundBox](https://github.com/stephanenicolas/boundbox)：BoundBox提供了一种简单的方法来测试对象，即通过访问对象的所有字段、构造函数和方法。
 
+#### 日志测试
+
+* [LogCaptor](https://github.com/Hakky54/log-captor)：LogCaptor是一个能够轻松捕获用于单元和集成测试目的的日志记录条目的库。
+* [ConsoleCaptor](https://github.com/Hakky54/console-captor)：ConsoleCaptor是一个可让你轻松捕获控制台的输出以进行单元测试的库。
+* [LogUnit](https://github.com/netmikey/logunit)：用于单元测试日志记录的Java库。
+
 #### JUnit扩展
 
 * [HiveRunner](https://github.com/HiveRunner/HiveRunner)：HiveRunner是基于JUnit 4和5的Hive查询开源单元测试框架。
@@ -558,30 +567,23 @@
 * [Kafka JUnit](https://github.com/mguenther/kafka-junit)：Kafka JUnit使开发人员能够在JUnit测试中启动和停止由Kafka代理和分布式Kafka Connect Workers组成的完整Kafka集群。
 * [FakeTime](https://github.com/faketime-java/faketime)：FakeTime使用原生Java代理将System.currentTimeMillis()实现替换为你可以使用系统属性控制的实现。
 * [JUnit Insights](https://github.com/adessoSE/junit-insights)：JUnit Insights是JUnit的扩展，为上下文、类和方法的运行时提供见解。
+* [Specnaz](https://github.com/skinny85/specnaz)：使用Java、Kotlin和Groovy编写漂亮的RSpec/Jasmine/Mocha/Jest风格规范的库。
+* [Oleaster](https://github.com/mscharhag/oleaster)：Oleaster允许你像编写Jasmine测试一样编写JUnit测试。
 
 #### 其他测试库
 
-* [JsonUnit](https://github.com/lukas-krecan/JsonUnit)：JsonUnit是一个简化测试中JSON比较的库。
 * [EqualsVerifier](https://github.com/jqno/equalsverifier)：EqualsVerifier可用于Java单元测试，以验证类中equals和hashCode方法的约定是否得到满足。
-* [OpenTest4J](https://github.com/ota4j-team/opentest4j)：该项目是JUnit 5团队倡议的成果。
+* [OpenTest4J](https://github.com/ota4j-team/opentest4j)：用于表示测试失败的常见Java异常类，由JUnit团队维护。
 * [HtmlUnit](https://github.com/HtmlUnit/htmlunit)：HtmlUnit是Java程序的无GUI浏览器。
-* [Apache Commons Testing](https://github.com/apache/commons-testing)：用于测试的Java实用程序类包。
-* [MUnit](https://github.com/scalameta/munit)：具有可操作错误和可扩展API的Scala测试库。
 * [NonDex](https://github.com/TestingResearchIllinois/NonDex)：NonDex是一个用于检测和调试对未确定的Java API的错误假设的工具，由伊利诺伊大学开源。
 * [XmlUnit](https://github.com/xmlunit/xmlunit)：XMLUnit是一个支持以多种方式测试XML输出的库。
-* [LogCaptor](https://github.com/Hakky54/log-captor)：LogCaptor是一个能够轻松捕获用于单元和集成测试目的的日志记录条目的库。
-* [ConsoleCaptor](https://github.com/Hakky54/console-captor)：ConsoleCaptor是一个可让你轻松捕获控制台的输出以进行单元测试的库。
 * [SikuliRobot](https://github.com/rainmanwy/robotframework-SikuliLibrary)：Sikuli机器人框架库为Robot Framework提供关键字，可以通过Sikuli测试UI。
 * [Tzatziki](https://github.com/Decathlon/tzatziki)：该项目是一组现成的Cucumber步骤的集合，通过专注于由外向内的测试策略，可以轻松实现TDD Java微服务，由迪卡侬开源。
 * [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector)：Mutability Detector旨在分析Java类并报告给定类的实例是否不可变。
 * [StackSrc](https://github.com/laech/java-stacksrc)：该项目的目标是修饰测试失败的堆栈跟踪，使其更有用。
 * [Overcast](https://github.com/xebialabs/overcast)：用于针对云中的主机编写测试的Java工具类。
 * [SQL Logic Test](https://github.com/hydromatic/sql-logic-test)：SQL Logic Test是一套包含超过700万个测试的套件，用于测试SQL的核心方面。
-* [Specnaz](https://github.com/skinny85/specnaz)：用于用Java、Kotlin和Groovy编写漂亮的RSpec/Jasmine/Mocha/Jest风格规范的库。
-* [Hsac Fitnesse Fixtures](https://github.com/fhoeben/hsac-fitnesse-fixtures)：该项目通过提供定义和运行测试的应用程序来协助测试Web Services和Web应用程序。
 * [Courgette JVM](https://github.com/prashant-ramcharan/courgette-jvm)：Courgette JVM是Cucumber的扩展，增加了在功能级别或场景级别并行运行Cucumber测试的功能。
-* [Oleaster](https://github.com/mscharhag/oleaster)：Oleaster允许你像编写Jasmine测试一样编写JUnit测试。
-* [Freud](https://github.com/LMAX-Exchange/freud)：用于编写静态分析测试的框架，由英国外汇交易公司LMAX开发。
 * [Karibu Testing](https://github.com/mvysny/karibu-testing)：Vaadin服务器端无浏览器无容器单元测试。
 * [SocketTest](https://github.com/akshath/SocketTest)：一个用于套接字测试的Java工具，它可用于测试任何使用TCP或UDP协议进行通信的服务器或客户端。
 * [Skippy](https://github.com/skippy-io/skippy)：Skippy是JVM的测试影响分析和预测测试选择框架。
@@ -840,6 +842,8 @@
 * [MemShell](https://github.com/rebeyond/memShell)：驻留在Java Web服务器的内存中的WebShell。
 * [MemShellGene](https://github.com/suizhibo/MemShellGene)：一款Java内存马生成、测试工具。
 * [Firing Range](https://github.com/google/firing-range)：Firing Range是Web应用程序安全扫描器的测试台，为一系列漏洞提供综合、广泛的覆盖，由Google开源。
+* [Shell Analyzer](https://github.com/4ra1n/shell-analyzer)：通过Java Agent查杀内存马，提供简易方便的GUI界面。
+* [Code Inspector](https://github.com/4ra1n/code-inspector)：Code Inspector是一个Java自动代码审计工具，尤其针对Spring Boot框架。
 
 #### 自保护
 
@@ -1212,6 +1216,7 @@
 
 #### JSON比较
 
+* [JsonUnit](https://github.com/lukas-krecan/JsonUnit)：JsonUnit是一个简化测试中JSON比较的库。
 * [Json Comparison](https://github.com/eBay/json-comparison)：强大的JSON比较工具，用于识别JSON文件中的所有更改，由eBay开源。
 * [JSON Compare](https://github.com/fslev/json-compare)：用于比较JSON的Java库。
 * [JsonDiff](https://gitee.com/codeleep/json-diff)：一款高性能且功能强大的JSON差异发现工具。
@@ -3447,6 +3452,7 @@
 * [SourcererCC](https://github.com/Mondego/SourcererCC)：SourcererCC是Sourcerer推出的一款基于Token的代码克隆检测器，适用于超大型代码库和互联网规模的项目存储库，由加州大学欧文分校开源。
 * [HuntBugs](https://github.com/amaembo/huntbugs)：基于Procyon的Java字节码静态分析工具，旨在取代FindBugs。
 * [Joana](https://github.com/joana-team/joana)：Joana是一款静态分析工具，可用于Java字节码的信息流控制。
+* [Freud](https://github.com/LMAX-Exchange/freud)：Freud为用户提供了一种定义自己的静态分析测试的简单方法，由英国外汇交易公司LMAX开发。
 * [CodeNarc](https://github.com/CodeNarc/CodeNarc)：CodeNarc是一款Groovy源代码静态分析工具，支持监控和执行多种编码标准和最佳实践。
 
 #### 编码规范
@@ -3519,6 +3525,7 @@
 * [Lowfer](https://github.com/mbouchenoire/lowfer)：Lowfer是一个简单的工具，可以帮助软件工程师和架构师记录、讨论和分析软件设计和架构。
 * [FJage](https://github.com/org-arl/fjage)：FJage为Java和Groovy中面向代理的软件开发提供了一个轻量级且易于学习的平台，由新加坡国立大学开源。
 * [JSyntrax](https://github.com/atp-mipt/jsyntrax)：JSyntrax是一个铁路图生成器，它创建了用于编程语言的语法的直观说明，由莫斯科物理技术学院开源。
+* [Getaviz](https://github.com/softvis-research/Getaviz)：借助Getaviz，你可以通过在2D、3D和虚拟现实中探索软件工件来观察地解决软件工程问题，由莱比锡大学开源。
 
 #### 设计模式
 
@@ -6058,13 +6065,14 @@
 * [WebLaf](https://github.com/mgarin/weblaf)：WebLaf是一个完全开源的外观和组件库，用纯Java编写，用于跨平台桌面Swing应用程序。
 * [Darklaf](https://github.com/weisJ/darklaf)：Darklaf是基于Darcula-Laf的主题LaF。
 * [VAqua](https://github.com/violetlib/vaqua)：VAqua是一种Java Swing外观，在macOS上运行，模拟标准macOS UI组件的外观和行为。
-* [KControls](https://github.com/k33ptoo/KControls)：用于美化用户界面并赋予UI现代化的外观。
 * [VTerminal](https://github.com/Valkryst/VTerminal)：用于Java的新LaF，允许基于网格显示具有自定义前景色/背景色、字体大小和伪着色器的Unicode字符。
 * [Darcula](https://github.com/bulenkov/Darcula)：Darcula是Java桌面应用程序的LaF和代码编辑器主题。
 * [Synthetica](https://www.jyloo.com/)：Synthetica是Swing的LaF，基于Synth，通过主题为Swing的核心组件提供了许多不同的外观，包括圆形边框、阴影弹出菜单和漂亮的图标。
 * [Java Bootstrap LaF](https://github.com/danfickle/java-bootstrap-laf)：基于Bootstrap的Java Swing LaF。
 * [LittleLuck](https://github.com/freeseawind/littleluck)：LittleLuck是Java Swing跨平台外观实现。
 * [Sea Glass](https://github.com/khuxtable/seaglass)：Sea Glass是适用于JRE 1.6及更高版本的Java可插拔LaF。
+* [FlatSwing](https://github.com/Mommoo/FlatSwing)：一个由平面设计制成的漂亮的Java Swing库。
+* [JTattoo](https://github.com/michael-hagen/JTattoo)：JTattoo是一个基于Swing的应用程序的LaF库。
 
 #### Swing UI库
 
@@ -6077,6 +6085,8 @@
 * [Eclipse Nebula](https://github.com/eclipse/nebula)：该项目包含大量UI元素，可在基于Java和SWT的胖或瘦客户端应用程序中使用。
 * [JIDE](https://github.com/jidesoft/jide-oss)：JIDE提供专业的Java UI组件，专注于为软件开发人员提供富客户端应用程序。
 * [Swing Modal Dialog](https://github.com/DJ-Raven/swing-modal-dialog)：使用FlatLaf定制的Java Swing UI库。
+* [Swing Material](https://github.com/leMaik/swing-material)：Swing的Material Design组件和实用程序的集合。
+* [KControls](https://github.com/k33ptoo/KControls)：KControls专为Java Swing打造，旨在美化用户界面，赋予UI现代化的外观。
 
 #### Swing组件库
 
@@ -6099,7 +6109,7 @@
 * [JInputValidator](https://github.com/rhwood/jinputvalidator)：Java Swing的InputVerifier，在验证组件的右侧显示验证状态。
 * [SwingX](https://github.com/arotenberg/swingx)：SwingX是一个扩展Java Swing库的组件和实用程序库。
 * [SwingBox](https://github.com/radkovo/SwingBox)：SwingBox是一个Java Swing组件，允许显示包含CSS支持的(X)HTML文档。
-* [Swing Toast Notifications](https://github.com/DJ-Raven/swing-toast-notifications)：Java桌面应用程序使用Swing Toast通知。
+* [Swing Toast Notifications](https://github.com/DJ-Raven/swing-toast-notifications)：适用于Java桌面应用程序的Swing Toast通知。
 * [TableFilter](https://coderazzi.net/tablefilter/)：TableFilter是一组Swing组件，用于支持用户自定义的表格过滤功能。
 * [GC4S](https://github.com/sing-group/GC4S)：GC4S是一个开源库，为Swing提供面向生物信息学的GUI组件集合，由维戈大学开源。
 * [GlazedLists](https://github.com/glazedlists/glazedlists)：Java的开源List转换。
@@ -6144,6 +6154,7 @@
 * [VTM](https://github.com/mapsforge/vtm)：OpenGL矢量地图库-在Android、iOS、桌面和浏览器上运行。
 * [JPlotter](https://github.com/hageldave/JPlotter)：使用AWT和LWJGL的基于OpenGL的Java 2D绘图库。
 * [GRAL](https://github.com/eseifert/gral)：GRAL是一个用于显示图表的免费Java库。
+* [Java Swing Custom Chart](https://github.com/DJ-Raven/java-swing-custom-chart)：Java Swing自定义图表库。
 
 #### Swing测试库
 
@@ -6644,6 +6655,7 @@
 * [QStudio](https://github.com/timeseries/qstudio)：QStudio是一个免费的SQL GUI，它允许运行SQL脚本、轻松浏览表格、绘制图表和导出结果，由TimeStored开源。
 * [Rel](https://reldb.org/c/)：Rel是一个主要用于教育目的的DBMS，但也适合用作桌面DBMS或轻量级服务器。
 * [ODC](https://github.com/oceanbase/odc)：ODC是一款开源、全能的跨场景数据库协同开发和数据管理工具，阿里开源。
+* [WeSync](https://github.com/rememberber/WeSync)：WeSync是Swing开发的数据库同步软件。
 * [JookDB](https://jookdb.com/)：免费通用的数据库管理工具，支持多种数据库，由杰恩软件公司开发。
 * [CloudBeaver](https://github.com/dbeaver/cloudbeaver)：CloudBeaver是一个云数据库管理器，提供丰富的Web界面。
 * [EXperDB Management](https://github.com/experdb/eXperDB-Management)：EXperDB Management是一款PostgreSQL管理工具。
@@ -8621,7 +8633,6 @@
 * [UnboundID LDAP SDK](https://github.com/pingidentity/ldapsdk)：UnboundID LDAP
   SDK是一个快速、功能强大、用户友好且完全免费的开源Java库，用于与LDAP目录服务器进行通信。
 * [Apache DS](https://github.com/apache/directory-server)：DS是一个完全用Java编写的可扩展、可嵌入的目录服务器，已通过Open Group认证，兼容LDAPv3。
-* [OpenDJ Community Edition](https://github.com/ForgeRock/opendj-community-edition)：OpenDJ是一个目录服务器，它实现了广泛的轻量级目录访问协议和相关标准，包括完全符合LDAPv3，而且还支持目录服务标记语言。
 * [Apache Directory Kerby](https://github.com/apache/directory-kerby)：Directory子项目，是Java Kerberos绑定。它提供了丰富、直观且可互操作的实现、库、KDC和各种设施，根据云、Hadoop和移动等现代环境的需要集成了PKI、OTP和令牌。
 * [Apache Directory Studio](https://github.com/apache/directory-studio)：Directory Studio是一个完整的目录工具平台，旨在与任何LDAP服务器一起使用，但它是专门为与ApacheDS一起使用而设计的。
 * [Spring Data LDAP](https://github.com/spring-projects/spring-data-ldap)：Spring Data LDAP项目旨在为Spring LDAP提供熟悉且一致的存储库抽象。

@@ -223,6 +223,7 @@
     * [测试报告](docs/doc2.md#测试报告)
     * [多线程测试](docs/doc2.md#多线程测试)
     * [POJO测试](docs/doc2.md#POJO测试)
+    * [日志测试](docs/doc2.md#日志测试)
     * [JUnit扩展](docs/doc2.md#JUnit扩展)
     * [其他测试库](docs/doc2.md#其他测试库)
     * [Spring测试](docs/doc2.md#Spring测试)
@@ -3601,7 +3602,7 @@
 * [JCache RI](https://github.com/jsr107/RI)：JCache的参考实现。
 * [Xanthic](https://github.com/Xanthic/cache-api)：该库提供了一个简化的接口，用于与JVM上的内存缓存实现进行交互。
 * [OffHeap Store](https://github.com/Terracotta-OSS/offheap-store)：OffHeap Store是一个库，提供一组Map和缓存实现，用于在普通Java堆之外存储数据。
-* [Apache DirectMemory](https://directmemory.apache.org/)：DirectMemory是JVM的堆外缓存。
+* [Apache DirectMemory](https://directmemory.apache.org/)：Apache DirectMemory是一种多层缓存实现，具有堆外内存存储，可在不降低JVM性能的情况下缓存Java对象。
 * [CarbonJ](https://github.com/salesforce/carbonj)：CarbonJ是Carbon Cache和Carbon Relay的直接替代品，它在设计时考虑了高性能读写吞吐量，由Salesforce开源。
 * [BlazingCache](https://github.com/diennea/blazingcache)：BlazingCache是分布式Java应用程序的快速缓存。
 * [RubiX](https://github.com/qubole/rubix)：RubiX是一个可供大数据引擎使用的轻量级数据缓存框架。
