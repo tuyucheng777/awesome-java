@@ -329,7 +329,10 @@
 * [CLI工具](docs/doc2.md#CLI工具)
 * [命令行参数解析](docs/doc2.md#命令行参数解析)
 * [cURL](docs/doc2.md#cURL)
-* [Git工具](docs/doc2.md#Git工具)
+* [Git](docs/doc2.md#Git)
+    * [Git服务器](docs/doc2.md#Git服务器)
+    * [Git工具](docs/doc2.md#Git工具)
+    * [Git API](docs/doc2.md#Git-API)
 * [集合库](docs/doc2.md#集合库)
 * [数组库](docs/doc2.md#数组库)
 * [函数式编程](docs/doc2.md#函数式编程)
@@ -457,7 +460,6 @@
 * [推送SDK](docs/doc2.md#推送SDK)
 * [Webhook](docs/doc2.md#Webhook)
 * [API&客户端](docs/doc2.md#API客户端)
-    * [Git](docs/doc2.md#Git)
     * [Twitter](docs/doc2.md#Twitter)
     * [Facebook](docs/doc2.md#Facebook)
     * [Instagram](docs/doc2.md#Instagram)
@@ -991,6 +993,7 @@
 
 #### REST框架
 
+* [Jakarta REST](https://github.com/jakartaee/rest)：Jakarta RESTful Web Services提供了规范文档、TCK和基础API，以按照REST架构模式开发Web服务。
 * [Rest.li](https://github.com/linkedin/rest.li)：Rest.li是一个开源REST框架，用于使用类型安全绑定和异步、非阻塞IO构建健壮、可扩展的RESTful架构，由LinkedIn开源。
 * [Eclipse Jersey](https://github.com/eclipse-ee4j/jersey)：Jersey是一个REST框架，提供JAX-RS参考实现等，由Oracle开源。
 * [Dropwizard](https://github.com/dropwizard/dropwizard)：Dropwizard是一个Java框架，用于开发操作友好、高性能、RESTful Web Service，由Yammer开源。
