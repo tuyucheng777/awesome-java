@@ -2720,6 +2720,8 @@
 * [Swagger Brake](https://github.com/redskap/swagger-brake)：Swagger-Brake是一个简单的工具，可以验证新版本的API是否会破坏现有版本。
 * [OpenAPI Processor Spring](https://github.com/openapi-processor/openapi-processor-spring)：适用于Spring Boot的OpenAPI 3.0和3.1接口和模型Java代码生成器。
 * [Swagger Codegen Generators](https://github.com/swagger-api/swagger-codegen-generators)：Swagger Codegen Generators项目是Swagger Codegen 3.0.0项目在其针对特定语言或语言框架的代码生成过程中使用的一组类和模板。
+* [SpringDoc OpenAPI Gradle Plugin](https://github.com/springdoc/springdoc-openapi-gradle-plugin)：此插件允许你从Gradle构建中为Spring Boot应用程序生成OpenAPI 3规范。
+* [Gradle Swagger Generator Plugin](https://github.com/int128/gradle-swagger-generator-plugin)：用于OpenAPI YAML验证、代码生成和API文档发布的Gradle插件。
 * [Swagger Inflector](https://github.com/swagger-api/swagger-inflector)：该项目使用Swagger规范来驱动API实现。
 * [Guardrail](https://github.com/guardrail-dev/guardrail)：Guardrail是一个代码生成工具，能够读取OpenAPI/Swagger规范文件并生成Scala和Java源代码。
 * [Swagger Gradle Codegen](https://github.com/Yelp/swagger-gradle-codegen)：用于从Swagger规范文件生成网络代码的Gradle插件。
@@ -3137,6 +3139,7 @@
 ## 容器化工具
 
 * [Jib](https://github.com/GoogleContainerTools/jib)：Jib无需Docker守护进程即可为Java应用程序构建优化的Docker和OCI镜像，它可作为Maven和Gradle的插件以及Java库使用，由Google开源。
+* [Eclipse JKube](https://github.com/eclipse/jkube)：JKube是插件和库的集合，用于使用Docker、JIB或S2I构建策略构建容器镜像。
 * [Dockerfile Maven](https://github.com/spotify/dockerfile-maven)：该库包含一组用于处理Dockerfile的Maven工具，由Spotify开源。
 * [Docker Maven Plugin](https://github.com/spotify/docker-maven-plugin)：用于构建和推送Docker镜像的Maven插件，Spotify开源，该项目不再活跃。
 * [Helios](https://github.com/spotify/helios)：Helios是一个Docker编排平台，用于跨整个服务器群部署和管理容器，由Spotify开源。
@@ -3145,8 +3148,12 @@
 * [Docker Maven Plugin](https://github.com/alexec/docker-maven-plugin)：该项目旨在让你能够轻松地在容器上构建应用程序、测试它并将其推送到Docker仓库。
 * [Docker Maven Plugin](https://github.com/wouterd/docker-maven-plugin)：一个Maven插件，用于为Maven项目创建、测试和发布Docker容器和镜像。
 * [Docker Compose Maven Plugin](https://github.com/Systemmanic/docker-compose-maven-plugin)：使用Maven运行Docker Compose。
+* [Docker Gradle Plugin](https://github.com/palantir/gradle-docker)：用于协调Docker构建和推送的Gradle插件，由Palantir开源。
+* [Gradle Docker Plugin](https://github.com/bmuschko/gradle-docker-plugin)：用于管理Docker镜像和容器的Gradle插件。
+* [Gradle Docker plugin](https://github.com/Transmode/gradle-docker)：Gradle插件增加了从构建脚本构建和发布Docker镜像的功能。
+* [Gradle Docker Compose Plugin](https://github.com/avast/gradle-docker-compose-plugin)：简化在Gradle环境中使用Docker Compose进行本地开发和集成测试。
+* [Gradle Docker Plugin](https://github.com/gesellix/gradle-docker-plugin)：另一个Gradle插件，让你的构建脚本可以轻松地与Docker守护进程通信。
 * [Terrakube](https://github.com/AzBuilder/terrakube)：Terrakube是一个开源协作平台，用于使用Terraform或OpenTofu将远程基础设施作为代码操作运行。
-* [Eclipse JKube](https://github.com/eclipse/jkube)：JKube是插件和库的集合，用于使用Docker、JIB或S2I构建策略构建容器镜像。
 * [Cattle](https://github.com/rancher/cattle)：Cattle是为Rancher提供支持的编排引擎，它的主要作用是元数据管理和外部系统的编排。
 * [Stargate](https://github.com/ppdaicorp/stargate)：Stargate是一个基于Kubernetes和Docker的应用发布平台，由信也科技开源。
 * [HyScale](https://github.com/hyscale/hyscale)：HyScale是基于K8s的以应用程序为中心的抽象框架。
@@ -3497,6 +3504,7 @@
 * [Dependency Check](https://github.com/dependency-check/DependencyCheck)：OWASP DependencyCheck是一种软件组合分析实用程序，可检测应用程序依赖中公开披露的漏洞。
 * [Depends](https://github.com/multilang-depends/depends)：Depends是一个源代码依赖提取工具，旨在从各种编程语言推断源代码实体(例如文件和方法)之间的语法关系。
 * [Jarviz](https://github.com/ExpediaGroup/jarviz)：Jarviz是专为Java应用程序设计的依赖分析和可视化工具，由Expedia开源。
+* [Dependency Analysis Gradle Plugin](https://github.com/autonomousapps/dependency-analysis-gradle-plugin)：提供有关管理依赖项和其他应用插件的建议。
 * [Classycle](https://classycle.sourceforge.net/)：Classycle可以分析Java应用程序或库中的静态类和包依赖关系。
 * [DepAn](https://github.com/google/depan)：DepAn是一个直接操作工具，用于可视化、分析和重构大型应用程序中的依赖关系，Google开源。
 * [JDependency](https://github.com/tcurdt/jdependency)：JDependency是一个小型库，可帮助你分析类级依赖关系、冲突和缺失类。
@@ -3506,6 +3514,10 @@
 * [MissingLink](https://github.com/spotify/missinglink)：用于检测Java项目中链接问题的构建时工具，由Spotify开源。
 * [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort)：OSS Review Toolkit是一个FOSS策略自动化和编排工具包，你可以使用它以战略、安全和高效的方式管理你的软件依赖项。
 * [Eureka](https://github.com/LegacyCodeHQ/eureka)：与Kotlin和Java代码库兼容的突破性工具。
+* [Dependency Check Gradle](https://github.com/dependency-check/dependency-check-gradle)：Dependency Check Gradle允许项目监控依赖库中已知、已发布的漏洞。
+* [Gradle Dependency Graph Generator Plugin](https://github.com/vanniktech/gradle-dependency-graph-generator-plugin)：可让你在图表中可视化依赖关系的Gradle插件。
+* [Gradle Dependency Analyze](https://github.com/gradle-dependency-analyze/gradle-dependency-analyze)：Gradle的依赖分析插件。
+* [DepClean](https://github.com/ASSERT-KTH/depclean)：DepClean自动检测并删除Maven项目中未使用的依赖，由瑞士皇家理工学院开源。
 
 #### 污点分析
 
@@ -9158,7 +9170,6 @@
 * [Polyglot Maven](https://github.com/takari/polyglot-maven)：Polyglot Maven是Maven 3.3.1+的一组扩展，允许使用XML以外的方言编写POM模型。
 * [JAXB Tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
 * [Aadarchi](https://github.com/Riduidel/aadarchi)：Aadarchi是一个Maven原型，可轻松生成项目，允许使用C4、敏捷架构、Asciidoc和PlantUML的组合进行架构描述。
-* [DepClean](https://github.com/ASSERT-KTH/depclean)：DepClean自动检测并删除Maven项目中未使用的依赖，由瑞士皇家理工学院开源。
 * [Maven Javadoc Plugin](https://github.com/apache/maven-javadoc-plugin)：Javadoc插件使用Javadoc工具为指定项目生成javadoc。
 * [GitFlow Helper Maven Plugin](https://github.com/egineering-llc/gitflow-helper-maven-plugin)：一个构建扩展和插件，可帮助Maven与gitflow项目、CI服务器和本地开发完美配合。
 * [Modernizer Maven Plugin](https://github.com/gaul/modernizer-maven-plugin)：Modernizer Maven插件检测现代Java版本取代的遗留API的使用。
@@ -9193,7 +9204,6 @@
 * [Helm Maven Plugin](https://github.com/kokuwaio/helm-maven-plugin)：这是一个用于测试、打包和上传HELM图表的Maven插件。
 * [Maven Download Plugin](https://github.com/maven-download-plugin/maven-download-plugin)：该插件可帮助Maven用户在Maven构建过程中下载不同协议上的不同文件。
 * [Yeoman Maven Plugin](https://github.com/trecloux/yeoman-maven-plugin)：使用此插件可以将yeoman构建集成到你的Maven构建中。
-* [Maven Dependency Plugin](https://github.com/apache/maven-dependency-plugin)：Dependency插件提供了操作工件的能力，它可以将工件从本地或远程仓库复制和/或解压到指定位置。
 * [Spring MVC-RAML Plugin](https://github.com/phoenixnap/springmvc-raml-plugin)：Spring MVC-RAML项目旨在为使用Spring MVC框架的项目强制实施契约优先方法。
 * [Git Build Hook Maven Plugin](https://github.com/rudikershaw/git-build-hook)：一个用于添加配置、安装git hooks以及初始化本地项目的git仓库的Maven插件。
 * [Libsass Maven Plugin](https://github.com/warmuuh/libsass-maven-plugin)：Libsass Maven插件使用libsass编译sass文件。
@@ -9253,6 +9263,7 @@
 * [MojoHaus BuildPlan Maven Plugin](https://github.com/mojohaus/buildplan-maven-plugin)：用于检查项目生命周期的Maven插件。
 * [Maven Assembly Plugin](https://github.com/apache/maven-assembly-plugin)：Assembly插件使开发人员能够将项目输出组合成一个可分发的档案，其中还包含依赖项、模块、站点文档和其他文件。
 * [Protobuf Maven Plugin](https://github.com/ascopes/protobuf-maven-plugin)：Maven的现代Protobuf集成，包括对二进制和JAR协议插件的支持。
+* [Maven Dependency Plugin](https://github.com/apache/maven-dependency-plugin)：Dependency插件提供了操作工件的能力，它可以将工件从本地或远程仓库复制和/或解压到指定位置。
 
 ## Gradle插件
 
@@ -9260,8 +9271,24 @@
 * [Build Time Tracker](https://github.com/passy/build-time-tracker-plugin)：可以持续跟踪和报告构建时间的Gradle插件。
 * [Dexcount Gradle Plugin](https://github.com/KeepSafe/dexcount-gradle-plugin)：用于报告每次构建时APK中方法引用的数量。
 * [Hunter](https://github.com/Leaking/Hunter)：一个快速、增量、并发的框架，用于开发Android项目的编译插件来操作字节码。
-* [Gradle Shadow](https://github.com/johnrengelman/shadow)：Gradle插件，用于创建fat/uber JAR，支持包重定位。
-* [Gradle Docker Plugin](https://github.com/bmuschko/gradle-docker-plugin)：用于管理Docker镜像和容器的Gradle插件。
+* [Gradle Shadow](https://github.com/GradleUp/shadow)：Gradle插件，用于创建fat/uber JAR，支持包重定位。
+* [Packer-NG Gradle Plugin](https://github.com/mcxiaoke/packer-ng-plugin)：下一代Android打包工具。
+* [Gradle Versions Plugin](https://github.com/ben-manes/gradle-versions-plugin)：此插件提供了一个任务来确定哪些依赖项有更新。
+* [Bintray Release](https://github.com/novoda/bintray-release)：这是一个将库发布到Bintray的助手。
+* [Protobuf Gradle Plugin](https://github.com/google/protobuf-gradle-plugin)：Gradle插件，用于编译项目中的Protocol Buffer定义文件(*.proto)。
+* [Gradle Maven Publish Plugin](https://github.com/vanniktech/gradle-maven-publish-plugin)：Gradle插件可将你的Android和Kotlin库发布到Maven Central或任何其他Nexus实例。
+* [IntelliJ Platform Gradle Plugin](https://github.com/JetBrains/intellij-platform-gradle-plugin)：IntelliJ Platform Gradle Plugin是Gradle构建系统的插件，可帮助你配置基于IntelliJ的IDE的构建、测试、验证和发布插件的环境。
+* [Gradle Bintray Plugin](https://github.com/bintray/gradle-bintray-plugin)：Gradle Bintray插件允许你将工件发布到Bintray。
+* [Secrets Gradle Plugin](https://github.com/google/secrets-gradle-plugin)：Gradle插件，用于为你的Android项目提供机密信息。
+* [Gradle Task Tree](https://github.com/dorongold/gradle-task-tree)：将任务依赖树报告打印到控制台的Gradle插件。
+* [Gradle Release](https://github.com/researchgate/gradle-release)：Gradle Release插件的设计与Maven发布插件类似。
+* [Gradle Node Plugin](https://github.com/srs/gradle-node-plugin)：此插件使你能够在构建过程中使用许多基于NodeJS的技术，而无需在系统上本地安装NodeJS。
+* [Gradle Lint Plugin](https://github.com/nebula-plugins/gradle-lint-plugin)：Gradle Lint Plugin是一个可插入且可配置的Linter工具，用于识别和报告Gradle脚本和相关文件中的误用或弃用模式。
+* [Gogradle](https://github.com/gogradle/gogradle)：Gogradle是一个Gradle插件，提供对构建Golang的支持。
+* [Gradle Doctor](https://github.com/runningcode/gradle-doctor)：适合你的Gradle构建的正确处方。
+* [Gradle BuildConfig Plugin](https://github.com/gmazzo/gradle-buildconfig-plugin)：用于为任何类型的Gradle项目生成BuildConstants的插件。
+* [IHub Plugins](https://github.com/ihub-pub/plugins)：IHub Plugins是一套为Gradle项目提供基础设施的插件集，可以极大简化项目配置。
+* [HiBeaver](https://github.com/hydraxman/hibeaver)：HiBeaver是一个用于进行Java字节码插桩的Gradle插件。
 * [Dependency Management Plugin](https://github.com/spring-gradle-plugins/dependency-management-plugin)：提供类似Maven的依赖管理功能。
 * [Gradle Test Logger Plugin](https://github.com/radarsh/gradle-test-logger-plugin)：用于在运行测试时在控制台上打印漂亮日志的Gradle插件。
 * [JavaFX Gradle Plugin](https://github.com/openjfx/javafx-gradle-plugin)：简化使用JavaFX 11+ Gradle项目的插件。
@@ -9269,6 +9296,71 @@
 * [GluonFX Gradle Plugin](https://github.com/gluonhq/gluonfx-gradle-plugin)：简化使用Gluon Client处理Java/JavaFX Gradle项目的插件。
 * [Google Play Gradle Plugin](https://github.com/google/play-services-plugins)：帮助使用Google Play服务SDK的插件。
 * [Clean Architecture Gradle Plugin](https://github.com/bancolombia/scaffold-clean-architecture)：用于按照最佳实践创建基于Clean Architecture的Java和Kotlin应用程序的Gradle插件，由哥伦比亚银行开源。
+* [Gradle Download Task](https://github.com/michel-kraemer/gradle-download-task)：向Gradle添加下载任务以显示进度信息。
+* [JMH Gradle Plugin](https://github.com/melix/jmh-gradle-plugin)：该插件将JMH微基准测试框架与Gradle集成。
+* [Licensee](https://github.com/cashapp/licensee)：Gradle插件可验证你的依赖图的许可证是否与你的期望相符，否则会导致构建失败。
+* [Gretty](https://github.com/akhikhl/gretty)：Gretty是一个功能丰富的Gradle插件，用于在嵌入式Servlet容器上运行Web应用程序。
+* [Gradle Node Plugin](https://github.com/node-gradle/gradle-node-plugin)：该插件使你能够在构建过程中使用许多基于Node.js的技术，而无需在系统本地安装Node.js。
+* [Affected Module Detector](https://github.com/dropbox/AffectedModuleDetector)：Gradle插件用于确定哪些模块受到提交中的一组文件的影响。
+* [Gradle Advanced Build Version Plugin](https://github.com/moallemi/gradle-advanced-build-version)：一个根据Git提交数量、日期和自动生成Android版本代码和版本名称的插件。
+* [Marathon](https://github.com/MarathonLabs/marathon)：Marathon是一个帮助在最短时间内执行测试的项目。
+* [Version Catalog Update Plugin](https://github.com/littlerobots/version-catalog-update-plugin)：该插件有助于保持Gradle版本目录Toml文件中的版本为最新版本。
+* [PyGradle](https://github.com/linkedin/pygradle)：PyGradle是一个企业级Python构建系统，由LinkedIn开源。
+* [Talaiot](https://github.com/cdsap/Talaiot)：Talaiot是一个可扩展的库，针对使用Gradle构建系统的团队。
+* [Axion Release Plugin](https://github.com/allegro/axion-release-plugin)：Gradle发布和版本管理插件，由Allegro开源。
+* [JaCoCo Android Gradle Plugin](https://github.com/arturdm/jacoco-android-gradle-plugin)：Gradle插件为每个Android应用程序和库项目变体的单元测试添加了完全配置的JacocoReport任务。
+* [Gradle Git](https://github.com/ajoberstar/gradle-git)：Gradle的Git插件。
+* [Gradle Tomcat Plugin](https://github.com/bmuschko/gradle-tomcat-plugin)：该插件提供了将Web应用程序部署到任何给定的Gradle构建中的嵌入式Tomcat Web容器的功能。
+* [Gradle jOOQ Plugin](https://github.com/etiennestuder/gradle-jooq-plugin)：集成jOOQ代码生成工具的Gradle插件。
+* [Gradle XCode Plugin](https://github.com/openbakery/gradle-xcodePlugin)：Gradle XCode Plugin通过在单个配置文件中指定构建设置，可以更轻松地构建Xcode项目。
+* [Dependency Guard](https://github.com/dropbox/dependency-guard)：Gradle插件可帮助你防止意外的依赖项更改。
+* [Gradle Nexus Publish Plugin](https://github.com/gradle-nexus/publish-plugin)：用于发布到Nexus仓库的Gradle插件。
+* [Gradle License Plugin](https://github.com/jaredsburrows/gradle-license-plugin)：该插件提供了根据配置生成HTML许可证报告的任务。
+* [License Gradle Plugin](https://github.com/hierynomus/license-gradle-plugin)：该插件将扫描并调整你的源文件以包含提供的标头。
+* [Badass JLink Plugin](https://github.com/beryx/badass-jlink-plugin)：使用此Gradle插件，你可以用最少的努力创建模块化应用程序的自定义运行时镜像，即使它依赖于自动模块。
+* [Gradle Static Analysis Plugin](https://github.com/novoda/gradle-static-analysis-plugin)：Gradle插件可轻松在不同的Android、Java或Kotlin项目中应用相同的静态分析工具设置。
+* [Focus](https://github.com/dropbox/focus)：Gradle插件可通过排除不必要的模块来帮助你加快构建速度。
+* [Gradle Android JUnit JaCoCo Plugin](https://github.com/vanniktech/gradle-android-junit-jacoco-plugin)：Gradle插件可从Android Gradle项目生成JaCoCo报告。
+* [Gradle ErrorProne Plugin](https://github.com/tbroyer/gradle-errorprone-plugin)：该插件配置JavaCompile任务以使用Error Prone。
+* [Android Unused Resources Remover Plugin](https://github.com/konifar/gradle-unused-resources-remover-plugin)：Gradle插件可删除Android项目中未使用的资源。
+* [Gradle Linux Packaging Plugin](https://github.com/nebula-plugins/gradle-ospackage-plugin)：该插件使用规范的Gradle Copy Specs提供基于Gradle的系统包组装，通常适用于基于RedHat和Debian的发行版。
+* [Gradle Code Quality Tools Plugin](https://github.com/vanniktech/gradle-code-quality-tools-plugin)：配置Checkstyle、PMD、CPD、Lint、Detekt和Ktlint的Gradle插件。
+* [Gradle License Report](https://github.com/jk1/Gradle-License-Report)：用于生成有关Gradle项目依赖项许可证的报告的插件。
+* [Gradle Git Properties](https://github.com/n0mer/gradle-git-properties)：这个Gradle插件可用于为基于Git的项目生成git.properties文件。
+* [Gradle SSH Plugin](https://github.com/int128/gradle-ssh-plugin)：Gradle SSH Plugin提供SSH功能，例如Gradle上的命令执行或文件传输。
+* [Gradle Launch4j](https://github.com/TheBoegl/gradle-launch4j)：使用Launch4j创建Windows可执行文件的Gradle插件。
+* [Gradle Dependency Lock Plugin](https://github.com/nebula-plugins/gradle-dependency-lock-plugin)：允许使用动态依赖版本将其锁定到特定版本。
+* [Gradle APT Plugin](https://github.com/tbroyer/gradle-apt-plugin)：Gradle插件使使用Java注解处理器变得更容易/更安全。
+* [Gradle Sonatype Nexus Plugin](https://github.com/bmuschko/gradle-nexus-plugin)：该插件提供配置和上传工件到Sonatype Nexus的支持。
+* [Gradle Changelog Plugin](https://github.com/JetBrains/gradle-changelog-plugin)：用于以“保留变更日志”风格解析和管理变更日志的插件。
+* [Paraphrase](https://github.com/JakeWharton/paraphrase)：一个实验性的Gradle插件，可生成编译安全的格式字符串构建器。
+* [Gradle Android Git Version](https://github.com/gladed/gradle-android-git-version)：一个Gradle插件，用于从Git标签计算Android友好的版本名称和代码。
+* [Gradle Cargo Plugin](https://github.com/bmuschko/gradle-cargo-plugin)：Gradle插件通过Cargo为本地和远程容器提供部署功能。
+* [Gradle Plugins](https://github.com/freefair/gradle-plugins)：Gradle插件集合。
+* [Gradle TestSets Plugin](https://github.com/unbroken-dome/gradle-testsets-plugin)：Gradle构建系统的插件，允许指定测试集。
+* [Gradle Witness](https://github.com/signalapp/gradle-witness)：一个支持对远程依赖项进行静态验证的Gradle插件。
+* [Gradle One Jar](https://github.com/rholder/gradle-one-jar)：该插件将你当前项目的JAR及其所有依赖项汇总到One JAR所需的布局中，生成一个可运行的FatJar。
+* [App Versioning](https://github.com/ReactiveCircus/app-versioning)：Gradle插件用于从Git标签延迟生成Android应用程序的versionCode和versionName。
+* [Versioning](https://github.com/nemerosa/versioning)：Gradle插件从SCM分支生成版本信息。
+* [Gradle Properties Plugin](https://github.com/stevesaliman/gradle-properties-plugin)：Properties是一个实用的插件，它可以改变Gradle从各种属性文件加载属性的方式。
+* [Google Java Format Gradle Plugin](https://github.com/sherter/google-java-format-gradle-plugin)：Gradle 插件利用Google Java Format来格式化Gradle项目中的Java源文件。
+* [Gradle Best Practices Plugin](https://github.com/autonomousapps/gradle-best-practices-plugin)：可检测Gradle插件中违反Gradle最佳实践的情况。
+* [Gradle Credentials Plugin](https://github.com/etiennestuder/gradle-credentials-plugin)：Gradle插件用于存储和访问用于Gradle构建的加密凭证。
+* [Gradle FatJar Plugin](https://github.com/musketyr/gradle-fatjar-plugin)：Gradle FatJar允许你创建包含所有依赖的JAR文件。
+* [Gradle Nexus Staging Plugin](https://github.com/Codearte/gradle-nexus-staging-plugin)：Gradle插件提供关闭和提升/发布暂存仓库的任务。
+* [Gradle BuildConfig Plugin](https://github.com/mfuerstenau/gradle-buildconfig-plugin)：Gradle Java项目的BuildConfig插件。
+* [ClassPlugin](https://github.com/dinuscxj/ClassPlugin)：ClassPlugin是Gradle的一个灵活的类替换插件。
+* [Frontend Gradle Plugin](https://github.com/siouan/frontend-gradle-plugin)：一体化Gradle Node/NPM/PNPM/Yarn插件，使用支持Corepack的包管理器构建、测试、部署JavaScript应用程序。
+* [Enigma](https://github.com/christopherney/Enigma)：混淆器字符串加密的Gradle插件。
+* [Extra Java Module Info Gradle plugin](https://github.com/gradlex-org/extra-java-module-info)：一个Gradle 6.8+插件，用于在模块化Java项目中将旧版Java库用作Java模块。
+* [Clojurephant](https://github.com/clojurephant/clojurephant)：Gradle插件为Clojure和ClojureScript语言提供支持。
+* [KtFmt Gradle](https://github.com/cortinico/ktfmt-gradle)：一个将KtFmt应用于你的Gradle构建的包装器，并重新格式化你的Kotlin源代码。
+* [Badass Runtime Plugin](https://github.com/beryx/badass-runtime-plugin)：使用此Gradle插件，你可以为非模块化应用程序创建自定义运行时镜像。
+* [Gratatouille](https://github.com/GradleUp/gratatouille)：Gratatouille是一个用于构建Gradle插件的框架。
+* [Genymotion Gradle Plugin](https://github.com/Genymobile/genymotion-gradle-plugin)：一个插件，允许你从Gradle脚本轻松控制所有Genymotion设备。
+* [Gradle Gatling Plugin](https://github.com/lkishalmi/gradle-gatling-plugin)：Gradle的Gatling插件。
+* [Gatling Gradle Plugin](https://github.com/gatling/gatling-gradle-plugin)：Gradle的Gatling官方插件。
+* [GCP Gradle Build Cache](https://github.com/androidx/gcp-gradle-build-cache)：Gradle远程缓存的实现，由Google Cloud Storage或AWS S3存储桶支持。
 * [WSDL2Java Gradle Plugin](https://github.com/nilsmagnus/wsdl2java)：用于从WSDL文件生成Java源代码的Gradle插件。
 * [Git-Version Gradle Plugin](https://github.com/palantir/gradle-git-version)：使用git describe生成版本字符串的Gradle插件。
 * [Gradle Avro Plugin](https://github.com/davidmc24/gradle-avro-plugin)：允许轻松执行Avro的Java代码生成的Gradle插件。
@@ -9277,9 +9369,9 @@
 * [Gradle Modules Plugin](https://github.com/java9-modularity/gradle-modules-plugin)：这个Gradle插件有助于使用Java 9平台模块系统。
 * [Android SVG Drawable](https://github.com/avianey/androidsvgdrawable-plugin)：可在Android项目构建时从SVG文件生成合格的、特定于密度的PNG绘图。
 * [OkBuck Gradle Plugin](https://github.com/uber/okbuck)：OkBuck是一个Gradle插件，允许开发人员在Gradle项目上使用Buck构建系统，由Uber开源。
-* [Gradle Dependency Graph Generator Plugin](https://github.com/vanniktech/gradle-dependency-graph-generator-plugin)：可让你在图表中可视化依赖关系的Gradle插件。
 * [Gradle Graal](https://github.com/palantir/gradle-graal)：一个Gradle插件，添加了下载、提取任务以及与GraalVM工具交互的任务。
-* [Gradle Dependency Analyze](https://github.com/gradle-dependency-analyze/gradle-dependency-analyze)：Gradle的依赖分析插件。
+* [Module Graph Assert](https://github.com/jraska/modules-graph-assert)：Gradle插件可帮助你保持模块图健康和精简。
+* [Module Graph Plugin](https://github.com/iurysza/module-graph)：一个由Mermaid提供支持的用于可视化项目结构的Gradle插件。
 
 ## Intellij插件
 
