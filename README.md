@@ -218,6 +218,7 @@
     * [测试生成器](docs/doc2.md#测试生成器)
     * [参数化测试](docs/doc2.md#参数化测试)
     * [Selenium库](docs/doc2.md#Selenium库)
+    * [Cucumber库](docs/doc2.md#Cucumber库)
     * [自动化框架](docs/doc2.md#自动化框架)
     * [自动化工具](docs/doc2.md#自动化工具)
     * [QA自动化](docs/doc2.md#QA自动化)
@@ -575,6 +576,7 @@
     * [JavaFX图表库](docs/doc2.md#JavaFX图表库)
     * [JavaFX图标库](docs/doc2.md#JavaFX图标库)
     * [JavaFX布局库](docs/doc2.md#JavaFX布局库)
+    * [JavaFX动画库](docs/doc2.md#JavaFX动画库)
     * [JavaFX渲染库](docs/doc2.md#JavaFX渲染库)
     * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
     * [浏览器](docs/doc2.md#浏览器)
@@ -1396,6 +1398,7 @@
 * [Snacktory](https://github.com/karussell/snacktory)：Java的Readability克隆。
 * [Crux](https://github.com/chimbori/crux)：Crux提供灵活的基于插件的API和实现，用于从网页中提取元数据。
 * [Goose](https://github.com/GravityLabs/goose)：Goose是一个用Scala编写的文章提取器。
+* [HtmlUnit](https://github.com/HtmlUnit/htmlunit)：HtmlUnit是Java程序的无GUI浏览器。
 * [JReadability](https://github.com/wuman/JReadability)：JReadability是一个Java库，它将HTML作为输入进行解析并返回干净、易读的文本。
 * [Gecco](https://github.com/xtuhcy/gecco)：Gecco集成了Jsoup、HttpClient、FastJson、Spring、HtmlUnit、Redission框架，让你只需要配置一些JQuery风格的选择器就可以非常快速的编写一个爬虫。
 * [SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)：SeimiCrawler是一个敏捷、独立部署、支持分布式的Java爬虫框架。
