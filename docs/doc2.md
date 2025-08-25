@@ -852,6 +852,15 @@
 * [Shell Analyzer](https://github.com/4ra1n/shell-analyzer)：通过Java Agent查杀内存马，提供简易方便的GUI界面。
 * [Code Inspector](https://github.com/4ra1n/code-inspector)：Code Inspector是一个Java自动代码审计工具，尤其针对Spring Boot框架。
 
+#### 安全培训
+
+* [CRAPI](https://github.com/OWASP/crAPI)：CRAPI在设计上很容易受到攻击，但你将能够安全地运行它来教育/培训自己，由OWASP开源。
+* [WebGoat](https://github.com/WebGoat/WebGoat)：WebGoat是由OWASP维护的故意不安全的Web应用程序，旨在教授Web应用程序安全课程。
+* [BodgeIt](https://github.com/psiinon/bodgeit)：BodgeIt Store是一个易受攻击的Web应用程序，目前针对渗透测试的新手。
+* [OWASP Benchmark](https://github.com/OWASP-Benchmark/BenchmarkJava)：OWASP Benchmark项目是一个Java测试套件，旨在验证漏洞检测工具的速度和准确性。
+* [OWASP Security Shepherd](https://github.com/OWASP/SecurityShepherd)：OWASP Security Shepherd项目是一个Web和移动应用程序安全培训平台，旨在培养和提高不同技能人群的安全意识。
+* [MASTG Hacking Playground](https://github.com/OWASP/MASTG-Hacking-Playground)：MASTG Hacking Playground是一系列教育性iOS和Android移动应用程序，这些应用程序故意构建为不安全的，以便为开发人员、安全研究人员和渗透测试人员提供实用指导。
+
 #### 自保护
 
 * [OpenRASP](https://github.com/baidu/openrasp)：OpenRASP是百度安全推出的一款免费、开源的应用运行时自我保护产品。
@@ -2164,7 +2173,7 @@
 * [cURL](https://github.com/libetl/curl)：在Java中使用cURL的库。
 * [Java cURL](https://github.com/rockswang/java-curl)：Java cURL是一个基于标准JDK中的HttpURLConnection实现的纯Java HTTP实用程序。
 
-## Git
+## 版本控制系统
 
 * [Eclipse JGit](https://eclipse.dev/jgit/)：JGit是一个纯Java类库，实现了Git版本控制系统。
 * [Gitective](https://github.com/kevinsawicki/gitective)：Gitective是一个基于JGit构建的Java库，它使得调查Git仓库变得更简单、更容易。
@@ -2200,6 +2209,18 @@
 * [Java Gitlab API](https://github.com/timols/java-gitlab-api)：用Java编写的Gitlab API包装器。
 * [Tea4j](https://codeberg.org/gitnex/tea4j-autodeploy)：适用于Gitea API的Java SDK。
 * [Bitbucket REST](https://github.com/cdancy/bitbucket-rest)：使用Bitbucket REST API的客户端库。
+
+#### 语义版本控制
+
+* [JSemVer](https://github.com/zafarkhaja/jsemver)：Java SemVer是语义版本控制规范的Java实现。
+* [Semver4j](https://github.com/vdurmont/semver4j)：一个处理版本的轻量级Java库，它遵循语义版本控制规范的规则，提供多种版本控制模式。
+* [Semver4j](https://github.com/semver4j/semver4j)：Semver4j是一个轻量级Java库，可帮助你处理版本，它遵循语义版本控制规范的规则。
+* [JGitVer](https://github.com/jgitver/jgitver)：基于JGit的库，用于从Git树计算SemVer兼容版本。
+* [Version Compare](https://github.com/G00fY2/version-compare)：适用于Android、Java和Kotlin的轻量级库，用于比较版本字符串。
+* [Semantic Version](https://github.com/skuzzle/semantic-version)：Java的快速单类语义版本实现。
+* [Nyx](https://github.com/mooltiverse/nyx)：Nyx是一个强大、灵活且可配置性极高的语义发布工具。
+* [Semantic Versioning](https://github.com/jeluard/semantic-versioning)：Semantic Versioning是一个Java库，允许验证(使用字节码检查)库版本号是否遵循语义版本控制定义的语义版本控制原则。
+* [Reckon](https://github.com/ajoberstar/reckon)：用于从Git仓库推断下一个版本的API。
 
 ## 集合库
 
@@ -3156,7 +3177,7 @@
 ## 容器化工具
 
 * [Jib](https://github.com/GoogleContainerTools/jib)：Jib无需Docker守护进程即可为Java应用程序构建优化的Docker和OCI镜像，它可作为Maven和Gradle的插件以及Java库使用，由Google开源。
-* [Eclipse JKube](https://github.com/eclipse/jkube)：JKube是插件和库的集合，用于使用Docker、JIB或S2I构建策略构建容器镜像。
+* [Eclipse JKube](https://github.com/eclipse/jkube)：JKube是插件和库的集合，用于使用Docker、Jib或S2I构建策略构建容器镜像，由RedHat开源。
 * [Dockerfile Maven](https://github.com/spotify/dockerfile-maven)：该库包含一组用于处理Dockerfile的Maven工具，由Spotify开源。
 * [Docker Maven Plugin](https://github.com/spotify/docker-maven-plugin)：用于构建和推送Docker镜像的Maven插件，Spotify开源，该项目不再活跃。
 * [Helios](https://github.com/spotify/helios)：Helios是一个Docker编排平台，用于跨整个服务器群部署和管理容器，由Spotify开源。
@@ -7883,6 +7904,30 @@
 * [OSHI](https://github.com/oshi/oshi)：OSHI是一个免费的基于JNA的Java操作系统和硬件信息库，提供跨平台实现来检索系统信息，例如操作系统版本、进程、内存和CPU使用情况、磁盘和分区、设备、传感器等。
 * [JavaSysMon](https://github.com/jezhumble/javasysmon)：JavaSysMon旨在提供一种独立于操作系统的方式来管理操作系统进程并获取实时系统性能信息(例如CPU和内存使用情况)，并作为单个jar文件分发。
 
+## 外部进程执行
+
+* [NuProcess](https://github.com/brettwooldridge/NuProcess)：Java的低开销、非阻塞I/O、外部进程执行实现，它是java.lang.ProcessBuilder和java.lang.Process的替代品。
+* [Apache Commons Exec](https://github.com/apache/commons-exec)：Commons Exec是一个从JVM内可靠地执行外部进程的库。
+* [Ch.Vorburger.Exec](https://github.com/vorburger/ch.vorburger.exec)：这是一个小型库，允许在后台从Java代码启动外部进程。
+* [JProc](https://github.com/fleipold/jproc)：用于运行外部进程的Java库。
+* [Giraffe](https://github.com/palantir/giraffe)：Giraffe是一个Java库，可让你轻松访问本地和远程计算机上的文件并执行命令，由Palantir开源。
+* [Overthere](https://github.com/xebialabs/overthere)：Overthere是一个Java库，用于在远程主机上操作文件和执行进程。
+* [ZT EXEC](https://github.com/zeroturnaround/zt-exec)：Java进程执行库。
+* [ZT Process Killer](https://github.com/zeroturnaround/zt-process-killer)：停止从Java启动的进程或通过PID的系统进程。
+* [Winrm4j](https://github.com/cloudsoft/winrm4j)：Winrm4j是一个使Java应用程序能够使用WinRM在远程Windows服务器上执行批处理或PowerShell命令的项目。
+* [JNR Process](https://github.com/jnr/jnr-process)：JNR Process库提供了JDK ProcessBuilder API的直接替代品，但它不是线程泵填充程序，而是围绕posix_spawn C API的直接抽象，并提供可选择的in、out和err通道。
+* [WinP](https://github.com/jenkinsci/winp)：该项目可以让你更好地控制Windows进程，超越JDK中的可用功能。
+* [Jash](https://github.com/jbangdev/jbang-jash)：Jash是一个Java库，提供流式、可预测且具有出色开发人员体验的Process接口。
+* [jProcesses](https://github.com/profesorfalken/jProcesses)：使用Java获取跨平台进程详细信息。
+* [PE/COFF4J](https://github.com/kichik/pecoff4j)：PE/COFF4J是一个用于可移植可执行文件(Windows使用的格式)的Java工程库。
+* [Turtle](https://github.com/lordcodes/turtle)：Turtle简化了从Kotlin(或Java)代码运行外部命令和进程的过程。
+
+## 守护进程
+
+* [Termd](https://github.com/termd/termd)：用Java编写终端应用程序的开源库。
+* [Akuma](https://github.com/kohsuke/akuma)：Akuma是一个Java库，你可以在应用程序中使用它来支持Unix守护进程。
+* [SDNotify](https://github.com/faljse/SDNotify)：SDNotify在Java中实现了systemd通知协议。
+
 ## COM桥
 
 * [ComfyJ](https://teamdev.com/comfyj/)：ComfyJ是一款双向Java-COM桥接工具，用于提供COM到Java和Java到COM的交互连接。
@@ -8220,15 +8265,6 @@
 * [SignServer Community](https://github.com/Keyfactor/signserver-ce)：SignServer是基于PKI的开源签名软件，用于签署代码、文档、时间戳等。
 * [Apache Santuario](https://github.com/apache/santuario-xml-security-java)：Santuario是实现XML数字签名规范和XML加密规范的库。
 
-## 安全培训
-
-* [CRAPI](https://github.com/OWASP/crAPI)：CRAPI在设计上很容易受到攻击，但你将能够安全地运行它来教育/培训自己，由OWASP开源。
-* [WebGoat](https://github.com/WebGoat/WebGoat)：WebGoat是由OWASP维护的故意不安全的Web应用程序，旨在教授Web应用程序安全课程。
-* [BodgeIt](https://github.com/psiinon/bodgeit)：BodgeIt Store是一个易受攻击的Web应用程序，目前针对渗透测试的新手。
-* [OWASP Benchmark](https://github.com/OWASP-Benchmark/BenchmarkJava)：OWASP Benchmark项目是一个Java测试套件，旨在验证漏洞检测工具的速度和准确性。
-* [OWASP Security Shepherd](https://github.com/OWASP/SecurityShepherd)：OWASP Security Shepherd项目是一个Web和移动应用程序安全培训平台，旨在培养和提高不同技能人群的安全意识。
-* [MASTG Hacking Playground](https://github.com/OWASP/MASTG-Hacking-Playground)：MASTG Hacking Playground是一系列教育性iOS和Android移动应用程序，这些应用程序故意构建为不安全的，以便为开发人员、安全研究人员和渗透测试人员提供实用指导。
-
 ## RSS
 
 * [ROME](https://github.com/rometools/rome)：ROME是一个用于RSS和Atom提要的Java框架。
@@ -8372,15 +8408,46 @@
 * [JBSE](https://github.com/pietrobraione/jbse)：JBSE是一个用于自动程序分析、验证和测试生成的符号Java虚拟机。
 * [Symbolic Java PathFinder](https://github.com/SymbolicPathFinder/jpf-symbc)：此JPF扩展为Java字节码提供符号执行，由NASA开源。
 
+## ASCII艺术
+
+* [Jansi](https://github.com/fusesource/jansi)：Jansi是一个小型Java库，允许使用ANSI转义序列来格式化控制台输出，甚至可以在Windows上运行。
+* [Mordant](https://github.com/ajalt/mordant)：Mordant是一个多平台库，用于在终端中渲染样式文本。
+* [Java ASCII Render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖，支持图形基元/元素、图层、上下文、画布。
+* [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
+* [Jfiglet](https://github.com/lalyos/jfiglet)：FIGfonts的Java实现，用于创建Ascii横幅。
+* [Java-Ascii-Table](https://github.com/nedtwigg/asciitable)：Java中用于ASCII表的简单库。
+* [JColor](https://github.com/dialex/JColor)：JColor提供了一种简单的语法，可以在终端上以彩色字体或背景打印消息。
+* [Colorized Java](https://github.com/vieitesss/colorize-Java)：在Java控制台中打印彩色文本的小型库。
+* [Asciimg](https://github.com/korhner/asciimg)：Asciimg是一个用Java编写的可扩展Ascii艺术生成器。
+* [Kotter](https://github.com/varabyte/kotter)：用于编写动态控制台应用程序的声明式、Kotlin惯用API。
+
+## Unicode
+
+* [AnyAscii](https://github.com/anyascii/anyascii)：AnyAscii为几乎所有Unicode字符提供纯ASCII替换字符串。
+* [JUnidecode](https://github.com/gcardone/junidecode)：JUnidecode是用于将Unicode转换到ASCII的Java库。
+* [Unidecode](https://github.com/xuender/unidecode)：Java的Unicode字符串的ASCII音译库。
+
+## 表情库
+
+* [Emoji](https://github.com/delight-im/Emoji)：支持Java和Android的Emoji和表情符号。
+* [Emoji Java](https://github.com/vdurmont/emoji-java)：Emoji Java是一个轻量级的Java库，可帮助你在Java应用程序中使用表情符号。
+* [EmojiOne](https://github.com/joypixels/emojione)：该项目包括用于将表情符号转换为各种格式的库，包括转换为EmojiOne表情符号图像。
+* [Emoji4j](https://github.com/kcthota/emoji4j)：用于将短代码、HTML实体转换为表情符号的Java库，还支持解析表情符号、代理HTML实体。
+* [Java Emoji Converter](https://github.com/binarywang/java-emoji-converter)：Emoji转换工具，便于各种规格客户端生成的Emoji字符串转换成另外一种格式。
+* [Emoji](https://github.com/vanniktech/Emoji)：Kotlin多平台库，用于向Android应用程序/JVM后端添加表情符号支持。
+* [Emoji Java](https://github.com/coding/emoji-java)：Emoji Java是一个轻量级的Java库，可帮助你在Java应用程序中使用表情符号，由腾讯Coding开源。
+* [JEmoji](https://github.com/felldo/JEmoji)：JEmoji是一个轻量级且快速的Java表情符号库，包含来自unicode联盟的所有表情符号的完整列表。
+* [EmojiReader](https://github.com/YvesCheung/EmojiReader)：EmojiReader是一个能在字符串中识别出Emoji的简单工具。
+
 ## 文本表
 
 * [Picnic Tables](https://github.com/JakeWharton/picnic)：Kotlin DSL和Java/Kotlin构建器API，用于构建可呈现为文本的类似HTML的表格。
 * [Flip Tables](https://github.com/JakeWharton/flip-tables)：用于在Java中打印漂亮的文本表。
 * [ASCII Table](https://github.com/vdmeer/asciitable)：ASCII Table是一个简单的工具，用于格式化表格，具有缩进、缩进字符、对齐、填充、填充字符和行内空白字符的各种行/列选项。
-* [ASCII Data](https://github.com/MitchTalmadge/ASCII-Data)：一个小型Java库，用于生成漂亮的基于文本的线图和表格。
+* [ASCII Data](https://github.com/MitchTalmadge/ASCII-Data)：ASCII Data是一个小型Java库，用于生成美观的ASCII线图和表格。
 * [Ascii Art Table](https://github.com/klaus31/ascii-art-table)：通过Java将数据打印到Ascii表的简单库。
 * [ASCII Tables](https://github.com/freva/ascii-table)：使用Java轻松创建和自定义简单的ASCII表。
-* [Java Text Tables](https://github.com/iNamik/java_text_tables)：一组简单的Java类，用于帮助以表格形式打印文本。
+* [Java Text Tables](https://github.com/iNamik/java_text_tables)：Java中的文本表库。
 
 ## 字体库
 
@@ -8490,11 +8557,15 @@
 * [Language Detector](https://github.com/optimaize/language-detector)：Java语言检测库。
 * [JLangDetect](https://github.com/melix/jlangdetect)：JLangDetect是JVM的语言检测库。
 
+## 解析库
+
+这里列出了语法、表达式、SQL等解析库。
+
 ## 词法解析
 
 * [ANTLR](https://github.com/antlr/antlr4)：ANTLR是一个强大的解析器生成器，用于读取、处理、执行或翻译结构化文本或二进制文件。
 * [SableCC](https://github.com/SableCC/sablecc)：SableCC是一个解析器生成器，它能够生成功能齐全的面向对象框架，用于构建编译器、解释器和其他文本解析器，由麦吉尔大学开发。
-* [JavaParser](https://github.com/javaparser/javaparser)：该项目包含一组实现具有高级分析功能的Java 1.0-Java 21解析器的库。
+* [JavaParser](https://github.com/javaparser/javaparser)：该项目包含一组实现具有高级分析功能的Java 1.0 - Java 17解析器的库。
 * [Flexmark Java](https://github.com/vsch/flexmark-java)：Flexmark Java是CommonMark(规范0.28)解析器的Java实现，使用块优先、内联后Markdown解析架构。
 * [Kotlinx.AST](https://github.com/kotlinx/ast)：Kotlinx.AST是一个通用的AST解析库，Kotlin是目前唯一支持的语言。
 * [PartiQL Lang Kotlin](https://github.com/partiql/partiql-lang-kotlin)：PartiQL是一种富有表现力的、与SQL兼容的查询语言，可以访问关系型、半结构化和嵌套数据，由Amazon开源。
@@ -8515,7 +8586,100 @@
 * [Kastree](https://github.com/cretz/kastree)：Kastree是一个简单的库，用于将Kotlin源代码作为一组AST对象进行操作。
 * [Despector](https://github.com/Despector/Despector)：一个Java/Kotlin反编译工具和AST库。
 
-## Tree Sitter
+#### 表达式引擎
+
+* [Aviator](https://code.google.com/archive/p/aviator/)：Aviator是一个高性能、轻量级的基于Java实现的表达式引擎，它动态地将String类型的表达式编译成Java字节码并交给JVM执行，Google开源。
+* [Apache Commons JEXL](https://github.com/apache/commons-jexl)：Commons JEXL库是Java共生表达式语言的实现。
+* [AviatorScript](https://github.com/killme2008/aviatorscript)：AviatorScript是一门高性能、轻量级寄宿于JVM(包括Android平台)之上的脚本语言。
+* [JSEL](https://code.google.com/archive/p/lite/wikis/JSEL.wiki)：JSEL是一个兼容JavaScript运算规则的简单表达式解释引擎。
+* [ACE4J](https://javacalculationengine.com/)：ACE4J是由Crystal Prism Software开发的Java库，旨在无需实际的Excel文件即可执行类似Excel的公式。
+* [IK Expression](https://code.google.com/archive/p/ik-expression/)：IK Expression是一个开源、可扩展、基于Java语言开发的一个超轻量级的公式化语言解析执行工具包。
+* [FastEL](https://github.com/dbcxy/fast-el)：轻量级的高效表达式计算引擎。
+* [QLExpress](https://github.com/alibaba/QLExpress)：QLExpress是一种强大的、轻量级的、动态的Java平台语言，旨在提高开发人员在不同业务场景中的生产力，阿里开源。
+* [MVEL](https://github.com/mvel/mvel)：MVEL是一种混合动态/静态类型、可嵌入的表达式语言和Java平台运行时。
+* [Recognizers Text](https://github.com/microsoft/Recognizers-Text)：Microsoft.Recognizers.Text提供对数字、单位和日期/时间等实体的强大识别和解析。
+* [OGNL](https://github.com/orphan-oss/ognl)：OGNL代表对象图导航语言，它是一种用于获取和设置Java对象属性的表达式语言。
+* [Formula](https://github.com/salesforce/formula-engine)：可重用公式引擎的实现，具有JavaScript和SQL生成以及Salesforce批准的语法。
+* [SpEL](https://github.com/spring-projects/spring-framework)：SpEL是一种功能强大的表达式语言，支持在运行时查询和操作对象图。
+* [Janino](https://github.com/janino-compiler/janino)：Janino是一个超小、超快的Java编译器。
+* [JUEL](https://github.com/beckchr/juel)：JUEL是统一表达语言(EL)的实现，指定为JSP 2.1标准(JSR-245)的一部分，已在JEE5中引入。
+* [FEEL](https://github.com/camunda/feel-scala)：由Camunda用Scala编写的FEEL引擎。
+* [Liquor](https://gitee.com/noear/liquor)：Java动态编译、表达式、脚本工具。
+* [Cucumber Expressions](https://github.com/cucumber/cucumber-expressions)：Cucumber Expressions是正则表达式的替代品，具有更直观的语法。
+* [CEL Java](https://github.com/google/cel-java)：CEL是一种非图灵完备语言，旨在简单、快速、安全和可移植，由Google开发。
+* [Grammaticus](https://github.com/salesforce/grammaticus)：Grammaticus是一个语法引擎，允许用户重命名名词，同时保持内容的语法正确，由Salesforce开源。
+* [CEL-Java](https://github.com/projectnessie/cel-java)：通用表达式语言的Java实现。
+* [Eclipse Expressly](https://github.com/eclipse-ee4j/expressly)：Expressly实现了Jakarta Expression Language，这是一种用于Java应用程序的表达式语言。
+* [JFireEL](https://gitee.com/eric_ds/jfireEL)：快速的EL表达式解析器，支持丰富的EL表达式。
+* [Crunch](https://github.com/boxbeam/Crunch)：快速的Java表达式编译器/评估器。
+* [SimpleEL](https://github.com/alibaba/simpleel)：SimpleEL是阿里开发的简单表达式语言。
+* [JBool Expressions](https://github.com/bpodgursky/jbool_expressions)：JBool Expressions是一个简单的开源库，用于在Java中创建和操作布尔表达式。
+
+#### 数学表达式
+
+* [Exp4j](https://github.com/fasseg/exp4j)：Exp4j是用于Java编程语言的小型数学表达式计算器。
+* [Keval](https://github.com/notKamui/Keval)：用于数学表达式字符串求值的Kotlin迷你库。
+* [ExprK](https://github.com/Keelar/ExprK)：ExprK是一个用于Kotlin和Java的简单数学表达式评估器。
+* [EvalEx](https://github.com/ezylang/EvalEx)：EvalEx是一个方便的Java表达式计算器，它允许评估简单的数学和布尔表达式。
+* [Javaluator](https://github.com/fathzer/javaluator)：Javaluator是一个简单、功能强大的Java中缀表达式计算器。
+* [Parsington](https://github.com/scijava/parsington)：Parsington是一个中缀到后缀和中缀到语法树表达式解析器，用于用Java编写的数学表达式。
+* [MathParser](https://github.com/mariuszgromada/MathParser.org-mXparser)：MathParser是一个超级简单、丰富且高度灵活的数学表达式解析器库，适用于Java、Android、.NET、TypeScript和JavaScript。
+* [Parsii](https://github.com/scireum/parsii)：用Java编写的数学表达式的超级快速且简单的计算器。
+* [ParserNG](https://github.com/gbenroscience/ParserNG)：ParserNG是一个功能强大的开源数学工具，可以解析和评估代数表达式。
+* [Paralithic](https://github.com/PolyhedralDev/Paralithic)：Paralithic是一个用于解析和评估数学表达式的库。
+* [Jep](https://www.singularsys.com/index.html)：Jep Java是一个用于解析和计算数学表达式的库。
+* [Expression Parser](https://slovesnov.users.sourceforge.net/index.php?parser)：Expression Parser是sin(pi/4)等字符串的解析器，它使用C++、JavaScript、Java、PHP语言实现。
+* [Mathematical Expression](https://github.com/BeardedManZhao/mathematical-expression)：本框架是一种针对数学公式解析的有效工具，能够解析包含嵌套函数，包含函数，数列步长累加等数学公式。
+* [Expr](https://github.com/darius/expr)：该包解析并评估浮点数的数学表达式。
+
+#### 正则表达式
+
+* [RegexGenerator](https://github.com/MaLeLabTs/RegexGenerator)：该项目包含用于生成文本提取正则表达式的工具的源代码。
+* [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)：VerbalExpressions是一个Java库，可帮助构建困难的正则表达式。
+* [Generex](https://github.com/mifmif/Generex)：用于生成与给定正则表达式匹配的字符串的Java库。
+* [RE2/J](https://github.com/google/re2j)：RE2是一个正则表达式引擎，其运行时间与输入的大小成线性关系，由Google开源。
+* [Joni](https://github.com/jruby/joni)：Oniguruma正则表达式库的Java端口。
+* [Hyperscan Java](https://github.com/gliwka/hyperscan-java)：Hyperscan是一个高性能的多正则表达式匹配库。
+* [DRegex](https://github.com/marianobarrios/dregex)：DRegex是一个Java库，它使用确定性有限自动机(DFA)实现正则表达式引擎。
+* [Readable Regex](https://github.com/ricoapon/readable-regex)：这个库使用构建器模式来创建正则表达式。
+* [Readable Regex](https://github.com/codebox/readable-regex)：该库提供了一种使Java代码中的复杂正则表达式更具可读性的方法。
+* [RgxGen](https://github.com/curious-odd-man/RgxGen)：根据正则表达式模式生成匹配和不匹配的字符串。
+* [JRegex](https://sourceforge.net/projects/jregex/)：JRegex是一个Java正则表达式库。
+* [RegExodus](https://github.com/tommyettinger/RegExodus)：正则表达式库，可跨Java变体移植。
+* [Xeger](https://github.com/agarciadom/xeger)：Xeger是一个用于生成与特定正则表达式匹配的字符串的Java库。
+* [OpenRegex](https://github.com/knowitall/openregex)：OpenRegex是一种高效灵活的基于标记的正则表达式语言和引擎，由华盛顿大学开源。
+* [Regex Builder](https://github.com/sgreben/regex-builder)：Regex Builder库是作为java.util.regex的轻量级包装器实现的。
+
+#### SQL解析器
+
+* [SQLSolver](https://github.com/SJTU-IPADS/SQLSolver)：SQLSolver是一个查询等效性验证器，由上海交通大学、耶鲁大学、纽约大学和普林斯顿大学的研究人员开发。
+* [JSqlParser](https://github.com/JSQLParser/JSqlParser)：JSqlParser是一个与RDBMS无关的SQL语句解析器，它将SQL语句转换为可遍历的Java类层次结构。
+* [SQL Parser](https://www.sqlparser.com/sql-parser-java.php)：SQL Parser提供了对各种数据库的SQL脚本的深入和详细分析，这是一个付费产品。
+* [ElasticSearch SQL](https://github.com/iamazy/elasticsearch-sql)：使用Antlr4将SQL解析为ElasticSearch DSL。
+* [Superior SQL Parser](https://github.com/melin/superior-sql-parser)：基于Antlr 4的多种数据库SQL解析器。
+* [M-SqlParser](https://gitee.com/M-SQLParse/M-SqlParser)：M-SqlParser解析SQL语句并将其转换为Java类的层次结构。
+
+#### 解析器组合器
+
+* [JParsec](https://github.com/jparsec/jparsec)：Jparsec是一个为Java编写的递归下降解析器组合器框架。
+* [Autumn](https://github.com/norswap/autumn)：Autumn是一个Java解析器组合器库。
+* [ParsecJ](https://github.com/jon-hanson/parsecj)：ParsecJ是一个用于构建LL(1)解析器的Java单子解析器组合器框架。
+* [Java PetitParser](https://github.com/petitparser/java-petitparser)：PetitParser结合了无扫描器解析、解析器组合器、解析表达式语法(PEG)和Packrat解析器的思想，将语法和解析器建模为可以动态重新配置的对象。
+
+#### 源代码解析
+
+* [Roaster](https://github.com/forge/roaster)：Roaster是一个可以轻松解析和格式化Java源文件的库。
+* [JRecordBind](https://github.com/ffissore/jrecordbind)：JRecordBind是小型且超快的定长文件读取器/解析器。
+
+#### 手机号解析
+
+* [LibPhoneNumber](https://github.com/google/libphonenumber)：Google的通用Java、C++和JavaScript库，用于解析、格式化和验证国际电话号码。
+* [PhoneNumber Geo](https://github.com/fengjiajie/phone-number-geo)：手机号码归属地本地解析Java实现。
+* [PhoneNumber Geo](https://github.com/EeeMt/phone-number-geo)：根据手机号确定手机号运营商即归属地，支持包括虚拟运营商的中国大陆手机号查询。
+* [PhoneNumber](https://github.com/xdtianyu/PhoneNumber)：一个获取号码归属地和其他信息(诈骗、骚扰等)的开源库。
+* [PhoneNumber Normalizer](https://github.com/telekom/phonenumber-normalizer)：使用PhoneNumber Normalizer库，你可以将电话号码标准化为E164格式和国家格式，同时考虑到德国号码计划的特定复杂性，由德国电信开源。
+
+#### Tree Sitter
 
 * [Tree Sitter Java](https://github.com/tree-sitter/tree-sitter-java)：Tree-Sitter的Java语法。
 * [Java Tree Sitter](https://github.com/serenadeai/java-tree-sitter)：Tree-Sitter是一个解析器生成工具和增量解析库。
@@ -8574,24 +8738,6 @@
 * [Sensitive Word Filter](https://github.com/hailin0/sensitive-word-filter)：简易敏感词处理器，支持返回敏感词、高亮敏感词、替换敏感词等操作。
 * [Sensitive Words Filter](https://github.com/hooj0/sensitive-words-filter)：敏感词过滤项目，提供TTMP、DFA、DAT、Hash Bucket、Tire算法支持过滤。
 * [DzFilter](https://github.com/fanhua1994/DzFilter)：使用DFA算法实现的敏感词过滤。
-
-## 正则表达式
-
-* [RegexGenerator](https://github.com/MaLeLabTs/RegexGenerator)：该项目包含用于生成文本提取正则表达式的工具的源代码。
-* [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)：VerbalExpressions是一个Java库，可帮助构建困难的正则表达式。
-* [Generex](https://github.com/mifmif/Generex)：用于生成与给定正则表达式匹配的字符串的Java库。
-* [RE2/J](https://github.com/google/re2j)：一个正则表达式引擎，其运行时间与输入大小成线性关系，由Google开源。
-* [Joni](https://github.com/jruby/joni)：Oniguruma正则表达式库的Java端口。
-* [Hyperscan Java](https://github.com/gliwka/hyperscan-java)：Hyperscan是一个高性能的多正则表达式匹配库。
-* [DRegex](https://github.com/marianobarrios/dregex)：DRegex是一个Java库，它使用确定性有限自动机(DFA)实现正则表达式引擎。
-* [Readable Regex](https://github.com/ricoapon/readable-regex)：使用这个库，可以以可读的方式创建正则表达式。
-* [Readable Regex](https://github.com/codebox/readable-regex)：该库提供了一种使Java代码中的复杂正则表达式更具可读性的方法。
-* [RgxGen](https://github.com/curious-odd-man/RgxGen)：根据正则表达式模式生成匹配和不匹配的字符串。
-* [JRegex](https://sourceforge.net/projects/jregex/)：Java正则表达式库。
-* [RegExodus](https://github.com/tommyettinger/RegExodus)：正则表达式库，可跨Java变体移植。
-* [Xeger](https://github.com/agarciadom/xeger)：Xeger是一个用于生成与特定正则表达式匹配的字符串的Java库。
-* [OpenRegex](https://github.com/knowitall/openregex)：OpenRegex是一种高效灵活的基于标记的正则表达式语言和引擎，由华盛顿大学开源。
-* [Regex Builder](https://github.com/sgreben/regex-builder)：Regex Builder库是作为java.util.regex的轻量级包装器实现的。
 
 ## 代码生成器
 
@@ -8693,42 +8839,11 @@
 * [Ldaptive](https://github.com/vt-middleware/ldaptive)：用于与LDAP服务器交互的简单、可扩展的Java API。
 * [Domain Directory Controller](https://github.com/imperva/domain-directory-controller)：DDC是一个Active Directory Java SDK，旨在简化小型、中型和大型项目的AD交互。
 
-## 表情处理
-
-* [Emoji](https://github.com/delight-im/Emoji)：支持Java和Android的Emoji和表情符号。
-* [Emoji Java](https://github.com/vdurmont/emoji-java)：Emoji Java是一个轻量级的Java库，可帮助你在Java应用程序中使用表情符号。
-* [EmojiOne](https://github.com/joypixels/emojione)：该项目包括用于将表情符号转换为各种格式的库，包括转换为EmojiOne表情符号图像。
-* [Emoji4j](https://github.com/kcthota/emoji4j)：用于将短代码、HTML实体转换为表情符号的Java库，还支持解析表情符号、代理HTML实体。
-* [Java Emoji Converter](https://github.com/binarywang/java-emoji-converter)：Emoji转换工具，便于各种规格客户端生成的Emoji字符串转换成另外一种格式。
-* [Emoji](https://github.com/vanniktech/Emoji)：Kotlin多平台库，用于向Android应用程序/JVM后端添加表情符号支持。
-* [Emoji Java](https://github.com/coding/emoji-java)：Emoji Java是一个轻量级的Java库，可帮助你在Java应用程序中使用表情符号，由腾讯Coding开源。
-* [JEmoji](https://github.com/felldo/JEmoji)：JEmoji是一个轻量级且快速的Java表情符号库，包含来自unicode联盟的所有表情符号的完整列表。
-* [EmojiReader](https://github.com/YvesCheung/EmojiReader)：EmojiReader是一个能在字符串中识别出Emoji的简单工具。
-
 ## 行为分析
 
 * [Dawn](https://github.com/eventtracing/dawn)：曙光埋点集自动化埋点与全链路追踪等特点于一身，近乎完美地解决了传统埋点的所有痛点，兼顾了开发效率与埋点数据的高精度特点，网易云开源。
 * [小象用户行为分析平台](https://gitee.com/xiaoxiangopen/analysis)：商用产品开源，包括用户埋点数据采集、用户标签分群和画像、智慧运营、营销等。
 * [ClkLog](https://gitee.com/clklog/clklog)：ClkLog是一款记录用户行为分析和画像的免费可商用开源软件，技术人员可快速搭建私有的应用系统。
-
-## ASCII艺术
-
-* [Jansi](https://github.com/fusesource/jansi)：Jansi是一个小型Java库，允许使用ANSI转义序列来格式化控制台输出，甚至可以在Windows上运行。
-* [Mordant](https://github.com/ajalt/mordant)：Mordant是一个多平台库，用于在终端中渲染样式文本。
-* [Java ASCII Render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖，支持图形基元/元素、图层、上下文、画布。
-* [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
-* [Jfiglet](https://github.com/lalyos/jfiglet)：FIGfonts的Java实现，用于创建Ascii横幅。
-* [Java-Ascii-Table](https://github.com/nedtwigg/asciitable)：Java中用于ASCII表的简单库。
-* [JColor](https://github.com/dialex/JColor)：JColor提供了一种简单的语法，可以在终端上以彩色字体或背景打印消息。
-* [Colorized Java](https://github.com/vieitesss/colorize-Java)：在Java控制台中打印彩色文本的小型库。
-* [Asciimg](https://github.com/korhner/asciimg)：Asciimg是一个用Java编写的可扩展Ascii艺术生成器。
-* [Kotter](https://github.com/varabyte/kotter)：用于编写动态控制台应用程序的声明式、Kotlin惯用API。
-
-## Unicode
-
-* [AnyAscii](https://github.com/anyascii/anyascii)：AnyAscii为几乎所有Unicode字符提供纯ASCII替换字符串。
-* [JUnidecode](https://github.com/gcardone/junidecode)：JUnidecode是用于将Unicode转换到ASCII的Java库。
-* [Unidecode](https://github.com/xuender/unidecode)：Java的Unicode字符串的ASCII音译库。
 
 ## URL操作
 
@@ -8819,18 +8934,6 @@
 * [Salvation](https://github.com/shapesecurity/salvation)：这是一个用于处理内容安全策略策略的通用库。
 * [UASparser](https://github.com/chetan/UASparser)：Java的高性能用户代理解析器。
 
-## 语义发布工具
-
-* [JSemVer](https://github.com/zafarkhaja/jsemver)：Java SemVer是语义版本控制规范的Java实现。
-* [Semver4j](https://github.com/vdurmont/semver4j)：一个处理版本的轻量级Java库，它遵循语义版本控制规范的规则，提供多种版本控制模式。
-* [Semver4j](https://github.com/semver4j/semver4j)：Semver4j是一个轻量级Java库，可帮助你处理版本，它遵循语义版本控制规范的规则。
-* [JGitVer](https://github.com/jgitver/jgitver)：基于JGit的库，用于从Git树计算SemVer兼容版本。
-* [Version Compare](https://github.com/G00fY2/version-compare)：适用于Android、Java和Kotlin的轻量级库，用于比较版本字符串。
-* [Semantic Version](https://github.com/skuzzle/semantic-version)：Java的快速单类语义版本实现。
-* [Nyx](https://github.com/mooltiverse/nyx)：Nyx是一个强大、灵活且可配置性极高的语义发布工具。
-* [Semantic Versioning](https://github.com/jeluard/semantic-versioning)：Semantic Versioning是一个Java库，允许验证(使用字节码检查)库版本号是否遵循语义版本控制定义的语义版本控制原则。
-* [Reckon](https://github.com/ajoberstar/reckon)：用于从Git仓库推断下一个版本的API。
-
 ## 数字信号处理
 
 * [JDSP](https://github.com/psambit9791/jdsp)：JDSP是一个信号处理工具库，旨在提供MATLAB或Python的scipy-signal包中可用的功能。
@@ -8881,24 +8984,6 @@
 * [Data Privacy Toolkit](https://github.com/IBM/data-privacy-toolkit)：Data Privacy Toolkit是一个用于数据类型识别、隐私风险评估、数据屏蔽和数据匿名化的工具包，以Java/Scala库和REST API的形式公开，由IBM开源。
 * [Jstylo](https://github.com/psal/jstylo)：作者归属和作者匿名化框架，由德雷塞尔大学开源。
 
-## 外部进程执行
-
-* [NuProcess](https://github.com/brettwooldridge/NuProcess)：Java的低开销、非阻塞I/O、外部进程执行实现，它是java.lang.ProcessBuilder和java.lang.Process的替代品。
-* [Apache Commons Exec](https://github.com/apache/commons-exec)：Commons Exec是一个从JVM内可靠地执行外部进程的库。
-* [Ch.Vorburger.Exec](https://github.com/vorburger/ch.vorburger.exec)：这是一个小型库，允许在后台从Java代码启动外部进程。
-* [JProc](https://github.com/fleipold/jproc)：用于运行外部进程的Java库。
-* [Giraffe](https://github.com/palantir/giraffe)：Giraffe是一个Java库，可让你轻松访问本地和远程计算机上的文件并执行命令，由Palantir开源。
-* [Overthere](https://github.com/xebialabs/overthere)：Overthere是一个Java库，用于在远程主机上操作文件和执行进程。
-* [ZT EXEC](https://github.com/zeroturnaround/zt-exec)：Java进程执行库。
-* [ZT Process Killer](https://github.com/zeroturnaround/zt-process-killer)：停止从Java启动的进程或通过PID的系统进程。
-* [Winrm4j](https://github.com/cloudsoft/winrm4j)：Winrm4j是一个使Java应用程序能够使用WinRM在远程Windows服务器上执行批处理或PowerShell命令的项目。
-* [JNR Process](https://github.com/jnr/jnr-process)：JNR Process库提供了JDK ProcessBuilder API的直接替代品，但它不是线程泵填充程序，而是围绕posix_spawn C API的直接抽象，并提供可选择的in、out和err通道。
-* [WinP](https://github.com/jenkinsci/winp)：该项目可以让你更好地控制Windows进程，超越JDK中的可用功能。
-* [Jash](https://github.com/jbangdev/jbang-jash)：Jash是一个Java库，提供流式、可预测且具有出色开发人员体验的Process接口。
-* [jProcesses](https://github.com/profesorfalken/jProcesses)：使用Java获取跨平台进程详细信息。
-* [PE/COFF4J](https://github.com/kichik/pecoff4j)：PE/COFF4J是一个用于可移植可执行文件(Windows使用的格式)的Java工程库。
-* [Turtle](https://github.com/lordcodes/turtle)：Turtle简化了从Kotlin(或Java)代码运行外部命令和进程的过程。
-
 ## 苹果推送通知
 
 * [Pushy](https://github.com/jchambers/pushy)：Pushy是一个用于发送APN(iOS、macOS和Safari)推送通知的Java库。
@@ -8917,12 +9002,6 @@
 * [Angelix](https://github.com/msv-lab/angelix)：Angelix是基于语义的C程序自动程序修复工具，由新加坡国立大学开源。
 * [Sorald](https://github.com/ASSERT-KTH/sorald)：Sorald是一款自动修复使用SonarQube检查的静态分析规则违规的工具，由瑞典斯德哥尔摩皇家理工学院开源。
 * [KGenProg](https://github.com/kusumotolab/kGenProg)：KGenProg是一个用Java编写的用于Java的自动程序修复工具，由大阪大学开源。
-
-## 守护进程
-
-* [Termd](https://github.com/termd/termd)：一个开源终端守护程序库，提供Java终端处理。
-* [Akuma](https://github.com/kohsuke/akuma)：这是一个Java库，你可以在应用程序中使用它来支持Unix守护进程。
-* [SDNotify](https://github.com/faljse/SDNotify)：SDNotify在Java中实现了systemd通知协议。
 
 ## 协议实现
 
@@ -9070,81 +9149,6 @@
 * [Less4j](https://github.com/SomMeri/less4j)：Less4j将Less编译为常规CSS。
 * [CSS Selectors](https://github.com/chrsan/css-selectors)：W3C选择器规范的Java实现。
 * [jStyleParser](https://github.com/radkovo/jStyleParser)：jStyleParser是一个Java库，用于解析CSS样式表并根据CSS 3规范为HTML或XML文档元素分配样式。
-
-## 手机号解析
-
-* [LibPhoneNumber](https://github.com/google/libphonenumber)：Google的通用Java、C++和JavaScript库，用于解析、格式化和验证国际电话号码。
-* [PhoneNumber-Geo](https://github.com/fengjiajie/phone-number-geo)：手机号码归属地本地解析Java实现。
-* [PhoneNumber-Geo](https://github.com/EeeMt/phone-number-geo)：根据手机号确定手机号运营商即归属地，支持包括虚拟运营商的中国大陆手机号查询。
-* [PhoneNumber](https://github.com/xdtianyu/PhoneNumber)：一个获取号码归属地和其他信息(诈骗、骚扰等)的开源库。
-* [PhoneNumber Normalizer](https://github.com/telekom/phonenumber-normalizer)：使用PhoneNumber Normalizer库，你可以将电话号码标准化为E164格式和国家格式，同时考虑到德国号码计划的特定复杂性，由德国电信开源。
-
-## 表达式引擎
-
-* [Aviator](https://code.google.com/archive/p/aviator/)：Aviator是一个高性能、轻量级的基于Java实现的表达式引擎，它动态地将String类型的表达式编译成Java字节码并交给JVM执行，Google开源。
-* [Apache Commons JEXL](https://github.com/apache/commons-jexl)：Commons JEXL库是Java共生表达式语言的实现。
-* [AviatorScript](https://github.com/killme2008/aviatorscript)：AviatorScript是一门高性能、轻量级寄宿于JVM(包括Android平台)之上的脚本语言。
-* [JSEL](https://code.google.com/archive/p/lite/wikis/JSEL.wiki)：JSEL是一个兼容JavaScript运算规则的简单表达式解释引擎。
-* [ACE4J](https://javacalculationengine.com/)：ACE4J是由Crystal Prism Software开发的Java库，旨在无需实际的Excel文件即可执行类似Excel的公式。
-* [IK Expression](https://code.google.com/archive/p/ik-expression/)：IK Expression是一个开源、可扩展、基于Java语言开发的一个超轻量级的公式化语言解析执行工具包。
-* [FastEL](https://github.com/dbcxy/fast-el)：轻量级的高效表达式计算引擎。
-* [QLExpress](https://github.com/alibaba/QLExpress)：QLExpress是一种强大的、轻量级的、动态的Java平台语言，旨在提高开发人员在不同业务场景中的生产力，阿里开源。
-* [MVEL](https://github.com/mvel/mvel)：MVEL是一种混合动态/静态类型、可嵌入的表达式语言和Java平台运行时。
-* [Recognizers Text](https://github.com/microsoft/Recognizers-Text)：Microsoft.Recognizers.Text提供对数字、单位和日期/时间等实体的强大识别和解析。
-* [OGNL](https://github.com/orphan-oss/ognl)：OGNL代表对象图导航语言，它是一种用于获取和设置Java对象属性的表达式语言。
-* [Formula](https://github.com/salesforce/formula-engine)：可重用公式引擎的实现，具有JavaScript和SQL生成以及Salesforce批准的语法。
-* [SpEL](https://github.com/spring-projects/spring-framework)：SpEL是一种功能强大的表达式语言，支持在运行时查询和操作对象图。
-* [Janino](https://github.com/janino-compiler/janino)：Janino是一个超小、超快的Java编译器。
-* [JUEL](https://github.com/beckchr/juel)：JUEL是统一表达语言(EL)的实现，指定为JSP 2.1标准(JSR-245)的一部分，已在JEE5中引入。
-* [FEEL](https://github.com/camunda/feel-scala)：由Camunda用Scala编写的FEEL引擎。
-* [Liquor](https://gitee.com/noear/liquor)：Java动态编译、表达式、脚本工具。
-* [Cucumber Expressions](https://github.com/cucumber/cucumber-expressions)：Cucumber Expressions是正则表达式的替代品，具有更直观的语法。
-* [CEL Java](https://github.com/google/cel-java)：CEL是一种非图灵完备语言，旨在简单、快速、安全和可移植，由Google开发。
-* [Grammaticus](https://github.com/salesforce/grammaticus)：Grammaticus是一个语法引擎，允许用户重命名名词，同时保持内容的语法正确，由Salesforce开源。
-* [CEL-Java](https://github.com/projectnessie/cel-java)：通用表达式语言的Java实现。
-* [Eclipse Expressly](https://github.com/eclipse-ee4j/expressly)：Expressly实现了Jakarta Expression Language，这是一种用于Java应用程序的表达式语言。
-* [JFireEL](https://gitee.com/eric_ds/jfireEL)：快速的EL表达式解析器，支持丰富的EL表达式。
-* [Crunch](https://github.com/boxbeam/Crunch)：快速的Java表达式编译器/评估器。
-* [SimpleEL](https://github.com/alibaba/simpleel)：SimpleEL是阿里开发的简单表达式语言。
-* [JBool Expressions](https://github.com/bpodgursky/jbool_expressions)：JBool Expressions是一个简单的开源库，用于在Java中创建和操作布尔表达式。
-
-## 数学表达式
-
-* [Exp4j](https://github.com/fasseg/exp4j)：Exp4j是用于Java编程语言的小型数学表达式计算器。
-* [Keval](https://github.com/notKamui/Keval)：用于数学表达式字符串求值的Kotlin迷你库。
-* [ExprK](https://github.com/Keelar/ExprK)：ExprK是一个用于Kotlin和Java的简单数学表达式评估器。
-* [EvalEx](https://github.com/ezylang/EvalEx)：EvalEx是一个方便的Java表达式计算器，它允许评估简单的数学和布尔表达式。
-* [Javaluator](https://github.com/fathzer/javaluator)：Javaluator是一个简单、功能强大的Java中缀表达式计算器。
-* [Parsington](https://github.com/scijava/parsington)：Parsington是一个中缀到后缀和中缀到语法树表达式解析器，用于用Java编写的数学表达式。
-* [MathParser](https://github.com/mariuszgromada/MathParser.org-mXparser)：MathParser是一个超级简单、丰富且高度灵活的数学表达式解析器库，适用于Java、Android、.NET、TypeScript和JavaScript。
-* [Parsii](https://github.com/scireum/parsii)：用Java编写的数学表达式的超级快速且简单的计算器。
-* [ParserNG](https://github.com/gbenroscience/ParserNG)：ParserNG是一个功能强大的开源数学工具，可以解析和评估代数表达式。
-* [Paralithic](https://github.com/PolyhedralDev/Paralithic)：Paralithic是一个用于解析和评估数学表达式的库。
-* [Jep](https://www.singularsys.com/index.html)：Jep Java是一个用于解析和计算数学表达式的库。
-* [Expression Parser](https://slovesnov.users.sourceforge.net/index.php?parser)：Expression Parser是sin(pi/4)等字符串的解析器，它使用C++、JavaScript、Java、PHP语言实现。
-* [Mathematical Expression](https://github.com/BeardedManZhao/mathematical-expression)：本框架是一种针对数学公式解析的有效工具，能够解析包含嵌套函数，包含函数，数列步长累加等数学公式。
-* [Expr](https://github.com/darius/expr)：该包解析并评估浮点数的数学表达式。
-
-## SQL解析器
-
-* [SQLSolver](https://github.com/SJTU-IPADS/SQLSolver)：SQLSolver是一个查询等效性验证器，由上海交通大学、耶鲁大学、纽约大学和普林斯顿大学的研究人员开发。
-* [JSqlParser](https://github.com/JSQLParser/JSqlParser)：JSqlParser是一个与RDBMS无关的SQL语句解析器，它将SQL语句转换为可遍历的Java类层次结构。
-* [SQL Parser](https://www.sqlparser.com/sql-parser-java.php)：SQL Parser提供了对各种数据库的SQL脚本的深入和详细分析，这是一个付费产品。
-* [ElasticSearch SQL](https://github.com/iamazy/elasticsearch-sql)：使用Antlr4将SQL解析为ElasticSearch DSL。
-* [Superior SQL Parser](https://github.com/melin/superior-sql-parser)：基于Antlr 4的多种数据库SQL解析器。
-* [M-SqlParser](https://gitee.com/M-SQLParse/M-SqlParser)：M-SqlParser解析SQL语句并将其转换为Java类的层次结构。
-
-## 解析器组合器
-
-* [JParsec](https://github.com/jparsec/jparsec)：Jparsec是一个为Java编写的递归下降解析器组合器框架。
-* [Autumn](https://github.com/norswap/autumn)：Autumn是一个Java解析器组合器库。
-* [ParsecJ](https://github.com/jon-hanson/parsecj)：ParsecJ是一个用于构建LL(1)解析器的Java单子解析器组合器框架。
-* [Java PetitParser](https://github.com/petitparser/java-petitparser)：PetitParser结合了无扫描器解析、解析器组合器、解析表达式语法(PEG)和Packrat解析器的思想，将语法和解析器建模为可以动态重新配置的对象。
-
-## 源代码解析
-
-* [Roaster](https://github.com/forge/roaster)：Roaster是一个可以轻松解析和格式化Java源文件的库。
-* [JRecordBind](https://github.com/ffissore/jrecordbind)：JRecordBind是小型且超快的定长文件读取器/解析器。
 
 ## 对象图导航
 
