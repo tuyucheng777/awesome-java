@@ -2740,27 +2740,6 @@
 * [JetBrains Annotations](https://github.com/JetBrains/java-annotations)：Annotations是一组可在基于JVM的语言中使用的Java注解，由JetBrains开源。
 * [Atlassian Annotations](https://bitbucket.org/atlassian/atlassian-annotations)：用于声明API状态和属性的标准注解类型，由Atlassian开源。
 
-## 字符串工具库
-
-* [Joda Convert](https://github.com/JodaOrg/joda-convert)：Joda-Convert是一个小型的、高度集中的库，提供对象和字符串之间的往返转换。
-* [SimMetrics](https://github.com/Simmetrics/simmetrics)：相似度和距离度量的Java库，例如Levenshtein距离和余弦相似度。
-* [Java String Similarity](https://github.com/tdebatty/java-string-similarity)：实现不同字符串相似度和距离测量的库。
-* [Apache Commons Text](https://github.com/apache/commons-text)：Commons Text是一个专注于字符串算法的库。
-* [Strman](https://github.com/shekhargulati/strman-java)：Java 8字符串操作库。
-* [Java String Similarity](https://github.com/rrice/java-string-similarity)：Java String Similarity是一个实现了多种计算字符串之间相似度算法的Java库。
-* [Aho Corasick](https://github.com/robert-bor/aho-corasick)：用于高效字符串匹配的Aho-Corasick算法的Java实现。
-* [JavaWuzzy](https://github.com/xdrop/fuzzywuzzy)：FuzzyWuzzy模糊字符串匹配算法的Java实现。
-* [Type Parser](https://github.com/drapostolos/type-parser)：解析字符串并将其转换为另一种类型，支持所有适用的Java库类。
-* [String Format](https://github.com/JoanZapata/string-format)：当涉及大字符串时，String.format()的替代方案。
-* [NLP HanZi Similar](https://github.com/houbb/nlp-hanzi-similar)：汉字相似度计算工具，中文形近字算法。
-* [StringSearch](https://github.com/johannburkard/StringSearch)：Java中的高性能模式匹配算法。
-* [StringDistance](https://github.com/vickumar1981/stringdistance)：Scala和Java的模糊匹配字符串距离库。
-
-## 字符串插值
-
-* [Phrase](https://github.com/square/phrase)：Phrase是一个Android字符串资源模板库，由Square开源。
-* [Better Strings](https://github.com/antkorwin/better-strings)：Better Strings是用于Java字符串插值的插件。
-
 ## 9-25特性
 
 * [Bach](https://github.com/sormuras/bach)：Bach是一个编排JDK工具以构建模块化Java项目的工具。
@@ -7704,10 +7683,28 @@
 * [CuckooFilter4J](https://github.com/MGunlogson/CuckooFilter4J)：Cuckoo过滤器的高性能Java实现。
 * [Setfilters](https://github.com/google/setfilters)：该仓库包含集合过滤器数据结构的集合的实现，通常也称为近似成员资格查询数据结构，由Google开源。
 * [FastFilter](https://github.com/FastFilter/fastfilter_java)：Java中的快速近似成员资格过滤器。
+
 ## 基本类型
 
 * [jOOU](https://github.com/jOOQ/jOOU)：jOOU为四种Java整数类型byte、short、int和long提供无符号整数版本。
 * [Primitive](https://github.com/mintern-java/primitive)：Primitive提供与基本类型相关的功能的实用方法，包括基于自定义比较器的排序和搜索。
+
+## 堆外内存库
+
+* [Unsafe Tool](https://github.com/alexkasko/unsafe-tools)：使用sun.misc.Unsafe处理堆外内存的工具。
+* [LLPL](https://github.com/pmem/llpl)：LLPL是一个Java库，提供对堆外持久性内存的访问，由Intel开源。
+* [Slice](https://github.com/airlift/slice)：Slice是一个用于高效处理Java字节数组的Java库。
+* [External Sortingin Java](https://github.com/lemire/externalsortinginjava)：External Sortingin Java使用多个核心和外部内存算法对非常大的文件进行排序。
+* [FastTuple](https://github.com/boundary/fasttuple)：FastTuple生成原始值的异构集合，并尽可能确保它们在内存中相邻排列。
+* [Chronicle Core](https://github.com/OpenHFT/Chronicle-Core)：Chronicle Core是一个先进的低级库，为开发人员提供了与操作系统交互、管理内存、处理资源等功能强大的工具。
+* [DataSketches Java Memory Component](https://github.com/apache/datasketches-memory)：Java的高性能本机内存访问库。
+* [LArray](https://github.com/xerial/larray)：用于管理大型堆外数组的库，可以在Java和Scala中容纳超过2G(2^31)的条目。
+* [JNVM](https://github.com/jnvm-project/jnvm)：J-NVM是一个Java框架，用于高效、本地地访问Java中的非易失性主存储器(NVMM)作为堆外内存，由南巴黎电信学院开源。
+
+## Struct
+
+* [JUnion](https://github.com/TehLeo/junion)：为Java编程语言提供结构类型。
+* [Javastruct](https://github.com/dubrousky/javastruct)：Javastruct是一个将Java对象用作C或C++结构的库。
 
 ## 随机数生成器
 
@@ -7724,23 +7721,6 @@
 * [Biski64](https://github.com/danielcota/biski64)：Biski64是一个极快的伪随机数生成器(PRNG)，保证最小周期为2^64。
 * [GraphAware UUID](https://github.com/graphaware/neo4j-uuid)：GraphAware UUID是一个简单的库，它透明地为图中新创建的节点和关系分配一个UUID。
 * [Locality UUID Java](https://github.com/groupon/locality-uuid.java)：这是一个UUID类，旨在帮助在插入分布式数据系统(例如MongoDB或HBase)时控制数据位置，由Groupon开源。
-
-## 堆外内存管理
-
-* [Unsafe Tool](https://github.com/alexkasko/unsafe-tools)：使用sun.misc.Unsafe处理堆外内存的工具。
-* [LLPL](https://github.com/pmem/llpl)：LLPL是一个Java库，提供对堆外持久性内存的访问，由Intel开源。
-* [Slice](https://github.com/airlift/slice)：用于高效处理堆内存和堆外内存的Java库。
-* [Externalsortinginjava](https://github.com/lemire/externalsortinginjava)：Java中的外部内存排序。
-* [FastTuple](https://github.com/boundary/fasttuple)：FastTuple生成原始值的异构集合，并尽可能确保它们在内存中相邻排列。
-* [Chronicle Core](https://github.com/OpenHFT/Chronicle-Core)：Chronicle Core是一个先进的低级库，为开发人员提供了与操作系统交互、管理内存、处理资源等功能强大的工具。
-* [DataSketches Java Memory Component](https://github.com/apache/datasketches-memory)：Java的高性能本机内存访问库。
-* [LArray](https://github.com/xerial/larray)：一个用于管理大型堆外数组的库，可以在Java和Scala中容纳超过2G(2^31)的条目。
-* [JNVM](https://github.com/jnvm-project/jnvm)：J-NVM是一个Java框架，用于高效、本地地访问Java中的非易失性主存储器(NVMM)作为堆外内存，由南巴黎电信学院开源。
-
-## Struct
-
-* [JUnion](https://github.com/TehLeo/junion)：为Java编程语言提供结构类型。
-* [Javastruct](https://github.com/dubrousky/javastruct)：Javastruct是一个将Java对象用作C或C++结构的库。
 
 ## 算法库
 
@@ -7776,6 +7756,21 @@
 * [APTED](https://github.com/DatabaseGroup/apted)：这是APTED算法的实现，该算法是计算树编辑距离的最先进的解决方案，由奥地利萨尔茨堡大学开源。
 * [MurmurHash Java](https://github.com/tnm/murmurhash-java)：MurmurHash2的32位和64位实现。
 * [Libcrunch](https://github.com/twitter-archive/libcrunch)：Libcrunch是一个轻量级映射框架，它将数据对象映射到多个节点，并受到用户指定的约束，由Twitter开源。
+
+#### 字符串算法
+
+* [Java String Similarity](https://github.com/tdebatty/java-string-similarity)：实现不同字符串相似度和距离测量的库。
+* [StringMetric](https://github.com/rockymadden/stringmetric)：StringMetric提供执行近似字符串匹配、字符串相似度/距离测量、按单词发音索引以及发音相似性比较的功能。
+* [SimMetrics](https://github.com/Simmetrics/simmetrics)：相似度和距离度量的Java库，例如Levenshtein距离和余弦相似度。
+* [TextAnalyzer](https://github.com/sea-boat/TextAnalyzer)：基于机器学习、统计学和词典的文本分析器，可以分析文本。
+* [Java String Similarity](https://github.com/rrice/java-string-similarity)：Java String Similarity是一个实现了多种计算字符串之间相似度算法的Java库。
+* [NLP HanZi Similar](https://github.com/houbb/nlp-hanzi-similar)：NLP HanZi Similar为汉字提供相似性的计算。
+* [StringDistance](https://github.com/vickumar1981/stringdistance)：Scala和Java的模糊匹配字符串距离库。
+* [JavaWuzzy](https://github.com/xdrop/fuzzywuzzy)：FuzzyWuzzy模糊字符串匹配算法的Java实现。
+* [Apache Commons Text](https://github.com/apache/commons-text)：Commons Text是一个专注于字符串算法的库。
+* [Strman](https://github.com/shekhargulati/strman-java)：Java 8字符串操作库。
+* [Aho Corasick](https://github.com/robert-bor/aho-corasick)：用于高效字符串匹配的Aho-Corasick算法的Java实现。
+* [StringSearch](https://github.com/johannburkard/StringSearch)：Java中的高性能模式匹配算法。
 
 #### 聚类算法
 
@@ -7997,7 +7992,7 @@
 
 ## 操作系统
 
-* [JOS](https://sourceforge.net/projects/jos/)：一个免费且开源的基于Java的操作系统。
+* [JOS](https://sourceforge.net/projects/jos/)：JOS是一个免费且开源的基于Java的操作系统。
 * [JNode](https://github.com/jnode/jnode)：JNode是一个开源项目以创建一个Java平台的操作系统。
 * [JX](https://github.com/mczero80/jx)：JX是一个Java操作系统，专注于灵活和健壮的操作系统架构，由埃尔朗根大学开发。
 * [JavaOS](https://zh.wikipedia.org/zh-cn/JavaOS)：JavaOS是一套操作系统，以JVM与一些基础软件组件所构成，由SUN公司开发。
@@ -8006,7 +8001,7 @@
 ## 运动规划
 
 * [OWL](https://github.com/idsc-frazzoli/owl)：Java中的运动规划库，由苏黎世联邦理工学院开源。
-* [RVO2-Java](https://github.com/snape/RVO2-Java)：最佳相互避免碰撞(ORCA)算法的Java实现，由北卡罗来纳大学开源。
+* [RVO2 Java](https://github.com/snape/RVO2-Java)：最佳相互避免碰撞(ORCA)算法的Java实现，由北卡罗来纳大学开源。
 
 ## 自动规划
 
@@ -8261,6 +8256,8 @@
 
 * [Apache Commons Convert](https://commons.apache.org/sandbox/commons-convert)：Commons Convert是一个专用于将一种类型的对象转换为另一种类型的库。
 * [TypeMap](https://github.com/YunaBraska/type-map)：TypeMap和TypeConverter是一个动态、可扩展、高性能的类型转换库，原生支持GraalVM。
+* [Joda Convert](https://github.com/JodaOrg/joda-convert)：Joda Convert是一个小型的、高度集中的库，提供对象和字符串之间的往返转换。
+* [Type Parser](https://github.com/drapostolos/type-parser)：解析字符串并将其转换为另一种类型，支持所有适用的Java库类。
 
 ## IO库
 
@@ -8490,22 +8487,30 @@
 * [Opencc4j](https://github.com/houbb/opencc4j)：Opencc4j支持中文繁简体转换，考虑到词组级别。
 * [Pinyin](https://github.com/houbb/pinyin)：Java高性能中文转拼音工具，支持同音字。
 * [Pinyin Plus](https://github.com/taptap/pinyin-plus)：汉字转拼音库，支持多音字，由Taptap开源。
-* [PinyinSearchLibrary](https://github.com/handsomezhou/PinyinSearchLibrary)：提供Java语言中T9拼音搜索和Qwerty拼音搜索的数据分析方法、数据匹配方法等。
+* [PinyinSearchLibrary](https://github.com/handsomezhou/PinyinSearchLibrary)：PinyinSearch库是一个Java库，为T9搜索和Qwerty搜索提供数据解析方法、数据匹配方法等。
 * [Bopomofo4j](https://gitee.com/rnkrsoft/Bopomofo4j)：Bopomofo4j是一个零依赖、纯Java开发的汉字转拼音库。
 * [JPinyin](https://github.com/qzw1210/jpinyin)：JPinyin是一个汉字转拼音的Java开源类库，在PinYin4j的功能基础上做了一些改进。
-* [PinIn](https://github.com/Towdium/PinIn)：一个用于解决各类汉语拼音匹配问题的Java库。
+* [PinIn](https://github.com/Towdium/PinIn)：PinIn是一个用于解决各类汉语拼音匹配问题的Java库。
 * [Moji4J](https://github.com/andree-surya/moji4j)：Moji4J是一个开源Java库，用于在日语平假名、片假名和罗马字脚本之间进行转换。
 * [Myanmar Tools](https://github.com/google/myanmar-tools)：该项目包括用于处理缅甸使用的字体编码的工具，目前支持广泛的Zawgyi-One字体编码，由Google开源。
-* [BadWordFiltering](https://github.com/VaneProject/bad-word-filtering)：这是一个检查和处理脏话的库。
 * [Jakaroma](https://github.com/nicolas-raoul/jakaroma)：Java汉字/等到罗马字转换器。
+
+## 敏感词过滤
+
+* [ToolGood.Words](https://github.com/toolgood/ToolGood.Words)：一款高性能非法词(敏感词)检测组件，附带繁体简体互换，支持全角半角互换等功能。
+* [Sensitive Word](https://github.com/houbb/sensitive-word)：基于DFA算法实现的高性能敏感词工具。
+* [Sensitive Word Filter](https://github.com/hailin0/sensitive-word-filter)：简易敏感词处理器，支持返回敏感词、高亮敏感词、替换敏感词等操作。
+* [Sensitive Words Filter](https://github.com/hooj0/sensitive-words-filter)：敏感词过滤项目，提供TTMP、DFA、DAT、Hash Bucket、Tire算法支持过滤。
+* [DzFilter](https://github.com/fanhua1994/DzFilter)：使用DFA算法实现的敏感词过滤。
+* [BadWordFiltering](https://github.com/VaneProject/bad-word-filtering)：此库可识别并处理脏话、粗俗语言及其他语言。
 
 ## 泛型库
 
-* [TypeTools](https://github.com/jhalterman/typetools)：一个用于处理类型的简单、零依赖库，支持Java 1.6+和Android。
+* [TypeTools](https://github.com/jhalterman/typetools)：一个简单、零依赖的类型处理库，支持Java 1.6+和Android。
 * [ClassMate](https://github.com/FasterXML/java-classmate)：ClassMate是一个零依赖Java库，用于准确内省类型信息，包括可靠解析类(“类型”)和成员(字段、方法和构造函数)的泛型类型声明。
-* [Generics Resolver](https://github.com/xvik/generics-resolver)：解析类层次结构中声明的泛型，以便在运行时提供所有可用的类型信息。
-* [GeantyRef](https://github.com/leangen/geantyref)：用于Java的泛型类型反射库。
-* [TypeBuilder](https://github.com/ikidou/TypeBuilder)：一个用于生成泛型的简易构建器。
+* [Generics Resolver](https://github.com/xvik/generics-resolver)：Java泛型运行时解析器。
+* [GeantyRef](https://github.com/leangen/geantyref)：Java中与泛型相关的反射的小型库。
+* [TypeBuilder](https://github.com/ikidou/TypeBuilder)：TypeBuilder是一个用于生成泛型的简易构建器。
 
 ## 国际化
 
@@ -8759,14 +8764,6 @@
 * [Data Mask](https://github.com/bancolombia/data-mask)：与Jackson一起使用的实用程序库，旨在通过使用额外的加密/解密进行屏蔽来保护敏感数据，由哥伦比亚银行开源。
 * [Chlorine Finder](https://github.com/dataApps/chlorine-finder)：Chlorine Finder是一个用于检测文本中敏感元素的开源库。
 
-## 敏感词过滤
-
-* [ToolGood.Words](https://github.com/toolgood/ToolGood.Words)：一款高性能非法词(敏感词)检测组件，附带繁体简体互换，支持全角半角互换等功能。
-* [Sensitive Word](https://github.com/houbb/sensitive-word)：基于DFA算法实现的高性能敏感词工具。
-* [Sensitive Word Filter](https://github.com/hailin0/sensitive-word-filter)：简易敏感词处理器，支持返回敏感词、高亮敏感词、替换敏感词等操作。
-* [Sensitive Words Filter](https://github.com/hooj0/sensitive-words-filter)：敏感词过滤项目，提供TTMP、DFA、DAT、Hash Bucket、Tire算法支持过滤。
-* [DzFilter](https://github.com/fanhua1994/DzFilter)：使用DFA算法实现的敏感词过滤。
-
 ## 代码生成器
 
 * [Auto](https://github.com/google/auto)：Java源代码生成器的集合，由Google开发。
@@ -8801,6 +8798,7 @@
 * [APTK](https://github.com/toolisticon/aptk)：APTK可帮助你以更有效的方式构建注解处理器的工具包。
 * [ADT4J](https://github.com/sviperll/adt4j)：该库为Java实现了代数数据类型。
 * [Incap](https://github.com/tbroyer/gradle-incap-helper)：用于构建增量注解处理器的辅助库和注解处理器。
+* [Better Strings](https://github.com/antkorwin/better-strings)：Better Strings是用于Java字符串插值的插件。
 
 #### 构建器模式
 

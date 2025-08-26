@@ -366,8 +366,6 @@
 * [压缩库](docs/doc2.md#压缩库)
 * [反射库](docs/doc2.md#反射库)
 * [注解库](docs/doc2.md#注解库)
-* [字符串工具库](docs/doc2.md#字符串工具库)
-* [字符串插值](docs/doc2.md#字符串插值)
 * [Java 9-25](docs/doc2.md#9-25特性)
 * [接口文档](docs/doc2.md#接口文档)
 * [技术文档](docs/doc2.md#技术文档)
@@ -676,10 +674,11 @@
     * [布隆过滤器](docs/doc2.md#布隆过滤器)
     * [布谷鸟过滤器](docs/doc2.md#布谷鸟过滤器)
 * [基本类型](docs/doc2.md#基本类型)
-* [随机数生成器](docs/doc2.md#随机数生成器)
-* [堆外内存管理](docs/doc2.md#堆外内存管理)
+* [堆外内存库](docs/doc2.md#堆外内存库)
 * [Struct](docs/doc2.md#Struct)
+* [随机数生成器](docs/doc2.md#随机数生成器)
 * [算法库](docs/doc2.md#算法库)
+    * [字符串算法](docs/doc2.md#字符串算法)
     * [聚类算法](docs/doc2.md#聚类算法)
     * [图算法](docs/doc2.md#图算法)
     * [随机流算法](docs/doc2.md#随机流算法)
@@ -752,6 +751,7 @@
 * [文本表](docs/doc2.md#文本表)
 * [字体库](docs/doc2.md#字体库)
 * [语言库](docs/doc2.md#语言库)
+* [敏感词过滤](docs/doc2.md#敏感词过滤)
 * [泛型库](docs/doc2.md#泛型库)
 * [国际化](docs/doc2.md#国际化)
 * [翻译库](docs/doc2.md#翻译库)
@@ -775,7 +775,6 @@
 * [形式验证](docs/doc2.md#形式验证)
 * [印章生成](docs/doc2.md#印章生成)
 * [数据脱敏](docs/doc2.md#数据脱敏)
-* [敏感词过滤](docs/doc2.md#敏感词过滤)
 * [代码生成器](docs/doc2.md#代码生成器)
 * [注解处理器](docs/doc2.md#注解处理器)
     * [构建器模式](docs/doc2.md#构建器模式)
@@ -3004,6 +3003,9 @@
 * [HuLa Server](https://github.com/HuLaSpark/HuLa-Server)：HuLa Server是一款基于Spring Boot 3、Netty、MyBatis Plus和RocketMQ构建的即时通讯系统服务端。
 * [Linyu](https://github.com/DWHengr/linyu-server)：林语是基于Tauri开发的桌面聊天软件，前端框架使用React，后端框架使用Spring Boot进行开发。
 * [IM WhaleShark](https://github.com/BanTanger/im-whale-shark)：IM WhaleShark是基于Netty实现的高性能分布式IM即时通讯系统。
+* [微聊](https://gitee.com/lakaola/im-platform)：聊天IM、实时音视频通话等功能。
+* [AQChat](https://gitee.com/howcode/aq-chat-server)：AQChat是一个已接入AI的极速、便捷的匿名在线即时AI聊天室。
+* [OUYUNC IM](https://gitee.com/etxync/ouyunc-im)：偶云客IM是一款开源免费基于Netty的即时通讯框架。
 
 #### 视频通讯
 
@@ -3289,6 +3291,7 @@
 * [JCommon](https://github.com/facebookarchive/jcommon)：JCommon是Facebook开源的Java工具库，含并发、集合、统计/分析、配置、测试等功能。
 * [Jodd](https://github.com/oblac/jodd)：Jodd是一组微框架和开发人员友好的工具和实用程序。
 * [X-Core](https://github.com/TGX-Android/X-Core)：X-Core是一组可在任何项目中使用的通用Java工具和接口，由Telegram开源。
+* [Phrase](https://github.com/square/phrase)：Phrase是一个Android字符串资源模板库，由Square开源。
 * [Essentials](https://github.com/greenrobot/essentials)：Essentials是适用于Android和Java的通用工具和哈希函数。
 * [Intellij Util](https://github.com/JetBrains/intellij-community/tree/master/platform/util)：Intellij Util包含JetBrains基于Intellij IDE的通用工具库。
 * [Android Common](https://github.com/Trinea/android-common)：包含与Android开发相关的工具类。
