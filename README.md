@@ -27,7 +27,6 @@
 * [微服务库](#微服务库)
 * [微服务治理](#微服务治理)
 * [REST错误处理](#REST错误处理)
-* [模板引擎](#模板引擎)
 * [爬虫框架](#爬虫框架)
 * [构建工具](#构建工具)
 * [包管理器](#包管理器)
@@ -104,13 +103,14 @@
     * [分库分表](#分库分表)
     * [Binlog](#Binlog)
     * [灾难备份](#灾难备份)
-* [图处理](#图处理)
 * [网络编程](#网络编程)
     * [HTTP客户端](#HTTP客户端)
     * [HTTP路由](#HTTP路由)
     * [Web服务器](#Web服务器)
     * [应用服务器](#应用服务器)
     * [WebSocket服务器](#WebSocket服务器)
+    * [即时通讯](#即时通讯)
+    * [视频通讯](#视频通讯)
     * [FTP服务器](#FTP服务器)
     * [NIO框架](#NIO框架)
     * [网络库](#网络库)
@@ -319,6 +319,7 @@
     * [生物工作流](docs/doc2.md#生物工作流)
     * [基因组](docs/doc2.md#基因组)
     * [NGS](docs/doc2.md#NGS)
+* [图处理](docs/doc2.md#图处理)
 * [化学库](docs/doc2.md#化学库)
 * [工作流](docs/doc2.md#工作流)
 * [编排引擎](docs/doc2.md#编排引擎)
@@ -326,6 +327,7 @@
 * [状态机](docs/doc2.md#状态机)
 * [报表引擎](docs/doc2.md#报表引擎)
 * [商业智能](docs/doc2.md#商业智能)
+* [模板引擎](docs/doc2.md#模板引擎)
 * [SMT求解器](docs/doc2.md#SMT求解器)
 * [脚本](docs/doc2.md#脚本)
 * [CLI框架](docs/doc2.md#CLI框架)
@@ -485,8 +487,6 @@
 * [Kubernetes客户端](docs/doc2.md#Kubernetes客户端)
 * [Etcd客户端](docs/doc2.md#Etcd客户端)
 * [S3客户端](docs/doc2.md#S3客户端)
-* [即时通讯](docs/doc2.md#即时通讯)
-* [视频会议](docs/doc2.md#视频会议)
 * [Web3](docs/doc2.md#Web3)
     * [区块链](docs/doc2.md#区块链)
     * [以太坊](docs/doc2.md#以太坊)
@@ -787,7 +787,6 @@
 * [目录服务](docs/doc2.md#目录服务)
 * [行为分析](docs/doc2.md#行为分析)
 * [URL操作](docs/doc2.md#URL操作)
-* [WebRTC](docs/doc2.md#WebRTC)
 * [Expect库](docs/doc2.md#Expect库)
 * [JavaME](docs/doc2.md#JavaME)
 * [JavaCard](docs/doc2.md#JavaCard)
@@ -1351,45 +1350,6 @@
 * [Spring REST Exception Handler](https://github.com/jirutka/spring-rest-exception-handler)：该项目的目标是为RESTful API提供一个方便的异常处理程序，以满足错误响应的最佳实践，而无需重复。
 * [Unified Dispose Spring Boot](https://github.com/purgeteam/unified-dispose-springboot)：包含一些基础的异常处理以及返回包装功能。
 * [Spring MVC REST Exhandler](https://github.com/stormpath/spring-mvc-rest-exhandler)：Spring MVC REST异常处理程序。
-
-## 模板引擎
-
-* [Thymeleaf](https://github.com/thymeleaf/thymeleaf)：Thymeleaf是一个现代服务器端Java模板引擎，适用于Web和独立环境。
-* [JSP](https://www.oracle.com/java/technologies/jspt.html)：Java应用程序最流行的视图技术之一，也是内置的模板引擎。
-* [Apache FreeMarker](https://github.com/apache/freemarker)：FreeMarker是一个基于模板生成文本输出(从HTML到自动生成源代码的任何内容)的通用工具。
-* [Pebble](https://github.com/PebbleTemplates/pebble)：Pebble是一个受Twig启发的Java模板引擎，带有内置的自动转义功能以确保安全，并且包括对国际化的集成支持。
-* [Groovy](http://groovy-lang.org/templating.html#_the_markuptemplateengine)：Groovy提供Markup模板引擎，该引擎基于构建器语法，可用于生成任何文本格式。
-* [Apache Velocity](https://github.com/apache/velocity-engine)：Velocity是一个用Java编写的通用模板引擎。
-* [Mustache](https://github.com/spullara/mustache.java)：Mustache模板引擎Java实现。
-* [Apache Tiles](https://github.com/apache/tiles)：Apache Tiles是一个Java EE应用的页面布局框架。
-* [EscapeVelocity](https://github.com/google/escapevelocity)：EscapeVelocity是一个可以在Java中使用的模板引擎，它是Velocity功能子集的重新实现，由Google开源。
-* [Jade4j](https://github.com/neuland/jade4j)：Jade4j的目的是能够在Java中处理jade模板，而不需要JavaScript环境，同时完全兼容原始jade语法。
-* [Handlebars.java](https://github.com/jknack/handlebars.java)：Handlebars.java是Handlebars的Java端口。
-* [Beetl](https://github.com/javamonkey/beetl2.0)：Beetl是新一代的模板引擎，更简单易用。
-* [Twirl](https://github.com/playframework/twirl)：Twirl是Play的默认模板引擎。
-* [Rocker](https://github.com/fizzed/rocker)：Rocker是一个Java 8+优化、近乎零拷贝渲染的快速模板引擎，可生成静态类型、纯Java对象模板，并与项目的其余部分一起编译，由Fizzed开源。
-* [Jinja](https://github.com/HubSpot/jinjava)：基于Django模板语法的基于Java的模板引擎，适用于渲染Jinja模板，由HubSpot开源。
-* [HTTL](https://github.com/httl/httl)：HTTL是一个高性能的开源Java模板引擎，适用于动态HTML页面输出，可替代JSP页面，指令和Velocity相似。
-* [Qute](https://cn.quarkus.io/guides/qute)：Qute是专为Quarkus开发的模板引擎。
-* [JetBrick](https://github.com/subchen/jetbrick-template-2x)：JetBrick是一个新一代Java模板引擎，具有高性能和高扩展性。
-* [HtmlFlow](https://github.com/xmlet/HtmlFlow)：HtmlFlow是一种Java DSL，可以以流式的方式编写类型安全的HTML文档。
-* [Chunk](https://github.com/tomj74/chunk-templates)：Chunk是一个Java模板引擎，适用于服务HTML或XML的应用程序。
-* [Trimou](https://github.com/trimou/trimou)：Java中的Mustache/Handlebars模板引擎。
-* [Rythm](https://github.com/rythmengine/rythmengine)：类似Razor、功能丰富、高性能且易于使用的Java模板引擎。
-* [Liqp](https://github.com/bkiers/Liqp)：Liquid模板引擎的Java实现，由ANTLR语法支持。
-* [StringTemplate](https://github.com/antlr/stringtemplate4)：StringTemplate是一个Java模板引擎，用于生成源代码、网页、电子邮件或任何其他格式化文本输出。
-* [JTE](https://github.com/casid/jte)：JTE是一个适用于Java和Kotlin的安全且快速的模板。
-* [Jamal](https://github.com/verhas/jamal)：嵌入到Maven/JavaDoc中的可扩展模板引擎，支持多种扩展(Groovy、Ruby、JavaScript、JShell、PlantUml)，并支持片段处理。
-* [JStachio](https://github.com/jstachio/jstachio)：JStachio是一种类型安全的Java Mustache模板引擎。
-* [Jtwig](https://github.com/jtwig/jtwig)：模块化、可配置且经过全面测试的模板引擎。
-* [JMustache](https://github.com/samskivert/jmustache)：JMustache是Mustache模板语言的Java实现。
-* [Enjoy](https://gitee.com/jfinal/enjoy)：Enjoy是基于Java语言的极轻量极模板引擎。
-* [Pug4j](https://github.com/neuland/pug4j)：Pug4j的目的是能够在不需要JavaScript环境的情况下处理Java中的pug模板，同时与原始pug语法完全兼容。
-* [JMTE](https://code.google.com/archive/p/jmte/)：JMTE旨在填补使用String.format等基本Java类的简单字符串格式化与Velocity或StringTemplate等复杂模板解决方案之间的空白。
-* [Jamon](http://www.jamon.org/index.html)：Jamon是一个Java文本模板引擎，用于生成动态HTML、XML或任何基于文本的内容。
-* [FreshMarker](https://gitlab.com/schegge/freshmarker)：FreshMarker是一个简单的嵌入式Java 21模板引擎，其灵感来自FreeMarker。
-* [ZML](https://gitee.com/zhiqim/zhiqim_zml)：ZML是知启蒙定义的、类似于Java、Javascript语法的语句和表达式，通常和XML/HTML混编在一起形成的一种新的标记语言。
-* [Japid](https://github.com/branaway/Japid)：Japid是一个基于Java的动态内容渲染模板系统。
 
 ## 爬虫框架
 
@@ -2153,6 +2113,7 @@
 * [Wrangler](https://github.com/data-integrations/wrangler)：Wrangler是一组库、一个流水线插件和一个CDAP服务，用于使用一组数据操作指令执行数据清理、转换和过滤，由Google开源。
 * [Ares](https://github.com/rewerma/ares)：Ares是一个基于PL-SQL语法的数据计算集成引擎，用于ETL、跨源计算、数据分析和存储计算分离。
 * [DataFlow Engine](https://github.com/risesoft-y9/DataFlow-Engine)：数据流引擎是一款面向数据集成、数据同步、数据交换、数据共享、任务配置、任务调度的底层数据驱动引擎，由北京有生博大软件开源。
+* [BBoss Datatran](https://gitee.com/bboss/bboss-elastic-tran)：BBoss Datatran是由BBoss开源的数据采集同步ETL工具。
 
 #### CDC组件
 
@@ -2703,7 +2664,7 @@
 * [Apache Pinot](https://github.com/apache/pinot)：Pinot是一种实时分布式OLAP数据存储，由LinkedIn开源。
 * [Apache Kylin](https://github.com/apache/kylin)：Kylin是一个面向Hadoop和云的统一且强大的OLAP平台，由eBay贡献。
 * [CrateDB](https://github.com/crate/crate)：CrateDB是一个分布式SQL数据库，可以轻松地实时存储和分析大量数据。
-* [COOL](https://github.com/COOL-cohort/COOL)：COOL是一种非常高效的OLAP引擎，用于对时序数据进行队列和OLAP分析。
+* [COOL](https://github.com/COOL-cohort/COOL)：COOL是一种非常高效的OLAP引擎，用于对时序数据进行队列和OLAP分析，由新加坡国立大学开源。
 * [QinSQL](https://github.com/qinsql/QinSQL)：QinSQL是一个基于Lealone的可暂停的渐进式OLAP引擎。
 * [Imhotep](https://github.com/indeedeng/imhotep)：Imhotep是Indeed打造的大型分析平台。
 * [Mondrian](https://github.com/pentaho/mondrian)：Mondrian是一款OLAP服务器，使业务用户能够实时分析大量数据。
@@ -2831,29 +2792,6 @@
 * [Raigad](https://github.com/Netflix/Raigad)：Raigad是一个用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程，由Netflix开源。
 * [InnoDB Java Reader](https://github.com/alibaba/innodb-java-reader)：InnoDB Java Reader是一个直接访问MySQL InnoDB存储引擎文件的Java实现，由阿里开源。
 * [FQLite](https://github.com/pawlaszczyk/fqlite)：FQLite是一款用于查找和恢复SQLite数据库中已删除记录的工具。
-
-## 图处理
-
-* [GraphX](https://github.com/apache/spark/tree/master/graphx)：Spark GraphX是一个分布式图处理框架，它是基于Spark平台提供对图计算和图挖掘简洁易用的而丰富的接口。
-* [GeaFlow](https://github.com/apache/geaflow)：GeaFlow是蚂蚁集团的流图计算引擎。
-* [GraphJet](https://github.com/twitter/GraphJet)：GraphJet是一个用Java编写的实时图处理库，由Twitter开源。
-* [GoldenOrb](https://github.com/jzachr/goldenorb)：GoldenOrb是Google图处理框架Pregel的开源实现。
-* [Graphviz Java](https://github.com/nidi3/graphviz-java)：将Graphviz与纯Java一起使用，使用Java代码创建Graphviz模型并将其转换为漂亮的图形。
-* [GraphChi](https://github.com/GraphChi/graphchi-java)：GraphChi是一个基于磁盘的大规模图计算系统，由CMU开源。
-* [LynxKite](https://github.com/lynxkite/lynxkite)：LynxKite是一个完整的图数据科学平台，适用于超大型图和其他数据集。
-* [GraphFrames](https://github.com/graphframes/graphframes)：GraphFrames是一个基于DataFrame的图包，由加州大学伯克利分校、MIT和Databricks开源。
-* [Gradoop](https://github.com/dbs-leipzig/gradoop)：Gradoop是一个开源研究框架，用于构建在Flink之上的可扩展图分析，由莱比锡大学数据库研究组开发。
-* [SociaLite](https://github.com/socialite-lang/socialite)：SociaLite是一种用于分布式图分析的高级查询语言，由斯坦福开源。
-* [GraphScope](https://github.com/alibaba/GraphScope)：GraphScope是阿里巴巴达摩院智能计算实验室研发并开源的一站式图计算平台。
-* [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
-* [PGQL](https://github.com/oracle/pgql-lang)：PGQL是一种基于SQL的属性图数据模型查询语言，为SQL和NoSQL用户带来图模式匹配功能，由Oracle开源。
-* [Ant Graph Learning](https://github.com/TuGraph-family/TuGraph-AntGraphLearning)：Ant Graph Learning为工业规模的图学习任务提供了全面的解决方案，由蚂蚁开源。
-* [GraphBuilder](https://github.com/intel/graphbuilder)：GraphBuilder库提供了构建大规模图的函数，由Intel开源。
-* [GraphStream](https://github.com/graphstream/gs-core)：GraphStream项目是一个Java库，提供API来建模、分析和可视化图和动态图，由勒阿弗尔大学开源。
-* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：Erdos是一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
-* [Signal/Collect](https://github.com/uzh/signal-collect)：Signal/Collect是一个用于大型图计算的框架，由苏黎世大学开源。
-* [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
-* [GraphTea](https://github.com/rostam/GraphTea)：GraphTea是一个用于处理图和社交网络的软件框架。
 
 ## 网络编程
 
@@ -3027,6 +2965,63 @@
 * [WebSocket Android Phonegap](https://github.com/anismiles/websocket-android-phonegap)：这是一个为Android平台实现Websocket API的Java库。
 * [TubeSock](https://github.com/FirebaseExtended/TubeSock)：TubeSock是WebSocket协议客户端的Java实现，由Google开源。
 * [Krossbow](https://github.com/joffrey-bion/krossbow)：Krossbow是一个Kotlin多平台STOMP 1.2客户端，具有基于协程的API。
+
+#### 即时通讯
+
+* [Jitsi](https://github.com/jitsi/jitsi)：Jitsi Desktop是一款免费的开源音频/视频和聊天通信器，支持SIP、XMPP/Jabber、IRC等协议和许多其他有用的功能。
+* [Signal Server](https://github.com/signalapp/Signal-Server)：Signal是一款开源、端到端加密的通讯应用程序，可用于发送文本、语音、图片和视频等多种形式的消息，由Open Whisper Systems开发。
+* [TIMSDK](https://github.com/TencentCloud/TIMSDK)：腾讯云聊天拥有全球接入、一对一聊天、群聊、消息推送、档案和关系链托管、账户认证等一整套解决方案。
+* [CIM](https://github.com/crossoverJie/cim)：CIM是一款面向开发者的IM系统，同时提供了一些组件帮助开发者构建一款属于自己可水平扩展的IM。
+* [Google Cloud Messaging](https://github.com/google/gcm)：Google Cloud Messaging是一种服务，允许开发人员将数据从服务器发送到用户的设备，并从同一连接上的设备接收消息。
+* [野火IM](https://github.com/wildfirechat/im-server)：野火IM是专业级的即时通讯和实时音视频整体解决方案，由北京野火无限网络科技有限公司维护和支持。
+* [V-IM](https://gitee.com/alyouge/V-IM)：V-IM是基于JS的超轻量级聊天软件，服务端使用Spring Boot。
+* [FshareIM](https://github.com/fsharechat)：FshareIM是一个技术自主可控即时IM通讯系统，适于私有化部署。
+* [Face2Face](https://github.com/a2888409/face2face)：基于Netty的异步非阻塞实时聊天(IM)服务器。
+* [Tigase Server](https://github.com/tigase/tigase-server)：Tigase XMPP Server是用Java编写的高度优化、高度模块化且非常灵活的XMPP/Jabber服务器。
+* [MallChat](https://github.com/zongzibinbin/MallChat)：抹茶聊天是一个IM项目，通过Netty实现和前端的WebSocket连接。
+* [Actor Platform](https://github.com/actorapp/actor-platform)：Actor是一个即时通讯平台。
+* [NettyChat](https://github.com/FreddyChen/NettyChat)：基于Netty、TCP、Protobuf实现的Android IM库。
+* [Turms](https://github.com/turms-im/turms)：Turms是全球最先进的开源即时通讯引擎，支持100K~10M并发用户。
+* [InChat](https://github.com/AwakenCN/InChat)：InChat是一个轻量级、高效、分布式的异步通信框架，支持聊天和物联网。
+* [Smack](https://github.com/igniterealtime/Smack)：Smack是一个开源、高度模块化、易于使用的XMPP客户端库，用Java编写，适用于兼容Java SE的JVM和Android。
+* [J-IM](https://gitee.com/xchao/j-im)：J-IM是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
+* [Bytedesk](https://github.com/Bytedesk/bytedesk)：企业即时通讯解决方案，具有人工智能实时聊天、电子邮件支持、全渠道客户服务和团队即时通讯功能。
+* [Openfire](https://github.com/igniterealtime/Openfire)：Openfire是一个即时通信和群聊服务器，它是使用Java编写的XMPP服务器。
+* [CIM](https://gitee.com/farsunset/cim)：CIM是一套完善的消息推送框架，可应用于信令推送，即时聊天，移动设备指令推送等领域。
+* [MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK)：MobileIMSDK是一个原创多端IM通信层框架，轻量级、高度提炼，支持UDP + TCP + WebSocket三种协议。
+* [OIM](https://gitee.com/oimchat/oim-fx)：OIM是一套即时通讯的聊天系统，可以用于公司内网、外网通讯、客服系统等。
+* [CometD](https://github.com/cometd/cometd)：用于网络消息传递的可扩展Comet(服务器推送)实现。
+* [云信IM](https://github.com/netease-kit/nim-uikit-android)：云信IM UIKit基于网易云信IM SDK开发的一款即时通讯UI组件库，包括聊天、会话、圈组、搜索、群管理等组件。
+* [QIQIIM](https://gitee.com/qiqiim/qiqiim-server)：QIQIIM提供简单快捷的IM方案，可用于公司内网、外网通讯，客服系统等。
+* [Spark](https://github.com/igniterealtime/Spark)：Spark是一款针对企业和组织进行优化的开源跨平台IM客户端。
+* [Gifsockets](https://github.com/videlalvaro/gifsockets)：使用Gif动画作为传输的实时通信库。
+* [RongCloud Server SDK](https://github.com/rongcloud/server-sdk-java)：Java版融云即时通讯服务器SDK。
+* [SONA](https://github.com/BixinTech/sona)：SONA是一个由比心语音技术团队开发，用于快速搭建语音房产品的全端解决方案，支撑了比心聊天室、直播、游戏房等业务。
+* [Tencent Cloud IM Server SDK](https://github.com/doocs/qcloud-im-server-sdk-java)：腾讯云IM服务端SDK Java版。
+* [Conversations](https://codeberg.org/iNPUTmice/Conversations)：Conversations是适用于Android的开源XMPP/Jabber客户端。
+* [Xiaper](https://github.com/xiaper/xiaper)：Xiaper是一款开源企业IM解决方案。
+* [盒子IM](https://gitee.com/bluexsx/box-im)：盒子IM是一个仿微信实现的网页版聊天软件，不依赖任何第三方收费组件。
+* [HuLa Server](https://github.com/HuLaSpark/HuLa-Server)：HuLa Server是一款基于Spring Boot 3、Netty、MyBatis Plus和RocketMQ构建的即时通讯系统服务端。
+* [Linyu](https://github.com/DWHengr/linyu-server)：林语是基于Tauri开发的桌面聊天软件，前端框架使用React，后端框架使用Spring Boot进行开发。
+* [IM WhaleShark](https://github.com/BanTanger/im-whale-shark)：IM WhaleShark是基于Netty实现的高性能分布式IM即时通讯系统。
+
+#### 视频通讯
+
+* [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)：BigBlueButton是一个开源虚拟教室，旨在帮助教师教学和学习者学习。
+* [Apache OpenMeetings](https://github.com/apache/openmeetings)：Openmeetings提供视频会议、即时消息、白板、协作文档编辑和其他群件工具。
+* [Ant Media Server](https://github.com/ant-media/Ant-Media-Server)：Ant Media Server是一款直播流引擎软件，通过使用WebRTC技术提供自适应、超低延迟流媒体，延迟约为0.5秒。
+* [WebRTC Java](https://github.com/devopvoid/webrtc-java)：WebRTC Java是WebRTC Native API的Java包装器，提供与W3C JavaScript API类似的功能。
+* [Jitsi Videobridge](https://github.com/jitsi/jitsi-videobridge)：Jitsi Videobridge是一个与WebRTC兼容的视频路由器或SFU，可用于构建高度可扩展的视频会议基础设施。
+* [OpenVidu](https://github.com/OpenVidu/openvidu)：OpenVidu是一个使你能够构建实时应用程序的平台。
+* [OnChat](https://github.com/onch-at/onchat)：OnChat是一个简单、美观、移动优先的即时消息渐进式Web应用程序。
+* [Kurento](https://github.com/Kurento/kurento)：Kurento Media Server负责媒体传输、处理、加载和记录。
+* [NextRTC](https://github.com/mslosarz/nextrtc-signaling-server)：NextRTC是一个用Java编写的简单WebRTC信令服务器。
+* [SIP Servlet](https://github.com/RestComm/sip-servlets)：RestComm SIP Servlet是SIP、IMS和WebRTC应用服务器。
+* [WebRTC Server Java](https://github.com/ddssingsong/webrtc_server_java)：实现基本的信令收发，配合Android端实现基本的呼叫、响铃、挂断、语音通话、视频通话的功能。
+* [Contact Center](https://github.com/caoliang1918/contact-center)：智能电话外呼系统。
+* [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
+* [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
+* [JazminServer](https://github.com/guooscar/JazminServer)：JazminServer是一个基于Java的应用程序/消息/RPC/SIP/RTMP/UDP中继服务器。
 
 #### FTP服务器
 
