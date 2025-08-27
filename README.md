@@ -332,11 +332,13 @@
 * [商业智能](docs/doc2.md#商业智能)
 * [模板引擎](docs/doc2.md#模板引擎)
 * [SMT求解器](docs/doc2.md#SMT求解器)
-* [脚本](docs/doc2.md#脚本)
-* [CLI框架](docs/doc2.md#CLI框架)
-* [CLI工具](docs/doc2.md#CLI工具)
-* [命令行参数解析](docs/doc2.md#命令行参数解析)
-* [cURL](docs/doc2.md#cURL)
+* [命令行开发](docs/doc2.md#命令行开发)
+    * [CLI库](docs/doc2.md#CLI库)
+    * [命令行参数解析](docs/doc2.md#命令行参数解析)
+    * [ASCII艺术](docs/doc2.md#ASCII艺术)
+    * [文本表](docs/doc2.md#文本表)
+    * [进度条](docs/doc2.md#进度条)
+* [控制台](docs/doc2.md#控制台)
 * [版本控制系统](docs/doc2.md#版本控制系统)
     * [Git服务器](docs/doc2.md#Git服务器)
     * [Git工具](docs/doc2.md#Git工具)
@@ -428,6 +430,7 @@
 * [运行](docs/doc2.md#运行)
 * [Java环境管理](docs/doc2.md#Java环境管理)
 * [API变更管理](docs/doc2.md#API变更管理)
+* [源代码转换](docs/doc2.md#源代码转换)
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
 * [企业软件开发](docs/doc2.md#企业软件开发)
     * [项目模板](docs/doc2.md#项目模板)
@@ -498,6 +501,7 @@
     * [银行API](docs/doc2.md#银行API)
     * [量化交易](docs/doc2.md#量化交易)
     * [FIX引擎](docs/doc2.md#FIX引擎)
+    * [订单匹配引擎](docs/doc2.md#订单匹配引擎)
     * [信用卡数据交换](docs/doc2.md#信用卡数据交换)
     * [金融信息交换](docs/doc2.md#金融信息交换)
     * [货币](docs/doc2.md#货币)
@@ -748,10 +752,8 @@
 * [WebDav](docs/doc2.md#WebDav)
 * [AirPlay](docs/doc2.md#AirPlay)
 * [元编程](docs/doc2.md#元编程)
-* [ASCII艺术](docs/doc2.md#ASCII艺术)
 * [Unicode](docs/doc2.md#Unicode)
 * [表情库](docs/doc2.md#表情库)
-* [文本表](docs/doc2.md#文本表)
 * [字体库](docs/doc2.md#字体库)
 * [语言库](docs/doc2.md#语言库)
 * [敏感词过滤](docs/doc2.md#敏感词过滤)
@@ -809,7 +811,6 @@
     * [WebAssembly](docs/doc2.md#WebAssembly)
     * [JavaScript引擎](docs/doc2.md#JavaScript引擎)
     * [GWT库](docs/doc2.md#GWT库)
-    * [JavaScript/TypeScript转译器](docs/doc2.md#JavaScriptTypeScript转译器)
     * [CSS库](docs/doc2.md#CSS库)
 * [对象图导航](docs/doc2.md#对象图导航)
 * [超媒体类型](docs/doc2.md#超媒体类型)
@@ -1227,6 +1228,7 @@
 * [Norm](https://github.com/dieselpoint/norm)：Norm是一种访问JDBC数据库的简单方法，通常只需一行代码。
 * [Iciql](https://github.com/gitblit/iciql)：Iciql是一个基于模型的JDBC数据库访问包装器。
 * [JDBCX](https://github.com/jdbcx/jdbcx)：JDBCX通过支持SQL之外的其他数据格式、压缩算法、对象映射、类型转换和查询语言来增强JDBC驱动程序。
+* [SQLLine](https://github.com/julianhyde/sqlline)：SQLLine是一个用于通过JDBC向关系型数据库发出SQL的命令行Shell。
 * [Carbonado](https://github.com/Carbonado/Carbonado)：Carbonado是Java应用程序的可扩展、高性能持久性抽象层，提供底层持久性技术的关系视图，由Amazon开源。
 * [SQLBuilder](https://github.com/jkrasnay/sqlbuilder)：该包包含许多实用程序类，以简化SQL的使用。
 
@@ -1394,6 +1396,7 @@
 * [OneDev](https://github.com/theonedev/onedev)：OneDev是一个具有CI/CD、看板的自托管Git服务器。
 * [FlowCI](https://github.com/FlowCI/flow-core-x)：FlowCI是一个开源CI/CD自动化服务器，旨在以最简单、最快、最轻松的方式建立自托管CI/CD服务。
 * [BK CI](https://github.com/TencentBlueKing/bk-ci)：BlueKing是一个免费并开源的CI服务，可助你自动化构建-测试-发布工作流，持续、快速、高质量地交付你的产品，由腾讯开源。
+* [JReleaser](https://github.com/jreleaser/jreleaser)：JReleaser是一个用于Java和非Java项目的自动化发布工具。
 * [Hudson](https://github.com/hudson/hudson-2.x)：Hudson是用Java编写的一个持续集成工具，由Sun开源。
 * [Arbess](https://github.com/tiklab-project/tiklab-arbess)：Arbess是一款强大的开源CI/CD工具，旨在帮助开发团队高效管理构建、测试和部署流程。
 * [Apache Continuum](https://continuum.apache.org/)：Continuum是一款企业级持续集成服务器，具有自动构建、发布管理、基于角色的安全性以及与流行构建工具和源代码控制管理系统的集成等功能。
@@ -2799,6 +2802,8 @@
 * [RestVolley](https://github.com/HujiangTechnology/RestVolley)：RestVolley是一个基于Volley和OkHttp的HTTP请求框架，由沪江科技开源。
 * [King HttpClient](https://github.com/king/king-http-client)：支持SSE的异步HTTP客户端。
 * [Smart HTTP](https://gitee.com/smartboot/smart-http)：Smart HTTP是一款可编程的HTTP应用微内核，方便用户根据自身需求进行服务端或客户端的应用开发。
+* [cURL](https://github.com/libetl/curl)：在Java中使用cURL的库。
+* [Java cURL](https://github.com/rockswang/java-curl)：Java cURL是一个基于标准JDK中的HttpURLConnection实现的纯Java HTTP实用程序。
 
 #### HTTP路由
 
@@ -4362,4 +4367,4 @@
 * [Geni](https://github.com/zero-one-group/geni)：Geni是一个在Apache Spark上运行的Clojure Dataframe库。
 * [Saddle](https://github.com/saddle/saddle)：Saddle是Scala的一个数据操作库，它提供基于数组、索引、一维和二维的数据结构，这些数据结构在JVM原始类型上经过精心设计，以避免装箱和拆箱的开销。
 
-## [测试-面试宝典](docs/doc2.md)
+## [测试-面试宝典](docs/doc2.md)  
