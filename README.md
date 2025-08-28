@@ -493,7 +493,6 @@
 * [Docker客户端](docs/doc2.md#Docker客户端)
 * [Consul客户端](docs/doc2.md#Consul客户端)
 * [Kubernetes客户端](docs/doc2.md#Kubernetes客户端)
-* [S3客户端](docs/doc2.md#S3客户端)
 * [Web3](docs/doc2.md#Web3)
     * [区块链](docs/doc2.md#区块链)
     * [以太坊](docs/doc2.md#以太坊)
