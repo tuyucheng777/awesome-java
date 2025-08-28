@@ -6993,6 +6993,55 @@
 * [Arc](https://github.com/Anuken/Arc)：基于LibGDX的Java游戏开发框架。
 * [VatraLib](https://vatrasoft.de/vatralib/)：VatraLib是一个用Java编写的2D游戏引擎。
 
+#### Minecraft
+
+* [Paper](https://github.com/PaperMC/Paper)：Paper是一个基于Spigot的Minecraft游戏服务器，旨在大幅提高性能并提供更高级的功能和API。
+* [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge)：Forge是一个免费的开源修改API，可供你所有喜爱的Mod使用。
+* [HMCL](https://github.com/HMCL-dev/HMCL)：HMCL是一个开源、跨平台的Minecraft启动器，支持Mod管理、游戏自定义、ModLoader安装、Modpack创建、UI自定义等。
+* [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)：PojavLauncher是一个启动器，可让你在Android和iOS设备上玩Minecraft Java版。
+* [Sodium](https://github.com/CaffeineMC/sodium-fabric)：Sodium是Minecraft客户端的强大渲染引擎和优化模块，可提高帧速率并减少微卡顿，同时修复Minecraft中的许多图形问题。
+* [Geyser](https://github.com/GeyserMC/Geyser)：Geyser是Minecraft基岩版和Minecraft Java版之间的桥梁，为那些想要真正跨平台游戏的玩家提供了便利。
+* [Brigadier](https://github.com/Mojang/brigadier)：Brigadier是一个命令解析器和调度器，专为Minecraft Java版设计和开发。
+* [WorldEdit](https://github.com/EngineHub/WorldEdit)：WorldEdit是一款易于使用的游戏内Minecraft地图编辑器。
+* [Iris](https://github.com/IrisShaders/Iris)：适用于Minecraft的现代着色器模型，与现有的OptiFine着色器包兼容。
+* [MCA Selector](https://github.com/Querz/mcaselector)：MCA Selector是一个外部工具，用于导出、删除或编辑Minecraft Java版世界保存中的选定块和区域。
+* [Bukkit](https://github.com/Bukkit/Bukkit)：Bukkit是一个由社区开发的开源工具，用于减轻开发服务器插件的负担。
+* [Create](https://github.com/Creators-of-Create/Create)：Create是一个提供用于建筑、装饰和美学自动化的各种工具和模块的模组。
+* [Amidst](https://github.com/toolbox4minecraft/amidst)：Amidst是一个显示Minecraft世界概览的工具，无需实际创建它。
+* [Minestom](https://github.com/Minestom/Minestom)：Minestom是一个开源库，开发人员可以使用它创建自己的Minecraft服务器软件，而无需Mojang的任何代码。
+* [Dynmap](https://github.com/webbukkit/dynmap)：Dynmap是类似Google地图的Minecraft服务器地图，可以在浏览器中查看。
+* [Fabric](https://github.com/FabricMC/fabric)：Fabric API是Fabric模块必备钩子和互操作机制的库。
+* [Glowstone](https://github.com/GlowstoneMC/Glowstone)：Glowstone是一款轻量级、从零开始的开源Minecraft服务器，支持为Bukkit API及其主要分支Spigot和Paper编写的插件。
+* [CatServer](https://github.com/Luohuayu/CatServer)：CatServer是一个高性能的Forge、Bukkit、Spigot服务端核心。
+* [LuckPerms](https://github.com/LuckPerms/LuckPerms)：LuckPerms是一款适用于Minecraft服务器的权限插件，它允许服务器管理员通过创建群组和分配权限来控制玩家可以使用的功能。
+* [Lithium](https://github.com/CaffeineMC/lithium-fabric)：Lithium是一款免费的开源Minecraft模组，可优化游戏的许多领域，以提供更好的整体性能。
+* [Essentials](https://github.com/EssentialsX/Essentials)：EssentialsX是Essentials插件套件的延续，已更新以支持现代Minecraft和Spigot版本。
+* [Meteor](https://github.com/MeteorDevelopment/meteor-client)：基础Minecraft实用程序模组。
+* [BungeeCord](https://github.com/SpigotMC/BungeeCord)：BungeeCord是一款复杂的代理和API，主要用于在多个Minecraft服务器之间传送玩家。
+* [BlueMap](https://github.com/BlueMap-Minecraft/BlueMap)：BlueMap是一个程序，它可以读取你的Minecraft世界文件并生成地图，还可以生成整个表面的3D模型。
+* [Velocity](https://github.com/PaperMC/Velocity)：Velocity是一款现代的高性能代理服务器。
+* [FarPlaneTwo](https://github.com/PorkStudios/FarPlaneTwo)：FarPlaneTwo是一个为Minecraft实现了多细节层次(LoD)地形渲染的Mod。
+* [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2)：Applied Energistics 2是Minecraft的一个综合模组，它引入了一种独特的游戏内库存管理方法。
+* [Botania](https://github.com/VazkiiMods/Botania)：Botania是一个以自然魔法为主题的Minecraft技术模组。
+* [SpongeAPI](https://github.com/SpongePowered/SpongeAPI)：Sponge的目的是为Minecraft Java版创建一个插件开发框架。
+* [Nukkit](https://github.com/CloudburstMC/Nukkit)：Nukkit是Minecraft基岩版的核动力服务器软件。
+* [SpongeForge](https://github.com/SpongePowered/SpongeForge)：实现SpongeAPI的Forge模组。
+* [Adventure](https://github.com/KyoriPowered/adventure)：Adventure是Minecraft Java版中服务器可控制的用户界面元素库。
+* [BuildCraft](https://github.com/BuildCraft/BuildCraft)：BuildCraft是一个历史悠久的物流向模组。
+* [MultiPaper](https://github.com/MultiPaper/MultiPaper)：MultiPaper是一个多服务器、单世界的PaperMC实现。
+* [Folia](https://github.com/PaperMC/Folia)：Folia是PaperMC组织最新的项目，旨在实现真正的多线程和区域化心跳。
+* [Fold Craft Launcher](https://github.com/FCL-Team/FoldCraftLauncher)：FCL是由FCL-Team基于HMCL的核心功能，结合PojavLauncher后端和Boat后端开发的Minecraft Java版启动器。
+* [Purpur](https://github.com/PurpurMC/Purpur)：Purpur是Paper服务器的替代品，旨在实现可配置性、新颖有趣且令人兴奋的游戏功能以及基于Paper的性能。
+* [VulkanMod](https://github.com/xCollateral/VulkanMod)：VulkanMod是一个Fabric Mod，它为Minecraft Java引入了一个全新的基于Vulkan的体素渲染引擎，以替换默认的OpenGL渲染器并带来性能改进。
+* [Arclight](https://github.com/IzzelAliz/Arclight)：Arclight是一款支持Bukkit和Forge插件的混合服务器。
+* [LiquidBounce](https://github.com/CCBlueX/LiquidBounce)：LiquidBounce是一个免费的开源的基于Mixin的注入式黑客客户端，使用Minecraft的Fabric API。
+* [BedrockConnect](https://github.com/Pugmatt/BedrockConnect)：BedrockConnect是一款极简版Minecraft基岩版服务器软件，为玩家提供服务器列表解决方案。
+* [OpenComputers](https://github.com/MightyPirates/OpenComputers)：OpenComputers是一个Minecraft模组，它为游戏添加了可编程计算机和机器人。
+* [NeoForge](https://github.com/neoforged/NeoForge)：NeoForge是针对Minecraft的免费、开源、面向社区的修改API。
+* [Mekanism](https://github.com/mekanism/Mekanism)：Mekanism是一款独立的Minecraft插件，具有可用于制造强大工具、盔甲和武器的高科技机械。
+* [Mohist](https://github.com/MohistMC/Mohist)：Mohist是一个出色的Minecraft Forge服务器软件，实现了Bukkit、Spigot API。
+* [ViaVersion](https://github.com/ViaVersion/ViaVersion)：ViaVersion是一个多平台插件，允许你在Minecraft服务器上处理未来的客户端版本。
+
 #### 游戏服务器
 
 * [Lila](https://github.com/lichess-org/lila)：Lila是一款免费的在线国际象棋游戏服务器，专注于实时游戏玩法和易用性。
@@ -7130,6 +7179,7 @@
 * [Shattered Pixel Dungeon](https://github.com/00-Evan/shattered-pixel-dungeon)：Shattered Pixel Dungeon是一款传统的Roguelike地下城探索角色扮演游戏。
 * [Pixel Dungeon](https://github.com/watabou/pixel-dungeon)：Pixel Dungeon是一款传统的Roguelike游戏，具有像素艺术图形和简单的界面，适用于Android、iOS、Windows、Mac和Linux。
 * [ByteLegend](https://github.com/ByteLegend/ByteLegend)：ByteLegend是一款免费、开源的MMORPG游戏，你可以在其中获得现实世界的高薪编程技能。
+* [OpenKeeper](https://github.com/tonihele/OpenKeeper)：OpenKeeper是地下城守护者II游戏和引擎的开源重制版。
 
 #### 游戏开发工具
 

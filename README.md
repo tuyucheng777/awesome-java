@@ -620,6 +620,7 @@
     * [LaTeX编辑器](docs/doc2.md#LaTeX编辑器)
 * [游戏开发](docs/doc2.md#游戏开发)
     * [游戏引擎](docs/doc2.md#游戏引擎)
+    * [Minecraft](docs/doc2.md#Minecraft)
     * [游戏服务器](docs/doc2.md#游戏服务器)
     * [游戏模拟器](docs/doc2.md#游戏模拟器)
     * [2D/3D渲染](docs/doc2.md#2D3D渲染)
