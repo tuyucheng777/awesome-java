@@ -1322,6 +1322,7 @@
 * [TomlJ](https://github.com/tomlj/tomlj)：TomlJ是一个完整的TOML解析器。
 * [Toml4j](https://github.com/mwanji/toml4j)：Toml4j是一个用于Java的TOML 0.4.0解析器。
 * [KToml](https://github.com/orchestr7/ktoml)：完全原生且跨平台的Kotlin序列化库，用于序列化/反序列化Toml格式。
+* [JToml](https://github.com/agrison/jtoml)：这是使用Java的TOML标记语言的解析器。
 
 ## GraphQL
 
@@ -3864,7 +3865,7 @@
 
 这里列出了各行业企业级开发的管理系统，包括CMS、低代码、ERP等。
 
-#### 项目模板
+#### 项目模板/脚手架
 
 * [JHipster](https://github.com/jhipster/generator-jhipster)：JHipster是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
 * [Spring Initializr](https://github.com/spring-io/initializr)：Spring Initializr提供了可扩展的API来生成基于JVM的项目。
@@ -3888,10 +3889,8 @@
 * [Jeddict](https://github.com/jeddict/jeddict-modeler)：Jakarta EE 10和MicroProfile应用程序生成器和建模器。
 * [DevOps Boot](https://github.com/bkdevops-projects/devops-framework)：DevOps Boot是基于Spring Boot的微服务快速开发框架，由腾讯DevOps团队开发。
 * [NBCIO](https://gitee.com/nbacheng/nbcio-boot)：NBCIO亿事达企业管理平台。
-* [Panshi](https://gitee.com/aizuda/panshi)：稳定可靠的Web开发框架，由爱组搭维护。
 * [Openkoda](https://github.com/openkoda/openkoda)：即用型开发平台，可加速构建业务应用程序和内部工具的过程。
 * [MicroServices Platform](https://gitee.com/zlt2000/microservices-platform)：MicroServices Platform是基于Spring Boot 2.x、Spring Cloud和Spring Cloud Alibaba并采用前后端分离的企业级微服务多租户系统架构。
-* [Cloud Platform](https://gitee.com/geek_qi/cloud-platform)：Cloud Platform是基于Spring Cloud微服务化RBAC的管理平台。
 * [SpringBlade](https://gitee.com/smallc/SpringBlade)：SpringBlade是一个由商业级项目升级优化而来的微服务架构。
 * [Open Capacity Platform](https://gitee.com/dromara/open-capacity-platform)：OCP是基于Spring Cloud的企业级微服务框架，其目标是帮助企业搭建一套类似百度能力开放平台的微服务框架，由dromara社区开源。
 * [Hope Boot](https://github.com/java-aodeng/hope-boot)：Hope Boot是一款现代化的脚手架项目。
@@ -3993,7 +3992,8 @@
 * [Spring Boot Code Generator](https://github.com/moshowgame/SpringBootCodeGenerator)：基于Spring Boot 2、Freemarker的Java代码生成器。
 * [ApplicationPower](https://github.com/shalousun/ApplicationPower)：ApplicationPower是Maven项目的快速代码生成器。
 * [Axelor Open Platform](https://github.com/axelor/axelor-open-platform)：Axelor Open Platform是一个用于创建现代商业应用程序的开源Java框架。
-* [Selenium Maven Template](https://github.com/Ardesco/Selenium-Maven-Template)：一个适用于Selenium 4的Maven模板，包含最新的依赖项。
+* [Selenium Maven Template](https://github.com/Ardesco/Selenium-Maven-Template)：适用于Selenium 4的Maven模板，包含最新的依赖项。
+* [BuildCLI](https://github.com/BuildCLI/BuildCLI)：BuildCLI是一个CLI工具，用于管理和自动化Java项目开发中的常见任务。
 
 #### 低代码
 
@@ -4008,6 +4008,7 @@
 * [DiBoot](https://gitee.com/dibo_software/diboot)：Diboot是一个在开发框架上构建的低代码平台，由苏州帝博软件公司开源。
 * [Mendix](https://www.mendix.com/)：Mendix是一个低代码平台，由Siemens开发。
 * [OPSLI](https://github.com/hiparker/opsli-boot)：OPSLI是一款快速的低代码平台，零代码开发，致力于做更简洁的后台管理系统。
+* [Panshi](https://gitee.com/aizuda/panshi)：稳定可靠的Web开发框架，由爱组搭维护。
 * [Structr](https://github.com/structr/structr)：Structr是一个使用图数据库的集成低代码开发和运行时环境。
 * [DBAPI](https://gitee.com/freakchicken/db-api)：DBAPI是一个面向数仓开发人员的低代码工具，只需在页面上编写SQL，并配置好参数，就可以自动生成HTTP接口。
 * [Citrus](https://github.com/Yiuman/citrus)：低代码快速开发脚手架，灵活、高效。
@@ -4058,6 +4059,7 @@
 
 * [Pig](https://gitee.com/log4j/pig)：Pig是基于Spring Boot 3.0、Spring Cloud 2022 & Alibaba、SAS OAuth2的微服务RBAC权限管理系统。
 * [RenRen Security](https://gitee.com/renrenio/renren-security)：RenRen Security是采用Spring Boot、MyBatisPlus、Shiro、Vue 3、ElementPlus等框架开发的一套权限系统。
+* [Cloud Platform](https://gitee.com/geek_qi/cloud-platform)：Cloud Platform是基于Spring Cloud微服务化RBAC的管理平台。
 * [Surpass](https://gitee.com/tomsun28/bootshiro)：Surpass是基于Spring Boot、Sureness的面向REST API资源无状态认证权限管理系统的后端。
 * [Dillon Admin Pro](https://gitee.com/lwdillon/dillon-admin-pro)：基于JavaFX、Java Swing、Spring Boot开发的权限管理系统。
 * [Pro Cloud](https://gitee.com/gitsc/pro-cloud)：Pro Cloud是一个Security作为安全框架，基于OAuth2的RBAC权限管理微服务系统。
@@ -5031,6 +5033,7 @@
 
 * [Exchange Core](https://github.com/exchange-core/exchange-core)：Exchange Core是一个基于LMAX Disruptor、Eclipse Collections、Real Logic Agrona、OpenHFT Chronicle-Wire、LZ4 Java和Adaptive Radix Trees的开源市场交易核心。
 * [CoinTossX](https://github.com/dharmeshsing/CoinTossX)：基于JSE规则的低延迟高吞吐量匹配引擎。
+* [Match Trade](https://gitee.com/flying-cattle/match-trade)：Match Trade是高效的交易所撮合引擎，采用伦敦外汇交易所LMAX开源的Disruptor框架，分布式内存存取、以及原子性操作。
 * [CoralME](https://github.com/coralblocks/CoralME)：CoralME是一种订单簿数据结构，它根据价格时间优先级来匹配订单。
 * [Order Book Matching Engine](https://github.com/philipperemy/Order-Book-Matching-Engine)：证券交易所订单簿匹配引擎。
 * [Chronicle Matching Engine](https://chronicle.software/matching-engine/)：Chronicle Matching Engine是具有弹性且可扩展的交换解决方案的支柱。
@@ -5257,6 +5260,7 @@
 * [Java HID-API](https://github.com/nyholku/purejavahidapi)：HID-API是一个跨平台API，用于从Java访问USB HID设备。
 * [JavaDoesUSB](https://github.com/manuelbl/JavaDoesUSB)：Java Does USB是一个用于处理USB设备的Java库，它允许查询有关所有连接的USB设备的信息，并使用自定义/供应商特定协议与USB设备进行通信。
 * [Hid4Java](https://github.com/gary-rowe/hid4java)：libusb/hidapi库的跨平台JNA包装器，在Windows/Mac/Linux上开箱即用。
+* [Java USB LibUSB](https://github.com/trygvis/javax-usb-libusb1)：基于libusb的javax.usb实现。
 
 #### XBee
 
@@ -6454,6 +6458,7 @@
 * [AppleFX](https://github.com/HanSolo/applefx)：用JavaFX实现的Apple UI控件集合。
 * [DevToolsFX](https://github.com/mkpaz/devtoolsfx)：DevToolsFX是一款用于浏览应用程序场景图和探索节点属性的工具。
 * [NFX](https://github.com/xdsswar/nfx-lib)：NFX是适用于Windows 10/11的JavaFX/JNI库，可让你构建完全自定义、原生感觉的窗口Chrome-标题栏、按钮和框架行为。
+* [JFXC](https://github.com/innFactory/JFXC)：JFXC包含一些新的控件，可以扩展你的GUI。
 * [FX Progress Circle](https://github.com/torakiki/fx-progress-circle)：一些JavaFX进度指示器，以圆弧/圆环或填充圆的形式显示进度。
 * [JavaFxDialog](https://github.com/4ntoine/JavaFxDialog)：JavaFX 2的标准对话框。
 * [FranzXaver](https://github.com/afester/FranzXaver)：FranzXaver是一个JavaFX组件和工具库。
@@ -6561,6 +6566,7 @@
 * [JabRef](https://github.com/JabRef/jabref)：JabRef是一个开源、跨平台的引文和引用管理工具。
 * [AsciidocFX](https://github.com/asciidocfx/AsciidocFX)：AsciidocFX是一款书籍/文档编辑工具，用户可以创建PDF、Epub、Mobi和HTML等形式的书籍/文档。
 * [PDF4Teachers](https://github.com/ClementGre/PDF4Teachers)：PDF4Teachers专为教师设计，它允许你以出色的工作效率对PDF返回的评估进行注释。
+* [NS USBloader](https://github.com/developersu/ns-usbloader)：NS USBloader是适用于Huntereb/Awoo-Installer或其他兼容安装程序以及XorTroll/Goldleaf(USB) NSP安装程序的PC端安装程序。
 * [FoFa Viewer](https://github.com/wgpsec/fofa_viewer)：FoFa Viewer是一个用JavaFX编写的用户友好的FOFA客户端，由狼组安全团队开源。
 * [Markdown Writer FX](https://github.com/JFormDesigner/markdown-writer-fx)：用JavaFX编写的开源Markdown编辑器。
 * [ToolsFx](https://github.com/Leon406/ToolsFx)：基于Kotlin、TornadoFX的跨平台密码学工具箱。

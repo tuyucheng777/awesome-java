@@ -433,7 +433,7 @@
 * [源代码转换](docs/doc2.md#源代码转换)
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
 * [企业软件开发](docs/doc2.md#企业软件开发)
-    * [项目模板](docs/doc2.md#项目模板)
+    * [项目模板/脚手架](docs/doc2.md#项目模板脚手架)
     * [低代码](docs/doc2.md#低代码)
     * [权限管理系统](docs/doc2.md#权限管理系统)
     * [商城系统](docs/doc2.md#商城系统)
@@ -2356,6 +2356,7 @@
 * [Klein](https://github.com/shihuili1218/klein)：Klein是一个基于Paxos的分布式集合工具库，包括分布式缓存、分布式消息队列、分布式List、分布式Map、分布式锁等。
 * [Paxos](https://github.com/jaksa76/paxos)：Paxos算法的Java实现。
 * [Trex](https://github.com/trex-paxos/trex)：Trex是用于JVM的嵌入式Paxos引擎。
+* [JPaxos](https://github.com/JPaxos/JPaxos)：JPaxos是一个Java库和运行时系统，用于构建高效的复制状态机，由洛桑联邦理工学院和波兹南理工大学开源。
 
 #### Gossip算法
 
@@ -2879,6 +2880,7 @@
 * [Xigema Application Server](http://www.vsettan.com.cn/7752.html)：XigemaAS是企业级应用服务器产品，完全符合Java EE 7规范， 产品架构基于OSGi内核，高模块化、高动态性、强扩展性、轻量且配置简单，为企业应用提供稳定、高效、安全的运行引擎和支撑平台，这是华胜信泰的产品。
 * [Thunisoft Application Server](https://www.thunisoft.cn/col81/index)：Thunisoft是华宇自主研发的企业级中间件产品，符合Jakarta EE标准的轻量级服务器。
 * [JOnAS](https://jonas.ow2.org/)：JOnAS是由Bull和OW2开发的领先的Java EE 6 Web Profile认证开源OSGi企业服务器。
+* [Carbon](https://github.com/wso2/carbon-kernel)：Carbon是一个轻量级、通用的OSGi运行时，专门用于托管服务器，为服务器开发人员提供关键功能，由WSO2开源。
 * [UseOpen Application Server](http://www.useopen.com/p/uoas/)：UOAS是一款永源开源的Java应用服务器产品，支持Jakarta EE Web Profile规范的应用服务器功能。
 * [Smart Servlet](https://gitee.com/smartboot/smart-servlet)：Smart Servlet是一款实现了Servlet 4.0规范，支持多应用隔离部署的的Web容器。
 * [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
@@ -4367,4 +4369,4 @@
 * [Geni](https://github.com/zero-one-group/geni)：Geni是一个在Apache Spark上运行的Clojure Dataframe库。
 * [Saddle](https://github.com/saddle/saddle)：Saddle是Scala的一个数据操作库，它提供基于数组、索引、一维和二维的数据结构，这些数据结构在JVM原始类型上经过精心设计，以避免装箱和拆箱的开销。
 
-## [测试-面试宝典](docs/doc2.md)  
+## [测试-面试宝典](docs/doc2.md)
