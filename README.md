@@ -182,7 +182,6 @@
     * [遗传算法](#遗传算法)
     * [专家系统](#专家系统)
     * [约束编程](#约束编程)
-    * [差分隐私](#差分隐私)
     * [计算机视觉](#计算机视觉)
     * [OCR](#OCR)
     * [人脸识别](#人脸识别)
@@ -256,6 +255,7 @@
     * [CORS](docs/doc2.md#CORS)
     * [ASN.1](docs/doc2.md#ASN1)
     * [证书颁发机构](docs/doc2.md#证书颁发机构)
+    * [数据匿名化](docs/doc2.md#数据匿名化)
     * [电子签名](docs/doc2.md#电子签名)
 * [API管理](docs/doc2.md#API管理)
 * [序列化](docs/doc2.md#序列化)
@@ -331,6 +331,7 @@
 * [报表引擎](docs/doc2.md#报表引擎)
 * [商业智能](docs/doc2.md#商业智能)
 * [模板引擎](docs/doc2.md#模板引擎)
+* [企业集成模式](docs/doc2.md#企业集成模式)
 * [SMT求解器](docs/doc2.md#SMT求解器)
 * [命令行开发](docs/doc2.md#命令行开发)
     * [CLI库](docs/doc2.md#CLI库)
@@ -346,6 +347,7 @@
     * [语义版本控制](docs/doc2.md#语义版本控制)
 * [集合库](docs/doc2.md#集合库)
 * [数组库](docs/doc2.md#数组库)
+* [泛型库](docs/doc2.md#泛型库)
 * [函数式编程](docs/doc2.md#函数式编程)
     * [函数式异常处理](docs/doc2.md#函数式异常处理)
     * [Stream工具库](docs/doc2.md#Stream工具库)
@@ -367,7 +369,7 @@
     * [SVG库](docs/doc2.md#SVG库)
     * [TIFF库](docs/doc2.md#TIFF库)
     * [验证码](docs/doc2.md#验证码)
-    * [二维码生成器](docs/doc2.md#二维码生成器)
+    * [二维码库](docs/doc2.md#二维码库)
     * [水印](docs/doc2.md#水印)
 * [压缩库](docs/doc2.md#压缩库)
 * [反射库](docs/doc2.md#反射库)
@@ -640,12 +642,14 @@
 * [汇编](docs/doc2.md#汇编)
 * [LLVM](docs/doc2.md#LLVM)
 * [PC模拟器](docs/doc2.md#PC模拟器)
+* [JavaME](docs/doc2.md#JavaME)
 * [编译器](docs/doc2.md#编译器)
     * [内存中编译器](docs/doc2.md#内存中编译器)
     * [AOT编译器](docs/doc2.md#AOT编译器)
     * [编译器插件](docs/doc2.md#编译器插件)
 * [AOT编译器](docs/doc2.md#AOT编译器)
 * [语言服务器](docs/doc2.md#语言服务器)
+* [元编程](docs/doc2.md#元编程)
 * [数据库工具库](docs/doc2.md#数据库工具库)
     * [数据库驱动](docs/doc2.md#数据库驱动)
     * [数据库迁移](docs/doc2.md#数据库迁移)
@@ -699,6 +703,7 @@
     * [Simhash算法](docs/doc2.md#Simhash算法)
     * [LSH算法](docs/doc2.md#LSH算法)
     * [LDA算法](docs/doc2.md#LDA算法)
+    * [装箱算法](docs/doc2.md#装箱算法)
     * [下采样](docs/doc2.md#下采样)
     * [噪声库](docs/doc2.md#噪声库)
 * [原生开发](docs/doc2.md#原生开发)
@@ -739,7 +744,6 @@
 * [转换库](docs/doc2.md#转换库)
 * [IO库](docs/doc2.md#IO库)
 * [目录库](docs/doc2.md#目录库)
-* [电子签名](docs/doc2.md#电子签名)
 * [RSS](docs/doc2.md#RSS)
 * [SSE](docs/doc2.md#SSE)
 * [RPM](docs/doc2.md#RPM)
@@ -757,13 +761,11 @@
 * [CalDAV](docs/doc2.md#CalDAV)
 * [WebDav](docs/doc2.md#WebDav)
 * [AirPlay](docs/doc2.md#AirPlay)
-* [元编程](docs/doc2.md#元编程)
 * [Unicode](docs/doc2.md#Unicode)
 * [表情库](docs/doc2.md#表情库)
 * [字体库](docs/doc2.md#字体库)
 * [语言库](docs/doc2.md#语言库)
 * [敏感词过滤](docs/doc2.md#敏感词过滤)
-* [泛型库](docs/doc2.md#泛型库)
 * [国际化](docs/doc2.md#国际化)
 * [翻译库](docs/doc2.md#翻译库)
 * [字幕库](docs/doc2.md#字幕库)
@@ -796,17 +798,14 @@
 * [类路径扫描](docs/doc2.md#类路径扫描)
 * [目录服务](docs/doc2.md#目录服务)
 * [行为分析](docs/doc2.md#行为分析)
-* [URL操作](docs/doc2.md#URL操作)
+* [URL库](docs/doc2.md#URL库)
 * [Expect库](docs/doc2.md#Expect库)
-* [JavaME](docs/doc2.md#JavaME)
 * [JavaCard](docs/doc2.md#JavaCard)
 * [Wikipedia](docs/doc2.md#Wikipedia)
 * [银行账号操作](docs/doc2.md#银行账号操作)
 * [用户代理解析](docs/doc2.md#用户代理解析)
 * [数字信号处理](docs/doc2.md#数字信号处理)
-* [企业集成模式](docs/doc2.md#企业集成模式)
 * [数字资产管理](docs/doc2.md#数字资产管理)
-* [数据匿名工具](docs/doc2.md#数据匿名工具)
 * [苹果推送通知](docs/doc2.md#苹果推送通知)
 * [自动程序修复](docs/doc2.md#自动程序修复)
 * [协议实现](docs/doc2.md#协议实现)
@@ -2051,7 +2050,6 @@
 * [Lithium](https://www.atlassian.com/blog/atlassian-engineering/lithium)：Lithium是Atlassian内部使用的ETL平台，旨在满足动态数据移动的要求。
 * [SETL](https://github.com/SETL-Framework/setl)：SETL是一个由Apache Spark提供支持的Scala ETL框架，可帮助你构建Spark ETL项目、模块化数据转换逻辑并加快开发速度。
 * [Envelope](https://github.com/cloudera-labs/envelope)：Envelope是Apache Spark的配置驱动框架，可以轻松开发基于Spark的数据处理管道，由Cloudera开发。
-* [PolarDB-X CDC](https://github.com/polardb/polardbx-cdc)：PolarDB-X CDC是PolarDB-X的核心组件，负责全局二进制日志的生成、发布和订阅，由阿里开源。
 * [QStreaming](https://github.com/qiniu/QStreaming)：QStreaming是一个简化在Apache Spark上编写和执行ETL的框架，由七牛云开发。
 * [Hydrograph](https://github.com/BitwiseInc/Hydrograph)：Hydrograph是一款功能强大的ETL工具，允许开发人员使用简单的拖放界面创建复杂的图表。
 * [DataExpress](https://github.com/chop-dbhi/dataexpress)：DataExpress是一个简单、基于Scala的跨数据库ETL工具包，支持Postgres、MySql、Oracle、SQLServer和SQLite，由费城儿童医院开源。
@@ -2087,6 +2085,7 @@
 * [SpinalTap](https://github.com/airbnb/SpinalTap)：SpinalTap是一种通用的CDC服务，能够跨不同数据源低延迟地检测数据突变，并将其作为标准化事件传播给下游消费者，由Airbnb开源。
 * [ACDC](https://github.com/xdfdotcn/acdc)：ACDC是新东方集团架构部开源的数据平台产品。
 * [SyncLite](https://github.com/syncliteio/SyncLite)：SyncLite是一个开源、低代码、全面的关系数据整合平台，可帮助开发人员快速构建用于边缘、桌面和移动环境的数据密集型应用程序。
+* [PolarDB-X CDC](https://github.com/polardb/polardbx-cdc)：PolarDB-X CDC是PolarDB-X的核心组件，负责全局二进制日志的生成、发布和订阅，由阿里开源。
 
 #### 集群管理
 
@@ -2095,11 +2094,12 @@
 * [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
 * [Terracotta](https://github.com/Terracotta-OSS/terracotta-core)：Terracotta Server为Terracotta产品(例如Ehcache和TCStore)提供强大的分布式内存数据管理功能，是Terracotta集群的骨干。
 * [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
+* [OPENI](https://github.com/open-intelligence/OpenI-Octopus)：OPENI是一个集群管理工具和资源调度平台，最初由微软研究院、微软搜索技术中心、北京大学、西安交通大学、浙江大学和中国科学技术大学联合设计和开发。
 * [Norbert](https://github.com/rhavyn/norbert)：Norbert是一个提供简单集群管理和集群感知客户端/服务器网络API的库，由Linkedin开源。
 * [Apache Helix](https://github.com/apache/helix)：Helix是一个通用集群管理框架，用于自动管理节点集群上托管的分区、复制和分布式资源，由LinkedIn开源。
-* [Apache Airavata](https://airavata.apache.org/)：用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业和工作流程的软件框架。
-* [Fenzo](https://github.com/Netflix/Fenzo)：适用于Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
-* [Apache REEF](https://github.com/apache/reef)：用于为集群资源管理器(例如Hadoop YARN或Mesos)开发可移植应用程序的库。例如，Microsoft Azure流分析是基于REEF和Hadoop构建的。
+* [Apache Airavata](https://airavata.apache.org/)：Airavata是一个软件框架，用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业，由印第安纳大学开源。
+* [Fenzo](https://github.com/Netflix/Fenzo)：Fenzo是Apache Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
+* [Apache REEF](https://github.com/apache/reef)：REEF是一个用于为集群资源管理器(例如Apache Hadoop YARN或Apache Mesos)开发可移植应用程序的库，由微软研究院开源。
 * [Orion](https://github.com/pinterest/orion)：Orion是一个适用于有状态分布式系统的通用可插拔管理和自动化平台，由Pinterest开源。
 * [Apache Myriad](https://github.com/apache/incubator-myriad)：Myriad是一个Mesos框架，旨在扩展Mesos上的YARN集群，由eBay、MapR和Mesosphere开源。
 * [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：DCM使程序员能够使用高级声明性语言(SQL)构建调度程序和集群管理器，由VMware开源。
@@ -2834,7 +2834,7 @@
 * [Payara](https://github.com/payara/Payara)：Payara Platform Community Edition提供用于开发项目的开源服务器运行时以及容器化Jakarta EE和MicroProfile应用程序
 * [Eclipse Jetty](https://github.com/eclipse/jetty.project)：Jetty是一个轻量级、高度可扩展的基于Java的Web服务器和Servlet引擎。
 * [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
-* [Apache Geronimo](https://github.com/apache/geronimo)：Apache基金会下开源的Java EE服务器。
+* [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
 * [Red5](https://github.com/Red5/red5-server)：Red5是一个用Java编写的开源Flash服务器。
 * [Microhttp](https://github.com/ebarlas/microhttp)：Microhttp是一种快速、可扩展、事件驱动、独立的Java Web服务器。
 * [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，它是一个非常流行的支持Servlet和JSP的服务器。
@@ -2868,7 +2868,7 @@
 * [WebObjects](https://wiki.wocommunity.org/xwiki/bin/view/WO/Home/)：WebObjects是一套集成的Java框架，用于快速开发可扩展、复杂的互联网和企业应用程序，最初由NeXT开发并由Apple维护。
 * [AISWare FlyingServer](https://www.asiainfo.com/zh_cn/product_aisware_flyingServer.html)：FlyingServer是一款满足Java EE 8标准的国产化Web中间件软件，支持WAR，EAR，JAR等应用的部署，由亚信科技提供。
 * [Apusic AAS](https://www.apusic.com/list-117.html)：金蝶Apusic应用服务器是一款标准、安全、高效、集成并具丰富功能的企业级应用服务器软件，全面支持Jakarta EE 8/9的技术规范。
-* [Apache Geronimo](https://github.com/apache/geronimo)：Apache基金会下开源的Java EE服务器。
+* [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
 * [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html)：Adobe ColdFusion是一款久经考验的高性能应用程序服务器，可让程序员轻松进行Web开发。
 * [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
 * [Fujitsu Software Enterprise Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/middleware/applatform/)：Enterprise Application Server是一款云原生应用服务器，采用富士通专有技术增强Java的可靠性和可操作性，可在短时间内发布，并可用于企业用途。
@@ -3712,7 +3712,7 @@
 #### 并发数据结构
 
 * [Disruptor](https://github.com/LMAX-Exchange/disruptor)：Disruptor是一个高性能线程间消息传递库，由英国外汇交易公司LMAX开发。
-* [ExpiringMap](https://github.com/jhalterman/expiringmap)：一种高性能、低开销、零依赖、线程安全的ConcurrentMap实现，可让键值对过期。
+* [ExpiringMap](https://github.com/jhalterman/expiringmap)：ExpiringMap是一种高性能、低开销、零依赖、线程安全的ConcurrentMap实现，可让键值对过期。
 * [JCTools](https://github.com/JCTools/JCTools)：JCTools旨在提供JDK目前缺少的一些并发数据结构。
 * [ConcurrentLinkedHashMap](https://github.com/ben-manes/concurrentlinkedhashmap)：java.util.LinkedHashMap的高性能版本，用作软件缓存。
 * [ConcurrencyFreaks](https://github.com/pramalhe/ConcurrencyFreaks)：并发数据结构和同步机制的库。
@@ -4211,11 +4211,6 @@
 * [MiniCP](https://github.com/minicp/minicp)：MiniCP是一个用Java实现的轻量级CP求解器，由康涅狄格大学、鲁汶大学、佐治亚理工学院的三位教授共同开发。
 * [EUROPA](https://github.com/nasa/europa)：EUROPA是一个用于建模和解决规划、调度和约束规划问题的框架，NASA艾姆斯研究中心开源。
 * [Statix Solver](https://mvnrepository.com/artifact/org.metaborg/statix.solver)：由代尔夫特理工大学开源的约束求解器。
-
-#### 差分隐私
-
-* [PipelineDP4j](https://github.com/google/differential-privacy/tree/main/pipelinedp4j)：PipelineDP4j是适用于JVM的端到端差异隐私解决方案，支持各种分布式数据处理框架，由Google开源。
-* [ARX](https://github.com/arx-deidentifier/arx)：ARX是一款用于对敏感个人数据进行匿名化的综合开源软件，由德国慕尼黑工业大学开发。
 
 #### 计算机视觉
 
