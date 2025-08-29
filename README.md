@@ -374,6 +374,9 @@
     * [二维码库](docs/doc2.md#二维码库)
     * [水印](docs/doc2.md#水印)
 * [压缩库](docs/doc2.md#压缩库)
+    * [数据压缩](docs/doc2.md#数据压缩)
+    * [文件压缩](docs/doc2.md#文件压缩)
+    * [图像压缩](docs/doc2.md#图像压缩)
 * [反射库](docs/doc2.md#反射库)
 * [注解库](docs/doc2.md#注解库)
 * [接口文档](docs/doc2.md#接口文档)
@@ -700,6 +703,7 @@
 * [随机数生成器](docs/doc2.md#随机数生成器)
 * [算法库](docs/doc2.md#算法库)
     * [字符串算法](docs/doc2.md#字符串算法)
+    * [文本排序](docs/doc2.md#文本排序)
     * [聚类算法](docs/doc2.md#聚类算法)
     * [图算法](docs/doc2.md#图算法)
     * [随机流算法](docs/doc2.md#随机流算法)
@@ -1388,10 +1392,10 @@
 
 ## 包管理器
 
+* [Apache Ivy](https://github.com/apache/ant-ivy)：Apache Ivy是一个用于管理项目依赖关系的工具。
 * [Nuts](https://github.com/thevpc/nuts)：Nuts是一个Java包管理器，可帮助以简单直接的方式发现、下载、组装和执行本地和远程工件(包)。
-* [JPM](https://github.com/codejive/java-jpm)：一个简单的命令行工具，用于管理不使用Maven或Gradle等构建系统的Java项目的Maven依赖。
+* [JPM](https://github.com/codejive/java-jpm)：JPM是一个简单的命令行工具，用于管理不使用Maven或Gradle等构建系统的Java项目的Maven依赖。
 * [Nix](https://github.com/fzakaria/mvn2nix)：Nix包管理器用于轻松打包Maven Java应用程序。
-* [JPM4j](https://github.com/jpm4j)：JPM是Java包管理器，可以在JPM的帮助下轻松安装应用程序和库。
 
 ## CI/CD
 
@@ -1525,11 +1529,11 @@
 * [Bosatsu](https://github.com/johnynek/bosatsu)：Bosatsu是一种简单、非图灵完备的语言，专为配置、查询和脚本编写而设计。
 * [Idris JVM](https://github.com/mmhelloworld/idris-jvm)：Idris 2是一种纯函数式编程语言，该项目提供针对JVM字节码的Idris 2编译器，以便Idris 2程序可以在JVM上运行。
 * [Redline Smalltalk](https://github.com/redline-smalltalk/redline-smalltalk)：Redline Smalltalk是JVM上的Smalltalk。
+* [Fuzion](https://github.com/tokiwa-software/fuzion)：Fuzion是一种注重简单性、安全性和正确性的语言。
 
 ## 云原生
 
 * [Linkerd](https://github.com/linkerd/linkerd)：Linkerd是一个提供弹性云端原生应用服务网格的开源项目，也是面向微服务的开源RPC代理。
-* [CloudEvents Java](https://github.com/cloudevents/sdk-java)：CloudEvents是一种以通用格式描述事件数据的规范，以提供跨服务、平台和系统的互操作性。
 * [Ballerina](https://github.com/ballerina-platform/ballerina-lang)：Ballerina是一种针对集成进行了优化的开源云原生编程语言，它由WSO2开发和支持。
 * [Buildpacks](https://buildpacks.io)：Buildpacks可以将应用程序源代码转换为可以在任何云上运行的镜像。
 * [Envoy Control](https://github.com/allegro/envoy-control)：Envoy Control是一个用于Service Mesh的生产就绪控制平面，基于与平台无关的Envoy Proxy数据平面，由Allegro开源。
@@ -2849,6 +2853,7 @@
 * [JLHTTP](https://github.com/curtcox/JLHTTP)：JLHTTP是HTTP服务器的开源实现。
 * [TJWS](https://tjws.sourceforge.net/)：TJWS是作为Servlet容器构建的，其中HTTPD Servlet提供标准Web服务器功能。
 * [Aeromock](https://github.com/ca-archived/aeromock)：Aeromock是一个从模板文件和数据文件生成HTML的应用服务器。
+* [SimpleWebServer](https://github.com/94fzb/simplewebserver)：SimpleWebServer是一款使用Java基于NIO编写的超轻量级开源Web应用服务器。
 
 #### 应用服务器
 
@@ -3304,6 +3309,7 @@
 * [LAMP Util](https://github.com/zuihou/lamp-util)：LAMP Util是一套兼顾Spring Boot和Spring Cloud项目的公共工具类。
 * [Honoka SDK](https://github.com/kosaka-bun/honoka-sdk)：Honoka SDK是一款包含了各式各样实用工具的Java与Kotlin工具包。
 * [Xpresso](https://github.com/WantedTechnologies/xpresso)：Xpresso在Java中实现了熟悉的Pythonic方法和编码范例。
+* [MicroSphere](https://github.com/microsphere-projects/microsphere-java)：MicroSphere是一个模块化的Java实用程序库，提供反射、类加载、集合、网络和注解处理等基础功能。
 
 ## Bean映射&复制
 
@@ -3884,6 +3890,7 @@
 * [Freeplay](https://freeplay.ai/)：Freeplay让产品团队能够为客户试验、测试、监控和优化AI功能，它是一个为整个团队管理端到端LLM产品开发生命周期的工具。
 * [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
 * [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
+* [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
 
 #### 代理框架
 
