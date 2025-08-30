@@ -1366,7 +1366,7 @@
 * [GraphQL Java Spring](https://github.com/graphql-java/graphql-java-spring)：GraphQL Java Spring和Spring Boot集成。
 * [GraphQL Spring Starter](https://github.com/yandooo/graphql-spring-boot)：GraphQL和GraphiQL Spring Starter。
 
-#### 模式优先
+#### 规范优先
 
 * [GraphQL Java Generator](https://github.com/graphql-java-generator/graphql-maven-plugin-project)：GraphQL Java Generator可以轻松地以模式优先的方式在Java中使用GraphQL。
 * [GraphQL APIGen](https://github.com/Distelli/graphql-apigen)：使用GraphQL模式生成Java API，促进模式优先开发。
@@ -1380,7 +1380,7 @@
 * [DGS Code Generation Plugin](https://github.com/Netflix/dgs-codegen)：DGS Code Generation Plugin根据你的GraphQL模式文件在项目构建过程中生成代码，由Netflix开源。。
 * [GraphQL Codegen Maven Plugin](https://github.com/deweyjose/graphqlcodegen)：这个Maven插件是Gradle的Netflix Codegen插件的移植版。
 
-#### 代码优先
+#### 接口优先
 
 * [GraphQL SPQR](https://github.com/leangen/graphql-spqr)：GraphQL SPQR是一个简单易用的库，用于在Java中快速开发GraphQL API。
 * [Rejoiner](https://github.com/google/rejoiner)：Rejoiner可用于从gRPC微服务和其他Protobuf源生成统一的GraphQL模式，由Google开发。
