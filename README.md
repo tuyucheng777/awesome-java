@@ -289,7 +289,6 @@
     * [日期/时间解析器](docs/doc2.md#日期时间解析器)
 * [实体解析](docs/doc2.md#实体解析)
 * [异常检测](docs/doc2.md#异常检测)
-* [指纹识别](docs/doc2.md#指纹识别)
 * [逻辑编程](docs/doc2.md#逻辑编程)
 * [MATLAB](docs/doc2.md#MATLAB)
 * [Jupyter](docs/doc2.md#Jupyter)
@@ -380,6 +379,12 @@
 * [反射库](docs/doc2.md#反射库)
 * [注解库](docs/doc2.md#注解库)
 * [接口文档](docs/doc2.md#接口文档)
+    * [模式优先](docs/doc2.md#模式优先)
+    * [代码优先](docs/doc2.md#代码优先)
+    * [模式解析](docs/doc2.md#模式解析)
+    * [模式比较](docs/doc2.md#模式比较)
+    * [模式校验](docs/doc2.md#模式校验)
+    * [规范转换](docs/doc2.md#规范转换)
 * [技术文档](docs/doc2.md#技术文档)
 * [Javadoc](docs/doc2.md#Javadoc)
 * [文件操作](docs/doc2.md#文件操作)
@@ -1317,6 +1322,7 @@
 ## 微服务库
 
 * [Dapr Java](https://github.com/dapr/java-sdk)：Dapr是Microsoft开源的一个可移植、事件驱动的运行时，用于跨云和边缘构建分布式应用程序。
+* [CloudEvents Java](https://github.com/cloudevents/sdk-java)：CloudEvents是一种以通用格式描述事件数据的规范，以提供跨服务、平台和系统的互操作性。
 * [Nepxion Discovery](https://github.com/Nepxion/Discovery)：Nepxion Discovery是专注于企业级云原生微服务开源解决方案。
 * [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行REST微服务，由AOL开源。
 * [DevOps Boot](https://github.com/bkdevops-projects/devops-framework)：DevOps Boot是基于Spring Boot的微服务快速开发框架，由腾讯DevOps团队开发。
@@ -2229,6 +2235,7 @@
 * [DamiBus](https://gitee.com/noear/dami)：DamiBus专为本地多模块之间通讯解耦而设计。
 * [IPC EventBus](https://github.com/Terracotta-OSS/ipc-eventbus)：IPC EventBus为JVM内和JVM外通信提供了一个简单的EventBus API。
 * [FastCast](https://github.com/RuedigerMoeller/fast-cast)：FastCast是一个高速无代理消息传递库，涵盖从简单的共享内存到大型LAN集群应用程序的Java进程间通信。
+* [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
 
 #### 消息总线
 
@@ -3584,7 +3591,7 @@
 * [Chronicle Threads](https://github.com/OpenHFT/Chronicle-Threads)：该库提供高性能事件循环实现和实用函数来帮助处理线程和并发。
 * [Atlassian Concurrent](https://bitbucket.org/atlassian/atlassian-util-concurrent)：该项目包含Atlassian内部各种产品和项目使用的并发实用程序类。
 * [TaskManager](https://github.com/iqiyi/TaskManager)：TaskManager是一种支持依赖关系、任务兜底策略的任务调度管理工具，由爱奇艺开发。
-* [Gobrs-Async](https://gitee.com/dromara/gobrs-async)：Gobrs-Async是一款功能强大、配置灵活、带有全链路异常回调、内存优化、异常状态管理于一身的高性能多线程并发编程和动态编排框架，由dromara社区开源。
+* [Gobrs Async](https://gitee.com/dromara/gobrs-async)：Gobrs Async是一款功能强大、配置灵活、带有全链路异常回调、内存优化、异常状态管理于一身的高性能多线程并发编程和动态编排框架，由dromara社区开源。
 * [ParSeq](https://github.com/linkedin/parseq)：ParSeq是一个可以更轻松地用Java编写异步代码的框架，LinkedIn开源。
 * [Conditional](https://github.com/line/conditional)：Conditional是一个超轻量级库，可帮助你组合多个条件表达式并使它们轻松异步，由Line开源。
 * [BascomTask](https://github.com/eBay/bascomtask)：Java的轻量级、低摩擦进程内并行任务管理，由eBay开源。
