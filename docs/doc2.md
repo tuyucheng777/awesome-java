@@ -1366,7 +1366,7 @@
 * [GraphQL Java Spring](https://github.com/graphql-java/graphql-java-spring)：GraphQL Java Spring和Spring Boot集成。
 * [GraphQL Spring Starter](https://github.com/yandooo/graphql-spring-boot)：GraphQL和GraphiQL Spring Starter。
 
-#### 规范优先
+#### 模式优先
 
 * [GraphQL Java Generator](https://github.com/graphql-java-generator/graphql-maven-plugin-project)：GraphQL Java Generator可以轻松地以模式优先的方式在Java中使用GraphQL。
 * [GraphQL APIGen](https://github.com/Distelli/graphql-apigen)：使用GraphQL模式生成Java API，促进模式优先开发。
@@ -1380,7 +1380,7 @@
 * [DGS Code Generation Plugin](https://github.com/Netflix/dgs-codegen)：DGS Code Generation Plugin根据你的GraphQL模式文件在项目构建过程中生成代码，由Netflix开源。。
 * [GraphQL Codegen Maven Plugin](https://github.com/deweyjose/graphqlcodegen)：这个Maven插件是Gradle的Netflix Codegen插件的移植版。
 
-#### 接口优先
+#### 代码优先
 
 * [GraphQL SPQR](https://github.com/leangen/graphql-spqr)：GraphQL SPQR是一个简单易用的库，用于在Java中快速开发GraphQL API。
 * [Rejoiner](https://github.com/google/rejoiner)：Rejoiner可用于从gRPC微服务和其他Protobuf源生成统一的GraphQL模式，由Google开发。
@@ -2905,7 +2905,7 @@
 * [Swagger Spring Boot Starter](https://github.com/battcn/swagger-spring-boot)：Swagger Spring Boot Starter是一款建立在Swagger基础之上的工具包，利用Spring Boot自动装配的特性，简化了传统Swagger的繁琐配置。
 * [Swagger Butler](https://github.com/dyc87112/swagger-butler)：Swagger Butler是一个基于Swagger与Zuul构建的API文档汇集工具。
 
-#### 模式优先
+#### 规范优先
 
 * [Swagger Codegen](https://github.com/swagger-api/swagger-codegen)：Swagger Codegen允许根据OpenAPI规范自动生成API客户端库(SDK生成)、服务器存根和文档。
 * [TypeSpec](https://github.com/microsoft/typespec)：TypeSpec是一种用于定义云服务API和形状的语言，由Microsoft开发。
@@ -2922,7 +2922,7 @@
 * [Swagger Codegen Maven Plugin](https://github.com/garethjevans/swagger-codegen-maven-plugin)：支持Swagger代码生成项目的Maven插件。
 * [Light Codegen](https://github.com/networknt/light-codegen)：基于Rocker的代码生成器，可以用作命令行实用程序或Web服务。
 
-#### 代码优先
+#### 接口优先
 
 * [Springfox](https://github.com/springfox/springfox)：Springfox库旨在自动生成使用Spring系列项目编写的JSON API的机器和人类可读规范。
 * [SpringDoc OpenAPI](https://github.com/springdoc/springdoc-openapi)：SpringDoc OpenAPI库有助于使用Spring Boot项目自动生成API文档。
