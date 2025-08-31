@@ -1014,7 +1014,7 @@
 
 #### TLS/SSL
 
-* [SSLContext Kickstart](https://github.com/Hakky54/sslcontext-kickstart)：SSLContext Kickstart是一个高级库，用于配置HTTP客户端通过SSL/TLS进行通信以进行单向身份验证或双向身份验证。
+* [Ayza](https://github.com/Hakky54/ayza)：Ayza是一个高级库，用于配置HTTP客户端通过SSL/TLS进行通信以进行单向身份验证或双向身份验证。
 * [OpenJSSE](https://github.com/openjsse/openjsse)：OpenJSSE是支持TLS 1.3的JSSE提供程序。
 * [TLS Attacker](https://github.com/tls-attacker/TLS-Attacker)：TLS Attacker是一个基于Java的TLS库分析框架。
 
@@ -1580,7 +1580,6 @@
 #### 线性代数
 
 * [Breeze](https://github.com/scalanlp/breeze)：Breeze是一组用于机器学习和数值计算的库。
-* [Mines JTK](https://github.com/MinesJTK/jtk)：Mines Java Toolkit是一组用于科学和工程的Java包和原生软件库，目前的应用包括数字信号处理、线性代数、优化、网格划分、插值以及2D和3D图形，由科罗拉多矿业学院开发。
 * [JAMA](https://math.nist.gov/javanumerics/jama/)：JAMA是Java的基本线性代数包，它提供了用于构造和操作真实的稠密矩阵的用户级类，由马里兰大学和美国国家标准与技术研究院开发。
 * [ND4j](https://github.com/deeplearning4j/deeplearning4j/tree/master/nd4j)：通用线性代数库，包含500多个数学、线性代数和深度学习运算。
 * [Symja](https://github.com/axkr/symja_android_library)：Symja是计算机代数语言和符号数学库，用纯Java实现的流行算法的集合。
@@ -1813,6 +1812,7 @@
 * [LibLevenshtein](https://github.com/universal-automata/liblevenshtein-java)：有关Levenshtein传感器的各种实用程序。
 * [JNBIS](https://github.com/mhshams/jnbis)：JNBIS是一个用Java编写的库，用于提取和解码NIST(美国国家标准与技术研究所)压缩文件和WSQ(小波标量量化)图像。
 * [BioData](https://github.com/opencb/biodata)：BioData是一个Java库，它以生物信息学中常用的不同文件格式对生物实体及其等价物进行建模，由剑桥大学计算生物学开源。
+* [MSDK](https://github.com/msdk/msdk)：MSDK是一个用于处理质谱数据的Java算法库。
 
 #### 生物工具
 
@@ -1834,6 +1834,7 @@
 * [RNArtist](https://github.com/fjossinet/RNArtist)：RNArtist是构建和管理RNA二维结构集合的交互式工具。
 * [FastQC](https://github.com/s-andrews/FastQC)：FastQC是一个旨在发现高通量测序数据集中潜在问题的程序，由巴布拉汉姆研究所生物信息学小组开源。
 * [IGV](https://github.com/igvteam/igv)：IGV是适用于Mac、Windows和Linux的桌面基因组可视化工具，由加州大学圣地亚哥分校、麻省理工学院和哈佛大学开源。
+* [Tablet](https://github.com/cropgeeks/tablet)：Tablet是一款轻量级、高性能的图形查看器，用于下一代序列组装和比对，由詹姆斯赫顿研究所开源。
 * [Juicebox](https://github.com/aidenlab/Juicebox)：Juicebox是一款Hi-C数据可视化软件，由贝勒医学院开源。
 * [BioTapestry](https://biotapestry.systemsbiology.net/)：BioTapestry是一种交互式工具，用于通过网络构建、可视化和共享基因调控网络模型，由西雅图系统生物学研究所与加州理工学院戴维森实验室合作创建。
 * [Cytoscape](https://cytoscape.org/)：Cytoscape是一个开源的生物信息学软件平台，用于可视化分子相互作用网络并与基因表达谱和其他状态数据集成，最初由西雅图系统生物学研究所开发。
@@ -2028,6 +2029,7 @@
 * [AMBIT](https://ambit.sourceforge.net/)：AMBIT为化学物质、结构和纳米材料提供化学信息学数据管理。
 * [DataWarrior](https://github.com/thsa/datawarrior)：DataWarrior是一个用于交互式数据分析和可视化的程序。
 * [Patent Reaction Extractor](https://github.com/dan2097/patent-reaction-extraction)：化学反应的文本挖掘，由剑桥大学开源。
+* [DENOPTIM](https://github.com/denoptim-project/DENOPTIM)：DENOPTIM是一款用于功能化合物从头设计和虚拟筛选的软件。
 
 ## 工作流
 
@@ -3255,7 +3257,6 @@
 * [MarkdownPapers](https://github.com/lruiz/MarkdownPapers)：用Java实现的Markdown解析器和转换器。
 * [Markdown To AsciiDoc](https://github.com/markdown-asciidoc/markdown-to-asciidoc)：一个小型、轻量级的Markdown到AsciiDoc转换器，用Java编写，基于Pegdown。
 * [MDTool](https://github.com/cevin15/MDTool)：一个可以将Markdown转换为HTML的工具。
-* [KeenWrite](https://gitlab.com/DaveJarvis/KeenWrite)：免费、开源、跨平台桌面Markdown文本编辑器，具有实时预览、字符串插值和数学功能。
 * [Markdown Toc](https://github.com/houbb/markdown-toc)：Markdown Toc可以用来生成Markdown页面的目录，便于Github页面展现。
 
 #### EditorConfig库
@@ -6770,7 +6771,6 @@
 * [Underscore Backup](https://underscorebackup.com/)：Underscore Backup是一款数据备份和恢复解决方案，主要用于Windows和Mac操作系统，提供了一种安全、高效的方式来备份用户的数据。
 * [Art of Illusion](https://github.com/ArtOfIllusion/ArtOfIllusion)：Art of Illusion是一个免费、开源的3D建模和渲染软件。
 * [RomRaider](https://github.com/RomRaider/RomRaider)：RomRaider是一款免费的开源调校套件，用于查看、记录和调校现代斯巴鲁发动机控制单元。
-* [GlobalQuake](https://github.com/xspanger3770/GlobalQuake)：GlobalQuake是一款实验性的Java应用，旨在近乎实时地显示全球地震。
 * [IrScrutinizer](https://github.com/bengtmartensson/IrScrutinizer)：IrScrutinizer是一个功能强大的程序，用于捕获、生成、分析、导入和导出红外(IR)信号。
 * [LPAdesktop](https://github.com/Truphone/LPAdesktop)：LPA模拟器是一款用于管理可移动eUICC上的eSIM配置文件的应用程序。
 
@@ -6832,6 +6832,8 @@
 * [Arachnophilia](https://arachnoid.com/arachnophilia/)：Arachnophilia是Paul Lutus用Java编写的源代码编辑器。
 * [RText](https://github.com/bobbylight/RText)：RText是一个用Java编写的程序员文本编辑器。
 * [Klonk](https://github.com/zaboople/klonk)：Klonk是一款简单但功能强大的文本编辑器，旨在提供流畅易用性和便捷性，而不是奇特的功能。
+* [JMarkPad](https://github.com/mayuso/JMarkPad)：JMarkPad是一个简约的文本编辑器，可以实时预览你的Markdown文本。
+* [KeenWrite](https://gitlab.com/DaveJarvis/KeenWrite)：KeenWrite是一个免费的、开源的、跨平台的桌面Markdown编辑器，可以生成排版精美的PDF。
 
 #### 在线编辑器
 
@@ -8547,6 +8549,16 @@
 * [Vortex](https://github.com/HydrologicEngineeringCenter/Vortex)：Vortex是针对水文工程中心应用程序的数据处理实用程序的集合，例如HEC-HMS、HEC-RAS。
 * [SeaDAS](https://github.com/seadas/seadas)：SeaDAS软件由NASA开发，专门用于海洋水色数据的处理、可视化、分析和质量保证。
 
+## 地震学
+
+* [Swarm](https://github.com/usgs/swarm)：Swarm是一款用于实时显示和分析地震波形的Java应用程序，由美国地质调查局开源。
+* [GlobalQuake](https://github.com/xspanger3770/GlobalQuake)：GlobalQuake是一款实验性的Java应用，旨在近乎实时地显示全球地震。
+* [JQuake](https://jquake.net/en/)：JQuake是一款日本开发的免费软件，可以帮助监控实时地震事件。
+* [OpenSHA](https://github.com/opensha/opensha)：OpenSHA是一个基于Java的开源平台，用于进行地震危险性分析，由南加州大学开源。
+* [SeisFile](https://github.com/crotwell/seisFile)：SeisFile是一个用Java读写地震文件格式的库。
+* [TauP](https://github.com/crotwell/TauP)：TauP工具包是一款地震走时计算器，由南卡罗来纳大学开源。
+* [NSHMP Lib](https://code.usgs.gov/ghsc/nshmp/nshmp-lib)：NSHMP Lib是美国地质调查局开发的Java库，支持概率地震危险性(PSHA)和相关分析。
+
 ## 物理库
 
 * [Rebound](https://github.com/facebookarchive/rebound)：Rebound是一个模拟弹簧动力学的Java库，由Facebook开源。
@@ -8924,6 +8936,7 @@
 * [Crunch](https://github.com/boxbeam/Crunch)：快速的Java表达式编译器/评估器。
 * [SimpleEL](https://github.com/alibaba/simpleel)：SimpleEL是阿里开发的简单表达式语言。
 * [JBool Expressions](https://github.com/bpodgursky/jbool_expressions)：JBool Expressions是一个简单的开源库，用于在Java中创建和操作布尔表达式。
+* [Tweakflow](https://github.com/twineworks/tweakflow)：Tweakflow为JVM应用程序提供了一种以类似公式的符号来评估用户提供的表达式的方法。
 
 #### 数学表达式
 

@@ -751,6 +751,7 @@
 * [航空航天](docs/doc2.md#航空航天)
 * [天文学](docs/doc2.md#天文学)
 * [水文学](docs/doc2.md#水文学)
+* [地震学](docs/doc2.md#地震学)
 * [物理库](docs/doc2.md#物理库)
 * [无人机](docs/doc2.md#无人机)
 * [AIS库](docs/doc2.md#AIS库)
@@ -902,7 +903,7 @@
 * [Vraptor4](https://github.com/caelum/vraptor4)：VRaptor是一个开源MVC框架，构建于CDI之上，由Caelum开源。
 * [Scalatra](https://github.com/scalatra/scalatra)：Scalatra是一个小型、类似Sinatra的Scala Web框架。
 * [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是围绕Pipeline，关注点分离和基于组件的Web开发的概念构建的Web应用程序框架。
-* [AndServer](https://github.com/yanzhenjie/AndServer)：AndServer是一个HTTP和反向代理服务器。
+* [AndServer](https://github.com/yanzhenjie/AndServer)：AndServer是Android平台的Web服务器和Web框架。
 * [Takes](https://github.com/yegor256/takes)：Takes是一个真正的面向对象且不可变的Java Web开发框架。
 * [Argo](https://github.com/58code/Argo)：Argo是起源于58同城的内部Web框架。
 * [Kora](https://github.com/Tinkoff/kora)：Kora是一个基于JVM的框架，用于构建后端应用程序。
@@ -921,6 +922,7 @@
 * [Java Express](https://github.com/simonwep/java-express)：基于Express.js的HTTP框架，无依赖，使用简单。
 * [HappyX](https://github.com/HapticX/happyx)：HappyX是一个异步、面向宏、全栈支持的Web框架。
 * [Jaggery](https://github.com/wso2/jaggery)：Jaggery是一个用于编写Web应用和基于HTTP的Web服务的框架，由WSO2开源。
+* [Severell](https://github.com/severell/severell)：Severell是一个Web应用框架，旨在让Java Web应用开发变得轻松有趣。
 * [PurpleJS](https://github.com/purplejs/purplejs)：PurpleJS是一个简单而强大的框架，无需脱离JavaScript即可创建高性能Web应用程序。
 * [Pedestal](https://github.com/pedestal/pedestal)：Pedestal是一组用Clojure编写的库，旨在将语言及其原则引入服务器端开发。
 * [CUBA Platform](https://github.com/cuba-platform/cuba)：CUBA Platform是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
@@ -2133,6 +2135,7 @@
 * [Compass](https://github.com/cubefs/compass)：Compass是一个大数据任务诊断平台，由OPPO大数据团队开发。
 * [Inviso](https://github.com/Netflix/inviso)：Inviso是一个轻量级工具，提供搜索Hadoop作业、可视化性能和查看集群利用率的功能，由Netflix开源。
 * [DataSophon](https://github.com/datavane/datasophon)：DataSophon是新一代云原生大数据管家，致力于帮助用户快速构建起稳定、高效、可弹性伸缩的大数据云原生平台，由Datavane大数据组织开源。
+* [DCMonitor](https://github.com/shunfei/DCMonitor)：DCMonitor是一个简单、轻量级的数据中心监控器，目前包含Zookeeper、Kafka和Druid，由舜飞开源。
 
 #### Notebook
 
@@ -2849,7 +2852,7 @@
 * [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd)：NanoHTTPD是一个轻量级HTTP服务器，设计用于嵌入其他应用程序。
 * [MiniCat](https://gitee.com/coodyer/minicat)：MiniCat是一款轻量化HTTP服务器，支持BIO、NIO两种模式。
 * [Java NIO Server](https://github.com/jjenkov/java-nio-server)：一个始终使用非阻塞IO的Java NIO服务器。
-* [AndServer](https://github.com/yanzhenjie/AndServer)：AndServer是一个HTTP和反向代理服务器。
+* [AndServer](https://github.com/yanzhenjie/AndServer)：AndServer是Android平台的Web服务器和Web框架。
 * [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
 * [Nginx Clojure](https://github.com/nginx-clojure/nginx-clojure)：Nginx Clojure是一个Nginx模块，用于嵌入Clojure或Java或Groovy程序，通常是那些基于Ring的处理程序。
 * [Jibble](http://www.jibble.org/miniwebserver/)：Jibble是一个用Java编写的非常小的独立Web服务器，它打包在JAR文件中，也可以在你自己的Java程序中使用。
