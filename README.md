@@ -3554,6 +3554,7 @@
 * [LayerCache](https://github.com/appmattus/layercache)：使Android和Java的缓存变得简单。
 * [Kache](https://github.com/MayakaApps/Kache)：Kache是一个轻量级的Kotlin Multiplatform缓存库，支持内存和持久缓存，并支持不同的驱逐策略。
 * [OHC](https://github.com/snazy/ohc)：Java堆外缓存解决方案。
+* [Cache](https://github.com/houbb/cache)：Cache用于实现一个可拓展的高性能本地缓存。
 * [KCache](https://github.com/rayokota/kcache)：KCache是一个客户端库，它提供由Kafka中的压缩主题支持的内存缓存。
 * [Cache4j](https://cache4j.sourceforge.net/)：Java对象的缓存，简单的API和快速的实现。
 * [Imcache](https://github.com/Cetsoft/imcache)：Imcache是一个Java缓存库，旨在通过提供管理缓存数据的方法来加速应用程序。

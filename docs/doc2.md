@@ -2023,6 +2023,7 @@
 * [ChemicalTagger](https://github.com/BlueObelisk/chemicaltagger)：ChemicalTagger是化学领域语义文本挖掘的工具。
 * [JMol](https://github.com/BobHanson/Jmol-SwingJS)：JMol是一个开源Java/SwingJS应用程序，用于可视化和分析具有化学品特征的3D分子结构、晶体、材料和生物分子。
 * [SMSD](https://github.com/asad/smsd)：SMSD是一个基于Java的软件库，用于查找小分子之间的最大公共子图(MCS)/子结构，由欧洲生物信息学研究所开源。
+* [MORTAR](https://github.com/FelixBaensch/MORTAR)：MORTAR是一款免费的开源图形桌面应用程序，支持分子计算机碎片化和子结构分析，由德国威斯特伐利亚应用技术大学开源。
 * [Indigo](https://github.com/epam/Indigo)：通用化学信息学工具包、实用程序和数据库搜索工具。
 * [LaMa4J](https://lama4j.di.unimi.it/)：LaMa4J是一组实现许多晶格和晶格运算的Java类。
 * [Toxtree](https://toxtree.sourceforge.net/)：Toxtree是一个功能齐全、灵活、用户友好的开源应用程序，它能够通过应用决策树方法来估计毒性危害。
@@ -2167,6 +2168,9 @@
 * [Morfologik Stemming](https://github.com/morfologik/morfologik-stemming)：用于有限状态自动机构建和基于字典的形态词典的工具。
 * [TSM4j](https://github.com/weilueluo/tsm4j)：Java的类型化状态机。
 * [Dk.Brics.Automaton](https://github.com/cs-au-dk/dk.brics.automaton)：Java的有限状态自动机和正则表达式，由奥胡斯大学开源。
+* [Redux Java](https://github.com/glung/redux-java)：Redux的Java版本，应用程序的可预测状态容器。
+* [Bansa](https://github.com/brianegan/bansa)：受Redux和Elm启发的Java和Kotlin状态容器。
+* [Grox](https://github.com/groupon/grox)：Grox有助于维护Java/Android应用程序的状态。
 
 ## 报表引擎
 
@@ -3407,6 +3411,7 @@
 * [Dockerfly](https://gitee.com/helyho/DockerFly)：Dockerfly是基于Docker 1.12+开发的Docker管理工具。
 * [SimpleDocker](https://gitee.com/taoes_admin/SimpleDocker)：SimpleDocker是一个简单的Docker控制面板，可以让用户更方便、舒适的使用Docker，其界面简洁、操作便捷，功能强大，可以带来更好地运维体验。
 * [HyScale](https://github.com/hyscale/hyscale)：HyScale是基于K8s的以应用程序为中心的抽象框架。
+* [Metaparticle/Package](https://github.com/metaparticle-io/package)：Metaparticle/Package是一组库的集合，旨在为开发人员提供无缝且惯用的容器构建和部署体验。
 * [Styx](https://github.com/spotify/styx)：Styx是一项用于触发Docker容器定期调用的服务，由Spotify开源。
 * [Blox](https://github.com/blox/blox)：Blox提供针对在Amazon ECS上运行应用程序进行优化的开源调度程序，由Amazon开源。
 * [StackGres](https://github.com/ongres/stackgres)：StackGres是Kubernetes的全栈PostgreSQL发行版，打包到一个简单的部署单元中，拥有一组精心挑选和调整的周边PostgreSQL组件。
@@ -4534,6 +4539,7 @@
 
 * [HC](https://gitee.com/wuxw7/MicroCommunity)：HC小区管理系统是一套SaaS物业管理系统。
 * [ZhaoXin](https://gitee.com/fanhuibin1/zhaoxinpms)：肇新智慧物业是一个开源的小型物业管理系统，由山西肇新公司开发。
+* [YFCommunity](https://gitee.com/qingyun-software/YFCommunity)：萤丰开源智慧小区智慧社区系统Java版。
 
 #### PLM系统
 
@@ -8083,6 +8089,7 @@
 * [Strman](https://github.com/shekhargulati/strman-java)：Java 8字符串操作库。
 * [Aho Corasick](https://github.com/robert-bor/aho-corasick)：用于高效字符串匹配的Aho-Corasick算法的Java实现。
 * [StringSearch](https://github.com/johannburkard/StringSearch)：Java中的高性能模式匹配算法。
+* [Word Checker](https://github.com/houbb/word-checker)：Word Checker用于单词拼写检查。
 
 #### 文本排序
 
