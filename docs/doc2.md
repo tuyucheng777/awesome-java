@@ -980,6 +980,7 @@
 * [Whitebox Crypto AES Java](https://github.com/ph4r05/Whitebox-crypto-AES-java)：Java中的白盒AES实现。
 * [Javallier](https://github.com/n1analytics/javallier)：Paillier部分同态加密的Java库。
 * [KyberJCE](https://github.com/fisherstevenk/kyberJCE)：Kyber后量子IND-CCA2 KEM的纯Java实现。
+* [Blake2b](https://github.com/alphazero/Blake2b)：Blake2b是BLAKE2b加密哈希函数的高性能Java实现。
 
 #### 接口加密
 
@@ -2011,6 +2012,7 @@
 * [GDownloader](https://github.com/hstr0100/GDownloader)：GDownloader是用Java编写的Yt Dlp、Gallery Dl和SpotDL用户友好的GUI。
 * [JavaTube](https://github.com/felipeucelli/JavaTube)：JavaTube是一个基于pytube库的YouTube视频下载库。
 * [YouTube Comment Suite](https://github.com/mattwright324/youtube-comment-suite)：YouTube Comment Suite可让你汇总来自众多视频、播放列表和频道的YouTube评论，以便存档、常规搜索和显示活动。
+* [MediaServiceCore](https://github.com/yuliskov/MediaServiceCore)：YouTube的非官方Java API。
 
 ## 化学库
 
@@ -2860,6 +2862,7 @@
 * [JArchiveLib](https://github.com/thrau/jarchivelib)：JArchiveLib是一个简单的Java归档和压缩库，它在Apache Commons Compress之上提供了一个精简且易于使用的API层。
 * [JTar](https://github.com/kamranzafar/jtar)：JTar是一个简单的Java Tar库，它提供了一种使用IO流创建和读取Tar文件的简单方法。
 * [7 Zip JBinding](https://github.com/borisbrodski/sevenzipjbinding)：7 Zip JBinding是7-Zip免费压缩/解压缩库的免费跨平台Java绑定。
+* [7 Zip JBinding Android](https://github.com/omicronapps/7-Zip-JBinding-4Android)：7 Zip JBinding Java包装器的Android库版本。
 * [ShrinkWrap](https://github.com/shrinkwrap/shrinkwrap)：ShrinkWrap是一个Java库，用于创建Java存档，例如JAR、WAR、EAR和RAR，由JBoss开源。
 
 #### 图像压缩
@@ -2891,6 +2894,7 @@
 * [Reflecto](https://github.com/cariochi/reflecto)：Reflecto是一个功能强大的Java反射库，旨在简化深度反射任务。
 * [Permit Reflection](https://github.com/nqzero/permit-reflect)：允许Java 11反射访问。
 * [InvokeBinder](https://github.com/headius/invokebinder)：此库旨在提供更友好的DSL来绑定方法句柄。
+* [KavaRef](https://github.com/HighCapable/KavaRef)：KavaRef是一个使用Kotlin实现的现代化Java反射API。
 
 ## 注解库
 
@@ -3037,6 +3041,7 @@
 * [PDFHTML](https://github.com/itext/itext-pdfhtml-java)：PDFHTML是Java的一个iText插件，它允许你轻松地将HTML和CSS转换为符合标准的可访问、可搜索和可用于索引的PDF。
 * [PDFFigures](https://github.com/allenai/pdffigures2)：PDFFigures是一个基于Scala的项目，旨在从学术文献中提取图表、图解、表格和章节标题，尤其侧重于计算机科学领域的文档，由艾伦人工智能研究院开源。
 * [PDF Kit](https://github.com/superad/pdf-kit)：Java根据模板动态生成PDF文件。
+* [Ghost4J](https://github.com/zippy1978/ghost4j)：Ghost4J绑定了Ghostscript C API，将Ghostscript的强大功能带入Java世界。
 
 #### Excel库
 
@@ -3940,6 +3945,7 @@
 * [J2ObjC](https://github.com/google/j2objc)：J2ObjC是Google的开源命令行工具，可将Java源代码转换为适用于iOS(iPhone/iPad)平台的Objective-C。
 * [Java2Script](https://github.com/java2script/java2script)：Java2Script提供了Eclipse Java到JavaScript的转译器(源到源编译器)以及Java运行时环境的近乎完整的JavaScript实现(包括AWT和Swing)。
 * [J2C](https://github.com/arnetheduck/j2c)：J2C将Java代码转换为可编译的C++(11)代码。
+* [Cobol4j](https://github.com/opensourcecobol/opensourcecobol4j)：COBOL4J是一个COBOL编译器，可以将COBOL程序转换为Java程序。
 
 ## 源代码浏览器
 
@@ -4216,6 +4222,7 @@
 * [EDEN](https://gitee.com/codingdb/distribution_management)：微服务下的分销管理利器，更加灵活的管理佣金，涵盖并且总结了目前流行的分销模式。
 * [LinjiaShop](https://github.com/microapp-store/linjiashop)：LinjiaShop是一个基于Spring Boot和Vue.js的Web商城系统。
 * [MyShop](https://gitee.com/tiankong0310/my-shop)：MyShop是基于Spring MVC、Vue、Swagger 2开发的小程序商城。
+* [ModulithShop](https://gitee.com/suisung/modulithshop)：ModulithShop是基于UniApp、Spring Boot、Vue、Element UI框架的Java商城系统，由随商信息技术公司开源。
 
 #### 医疗系统
 
@@ -7216,6 +7223,7 @@
 * [ClearVolume](https://github.com/ClearVolume/clearvolume)：ClearVolume是一个实时3D可视化库，专为SPIM和DLSM显微镜等高端体积显微镜而设计，由马克斯普朗克分子细胞生物学和遗传学研究所开源。
 * [Vulkan4j](https://github.com/club-doki7/vulkan4j)：Vulkan4j是一系列针对Java的图形和相关API绑定，使用Java 22 Panama API实现。
 * [Box2DLights](https://github.com/libgdx/box2dlights)：Box2DLights是一个2D光照框架，它使用Box2D进行光线投射，并使用OpenGL ES 2.0进行渲染。
+* [JGLFW](https://github.com/badlogic/jglfw)：JGLFW是一个跨平台GLFW包装器。
 
 #### 游戏开发库
 
@@ -7671,6 +7679,7 @@
 * [ZKClient](https://github.com/adyliu/zkclient)：一个简单有效的Zookeeper Java客户端，由搜狐维护。
 * [PrettyZoo](https://github.com/vran-dev/PrettyZoo)：PrettyZoo是由JavaFX和Apache Curator创建的Zookeeper GUI。
 * [ZkUI](https://github.com/DeemOpen/zkui)：ZkUI是允许在Zookeeper上进行CRUD操作的UI仪表板。
+* [ZkWeb](https://github.com/zhitom/zkweb)：ZkWeb是用于管理和监控Zookeeper集群的Zookeeper Web应用，内置H2数据库。
 * [Taokeeper](https://github.com/alibaba/taokeeper)：Taokeeper是Zookeeper的监视器，由阿里开源。
 * [Shepher](https://github.com/XiaoMi/shepher)：Shepher是ZooKeeper的管理工具，在小米作为配置管理中心使用。
 * [KafkaUI Lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
@@ -7826,6 +7835,7 @@
 * [Micromod](https://github.com/martincameron/micromod)：适用于ProTracker MOD音乐格式的优质播放器库。
 * [Panako](https://github.com/JorenSix/Panako)：Panako是一种声学指纹识别系统，该系统能够从音频流中提取指纹，并将这些指纹存储在数据库中，或者在提取的指纹和存储的指纹之间找到匹配。
 * [Java LAME](https://github.com/nwaldispuehl/java-lame)：LAME库的本机Java端口。
+* [Xt Audio](https://github.com/sjoerdvankreel/xt-audio)：适用于C、C++、Java和.NET的平台独立低延迟音频。
 
 #### 视频库
 
@@ -8145,6 +8155,7 @@
 * [XFLP](https://github.com/hschneid/xflp)：XFLP是一个解决具有现实世界约束的3D卡车装载问题的求解器。
 * [2D Bin Packing](https://github.com/mses-bly/2D-Bin-Packing)：该项目旨在提供解决不规则(和规则)零件组二维装箱问题的基本功能。
 * [Dalsoo Bin Packing](https://github.com/whitegreen/Dalsoo-Bin-Packing)：Dalsoo Bin Packing是一个用于在矩形薄片中对二维不规则形状进行填充的Java库。
+* [Nest4J](https://github.com/Yisaer/Nest4J)：Nest4J是一款基于Java作为开发语言的Nest算法包。
 
 #### 下采样
 
@@ -8192,6 +8203,7 @@
 * [GraalPHP](https://github.com/abertschi/graalphp)：GraalPHP是一个实验性的即时(JIT)编译器和运行时，用于在GraalVM上托管的PHP 7.4+。
 * [TruffleSqueak](https://github.com/hpi-swa/trufflesqueak)：GraalVM的Squeak/Smalltalk VM和多语言编程环境，由波茨坦大学开源。
 * [Inline Java](https://github.com/tweag/inline-java)：Haskell/Java通过Haskell模块中的内联Java代码进行互操作。
+* [JavaErlang](https://github.com/fredlund/JavaErlang)：JavaErlang是一个试图促进Java和Erlang节点之间通信的库，它作为JInterface Java接口之上的附加层实现。
 
 #### Python
 
@@ -8485,7 +8497,7 @@
 
 * [Apache Commons Geometry](https://github.com/apache/commons-geometry)：Commons Geometry项目提供几何类型和实用程序。
 * [S2 Geometry Library](https://github.com/google/s2-geometry-library-java)：这是一个Google开源的用于操作几何形状的包，S2主要设计用于处理球面几何，即在球体上而不是在平面2D地图上绘制的形状。
-* [Geolatte-geom](https://github.com/GeoLatte/geolatte-geom)：符合OGC SQL简单功能规范的几何模型。
+* [Geolatte GeoM](https://github.com/GeoLatte/geolatte-geom)：符合OGC SQL简单功能规范的几何模型。
 * [JGEX](https://github.com/yezheng1981/Java-Geometry-Expert)：JGEX是一款结合了动态几何软件、自动几何定理证明器(GTP)和视觉动态证明呈现方法的软件，由威奇托州立大学开源。
 * [JTS](https://github.com/locationtech/jts)：JTS Topology是一个用于创建和操作向量几何的Java库。
 * [PGS](https://github.com/micycle1/PGS)：Processing Geometry Suite是一个软件项目，它以Processing库的形式提供对2D几何算法的轻松访问。
@@ -8494,6 +8506,7 @@
 * [GeoRegression](https://github.com/lessthanoptimal/GeoRegression)：GeoRegression是一个基于Java的免费几何库，用于机器人和计算机视觉等领域的科学计算，重点关注2D/3D空间。
 * [Computational Geometry](https://github.com/mikhaildubov/computational-geometry)：该项目包含二维空间中基本计算几何算法的实现和可视化工具。
 * [Polygon Contains Point](https://github.com/sromku/polygon-contains-point)：检查平面上的给定点位于多边形内、外还是边界上。
+* [JTS2GeoJSON](https://github.com/bjornharrtell/jts2geojson)：此Java库可以将JTS几何体转换为GeoJSON格式，反之亦然。
 
 ## 航空航天
 
@@ -8574,6 +8587,7 @@
 * [OpenAMASE](https://github.com/afrl-rq/OpenAMASE)：OpenAMASE是用于模拟多无人机任务的项目，由空军研究实验室、航空航天系统局、动力和控制部门开发。
 * [MAVLinkJava](https://github.com/ghelle/MAVLinkJava)：用于MAVLink的Java代码生成器和Java库。
 * [MAVLink Kotlin](https://github.com/divyanshupundir/mavlink-kotlin)：适用于Kotlin多平台的现代MAVLink库。
+* [MAVSDK Java](https://github.com/mavlink/MAVSDK-Java)：Java的MAVSDK客户端。
 
 ## AIS库
 
@@ -8763,6 +8777,7 @@
 * [Emoji Java](https://github.com/coding/emoji-java)：Emoji Java是一个轻量级的Java库，可帮助你在Java应用程序中使用表情符号，由腾讯Coding开源。
 * [JEmoji](https://github.com/felldo/JEmoji)：JEmoji是一个轻量级且快速的Java表情符号库，包含来自unicode联盟的所有表情符号的完整列表。
 * [EmojiReader](https://github.com/YvesCheung/EmojiReader)：EmojiReader是一个能在字符串中识别出Emoji的简单工具。
+* [Lightbend Emoji](https://github.com/lightbend-labs/lightbend-emoji)：Lightbend Emoji是Java的Unicode处理的包装器。
 
 ## 字体库
 
@@ -8847,6 +8862,7 @@
 
 * [Color Java](https://github.com/ngageoint/color-java)：Color是一个Java库，提供颜色表示，支持十六进制、RBG、算术RBG、HSL和整数颜色，由美国国家地理空间情报局开发。
 * [Color](https://github.com/bowbahdoe/color)：JVM的颜色库。
+* [Color.kt](https://github.com/kdrag0n/colorkt)：Color.kt是适用于Kotlin Multiplatform和Java的现代色彩科学库。
 
 ## 短链接
 
@@ -9007,6 +9023,7 @@
 * [Tree Sitter Java](https://github.com/tree-sitter/tree-sitter-java)：Tree-Sitter的Java语法。
 * [Java Tree Sitter](https://github.com/serenadeai/java-tree-sitter)：Tree-Sitter是一个解析器生成工具和增量解析库。
 * [Java Tree Sitter](https://github.com/seart-group/java-tree-sitter)：Tree-Sitter的Java绑定，由瑞士卢加诺的意大利大学软件研究所开源。
+* [Tree Sitter NG](https://github.com/bonede/tree-sitter-ng)：下一代Tree Sitter Java绑定。
 
 ## 形式验证
 
