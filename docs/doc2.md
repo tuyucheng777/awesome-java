@@ -1435,7 +1435,8 @@
 * [Jollyday](https://github.com/focus-shift/jollyday)：Jollyday是一个查询公共假期的Java库，目前支持70多个国家/地区。
 * [TimeAgo](https://github.com/marlonlom/timeago)：一个简单的Java库，用于将日期显示为相对时间之前的语言。
 * [Adhan Kotlin](https://github.com/batoulapps/adhan-kotlin)：Adhan是一个经过充分测试和记录良好的库，用于计算伊斯兰祈祷时间。
-* [Lib-Recur](https://github.com/dmfs/lib-recur)：该库解析RFC 5545和RFC 2445中定义的重复字符串并迭代实例。
+* [ITL Java](https://github.com/fikr4n/itl-java)：ITL Java是一个用于计算祈祷时间、朝拜方向和伊斯兰回历日期的Java库。
+* [Lib Recur](https://github.com/dmfs/lib-recur)：该库解析RFC 5545和RFC 2445中定义的重复字符串并迭代实例。
 * [TickTock](https://github.com/ZacSweers/ticktock)：TickTock是一个时区数据管理库，适用于JVM和Android，针对Java 8或更高版本中的java.time.* API。
 * [Business Hours Java](https://github.com/dhatim/business-hours-java)：这个Java库有助于处理工作时间，例如“周一到周五上午9点到下午6点，周六上午9点到中午12点”。
 
@@ -4460,6 +4461,7 @@
 * [Libertya](https://github.com/Disytel-Consulting-SA/libertya)：Libertya是一款综合管理管理软件，无需许可费用且完全免费使用，专为在任何类型的公司中快速实施和启动而设计。
 * [BlueSeer ERP](https://github.com/BlueSeerERP/blueseer)：BlueSeer ERP是一个免费的开源多语言ERP软件包。
 * [EAIRP](https://github.com/eairps/eairp)：开源Sass AI ERP系统。
+* [Production SSM](https://github.com/megagao/production_ssm)：这是一个SSM、jQuery、EasyUI开发的ERP系统。
 
 #### HRM系统
 
@@ -4736,6 +4738,7 @@
 * [DaxPay](https://gitee.com/dromara/dax-pay)：DaxPay是一套开源支付网关系统，已经对接支付宝、微信支付、云闪付相关的接口。
 * [Ping++ Java](https://github.com/PingPlusPlus/pingpp-java)：Ping++是为移动端应用以及PC网页量身打造的下一代支付系统。
 * [Pay](https://github.com/boyuanitsm/pay)：支付SDK集合重构，支持支付宝、微信支付、银联支付。
+* [Vmq](https://github.com/szvone/Vmq)：V免签是基于Spring Boot 2.1.1实现的一套免签支付程序。
 
 ## 云计算
 
@@ -5854,6 +5857,7 @@
 * [EasyBehavior](https://github.com/JmStefanAndroid/EasyBehavior)：一个可以上拉下滑的UI效果。
 * [ActionBar PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh)：ActionBar PullToRefresh提供了一种简单的方法来向你的应用程序添加现代版本的下拉刷新交互。
 * [Android PullToRefresh](https://github.com/johannilsson/android-pulltorefresh)：该项目旨在为Android提供可重复使用的下拉刷新小部件。
+* [SwipyRefreshLayout](https://github.com/omadahealth/SwipyRefreshLayout)：SwipeRefreshLayout扩展允许双向滑动。
 * [BeautifulRefreshLayout](https://github.com/android-cjj/BeautifulRefreshLayout)：漂亮的RefreshLayout。
 * [MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)：这是一个下拉刷新控件，比SwipeRefreshLayout更美观、功能更强大，使用简单。
 * [SwipeToLoadLayout](https://github.com/Aspsine/SwipeToLoadLayout)：SwipeToLoadLayout是一个可重复使用的下拉刷新和下拉加载更多小部件。
@@ -6304,6 +6308,100 @@
 * [M3U8Downloader](https://github.com/Jay-Goo/M3U8Downloader)：M3U8下载器，支持多线程下载、断点续传、后台下载、本地播放解决方案、M3U8加密解决方案。
 * [FileDownloader](https://github.com/wlfcolin/file-downloader)：FileDownloader是一个强大的HTTP/HTTPS文件下载工具
 * [Pump](https://github.com/huxq17/Pump)：Pump是一个快速、易于使用的Android下载库，支持多任务、多线程、断点下载。
+
+#### Android评分库
+
+* [SmileyRating](https://github.com/sujithkanna/SmileyRating)：SmileyRating是一款简单的Android评分栏。
+* [MaterialRatingBar](https://github.com/zhanghai/MaterialRatingBar)：外观更佳的Material Design RatingBar。
+* [SimpleRatingBar](https://github.com/williamyyu/SimpleRatingBar)：一个简单的评级栏，你可以更轻松地自定义图像和动画。
+* [SimpleRatingBar](https://github.com/FlyingPumba/SimpleRatingBar)：开源项目，提Android默认RatingBar的简单但功能强大的替代品。
+* [Android Material App Rating](https://github.com/stepstone-tech/android-material-app-rating)：该库允许在应用程序内部使用自定义的评级对话框。
+* [ProperRatingBar](https://github.com/techery/ProperRatingBar)：感源自原生Android RatingBar，更简洁，并具备原版所缺乏的功能。
+* [EmotionRatingView](https://github.com/rubygarage/emotion-rating-view)：EmotionRatingApp是一个Android应用程序库，可根据所选评级展示情绪反应。
+* [Compose Ratingbar](https://github.com/a914-gowtham/compose-ratingbar)：适用于Jetpack Compose的评级栏。
+* [Awesome App Rating](https://github.com/SuddenH4X/awesome-app-rating)：高度可定制的Android库，提供对话框，要求用户对应用程序进行评级。
+* [Android Five Stars Library](https://github.com/Angtrim/Android-Five-Stars-Library)：Android Five Stars Library是一个小型库，可帮助开发人员在其应用程序中添加“评价我的应用程序”对话框。
+* [SmileBar](https://github.com/eugeneek/SmileBar)：简单的Android库，提供评分视图，每个评分值对应不同的可绘制对象。
+* [SimpleRatingView](https://github.com/xiprox/SimpleRatingView)：Android的评级切换可在三个评级级别之间切换：正面、中性和负面。
+* [SimpleRatingBar](https://github.com/bravoborja/SimpleRatingBar)：SimpleRatingBar允许创建一个带有项目间边距的RatingBar。
+* [AndroidRate](https://github.com/Vorlonsoft/AndroidRate)：AndroidRate是一个库，它通过提示用户在使用几天后对应用程序进行评级来帮助你推广Android应用程序。
+* [Android Rate](https://github.com/hotchemi/Android-Rate)：Android Rate是一个库，它通过提示用户在使用几天后对应用程序进行评级来帮助你推广Android应用程序。
+* [Smiley Rating](https://github.com/YuganshT79/Smiley-Rating)：Smiley Rating是一种自定义方式，当你的用户对你的应用给出精彩的反馈时，可以用微笑来问候他们。
+* [Easy Rating Dialog](https://github.com/fernandodev/easy-rating-dialog)：这个库提供了一种简单的方法来显示评级应用程序的警报对话框。
+* [AndroidRatingStar](https://github.com/everhad/AndroidRatingStar)：RatingStar 是特定于RatingBar的使用星形绘制作为评级标记。
+* [Smart App Rate](https://github.com/codemybrainsout/smart-app-rate)：适用于Android的智能应用评级对话框，其中考虑了用户评级。
+* [Android RateThisApp](https://github.com/kobakei/Android-RateThisApp)：Android RateThisApp是一个显示“评价此应用”对话框的库。
+
+#### Android路由框架
+
+* [ARouter](https://github.com/alibaba/ARouter)：帮助Android APP进行组件化改造的路由框架，由阿里开源。
+* [Voyager](https://github.com/adrielcafe/voyager)：专为Jetpack Compose构建并与之无缝集成的多平台导航库。
+* [Component](https://github.com/xiaojinzi123/Component)：一个强大、100%兼容、支持AndroidX、支持Kotlin并且灵活的组件化框架。
+* [Decompose](https://github.com/arkivanov/Decompose)：Decompose是一个Kotlin Multiplatform库，用于将你的代码分解为树状结构的生命周期感知业务逻辑组件，具有路由功能和可插拔UI。
+* [ActivityRouter](https://github.com/mzule/ActivityRouter)：支持给Activity定义URL，这样可以通过URL跳转到Activity，支持在浏览器以及APP中跳入。
+* [Router](https://github.com/chenenyu/Router)：灵活的组件化路由框架。
+* [TheRouter](https://github.com/HuolalaTech/hll-wp-therouter-android)：帮助App进行组件化改造的动态路由框架。
+* [DRouter](https://github.com/didi/DRouter)：DRouter是18年滴滴乘客端自研的一套Android路由框架。
+* [Router](https://github.com/JumeiRdGroup/Router)：一款单品、组件化、插件化全支持的Android端路由框架，由聚美优品开源。
+* [AndRouter](https://github.com/campusappcn/AndRouter)：AndRouter是一个用于将URL映射到活动或动作的Android框架。
+* [Compose Router](https://github.com/zsoltk/compose-router)：带有返回堆栈的Jetpack Compose路由功能。
+* [Decompose](https://github.com/badoo/Decompose)：Decompose是一个Kotlin多平台库，用于将代码分解为可感知生命周期的业务逻辑组件，并支持路由功能和可插拔的UI。
+* [WMRouter](https://github.com/meituan/WMRouter)：WMRouter是一款Android路由框架，基于组件化的设计思路，有功能灵活、使用简单的特点，由美团开源。
+* [Floo](https://github.com/drakeet/Floo)：支持AOP、堆栈控制、跨页面消息、动态路由的URL路由器。
+* [Routable](https://github.com/clayallsopp/routable-android)：Routable是一款适用于Android的应用内原生URL路由器。
+* [RouterSDK](https://github.com/Jomes/routerSDK)：RouterSDK是一个优秀的路由器框架，它很容易集成到你的项目中。
+* [Kompass](https://github.com/sellmair/kompass)：适用于Android和iOS的Kotlin多平台路由器。
+* [RxRouter](https://github.com/ssseasonnn/RxRouter)：一个轻量级、简单、智能且强大的Android路由库。
+* [Meepo](https://github.com/nekocode/Meepo)：Meepo是一款Android路由器生成器，类似于Retrofit。
+* [KSP Router](https://github.com/HeartHappy/Router)：Android端使用KSP实现的路由框架。
+* [BRouter](https://github.com/bilibili/BRouter)：BRouter是一个Kotlin编写的面向模块Android路由库，由B站开源。
+* [Decompose Router](https://github.com/xxfast/Decompose-Router)：Compose多平台导航库，利用Decompose创建受Conductor启发的API。
+* [Router](https://github.com/BaronZ88/Router)：Android平台一个简单的路由框架，包含路由和参数注入两部分功能。
+* [Android Router](https://github.com/TangXiaoLv/Android-Router)：Android高性能轻量级路由框架。
+* [RouterKit](https://github.com/gybin02/RouterKit)：Android平台对页面、服务的路由框架。
+* [Router Android](https://github.com/Leifzhang/Router-Android)：通过注解实现路由跳转规则，同时增加KSP支持。
+* [EasyRouter](https://github.com/liuzhao2007/EasyRouter)：简单、稳定、强大、高性能的组件化路由框架。
+* [Router](https://github.com/eyeem/router)：Android应用内动态URL路由器。
+* [EasyRouter](https://github.com/Zane96/EasyRouter)：EasyRouter是一个简易的使用字符串进行Activity、Browser跳转的路由框架，并支持组件化开发。
+* [Router](https://github.com/aleyn97/router)：适用于Android的路由框架。
+* [Android Router](https://github.com/myjoybar/Android-Router)：一个使用简单方便的Android Router框架。
+* [Krouter](https://github.com/denisidoro/krouter)：用Kotlin编写的轻量级Android活动路由器。
+* [Rabbits](https://github.com/kyleduo/Rabbits)：Android应用程序的路由器模块。
+* [MyRouter](https://github.com/wenzhonghu/MyRouter)：Android平台中对页面、原生路由功能的中间件。
+
+#### Android抽屉库
+
+* [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)：灵活易用，一站式Android项目抽屉库，现已全新推出，采用Material 2设计。
+* [SlidingRootNav](https://github.com/yarolegovich/SlidingRootNav)：该库是一个类似DrawerLayout的ViewGroup，其中的“抽屉”隐藏在内容视图下方，可以通过移动内容视图使其可见。
+* [FlowingDrawer](https://github.com/mxn21/FlowingDrawer)：向右滑动即可显示带有流动效果的抽屉。
+* [Material Menu](https://github.com/balysv/material-menu)：Android L抽屉、返回、关闭和检查图标的动画。
+* [SmartSwipe](https://github.com/luckybilly/SmartSwipe)：SmartSwipe Android库可帮助你更轻松地进行视图滑动。
+* [Duo Navigation Drawer](https://github.com/asdsolutions-os/duo-navigation-drawer)：这个Android库提供了一种为Android创建替代导航抽屉的简便方法。
+* [MaterialNavigationDrawer](https://github.com/neokree/MaterialNavigationDrawer)：采用Material Design风格和简化方法的导航抽屉活动
+* [LDrawer](https://github.com/keklikhasan/LDrawer)：带有Material Design动画的Android抽屉图标。
+* [DebugDrawer](https://github.com/palaima/DebugDrawer)：Android调试抽屉，加快开发速度。
+* [NavigationDrawer MaterialDesign](https://github.com/zirouan/NavigationDrawer-MaterialDesign)：Material Design导航抽屉库。
+* [DrawerArrowDrawable](https://github.com/ChrisRenke/DrawerArrowDrawable)：Android L中的新抽屉指示器/后箭头旋转可绘制对象的简单可绘制反向移植。
+* [Material Drawer](https://github.com/janheinrichmerker/material-drawer)：针对Material Design应用的自定义抽屉实现。
+* [Drawer Behavior](https://github.com/shiburagi/Drawer-Behavior)：Drawer Behavior是一个使用Android DrawerLayout支持库作为父类的库，它在抽屉上提供额外的行为，例如，在滑动抽屉时移动视图或缩放视图的高度。
+* [AwesomeDrawer](https://github.com/Android500/AwesomeDrawer)：实现Android窗帘拉开折叠效果。
+* [MaterialDrawerKt](https://github.com/zsmb13/MaterialDrawerKt)：MaterialDrawer库的Kotlin DSL包装器。
+* [Custom Navigation Drawer](https://github.com/shrikanth7698/Custom-Navigation-Drawer)：Android自定义导航抽屉库。
+* [BlurNavigationDrawer](https://github.com/charbgr/BlurNavigationDrawer)：像Etsy应用程序一样的模糊导航抽屉。
+* [Undergarment](https://github.com/EddieRingle/android-undergarment)：适用于Android应用程序的滑出式导航(抽屉)实现。
+* [VerticalDrawerLayout](https://github.com/corerzhang/VerticalDrawerLayout)：一个垂直方向的DrawerLayout，抽屉从上向下展开。
+* [FullDraggableDrawer](https://github.com/PureWriter/FullDraggableDrawer)：让DrawerLayout在全屏范围内实时拖拽。
+* [GoogleNavigationDrawerMenu](https://github.com/jmartinesp/GoogleNavigationDrawerMenu)：类似于Google Apps中的DrawerLayout的Android库。
+* [NavigationDrawerSI](https://github.com/mmBs/NavigationDrawerSI)：导航抽屉简单实现。
+* [SherlockNavigationDrawer](https://github.com/nicolasjafelle/SherlockNavigationDrawer)：SherlockNavigationDrawer是最新Google UX组件导航抽屉的实现。
+* [SimpleSideDrawer](https://github.com/adamrocker/simple-side-drawer)：SimpleSideDrawer是一个Android库，用于将抽屉导航添加到你的Android应用程序。
+* [AdvancedMaterialDrawer](https://github.com/madcyph3r/AdvancedMaterialDrawer)：类似Gmail的Material Drawer实现。
+* [GoogleNavigationDrawer](https://github.com/neokree/GoogleNavigationDrawer)：采用Google设计风格和简化方法的导航抽屉活动。
+* [Ti.DrawerLayout](https://github.com/manumaticx/Ti.DrawerLayout)：Titanium原生Android导航抽屉。
+* [Material Navigation](https://github.com/mustafaozcan/MaterialNavigation)：Android Material导航(工具栏、导航抽屉、导航视图、标签页、CardView、ViewPager)
+* [DebugDrawer](https://github.com/Gridstone/DebugDrawer)：一个可配置的调试抽屉，可用于你的Android应用。
+* [Navigation Drawer Customisations](https://github.com/Mindinventory/minavdrawer)：易于使用的标准NavigationDrawer定制。
+* [L Navigation Drawer](https://github.com/lewisjdeane/L-Navigation-Drawer)：该库允许你轻松复制Android L的新式导航抽屉。
 
 ## GUI开发/程序
 
@@ -7110,6 +7208,7 @@
 #### Minecraft
 
 * [Paper](https://github.com/PaperMC/Paper)：Paper是一个基于Spigot的Minecraft游戏服务器，旨在大幅提高性能并提供更高级的功能和API。
+* [Docker Minecraft Server](https://github.com/itzg/docker-minecraft-server)：Docker镜像为Java版提供Minecraft服务器，可在启动时自动下载所选版本。
 * [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge)：Forge是一个免费的开源修改API，可供你所有喜爱的Mod使用。
 * [HMCL](https://github.com/HMCL-dev/HMCL)：HMCL是一个开源、跨平台的Minecraft启动器，支持Mod管理、游戏自定义、ModLoader安装、Modpack创建、UI自定义等。
 * [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)：PojavLauncher是一个启动器，可让你在Android和iOS设备上玩Minecraft Java版。
@@ -7155,6 +7254,25 @@
 * [Mekanism](https://github.com/mekanism/Mekanism)：Mekanism是一款独立的Minecraft插件，具有可用于制造强大工具、盔甲和武器的高科技机械。
 * [Mohist](https://github.com/MohistMC/Mohist)：Mohist是一个出色的Minecraft Forge服务器软件，实现了Bukkit、Spigot API。
 * [ViaVersion](https://github.com/ViaVersion/ViaVersion)：ViaVersion是一个多平台插件，允许你在Minecraft服务器上处理未来的客户端版本。
+* [Cardboard](https://github.com/CardboardPowered/cardboard)：Cardboard是FabricMC流行的Bukkit/Spigot/Paper Modding API的实现。
+* [Carpet](https://github.com/gnembon/fabric-carpet)：Carpet Mod是原版Minecraft的一个模组，它允许你从游戏的技术角度完全控制重要的事情。
+* [GrimAC](https://github.com/GrimAnticheat/Grim)：GrimAC是一款开源的Minecraft反作弊软件，旨在支持最新版本的Minecraft。
+* [Starlight](https://github.com/PaperMC/Starlight)：重写灯光引擎以修复照明性能和照明错误。
+* [Wurst](https://github.com/Wurst-Imperium/Wurst7)：Wurst是一个开源的Minecraft破解客户端。
+* [Phosphor](https://github.com/CaffeineMC/phosphor-fabric)：Phosphor是一个免费的开源Minecraft模组，旨在通过优化Minecraft最低效的区域之一-照明引擎，节省你的CPU周期并提高性能。
+* [Tweaked](https://github.com/cc-tweaked/CC-Tweaked)：Tweaked是Minecraft的一个模组，它为游戏添加了可编程计算机、乌龟等内容。
+* [Yarn](https://github.com/FabricMC/yarn)：Yarn是一组开放、不受限制的Minecraft映射。
+* [Minecraft World Downloader](https://github.com/mircokroon/minecraft-world-downloader)：Minecraft世界下载器作为客户端和服务器之间的代理服务器来读取和保存块数据。
+* [MCinaBox](https://github.com/AOF-Dev/MCinaBox)：MCinaBox是Android上的Minecraft Java版启动器。
+* [Skript](https://github.com/SkriptLang/Skript)：Skript是Paper/Spigot的Minecraft插件，它允许服务器所有者和其他人无需学习Java即可修改他们的服务器。
+* [ProtocolLib](https://github.com/dmulloy2/ProtocolLib)：使用Bukkit提供对Minecraft协议的读写访问。
+* [EnchantmentCracker](https://github.com/Earthcomputer/EnchantmentCracker)：EnchantmentCracker是一个用于Minecraft Java版的工具，它通过分析游戏的随机数种子，来预测和破解游戏中的附魔机制。
+* [ZalithLauncher](https://github.com/ZalithLauncher/ZalithLauncher)：Zalith Launcher是一款基于PojavLauncher的Minecraft启动器，可在Android设备上运行Minecraft Java版。
+* [DiscordSRV](https://github.com/DiscordSRV/DiscordSRV)：DiscordSRV是一个用于Minecraft服务器的插件，它能在游戏的聊天频道和指定的Discord服务器频道之间建立一座双向桥梁，实现无缝的实时通信。
+* [Slimefun4](https://github.com/Slimefun/Slimefun4)：Slimefun是一个插件，旨在将你的Spigot服务器变成一个Modpack，而无需安装任何Mod。
+* [MCreator](https://github.com/MCreator/MCreator)：MCreator是一款用于制作Minecraft Java版模组、Minecraft Bedrock版附加组件和数据包的软件，使用直观易学的界面或集成代码编辑器。
+* [Minosoft](https://github.com/Bixilon/Minosoft)：Minosoft是一个开源的Minecraft客户端，用Kotlin和Java从头开始编写。
+* [PojavLauncher iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS)：PojavLauncher是一款适用于Android、iOS和iPadOS的Minecraft Java版启动器。
 
 #### 游戏服务器
 
@@ -7659,6 +7777,7 @@
 
 * [Cassandra Java Driver](https://github.com/apache/cassandra-java-driver)：Cassandra的Java驱动程序。
 * [DataStax Java Driver](https://github.com/datastax/java-driver)：适用于Cassandra的DataStax Java驱动程序。
+* [Cassandra JDBC Wrapper](https://github.com/ing-bank/cassandra-jdbc-wrapper)：这是Apache Cassandra Java驱动程序的JDBC包装器，它提供了一个简单的JDBC兼容API来与CQL3协同工作，由ING银行开源。
 * [Phantom](https://github.com/outworkers/phantom)：Phantom是适用于Cassandra/Datastax Enterprise的响应式类型安全Scala驱动程序。
 * [Astyanax](https://github.com/Netflix/astyanax)：Astyanax是Netflix开源的Cassandra Java客户端库。
 * [Spring Data Cassandra](https://github.com/spring-projects/spring-data-cassandra)：Spring Data Cassandra为Cassandra提供Spring Data模块熟悉的接口。
