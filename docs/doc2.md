@@ -401,7 +401,6 @@
 * [Zalenium](https://github.com/zalando/zalenium)：Zalenium是一个灵活且可扩展的基于容器的Selenium Grid，具有视频录制、实时预览、基本身份验证和仪表板，由Zalando开源。
 * [Selenide](https://github.com/selenide/selenide)：Selenide是一个用Java编写易于阅读和易于维护的自动化测试的框架，由Codeborne开发。
 * [WebDriverManager](https://github.com/bonigarcia/webdrivermanager)：WebDriverManager是一个开源Java库，用于对Selenium WebDriver所需的驱动程序(例如chromedriver、geckodriver、msedgedriver等)进行管理。
-* [Selendroid](https://github.com/selendroid/selendroid)：Selendroid是一个测试自动化框架，它通过Selendroid驱动Android原生和混合应用程序以及移动Web的UI。
 * [jBrowserDriver](https://github.com/hollingsworthd/jBrowserDriver)：与Selenium WebDriver规范兼容的可编程、可嵌入的Web浏览器驱动程序。
 * [Html Elements](https://github.com/yandex-qatools/htmlelements)：Html Elements是一个Java框架，提供在网页测试中与网页元素交互的易于使用的方式。
 * [FluentSelenium](https://github.com/SeleniumHQ/fluent-selenium)：FluentSelenium是Selenium 2+的包装器，添加了用于浏览器的流式界面样式，可以更轻松、更快速地编写Web UI测试。
@@ -491,7 +490,6 @@
 * [AutoMeter](https://gitee.com/season-fan/autometer-api)：AutoMeter是一款针对分布式服务、微服务API做功能和性能一体化的自动化测试平台。
 * [INGenious](https://github.com/ing-bank/INGenious)：INGenious提供了一种简单易行的方式来创建高度可靠的自动化测试，由ING银行开源。
 * [AngusTester](https://github.com/xcancloud/AngusTester)：AngusTester旨在协助软件开发团队高效、持续地开展软件开发和测试活动，同时满足用户的敏捷开发和测试需求，由晓蚕云公司开发。
-* [AppiumTestDistribution](https://github.com/AppiumTestDistribution/AppiumTestDistribution)：一个用于跨设备并行运行Android和iOS Appium测试的工具。
 * [Neodymium](https://github.com/Xceptance/neodymium-library)：Neodymium尝试通过结合JUnit、WebDriver、BDD/Cucumber和适当的报告来解决典型且最紧迫的UI测试自动化问题，由Xceptance开发。
 * [Video Recorder](https://github.com/SergeyPirogov/video-recorder-java)：该库只需添加一些注解即可轻松录制UI测试的视频。
 * [Step](https://github.com/exense/step)：Step是一个统一的软件自动化平台，可让你充分利用自动化工件，同时摆脱特定工具。
@@ -1211,6 +1209,7 @@
 * [Json Wikipedia](https://github.com/diegoceccarelli/json-wikipedia)：Json Wikipedia包含将Wikipedia XML转储转换为JSON或Avro转储的代码。
 * [JsonLogic Java](https://github.com/jamsesso/json-logic-java)：不使用Nashorn JS引擎的纯Java实现JsonLogic。
 * [JsonTemplate](https://github.com/json-template/JsonTemplate)：一个生成JSON字符串的Java工具。
+* [xJsonKit](https://gitee.com/troyzhxu/xjsonkit)：xJsonKit是一个超轻量级JSON/JSONB/XML/YAML解析门面API。
 
 #### JSON Schema
 
@@ -2079,6 +2078,7 @@
 * [DataBuilder](https://github.com/flipkart-incubator/databuilderframework)：DataBuilder框架是一个高级逻辑执行引擎，可用于执行多步骤工作流，该引擎目前为Flipkart的结账系统以及诊断和其他工作流提供支持。
 * [RuoYi Activiti](https://gitee.com/shenzhanwang/RuoYi-activiti)：基于Activiti 6.0，集流程设计、流程部署、流程执行、任务办理、流程监控于一体的开源工作流开发平台。
 * [RuoYi Flowable](https://gitee.com/tony2y/RuoYi-flowable)：基于RuoYi Vue、Flowable 6.8.x的工作流管理平台。
+* [RuoYi Vue Activiti](https://gitee.com/smell2/ruoyi-vue-activiti)：前端采用Vue、Element UI，后端采用Spring Boot、Spring Security的前后端分离工作流脚手架。
 * [Yaoqiang BPMN Editor](https://bpmn.sourceforge.net/)：Yaoqiang BPMN Editor是一款开源的业务流程图图形编辑器，符合OMG规范(BPMN 2.0)。
 * [F2BPM](https://www.f2bpm.com/)：F2BPM是一款纯国产工作流引擎，遵循WFMC/BPMN2.0的规范，由致博软件公司开发。
 * [盘古BPM](https://gitee.com/pangu-dm/pangubpm-dmn)：盘古BPM工作流平台是国内首款开源的互联网决策引擎系统，拥有独立的DMN1.3标准设计器、解析器、决策引擎、支持决策表、DRD、DRG。
@@ -3988,6 +3988,7 @@
 * [Jmix](https://github.com/jmix-framework/jmix)：Jmix是一组库和工具，用于加速Spring Boot以数据为中心的应用程序开发，由Haulmont开源。
 * [Seed4J](https://github.com/seed4j/seed4j)：Seed4J是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
 * [Qingzhou](https://gitee.com/openeuler/qingzhou)：轻舟是一款开源的轻量级软件开发平台，其愿景是优化通用型Web管理软件的开发质量与效率，并实现不同类型软件的集中化统一管理，由华为开发。
+* [XXL Boot](https://github.com/xuxueli/xxl-boot)：XXL Boot是一个快速开发平台，易学易用、简化开发、丰富扩展、开箱即用。
 * [LAMP Cloud](https://github.com/dromara/lamp-cloud)：LAMP Cloud基于JDK 11、Spring Cloud、Spring Boot开发的微服务中后台快速开发平台，专注于多租户(SaaS架构)解决方案，由dromara社区开源。
 * [ApiBoot](https://gitee.com/minbox-projects/api-boot)：ApiBoot是接口服务的落地解决方案，提供了一系列开箱即用的组件，通过封装来简化主流第三方框架的集成。
 * [Jeddict](https://github.com/jeddict/jeddict-modeler)：Jakarta EE 10和MicroProfile应用程序生成器和建模器。
@@ -4010,6 +4011,7 @@
 * [MSFM](https://gitee.com/wanglingxiao/mysiteforme)：MSFM是一个基于Spring Boot开发的轻量级系统脚手架，旨在帮助开发者快速搭建属于自己的系统后台。
 * [CXBOX](https://github.com/CX-Box/cxbox)：CXBOX的主要目标是加速基于Spring Boot的典型企业级应用程序的开发。
 * [Crown](https://gitee.com/cancerGit/Crown)：Crown是基于Spring Boot 2构建的Web应用快速开发脚手架。
+* [JPower](https://gitee.com/gdzWork/JPower)：JPower致力于实现集各种工具于一体的微服务管理框架。
 * [JeeWeb](https://gitee.com/dataact/jeeweb)：JeeWeb是一款基于Spring Boot 2、Spring、Mybatis、Hibernate的敏捷开发系统。
 * [CloudDo](https://gitee.com/lcg0124/clouddo)：CloudDo是基于Spring Cloud和Vue微服务，前后端分离的后台管理框架。
 * [AOSuite](https://gitee.com/xiong-chun/AOSuite)：AOSuite基于Java EE技术体系，是一个帮助企业快速实现业务需求的全栈式技术开发框架&解决方案。
@@ -4027,6 +4029,8 @@
 * [Liugh](https://github.com/qq53182347/liugh-parent)：实现RESTful快速开发的后端脚手架。
 * [ES](https://github.com/zhangkaitao/es)：ES是一个Java EE企业级项目的快速开发的脚手架，提供了底层抽象和通用功能。
 * [SOP](https://gitee.com/durcframework/SOP)：SOP是一个开放平台解决方案项目，基于Spring Cloud实现，目标让用户快速搭建自己的开放平台。
+* [Wind](https://gitee.com/sunseagear/wind)：飞廉是一个完全开源的开发平台，基于Spring Boot 3和Vue 3。
+* [Bootx](https://gitee.com/bootx/bootx-platform)：后端基于Spring Boot，前端基于Antd Vue 3打造，可应用在不同业务场景中，目标是致力实现媲美商业版应用脚手架。
 * [Roses](https://gitee.com/stylefeng/roses)：Roses基于Spring Boot 3、JDK 17，是开源项目Guns的核心支撑层。
 * [JBolt](http://jbolt.cn/)：基于JFinal打造的企业级Java Web框架核心库，通过链式SQL构建器、约定优于配置和丰富的功能模块，让Java Web开发变得简单、高效。
 * [NutzWk](https://github.com/Wizzercn/NutzWk)：NutzWk开源企业级Java Web开发框架。
@@ -4054,13 +4058,17 @@
 * [Snowy](https://gitee.com/xiaonuobase/snowy)：Snowy是国内首个国密前后端分离快速开发平台，集成国密加解密插件，软件层面完全符合等保测评要求，同时实现国产化机型、中间件、数据库适配。
 * [Element Vue SpringBoot Code Template](https://github.com/xwjie/ElementVueSpringbootCodeTemplate)：使用Vue、VueX、ElementUI、Spring Boot的代码框架。
 * [FCat](https://gitee.com/softnetcat/FCat)：FCAT是企业级基础功能框架，软件巢工作室出品。
+* [Vben](https://gitee.com/vben/vben-java)：Vben一个开箱即用的Java快速开发平台。
+* [SpringRain](https://gitee.com/chunanyong/springrain)：SpringRain是Spring/Spring Boot的开发范例，基于K8S、Apisix/Istio实现云原生微服务。
 * [AXBoot Framework](https://github.com/axboot/ax-boot-framework)：AXBoot是使用Java和HTML5的全栈Java Web应用程序框架。
 * [Essencium Backend](https://github.com/Frachtwerk/essencium-backend)：Essencium是一个构建在Spring Boot之上的软件库，允许开发人员快速开始新的软件项目。
 * [J2eeFAST](https://gitee.com/dromara/J2EEFAST)：J2eeFAST是一个Java EE企业级快速开发平台，致力于打造中小企业最好用的开源免费的后台框架平台，由dromara社区开源。
 * [JVS](https://gitee.com/software-minister/jvs)：JVS是企业级应用构建的基础脚手架，提供开箱即用的基础功能集成，其中集成了账户管理、租户管理、用户权限体系、三方登录、环境配置、各种业务日志等功能，还提供了对接低代码、数据中台的能力。
+* [Pit](https://gitee.com/xfcode-source/pit)：Pit是基于Java构建的标准化企业级开发平台。
 * [MJGA](https://github.com/ccmjga/mjga-scaffold)：MJGA是一款现代化Java Web脚手架。
 * [VBoot](https://gitee.com/zsvg/vboot-java)：VBoot是一个开箱即用的快速开发平台。
 * [LikeAdmin](https://gitee.com/likeadmin/likeadmin_java)：LikeAdmin是一套快速开发管理后台，使用Spring Boot 2.5、MyBatis Plus、TypeScript、Vue 3、Vite 2、Element Plus 1.2。
+* [XueYi MultiSaas](https://gitee.com/xueyitiantang/XueYi-MultiSaas)：基于Vue3/TypeScript/Ant-Design UI和Spring Cloud Alibaba/Mybatis-Plus的多租户SaaS开发框架。
 * [Hawaii Framework](https://github.com/hawaiifw/hawaii-framework)：Hawaii Framework是一个用于开发基于Spring的应用程序的Java框架，由ilionx开源。
 * [Pear Admin Boot](https://gitee.com/pear-admin/Pear-Admin-Boot)：Pear Admin Boot是基于Spring Boot生态、权限、工作流的开发平台。
 * [金合技术中台](https://gitee.com/ikingtech/iking-platform)：现代化的下一代企业级技术中台，简洁、高效、稳定、开源。
@@ -4101,6 +4109,7 @@
 * [Axelor Open Platform](https://github.com/axelor/axelor-open-platform)：Axelor Open Platform是一个用于创建现代商业应用程序的开源Java框架。
 * [Selenium Maven Template](https://github.com/Ardesco/Selenium-Maven-Template)：适用于Selenium 4的Maven模板，包含最新的依赖项。
 * [BuildCLI](https://github.com/BuildCLI/BuildCLI)：BuildCLI是一个CLI工具，用于管理和自动化Java项目开发中的常见任务。
+* [Framework Admin](https://gitee.com/backflow/framework-admin)：极简封装的Java平台快速开发框架。
 
 #### 低代码
 
@@ -4161,6 +4170,8 @@
 * [Informat](https://www.informat.cn/)：织信是基石协作科技自研的低代码应用构建平台。
 * [MyApps](http://www.teemlink.com/myapps/)：MyApps是天翎自主研发的第四代可视化低代码快速开发平台。
 * [Seezoon Stack](https://github.com/734839030/seezoon-stack)：Seezoon Stack是一款基于当前最前沿的前端和后台框架实现的低代码开发平台。
+* [SQLREST](https://gitee.com/inrgihc/sqlrest)：SQLREST是一个开源项目，旨在提供一种简单而强大的方式来将SQL查询转化为RESTful API。
+* [Z平台](https://gitee.com/zj1983/zz)： Z平台是开源免费的Java低代码开发平台，通过动态配置的方式能够快速开发各类Web管理系统。
 
 #### 权限管理系统
 
@@ -4236,7 +4247,9 @@
 * [EDEN](https://gitee.com/codingdb/distribution_management)：微服务下的分销管理利器，更加灵活的管理佣金，涵盖并且总结了目前流行的分销模式。
 * [LinjiaShop](https://github.com/microapp-store/linjiashop)：LinjiaShop是一个基于Spring Boot和Vue.js的Web商城系统。
 * [MyShop](https://gitee.com/tiankong0310/my-shop)：MyShop是基于Spring MVC、Vue、Swagger 2开发的小程序商城。
+* [环兴商城](https://gitee.com/lijiaxing_boy/huanxing-mall)：环兴商城是一套基于Java 17、Spring Boot 3、Spring Cloud Alibaba、Sa-Token、Dubbo的微服务电商系统。
 * [ModulithShop](https://gitee.com/suisung/modulithshop)：ModulithShop是基于UniApp、Spring Boot、Vue、Element UI框架的Java商城系统，由随商信息技术公司开源。
+* [NbSaaS Mall2](https://gitee.com/quhaodian/nbsaas-mall2)：去好店基于中台理念，一个平台，多个应用，根据不通的应用场景使用不同的应用。
 
 #### 医疗系统
 
@@ -4345,6 +4358,7 @@
 * [Ametys](https://www.ametys.org/community/en/index.html)：Ametys是一个用Java编写的免费开源内容管理系统。
 * [网市场CMS](https://gitee.com/mail_osc/wangmarket)：私有化部署自己的SAAS云建站系统，跟可通过后台任意开通多个网站，每个网站使用自己的账号进行独立管理。
 * [ThriveX](https://github.com/LiuYuYang01/ThriveX-Server)：ThriveX是一个高颜值、全开源、永不收费的现代化博客管理系统。
+* [JFinalCMS](https://gitee.com/heyewei/JFinalcms)：JFinalCMS允许你快速搭建个性化独立网站。
 * [Gentics Mesh](https://github.com/gentics/mesh)：Gentics Mesh是为开发人员提供的开源无头CMS。
 * [Tale Blog](https://github.com/otale/tale)：Tale是使用轻量级的MVC框架Blade进行开发的简洁美观的Java博客系统。
 * [Shoka](https://gitee.com/wu_shengdong/blog)：基于Spring Boot、Vue 3开发的前后端分离博客。
@@ -4378,6 +4392,7 @@
 * [瀑布CMS](https://gitee.com/LinZhaoguan/pb-cms)：瀑布CMS采用Spring Boot、Shiro、MybatisPlus、Thymeleaf实现。
 * [UJCMS](https://gitee.com/ujcms/ujcms)：Java开源内容管理系统，使用Spring Boot、MyBatis、Spring Security、Lucene、FreeMarker、TypeScript、Vue3、ElementPlus等技术开发。
 * [OpenCMS](https://github.com/alkacon/opencms-core)：OpenCMS是Alkacon公司开发的Java内容管理系统。
+* [SitesCMS](https://gitee.com/xhhxb/sitesCMS)：SitesCMS是基于JFinal的多站点CMS内容管理系统。
 * [DreamerCMS](https://gitee.com/iteachyou/dreamer_cms)：DreamerCMS采用流行的Spring Boot搭建，支持静态化、标签化建站。
 * [Enonic XP](https://github.com/enonic/xp)：Enonic XP是一个基于Java和Elasticsearch的免费开源Web应用程序平台和内容管理系统。
 * [Elepy](https://github.com/RyanSusana/elepy)：Elepy是适用于Java和Kotlin的无头内容管理框架。
@@ -4430,6 +4445,7 @@
 * [Echo](https://gitee.com/veal98/Echo)：Echo是一套前后端不分离的开源社区系统，基于目前主流Java Web技术栈，并提供详细的开发文档和配套教程。
 * [PYBBS](https://github.com/atjiu/pybbs)：更实用的Java开发的社区。
 * [Mawen](https://github.com/codedrinker/community)：开源论坛、问答系统，现有功能提问、回复、通知、最新、最热、消除零回复功能。
+* [Forest](https://github.com/rymcu/forest)：Forest是一款现代化的知识社区项目，使用Spring Boot、Shiro、MyBatis、JWT、Redis实现。
 * [FlowChat](https://github.com/dessalines/flowchat)：FlowChat是一个开源、可自托管的Reddit替代品，它拥有社区、主题标签、实时更新的讨论帖和投票功能。
 * [JCommune](https://github.com/jtalks-org/jcommune)：JCommune是一个用Java编写的论坛引擎。
 * [Symphony](https://github.com/88250/symphony)：Symphony是一款用Java实现的现代化社区(论坛/问答/BBS/社交网络/博客)系统平台，由房星科技开源。
@@ -4482,6 +4498,7 @@
 
 * [ChatMaster](https://gitee.com/panday94/chat-master)：ChatMaster是基于AI大模型API实现的自建后端对话服务。
 * [WGAI](https://gitee.com/dromara/wgai)：WGAI是开箱即用的Java AI平台，融合了AI图像识别、AI智能客服、AI语言模型，可定制化、自主、离线化部署。
+* [AIAS](https://gitee.com/mymagicpower/AIAS)：人工智能加速器套件，提供SDK、平台引擎、场景套件。
 * [HiMarket](https://github.com/higress-group/himarket)：HiMarket是一个开箱即用的AI开放平台解决方案，可以用于构建企业级的AI能力市场与开发者生态中心，由阿里开源。
 * [Free NLP API](https://gitee.com/stonedtx/free-nlp-api)：免费的NLP、情感分析、实体识别、图像识别与分类、OCR识别、语音识别接口，由思通数科开源。
 * [RuoYi AI](https://github.com/ageerle/ruoyi-ai)：RuoYi AI是一个全栈式AI开发平台，旨在帮助开发者快速构建和部署个性化的AI应用。
@@ -4499,6 +4516,8 @@
 * [AppPlatform](https://github.com/ModelEngine-Group/app-platform)：AppPlatform是一个前沿的大模型应用工程，旨在通过集成的声明式编程和低代码配置工具，简化AI应用的开发过程。
 * [Bella Workflow](https://github.com/LianjiaTech/bella-workflow)：Bella Workflow是贝壳找房内部核心的LLM应用开发平台，致力于为开发者提供更灵活、高效、强大的AI应用构建能力。
 * [LangChain4j AIDeepin](https://github.com/moyangzhan/langchain4j-aideepin)：LangChain4j AIDeepin是基于AI的工作效率提升工具。
+* [U3W AI](https://gitee.com/U3W-AI/U3W-AI)：优立方AI主机提供多AI平台集成的AIGC解决方案，支持免Token使用并与微信生态对接。
+* [Art](https://gitee.com/fxzcloud/art)：Art是一个开源、一站式AI应用开发平台，其灵感来源于行业领先的Coze和Dify。
 
 #### OA系统
 
@@ -4657,7 +4676,6 @@
 
 * [DB2Rest](https://github.com/kdhrubo/db2rest)：DB2Rest是一个现代低代码REST Data API平台，可以轻松构建智能应用程序。
 * [Spring Data REST](https://github.com/spring-projects/spring-data-rest)：该项目的目标是提供一种灵活且可配置的机制来编写可以通过HTTP公开的简单服务。
-* [SQLREST](https://gitee.com/inrgihc/sqlrest)：SQLREST是一个开源项目，旨在提供一种简单而强大的方式来将SQL查询转化为RESTful API。
 
 #### 插件框架
 
@@ -5287,6 +5305,7 @@
 * [KCloud Platform IoT](https://github.com/KouShenhai/KCloud-Platform-IoT)：KCloud Platform IoT是一个企业级微服务架构的IoT云平台。
 * [Frost IoT](https://github.com/footprintcat/frost-iot)：支持轻量化快速接入的IoT设备统一接入平台。
 * [IoTOS](https://gitee.com/chinaiot/iotos)：IoTOS是基于Spring Boot、Vue开源IoTCard系统，企业私域管理与运营综合解决方案。
+* [BudIot](https://gitee.com/budwk/budiot)：BudIot是一个开源、企业级的物联网平台，它集成了设备管理、协议解析、消息订阅、场景联动等一系列物联网核心能力。
 
 #### 智能家居
 
@@ -5391,6 +5410,7 @@
 * [Modbus4Android](https://github.com/licheedev/Modbus4Android)：Modbus的Android实现，添加对Android串口(RTU)的支持。
 * [Nifty Modbus](https://github.com/SolarNetwork/nifty-modbus)：Nifty Modbus是一个优秀的Java Modbus库。
 * [EasyModbusTCP](https://github.com/rossmann-engineering/EasyModbusTCP.Java)：EasyModbusTCP是用于Java实现的Modbus-TCP、Modbus-UDP和Modbus-RTU库。
+* [IoT Communication](https://gitee.com/xingshuang/iot-communication)：IoT Communication是一个物联网通信的工具、包含西门子S7通信协议、Modbus、三菱Melsec等。
 
 #### USB库
 
@@ -5610,6 +5630,46 @@
 * [KuiklyUI](https://github.com/Tencent-TDS/KuiklyUI)：Kuikly是一个基于Kotlin多平台的全面的UI和逻辑跨平台解决方案，由腾讯开源。
 * [Lynx](https://github.com/lynx-family/lynx)：Lynx是一系列开源技术，使开发人员能够利用他们现有的Web技能，从单一代码库为移动和Web创建真正的原生UI，并具有规模和速度方面的性能，由字节开源。
 
+#### Android测试库
+
+* [Robolectric](https://github.com/robolectric/robolectric)：Robolectric是Android的行业标准单元测试框架。
+* [Robotium](https://github.com/robotiumtech/robotium)：Robotium是一个Android测试自动化框架，完全支持原生和混合应用程序。
+* [Kaspresso](https://github.com/KasperskyLab/Kaspresso)：Kaspresso是一个用于Android UI测试的框架。
+* [AppiumTestDistribution](https://github.com/AppiumTestDistribution/AppiumTestDistribution)：一个用于跨设备并行运行Android和iOS Appium测试的工具。
+* [AssertJ Android](https://github.com/square/assertj-android)：一组用于测试Android的AssertJ断言，由Square开源。
+* [Shot](https://github.com/pedrovgs/Shot)：Shot是一个Android项目，你可以使用它以简单友好的方式为你的应用程序编写屏幕截图。
+* [AndroidX Test](https://github.com/android/android-test)：AndroidX测试库为测试Android应用提供了一个广泛的框架，由Google开发。
+* [Test Butler](https://github.com/linkedin/test-butler)：可靠的Android测试框架，由LinkedIn开源。
+* [Marathon](https://github.com/MarathonLabs/marathon)：Marathon是一个帮助在最短时间内执行测试的项目。
+* [Cafe](https://github.com/baidu/Cafe)：一个强大的Android测试框架，由百度开源。
+* [Screen Tests For Android](https://github.com/facebook/screenshot-tests-for-android)：Screen Tests For Android是一个可以在Android上运行仪器测试时生成快速确定性屏幕截图的库，由Facebook开源。
+* [ADBKeyBoard](https://github.com/senzhk/ADBKeyBoard)：ADBKeyBoard是一个虚拟键盘，它接收来自系统广播意图的命令，你可以使用adb发送文本输入。
+* [Roborazzi](https://github.com/takahirom/roborazzi)：使JVM Android集成测试可见。
+* [Accessibility Test Framework For Android](https://github.com/google/Accessibility-Test-Framework-for-Android)：该库收集了View对象以及AccessibilityNodeInfo对象上的各种与可访问性相关的检查，由Google开源。
+* [Fork](https://github.com/shazam/fork)：提供以最快的方式执行Android仪器测试的库。
+* [ElasticDownload](https://github.com/Tibolte/ElasticDownload)：通过自定义视图实现的下载动画。
+* [Selendroid](https://github.com/selendroid/selendroid)：Selendroid是一个测试自动化框架，它通过Selendroid驱动Android原生和混合应用程序以及移动Web的UI。
+* [Flank](https://github.com/Flank/flank)：Flank是Firebase测试实验室的大规模并行Android和iOS测试运行器。
+* [LiveData Testing](https://github.com/jraska/livedata-testing)：TestObserver可轻松测试LiveData并对其做出断言。
+* [JSpeedTest](https://github.com/bertrandmartel/speed-test-lib)：支持HTTP和FTP的Java/Android速度测试客户端库。
+* [RxPresso](https://github.com/novoda/rxpresso)：使用RxJava对Android应用程序进行简单的Espresso UI测试。
+* [AndroidUiTestingUtils](https://github.com/sergio-sastre/AndroidUiTestingUtils)：一组TestRules、ActivityScenarios和实用程序，用于在给定配置下进行UI和屏幕截图测试。
+* [Dropshots](https://github.com/dropbox/dropshots)：Dropshots是一个库和Gradle插件，可以轻松在Android上进行设备上的屏幕截图测试。
+* [Android Screenshot Lib](https://github.com/rtyley/android-screenshot-lib)：为你的Android集成测试提供按需截图。
+* [ComposablePreviewScanner](https://github.com/sergio-sastre/ComposablePreviewScanner)：帮助使用任何屏幕截图测试库从可组合预览自动生成屏幕截图测试。
+* [Fladle](https://github.com/runningcode/fladle)：使用Flank轻松在Firebase Test Lab上扩展你的Android Instrumentation测试。
+* [RoboSpock](https://github.com/robospock/RoboSpock)：RoboSpock是一个Android测试框架，它将Spock引入Android应用程序。
+* [Ultron](https://github.com/open-tool/ultron)：Ultron是开发Android和Compose Multiplatform UI测试的最简单的框架。
+* [Testify](https://github.com/Shopify/android-testify)：为你的Android测试添加屏幕截图，由Shopify开源。
+* [ConditionWatcher](https://github.com/AzimoLabs/ConditionWatcher)：Android工具有助于在自动化测试中将应用程序行为与测试线程同步。
+* [BusyBee](https://github.com/americanexpress/busybee)：BusyBee是Espresso测试中IdlingResources的替代API，由美国运通开源。
+* [Gordon](https://github.com/Banno/Gordon)：Gordon是一款Android仪器测试运行器，专为速度、简单性和可靠性而设计。
+* [Spoon](https://github.com/square/spoon)：Spoon是一个由Square开源的用于Android的测试工具和报告生成器。
+* [Kakao Compose](https://github.com/KakaoCup/Compose)：使用Kotlin为Espresso Compose提供简洁美观的DSL。
+* [Testify](https://github.com/ndtp/android-testify)：为你的Android测试添加屏幕截图。
+* [Kappuccino](https://github.com/concretesolutions/kappuccino)：一个使用Espresso和Kotlin简化你在应用中进行仪器测试的方式的框架。
+* [Dex Test Parser](https://github.com/linkedin/dex-test-parser)：Dex Test Parser解析APK的Dex文件并返回所有JUnit 3和JUnit 4测试方法的完全限定方法名称，由LinkedIn开源。
+
 #### Android UI库
 
 * [Material Components Android](https://github.com/material-components/material-components-android)：适用于Android的模块化和可定制的Material Design UI组件。
@@ -5633,6 +5693,8 @@
 * [Anvil](https://github.com/anvil-ui/anvil)：Anvil是一个用于创建响应式用户界面的小型Java库。
 * [Compose Cupertino](https://github.com/alexzhirkevich/compose-cupertino)：用于iOS的Compose Multiplatform UI组件。
 * [RapidView](https://github.com/Tencent/RapidView)：RapidView是一套用于开发Android客户端界面、逻辑以及功能的开发组件，由腾讯开源。
+* [Ticker](https://github.com/robinhood/ticker)：Ticker是一个简单的Android UI组件，用于显示滚动文本。
+* [CircleMenu](https://github.com/Ramotion/circle-menu-android)：CircleMenu是一个简单、优雅的UI菜单，具有圆形布局和Material Design动画。
 
 #### ActionBar小部件
 
@@ -6412,6 +6474,42 @@
 * [DebugDrawer](https://github.com/Gridstone/DebugDrawer)：一个可配置的调试抽屉，可用于你的Android应用。
 * [Navigation Drawer Customisations](https://github.com/Mindinventory/minavdrawer)：易于使用的标准NavigationDrawer定制。
 * [L Navigation Drawer](https://github.com/lewisjdeane/L-Navigation-Drawer)：该库允许你轻松复制Android L的新式导航抽屉。
+
+#### Android动画库
+
+* [Lottie](https://github.com/airbnb/lottie-android)：Lottie是一个适用于Android和iOS的移动库，它使用Bodymovin解析以JSON格式导出的Adobe After Effects动画并在移动设备上进行原生渲染，由Airbnb开源。
+* [Balloon](https://github.com/skydoves/Balloon)：现代化且精致的工具提示，可通过Android的箭头和动画进行完全定制。
+* [Pager Dots Indicator](https://github.com/tommybuonomo/dotsindicator)：用于Android中查看分页器的三个材质点指示器。
+* [ShimmerLayout](https://github.com/team-supercharge/ShimmerLayout)：通过Supercharge为Android应用程序提供内存高效的闪烁效果。
+* [React Native Tabbar Interaction](https://github.com/Mindinventory/react-native-tabbar-interaction)：漂亮的Tabbar交互与滑动插入FAB，专为具有RTL支持的React Native打造。
+* [Android View Animations](https://github.com/daimajia/AndroidViewAnimations)：可爱的视图动画集合。
+* [RecyclerView Animators](https://github.com/wasabeef/recyclerview-animators)：RecyclerView Animators是一个Android库，允许开发人员轻松创建带有动画的RecyclerView。
+* [UltimateRecyclerView](https://github.com/cymcsg/UltimateRecyclerView)：UltimateRecyclerView是一个RecyclerView(ListView的高级和灵活版本)，具有下拉刷新、加载更多、滑动关闭、拖放、动画、粘性标题、滚动时显示或隐藏工具栏和FAB等许多其他功能。
+* [HTextView](https://github.com/hanks-zyh/HTextView)：TextView支持自定义字体的动画效果。
+* [ListViewAnimations](https://github.com/nhaarman/ListViewAnimations)：ListViewAnimations是一个开源Android库，允许开发人员轻松创建带有动画的ListView。
+* [NineOldAndroids](https://github.com/JakeWharton/NineOldAndroids)：用于在平台所有版本上使用Honeycomb动画API的Android库。
+* [Spruce](https://github.com/willowtreeapps/spruce-android)：Spruce是一个轻量级的动画库，可帮助编排屏幕上的动画。
+* [Konfetti](https://github.com/DanielMartinus/Konfetti)：使用这个轻量级的五彩纸屑库，你可以轻松地在你的应用中庆祝大大小小的时刻。
+* [SVGAPlayer](https://github.com/svga/SVGAPlayer-Android)：SVGAPlayer是一个轻量级的动画渲染器。
+* [RecyclerViewItemAnimators](https://github.com/gabrielemariotti/RecyclerViewItemAnimators)：一个Android库，为RecyclerView元素提供简单的元素动画。
+* [Like Button](https://github.com/jd-alexander/LikeButton)：Like Button是一个库，它允许你在喜欢某些东西时创建一个具有类似于Twitter心形的动画效果的按钮。
+* [Aphid FlipView](https://github.com/openaphid/android-flip)：Aphid FlipView是一个UI组件，用于实现类似Flipboard的翻转动画。
+* [ExpectAnim](https://github.com/florent37/ExpectAnim)：描述你的动画并运行。
+
+* [WoWoViewPager](https://github.com/Nightonke/WoWoViewPager)：WoWoViewPager结合ViewPager和Animations来提供一种创建应用程序引导页的简单方法。
+* [ViewAnimator](https://github.com/florent37/ViewAnimator)：流式的Android动画库。
+* [GuillotineMenu](https://github.com/Yalantis/GuillotineMenu-Android)：简洁的库，提供了一种实现断头台式动画的简单方法。
+* [TourGuide](https://github.com/worker8/TourGuide)：TourGuide是一个Android库，它允许你轻松添加指针、叠加层和工具提示，引导用户使用你的应用。
+* [ViewPagerTransforms](https://github.com/ToxicBakery/ViewPagerTransforms)：包含在Android v13+上转换ViewPager滚动所需的常见动画的库。
+* [AnimationEasingFunctions](https://github.com/daimajia/AnimationEasingFunctions)：Android动画缓动函数。
+* [Android Ripple Background](https://github.com/skyfishjy/android-ripple-background)：为你的应用添加精美的涟漪动画。
+* [Euclid](https://github.com/Yalantis/Euclid)：该项目是用户个人资料界面动画的实现。
+* [Grav](https://github.com/glomadrian/Grav)：Grav是一个Android库，允许你根据点制作多个动画。
+* [JazzyViewPager](https://github.com/jfeinstein10/JazzyViewPager)：一个易于使用的ViewPager，可添加一组精彩的自定义滑动动画。
+* [AlphaPlayer](https://github.com/bytedance/AlphaPlayer)：AlphaPlayer是直播中台使用的一个视频动画特效SDK，由字节开源。
+* [VectAlign](https://github.com/bonnyfone/vectalign)：使用VectorDrawables创建复杂变形动画的工具。
+* [CircularAnim](https://github.com/XunMengWinter/CircularAnim)：Android水波动画帮助类，轻松实现View show/hide/startActivity()特效。
+* [StarWars.Android](https://github.com/Yalantis/StarWars.Android)：该组件实现了过渡动画，将视图分解成小块。
 
 ## GUI开发/程序
 
@@ -7487,7 +7585,7 @@
 * [RARS](https://github.com/TheThirdOne/rars)：RISC-V汇编器和运行时模拟器。
 * [Sedna](https://github.com/fnuecke/sedna)：Sedna是一个用Java编写的64位RISC-V模拟器，它实现了被视为“通用”所需的所有扩展以及管理模式，这意味着它可以引导Linux。
 * [NutShell](https://github.com/OSCPU/NutShell)：NutShell是由OSCPU(大学开源芯片项目)团队开发的处理器。
-* [Ventus(乘影) GPGPU](https://github.com/THU-DSP-LAB/ventus-gpgpu)：支持RISCV-V扩展的GPGPU处理器，使用Chisel HDL开发，由清华大学开源。
+* [Ventus GPGPU](https://github.com/THU-DSP-LAB/ventus-gpgpu)：支持RISCV-V扩展的GPGPU处理器，使用Chisel HDL开发，由清华大学开源。
 * [FireSim](https://github.com/firesim/firesim)：FireSim是一款开源FPGA加速的全系统硬件仿真平台，可以轻松验证、分析和调试10到100 MHz的RTL硬件实现，由加州大学伯克利分校的电气工程和计算机科学系开发。
 * [Venus](https://github.com/kvakil/venus)：Venus是一款专为教育打造的RISC-V指令集模拟器。
 * [OpenCar](https://github.com/anons-org/opencar)：OpenCar是一款仿真RISC-V指令集的软件，目标是提供基础的RV指令模拟环境。
@@ -7984,6 +8082,7 @@
 * [V4L4j](https://code.google.com/archive/p/v4l4j/)：V4L4j是一个Java包，它提供了从Java简单访问Video4Linux(V4L) API捕获接口的功能。
 * [Video4j](https://github.com/metaloom/video4j)：Video4j是org.openpnp:opencv之上的高级库，它提供API在Java中处理视频媒体。
 * [FMJ](http://fmj-sf.net/)：FMJ是一个开源项目，其目标是提供Java媒体框架(JMF)的替代方案，同时保持与JMF的API兼容。
+* [Easy FLV](https://gitee.com/javpower/easy-flv)：Easy FLV是一个Java库，可以将RTSP或RTMP视频流转换为FLV格式，以便在Web浏览器中播放。
 
 #### 多媒体库
 
@@ -8026,6 +8125,7 @@
 * [Airsonic](https://github.com/airsonic/airsonic)：Airsonic是一款免费的基于Web的媒体服务器，可让你随时随地访问音乐。
 * [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer)：Universal Media Server是兼容DLNA的UPnP媒体服务器，它能够在大多数现代设备之间共享视频、音频和图像。
 * [LiveBox](https://github.com/parzulpan/livebox)：LiveBox是一个跨平台的网络媒体聚合应用，支持直播视频、高清电视和广播电台的在线观看或收听。
+* [EasyMedia](https://gitee.com/52jian/EasyMedia)：Spring Boot、Netty实现的HTTP-FLV、WebSocket-FLV流媒体服务。
 * [PS3 Media Server](https://github.com/ps3mediaserver/ps3mediaserver)：PS3 Media Server是一个跨平台的DLNA兼容UPnP媒体服务器。
 * [RestComm Media](https://github.com/RestComm/media-core)：Restcomm媒体服务器，用于实时云通信。
 * [ZLM4J](https://gitee.com/aizuda/zlm4j)：本项目是对ZLMediaKit提供的C API的Java封装，由爱组搭开源。
@@ -9073,6 +9173,7 @@
 * [FastEL](https://github.com/dbcxy/fast-el)：轻量级的高效表达式计算引擎。
 * [QLExpress](https://github.com/alibaba/QLExpress)：QLExpress是一种强大的、轻量级的、动态的Java平台语言，旨在提高开发人员在不同业务场景中的生产力，阿里开源。
 * [MVEL](https://github.com/mvel/mvel)：MVEL是一种混合动态/静态类型、可嵌入的表达式语言和Java平台运行时。
+* [BeanShell](https://github.com/beanshell/beanshell)：Beanshell是一个小型、免费、可嵌入的Java源解释器，具有对象脚本语言功能。
 * [Recognizers Text](https://github.com/microsoft/Recognizers-Text)：Microsoft.Recognizers.Text提供对数字、单位和日期/时间等实体的强大识别和解析。
 * [OGNL](https://github.com/orphan-oss/ognl)：OGNL代表对象图导航语言，它是一种用于获取和设置Java对象属性的表达式语言。
 * [Formula](https://github.com/salesforce/formula-engine)：可重用公式引擎的实现，具有JavaScript和SQL生成以及Salesforce批准的语法。
