@@ -154,7 +154,7 @@
     * [协程库](#协程库)
     * [Async/Await](#AsyncAwait)
     * [线程池](#线程池)
-    * [Actor模型](#Actor模型)
+    * [Actor库](#Actor库)
     * [ThreadLocal](#ThreadLocal)
     * [并发数据结构](#并发数据结构)
     * [竞争检测](#竞争检测)
@@ -2886,7 +2886,7 @@
 
 #### 应用服务器
 
-* [Payara](https://github.com/payara/Payara)：Payara Platform Community Edition提供用于开发项目的开源服务器运行时以及容器化Jakarta EE和MicroProfile应用程序。
+* [Payara](https://github.com/payara/Payara)：Payara Server是一个开源中间件平台，支持在任何环境中可靠、安全地部署Java EE(Jakarta EE)和MicroProfile应用程序。
 * [Apache TomEE](https://github.com/apache/tomee)：TomEE是一个轻量级但功能强大的JavaEE应用服务器，具有功能丰富的工具。
 * [Piranha](https://github.com/piranhacloud/piranha)：Piranha项目提供云就绪容器和有用的附加/集成模块。
 * [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个高度可组合、快速启动的动态应用程序服务器运行时环境，它是IBM WebSphere Liberty的开源实现。
@@ -2898,13 +2898,12 @@
 * [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html)：Adobe ColdFusion是一款久经考验的高性能应用程序服务器，可让程序员轻松进行Web开发。
 * [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
 * [Fujitsu Software Enterprise Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/middleware/applatform/)：Enterprise Application Server是一款云原生应用服务器，采用富士通专有技术增强Java的可靠性和可操作性，可在短时间内发布，并可用于企业用途。
-* [Fujitsu Software Interstage Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/interstage/products/apserver/)：Interstage Application Server是基于核心系统培育的标准技术和高可靠高性能技术，实现高开放性业务应用稳定运行的应用服务器。
 * [InforSuite Application Server](https://www.inforbus.com/as.html)：中创应用服务器软件是国内通过Jakarta EE 9、8及Java EE 8、7、6完整兼容认证的企业级中间件，与国际主流产品最新版本保持规范一致，为应用运行提供高性能、高可用、高安全的支撑平台。
 * [Resin](https://caucho.com/products/resin)：Resin是Caucho开发的Web服务器和Java应用服务器，有两个可用版本：Resin(可免费用于生产)和Resin Pro(需要支付许可费用)。
 * [JBoss Enterprise Application Platform](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)：RedHat JBoss企业应用平台可在任何环境中提供企业级安全性、性能和可扩展性。
 * [Primeton AppServer](https://www.primeton.com/products/pas/)：Primeton AppServer提供了丰富的功能集，具备“立即部署”式Java EE容器的各种优点，由普元开发。
-* [WildFly](https://www.wildfly.org/downloads/)：WildFly是一款功能强大、模块化且轻量级的应用程序服务器。
-* [BES Application Server](https://www.bessystem.com/product/0ad9b8c4d6af462b8d15723a5f25a87d/info?p=101#page-2)：一款遵循Java EE标准的面向Java应用的通用中间件，由宝兰德提供。
+* [WildFly](https://github.com/wildfly/wildfly)：WildFly是一款功能强大、模块化且轻量级的应用程序服务器。
+* [BES Application Server](https://www.bessystem.com/product/0ad9b8c4d6af462b8d15723a5f25a87d/info?p=101#page-2)：BES是一款遵循Java EE标准的面向Java应用的通用中间件，由宝兰德提供。
 * [ManageFish Server](https://managecat.com/products/managed-glassfish)：ManageFish是GlassFish应用服务器版本的商业支持的发行版。
 * [Oracle WebLogic](https://www.oracle.com/middleware/technologies/weblogic-server-downloads.html)：WebLogic是Oracle出品的用于开发、集成、部署和管理大型分布式Web应用、网络应用和数据库应用的Java应用服务器。
 * [RockyAS](https://rockyasfile.obs-cn-shenzhen.pinganyun.com/RockyAS.html)：Rocky是一款标准、安全、高效的Web应用服务器，为企业级应用系统的便捷开发、灵活部署、可靠运行、高效管理及快速集成提供关键支撑能力，由平安云开发。
@@ -3062,7 +3061,6 @@
 * [Commons Networking](https://github.com/CiscoSE/commons-networking)：由Cisco开源的公共网络实用程序库。
 * [DiSNI](https://github.com/zrlio/disni)：DiSNI是一个Java库，用于从用户空间直接存储和网络访问，它提供了一个RDMA接口来访问远程内存，由IBM开源。
 * [Barchart UDT](https://github.com/barchart/barchart-udt)：Barchart UDT是原生C++ UDT协议的Java包装器。
-* [PraxisCORE](https://github.com/praxis-live/praxiscore)：PraxisCORE是一个模块化JVM运行时，用于网络物理编程，支持实时系统的实时编码。
 * [URNLib](https://github.com/slub/urnlib)：用于表示、解析和编码RFC 2141和RFC 8141中指定的URN的Java库，由德累斯顿工业大学开源。
 * [Jcabi URN](https://github.com/jcabi/jcabi-urn)：Jcabi URN是根据RFC 2141的URN的不可变实现。
 * [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
@@ -3102,20 +3100,24 @@
 * [Pkts](https://github.com/aboutsip/pkts)：Pkts是一个用于读取和写入pcap的纯Java库。
 * [Pcap](https://github.com/ardikars/pcap)：Pcap提供了一个数据包处理库，可以在JVM语言之上进行快速开发。
 * [jNetPcap](https://github.com/slytechs-repos/jnetpcap-wrapper)：jNetPcap是一个用Java编写的软件库，提供与流行的libpcap本机库类似的API。
+* [Hadoop PCAP](https://github.com/RIPE-NCC/hadoop-pcap)：Hadoop PCAP用于并行地读取和分析数据包捕获文件，由欧洲IP网络协调中心开源。
 
 #### SSH库
 
-* [ConnectBot](https://github.com/connectbot/connectbot)：适用于Android的安全Shell客户端，可让你通过加密安全链接连接到远程服务器。
-* [Apache MINA SSHD](https://github.com/apache/mina-sshd)：用于客户端和服务器端SSH的综合Java库。
+* [Apache MINA SSHD](https://github.com/apache/mina-sshd)：MINA SSHD是一个100%纯Java库，支持客户端和服务器端的SSH协议。
 * [Trilead SSH](https://github.com/jenkinsci/trilead-ssh2)：Trilead SSH-2是一个用纯Java实现SSH-2协议的库。
 * [Pty4J](https://github.com/JetBrains/pty4j)：Java中的伪终端实现，由JetBrains开源。
 * [JSch](https://github.com/mwiede/jsch)：实现SSH功能的Java库，可用于连接SFTP服务器。
 * [Jcabi SSH](https://github.com/jcabi/jcabi-ssh)：Java SSH客户端。
 * [JSch](https://github.com/is/jsch)：JSch是SSH2的纯Java实现。
-* [Maverick Synergy](https://github.com/sshtools/maverick-synergy)：下一代Java SSH API。
-* [SSHJ](https://github.com/hierynomus/sshj)：以编程方式使用SSH、SCP或SFTP。
+* [Maverick Synergy](https://github.com/sshtools/maverick-synergy)：Maverick Synergy是由JADAPTIVE开发的第三代Java SSH API。
+* [SSHJ](https://github.com/hierynomus/sshj)：Java的SSH、SCP和SFTP库。
 * [WebSSH](https://github.com/NoCortY/WebSSH)：纯Java实现的WebSSH。
 * [SSH Proxy](http://github.com/cronn/ssh-proxy)：SSH端口隧道的纯Java实现，能够理解涉及多跳才能到达目标主机的OpenSSH配置。
+* [SSHoogr](https://github.com/sshoogr/sshoogr)：SSHoogr是一个基于Groovy的DSL库，用于通过SSH连接远程服务器，由Aestas/IT开源。
+* [Vngx JSch](https://github.com/vngx/vngx-jsch)：Vngx JSch是用纯Java编写的流行的JSch库的更新版本。
+* [SSHLib](https://github.com/connectbot/sshlib)：ConnectBot的SSH库，它最初是Trilead SSH2库的延续。
+* [Ganymed SSH-2](https://github.com/hudson/ganymed-ssh-2)：Ganymed SSH-2是一个用纯Java实现SSH-2协议的库。
 
 #### DNS库
 
@@ -3175,6 +3177,7 @@
 
 * [NetXMS](https://github.com/netxms/netxms)：NetXMS是一款开源网络和基础设施监控和管理解决方案，为IT基础设施的所有层提供性能和可用性监控以及灵活的事件处理、警报、报告和图表。
 * [OpenNMS](https://github.com/OpenNMS/opennms)：OpenNMS是一个开源网络监控平台，可帮助你可视化和监控本地和分布式网络上的所有内容。
+* [SIP3](https://github.com/sip3io/sip3-ansible)：SIP3是一种端到端解决方案，用于实时监控、分析和排除大量流量下的网络性能故障。
 * [Hyperic HQ](https://github.com/hyperic/hq)：Hyperic HQ是一个基于Java的软件资源监测和管理平台。
 * [jNetMap](https://rakudave.ch/jnetmap/)：jNetMap是一个图形网络监控和文档工具，它会每x分钟ping所有注册的设备，并根据ping的结果更新状态。
 
@@ -3250,6 +3253,7 @@
 * [SocksLib](https://github.com/fengyouchao/sockslib)：SocksLib是一个针对SOCKS5协议的Java库。
 * [Java SOCKS Proxy Server](https://github.com/bbottema/java-socks-proxy-server)：Java SOCKS Proxy Server是Java的SOCKS 4/5服务器。
 * [FlyingSocks](https://github.com/abc123lzf/flyingsocks)：该项目是基于Java Netty开发的Socks5代理客户端/服务器。
+* [JenTunnel](https://github.com/ggrandes/jentunnel)：JenTunnel是一个用Java编写、非常轻量级的SOCKS和HTTP代理服务器。
 
 #### Radius
 
@@ -3712,9 +3716,11 @@
 * [ThreadPool4j](https://github.com/aofeng/threadpool4j)：ThreadPool4j是一个实现多线程池的类。
 * [Executor Service](https://github.com/vmlens/executor-service)：支持多个写入和单个读取线程的ExecutorService。
 
-#### Actor模型
+#### Actor库
 
 * [Akka](https://github.com/akka/akka)：Akka是一个免费开源的软件工具包，使用Akka可以很容易的在JVM上构建高并发和分布式的应用程序，由Lightbend开源。
+* [Orbit](https://github.com/orbit/orbit)：Orbit是一个在JVM上使用虚拟Actor编写分布式系统的框架，由艺电开源。
+* [Apache Pekko](https://github.com/apache/incubator-pekko)：Pekko是一个开源框架，用于构建并发、分布式、弹性的应用程序。
 * [RACE](https://github.com/NASARace/race)：RACE是一种软件架构和框架，用于构建可配置、高度并发和分布式基于消息的系统，由NASA开源。
 * [Fibry](https://github.com/lucav76/Fibry)：Fibry是一个实验性的Actor系统，其构建简单且灵活，也是第一个使用Project Loom中的虚拟线程的Java Actor系统。
 * [XOOM Actor](https://github.com/vlingo/xoom-actors)：用于类型安全Actor模型的VLINGO XOOM平台SDK，使用Java和其他JVM语言提供响应式并发、高可扩展性、高吞吐量和弹性。
@@ -3724,11 +3730,8 @@
 * [Pronghorn](https://github.com/oci-pronghorn/Pronghorn)：Pronghorn是一种基于Actor的框架的实用方法，它是一个用Java编写的分阶段事件驱动的单机嵌入式微框架，旨在无垃圾且内存占用小。
 * [Kontraktor](https://github.com/RuedigerMoeller/kontraktor)：由分布式Actor模型提供支持的异步远程通信的无样板且一致的抽象。
 * [Actr](https://github.com/zakgof/actr)：简单、快速且类型安全的Java Actor模型实现。
-* [Ptolemy II](https://github.com/icyphy/ptII)：由一组支持异构并发建模和设计的Java包组成。
-* [ReActed](https://github.com/reacted-io/reacted)：Ptolemy II是基于Actor的响应式Java框架，用于本地和分布式环境中的微服务，由加州大学伯克利分校开源。
-* [Orbit](https://github.com/orbit/orbit)：用于构建分布式系统的虚拟Actor框架，由艺电开源。
-* [Apache Pekko](https://github.com/apache/incubator-pekko)：Pekko是一个开源框架，用于构建并发、分布式、弹性的应用程序。
-* [PraxisCore](https://github.com/praxis-live/praxiscore)：PraxisCore是用于网络物理编程的模块化JVM运行时，支持实时系统的实时编码。
+* [Ptolemy II](https://github.com/icyphy/ptII)：Ptolemy II是基于Actor的响应式Java框架，用于本地和分布式环境中的微服务，由加州大学伯克利分校开源。
+* [ReActed](https://github.com/reacted-io/reacted)：ReActed是一个面向Actor的框架，用于创建响应式应用程序。
 * [Elastic Actors](https://github.com/elasticsoftwarefoundation/elasticactors)：ElasticActors是一个Actor框架，它实现Actor模型并提供一些附加服务，例如持久性和可扩展性。
 
 #### ThreadLocal
