@@ -5245,6 +5245,25 @@
 * [AS2 Lib](https://github.com/phax/as2-lib)：通用Java AS2库、Servlet和服务器。
 * [Holodeck B2B](https://github.com/holodeck-b2b/Holodeck-B2B)：Holodeck B2B是一款AS4系统间消息传递解决方案，它实现了ebMS3及其AS4配置文件的OASIS规范。
 
+## JavaCard
+
+* [Sun/Oracle JavaCard SDK](https://github.com/martinpaljak/oracle_javacard_sdks)：Java Card开发工具包是一套工具，用于设计Java Card技术的实现并根据Java Card API规范开发小应用程序。
+* [GPPro](https://github.com/martinpaljak/GlobalPlatformPro)：GPPro允许在兼容的JavaCard智能卡上加载和管理小程序。
+* [Ant JavaCard](https://github.com/martinpaljak/ant-javacard)：Ant JavaCard是一个易于使用的Ant任务，用于构建JavaCard Classic小程序(2.1.1至3.1.0)。
+* [JCardSim](https://github.com/licel/jcardsim)：JCardSim是Java Card的开源模拟器。
+* [Gradle JavaCard](https://github.com/fidesmo/gradle-javacard)：该插件允许将编译的class文件转换为转换后的存档格式，这些文件可用于安装在支持SUN/Oracle JavaCard技术的智能卡和SIM卡上。
+* [Keycard](https://github.com/status-im/status-keycard)：Keycard是在JavaCard 3.0.4+上运行的BIP-32 HD钱包的实现。
+* [SmartPGP](https://github.com/github-af/SmartPGP)：SmartPGP是JavaCard中OpenPGP卡3.4规范的免费开源实现。
+* [Java Card OpenPGP Card](https://github.com/jderuiter/javacard-openpgpcard)：这是OpenPGP智能卡规范的Java Card实现。
+* [IsoApplet](https://github.com/philipWendland/IsoApplet)：IsoApplet是Java Card智能卡的开源小程序，其目的是与OpenSC一起在现代智能卡上执行公钥加密。
+* [JCAlgTest](https://github.com/crocs-muni/JCAlgTest)：基于JavaCard平台的某类智能卡所支持的密码算法的自动化测试工具，由马萨里克大学开源。
+* [PivApplet](https://github.com/arekinath/PivApplet)：适用于JavaCard 2.2.2和3.0.4+的PIV小程序，具有完整的ECDSA/ECDH支持。
+* [JCMathLib](https://github.com/OpenCryptoProject/JCMathLib)：JCMathLib是JavaCard平台的开源库，旨在实现标准JavaCard API中不可用的低级加密计算。
+* [OpenJavaCard Tools](https://github.com/OpenJavaCard/openjavacard-tools)：该项目是一个用于JavaCard开发和配置的工具包。
+* [EMV Card Simulator](https://github.com/mrautio/emv-card-simulator)：用于支付终端功能和安全测试/模糊测试的EMV卡的JavaCard实现。
+* [OpenJavaCard Libraries](https://github.com/OpenJavaCard/openjavacard-libraries)：这是一组用于JavaCard环境的可重用库。
+* [OpenJavaCard NDEF](https://github.com/OpenJavaCard/openjavacard-ndef)：JavaCard的NDEF标签实现。
+
 ## 物联网
 
 这里包含物联网领域相关软件，MQTT、Modbus等。
@@ -5485,6 +5504,7 @@
 * [Eclipse Xtend](https://github.com/eclipse/xtext-xtend)：Xtext是一个用于开发编程语言和DSL的框架。
 * [MontiCore](https://github.com/MontiCore/monticore)：MontiCore是一个用于高效开发DSL的语言工作台，它处理定义DSL的扩展语法格式并生成用于处理DSL文档的Java组件，由亚琛工业大学开发。
 * [Spoofax](https://github.com/metaborg/spoofax)：Spoofax是一个帮助开发者快速开发领域特定语言(DSL)的平台。
+* [Dsl.scala](https://github.com/ThoughtWorksInc/Dsl.scala)：Dsl.scala是一个在Scala中创建嵌入式DSL的框架，由ThoughtWorks开源。
 
 ## JMX
 
@@ -7114,6 +7134,13 @@
 * [UMLet](https://github.com/umlet/umlet)：UMLet是一个开源UML工具，具有简单的用户界面。
 * [TinyUML](https://sourceforge.net/projects/tinyuml/)：TinyUML是一款免费软件工具，可轻松快速地创建UML 2图。
 
+#### 数控
+
+* [Universal G-Code Sender](https://github.com/winder/Universal-G-Code-Sender)：Universal G-Code Sender是一个基于Java的跨平台G-Code发送器，兼容GRBL、TinyG、g2core和Smoothieware。
+* [CNC-GCode-Controller](https://github.com/im-pro-at/cncgcodecontroller)：CNC GCode Controller是一个用于控制和与CNC机床通信的软件应用程序。
+* [GCode Sender](https://github.com/SourceRabbit/gcode-sender)：SourceRabbit GCode Sender是一款兼容GRBL的跨平台G-Code发送器。
+* [TgFX](https://github.com/synthetos/tgFX)：TgFX用于使用TinyG CNC控制器的跨平台GUI。
+
 #### CAD
 
 * [iBioSim](https://github.com/MyersResearchGroup/iBioSim)：iBioSim是一款计算机辅助设计(CAD)工具，旨在对基因回路进行建模、分析和设计，由科罗拉多大学博尔德分校开发。
@@ -8168,6 +8195,7 @@
 * [Quadtree](https://github.com/varunpant/Quadtree)：这是四叉树的Java实现，四叉树是一种用于存储二维位置数据的树形数据结构。
 * [GenericTree](https://github.com/vivin/GenericTree)：Java中的通用(N元)树实现。
 * [Autocomplete](https://github.com/vivekn/autocomplete)：在多种语言中实现高效的自动单词补全的Tries。
+* [JSI](https://github.com/aled/jsi)：JSI项目旨在维护高性能Java版本的RTree空间索引算法。
 
 #### 堆
 
@@ -8275,10 +8303,8 @@
 ## 算法库
 
 * [WikiSort](https://github.com/BonzaiThePenguin/WikiSort)：WikiSort是块合并排序的一种实现。
-* [Trilateration](https://github.com/lemmingapex/trilateration)：使用非线性最小二乘优化器解决N维空间三边测量问题的公式。
 * [Hashids.java](https://github.com/yomorun/hashids-java)：Hashids算法Java实现。
 * [AhoCorasickDoubleArrayTrie](https://github.com/hankcs/AhoCorasickDoubleArrayTrie)：基于双数组Trie结构的Aho Corasick算法的极快实现。
-* [JSI](https://github.com/aled/jsi)：JSI项目旨在维护高性能Java版本的RTree空间索引算法。
 * [MinHash](https://github.com/codelibs/minhash)：该库提供了用于b位MinHash算法的工具。
 * [Evo Inflector](https://github.com/atteo/evo-inflector)：Evo Inflector实现了英语复数化算法。
 * [ConsistentHash](https://github.com/Jaskey/ConsistentHash)：Java中的通用一致性哈希实现，支持虚拟节点和用户定义的哈希函数。
@@ -8641,6 +8667,7 @@
 * [JavAPRSlib](https://github.com/ab0oo/javAPRSlib)：JavAPRSlib是一个用于解析和创建APRS数据包的Java库。
 * [Mapbox Java SDK](https://github.com/mapbox/mapbox-java)：Mapbox Java SDK包含路线、地理编码以及更多可在Android或Java应用程序中使用的API。
 * [GB2260.java](https://github.com/cn/GB2260.java)：查找中国行政区划的Java实现。
+* [Trilateration](https://github.com/lemmingapex/trilateration)：使用非线性最小二乘优化器解决N维空间三边测量问题的公式。
 
 #### 坐标库
 
@@ -8929,16 +8956,10 @@
 * [Apache Olingo](https://github.com/apache/olingo-odata4)：Apache Olingo是一个围绕OData规范的Java库及扩展。
 * [OData Java](https://github.com/SAP-archive/cloud-odata-java)：OData Java是一个使开发人员能够实现OData生产者和OData消费者的库，由SAP开源。
 
-## 数控
-
-* [Universal G-Code Sender](https://github.com/winder/Universal-G-Code-Sender)：Universal G-Code Sender是一个基于Java的跨平台G-Code发送器，与GRBL、TinyG、g2core和Smoothieware兼容。
-* [CNC-GCode-Controller](https://github.com/im-pro-at/cncgcodecontroller)：在CNC机器上使用rerap控制器。
-* [GCode Sender](https://github.com/SourceRabbit/gcode-sender)：跨平台3轴数控机床控制软件。
-
 ## 海关
 
 * [GTAS](https://github.com/US-CBP/GTAS)：GTAS是用于提高边境安全的网络应用程序，它使政府机构能够在高风险航空旅客计划旅行之前自动识别他们，由美国海关和边境保护局开源。
-* [China E-Port Data Signature](https://github.com/Weasley-J/chinaport-data-signature)：该项目为中国电子口岸海关总署XML报文和海关179数据上报加签服务，提供一站式的免费解决方案，开箱即用。
+* [China E-Port Data Signature](https://github.com/julxxy/chinaport-data-signature)：该项目为中国电子口岸海关总署XML报文和海关179数据上报加签服务，提供一站式的免费解决方案，开箱即用。
 
 ## 蓝牙
 
@@ -9058,17 +9079,14 @@
 * [Humanize](https://github.com/mfornos/humanize)：Humanize是一种Java工具，用于为数据添加国际化。
 * [Tradukisto](https://github.com/allegro/tradukisto)：Tradukisto是一个强大的Java库，旨在将数字转换为相应的单词表示形式，由Allegro开源。
 * [Kilt](https://github.com/hupfdule/kilt)：Kilt是一组小工具，用于简化Java i18n资源包的处理。
-* [ICU4j](https://github.com/unicode-org/icu)：为软件应用提供Unicode和国际化支持，由IBM开源。
+* [ICU4j](https://github.com/unicode-org/icu)：ICU4j为软件应用提供Unicode和国际化支持，由IBM开源。
 * [Gettext](https://github.com/jgettext/gettext-commons)：Gettext Commons项目为国际化(i18n)通过GNU gettext和Java实现资源包。
 * [Cosmopolitan](https://github.com/rodionmoiseev/c10n)：一个Java库，专注于使国际化更加模块化、更易于发展和维护、易于更改且IDE友好，无需过多的外部工具。
 * [Easy I18N](https://github.com/awkay/easy-i18n)：这是一个Java库，旨在使创建国际化程序变得更加容易。
 * [Resource4j](https://github.com/resource4j/resource4j)：Resource4j库是Java ResourceBundle机制的替代品，支持大型和遗留应用程序的复杂i18n场景，并提供对键/值应用程序配置和任意资源文件的安全访问。
 * [Loc4J](https://loc4j.sourceforge.net/)：Loc4J是一个Java库，可帮助本地化应用程序。
-* [I18n](https://github.com/vidageek/i18n)：在Java Web应用程序上使用i18n的简单方法。
-* [Lokalized](https://github.com/lokalized/lokalized-java)：Lokalized有助于在JVM上进行听起来自然的软件翻译。
 * [OmegaT](https://github.com/omegat-org/omegat)：OmegaT是一款免费开源多平台计算机辅助翻译工具，具有模糊匹配、翻译记忆库、关键字搜索、术语表以及翻译到更新项目中的功能。
 * [Singleton](https://github.com/vmware/singleton)：Singleton是一个用于简化软件全球化的开源应用程序，由VMWare开源。
-* [Kilt](https://github.com/poiu-de/kilt)：Kilt是一组小工具，用于简化Java i18n资源包的处理。
 
 ## 银行账号操作
 
@@ -9084,11 +9102,13 @@
 * [Translator](https://github.com/therealbush/translator)：适用于Kotlin/JVM和Java的简单且免费的Google翻译库。
 * [DeepL Java](https://github.com/DeepLcom/deepl-java)：DeepL API是一种语言翻译API，它允许其他计算机程序将文本和文档发送到DeepL的服务器并接收高质量的翻译。
 * [Google API Translate Java](https://github.com/richmidwinter/google-api-translate-java)：提供一个简单、非官方的Java客户端API来使用Google翻译。
+* [Lokalized](https://github.com/lokalized/lokalized-java)：Lokalized有助于在JVM上进行听起来自然的软件翻译。
 
 ## 字幕库
 
 * [Subtitle](https://github.com/noophq/subtitle)：将字幕从一种格式转换为另一种格式，支持格式STL EBU、TTML SMI、VTT、SRT。
 * [SubtitleConverter](https://github.com/JDaren/subtitleConverter)：这是一个处理字幕格式并转换成其他格式的Java框架。
+* [SRTParser](https://github.com/gusthavosouza/SRTParser)：SRTParser是处理SRT文件、图例文件所需的库。
 
 ## 字典库
 
@@ -9286,6 +9306,7 @@
 * [SealKit](https://gitee.com/liuzy1988/SealKit)：印章生成工具。
 * [SealUtil](https://github.com/localhost02/SealUtil)：印章生成工具，使用Java Graphics2D生成各类圆形/椭圆公章、私章图片。
 * [开放签](https://gitee.com/kaifangqian/kaifangqian-base)：开放签提供企业印章制作、证书签发、文件签署API接口服务。
+* [iText GM](https://gitee.com/capki/iText-GM)：iText5国密PDF电子签章，基于《GB/T 38540-2020安全电子签章规范》开发。
 
 ## 代码生成器
 
@@ -9404,8 +9425,8 @@
 * [Rewrite](https://github.com/ocpsoft/rewrite)：适用于Java EE 6+和Servlet 2.5+应用程序的高度可配置的URL重写工具。
 * [Galimatias](https://github.com/smola/galimatias)：Galimatias是一个用Java编写的URL解析和规范化库。
 * [JURL](https://github.com/anthonynsimon/jurl)：快速简单的Java URL解析库，支持UTF-8和路径解析。
-* [Handy URI Templates](https://github.com/damnhandy/Handy-URI-Templates)：实现RFC6570的Java URI模板处理器。
-* [UrlRewriteFilter](https://github.com/paultuckey/urlrewritefilter)：具有类似于Apache的mod_rewrite功能的Java Web过滤器。
+* [Handy URI Templates](https://github.com/damnhandy/Handy-URI-Templates)：Handy URI Templates是一个用Java编写的实现RFC6570的uritemplate处理器。
+* [UrlRewriteFilter](https://github.com/paultuckey/urlrewritefilter)：UrlRewriteFilter是一个Java Web过滤器，基于Apache中广受欢迎且实用的mod_rewrite库。
 * [URLCanon](https://github.com/iipc/urlcanon)：适用于Python和Java的URL规范化库，由国际互联网保护联盟开源。
 * [UrlEncoder](https://github.com/ethauvin/urlencoder)：UrlEncoder是一个简单的防御库，用于对URL组件进行编码/解码。
 
@@ -9417,25 +9438,6 @@
 * [Enchanter](https://bitbucket.org/mrdon/enchanter)：Enchanter是一个小型库，可以帮助你以类似于Expect的方式编写SSH会话脚本。
 * [Expect Java](https://github.com/ronniedong/Expect-for-Java)：Expect工具的纯Java实现。
 * [Expect4Java](https://github.com/iTransformers/expect4java)：Java的Expect语言实现，使用Java 8闭包。
-
-## JavaCard
-
-* [Sun/Oracle JavaCard SDK](https://github.com/martinpaljak/oracle_javacard_sdks)：Java Card开发工具包是一套工具，用于设计Java Card技术的实现并根据Java Card API规范开发小应用程序。
-* [GPPro](https://github.com/martinpaljak/GlobalPlatformPro)：GPPro允许在兼容的JavaCard智能卡上加载和管理小程序。
-* [Ant JavaCard](https://github.com/martinpaljak/ant-javacard)：Ant JavaCard是一个易于使用的Ant任务，用于构建JavaCard Classic小程序(2.1.1至3.1.0)。
-* [JCardSim](https://github.com/licel/jcardsim)：JCardSim是Java Card的开源模拟器。
-* [Gradle JavaCard](https://github.com/fidesmo/gradle-javacard)：该插件允许将编译的class文件转换为转换后的存档格式，这些文件可用于安装在支持SUN/Oracle JavaCard技术的智能卡和SIM卡上。
-* [Keycard](https://github.com/status-im/status-keycard)：Keycard是在JavaCard 3.0.4+上运行的BIP-32 HD钱包的实现。
-* [SmartPGP](https://github.com/github-af/SmartPGP)：SmartPGP是JavaCard中OpenPGP卡3.4规范的免费开源实现。
-* [Java Card OpenPGP Card](https://github.com/jderuiter/javacard-openpgpcard)：这是OpenPGP智能卡规范的Java Card实现。
-* [IsoApplet](https://github.com/philipWendland/IsoApplet)：IsoApplet是Java Card智能卡的开源小程序，其目的是与OpenSC一起在现代智能卡上执行公钥加密。
-* [JCAlgTest](https://github.com/crocs-muni/JCAlgTest)：基于JavaCard平台的某类智能卡所支持的密码算法的自动化测试工具，由马萨里克大学开源。
-* [PivApplet](https://github.com/arekinath/PivApplet)：适用于JavaCard 2.2.2和3.0.4+的PIV小程序，具有完整的ECDSA/ECDH支持。
-* [JCMathLib](https://github.com/OpenCryptoProject/JCMathLib)：JCMathLib是JavaCard平台的开源库，旨在实现标准JavaCard API中不可用的低级加密计算。
-* [OpenJavaCard Tools](https://github.com/OpenJavaCard/openjavacard-tools)：该项目是一个用于JavaCard开发和配置的工具包。
-* [EMV Card Simulator](https://github.com/mrautio/emv-card-simulator)：用于支付终端功能和安全测试/模糊测试的EMV卡的JavaCard实现。
-* [OpenJavaCard Libraries](https://github.com/OpenJavaCard/openjavacard-libraries)：这是一组用于JavaCard环境的可重用库。
-* [OpenJavaCard NDEF](https://github.com/OpenJavaCard/openjavacard-ndef)：JavaCard的NDEF标签实现。
 
 ## Wikipedia
 
@@ -9989,6 +9991,7 @@
 * [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions)：Spring Data JPA MongoDB Expressions是一个允许你使用MongoDB查询语言查询Spring Data JPA Repository的库。
 * [Spring Data JPA Extra](https://github.com/slyak/spring-data-jpa-extra)：Spring Data JPA带模板动态查询功能(例如FreeMarker、Velocity等)，类似MyBatis。
 * [Spring Data Generator](https://github.com/cmeza20/spring-data-generator)：用于JPA Repository和管理器的Spring Data Generator。
+* [Kotlin JPA Specification DSL](https://github.com/consoleau/kotlin-jpa-specification-dsl)：该库提供了一个流式的DSL，用于使用Spring Data规范(即JPA Criteria API)查询Spring Data JPA Repository，而无需样板代码或生成的元模型。
 
 ## 其他
 

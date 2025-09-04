@@ -527,6 +527,7 @@
     * [FinTS](docs/doc2.md#FinTS)
     * [智能卡](docs/doc2.md#智能卡)
     * [电子发票](docs/doc2.md#电子发票)
+* [JavaCard](docs/doc2.md#JavaCard)
 * [物联网](docs/doc2.md#物联网)
     * [物联网框架](docs/doc2.md#物联网框架)
     * [物联网平台](docs/doc2.md#物联网平台)
@@ -624,6 +625,7 @@
     * [数学软件](docs/doc2.md#数学软件)
     * [UML工具](docs/doc2.md#UML工具)
     * [数电](docs/doc2.md#数电)
+    * [数控](docs/doc2.md#数控)
     * [CAD](docs/doc2.md#CAD)
     * [办公软件](docs/doc2.md#办公软件)
     * [思维导图](docs/doc2.md#思维导图)
@@ -770,7 +772,6 @@
 * [OSGI](docs/doc2.md#OSGI)
 * [RAML](docs/doc2.md#RAML)
 * [OData](docs/doc2.md#OData)
-* [数控](docs/doc2.md#数控)
 * [海关](docs/doc2.md#海关)
 * [蓝牙](docs/doc2.md#蓝牙)
 * [校验](docs/doc2.md#校验)
@@ -818,7 +819,6 @@
 * [行为分析](docs/doc2.md#行为分析)
 * [URL库](docs/doc2.md#URL库)
 * [Expect库](docs/doc2.md#Expect库)
-* [JavaCard](docs/doc2.md#JavaCard)
 * [Wikipedia](docs/doc2.md#Wikipedia)
 * [用户代理解析](docs/doc2.md#用户代理解析)
 * [数字信号处理](docs/doc2.md#数字信号处理)
@@ -961,7 +961,8 @@
 * [Core NG](https://github.com/neowu/core-ng-project)：Core NG是专为长期可维护性和代码质量控制而设计和优化的Web框架。
 * [AppFuse](https://github.com/appfuse/appfuse)：AppFuse是一个用于在JVM上构建Web应用程序的全栈框架。
 * [Webery](https://github.com/wizzardo/webery)：基于Epoll的Java HTTP服务器。
-* [HServer](https://gitee.com/HServer/HServer)：HServer是一个基于Netty开发的一个功能强大、资源丰富、开发灵活、轻量级、低入侵、高并发的新型Web开发框架。
+* [HServer](https://gitee.com/HServer/HServer)：HServer是基于Netty开发的一个功能强大、资源丰富、开发灵活、轻量级、低入侵、高并发的新型Web开发框架。
+* [YangMVC](https://gitee.com/yangtf/YangMVC)：YangMVC是一个现代化的Java Web框架，采用约定优于配置的设计理念，让Web开发变得简单高效。
 * [YMP](https://gitee.com/suninformation/ymate-platform-v2)：YMP是一个非常简单、易用的轻量级Java应用开发框架，涵盖AOP、IoC、Web、ORM、Validation、Plugin、Serv、Cache等特性。
 * [Sumk](https://github.com/youtongluan/sumk)：Sumk的定位是为互联网公司提供一个快速开发、接口交互(RPC和HTTP)、数据缓存、读写分离、负载均衡、故障转移的框架。
 * [TinyStruct](https://github.com/tinystruct/tinystruct)：TinyStruct是一个轻量级Java应用框架，设计用于构建从命令行工具到Web应用的各种应用程序。
@@ -1152,15 +1153,15 @@
 * [Apache Causeway](https://github.com/apache/causeway)：Causeway是一个用Java快速开发领域驱动应用程序的框架。
 * [Library](https://github.com/ddd-by-examples/library)：全面的领域驱动设计示例，包含问题空间战略分析和各种战术模式。
 * [DDDplus](https://github.com/funkygao/cp-ddd-framework)：DDDplus是一个轻量级的DDD正向/逆向业务建模增强框架，支持复杂的系统架构演进。
-* [ContextMapper](https://github.com/ContextMapper/context-mapper-dsl)：ContextMapper是一个开源工具，提供基于领域驱动设计(DDD)模式的领域特定语言，用于上下文映射和服务分解。
+* [ContextMapper](https://github.com/ContextMapper/context-mapper-dsl)：ContextMapper是一个开源工具，提供基于DDD模式的领域特定语言，用于上下文映射和服务分解。
 * [Aggregate Persistence](https://gitee.com/thoughtworks/aggregate-persistence)：Aggregate Persistence旨在提供一种轻量级聚合持久化方案，帮助开发者真正从业务出发设计领域模型，由ThoughtWorks开源。
 * [DDDLib](https://github.com/dayatang/dddlib)：DDDLib是一个领域驱动设计类库。
 * [EzDDD](https://gitlab.com/TeddyChen/ezddd)：EzDDD是一个Java库，用于实现DDD、CQRS和清洁架构(CA)等战术设计模式。
 * [DDD Base](https://github.com/linux-china/ddd-base)：Java领域驱动设计基础包。
 * [Aggregate Framework](https://github.com/changmingxie/aggregate-framework)：Aggregate Framework是一款基于DDD和CQRS思想开发的领域驱动框架。
-* [Cheddar](https://github.com/travel-cloud/Cheddar)：Cheddar是一个Java框架，适用于AWS上的企业应用程序，使用域驱动设计(DDD)。
+* [Cheddar](https://github.com/travel-cloud/Cheddar)：Cheddar是一个Java框架，适用于AWS上的企业应用程序，使用DDD。
 * [ZenWave SDK](https://github.com/ZenWave360/zenwave-sdk)：ZenWave SDK是一个用于DDD和API优先的可配置且可扩展的工具包，可以从不同模型的组合生成代码。
-* [Nest](https://github.com/jovezhao/nest)：Nest是一个帮助开发人员快速实现基于领域驱动设计的技术框架。
+* [Nest](https://github.com/jovezhao/nest)：Nest是一个帮助开发人员快速实现基于DDD的技术框架。
 
 #### 应用框架
 
@@ -2978,17 +2979,15 @@
 * [Bytedesk](https://github.com/Bytedesk/bytedesk)：企业即时通讯解决方案，具有人工智能实时聊天、电子邮件支持、全渠道客户服务和团队即时通讯功能。
 * [Openfire](https://github.com/igniterealtime/Openfire)：Openfire是一个即时通信和群聊服务器，它是使用Java编写的XMPP服务器。
 * [CIM](https://gitee.com/farsunset/cim)：CIM是一套完善的消息推送框架，可应用于信令推送，即时聊天，移动设备指令推送等领域。
-* [MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK)：MobileIMSDK是一个原创多端IM通信层框架，轻量级、高度提炼，支持UDP + TCP + WebSocket三种协议。
+* [MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK)：MobileIMSDK是一个原创多端IM通信层框架，轻量级、高度提炼，支持UDP、TCP、WebSocket三种协议。
 * [OIM](https://gitee.com/oimchat/oim-fx)：OIM是一套即时通讯的聊天系统，可以用于公司内网、外网通讯、客服系统等。
-* [CometD](https://github.com/cometd/cometd)：用于网络消息传递的可扩展Comet(服务器推送)实现。
-* [云信IM](https://github.com/netease-kit/nim-uikit-android)：云信IM UIKit基于网易云信IM SDK开发的一款即时通讯UI组件库，包括聊天、会话、圈组、搜索、群管理等组件。
+* [CometD](https://github.com/cometd/cometd)：CometD是用于网络消息传递的可扩展Comet(服务器推送)实现。
 * [QIQIIM](https://gitee.com/qiqiim/qiqiim-server)：QIQIIM提供简单快捷的IM方案，可用于公司内网、外网通讯，客服系统等。
 * [Spark](https://github.com/igniterealtime/Spark)：Spark是一款针对企业和组织进行优化的开源跨平台IM客户端。
 * [Gifsockets](https://github.com/videlalvaro/gifsockets)：使用Gif动画作为传输的实时通信库。
 * [RongCloud Server SDK](https://github.com/rongcloud/server-sdk-java)：Java版融云即时通讯服务器SDK。
 * [SONA](https://github.com/BixinTech/sona)：SONA是一个由比心语音技术团队开发，用于快速搭建语音房产品的全端解决方案，支撑了比心聊天室、直播、游戏房等业务。
 * [Tencent Cloud IM Server SDK](https://github.com/doocs/qcloud-im-server-sdk-java)：腾讯云IM服务端SDK Java版。
-* [Conversations](https://codeberg.org/iNPUTmice/Conversations)：Conversations是适用于Android的开源XMPP/Jabber客户端。
 * [Xiaper](https://github.com/xiaper/xiaper)：Xiaper是一款开源企业IM解决方案。
 * [盒子IM](https://gitee.com/bluexsx/box-im)：盒子IM是一个仿微信实现的网页版聊天软件，不依赖任何第三方收费组件。
 * [HuLa Server](https://github.com/HuLaSpark/HuLa-Server)：HuLa Server是一款基于Spring Boot 3、Netty、MyBatis Plus和RocketMQ构建的即时通讯系统服务端。
