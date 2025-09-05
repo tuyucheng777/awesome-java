@@ -1256,6 +1256,12 @@
 * [JB4JSON-LD](https://github.com/kbss-cvut/jb4jsonld)：JB4JSON-LD是一个简单的库，用于将Java对象序列化为JSON-LD，由布拉格捷克技术大学开源。
 * [Hydra Java](https://github.com/dschulten/hydra-java)：标注你的Java Bean并使用Hydra将它们序列化为JSON LD。
 
+#### JSON-RPC
+
+* [JSON-RPC](https://github.com/briandilley/jsonrpc4j)：该项目旨在为Java编程语言提供轻松实现JSON-RPC的工具。
+* [Simple JSON-RPC](https://github.com/arteam/simple-json-rpc)：用于将JSON-RPC 2.0协议简单集成到Java应用程序的库。
+* [Triaina](https://github.com/mixi-inc/triaina)：Triaina在Web客户端和本机客户端之间提供基于JSON-RPC的通信协议。
+
 #### JSON比较
 
 * [JsonUnit](https://github.com/lukas-krecan/JsonUnit)：JsonUnit是一个简化测试中JSON比较的库。
@@ -3475,6 +3481,7 @@
 * [UEH](https://github.com/china-alert/ueh)：UEH可对各种监控工具产生的告警进行汇聚，统一处理、集中展示，并通知。
 * [Nginx WebUI](https://gitee.com/cym1102/nginxWebUI)：Nginx WebUI是一款图形化管理Nginx配置的工具。
 * [Nginx Admin](https://github.com/jonatansalemes/nginx-admin)：Nginx Admin是一个开源的多平台Nginx软件管理器。
+* [Camel](https://github.com/dianping/camel)：Camel是大众点评开发的软负载一体解决方案，承担了F5硬负载层后的软负载工作。
 * [OpenTOSCA Container](https://github.com/OpenTOSCA/container)：OpenTOSCA Container是基于Java/Maven的运行时，用于部署和管理基于TOSCA的应用程序，由斯图加特大学开源。
 
 ## 性能分析&调优
@@ -9551,6 +9558,8 @@
 * [Closure Templates](https://github.com/google/closure-templates)：客户端和服务器端模板系统，可帮助你动态构建可重用的HTML和UI元素，由Google开源。
 * [Chart.java](https://github.com/mdewilde/chart)：Chart.java可以在Java应用程序中与优秀的Chart.js库集成。
 * [Displaytag](https://github.com/hazendaz/displaytag)：Displaytag库是一个开源的自定义标签套件，提供可在MVC模型中工作的高级Web表示模式。
+* [AngularFaces](https://github.com/stephanrauh/AngularFaces)：AngularFaces是一个JSF组件库，旨在通过允许你用简单的AngularJS代码替换大量巧妙的AJAX代码来简化JSF开发。
+* [Adminfaces](https://github.com/adminfaces/admin-template)：Admin Template是一个基于Bootstrap和Admin LTE的完全响应式Java Server Faces管理模板。
 * [Orbeon Forms](https://github.com/orbeon/orbeon-forms)：Orbeon Forms是一个开源Web表单解决方案。
 * [HAR Reader](https://github.com/sdstoehr/har-reader)：用于使用Java访问HTTP存档(HAR)的库。
 * [Stapler](https://github.com/jenkinsci/stapler)：Stapler是一个将应用程序对象装订到URL的库，使编写Web应用程序变得更加容易，由Jenkins组织开源。

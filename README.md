@@ -268,6 +268,7 @@
     * [JsonPath](docs/doc2.md#JsonPath)
     * [JSON Patch](docs/doc2.md#JSON-Patch)
     * [JSON-LD](docs/doc2.md#JSON-LD)
+    * [JSON-RPC](docs/doc2.md#JSON-RPC)
     * [JSON比较](docs/doc2.md#JSON比较)
 * [配置管理](docs/doc2.md#配置管理)
     * [配置库](docs/doc2.md#配置库)
@@ -884,7 +885,6 @@
 * [CabinJ](https://github.com/CabinJV/CabinJv)：CabinJ是一个使用Java NIO构建的高性能、轻量级HTTP服务器框架，可实现高效的非阻塞I/O操作。
 * [JSweet](https://github.com/cincheo/jsweet)：JSweet利用TypeScript通过JavaScript库和框架用Java编写丰富且响应迅速的Web应用程序。
 * [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
-* [Avaje Jex](https://github.com/avaje/avaje-jex)：Avaje Jex是一个轻量级的JDK内置HTTP Server API包装器，并进行了一些关键的增强。
 * [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA的SDK，由Adobe维护。
 * [Eclipse Krazo](https://github.com/eclipse-ee4j/krazo)：Eclipse Krazo是Jakarta MVC 2.0指定的基于操作的MVC实现。
 * [Pippo](https://github.com/pippo-java/pippo)：Pippo是一个Java开源微型Web框架，具有最小的依赖性和快速的学习曲线。
@@ -976,31 +976,32 @@
 * [gRPC](https://github.com/grpc/grpc-java)：Google RPC的Java实现，基于HTTP/2的RPC。
 * [Finagle](https://github.com/twitter/finagle)：Finagle是JVM的一个可扩展的RPC系统，用于构建高并发服务器，由Twitter开源。
 * [Motan](https://github.com/weibocom/motan)：Motan是一个跨语言RPC框架，用于快速开发高性能分布式服务，由微博开源。
-* [Smithy](https://github.com/smithy-lang/smithy)：Smithy包含一种与协议无关的接口定义语言(IDL)，用于生成客户端、服务器、文档和其他工件，由AWS开源。
-* [SOFARPC](https://github.com/sofastack/sofa-rpc)：SOFARPC是一个高性能、高扩展性、生产级的Java RPC框架，由蚂蚁金服开源并广泛使用。
-* [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错的，轻量级的分布式服务框架。
+* [SOFARPC](https://github.com/sofastack/sofa-rpc)：SOFARPC是一个高性能、高扩展性、生产级的Java RPC框架，由蚂蚁开源。
+* [RPC Framework](https://github.com/Snailclimb/guide-rpc-framework)：RPC Framework是一款基于Netty、Kyro、Zookeeper实现的自定义RPC框架。
+* [Smithy](https://github.com/smithy-lang/smithy)：Smithy包含一种与协议无关的接口定义语言，用于生成客户端、服务器、文档和其他工件，由AWS开源。
+* [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错、轻量级的分布式服务框架。
 * [Pigeon](https://github.com/dianping/pigeon)：Pigeon是一个分布式RPC框架，在大众点评内部广泛使用。
 * [Tars Java](https://github.com/TarsCloud/TarsJava)：Tars Java是腾讯Tars RPC框架的Java语言实现。
 * [Apache Thrift](https://github.com/apache/thrift)：Thrift是一个轻量级、独立于语言的软件堆栈，用于点对点RPC实现，由Facebook开源。
 * [OCTO-RPC](https://github.com/Meituan-Dianping/octo-rpc)：OCTO-RPC是支持Java和C++的企业级通信框架，在RPC服务之上扩展了丰富的服务治理功能，由美团开源。
-* [JSON-RPC](https://github.com/briandilley/jsonrpc4j)：该项目旨在为Java编程语言提供轻松实现JSON-RPC的工具。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint/tree/master/rpc)：Naver开源的RPC框架，服务于Pinpoint。
-* [TChannel](https://github.com/uber/tchannel)：TChannel是一种用于一般RPC的网络框架协议，支持无序响应，性能极高，中间人可以快速做出转发决策，由Uber开源。
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
 * [Joynr](https://github.com/bmwcarit/joynr)：Joynr是一个与传输协议无关(MQTT、HTTP、WebSockets等)、基于Franca IDL的通信框架，支持多种通信范例，由宝马开源。
-* [SCF](https://juejin.cn/post/7123035209565470728)：转转RPC框架SCF继承自58集团RPC框架。
 * [DubboX](https://github.com/dangdangdotcom/dubbox)：DubboX在Dubbo框架中添加了RESTful远程处理、Kyro/FST序列化等功能，由当当开发。
 * [NettyRPC](https://github.com/luxiaoxun/NettyRpc)：NettyRpc是一个基于Netty、ZooKeeper和Spring的简单RPC框架。
 * [JoyRPC](https://github.com/jd-opensource/joyrpc)：JoyRPC是一款基于Java实现的RPC服务框架，由京东开源。
+* [NettyRPC](https://github.com/tang-jie/NettyRPC)：NettyRPC是基于Netty的高性能Java RPC服务器，使用Kryo、Hessian、Protostuff支持消息序列化。
 * [Koalas RPC](https://gitee.com/dromara/koalas-rpc)：Koalas是dromara社区开源的高可用、可拓展的RPC框架。
 * [Kotlinx RPC](https://github.com/Kotlin/kotlinx-rpc)：Kotlinx RPC是一个Kotlin库，用于向应用程序添加RPC服务，由JetBrains开源。
 * [IceRPC](https://github.com/zeroc-ice/ice)：IceRPC是一个新的开源RPC框架，可帮助你使用很少的代码构建速度极快的网络应用程序。
 * [XXL-RPC](https://github.com/xuxueli/xxl-rpc)：XXL-RPC是一个分布式服务框架，提供稳定高性能的RPC远程服务调用功能。
-* [RPC Framework](https://github.com/Snailclimb/guide-rpc-framework)：RPC Framework是一款基于Netty、Kyro、Zookeeper实现的自定义RPC框架。
+* [Fluss RPC](https://github.com/apache/fluss/tree/main/fluss-rpc)：Fluss RPC框架及基于Netty的实现，由阿里开源。
+* [gRPC Kotlin](https://github.com/grpc/grpc-kotlin)：Google gRPC的Kotlin/JVM实现，一个高性能、开源、通用的RPC框架。
+* [Ob1k](https://github.com/outbrain-inc/ob1k)：Ob1k是一个异步轻量级RPC框架，用于快速开发异步、高性能微服务，由Outbrain开源。
+* [RSocket RPC](https://github.com/rsocket/rsocket-rpc-java)：RSocket RPC是一个易于使用的RPC层，位于RSocket之上，由Netifi开源。
 * [Sekiro](https://github.com/yint-tech/sekiro-open)：Sekiro是一个多语言、分布式、与网络拓扑无关的服务发布平台，由因体信息开源。
 * [Hprose](https://github.com/hprose/hprose-java)：Hprose是一个高性能远程对象服务引擎。
-* [NettyRPC](https://github.com/tang-jie/NettyRPC)：基于Netty的高性能Java RPC服务器，使用kryo、hessian、protostuff支持消息序列化。
 * [HARPC](https://github.com/baifendian/harpc)：HARPC是基于Thrift的跨语言、高可用的RPC框架，由百分点科技开源。
 * [Phantom](https://github.com/flipkart-incubator/phantom)：Phantom是一个用于访问分布式服务的高性能代理，是一个支持不同传输和协议的RPC系统，由Flipkart开源。
 * [Remotely](https://github.com/Verizon/remotely)：Remotely是一个优雅、合理、纯函数式的远程系统，由Verizon开发。
@@ -1012,13 +1013,11 @@
 * [JoinFaces](https://github.com/joinfaces/joinfaces)：JoinFaces是一个致力于简化Spring Boot与JSF集成的开源框架。
 * [IceFaces](https://www.icesoft.org/wiki/display/ICE/ICEfaces+Overview)：IceFaces是一个基于JSF标准的开源富互联网应用程序开发框架，由ICEsoft公司开源。
 * [Omnifaces](https://github.com/omnifaces/omnifaces)：OmniFaces是Faces的实用程序库，专注于使用标准Faces API简化日常任务的实用程序。
-* [Adminfaces](https://github.com/adminfaces/admin-template)：Admin Template是一个基于Bootstrap和Admin LTE的完全响应式Java Server Faces管理模板。
 * [Eclipse Mojarra](https://github.com/eclipse-ee4j/mojarra)：Mojarra是JSF标准的一个开源实现，由Oracle开发。
 * [Apache MyFaces](https://github.com/apache/myfaces)：Apache基金会下的Jakarta Faces实现。
 * [ButterFaces](https://github.com/butterfaces/butterfaces)：ButterFaces是一个轻量级响应式JSF框架，它结合了Bootstrap 4、jQuery 3和HTML 5的优点，可以使用JSF 2开发快速、简单且现代的Web应用程序。
 * [RichFaces](https://github.com/richfaces/richfaces)：RichFaces项目是一个高级UI组件框架，可以使用JSF将Ajax功能轻松集成到业务应用程序中，由RedHat开源。
 * [BootsFaces](https://github.com/TheCoder4eu/BootsFaces-OSP)：BootsFaces是一个基于Bootstrap 3和jQuery UI的强大且轻量级的JSF框架。
-* [AngularFaces](https://github.com/stephanrauh/AngularFaces)：AngularFaces是一个JSF组件库，旨在通过允许你用简单的AngularJS代码替换大量巧妙的AJAX代码来简化JSF开发。
 * [Reasonable ServerFaces](https://rsf.github.io/wiki/Wikib2ab.html)：Reasonable ServerFaces是一个用Java编写的开源Web编程框架，由剑桥大学教育技术应用研究中心开发。
 
 #### REST框架
@@ -2846,6 +2845,7 @@
 * [Riptide](https://github.com/zalando/riptide)：Riptide是一个实现客户端响应路由的库，由Zalando开源。
 * [Netty HTTP](https://github.com/cdapio/netty-http)：一个使用Netty开发HTTP服务的库，支持基于JAX-RS风格注解路由端点的功能，由Google开源。
 * [Netty Router](https://github.com/sinetja/netty-router)：Netty Router是一个小型Java库，将HTTP请求路由到你的Netty处理程序。
+* [Avaje Jex](https://github.com/avaje/avaje-jex)：Avaje Jex是一个轻量级的JDK内置HTTP Server API包装器，并进行了一些关键的增强。
 
 #### Web服务器
 
@@ -2925,7 +2925,7 @@
 * [Pushy](https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658)：Pushy是Netflix的WebSocket服务器，可与运行Netflix应用程序的设备保持持久的WebSocket连接。
 * [Java WebSocket](https://github.com/TooTallNate/Java-WebSocket)：该项目包含用纯Java编写的准系统WebSocket客户端和服务器实现。
 * [Scarlet](https://github.com/Tinder/Scarlet)：Scarlet是受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端，由Tinder开源。
-* [SignalR](https://github.com/SignalR/java-client)：SignalR是一个开源库，可简化向应用程序添加实时功能，由Microsoft开发。
+* [SignalR](https://github.com/aspnet/SignalR)：SignalR是一个开源库，可简化向应用程序添加实时功能，由Microsoft开发。
 * [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient是适用于Java的异步HTTP和WebSocket客户端库。
 * [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
@@ -2955,6 +2955,7 @@
 * [WebSocket Android Phonegap](https://github.com/anismiles/websocket-android-phonegap)：这是一个为Android平台实现Websocket API的Java库。
 * [TubeSock](https://github.com/FirebaseExtended/TubeSock)：TubeSock是WebSocket协议客户端的Java实现，由Google开源。
 * [Krossbow](https://github.com/joffrey-bion/krossbow)：Krossbow是一个Kotlin多平台STOMP 1.2客户端，具有基于协程的API。
+* [Socket MQTT](https://github.com/daoshenzzg/socket-mqtt)：Socket MQTT是一个基于Netty、MQTT实现的推送基础框架。
 
 #### 即时通讯
 
@@ -3048,6 +3049,7 @@
 
 #### 网络库
 
+* [TChannel](https://github.com/uber/tchannel)：TChannel是一种用于一般RPC的网络框架协议，支持无序响应，性能极高，中间人可以快速做出转发决策，由Uber开源。
 * [Network Connection](https://github.com/facebookarchive/network-connection-class)：Network Connection是一个Android库，可让你了解当前用户的互联网连接质量，由Facebook开源。
 * [Apache Commons Net](https://github.com/apache/commons-net)：Commons Net库包含网络实用程序和协议实现的集合。
 * [Envoy Mobile](https://github.com/envoyproxy/envoy-mobile)：构建在Envoy项目的核心网络层上的多平台客户端HTTP/网络库。
