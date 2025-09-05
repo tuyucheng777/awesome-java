@@ -822,6 +822,7 @@
 * [Poc2jar](https://github.com/f0ng/poc2jar)：Java编写，Python作为辅助依赖的漏洞验证、利用工具。
 * [ThreadFix](https://github.com/denimgroup/threadfix)：ThreadFix是一个软件漏洞管理平台。
 * [Artillery](https://github.com/Weik1/Artillery)：Java插件化漏洞扫描器，GUI基于JavaFX，POC目前集成WebLogic、Tomcat、Shiro、Spring。
+* [JavaSecLab](https://github.com/whgojp/JavaSecLab)：JavaSecLab是一款综合型Java漏洞平台，提供相关漏洞缺陷代码、修复代码、漏洞场景、审计SINK点、安全编码规范、漏洞流量分析，覆盖多种漏洞场景。
 * [Oday](https://github.com/Janhsu/oday)：JavaFX编写的POC管理和漏洞扫描小工具。
 * [CaA](https://github.com/gh0stkey/CaA)：CaA是一款网络安全(漏洞挖掘)领域下的辅助型项目，主要用于分析、拆解HTTP协议报文，提取HTTP协议报文中的参数、路径、文件、参数值等信息。
 * [Godzilla](https://github.com/BeichenDream/Godzilla)：哥斯拉WebShell管理工具。
@@ -2831,6 +2832,7 @@
 * [AndroidWM](https://github.com/huangyz0918/AndroidWM)：一个支持隐写技术的Android图像水印库。
 * [OpenStego](https://github.com/syvaidya/openstego)：OpenStego是一款隐写术应用程序。
 * [RubberStamp](https://github.com/vinaygaba/RubberStamp)：RubberStamp是一个Android库，可让你轻松地为图像添加水印。
+* [WaterMarkIt](https://github.com/OlegCheban/WaterMarkIt)：轻量级、与框架无关的Java库，用于向各种文件类型(包括PDF和图像)添加水印。
 
 ## 压缩库
 
@@ -4315,6 +4317,7 @@
 * [HeartBeat](https://github.com/thoughtworks/HeartBeat)：HeartBeat是一个用于跟踪项目交付指标的工具，可以帮助你更好地了解交付绩效，由ThoughtWorks开发。
 * [Cat2Bug Platform](https://gitee.com/cat2bug/cat2bug-platform)：Cat2Bug Platform是一套永久免费开源的Bug管理平台，可以完全私有化部署。
 * [BulletJournal](https://github.com/singerdmx/BulletJournal)：BulletJournal是一个开源平台，用于笔记本保存、账本管理、任务/项目管理和协调，擅长个人组织、日程安排、提醒、待办事项列表、笔记共享、多人账本和团队项目协作。
+* [GoGoScrum](https://github.com/gogoscrum/gogoscrum-rest-service)：GoGoScrum是一款轻量级的敏捷项目管理工具，专为高效的团队协作而设计。
 
 #### QA系统
 
