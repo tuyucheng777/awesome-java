@@ -16,7 +16,6 @@
     * [Spring Cloud框架](#Spring-Cloud框架)
     * [DDD框架](#DDD框架)
     * [CQRS框架](#CQRS框架)
-    * [应用框架](#应用框架)
 * [数据库开发](#数据库开发)
     * [ORM框架](#ORM框架)
     * [JDBC框架](#JDBC框架)
@@ -900,6 +899,7 @@
 * [Ratpack](https://github.com/ratpack/ratpack)：Ratpack是一个简单、功能强大的工具包，用于创建高性能Web应用程序。
 * [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
 * [FIT](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
+* [JVx](https://doc.sibvisions.com/jvx/home)：JVx是一个全栈应用程序框架，用于为不同的技术(Swing、Vaadin、React等)创建具有单一来源的多层应用程序，由SIB Visions公司开源。
 * [Feat](https://gitee.com/smartboot/feat)：Feat是一个类似于Vert.x和Spring Boot的Java Web服务开发框架，专注于提供高性能、低资源消耗的解决方案。
 * [Rose](https://github.com/paoding-code/paoding-rose)：Rose是由人人网、糯米网、小米提供的，基于Servlet规范的Web框架。
 * [Lift](https://github.com/lift/framework)：Lift是一个强大、安全的Web框架。
@@ -1163,13 +1163,6 @@
 * [Wow](https://gitee.com/AhooWang/Wow)：Wow是一个基于领域驱动设计和事件溯源的现代响应式CQRS微服务开发框架。
 * [FactCast](https://github.com/factcast/factcast)：基于PostgreSQL的简单EventStore。
 * [Spine Event Engine](https://github.com/SpineEventEngine/core-java)：Spine Event Engine是一个Java框架，用于构建事件源和CQRS应用程序。
-
-#### 应用框架
-
-* [CloudApp](https://github.com/alibaba/cloudapp-framework)：CloudApp框架的目标是设计一个统一的SDK来封装云厂商的服务，由阿里开源。
-* [JVx](https://doc.sibvisions.com/jvx/home)：JVx是一个全栈应用程序框架，用于为不同的技术(Swing、Vaadin、React等)创建具有单一来源的多层应用程序，由SIB Visions公司开发。
-* [Demoiselle 3](https://github.com/demoiselle/framework)：Demoiselle框架实现了集成框架的概念，其目标是通过最大限度地减少选择和集成专业框架的时间来促进应用程序的构建，从而提高生产力并保证系统的可维护性。
-* [Synapse](https://github.com/americanexpress/synapse)：Synapse是一组用于快速开发的轻量级基础框架模块，内置企业级成熟度和质量，由美国运通开源。
 
 ## 数据库开发
 
