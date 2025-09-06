@@ -459,6 +459,7 @@
     * [CMS系统](docs/doc2.md#CMS系统)
     * [论坛系统](docs/doc2.md#论坛系统)
     * [ERP系统](docs/doc2.md#ERP系统)
+    * [CRM系统](docs/doc2.md#CRM系统)
     * [HRM系统](docs/doc2.md#HRM系统)
     * [AI系统](docs/doc2.md#AI系统)
     * [OA系统](docs/doc2.md#OA系统)
@@ -1035,7 +1036,6 @@
 * [Spray](https://github.com/spray/spray)：Spray是一套轻量级的Scala库，用于在Akka之上构建和使用RESTful Web服务。
 * [Xenon](https://github.com/vmware-archive/xenon)：Xenon是一个用于编写小型REST服务的框架，由VMware开发。
 * [Restlet](https://github.com/restlet/restlet-framework-java)：Restlet框架帮助Java开发人员构建更好的遵循REST架构风格的Web API，由Talend开源。
-* [Magic API](https://gitee.com/ssssssss-team/magic-api)：Magic API是一个基于Java的接口快速开发框架。
 * [RESTHeart](https://github.com/SoftInstigate/restheart)：RESTHeart是一个用于构建HTTP微服务的框架，旨在为开发人员提供开箱即用的直观API。
 * [Grumpyrest](https://github.com/MartinGeisse/grumpyrest)：Grumpyrest是一个Java REST服务器框架，不使用注解、自动依赖注入或响应流，并最大限度地减少反射的使用。
 * [Resty](https://github.com/Dreampie/Resty)：Resty一款极简的RESTful轻量级的Web框架。
