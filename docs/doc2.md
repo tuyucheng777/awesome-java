@@ -4057,6 +4057,7 @@
 * [Micro Infra Spring](https://github.com/4finance/micro-infra-spring)：包含使用Spring配置设置的默认微服务基础设施的存储库。
 * [Spring Boot MicroService Best Practices](https://github.com/abhisheksr01/spring-boot-microservice-best-practices)：此仓库整合了构建基于Spring Boot的健壮微服务的最佳实践和基本集成，它以模板形式提供，允许开发人员根据自身需求添加或删除依赖项，轻松创建自己的微服务。
 * [Fust](https://github.com/zhihu/fust)：Fust是一个基于Spring Boot的快速开发框架，由知乎开源。
+* [Zebra](https://gitee.com/gszebra/zebra)：Zebra是国信证券的微服务框架。
 
 #### 后台管理系统
 
