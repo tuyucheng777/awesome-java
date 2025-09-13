@@ -1850,6 +1850,7 @@
 * [OpenChrom](https://github.com/Openchrom/openchrom)：OpenChrom是Lablicate GmbH开发的一款用于分析和可视化质谱和色谱数据的开源工具。
 * [Caleydo](https://github.com/Caleydo/caleydo)：Caleydo是一个分子生物学数据可视化框架，旨在分析多个异构但相关的表格数据集、这些数据集中的分层或聚类及其与生物学通路的关系，由格拉茨技术大学。
 * [MZmine 3](https://github.com/mzmine/mzmine3)：MZmine是一款用于质谱数据处理的开源软件，由芬兰VTT技术研究中心、图尔库生物技术中心开源。
+* [Mastodon](https://github.com/mastodon-sc/mastodon)：Mastodon是一个用于大型多视图图像的大规模跟踪和轨迹编辑框架。
 * [Micro Manager](https://github.com/micro-manager/micro-manager)：Micro Manager是一个控制显微镜硬件的应用程序，由加利福尼亚大学旧金山分校开源。
 * [VCell](https://github.com/virtualcell/vcell)：VCell是一个全面的细胞生物学建模和模拟框架，涵盖从生物通路到细胞生物物理学的各个方面，由康涅狄格大学开源。
 * [RNArtist](https://github.com/fjossinet/RNArtist)：RNArtist是构建和管理RNA二维结构集合的交互式工具。
@@ -2749,6 +2750,7 @@
 * [Scrimage](https://github.com/sksamuel/scrimage)：Scrimage是一个用于图像操作的不可变、函数式、高性能的JVM库。
 * [CV4j](https://github.com/imageprocessor/cv4j)：CV4j是用纯Java实现的高质量、实时的图像处理和机器学习库。
 * [ImgLib](https://github.com/nackily/imglib)：ImgLib是一个轻量级的Java图像处理库，致力于简化对图像的常见处理。
+* [SimpleITK](https://simpleitk.org/)：SimpleITK是一个图像分析工具包，拥有大量支持常规过滤操作、图像分割和配准的组件。
 * [GIFEncoder](https://github.com/square/gifencoder)：GIFEncoder是一个实现GIF89a规范的纯Java库，由Square开源。
 * [AndroidLibyuvImageUtils](https://github.com/myrao/AndroidLibyuvImageUtils)：Android上的图像处理库。
 * [ImageCombiner](https://gitee.com/dromara/image-combiner)：ImageCombiner是一个专门用于Java服务端图片合成的工具，由dromara社区开源。
@@ -3793,6 +3795,7 @@
 * [Gradle Dependency Graph Generator Plugin](https://github.com/vanniktech/gradle-dependency-graph-generator-plugin)：可让你在图表中可视化依赖关系的Gradle插件。
 * [Gradle Dependency Analyze](https://github.com/gradle-dependency-analyze/gradle-dependency-analyze)：Gradle的依赖分析插件。
 * [DepClean](https://github.com/ASSERT-KTH/depclean)：DepClean自动检测并删除Maven项目中未使用的依赖，由瑞士皇家理工学院开源。
+* [JLib Inspector](https://github.com/brunoborges/jlib-inspector)：JLib Inspector可以捕获已加载JAR和类的精确且低开销清单，以便你缩小镜像体积、确定CVE修复的优先级并消除依赖漂移。
 
 #### 迁移&重构
 
@@ -4582,6 +4585,7 @@
 * [LangChain4j AIDeepin](https://github.com/moyangzhan/langchain4j-aideepin)：LangChain4j AIDeepin是基于AI的工作效率提升工具。
 * [U3W AI](https://gitee.com/U3W-AI/U3W-AI)：优立方AI主机提供多AI平台集成的AIGC解决方案，支持免Token使用并与微信生态对接。
 * [Art](https://gitee.com/fxzcloud/art)：Art是一个开源、一站式AI应用开发平台，其灵感来源于行业领先的Coze和Dify。
+* [Torch Yun](https://github.com/isxcode/torch-yun)：至数云是一款超轻量、企业级人工智能应用平台。
 
 #### OA系统
 
@@ -5057,6 +5061,12 @@
 
 * [TeamSpeak 3 Java API](https://github.com/TheHolyWaffle/TeamSpeak-3-Java-API)：TeamSpeak 3服务器查询API的Java包装器。(语言通话SDK)
 * [TS3J](https://github.com/Manevolent/ts3j)：TS3J是逆向工程TeamSpeak 3完整服务器/客户端协议的开源实现。
+
+#### Mastodon
+
+* [Mastodon4j](https://github.com/sys1yagi/mastodon4j)：Mastodon是Java和Kotlin的Mastodon客户端。
+* [BigBone](https://github.com/PattaFeuFeu/bigbone)：BigBone是适用于Java和Kotlin的Mastodon客户端库。
+* [Twitter Scale Mastodon](https://github.com/redplanetlabs/twitter-scale-mastodon)：该项目是Mastodon实例的生产级实现，可扩展至Twitter规模(5亿用户、700平均扇出、非平衡社交图谱、每秒7000篇帖子)。
 
 ## Docker客户端
 
@@ -5629,6 +5639,7 @@
 * [Idempotence4j](https://github.com/transferwise/idempotence4j)：Idempotence4j是一个轻量级库，为处理幂等操作提供支持。
 * [Quidem](https://github.com/julianhyde/quidem)：Quidem是一个幂等查询执行器。
 * [Tomato](https://github.com/lxchinesszz/tomato)：Tomato是一款专门为Spring Boot项目设计的幂等组件。
+* [Idempotent](https://github.com/arun0009/idempotent)：Idempotent是一个轻量级的Java库，它在API中提供对幂等性的支持，从而更容易处理重复请求并确保分布式系统的可靠运行。
 
 ## 数据字典
 
@@ -6606,6 +6617,21 @@
 * [VectAlign](https://github.com/bonnyfone/vectalign)：使用VectorDrawables创建复杂变形动画的工具。
 * [CircularAnim](https://github.com/XunMengWinter/CircularAnim)：Android水波动画帮助类，轻松实现View show/hide/startActivity()特效。
 * [StarWars.Android](https://github.com/Yalantis/StarWars.Android)：该组件实现了过渡动画，将视图分解成小块。
+* [ShootRefreshView](https://github.com/dinuscxj/ShootRefreshView)：ShootRefreshView是一个刷新动画。
+
+#### Android插件框架
+
+* [VirtualAPK](https://github.com/didi/VirtualAPK)：VirtualAPK是一个功能强大但轻量级的Android插件框架，由滴滴开源。
+* [Shadow](https://github.com/Tencent/Shadow)：Shadow是一个腾讯自主研发的Android插件框架。
+* [RePlugin](https://github.com/Qihoo360/RePlugin)：RePlugin是一个完整的Android插件解决方案，适合一般用途，由360开源。
+* [DroidPlugin](https://github.com/DroidPluginTeam/DroidPlugin)：DroidPlugin是一个新的插件框架，它使宿主应用程序无需安装、修改和重新打包即可运行任何第三方APK。
+* [Android Plugin Framework](https://github.com/limpoxe/Android-Plugin-Framework)：Android Plugin Framework是一个Android插件化框架，用于通过动态加载的方式免安装运行插件APK。
+* [Wechat Spellbook](https://github.com/Gh0u1L5/WechatSpellbook)：Wechat Spellbook是一个使用Kotlin编写的开源微信插件框架。
+* [ZeusPlugin](https://github.com/iReaderAndroid/ZeusPlugin)：最精简的插件补丁框架，日活千万级App验证稳定。
+* [WXDynamicPlugin](https://github.com/wgllss/WXDynamicPlugin)：零反射、零HooK、全动态化，插件化框架。
+* [Small](https://github.com/wequick/Small)：将应用程序拆分成小部分的小型框架。
+* [Neptune](https://github.com/iqiyi/Neptune)：Neptune是一个灵活、强大且轻量级的Android插件框架，由爱奇艺开源。
+* [APF](https://github.com/umeng/apf)：APF旨在为Android应用程序提供一个灵活、可扩展的框架。
 
 ## GUI开发/程序
 
@@ -7957,6 +7983,7 @@
 * [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Kafka集群的方法，由RedHat开源。
 * [Julie](https://github.com/kafka-ops/julie)：JulieOps帮助你自动化管理Kafka中的事物，从主题、配置到元数据，以及访问控制、模式。
 * [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Kafka之上的流式任务处理框架，由Line开源。
+* [Kafka Console UI](https://gitee.com/xiaodong_xu/kafka-console-ui)：一款轻量级的kafka可视化管理平台，安装配置快捷、简单易用。
 * [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
 * [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
 * [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载均衡的服务，由Pinterest开源。
