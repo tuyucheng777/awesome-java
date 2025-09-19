@@ -718,6 +718,7 @@
 * [WrenIDM](https://github.com/WrenSecurity/wrenidm)：WrenIDM是一个由社区开发的身份管理系统，具有灵活的数据模型、丰富的扩展点以及JavaScript和Groovy等脚本支持。
 * [AuthzForce](https://github.com/authzforce/core)：AuthzForce项目提供了一个符合OASIS XACML标准v3.0的基于属性的访问控制(ABAC)框架，主要由授权策略引擎和RESTful授权服务器组成，由OW2开发。
 * [Ego](https://github.com/overture-stack/ego)：Ego是支持多个OpenID身份提供者的OAuth 2.0授权服务，由安大略癌症研究所开源。
+* [OAuth2 Server](https://github.com/clouway/oauth2-server)：OAuth2服务器库。
 
 #### OAuth库
 
@@ -3589,6 +3590,7 @@
 * [HeapStats](https://github.com/HeapStats/heapstats)：HeapStats是Java故障排除工具。
 * [Meteor](https://gitee.com/reywong/meteor)：该项目基于阿里开源的Arthas基础之上完成，是线上问题定位的神器。
 * [JSonde](https://github.com/bedrin/jsonde)：JSonde允许你分析现有的Java应用程序。
+* [DBdoctor](https://www.dbdoctor.cn/)：DBdoctor是一款内核级数据库性能诊断软件。
 
 #### Spring Boot仪表板
 
@@ -4646,6 +4648,7 @@
 
 #### EMS系统
 
+* [OpenEMS](https://github.com/OpenEMS/openems)：OpenEMS是一个模块化的能源管理应用平台。
 * [CP EMS RuoYi](https://gitee.com/cloudpulse/cp-ems-ruoyi)：CP EMS RuoYi是一款基于RuoYi框架开发的开源能源管理系统。
 * [Zhitan EMS](https://gitee.com/liulingling1993/zhitan-ems)：智碳能源管理系统，基于Spring Boot和若依框架开发。
 
@@ -5412,6 +5415,8 @@
 * [Frost IoT](https://github.com/footprintcat/frost-iot)：支持轻量化快速接入的IoT设备统一接入平台。
 * [IoTOS](https://gitee.com/chinaiot/iotos)：IoTOS是基于Spring Boot、Vue开源IoTCard系统，企业私域管理与运营综合解决方案。
 * [BudIot](https://gitee.com/budwk/budiot)：BudIot是一个开源、企业级的物联网平台，它集成了设备管理、协议解析、消息订阅、场景联动等一系列物联网核心能力。
+* [Frog Smart Agriculture](https://gitee.com/nealtsiao/frog-smart-agriculture)：青蛙智慧农业平台，支持物联网设备、农业设备对接。
+* [OPENIITA](https://gitee.com/open-iita/iotkitparent)：OPENIITA是铱塔智联旗下一个开源的物联网开源平台。
 
 #### 智能家居
 
@@ -5435,6 +5440,7 @@
 * [Eclipse Hono](https://github.com/eclipse-hono/hono)：Hono提供统一(远程)服务接口，用于将大量IoT设备连接到(云)后端。
 * [Automation Gateway](https://github.com/vogler75/automation-gateway)：OPC UA网关允许你通过MQTT或GraphQL(HTTP)访问OPC UA值。
 * [HiveMQ Edge](https://github.com/hivemq/hivemq-edge)：HiveMQ Edge是一个MQTT网关，可实现OT设备和IT系统之间的互操作性。
+* [IBoot](https://gitee.com/iteaj/iboot)：IBoot是基于Java 1.8、Spring Boot 2.7、Netty等框架开发的物联网网关。
 
 #### MQTT
 
@@ -5517,6 +5523,7 @@
 * [Nifty Modbus](https://github.com/SolarNetwork/nifty-modbus)：Nifty Modbus是一个优秀的Java Modbus库。
 * [EasyModbusTCP](https://github.com/rossmann-engineering/EasyModbusTCP.Java)：EasyModbusTCP是用于Java实现的Modbus-TCP、Modbus-UDP和Modbus-RTU库。
 * [IoT Communication](https://gitee.com/xingshuang/iot-communication)：IoT Communication是一个物联网通信的工具、包含西门子S7通信协议、Modbus、三菱Melsec等。
+* [Protocol](https://gitee.com/weiyigulu_admin/protocol)：IEC104、Modbus、CDT的协议工具包。
 
 #### USB库
 
@@ -6412,6 +6419,7 @@
 
 * [Tinker](https://github.com/Tencent/tinker)：Tinker是Android的一个热修复解决方案库，它支持dex、库和资源更新，无需重新安装apk，由腾讯开源。
 * [Robust](https://github.com/Meituan-Dianping/Robust)：Robust是一款高兼容性、高稳定性的Android HotFix解决方案，由美团开发。
+* [AndFix](https://github.com/alibaba/AndFix)：AndFix是一种在线修复错误的解决方案，由阿里开源。
 * [Nuwa](https://github.com/jasonross/Nuwa)：纯Java实现，可以对你的Android应用程序进行热修复。
 * [Small](https://github.com/wequick/Small)：将应用程序拆分成小部分的小型框架。
 * [HotFix](https://github.com/dodola/HotFix)：安卓App热补丁动态修复框架。
