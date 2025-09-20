@@ -636,7 +636,6 @@
 * [JSCover](https://github.com/tntim96/JSCover)：JSCover是一个易于使用的JavaScript代码覆盖率测量工具。
 * [EMMA](https://emma.sourceforge.net/)：EMMA是一个用于测量和报告Java代码覆盖率的开源工具包。
 * [Codecov](https://about.codecov.io/)：Codecov是适用于任何测试套件的一体化代码覆盖率报告解决方案。
-* [JCov](https://github.com/openjdk/jcov)：JCov开源项目用于收集与测试套件的生产相关的质量指标，Oracle开源。
 * [Parasoft JTest](https://www.parasoft.com/)：包括多种现代QA工具，允许测量代码覆盖率，并对其进行静态和动态分析，这是一款商业工具。
 * [OpenClover](https://github.com/openclover/clover)：OpenClover测量Java和Groovy的代码覆盖率并收集20多个代码指标。
 
@@ -1307,6 +1306,7 @@
 * [JadConfig](https://github.com/Graylog2/JadConfig)：JadConfig是一个最小依赖的Java的简约注解驱动配置解析框架。
 * [Baigan](https://github.com/zalando-incubator/baigan-config)：Baigan是一个易于使用的基于Spring应用程序的配置框架，由Zalando开源。
 * [Constretto](https://github.com/constretto/constretto-core)：Constretto是Java应用程序的配置管理框架。
+* [Apron](https://github.com/poiu-de/apron)：Apron是一个用于读写Java .properties文件的小型库。
 
 #### 分布式配置
 
@@ -1334,6 +1334,7 @@
 * [Pkl](https://github.com/apple/pkl)：Pkl是一种用于生成配置的编程语言，由Apple开源。
 * [Sjsonnet](https://github.com/databricks/sjsonnet)：Jsonnet配置语言的JVM实现，由Databricks开源。
 * [Dhallj](https://github.com/travisbrown/dhallj)：该项目是JVM的Dhall配置语言的实现。
+* [HCL4j](https://github.com/bertramdev/hcl4j)：HCL4j是JVM上Hashicorp配置语言的解析器。
 
 #### YML库
 
@@ -2200,9 +2201,11 @@
 
 ## 报表引擎
 
-* [JimuReport](https://github.com/jeecgboot/JimuReport)：一款免费的数据可视化报表，含报表和大屏设计，功能涵盖数据报表、打印设计、图表报表、大屏设计等，由北京国炬公司开发。
+* [JimuReport](https://github.com/jeecgboot/JimuReport)：积木报表是一款免费的数据可视化报表，含报表、打印、大屏和仪表盘，由北京国炬公司开发。
 * [UReport2](https://github.com/youseries/ureport)：UReport2是一个基于Spring架构的高性能纯Java报表引擎，可以通过迭代单元格来准备复杂的中式报表和报表。
+* [AJ-Report](https://gitee.com/anji-plus/report)：AJ-Report是一个完全开源，拖拽编辑的可视化设计工具。
 * [EasyReport](https://github.com/xianrendzw/EasyReport)：EasyReport是一个简单易用的Web报表工具，它的主要功能是把SQL语句查询出的行列结构转换成HTML表格，并支持表格的跨行与跨列。
+* [SpringReport](https://gitee.com/springreport/springreport)：SpringReport是一款企业级的报表系统，支持在线设计报表，并绑定动态数据源，无需写代码即可快速生成想要的报表。
 * [VeryReport](https://www.veryreport.com/)：VeryReport是专业级企业Web报表软件，易学易用，轻松解决中国式复杂报表，这是中创微软件公司的商业产品。
 * [JasperReports](https://github.com/TIBCOSoftware/jasperreports)：JasperReports库是世界上最流行的开源报告引擎，由TIBCO软件公司开源。
 * [Eclipse BIRT](https://github.com/eclipse-birt/birt)：BIRT是商业智能报告工具，可以从许多不同的数据源(数据库、文件、Java、Javascript、Web服务等)提取和组合数据，并将这些数据用于报告和图表，由安讯公司开源。
@@ -2217,13 +2220,10 @@
 * [Report Mill](http://www.reportmill.com/product/)：ReportMill可以平滑地嵌入到每个Java应用程序中，此外，与BIRT一样它非常灵活：可以在运行时自定义报告。
 * [iReport](https://community.jaspersoft.com/project/ireport-designer)：一个开源报表设计器，对于JasperReports库和JasperReports服务器免费。
 * [OpenReports](https://sourceforge.net/projects/oreports/)：基于Web的报告解决方案，允许用户通过浏览器动态查看XLS、HTML或PDF格式创建的报告。
-* [AJ-Report](https://gitee.com/anji-plus/report)：AJ-Report是一个完全开源，拖拽编辑的可视化设计工具。
 * [R3-Query](https://gitee.com/aagagagag/R3-Query)：R3 Query整合了企业报表领域各个周期的支持，其中包括报表设计、报表发布、报表生成、报表管理、订阅发布和报表监控等报表的整个生命周期的步骤。
-* [Pentaho Platform](https://github.com/pentaho/pentaho-platform)：该项目构成了Pentaho的核心平台和业务分析服务器。
-* [UReport-kepp](https://gitee.com/summer-T/ureport-keep)：UReport的替代项目。
+* [UReport Kepp](https://gitee.com/summer-T/ureport-keep)：UReport Kepp是UReport的替代项目。
 * [Skyeye Report](https://gitee.com/doc_wei01/skyeye-report)：Skyeye Report是一款高性能的Java报表引擎，提供完善的基于网页的报表设计器，可快速做出各种复杂的中式报表。
 * [Dynamic Reports](https://github.com/dynamicreports/dynamicreports)：DynamicReports是一个基于JasperReports的开源Java报表库，它允许创建动态报表设计，并且不需要可视化报表设计器。
-* [SpringReport](https://gitee.com/springreport/springreport)：SpringReport是一款企业级的报表系统，支持在线设计报表，并绑定动态数据源，无需写代码即可快速生成想要的报表。
 * [Clear Reports](https://www.inetsoftware.de/products/clear-reports)：Clear Reports是一种灵活且功能强大的报告解决方案，可用于多种不同用途。
 
 ## 商业智能
@@ -2233,7 +2233,7 @@
 * [FineBI](https://www.finebi.com/)：FineBI是帆软公司推出的一款商业智能产品。
 * [SuperSonic](https://github.com/tencentmusic/supersonic)：SuperSonic是下一代LLM支持的数据分析平台，集成了ChatBI和HeadlessBI，由腾讯音乐娱乐开源。
 * [CBoard](https://gitee.com/tuiqiao/CBoard)：CBoard由上海楚果信息技术有限公司主导开源，它不仅仅是一款自助BI数据分析产品，还是开放的BI产品开发平台。
-* [DataRoom](https://gitee.com/gcpaas/DataRoom)：DataRoom是一款基于SpringBoot、MyBatis Plus、Vue、ElementUI、G2Plot、Echarts等技术栈的大屏设计器，由科大国创云网科技公司开源。
+* [DataRoom](https://gitee.com/gcpaas/DataRoom)：DataRoom是一款基于Spring Boot、MyBatis Plus、Vue、ElementUI、G2Plot、Echarts等技术栈的大屏设计器，由科大国创云网科技公司开源。
 * [BI Platform](https://github.com/baidu/BIPlatform)：百度开源，业内领先的Holap敏捷BI分析平台，提供高性能、准实时、可扩展的、一站式的BI建模、分析平台。
 * [Abixen Platform](https://github.com/abixen/abixen-platform)：Abixen是一个基于微服务的软件平台，用于构建企业应用程序，通过创建特定的微服务并通过提供的CMS集成来提供功能。
 * [Helical Insight](https://github.com/helicalinsight/helicalinsight)：Helical Insight是世界上第一个开源商业智能框架，可以帮助你从一个或多个数据源中获取见解。
@@ -2637,6 +2637,7 @@
 ## 反编译
 
 * [JADX](https://github.com/skylot/jadx)：JADX是一个Dex到Java反编译器。
+* [Bytecode Viewer](https://github.com/Konloch/bytecode-viewer)：Bytecode Viewer是一个轻量级用户友好的Java/Android字节码查看器、反编译器等。
 * [JD GUI](https://github.com/java-decompiler/jd-gui)：JD GUI是一个独立的图形实用程序，可从class文件中显示Java源代码。
 * [Recaf](https://github.com/Col-E/Recaf)：Recaf是一个易于使用的现代Java字节码编辑器，可以抽象出Java程序的复杂性。
 * [ClassyShark](https://github.com/google/android-classyshark)：ClassyShark是一款面向Android开发人员的独立二进制检查工具，由Google开源。
@@ -2701,7 +2702,6 @@
 * [Ghidra](https://github.com/NationalSecurityAgency/ghidra)：Ghidra是一个由美国国家安全局研究局创建和维护的软件逆向工程框架。
 * [JEB Community Edition](https://www.pnfsoftware.com/jeb/community-edition)：JEB是一款针对Android应用程序和本机机器代码的反汇编和反编译软件。
 * [Apktool](https://github.com/iBotPeaches/Apktool)：Apktool是一款用于对第三方、封闭式、二进制Android应用程序进行逆向工程的工具。
-* [Bytecode Viewer](https://github.com/Konloch/bytecode-viewer)：Bytecode Viewer是一个轻量级用户友好的Java/Android字节码查看器、反编译器等。
 * [BinAbsInspector](https://github.com/KeenSecurityLab/BinAbsInspector)：BinAbsInspector是一款用于自动化逆向工程和扫描二进制文件漏洞的静态分析器，是腾讯科恩实验室孵化的长期研究项目。
 * [JByteMod](https://github.com/GraxCode/JByteMod-Beta)：JByteMod是一个多功能字节码编辑器，具有语法突出显示、实时反编译和方法绘图功能。
 * [BinDiff](https://github.com/google/bindiff)：BinDiff是一款开源的二进制文件比较工具，可以帮助漏洞研究人员和工程师快速找到反汇编代码中的差异和相似之处，由Google开源。
@@ -3338,8 +3338,6 @@
 * [JElf](https://github.com/fornwall/jelf)：用于解析ELF文件的Java库。
 * [jHDF](https://github.com/jamesmudd/jhdf)：该项目是用于访问HDF5文件的纯Java实现。
 * [MSLinks](https://github.com/DmitriiShamrikov/mslinks)：用于解析和创建Windows快捷方式文件(.lnk)的库。
-* [HCL4j](https://github.com/bertramdev/hcl4j)：HCL4j是JVM上Hashicorp配置语言的解析器。
-* [Apron](https://github.com/poiu-de/apron)：Apron是一个用于读写Java .properties文件的小型库。
 * [JglTF](https://github.com/javagl/JglTF)：与glTF相关的Java库。
 * [LASzip4j](https://github.com/mreutegg/laszip4j)：LASzip库的Java移植。
 * [Java netCDF](https://github.com/Unidata/netcdf-java)：netCDF Java库提供了科学数据访问的接口，它可用于从各种文件格式读取科学数据，包括netCDF、HDF、GRIB、BUFR等，由美国国家科学基金会开源。
@@ -3376,6 +3374,7 @@
 * [MD2File](https://gitee.com/cevin15/MD2File)：文档导出工具类，能将Markdown格式的内容，转为Office Word、PDF、HTML等格式的文档。
 * [Excel2Pdf](https://github.com/caryyu/excel2pdf)：Java Excel转PDF解决方案。
 * [Markdown2Pdf](https://github.com/Qkyrie/Markdown2Pdf)：一个使用Java将Markdown转换为PDF的简单库。
+* [OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)：OpenDataLoader PDF可以安全准确地将PDF转换为JSON、Markdown或HTML。
 
 #### Mime解析
 
@@ -3385,15 +3384,6 @@
 * [MimeCraft](https://github.com/square/mimecraft)：用于创建符合RFC要求的Multipart和表单编码HTTP请求主体的实用程序，由Square开源。
 * [MIME Type](https://github.com/overview/mime-types)：用于检测文件MIME类型的Java库。
 * [Email Mime Parser](https://github.com/ram-sharma-6453/email-mime-parser)：基于Mime4j的简化Java电子邮件Mime解析器。
-
-#### 文件监听
-
-* [FSWatch](https://github.com/vorburger/ch.vorburger.fswatch)：基于java.nio.file.WatchService监控目录或单个文件的Java库。
-* [Directory Watcher](https://github.com/gmethvin/directory-watcher)：适用于JDK 8+的目录监视实用程序，旨在为Linux、macOS和Windows提供准确且高效的递归监视。
-* [Play File Watch Library](https://github.com/playframework/play-file-watch)：这是Play文件监视库，它可用于以独立于平台的方式监视文件。
-* [Kfswatch](https://github.com/irgaly/kfswatch)：Kotlin多平台文件系统观察器库。
-* [RxFileWatcher](https://github.com/helmbold/rxfilewatcher)：RxFileWatcher允许你使用RxJava Observable对象来观察目录(递归或非递归)中的文件系统事件。
-* [JNotify](https://jnotify.sourceforge.net/)：JNotify是一个Java库，允许Java应用程序监听文件系统事件。
 
 #### 文件上传
 
@@ -3931,6 +3921,7 @@
 * [Getdown](https://github.com/threerings/getdown)：Getdown是一个用于将Java应用程序部署到最终用户计算机并保持这些应用程序最新的系统。
 * [Kayenta](https://github.com/spinnaker/kayenta)：Kayenta是一个自动金丝雀分析(ACA)平台，由Netflix和Google开源。
 * [Rultor](https://github.com/yegor256/rultor)：Rultor是一个DevOps团队助理，它通过易于使用的直观聊天机器人界面帮助你自动执行日常操作(合并、部署和发布)。
+* [JarManage](https://gitee.com/code2roc/jar-manage)：JarManage是一个可视化Jar包部署平台，让部署变得简单、快捷。
 
 ## 运行
 
@@ -4169,6 +4160,7 @@
 * [JeeSite](https://gitee.com/thinkgem/jeesite5)：JeeSite是一个轻量级、企业级低代码解决方案，由济南卓源软件公司开源。
 * [Guns](https://gitee.com/stylefeng/guns)：Guns是一个现代化的Java应用开发框架，基于主流技术Spring Boot 2、Vue 3。
 * [MakuBoot](https://gitee.com/makunet/maku-boot)：MakuBoot是采用Spring Boot 3.1、Spring Security 6.1、MybatisPlus等框架开发的一套Spring Boot低代码开发平台。
+* [GoView](https://gitee.com/dromara/go-view)：GoView是一个Vue 3搭建的低代码数据可视化开发平台，将图表或页面元素封装为基础组件，无需编写代码即可完成业务需求。
 * [OpenXava](https://github.com/openxava/openxava)：OpenXava从JPA实体生成功能齐全的Web应用程序。
 * [Magic API](https://gitee.com/ssssssss-team/magic-api)：Magic API是一个基于Java的接口快速开发框架。
 * [MateCloud](https://gitee.com/matevip/matecloud)：MateCloud是一款基于Spring Cloud Alibaba的微服务架构，支持多租户的低代码平台。
@@ -9001,6 +8993,15 @@
 * [Rsync4j](https://github.com/fracpete/rsync4j)：适用于Linux、OSX和Windows的rsync的简单Java包装器。
 * [Jayo](https://github.com/jayo-projects/jayo)：Jayo是一个基于java.io的JVM同步I/O库，这会产生简单、可读和可调试的代码，就像标准的阻塞程序一样，但它在幕后执行非阻塞I/O。
 * [Iota](https://github.com/thebusby/iota)：Iota是一个用于处理内存中大型文本文件的Clojure库。
+
+## 文件监听
+
+* [FSWatch](https://github.com/vorburger/ch.vorburger.fswatch)：基于java.nio.file.WatchService监控目录或单个文件的Java库。
+* [Directory Watcher](https://github.com/gmethvin/directory-watcher)：适用于JDK 8+的目录监视实用程序，旨在为Linux、macOS和Windows提供准确且高效的递归监视。
+* [Play File Watch Library](https://github.com/playframework/play-file-watch)：这是Play文件监视库，它可用于以独立于平台的方式监视文件。
+* [Kfswatch](https://github.com/irgaly/kfswatch)：Kotlin多平台文件系统观察器库。
+* [RxFileWatcher](https://github.com/helmbold/rxfilewatcher)：RxFileWatcher允许你使用RxJava Observable对象来观察目录(递归或非递归)中的文件系统事件。
+* [JNotify](https://jnotify.sourceforge.net/)：JNotify是一个Java库，允许Java应用程序监听文件系统事件。
 
 ## 目录库
 
