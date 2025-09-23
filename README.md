@@ -309,6 +309,7 @@
   * [统计](docs/doc2.md#统计)
   * [直方图](docs/doc2.md#直方图)
   * [运筹学](docs/doc2.md#运筹学)
+* [图处理](docs/doc2.md#图处理)
 * [本体库](docs/doc2.md#本体库)
   * [本体编辑器](docs/doc2.md#本体编辑器)
   * [本体推理机](docs/doc2.md#本体推理机)
@@ -322,12 +323,12 @@
   * [生物工作流](docs/doc2.md#生物工作流)
   * [基因组](docs/doc2.md#基因组)
   * [NGS](docs/doc2.md#NGS)
+* [化学库](docs/doc2.md#化学库)
 * [网络爬虫](docs/doc2.md#网络爬虫)
   * [爬虫库](docs/doc2.md#爬虫库)
   * [HTML提取](docs/doc2.md#HTML提取)
   * [爬虫平台](docs/doc2.md#爬虫平台)
   * [Youtube爬取](docs/doc2.md#Youtube爬取)
-* [化学库](docs/doc2.md#化学库)
 * [工作流](docs/doc2.md#工作流)
 * [编排引擎](docs/doc2.md#编排引擎)
 * [规则引擎](docs/doc2.md#规则引擎)
@@ -601,6 +602,8 @@
   * [Android抽屉库](docs/doc2.md#Android抽屉库)
   * [Android动画库](docs/doc2.md#Android动画库)
   * [Android插件框架](docs/doc2.md#Android插件框架)
+  * [Android WebView](docs/doc2.md#Android-WebView)
+  * [Android加载库](docs/doc2.md#Android加载库)
 * [GUI开发/程序](docs/doc2.md#GUI开发程序)
   * [GUI框架](docs/doc2.md#GUI框架)
   * [移动开发框架](docs/doc2.md#移动开发框架)
@@ -3001,7 +3004,8 @@
 * [OUYUNC IM](https://gitee.com/etxync/ouyunc-im)：偶云客IM是一款开源免费基于Netty的即时通讯框架。
 * [SubtleChat](https://github.com/JustCoding-Hai/subtlechat)：微言是基于前后端分离，采用Spring Boot、Vue框架开发的网页版聊天室。
 * [AnyChat](https://github.com/dianbaer/anychat)：AnyChat是一个极简纯净的WebSocket聊天插件，支持对接任何身份系统，嵌入方只需提供三个API即可进行实时通讯。
-* [Muchat](https://gitee.com/pisces-hub/muchat)：Muchat是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
+* [MuChat](https://gitee.com/pisces-hub/muchat)：MuChat是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
+* [Chat UniApp](https://gitee.com/lakaola/chat-api)：聊天IM，精仿微信，支持单聊、群聊、朋友圈、摇一摇、附近的人、收藏、扫码、机器人、文字、图片、名片、实时音视频通话等功能。
 
 #### 视频通讯
 
@@ -3886,6 +3890,7 @@
 * [Llama3.java](https://github.com/mukel/llama3.java)：Java中的实用Llama 3推理。
 * [GPULlama3](https://github.com/beehive-lab/GPULlama3.java)：使用原生Java编写的Llama3模型，通过TornadoVM在GPU上自动加速，由曼彻斯特大学开源。
 * [UOLLM](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，永源的商业产品。
+* [LLama Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
 
 #### AI智能体
 
@@ -3895,6 +3900,7 @@
 * [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
 * [SparkX](https://gitee.com/shop-sparker/spark-x)：SparkX是Spring Boot 3、PgSQL、Vue 3开发，采用大语言模型和编排的AI智能体开发平台。
 * [AgentX](https://github.com/lucky-aeon/AgentX)：AgentX是一个基于大模型和多能力平台的智能Agent构建平台。
+* [Coze Java](https://github.com/coze-dev/coze-java)：Coze API SDK Java是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
 
 #### LLM客户端
 
@@ -3909,8 +3915,7 @@
 * [EDDI](https://github.com/labsai/eddi)：EDDI是一个中间件，用于连接和管理LLM API机器人，为OpenAI ChatGPT、Facebook Hugging Face、Anthropic Claude、Google Gemini和Ollama等API提供高级提示和对话管理。
 * [OpenAI4j](https://github.com/ai-for-java/openai4j)：这是一个非官方的Java客户端库，可帮助你的Java应用程序与OpenAI API连接。
 * [Ollama4j](https://github.com/ollama4j/ollama4j)：用于与Ollama服务器交互的Java库。
-* [LLaMA Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
-* [OpenAi4J](https://github.com/Lambdua/openai4j)：OpenAi4J是一个非官方Java库，旨在促进与OpenAI的GPT模型的交互，包括gpt4-turbo Vision、assistant-v2等最新功能。
+* [OpenAi4J](https://github.com/Lambdua/openai4j)：OpenAi4J是一个非官方Java库，旨在促进与OpenAI的GPT模型的交互，包括GPT4-Turbo Vision、Assistant v2等最新功能。
 * [Simple OpenAI](https://github.com/sashirestela/simple-openai)：Simple OpenAI是一个Java HTTP客户端库，用于向OpenAI API发送请求并接收响应。
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
@@ -3921,7 +3926,6 @@
 * [Anthropic Java API](https://github.com/anthropics/anthropic-sdk-java)：Anthropic Java SDK提供了从用Java编写的应用程序方便访问Anthropic REST API的功能。
 * [Qianfan SDK](https://github.com/baidubce/bce-qianfan-sdk)：百度千帆大模型平台SDK。
 * [Dify Java Client](https://github.com/imfangs/dify-java-client)：Dify Java Client是一个用于与Dify平台进行交互的Java客户端库。
-* [Coze Java](https://github.com/coze-dev/coze-java)：Coze API SDK Java是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
 * [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
 * [AI4j](https://github.com/LnYo-Cly/ai4j)：用于快速接入AI大模型应用的Java SDK。
 * [AI Java](https://github.com/mainpropath/AI-java)：AI Java旨在简化与各大模型API的交互。

@@ -163,7 +163,7 @@
 * [Thucydides](https://github.com/thucydides-webtests/thucydides)：Thucydides是一个旨在使编写自动化验收测试变得更容易、更有趣的库。
 * [Gwen](https://github.com/shazam/gwen)：Gwen是一个简单的库，允许使用Given/When/Then语法编写验收测试。
 * [JLineup](https://github.com/otto-de/jlineup)：JLineup是一个对于网页的自动视觉回归测试非常有用的工具，特别是在持续交付管道中，它可以用作简单的命令行工具或通过REST API控制的小型Web服务。
-* [Simple DSL](https://github.com/LMAX-Exchange/Simple-DSL)：Simple-DSL是LMAX Exchange使用的一种编写验收测试的风格，旨在平衡人类和机器的可读性。
+* [Simple DSL](https://github.com/LMAX-Exchange/Simple-DSL)：Simple DSL是LMAX Exchange使用的一种编写验收测试的风格，旨在平衡人类和机器的可读性。
 * [RestFixture](https://github.com/smartrics/RestFixture)：RestFixture是一个FitNesse测试夹具，允许开发人员和/或产品所有者以简单的方式为REST服务编写测试夹具。
 * [JWebUnit](https://github.com/JWebUnit/jwebunit)：JWebUnit是一个Java框架，有助于为Web应用程序创建验收测试。
 
@@ -1708,6 +1708,29 @@
 * [OR-Tools](https://github.com/google/or-tools)：OR-Tools是一款用于解决组合优化问题的开源、快速且可移植的软件套件，由Google开源。
 * [jORLib](https://github.com/coin-or/jorlib)：jORLib是一个Java类库，提供运筹学问题的实现。
 
+## 图处理
+
+* [GraphX](https://github.com/apache/spark/tree/master/graphx)：Spark GraphX是一个分布式图处理框架，它是基于Spark平台提供对图计算和图挖掘简洁易用的而丰富的接口。
+* [GeaFlow](https://github.com/apache/geaflow)：GeaFlow是蚂蚁集团的流图计算引擎。
+* [GraphJet](https://github.com/twitter/GraphJet)：GraphJet是一个用Java编写的实时图处理库，由Twitter开源。
+* [GoldenOrb](https://github.com/jzachr/goldenorb)：GoldenOrb是Google图处理框架Pregel的开源实现。
+* [Graphviz Java](https://github.com/nidi3/graphviz-java)：将Graphviz与纯Java一起使用，使用Java代码创建Graphviz模型并将其转换为漂亮的图形。
+* [GraphChi](https://github.com/GraphChi/graphchi-java)：GraphChi是一个基于磁盘的大规模图计算系统，由CMU开源。
+* [LynxKite](https://github.com/lynxkite/lynxkite)：LynxKite是一个完整的图数据科学平台，适用于超大型图和其他数据集。
+* [GraphFrames](https://github.com/graphframes/graphframes)：GraphFrames是一个基于DataFrame的图包，由加州大学伯克利分校、MIT和Databricks开源。
+* [Gradoop](https://github.com/dbs-leipzig/gradoop)：Gradoop是一个开源研究框架，用于构建在Flink之上的可扩展图分析，由莱比锡大学数据库研究组开发。
+* [SociaLite](https://github.com/socialite-lang/socialite)：SociaLite是一种用于分布式图分析的高级查询语言，由斯坦福开源。
+* [GraphScope](https://github.com/alibaba/GraphScope)：GraphScope是阿里巴巴达摩院智能计算实验室研发并开源的一站式图计算平台。
+* [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
+* [PGQL](https://github.com/oracle/pgql-lang)：PGQL是一种基于SQL的属性图数据模型查询语言，为SQL和NoSQL用户带来图模式匹配功能，由Oracle开源。
+* [Ant Graph Learning](https://github.com/TuGraph-family/TuGraph-AntGraphLearning)：Ant Graph Learning为工业规模的图学习任务提供了全面的解决方案，由蚂蚁开源。
+* [GraphBuilder](https://github.com/intel/graphbuilder)：GraphBuilder库提供了构建大规模图的函数，由Intel开源。
+* [GraphStream](https://github.com/graphstream/gs-core)：GraphStream项目是一个Java库，提供API来建模、分析和可视化图和动态图，由勒阿弗尔大学开源。
+* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：Erdos是一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
+* [Signal/Collect](https://github.com/uzh/signal-collect)：Signal/Collect是一个用于大型图计算的框架，由苏黎世大学开源。
+* [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
+* [GraphTea](https://github.com/rostam/GraphTea)：GraphTea是一个用于处理图和社交网络的软件框架。
+
 ## 本体库
 
 * [OWLAPI](https://github.com/owlcs/owlapi)：OWL API是用于创建、操作和序列化OWL本体的Java API，由曼彻斯特大学开源。
@@ -1930,28 +1953,25 @@
 * [AdamaJava](https://github.com/AdamaJava/adamajava)：AdamaJava包含与新一代测序(NGS)分析相关的变异调用程序和流程工具的代码，由昆士兰医学研究院伯格霍夫医学研究所的基因组信息学小组开发和维护。
 * [Trimmomatic](https://github.com/usadellab/Trimmomatic)：由Usadel实验室开发的基于Java的Illumina NGS测序数据处理和修剪工具，能够处理单端和双端读取。
 
-## 图处理
+## 化学库
 
-* [GraphX](https://github.com/apache/spark/tree/master/graphx)：Spark GraphX是一个分布式图处理框架，它是基于Spark平台提供对图计算和图挖掘简洁易用的而丰富的接口。
-* [GeaFlow](https://github.com/apache/geaflow)：GeaFlow是蚂蚁集团的流图计算引擎。
-* [GraphJet](https://github.com/twitter/GraphJet)：GraphJet是一个用Java编写的实时图处理库，由Twitter开源。
-* [GoldenOrb](https://github.com/jzachr/goldenorb)：GoldenOrb是Google图处理框架Pregel的开源实现。
-* [Graphviz Java](https://github.com/nidi3/graphviz-java)：将Graphviz与纯Java一起使用，使用Java代码创建Graphviz模型并将其转换为漂亮的图形。
-* [GraphChi](https://github.com/GraphChi/graphchi-java)：GraphChi是一个基于磁盘的大规模图计算系统，由CMU开源。
-* [LynxKite](https://github.com/lynxkite/lynxkite)：LynxKite是一个完整的图数据科学平台，适用于超大型图和其他数据集。
-* [GraphFrames](https://github.com/graphframes/graphframes)：GraphFrames是一个基于DataFrame的图包，由加州大学伯克利分校、MIT和Databricks开源。
-* [Gradoop](https://github.com/dbs-leipzig/gradoop)：Gradoop是一个开源研究框架，用于构建在Flink之上的可扩展图分析，由莱比锡大学数据库研究组开发。
-* [SociaLite](https://github.com/socialite-lang/socialite)：SociaLite是一种用于分布式图分析的高级查询语言，由斯坦福开源。
-* [GraphScope](https://github.com/alibaba/GraphScope)：GraphScope是阿里巴巴达摩院智能计算实验室研发并开源的一站式图计算平台。
-* [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
-* [PGQL](https://github.com/oracle/pgql-lang)：PGQL是一种基于SQL的属性图数据模型查询语言，为SQL和NoSQL用户带来图模式匹配功能，由Oracle开源。
-* [Ant Graph Learning](https://github.com/TuGraph-family/TuGraph-AntGraphLearning)：Ant Graph Learning为工业规模的图学习任务提供了全面的解决方案，由蚂蚁开源。
-* [GraphBuilder](https://github.com/intel/graphbuilder)：GraphBuilder库提供了构建大规模图的函数，由Intel开源。
-* [GraphStream](https://github.com/graphstream/gs-core)：GraphStream项目是一个Java库，提供API来建模、分析和可视化图和动态图，由勒阿弗尔大学开源。
-* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：Erdos是一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
-* [Signal/Collect](https://github.com/uzh/signal-collect)：Signal/Collect是一个用于大型图计算的框架，由苏黎世大学开源。
-* [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
-* [GraphTea](https://github.com/rostam/GraphTea)：GraphTea是一个用于处理图和社交网络的软件框架。
+* [CDK](https://github.com/cdk/cdk)：CDK是一个用于化学信息学和生物信息学的开源Java库。
+* [Eclipse ChemClipse](https://github.com/eclipse/chemclipse)：Eclipse ChemClipse项目提供化学信息学和生物信息学领域的数据读取和处理功能，由Eclipse科学工作组开源。
+* [JChemPaint](https://github.com/JChemPaint/jchempaint)：JChemPaint是使用CDK开发的2D化学结构编辑器和查看器。
+* [OpenChemLib](https://github.com/Actelion/openchemlib)：OpenChemLib是基于Java的框架，提供化学信息学核心功能和用户界面组件。
+* [ChemicalTagger](https://github.com/BlueObelisk/chemicaltagger)：ChemicalTagger是化学领域语义文本挖掘的工具。
+* [JMol](https://github.com/BobHanson/Jmol-SwingJS)：JMol是一个开源Java/SwingJS应用程序，用于可视化和分析具有化学品特征的3D分子结构、晶体、材料和生物分子。
+* [SMSD](https://github.com/asad/smsd)：SMSD是一个基于Java的软件库，用于查找小分子之间的最大公共子图(MCS)/子结构，由欧洲生物信息学研究所开源。
+* [MORTAR](https://github.com/FelixBaensch/MORTAR)：MORTAR是一款免费的开源图形桌面应用程序，支持分子计算机碎片化和子结构分析，由德国威斯特伐利亚应用技术大学开源。
+* [Indigo](https://github.com/epam/Indigo)：通用化学信息学工具包、实用程序和数据库搜索工具。
+* [LaMa4J](https://lama4j.di.unimi.it/)：LaMa4J是一组实现许多晶格和晶格运算的Java类。
+* [Toxtree](https://toxtree.sourceforge.net/)：Toxtree是一个功能齐全、灵活、用户友好的开源应用程序，它能够通过应用决策树方法来估计毒性危害。
+* [OPSIN](https://github.com/dan2097/opsin)：OPSIN是一个用于IUPAC名称到结构转换的Java库，可为有机化学命名法提供高召回率和精确度，由剑桥大学化学系开源。
+* [MolVec](https://github.com/ncats/molvec)：NCATS(化学) OCR引擎，可以将化学图像矢量化为化学对象，并尽可能保留2D布局，由国家转化科学促进中心开源。
+* [AMBIT](https://ambit.sourceforge.net/)：AMBIT为化学物质、结构和纳米材料提供化学信息学数据管理。
+* [DataWarrior](https://github.com/thsa/datawarrior)：DataWarrior是一个用于交互式数据分析和可视化的程序。
+* [Patent Reaction Extractor](https://github.com/dan2097/patent-reaction-extraction)：化学反应的文本挖掘，由剑桥大学开源。
+* [DENOPTIM](https://github.com/denoptim-project/DENOPTIM)：DENOPTIM是一款用于功能化合物从头设计和虚拟筛选的软件。
 
 ## 网络爬虫
 
@@ -2036,26 +2056,6 @@
 * [JavaTube](https://github.com/felipeucelli/JavaTube)：JavaTube是一个基于pytube库的YouTube视频下载库。
 * [YouTube Comment Suite](https://github.com/mattwright324/youtube-comment-suite)：YouTube Comment Suite可让你汇总来自众多视频、播放列表和频道的YouTube评论，以便存档、常规搜索和显示活动。
 * [MediaServiceCore](https://github.com/yuliskov/MediaServiceCore)：YouTube的非官方Java API。
-
-## 化学库
-
-* [CDK](https://github.com/cdk/cdk)：CDK是一个用于化学信息学和生物信息学的开源Java库。
-* [Eclipse ChemClipse](https://github.com/eclipse/chemclipse)：Eclipse ChemClipse项目提供化学信息学和生物信息学领域的数据读取和处理功能，由Eclipse科学工作组开源。
-* [JChemPaint](https://github.com/JChemPaint/jchempaint)：JChemPaint是使用CDK开发的2D化学结构编辑器和查看器。
-* [OpenChemLib](https://github.com/Actelion/openchemlib)：OpenChemLib是基于Java的框架，提供化学信息学核心功能和用户界面组件。
-* [ChemicalTagger](https://github.com/BlueObelisk/chemicaltagger)：ChemicalTagger是化学领域语义文本挖掘的工具。
-* [JMol](https://github.com/BobHanson/Jmol-SwingJS)：JMol是一个开源Java/SwingJS应用程序，用于可视化和分析具有化学品特征的3D分子结构、晶体、材料和生物分子。
-* [SMSD](https://github.com/asad/smsd)：SMSD是一个基于Java的软件库，用于查找小分子之间的最大公共子图(MCS)/子结构，由欧洲生物信息学研究所开源。
-* [MORTAR](https://github.com/FelixBaensch/MORTAR)：MORTAR是一款免费的开源图形桌面应用程序，支持分子计算机碎片化和子结构分析，由德国威斯特伐利亚应用技术大学开源。
-* [Indigo](https://github.com/epam/Indigo)：通用化学信息学工具包、实用程序和数据库搜索工具。
-* [LaMa4J](https://lama4j.di.unimi.it/)：LaMa4J是一组实现许多晶格和晶格运算的Java类。
-* [Toxtree](https://toxtree.sourceforge.net/)：Toxtree是一个功能齐全、灵活、用户友好的开源应用程序，它能够通过应用决策树方法来估计毒性危害。
-* [OPSIN](https://github.com/dan2097/opsin)：OPSIN是一个用于IUPAC名称到结构转换的Java库，可为有机化学命名法提供高召回率和精确度，由剑桥大学化学系开源。
-* [MolVec](https://github.com/ncats/molvec)：NCATS(化学) OCR引擎，可以将化学图像矢量化为化学对象，并尽可能保留2D布局，由国家转化科学促进中心开源。
-* [AMBIT](https://ambit.sourceforge.net/)：AMBIT为化学物质、结构和纳米材料提供化学信息学数据管理。
-* [DataWarrior](https://github.com/thsa/datawarrior)：DataWarrior是一个用于交互式数据分析和可视化的程序。
-* [Patent Reaction Extractor](https://github.com/dan2097/patent-reaction-extraction)：化学反应的文本挖掘，由剑桥大学开源。
-* [DENOPTIM](https://github.com/denoptim-project/DENOPTIM)：DENOPTIM是一款用于功能化合物从头设计和虚拟筛选的软件。
 
 ## 工作流
 
@@ -2174,6 +2174,7 @@
 * [Rule Engine](https://github.com/jetlinks/rule-engine)：基于流程的流式规则引擎。
 * [Power Flows DMN](https://github.com/powerflows/powerflows-dmn)：Power Flows DMN是一个强大的决策引擎。
 * [Rulette](https://github.com/kislayverma/Rulette)：Rulette是一个轻量级、与领域无关的规则建模、存储和评估引擎。
+* [Dyna Guard](https://gitee.com/vd3/dyna-guard)：Dyna Guard是一个基于Java的动态校验框架。
 
 ## 状态机
 
@@ -2995,6 +2996,7 @@
 * [Swagger Dubbo](https://github.com/Sayi/swagger-dubbo)：Dubbo的Swagger服务文档。
 * [Swagger Akka HTTP](https://github.com/swagger-akka-http/swagger-akka-http)：Swagger Akka HTTP为Akka-Http API带来了Swagger支持。
 * [Swagger Gradle Plugin](https://github.com/gigaSproule/swagger-gradle-plugin)：支持JAX-RS和Spring MVC来生成Swagger文档的Gradle构建插件。
+* [Wirespec](https://github.com/flock-community/wirespec)：Wirespec是一款现代化的工具，它通过简化API的设计、文档编写和实现流程来增强软件开发。
 
 #### 模式解析
 
@@ -4580,6 +4582,7 @@
 * [U3W AI](https://gitee.com/U3W-AI/U3W-AI)：优立方AI主机提供多AI平台集成的AIGC解决方案，支持免Token使用并与微信生态对接。
 * [Art](https://gitee.com/fxzcloud/art)：Art是一个开源、一站式AI应用开发平台，其灵感来源于行业领先的Coze和Dify。
 * [Torch Yun](https://github.com/isxcode/torch-yun)：至数云是一款超轻量、企业级人工智能应用平台。
+* [JoySafety](https://github.com/jd-opensource/JoySafety)：JoySafety是京东开源的大模型安全框架。
 
 #### OA系统
 
@@ -6633,6 +6636,56 @@
 * [Neptune](https://github.com/iqiyi/Neptune)：Neptune是一个灵活、强大且轻量级的Android插件框架，由爱奇艺开源。
 * [APF](https://github.com/umeng/apf)：APF旨在为Android应用程序提供一个灵活、可扩展的框架。
 
+#### Android WebView
+
+* [VasSonic](https://github.com/Tencent/VasSonic)：VasSonic是腾讯VAS团队开发的轻量级高性能混合框架，旨在加速Android和iOS平台上网站的首屏显示。
+* [AgentWeb](https://github.com/Justson/AgentWeb)：AgentWeb是一个基于Android WebView的强大库。
+* [AdvancedWebView](https://github.com/delight-im/Android-AdvancedWebView)：增强型Android WebView组件，开箱即用。
+* [CacheWebView](https://github.com/yale8848/CacheWebView)：CacheWebView通过拦截资源实现自定义缓存静态资源。
+* [ByWebView](https://github.com/youlookwhat/ByWebView)：WebView全方面使用，JS交互、进度条、上传图片、错误页面、视频全屏播放、唤起原生App、获取网页源代码、被作为第三方浏览器打开、DeepLink。
+* [FinestWebView](https://github.com/TheFinestArtist/FinestWebView-Android)：美观且可定制的Android Activity，可在应用程序内显示网页。
+* [EinkBro](https://github.com/plateaukao/einkbro)：基于Android WebView的小型、快速的Web浏览器。
+* [Compose WebView Multiplatform](https://github.com/KevinnZou/compose-webview-multiplatform)：JetBrains Compose多平台的WebView。
+* [Compose WebView](https://github.com/KevinnZou/compose-webview)：Jetpack Compose的WebView包装器。
+* [AndroidFastScroll](https://github.com/zhanghai/AndroidFastScroll)：适用于Android RecyclerView等的快速滚动。
+* [JsBridge](https://github.com/pengwei1024/JsBridge)：一种更简单、可扩展的Android WebView与JavaScript双向通信框架。
+* [Android Smart WebView](https://github.com/mgks/Android-SmartWebView)：Android Smart WebView是一种用于构建高级混合Android应用程序的现代开源解决方案。
+* [CustomActionWebView](https://github.com/CarGuo/CustomActionWebView)：自定义WebView长按文本弹出选项。
+* [WebViewUpgrade](https://github.com/JonaNorman/WebViewUpgrade)：该库实现了Android上WebView内核的免安装升级功能。
+* [FastWebView](https://github.com/Ryan-Shz/FastWebView)：自定义本地缓存策略和资源加载策略，突破原生WebView缓存限制，实现多种缓存模式，支持离线加载和预加载，可大幅提升加载速度。
+* [EasyBridge](https://github.com/easilycoder/EasyBridge)：一个简单的JS Bridge设计，提供Java和JavaScript之间通信的能力。
+* [Codeview](https://github.com/avraampiperidis/Codeview)：Codeview是一个Android库，它能让你轻松便捷地在WebView中预览代码，并支持高亮和颜色显示。
+
+#### Android加载库
+
+* [AVLoadingIndicatorView](https://github.com/HarlonWang/AVLoadingIndicatorView)：AVLoadingIndicatorView是适用于Android的精美加载动画的集合。
+* [Android SpinKit](https://github.com/ybq/Android-SpinKit)：Android加载动画。
+* [Blurhash](https://github.com/mrousavy/react-native-blurhash)：BlurHash是图像占位符的紧凑表示。
+* [LoadingDrawable](https://github.com/dinuscxj/LoadingDrawable)：一些精美的Android加载Drawable，可以像LoadingView或ProgressBar一样与任意View组合使用。
+* [LoadSir](https://github.com/KingJA/LoadSir)：LoadSir是一个高效易用，低碳环保，扩展性良好的加载反馈页管理框架。
+* [SmartRefreshHorizontal](https://github.com/scwang90/SmartRefreshHorizontal)：SmartRefreshHorizontal作为SmartRefreshLayout的扩展库，实现了横向刷新和加载的功能。
+* [LoadingView](https://github.com/ldoublem/LoadingView)：简单的带有动画效果的加载控件。
+* [Loader View Android](https://github.com/elye/loaderviewlibrary)：为TextView和ImageView提供在显示任何文本或图像之前显示闪烁(动画加载器)的功能。
+* [MaterialLoadingProgressBar](https://github.com/lsjwzh/MaterialLoadingProgressBar)：MaterialLoadingProgressBar提供了一个样式化的ProgressBar，看起来像SwipeRefreshLayout的加载指示器。
+* [ExcelPanel](https://github.com/zhouchaoyuan/excelPanel)：一个二维的RecyclerView，不仅可以加载历史数据，还可以加载未来的数据。
+* [WaveLoadingView](https://github.com/tangqi92/WaveLoadingView)：提供逼真的波浪加载效果的Android库。
+* [MkLoader](https://github.com/jamesnguyenhub/mkloader)：美观流畅的自定义加载视图。
+* [FiftyShadesOf](https://github.com/florent37/FiftyShadesOf)：适用于Android的优雅Context-Care加载占位符。
+* [LoadingLayout](https://github.com/czy1121/loadinglayout)：简单实用的页面多状态布局。
+* [ZLoading](https://github.com/zyao89/ZLoading)：这是一个自定义Loading View库。
+* [CircleProgressView](https://github.com/jenly1314/CircleProgressView)：CircleProgressView Android是一个圆形的进度动画控件，动画效果纵享丝滑。
+* [MaterialImageLoading](https://github.com/florent37/MaterialImageLoading)：Material图片加载实现。
+* [StateViews](https://github.com/medyo/StateViews)：StateViews基于ViewSwitcher机制，允许处理不同的应用程序状态，从加载到显示数据和错误视图。
+* [KProgressHUD](https://github.com/liangchengcheng/android-loading-dialog)：Android版ProgressHUD工具，类似MBProgressHUD、SVProgressHUD。
+* [LoadViewHelper](https://github.com/yangchaojiang/DemoLoadView)：切换加载中，加载失败，加载成功布局，支持全局和局部之自定义布局 定义一个LoadViewHelper所有界面通用
+* [LoadingBar](https://github.com/xiandanin/LoadingBar)：极简使用的解耦Loading组件。
+* [PageStateManager](https://github.com/hss01248/PageStateManager)：管理页面的加载、空、错误状态。
+* [ButtonLoading](https://github.com/rasoulmiri/ButtonLoading)：漂亮的花式按钮加载。
+* [Cosin](https://github.com/NikitaGordia/Cosin)：Android加载视图库。
+* [AnimatedLoadingIndicator](https://github.com/yash786agg/AnimatedLoadingIndicator)：这是一个简单但有效的动画加载指示器，只需几行代码即可轻松使用。
+* [StateLayout](https://github.com/junixapp/StateLayout)：一种无侵入，使用简单，无需修改现有布局，动态切换布局状态(Loading/Error/Empty/Content)的解决方案。
+* [ArrowDrawable](https://github.com/wuyr/ArrowDrawable)：纯Paint实现的一个射箭效果，可用作Loading动画。
+
 ## GUI开发/程序
 
 这里列出了Java中常用的Swing、JavaFX开发库，以及一些Java开发的GUI工具和游戏引擎。
@@ -7000,8 +7053,9 @@
 * [Lobo Evolution](https://github.com/LoboEvolution/LoboEvolution)：Lobo Evolution是一个可扩展的全Java Web浏览器和RIA平台。
 * [Easy Browser](https://gitee.com/fhs-opensource/easy-browser)：Java开源浏览器，基于JxBrowser实现，已经包含了绝大多数的浏览器基础功能。
 * [Webicity](https://github.com/WebicityBrowser/Webicity)：Webicity是一个简单的Web浏览器。
-* [JFX-Browser](https://github.com/badarshahzad/Jfx-Browser)：JFX Browser是一个多选项卡浏览器。
+* [JFX Browser](https://github.com/badarshahzad/Jfx-Browser)：JFX Browser是一个多选项卡浏览器。
 * [Webview Java](https://github.com/webview/webview_java)：Webview项目的Java移植，它使用JNA并自动提取当前系统所需的dll/dylib/so库。
+* [Journey](https://github.com/BFergerson/Journey)：Journey是一款由JCEF提供支持的跨平台Web浏览器，旨在满足对开源JxBrowser替代品的需求。
 
 #### JavaFX程序
 
