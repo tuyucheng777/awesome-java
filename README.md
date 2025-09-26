@@ -459,6 +459,7 @@
   * [秒杀系统](docs/doc2.md#秒杀系统)
   * [医疗系统](docs/doc2.md#医疗系统)
   * [项目管理](docs/doc2.md#项目管理)
+  * [问题跟踪系统](docs/doc2.md#问题跟踪系统)
   * [QA系统](docs/doc2.md#QA系统)
   * [CMS系统](docs/doc2.md#CMS系统)
   * [论坛系统](docs/doc2.md#论坛系统)
@@ -1286,7 +1287,6 @@
 * [Cantor](https://github.com/salesforce/cantor)：Cantor是一个数据服务层，它为各种存储解决方案(例如MySQL和S3)之上的多种基本数据结构提供持久化，由Salesforce开源。
 * [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
-* [Super SQL](https://gitee.com/guocjsh/supersql-open)：Super SQL是一个基于国内外先进生成式大模型的Java框架，实现从自然语言文本到SQL查询的智能转换。
 * [MySQL Backup4j](https://github.com/SeunMatt/mysql-backup4j)：MySQL Backup4j是一个用于以编程方式导出MySQL数据库并将压缩转储发送到电子邮件、Amazon S3、Google Drive或任何其他选择的云存储的库。
 * [Ektorp](https://github.com/helun/Ektorp)：Ektorp是一个使用CouchDB作为存储引擎的持久层API。
 * [PgBulkInsert](https://github.com/PgBulkInsert/PgBulkInsert)：PgBulkInsert是一个使用二进制复制协议向PostgreSQL进行批量插入的Java库。
@@ -1556,6 +1556,7 @@
 * [Idris JVM](https://github.com/mmhelloworld/idris-jvm)：Idris 2是一种纯函数式编程语言，该项目提供针对JVM字节码的Idris 2编译器，以便Idris 2程序可以在JVM上运行。
 * [Redline Smalltalk](https://github.com/redline-smalltalk/redline-smalltalk)：Redline Smalltalk是JVM上的Smalltalk。
 * [Fuzion](https://github.com/tokiwa-software/fuzion)：Fuzion是一种注重简单性、安全性和正确性的语言。
+* [Snow](https://gitee.com/jcnc-org/snow)：Snow是一门面向AI时代的新型编程语言，灵感源自大模型的发展趋势。
 
 ## 云原生
 
@@ -2809,6 +2810,7 @@
 * [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：OkGo基于HTTP协议，封装了OkHttp的网络请求框架。
 * [Wasp](https://github.com/orhanobut/wasp)：紧凑且易于使用的“一体化”Android网络解决方案。
 * [STTP](https://github.com/softwaremill/sttp)：STTP是SoftwareMill开源的库，它提供了一个干净的、程序员友好的API来描述HTTP请求以及如何处理响应。
+* [Http4s](https://github.com/http4s/http4s)：Http4s是一个极简且符合Scala规范的HTTP服务接口。
 * [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Java和Android的异步套接字、HTTP(s)和WebSocket库；基于NIO，而不是线程。
 * [Chuck](https://github.com/jgilfelt/chuck)：Chuck是一个简单的应用内HTTP检查器，适用于Android OkHttp客户端。
 * [NoHttp](https://github.com/yanzhenjie/NoHttp)：NoHttp是一个Android实现的HTTP标准协议框架，支持多种缓存模式，底层可动态切换OkHttp、URLConnection。
@@ -3894,7 +3896,7 @@
 
 #### AI智能体
 
-* [JManus](https://github.com/alibaba/spring-ai-alibaba/tree/main/spring-ai-alibaba-jmanus)：Manus是用于构建通用AI代理的开源框架，JManus是Manus的Java实现，由阿里开源。
+* [JManus](https://github.com/spring-ai-alibaba/JManus)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
 * [JoyAgent JDGenie](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
 * [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
