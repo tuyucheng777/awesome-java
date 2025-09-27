@@ -16,13 +16,6 @@
   * [Spring Cloud框架](#Spring-Cloud框架)
   * [DDD框架](#DDD框架)
   * [CQRS框架](#CQRS框架)
-* [数据库开发](#数据库开发)
-  * [ORM框架](#ORM框架)
-  * [JDBC框架](#JDBC框架)
-  * [持久层库](#持久层库)
-  * [NoSQL库](#NoSQL库)
-  * [事务](#事务)
-  * [数据库连接池](#数据库连接池)
 * [微服务库](#微服务库)
 * [微服务治理](#微服务治理)
 * [REST错误处理](#REST错误处理)
@@ -73,6 +66,7 @@
   * [消息总线](#消息总线)
   * [应用总线](#应用总线)
   * [消息队列客户端](#消息队列客户端)
+  * [Kafka](#Kafka)
 * [分布式开发](#分布式开发)
   * [分布式锁](#分布式锁)
   * [分布式ID](#分布式ID)
@@ -146,6 +140,9 @@
   * [Logback Appender](#Logback-Appender)
   * [结构化日志](#结构化日志)
 * [缓存库](#缓存库)
+  * [本地缓存](#本地缓存)
+  * [分布式缓存](#分布式缓存)
+  * [缓存管理器](#缓存管理器)
 * [批处理框架](#批处理框架)
 * [并发编程](#并发编程)
   * [响应式](#响应式)
@@ -235,6 +232,34 @@
   * [测试套件](docs/doc2.md#测试套件)
   * [测试异味](docs/doc2.md#测试异味)
   * [代码覆盖率](docs/doc2#代码覆盖率)
+* [数据库开发](docs/doc2.md#数据库开发)
+  * [数据库驱动](docs/doc2.md#数据库驱动)
+  * [ORM框架](docs/doc2.md#ORM框架)
+  * [JDBC框架](docs/doc2.md#JDBC框架)
+  * [持久层库](docs/doc2.md#持久层库)
+  * [NoSQL库](docs/doc2.md#NoSQL库)
+  * [事务](docs/doc2.md#事务)
+  * [Mybatis库](docs/doc2.md#Mybatis库)
+  * [Hibernate库](docs/doc2.md#Hibernate库)
+  * [JPA库](docs/doc2.md#JPA库)
+  * [数据库连接池](docs/doc2.md#数据库连接池)
+  * [数据库迁移](docs/doc2.md#数据库迁移)
+  * [数据源增强](docs/doc2.md#数据源增强)
+  * [数据库工具](docs/doc2.md#数据库工具)
+  * [存储过程](docs/doc2.md#存储过程)
+  * [N+1检测](docs/doc2.md#N1检测)
+  * [Redis库/工具](docs/doc2.md#Redis库工具)
+  * [MongoDB库/工具](docs/doc2.md#MongoDB库工具)
+  * [Cassandra库/工具](docs/doc2.md#Cassandra库工具)
+  * [Memcached库/工具](docs/doc2.md#Memcached库工具)
+  * [Zookeeper库/工具](docs/doc2.md#Zookeeper库工具)
+  * [ClickHouse库/工具](docs/doc2.md#ClickHouse库工具)
+  * [ElasticSearch库/工具](docs/doc2.md#ElasticSearch库工具)
+  * [DynamoDB库/工具](docs/doc2.md#DynamoDB库工具)
+  * [Neo4j库/工具](docs/doc2.md#Neo4j库工具)
+  * [Etcd库/工具](docs/doc2.md#Etcd库工具)
+  * [Milvus库/工具](docs/doc2.md#Milvus库工具)
+  * [Vault库/工具](docs/doc2.md#Vault库工具)
 * [安全](docs/doc2.md#安全)
   * [安全框架](docs/doc2.md#安全框架)
   * [JWT库](docs/doc2.md#JWT库)
@@ -481,6 +506,7 @@
   * [SCRM系统](docs/doc2.md#SCRM系统)
   * [门户框架](docs/doc2.md#门户框架)
   * [教育软件](docs/doc2.md#教育软件)
+  * [评测系统](docs/doc2.md#评测系统)
   * [BaaS](docs/doc2.md#BaaS)
   * [Data API](docs/doc2.md#Data-API)
   * [插件框架](docs/doc2.md#插件框架)
@@ -497,6 +523,7 @@
 * [云服务SDK](docs/doc2.md#云服务SDK)
 * [微信开发](docs/doc2.md#微信开发)
 * [推送SDK](docs/doc2.md#推送SDK)
+* [异常通知](docs/doc2.md#异常通知)
 * [APN](docs/doc2.md#APN)
 * [Webhook](docs/doc2.md#Webhook)
 * [API&客户端](docs/doc2.md#API客户端)
@@ -682,26 +709,6 @@
 * [AOT编译器](docs/doc2.md#AOT编译器)
 * [语言服务器](docs/doc2.md#语言服务器)
 * [元编程](docs/doc2.md#元编程)
-* [数据库工具库](docs/doc2.md#数据库工具库)
-  * [数据库驱动](docs/doc2.md#数据库驱动)
-  * [数据库迁移](docs/doc2.md#数据库迁移)
-  * [数据源增强](docs/doc2.md#数据源增强)
-  * [数据库工具](docs/doc2.md#数据库工具)
-  * [存储过程](docs/doc2.md#存储过程)
-  * [N+1检测](docs/doc2.md#N1检测)
-  * [Redis库/工具](docs/doc2.md#Redis库工具)
-  * [Kafka库/工具](docs/doc2.md#Kafka库工具)
-  * [MongoDB库/工具](docs/doc2.md#MongoDB库工具)
-  * [Cassandra库/工具](docs/doc2.md#Cassandra库工具)
-  * [Memcached库/工具](docs/doc2.md#Memcached库工具)
-  * [Zookeeper库/工具](docs/doc2.md#Zookeeper库工具)
-  * [ClickHouse库/工具](docs/doc2.md#ClickHouse库工具)
-  * [ElasticSearch库/工具](docs/doc2.md#ElasticSearch库工具)
-  * [DynamoDB库/工具](docs/doc2.md#DynamoDB库工具)
-  * [Neo4j库/工具](docs/doc2.md#Neo4j库工具)
-  * [Etcd库/工具](docs/doc2.md#Etcd库工具)
-  * [Milvus库/工具](docs/doc2.md#Milvus库工具)
-  * [Vault库/工具](docs/doc2.md#Vault库工具)
 * [对象存储](docs/doc2.md#对象存储)
 * [文件系统](docs/doc2.md#文件系统)
 * [音视频处理](docs/doc2.md#音视频处理)
@@ -854,10 +861,6 @@
 * [Maven插件](docs/doc2.md#Maven插件)
 * [Gradle插件](docs/doc2.md#Gradle插件)
 * [Intellij插件](docs/doc2.md#Intellij插件)
-* [Spring库](docs/doc2.md#Spring库)
-* [Mybatis库](docs/doc2.md#Mybatis库)
-* [Hibernate库](docs/doc2.md#Hibernate库)
-* [JPA库](docs/doc2.md#JPA库)
 * [其他](docs/doc2.md#其他)
 * [教程系列](docs/doc2.md#教程系列)
   * [Java教程](docs/doc2.md#Java教程)
@@ -1173,173 +1176,6 @@
 * [Wow](https://gitee.com/AhooWang/Wow)：Wow是一个基于领域驱动设计和事件溯源的现代响应式CQRS微服务开发框架。
 * [FactCast](https://github.com/factcast/factcast)：基于PostgreSQL的简单EventStore。
 * [Spine Event Engine](https://github.com/SpineEventEngine/core-java)：Spine Event Engine是一个Java框架，用于构建事件源和CQRS应用程序。
-
-## 数据库开发
-
-这里列出了数据库持久层开发相关的框架，例如ORM、事务等。
-
-#### ORM框架
-
-* [Hibernate](https://github.com/hibernate/hibernate-orm)：Hibernate是一个强大的Java ORM解决方案，可以轻松地为应用程序、库和框架开发持久层逻辑，由RedHat开源。
-* [Spring Data JPA](https://github.com/spring-projects/spring-data-jpa)：Spring Data JPA是Spring Data系列的一部分，可以轻松实现基于JPA的Repository。
-* [Mybatis](https://github.com/mybatis/mybatis-3)：MyBatis是一流的持久层框架，支持自定义SQL、存储过程和高级映射。
-* [Mybatis Plus](https://github.com/baomidou/mybatis-plus)：MyBatis Plus是MyBatis的一个强大的增强工具包，用于简化开发。
-* [APIJSON](https://github.com/Tencent/APIJSON)：APIJSON是一种专为API而生的JSON网络传输协议以及基于这套协议实现的ORM库，由腾讯开源。
-* [Exposed](https://github.com/JetBrains/Exposed)：Exposed是一个Kotlin SQL库，有两种风格：轻量级ORM(使用DAO)和类型安全SQL(使用DSL)，由JetBrains开发。
-* [Prisma](https://github.com/prisma/prisma1)：Prisma是一个Scala ORM，具有直观的数据模型、自动迁移、类型安全和自动完成功能。
-* [LitePal](https://github.com/guolindev/LitePal)：LitePal是一个开源Android库，可以让开发人员极其轻松地使用SQLite数据库。
-* [Apache JDO](https://github.com/apache/db-jdo)：JDO是访问数据库中持久数据的标准方法，使用POJO来表示持久数据。
-* [EclipseLink](https://github.com/eclipse-ee4j/eclipselink)：EclipseLink为开发人员提供基于标准的对象关系持久性解决方案，并额外支持许多高级功能，Oracle开源。
-* [GreenDAO](https://github.com/greenrobot/greenDAO)：GreenDAO是一个轻量且快速的Android ORM，可将对象映射到SQLite数据库。
-* [Apache OpenJPA](https://github.com/apache/openjpa)：OpenJPA是Jakarta Persistence API 3.0规范的实现。
-* [QueryDSL](https://github.com/querydsl/querydsl)：QueryDSL是一个可以为多个后端(包括JPA、MongoDB和Java中的SQL)构建类型安全的类SQL查询的框架。
-* [JOOQ](https://github.com/jOOQ/jOOQ)：jOOQ是一个内部DSL和源代码生成器，将SQL语言建模为类型安全的Java API，以帮助你编写更好的SQL。
-* [WCDB](https://github.com/Tencent/wcdb)：WCDB是腾讯微信应用中使用的高效、完整、易用的移动数据库框架。
-* [GORM](https://gorm.grails.org/)：适用于JVM的强大的基于Groovy的数据访问工具包，由Object Computing开源。
-* [Ebean](https://github.com/ebean-orm/ebean)：Ebean是一个纯Java实现的开源ORM框架，它被设计成比JPA更简单、容易理解和使用。
-* [DBFlow](https://github.com/agrosner/DBFlow)：DBFlow是基于SQLite为Android构建的快速、高效且功能丰富的Kotlin数据库库。
-* [Komapper](https://github.com/komapper/komapper)：Komapper是服务器端Kotlin的ORM库。
-* [Permazen](https://github.com/permazen/permazen)：Permazen是用于SQL、键值或内存数据库的持久层框架。
-* [Sugar ORM](https://github.com/chennaione/sugar)：Sugar ORM是一个Android ORM库，它提供了一种简单的方法来存储和检索数据。
-* [ObjectiveSQL](https://github.com/braisdom/ObjectiveSql)：ObjectiveSQL是一个基于ActiveRecord模式的ORM框架，它鼓励快速开发和整洁，最少的代码，以及约定优于配置。
-* [ORMLite](https://github.com/j256/ormlite-core)：ORMLite提供了一些简单、轻量级的功能，用于将Java对象持久保存到SQL数据库，同时避免更标准ORM包的复杂性和开销。
-* [Ktorm](https://github.com/kotlin-orm/ktorm)：Ktorm是一个直接基于纯JDBC的轻量级、高效的Kotlin ORM框架。
-* [Reladomo](https://github.com/goldmansachs/reladomo)：Reladomo是Java的企业级ORM框架，由高盛银行开源。
-* [SQLDelight](https://github.com/sqldelight/sqldelight)：SQLDelight会根据你的SQL语句生成类型安全的Kotlin API，由Square开发。
-* [Apache Cayenne](https://github.com/apache/cayenne)：Cayenne是一个开源持久层框架，提供ORM和远程处理服务，由ObjectStyle开源。
-* [Jimmer](https://github.com/babyfish-ct/jimmer)：Jimmer是一个针对Java和Kotlin的革命性ORM，以及一套基于它的完整的集成方案。
-* [JFinal](https://gitee.com/jfinal/jfinal)：JFinal是基于Java语言的极速Web、ORM框架。
-* [SQLlin](https://github.com/ctripcorp/SQLlin)：SQLlin是一个基于DSL和KSP的Kotlin Multiplatform ORM库，由携程开发。
-* [LiteORM](https://github.com/litesuits/android-lite-orm)：LiteORM是一个小巧、强大、性能更好的Android ORM类库。
-* [AnyLine](https://gitee.com/anyline/anyline)：AnyLine的核心是一个面向运行时的元数据动态ORM。
-* [NgBatis](https://github.com/nebula-contrib/ngbatis)：NgBatis是一个可以使用类似MyBatis、MyBatisPlus的方式，操作NebulaGraph的Java ORM框架。
-* [HsWeb ORM](https://github.com/hs-web/hsweb-easy-orm)：简单的ORM工具，为动态表单而生。
-* [Easy Query](https://github.com/dromara/easy-query)：Easy Query是一款轻量级的ORM框架，无需任何第三方依赖。
-* [Bee](https://github.com/automvc/bee)：Bee是一个人工智能、简单、高效的ORM框架，支持JDBC、Cassandra、MongoDB、Sharding。
-* [JINQ](https://github.com/my2iu/Jinq)：JINQ为开发人员提供了一种用Java编写数据库查询的简单而自然的方法。
-* [Mango](https://github.com/jfaster/mango)：Mango是一个高性能的分布式ORM框架。
-* [Slick](https://github.com/slick/slick)：Slick是Scala的一个高级、全面的数据库访问库，具有强类型、高度可组合的API，由Lightbend开发。
-* [Eloquent](https://github.com/gaarason/database-all)：Eloquent ORM提供一个美观、简单的与数据库打交道的ActiveRecord实现。
-* [ActiveAndroid](https://github.com/pardom-zz/ActiveAndroid)：ActiveAndroid是一个Active Record风格的ORM。
-* [Bean Searcher](https://github.com/troyzhxu/bean-searcher)：专注于高级查询的只读ORM，天然支持连接表，并且避免DTO/VO转换，使得一行代码实现复杂查询成为可能。
-* [Speedment](https://github.com/speedment/speedment)：Speedment是一个开源Java Stream ORM工具包和运行时。
-* [BeetlSQL](https://gitee.com/xiandafu/beetlsql)：BeetlSQL的目标是提供开发高效、维护高效、运行高效的数据库访问框架。
-* [AFinal](https://github.com/yangfuhai/afinal)：AFinal是一个Android的SQLite ORM和IoC框架。
-* [Sqli](https://github.com/x-ream/sqli)：ORM SQL查询构建器。
-* [Persism](https://github.com/sproket/Persism)：Persism是一个轻量级、自动发现、自动配置和约定优于配置的ORM库。
-* [SQLToy](https://github.com/sagframe/sagacity-sqltoy)：SQLToy是基于Java语言开发的，兼有Hibernate面向对象操作和MyBatis灵活查询的优点，同时更贴切项目、更贴切开发者的一个关系型数据库ORM框架。
-* [Android Orma](https://github.com/maskarade/Android-Orma)：Orma是一个适用于Android SQLite数据库的ORM框架。
-* [DBVisitor](https://gitee.com/zycgit/dbvisitor)：DBVisitor提供Java对关系数据库更加自然的访问。
-* [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper)：SimpleFlatMapper提供了一个非常快速且易于使用的映射器。
-* [Sprinkles](https://github.com/emilsjolander/sprinkles)：Sprinkles是一个用于处理Android应用中数据库的简化库。
-* [ORMAN](https://github.com/ahmetb/orman)：ORMAN是一个简约轻量的Java ORM框架，它可以处理常见的数据库使用，而无需编写SQL。
-* [SimpleMybatis](https://github.com/zhangchuangiie/SimpleMybatis)：SimpleMybatis是一个基于Mybatis封装的类JdbcTemplate风格的ORM工具。
-* [Ollie](https://github.com/pardom-zz/Ollie)：Android的编译时Active Record ORM。
-* [Freezer](https://github.com/florent37/Freezer)：Freezer是一个简洁流式的Android ORM。
-* [Scala ActiveRecord](https://github.com/aselab/scala-activerecord)：Scala ActiveRecord是Scala的ORM库。
-* [ScalaSql](https://github.com/com-lihaoyi/scalasql)：ScalaSql是一个Scala ORM库，它允许对SQL数据库进行类型安全的低样板查询。
-* [Entity SQL](https://github.com/wb04307201/entity-sql)：Entity SQL是一个轻量级的Java ORM工具库。
-* [Kotysa](https://github.com/ufoss-org/kotysa)：轻量级ORM，提供为JVM和Android编写Kotlin类型安全SQL的惯用方法。
-
-#### JDBC框架
-
-* [Spring JDBC](https://github.com/spring-projects/spring-framework)：Spring JDBC是Spring框架提供的一个基于JDBC之上的用于操作关系型数据库的模块。
-* [Jdbi](https://github.com/jdbi/jdbi)：Jdbi库提供了对Java和其他JVM语言中的关系数据库的便捷、惯用的访问。
-* [Sql2o](https://github.com/aaberg/sql2o)：Sql2o是一个小型Java库，可以轻松地将SQL语句的结果转换为对象。
-* [Doobie](https://github.com/typelevel/doobie)：Doobie是Scala的纯函数式JDBC层。
-* [Requery](https://github.com/requery/requery)：Requery是一个轻量级但功能强大的对象映射和SQL生成器，适用于Java/Kotlin/Android，支持RxJava和Java 8。
-* [Database](https://github.com/susom/database)：Database提供一种简化的数据库访问方式，它是JDBC驱动程序的包装器，由斯坦福开源。
-* [ScalikeJDBC](https://github.com/scalikejdbc/scalikejdbc)：ScalikeJDBC无缝包装JDBC API，提供直观且高度灵活的功能。
-* [Krush](https://github.com/TouK/krush)：Krush是基于Exposed SQL DSL的Kotlin轻量级持久层。
-* [Dekaf](https://github.com/JetBrains/dekaf)：Dekaf是一个主要通过JDBC处理数据库的Java框架，由JetBrains开源。
-* [DAL](https://github.com/ctripcorp/dal)：DAL是携程框架部开发的数据库访问框架，支持流行的分库分表操作。
-* [Apache Commons DbUtils](https://github.com/apache/commons-dbutils)：Commons DbUtils包是一组用于简化JDBC开发的Java工具类。
-* [Jcabi JDBC](https://github.com/jcabi/jcabi-jdbc)：Jcabi JDBC是JDBC的一个方便、流式的包装器。
-* [FluentJdbc](https://github.com/zsoltherpai/fluent-jdbc)：FluentJdbc是一个用于方便原生SQL查询的Java库。
-* [Yank](https://github.com/knowm/Yank)：Yank是适用于Java应用程序的超轻量JDBC持久层。
-* [Norm](https://github.com/dieselpoint/norm)：Norm是一种访问JDBC数据库的简单方法，通常只需一行代码。
-* [Iciql](https://github.com/gitblit/iciql)：Iciql是一个基于模型的JDBC数据库访问包装器。
-* [JDBCX](https://github.com/jdbcx/jdbcx)：JDBCX通过支持SQL之外的其他数据格式、压缩算法、对象映射、类型转换和查询语言来增强JDBC驱动程序。
-* [SQLLine](https://github.com/julianhyde/sqlline)：SQLLine是一个用于通过JDBC向关系型数据库发出SQL的命令行Shell。
-* [Carbonado](https://github.com/Carbonado/Carbonado)：Carbonado是Java应用程序的可扩展、高性能持久性抽象层，提供底层持久性技术的关系视图，由Amazon开源。
-* [SQLBuilder](https://github.com/jkrasnay/sqlbuilder)：该包包含许多实用程序类，以简化SQL的使用。
-* [Quill](https://github.com/zio/zio-quill)：Quill提供了一种引用领域特定语言，以在Scala中表达查询并以目标语言执行它们。
-* [RxJava JDBC](https://github.com/davidmoten/rxjava-jdbc)：使用JDBC和RxJava Observables高效执行和功能组合数据库调用。
-* [Doma](https://github.com/domaframework/doma)：Doma是适用于Java 8+的面向DAO的数据库映射框架。
-* [Anorm](https://github.com/playframework/anorm)：Anorm是一个简单的数据访问层，它使用纯SQL与数据库交互，并提供API来解析和转换结果数据集。
-* [MiniDao](https://github.com/jeecgboot/MiniDao)：MiniDao是一款轻量级Java持久层框架，基于Spring JDBC\Freemarker实现，具备Mybatis一样的SQL分离和逻辑标签能力，由北京国炬公司开发。
-* [Eql](https://github.com/bingoohuang/eql)：Eql是一个简单，轻量的数据持久层的框架，可以用于代替Mybatis。
-
-#### 持久层库
-
-* [SquiDB](https://github.com/yahoo/squidb)：SquiDB是适用于Android和iOS的跨平台SQLite数据库层，旨在尽可能轻松地使用SQLite数据库，由Yahoo开源。
-* [Lightblue](https://github.com/lightblue-platform/lightblue-core)：Lightblue是基于文档的数据访问层框架，由RedHat开源。
-* [Apache MetaModel](https://metamodel.apache.org/)：Metamodel是一个用于处理结构化数据的Java库，它提供了强大的元数据驱动的数据访问API，支持多种数据源，如关系数据库、CSV文件等。
-* [DataNucleus](https://github.com/datanucleus/datanucleus-core)：DataNucleus是一个兼容各种标准(JDO1、JDO2、JDO2.1、JDO2.2、JDO2.3、和JPA1)的Java数据持久化框架。
-* [Apache EmpireDB](https://github.com/apache/empire-db)：EmpireDB是一个轻量级的关系型数据库访问库，用于处理所有关系型数据的存储、操作、检索和建模方面。
-* [DAS](https://github.com/ppdaicorp/das)：DAS是信也科技自研的数据库访问框架。
-* [UroboroSQL](https://github.com/future-architect/uroborosql)：UroboroSQL是一个简单的SQL执行库，可以利用与Java 8兼容的2-way-SQL，由日本Future公司开源。
-* [Japedo](https://www.logitags.com/japedo/)：Japedo是一个用于生成Java应用程序完整持久层文档的工具。
-* [Objectify](https://github.com/objectify/objectify)：Objectify是专门为Google Cloud Datastore设计的Java数据访问API。
-* [PulseDB](https://github.com/feedzai/pdb)：PulseDB是一个用Java编写的数据库映射软件库，它提供对各种数据库实现的透明访问和操作，由Feedzai开源。
-* [Elsql](https://github.com/OpenGamma/ElSql)：ElSql允许SQL从Java应用程序外部化。
-* [SqlRender](https://github.com/OHDSI/SqlRender)：这是一个R包和Java库，用于呈现参数化SQL，并将其转换为不同的SQL方言，由OHDSI开源。
-* [Cantor](https://github.com/salesforce/cantor)：Cantor是一个数据服务层，它为各种存储解决方案(例如MySQL和S3)之上的多种基本数据结构提供持久化，由Salesforce开源。
-* [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
-* [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
-* [MySQL Backup4j](https://github.com/SeunMatt/mysql-backup4j)：MySQL Backup4j是一个用于以编程方式导出MySQL数据库并将压缩转储发送到电子邮件、Amazon S3、Google Drive或任何其他选择的云存储的库。
-* [Ektorp](https://github.com/helun/Ektorp)：Ektorp是一个使用CouchDB作为存储引擎的持久层API。
-* [PgBulkInsert](https://github.com/PgBulkInsert/PgBulkInsert)：PgBulkInsert是一个使用二进制复制协议向PostgreSQL进行批量插入的Java库。
-
-#### NoSQL库
-
-* [Eclipse JNoSQL](https://github.com/eclipse-jnosql/jnosql)：JNoSQL是Jakarta NoSQL和Jakarta Data规范的兼容实现，可简化Java应用程序与NoSQL数据库的集成。
-* [Kundera](https://github.com/Impetus/kundera)：Kundera是一个带有JPA接口的多语言对象映射器。
-* [SimpleNoSQL](https://github.com/Jearil/SimpleNoSQL)：一个适用于Android的简单NoSQL客户端。
-* [Hibernate OGM](https://github.com/hibernate/hibernate-ogm)：Hibernate OGM使用Hibernate ORM引擎将数据存储在NoSQL数据网格中。
-
-#### 事务
-
-* [Seata](https://github.com/apache/incubator-seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
-* [SOFA DTX](https://mvnrepository.com/artifact/com.alipay.dtx/dtx-sofa)：DTX是蚂蚁研发的一款金融级分布式事务中间件。
-* [Apache ShardingSphere](https://github.com/apache/shardingsphere)：ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
-* [ByteTCC](https://github.com/liuyangming/ByteTCC)：ByteTCC是分布式事务管理器的实现，基于TCC机制。
-* [Atomikos](https://github.com/atomikos/transactions-essentials)：Atomikos是一个轻量级的分布式事务管理器，由Atomikos开源。
-* [Narayana](https://github.com/jbosstm/narayana)：Narayana是一个事务工具包，为使用各种基于标准的事务协议开发的应用程序提供支持，JBoss开源。
-* [Bitronix](https://github.com/scalar-labs/btm)：Bitronix是JTA 1.1的简单但完整的实现，目前由韩国Scalar公司维护。
-* [EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)：EasyTransaction是一个分布式事务解决方案，统一使用TCC、SAGA、FMT、可靠消息、补偿等，由齐牛金融开源。
-* [AtlasDB](https://github.com/palantir/atlasdb)：AtlasDB是一个构建在任何通用键值存储之上的事务层，由Palantir开源。
-* [Hmily](https://github.com/dromara/hmily)：Hmily是一个金融级分布式事务解决方案，由dromara社区开源。
-* [TCC Transaction](https://github.com/changmingxie/tcc-transaction)：TCC Transaction是一款开源的微服务架构下的TCC型分布式事务解决方案，致力于提供高性能和简单易用的分布式事务服务。
-* [Multiverse](https://github.com/pveentjer/Multiverse)：Multiverse是JVM的软件事务内存实现。
-* [LCN](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库，由CodingAPI组织开源。
-* [CAP4j](https://github.com/netcorepal/cap4j)：CAP4j是一个基于最终一致性的微服务分布式事务解决方案。
-* [TAPIR](https://github.com/UWSysLab/tapir)：TAPIR是一种用于线性化分布式事务的新协议，使用复制构建，没有一致性保证，由华盛顿大学CSE系统实验室开源。
-* [Apache ServiceComb Pack](https://github.com/apache/servicecomb-pack)：ServiceComb Pack是微服务应用程序的最终数据一致性解决方案，目前提供TCC和Saga分布式事务协调解决方案，使用Alpha作为事务协调器，Omega作为事务代理，由华为开源。
-* [Raincat](https://github.com/dromara/raincat)：Raincat是强一致分布式事务框架，由dromara社区开源。
-* [Scalardb](https://github.com/scalar-labs/scalardb)：ScalarDB是一个跨数据库HTAP引擎，由韩国Scalar公司维护。
-* [Transaction Outbox](https://github.com/gruelbox/transaction-outbox)：Java Transaction Outbox模式的灵活实现，具有干净、可扩展的API，并且可以与各种数据库平台、事务管理方法和应用程序框架很好地配合。
-* [Apache Omid](https://github.com/apache/phoenix-omid)：Apache Omid是一个灵活、可靠、高性能和可扩展的事务框架，允许大数据应用程序在MVCC键/值NoSQL数据存储之上执行ACID事务，由Yahoo开发。
-* [ByteJTA](https://github.com/liuyangming/ByteJTA)：ByteJTA是分布式事务管理器的实现，基于XA/2PC机制。
-* [Myth](https://github.com/dromara/myth)：Myth是采用消息队列解决分布式事务的开源框架，由dromara社区开源。
-* [Acku](https://github.com/x-ream/acku)：MQ事务、TCC、最终一致性。
-* [Eventuate Tram Sagas](https://github.com/eventuate-tram/eventuate-tram-sagas)：Eventuate Tram Sagas框架是一个适用于使用JDBC/JPA和Spring Boot/Micronaut的Java微服务的Saga框架。
-* [Txle](https://github.com/actiontech/txle)：Txle是爱可生开发的分布式事务解决方案，可以保证业务数据的最终一致性。
-
-#### 数据库连接池
-
-* [Druid](https://github.com/alibaba/druid)：Druid是一个JDBC组件库，包含数据库连接池、SQL Parser等组件，由阿里云开源。
-* [HikariCP](https://github.com/brettwooldridge/HikariCP)：HikariCP是一个零开销生产就绪的JDBC连接池。
-* [Apache Commons DBCP](https://github.com/apache/commons-dbcp)：Commons DBCP软件实现数据库连接池。
-* [C3P0](https://github.com/swaldman/c3p0)：C3P0是一个成熟、高并发的JDBC连接池库，支持PreparedStatements的缓存和重用。
-* [BoneCP](https://github.com/wwadge/bonecp)：BoneCP是一种JDBC连接池实现，它通过最大限度地减少锁争用来实现高性能，从而为应用程序提供更大的吞吐量。
-* [FlexyPool](https://github.com/vladmihalcea/flexy-pool)：FlexyPool库为给定的连接池添加了指标和灵活的策略，使其能够根据需要调整大小。
-* [Agroal](https://github.com/agroal/agroal)：Agroal是一个小巧的数据库连接池。
-* [Vibur DBCP](https://github.com/vibur/vibur-dbcp)：Vibur DBCP是并发、快速且功能齐全的JDBC连接池，它提供高级性能监控功能，包括慢SQL查询检测和日志记录、应用程序线程的非饥饿保证、语句缓存和Hibernate集成等功能。
-* [Tomcat JDBC Pool](https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html)：Tomcat JDBC连接池。
-* [R2DBC Pool](https://github.com/r2dbc/r2dbc-pool)：用于响应式关系数据库连接的连接池。
-* [BeeCP](https://gitee.com/Chris2018998/BeeCP)：BeeCP是一个小型的JDBC连接池：性能高，代码轻量，稳定性好。
-* [SmartPool](https://smartpool.sourceforge.net/)：SmartPool是一个连接池组件，以应用程序服务器提供的池功能为模型。
 
 ## 微服务库
 
@@ -2303,6 +2139,53 @@
 * [Google Pub/Sub](https://github.com/GoogleCloudPlatform/pubsub)：Google Cloud Pub/Sub开源项目。
 * [PSC](https://github.com/pinterest/psc)：PSC是一个通用且可扩展的客户端库，允许应用程序通过统一的接口与不同的后端PubSub系统进行交互，由Pinterest开发。
 * [Async Google Pub/Sub Client](https://github.com/spotify/async-google-pubsub-client)：一个低级别的Pub/Sub客户端和一个并发的每主题批处理发布者，由Spotify开发。
+
+#### Kafka
+
+* [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Kafka集群的工具，由Yahoo开源。
+* [Kafka UI](https://github.com/provectus/kafka-ui)：用于管理Kafka集群的多功能、快速且轻量级的Web UI。
+* [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
+* [KafkaUI Lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
+* [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
+* [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
+* [Kouncil](https://github.com/Consdata/kouncil)：Kouncil让你可以使用现代Web界面监控和管理Apache Kafka集群。
+* [Offset Explorer](https://www.kafkatool.com/index.html)：Offset Explorer是一个用于管理和使用Apache Kafka集群的GUI应用程序。
+* [Confluent Platform](https://www.confluent.io/en-gb/product/confluent-platform/gui-driven-management-and-monitoring/)：Confluent Platform提供直观的GUI来管理和监控Apache Kafka，由Confluent开发。
+* [Kpow](https://factorhouse.io/kpow/)：Kpow是Apache Kafka的监控和管理工具。
+* [Lenses](https://lenses.io/)：Lenses是开发人员体验工具，可帮助企业在一个地方使用每个Apache Kafka。
+* [KafkaEsque](https://github.com/patschuh/KafkaEsque)：KafkaEsque是一个用JavaFX开发的Kafka GUI工具。
+* [KnowStreaming](https://github.com/didi/KnowStreaming)：Know Streaming是一套云原生的Kafka管控平台，脱胎于众多互联网内部多年的Kafka运营实践经验，专注于Kafka运维管控、监控告警、资源治理、多活容灾等核心场景，由滴滴开源。
+* [EFAK](https://github.com/smartloli/EFAK)：EAFK是一个开源的Kafka集群管理和监控工具，旨在帮助用户更好地管理和监控其Kafka集群。
+* [KafkIO](https://kafkio.com/)：面向工程师和管理员的快速、简便的Apache Kafka GUI，适用于macOS、Windows和Linux，由Certak公司维护。
+* [Kafka WebView](https://github.com/SourceLabOrg/kafka-webview)：Kafka WebView提供了一个易于使用的基于Web的界面，用于从Kafka主题中读取数据并提供基本的过滤和搜索功能。
+* [Cruise Control](https://github.com/linkedin/cruise-control)：Cruise Control是一款帮助大规模运行Kafka集群的产品，由LinkedIn开源。
+* [KCenter](https://github.com/xaecbd/KCenter)：KCenter是一个统一的Kafka集群管理维护、生产者/消费者监控、生态组件使用的一站式平台。
+* [Kafka Map](https://github.com/dushixiang/kafka-map)：Kafka Map是使用Java 17和React开发的Kafka可视化工具。
+* [Kstreamplify](https://github.com/michelin/kstreamplify)：Kstreamplify是一个Java库，使你能够快速创建基于Kafka Stream的应用程序，并提供许多附加高级功能，由米其林开源。
+* [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：Kafka Sprout是一个Web GUI，可以帮助你在本地计算机上快速启动Zookeeper和Kafka服务器，无需任何代码配置。
+* [Xinfra Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor是一个在真实集群中实现和执行长时间运行的kafka系统测试的框架，由LinkedIn开源。
+* [Confluent Schema Registry](https://github.com/confluentinc/schema-registry)：Kafka的Confluence模式注册中心。
+* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Kafka集群的UI。
+* [Mirus](https://github.com/salesforce/mirus)：Mirus是Kafka的跨数据中心数据复制工具，由Salesforce开源。
+* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
+* [Jikkou](https://github.com/streamthoughts/jikkou)：Jikkou是一款开源工具，旨在提供一种高效且简单的方法来管理、自动化和配置事件流平台上的资源。
+* [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Kafka集群的方法，由RedHat开源。
+* [Julie](https://github.com/kafka-ops/julie)：JulieOps帮助你自动化管理Kafka中的事物，从主题、配置到元数据，以及访问控制、模式。
+* [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Kafka之上的流式任务处理框架，由Line开源。
+* [Kafka Console UI](https://gitee.com/xiaodong_xu/kafka-console-ui)：一款轻量级的kafka可视化管理平台，安装配置快捷、简单易用。
+* [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
+* [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
+* [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载均衡的服务，由Pinterest开源。
+* [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例。
+* [Zilla](https://github.com/aklivity/zilla)：Zilla将Kafka抽象为Web应用程序、物联网客户端和微服务。
+* [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
+* [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
+* [Kafka Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
+* [Kafbat UI](https://github.com/kafbat/kafka-ui)：Kafbat UI是一个免费的开源Web UI，用于监控和管理Kafka集群。
+* [Klaw](https://github.com/Aiven-Open/klaw)：Klaw是一个自助式Kafka主题管理/治理工具/门户，由Aiven开源。
+* [Astraea](https://github.com/opensource4you/astraea)：Astraea提供各式工具来降低Kafka使用门槛以及提高Kafka效能和资源使用率。
+* [Kafka Web Console](https://github.com/cjmamo/kafka-web-console)：Kafka Web Console是一个用于监控Apache Kafka的Java Web应用程序。
+* [Kafka Offset Monitor](https://github.com/Morningstar/kafka-offset-monitor)：这是一个用于监控Kafka消费者及其在日志中的位置(偏移量)的应用程序。
 
 ## 分布式开发
 
@@ -3564,27 +3447,18 @@
 
 ## 缓存库
 
-* [Guava Cache](https://github.com/google/guava/tree/master/guava/src/com/google/common/cache)：Google Guava库提供的Java本地缓存工具。
+#### 本地缓存
+
+* [Guava Cache](https://github.com/google/guava)：Google Guava库提供的Java本地缓存工具。
 * [Caffeine](https://github.com/ben-manes/caffeine)：Caffeine是一个高性能、接近最佳的缓存库。
 * [Ehcache](https://github.com/ehcache/ehcache3)：Ehcache是一种基于标准的开源缓存，可提高性能、减轻数据库负载并简化可扩展性，由Terracotta公司开源。
-* [Apache Commons JCS](https://github.com/apache/commons-jcs)：Commons JCS是一个分布式、多功能的缓存系统。
-* [JetCache](https://github.com/alibaba/jetcache)：JetCache是一种Java缓存抽象，它为不同的缓存解决方案提供统一的使用方式，由阿里开源。
-* [Carrot Cache](https://github.com/carrotdata/carrot-cache)：Carrot Cache项目旨在实现数据缓存的现代化，并允许用户通过CC框架内的可插拔组件构建自定义缓存解决方案。
 * [DiskLruCache](https://github.com/JakeWharton/DiskLruCache)：基于磁盘的LRU缓存的Java实现，专门针对Android兼容性。
 * [ASimpleCache](https://github.com/yangfuhai/ASimpleCache)：ASimpleCache是一个为Android制定的轻量级开源缓存框架。
 * [RxCache](https://github.com/VictorAlbertos/RxCache)：RxCache是一个适用于Android和Java的响应式缓存库，可将你的缓存需求转化为接口。
-* [EVCache](https://github.com/Netflix/EVCache)：EVCache是一个基于Memcached和Spymemcached的缓存解决方案，主要用于AWS EC2基础设施来缓存常用数据，由Netflix开源。
-* [TongRDS](https://www.tongtech.com/pctype/37.html)：TongRDS是一款高性能多并发分布式数据缓存中间件，这是东方通的商业产品。
 * [Cache2K](https://github.com/cache2k/cache2k)：Cache2K是一个内存中高性能Java缓存库。
-* [HotKey](https://gitee.com/jd-platform-opensource/hotkey)：京东App后台中间件，毫秒级探测热点数据，毫秒级推送至服务器集群内存，大幅降低热key对数据层查询压力。
 * [Store](https://github.com/nytimes/Store)：Store是用于异步数据加载和缓存的Java库，由纽约时报开源。
 * [MicroStream](https://github.com/microstream-one/microstream)：MicroStream是一个突破性的Java原生对象图持久层，专为需要轻量级高性能持久层的微服务和Serverless函数而构建。
-* [ECFileCache](https://github.com/XiaoMi/ECFileCache)：ECFileCache是一个分布式文件缓存，基于Erasure Code，使用Redis进行存储，由小米开发。
-* [AutoLoadCache](https://github.com/qiujiayu/AutoLoadCache)：AutoLoadCache是基于AOP、注解等技术实现的高效的缓存管理解决方案。
 * [J2Cache](https://gitee.com/ld/J2Cache)：J2Cache是OSChina目前正在使用的二级缓存框架。
-* [XXL-Cache](https://github.com/xuxueli/xxl-cache)：XXL-Cache是一个分布式缓存管理平台，其核心设计目标是让分布式缓存的接入和管理的更加的简洁和高效。
-* [Layering Cache](https://github.com/xiaolyuh/layering-cache)：Layering Cache是一个支持分布式环境的多级缓存框架，主要解决在高并发下数据快速读取的问题。
-* [L2Cache](https://github.com/ck-jesse/l2cache)：L2Cache是一个基于内存、Redis、Spring Cache实现的满足高并发场景下的分布式二级缓存框架。
 * [Cache4k](https://github.com/ReactiveCircus/cache4k)：Kotlin Multiplatform的内存缓存。
 * [Reservoir](https://github.com/anupcowkur/Reservoir)：Reservoir是一个简单的Android库，允许你使用键/值对轻松序列化对象并将其缓存到磁盘。
 * [LayerCache](https://github.com/appmattus/layercache)：使Android和Java的缓存变得简单。
@@ -3599,9 +3473,25 @@
 * [OffHeap Store](https://github.com/Terracotta-OSS/offheap-store)：OffHeap Store是一个库，提供一组Map和缓存实现，用于在普通Java堆之外存储数据。
 * [Apache DirectMemory](https://directmemory.apache.org/)：Apache DirectMemory是一种多层缓存实现，具有堆外内存存储，可在不降低JVM性能的情况下缓存Java对象。
 * [CarbonJ](https://github.com/salesforce/carbonj)：CarbonJ是Carbon Cache和Carbon Relay的直接替代品，它在设计时考虑了高性能读写吞吐量，由Salesforce开源。
-* [BlazingCache](https://github.com/diennea/blazingcache)：BlazingCache是分布式Java应用程序的快速缓存。
 * [RubiX](https://github.com/qubole/rubix)：RubiX是一个可供大数据引擎使用的轻量级数据缓存框架。
 * [IgDiskCache](https://github.com/facebookarchive/ig-disk-cache)：IgDiskCache是一个容错的Android磁盘缓存库，由Instagram开源。
+
+#### 分布式缓存
+
+* [EVCache](https://github.com/Netflix/EVCache)：EVCache是一个基于Memcached和Spymemcached的缓存解决方案，主要用于AWS EC2基础设施来缓存常用数据，由Netflix开源。
+* [Apache Commons JCS](https://github.com/apache/commons-jcs)：Commons JCS是一个分布式、多功能的缓存系统。
+* [Carrot Cache](https://github.com/carrotdata/carrot-cache)：Carrot Cache项目旨在实现数据缓存的现代化，并允许用户通过CC框架内的可插拔组件构建自定义缓存解决方案。
+* [TongRDS](https://www.tongtech.com/pctype/37.html)：TongRDS是一款高性能多并发分布式数据缓存中间件，这是东方通的商业产品。
+* [ECFileCache](https://github.com/XiaoMi/ECFileCache)：ECFileCache是一个分布式文件缓存，基于纠删编码，使用Redis进行存储，由小米开发。
+* [XXL-Cache](https://github.com/xuxueli/xxl-cache)：XXL-Cache是一个分布式缓存管理平台，其核心设计目标是让分布式缓存的接入和管理的更加的简洁和高效。
+* [Layering Cache](https://github.com/xiaolyuh/layering-cache)：Layering Cache是一个支持分布式环境的多级缓存框架，主要解决在高并发下数据快速读取的问题。
+* [L2Cache](https://github.com/ck-jesse/l2cache)：L2Cache是一个基于内存、Redis、Spring Cache实现的满足高并发场景下的分布式二级缓存框架。
+* [BlazingCache](https://github.com/diennea/blazingcache)：BlazingCache是分布式Java应用程序的快速缓存。
+
+#### 缓存管理器
+
+* [JetCache](https://github.com/alibaba/jetcache)：JetCache是一种Java缓存抽象，它为不同的缓存解决方案提供统一的使用方式，由阿里开源。
+* [AutoLoadCache](https://github.com/qiujiayu/AutoLoadCache)：AutoLoadCache是基于AOP、注解等技术实现的高效的缓存管理解决方案。
 
 ## 批处理框架
 
@@ -3612,6 +3502,7 @@
 * [JBatch](https://github.com/WASdev/standards.jsr352.jbatch)：JBatch是Jakarta Batch规范的兼容实现，由IBM开源。
 * [Easy Batch](https://github.com/j-easy/easy-batch)：Easy Batch是一个旨在简化Java批处理的框架，它专为简单的单任务ETL作业而设计。
 * [Spring Batch Plus](https://github.com/naver/spring-batch-plus)：Spring Batch Plus为Spring Batch提供了扩展功能，NAVER开源。
+* [Spring Boot Batch Web](https://github.com/codecentric/spring-boot-starter-batch-web)：由Spring Boot提供支持的企业就绪、生产就绪的批处理应用程序。
 
 ## 并发编程
 
@@ -3914,6 +3805,8 @@
 * [ChatGPT Java](https://github.com/arctisio/chatgpt-java)：使用逆向工程API的OpenAI ChatGPT的轻量级Java库。
 * [ChatGPT Java](https://gitee.com/grt1228/chatgpt-java)：ChatGPT的Java客户端，OpenAI官方API的Java版SDK。
 * [OpenAI Java SDK](https://gitee.com/devlive-community/openai-java-sdk)：为Java开发人员提供方便易用的SDK来与OpenAI模型的API进行交互。
+* [ChatGPT Spring Boot](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter，具有ChatGPT聊天和功能支持。
+* [ChatGPT Spring Boot](https://github.com/flashvayne/chatgpt-spring-boot-starter)：基于OpenAI官方API的Spring Boot Starter。
 * [EDDI](https://github.com/labsai/eddi)：EDDI是一个中间件，用于连接和管理LLM API机器人，为OpenAI ChatGPT、Facebook Hugging Face、Anthropic Claude、Google Gemini和Ollama等API提供高级提示和对话管理。
 * [OpenAI4j](https://github.com/ai-for-java/openai4j)：这是一个非官方的Java客户端库，可帮助你的Java应用程序与OpenAI API连接。
 * [Ollama4j](https://github.com/ollama4j/ollama4j)：用于与Ollama服务器交互的Java库。

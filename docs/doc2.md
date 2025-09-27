@@ -603,6 +603,7 @@
 * [Spring Test Smart Context](https://github.com/seregamorph/spring-test-smart-context)：提高Spring Boot测试效率。
 * [Spring Test Profiler](https://github.com/PragmaTech-GmbH/spring-test-profiler)：Spring Test实用程序为Spring Test执行提供可视化和洞察，重点关注Spring上下文缓存统计。
 * [Component Test Framework](https://github.com/lydtechconsulting/component-test-framework)：允许对Spring Boot应用程序进行组件测试的库。
+* [Spring Boot TestJars](https://github.com/spring-projects-experimental/spring-boot-testjars)：该项目允许用户通过将外部Spring Boot应用程序创建为Bean来轻松启动它。
 
 #### 测试套件
 
@@ -638,6 +639,481 @@
 * [Codecov](https://about.codecov.io/)：Codecov是适用于任何测试套件的一体化代码覆盖率报告解决方案。
 * [Parasoft JTest](https://www.parasoft.com/)：包括多种现代QA工具，允许测量代码覆盖率，并对其进行静态和动态分析，这是一款商业工具。
 * [OpenClover](https://github.com/openclover/clover)：OpenClover测量Java和Groovy的代码覆盖率并收集20多个代码指标。
+
+## 数据库开发
+
+这里列出了常用数据库开发库、ORM框架、JDBC框架、工具等。
+
+#### 数据库驱动
+
+* [Postgresql](https://github.com/pgjdbc/pgjdbc)：Postgresql JDBC驱动程序。
+* [PGJDBC NG](https://github.com/impossibl/pgjdbc-ng)：PostgreSQL的新JDBC驱动程序，旨在支持JDBC和Postgres的高级功能。
+* [Postgresql R2DBC](https://github.com/pgjdbc/r2dbc-postgresql)：Postgresql R2DBC驱动程序。
+* [PostgreSQL Async](https://github.com/mauricio/postgresql-async)：用Scala编写的异步、基于Netty的PostgreSQL和MySQL数据库驱动程序。
+* [Postgres Async Driver](https://github.com/alaisi/postgres-async-driver)：Postgres Async Driver是PostgreSQL的非阻塞Java驱动程序。
+* [MySQL](https://github.com/mysql/mysql-connector-j)：MySQL JDBC驱动程序。
+* [AWS MySQL JDBC](https://github.com/awslabs/aws-mysql-jdbc)：AWS MySQL Driver是一个使应用程序能够充分利用集群MySQL数据库功能的驱动程序。
+* [AWS JDBC Driver](https://github.com/aws/aws-advanced-jdbc-wrapper)：该包装器是对现有JDBC驱动程序的补充，旨在扩展驱动程序的功能，使应用程序能够充分利用Amazon Aurora等集群数据库的功能。
+* [Oracle](https://www.oracle.com/database/technologies/maven-central-guide.html)：Oracle JDBC驱动程序。
+* [Oracle R2DBC](https://github.com/oracle/oracle-r2dbc)：Oracle数据库的R2DBC驱动程序。
+* [SqlServer](https://github.com/microsoft/mssql-jdbc)：SqlServer JDBC驱动程序。
+* [R2DBC MySQL](https://github.com/mirromutth/r2dbc-mysql)：该项目包含R2DBC SPI的MySQL实现。
+* [R2DBC SPI](https://github.com/r2dbc/r2dbc-spi)：R2DBC实现的SPI。
+* [R2DBC MySQL](https://github.com/asyncer-io/r2dbc-mysql)：该项目包含R2DBC SPI的MySQL实现。
+* [R2DBC MSSQL](https://github.com/r2dbc/r2dbc-mssql)：使用TDS协议的SQLServer的R2DBC驱动程序。
+* [MariaDB R2DBC](https://github.com/mariadb-corporation/mariadb-connector-r2dbc)：非阻塞MariaDB和MySQL客户端。
+* [Influx4j](https://github.com/brettwooldridge/influx4j)：适用于InfluxDB的高性能、零垃圾Java客户端/驱动程序。
+* [OceanBase Client](https://github.com/oceanbase/obconnector-j)：兼容JDBC 4.2的OceanBase Java驱动程序。
+* [SQLite JDBC](https://github.com/xerial/sqlite-jdbc)：用于在Java中访问和创建SQLite数据库文件的库。
+* [Couchbase](https://github.com/couchbase/couchbase-java-client)：Couchbase Server的官方Java客户端。
+* [InfluxDB Java](https://github.com/influxdata/influxdb-java)：InfluxDB的官方Java客户端库。
+* [InfluxDB2 Java](https://github.com/influxdata/influxdb-client-java)：适用于JVM的InfluxDB 2客户端。
+* [RxJava JDBC](https://github.com/davidmoten/rxjava2-jdbc)：RxJava 2与JDBC集成，包括非阻塞连接池。
+* [Reactive SQL Client](https://github.com/eclipse-vertx/vertx-sql-client)：用Java编写的高性能响应式SQL客户端。
+* [Hibernate Reactive](https://github.com/hibernate/hibernate-reactive)：Hibernate ORM的响应式API，支持非阻塞数据库驱动程序以及与数据库的响应式交互。
+* [Snowflake JDBC Driver](https://github.com/snowflakedb/snowflake-jdbc)：Snowflake JDBC驱动程序。
+* [JAsync-SQL](https://github.com/jasync-sql/jasync-sql)：JAsync-SQL是一个使用Kotlin编写的简单、基于Netty、异步、高性能且可靠的PostgreSQL和MySQL数据库驱动程序。
+* [TiKV Java](https://github.com/tikv/client-java)：TiKV的Java客户端库。
+* [VtDriver](https://github.com/jd-opensource/vtdriver)：VtDriver是一套基于分布式数据库Vitess而开发的Vitess Java客户端解决方案，由京东开源。
+* [Aerospike Java Client](https://github.com/aerospike/aerospike-client-java)：Aerospike数据库的Java客户端库。
+* [OpenGauss JDBC](https://gitee.com/opengauss/openGauss-connector-jdbc)：OpenGauss JDBC驱动程序。
+* [Jackcess](https://github.com/jahlborn/jackcess)：Jackcess是一个纯Java库，用于读取和写入MS Access数据库。
+* [Dgraph4j](https://github.com/dgraph-io/dgraph4j)：Java 1.8及更高版本的Dgraph客户端的最小实现。
+* [Nebula Java](https://github.com/vesoft-inc/nebula-java)：Nebula Graph的Java客户端和数据导入器。
+
+#### ORM框架
+
+* [Hibernate](https://github.com/hibernate/hibernate-orm)：Hibernate是一个强大的Java ORM解决方案，可以轻松地为应用程序、库和框架开发持久层逻辑，由RedHat开源。
+* [Spring Data JPA](https://github.com/spring-projects/spring-data-jpa)：Spring Data JPA是Spring Data系列的一部分，可以轻松实现基于JPA的Repository。
+* [Mybatis](https://github.com/mybatis/mybatis-3)：MyBatis是一流的持久层框架，支持自定义SQL、存储过程和高级映射。
+* [Mybatis Plus](https://github.com/baomidou/mybatis-plus)：MyBatis Plus是MyBatis的一个强大的增强工具包，用于简化开发。
+* [APIJSON](https://github.com/Tencent/APIJSON)：APIJSON是一种专为API而生的JSON网络传输协议以及基于这套协议实现的ORM库，由腾讯开源。
+* [Exposed](https://github.com/JetBrains/Exposed)：Exposed是一个Kotlin SQL库，有两种风格：轻量级ORM(使用DAO)和类型安全SQL(使用DSL)，由JetBrains开发。
+* [Prisma](https://github.com/prisma/prisma1)：Prisma是一个Scala ORM，具有直观的数据模型、自动迁移、类型安全和自动完成功能。
+* [LitePal](https://github.com/guolindev/LitePal)：LitePal是一个开源Android库，可以让开发人员极其轻松地使用SQLite数据库。
+* [Apache JDO](https://github.com/apache/db-jdo)：JDO是访问数据库中持久数据的标准方法，使用POJO来表示持久数据。
+* [EclipseLink](https://github.com/eclipse-ee4j/eclipselink)：EclipseLink为开发人员提供基于标准的对象关系持久性解决方案，并额外支持许多高级功能，Oracle开源。
+* [GreenDAO](https://github.com/greenrobot/greenDAO)：GreenDAO是一个轻量且快速的Android ORM，可将对象映射到SQLite数据库。
+* [Apache OpenJPA](https://github.com/apache/openjpa)：OpenJPA是Jakarta Persistence API 3.0规范的实现。
+* [QueryDSL](https://github.com/querydsl/querydsl)：QueryDSL是一个可以为多个后端(包括JPA、MongoDB和Java中的SQL)构建类型安全的类SQL查询的框架。
+* [JOOQ](https://github.com/jOOQ/jOOQ)：jOOQ是一个内部DSL和源代码生成器，将SQL语言建模为类型安全的Java API，以帮助你编写更好的SQL。
+* [WCDB](https://github.com/Tencent/wcdb)：WCDB是腾讯微信应用中使用的高效、完整、易用的移动数据库框架。
+* [GORM](https://gorm.grails.org/)：适用于JVM的强大的基于Groovy的数据访问工具包，由Object Computing开源。
+* [Ebean](https://github.com/ebean-orm/ebean)：Ebean是一个纯Java实现的开源ORM框架，它被设计成比JPA更简单、容易理解和使用。
+* [DBFlow](https://github.com/agrosner/DBFlow)：DBFlow是基于SQLite为Android构建的快速、高效且功能丰富的Kotlin数据库库。
+* [Komapper](https://github.com/komapper/komapper)：Komapper是服务器端Kotlin的ORM库。
+* [Permazen](https://github.com/permazen/permazen)：Permazen是用于SQL、键值或内存数据库的持久层框架。
+* [Sugar ORM](https://github.com/chennaione/sugar)：Sugar ORM是一个Android ORM库，它提供了一种简单的方法来存储和检索数据。
+* [ObjectiveSQL](https://github.com/braisdom/ObjectiveSql)：ObjectiveSQL是一个基于ActiveRecord模式的ORM框架，它鼓励快速开发和整洁，最少的代码，以及约定优于配置。
+* [ORMLite](https://github.com/j256/ormlite-core)：ORMLite提供了一些简单、轻量级的功能，用于将Java对象持久保存到SQL数据库，同时避免更标准ORM包的复杂性和开销。
+* [Ktorm](https://github.com/kotlin-orm/ktorm)：Ktorm是一个直接基于纯JDBC的轻量级、高效的Kotlin ORM框架。
+* [Reladomo](https://github.com/goldmansachs/reladomo)：Reladomo是Java的企业级ORM框架，由高盛银行开源。
+* [SQLDelight](https://github.com/sqldelight/sqldelight)：SQLDelight会根据你的SQL语句生成类型安全的Kotlin API，由Square开发。
+* [Apache Cayenne](https://github.com/apache/cayenne)：Cayenne是一个开源持久层框架，提供ORM和远程处理服务，由ObjectStyle开源。
+* [Jimmer](https://github.com/babyfish-ct/jimmer)：Jimmer是一个针对Java和Kotlin的革命性ORM，以及一套基于它的完整的集成方案。
+* [JFinal](https://gitee.com/jfinal/jfinal)：JFinal是基于Java语言的极速Web、ORM框架。
+* [SQLlin](https://github.com/ctripcorp/SQLlin)：SQLlin是一个基于DSL和KSP的Kotlin Multiplatform ORM库，由携程开发。
+* [LiteORM](https://github.com/litesuits/android-lite-orm)：LiteORM是一个小巧、强大、性能更好的Android ORM类库。
+* [AnyLine](https://gitee.com/anyline/anyline)：AnyLine的核心是一个面向运行时的元数据动态ORM。
+* [NgBatis](https://github.com/nebula-contrib/ngbatis)：NgBatis是一个可以使用类似MyBatis、MyBatisPlus的方式，操作NebulaGraph的Java ORM框架。
+* [HsWeb ORM](https://github.com/hs-web/hsweb-easy-orm)：简单的ORM工具，为动态表单而生。
+* [Easy Query](https://github.com/dromara/easy-query)：Easy Query是一款轻量级的ORM框架，无需任何第三方依赖。
+* [Bee](https://github.com/automvc/bee)：Bee是一个人工智能、简单、高效的ORM框架，支持JDBC、Cassandra、MongoDB、Sharding。
+* [JINQ](https://github.com/my2iu/Jinq)：JINQ为开发人员提供了一种用Java编写数据库查询的简单而自然的方法。
+* [Mango](https://github.com/jfaster/mango)：Mango是一个高性能的分布式ORM框架。
+* [Slick](https://github.com/slick/slick)：Slick是Scala的一个高级、全面的数据库访问库，具有强类型、高度可组合的API，由Lightbend开发。
+* [Eloquent](https://github.com/gaarason/database-all)：Eloquent ORM提供一个美观、简单的与数据库打交道的ActiveRecord实现。
+* [ActiveAndroid](https://github.com/pardom-zz/ActiveAndroid)：ActiveAndroid是一个Active Record风格的ORM。
+* [Bean Searcher](https://github.com/troyzhxu/bean-searcher)：专注于高级查询的只读ORM，天然支持连接表，并且避免DTO/VO转换，使得一行代码实现复杂查询成为可能。
+* [Speedment](https://github.com/speedment/speedment)：Speedment是一个开源Java Stream ORM工具包和运行时。
+* [BeetlSQL](https://gitee.com/xiandafu/beetlsql)：BeetlSQL的目标是提供开发高效、维护高效、运行高效的数据库访问框架。
+* [AFinal](https://github.com/yangfuhai/afinal)：AFinal是一个Android的SQLite ORM和IoC框架。
+* [Sqli](https://github.com/x-ream/sqli)：ORM SQL查询构建器。
+* [Persism](https://github.com/sproket/Persism)：Persism是一个轻量级、自动发现、自动配置和约定优于配置的ORM库。
+* [SQLToy](https://github.com/sagframe/sagacity-sqltoy)：SQLToy是基于Java语言开发的，兼有Hibernate面向对象操作和MyBatis灵活查询的优点，同时更贴切项目、更贴切开发者的一个关系型数据库ORM框架。
+* [Android Orma](https://github.com/maskarade/Android-Orma)：Orma是一个适用于Android SQLite数据库的ORM框架。
+* [DBVisitor](https://gitee.com/zycgit/dbvisitor)：DBVisitor提供Java对关系数据库更加自然的访问。
+* [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper)：SimpleFlatMapper提供了一个非常快速且易于使用的映射器。
+* [Sprinkles](https://github.com/emilsjolander/sprinkles)：Sprinkles是一个用于处理Android应用中数据库的简化库。
+* [ORMAN](https://github.com/ahmetb/orman)：ORMAN是一个简约轻量的Java ORM框架，它可以处理常见的数据库使用，而无需编写SQL。
+* [SimpleMybatis](https://github.com/zhangchuangiie/SimpleMybatis)：SimpleMybatis是一个基于Mybatis封装的类JdbcTemplate风格的ORM工具。
+* [Ollie](https://github.com/pardom-zz/Ollie)：Android的编译时Active Record ORM。
+* [Freezer](https://github.com/florent37/Freezer)：Freezer是一个简洁流式的Android ORM。
+* [Scala ActiveRecord](https://github.com/aselab/scala-activerecord)：Scala ActiveRecord是Scala的ORM库。
+* [ScalaSql](https://github.com/com-lihaoyi/scalasql)：ScalaSql是一个Scala ORM库，它允许对SQL数据库进行类型安全的低样板查询。
+* [Entity SQL](https://github.com/wb04307201/entity-sql)：Entity SQL是一个轻量级的Java ORM工具库。
+* [Kotysa](https://github.com/ufoss-org/kotysa)：轻量级ORM，提供为JVM和Android编写Kotlin类型安全SQL的惯用方法。
+
+#### JDBC框架
+
+* [Spring JDBC](https://github.com/spring-projects/spring-framework)：Spring JDBC是Spring框架提供的一个基于JDBC之上的用于操作关系型数据库的模块。
+* [Jdbi](https://github.com/jdbi/jdbi)：Jdbi库提供了对Java和其他JVM语言中的关系数据库的便捷、惯用的访问。
+* [Sql2o](https://github.com/aaberg/sql2o)：Sql2o是一个小型Java库，可以轻松地将SQL语句的结果转换为对象。
+* [Doobie](https://github.com/typelevel/doobie)：Doobie是Scala的纯函数式JDBC层。
+* [Requery](https://github.com/requery/requery)：Requery是一个轻量级但功能强大的对象映射和SQL生成器，适用于Java/Kotlin/Android，支持RxJava和Java 8。
+* [Database](https://github.com/susom/database)：Database提供一种简化的数据库访问方式，它是JDBC驱动程序的包装器，由斯坦福开源。
+* [ScalikeJDBC](https://github.com/scalikejdbc/scalikejdbc)：ScalikeJDBC无缝包装JDBC API，提供直观且高度灵活的功能。
+* [Krush](https://github.com/TouK/krush)：Krush是基于Exposed SQL DSL的Kotlin轻量级持久层。
+* [Dekaf](https://github.com/JetBrains/dekaf)：Dekaf是一个主要通过JDBC处理数据库的Java框架，由JetBrains开源。
+* [DAL](https://github.com/ctripcorp/dal)：DAL是携程框架部开发的数据库访问框架，支持流行的分库分表操作。
+* [Apache Commons DbUtils](https://github.com/apache/commons-dbutils)：Commons DbUtils包是一组用于简化JDBC开发的Java工具类。
+* [Jcabi JDBC](https://github.com/jcabi/jcabi-jdbc)：Jcabi JDBC是JDBC的一个方便、流式的包装器。
+* [FluentJdbc](https://github.com/zsoltherpai/fluent-jdbc)：FluentJdbc是一个用于方便原生SQL查询的Java库。
+* [Yank](https://github.com/knowm/Yank)：Yank是适用于Java应用程序的超轻量JDBC持久层。
+* [Norm](https://github.com/dieselpoint/norm)：Norm是一种访问JDBC数据库的简单方法，通常只需一行代码。
+* [Iciql](https://github.com/gitblit/iciql)：Iciql是一个基于模型的JDBC数据库访问包装器。
+* [JDBCX](https://github.com/jdbcx/jdbcx)：JDBCX通过支持SQL之外的其他数据格式、压缩算法、对象映射、类型转换和查询语言来增强JDBC驱动程序。
+* [SQLLine](https://github.com/julianhyde/sqlline)：SQLLine是一个用于通过JDBC向关系型数据库发出SQL的命令行Shell。
+* [Carbonado](https://github.com/Carbonado/Carbonado)：Carbonado是Java应用程序的可扩展、高性能持久性抽象层，提供底层持久性技术的关系视图，由Amazon开源。
+* [SQLBuilder](https://github.com/jkrasnay/sqlbuilder)：该包包含许多实用程序类，以简化SQL的使用。
+* [Quill](https://github.com/zio/zio-quill)：Quill提供了一种引用领域特定语言，以在Scala中表达查询并以目标语言执行它们。
+* [RxJava JDBC](https://github.com/davidmoten/rxjava-jdbc)：使用JDBC和RxJava Observables高效执行和功能组合数据库调用。
+* [Doma](https://github.com/domaframework/doma)：Doma是适用于Java 8+的面向DAO的数据库映射框架。
+* [Anorm](https://github.com/playframework/anorm)：Anorm是一个简单的数据访问层，它使用纯SQL与数据库交互，并提供API来解析和转换结果数据集。
+* [MiniDao](https://github.com/jeecgboot/MiniDao)：MiniDao是一款轻量级Java持久层框架，基于Spring JDBC\Freemarker实现，具备Mybatis一样的SQL分离和逻辑标签能力，由北京国炬公司开发。
+* [Eql](https://github.com/bingoohuang/eql)：Eql是一个简单，轻量的数据持久层的框架，可以用于代替Mybatis。
+* [Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus)：Spring JDBC Plus提供基于Spring Data JDBC的扩展，由Naver开源。
+* [Spring Data JDBC Repository](https://github.com/nurkiewicz/spring-data-jdbc-repository)：该项目的目的是提供基于Spring框架的JdbcTemplate的关系数据库的通用、轻量级且易于使用的DAO实现，并与Spring Data项目范围兼容。
+
+#### 持久层库
+
+* [SquiDB](https://github.com/yahoo/squidb)：SquiDB是适用于Android和iOS的跨平台SQLite数据库层，旨在尽可能轻松地使用SQLite数据库，由Yahoo开源。
+* [Lightblue](https://github.com/lightblue-platform/lightblue-core)：Lightblue是基于文档的数据访问层框架，由RedHat开源。
+* [Apache MetaModel](https://metamodel.apache.org/)：Metamodel是一个用于处理结构化数据的Java库，它提供了强大的元数据驱动的数据访问API，支持多种数据源，如关系数据库、CSV文件等。
+* [DataNucleus](https://github.com/datanucleus/datanucleus-core)：DataNucleus是一个兼容各种标准(JDO1、JDO2、JDO2.1、JDO2.2、JDO2.3、和JPA1)的Java数据持久化框架。
+* [Apache EmpireDB](https://github.com/apache/empire-db)：EmpireDB是一个轻量级的关系型数据库访问库，用于处理所有关系型数据的存储、操作、检索和建模方面。
+* [DAS](https://github.com/ppdaicorp/das)：DAS是信也科技自研的数据库访问框架。
+* [UroboroSQL](https://github.com/future-architect/uroborosql)：UroboroSQL是一个简单的SQL执行库，可以利用与Java 8兼容的2-way-SQL，由日本Future公司开源。
+* [Japedo](https://www.logitags.com/japedo/)：Japedo是一个用于生成Java应用程序完整持久层文档的工具。
+* [Objectify](https://github.com/objectify/objectify)：Objectify是专门为Google Cloud Datastore设计的Java数据访问API。
+* [PulseDB](https://github.com/feedzai/pdb)：PulseDB是一个用Java编写的数据库映射软件库，它提供对各种数据库实现的透明访问和操作，由Feedzai开源。
+* [Elsql](https://github.com/OpenGamma/ElSql)：ElSql允许SQL从Java应用程序外部化。
+* [SqlRender](https://github.com/OHDSI/SqlRender)：这是一个R包和Java库，用于呈现参数化SQL，并将其转换为不同的SQL方言，由OHDSI开源。
+* [Cantor](https://github.com/salesforce/cantor)：Cantor是一个数据服务层，它为各种存储解决方案(例如MySQL和S3)之上的多种基本数据结构提供持久化，由Salesforce开源。
+* [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
+* [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
+* [MySQL Backup4j](https://github.com/SeunMatt/mysql-backup4j)：MySQL Backup4j是一个用于以编程方式导出MySQL数据库并将压缩转储发送到电子邮件、Amazon S3、Google Drive或任何其他选择的云存储的库。
+* [Ektorp](https://github.com/helun/Ektorp)：Ektorp是一个使用CouchDB作为存储引擎的持久层API。
+* [PgBulkInsert](https://github.com/PgBulkInsert/PgBulkInsert)：PgBulkInsert是一个使用二进制复制协议向PostgreSQL进行批量插入的Java库。
+* [Infobip Spring Data Querydsl](https://github.com/infobip/infobip-spring-data-querydsl)：Infobip Spring Data Querydsl使用户能够在Spring Data Repository之上利用Querydsl API的全部功能。
+
+#### NoSQL库
+
+* [Eclipse JNoSQL](https://github.com/eclipse-jnosql/jnosql)：JNoSQL是Jakarta NoSQL和Jakarta Data规范的兼容实现，可简化Java应用程序与NoSQL数据库的集成。
+* [Kundera](https://github.com/Impetus/kundera)：Kundera是一个带有JPA接口的多语言对象映射器。
+* [SimpleNoSQL](https://github.com/Jearil/SimpleNoSQL)：一个适用于Android的简单NoSQL客户端。
+* [Hibernate OGM](https://github.com/hibernate/hibernate-ogm)：Hibernate OGM使用Hibernate ORM引擎将数据存储在NoSQL数据网格中。
+
+#### 事务
+
+* [Seata](https://github.com/apache/incubator-seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
+* [SOFA DTX](https://mvnrepository.com/artifact/com.alipay.dtx/dtx-sofa)：DTX是蚂蚁研发的一款金融级分布式事务中间件。
+* [Apache ShardingSphere](https://github.com/apache/shardingsphere)：ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
+* [ByteTCC](https://github.com/liuyangming/ByteTCC)：ByteTCC是分布式事务管理器的实现，基于TCC机制。
+* [Atomikos](https://github.com/atomikos/transactions-essentials)：Atomikos是一个轻量级的分布式事务管理器，由Atomikos开源。
+* [Narayana](https://github.com/jbosstm/narayana)：Narayana是一个事务工具包，为使用各种基于标准的事务协议开发的应用程序提供支持，JBoss开源。
+* [Bitronix](https://github.com/scalar-labs/btm)：Bitronix是JTA 1.1的简单但完整的实现，目前由韩国Scalar公司维护。
+* [EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)：EasyTransaction是一个分布式事务解决方案，统一使用TCC、SAGA、FMT、可靠消息、补偿等，由齐牛金融开源。
+* [AtlasDB](https://github.com/palantir/atlasdb)：AtlasDB是一个构建在任何通用键值存储之上的事务层，由Palantir开源。
+* [Hmily](https://github.com/dromara/hmily)：Hmily是一个金融级分布式事务解决方案，由dromara社区开源。
+* [TCC Transaction](https://github.com/changmingxie/tcc-transaction)：TCC Transaction是一款开源的微服务架构下的TCC型分布式事务解决方案，致力于提供高性能和简单易用的分布式事务服务。
+* [Multiverse](https://github.com/pveentjer/Multiverse)：Multiverse是JVM的软件事务内存实现。
+* [LCN](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库，由CodingAPI组织开源。
+* [CAP4j](https://github.com/netcorepal/cap4j)：CAP4j是一个基于最终一致性的微服务分布式事务解决方案。
+* [TAPIR](https://github.com/UWSysLab/tapir)：TAPIR是一种用于线性化分布式事务的新协议，使用复制构建，没有一致性保证，由华盛顿大学CSE系统实验室开源。
+* [Apache ServiceComb Pack](https://github.com/apache/servicecomb-pack)：ServiceComb Pack是微服务应用程序的最终数据一致性解决方案，目前提供TCC和Saga分布式事务协调解决方案，使用Alpha作为事务协调器，Omega作为事务代理，由华为开源。
+* [Raincat](https://github.com/dromara/raincat)：Raincat是强一致分布式事务框架，由dromara社区开源。
+* [Scalardb](https://github.com/scalar-labs/scalardb)：ScalarDB是一个跨数据库HTAP引擎，由韩国Scalar公司维护。
+* [Transaction Outbox](https://github.com/gruelbox/transaction-outbox)：Java Transaction Outbox模式的灵活实现，具有干净、可扩展的API，并且可以与各种数据库平台、事务管理方法和应用程序框架很好地配合。
+* [Apache Omid](https://github.com/apache/phoenix-omid)：Apache Omid是一个灵活、可靠、高性能和可扩展的事务框架，允许大数据应用程序在MVCC键/值NoSQL数据存储之上执行ACID事务，由Yahoo开发。
+* [ByteJTA](https://github.com/liuyangming/ByteJTA)：ByteJTA是分布式事务管理器的实现，基于XA/2PC机制。
+* [Myth](https://github.com/dromara/myth)：Myth是采用消息队列解决分布式事务的开源框架，由dromara社区开源。
+* [Acku](https://github.com/x-ream/acku)：MQ事务、TCC、最终一致性。
+* [Eventuate Tram Sagas](https://github.com/eventuate-tram/eventuate-tram-sagas)：Eventuate Tram Sagas框架是一个适用于使用JDBC/JPA和Spring Boot/Micronaut的Java微服务的Saga框架。
+* [Txle](https://github.com/actiontech/txle)：Txle是爱可生开发的分布式事务解决方案，可以保证业务数据的最终一致性。
+
+## Mybatis库
+
+* [Mybatis Plus](https://github.com/baomidou/mybatis-plus)：MyBatis Plus是MyBatis的一个强大的增强工具包，用于简化开发。
+* [Mybatis Flex](https://github.com/mybatis-flex/mybatis-flex)：Mybatis Flex是一个优雅的Mybatis增强框架。
+* [Fluent Mybatis](https://gitee.com/fluent-mybatis/fluent-mybatis)：Fluent MyBatis是一个MyBatis增强工具。
+* [MybatisPlus Ext](https://gitee.com/dromara/mybatis-plus-ext)：MybatisPlus Ext对MybatisPlus做了进一步的拓展封装，即保留原功能，又添加了更多有用便捷的功能。
+* [Xbatis](https://gitee.com/xbatis/xbatis)：Xbatis是一款基于Mybatis的ORM框架。
+* [Mybatis PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)：Mybatis通用分页插件。
+* [Mapper](https://github.com/abel533/Mapper)：易于使用的Mybatis通用Mapper。
+* [Mapper](https://gitee.com/free/Mapper)：极其方便的使用Mybatis单表的增删改查工具。
+* [MyBatis Mapper](https://github.com/mybatis-mapper/mapper)：这是一个不需要任何配置就可以直接使用的通用Mapper。
+* [FastMybatis](https://gitee.com/durcframework/fastmybatis)：FastMybatis是一个Mybatis开发框架，其宗旨为简单、快速、有效。
+* [MyBatis Plus Join](https://gitee.com/best_handsome/mybatis-plus-join)：对MyBatis Plus多表查询的扩展。
+* [MyBatis Dynamic SQL](https://github.com/mybatis/mybatis-dynamic-sql)：适用于Kotlin和Java的SQL DSL，支持MyBatis或Spring JdbcTemplate的渲染。
+* [Mybatis Generator](https://github.com/mybatis/generator)：用于Mybatis的代码生成器。
+* [MybatisPlus Generator](https://github.com/baomidou/generator)：用于MybatisPlus的代码生成器。
+* [Mybatis Mate](https://gitee.com/baomidou/mybatis-mate-examples)：Mybatis-Mate为MP企业级模块，支持分库分表，数据审计、数据敏感词过滤(AC算法)，字段加密，字典回写(数据绑定)，数据权限，表结构自动生成SQL维护，支持国密SM2、SM3、SM4加密算法等。
+* [SQL Analysis](https://github.com/jd-opensource/sql-analysis)：SQL Analysis是基于Mybatis插件设计的一款慢SQL分析组件，由京东开源。
+* [MyBatis Generator UI](https://github.com/zouzg/mybatis-generator-gui)：MyBatis Generator UI是基于MyBatis Generator开发一款界面工具。
+* [MyBatis Generator Plugin](https://github.com/itfsw/mybatis-generator-plugin)：Mybatis Generator代码生成插件拓展。
+* [MyBatis Plus Generator UI](https://github.com/davidfantasy/mybatis-plus-generator-ui)：提供交互式的Web UI用于生成兼容Mybatis Plus框架的相关功能代码。
+* [MybatisPlus Code Generator](https://github.com/fengwenyi/mybatis-plus-code-generator)：MyBatisPlus代码生成器。
+* [PNDao](https://gitee.com/piaoniu/pndao)：一个非常简单的MyBatis辅助工具，可以基于DAO的命名约定帮你生成并维护SQL语句，由票牛开源。
+* [Stream Query](https://gitee.com/dromara/stream-query)：Stream Query允许完全摆脱Mapper的Mybatis Plus体验。
+* [OpenScope](https://gitee.com/mofum/open-scope)：OpenScope是一种轻量级、易维护的数据权限的解决方案，它能处理比较复杂的权限操作逻辑。
+* [Spring Data MyBatis](https://github.com/easybest/spring-data-mybatis)：该模块提供对基于MyBatis的数据访问层的增强支持。
+
+## Hibernate库
+
+* [Hypersistence Utils](https://github.com/vladmihalcea/hypersistence-utils)：Hypersistence Utils库提供Spring和Hibernate实用程序，可以帮助充分利用数据访问层。
+* [HibernatePlus](https://gitee.com/baomidou/hibernate-plus)：Hibernate增强工具包，只做增强不做改变，更加精简持久层CRUD操作。
+* [TorpedoQuery](https://github.com/xjodoin/torpedoquery)：类型安全的Hibernate查询生成器。
+* [Hibernate Hydrate](https://github.com/arey/hibernate-hydrate)：Hibernate Hydrate项目的主要目标是填充持久实体图，从而避免著名的LazyInitializationException。
+* [Hibernate Redis](https://github.com/debop/hibernate-redis)：使用Redis的Hibernate二级缓存权限。
+* [SQLite Dialect](https://github.com/gwenn/sqlite-dialect)：受NHibernate启发的SQLite的Hibernate方言。
+
+## JPA库
+
+* [JPA Spec](https://github.com/wenhao/jpa-spec)：JPA按Specification查询框架。
+* [RSQL JPA](https://github.com/tennaito/rsql-jpa)：该库提供了RSQL表达式到JPA Criteria Query(JPQL的对象表示)的转换器。
+* [Kotlin JDSL](https://github.com/line/kotlin-jdsl)：Kotlin JDSL是一个Kotlin库，它简化了查询的构建和执行，由Line开源。
+* [RSQL JPA Specification](https://github.com/perplexhub/rsql-jpa-specification)：将RSQL查询转换为org.springframework.data.jpa.domain.Specification或com.querydsl.core.types.Predicate并支持实体关联查询。
+* [FluentJPA](https://github.com/streamx-co/FluentJPA)：FluentJPA是一种用于关系型数据库和JPA的语言集成查询(LINQ) 技术，它允许你通过直接集成到Java语言中来编写强类型查询。
+* [Blaze Persistence](https://github.com/Blazebit/blaze-persistence)：Blaze Persistence是面向JPA提供程序的丰富Criteria API。
+* [JPAStreamer](https://github.com/speedment/jpa-streamer)：JPAStreamer是一个轻量级库，用于将JPA查询表达为Java Stream。
+* [ActiveJPA](https://github.com/ActiveJpa/activejpa)：ActiveJPA是一个试图在JPA之上实现ActiveRecord模式的Java库。
+* [QueryStream](https://github.com/querystream/querystream)：QueryStream允许你使用类似Stream的API执行JPA查询。
+* [Spring Filter](https://github.com/turkraft/springfilter)：使用用户友好的查询语法动态过滤JPA实体和Mongo集合。
+* [Fenix](https://github.com/blinkfox/fenix)：Fenix是一个为了解决复杂动态SQL(JPQL)而生的Spring Data JPA扩展库。
+* [Spring Data JPA EntityGraph](https://github.com/Cosium/spring-data-jpa-entity-graph)：Spring Data JPA扩展允许在Repository上完全动态使用EntityGraph。
+* [Spring Data JPA DataTables](https://github.com/darrachequesne/spring-data-jpa-datatables)：该项目是Spring Data JPA项目的扩展，以便于与启用了服务器端处理的jQuery插件DataTables一起使用。
+* [Spring Search](https://github.com/sipios/spring-search)：Spring Search提供了一种简单的查询语言来对JPA实体执行高级搜索。
+* [Specification Arg Resolver](https://github.com/tkaczmarzyk/specification-arg-resolver)：用于使用Spring MVC和Spring Data JPA过滤数据的替代API。
+* [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions)：Spring Data JPA MongoDB Expressions是一个允许你使用MongoDB查询语言查询Spring Data JPA Repository的库。
+* [Spring Data JPA Extra](https://github.com/slyak/spring-data-jpa-extra)：Spring Data JPA带模板动态查询功能(例如FreeMarker、Velocity等)，类似MyBatis。
+* [Spring Data Generator](https://github.com/cmeza20/spring-data-generator)：用于JPA Repository和管理器的Spring Data Generator。
+* [Kotlin JPA Specification DSL](https://github.com/consoleau/kotlin-jpa-specification-dsl)：该库提供了一个流式的DSL，用于使用Spring Data规范(即JPA Criteria API)查询Spring Data JPA Repository，而无需样板代码或生成的元模型。
+
+#### 数据库连接池
+
+* [Druid](https://github.com/alibaba/druid)：Druid是一个JDBC组件库，包含数据库连接池、SQL Parser等组件，由阿里云开源。
+* [HikariCP](https://github.com/brettwooldridge/HikariCP)：HikariCP是一个零开销生产就绪的JDBC连接池。
+* [Apache Commons DBCP](https://github.com/apache/commons-dbcp)：Commons DBCP软件实现数据库连接池。
+* [C3P0](https://github.com/swaldman/c3p0)：C3P0是一个成熟、高并发的JDBC连接池库，支持PreparedStatements的缓存和重用。
+* [BoneCP](https://github.com/wwadge/bonecp)：BoneCP是一种JDBC连接池实现，它通过最大限度地减少锁争用来实现高性能，从而为应用程序提供更大的吞吐量。
+* [FlexyPool](https://github.com/vladmihalcea/flexy-pool)：FlexyPool库为给定的连接池添加了指标和灵活的策略，使其能够根据需要调整大小。
+* [Agroal](https://github.com/agroal/agroal)：Agroal是一个小巧的数据库连接池。
+* [Vibur DBCP](https://github.com/vibur/vibur-dbcp)：Vibur DBCP是并发、快速且功能齐全的JDBC连接池，它提供高级性能监控功能，包括慢SQL查询检测和日志记录、应用程序线程的非饥饿保证、语句缓存和Hibernate集成等功能。
+* [Tomcat JDBC Pool](https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html)：Tomcat JDBC连接池。
+* [R2DBC Pool](https://github.com/r2dbc/r2dbc-pool)：用于响应式关系数据库连接的连接池。
+* [BeeCP](https://gitee.com/Chris2018998/BeeCP)：BeeCP是一个小型的JDBC连接池：性能高，代码轻量，稳定性好。
+* [SmartPool](https://smartpool.sourceforge.net/)：SmartPool是一个连接池组件，以应用程序服务器提供的池功能为模型。
+
+#### 数据库迁移
+
+* [Liquibase](https://github.com/liquibase/liquibase)：Liquibase是一种数据库模式变更管理解决方案，使你能够更快、更安全地修改和发布从开发到生产的数据库变更。
+* [Flyway](https://github.com/flyway/flyway)：Flyway是一款开源的数据库版本管理工具，它更倾向于规约优于配置的方式。
+* [Obevo](https://github.com/goldmansachs/obevo)：Obevo是一种数据库部署工具，可处理企业规模的架构和复杂性，由高盛银行开源。
+* [Mybatis Migrations](https://github.com/mybatis/migrations)：命令行数据库迁移工具。
+* [Mongolastic](https://github.com/ozlerhakan/mongolastic)：Mongolastic使你能够将数据集从MongoDB节点迁移到ElasticSearch节点，反之亦然。
+* [Datafall](https://github.com/forcedotcom/Data-Migration-Tool)：Datafall是一种将数据从一个Salesforce组织迁移到另一个Salesforce组织的工具。
+* [Neo4j-Migrations](https://github.com/michael-simons/neo4j-migrations)：Neo4j-Migrations是一种数据库迁移和重构工具，允许以受控且可重复的方式针对一个或多个Neo4j数据库运行Cypher脚本和编程重构。
+* [COS Migration](https://github.com/tencentyun/cos_migrate_tool_v5)：COS Migration是一个集成了COS数据迁移功能的一体化工具，由腾讯开源。
+* [OSSImport](https://help.aliyun.com/zh/data-online-migration/user-guide/ossimport-overview)：OSSImport是阿里的一款将数据迁移至OSS的商业工具。
+* [Celesta](https://github.com/CourseOrchestra/celesta)：Java的数据库迁移、SQL和测试工具。
+* [Elasticsearch Evolution](https://github.com/senacor/elasticsearch-evolution)：用于迁移Elasticsearch映射的库。
+* [Migrate2Postgres](https://github.com/isapir/Migrate2Postgres)：该工具允许你轻松地将数据库从其他兼容JDBC的DBMS迁移到Postgres。
+* [Couchmove](https://github.com/tchlyah/couchmove)：Couchmove是Couchbase的开源Java迁移工具。
+* [Mongock](https://github.com/mongock/mongock)：Mongock是一个基于Java的迁移工具，作为应用程序代码的一部分。
+* [Solidbase](https://github.com/gitbucket/solidbase)：基于Liquibase的RDBMS和其他资源的通用迁移工具。
+* [R2DBC Migration](https://github.com/nkonev/r2dbc-migrate)：R2DBC数据库迁移库。
+* [QuantumDB](https://github.com/quantumdb/quantumdb)：QuantumDB是一种用于演进SQL数据库模式的方法，它不会妨碍SQL客户端的访问，也不需要停机。
+
+#### 数据源增强
+
+* [Dynamic DataSource](https://github.com/baomidou/dynamic-datasource)：Dynamic DataSource是一个基于Spring Boot的快速集成多数据源的Starter。
+* [DataSource Proxy](https://github.com/jdbc-observations/datasource-proxy)：DataSource Proxy提供简单的API来拦截JDBC交互，并允许用户在查询或方法执行之前/之后执行自己的逻辑。
+* [Spring Boot Dynamic DataSource](https://github.com/helloworlde/SpringBoot-DynamicDataSource)：Spring Boot多数据源、动态数据源配置。
+
+#### 数据库工具
+
+* [Screw](https://gitee.com/leshalv/screw)：Screw是一个简洁好用的数据库表结构文档生成器。
+* [APGDiff](https://github.com/fordfrog/apgdiff)：APGDiff是免费的PostgreSQL diff工具，可用于比较/差异数据库模式。
+* [Databasir](https://github.com/vran-dev/databasir)：Databasir是面向团队的关系型数据库模型文档管理平台。
+* [Databench-T](https://gitee.com/caict-bigdata/databench-t)：Databench-T是面向金融核心业务系统场景的事务型数据库性能测试工具，由中国信通院云计算与大数据研究所联合北京银行、建设银行等企业共同设计开发。
+* [SQL Formatter](https://github.com/vertical-blank/sql-formatter)：仅依赖Java标准库的SQL格式化程序。
+* [SQL Relay](https://sqlrelay.sourceforge.net/)：SQL Relay是一个数据库代理和数据库连接管理解决方案。
+* [ConceptBase](https://conceptbase.sourceforge.net/)：ConceptBase是一个多用户演绎数据库系统，具有面向对象的数据模型和无限的分类级别，使其成为元建模和定制建模语言工程的强大工具，由斯科夫德大学和亚琛大学开发。
+* [Database Export](https://gitee.com/pomz/database-export)：Database Export是一款多线程生成数据库结构文档的开源Spring Boot工程。
+
+#### 存储过程
+
+* [PL/Java](https://github.com/tada/pljava)：PL/Java是一个免费的附加模块，它将Java存储过程、触发器和函数引入PostgreSQL后端。
+* [SPAN](https://github.com/americanexpress/SPAN)：SPAN是一个Java框架，它可以帮助开发人员通过提供配置和POJO详细信息来连接存储过程，由美国运通开源。
+
+#### N+1检测
+
+* [DBUtil](https://github.com/vladmihalcea/db-util)：该工具可以在测试期间自动检测N+1查询问题。
+* [JPlusOne](https://github.com/adgadev/jplusone)：JPlusOne是用于自动检测和断言基于JPA的Spring Boot Java应用程序中发生的“N+1问题”并查找JPA发出的SQL语句的一般来源的工具。
+* [Spring Hibernate Query Utils](https://github.com/yannbriancon/spring-hibernate-query-utils)：该库提供了检测N+1查询并对Spring和Hibernate生成的查询进行计数的工具。
+
+#### Redis库/工具
+
+* [Redisson](https://github.com/redisson/redisson)：Redisson是一个具有内存数据网格功能的Redis Java客户端。
+* [Jedis](https://github.com/redis/jedis)：Jedis是Redis的Java客户端，旨在提高性能和易用性。
+* [Tedis](https://github.com/justified/tedis)：Tedis是另一个Redis的Java客户端，阿里开源。
+* [Lettuce](https://github.com/lettuce-io/lettuce-core)：Lettuce是一个可扩展的线程安全Redis客户端，适用于同步、异步和响应式使用。
+* [Spring Data Redis](https://github.com/spring-projects/spring-data-redis)：Spring Data Redis提供从Spring应用程序轻松配置和访问Redis的功能。
+* [RedisCache](https://gitee.com/darkidiot/RedisCache)：RedisCache是基于Jedis的SDK。
+* [JRedis](https://github.com/alphazero/jredis)：JRedis是Redis的Java客户端和连接器。
+* [Redis Protocol](https://github.com/spullara/redis-protocol)：RedisClient是Redis的Java客户端和服务端实现。
+* [Carmine](https://github.com/taoensso/carmine)：Carmine是Clojure的成熟Redis客户端，提供惯用的Clojure API，速度快、功能强大且易于使用。
+* [Jesque](https://github.com/gresrun/jesque)：Jesque是Resque在Java中的实现。
+* [JOhm](https://github.com/xetorthio/johm)：JOhm是一个速度超快的Java对象哈希映射库。
+* [RedisScala](https://github.com/etaty/rediscala)：RedisScala是具有非阻塞和异步I/O操作的Scala Redis客户端。
+* [Valkey GLIDE](https://github.com/valkey-io/valkey-glide)：Valkey GLIDE是一个开源Valkey客户端库，Valkey是Redis的开源fork版本，由AWS开源。
+* [JRedisJSON](https://github.com/RedisJSON/JRedisJSON)：Redis RedisJSON的Java客户端。
+* [Redis OM Spring](https://github.com/redis/redis-om-spring)：Redis OM Spring扩展了Spring Data Redis，以充分利用Redis和Redis Stack。
+* [Kreds](https://github.com/crackthecodeabhi/kreds)：Kreds是一个线程安全、惯用、基于协程的Redis客户端。
+* [RedisClient](https://github.com/caoxinyu/RedisClient)：RedisClient是一个基于Java SWT和Jedis编写的Redis客户端GUI工具。
+* [HotKey](https://gitee.com/jd-platform-opensource/hotkey)：京东App后台中间件，毫秒级探测热点数据，毫秒级推送至服务器集群内存，大幅降低热key对数据层查询压力。
+* [Redis Admin](https://github.com/mauersu/redis-admin)：Redis Admin是一个基于Java EE和Jedis编写的Redis客户端Web工具。
+* [Redis Desktop Client](https://gitee.com/RedisDesktopClient/redis-desktop-client)：Redis Desktop Client是一款颜值较高、使用方便的redis客户端工具。
+* [RedisPlus](https://gitee.com/MaxBill/RedisPlus)：RedisPlus是为Redis可视化管理开发的一款开源免费的桌面客户端软件。
+* [Redis Admin](https://gitee.com/xuebusi/redis-admin)：Redis Admin是一个简单好用的Redis缓存图形化管理工具，包含Redis的5种数据类型的CRUD操作。
+* [RedisFront](https://gitee.com/dromara/RedisFront)：RedisFront是一款开源跨平台Redis桌面客户端工具，支持单机模式、集群模式、哨兵模式以及SSH隧道连接，由dromara社区开源。
+* [Redis Manager](https://github.com/ngbdf/redis-manager)：Redis Manager是Redis一站式管理平台，支持集群的监控、安装、管理、告警以及基本的数据操作功能。
+* [XPipe](https://github.com/ctripcorp/x-pipe)：X-Pipe是由携程框架部门研发的Redis多数据中心复制管理系统。
+* [CacheCloud](https://github.com/sohutv/cachecloud)：CacheCloud是一个Redis云管理平台，支持Redis多种架构高效管理、有效降低大规模Redis运维成本，提升资源管控能力和利用率，由搜狐开源。
+* [Cymbal](https://github.com/dangdangdotcom/cymbal)：Cymbal是当当开源的Redis PaaS平台，目标是帮助技术团队以简单、低成本的方式管理大规模Redis集群。
+* [RCT](https://github.com/xaecbd/RCT)：RCT是通过解析RDB文件进行Redis内存结构分析的一站式平台。
+* [Redis RDB CLI](https://github.com/leonchen83/redis-rdb-cli)：Redis RDB CLI是一个可以解析、过滤、拆分、合并RDB以及离线分析内存使用情况的工具。
+* [RIOT](https://github.com/redis/riot)：RIOT是一个命令行实用程序，旨在帮助你将数据输入和输出Redis。
+* [RedisDesktopManagerFX](https://github.com/tanhuang2016/RedisDesktopManagerFX)：这是一个基于Jedis，使用JavaFX开发的Redis GUI工具。
+* [RedisLettuceClient](https://gitee.com/tyanzhe/RedisLettuceClient)：RedisLettuceClient是一款基于Java Swing的跨平台的Redis桌面管理工具，支持单机、集群模式连接。
+* [RedisFX](https://github.com/tanhuang2016/RedisFX)：使用JavaFX开发的Redis GUI工具。
+
+#### MongoDB库/工具
+
+* [MongoDB](https://github.com/mongodb/mongo-java-driver)：适用于Java、Kotlin和Scala的官方MongoDB驱动程序。
+* [Spring Data MongoDB](https://github.com/spring-projects/spring-data-mongodb)：Spring Data MongoDB项目旨在为新数据存储提供熟悉且一致的基于Spring的编程模型，同时保留特定于存储的特性和功能。
+* [ReactiveMongo](https://github.com/ReactiveMongo/ReactiveMongo)：ReactiveMongo是一个Scala驱动程序，提供完全非阻塞和异步I/O操作。
+* [Mars](https://github.com/whaleal/mars)：Mars是用于Java的MongoDB ORM/ODM框架，由上海锦木信息技术有限公司与中国东方航空公司共同开发。
+* [Jongo](https://github.com/bguerout/jongo)：Jongo是Mongo查询语言可在Java中使用。
+* [Morphia](https://github.com/MorphiaOrg/morphia)：Morphia是基于Java的MongoDB对象-文档映射器。
+* [Mongojack](https://github.com/mongojack/mongojack)：Mongojack将Java对象映射到MongoDB文档。
+* [MongoPlus](https://gitee.com/aizuda/mongo-plus)：MongoPlus可以使用MyBatisPlus的方式优雅的操作MongoDB，由爱组搭开源。
+* [Variety](https://github.com/variety/variety)：Variety是MongoDB的模式分析器。
+* [UMongo](https://github.com/agirbal/umongo)：UMongo是用于浏览和管理MongoDB集群的桌面应用程序。
+* [Studio 3T](https://studio3t.com/)：Studio 3T是MongoDB的专业图形用户界面。
+* [MongoBee](https://github.com/mongobee/mongobee)：MongoBee是一个Java工具，可帮助你管理MongoDB中的更改并将其与你的应用程序同步。
+* [Mongo Lambda Query](https://github.com/DarMi7/mongo-lambda-query)：基于Lambda表达式，且面向对象的Mongo数据库查询插件。
+* [MongoHelper](https://gitee.com/cym1102/mongoHelper)：Spring Data MongoDB增强工具包，简化CRUD操作，提供类Mybatis Plus的数据库操作体验。
+* [MongoDB Slow Operations Profiler](https://github.com/idealo/mongodb-slow-operations-profiler)：这款Java Web应用程序收集并存储来自一个或多个MongoDB系统的慢速操作，以便对其进行可视化和分析。
+* [SQL To MongoDB Query Converter](https://github.com/vincentrussell/sql-to-mongo-db-query-converter)：SQL To MongoDB Query Converter帮助你根据SQL中提供的查询为MongoDb构建查询。
+
+#### Cassandra库/工具
+
+* [Cassandra Java Driver](https://github.com/apache/cassandra-java-driver)：Cassandra的Java驱动程序。
+* [DataStax Java Driver](https://github.com/datastax/java-driver)：适用于Cassandra的DataStax Java驱动程序。
+* [Cassandra JDBC Wrapper](https://github.com/ing-bank/cassandra-jdbc-wrapper)：这是Apache Cassandra Java驱动程序的JDBC包装器，它提供了一个简单的JDBC兼容API来与CQL3协同工作，由ING银行开源。
+* [Phantom](https://github.com/outworkers/phantom)：Phantom是适用于Cassandra/Datastax Enterprise的响应式类型安全Scala驱动程序。
+* [Astyanax](https://github.com/Netflix/astyanax)：Astyanax是Netflix开源的Cassandra Java客户端库。
+* [Spring Data Cassandra](https://github.com/spring-projects/spring-data-cassandra)：Spring Data Cassandra为Cassandra提供Spring Data模块熟悉的接口。
+* [Hector](https://github.com/hector-client/hector)：Hector是Cassandra的高级客户端库。
+* [Cassie](https://github.com/twitter-archive/cassie)：Cassie是一个小型、轻量级的Cassandra客户端，基于Finagle构建，由Twitter开源。
+* [Stargate](https://github.com/stargate/stargate)：Stargate是部署在客户端应用程序和Cassandra数据库之间的数据网关，DataStax开源。
+* [Cassandra Reaper](https://github.com/thelastpickle/cassandra-reaper)：Reaper是一种集中式、有状态且高度可配置的工具，用于针对单站点或多站点集群运行Cassandra修复，由DataStax开源。
+* [Aegisthus](https://github.com/Netflix/aegisthus)：Aegisthus是Cassandra的批量数据管道，由Netflix开源。
+* [Cassandra Schema Migration](https://github.com/patka/cassandra-migration)：该库可用于在Java应用程序内实现Cassandra数据库模式的迁移。
+* [Cassandra Migration](https://github.com/smartcat-labs/cassandra-migration-tool-java)：适用于Java的Cassandra模式迁移工具。
+* [Cassandra Migration](https://github.com/Contrast-Security-OSS/cassandra-migration)：Cassandra Migration是一个简单且轻量级的Cassandra数据库迁移工具，基于Flyway项目，由Contrast开源。
+* [CQLMigrate](https://github.com/sky-uk/cqlmigrate)：CQLMigrate是一个用于在Cassandra集群上执行模式迁移的库，由英国天空公司开源。
+
+#### Memcached库/工具
+
+* [Folsom](https://github.com/spotify/folsom)：Folsom是Java的异步Memcached客户端库，由Spotify开源。
+* [XMemcached](https://github.com/killme2008/xmemcached)：XMemcached是一个高性能、易于使用的Java阻塞多线程Memcached客户端。
+* [Spymemcached](https://github.com/dustin/java-memcached-client)：Spymemcached是一个用Java编写的简单、异步、单线程Memcached客户端。
+
+#### Zookeeper库/工具
+
+* [Apache Curator](https://github.com/apache/curator)：Curator是ZooKeeper的Java/JVM客户端库，由Netflix开源。
+* [ZkClient](https://github.com/sgroschupf/zkclient)：ZkClient是Zookeeper的客户端库，由Datameer开源。
+* [ZKClient](https://github.com/adyliu/zkclient)：一个简单有效的Zookeeper Java客户端，由搜狐维护。
+* [PrettyZoo](https://github.com/vran-dev/PrettyZoo)：PrettyZoo是由JavaFX和Apache Curator创建的Zookeeper GUI。
+* [ZkUI](https://github.com/DeemOpen/zkui)：ZkUI是允许在Zookeeper上进行CRUD操作的UI仪表板。
+* [ZkWeb](https://github.com/zhitom/zkweb)：ZkWeb是用于管理和监控Zookeeper集群的Zookeeper Web应用，内置H2数据库。
+* [Taokeeper](https://github.com/alibaba/taokeeper)：Taokeeper是Zookeeper的监视器，由阿里开源。
+* [Shepher](https://github.com/XiaoMi/shepher)：Shepher是ZooKeeper的管理工具，在小米作为配置管理中心使用。
+* [KafkaUI Lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
+* [Zookeeper Visualizer](https://github.com/xin497668869/zookeeper-visualizer)：Zookeeper的可视化管理工具。
+* [ZKCopy](https://github.com/ksprojects/zkcopy)：用于在不同集群之间快速复制ZooKeeper数据的工具。
+
+#### ClickHouse库/工具
+
+* [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java)：用于连接ClickHouse并处理各种格式数据的Java库。
+* [Clickhouse4j](https://github.com/Blynk-Technologies/clickhouse4j)：Clickhouse4j是官方ClickHouse JDBC驱动程序的更轻更快的替代品。
+* [ClickHouse Native JDBC](https://github.com/housepower/ClickHouse-Native-JDBC)：用于在Java 中访问ClickHouse的原生JDBC库，还提供用于与Spark集成的库。
+* [Clickhouse Scala](https://github.com/crobox/clickhouse-scala-client)：Clickhouse Scala客户端，以响应式方式访问Clickhouse数据库。
+* [CKibana](https://github.com/TongchengOpenSource/ckibana)：CKibana是一项使用原生Kibana方便分析ClickHouse数据的服务，由同程旅行开源。
+* [Graphhouse](https://github.com/ClickHouse/graphouse)：Graphhouse允许你使用ClickHouse作为Graphite存储。
+* [ClickHouse Client](https://github.com/Ecwid/clickhouse-client)：ClickHouse的Java/Kotlin客户端。
+
+#### ElasticSearch库/工具
+
+* [ElasticSearch Java](https://github.com/elastic/elasticsearch-java)：ElasticSearch官方Java客户端。
+* [Jest](https://github.com/searchbox-io/Jest)：Jest是ElasticSearch的Java HTTP REST客户端。
+* [Bboss](https://github.com/bbossgroups/bboss-elasticsearch)：Bboss是一个很好的ElasticSearch Java REST客户端，它操作和访问ElasticSearch的方式与MyBatis类似。
+* [Flummi](https://github.com/otto-de/flummi)：Flummi是ElasticSearch的客户端库，提供了全面的Java查询DSL API，并通过HTTP/JSON与ElasticSearch集群进行通信。
+* [Pallas](https://github.com/vipshop/pallas)：Pallas是唯品会的统一搜索平台，建立在ElasticSearch之上，旨在解决各种搜索问题。
+* [Easy ES](https://gitee.com/dromara/easy-es)：Easy ES是一款简化ElasticSearch搜索引擎操作的开源框架，全自动智能索引托管，由dromara社区开源。
+* [Spring Data Jest](https://github.com/VanRoy/spring-data-jest)：基于Jest Rest客户端的ElasticSearch的Spring Data实现。
+* [Spring Data Elasticsearch](https://github.com/spring-projects/spring-data-elasticsearch)：Spring Data Elasticsearch项目提供与Elasticsearch搜索引擎的集成。
+* [ESClientRHL](https://gitee.com/zxporz/ESClientRHL)：EsClientRHL是一个可基于Spring Boot的ElasticSearch客户端调用封装工具。
+* [EsearchX](https://gitee.com/noear/esearchx)：EsearchX基于OkHttp、Snack3开发，是一个代码直白和简单的Elasticsearch ORM框架。
+* [Elastic4s](https://github.com/Philippus/elastic4s)：Elastic4s是一个简洁、惯用、响应式、类型安全的Elasticsearch Scala客户端。
+* [Ebatis](https://github.com/ymm-tech/ebatis)：Ebatis是一个声明式ElasticSearch ORM框架。
+* [Querqy](https://github.com/querqy/querqy)：Querqy是一个在基于Java的搜索引擎中进行查询预处理的框架。
+* [Anserini](https://github.com/castorini/anserini)：Anserini是一个用于可重复信息检索研究的Lucene工具包，由滑铁卢大学开源。
+* [ES Fastloader](https://github.com/didi/ES-Fastloader)：ES Fastloader利用Hadoop的容错性和并行性，在多个reducer节点中构建单独的ElasticSearch分片，然后将分片传输到ElasticSearch集群进行服务，由滴滴开源。
+* [Elasticsearch JDBC](https://github.com/jprante/elasticsearch-jdbc)：JDBC导入器允许从JDBC源获取数据以索引到Elasticsearch中。
+* [Elasticsearch SQL](https://github.com/NLPchina/elasticsearch-sql)：使用此插件，你可以使用熟悉的SQL语法查询Elasticsearch。
+* [Luke](https://github.com/DmitryKey/luke)：Luke是一个用于检查Lucene/Solr/Elasticsearch索引的GUI工具。
+* [KnowSearch](https://github.com/didi/KnowSearch)：KnowSearch是面向Elasticsearch研发与运维人员，围绕集群、索引构建的零侵入、多租户的Elasticsearch GUI管控平台，由滴滴开源。
+* [SQL4ES](https://github.com/Anchormen/sql4es)：SQL4ES是适用于Elasticsearch 6.3.2的JDBC 4.1驱动程序，它实现了大多数JDBC接口。
+
+#### DynamoDB库/工具
+
+* [Jcabi DynamoDB](https://github.com/jcabi/jcabi-dynamo)：AWS DynamoDB SDK的面向对象包装器。
+* [Tempest](https://github.com/cashapp/tempest)：适用于Kotlin和Java的类型安全DynamoDB。
+* [DynamoDB Transactions](https://github.com/awslabs/dynamodb-transactions)：DynamoDB Transactions在DynamoDB中提供原子性、一致性、隔离性和持久性(ACID)，使你能够更轻松地维护应用程序中的数据正确性。
+* [DynamoDB Geo](https://github.com/amazon-archives/dynamodb-geo)：Amazon DynamoDB的地理库使Java开发人员能够轻松创建和查询地理空间数据。
+* [Spring Data DynamoDB](https://github.com/michaellavelle/spring-data-dynamodb)：该模块提供对基于AWS DynamoDB构建的数据访问层的增强支持。
+* [Amazon DynamoDB Encryption Java](https://github.com/aws/aws-dynamodb-encryption-java)：适用于Java的Amazon DynamoDB加密客户端。
+* [Dynamoit](https://github.com/bykka/dynamoit)：这是一个用JavaFX编写的简单的DynamoDB图形客户端。
+
+#### Neo4j库/工具
+
+* [Neo4j Java Driver](https://github.com/neo4j/neo4j-java-driver)：Neo4j的官方Java驱动程序。
+* [Spring Data Neo4j](https://github.com/spring-projects/spring-data-neo4j)：Spring Data Neo4j支持从Spring应用程序轻松配置和访问Neo4j图数据库。
+* [Neo4j GraphQL](https://github.com/neo4j-graphql/neo4j-graphql)：这是Neo4j的GraphQL Endpoint扩展。
+* [Neo4j OGM](https://github.com/neo4j/neo4j-ogm)：Neo4j OGM是Neo4j的快速对象图映射库，针对利用Cypher的基于服务器的安装进行了优化。
+* [NeoTypes](https://github.com/neotypes/neotypes)：用于Neo4j的Scala轻量级、类型安全、异步驱动程序。
+
+#### Etcd库/工具
+
+* [JEtcd](https://github.com/etcd-io/jetcd)：JEtcd是etcd v3的官方Java客户端。
+* [Boon Etcd](https://github.com/boonproject/boon/tree/master/etcd)：Boon etcd是etcd的Java客户端。
+* [Etcd Java](https://github.com/IBM/etcd-java)：IBM开源的etcd v3 Java客户端库。
+* [JEtcd](https://github.com/justinsb/jetcd)：一个简单的Java etcd客户端库。
+* [Etcd4j](https://github.com/jurmous/etcd4j)：Etcd4j是etcd的客户端库。
+
+#### Milvus库/工具
+
+* [Milvus Java SDK](https://github.com/milvus-io/milvus-sdk-java)：Milvus的Java SDK。
+* [MilvusPlus](https://gitee.com/dromara/MilvusPlus)：MilvusPlus是一个功能强大的Java库，旨在简化与Milvus向量数据库的交互，为开发者提供类似MyBatis Plus注解和方法调用风格的直观API，由dromara社区开源。
+
+#### Vault库/工具
+
+* [Vault Java Driver](https://github.com/BetterCloud/vault-java-driver)：HashiCorp的Vault机密管理解决方案的零依赖Java客户端。
+* [Spring Vault](https://github.com/spring-projects/spring-vault)：Spring Vault提供客户端访问、存储和撤销机密信息的支持。
 
 ## 安全
 
@@ -730,6 +1206,7 @@
 * [AppAuth](https://github.com/openid/AppAuth-Android)：用于与OAuth 2.0和OIDC提供商进行通信的Android客户端SDK。
 * [Signpost](https://github.com/mttkay/signpost)：Signpost是一种简单直观的解决方案，用于在Java平台上签署符合OAuth Core 1.0a标准的HTTP消息。
 * [CredentialManager](https://github.com/PhilippHeuer/credential-manager)：一个简单的OAuth客户端和CredentialManager库，支持多个存储后端。
+* [Okta Spring Boot](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter，使你的Spring Boot应用程序能够通过OAuth 2.0/OIDC 与Okta协同工作。
 
 #### 身份管理平台
 
@@ -783,6 +1260,7 @@
 * [NTRU](https://github.com/tbuktu/ntru)：NTRUEncrypt和NTRUSign的Java实现。
 * [Fosstars Rating Core](https://github.com/SAP/fosstars-rating-core)：这是一个用于定义和计算开源项目评级的框架，由SAP开源。
 * [CSRFGuard](https://github.com/aramrami/OWASP-CSRFGuard)：CSRFGuard是一个实现同步器令牌模式变体的库，用于减轻CSRF攻击的风险，由OWASP开源。
+* [reCAPTCHA Spring Boot](https://github.com/mkopylec/recaptcha-spring-boot-starter)：Google reCAPTCHA的Spring Boot Starter。
 
 #### 安全工具
 
@@ -1308,6 +1786,7 @@
 * [Baigan](https://github.com/zalando-incubator/baigan-config)：Baigan是一个易于使用的基于Spring应用程序的配置框架，由Zalando开源。
 * [Constretto](https://github.com/constretto/constretto-core)：Constretto是Java应用程序的配置管理框架。
 * [Apron](https://github.com/poiu-de/apron)：Apron是一个用于读写Java .properties文件的小型库。
+* [Spring Boot Dynamic Config](https://github.com/Code2Life/spring-boot-dynamic-config)：一个注解实现Spring Boot应用的动态配置，配置热重载最简洁的方案。
 
 #### 分布式配置
 
@@ -2292,6 +2771,8 @@
 * [FreshMarker](https://gitlab.com/schegge/freshmarker)：FreshMarker是一个简单的嵌入式Java 21模板引擎，其灵感来自FreeMarker。
 * [ZML](https://gitee.com/zhiqim/zhiqim_zml)：ZML是知启蒙定义的、类似于Java、Javascript语法的语句和表达式，通常和XML/HTML混编在一起形成的一种新的标记语言。
 * [Japid](https://github.com/branaway/Japid)：Japid是一个基于Java的动态内容渲染模板系统。
+* [Spring Boot HTMX](https://github.com/wimdeblauwe/htmx-spring-boot)：该项目简化了HTMX与Spring Boot/Spring Web MVC应用程序的集成。
+* [Spring ViewComponent](https://github.com/tschuehly/spring-view-component)：使用Spring创建服务器端ViewComponent的库。
 
 ## 企业集成模式
 
@@ -4058,6 +4539,8 @@
 * [Fust](https://github.com/zhihu/fust)：Fust是一个基于Spring Boot的快速开发框架，由知乎开源。
 * [Zebra](https://gitee.com/gszebra/zebra)：Zebra是国信证券的微服务框架。
 * [Zero Ecotope](https://gitee.com/zero-ws/zero-ecotope)：Zero Ecotope是一个基于Vert.x的中间件容器，它可以帮助软件开发人员在Vert.x中快速开发和实施。
+* [Spring Lemon](https://github.com/naturalprogrammer/spring-lemon)：Spring Boot Web应用程序的帮助库。
+* [Assistant](https://github.com/Geniusay/Assistant)：Assistant是一个基于Spring Boot框架的后端开发工具。
 
 #### 后台管理系统
 
@@ -4726,19 +5209,23 @@
 * [Sakai](https://github.com/sakaiproject/sakai)：Sakai是一个免费提供的、功能丰富的技术解决方案，用于学习、教学、研究和协作，由美国印第安纳大学、密西根大学、斯坦福大学和麻省理工学院于2004年发起。
 * [OpenOLAT](https://github.com/OpenOLAT/OpenOLAT)：OpenOlat是一个基于Web的电子学习平台，用于教学、学习、评估和交流，是一个LMS、一个学习管理系统。
 * [SkillTree](https://github.com/NationalSecurityAgency/skills-service)：SkillTree是一个微型学习游戏化平台，提供开箱即用的UI可视化、方便的客户端集成库以及用于管理游戏化培训档案创建和管理的仪表板，由美国国家安全局开源。
-* [学之思](https://gitee.com/mindskip/xzs-mysql)：学之思开源考试系统是一款Java、Vue前后端分离的考试系统，由武汉思维跳跃公司开源。
-* [WTS](https://gitee.com/macplus/WTS)：本系统为在线答题系统，支持在线考试、在线练习等功能，由太原扁舟科技公司开发。
-* [云帆](https://github.com/qiutiandefeng/yfexam-exam)：云帆是Spring Boot、Vue开发的在线考试系统。
 * [SG Exam](https://gitee.com/wells2333/sg-exam)：基于Spring Boot、Vue构建的高效教学管理平台，专为便捷与美学设计。
-* [SpringBoot Vue Online Exam](https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam)：该项目是一个后端使用Spring Boot，前端使用Vue和Element-UI组件库配合开发的在线考试系统。
-* [Spring Boot Online Exam](https://github.com/lsgwr/spring-boot-online-exam)：基于Spring Boot的在线考试系统。
 * [Roncoo Education](https://gitee.com/roncoocom/roncoo-education)：领课教育系统是一套基于点播、直播、班级、考试、营销等功能完善的在线教育系统，由广州领课网络公司开源。
 * [Wisdom Education](https://gitee.com/zhuimengshaonian/wisdom-education)：基于Spring Boot、Mybatis Plus、Shiro、MySQL、Redis构建的智慧云智能教育平台。
-* [Exam++](https://gitee.com/ocelot/examxx)：Exam++是基于Java与MySQL开发的网络考试系统。
 * [Inxedu](https://gitee.com/inxeduopen/inxedu)：免费开源网校系统，轻松搭建在线教育平台。
-* [TamGuo](https://gitee.com/smiletocandy/tamguo)：TamGuo是基于Java开发的在线题库系统。
 * [PlayEdu](https://github.com/PlayEdu/PlayEdu)：PlayEdu是由白书科技团队打造出的一款业内领先的线上培训解决方案。
+
+#### 评测系统
+
+* [学之思](https://gitee.com/mindskip/xzs-mysql)：学之思开源考试系统是一款Java、Vue前后端分离的考试系统，由武汉思维跳跃公司开源。
+* [WTS](https://gitee.com/macplus/WTS)：本系统为在线答题系统，支持在线考试、在线练习等功能，由太原扁舟科技公司开发。
 * [HOJ](https://gitee.com/himitzh0730/hoj)：基于Vue、Spring Boot、Spring Cloud Alibaba构建的前后端分离，分布式架构的评测系统。
+* [SpringBoot Vue Online Exam](https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam)：该项目是一个后端使用Spring Boot，前端使用Vue和Element-UI组件库配合开发的在线考试系统。
+* [云帆](https://github.com/qiutiandefeng/yfexam-exam)：云帆是Spring Boot、Vue开发的在线考试系统。
+* [Glowxq OJ](https://github.com/glowxq/glowxq-oj)：Glowxq OJ是一个专为信息学奥林匹克竞赛和少儿编程教学设计的在线编程测评系统。
+* [Spring Boot Online Exam](https://github.com/lsgwr/spring-boot-online-exam)：基于Spring Boot的在线考试系统。
+* [Exam++](https://gitee.com/ocelot/examxx)：Exam++是基于Java与MySQL开发的网络考试系统。
+* [TamGuo](https://gitee.com/smiletocandy/tamguo)：TamGuo是基于Java开发的在线题库系统。
 * [SDUOJ](https://github.com/SDUOJ/OnlineJudge)：SDUOJ是一款开源在线评测系统。
 * [PassJava](https://github.com/Jackson0714/PassJava-Platform)：一款面试刷题的Spring Cloud开源系统。
 * [VOJ](https://github.com/hzxie/voj)：VOJ是一个基于Spring MVC框架的跨平台在线评判系统。
@@ -4947,6 +5434,12 @@
 * [Deliver](https://gitee.com/OS-Zero/deliver)：Deliver是一个面向企业的全面消息推送平台，旨在提供企业内部沟通和协作的便捷解决方案。
 * [Message Gateway](https://github.com/openMF/message-gateway)：Message Gateway是Fineract提供商的推送消息服务，可以轻松地通过短信和电子邮件推送通知。
 * [MEIZUPUSH](https://github.com/MEIZUPUSH/JavaSdk)：魅族开放平台PUSH系统Java版本SDK。
+
+## 异常通知
+
+* [Spring Boot Starter Calma](https://github.com/marvinSpring/spring-boot-starter-calma)：异常通知框架。
+* [Prometheus Spring Boot Starter](https://gitee.com/ITEater/prometheus-spring-boot-starter)：管理异常通知的Spring Starter，实现了钉钉消息提醒与邮件提醒，同时加入了微服务的服务异常提醒。
+* [HawkEye](https://gitee.com/liuhao3169/hawk-eye)：HawkEye通过监控Error级别的异常实现告警推送与日志记录。
 
 ## APN
 
@@ -7890,303 +8383,6 @@
 * [JBSE](https://github.com/pietrobraione/jbse)：JBSE是一个用于自动程序分析、验证和测试生成的符号Java虚拟机。
 * [Symbolic Java PathFinder](https://github.com/SymbolicPathFinder/jpf-symbc)：此JPF扩展为Java字节码提供符号执行，由NASA开源。
 
-## 数据库工具库
-
-这里列出了常用数据库的依赖、工具等。
-
-#### 数据库驱动
-
-* [Postgresql](https://github.com/pgjdbc/pgjdbc)：Postgresql JDBC驱动程序。
-* [PGJDBC NG](https://github.com/impossibl/pgjdbc-ng)：PostgreSQL的新JDBC驱动程序，旨在支持JDBC和Postgres的高级功能。
-* [Postgresql R2DBC](https://github.com/pgjdbc/r2dbc-postgresql)：Postgresql R2DBC驱动程序。
-* [PostgreSQL Async](https://github.com/mauricio/postgresql-async)：用Scala编写的异步、基于Netty的PostgreSQL和MySQL数据库驱动程序。
-* [Postgres Async Driver](https://github.com/alaisi/postgres-async-driver)：Postgres Async Driver是PostgreSQL的非阻塞Java驱动程序。
-* [MySQL](https://github.com/mysql/mysql-connector-j)：MySQL JDBC驱动程序。
-* [AWS MySQL JDBC](https://github.com/awslabs/aws-mysql-jdbc)：AWS MySQL Driver是一个使应用程序能够充分利用集群MySQL数据库功能的驱动程序。
-* [AWS JDBC Driver](https://github.com/aws/aws-advanced-jdbc-wrapper)：该包装器是对现有JDBC驱动程序的补充，旨在扩展驱动程序的功能，使应用程序能够充分利用Amazon Aurora等集群数据库的功能。
-* [Oracle](https://www.oracle.com/database/technologies/maven-central-guide.html)：Oracle JDBC驱动程序。
-* [Oracle R2DBC](https://github.com/oracle/oracle-r2dbc)：Oracle数据库的R2DBC驱动程序。
-* [SqlServer](https://github.com/microsoft/mssql-jdbc)：SqlServer JDBC驱动程序。
-* [R2DBC MySQL](https://github.com/mirromutth/r2dbc-mysql)：该项目包含R2DBC SPI的MySQL实现。
-* [R2DBC SPI](https://github.com/r2dbc/r2dbc-spi)：R2DBC实现的SPI。
-* [R2DBC MySQL](https://github.com/asyncer-io/r2dbc-mysql)：该项目包含R2DBC SPI的MySQL实现。
-* [R2DBC MSSQL](https://github.com/r2dbc/r2dbc-mssql)：使用TDS协议的SQLServer的R2DBC驱动程序。
-* [MariaDB R2DBC](https://github.com/mariadb-corporation/mariadb-connector-r2dbc)：非阻塞MariaDB和MySQL客户端。
-* [Influx4j](https://github.com/brettwooldridge/influx4j)：适用于InfluxDB的高性能、零垃圾Java客户端/驱动程序。
-* [OceanBase Client](https://github.com/oceanbase/obconnector-j)：兼容JDBC 4.2的OceanBase Java驱动程序。
-* [SQLite JDBC](https://github.com/xerial/sqlite-jdbc)：用于在Java中访问和创建SQLite数据库文件的库。
-* [Couchbase](https://github.com/couchbase/couchbase-java-client)：Couchbase Server的官方Java客户端。
-* [InfluxDB Java](https://github.com/influxdata/influxdb-java)：InfluxDB的官方Java客户端库。
-* [InfluxDB2 Java](https://github.com/influxdata/influxdb-client-java)：适用于JVM的InfluxDB 2客户端。
-* [RxJava JDBC](https://github.com/davidmoten/rxjava2-jdbc)：RxJava 2与JDBC集成，包括非阻塞连接池。
-* [Reactive SQL Client](https://github.com/eclipse-vertx/vertx-sql-client)：用Java编写的高性能响应式SQL客户端。
-* [Hibernate Reactive](https://github.com/hibernate/hibernate-reactive)：Hibernate ORM的响应式API，支持非阻塞数据库驱动程序以及与数据库的响应式交互。
-* [Snowflake JDBC Driver](https://github.com/snowflakedb/snowflake-jdbc)：Snowflake JDBC驱动程序。
-* [JAsync-SQL](https://github.com/jasync-sql/jasync-sql)：JAsync-SQL是一个使用Kotlin编写的简单、基于Netty、异步、高性能且可靠的PostgreSQL和MySQL数据库驱动程序。
-* [TiKV Java](https://github.com/tikv/client-java)：TiKV的Java客户端库。
-* [VtDriver](https://github.com/jd-opensource/vtdriver)：VtDriver是一套基于分布式数据库Vitess而开发的Vitess Java客户端解决方案，由京东开源。
-* [Aerospike Java Client](https://github.com/aerospike/aerospike-client-java)：Aerospike数据库的Java客户端库。
-* [OpenGauss JDBC](https://gitee.com/opengauss/openGauss-connector-jdbc)：OpenGauss JDBC驱动程序。
-* [Jackcess](https://github.com/jahlborn/jackcess)：Jackcess是一个纯Java库，用于读取和写入MS Access数据库。
-* [Dgraph4j](https://github.com/dgraph-io/dgraph4j)：Java 1.8及更高版本的Dgraph客户端的最小实现。
-* [Nebula Java](https://github.com/vesoft-inc/nebula-java)：Nebula Graph的Java客户端和数据导入器。
-
-#### 数据库迁移
-
-* [Liquibase](https://github.com/liquibase/liquibase)：Liquibase是一种数据库模式变更管理解决方案，使你能够更快、更安全地修改和发布从开发到生产的数据库变更。
-* [Flyway](https://github.com/flyway/flyway)：Flyway是一款开源的数据库版本管理工具，它更倾向于规约优于配置的方式。
-* [Obevo](https://github.com/goldmansachs/obevo)：Obevo是一种数据库部署工具，可处理企业规模的架构和复杂性，由高盛银行开源。
-* [Mybatis Migrations](https://github.com/mybatis/migrations)：命令行数据库迁移工具。
-* [Mongolastic](https://github.com/ozlerhakan/mongolastic)：Mongolastic使你能够将数据集从MongoDB节点迁移到ElasticSearch节点，反之亦然。
-* [Datafall](https://github.com/forcedotcom/Data-Migration-Tool)：Datafall是一种将数据从一个Salesforce组织迁移到另一个Salesforce组织的工具。
-* [Neo4j-Migrations](https://github.com/michael-simons/neo4j-migrations)：Neo4j-Migrations是一种数据库迁移和重构工具，允许以受控且可重复的方式针对一个或多个Neo4j数据库运行Cypher脚本和编程重构。
-* [COS Migration](https://github.com/tencentyun/cos_migrate_tool_v5)：COS Migration是一个集成了COS数据迁移功能的一体化工具，由腾讯开源。
-* [OSSImport](https://help.aliyun.com/zh/data-online-migration/user-guide/ossimport-overview)：OSSImport是阿里的一款将数据迁移至OSS的商业工具。
-* [Celesta](https://github.com/CourseOrchestra/celesta)：Java的数据库迁移、SQL和测试工具。
-* [Elasticsearch Evolution](https://github.com/senacor/elasticsearch-evolution)：用于迁移Elasticsearch映射的库。
-* [Migrate2Postgres](https://github.com/isapir/Migrate2Postgres)：该工具允许你轻松地将数据库从其他兼容JDBC的DBMS迁移到Postgres。
-* [Couchmove](https://github.com/tchlyah/couchmove)：Couchmove是Couchbase的开源Java迁移工具。
-* [Mongock](https://github.com/mongock/mongock)：Mongock是一个基于Java的迁移工具，作为应用程序代码的一部分。
-* [Solidbase](https://github.com/gitbucket/solidbase)：基于Liquibase的RDBMS和其他资源的通用迁移工具。
-* [R2DBC Migration](https://github.com/nkonev/r2dbc-migrate)：R2DBC数据库迁移库。
-* [QuantumDB](https://github.com/quantumdb/quantumdb)：QuantumDB是一种用于演进SQL数据库模式的方法，它不会妨碍SQL客户端的访问，也不需要停机。
-
-#### 数据源增强
-
-* [Dynamic DataSource](https://github.com/baomidou/dynamic-datasource)：Dynamic DataSource是一个基于Spring Boot的快速集成多数据源的Starter。
-* [DataSource Proxy](https://github.com/jdbc-observations/datasource-proxy)：DataSource Proxy提供简单的API来拦截JDBC交互，并允许用户在查询或方法执行之前/之后执行自己的逻辑。
-* [Spring Boot Dynamic DataSource](https://github.com/helloworlde/SpringBoot-DynamicDataSource)：Spring Boot多数据源、动态数据源配置。
-
-#### 数据库工具
-
-* [Screw](https://gitee.com/leshalv/screw)：Screw是一个简洁好用的数据库表结构文档生成器。
-* [APGDiff](https://github.com/fordfrog/apgdiff)：APGDiff是免费的PostgreSQL diff工具，可用于比较/差异数据库模式。
-* [Databasir](https://github.com/vran-dev/databasir)：Databasir是面向团队的关系型数据库模型文档管理平台。
-* [Databench-T](https://gitee.com/caict-bigdata/databench-t)：Databench-T是面向金融核心业务系统场景的事务型数据库性能测试工具，由中国信通院云计算与大数据研究所联合北京银行、建设银行等企业共同设计开发。
-* [SQL Formatter](https://github.com/vertical-blank/sql-formatter)：仅依赖Java标准库的SQL格式化程序。
-* [SQL Relay](https://sqlrelay.sourceforge.net/)：SQL Relay是一个数据库代理和数据库连接管理解决方案。
-* [ConceptBase](https://conceptbase.sourceforge.net/)：ConceptBase是一个多用户演绎数据库系统，具有面向对象的数据模型和无限的分类级别，使其成为元建模和定制建模语言工程的强大工具，由斯科夫德大学和亚琛大学开发。
-* [Database Export](https://gitee.com/pomz/database-export)：Database Export是一款多线程生成数据库结构文档的开源Spring Boot工程。
-
-#### 存储过程
-
-* [PL/Java](https://github.com/tada/pljava)：PL/Java是一个免费的附加模块，它将Java存储过程、触发器和函数引入PostgreSQL后端。
-* [SPAN](https://github.com/americanexpress/SPAN)：SPAN是一个Java框架，它可以帮助开发人员通过提供配置和POJO详细信息来连接存储过程，由美国运通开源。
-
-#### N+1检测
-
-* [DBUtil](https://github.com/vladmihalcea/db-util)：该工具可以在测试期间自动检测N+1查询问题。
-* [JPlusOne](https://github.com/adgadev/jplusone)：JPlusOne是用于自动检测和断言基于JPA的Spring Boot Java应用程序中发生的“N+1问题”并查找JPA发出的SQL语句的一般来源的工具。
-* [Spring Hibernate Query Utils](https://github.com/yannbriancon/spring-hibernate-query-utils)：该库提供了检测N+1查询并对Spring和Hibernate生成的查询进行计数的工具。
-
-#### Redis库/工具
-
-* [Redisson](https://github.com/redisson/redisson)：Redisson是一个具有内存数据网格功能的Redis Java客户端。
-* [Jedis](https://github.com/redis/jedis)：Jedis是Redis的Java客户端，旨在提高性能和易用性。
-* [Tedis](https://github.com/justified/tedis)：Tedis是另一个Redis的Java客户端，阿里开源。
-* [Lettuce](https://github.com/lettuce-io/lettuce-core)：Lettuce是一个可扩展的线程安全Redis客户端，适用于同步、异步和响应式使用。
-* [Spring Data Redis](https://github.com/spring-projects/spring-data-redis)：Spring Data Redis提供从Spring应用程序轻松配置和访问Redis的功能。
-* [RedisCache](https://gitee.com/darkidiot/RedisCache)：RedisCache是基于Jedis的SDK。
-* [JRedis](https://github.com/alphazero/jredis)：JRedis是Redis的Java客户端和连接器。
-* [Redis Protocol](https://github.com/spullara/redis-protocol)：RedisClient是Redis的Java客户端和服务端实现。
-* [Carmine](https://github.com/taoensso/carmine)：Carmine是Clojure的成熟Redis客户端，提供惯用的Clojure API，速度快、功能强大且易于使用。
-* [Jesque](https://github.com/gresrun/jesque)：Jesque是Resque在Java中的实现。
-* [JOhm](https://github.com/xetorthio/johm)：JOhm是一个速度超快的Java对象哈希映射库。
-* [RedisScala](https://github.com/etaty/rediscala)：RedisScala是具有非阻塞和异步I/O操作的Scala Redis客户端。
-* [Valkey GLIDE](https://github.com/valkey-io/valkey-glide)：Valkey GLIDE是一个开源Valkey客户端库，Valkey是Redis的开源fork版本，由AWS开源。
-* [JRedisJSON](https://github.com/RedisJSON/JRedisJSON)：Redis RedisJSON的Java客户端。
-* [Redis OM Spring](https://github.com/redis/redis-om-spring)：Redis OM Spring扩展了Spring Data Redis，以充分利用Redis和Redis Stack。
-* [Kreds](https://github.com/crackthecodeabhi/kreds)：Kreds是一个线程安全、惯用、基于协程的Redis客户端。
-* [RedisClient](https://github.com/caoxinyu/RedisClient)：RedisClient是一个基于Java SWT和Jedis编写的Redis客户端GUI工具。
-* [Redis Admin](https://github.com/mauersu/redis-admin)：Redis Admin是一个基于Java EE和Jedis编写的Redis客户端Web工具。
-* [Redis Desktop Client](https://gitee.com/RedisDesktopClient/redis-desktop-client)：Redis Desktop Client是一款颜值较高、使用方便的redis客户端工具。
-* [RedisPlus](https://gitee.com/MaxBill/RedisPlus)：RedisPlus是为Redis可视化管理开发的一款开源免费的桌面客户端软件。
-* [Redis Admin](https://gitee.com/xuebusi/redis-admin)：Redis Admin是一个简单好用的Redis缓存图形化管理工具，包含Redis的5种数据类型的CRUD操作。
-* [RedisFront](https://gitee.com/dromara/RedisFront)：RedisFront是一款开源跨平台Redis桌面客户端工具，支持单机模式、集群模式、哨兵模式以及SSH隧道连接，由dromara社区开源。
-* [Redis Manager](https://github.com/ngbdf/redis-manager)：Redis Manager是Redis一站式管理平台，支持集群的监控、安装、管理、告警以及基本的数据操作功能。
-* [XPipe](https://github.com/ctripcorp/x-pipe)：X-Pipe是由携程框架部门研发的Redis多数据中心复制管理系统。
-* [CacheCloud](https://github.com/sohutv/cachecloud)：CacheCloud是一个Redis云管理平台，支持Redis多种架构高效管理、有效降低大规模Redis运维成本，提升资源管控能力和利用率，由搜狐开源。
-* [Cymbal](https://github.com/dangdangdotcom/cymbal)：Cymbal是当当开源的Redis PaaS平台，目标是帮助技术团队以简单、低成本的方式管理大规模Redis集群。
-* [RCT](https://github.com/xaecbd/RCT)：RCT是通过解析RDB文件进行Redis内存结构分析的一站式平台。
-* [Redis RDB CLI](https://github.com/leonchen83/redis-rdb-cli)：Redis RDB CLI是一个可以解析、过滤、拆分、合并RDB以及离线分析内存使用情况的工具。
-* [RIOT](https://github.com/redis/riot)：RIOT是一个命令行实用程序，旨在帮助你将数据输入和输出Redis。
-* [RedisDesktopManagerFX](https://github.com/tanhuang2016/RedisDesktopManagerFX)：这是一个基于Jedis，使用JavaFX开发的Redis GUI工具。
-* [RedisLettuceClient](https://gitee.com/tyanzhe/RedisLettuceClient)：RedisLettuceClient是一款基于Java Swing的跨平台的Redis桌面管理工具，支持单机、集群模式连接。
-* [RedisFX](https://github.com/tanhuang2016/RedisFX)：使用JavaFX开发的Redis GUI工具。
-
-#### Kafka库/工具
-
-* [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Kafka集群的工具，由Yahoo开源。
-* [Kafka UI](https://github.com/provectus/kafka-ui)：用于管理Kafka集群的多功能、快速且轻量级的Web UI。
-* [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
-* [KafkaUI Lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
-* [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
-* [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
-* [Kouncil](https://github.com/Consdata/kouncil)：Kouncil让你可以使用现代Web界面监控和管理Apache Kafka集群。
-* [Offset Explorer](https://www.kafkatool.com/index.html)：Offset Explorer是一个用于管理和使用Apache Kafka集群的GUI应用程序。
-* [Confluent Platform](https://www.confluent.io/en-gb/product/confluent-platform/gui-driven-management-and-monitoring/)：Confluent Platform提供直观的GUI来管理和监控Apache Kafka，由Confluent开发。
-* [Kpow](https://factorhouse.io/kpow/)：Kpow是Apache Kafka的监控和管理工具。
-* [Lenses](https://lenses.io/)：Lenses是开发人员体验工具，可帮助企业在一个地方使用每个Apache Kafka。
-* [KafkaEsque](https://github.com/patschuh/KafkaEsque)：KafkaEsque是一个用JavaFX开发的Kafka GUI工具。
-* [KnowStreaming](https://github.com/didi/KnowStreaming)：Know Streaming是一套云原生的Kafka管控平台，脱胎于众多互联网内部多年的Kafka运营实践经验，专注于Kafka运维管控、监控告警、资源治理、多活容灾等核心场景，由滴滴开源。
-* [EFAK](https://github.com/smartloli/EFAK)：EAFK是一个开源的Kafka集群管理和监控工具，旨在帮助用户更好地管理和监控其Kafka集群。
-* [KafkIO](https://kafkio.com/)：面向工程师和管理员的快速、简便的Apache Kafka GUI，适用于macOS、Windows和Linux，由Certak公司维护。
-* [Kafka WebView](https://github.com/SourceLabOrg/kafka-webview)：Kafka WebView提供了一个易于使用的基于Web的界面，用于从Kafka主题中读取数据并提供基本的过滤和搜索功能。
-* [Cruise Control](https://github.com/linkedin/cruise-control)：Cruise Control是一款帮助大规模运行Kafka集群的产品，由LinkedIn开源。
-* [KCenter](https://github.com/xaecbd/KCenter)：KCenter是一个统一的Kafka集群管理维护、生产者/消费者监控、生态组件使用的一站式平台。
-* [Kafka Map](https://github.com/dushixiang/kafka-map)：Kafka Map是使用Java 17和React开发的Kafka可视化工具。
-* [Kstreamplify](https://github.com/michelin/kstreamplify)：Kstreamplify是一个Java库，使你能够快速创建基于Kafka Stream的应用程序，并提供许多附加高级功能，由米其林开源。
-* [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：Kafka Sprout是一个Web GUI，可以帮助你在本地计算机上快速启动Zookeeper和Kafka服务器，无需任何代码配置。
-* [Xinfra Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor是一个在真实集群中实现和执行长时间运行的kafka系统测试的框架，由LinkedIn开源。
-* [Confluent Schema Registry](https://github.com/confluentinc/schema-registry)：Kafka的Confluence模式注册中心。
-* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Kafka集群的UI。
-* [Mirus](https://github.com/salesforce/mirus)：Mirus是Kafka的跨数据中心数据复制工具，由Salesforce开源。
-* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
-* [Jikkou](https://github.com/streamthoughts/jikkou)：Jikkou是一款开源工具，旨在提供一种高效且简单的方法来管理、自动化和配置事件流平台上的资源。
-* [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Kafka集群的方法，由RedHat开源。
-* [Julie](https://github.com/kafka-ops/julie)：JulieOps帮助你自动化管理Kafka中的事物，从主题、配置到元数据，以及访问控制、模式。
-* [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Kafka之上的流式任务处理框架，由Line开源。
-* [Kafka Console UI](https://gitee.com/xiaodong_xu/kafka-console-ui)：一款轻量级的kafka可视化管理平台，安装配置快捷、简单易用。
-* [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
-* [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
-* [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载均衡的服务，由Pinterest开源。
-* [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例。
-* [Zilla](https://github.com/aklivity/zilla)：Zilla将Kafka抽象为Web应用程序、物联网客户端和微服务。
-* [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
-* [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
-* [Kafka Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
-* [Kafbat UI](https://github.com/kafbat/kafka-ui)：Kafbat UI是一个免费的开源Web UI，用于监控和管理Kafka集群。
-* [Klaw](https://github.com/Aiven-Open/klaw)：Klaw是一个自助式Kafka主题管理/治理工具/门户，由Aiven开源。
-* [Astraea](https://github.com/opensource4you/astraea)：Astraea提供各式工具来降低Kafka使用门槛以及提高Kafka效能和资源使用率。
-* [Kafka Web Console](https://github.com/cjmamo/kafka-web-console)：Kafka Web Console是一个用于监控Apache Kafka的Java Web应用程序。
-* [Kafka Offset Monitor](https://github.com/Morningstar/kafka-offset-monitor)：这是一个用于监控Kafka消费者及其在日志中的位置(偏移量)的应用程序。
-
-#### MongoDB库/工具
-
-* [MongoDB](https://github.com/mongodb/mongo-java-driver)：适用于Java、Kotlin和Scala的官方MongoDB驱动程序。
-* [Spring Data MongoDB](https://github.com/spring-projects/spring-data-mongodb)：Spring Data MongoDB项目旨在为新数据存储提供熟悉且一致的基于Spring的编程模型，同时保留特定于存储的特性和功能。
-* [ReactiveMongo](https://github.com/ReactiveMongo/ReactiveMongo)：ReactiveMongo是一个Scala驱动程序，提供完全非阻塞和异步I/O操作。
-* [Mars](https://github.com/whaleal/mars)：Mars是用于Java的MongoDB ORM/ODM框架，由上海锦木信息技术有限公司与中国东方航空公司共同开发。
-* [Jongo](https://github.com/bguerout/jongo)：Jongo是Mongo查询语言可在Java中使用。
-* [Morphia](https://github.com/MorphiaOrg/morphia)：Morphia是基于Java的MongoDB对象-文档映射器。
-* [Mongojack](https://github.com/mongojack/mongojack)：Mongojack将Java对象映射到MongoDB文档。
-* [MongoPlus](https://gitee.com/aizuda/mongo-plus)：MongoPlus可以使用MyBatisPlus的方式优雅的操作MongoDB，由爱组搭开源。
-* [Variety](https://github.com/variety/variety)：Variety是MongoDB的模式分析器。
-* [UMongo](https://github.com/agirbal/umongo)：UMongo是用于浏览和管理MongoDB集群的桌面应用程序。
-* [Studio 3T](https://studio3t.com/)：Studio 3T是MongoDB的专业图形用户界面。
-* [MongoBee](https://github.com/mongobee/mongobee)：MongoBee是一个Java工具，可帮助你管理MongoDB中的更改并将其与你的应用程序同步。
-* [Mongo Lambda Query](https://github.com/DarMi7/mongo-lambda-query)：基于Lambda表达式，且面向对象的Mongo数据库查询插件。
-* [MongoHelper](https://gitee.com/cym1102/mongoHelper)：Spring Data MongoDB增强工具包，简化CRUD操作，提供类Mybatis Plus的数据库操作体验。
-* [MongoDB Slow Operations Profiler](https://github.com/idealo/mongodb-slow-operations-profiler)：这款Java Web应用程序收集并存储来自一个或多个MongoDB系统的慢速操作，以便对其进行可视化和分析。
-* [SQL To MongoDB Query Converter](https://github.com/vincentrussell/sql-to-mongo-db-query-converter)：SQL To MongoDB Query Converter帮助你根据SQL中提供的查询为MongoDb构建查询。
-
-#### Cassandra库/工具
-
-* [Cassandra Java Driver](https://github.com/apache/cassandra-java-driver)：Cassandra的Java驱动程序。
-* [DataStax Java Driver](https://github.com/datastax/java-driver)：适用于Cassandra的DataStax Java驱动程序。
-* [Cassandra JDBC Wrapper](https://github.com/ing-bank/cassandra-jdbc-wrapper)：这是Apache Cassandra Java驱动程序的JDBC包装器，它提供了一个简单的JDBC兼容API来与CQL3协同工作，由ING银行开源。
-* [Phantom](https://github.com/outworkers/phantom)：Phantom是适用于Cassandra/Datastax Enterprise的响应式类型安全Scala驱动程序。
-* [Astyanax](https://github.com/Netflix/astyanax)：Astyanax是Netflix开源的Cassandra Java客户端库。
-* [Spring Data Cassandra](https://github.com/spring-projects/spring-data-cassandra)：Spring Data Cassandra为Cassandra提供Spring Data模块熟悉的接口。
-* [Hector](https://github.com/hector-client/hector)：Hector是Cassandra的高级客户端库。
-* [Cassie](https://github.com/twitter-archive/cassie)：Cassie是一个小型、轻量级的Cassandra客户端，基于Finagle构建，由Twitter开源。
-* [Stargate](https://github.com/stargate/stargate)：Stargate是部署在客户端应用程序和Cassandra数据库之间的数据网关，DataStax开源。
-* [Cassandra Reaper](https://github.com/thelastpickle/cassandra-reaper)：Reaper是一种集中式、有状态且高度可配置的工具，用于针对单站点或多站点集群运行Cassandra修复，由DataStax开源。
-* [Aegisthus](https://github.com/Netflix/aegisthus)：Aegisthus是Cassandra的批量数据管道，由Netflix开源。
-* [Cassandra Schema Migration](https://github.com/patka/cassandra-migration)：该库可用于在Java应用程序内实现Cassandra数据库模式的迁移。
-* [Cassandra Migration](https://github.com/smartcat-labs/cassandra-migration-tool-java)：适用于Java的Cassandra模式迁移工具。
-* [Cassandra Migration](https://github.com/Contrast-Security-OSS/cassandra-migration)：Cassandra Migration是一个简单且轻量级的Cassandra数据库迁移工具，基于Flyway项目，由Contrast开源。
-* [CQLMigrate](https://github.com/sky-uk/cqlmigrate)：CQLMigrate是一个用于在Cassandra集群上执行模式迁移的库，由英国天空公司开源。
-
-#### Memcached库/工具
-
-* [Folsom](https://github.com/spotify/folsom)：Folsom是Java的异步Memcached客户端库，由Spotify开源。
-* [XMemcached](https://github.com/killme2008/xmemcached)：XMemcached是一个高性能、易于使用的Java阻塞多线程Memcached客户端。
-* [Spymemcached](https://github.com/dustin/java-memcached-client)：Spymemcached是一个用Java编写的简单、异步、单线程Memcached客户端。
-
-#### Zookeeper库/工具
-
-* [Apache Curator](https://github.com/apache/curator)：Curator是ZooKeeper的Java/JVM客户端库，由Netflix开源。
-* [ZkClient](https://github.com/sgroschupf/zkclient)：ZkClient是Zookeeper的客户端库，由Datameer开源。
-* [ZKClient](https://github.com/adyliu/zkclient)：一个简单有效的Zookeeper Java客户端，由搜狐维护。
-* [PrettyZoo](https://github.com/vran-dev/PrettyZoo)：PrettyZoo是由JavaFX和Apache Curator创建的Zookeeper GUI。
-* [ZkUI](https://github.com/DeemOpen/zkui)：ZkUI是允许在Zookeeper上进行CRUD操作的UI仪表板。
-* [ZkWeb](https://github.com/zhitom/zkweb)：ZkWeb是用于管理和监控Zookeeper集群的Zookeeper Web应用，内置H2数据库。
-* [Taokeeper](https://github.com/alibaba/taokeeper)：Taokeeper是Zookeeper的监视器，由阿里开源。
-* [Shepher](https://github.com/XiaoMi/shepher)：Shepher是ZooKeeper的管理工具，在小米作为配置管理中心使用。
-* [KafkaUI Lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
-* [Zookeeper Visualizer](https://github.com/xin497668869/zookeeper-visualizer)：Zookeeper的可视化管理工具。
-* [ZKCopy](https://github.com/ksprojects/zkcopy)：用于在不同集群之间快速复制ZooKeeper数据的工具。
-
-#### ClickHouse库/工具
-
-* [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java)：用于连接ClickHouse并处理各种格式数据的Java库。
-* [Clickhouse4j](https://github.com/Blynk-Technologies/clickhouse4j)：Clickhouse4j是官方ClickHouse JDBC驱动程序的更轻更快的替代品。
-* [ClickHouse Native JDBC](https://github.com/housepower/ClickHouse-Native-JDBC)：用于在Java 中访问ClickHouse的原生JDBC库，还提供用于与Spark集成的库。
-* [Clickhouse Scala](https://github.com/crobox/clickhouse-scala-client)：Clickhouse Scala客户端，以响应式方式访问Clickhouse数据库。
-* [CKibana](https://github.com/TongchengOpenSource/ckibana)：CKibana是一项使用原生Kibana方便分析ClickHouse数据的服务，由同程旅行开源。
-* [Graphhouse](https://github.com/ClickHouse/graphouse)：Graphhouse允许你使用ClickHouse作为Graphite存储。
-* [ClickHouse Client](https://github.com/Ecwid/clickhouse-client)：ClickHouse的Java/Kotlin客户端。
-
-#### ElasticSearch库/工具
-
-* [ElasticSearch Java](https://github.com/elastic/elasticsearch-java)：ElasticSearch官方Java客户端。
-* [Jest](https://github.com/searchbox-io/Jest)：Jest是ElasticSearch的Java HTTP REST客户端。
-* [Bboss](https://github.com/bbossgroups/bboss-elasticsearch)：Bboss是一个很好的ElasticSearch Java REST客户端，它操作和访问ElasticSearch的方式与MyBatis类似。
-* [Flummi](https://github.com/otto-de/flummi)：Flummi是ElasticSearch的客户端库，提供了全面的Java查询DSL API，并通过HTTP/JSON与ElasticSearch集群进行通信。
-* [Pallas](https://github.com/vipshop/pallas)：Pallas是唯品会的统一搜索平台，建立在ElasticSearch之上，旨在解决各种搜索问题。
-* [Easy ES](https://gitee.com/dromara/easy-es)：Easy ES是一款简化ElasticSearch搜索引擎操作的开源框架，全自动智能索引托管，由dromara社区开源。
-* [Spring Data Jest](https://github.com/VanRoy/spring-data-jest)：基于Jest Rest客户端的ElasticSearch的Spring Data实现。
-* [Spring Data Elasticsearch](https://github.com/spring-projects/spring-data-elasticsearch)：Spring Data Elasticsearch项目提供与Elasticsearch搜索引擎的集成。
-* [ESClientRHL](https://gitee.com/zxporz/ESClientRHL)：EsClientRHL是一个可基于Spring Boot的ElasticSearch客户端调用封装工具。
-* [EsearchX](https://gitee.com/noear/esearchx)：EsearchX基于OkHttp、Snack3开发，是一个代码直白和简单的Elasticsearch ORM框架。
-* [Elastic4s](https://github.com/Philippus/elastic4s)：Elastic4s是一个简洁、惯用、响应式、类型安全的Elasticsearch Scala客户端。
-* [Ebatis](https://github.com/ymm-tech/ebatis)：Ebatis是一个声明式ElasticSearch ORM框架。
-* [Querqy](https://github.com/querqy/querqy)：Querqy是一个在基于Java的搜索引擎中进行查询预处理的框架。
-* [Anserini](https://github.com/castorini/anserini)：Anserini是一个用于可重复信息检索研究的Lucene工具包，由滑铁卢大学开源。
-* [ES Fastloader](https://github.com/didi/ES-Fastloader)：ES Fastloader利用Hadoop的容错性和并行性，在多个reducer节点中构建单独的ElasticSearch分片，然后将分片传输到ElasticSearch集群进行服务，由滴滴开源。
-* [Elasticsearch JDBC](https://github.com/jprante/elasticsearch-jdbc)：JDBC导入器允许从JDBC源获取数据以索引到Elasticsearch中。
-* [Elasticsearch SQL](https://github.com/NLPchina/elasticsearch-sql)：使用此插件，你可以使用熟悉的SQL语法查询Elasticsearch。
-* [Luke](https://github.com/DmitryKey/luke)：Luke是一个用于检查Lucene/Solr/Elasticsearch索引的GUI工具。
-* [KnowSearch](https://github.com/didi/KnowSearch)：KnowSearch是面向Elasticsearch研发与运维人员，围绕集群、索引构建的零侵入、多租户的Elasticsearch GUI管控平台，由滴滴开源。
-* [SQL4ES](https://github.com/Anchormen/sql4es)：SQL4ES是适用于Elasticsearch 6.3.2的JDBC 4.1驱动程序，它实现了大多数JDBC接口。
-
-#### DynamoDB库/工具
-
-* [Jcabi DynamoDB](https://github.com/jcabi/jcabi-dynamo)：AWS DynamoDB SDK的面向对象包装器。
-* [Tempest](https://github.com/cashapp/tempest)：适用于Kotlin和Java的类型安全DynamoDB。
-* [DynamoDB Transactions](https://github.com/awslabs/dynamodb-transactions)：DynamoDB Transactions在DynamoDB中提供原子性、一致性、隔离性和持久性(ACID)，使你能够更轻松地维护应用程序中的数据正确性。
-* [DynamoDB Geo](https://github.com/amazon-archives/dynamodb-geo)：Amazon DynamoDB的地理库使Java开发人员能够轻松创建和查询地理空间数据。
-* [Spring Data DynamoDB](https://github.com/michaellavelle/spring-data-dynamodb)：该模块提供对基于AWS DynamoDB构建的数据访问层的增强支持。
-* [Amazon DynamoDB Encryption Java](https://github.com/aws/aws-dynamodb-encryption-java)：适用于Java的Amazon DynamoDB加密客户端。
-* [Dynamoit](https://github.com/bykka/dynamoit)：这是一个用JavaFX编写的简单的DynamoDB图形客户端。
-
-#### Neo4j库/工具
-
-* [Neo4j Java Driver](https://github.com/neo4j/neo4j-java-driver)：Neo4j的官方Java驱动程序。
-* [Spring Data Neo4j](https://github.com/spring-projects/spring-data-neo4j)：Spring Data Neo4j支持从Spring应用程序轻松配置和访问Neo4j图数据库。
-* [Neo4j GraphQL](https://github.com/neo4j-graphql/neo4j-graphql)：这是Neo4j的GraphQL Endpoint扩展。
-* [Neo4j OGM](https://github.com/neo4j/neo4j-ogm)：Neo4j OGM是Neo4j的快速对象图映射库，针对利用Cypher的基于服务器的安装进行了优化。
-* [NeoTypes](https://github.com/neotypes/neotypes)：用于Neo4j的Scala轻量级、类型安全、异步驱动程序。
-
-#### Etcd库/工具
-
-* [JEtcd](https://github.com/etcd-io/jetcd)：JEtcd是etcd v3的官方Java客户端。
-* [Boon Etcd](https://github.com/boonproject/boon/tree/master/etcd)：Boon etcd是etcd的Java客户端。
-* [Etcd Java](https://github.com/IBM/etcd-java)：IBM开源的etcd v3 Java客户端库。
-* [JEtcd](https://github.com/justinsb/jetcd)：一个简单的Java etcd客户端库。
-* [Etcd4j](https://github.com/jurmous/etcd4j)：Etcd4j是etcd的客户端库。
-
-#### Milvus库/工具
-
-* [Milvus Java SDK](https://github.com/milvus-io/milvus-sdk-java)：Milvus的Java SDK。
-* [MilvusPlus](https://gitee.com/dromara/MilvusPlus)：MilvusPlus是一个功能强大的Java库，旨在简化与Milvus向量数据库的交互，为开发者提供类似MyBatis Plus注解和方法调用风格的直观API，由dromara社区开源。
-
-#### Vault库/工具
-
-* [Vault Java Driver](https://github.com/BetterCloud/vault-java-driver)：HashiCorp的Vault机密管理解决方案的零依赖Java客户端。
-* [Spring Vault](https://github.com/spring-projects/spring-vault)：Spring Vault提供客户端访问、存储和撤销机密信息的支持。
-
 ## 对象存储
 
 * [Aliyun OSS](https://github.com/aliyun/aliyun-oss-java-sdk)：Aliyun OSS Java SDK让Java开发者能够轻松使用阿里云OSS。
@@ -10086,106 +10282,6 @@
 * [PHP Inspections](https://github.com/kalessil/phpinspectionsea)：PHP静态代码分析器。
 * [Restful Fast Request](https://github.com/dromara/fast-request)：Restful Fast Request是Postman的Intellij IDEA版本，它是一个强大的RESTful API工具包插件，由dromara社区开源。
 * [Devoxx Genie](https://github.com/devoxx/DevoxxGenieIDEAPlugin)：DevoxxGenie是IntelliJ IDEA的一个插件，它使用本地LLM(Ollama、LMStudio、GPT4All、Jan和Llama.cpp)和基于云的LLM来帮助审查、测试和解释你的项目代码。
-
-## Spring库
-
-* [MyBatis Spring Boot](https://github.com/mybatis/spring-boot-starter)：MyBatis与Spring Boot集成。
-* [Retrofit Spring Boot](https://github.com/LianjiaTech/retrofit-spring-boot-starter)：适用于Retrofit的Spring Boot Starter，支持快速集成和功能增强，由贝壳开源。
-* [Spring Cloud Zuul RateLimit](https://github.com/marcosbarbero/spring-cloud-zuul-ratelimit)：用于在Netflix Zuul中启用每个服务的速率限制的模块。
-* [Spring Boot DataSource Decorator](https://github.com/gavlyukovskiy/spring-boot-data-source-decorator)：Spring Boot与p6spy、datasource-proxy、flexy-pool和spring-cloud-sleuth集成。
-* [ChatGPT Spring Boot](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter。
-* [ChatGPT Spring Boot](https://github.com/flashvayne/chatgpt-spring-boot-starter)：基于OpenAI官方API的Spring Boot Starter。
-* [Wavefront Spring Boot Starter](https://github.com/wavefrontHQ/wavefront-spring-boot)：该项目为Wavefront提供了Spring Boot 3 Starter。
-* [Spring Boot Dubbo](https://github.com/apache/dubbo-spring-boot-project)：Dubbo Spring Boot项目可以轻松使用Dubbo作为RPC框架创建Spring Boot应用程序。
-* [Spring Boot Jasypt](https://github.com/ulisesbocchio/jasypt-spring-boot)：Jasypt Spring Boot为Spring Boot应用程序中的属性源提供加密支持。
-* [Okta Spring Boot](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter。
-* [Spring Lemon](https://github.com/naturalprogrammer/spring-lemon)：Spring Boot Web应用程序的帮助库。
-* [Spring Boot Starter Calma](https://github.com/marvinSpring/spring-boot-starter-calma)：异常通知框架。
-* [Spring Boot HTMX](https://github.com/wimdeblauwe/htmx-spring-boot)：用于使用htmx的Spring Boot和Thymeleaf助手。
-* [WireMock Spring Boot](https://github.com/maciejwalkowiak/wiremock-spring-boot)：WireMock Spring Boot极大地简化了基于Spring Boot和Junit 5的集成测试中的HTTP客户端测试。
-* [DJL Spring Boot](https://github.com/deepjavalibrary/djl-spring-boot-starter)：DJL Spring Boot Starter。
-* [Spring ViewComponent](https://github.com/tschuehly/spring-view-component)：使用Spring创建服务器端ViewComponent的库。
-* [Narayana Spring Boot](https://github.com/snowdrop/narayana-spring-boot)：Narayana Spring Boot自动配置和Starter。
-* [Disruptor Spring Boot Starter](https://github.com/hiwepy/disruptor-spring-boot-starter)：基于Disruptor的Spring Boot Starter实现。
-* [Velocity Spring Boot Starter](https://github.com/alibaba/velocity-spring-boot-project)：一个针对Velocity的Spring Boot Starter，包括Spring官方和阿里巴巴的实现，例如Layout、Tools支持。
-* [Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus)：Spring JDBC Plus提供基于Spring Data JDBC的扩展，由Naver开源。
-* [Alibaba Spring Boot](https://github.com/alibaba/aliyun-spring-boot)：阿里云服务Spring Boot Starter。
-* [Camel Spring Boot](https://github.com/apache/camel-spring-boot)：Camel Spring Boot支持。
-* [Wicket Spring Boot](https://github.com/MarcGiffing/wicket-spring-boot)：Wicket的Spring Boot Starter。
-* [Bitcoin Spring Boot](https://github.com/theborakompanioni/bitcoin-spring-boot-starter)：使用Spring Boot编写企业比特币应用程序的工具。
-* [Spring Boot Bucket4j](https://github.com/MarcGiffing/bucket4j-spring-boot-starter)：Bucket4j的Spring Boot Starter。
-* [Camunda Spring Boot](https://github.com/camunda/camunda-bpm-spring-boot-starter)：Camunda的Spring Boot Starter。
-* [reCAPTCHA Spring Boot](https://github.com/mkopylec/recaptcha-spring-boot-starter)：Google reCAPTCHA的Spring Boot Starter。
-* [RocketMQ Spring](https://github.com/apache/rocketmq-spring)：该项目旨在帮助开发者快速将RocketMQ与Spring Boot集成。
-* [PageHelper Spring Boot](https://github.com/pagehelper/pagehelper-spring-boot)：Mybatis分页插件与Spring Boot的集成。
-* [Pug4j Spring Boot](https://github.com/domix/jade4j-spring-boot-starter)：Spring Boot Jade4j Starter。
-* [RESTEasy Spring Boot](https://github.com/resteasy/resteasy-spring-boot)：RESTEasy Spring Boot Starter。
-* [CXF Spring Boot](https://github.com/codecentric/cxf-spring-boot-starter)：由Spring Boot和CXF提供支持的企业和生产就绪SOAP Web Service。
-* [Spring Boot Batch Web](https://github.com/codecentric/spring-boot-starter-batch-web)：由Spring Boot提供支持的企业就绪、生产就绪的批处理应用程序。
-* [Spring Boot TestJars](https://github.com/spring-projects-experimental/spring-boot-testjars)：该项目允许用户通过将外部Spring Boot应用程序创建为Bean来轻松启动它。
-* [Infobip Spring Data Querydsl](https://github.com/infobip/infobip-spring-data-querydsl)：Infobip Spring Data Querydsl使用户能够在Spring Data Repository之上利用Querydsl API的全部功能。
-* [Atlassian Connect Spring Boot](https://bitbucket.org/atlassian/atlassian-connect-spring-boot)：该仓库包含一个Spring Boot Starter，用于为JIRA(软件、服务台和核心)和Confluence构建Atlassian Connect附加组件。
-* [Assistant](https://github.com/Geniusay/Assistant)：Assistant是一个基于Spring Boot框架的后端开发工具。
-* [Spring Boot Dynamic Config](https://github.com/Code2Life/spring-boot-dynamic-config)：一个注解实现Spring Boot应用的动态配置，配置热重载最简洁的方案。
-* [Spring Data JDBC Repository](https://github.com/nurkiewicz/spring-data-jdbc-repository)：该项目的目的是提供基于Spring框架的JdbcTemplate的关系数据库的通用、轻量级且易于使用的DAO实现，并与Spring Data项目范围兼容。
-
-## Mybatis库
-
-* [Mybatis Plus](https://github.com/baomidou/mybatis-plus)：MyBatis Plus是MyBatis的一个强大的增强工具包，用于简化开发。
-* [Mybatis Flex](https://github.com/mybatis-flex/mybatis-flex)：Mybatis Flex是一个优雅的Mybatis增强框架。
-* [Fluent Mybatis](https://gitee.com/fluent-mybatis/fluent-mybatis)：Fluent MyBatis是一个MyBatis增强工具。
-* [MybatisPlus Ext](https://gitee.com/dromara/mybatis-plus-ext)：MybatisPlus Ext对MybatisPlus做了进一步的拓展封装，即保留原功能，又添加了更多有用便捷的功能。
-* [Xbatis](https://gitee.com/xbatis/xbatis)：Xbatis是一款基于Mybatis的ORM框架。
-* [Mybatis PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)：Mybatis通用分页插件。
-* [Mapper](https://github.com/abel533/Mapper)：易于使用的Mybatis通用Mapper。
-* [Mapper](https://gitee.com/free/Mapper)：极其方便的使用Mybatis单表的增删改查工具。
-* [MyBatis Mapper](https://github.com/mybatis-mapper/mapper)：这是一个不需要任何配置就可以直接使用的通用Mapper。
-* [FastMybatis](https://gitee.com/durcframework/fastmybatis)：FastMybatis是一个Mybatis开发框架，其宗旨为简单、快速、有效。
-* [MyBatis Plus Join](https://gitee.com/best_handsome/mybatis-plus-join)：对MyBatis Plus多表查询的扩展。
-* [MyBatis Dynamic SQL](https://github.com/mybatis/mybatis-dynamic-sql)：适用于Kotlin和Java的SQL DSL，支持MyBatis或Spring JdbcTemplate的渲染。
-* [Mybatis Generator](https://github.com/mybatis/generator)：用于Mybatis的代码生成器。
-* [MybatisPlus Generator](https://github.com/baomidou/generator)：用于MybatisPlus的代码生成器。
-* [Mybatis Mate](https://gitee.com/baomidou/mybatis-mate-examples)：Mybatis-Mate为MP企业级模块，支持分库分表，数据审计、数据敏感词过滤(AC算法)，字段加密，字典回写(数据绑定)，数据权限，表结构自动生成SQL维护，支持国密SM2、SM3、SM4加密算法等。
-* [SQL Analysis](https://github.com/jd-opensource/sql-analysis)：SQL Analysis是基于Mybatis插件设计的一款慢SQL分析组件，由京东开源。
-* [MyBatis Generator UI](https://github.com/zouzg/mybatis-generator-gui)：MyBatis Generator UI是基于MyBatis Generator开发一款界面工具。
-* [MyBatis Generator Plugin](https://github.com/itfsw/mybatis-generator-plugin)：Mybatis Generator代码生成插件拓展。
-* [MyBatis Plus Generator UI](https://github.com/davidfantasy/mybatis-plus-generator-ui)：提供交互式的Web UI用于生成兼容Mybatis Plus框架的相关功能代码。
-* [MybatisPlus Code Generator](https://github.com/fengwenyi/mybatis-plus-code-generator)：MyBatisPlus代码生成器。
-* [PNDao](https://gitee.com/piaoniu/pndao)：一个非常简单的MyBatis辅助工具，可以基于DAO的命名约定帮你生成并维护SQL语句，由票牛开源。
-* [Stream Query](https://gitee.com/dromara/stream-query)：Stream Query允许完全摆脱Mapper的Mybatis Plus体验。
-* [OpenScope](https://gitee.com/mofum/open-scope)：OpenScope是一种轻量级、易维护的数据权限的解决方案，它能处理比较复杂的权限操作逻辑。
-* [Spring Data MyBatis](https://github.com/easybest/spring-data-mybatis)：该模块提供对基于MyBatis的数据访问层的增强支持。
-
-## Hibernate库
-
-* [Hypersistence Utils](https://github.com/vladmihalcea/hypersistence-utils)：Hypersistence Utils库提供Spring和Hibernate实用程序，可以帮助充分利用数据访问层。
-* [HibernatePlus](https://gitee.com/baomidou/hibernate-plus)：Hibernate增强工具包，只做增强不做改变，更加精简持久层CRUD操作。
-* [TorpedoQuery](https://github.com/xjodoin/torpedoquery)：类型安全的Hibernate查询生成器。
-* [Hibernate Hydrate](https://github.com/arey/hibernate-hydrate)：Hibernate Hydrate项目的主要目标是填充持久实体图，从而避免著名的LazyInitializationException。
-* [Hibernate Redis](https://github.com/debop/hibernate-redis)：使用Redis的Hibernate二级缓存权限。
-* [SQLite Dialect](https://github.com/gwenn/sqlite-dialect)：受NHibernate启发的SQLite的Hibernate方言。
-
-## JPA库
-
-* [JPA Spec](https://github.com/wenhao/jpa-spec)：JPA按Specification查询框架。
-* [RSQL JPA](https://github.com/tennaito/rsql-jpa)：该库提供了RSQL表达式到JPA Criteria Query(JPQL的对象表示)的转换器。
-* [Kotlin JDSL](https://github.com/line/kotlin-jdsl)：Kotlin JDSL是一个Kotlin库，它简化了查询的构建和执行，由Line开源。
-* [RSQL JPA Specification](https://github.com/perplexhub/rsql-jpa-specification)：将RSQL查询转换为org.springframework.data.jpa.domain.Specification或com.querydsl.core.types.Predicate并支持实体关联查询。
-* [FluentJPA](https://github.com/streamx-co/FluentJPA)：FluentJPA是一种用于关系型数据库和JPA的语言集成查询(LINQ) 技术，它允许你通过直接集成到Java语言中来编写强类型查询。
-* [Blaze Persistence](https://github.com/Blazebit/blaze-persistence)：Blaze Persistence是面向JPA提供程序的丰富Criteria API。
-* [JPAStreamer](https://github.com/speedment/jpa-streamer)：JPAStreamer是一个轻量级库，用于将JPA查询表达为Java Stream。
-* [ActiveJPA](https://github.com/ActiveJpa/activejpa)：ActiveJPA是一个试图在JPA之上实现ActiveRecord模式的Java库。
-* [QueryStream](https://github.com/querystream/querystream)：QueryStream允许你使用类似Stream的API执行JPA查询。
-* [Spring Filter](https://github.com/turkraft/springfilter)：使用用户友好的查询语法动态过滤JPA实体和Mongo集合。
-* [Fenix](https://github.com/blinkfox/fenix)：Fenix是一个为了解决复杂动态SQL(JPQL)而生的Spring Data JPA扩展库。
-* [Spring Data JPA EntityGraph](https://github.com/Cosium/spring-data-jpa-entity-graph)：Spring Data JPA扩展允许在Repository上完全动态使用EntityGraph。
-* [Spring Data JPA DataTables](https://github.com/darrachequesne/spring-data-jpa-datatables)：该项目是Spring Data JPA项目的扩展，以便于与启用了服务器端处理的jQuery插件DataTables一起使用。
-* [Spring Search](https://github.com/sipios/spring-search)：Spring Search提供了一种简单的查询语言来对JPA实体执行高级搜索。
-* [Specification Arg Resolver](https://github.com/tkaczmarzyk/specification-arg-resolver)：用于使用Spring MVC和Spring Data JPA过滤数据的替代API。
-* [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions)：Spring Data JPA MongoDB Expressions是一个允许你使用MongoDB查询语言查询Spring Data JPA Repository的库。
-* [Spring Data JPA Extra](https://github.com/slyak/spring-data-jpa-extra)：Spring Data JPA带模板动态查询功能(例如FreeMarker、Velocity等)，类似MyBatis。
-* [Spring Data Generator](https://github.com/cmeza20/spring-data-generator)：用于JPA Repository和管理器的Spring Data Generator。
-* [Kotlin JPA Specification DSL](https://github.com/consoleau/kotlin-jpa-specification-dsl)：该库提供了一个流式的DSL，用于使用Spring Data规范(即JPA Criteria API)查询Spring Data JPA Repository，而无需样板代码或生成的元模型。
 
 ## 其他
 
