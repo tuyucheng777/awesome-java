@@ -161,9 +161,9 @@
 * [功能切换](#功能切换)
 * [人工智能](#人工智能)
   * [LLM框架](#LLM框架)
+  * [LLM客户端](#LLM客户端)
   * [推理引擎](#推理引擎)
   * [AI智能体](#AI智能体)
-  * [LLM客户端](#LLM客户端)
   * [LLMOps](#LLMOps)
   * [代理框架](#代理框架)
   * [机器学习](#机器学习)
@@ -286,7 +286,6 @@
   * [证书颁发机构](docs/doc2.md#证书颁发机构)
   * [数据匿名化](docs/doc2.md#数据匿名化)
   * [电子签名](docs/doc2.md#电子签名)
-* [API管理](docs/doc2.md#API管理)
 * [序列化](docs/doc2.md#序列化)
   * [Protocol Buffer](docs/doc2.md#Protocol-Buffer)
   * [CBOR](docs/doc2.md#CBOR)
@@ -414,6 +413,7 @@
   * [模式比较](docs/doc2.md#模式比较)
   * [模式校验](docs/doc2.md#模式校验)
   * [规范转换](docs/doc2.md#规范转换)
+* [API管理](docs/doc2.md#API管理)
 * [技术文档](docs/doc2.md#技术文档)
 * [Javadoc](docs/doc2.md#Javadoc)
 * [文件操作](docs/doc2.md#文件操作)
@@ -1211,6 +1211,7 @@
 * [Joylive](https://github.com/jd-opensource/joylive-agent)：基于字节码增强的面向应用多活和单元化的微服务流量治理框架，由京东开源。
 * [Water](https://gitee.com/noear/water)：为Java服务开发和治理，提供一站式解决方案(可以理解为微服务架构支持套件)。
 * [CoSky](https://gitee.com/AhooWang/CoSky)：CoSky是一个轻量级微服务治理平台，为分布式系统提供服务发现和配置管理功能。
+* [DHorse](https://github.com/512team/dhorse)：DHorse是一个轻量级、简单易用的云应用管理平台，具有多云和多环境管理、应用管理和部署、服务治理等功能。
 
 ## REST错误处理
 
@@ -1462,6 +1463,7 @@
 * [Kieker](https://github.com/kieker-monitoring/kieker)：Kieker提供动态分析功能，即监控和分析软件系统的运行时行为，从而实现应用程序性能监控和架构发现，由斯图加特大学和基尔大学开源。
 * [BeeAPM](https://github.com/hao117/bee-apm)：BeeAPM是一个分布式跟踪和应用性能监控系统。
 * [Digma](https://github.com/digma-ai/digma)：Digma是一个持续反馈平台，使可观察性与开发相关。
+* [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
 
 ## 分布式跟踪
 
@@ -3780,25 +3782,6 @@
 * [JBoltAI](https://jboltai.com/)：JBoltAI是Java企业级AI应用开发框架，旨在帮助Java系统快速接入大模型能力并开发具有AI能力的功能模块。
 * [DriftKit](https://github.com/driftkit-ai/driftkit-framework)：适用于Java的生产级AI框架。
 
-#### 推理引擎
-
-* [JLama](https://github.com/tjake/Jlama)：JLama是Java的现代LLM推理引擎，由DataStax开发。
-* [Llama3.java](https://github.com/mukel/llama3.java)：Java中的实用Llama 3推理。
-* [GPULlama3](https://github.com/beehive-lab/GPULlama3.java)：使用原生Java编写的Llama3模型，通过TornadoVM在GPU上自动加速，由曼彻斯特大学开源。
-* [UOLLM](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，永源的商业产品。
-* [LLama Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
-
-#### AI智能体
-
-* [JoyAgent JDGenie](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
-* [JManus](https://github.com/spring-ai-alibaba/JManus)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
-* [Coze Java](https://github.com/coze-dev/coze-java)：Coze API SDK Java是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
-* [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
-* [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
-* [SparkX](https://gitee.com/shop-sparker/spark-x)：SparkX是Spring Boot 3、PgSQL、Vue 3开发，采用大语言模型和编排的AI智能体开发平台。
-* [AgentX](https://github.com/lucky-aeon/AgentX)：AgentX是一个基于大模型和多能力平台的智能Agent构建平台。
-* [Innospots](https://gitee.com/innospots/innospots)：Innospots是一款开箱即用的开源企业数字化智能决策解决方案。
-
 #### LLM客户端
 
 * [OpenAI Java](https://github.com/openai/openai-java)：OpenAI API的官方Java库。
@@ -3828,6 +3811,25 @@
 * [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
 * [AI4j](https://github.com/LnYo-Cly/ai4j)：用于快速接入AI大模型应用的Java SDK。
 * [AI Java](https://github.com/mainpropath/AI-java)：AI Java旨在简化与各大模型API的交互。
+
+#### 推理引擎
+
+* [JLama](https://github.com/tjake/Jlama)：JLama是Java的现代LLM推理引擎，由DataStax开发。
+* [Llama3.java](https://github.com/mukel/llama3.java)：Java中的实用Llama 3推理。
+* [GPULlama3](https://github.com/beehive-lab/GPULlama3.java)：使用原生Java编写的Llama3模型，通过TornadoVM在GPU上自动加速，由曼彻斯特大学开源。
+* [UOLLM](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，永源的商业产品。
+* [LLama Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
+
+#### AI智能体
+
+* [JoyAgent JDGenie](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
+* [JManus](https://github.com/spring-ai-alibaba/JManus)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
+* [Coze Java](https://github.com/coze-dev/coze-java)：Coze API SDK Java是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
+* [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
+* [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
+* [SparkX](https://gitee.com/shop-sparker/spark-x)：SparkX是Spring Boot 3、PgSQL、Vue 3开发，采用大语言模型和编排的AI智能体开发平台。
+* [AgentX](https://github.com/lucky-aeon/AgentX)：AgentX是一个基于大模型和多能力平台的智能Agent构建平台。
+* [Innospots](https://gitee.com/innospots/innospots)：Innospots是一款开箱即用的开源企业数字化智能决策解决方案。
 
 #### LLMOps
 
@@ -3982,6 +3984,7 @@
 * [Kuromoji](https://github.com/atilika/kuromoji)：Kuromoji是一个独立且非常易于使用的日语形态分析器，专为搜索而设计。
 * [Word](https://github.com/ysc/word)：Word是一个Java实现的分布式中文分词组件，提供了多种基于词典的分词算法。
 * [Segment](https://github.com/houbb/segment)：Segment是基于结巴分词词库实现的更加灵活、高性能的Java分词实现。
+* [TextRazor](https://www.textrazor.com/docs/java)：TextRazor提供完整的云或自托管文本分词基础设施。
 * [IK Analyzer Solr](https://github.com/magese/ik-analyzer-solr)：Solr 7.X-8.X的IK分词器。
 * [Twitter Korean Text](https://github.com/twitter/twitter-korean-text)：Twitter创建的开源韩语处理器。
 * [STConvert](https://github.com/infinilabs/analysis-stconvert)：STConvert是一款将中文字符在繁体和简体之间转换的分词器，由INFINI Labs维护。
