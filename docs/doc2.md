@@ -1548,6 +1548,7 @@
 * [SignServer Community](https://github.com/Keyfactor/signserver-ce)：SignServer是基于PKI的开源签名软件，用于签署代码、文档、时间戳等。
 * [NCANode](https://github.com/ncanode-kz/NCANode)：哈萨克斯坦共和国电子数字签名服务器应用程序。
 * [Signer](https://github.com/demoiselle/signer)：包含有助于实施ICP-BRASIL标准中的数字签名的组件的存储库。
+* [Autogram](https://github.com/slovensko-digital/autogram)：Autogram是一个多平台桌面JavaFX应用程序，用于根据欧洲eIDAS法规签署和验证文件。
 
 ## 序列化
 
