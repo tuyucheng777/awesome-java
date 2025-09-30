@@ -6511,6 +6511,15 @@
 * [Android Swipe Layout](https://github.com/daimajia/AndroidSwipeLayout)：最强大的滑动布局库。
 * [VLayout](https://github.com/alibaba/vlayout)：VLayout是RecyclerView的一个强大的LayoutManager扩展，它为RecyclerView提供了一组布局，由阿里开源。
 * [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)：Android流式布局，支持单选、多选等，适合用于产品标签等。
+* [CoordinatorTabLayout](https://github.com/hugeterry/CoordinatorTabLayout)：CoordinatorTabLayout是一个自定义复合控件，可以快速实现TabLayout与CoordinatorLayout的组合。
+* [ChipsLayoutManager](https://github.com/Oleg-Beloy/ChipsLayoutManager)：自定义Recycler View的LayoutManager，当当前行没有剩余空间时，将元素移动到下一行。
+* [CarouselLayoutManager](https://github.com/Azoft/CarouselLayoutManager)：Android轮播布局管理器(用于RecyclerView)。
+* [DiagonalLayout](https://github.com/florent37/DiagonalLayout)：通过对角线布局探索Material Design的新风格和方法。
+* [FlowLayout](https://github.com/nex3z/FlowLayout)：Android的FlowLayout，当空间不足时，允许子视图流到下一行。
+* [TransformationLayout](https://github.com/skydoves/TransformationLayout)：使用容器变换动画将视图、活动和片段转换为其他组件。
+* [ExpandableLayout](https://github.com/cachapa/ExpandableLayout)：一种Android布局类，支持对其子视图的展开和折叠进行动画处理。
+* [BGASwipeBackLayout](https://github.com/bingoogolapple/BGASwipeBackLayout-Android)：Android Activity滑动返回，支持微信滑动返回样式、横屏滑动返回、全屏滑动返回。
+* [AndroidPileLayout](https://github.com/xmuSistone/AndroidPileLayout)：一种异常的水平ListView式堆叠布局。
 * [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)：一个Android TabLayout库，目前有3个TabLayout。
 * [Alerter](https://github.com/Tapadoo/Alerter)：该库旨在克服Toasts和Snackbars的局限性，同时降低布局的复杂性。
 * [JKeyboardPanelSwitch](https://github.com/Jacksgong/JKeyboardPanelSwitch)：Android中键盘和面板布局冲突的处理程序。
@@ -6523,6 +6532,7 @@
 * [AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)：Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配。
 * [SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)：一个Android库，可帮助你构建具有滑动返回手势的应用程序。
 * [LayoutManagerGroup](https://github.com/DingMouRen/LayoutManagerGroup)：自定义RecyclerView的LayoutManager。
+* [Android Percent Support Lib Sample](https://github.com/JulienGenoud/android-percent-support-lib-sample)：该库同时提供基于百分比的布局，水平和垂直。
 
 #### Android富文本组件
 
@@ -7077,6 +7087,48 @@
 * [Rabbits](https://github.com/kyleduo/Rabbits)：Android应用程序的路由器模块。
 * [MyRouter](https://github.com/wenzhonghu/MyRouter)：Android平台中对页面、原生路由功能的中间件。
 
+#### Android导航库
+
+* [NavigationTabBar](https://github.com/Devlight/NavigationTabBar)：具有丰富多彩交互的导航标签栏。
+* [Compose Destinations](https://github.com/raamcosta/compose-destinations)：一个处理注解并生成使用官方Jetpack Compose Navigation的代码的KSP库。
+* [Scene](https://github.com/bytedance/scene)：Scene是一个基于视图的轻量级导航和UI组合库，由字节开源。
+* [SlidingTutorial](https://github.com/Cleveroad/SlidingTutorial-Android)：用于在应用程序内制作动画教程的Android库。
+* [Native Navigation](https://github.com/airbnb/native-navigation)：React Native应用程序的原生导航库，由Airbnb开源。
+* [Bubble Navigation](https://github.com/gauravk95/bubble-navigation)：一个轻量级的库，可以轻松制作漂亮的导航栏，并提供大量自定义选项。
+* [Cicerone](https://github.com/terrakok/Cicerone)：Cicerone是一个轻量级库，可轻松实现Android应用中的导航。
+* [MenuDrawer](https://github.com/SimonVT/android-menudrawer)：滑出式菜单实现，允许用户在应用中的视图之间导航。
+* [PagerBottomTabStrip](https://github.com/tyzlmjj/PagerBottomTabStrip)：Android页面底部和侧边的导航栏。
+* [BGABanner Android](https://github.com/bingoogolapple/BGABanner-Android)：引导界面滑动导航、大于等于1页时无限轮播、各种切换动画轮播效果。
+* [BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)：该库帮助用户轻松使用底部导航栏，并允许大量自定义。
+* [BottomBar](https://github.com/roughike/BottomBar)：模仿新的Material Design底部导航模式的自定义视图组件。
+* [ImmersionBar](https://github.com/gyf-dev/ImmersionBar)：Android 4.4以上沉浸式状态栏和沉浸式导航栏管理，适配横竖屏切换、刘海屏、软键盘弹出等问题。
+* [FragNav](https://github.com/ncapdevi/FragNav)：用于管理多个片段堆栈(例如底部导航、导航抽屉)的Android库。
+* [RecyclerTabLayout](https://github.com/nshmura/RecyclerTabLayout)：使用RecyclerView实现的高效TabLayout库。
+* [AnimatedBottomBar](https://github.com/Droppers/AnimatedBottomBar)：可定制且易于使用的BottomBar导航视图，具有流畅的动画，支持ViewPager、ViewPager2、NavController和徽章。
+* [Floating Navigation View](https://github.com/andremion/Floating-Navigation-View)：一个简单的浮动操作按钮，显示一个锚定的导航视图。
+* [Chip Navigation Bar](https://github.com/ismaeldivita/chip-navigation-bar)：受Google Bottom Navigation启发并混合了Chips组件的导航栏小部件。
+* [NavigationTabStrip](https://github.com/Devlight/NavigationTabStrip)：具有流畅交互的导航标签条。
+* [Simple Stack](https://github.com/Zhuinden/simple-stack)：Simple Stack是一个后退堆栈库，它允许你在不可变的、可打包的数据类列表中表示你的导航状态。
+* [AHBottomNavigation](https://github.com/aurelhubert/ahbottomnavigation)：用于根据Material Design指南实现底部导航组件的库。
+* [BottomNavigationViewEx](https://github.com/ittianyu/BottomNavigationViewEx)：用于增强BottomNavigationView的Android库。
+* [SmoothBottomBar](https://github.com/ibrahimsn98/SmoothBottomBar)：一个轻量级的Android材质底部导航栏库。
+* [Space Navigation](https://github.com/armcha/Space-Navigation-View)：Space Navigation是一个库，可轻松将完全可定制的Google Spaces等导航集成到你的应用中。
+* [InboxRecyclerView](https://github.com/saket/InboxRecyclerView)：InboxRecyclerView是一个受Google Inbox和Reply启发的用于构建可扩展后代导航的库，并且可以轻松插入到现有项目中。
+* [Material Bottom Navigation Library](https://github.com/sephiroth74/Material-BottomNavigation)：轻量级底部导航库组件，灵感来自Google Material Design指南。
+* [Meow Bottom Navigation](https://github.com/oneHamidreza/MeowBottomNavigation)：用Kotlin编写的适用于Android的简单、弯曲且材质底部导航。
+* [Appyx](https://github.com/bumble-tech/appyx)：用于Compose Multiplatform的模型驱动导航、带手势控制的UI组件。
+* [ChromeLikeTabSwitcher](https://github.com/michael-rapp/ChromeLikeTabSwitcher)：ChromeLikeTabSwitcher是一个Android库，它提供了一个类似于Google Chrome浏览器Android版本中使用的标签切换器。
+* [ByeBurger](https://github.com/githubwing/ByeBurger)：极其简便的快速实现滑动隐藏标题栏和导航栏。
+* [Material Bottom Navigation](https://github.com/armcha/LuseenBottomNavigation)：BottomNavigationView根据Google GuideLine设计。
+* [Morph Bottom Navigation](https://github.com/tommybuonomo/morph-bottom-navigation)：该库代表底部导航，在所选项目顶部具有出色的变形效果。
+* [BottomBarLayout](https://github.com/chaychan/BottomBarLayout)：一个轻量级的底部导航控件。
+* [Chip Navigation Bar](https://github.com/ismaeldivita/chip-navigation-bar)：受Google Bottom Navigation启发并混合了Chips组件的导航栏小部件。
+* [Simple Bottom Navigation](https://github.com/bufferapp/AdaptableBottomNavigation)：在Android上实现底部导航视图的更简单方法。
+* [Navigation Toolbar](https://github.com/Ramotion/navigation-toolbar-android)：Navigation Toolbar是一个Kotlin幻灯片模型的UI导航控制器。
+* [JPTabBar](https://github.com/peng8350/JPTabBar)：TabBar Android是一款炫酷的Android底部导航栏。
+* [ExpandableBottomBar](https://github.com/st235/ExpandableBottomBar)：改善应用导航的新方法。
+* [BubbleTabBar](https://github.com/akshay2211/BubbleTabBar)：BubbleTabBar是底部导航栏，带有可自定义的气泡状标签。
+
 #### Android抽屉库
 
 * [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)：灵活易用，一站式Android项目抽屉库，现已全新推出，采用Material 2设计。
@@ -7085,7 +7137,7 @@
 * [Material Menu](https://github.com/balysv/material-menu)：Android L抽屉、返回、关闭和检查图标的动画。
 * [SmartSwipe](https://github.com/luckybilly/SmartSwipe)：SmartSwipe Android库可帮助你更轻松地进行视图滑动。
 * [Duo Navigation Drawer](https://github.com/asdsolutions-os/duo-navigation-drawer)：这个Android库提供了一种为Android创建替代导航抽屉的简便方法。
-* [MaterialNavigationDrawer](https://github.com/neokree/MaterialNavigationDrawer)：采用Material Design风格和简化方法的导航抽屉活动
+* [MaterialNavigationDrawer](https://github.com/neokree/MaterialNavigationDrawer)：采用Material Design风格和简化方法的导航抽屉Activity。
 * [LDrawer](https://github.com/keklikhasan/LDrawer)：带有Material Design动画的Android抽屉图标。
 * [DebugDrawer](https://github.com/palaima/DebugDrawer)：Android调试抽屉，加快开发速度。
 * [NavigationDrawer MaterialDesign](https://github.com/zirouan/NavigationDrawer-MaterialDesign)：Material Design导航抽屉库。
@@ -7211,6 +7263,20 @@
 * [AnimatedLoadingIndicator](https://github.com/yash786agg/AnimatedLoadingIndicator)：这是一个简单但有效的动画加载指示器，只需几行代码即可轻松使用。
 * [StateLayout](https://github.com/junixapp/StateLayout)：一种无侵入，使用简单，无需修改现有布局，动态切换布局状态(Loading/Error/Empty/Content)的解决方案。
 * [ArrowDrawable](https://github.com/wuyr/ArrowDrawable)：纯Paint实现的一个射箭效果，可用作Loading动画。
+
+#### Android换肤框架
+
+* [Android Skin Support](https://github.com/ximsfei/Android-skin-support)：Android Skin Support是一款Android换肤框架。
+* [Android Skin Loader](https://github.com/fengjundev/Android-Skin-Loader)：一个通过动态加载本地皮肤包进行换肤的皮肤框架。
+* [MagicaSakura](https://github.com/bilibili/MagicaSakura)：MagicaSakura是一个Android多主题库，支持日常多彩主题和夜间主题，由B站开源。
+* [Colorful](https://github.com/garretyoder/Colorful)：Colorful是一个动态主题库，允许你轻松更改应用程序的配色方案。
+* [MultipleTheme](https://github.com/dersoncheng/MultipleTheme)：该应用框架可以实现无缝换肤／切换夜间模式的需求。
+* [AndroidChangeSkin](https://github.com/hongyangAndroid/AndroidChangeSkin)：一种完全无侵入的换肤方式，支持插件式和应用内，无需重启Activity。
+* [ChangeSkin](https://github.com/hongyangAndroid/ChangeSkin)：基于插件式的Android换肤框架，支持App内和或者外部插件式提供资源的换肤方案，无需重启Activity。
+* [ThemeSkinning](https://github.com/burgessjp/ThemeSkinning)：Android主题换肤的开源库。
+* [SkinSprite](https://github.com/geminiwen/SkinSprite)：无需重新创建Activity即可更改昼夜模式的另一种解决方案。
+* [Android Skin](https://github.com/MeetYouDevs/Android-Skin)：极简单的Android换肤框架，无缝支持第三方控件，由美柚开源。
+* [PaintedSkin](https://github.com/CoderAlee/PaintedSkin)：一款解决Android App换肤框架，极低的侵入性与学习成本。
 
 ## GUI开发/程序
 

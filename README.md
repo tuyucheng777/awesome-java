@@ -626,11 +626,13 @@
   * [Android下载库](docs/doc2.md#Android下载库)
   * [Android评分库](docs/doc2.md#Android评分库)
   * [Android路由框架](docs/doc2.md#Android路由框架)
+  * [Android导航库](docs/doc2.md#Android导航库)
   * [Android抽屉库](docs/doc2.md#Android抽屉库)
   * [Android动画库](docs/doc2.md#Android动画库)
   * [Android插件框架](docs/doc2.md#Android插件框架)
   * [Android WebView](docs/doc2.md#Android-WebView)
   * [Android加载库](docs/doc2.md#Android加载库)
+  * [Android换肤框架](docs/doc2.md#Android换肤框架)
 * [GUI开发/程序](docs/doc2.md#GUI开发程序)
   * [GUI框架](docs/doc2.md#GUI框架)
   * [移动开发框架](docs/doc2.md#移动开发框架)
@@ -987,6 +989,7 @@
 * [DataMill](https://github.com/rchodava/datamill)：DataMill是一个基于RxJava构建、采用函数式响应式风格的Web应用Java框架。
 * [ServiceFramework](https://github.com/allwefantasy/ServiceFramework)：ServiceFramework是一个敏捷、快速、富领域模型的Java MVC框架。
 * [Tio Boot](https://gitee.com/ppnt/tio-boot)：Tio Boot是新一代Java Web开发框架，更快、更小、更简单。
+* [WComponents](https://github.com/BorderTech/wcomponents)：WComponents是一个用于为企业和政府构建可访问的Web应用程序的Java框架。
 
 #### RPC框架
 
