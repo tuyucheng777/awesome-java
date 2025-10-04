@@ -270,6 +270,7 @@
   * [身份管理平台](docs/doc2.md#身份管理平台)
   * [单点登录](docs/doc2.md#单点登录)
   * [安全库](docs/doc2.md#安全库)
+  * [LDAP](docs/doc2.md#LDAP)
   * [安全工具](docs/doc2.md#安全工具)
   * [漏洞工具](docs/doc2.md#漏洞工具)
   * [安全培训](docs/doc2.md#安全培训)
@@ -486,6 +487,7 @@
   * [问题跟踪系统](docs/doc2.md#问题跟踪系统)
   * [QA系统](docs/doc2.md#QA系统)
   * [CMS系统](docs/doc2.md#CMS系统)
+  * [博客系统](docs/doc2.md#博客系统)
   * [论坛系统](docs/doc2.md#论坛系统)
   * [ERP系统](docs/doc2.md#ERP系统)
   * [CRM系统](docs/doc2.md#CRM系统)
@@ -839,7 +841,6 @@
   * [配置对象模式](docs/doc2.md#配置对象模式)
   * [处理器测试](docs/doc2.md#处理器测试)
 * [类路径扫描](docs/doc2.md#类路径扫描)
-* [目录服务](docs/doc2.md#目录服务)
 * [行为分析](docs/doc2.md#行为分析)
 * [URL库](docs/doc2.md#URL库)
 * [Expect库](docs/doc2.md#Expect库)
@@ -1398,6 +1399,7 @@
 * [Redline Smalltalk](https://github.com/redline-smalltalk/redline-smalltalk)：Redline Smalltalk是JVM上的Smalltalk。
 * [Fuzion](https://github.com/tokiwa-software/fuzion)：Fuzion是一种注重简单性、安全性和正确性的语言。
 * [Snow](https://gitee.com/jcnc-org/snow)：Snow是一门面向AI时代的新型编程语言，灵感源自大模型的发展趋势。
+* [Ixion](https://github.com/IxionLang/ixion-jvm)：适用于JVM平台的多范式编译型编程语言。
 
 ## 云原生
 
@@ -1986,6 +1988,7 @@
 * [Apache Drools](https://github.com/apache/incubator-kie-drools)：Drools是Java的规则引擎、DMN引擎和复杂事件处理(CEP)引擎，由RedHat开源。
 * [Siddhi](https://github.com/siddhi-io/siddhi)：Siddhi是一个云原生流式处理和复杂事件处理引擎，由WSO2开源。
 * [Esper](https://github.com/espertechinc/esper)：Esper是用于复杂事件处理(CEP)、流式SQL和事件系列分析的组件。
+* [Flamingock Java](https://github.com/flamingock/flamingock-java)：Flamingock将代码变更(CaC)引入到你的整个技术栈。
 * [Kafka Streams CEP](https://github.com/fhussonnois/kafkastreams-cep)：该库可用于扩展Kafka Streams API，以便从流中选择复杂的事件序列。
 * [Siddhi](https://github.com/haoch/flink-siddhi)：Siddhi CEP是一个轻量级且易于使用的开源复杂事件处理引擎。
 * [Wayeb](https://github.com/ElAlev/Wayeb)：Wayeb是一个用Scala编写的复杂事件处理和预测(CEP/F)引擎。
@@ -2247,6 +2250,7 @@
 * [KSUID](https://github.com/ksuid/ksuid)：KSUID是一种生成全局唯一ID的方法，类似于RFC 4122 UUID。
 * [Butterfly](https://github.com/simonalong/Butterfly)：Butterfly是一个超高性能的发号器框架。
 * [Snowflake](https://github.com/relops/snowflake)：用于生成K阶唯一64位整数的Java库。
+* [SnowflakeId](https://github.com/phxql/snowflake-id)：使用Java生成类似Twitter的Snowflake ID。
 
 #### Session集群
 
@@ -3187,6 +3191,8 @@
 * [Honoka SDK](https://github.com/kosaka-bun/honoka-sdk)：Honoka SDK是一款包含了各式各样实用工具的Java与Kotlin工具包。
 * [Xpresso](https://github.com/WantedTechnologies/xpresso)：Xpresso在Java中实现了熟悉的Pythonic方法和编码范例。
 * [MicroSphere](https://github.com/microsphere-projects/microsphere-java)：MicroSphere是一个模块化的Java实用程序库，提供反射、类加载、集合、网络和注解处理等基础功能。
+* [LibCommon](https://github.com/saki4510t/libcommon)：LibCommon包含一些通用的Java、Android开发工具类。
+* [Skrstop Components](https://github.com/skrstop/skrstop-components)：基于Spring Boot的常用功能封装，包括通用响应、通用异常、数据库、Redis、远程存储、常用自定义注解、多数据源等。
 
 ## Bean映射&复制
 
