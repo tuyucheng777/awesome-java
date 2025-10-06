@@ -69,6 +69,7 @@
 * [Heat](https://github.com/ExpediaGroup/heat)：Heat是一个基于REST Assured框架的简单解决方案，由Expedia开源。
 * [Hrun4j](https://github.com/lematechvip/hrun4j)：Hrun4j是由乐马技术推出的开源一站式接口测试解决方案。
 * [Hsac Fitnesse Fixtures](https://github.com/fhoeben/hsac-fitnesse-fixtures)：该项目通过提供定义和运行测试的应用程序来协助测试Web Services和Web应用程序。
+* [Hello HTTP](https://github.com/sunny-chung/hello-http)：Hello HTTP是一个跨平台的便携式HTTP客户端桌面应用程序，用于测试HTTP和REST API、WebSocket、GraphQL和gRPC端点。
 
 #### 端到端测试
 
@@ -221,7 +222,6 @@
 * [Fest](https://github.com/alexruiz/fest-assert-2.x)：FEST-Assert为断言提供了流式的接口。
 * [Expekt](https://github.com/winterbe/expekt)：Expekt是一个基于Kotlin的BDD断言库，灵感源自Chai.js。
 * [AssertJ DB](https://github.com/assertj/assertj-db)：AssertJ DB提供断言来测试数据库中的值。
-* [JFRUnit](https://github.com/moditect/jfrunit)：用于断言JFR事件的JUnit扩展。
 * [ArchUnit](https://github.com/TNG/ArchUnit)：ArchUnit是一个免费、简单且可扩展的库，用于检查Java代码的架构。
 * [Confidence](https://github.com/saynotobugsorg/confidence)：Confidence是一个声明式Java断言框架。
 * [Power Assert](https://github.com/jkschneider/java-power-assert)：Power Assert通过条件评估过程中产生的值的信息来增强断言失败，并以易于理解的形式呈现它们。
@@ -568,6 +568,7 @@
 * [TagUnit](https://tagunit.sourceforge.net/)：TagUnit是一个用于测试JSP页面中的自定义标签的标签库。
 * [JSPUnit](https://sourceforge.net/projects/jspunit/)：JSPUnit是JUnit的扩展，用于对JSP进行单元测试。
 * [JSFUnit](https://jsfunit.jboss.org/)：JSFUnit是JSF应用程序的测试框架，由JBoss社区维护。
+* [JFRUnit](https://github.com/moditect/jfrunit)：JfrUnit允许断言应用程序发出的JFR事件。
 * [Docker Compose JUnit Rule](https://github.com/palantir/docker-compose-rule)：这是一个用于执行与Docker Compose托管容器交互的JUnit测试的库，由Palantir开源。
 * [JGotesting](https://github.com/tastapod/jgotesting)：JGotesting是受Go测试包启发的JUnit兼容测试工具。
 * [RandomizedTesting](https://github.com/randomizedtesting/randomizedtesting)：适用于JUnit、ANT和Maven的随机测试基础设施。
@@ -582,6 +583,7 @@
 * [JUnit Insights](https://github.com/adessoSE/junit-insights)：JUnit Insights是JUnit的扩展，为上下文、类和方法的运行时提供见解。
 * [Specnaz](https://github.com/skinny85/specnaz)：使用Java、Kotlin和Groovy编写漂亮的RSpec/Jasmine/Mocha/Jest风格规范的库。
 * [Oleaster](https://github.com/mscharhag/oleaster)：Oleaster允许你像编写Jasmine测试一样编写JUnit测试。
+* [Tablasco](https://github.com/goldmansachs/tablasco)：Tablasco是一款用于表格数据集的快照测试实用程序，由高盛银行开源。
 
 #### 其他测试库
 
@@ -2527,6 +2529,7 @@
 * [Amazon SWF](https://aws.amazon.com/swf)：Amazon SWF可帮助开发人员构建、运行和扩展具有并行或连续步骤的后台作业。
 * [JEHC BPM](https://gitee.com/jehc/JEHC-BPM)：JEHC BPM是小诗科技公司研发的一套开源工作流平台。
 * [Kogito](https://github.com/apache/incubator-kie-kogito-runtimes)：Kogito是专注于云原生开发、部署和执行的下一代业务自动化平台，由RedHat开源。
+* [OpenBPM](https://openbpm.io/)：OpenBPM是一个面向软件工程师的开源业务流程自动化平台。
 * [Bulbasaur](https://github.com/alibaba/bulbasaur)：Bulbasaur是阿里开源的可插拔精简流程引擎，可快速实现流程、审批、业务失败重试等场景。
 * [Imixs Workflow](https://github.com/imixs/imixs-workflow)：Imixs Workflow是一个开源工作流引擎，用于在灵活而强大的框架上构建以人为中心的工作流应用程序。
 * [Bonita](https://github.com/bonitasoft/bonita-engine)：部署、执行、管理使用Bonita Studio或通过Engine API制作的基于流程的应用程序。
@@ -3104,7 +3107,7 @@
 * [JADXecute](https://github.com/LaurieWired/JADXecute)：JADXecute是JADX的一个插件，通过添加动态代码执行功能来增强其功能。
 * [Decompiler](https://github.com/sotasan/decompiler)：Decompiler是一个GUI应用程序，允许你使用各种反编译器浏览Java包。
 * [Vineflower](https://github.com/Vineflower/vineflower)：Vineflower是一种现代通用JVM语言反编译器，专注于提供最佳的质量、速度和可用性。
-* [Fernflower](https://github.com/fesh0r/fernflower)：Fernflower是第一个实际工作的Java分析反编译器，也可能是一般高级编程语言的分析反编译器，由JetBrains开源。
+* [Fernflower](https://github.com/JetBrains/fernflower)：Fernflower是第一个实际工作的Java分析反编译器，也可能是一般高级编程语言的分析反编译器，由JetBrains开源。
 * [Friday](https://github.com/zifeihan/friday)：Friday是一个Java实时反编译工具。
 * [Class Visualizer](https://github.com/jonatan-kazmierczak/class-visualizer)：Class Visualizer是一个免费交互式类图生成器。
 * [JODE](https://jode.sourceforge.io/)：JODE是一个包含Java反编译器和优化器的Java包。
@@ -5355,35 +5358,59 @@
 
 ## 支付
 
+* [Wallee Java SDK](https://github.com/wallee-payment/java-sdk)：Wallee Java库封装了Wallee API，该库方便你与各种服务(例如交易、帐户和订阅)进行交互。
+* [PayPal](https://github.com/paypal/PayPal-Android-SDK)：PayPal Android SDK可以轻松地将PayPal付款添加到移动应用程序。
+* [Adyen Java API](https://github.com/Adyen/adyen-java-api-library)：官方支持使用Adyen API的Java库。
+* [Razorpay Java SDK](https://github.com/razorpay/razorpay-java)：Razorpay API的官方Java绑定。
+* [Ping++ Java](https://github.com/PingPlusPlus/pingpp-java)：Ping++是为移动端应用以及PC网页量身打造的下一代支付系统。
+
+#### 微信支付
+
 * [WxJava](https://github.com/binarywang/WxJava)：微信开发Java SDK，支持微信支付、开放平台、公众号、企业号/企业微信、小程序等的后端开发。
 * [Jeepay](https://gitee.com/jeequan/jeepay)：Jeepay是一套适合互联网企业使用的开源支付系统，支持多渠道服务商和普通商户模式。
 * [IJPay](https://gitee.com/javen205/IJPay)：IJPay封装了微信支付、QQ支付、支付宝支付、京东支付、银联支付、PayPal支付等常用的支付方式以及各种常用的接口。
-* [Roncoo Pay](https://gitee.com/roncoocom/roncoo-pay)：龙果支付系统是国内首款开源的互联网支付系统，拥有独立的账户体系、用户体系、支付接入体系、支付交易体系、对账清结算体系。
-* [Pay Java](https://gitee.com/egzosn/pay-java-parent)：全能第三方支付对接Java开发工具包。
-* [Pay SDK](https://github.com/Pay-Group/best-pay-sdk)：支付宝、微信支付SDK。
-* [PayPal](https://github.com/paypal/PayPal-Android-SDK)：PayPal Android SDK可以轻松地将PayPal付款添加到移动应用程序。
-* [KillBill](https://github.com/killbill/killbill)：Kill Bill是一个开源的可编程平台，可让你构建自定义计费解决方案。
 * [WxPay SDK](https://github.com/YClimb/wxpay-sdk)：最新最全微信支付集成SDK，一行代码调用微信支付，包含基础支付功能。
-* [Android Pay](https://github.com/mayubao/Android-Pay)：支持微信和支付宝两种主流支付的集成库。
 * [Wechat Pay Java](https://github.com/wechatpay-apiv3/wechatpay-java)：微信支付API v3的官方Java SDK。
-* [Alipay](https://github.com/alipay/alipay-easysdk)：Alipay Easy SDK让你享受极简编程体验，快速访问支付宝开放平台开放的各项核心能力。
-* [YunGouOS Pay SDK](https://gitee.com/YunGouOS/YunGouOS-PAY-SDK)：微信/支付宝官方服务商接口(支持个人、个体户、企业)签约开通，一行代码搞定所有支付。
 * [Payment Spring Boot](https://gitee.com/dromara/payment-spring-boot)：Java微信支付v3 Spring Boot Starter，支持微信优惠券，代金券、商家转账到零钱、公众号支付、微信小程序支付、电商收付通等全部微信支付功能API，由dromara社区开源。
-* [EMV NFC Paycard Enrollment](https://github.com/devnied/EMV-NFC-Paycard-Enrollment)：用于从NFC EMV信用卡读取和提取公共数据的Java库。
+* [WXPay SDK](https://github.com/jkrains/wxpay-sdk-v3)：微信支付v3版本的SDK，目前包含同步API和异步API。
+* [WeChatPay HttpClient](https://github.com/wechatpay-apiv3/wechatpay-apache-httpclient)：微信支付API v3的Apache HttpClient扩展，实现了请求签名的生成和应答签名的验证。
+
+#### 支付宝
+
+* [Pay Java](https://gitee.com/egzosn/pay-java-parent)：全能第三方支付对接Java开发工具包。
+* [Alipay](https://github.com/alipay/alipay-easysdk)：Alipay Easy SDK让你享受极简编程体验，快速访问支付宝开放平台开放的各项核心能力。
+* [Pay SDK](https://github.com/Pay-Group/best-pay-sdk)：支付宝、微信支付SDK。
 * [Alipay Java SDK](https://github.com/alipay/alipay-sdk-java-all)：支付宝开放平台Java SDK。
-* [XPay](https://github.com/Exrick/xpay)：XPay个人免签收款支付系统。
+* [EasyPay](https://github.com/easy-pay/easy-pay)：一行代码解决支付宝和微信的二维码生成，支付回调、退款、H5支付等功能。
+* [Android Pay](https://github.com/mayubao/Android-Pay)：支持微信和支付宝两种主流支付的集成库。
 * [JPay](https://github.com/Javen205/JPay)：对微信App支付、支付宝App支付、银联App支付的二次封装，对外提供一个相对简单的接口以及支付结果的回调。
+* [Pay](https://github.com/boyuanitsm/pay)：支付SDK集合重构，支持支付宝、微信支付、银联支付。
+
+#### 支付平台
+
+* [KillBill](https://github.com/killbill/killbill)：Kill Bill是一个开源的可编程平台，可让你构建自定义计费解决方案。
+* [Roncoo Pay](https://gitee.com/roncoocom/roncoo-pay)：龙果支付系统是国内首款开源的互联网支付系统，拥有独立的账户体系、用户体系、支付接入体系、支付交易体系、对账清结算体系。
+* [YunGouOS Pay SDK](https://gitee.com/YunGouOS/YunGouOS-PAY-SDK)：微信/支付宝官方服务商接口(支持个人、个体户、企业)签约开通，一行代码搞定所有支付。
+* [XPay](https://github.com/Exrick/xpay)：XPay个人免签收款支付系统。
+* [Vmq](https://github.com/szvone/Vmq)：V免签是基于Spring Boot 2.1.1实现的一套免签支付程序。
+
+#### 支付网关
+
 * [J2PAY](https://github.com/tranxactive/J2PAY)：J2Pay是一个用于Java的开源多网关支付处理库。
 * [Braintree Java](https://github.com/braintree/braintree_java)：Braintree Java库提供对Braintree网关的集成访问。
-* [Adyen Java API](https://github.com/Adyen/adyen-java-api-library)：官方支持使用Adyen API的Java库。
-* [WXPay SDK](https://github.com/jkrains/wxpay-sdk-v3)：微信支付v3版本的SDK，目前包含同步API和异步API。
-* [EasyPay](https://github.com/easy-pay/easy-pay)：一行代码解决支付宝和微信的二维码生成，支付回调、退款、H5支付等功能。
-* [Wallee Java SDK](https://github.com/wallee-payment/java-sdk)：Wallee Java库封装了Wallee API，该库方便你与各种服务(例如交易、帐户和订阅)进行交互。
-* [Razorpay Java SDK](https://github.com/razorpay/razorpay-java)：Razorpay API的官方Java绑定。
 * [DaxPay](https://gitee.com/dromara/dax-pay)：DaxPay是一套开源支付网关系统，已经对接支付宝、微信支付、云闪付相关的接口。
-* [Ping++ Java](https://github.com/PingPlusPlus/pingpp-java)：Ping++是为移动端应用以及PC网页量身打造的下一代支付系统。
-* [Pay](https://github.com/boyuanitsm/pay)：支付SDK集合重构，支持支付宝、微信支付、银联支付。
-* [Vmq](https://github.com/szvone/Vmq)：V免签是基于Spring Boot 2.1.1实现的一套免签支付程序。
+
+#### 银行卡/信用卡
+
+* [BankCardUtils](https://github.com/nanchen2251/BankCardUtils)：根据银行卡号获取银行卡类型、银行名称和银行编码，自动格式化银行卡号、手机号、身份证号输入的工具类。
+* [Java IBAN](https://github.com/barend/java-iban)：IBAN是一个用于处理国际银行帐号(IBAN)的小型Java库。
+* [IBAN4j](https://github.com/arturmkrtchyan/iban4j)：IBAN4j是用于生成和验证国际银行帐号(IBAN ISO_13616)和企业标识符代码(BIC ISO_9362)的Java库。
+* [Bank4j](https://github.com/inisos/bank4j)：生成ISO 20022 XML传输并提供IBAN和BIC验证。
+* [JavaEMVReader](https://github.com/sasc999/javaemvreader)：用于读取和与EMV支付卡交互的Java库。
+* [Magnetic Track Parser](https://github.com/sualeh/magnetictrackparser)：Magnetic Track Parser是一个Java库，可以解析银行发行的信用卡的磁道数据，例如从USB磁卡读卡器返回的数据。
+* [Credit Card Number](https://github.com/sualeh/creditcardnumber)：Credit Card Number是一个Java库，可以提供银行发行的信用卡号的详细信息。
+* [EMV NFC Paycard Enrollment](https://github.com/devnied/EMV-NFC-Paycard-Enrollment)：用于从NFC EMV信用卡读取和提取公共数据的Java库。
+* [EMV BER TLV](https://github.com/binaryfoo/emv-bertlv)：用于解密EMV(芯片卡交易)中使用的BER TLV数据的库。
 
 ## 云计算
 
@@ -5859,14 +5886,6 @@
 * [HBCI4Java](https://github.com/hbci4j/hbci4java)：基于Java的FinTS协议实现，支持所有功能(chipTAN、pushTAN、HHD、SEPA、PSD2)。
 * [Hibiscus](https://github.com/willuhn/hibiscus)：适用于Linux、Windows和MacOS的免费家庭银行业务分析。
 
-#### 智能卡
-
-* [Eclipse Keypop](https://github.com/eclipse-keypop)：Keypop提供一套灵活的API来处理通用智能卡读卡器操作，同时还集成了针对特定卡技术(如Calypso标准)量身定制的专用API。
-* [JavaEMVReader](https://github.com/sasc999/javaemvreader)：用于读取和与EMV支付卡交互的Java库。
-* [Apdu4j](https://github.com/martinpaljak/apdu4j)：Apdu4j是一些命令行工具和有用的Java类库，用于通过JSR 268处理智能卡和智能卡读卡器。
-* [JNASmartCardIO](https://github.com/jnasmartcardio/jnasmartcardio)：javax.smartcardio API的重新实现，它允许你从Java内部与智能卡(在APDU级别)进行通信。
-* [JMultiCard](https://github.com/ctt-gob-es/jmulticard)：100% Java智能卡访问抽象层。
-
 #### 电子发票
 
 * [NFE](https://github.com/wmixvideo/nfe)：Java中的电子发票。
@@ -5901,6 +5920,16 @@
 * [EMV Card Simulator](https://github.com/mrautio/emv-card-simulator)：用于支付终端功能和安全测试/模糊测试的EMV卡的JavaCard实现。
 * [OpenJavaCard Libraries](https://github.com/OpenJavaCard/openjavacard-libraries)：这是一组用于JavaCard环境的可重用库。
 * [OpenJavaCard NDEF](https://github.com/OpenJavaCard/openjavacard-ndef)：JavaCard的NDEF标签实现。
+* [OpenEMV](https://github.com/JavaCardOS/OpenEMV)：OpenEMV是EMV标准的Java Card实现。
+* [Gauss Key Card](https://github.com/darconeous/gauss-key-card)：Gauss Key Card是一个Java Card小程序，它实现了Tesla Key Card协议的最小工作子集。
+
+#### 智能卡
+
+* [Eclipse Keypop](https://github.com/eclipse-keypop)：Keypop提供一套灵活的API来处理通用智能卡读卡器操作，同时还集成了针对特定卡技术(如Calypso标准)量身定制的专用API。
+* [Apdu4j](https://github.com/martinpaljak/apdu4j)：Apdu4j是一些命令行工具和有用的Java类库，用于通过JSR 268处理智能卡和智能卡读卡器。
+* [JNASmartCardIO](https://github.com/jnasmartcardio/jnasmartcardio)：javax.smartcardio API的重新实现，它允许你从Java内部与智能卡(在APDU级别)进行通信。
+* [JMultiCard](https://github.com/ctt-gob-es/jmulticard)：100% Java智能卡访问抽象层。
+* [JFreesteel](https://github.com/grakic/jfreesteel)：JFreesteel是一个可重复使用的开源Java库，用于读取塞尔维亚电子身份证的公共数据。
 
 ## 物联网
 
@@ -7855,6 +7884,7 @@
 * [Klonk](https://github.com/zaboople/klonk)：Klonk是一款简单但功能强大的文本编辑器，旨在提供流畅易用性和便捷性，而不是奇特的功能。
 * [JMarkPad](https://github.com/mayuso/JMarkPad)：JMarkPad是一个简约的文本编辑器，可以实时预览你的Markdown文本。
 * [KeenWrite](https://gitlab.com/DaveJarvis/KeenWrite)：KeenWrite是一个免费的、开源的、跨平台的桌面Markdown编辑器，可以生成排版精美的PDF。
+* [JTaccuino](https://github.com/jtaccuino/jtaccuino)：JTaccuino是一款基于JavaFX的笔记本应用程序，面向Java开发人员。
 
 #### 在线编辑器
 
@@ -8444,6 +8474,12 @@
 * [FreeJ2ME](https://github.com/hex007/freej2me)：包含Libretro、AWT和SDL2前端的免费J2ME模拟器。
 * [PluotSorbet](https://github.com/mozilla/pluotsorbet)：PluotSorbet是一个用JavaScript编写的兼容J2ME的虚拟机，由Mozilla开源。
 * [KEmulator](https://github.com/shinovon/KEmulator)：跨平台J2ME模拟器，基于反编译的KEmulator 1.0.3。
+* [J2ME Polish](https://github.com/Enough-Software/j2mepolish)：J2ME Polish是一个框架，开发人员可以从单一源基础在J2ME、Blackberry和Android设备上创建应用程序。
+* [Cibyl](https://github.com/SimonKagstrom/cibyl)：Cibyl是一个在J2ME手机上编译和运行用C、 Objective-C、C++以及可能的Fortran编写的程序的环境。
+* [FreeJ2ME Plus](https://github.com/TASEmulators/freej2me-plus)：FreeJ2ME Plus是一个带有libretro和AWT前端的J2ME模拟器，它旨在运行在任何可以运行Java VM的东西上。
+* [JL Mod](https://github.com/woesss/JL-Mod)：J2ME Loader的非官方分支。
+* [JS2ME](https://github.com/szatkus/js2me)：JS2ME是Firefox OS中Java ME的JavaScript实现。
+* [OpenTTY](https://github.com/mrlima4095/OpenTTY-J2ME)：OpenTTY是一种先进的终端仿真器，设计用于在J2ME设备上运行，提供针对复古和低资源环境量身定制的类似Unix的Shell体验。
 
 ## 编译器
 
@@ -8589,6 +8625,7 @@
 * [Panako](https://github.com/JorenSix/Panako)：Panako是一种声学指纹识别系统，该系统能够从音频流中提取指纹，并将这些指纹存储在数据库中，或者在提取的指纹和存储的指纹之间找到匹配。
 * [Java LAME](https://github.com/nwaldispuehl/java-lame)：LAME库的本机Java端口。
 * [Xt Audio](https://github.com/sjoerdvankreel/xt-audio)：适用于C、C++、Java和.NET的平台独立低延迟音频。
+* [Volctl](https://github.com/BjoernPetersen/volctl)：一个简单的Java库，提供对Windows和Linux上的音频音量控制的访问。
 
 #### 视频库
 
@@ -8858,6 +8895,7 @@
 * [Aho Corasick](https://github.com/robert-bor/aho-corasick)：用于高效字符串匹配的Aho-Corasick算法的Java实现。
 * [StringSearch](https://github.com/johannburkard/StringSearch)：Java中的高性能模式匹配算法。
 * [Word Checker](https://github.com/houbb/word-checker)：Word Checker用于单词拼写检查。
+* [JavaPermutationTools](https://github.com/cicirello/JavaPermutationTools)：JavaPermutationTools库提供Java类、接口等，用于表示和生成排列和序列，以及对排列和序列执行计算。
 
 #### 文本排序
 
@@ -9610,13 +9648,6 @@
 * [OmegaT](https://github.com/omegat-org/omegat)：OmegaT是一款免费开源多平台计算机辅助翻译工具，具有模糊匹配、翻译记忆库、关键字搜索、术语表以及翻译到更新项目中的功能。
 * [Singleton](https://github.com/vmware/singleton)：Singleton是一个用于简化软件全球化的开源应用程序，由VMWare开源。
 
-## 银行账号操作
-
-* [BankCardUtils](https://github.com/nanchen2251/BankCardUtils)：根据银行卡号获取银行卡类型、银行名称和银行编码，自动格式化银行卡号、手机号、身份证号输入的工具类。
-* [Java IBAN](https://github.com/barend/java-iban)：IBAN是一个用于处理国际银行帐号(IBAN)的小型Java库。
-* [IBAN4j](https://github.com/arturmkrtchyan/iban4j)：IBAN4j是用于生成和验证国际银行帐号(IBAN ISO_13616)和企业标识符代码(BIC ISO_9362)的Java库。
-* [Bank4j](https://github.com/inisos/bank4j)：生成ISO 20022 XML传输并提供IBAN和BIC验证。
-
 ## 翻译库
 
 * [MTrans](https://github.com/hujingshuang/MTrans)：MTrans提供了集多种主流的在线翻译及TTS功能于一身的轻量级服务。
@@ -10089,7 +10120,7 @@
 * [DoppioJVM](https://github.com/plasma-umass/doppio)：Doppio是一个兼容POSIX的运行时系统以及一个用TypeScript编写的JVM，也是马萨诸塞大学PLASMA小组的一个活跃的研究项目。
 * [Asmble](https://github.com/cretz/asmble)：Asmble是一个将WebAssembly代码编译为JVM字节码的编译器，它还包含一个解释器和实用程序，用于从命令行和JVM语言处理WASM代码。
 * [Wasmtime Java](https://github.com/kawamuray/wasmtime-java)：Wasmtime的Java语言绑定。
-* [CheerpJ](https://github.com/leaningtech/cheerpj-meta)：CheerpJ是一个基于WebAssembly的浏览器JVM，它与Java 8兼容，并提供完整的运行时环境，无需插件即可在浏览器中运行Java应用程序、Applet、库和Java Web Start/JNLP应用程序。
+* [CheerpJ](https://github.com/leaningtech/cheerpj-meta)：CheerpJ是一个基于WebAssembly的浏览器JVM。
 * [Chicory](https://github.com/dylibso/chicory)：Chicory是JVM原生WebAssembly运行时，它允许你以零本机依赖或JNI运行WebAssembly程序。
 * [Wasmer](https://github.com/wasmerio/wasmer-java)：基于Wasmer的完整且成熟的Java WebAssembly运行时。
 
@@ -10409,6 +10440,7 @@
 * [PHP Inspections](https://github.com/kalessil/phpinspectionsea)：PHP静态代码分析器。
 * [Restful Fast Request](https://github.com/dromara/fast-request)：Restful Fast Request是Postman的Intellij IDEA版本，它是一个强大的RESTful API工具包插件，由dromara社区开源。
 * [Devoxx Genie](https://github.com/devoxx/DevoxxGenieIDEAPlugin)：DevoxxGenie是IntelliJ IDEA的一个插件，它使用本地LLM(Ollama、LMStudio、GPT4All、Jan和Llama.cpp)和基于云的LLM来帮助审查、测试和解释你的项目代码。
+* [RunVSAgent](https://github.com/wecode-ai/RunVSAgent)：RunVSAgent是一款创新的跨平台开发工具，使开发人员能够在JetBrains IDE或其他IDE平台中运行基于VSCode的编码代理和扩展，由微博开源。
 
 ## 其他
 

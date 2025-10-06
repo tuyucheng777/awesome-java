@@ -515,6 +515,11 @@
   * [业务](docs/doc2.md#业务)
   * [电商](docs/doc2.md#电商)
 * [支付](docs/doc2.md#支付)
+  * [微信支付](docs/doc2.md#微信支付)
+  * [支付宝](docs/doc2.md#支付宝)
+  * [支付平台](docs/doc2.md#支付平台)
+  * [支付网关](docs/doc2.md#支付网关)
+  * [银行卡/信用卡](docs/doc2.md#银行卡信用卡)
 * [云计算](docs/doc2.md#云计算)
   * [SaaS平台](docs/doc2.md#SaaS平台)
   * [PaaS平台](docs/doc2.md#PaaS平台)
@@ -563,9 +568,9 @@
   * [金融信息交换](docs/doc2.md#金融信息交换)
   * [货币](docs/doc2.md#货币)
   * [FinTS](docs/doc2.md#FinTS)
-  * [智能卡](docs/doc2.md#智能卡)
   * [电子发票](docs/doc2.md#电子发票)
 * [JavaCard](docs/doc2.md#JavaCard)
+* [智能卡](docs/doc2.md#智能卡)
 * [物联网](docs/doc2.md#物联网)
   * [物联网框架](docs/doc2.md#物联网框架)
   * [物联网平台](docs/doc2.md#物联网平台)
@@ -811,7 +816,6 @@
 * [语言库](docs/doc2.md#语言库)
 * [敏感词过滤](docs/doc2.md#敏感词过滤)
 * [国际化](docs/doc2.md#国际化)
-* [银行账号操作](docs/doc2.md#银行账号操作)
 * [翻译库](docs/doc2.md#翻译库)
 * [字幕库](docs/doc2.md#字幕库)
 * [字典库](docs/doc2.md#字典库)
@@ -1623,6 +1627,7 @@
 * [Baragon](https://github.com/HubSpot/Baragon)：Baragon是一个用于自动更新负载均衡器配置的系统，由HubSpot开源。
 * [Sarge](https://github.com/jhalterman/sarge)：Sarge创建受监督的对象，这些对象通过执行重试、状态重置和故障升级来自动处理发生故障时的情况，从而轻松实现简单而强大的容错能力。
 * [Galeb](https://github.com/galeb/galeb)：Galeb是一个开源HTTP负载均衡服务。
+* [Millau](https://github.com/codelev/millau)：Millau是一款免费的入口代理和负载均衡器，专为基于Docker Swarm构建的微服务架构而设计。
 * [ModCluster](https://github.com/modcluster/mod_cluster)：ModCluster是一个基于Apache httpd和纯Java Undertow的智能原生负载均衡器。
 * [Elastic Load Balancing](https://github.com/aws/elastic-load-balancing-tools)：ELB自动在Amazon EC2实例、容器或由IP地址标识的资源之间分配传入应用程序流量。
 * [ExpressGateway](https://github.com/shieldblaze/ExpressGateway)：ShieldBlaze ExpressGateway是一种高性能、可扩展且高可用的负载均衡器。
@@ -2722,7 +2727,6 @@
 * [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
 * [Avaje HttpClient](https://github.com/avaje/avaje-http)：JDK 11 HttpClient的轻量级包装器。
 * [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：Jcabi HTTP是流式的Java HTTP客户端。
-* [WeChatPay HttpClient](https://github.com/wechatpay-apiv3/wechatpay-apache-httpclient)：微信支付API v3的Apache HttpClient扩展，实现了请求签名的生成和应答签名的验证。
 * [HBC](https://github.com/twitter/hbc)：HBC是用于使用Twitter标准Streaming API的Java HTTP客户端，由Twitter开源。
 * [FusionAuth HTTPClient](https://github.com/FusionAuth/java-http)：完全用纯Java编写的全功能、独立、高性能HTTP服务器和客户端。
 * [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
@@ -3000,6 +3004,7 @@
 * [Mallet](https://github.com/sensepost/mallet)：Mallet是一种用于创建任意协议代理的工具，类似于我们熟悉的拦截Web代理，只是更加通用。
 * [WK Proxy](https://github.com/catas-w/WK-Proxy)：WK Proxy是一款用于HTTP代理和数据包捕获的开源桌面工具，可在Windows和macOS平台上使用。
 * [ProxyChecker](https://github.com/faiqsohail/ProxyChecker)：一款易于使用的开源多线程代理检查器。
+* [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi)：HTTP隧道工具。
 
 #### 内网穿透
 
@@ -3010,6 +3015,7 @@
 * [Venomous Sting](https://gitee.com/haojiangbo/venomous_sting)：基于Netty实现的高性能内网穿透，支持所有TCP上层协议的转发。
 * [MagpieBridge](https://gitee.com/jiucheng_org/magpiebridge)：使用Java基于AIO/NIO实现的内网穿透工具。
 * [Joggle](https://github.com/joggle-cn/joggle)：Joggle是基于Ngrok二开的开源内网穿透项目，多节点、私有部署、云服务。
+* [Ngrok Spring Boot Starter](https://github.com/kilmajster/ngrok-spring-boot-starter)：Spring Boot集成Ngrok变得简单。
 
 #### IO_Uring
 
@@ -3368,6 +3374,7 @@
 * [Apache Chainsaw](https://github.com/apache/logging-chainsaw)：Apache Chainsaw是一个GUI日志文件查看器。
 * [Miaocha](https://github.com/Hinadt-Inc/miaocha)：Miaocha是一款专为企业设计的开源日志分析平台。
 * [LogParser](https://github.com/nielsbasjes/logparser)：Apache HTTPD和Nginx访问日志解析器。
+* [Giant Log Viewer](https://github.com/sunny-chung/giant-log-viewer)：一款跨平台桌面便携应用程序，可在“less”不可用时立即查看任意大小的文本文件。
 
 #### Logback Appender
 
