@@ -204,7 +204,6 @@
   * [模糊测试](docs/doc2.md#模糊测试)
   * [性能测试](docs/doc2.md#性能测试)
   * [属性测试](docs/doc2.md#属性测试)
-  * [A/B测试](docs/doc2.md#AB测试)
   * [验收测试](docs/doc2.md#验收测试)
   * [回归测试](docs/doc2.md#回归测试)
   * [流量回放](docs/doc2.md#流量回放)
@@ -3684,13 +3683,20 @@
 ## 功能切换
 
 * [Togglz](https://github.com/togglz/togglz)：Togglz是Java功能切换模式的实现。
+* [Wasabi](https://github.com/intuit/wasabi)：Wasabi A/B测试服务是一个实时、企业级、100% API驱动的项目，由Intuit开发。
 * [FeatureProbe](https://github.com/FeatureProbe/FeatureProbe)：FeatureProbe是一项开源功能管理服务，由滴滴开发。
 * [FF4j](https://github.com/ff4j/ff4j)：FF4j是功能切换模式的实现。
+* [Proctor](https://github.com/indeedeng/proctor)：Proctor是一个用Java编写的A/B测试框架，由Indeed开发并大量使用。
 * [Flagship4j](https://github.com/line/Flagship4j)：Flagship4j是一个Java库，提供多个API客户端SDK以与切换系统集成，并遵循Open-Feature规范，由Line开源。
 * [Flips](https://github.com/Feature-Flip/flips)：Flips是Java的功能切换模式的一种实现。
 * [Piranha](https://github.com/uber/piranha)：Piranha是一个轻量级代码转换工具集，用于自动化大规模更改，由Uber开源。
 * [FeatureHub](https://github.com/featurehub-io/featurehub)：FeatureHub是一个云原生平台，可帮助软件团队管理其功能，从功能标记到A/B实验以及远程或集中配置。
 * [Unleash Java](https://github.com/Unleash/unleash-client-java)：适用于Java的Unleash客户端SDK。
+* [Sixpack Java](https://github.com/sixpack/sixpack-java)：Sixpack A/B测试框架的Java客户端。
+* [PlanOut4J](https://github.com/Glassdoor/planout4j)：Facebook PlanOut A/B测试系统的Java端口，具有附加功能。
+* [Izanami](https://github.com/MAIF/izanami)：Izanami是一款共享配置、功能翻转和A/B测试服务器，非常适合微服务架构实现。
+* [Apache Unomi](https://github.com/apache/unomi)：Unomi存储用户个人资料信息，主要用于为A/B测试和个性化提供后端服务器，由Jahia开源。
+* [Vamp](https://github.com/CircleCI-Archived/vamp)：Vamp是一款非常出色的微服务平台，核心功能包括平台无关的微服务DSL、轻松的A-B测试/金丝雀发布，以及一个深度可扩展的指标引擎。
 * [LaunchDarkly Java](https://github.com/launchdarkly/java-server-sdk)：LaunchDarkly是一个功能管理平台，每天提供数万亿个功能标记，帮助团队更快地构建更好的软件。
 * [OpenFeature](https://github.com/open-feature/java-sdk)：OpenFeature是一个开放规范，为功能标记提供与供应商无关、社区驱动的API，可与你最喜欢的功能标记管理工具配合使用。
 * [Moirai](https://github.com/Nike-Inc/moirai)：Moirai是JVM的功能标记和资源重新加载库，由Nike开源。

@@ -148,16 +148,6 @@
 * [ScalaProps](https://github.com/scalaprops/scalaprops)：Scala基于属性的测试库。
 * [Hypothesis Java](https://github.com/HypothesisWorks/hypothesis-java)：Hypothesis是一个专为主流语言设计的基于属性的现代测试系统。
 
-#### A/B测试
-
-* [Wasabi](https://github.com/intuit/wasabi)：Wasabi A/B测试服务是一个实时、企业级、100% API驱动的项目，由Intuit开发。
-* [Proctor](https://github.com/indeedeng/proctor)：Proctor是一个用Java编写的A/B测试框架，由Indeed开发并大量使用。
-* [Sixpack Java](https://github.com/sixpack/sixpack-java)：Sixpack A/B测试框架的Java客户端。
-* [PlanOut4J](https://github.com/Glassdoor/planout4j)：Facebook PlanOut A/B测试系统的Java端口，具有附加功能。
-* [Izanami](https://github.com/MAIF/izanami)：Izanami是一款共享配置、功能翻转和A/B测试服务器，非常适合微服务架构实现。
-* [Apache Unomi](https://github.com/apache/unomi)：Unomi存储用户个人资料信息，主要用于为A/B测试和个性化提供后端服务器，由Jahia开源。
-* [Vamp](https://github.com/CircleCI-Archived/vamp)：Vamp是一款非常出色的微服务平台，核心功能包括平台无关的微服务DSL、轻松的A-B测试/金丝雀发布，以及一个深度可扩展的指标引擎。
-
 #### 验收测试
 
 * [FitNesse](https://github.com/unclebob/fitnesse)：FitNesse是一个完全集成的独立验收测试框架和wiki，由Uncle Bob开发。
