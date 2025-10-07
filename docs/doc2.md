@@ -675,6 +675,7 @@
 * [Dgraph4j](https://github.com/dgraph-io/dgraph4j)：Java 1.8及更高版本的Dgraph客户端的最小实现。
 * [Nebula Java](https://github.com/vesoft-inc/nebula-java)：Nebula Graph的Java客户端和数据导入器。
 * [Meilisearch Java](https://github.com/meilisearch/meilisearch-java)：Meilisearch是一个开源搜索引擎。
+* [ArangoDB Java Driver](https://github.com/arangodb/arangodb-java-driver)：官方ArangoDB Java驱动程序。
 
 #### ORM框架
 
@@ -4237,6 +4238,7 @@
 * [Hackday Conventions Java](https://github.com/naver/hackday-conventions-java)：Naver使用的Java开发风格指南。
 * [JavaRanch Style Guide](https://coderanch.com/wiki/718799/Style)：Oracle编码风格的替代方案。
 * [GVSU Java Coding Style](https://www.gvsu.edu/computing/java-coding-style-guide-37.htm)：大峡谷州立大学的Java编码规范。
+* [Databricks Scala Guide](https://github.com/databricks/scala-style-guide)：Databricks Scala编码风格指南。
 * [CMU Java Code Style](https://www.cs.cmu.edu/~rdriley/121/resources/styleguide/)：CMU 15-121源代码编码标准的完整定义。
 * [Chromium Java Style Guide](https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/java/java.md)：Chromium Java编码风格指南。
 * [CIS Java Style Guide]()：CIS 120 Java风格指南。
@@ -5826,6 +5828,7 @@
 * [Open Banking Gateway](https://github.com/adorsys/open-banking-gateway)：提供RESTful API、工具、适配器和连接器，用于透明访问开放银行API(适用于支持PSD2和XS2A以及HBCI/FinTS的银行)。
 * [Open Banking](https://github.com/wso2/financial-open-banking)：WSO2开放银行加速器是一系列技术的集合，可提高开放银行合规性的速度并降低其复杂性。
 * [JBanking](https://github.com/marcwrobel/jbanking)：JBanking是一个帮助开发银行功能的实用程序库，专注但不限于欧洲银行业。
+* [BankingPortal API](https://github.com/abhi9720/BankingPortal-API)：使用Spring Boot和Spring Security的银行门户REST API。
 
 #### 量化交易
 
@@ -5958,6 +5961,7 @@
 * [Eclipse AAS4J](https://github.com/eclipse-aas4j/aas4j)：AAS4J实现了Asset Administration Shell(AAS)的规范，例如基于AAS规范的元模型、子模型、序列化和反序列化模块、验证器和转换库。
 * [GRASSMARLIN](https://github.com/nsacyber/GRASSMARLIN)：GRASSMARLIN提供工业控制系统以及监控和数据采集(SCADA)网络的IP网络态势感知，以支持网络安全，由美国国家安全局网络安全局开源。
 * [Apache Edgent](https://github.com/apache/incubator-retired-edgent)：Edgent是一种适用于边缘设备的开源编程模型和运行时，使你能够分析设备上的数据和事件。
+* [Eclipse sensiNact](https://eclipse-sensinact.readthedocs.io/en/latest/index.html)：Eclipse sensiNact是一个专注于物联网的横向平台，尤其适用于各种智慧城市和智能家居应用。
 
 #### 物联网平台
 
@@ -7968,6 +7972,7 @@
 
 * [iBioSim](https://github.com/MyersResearchGroup/iBioSim)：iBioSim是一款计算机辅助设计(CAD)工具，旨在对基因回路进行建模、分析和设计，由科罗拉多大学博尔德分校开发。
 * [CaDoodle](https://github.com/CommonWealthRobotics/CaDoodle)：CaDoodle是一款适用于Linux、Windows、Mac和ChromeOS的本地拖放式CAD应用程序。
+* [ORIPA](https://github.com/oripa/oripa)：ORIPA是一款专门用于设计折纸折痕图案的绘图软件。
 * [Archimedes](https://github.com/ArchimedesCAD/Archimedes)：Archimedes是一款免费开源CAD软件。
 
 #### 办公软件
