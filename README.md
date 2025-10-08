@@ -204,9 +204,11 @@
   * [突变测试](docs/doc2.md#突变测试)
   * [模糊测试](docs/doc2.md#模糊测试)
   * [性能测试](docs/doc2.md#性能测试)
+  * [基准测试](docs/doc2.md#基准测试)
   * [属性测试](docs/doc2.md#属性测试)
   * [验收测试](docs/doc2.md#验收测试)
   * [回归测试](docs/doc2.md#回归测试)
+  * [A/B测试](docs/doc2.md#AB测试)
   * [流量回放](docs/doc2.md#流量回放)
   * [契约测试](docs/doc2.md#契约测试)
   * [渗透测试](docs/doc2.md#渗透测试)
@@ -229,9 +231,12 @@
   * [POJO测试](docs/doc2.md#POJO测试)
   * [日志测试](docs/doc2.md#日志测试)
   * [JUnit扩展](docs/doc2.md#JUnit扩展)
+  * [测试运行器](docs/doc2.md#测试运行器)
+  * [大数据测试](docs/doc2.md#大数据测试)
   * [其他测试库](docs/doc2.md#其他测试库)
   * [Spring测试](docs/doc2.md#Spring测试)
   * [测试套件](docs/doc2.md#测试套件)
+  * [测试模板](docs/doc2.md#测试模板)
   * [测试异味](docs/doc2.md#测试异味)
   * [代码覆盖率](docs/doc2#代码覆盖率)
 * [数据库开发](docs/doc2.md#数据库开发)
@@ -347,6 +352,7 @@
   * [基因组](docs/doc2.md#基因组)
   * [NGS](docs/doc2.md#NGS)
 * [化学库](docs/doc2.md#化学库)
+* [心理测量学](docs/doc2.md#心理测量学)
 * [网络爬虫](docs/doc2.md#网络爬虫)
   * [爬虫库](docs/doc2.md#爬虫库)
   * [HTML提取](docs/doc2.md#HTML提取)
@@ -1265,6 +1271,7 @@
 * [Savant](https://github.com/savant-build/savant-core)：Savant是一个用Java编写的构建工具，它使用Groovy DSL来构建文件，由Inversoft公司开源。
 * [Saker.build](https://github.com/sakerbuild/saker.build)：Saker.build是一个与语言无关的构建系统，专注于可扩展性和可扩展的增量构建。
 * [Kobalt](https://github.com/cbeust/kobalt)：Kobalt是一个受Gradle和Maven启发的构建系统。
+* [Batect](https://github.com/batect/batect)：Batect允许你根据一个或多个Docker容器定义你的开发任务，在任何地方快速、一致地运行这些任务，并轻松地与你的团队共享。
 
 ## 包管理器
 
@@ -1658,6 +1665,7 @@
 * [Toxiproxy Java](https://github.com/trekawek/toxiproxy-java)：这是Toxiproxy的客户端库，Toxiproxy是一款模拟网络和系统状况的代理。
 * [Cthulhu](https://github.com/xmatters/cthulhu-chaos-testing)：Cthulhu是一款混沌工程工具，用于评估微服务系统的弹性。
 * [Chaos Engine](https://github.com/ThalesGroup/chaos-engine)：Chaos Engine是一款用于在云应用程序中创建随机混沌事件以测试弹性的应用程序，由Thales开源。
+* [NetCrusher](https://github.com/NetCrusherOrg/netcrusher-java)：NetCrusher是Java的TCP/UDP代理框架和命令行工具，可以放置在任何客户端和服务器之间，并允许检查双方的故障转移。
 
 #### 优雅停机
 
@@ -1698,16 +1706,12 @@
 
 #### 大数据工具
 
-* [Apache Crunch](https://crunch.apache.org/)：Crunch库提供了一个用于编写、测试和运行MapReduce管道的框架，由Google开源。
-* [Apache MRUnit](https://mrunit.apache.org/)：MRUnit是一个Java库，可帮助开发人员对Hadoop MapReduce作业进行单元测试，由Cloudera开源。
 * [Apache Bigtop](https://github.com/apache/bigtop)：Bigtop旨在为基础设施工程师和数据科学家寻找领先的开源大数据组件的全面打包、测试和配置。
 * [Yanagishima](https://github.com/yanagishima/yanagishima)：Yanagishima是Trino、Hive和Spark的开源Web应用程序。
 * [Elephant Bird](https://github.com/twitter/elephant-bird)：Elephant Bird是Twitter的开源库，包含LZO、Thrift和/或Protocol Buffer相关的Hadoop InputFormats、OutputFormats、Writables、Pig LoadFuncs、Hive SerDe、HBase杂项等。
-* [Flink Spector](https://github.com/ottogroup/flink-spector)：该项目提供了一个框架来定义Flink数据流的单元测试。
 * [Spark RAPIDS](https://github.com/NVIDIA/spark-rapids)：Spark的RAPIDS加速器利用GPU通过RAPIDS库加速处理，由NVIDIA开源。
 * [BigQuery Utils](https://github.com/GoogleCloudPlatform/bigquery-utils)：BigQuery是一个Serverless、高度可扩展且经济高效的云数据仓库，内置内存BI引擎和机器学习，该库提供有用的实用程序来帮助你迁移和使用BigQuery，由Google开发。
 * [DataGenerator](https://github.com/FINRAOS/DataGenerator)：DataGenerator是一个用于系统地生成大量数据的Java库，美国金融业监管局开源。
-* [Deequ](https://github.com/awslabs/deequ)：Deequ是一个构建在Spark之上的库，用于定义“数据单元测试”，测量大型数据集中的数据质量，由AWS开源。
 * [CloudEon](https://github.com/dromara/CloudEon)：CloudEon使用Kubernetes安装和部署开源大数据组件，实现开源大数据平台的容器化运行，dromara社区开源。
 * [Lipstick](https://github.com/Netflix/Lipstick)：Lipstick将Pig工作流程的图形描述与作业执行时的相关信息结合起来，由Netflix开源。
 * [Apache Livy](https://github.com/apache/incubator-livy)：Livy是一个开源REST接口，用于从任何地方与Spark交互，由Cloudera开源。
@@ -2210,6 +2214,7 @@
 * [Waltz](https://github.com/wepay/waltz)：Waltz是一种基于仲裁的分布式预写日志，用于复制事务，由WePay开源。
 * [Jepsen](https://github.com/jepsen-io/jepsen)：Jepsen致力于提高分布式数据库、队列、共识系统等的安全性。
 * [Rapid](https://github.com/lalithsuresh/rapid)：Rapid是一种分布式成员服务，它允许一组进程轻松形成集群，并在成员资格发生变化时接收通知。
+* [Low Level Design](https://github.com/InterviewReady/Low-Level-Design)：常见数据结构的低级设计。
 * [Ordasity](https://github.com/boundary/ordasity)：Ordasity是Boundary用于在JVM上构建有状态集群服务的库。
 * [Dhalion](https://github.com/microsoft/Dhalion)：Dhalion是一个用于自动扩展和调整分布式系统的框架，由Microsoft开源。
 * [DSLabs](https://github.com/emichael/dslabs)：DSLabs是一个用于创建、测试、模型检查、可视化和调试分布式系统实验室作业的新框架，由华盛顿大学开发。
@@ -2218,6 +2223,7 @@
 * [Drasyl](https://github.com/drasyl/drasyl)：Drasyl是一个用于快速开发分布式应用程序的高性能框架，由汉堡大学开源。
 * [Oracle Bedrock](https://github.com/coherence-community/oracle-bedrock)：Oracle Bedrock提供了一个通用Java框架，用于开发、编排和测试高度并发的分布式应用程序。
 * [Apache Fluo](https://github.com/apache/fluo)：Fluo是一个分布式处理系统，允许用户对大型数据集进行增量更新，由美国国家安全局开源。
+* [Fallout](https://github.com/datastax/fallout)：Fallout是一种用于运行本地或大规模远程分布式正确性、验证和性能测试的工具，由DataStax开源。
 
 #### 分布式锁
 
@@ -3685,20 +3691,14 @@
 ## 功能切换
 
 * [Togglz](https://github.com/togglz/togglz)：Togglz是Java功能切换模式的实现。
-* [Wasabi](https://github.com/intuit/wasabi)：Wasabi A/B测试服务是一个实时、企业级、100% API驱动的项目，由Intuit开发。
 * [FeatureProbe](https://github.com/FeatureProbe/FeatureProbe)：FeatureProbe是一项开源功能管理服务，由滴滴开发。
 * [FF4j](https://github.com/ff4j/ff4j)：FF4j是功能切换模式的实现。
-* [Proctor](https://github.com/indeedeng/proctor)：Proctor是一个用Java编写的A/B测试框架，由Indeed开发并大量使用。
 * [Flagship4j](https://github.com/line/Flagship4j)：Flagship4j是一个Java库，提供多个API客户端SDK以与切换系统集成，并遵循Open-Feature规范，由Line开源。
 * [Flips](https://github.com/Feature-Flip/flips)：Flips是Java的功能切换模式的一种实现。
 * [Piranha](https://github.com/uber/piranha)：Piranha是一个轻量级代码转换工具集，用于自动化大规模更改，由Uber开源。
 * [FeatureHub](https://github.com/featurehub-io/featurehub)：FeatureHub是一个云原生平台，可帮助软件团队管理其功能，从功能标记到A/B实验以及远程或集中配置。
 * [Unleash Java](https://github.com/Unleash/unleash-client-java)：适用于Java的Unleash客户端SDK。
-* [Sixpack Java](https://github.com/sixpack/sixpack-java)：Sixpack A/B测试框架的Java客户端。
-* [PlanOut4J](https://github.com/Glassdoor/planout4j)：Facebook PlanOut A/B测试系统的Java端口，具有附加功能。
 * [Izanami](https://github.com/MAIF/izanami)：Izanami是一款共享配置、功能翻转和A/B测试服务器，非常适合微服务架构实现。
-* [Apache Unomi](https://github.com/apache/unomi)：Unomi存储用户个人资料信息，主要用于为A/B测试和个性化提供后端服务器，由Jahia开源。
-* [Vamp](https://github.com/CircleCI-Archived/vamp)：Vamp是一款非常出色的微服务平台，核心功能包括平台无关的微服务DSL、轻松的A-B测试/金丝雀发布，以及一个深度可扩展的指标引擎。
 * [LaunchDarkly Java](https://github.com/launchdarkly/java-server-sdk)：LaunchDarkly是一个功能管理平台，每天提供数万亿个功能标记，帮助团队更快地构建更好的软件。
 * [OpenFeature](https://github.com/open-feature/java-sdk)：OpenFeature是一个开放规范，为功能标记提供与供应商无关、社区驱动的API，可与你最喜欢的功能标记管理工具配合使用。
 * [Moirai](https://github.com/Nike-Inc/moirai)：Moirai是JVM的功能标记和资源重新加载库，由Nike开源。
@@ -4167,10 +4167,11 @@
 * [OpenCV](https://github.com/openpnp/opencv)：OpenCV是一个跨平台的计算机视觉库，这是OpenCV的Java绑定。
 * [JavaCV](https://github.com/bytedeco/javacv)：JavaCV包含OpenCV、FFmpeg等的Java接口。
 * [BoofCV](https://github.com/lessthanoptimal/BoofCV)：BoofCV是一个开源实时计算机视觉库，功能包括低级图像处理、相机校准、特征检测/跟踪、运动结构、分类和识别。
+* [Yolo ONNX Java](https://gitee.com/agricultureiot/yolo-onnx-java)：Java开发视觉智能识别项目，纯Java调用Yolo ONNX模型。
 * [BGSLibrary](https://github.com/andrewssobral/bgslibrary)：BGSLibrary是一个全面的C++框架，专为计算机视觉应用中的背景减法而设计，尤其适用于检测视频流中的运动物体。
 * [GRIP](https://github.com/WPIRoboticsProjects/GRIP)：GRIP是一款用于快速原型设计和部署计算机视觉算法的应用程序，主要用于机器人应用，由伍斯特理工学院开源。
 * [Origami](https://github.com/hellonico/origami)：Origami是JVM上的图像处理、计算机视觉和神经网络库。
-* [Yolo ONNX Java](https://gitee.com/agricultureiot/yolo-onnx-java)：Java开发视觉智能识别项目，纯Java调用Yolo ONNX模型。
+* [PaperVision](https://github.com/deltacv/PaperVision)：PaperVision旨在让计算机视觉更容易被使用。
 * [OpenCV Processing](https://github.com/atduskgreg/opencv-processing)：OpenCV Processing基于OpenCV的官方Java绑定，为常见的OpenCV函数提供方便的包装器。
 * [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
 * [JavaVision](https://gitee.com/javpower/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
