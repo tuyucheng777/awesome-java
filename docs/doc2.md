@@ -61,7 +61,6 @@
 * [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。
 * [PelicanDT](https://github.com/alibaba/PelicanDT)：PelicanDT是阿里云提供的一款Linux系统远程控制利器，是主要针对分布式应用提供的集成测试解决方案，用于帮助开发者简单、高效地测试分布式应用。
 * [Lowkey Vault](https://github.com/nagyesta/lowkey-vault)：Lowkey Vault是一个测试替身，旨在与Azure Key Vault REST API兼容。
-* [Hadoop Mini Clusters](https://github.com/sakserv/hadoop-mini-clusters)：Hadoop Mini Clusters提供了一种在IDE中直接测试Hadoop项目的简便方法。
 * [Docker IT Scala](https://github.com/whisklabs/docker-it-scala)：一组实用程序类，可轻松进行与Scala中的Docker化服务的集成测试。
 
 #### 接口测试
@@ -280,7 +279,7 @@
 * [EasyMock](https://github.com/easymock/easymock)：EasyMock是一个Java库，它提供了一种在单元测试中使用Mock对象的简单方法。
 * [Mockk](https://github.com/mockk/mockk)：用于Kotlin的Mock框架。
 * [JMock](https://github.com/jmock-developers/jmock-library)：JMock是一个支持使用Mock对象进行Java代码测试驱动开发的库。
-* [ScalaMock](https://github.com/paulbutcher/ScalaMock)：原生Scala Mock框架。
+* [ScalaMock](https://github.com/scalamock/scalamock)：ScalaMock是原生的Scala Mock框架。
 * [JMockit](https://github.com/jmockit/jmockit1)：JMockit是用于集成测试、Mock、伪造和代码覆盖率的高级Java库。
 * [Jukito](https://github.com/ArcBees/Jukito)：JUnit、Guice和Mockito的强强联手。
 * [Mokkery](https://github.com/lupuuss/Mokkery)：Kotlin Multiplatform的Mock库，易于使用、无样板且由编译器插件驱动。
@@ -295,6 +294,7 @@
 * [WireMock](https://github.com/wiremock/wiremock)：WireMock是一种流行的API Mock测试开源工具。
 * [Microcks](https://github.com/microcks/microcks)：Microcks是用于API Mock和测试的开源云原生工具。
 * [MockServer](https://github.com/mock-server/mockserver)：MockServer可以轻松模拟通过HTTP或HTTPS与用Java、JavaScript和Ruby编写的客户端集成的任何系统。
+* [MockServer NeoLight](https://github.com/xdev-software/mockserver-neolight)：对废弃的MockServer项目进行轻量级重写，重点关注简单性、可维护性和测试容器。
 * [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver)：用于测试HTTP客户端的可编写脚本的Web服务器，由Square开源。
 * [AnyMock](https://github.com/duxiaoman/AnyMock)：AnyMock是一个通用接口Mock平台，提供Mock配置和模拟响应的服务，由度小满开源。
 * [Hoverfly](https://github.com/SpectoLabs/hoverfly-java)：Hoverfly的Java绑定，Hoverfly是一个允许你模拟HTTP服务的代理。
@@ -318,6 +318,11 @@
 * [Ersatz](https://github.com/cjstehno/ersatz)：Ersatz是一个HTTP客户端测试工具，允许以灵活的方式配置请求/响应预期。
 * [MockHttpServer](https://github.com/kristofa/mock-http-server)：MockHttpServer用于促进依赖外部HTTP服务的Java应用程序的集成测试。
 * [Java Httpbin](https://github.com/gaul/java-httpbin)：基于Java的HTTP服务器，可让你使用httpbin.org的端点在本地测试HTTP客户端、重试逻辑、流行为、超时等。
+* [Mock API](https://github.com/shanbay/mock-api)：适用于Android的JSON API Mock框架。
+* [OkHttp JSON Mock](https://github.com/mirrajabi/okhttp-json-mock)：OkHttp JSON Mock可以帮助你在短短几步内Mock使用OkHttp、Retrofit的JSON格式的数据。
+* [Moclojer](https://github.com/moclojer/moclojer)：Moclojer是一个简单高效的HTTP Mock服务器，可帮助你Mock用于开发、测试和原型设计的API。
+* [Retromock](https://github.com/infinum/Retromock)：用于Mock Retrofit服务中的响应的库，由Infinum开源。
+* [V-Mock](https://gitee.com/vtDev/v-mock)：V-Mock是一个小巧的接口响应Mock系统。
 
 #### Mock库
 
@@ -396,6 +401,7 @@
 * [Spock Genesis](https://github.com/Bijnagte/spock-genesis)：Spock Genesis提供了各种继承自Generator并满足该接口的类。
 * [Instantiator](https://github.com/sockeqwe/Instantiator)：Instantiator可以为你创建任意类的实例，让你可以专注于编写测试，而无需花费时间和精力设置测试数据。
 * [Genesis](https://github.com/ThisIsLibra/genesis)：Genesis是一个框架，允许用户创建自己的测试用例，并在生成过程中进行混淆处理。
+* [Arbitrater](https://github.com/tyro/arbitrater)：Arbitrater是一个通过反射创建任意类实例的库。
 
 #### BDD框架
 
@@ -564,6 +570,7 @@
 * [Sahi](https://www.sahipro.com/)：Sahi是一个成熟、业务就绪的测试自动化平台，用于对UI密集型应用程序进行功能测试。
 * [T-Plan](https://www.t-plan.com/)：T-Plan是一个机器人流程自动化和GUI测试自动化项目。
 * [ATP](https://atestingp.sourceforge.net/)：ATP是一个自动化测试和分析工具，由西班牙马德里理工大学开源。
+* [Nexial](https://github.com/nexiality/nexial-core)：Nexial的主要动机是提供一套用于软件测试的自动化功能。
 * [Maveryx](https://www.maveryx.com/)：Maveryx是一款专注于减少测试维护成本、适应动态UI的高效测试自动化工具。
 * [TestHubo](https://github.com/tiklab-project/tiklab-testhubo)：全栈式测试管理工具，涵盖功能测试、接口测试、Web测试、App测试及性能测试等，全面覆盖各种测试场景。
 * [Online Inspection Tracker](https://github.com/TheCoolQATeam/online-inspection-tracker)：Online Inspection Tracker是一个线上UI自动化巡检工具，旨在帮助开发人员和测试人员快速、高效地检测线上Web应用的UI界面是否存在异常。
@@ -668,6 +675,7 @@
 * [Dynamometer](https://github.com/linkedin/dynamometer)：Dynamometer是一个用于测试Hadoop的HDFS NameNode性能的工具，由LinkedIn开源。
 * [Validatar](https://github.com/yahoo/validatar)：Validatar是一个大数据功能测试框架，由Yahoo开源。
 * [Hazelcast Simulator](https://github.com/hazelcast/hazelcast-simulator)：Hazelcast Simulator是一个生产模拟器，用于在集群环境中测试Hazelcast和基于Hazelcast的应用程序。
+* [Hadoop Mini Clusters](https://github.com/sakserv/hadoop-mini-clusters)：Hadoop Mini Clusters提供了一种在IDE中直接测试Hadoop项目的简便方法。
 
 #### 其他测试库
 
@@ -692,6 +700,7 @@
 * [Spring Test Profiler](https://github.com/PragmaTech-GmbH/spring-test-profiler)：Spring Test实用程序为Spring Test执行提供可视化和洞察，重点关注Spring上下文缓存统计。
 * [Component Test Framework](https://github.com/lydtechconsulting/component-test-framework)：允许对Spring Boot应用程序进行组件测试的库。
 * [Spring Boot TestJars](https://github.com/spring-projects-experimental/spring-boot-testjars)：该项目允许用户通过将外部Spring Boot应用程序创建为Bean来轻松启动它。
+* [Mock In Bean](https://github.com/antoinemeyer/mock-in-bean)：@MockInBean和@SpyInBean是Spring Boot Test的@MockBean和@SpyBean的替代品。
 
 #### 测试套件
 
@@ -717,6 +726,7 @@
 * [Selenium Maven Template](https://github.com/Ardesco/Selenium-Maven-Template)：适用于Selenium 4的Maven模板，包含最新的依赖项。
 * [Selenium Cucumber](https://github.com/selenium-cucumber/selenium-cucumber-java)：Selenium Cucumber是一种BDD方法，用于编写自动化测试脚本来测试Web。
 * [Cucumber TestNG Java](https://github.com/gauravkarvir/cucumber_testng_java)：该项目是一个模板测试自动化框架，它提供了跨项目创建GUI、移动和API级别测试自动化测试脚本的结构化和标准方法。
+* [Cucumber Java Skeleton](https://github.com/cucumber/cucumber-java-skeleton)：这是使用Java搭建Cucumber最简单的方法。
 * [Selenium Java Test Automation Architecture](https://github.com/Tahanima/selenium-java-test-automation-architecture)：使用Java和Selenium WebDriver的即用型UI测试自动化架构。
 * [Selenium OSTAF](https://github.com/Infosys/Selenium-Testing-Automation-Framework)：Selenium OSTAF是一个框架，它可以帮助测试人员自动执行Web应用程序的测试，而无需记录或编写Selenium脚本，由Infosys开源。
 * [Playwright Java Test Automation Architecture](https://github.com/Tahanima/playwright-java-test-automation-architecture)：使用Java和Playwright的即用型UI测试自动化架构。
@@ -773,7 +783,6 @@
 * [InfluxDB2 Java](https://github.com/influxdata/influxdb-client-java)：适用于JVM的InfluxDB 2客户端。
 * [RxJava JDBC](https://github.com/davidmoten/rxjava2-jdbc)：RxJava 2与JDBC集成，包括非阻塞连接池。
 * [Reactive SQL Client](https://github.com/eclipse-vertx/vertx-sql-client)：用Java编写的高性能响应式SQL客户端。
-* [Hibernate Reactive](https://github.com/hibernate/hibernate-reactive)：Hibernate ORM的响应式API，支持非阻塞数据库驱动程序以及与数据库的响应式交互。
 * [Snowflake JDBC Driver](https://github.com/snowflakedb/snowflake-jdbc)：Snowflake JDBC驱动程序。
 * [JAsync-SQL](https://github.com/jasync-sql/jasync-sql)：JAsync-SQL是一个使用Kotlin编写的简单、基于Netty、异步、高性能且可靠的PostgreSQL和MySQL数据库驱动程序。
 * [TiKV Java](https://github.com/tikv/client-java)：TiKV的Java客户端库。
@@ -1000,6 +1009,7 @@
 * [Spring Data Generator](https://github.com/cmeza20/spring-data-generator)：用于JPA Repository和管理器的Spring Data Generator。
 * [Kotlin JPA Specification DSL](https://github.com/consoleau/kotlin-jpa-specification-dsl)：该库提供了一个流式的DSL，用于使用Spring Data规范(即JPA Criteria API)查询Spring Data JPA Repository，而无需样板代码或生成的元模型。
 * [Querity](https://github.com/queritylib/querity)：Querity是一个可扩展的查询构建器，用于在Java应用程序中创建和运行数据库查询。
+* [JPA Entity Generator](https://github.com/smartnews/jpa-entity-generator)：这是一个生成Lombok连接的JPA实体源代码的Java库。
 
 #### 数据库连接池
 
@@ -1131,6 +1141,7 @@
 * [Spring Data Cassandra](https://github.com/spring-projects/spring-data-cassandra)：Spring Data Cassandra为Cassandra提供Spring Data模块熟悉的接口。
 * [Hector](https://github.com/hector-client/hector)：Hector是Cassandra的高级客户端库。
 * [Cassie](https://github.com/twitter-archive/cassie)：Cassie是一个小型、轻量级的Cassandra客户端，基于Finagle构建，由Twitter开源。
+* [Achilles](https://github.com/doanduyhai/Achilles)：Achilles是Apache Cassandra的一个开源高级对象映射器。
 * [Stargate](https://github.com/stargate/stargate)：Stargate是部署在客户端应用程序和Cassandra数据库之间的数据网关，DataStax开源。
 * [Cassandra Reaper](https://github.com/thelastpickle/cassandra-reaper)：Reaper是一种集中式、有状态且高度可配置的工具，用于针对单站点或多站点集群运行Cassandra修复，由DataStax开源。
 * [Aegisthus](https://github.com/Netflix/aegisthus)：Aegisthus是Cassandra的批量数据管道，由Netflix开源。
@@ -1163,7 +1174,7 @@
 
 * [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java)：用于连接ClickHouse并处理各种格式数据的Java库。
 * [Clickhouse4j](https://github.com/Blynk-Technologies/clickhouse4j)：Clickhouse4j是官方ClickHouse JDBC驱动程序的更轻更快的替代品。
-* [ClickHouse Native JDBC](https://github.com/housepower/ClickHouse-Native-JDBC)：用于在Java 中访问ClickHouse的原生JDBC库，还提供用于与Spark集成的库。
+* [ClickHouse Native JDBC](https://github.com/housepower/ClickHouse-Native-JDBC)：用于在Java中访问ClickHouse的原生JDBC库，还提供用于与Spark集成的库。
 * [Clickhouse Scala](https://github.com/crobox/clickhouse-scala-client)：Clickhouse Scala客户端，以响应式方式访问Clickhouse数据库。
 * [CKibana](https://github.com/TongchengOpenSource/ckibana)：CKibana是一项使用原生Kibana方便分析ClickHouse数据的服务，由同程旅行开源。
 * [Graphhouse](https://github.com/ClickHouse/graphouse)：Graphhouse允许你使用ClickHouse作为Graphite存储。
@@ -1726,6 +1737,7 @@
 * [Wire](https://github.com/square/wire)：Wire是适用于Android、Kotlin、Swift和Java的gRPC和协议缓冲区，Square开源。
 * [ProtoStream](https://github.com/infinispan/protostream)：ProtoStream是一个基于Protobuf数据格式的序列化库，由RedHat开源。
 * [OpenRTB](https://github.com/google/openrtb)：该库支持OpenRTB规范，为所有protobuf支持的语言提供绑定，并为Java提供额外支持，例如JSON序列化和验证，由Google开源。
+* [Pbandk](https://github.com/streem/pbandk)：Pbandk是Protocol Buffers的Kotlin多平台代码生成器和运行时。
 * [QuickBuffers](https://github.com/HebiRobotics/QuickBuffers)：QuickBuffers是Google Protocol Buffers的Java实现，专为零分配环境中的低延迟用例而开发，由CMU生物机器人实验室开发。
 * [JProtobuf](https://github.com/jhunters/jprotobuf)：JProtobuf是针对Java程序开发的一套简易类库，目的是简化Java语言对Protobuf类库的使用，百度开源。
 * [Jackson Datetype Protocol](https://github.com/HubSpot/jackson-datatype-protobuf)：增加了对Google Protocol Buffers与JSON之间的序列化和反序列化支持的Jackson模块。
@@ -3558,6 +3570,7 @@
 * [OpenAPI v3 Generator Spring Boot](https://github.com/qaware/openapi-generator-for-spring)：该库在运行时自动为Spring Boot应用程序生成OpenApi v3规范。
 * [SpringDoc OpenAPI Maven Plugin](https://github.com/springdoc/springdoc-openapi-maven-plugin)：该插件的目的是在运行时生成JSON和YAML OpenAPI描述。
 * [xDoc](https://gitee.com/treeleaf/xDoc)：基于Java注释生成接口文档，对代码无侵入，无需注解，纯代码注释。
+* [Ktor OpenAPI Generator](https://github.com/papsign/Ktor-OpenAPI-Generator)：Ktor OpenAPI Generator是一个库，用于在你路由Ktor应用程序时自动生成描述符。
 * [SpringDoc OpenAPI Gradle Plugin](https://github.com/springdoc/springdoc-openapi-gradle-plugin)：此插件允许你从Gradle构建中为Spring Boot应用程序生成OpenAPI 3规范。
 * [Swagger Maven Plugin](https://github.com/openapi-tools/swagger-maven-plugin)：该插件旨在使用Swagger Core库从基于JAX-RS的REST服务生成OpenAPI文档，并尽可能减少更改。
 * [Restdocs Spec](https://github.com/BerkleyTechnologyServices/restdocs-spec)：一个使用Spring Restdocs生成Open API和Postman Collection规范的Maven插件。
@@ -3952,6 +3965,7 @@
 * [Pdf2Dom](https://github.com/radkovo/Pdf2Dom)：Pdf2Dom是一个PDF解析器，可将文档转换为HTML DOM表示形式。
 * [HTMLToPDF](https://github.com/wooio/htmltopdf-java)：该项目基于WkHtmlToPdf，它将HTML文档转换为PDF。
 * [PDF Converter](https://github.com/jmrozanec/pdf-converter)：一个将.pdf文件转换为.epub、.txt、.png、.jpg和.zip格式的Java库。
+* [OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)：OpenDataLoader PDF可以安全准确地将PDF转换为JSON、Markdown或HTML。
 * [Documents4j](https://github.com/documents4j/documents4j)：Documents4j是一个用于将文档转换为另一种文档格式的Java库。
 * [Mammoth](https://github.com/mwilliamson/java-mammoth)：Mammoth旨在转换.docx文档，例如由Microsoft Word、Google Docs和LibreOffice创建的文档，并将其转换为HTML。
 * [Html2Image](https://github.com/hkirk/java-html2image)：这个简单的Java库将纯HTML标签转换为图像，并使用HTML元素提供客户端图像映射。
@@ -3968,7 +3982,6 @@
 * [MD2File](https://gitee.com/cevin15/MD2File)：文档导出工具类，能将Markdown格式的内容，转为Office Word、PDF、HTML等格式的文档。
 * [Excel2Pdf](https://github.com/caryyu/excel2pdf)：Java Excel转PDF解决方案。
 * [Markdown2Pdf](https://github.com/Qkyrie/Markdown2Pdf)：一个使用Java将Markdown转换为PDF的简单库。
-* [OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)：OpenDataLoader PDF可以安全准确地将PDF转换为JSON、Markdown或HTML。
 
 #### Mime解析
 
@@ -5006,6 +5019,7 @@
 * [MuChat](https://gitee.com/pisces-hub/muchat)：MuChat是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
 * [Chat UniApp](https://gitee.com/lakaola/chat-api)：聊天IM，精仿微信，支持单聊、群聊、朋友圈、摇一摇、附近的人、收藏、扫码、机器人、文字、图片、名片、实时音视频通话等功能。
 * [Lucky](https://github.com/Luckly-XYZ/Lucky-cloud)：Lucky是一个基于Spring Boot 3、Spring Cloud Alibaba构建的高性能、高可用的即时通讯服务端系统。
+* [OrdinaryRoad Live Chat Client](https://github.com/OrdinaryRoad-Project/ordinaryroad-live-chat-client)：一个基于Netty的通用直播间弹幕客户端。
 
 #### 问题跟踪系统
 
@@ -5148,6 +5162,7 @@
 * [DimpleBlog](https://github.com/martin-chips/DimpleBlog)：Dimple Blog是基于Spring Boot 2搭建的个人博客系统。
 * [Aurora](https://github.com/xcyeye/aurora-blog)：Aurora是一个基于Spring Cloud Alibaba的多人微服务博客项目。
 * [Blog](https://github.com/Jiale-Fang/blog)：基于Spring Boot、Vue、ELK、WebSocket构建的个人博客。
+* [Lipi](https://github.com/SohanChy/Lipi)：Lipi将Hugo的强大功能融入到GUI中，并尝试让Hugo更易于日常使用，而无需记住任何烦人的命令。
 
 #### 论坛系统
 
@@ -5384,6 +5399,7 @@
 * [Wisdom Education](https://gitee.com/zhuimengshaonian/wisdom-education)：基于Spring Boot、Mybatis Plus、Shiro、MySQL、Redis构建的智慧云智能教育平台。
 * [Inxedu](https://gitee.com/inxeduopen/inxedu)：免费开源网校系统，轻松搭建在线教育平台。
 * [PlayEdu](https://github.com/PlayEdu/PlayEdu)：PlayEdu是由白书科技团队打造出的一款业内领先的线上培训解决方案。
+* [Teaching](https://github.com/open-scratch/teaching-open)：Teaching针对机构、学校提供STEAM在线教育解决方案。
 
 #### 评测系统
 
@@ -5910,10 +5926,10 @@
 * [RskJ](https://github.com/rsksmart/rskj)：RskJ是Rootstock节点的Java实现。
 * [Daml](https://github.com/digital-asset/daml)：Daml是一种开源智能合约语言，用于在安全且注重隐私的运行时构建面向未来的分布式应用程序。
 * [Neow3j](https://github.com/neow3j/neow3j)：Neow3j是一个开发工具包，提供简单可靠的工具来使用Java平台构建Neo dApp和智能合约。
-* [Hedera Services](https://github.com/hashgraph/hedera-services)：Hedera公共账本的加密货币、代币、共识、文件和智能合约服务。
+* [Hiero Consensus Node](https://github.com/hiero-ledger/hiero-consensus-node)：Hiero Consensus Node是Hiero区块链网络中的核心组件，负责参与网络共识、验证交易并维护分布式账本。
 * [SmartJ](https://github.com/signum-network/signum-smartj)：Signum的Java智能合约。
 * [Java4Ever](https://github.com/deplant/java4ever-framework)：Java4Ever是一个功能丰富的框架，用于智能合约开发、测试和访问TVM兼容的区块链，例如Everscale、Venom、GOSH等。
-* [Hyperledger Fabric Chaincode Java](https://github.com/hyperledger/fabric-chaincode-java)：这是基于Java的Hyperledger Fabric链码填充API的实现，可使用Java语言开发智能合约。
+* [Hyperledger Fabric Chaincode Java](https://github.com/hyperledger/fabric-chaincode-java)：Hyperledger Fabric Contract和Chaincode的Java实现。
 
 ## 金融
 
@@ -7814,6 +7830,7 @@
 
 * [JNativeHook](https://github.com/kwhat/jnativehook)：JNativeHook是一个为Java提供全局键盘和鼠标监听器的库。
 * [System Hook](https://github.com/kristian/system-hook)：Java System Hook为Java提供了一个非常轻量级的全局键盘和鼠标监听器。
+* [MouseMaster](https://github.com/petoncle/mousemaster)：MouseMaster允许你仅使用键盘控制鼠标光标。
 * [JIntellitype](https://github.com/melloware/jintellitype)：JIntellitype是一个Java API，用于与Microsoft Intellitype命令交互以及在Java应用程序中注册全局热键。
 * [JKeyMaster](https://github.com/tulskiy/jkeymaster)：用于使用JNA在Java中注册全局热键的库，目标是支持基于X11的平台、Windows和MacOSX。
 * [KeyboardMouse.kt](https://github.com/Animeshz/keyboard-mouse-kt)：KeyboardMouse.kt是一个轻量级、基于协程的多平台Kotlin库，用于通过Kotlin、Java和NodeJS与键盘和鼠标进行惯用交互(接收和发送全局事件)。
@@ -8516,6 +8533,7 @@
 * [Lizzie](https://github.com/featurecat/lizzie)：Lizzie是一个图形界面，允许用户使用Leela Zero实时分析游戏。
 * [DisUnity](https://github.com/ata4/disunity)：用Java编写的Unity资源和资源包文件的实验性命令行工具集，主要用于提取。
 * [Alice](https://github.com/TheAliceProject/alice3)：Alice是一个基于块的创新编程环境，可以轻松创建动画、构建交互式叙述或以3D方式编写简单游戏，由CMU开源。
+* [PCGen](https://github.com/PCGen/pcgen)：PCGen是一个用于在D&D等纸笔游戏中创建和管理玩家角色的程序。
 
 #### 虚拟现实
 
@@ -9061,6 +9079,7 @@
 
 * [JGraphT](https://github.com/jgrapht/jgrapht)：JGraphT是一个免费的Java类库，提供数学图论对象和算法。
 * [Kaliningraph](https://github.com/breandan/galoisenne)：Kotlin中的图、有限域和离散动力系统。
+* [Eclipse Layout Kernel](https://github.com/eclipse-elk/elk)：Eclipse Layout Kernel提供了多种布局算法，以及基于Eclipse的基础架构，用于将它们连接到编辑器和查看器。
 * [Dijkstras Algorithm](https://github.com/mburst/dijkstras-algorithm)：Dijkstra最短路径算法的不同语言实现。
 * [PathFinder](https://github.com/kevinwang1975/PathFinder)：该项目包含广泛应用于路径查找和图遍历的A*搜索算法和用于Cisco路由器最短路径查找的Dijkstra算法的Java实现。
 * [Hnswlib](https://github.com/jelmerk/hnswlib)：用于执行近似最近邻搜索的分层可导航小世界图(HNSW)算法的Java实现。
