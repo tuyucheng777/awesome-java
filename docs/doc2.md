@@ -767,6 +767,7 @@
 * [MySQL](https://github.com/mysql/mysql-connector-j)：MySQL JDBC驱动程序。
 * [AWS MySQL JDBC](https://github.com/awslabs/aws-mysql-jdbc)：AWS MySQL Driver是一个使应用程序能够充分利用集群MySQL数据库功能的驱动程序。
 * [AWS JDBC Driver](https://github.com/aws/aws-advanced-jdbc-wrapper)：该包装器是对现有JDBC驱动程序的补充，旨在扩展驱动程序的功能，使应用程序能够充分利用Amazon Aurora等集群数据库的功能。
+* [MariaDB Java Connector](https://github.com/mariadb-corporation/mariadb-connector-j)：MariaDB Java Connector是一个与JDBC 4.2兼容的驱动程序，用于将用Java开发的应用程序连接到MariaDB和MySQL数据库。
 * [Oracle](https://www.oracle.com/database/technologies/maven-central-guide.html)：Oracle JDBC驱动程序。
 * [Oracle R2DBC](https://github.com/oracle/oracle-r2dbc)：Oracle数据库的R2DBC驱动程序。
 * [SqlServer](https://github.com/microsoft/mssql-jdbc)：SqlServer JDBC驱动程序。
@@ -950,6 +951,7 @@
 * [Acku](https://github.com/x-ream/acku)：MQ事务、TCC、最终一致性。
 * [Eventuate Tram Sagas](https://github.com/eventuate-tram/eventuate-tram-sagas)：Eventuate Tram Sagas框架是一个适用于使用JDBC/JPA和Spring Boot/Micronaut的Java微服务的Saga框架。
 * [Txle](https://github.com/actiontech/txle)：Txle是爱可生开发的分布式事务解决方案，可以保证业务数据的最终一致性。
+* [Zeze](https://github.com/e2wugui/zeze)：Zeze是一个基于一致性缓存的分布式事务应用框架。
 
 ## Mybatis库
 
@@ -2642,7 +2644,7 @@
 * [Flowable](https://github.com/flowable/flowable-engine)：Flowable为开发人员、系统管理员和业务用户提供紧凑且高效的工作流程和BPM平台。
 * [jBPM](https://github.com/kiegroup/jbpm)：jBPM是一个用于构建业务应用程序以帮助自动化业务流程和决策的工具包，JBoss社区开源。
 * [jDMN](https://github.com/goldmansachs/jdmn)：jDMN为DMN中指定的决策模型提供执行引擎，这些决策可以解释或翻译为Java并在JVM上执行，由高盛银行开源。
-* [DBOS](https://github.com/dbos-inc)：DBOS提供轻量级、持久耐用且由Postgres支持的工作流。
+* [DBOS](https://github.com/dbos-inc/dbos-transact-java)：DBOS提供轻量级、持久耐用且由Postgres支持的工作流。
 * [JDEasyFlow](https://github.com/JDEasyFlow/jd-easyflow)：JDEasyFlow是京东开源的一个通用流程编排组件，适用于服务编排、工作流、审计等，具有易用、灵活、易扩展的特点。
 * [ActiveMatrix BPM](https://docs.tibco.com/products/tibco-activematrix-bpm-4-3-0)：TIBCO ActiveMatrix BPM用于开发、部署、执行和管理以业务流程管理为中心的应用程序。
 * [Piper](https://github.com/runabol/piper)：Piper是一个基于Spring Boot构建的开源分布式工作流引擎，设计非常简单。
@@ -3690,6 +3692,7 @@
 * [PDFFigures](https://github.com/allenai/pdffigures2)：PDFFigures是一个基于Scala的项目，旨在从学术文献中提取图表、图解、表格和章节标题，尤其侧重于计算机科学领域的文档，由艾伦人工智能研究院开源。
 * [PDF Kit](https://github.com/superad/pdf-kit)：Java根据模板动态生成PDF文件。
 * [Ghost4J](https://github.com/zippy1978/ghost4j)：Ghost4J绑定了Ghostscript C API，将Ghostscript的强大功能带入Java世界。
+* [JQuickPDF](https://github.com/paohaijiao/jquick-pdf)：JQuickPDF是一个轻量级的Java库，用于从类似HTML的模板生成PDF文档，支持动态内容和丰富的样式。
 
 #### Excel库
 
@@ -3723,7 +3726,7 @@
 * [Keikai](https://github.com/keikai/dev-ref)：Keikai是一个轻松构建电子表格驱动的Web应用程序。
 * [Xcelite](https://github.com/eBay/xcelite)：Xcelite是一个类似ORM的Java库，它允许你轻松地将Java Bean序列化到Excel电子表格或从Excel电子表格反序列化Java Bean，由eBay开源。
 * [Java Excel API](https://jexcelapi.sourceforge.net/)：Java Excel API是一个成熟的开源Java API，使开发人员能够动态读取、写入和修改Excel电子表格。
-* [HY Common Report](https://github.com/HY-Org/hy.common.report)：报表、Excel操作类库。
+* [HY.Common.Report](https://github.com/HY-Org/hy.common.report)：报表、Excel操作类库。
 * [DsExcel Java](https://github.com/GrapeCity/DsExcel-Java)：DsExcel是一个跨平台、高速、占用空间小的电子表格API库，无需依赖Excel。
 * [Excel Boot](https://github.com/programmeres/excel-boot)：Excel Boot是一款Excel导入导出解决方案组成的轻量级开源组件。
 * [MemPOI](https://github.com/firegloves/MemPOI)：使用POI简化从数据库导出到Excel文件的库。
@@ -4202,6 +4205,7 @@
 * [Spring Tx Board](https://github.com/Mamun-Al-Babu-Shikder/spring-tx-board)：Spring Tx Board是一个轻量级、可自动配置的事务监控库，适用于基于Spring的应用程序。
 * [Spring Cloud Dashboard](https://github.com/VanRoy/spring-cloud-dashboard)：该应用程序提供了一个简单的GUI来管理Spring Cloud应用程序基础设施。
 * [Hofund](https://github.com/logchange/hofund)：Hofund是一套用于监控应用程序、连接并发现系统组件当前状态的工具集。
+* [Schematic](https://github.com/BjoernKW/Schematic)：Schematic是Spring Boot的一个简单的数据库管理UI。
 
 #### GC日志分析
 
@@ -5179,6 +5183,7 @@
 * [Paicoding](https://github.com/itwanger/paicoding)：Paicoding是一个基于Spring Boot、MyBatis Plus、MySQL、Redis、ElasticSearch、MongoDB、Docker、RabbitMQ等技术栈实现的社区系统。
 * [JEESNS](https://gitee.com/lxinet/jeesns)：JEESNS是一款基于Java企业级平台研发的社交管理系统。
 * [FlyCMS](https://github.com/sunkaifei/FlyCms)：FlyCMS是一个类似知乎以问答为基础的完全开源的Java语言开发的社交网络建站程序。
+* [Code Nest](https://github.com/xiaou61/U-space)：Code Nest是一个基于Spring Boot、Vue 3的前后端分离的一个程序员社区系统。
 * [巡云轻论坛系统](https://gitee.com/diyhi/bbs)：巡云轻论坛系统包含论坛、问答模块，采用Java、MySQL架构。
 * [NiterForum](https://github.com/yourkevin/NiterForum)：NiterForum是一个论坛/社区程序。
 * [KuangSimpeBBS](https://gitee.com/kuangstudy/kuang_simple_bbs)：社区开源版本，基于Spring Boot精简代码。
@@ -5411,6 +5416,7 @@
 * [Glowxq OJ](https://github.com/glowxq/glowxq-oj)：Glowxq OJ是一个专为信息学奥林匹克竞赛和少儿编程教学设计的在线编程测评系统。
 * [Spring Boot Online Exam](https://github.com/lsgwr/spring-boot-online-exam)：基于Spring Boot的在线考试系统。
 * [Exam++](https://gitee.com/ocelot/examxx)：Exam++是基于Java与MySQL开发的网络考试系统。
+* [Online Exam System](https://github.com/Alanosy/online-exam-system-backend)：本项目致力于打造一款通用的在线考试系统。
 * [TamGuo](https://gitee.com/smiletocandy/tamguo)：TamGuo是基于Java开发的在线题库系统。
 * [SDUOJ](https://github.com/SDUOJ/OnlineJudge)：SDUOJ是一款开源在线评测系统。
 * [PassJava](https://github.com/Jackson0714/PassJava-Platform)：一款面试刷题的Spring Cloud开源系统。
@@ -5970,6 +5976,7 @@
 * [Ta4j](https://github.com/ta4j/ta4j)：Ta4j是一个用于技术分析的开源Java库，它提供了创建、评估和执行交易策略的基本组件。
 * [Northstar](https://gitee.com/dromara/northstar)：这是一个面向程序员的专业级量化交易软件，用于期货、股票、外汇、炒币等多种交易场景，实现自动交易，由dromara社区开源。
 * [Redtorch](https://github.com/sun0x00/redtorch)：Redtorch是基于Kotlin(Java)语言开发的开源量化交易程序开发框架。
+* [Kite Connect](https://github.com/zerodha/javakiteconnect)：Kite Connect是一组类似REST的API，它公开了构建完整的投资和交易平台所需的许多功能。
 * [QuantComponents](https://github.com/lsgro/quantcomponents)：用于量化金融和算法交易的免费Java组件。
 * [JQuantLib](https://github.com/frgomes/jquantlib)：JQuantLib是一个免费、开源、全面的量化金融框架，100%用Java编写。
 * [Strata](https://github.com/OpenGamma/Strata)：Strata是OpenGamma的开源分析和市场风险库。
@@ -8244,6 +8251,7 @@
 * [Uncle Novel](https://github.com/uncle-novel/uncle-novel)：一个桌面端应用，支持MacOS/Windows，提供了全网小说的转码阅读功能。
 * [Telegram Files](https://github.com/jarvis2f/telegram-files)：自托管的Telegram文件下载器，用于连续、稳定和无人值守的下载。
 * [Drifty](https://github.com/SaptarshiSarkar12/Drifty)：Drifty是一个用Java构建的开源交互式文件下载系统，它提供CLI和GUI，灵活易用。
+* [JDownloader](https://github.com/mycodedoesnotcompile2/jdownloader_mirror)：JDownloader是一款免费的开源下载管理工具。
 
 #### MQTT客户端
 
@@ -8531,6 +8539,7 @@
 
 * [Live2D](https://www.live2d.com/)：Live2D是一种应用于电子游戏的绘图渲染技术，由日本Cybernoids公司开发。
 * [Lizzie](https://github.com/featurecat/lizzie)：Lizzie是一个图形界面，允许用户使用Leela Zero实时分析游戏。
+* [ArkPets](https://github.com/isHarryh/Ark-Pets)：ArkPets是基于Java的针对游戏《明日方舟》开发的非营利性的桌宠软件。
 * [DisUnity](https://github.com/ata4/disunity)：用Java编写的Unity资源和资源包文件的实验性命令行工具集，主要用于提取。
 * [Alice](https://github.com/TheAliceProject/alice3)：Alice是一个基于块的创新编程环境，可以轻松创建动画、构建交互式叙述或以3D方式编写简单游戏，由CMU开源。
 * [PCGen](https://github.com/PCGen/pcgen)：PCGen是一个用于在D&D等纸笔游戏中创建和管理玩家角色的程序。
@@ -8809,6 +8818,7 @@
 * [Metadata Extractor](https://github.com/drewnoakes/metadata-extractor)：Metadata Extractor是一个用于从媒体文件中读取元数据的Java库。
 * [Vlcj](https://github.com/caprica/vlcj)：VLC媒体播放器的Java框架。
 * [MCAV](https://github.com/PulseBeat02/mcav)：MCAV是一个非常强大的Java多媒体库和插件，是EzMediaCore2的后继者。
+* [MediathekView](https://github.com/mediathekview/MediathekView)：MediathekView程序会搜索各公共广播公司的媒体库，并下载或播放内容。
 * [GStreamer 1.x Java Core](https://github.com/gstreamer-java/gst1-java-core)：这是GStreamer 1.x的一组Java绑定，GStreamer是一个用C语言编写的开源、基于管道的多媒体框架。
 * [Quick Media](https://github.com/liuyueyi/quick-media)：QuickMedia是一个提供图片、音频、视频、二维码、网页、Markdown处理的Web项目。
 * [Monte Media Library](http://www.randelshofer.ch/monte/)：Monte Media Library是一个用于处理媒体数据的Java库，支持的媒体格式包括静态图像、视频、音频和元数据。
@@ -9975,6 +9985,7 @@
 * [ElasticSearch SQL](https://github.com/iamazy/elasticsearch-sql)：使用Antlr4将SQL解析为ElasticSearch DSL。
 * [Superior SQL Parser](https://github.com/melin/superior-sql-parser)：基于Antlr 4的多种数据库SQL解析器。
 * [M-SqlParser](https://gitee.com/M-SQLParse/M-SqlParser)：M-SqlParser解析SQL语句并将其转换为Java类的层次结构。
+* [JSQLTranspiler](https://github.com/starlake-ai/jsqltranspiler)：JSQLTranspiler是一个纯Java独立的SQL转译器、列和谱系解析器，用于将各种大型RDBMS SQL方言转换为一些较小的RDBMS方言，以便进行单元测试。
 
 #### 解析器组合器
 

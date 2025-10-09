@@ -51,6 +51,7 @@
   * [流处理平台](#流处理平台)
   * [ETL工具](#ETL工具)
   * [CDC组件](#CDC组件)
+  * [连接器](#连接器)
   * [集群管理](#集群管理)
   * [调度系统](#调度系统)
   * [执行引擎](#执行引擎)
@@ -1130,7 +1131,7 @@
 * [NutzBoot](https://gitee.com/nutz/nutzboot)：NutzBoot是可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、流控熔断、分布式事务等解决方案。
 * [Starlight](https://github.com/baidu/starlight)：Starlight是一套面向云原生的微服务通信框架，兼容Spring生态，由百度开源。
 * [KumuluzEE](https://github.com/kumuluz/kumuluzee)：KumuluzEE是一个轻量级框架，用于使用标准Java、Java EE/Jakarta EE技术开发微服务并将现有Java应用程序迁移到微服务，由SUNESIS公司开发。
-* [Apache Meecrowave](https://openwebbeans.apache.org/meecrowave/index.html)：Meecrowave是Apache的一个轻量级微服务框架，能够与CDI、JAX-RS和JSON API完美兼容。
+* [Apache Meecrowave](https://github.com/apache/openwebbeans-meecrowave)：Meecrowave是Apache的一个轻量级微服务框架，能够与CDI、JAX-RS和JSON API完美兼容。
 * [Ja-Micro](https://github.com/Sixt/ja-micro)：Ja-Micro是一个用于构建微服务的轻量级Java框架，由Sixt开发。
 * [Colossus](https://github.com/tumblr/colossus)：Colossus是一个用来构建Scala微服务的轻量级I/O框架，由Tumblr开源。
 * [JBoot](https://gitee.com/JbootProjects/jboot)：JBoot是一个基于JFinal、Dubbo、Seata、Sentinel、ShardingSphere、Nacos等开发的国产框架。
@@ -1733,7 +1734,6 @@
 * [Eclipse Connector](https://github.com/eclipse-edc/Connector)：EDC核心服务包括数据平面和控制平面。
 * [Teiid](https://github.com/teiid/teiid)：Teiid是一个数据虚拟化系统，允许应用程序使用来自多个异构数据存储的数据，由RedHat主导。
 * [Apache Ranger](https://github.com/apache/ranger)：Ranger是一个用在Hadoop平台上并提供操作、监控、管理综合数据安全的框架，由Hortonworks开源。
-* [Stocator](https://github.com/CODAIT/stocator)：Stocator是Spark对象存储的高性能连接器，通过利用对象存储语义来实现性能，由IBM开源。
 * [MR4C](https://github.com/google/mr4c)：MR4C是一个允许你在Hadoop执行框架内运行本机代码的框架，由Google开源。
 * [Apache Tajo](https://github.com/apache/tajo)：Tajo是Hadoop的开源分布式数据仓库框架，最初由韩国基础设施公司Gruter开发。
 * [Hydra](https://github.com/addthis/hydra)：Hydra是最初由AddThis开发的分布式数据处理和存储系统。
@@ -1917,7 +1917,7 @@
 * [DataFlow Engine](https://github.com/risesoft-y9/DataFlow-Engine)：数据流引擎是一款面向数据集成、数据同步、数据交换、数据共享、任务配置、任务调度的底层数据驱动引擎，由北京有生博大软件开源。
 * [BBoss Datatran](https://gitee.com/bboss/bboss-elastic-tran)：BBoss Datatran是由BBoss开源的数据采集同步ETL工具。
 * [Starlake](https://github.com/starlake-ai/starlake)：Starlake是一种基于声明性文本的工具，使分析师和工程师能够提取、加载、转换和协调他们的数据管道。
-* [CDAP](https://github.com/cdapio/cdap)：CDAP是一个面向Hadoop生态系统的集成开源应用程序开发平台，为开发人员提供数据和应用程序抽象，目前是Google云端项目。
+* [CDAP](https://github.com/cdapio/cdap)：CDAP是一个面向Hadoop生态系统的集成开源应用程序开发平台，为开发人员提供数据和应用程序抽象，由Google开源。
 * [Lucille](https://github.com/kmwtechnology/lucille)：Lucille是一种生产级搜索ETL解决方案。
 * [Firehose](https://github.com/raystack/firehose)：Firehose是一种可扩展、无代码、云原生服务，用于将实时流数据从Kafka加载到数据存储、数据湖和分析存储系统。
 * [Clink](https://gitee.com/tenmg/Clink)：Clink为基于Java的Flink应用程序提供快速集成的能力，可通过Clink快速构建Flink流批一体应用程序，实现异构数据库实时同步和ETL。
@@ -1934,12 +1934,57 @@
 * [Debezium](https://github.com/debezium/debezium)：Debezium是一个开源项目，为CDC提供低延迟数据流平台，由RedHat开源。
 * [Oracdc](https://github.com/averemee-si/oracdc)：Oracdc是一个用于异构IT环境中近实时数据集成和复制的软件包，由Oracle开源。
 * [DBus](https://github.com/BriData/DBus)：DBus专注于数据的收集及实时数据流计算，通过简单灵活的配置，无侵入的方式对源端数据进行采集。
-* [TiBigData](https://github.com/tidb-incubator/TiBigData)：适用于TiDB、Presto、Flink和MapReduce连接器的其他大数据组件。
 * [Hoptimator](https://github.com/linkedin/Hoptimator)：Hoptimator是一个基于SQL的复杂数据管道控制平面，由LinkedIn开源。
 * [SpinalTap](https://github.com/airbnb/SpinalTap)：SpinalTap是一种通用的CDC服务，能够跨不同数据源低延迟地检测数据突变，并将其作为标准化事件传播给下游消费者，由Airbnb开源。
 * [ACDC](https://github.com/xdfdotcn/acdc)：ACDC是新东方集团架构部开源的数据平台产品。
 * [SyncLite](https://github.com/syncliteio/SyncLite)：SyncLite是一个开源、低代码、全面的关系数据整合平台，可帮助开发人员快速构建用于边缘、桌面和移动环境的数据密集型应用程序。
 * [PolarDB-X CDC](https://github.com/polardb/polardbx-cdc)：PolarDB-X CDC是PolarDB-X的核心组件，负责全局二进制日志的生成、发布和订阅，由阿里开源。
+
+#### 连接器
+
+* [Apache Cassandra Spark Connector](https://github.com/apache/cassandra-spark-connector)：该库允许你将Cassandra表公开为Spark RDD和Datasets/DataFrames，将Spark RDD和Datasets/DataFrames写入Cassandra表，并在Spark应用程序中执行任意CQL查询。
+* [MongoDB Connector Hadoop](https://github.com/mongodb/mongo-hadoop)：MongoDB Connector Hadoop是一个库，它允许将MongoDB用作Hadoop MapReduce任务的输入源或输出目标。
+* [Stream Reactor](https://github.com/lensesio/stream-reactor)：Lenses.io维护的开源Apache 2.0 Kafka连接器集合。
+* [Spark Redis](https://github.com/RedisLabs/spark-redis)：Spark Redis提供对Redis的所有数据结构的访问，以RDD的形式从Spark进行。
+* [MongoDB Spark Connector](https://github.com/mongodb/mongo-spark)：MongoDB Connector Spark提供MongoDB和Apache Spark之间的集成。
+* [Kafka Spark Consumer](https://github.com/dibbhatt/kafka-spark-consumer)：用于Spark Streaming的高性能Kafka连接器。
+* [Spark HBase Connector](https://github.com/hortonworks-spark/shc)：Spark HBase Connector是一个支持Spark访问HBase表作为外部数据源或接收器的库。
+* [Flink ClickHouse Connector](https://github.com/itinycheng/flink-connector-clickhouse)：ClickHouse数据库的Flink SQL连接器，该项目由ClickHouse JDBC提供支持。
+* [MongoDB Kafka Connector](https://github.com/mongodb/mongo-kafka)：MongoDB Kafka Connector是一款经过Confluent验证的连接器，它将来自Kafka主题的数据持久化为数据接收器保存到MongoDB中，并将更改作为数据源从MongoDB发布到Kafka主题。
+* [Flink Doris Connector](https://github.com/apache/doris-flink-connector)：Apache Doris的Flink连接器。
+* [Kafka Connect Oracle](https://github.com/erdemcer/kafka-connect-oracle)：Kafka Connect Oracle是一个Kafka源连接器，用于从Oracle数据库捕获所有基于行的DML更改并将这些更改流式传输到Kafka。
+* [Neo4j Spark Connector](https://github.com/neo4j/neo4j-spark-connector)：Neo4j Spark Connector，使用Spark DataSource API提供从Spark到Neo4j的双向读/写访问。
+* [Spark HBase Connector](https://github.com/nerdammer/spark-hbase-connector)：该库允许你的Apache Spark应用程序使用简单而优雅的API与Apache HBase交互。
+* [Azure SQL Spark Connector](https://github.com/microsoft/sql-spark-connector)：适用于SQL Server和Azure SQL的Apache Spark连接器，由Microsoft开源。
+* [Spark Atlas Connector](https://github.com/hortonworks-spark/spark-atlas-connector)：用于跟踪Spark SQL/DataFrame转换并将元数据更改推送到Apache Atlas的连接器，由Hortonworks开源。
+* [Flink Connector Redis](https://github.com/jeff-zou/flink-connector-redis)：基于Lettuce的异步Flink连接器，支持SQL Join和Sink、查询缓存和调试。
+* [HBase Connector](https://github.com/apache/hbase-connectors)：Apache HBase连接器。
+* [Presto HBase Connector](https://github.com/analysys/presto-hbase-connector)：Presto HBase Connector基于Presto Connector接口规范实现，用于为Presto添加查询HBase的能力，由易观开源。
+* [TiBigData](https://github.com/tidb-incubator/TiBigData)：适用于TiDB、Presto、Flink和MapReduce连接器的其他大数据组件。
+* [Spark MongoDB](https://github.com/Stratio/Spark-MongoDB)：Spark MongoDB是一个库，允许用户使用Spark SQL从MongoDB集合读取数据/将数据写入MongoDB集合，由Stratio开源。
+* [Spark ClickHouse Connector](https://github.com/ClickHouse/spark-clickhouse-connector)：Spark ClickHouse连接器基于DataSourceV2 API构建。
+* [Deep](https://github.com/Stratio/deep-spark)：Deep是Apache Spark和多个NoSQL数据存储之间的薄集成层，由Stratio开源。
+* [Flink HTTP Connector](https://github.com/getindata/flink-http-connector)：HTTP TableLookup连接器允许通过HTTP GET方法从外部系统提取数据，HTTP Sink允许通过HTTP请求将数据发送到外部系统。
+* [ClickHouse Kafka Connect](https://github.com/ClickHouse/clickhouse-kafka-connect)：ClickHouse Kafka Connect是ClickHouse的官方Kafka Connect接收器连接器。
+* [Neo4j Streams](https://github.com/neo4j-contrib/neo4j-streams)：该项目将Neo4j与Apache Kafka和Confluent平台集成在一起。
+* [Couchbase Elasticsearch Connector](https://github.com/couchbase/couchbase-elasticsearch-connector)：Couchbase Elasticsearch Connector几乎实时地将你的文档从Couchbase Server复制到Elasticsearch。
+* [Kafka Connect](https://github.com/jcustenborder/kafka-connect-spooldir)：Kafka Connect连接器提供监视文件目录并在将新文件写入输入目录时读取数据的功能。
+* [Camel Kafka Connector](https://github.com/apache/camel-kafka-connector)：Camel Kafka Connector旨在提供一种用户友好的方式，在Kafka Connect中使用所有Apache Camel组件。
+* [SingleStoreDB Spark Connector](https://github.com/memsql/singlestore-spark-connector)：SingleStore和Spark的连接器。
+* [Snowflake Kafka Connector](https://github.com/snowflakedb/snowflake-kafka-connector)：Snowflake Kafka Connector是Apache Kafka Connect的一个插件，将数据从Kafka主题提取到Snowflake表。
+* [Kafka Kinesis Connector](https://github.com/awslabs/kinesis-kafka-connector)：Kafka Kinesis Connector是一种与Kafka Connect一起使用的连接器，用于将消息从Kafka发布到Amazon Kinesis Streams或Amazon Kinesis Firehose。
+* [Kafka Connect MongoDB](https://github.com/hpgrahsl/kafka-connect-mongodb)：这是适用于MongoDB的基本Apache Kafka Connect SinkConnector。
+* [Kafka Connect BigQuery Connector](https://github.com/wepay/kafka-connect-bigquery)：这是基于Apache Kafka Connect构建的从Apache Kafka到Google BigQuery的接收器连接器的实现，由WePay开源。
+* [Kafka Connect HTTP Connector](https://github.com/castorm/kafka-connect-http)：Kafka Connect连接器可将JSON/HTTP API中的变更数据捕获到Kafka中。
+* [Kafka Connectors SAP](https://github.com/SAP/kafka-connect-sap)：Kafka Connect SAP是一组通用连接器，使用Apache Kafka Connect框架可靠地将Kafka与SAP系统连接起来。
+* [Kafka HTTP Sink Connector](https://github.com/Aiven-Open/http-connector-for-apache-kafka)：这是一个接收器Apache Kafka Connect连接器，通过HTTP/S发送Kafka记录，由Aiven开源。
+* [Pulsar Spark](https://github.com/streamnative/pulsar-spark)：Spark Connector，用于读取和写入Pulsar。
+* [Trino Storage Connector](https://github.com/snowlift/trino-storage)：这是一个用于访问单个文件(例如CSV、TSV)的Trino连接器。
+* [Stocator](https://github.com/CODAIT/stocator)：Stocator是Spark对象存储的高性能连接器，通过利用对象存储语义来实现性能，由IBM开源。
+* [Kafka Connect IBM MQ](https://github.com/ibm-messaging/kafka-connect-mq-source)：Kafka Connect IBM MQ是一个Kafka Connect源连接器，用于将数据从IBM MQ复制到Apache Kafka。
+* [Doris Spark Connector](https://github.com/apache/doris-spark-connector)：Spark Doris Connector可以支持通过Spark读取存储在Doris中的数据以及将数据写入Doris。
+* [Splunk Connect Kafka](https://github.com/splunk/kafka-connect-splunk)：Splunk Connect Kafka是Splunk的Kafka Connect Sink。
+* [Pravega Flink Connectors](https://github.com/pravega/flink-connectors)：Pravega Flink Connectors实现了使用Apache Flink流处理框架读取和写入Pravega Streams的连接器。
 
 #### 集群管理
 
@@ -2729,7 +2774,6 @@
 * [RawHTTP](https://github.com/renatoathaydes/rawhttp)：一个Java库，可以轻松处理由RFC-7230定义的原始HTTP 1.1以及大部分HTTP 1.0(RFC-1945)。
 * [HTTP Kit](https://github.com/http-kit/http-kit)：HTTP Kit是一个简约且高效的Clojure兼容环的HTTP客户端/服务器。
 * [Forest](https://gitee.com/dromara/forest)：Forest是一个高层、极简的声明式HTTP调用API框架，由dromara社区开源。
-* [Jetty ReactiveStream HttpClient](https://github.com/jetty-project/jetty-reactive-httpclient)：Jetty HttpClient的响应流包装器。
 * [Methanol](https://github.com/mizosoft/methanol)：Methanol是Java的轻量级HttpClient扩展。
 * [Jodd HTTP](https://github.com/oblac/jodd-http)：Jodd HTTP是一个小型、原始的HTTP客户端。
 * [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
@@ -2754,6 +2798,7 @@
 * [cURL](https://github.com/libetl/curl)：在Java中使用cURL的库。
 * [Java cURL](https://github.com/rockswang/java-curl)：Java cURL是一个基于标准JDK中的HttpURLConnection实现的纯Java HTTP实用程序。
 * [JCurl](https://github.com/finos/JCurl)：Java中支持JSON的Curl，由金融科技基金会开源。
+* [JQuickCurl](https://github.com/paohaijiao/jquick-curl)：JQuickCurl是一个面向Java开发者的高性能、易用HTTP客户端框架。
 
 #### HTTP路由
 
@@ -3597,7 +3642,7 @@
 * [Dirigiste](https://github.com/clj-commons/dirigiste)：Dirigiste提供了java.util.concurrent.ExecutorService的快速、功能丰富的检测版本，并提供了一种将该检测提供给控制机制的方法，该控制机制可以根据需要扩大或缩小池。
 * [JADE](https://developer.jdcloud.com/article/4004)：JADE是由京东零售中台-研发架构组维护的线程池项目。
 * [ThreadPool4j](https://github.com/aofeng/threadpool4j)：ThreadPool4j是一个实现多线程池的类。
-* [Executor Service](https://github.com/vmlens/executor-service)：支持多个写入和单个读取线程的ExecutorService。
+* [HY.Common.TPool](https://github.com/HY-Org/hy.common.tpool)：线程池、任务、任务组、任务池，定时任务的类库。
 
 #### Actor库
 
@@ -3827,7 +3872,6 @@
 * [Spark MLlib](https://github.com/apache/spark/tree/master/mllib)：Spark的可扩展机器学习库。
 * [Alluxio](https://github.com/Alluxio/alluxio)：Alluxio是一个面向基于云的数据分析和人工智能的数据编排技术，由加州大学伯克利分校AMP实验室开源。
 * [Smile](https://github.com/haifengl/smile)：Smile是一个使用Java和Scala编写的快速且全面的机器学习、NLP、线性代数、图形、插值和可视化系统。
-* [Brain4J](https://github.com/brain4j-org/brain4j)：Brain4J是一个用Java编写的开源机器学习框架，设计时考虑了速度和轻量级。
 * [MediaPipe](https://github.com/google-ai-edge/mediapipe)：MediaPipe Solutions提供了一套库和工具，可让你在应用程序中快速应用人工智能和机器学习技术，由Google开源。
 * [Flink ML](https://github.com/apache/flink-ml)：Flink ML是一个提供机器学习API和基础设施的库，可简化ML管道的构建。
 * [Apache Mahout](https://github.com/apache/mahout)：Mahout的目标是构建一个用于快速创建可扩展、高性能机器学习应用程序的环境。
@@ -3868,6 +3912,7 @@
 * [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Spark上构建模块化、可重用、强类型的机器学习工作流，由Salesforce开源。
 * [JSAT](https://github.com/EdwardRaff/JSAT)：JSAT是一个用于快速入门机器学习问题的库。
 * [JavaML](https://github.com/charliermarsh/java-ml)：用Java实现的一系列标准机器学习(分类)算法。
+* [Brain4J](https://github.com/brain4j-org/brain4j)：Brain4J是一个用Java编写的开源机器学习框架，设计时考虑了速度和轻量级。
 * [ABAGAIL](https://github.com/pushkar/ABAGAIL)：该库包含许多互连的Java包，用于实现机器学习和人工智能算法。
 * [LearnLib](https://github.com/LearnLib/learnlib)：LearnLib是一个免费、开源的用于自动机学习算法的Java库，由德国多特蒙德工业大学开发。
 * [Junto](https://github.com/parthatalukdar/junto)：该工具包由各种基于图的半监督学习(SSL)算法的实现组成，包含高斯随机场、吸附和修正吸附。
