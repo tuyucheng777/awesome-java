@@ -69,6 +69,7 @@
 * [Wisdom](https://github.com/wisdom-projects/rest-client)：Wisdom可以自动化测试REST API并生成精美的测试报告，同时基于测试过的历史数据，可以生成精美的REST API文档。
 * [Milkman](https://github.com/warmuuh/milkman)：Postman的可扩展替代方案，用于制作各种请求，不仅适用于gRPC，还适用于HTTP、SQL等。
 * [CATS](https://github.com/Endava/cats)：CATS是一个REST API模糊器和OpenAPI端点的负面测试工具，由Endava开源。
+* [Dochia](https://github.com/dochia-dev/dochia-cli)：Dochia会自动生成并执行负面测试和边界测试，让你专注于创造性地解决问题。
 * [Everest](https://github.com/RohitAwate/Everest)：Everest是一个用JavaFX编写的REST API测试客户端。
 * [ACTS](https://github.com/sofastack/sofa-acts)：ACTS是一个基于数据模型驱动的白盒测试框架，由蚂蚁开源。
 * [RESTClient](https://github.com/wiztools/rest-client)：RESTClient是一个用于测试RESTful Web服务的Java应用程序，它可用于测试各种HTTP通信。
@@ -530,6 +531,7 @@
 * [Ride](https://github.com/adobe/ride)：Ride是一个与服务无关、模块化、可扩展的Java REST API自动化框架，由Adobe开源。
 * [Boyka Framework](https://github.com/BoykaFramework/boyka-framework)：测试自动化框架，可在任何平台上自动化任何应用程序。
 * [Gepard](https://github.com/epam/Gepard)：Gepard是一个基于JUnit的测试自动化框架，由EPAM开源。
+* [Autest](https://gitee.com/pyqone/autest)：Autest是一个测试辅助工具集，包括UI自动化工具、测试用例生成工具、接口测试工具以及数据生成和数据处理工具等。
 * [TestZeus](https://github.com/TestZeus/TestZeus)：TestZeus是专为Salesforce构建的开源自动化框架。
 * [UI Automation](https://github.com/mmarquee/ui-automation)：UI Automation是一个用于自动化(通过MS UIAutomation库)基于Win32、WPF和其他Windows应用程序的富客户端应用程序的框架。
 * [FastAutoTest](https://github.com/y-grey/FastAutoTest)：FastAutoTest是一个基于Appium的快速自动化框架。
@@ -1112,7 +1114,7 @@
 * [RIOT](https://github.com/redis/riot)：RIOT是一个命令行实用程序，旨在帮助你将数据输入和输出Redis。
 * [RedisDesktopManagerFX](https://github.com/tanhuang2016/RedisDesktopManagerFX)：这是一个基于Jedis，使用JavaFX开发的Redis GUI工具。
 * [RedisLettuceClient](https://gitee.com/tyanzhe/RedisLettuceClient)：RedisLettuceClient是一款基于Java Swing的跨平台的Redis桌面管理工具，支持单机、集群模式连接。
-* [RedisFX](https://github.com/tanhuang2016/RedisFX)：使用JavaFX开发的Redis GUI工具。
+* [RedisFX](https://github.com/tanhuang2016/RedisFX)：RedisFX是一个轻量级、现代主题的Redis GUI工具，使用JavaFX开发。
 
 #### MongoDB库/工具
 
@@ -1573,6 +1575,7 @@
 * [JHash](https://github.com/amdelamar/jhash)：Java中的密码哈希实用程序，支持PBKDF2 hmac SHA1/SHA256/SHA512、BCRYPT和SCRYPT，它会自动加盐，并具有Pepper选项。
 * [RandPassGenerator](https://github.com/nsacyber/RandPassGenerator)：RandPassGenerator是一个简单的命令行实用程序，用于生成随机密码、密码短语和原始密钥，由美国国家安全局网络安全局开源。
 * [Aerogear OTP Java](https://github.com/aerogear-attic/aerogear-otp-java)：根据RFC 4226生成一次性密码的Java库。
+* [JSS](https://github.com/dogtagpki/jss)：NSS是一组库，旨在支持跨平台开发启用安全性的客户端和服务器应用程序。
 
 #### 加密算法
 
@@ -2574,7 +2577,7 @@
 * [Apache ManifoldCF](https://github.com/apache/manifoldcf)：ManifoldCF是一个多仓库爬虫框架，具有多个连接器。
 * [WebCollector](https://github.com/CrawlScript/WebCollector)：WebCollector是一个基于Java的开源网络爬虫框架，它提供了一些简单的网络爬虫接口，由合肥工业大学开源。
 * [XXL-Crawler](https://github.com/xuxueli/xxl-crawler)：XXL-Crawler是一个分布式爬虫框架。
-* [Jvppeteer](https://github.com/fanyong920/jvppeteer)：方便使用Java操控Chrome或Chromium的库，Puppeteer的Java实现。
+* [Jvppeteer](https://github.com/fanyong920/jvppeteer)：Jvppeteer通过DevTools and WebDriver-bidi控制Chrome或Firefox。
 * [NetDiscovery](https://github.com/fengzhizi715/NetDiscovery)：NetDiscovery是一款基于Vert.x、RxJava 2等框架实现的通用爬虫框架/中间件。
 * [Spiderman](https://gitee.com/l-weiwei/spiderman)：Spiderman是一个垂直领域的爬虫，可用于抓取特定目标网页的内容，并且解析为所需要的业务数据，整个过程追求无需任何编码就能实现。
 * [MongooCrawler](https://gitee.com/coliza/MongooCrawler)：MongooCrawler是一款低入侵分布式爬虫框架，仅仅依赖少量第三方包，具有多进程多线程，集成反爬、验证码破解方案等特性。
@@ -2711,6 +2714,7 @@
 * [Nirmata Workflow](https://github.com/nirmata/workflow)：Nirmata Workflow是一个基于Java ZooKeeper和Curator的库，支持分布式任务工作流。
 * [Neuro4j](https://github.com/eternita/workflow)：Neuro4j是一款轻量级的Java工作流引擎，基于Eclipse开发环境。
 * [CIB Seven](https://github.com/cibseven/cibseven)：CIB Seven是一个灵活的工作流和流程自动化框架。
+* [Kikwiflow](https://github.com/atoxfy/kikwiflow)：Kikwiflow是一个从零开始构建的流程编排引擎，旨在解决传统平台的长期痛点。
 
 ## 编排引擎
 
@@ -6166,6 +6170,7 @@
 * [HiveMQ Edge](https://github.com/hivemq/hivemq-edge)：HiveMQ Edge是一个MQTT网关，可实现OT设备和IT系统之间的互操作性。
 * [IBoot](https://gitee.com/iteaj/iboot)：IBoot是基于Java 1.8、Spring Boot 2.7、Netty等框架开发的物联网网关。
 * [IOTGate](https://gitee.com/willbeahero/IOTGate)：Java版基于Netty的物联网高并发智能网关。
+* [Gateway4Java](https://github.com/ganweisoft/Gateway4Java)：Gateway是一个高性能、集中式的各种设备插件通信和调度模块。
 
 #### MQTT
 
@@ -8338,6 +8343,8 @@
 * [Minestom](https://github.com/Minestom/Minestom)：Minestom是一个开源库，开发人员可以使用它创建自己的Minecraft服务器软件，而无需Mojang的任何代码。
 * [Dynmap](https://github.com/webbukkit/dynmap)：Dynmap是类似Google地图的Minecraft服务器地图，可以在浏览器中查看。
 * [Fabric](https://github.com/FabricMC/fabric)：Fabric API是Fabric模块必备钩子和互操作机制的库。
+* [SeedcrackerX](https://github.com/19MisterX98/SeedcrackerX)：SeedcrackerX是一个用于破解我的世界Java版游戏世界种子的模组。
+* [McMMO](https://github.com/mcMMO-Dev/mcMMO)：McMMO的目标是采用核心Minecraft游戏机制并将其扩展为广泛而优质的RPG体验。
 * [Glowstone](https://github.com/GlowstoneMC/Glowstone)：Glowstone是一款轻量级、从零开始的开源Minecraft服务器，支持为Bukkit API及其主要分支Spigot和Paper编写的插件。
 * [CatServer](https://github.com/Luohuayu/CatServer)：CatServer是一个高性能的Forge、Bukkit、Spigot服务端核心。
 * [LuckPerms](https://github.com/LuckPerms/LuckPerms)：LuckPerms是一款适用于Minecraft服务器的权限插件，它允许服务器管理员通过创建群组和分配权限来控制玩家可以使用的功能。
@@ -8817,6 +8824,7 @@
 
 * [Metadata Extractor](https://github.com/drewnoakes/metadata-extractor)：Metadata Extractor是一个用于从媒体文件中读取元数据的Java库。
 * [Vlcj](https://github.com/caprica/vlcj)：VLC媒体播放器的Java框架。
+* [VLC Android](https://code.videolan.org/videolan/vlc-android/)：这是VLC的官方Android端口。
 * [MCAV](https://github.com/PulseBeat02/mcav)：MCAV是一个非常强大的Java多媒体库和插件，是EzMediaCore2的后继者。
 * [MediathekView](https://github.com/mediathekview/MediathekView)：MediathekView程序会搜索各公共广播公司的媒体库，并下载或播放内容。
 * [GStreamer 1.x Java Core](https://github.com/gstreamer-java/gst1-java-core)：这是GStreamer 1.x的一组Java绑定，GStreamer是一个用C语言编写的开源、基于管道的多媒体框架。
@@ -9318,7 +9326,7 @@
 * [JNode](https://github.com/jnode/jnode)：JNode是一个开源项目以创建一个Java平台的操作系统。
 * [JX](https://github.com/mczero80/jx)：JX是一个Java操作系统，专注于灵活和健壮的操作系统架构，由埃尔朗根大学开发。
 * [JavaOS](https://zh.wikipedia.org/zh-cn/JavaOS)：JavaOS是一套操作系统，以JVM与一些基础软件组件所构成，由SUN公司开发。
-* [AugmentOS](https://github.com/AugmentOS-Community/AugmentOS)：适用于智能眼镜的开源操作系统。
+* [MentraOS](https://github.com/Mentra-Community/MentraOS)：智能眼镜的开源操作系统。
 
 ## 运动规划
 
@@ -10711,6 +10719,7 @@
 * [Flink Learning](https://github.com/zhisheng17/flink-learning)：含Flink入门、概念、原理、实战、性能调优、源码解析等内容。
 * [Flink Recommand System Demo](https://github.com/will-che/flink-recommandSystem-demo)：基于Flink实现的商品实时推荐系统。
 * [DB Tutorial](https://github.com/dunwu/db-tutorial)：DB Tutorial是一个数据库教程。
+* [Kafka For Beginners](https://github.com/conduktor/kafka-beginners-course)：这是Conduktor的Kafka初学者课程的配套仓库。
 * [Movie Recommend](https://github.com/LuckyZXL2016/Movie_Recommend)：基于Spark的电影推荐系统，包含爬虫项目、Web网站、后台管理系统以及Spark推荐系统。
 * [BigData Guide](https://github.com/MoRan1607/BigDataGuide)：大数据学习指南，从零开始学习大数据开发，包含大数据学习各个阶段资汇总。
 * [Learning Spark](https://github.com/databricks/learning-spark)：Learning Spark书中的示例。
