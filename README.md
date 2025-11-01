@@ -2165,6 +2165,7 @@
 * [IPC EventBus](https://github.com/Terracotta-OSS/ipc-eventbus)：IPC EventBus为JVM内和JVM外通信提供了一个简单的EventBus API。
 * [FastCast](https://github.com/RuedigerMoeller/fast-cast)：FastCast是一个高速无代理消息传递库，涵盖从简单的共享内存到大型LAN集群应用程序的Java进程间通信。
 * [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
+* [Eventbus](https://github.com/likavn/eventbus)：Eventbus是基于Spring Boot Starter的分布式业务消息分发总线组件(发布/订阅模式)，支持延时消息。
 
 #### 消息总线
 
@@ -2992,6 +2993,7 @@
 * [JNanomsg](https://github.com/niwinz/jnanomsg)：用于Nanomsg的Clojure和Java绑定。
 * [AIO Socket](https://gitee.com/starboot/aio-socket)：AIO Socket是Java AIO通讯内核，采用了内存池、线程池、对象池、缓存池以及插件化增添模块等思想进行设计。
 * [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
+* [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
 
 #### TCP/UDP库
 
@@ -3079,6 +3081,7 @@
 * [Joggle](https://github.com/joggle-cn/joggle)：Joggle是基于Ngrok二开的开源内网穿透项目，多节点、私有部署、云服务。
 * [Ngrok Spring Boot Starter](https://github.com/kilmajster/ngrok-spring-boot-starter)：Spring Boot集成Ngrok变得简单。
 * [HP](https://gitee.com/HServer/hp)：内网穿透轻量版，支持HTTP、HTTPS、TCP、UDP，支持云端动态控制穿透配置。
+* [Java Ngrok](https://github.com/alexdlaird/java-ngrok)：Java Ngrok是一个Ngrok包装器，用于管理自己的二进制文件，通过方便的Java提供应用程序接口。
 
 #### IO_Uring
 
@@ -3262,6 +3265,9 @@
 * [MicroSphere](https://github.com/microsphere-projects/microsphere-java)：MicroSphere是一个模块化的Java实用程序库，提供反射、类加载、集合、网络和注解处理等基础功能。
 * [LibCommon](https://github.com/saki4510t/libcommon)：LibCommon包含一些通用的Java、Android开发工具类。
 * [Skrstop Components](https://github.com/skrstop/skrstop-components)：基于Spring Boot的常用功能封装，包括通用响应、通用异常、数据库、Redis、远程存储、常用自定义注解、多数据源等。
+* [Legacy Lands Libaray](https://github.com/LegacyLands/legacy-lands-library)：Legacy Lands Libaray为现代Minecraft插件开发提供了必要的工具和实用程序。
+* [Abacus Common](https://github.com/landawn/abacus-common)：Abacus Common是一个通用的Java编程库，它提供了一组丰富的实用程序、数据结构和函数API。
+* [OstermillerUtils](https://ostermiller.org/utils/)：OstermillerUtils是一组开源的Java实用程序。
 
 ## Bean映射&复制
 
@@ -3395,6 +3401,7 @@
 * [LogEvents](https://github.com/jhannes/logevents)：LogEvents是一个小型日志记录框架，构建在SLF4J之上。
 * [Scribe](https://github.com/outr/scribe)：Scribe从零开始构建，旨在在Scala、Scala.js和Scala Native中提供快速高效的日志记录。
 * [Woof](https://github.com/LEGO/woof)：一个纯粹的Scala 3日志库，没有运行时反射，由乐高开源。
+* [Log4k](https://github.com/smyrgeorge/log4k)：适用于Kotlin多平台的全面日志记录和跟踪解决方案。
 * [Stream Log](https://github.com/GetStream/stream-log)：Stream Log是Kotlin Multiplatform的轻量级且可扩展的记录器库。
 
 #### 日志采集
@@ -3503,6 +3510,7 @@
 * [CarbonJ](https://github.com/salesforce/carbonj)：CarbonJ是Carbon Cache和Carbon Relay的直接替代品，它在设计时考虑了高性能读写吞吐量，由Salesforce开源。
 * [RubiX](https://github.com/qubole/rubix)：RubiX是一个可供大数据引擎使用的轻量级数据缓存框架。
 * [IgDiskCache](https://github.com/facebookarchive/ig-disk-cache)：IgDiskCache是一个容错的Android磁盘缓存库，由Instagram开源。
+* [Fuse](https://github.com/kittinunf/Fuse)：适用于Android的简单通用LRU缓存。
 
 #### 分布式缓存
 
