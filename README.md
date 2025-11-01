@@ -1873,6 +1873,7 @@
 * [Cloudflow](https://github.com/lightbend/cloudflow)：Cloudflow使用户能够在Kubernetes上快速开发、编排和操作分布式流应用程序，由Lightbend开源。
 * [Table Computing](https://github.com/alibaba/table-computing)：Table Computing是一个分布式轻量级、高性能、低延迟的流式处理和数据分析框架，由阿里开发。
 * [Dagger](https://github.com/raystack/dagger)：Dagger是一个易于使用、通过代码进行配置的云原生框架，构建在Flink之上，用于实时流数据的状态处理。
+* [S4](https://github.com/s4/core)：S4是一个通用、分布式、可扩展、部分容错、可插拔的平台，它允许程序员轻松开发用于处理连续无界数据流的应用程序，由Yahoo开源。
 
 #### ETL工具
 
