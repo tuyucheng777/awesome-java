@@ -3129,6 +3129,7 @@
 * [Nightweb](https://github.com/oakes/Nightweb)：Nightweb是一款适用于Android设备和PC的应用，可帮助你连接到匿名的点对点社交网络。
 * [Xeres](https://github.com/zapek/Xeres)：Xeres是一款朋友之间、去中心化且安全的通信和共享应用程序。
 * [Hive2Hive](https://github.com/Hive2Hive/Hive2Hive)：Hive2Hive是一个用Java编写的开源库，用于安全、分布式、基于P2P的文件同步和共享。
+* [Near](https://github.com/adroitandroid/Near)：Near是适用于Android的P2P库，用于使用UDP在本地网络上进行发现，并使用TCP套接字进行传输。
 
 #### SDN
 
