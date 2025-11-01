@@ -8262,6 +8262,7 @@
 * [RdbmsSyncTool](https://gitee.com/xwintop/x-RdbmsSyncTool)：RdbmsSyncTool是使用JavaFX开发的关系型数据库同步工具。
 * [DBCompare](https://gitee.com/yisin/DBCompare)：DBCompare是使用Java Swing开发的一款数据库表结构对比工具，可以对比两个不同的数据库中表结构是否一致。
 * [SqlBrowserFX](https://github.com/pariskol/sqlbrowserfx)：SqlBrowserFX是一个功能丰富的跨平台SQL客户端，适用于SQLite、MySQL、MariaDB和PostgreSQL。
+* [Turacos](https://github.com/alanni-tom/Turacos)：Turacos是一款专业的多数据库安全评估工具，支持PostgreSQL、MySQL、Redis、MSSQL等多种数据库的后渗透操作。
 
 #### 数据库建模
 
@@ -8460,14 +8461,4 @@
 * [Slimefun4](https://github.com/Slimefun/Slimefun4)：Slimefun是一个插件，旨在将你的Spigot服务器变成一个Modpack，而无需安装任何Mod。
 * [MCreator](https://github.com/MCreator/MCreator)：MCreator是一款用于制作Minecraft Java版模组、Minecraft Bedrock版附加组件和数据包的软件，使用直观易学的界面或集成代码编辑器。
 * [Minosoft](https://github.com/Bixilon/Minosoft)：Minosoft是一个开源的Minecraft客户端，用Kotlin和Java从头开始编写。
-* [PojavLauncher iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS)：PojavLauncher是一款适用于Android、iOS和iPadOS的Minecraft Java版启动器。
-
-#### 游戏服务器
-
-* [Lila](https://github.com/lichess-org/lila)：Lila是一款免费的在线国际象棋游戏服务器，专注于实时游戏玩法和易用性。
-* [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：NettyGameServer是基于Netty 4.X实现的手机游戏分布式服务器，支持TCP、UDP、HTTP、WebSocket链接。
-* [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
-* [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式java游戏服务器。
-* [AiJ](https://gitee.com/xiyoufang/aij)：AiJ是一套完整的房间类游戏解决方案，支持无限水平扩展来满足更大的人数承载，并且提供了良好的调试接口。
-* [Summer](https://github.com/SwingFrog/Summer)：Summer是一个轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
-* [JForGame](https://github.com/kingston-csj/jforgame)：JForGame是
+* [PojavLauncher iOS]
