@@ -497,6 +497,7 @@
 * [Selenium Grid Extensions](https://github.com/sterodium/selenium-grid-extensions)：Selenium Grid扩展，用于更好的UI测试。
 * [VertxUI](https://github.com/nielsbaloe/vertxui)：纯100% Java响应式客户端网页，具有POJO流量、JUnit GUI测试、声明式模型视图、自动浏览器重新加载等。
 * [Docker Maven Chrome](https://github.com/markhobson/docker-maven-chrome)：用于Java自动化UI测试的Docker镜像。
+* [Kdriver](https://github.com/cdpdriver/kdriver)：Kdriver是一个极快、协程优先、无法检测的Kotlin网页抓取/浏览器自动化库。
 
 #### Cucumber库
 
@@ -1101,6 +1102,7 @@
 * [JRedisJSON](https://github.com/RedisJSON/JRedisJSON)：Redis RedisJSON的Java客户端。
 * [Redis OM Spring](https://github.com/redis/redis-om-spring)：Redis OM Spring扩展了Spring Data Redis，以充分利用Redis和Redis Stack。
 * [Kreds](https://github.com/crackthecodeabhi/kreds)：Kreds是一个线程安全、惯用、基于协程的Redis客户端。
+* [Redisun](https://gitee.com/smartboot/redisun)：Redisun是一个基于Smart Socket开发的轻量级Redis客户端。
 * [RedisClient](https://github.com/caoxinyu/RedisClient)：RedisClient是一个基于Java SWT和Jedis编写的Redis客户端GUI工具。
 * [HotKey](https://gitee.com/jd-platform-opensource/hotkey)：京东App后台中间件，毫秒级探测热点数据，毫秒级推送至服务器集群内存，大幅降低热key对数据层查询压力。
 * [Redis Admin](https://github.com/mauersu/redis-admin)：Redis Admin是一个基于Java EE和Jedis编写的Redis客户端Web工具。
@@ -2772,6 +2774,9 @@
 * [Power Flows DMN](https://github.com/powerflows/powerflows-dmn)：Power Flows DMN是一个强大的决策引擎。
 * [Rulette](https://github.com/kislayverma/Rulette)：Rulette是一个轻量级、与领域无关的规则建模、存储和评估引擎。
 * [Dyna Guard](https://gitee.com/vd3/dyna-guard)：Dyna Guard是一个基于Java的动态校验框架。
+* [OpenRules](https://openrulesdecisionmanager.com/)：OpenRules是一个具有强大规则引擎的业务规则管理系统。
+* [Visual Rules](https://flagleader.com/list.php?pid=1&ty=8&tty=34)：旗正规则引擎是由国家科技部和财政部的创新基金支持开发的一款业务规则管理系统(BRMS)产品。
+* [Dataframe Rules Engine](https://github.com/databrickslabs/dataframe-rules-engine)：用于自定义数据帧/数据集验证的可扩展规则引擎，由Databricks开源。
 
 ## 状态机
 
@@ -3782,6 +3787,9 @@
 * [Daff](https://github.com/paulfitz/daff)：这是一个用于比较表格、生成其差异摘要并将此类摘要用作补丁文件的库。
 * [CSV Utils](https://ostermiller.org/utils/CSV.html)：用于读取和写入CSV文本文件的工具类。
 * [CsvJdbc](https://github.com/simoc/csvjdbc)：CsvJdbc是一个只读JDBC驱动程序，它使用CSV文件或DBF文件作为数据库表，非常适合编写数据导入程序或分析日志文件。
+* [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper)：SimpleFlatMapper提供了一个非常快速且易于使用的映射器。
+* [CSV Validator](https://github.com/digital-preservation/csv-validator)：CSV Validator是一个CSV验证和报告工具，它实现了CSV模式语言。
+* [GroovyCSV](https://github.com/xlson/groovycsv)：GroovyCSV是一个Groovy库，旨在使读写CSV数据更容易。
 * [Deephaven CSV](https://github.com/deephaven/deephaven-csv)：Deephaven CSV库是一个高性能、面向列、类型推断的CSV解析器。
 * [PicoCSV](https://github.com/nbbrd/picocsv)：Java的轻量级CSV库。
 * [BeanIO](https://github.com/beanio/beanio)：用于从XML、CSV、分隔和固定长度流格式编组和解组Bean对象的Java库。
@@ -4702,6 +4710,7 @@
 * [Assistant](https://github.com/Geniusay/Assistant)：Assistant是一个基于Spring Boot框架的后端开发工具。
 * [Dew](https://github.com/gudaoxuri/dew)：微服务一站式解决方案，提供架构指南、容器优先/兼容Spring与Service Mesh的框架、最佳实践。
 * [AngusInfra](https://github.com/xcancloud/AngusInfra)：AngusInfra是一个基于Spring Boot的快速开发基础框架，由晓蚕云公司开源。
+* [Angular Node Java AI](https://github.com/ganatan/angular-node-java-ai)：Angular 20全栈Starter，配套Node.js、Spring Boot和AI。
 
 #### 后台管理系统
 
