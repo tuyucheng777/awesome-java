@@ -1832,6 +1832,8 @@
 * [JsonLogic Java](https://github.com/jamsesso/json-logic-java)：不使用Nashorn JS引擎的纯Java实现JsonLogic。
 * [JsonTemplate](https://github.com/json-template/JsonTemplate)：一个生成JSON字符串的Java工具。
 * [xJsonKit](https://gitee.com/troyzhxu/xjsonkit)：xJsonKit是一个超轻量级JSON/JSONB/XML/YAML解析门面API。
+* [Tethys](https://github.com/tethys-json/tethys)：Tethys是用于Scala的无AST JSON库。
+* [JsonPathKt](https://github.com/eygraber/JsonPathKt)：Kotlin Multiplatform中更轻量级、更高效的JsonPath实现。
 
 #### JSON Schema
 
@@ -5463,6 +5465,7 @@
 
 * [Apache Usergrid](https://github.com/apache/usergrid)：Usergrid是一个基于RESTful API的用于Web和移动应用程序的多租户后端即服务堆栈，由Apigee开发。
 * [Para](https://github.com/Erudika/para)：Para是一个可扩展的多租户后端服务器/框架，用于对象持久化和检索。
+* [AipexBase](https://gitee.com/kuafuai/aipexbase)：AipexBase是由跨赴科技开源的AI原生BaaS平台。
 * [BaasBox](https://github.com/baasbox/baasbox)：BaasBox是一个开源项目，旨在为移动和Web应用程序提供后端。
 * [SwellRT](https://github.com/SwellRT/swellrt)：SwellRT是一个开源后端即服务，它提供预构建的功能来加速协作Web应用程序的开发。
 * [Appwrite](https://github.com/appwrite/sdk-for-android)：Appwrite是一个用于开发Web、移动和Flutter应用程序的后端平台。
@@ -6230,6 +6233,13 @@
 * [MQTTX](https://github.com/Amazingwujun/mqttx)：MQTTX基于MQTT v3.1.1协议开发，旨在提供易于使用且性能优越的MQTT Broker。
 * [IoT MQTT Server](https://gitee.com/recallcode/iot-mqtt-server)：轻量级物联网MQTT服务器，支持集群。
 * [KMQTT](https://github.com/davidepianca98/KMQTT)：KMQTT是Kotlin多平台MQTT 3.1.1/5.0客户端和代理，目的是针对最多可能的构建目标。
+* [MonsterMQ](https://github.com/vogler75/monster-mq)：MonsterMQ是一个基于Vert.X和Hazelcast构建的MQTT代理。
+* [Zer0MQTTServer](https://github.com/zer0Black/zer0MQTTServer)：使用Java AIO实现的MQTT协议服务器，用于推送和IM聊天。
+* [IoT Harbor](https://github.com/1ssqq1lxr/iot-harbor)：Reactor Netty库实现的MQTT Server。
+* [Vert.x MQTT](https://github.com/vert-x3/vertx-mqtt)：Vert.x MQTT提供MQTT提供服务器和客户端组件。
+* [Netty MQTT Client](https://github.com/xzc-coder/netty-mqtt-client)：基于Netty实现的MQTT 3及MQTT 5协议的客户端。
+* [MQTT/UDP](https://github.com/dzavalishin/mqtt_udp)：MQTT/UDP是源自MQTT的基于UDP广播/组播的协议。
+* [Courier](https://github.com/gojek/courier-android)：Courier是一个Kotlin库，用于使用MQTT协议创建长时间运行的连接。
 
 #### 车联网
 
@@ -7600,6 +7610,7 @@
 * [Swing Material](https://github.com/leMaik/swing-material)：Swing的Material Design组件和实用程序的集合。
 * [KControls](https://github.com/k33ptoo/KControls)：KControls专为Java Swing打造，旨在美化用户界面，赋予UI现代化的外观。
 * [SwingTree](https://github.com/globaltcad/swing-tree)：SwingTree是一个基于Swing的UI框架，用于流式地创建无样板代码且基于组合的Swing用户界面。
+* [Sway](https://github.com/tbee/sway)：Java Swing UI框架的更现代风格的API。
 
 #### Swing组件库
 
