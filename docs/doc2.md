@@ -4811,6 +4811,8 @@
 * [FrSimple](https://gitee.com/frsimple/frsimple-boot)：一个开箱即用的中后端解决方案。
 * [YF](https://gitee.com/fateyifei/yf)：YF后台管理系统，使用Spring Boot 3、Java 21、Vue 3和TypeScript开发。
 * [Naive Admin](https://www.naiveadmin.com/)：开箱即用的企业级前后端框架。
+* [PanisBoot](https://github.com/paynezhuang/panis-boot)：PanisBoot是一款现代化的后台管理系统脚手架，基于Spring Boot 3进行开发。
+* [EMS Admin](https://github.com/ems-admin/ems-admin-vue3)：EMS Admin是一套极简的后台管理系统。
 
 #### 低代码
 
@@ -5256,6 +5258,7 @@
 * [EAIRP](https://github.com/eairps/eairp)：开源Sass AI ERP系统。
 * [Production SSM](https://github.com/megagao/production_ssm)：这是一个SSM、jQuery、EasyUI开发的ERP系统。
 * [MagicERP](https://gitee.com/javastore/magic-erp-ui)：MagicERP是使用Java语言开发，基于Spring Boot 2.X架构体系构建的一套ERP系统。
+* [Avalon](https://gitee.com/ShinraL/avalon)：Java版前后分离快速开发ERP平台，基于开源技术栈精心打造，融合Vue 3、Spring Boot。
 
 #### CRM系统
 
@@ -5304,6 +5307,7 @@
 * [DAT](https://github.com/junjiem/dat)：DAT让业务人员能够用自然语言直接与数据库对话，无需编写复杂的SQL查询。
 * [AstronRPA](https://github.com/iflytek/astron-rpa)：AstronRPA是一个全能型的机器人流程自动化开发工具，为企业和开发者提供从设计到部署的全流程RPA自动化解决方案，由科大讯飞开源。
 * [TalkX](https://github.com/big-mouth-cn/talkx)：TalkX是一个开源的大模型聊天平台，界面适配移动端，并且衍生出了编程插件、小智ESP智能机器人等能力。
+* [Quill AI](https://github.com/Feynix2004/Quill-AI)：Quill AI是一个基于大模型(LLM)和多能力平台(MCP)的智能Agent构建平台。
 
 #### OA系统
 
@@ -5699,6 +5703,7 @@
 * [Spring Boot Starter Calma](https://github.com/marvinSpring/spring-boot-starter-calma)：异常通知框架。
 * [Prometheus Spring Boot Starter](https://gitee.com/ITEater/prometheus-spring-boot-starter)：管理异常通知的Spring Starter，实现了钉钉消息提醒与邮件提醒，同时加入了微服务的服务异常提醒。
 * [HawkEye](https://gitee.com/liuhao3169/hawk-eye)：HawkEye通过监控Error级别的异常实现告警推送与日志记录。
+* [Exception Notify](https://github.com/GuangYiDing/exception-notify)：Exception Notify是一个Spring Boot Starter组件，用于捕获Spring Boot应用中未处理的异常，并通过钉钉、飞书或企业微信实时告警通知。
 
 ## APN
 
@@ -8257,6 +8262,7 @@
 * [RdbmsSyncTool](https://gitee.com/xwintop/x-RdbmsSyncTool)：RdbmsSyncTool是使用JavaFX开发的关系型数据库同步工具。
 * [DBCompare](https://gitee.com/yisin/DBCompare)：DBCompare是使用Java Swing开发的一款数据库表结构对比工具，可以对比两个不同的数据库中表结构是否一致。
 * [SqlBrowserFX](https://github.com/pariskol/sqlbrowserfx)：SqlBrowserFX是一个功能丰富的跨平台SQL客户端，适用于SQLite、MySQL、MariaDB和PostgreSQL。
+* [Turacos](https://github.com/alanni-tom/Turacos)：Turacos是一款专业的多数据库安全评估工具，支持PostgreSQL、MySQL、Redis、MSSQL等多种数据库的后渗透操作。
 
 #### 数据库建模
 
