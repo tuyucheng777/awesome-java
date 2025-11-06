@@ -866,6 +866,7 @@
 * [ScalaSql](https://github.com/com-lihaoyi/scalasql)：ScalaSql是一个Scala ORM库，它允许对SQL数据库进行类型安全的低样板查询。
 * [Entity SQL](https://github.com/wb04307201/entity-sql)：Entity SQL是一个轻量级的Java ORM工具库。
 * [Kotysa](https://github.com/ufoss-org/kotysa)：轻量级ORM，提供为JVM和Android编写Kotlin类型安全SQL的惯用方法。
+* [VeasionDB](https://github.com/veasion/veasion-db)：VeasionDB是一个轻量级持久层ORM框架。
 
 #### JDBC框架
 
@@ -2728,6 +2729,7 @@
 * [Neuro4j](https://github.com/eternita/workflow)：Neuro4j是一款轻量级的Java工作流引擎，基于Eclipse开发环境。
 * [CIB Seven](https://github.com/cibseven/cibseven)：CIB Seven是一个灵活的工作流和流程自动化框架。
 * [Kikwiflow](https://github.com/atoxfy/kikwiflow)：Kikwiflow是一个从零开始构建的流程编排引擎，旨在解决传统平台的长期痛点。
+* [Serverless Workflow](https://github.com/serverlessworkflow/sdk-java)：Serverless Workflow是一个开源、供应商中立且社区驱动的项目，它通过其高级DSL重新定义了工作流创建。
 
 ## 编排引擎
 
@@ -2791,6 +2793,7 @@
 * [nFlow](https://github.com/NitorCreations/nflow)：nFlow是一种经过验证的用于编排业务流程的解决方案。
 * [Mensa](https://github.com/QSFT/Mensa)：Mensa是一种通用、灵活、增强且高效的模式匹配状态机的Java实现，由Dell开源。
 * [Winder](https://github.com/eBay/Winder)：Winder是一个基于Quartz的简单状态机，由eBay开源。
+* [StateSmith](https://github.com/StateSmith/StateSmith)：StateSmith是一个跨平台、免费/开源的工具，用于生成多种编程语言的状态机。
 * [State Machine](https://github.com/davidmoten/state-machine)：Java的有限状态机类生成器。
 * [Makina](https://github.com/clnhlzmn/makina)：Makina是一个分层状态机源到源转换器，它将状态机描述作为输入并生成这些状态机的C语言实现。
 * [JState](https://github.com/UnquietCode/JState)：Java中的高级状态机。
@@ -2979,6 +2982,7 @@
 * [Kolor](https://github.com/ziggy42/kolor)：Kolor是一个使用Kotlin打印彩色字符串的库。
 * [Tree Printer](https://github.com/davidsusu/tree-printer)：用于在命令行中可视化树结构的简单Java库。
 * [PrettyPrintTree](https://github.com/AharonSambol/PrettyPrintTreeJava)：该包允许你以可读的方式打印树数据结构。
+* [Chalk](https://github.com/tomas-langer/chalk)：Chalk专注于Java中的跨平台标准输出着色。
 
 #### 文本表
 
@@ -3951,6 +3955,7 @@
 * [Markdown To AsciiDoc](https://github.com/markdown-asciidoc/markdown-to-asciidoc)：一个小型、轻量级的Markdown到AsciiDoc转换器，用Java编写，基于Pegdown。
 * [MDTool](https://github.com/cevin15/MDTool)：一个可以将Markdown转换为HTML的工具。
 * [Markdown Toc](https://github.com/houbb/markdown-toc)：Markdown Toc可以用来生成Markdown页面的目录，便于Github页面展现。
+* [MarkItDown Java](https://github.com/DuanYan007/markitdown-java)：微软MarkItDown的Java重写版本，将各种文档格式转换为Markdown。
 
 #### EditorConfig库
 
@@ -5473,6 +5478,7 @@
 * [Judgels](https://github.com/ia-toki/judgels)：Judgels是一个现代编程竞赛系统。
 * [ZuiOJ](https://github.com/DaZuiZui/ZuiOJ)：基于Spring Boot、Spring Cloud、Vue的开源在线代码评委系统。
 * [D-OnlineJudge](https://github.com/Decade-qiu/D-OnlineJudge)：D-OnlineJudge是一个全栈在线编程平台，采用基于Spring Cloud的微服务架构和Vue 3前端。
+* [XMKY Exam](https://gitee.com/qq1247/xmky-exam)：小猫考试是一款开源免费的企业在线考试系统。
 
 #### BaaS
 
