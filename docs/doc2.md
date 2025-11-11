@@ -1989,6 +1989,7 @@
 * [Toml4j](https://github.com/mwanji/toml4j)：Toml4j是一个用于Java的TOML 0.4.0解析器。
 * [KToml](https://github.com/orchestr7/ktoml)：完全原生且跨平台的Kotlin序列化库，用于序列化/反序列化Toml格式。
 * [JToml](https://github.com/agrison/jtoml)：这是使用Java的TOML标记语言的解析器。
+* [Tomlkt](https://github.com/Peanuuutz/tomlkt)：内置支持kotlinx.serialization的多平台TOML库。
 
 ## GraphQL
 
@@ -4729,6 +4730,7 @@
 * [Angular Node Java AI](https://github.com/ganatan/angular-node-java-ai)：Angular 20全栈Starter，配套Node.js、Spring Boot和AI。
 * [Twitter Bootstrap Scaffolding](https://github.com/robfletcher/twitter-bootstrap-scaffolding)：Twitter Bootstrap支持的Grails脚手架模板。
 * [Kotlin Swagger Spring Functional](https://github.com/cdimascio/kotlin-openapi-spring-functional-template)：Kotlin Spring WebFlux的项目模板。
+* [Macula Boot](https://github.com/macula-projects/macula-boot)：Macula是一个微服务应用开发平台。
 
 #### 后台管理系统
 
@@ -5182,6 +5184,15 @@
 * [Dice](https://github.com/bihell/Dice)：Dice是一个前后端分离的个人内容管理(CMS)系统。
 * [CMS Boot](https://github.com/buttasam/cms-boot)：一个基于Spring Boot和SQL数据库构建的轻量级、灵活且可扩展的内容管理系统。
 * [WX Manage](https://github.com/niefy/wx-manage)：WX Manage是一个公众号管理系统，支持多公众号接入。
+* [JProcms](https://gitee.com/jprocms/jprocms-cloud)：Java开源内容管理系统、建站系统。
+* [YoungCMS](https://gitee.com/fumiao/opencms)：Java编写的CMS系统。
+* [Jahia CMS](https://www.jahia.com/product/content-management-system)：Jahia CMS是一个成熟且经过验证的解决方案，可帮助你在全球范围内创建、管理和发布内容。
+* [KenSite](https://gitee.com/seeyoui/kensite_cms)：KenSite是基于多个优秀的开源项目，高度整合封装而成的高效、高性能、强安全性的开源Java EE快速开发平台。
+* [TeaCMS](https://gitee.com/xiaobingby/TeaCMS)：TeaCMS是由Spring、Spring MVC、MyBatis、MySQL数据库开发的一个博客系统。
+* [WxCMS](https://gitee.com/live.cn/wxcms)：微讯是基于JFinal、Shiro、LayUI、Freemarker、UEditor、MySQL等框架和技术结合Maven多模块方式构建开发的一款通用内容发布系统。
+* [Zhige](https://gitee.com/Getawy/zhige)：止戈是一款基于Java开发的建站系统，上手简单，支持不同站点的建设。
+* [EasyCMS](https://gitee.com/sid_jiang/easycms)：简单的Java CMS系统。
+* [Zhi](https://gitee.com/free4inno-team/zhi)：知了是一款面向中小型团队的轻量化知识管理应用，由北京邮电大学开源。
 
 #### 博客系统
 
@@ -5252,6 +5263,7 @@
 * [Tatami](https://github.com/ippontech/tatami)：Tatami是一个开源企业社交网络，由Ippon开源。
 * [Rhythm](https://github.com/FishPiOffical/rhythm)：Rhythm社区系统，超丰富的社区功能，基于Symphony社区版深度定制。
 * [OpenIsle](https://github.com/nagisa77/OpenIsle)：OpenIsle是一个使用Spring Boot和Vue 3构建的全栈开源社区平台。
+* [Spring Boot Forum](https://github.com/weiqingwen/spring-boot-forum)：简易微论坛、内容管理系统。
 
 #### ERP系统
 
@@ -5458,6 +5470,7 @@
 * [Liferay Portal](https://github.com/liferay/liferay-portal)：Liferay是一个现成的，即开即用的，功能完备的门户网站。
 * [Apereo uPortal](https://github.com/uPortal-Project/uPortal)：uPortal是由高等教育界构建并为其服务的领先开源企业门户框架，由威斯康星大学开源。
 * [Silverpeas](https://github.com/Silverpeas/Silverpeas-Core)：Silverpeas是一个基于Java的开源协作门户解决方案。
+* [MyWebSite](https://gitee.com/out-project/mywebsite)：Spring Boot搭建的公司官网门户系统。
 
 #### 教育软件
 
@@ -9508,6 +9521,7 @@
 * [Mapbox Java SDK](https://github.com/mapbox/mapbox-java)：Mapbox Java SDK包含路线、地理编码以及更多可在Android或Java应用程序中使用的API。
 * [GB2260.java](https://github.com/cn/GB2260.java)：查找中国行政区划的Java实现。
 * [Trilateration](https://github.com/lemmingapex/trilateration)：使用非线性最小二乘优化器解决N维空间三边测量问题的公式。
+* [Compass](https://github.com/jordond/compass)：Compass是一个Kotlin多平台库定位工具包。
 
 #### 坐标库
 
