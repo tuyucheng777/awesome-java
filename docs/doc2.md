@@ -1798,6 +1798,8 @@
 * [QSON](https://github.com/quarkusio/qson)：QSON是一个对象到JSON的映射器，由Quarkus使用。
 * [Play JSON](https://github.com/playframework/play-json)：Play JSON是一个功能强大的Scala JSON库，最初由Play团队开发，用于Play框架。
 * [Instagram JSON Parser](https://github.com/Instagram/ig-json-parser)：用于Java项目的快速JSON解析器，由Instagram开源。
+* [JsonToKotlinClass](https://github.com/wuseal/JsonToKotlinClass)：JsonToKotlinClass是一个从JSON字符串生成Kotlin的插件。
+* [Spray JSON](https://github.com/spray/spray-json)：Spray JSON是Scala中轻量级、干净且高效的JSON实现。
 * [Minimal JSON](https://github.com/ralfstx/minimal-json)：Minimal Json是用于Java的快速且最小的JSON解析器和编写器。
 * [Json Smart](https://github.com/netplex/json-smart-v2)：Json Smart是一个高性能JSON处理器库。
 * [JSON Sanitizer](https://github.com/OWASP/json-sanitizer)：JSON Sanitizer可以将类似JSON的内容转换为有效的JSON，由OWASP开源。
@@ -4980,6 +4982,9 @@
 * [NbSaaS Mall2](https://gitee.com/quhaodian/nbsaas-mall2)：去好店基于中台理念，一个平台，多个应用，根据不通的应用场景使用不同的应用。
 * [Xiaomi](https://github.com/ZeroWdd/Xiaomi)：基于Vue、Spring Boot实现的前后端分离的仿小米商城项目，包含秒杀模块。
 * [UZY SSM Mall](https://github.com/ghostxbh/uzy-ssm-mall)：基于Spring Boot框架搭建的电子商务平台手脚架。
+* [LDBZ Shop](https://github.com/laodaobazi/ldbz-shop)：Java分布式商城项目。
+* [TacoMall](https://github.com/realjerrytang/tacomall)：塔可商城是一个基于Spring Boot 3、Uniapp、Vue3 技术栈开发的开源跨平台小程序、管理后台，后端服务的项目。
+* [Siam](https://github.com/siam1026/siam-server)：暹罗点餐是一款Java餐饮点餐系统，适用于多门店的连锁品牌。
 
 #### 秒杀系统
 
@@ -5194,6 +5199,8 @@
 * [Zhige](https://gitee.com/Getawy/zhige)：止戈是一款基于Java开发的建站系统，上手简单，支持不同站点的建设。
 * [EasyCMS](https://gitee.com/sid_jiang/easycms)：简单的Java CMS系统。
 * [Zhi](https://gitee.com/free4inno-team/zhi)：知了是一款面向中小型团队的轻量化知识管理应用，由北京邮电大学开源。
+* [JeeCMS](https://www.jeecms.com/)：JeeCMS是基于Java、Vue、Spring Boot等技术研发的开源内容管理系统。
+* [Asbru Web](https://wcm.asbrusoft.com/)：Asbru Web内容管理系统包括全方位的先进和强大的功能，以支持业务需求并简化小型和简单网站以及大型复杂网站的开发。
 
 #### 博客系统
 
@@ -5582,6 +5589,11 @@
 * [POP Commerce](https://github.com/moqui/PopCommerce)：POP Commerce是一个简单的电子商务应用程序和一个管理应用程序。
 * [Macha](http://macha.machanism.org/index.html)：Macha项目是一个模块化且可扩展的框架，专为构建强大的电商应用而设计。
 * [Memberclub](https://github.com/juejin-wuyang/memberclub)：Memberclub是面向电商C端业务的快速开发平台。
+* [Online Shop Application](https://github.com/zhulinn/SpringBoot-Angular7-Online-Shopping-Store)：使用Spring Boot 2和Angular 7的全栈在线商店Web应用程序。
+* [Vert.x Microservice Blueprint](https://github.com/sczyh30/vertx-blueprint-microservice)：Vert.x Microservice Blueprint是使用Vert.x开发的微商店微服务应用程序。
+* [ECommerce Spring ReactJS](https://github.com/merikbest/ecommerce-spring-reactjs)：使用Spring Boot和React.js开发的电子商务项目。
+* [Shopping Cart](https://github.com/shashirajraja/shopping-cart)：Java、JDBC、Servlets、JSP中的在线购物车电子商务网站项目。
+* [Keyist Ecommerce](https://github.com/antkaynak/Keyist-Ecommerce)：一个由Spring Boot、Angular 10、Ngrx、OAuth2提供支持的简单电子商务网站。
 
 ## 支付
 
