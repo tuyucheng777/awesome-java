@@ -3470,6 +3470,7 @@
 * [Barcode Java](https://github.com/barnhill/barcode-java)：该库旨在为开发人员提供一个简单的类，供开发人员在需要从一串数据生成条形码图像时使用。
 * [SwissQRBill](https://github.com/manuelbl/SwissQRBill)：用于生成和解码瑞士二维码钞票的开源Java库。
 * [Barcode Lib4J](https://github.com/vws-java/Barcode-Lib4J)：Barcode Lib4J是一个成熟且久经考验的Java库，用于绘制、打印和保存一维和二维条形码为矢量(PDF、EPS、SVG)和光栅图像(PNG、BMP、JPG)。
+* [UIC Barcode](https://github.com/UnionInternationalCheminsdeFer/UIC-barcode)：UIC Barcode提供了一个库，用于根据UIC IRS 90918-9和EU TAP-TSI TD B.12对条码的条码内容进行编码和解码。
 
 #### 水印
 
