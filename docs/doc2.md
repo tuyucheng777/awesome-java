@@ -4972,6 +4972,12 @@
 * [Mall](https://gitee.com/zscat/mall)：Mall项目是一套电商系统，包括前台商城系统及后台管理系统、小程序、H5，基于Spring Boot + MyBatis实现。
 * [ShopJsp](http://www.shopjsp.com/)：B2B2C多用户商城系统。
 * [三勾商城](https://www.jjjshop.net/single_java)：三勾Java商城基于Spring Boot、Element Plus、Uniapp打造的面向开发的小程序商城，方便二次开发或直接使用。
+* [九米农庄](https://gitee.com/xiaoxiangopen/mall)：九米农庄项目是一款围绕以农产品销售为主的电商小程序项目产品。
+* [创创猫](https://gitee.com/luochangqing/ccm-b2b2c-uniapp)：创创猫是一款完善且经过线上验证的Java电商系统。
+* [Payshop](https://gitee.com/JiaGou-XiaoGe/payshop)：基于Spring Boot、Spring Security、JWT、Vue、Element的前后端分离多商户商城管理系统。
+* [TMall](https://gitee.com/HaiTao87/TmallDemo)：迷你天猫商城是一个基于SSM框架的综合性B2C电商平台。
+* [Weshop](https://gitee.com/cjbi/weshop)：Weshop是基于Spring Cloud开发的小程序商城系统。
+* [清大商城](https://gitee.com/zhejiang-qingda-university/mallplus-b2b2c)：清大Java商城基于Spring Boot。
 * [B2B2B](https://www.shushangyun.com/p-b2b2b/)：数商云B2B2B电商平台交易系统是一款专注于B2B2B电商交易的综合解决方案，旨在帮助企业构建和管理B2B2B电商平台，实现供应链整合和交易便捷化。
 * [SHOP++](https://www.shopxx.net/)：SHOP++是基于Java EE技术的企业级电子商务平台系统。
 * [Javashop](https://www.enation.cn/)：Javashop支持全业务模式电商系统。
@@ -5350,6 +5356,7 @@
 * [AstronRPA](https://github.com/iflytek/astron-rpa)：AstronRPA是一个全能型的机器人流程自动化开发工具，为企业和开发者提供从设计到部署的全流程RPA自动化解决方案，由科大讯飞开源。
 * [TalkX](https://github.com/big-mouth-cn/talkx)：TalkX是一个开源的大模型聊天平台，界面适配移动端，并且衍生出了编程插件、小智ESP智能机器人等能力。
 * [Quill AI](https://github.com/Feynix2004/Quill-AI)：Quill AI是一个基于大模型(LLM)和多能力平台(MCP)的智能Agent构建平台。
+* [QiaoQiaoYun](https://github.com/jeecgboot/qiaoqiaoyun)：敲敲云是一款免费的AI零代码平台，助力企业快速实现搭建业务系统和构建AI应用。
 
 #### OA系统
 
@@ -6019,6 +6026,7 @@
 * [CoinExchange](https://gitee.com/cexchange/CoinExchange)：开源数字货币合约交易所，基于Java开发的比特币交易所、BTC交易所、ETH交易所、数字货币交易所、交易平台、撮合交易引擎。
 * [Bitrade](https://github.com/SevenEX/bitrade-parent)：七喜是一个基于ZTUO开源代码进行大量优化的数字货币交易系统。
 * [TradeBot](https://github.com/markusaksli/TradeBot)：TradeBot是一款使用Binance API的加密货币交易机器人。
+* [Coinc](https://github.com/newVkDing2/coinc)：Coinc是一个数字货币交易系统，基于Java开发的比特币交易所。
 
 #### 区块链SDK
 
@@ -8608,6 +8616,7 @@
 * [Raylib-J](https://github.com/CreedVI/Raylib-J)：Raylib-J是Raylib在Java中的手写绑定。
 * [Recast4j](https://github.com/ppiastucki/recast4j)：Recast和Detour导航网格工具集的Java端口。
 * [Slick2D](https://slick.ninjacave.com/)：Slick2D是一组易于使用的工具和实用程序，围绕LWJGL、OpenGL绑定，使2D Java游戏开发变得更加容易。
+* [Discord Game SDK4j](https://github.com/JnCrMx/discord-game-sdk4j)：该项目为Discord GameSDK提供Java绑定。 
 * [JInput](https://github.com/jinput/jinput)：用于访问输入设备的库，由Sun公司游戏技术小组发起。
 * [SquidLib](https://github.com/yellowstonegames/SquidLib)：SquidLib是一个功能非常齐全的库，部分目标是制作传统Roguelike和类似类型的游戏。
 * [Game](https://github.com/pacampbell/Game)：用于Java 2D游戏编程的类集合。
@@ -10143,6 +10152,7 @@
 * [Autumn](https://github.com/norswap/autumn)：Autumn是一个Java解析器组合器库。
 * [ParsecJ](https://github.com/jon-hanson/parsecj)：ParsecJ是一个用于构建LL(1)解析器的Java单子解析器组合器框架。
 * [Java PetitParser](https://github.com/petitparser/java-petitparser)：PetitParser结合了无扫描器解析、解析器组合器、解析表达式语法(PEG)和Packrat解析器的思想，将语法和解析器建模为可以动态重新配置的对象。
+* [Jar Jar Parse](https://github.com/BjoernLoetters/Jar-Jar-Parse)：Jar Jar Parse是一个轻量级库，专为Java中的解析器快速原型设计而设计。
 
 #### 源代码解析
 
