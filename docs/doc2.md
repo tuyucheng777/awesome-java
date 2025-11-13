@@ -921,6 +921,7 @@
 * [PgBulkInsert](https://github.com/PgBulkInsert/PgBulkInsert)：PgBulkInsert是一个使用二进制复制协议向PostgreSQL进行批量插入的Java库。
 * [Infobip Spring Data Querydsl](https://github.com/infobip/infobip-spring-data-querydsl)：Infobip Spring Data Querydsl使用户能够在Spring Data Repository之上利用Querydsl API的全部功能。
 * [SQLHelper](https://github.com/bes2008/sqlhelper)：基于Java的SQL工具。
+* [Uni Pagination](https://github.com/taoganio/uni-pagination)：Uni Pagination是一个基于Java的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。
 
 #### NoSQL库
 
@@ -1066,6 +1067,7 @@
 
 * [Screw](https://gitee.com/leshalv/screw)：Screw是一个简洁好用的数据库表结构文档生成器。
 * [APGDiff](https://github.com/fordfrog/apgdiff)：APGDiff是免费的PostgreSQL diff工具，可用于比较/差异数据库模式。
+* [Kviklet](https://github.com/kviklet/kviklet)：Kviklet采用四眼原则和高度可配置性，允许单个SQL语句或数据库会话使用类似拉取请求的审查和批准流程。 
 * [Databasir](https://github.com/vran-dev/databasir)：Databasir是面向团队的关系型数据库模型文档管理平台。
 * [Databench-T](https://gitee.com/caict-bigdata/databench-t)：Databench-T是面向金融核心业务系统场景的事务型数据库性能测试工具，由中国信通院云计算与大数据研究所联合北京银行、建设银行等企业共同设计开发。
 * [SQL Formatter](https://github.com/vertical-blank/sql-formatter)：仅依赖Java标准库的SQL格式化程序。
@@ -3402,6 +3404,7 @@
 * [NightMonkeys](https://github.com/gotson/NightMonkeys)：ImageIO插件集合，新增对较新图像格式的支持。
 * [Blurhash](https://github.com/vanniktech/blurhash)：Kotlin多平台库，可在你的Android应用程序、iOS/Mac应用程序和JVM后端中使用Blurhash。
 * [AVIF/HEIF Coder](https://github.com/awxkee/avif-coder)：该库提供了简单的接口来为Android解码或编码(创建)AVIF和HEIF图像。
+* [OpenSlide](https://github.com/openslide/openslide-java)：OpenSlide是一个用于读取整张幻灯片图像文件的C库，这是OpenSlide的Java绑定。
 
 #### 图像元数据
 
@@ -3571,6 +3574,7 @@
 
 * [Swagger](https://github.com/swagger-api/swagger-core)：Swagger是OpenAPI规范的Java实现。
 * [Knife4j](https://gitee.com/xiaoym/knife4j)：Knife4j是一个集Swagger 2和OpenAPI 3为一体的增强解决方案。
+* [Taxi](https://github.com/taxilang/taxilang)：Taxi是一种用于记录数据和API契约的语言。
 * [SmallRye OpenAPI](https://github.com/smallrye/smallrye-open-api)：SmallRye OpenAPI是Eclipse MicroProfile OpenAPI的一个实现，由RedHat开源。
 * [Zally](https://github.com/zalando/zally)：Zally是一个简约、易于使用的OpenAPI 2和3 Linter。
 * [Swaggy Swagger](https://github.com/Swaggy-Swagger/swagger-custom-java)：Swaggy Swagger是一个库，旨在增强API文档工具Swagger的功能和用户体验。
@@ -8851,6 +8855,7 @@
 * [JNI Bind](https://github.com/google/jni-bind)：JNI Bind是一个新的元编程库，为C++ => Java/Kotlin提供语法糖，Google开源。
 * [JBSE](https://github.com/pietrobraione/jbse)：JBSE是一个用于自动程序分析、验证和测试生成的符号Java虚拟机。
 * [Symbolic Java PathFinder](https://github.com/SymbolicPathFinder/jpf-symbc)：此JPF扩展为Java字节码提供符号执行，由NASA开源。
+* [Ideal](https://github.com/dynin/ideal)：实验性元编程框架。
 
 ## 对象存储
 
