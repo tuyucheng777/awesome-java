@@ -164,6 +164,7 @@
 * [Caliper](https://github.com/google/caliper)：Caliper是一个用于测量Java代码性能的工具，主要侧重于微基准测试，由Google开源。
 * [Criterium](https://github.com/hugoduncan/criterium)：Criterium测量表达式的计算时间，它旨在解决基准测试中的一些缺陷。
 * [ScalaMeter](https://github.com/scalameter/scalameter)：JVM平台的微基准测试和性能回归测试框架，由洛桑联邦理工学院开源。
+* [Kotlinx Benchmark](https://github.com/Kotlin/kotlinx-benchmark)：Kotlinx Benchmark是一个工具包，用于为用Kotlin编写的多平台代码运行基准测试。
 * [Yardstick](https://github.com/gridgain/yardstick)：Yardstick是一个用于编写基准测试的框架，由GridGain开源。
 * [Perfidix](https://github.com/sebastiangraf/perfidix)：Perfidix是一个轻量级Java库，使用户能够对源代码进行基准测试，由康斯坦茨大学开源。
 * [JLBH](https://github.com/OpenHFT/JLBH)：JLBH是一个可让你对在上下文中运行的代码进行基准测试(而不是在微基准测试中)的工具。
@@ -255,6 +256,7 @@
 * [Deepdive](https://github.com/jdlib/deepdive)：Deepdive是Java的流式断言库。
 * [Fest](https://github.com/alexruiz/fest-assert-2.x)：FEST-Assert为断言提供了流式的接口。
 * [Expekt](https://github.com/winterbe/expekt)：Expekt是一个基于Kotlin的BDD断言库，灵感源自Chai.js。
+* [Assertk](https://github.com/assertk-org/assertk)：Assertk是一个流式的Kotlin断言库，灵感来自AssertJ。
 * [AssertJ DB](https://github.com/assertj/assertj-db)：AssertJ DB提供断言来测试数据库中的值。
 * [ArchUnit](https://github.com/TNG/ArchUnit)：ArchUnit是一个免费、简单且可扩展的库，用于检查Java代码的架构。
 * [Confidence](https://github.com/saynotobugsorg/confidence)：Confidence是一个声明式Java断言框架。
@@ -987,6 +989,7 @@
 * [Stream Query](https://gitee.com/dromara/stream-query)：Stream Query允许完全摆脱Mapper的Mybatis Plus体验。
 * [OpenScope](https://gitee.com/mofum/open-scope)：OpenScope是一种轻量级、易维护的数据权限的解决方案，它能处理比较复杂的权限操作逻辑。
 * [Spring Data MyBatis](https://github.com/easybest/spring-data-mybatis)：该模块提供对基于MyBatis的数据访问层的增强支持。
+* [Easyquery](https://github.com/wwtg99/easyquery)：Easyquery可以通过定义查询对象和自动构建查询SQL来快速轻松地构建查询请求，例如过滤、搜索和排序，无需手动拼接SQL或组装查询代码。
 
 ## Hibernate库
 
@@ -1458,6 +1461,7 @@
 * [NacosExploitGUI](https://github.com/charonlight/NacosExploitGUI)：Nacos漏洞综合利用GUI工具，集成了默认口令漏洞、SQL注入漏洞、身份认证绕过漏洞、反序列化漏洞的检测及其利用。
 * [Fiora](https://github.com/bit4woo/Fiora)：漏洞PoC框架Nuclei的图形版。
 * [Poc2jar](https://github.com/f0ng/poc2jar)：Java编写，Python作为辅助依赖的漏洞验证、利用工具。
+* [Hyacinth](https://github.com/pureqh/Hyacinth)：一款Java漏洞集合工具。
 * [ThreadFix](https://github.com/denimgroup/threadfix)：ThreadFix是一个软件漏洞管理平台。
 * [Artillery](https://github.com/Weik1/Artillery)：Java插件化漏洞扫描器，GUI基于JavaFX，POC目前集成WebLogic、Tomcat、Shiro、Spring。
 * [JavaSecLab](https://github.com/whgojp/JavaSecLab)：JavaSecLab是一款综合型Java漏洞平台，提供相关漏洞缺陷代码、修复代码、漏洞场景、审计SINK点、安全编码规范、漏洞流量分析，覆盖多种漏洞场景。
@@ -2531,6 +2535,7 @@
 * [Compomics Utilities](https://github.com/compomics/compomics-utilities)：用于计算蛋白质组学的开源Java库，由根特大学开源。
 * [GKL](https://github.com/Intel-HLS/GKL)：GKL包含GATK和HTSJDK等基因组学应用程序中使用的计算内核的优化版本，由Intel开源。
 * [ADAM](https://github.com/bigdatagenomics/adam)：ADAM是一个库和命令行工具，支持使用Spark跨集群/云计算环境并行进行基因组数据分析，由加州大学伯克利分校、西奈山伊坎医学院、微软研究院等开源。
+* [FUNGA](https://github.com/bxx2004/FUNGA)：FUNGA是一个利用人工智能技术挖掘基因功能的平台。
 * [OpenCGA](https://github.com/opencb/opencga)：OpenCGA是一个开源项目，旨在为数百TB甚至PB级的基因组规模数据分析提供大数据存储引擎和分析框架，由剑桥大学计算生物学开源。
 * [HMFTools](https://github.com/hartwigmedical/hmftools)：该存储库包含全基因组、靶向DNA和全转录组分析流程中使用的工具套件，WiGiTS是一套通用的开源基因组和转录组分析工具，用于癌症研究和诊断，由哈特维格医学基金会开源。
 * [Drop-seq](https://github.com/broadinstitute/Drop-seq)：用于分析Drop-seq数据的Java和R工具，由麻省理工学院和哈佛大学布罗德研究所开源。
@@ -2720,6 +2725,7 @@
 * [Taverna](https://github.com/apache/incubator-taverna-engine)：Taverna是一个用于设计和执行工作流的开源软件工具，最初由曼彻斯特大学创建。
 * [Flo](https://github.com/spotify/flo)：Flo是一个轻量级的工作流定义库，由Spotify开发。
 * [AntFlow](https://gitee.com/tylerzhou/Antflow)：AntFlow是一款基于Activiti、久经生产环境考验的企业级低代码工作流引擎平台。
+* [Workflows4s](https://github.com/business4s/workflows4s)：Scala的简单、可组合、面向业务的工作流库。
 * [JWorkflow](https://github.com/danielgerlag/jworkflow)：JWorkflow是一个轻量级的Java工作流库，它支持可插拔的持久性和并发性提供程序，以支持多节点集群。
 * [YAWL](https://github.com/yawlfoundation/yawl)：YAWL是一个BPM/工作流系统，基于简洁而强大的建模语言，可处理复杂的数据转换，并与组织资源和外部Web服务完全集成。
 * [WarmFlow](https://gitee.com/dromara/warm-flow)：此项目是极其简单的工作流，没有太多设计，代码量少，并且只有6张表，由dromara社区开发。
@@ -2814,6 +2820,7 @@
 * [Redux Java](https://github.com/glung/redux-java)：Redux的Java版本，应用程序的可预测状态容器。
 * [Bansa](https://github.com/brianegan/bansa)：受Redux和Elm启发的Java和Kotlin状态容器。
 * [Grox](https://github.com/groupon/grox)：Grox有助于维护Java/Android应用程序的状态。
+* [Simple Statemachine](https://github.com/mapteb/simple-state-machine)：用于Spring Boot项目的简单Java状态机。
 
 ## 报表引擎
 
@@ -3898,6 +3905,7 @@
 * [XML Calabash](https://github.com/ndw/xmlcalabash1)：XML Calabash是XProc 3.1的一个实现。
 * [Ph Schematron](https://github.com/phax/ph-schematron)：Ph Schematron是一个Java库，它通过ISO Schematron、SchXslt或Java纯实现来验证XML文档。
 * [SimpleXML](https://github.com/ngallagher/simplexml)：Simple是一个高性能的Java XML序列化和配置框架。
+* [XOM](https://github.com/elharo/xom)：XOM是一个新的XML对象模型。
 
 #### HTML库
 
@@ -6142,6 +6150,7 @@
 #### 电子发票
 
 * [NFE](https://github.com/wmixvideo/nfe)：Java中的电子发票。
+* [Mustangproject](https://github.com/ZUGFeRD/mustangproject)：开源Java电子发票库、验证器和工具。
 * [Java_NFe](https://github.com/Samuel-Oliveira/Java_NFe)：用于使用NFe/NFCe WebService的Java库。
 * [RSHK JSIFENLib](https://github.com/roshkadev/rshk-jsifenlib)：RSHK JSIFENLib是一个开源库，无需外部依赖，通过Java与SIFEN(全国综合电子发票系统)进行交互。
 * [Billy](https://github.com/premium-minds/billy)：Billy是一个应用程序计费库，为应用程序提供创建、管理和存储计费工件(例如发票和贷方票据)的能力。
@@ -7855,11 +7864,13 @@
 * [GemsFX](https://github.com/dlsc-software-consulting-gmbh/GemsFX)：用于渲染SVG图像文件的控件，利用jsvg库，即使在缩放时也能确保高清质量。
 * [CalendarFX](https://github.com/dlsc-software-consulting-gmbh/CalendarFX)：用于创建基于JavaFX的复杂日历视图的Java框架。
 * [RXControls](https://github.com/leewyatt/rxcontrols)：RXControls是一个JavaFX自定义组件库，密码可见组件、轮播图组件、动态按钮组件等。
+* [Tornado FXControls](https://github.com/edvin/tornadofx-controls)：JavaFX的CSS可样式控件。
 * [PDFViewFX](https://github.com/dlsc-software-consulting-gmbh/PDFViewFX)：允许应用程序显示PDF文件的自定义控件。
 * [PDFViewerFX](https://github.com/Dansoftowner/PDFViewerFX)：用于在JavaFX应用程序内显示/查看PDF文档的库。
 * [UnitFX](https://github.com/dlsc-software-consulting-gmbh/UnitFX)：UnitFX是一个轻量级框架，用于创建基于UOM的文本字段输入控件。
 * [PhoneNumberFX](https://github.com/dlsc-software-consulting-gmbh/PhoneNumberFX)：该仓库包含一个控件，用于输入世界上任何国家/地区的有效电话号码。
 * [Monocle](https://github.com/TestFX/Monocle)：Monocle是针对嵌入式系统的JavaFX Glass窗口组件的实现。
+* [MonacoFX](https://github.com/miho/MonacoFX)：JavaFX编辑器节点，基于驱动VS Code的强大Monaco编辑器。
 * [JavaFXSVG](https://github.com/codecentric/javafxsvg)：用于向JavaFX添加SVG支持，允许像任何其他图像类型一样使用SVG图形。
 * [FormsFX](https://github.com/dlsc-software-consulting-gmbh/FormsFX)：用于轻松创建JavaFX UI表单的框架。
 * [Cognitive](https://github.com/carldea/cognitive)：基于MVVM UI架构模式的轻量级JavaFX表单框架。
@@ -9361,6 +9372,7 @@
 * [Swift Java](https://github.com/swiftlang/swift-java)：Swift Java互操作性工具和库，Apple开源。
 * [SwiftJava](https://github.com/SwiftJava/SwiftJava)：SwiftJava是一个Swift代码生成器，以及一个支持用Swift 3.0的Xcode beta6版本编写的代码的小框架。
 * [AndroidKit](https://github.com/PureSwift/Android)：Swift绑定到Android SDK(通过JNI)和NDK。
+* [Swift4j](https://github.com/scade-platform/swift4j)：Swift4j是一组库和工具，使Swift和Java/Kotlin之间的无缝互作性成为可能。
 
 #### Ruby
 
@@ -10019,6 +10031,7 @@
 
 * [UnitOf](https://github.com/Digidemic/UnitOf)：适用于Java、JavaScript和C#的测量和数据类型转换库。
 * [Indriya](https://github.com/unitsofmeasurement/indriya)：JSR 385参考实现。
+* [Alchemist](https://github.com/kevincianfarini/alchemist)：管理物理单位，灵感来自kotlin.time.Duration。
 * [Unit API](https://github.com/unitsofmeasurement/unit-api)：Unit API提供了一组用于处理单位和数量的Java语言编程接口。
 * [Byte Units](https://github.com/JakeWharton/byteunits)：用于在SI和IEC字节单位和位单位粒度之间进行转换的实用程序类。
 * [Byte Size](https://github.com/saket/byte-size)：用于表示SI和IEC字节和位的单位。
@@ -10300,6 +10313,7 @@
 
 * [Url Detector](https://github.com/linkedin/URL-Detector)：Url Detector是由LinkedIn安全团队创建的一个库，用于检测和提取长文本中的URL。
 * [Slugify](https://github.com/slugify/slugify)：用于生成语音URL的小型工具类库。
+* [Uri KMP](https://github.com/eygraber/uri-kmp)：用于在Kotlin Multiplatform中使用URI和URL的库。
 * [Unbescape](https://github.com/unbescape/unbescape)：Unbescape是一个Java库，旨在执行功能齐全且高性能的转义和取消转义操作。
 * [Java URLBuilder](https://github.com/mikaelhg/urlbuilder)：无运行时依赖的URL构建器。
 * [AutoLink Java](https://github.com/robinst/autolink-java)：用于从纯文本中提取URL和电子邮件地址等链接的Java库。
@@ -10481,6 +10495,7 @@
 * [Trireme](https://github.com/apigee/trireme)：Trireme在JVM内运行Node.js脚本。
 * [DWR](https://github.com/directwebremoting/dwr)：DWR是一个Java库，它使服务器上的Java和浏览器中的JavaScript能够尽可能简单地交互和调用。
 * [Reeva](https://github.com/ReevaJS/reeva)：Reeva是一个使用Kotlin从头编写的JavaScript引擎。
+* [QuickJs4J](https://github.com/roastedroot/quickjs4j)：QuickJs4J允许你使用沙盒环境安全轻松地从Java运行JavaScript。
 
 #### GWT库
 
