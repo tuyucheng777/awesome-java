@@ -298,6 +298,7 @@
 * [序列化](docs/doc2.md#序列化)
     * [Protocol Buffer](docs/doc2.md#Protocol-Buffer)
     * [CBOR](docs/doc2.md#CBOR)
+    * [TOON](docs/doc2.md#TOON)
 * [JSON库](docs/doc2.md#JSON库)
     * [JSON Schema](docs/doc2.md#JSON-Schema)
     * [JsonPath](docs/doc2.md#JsonPath)
@@ -305,7 +306,6 @@
     * [JSON-LD](docs/doc2.md#JSON-LD)
     * [JSON-RPC](docs/doc2.md#JSON-RPC)
     * [JSON比较](docs/doc2.md#JSON比较)
-    * [TOON](docs/doc2.md#TOON）
 * [配置管理](docs/doc2.md#配置管理)
     * [配置库](docs/doc2.md#配置库)
     * [分布式配置](docs/doc2.md#分布式配置)
@@ -4438,6 +4438,7 @@
 * [JDFrame](https://github.com/burukeYou/JDFrame)：JDFrame是一个Java DataFrame的实现。
 * [Joinery](https://github.com/cardillo/joinery)：Java的DataFrame。
 * [DFLib](https://github.com/dflib/dflib)：DFLib是通用DataFrame数据结构的轻量级纯Java实现，由ObjectStyle开源。
+* [Scala Polars](https://github.com/chitralverma/scala-polars)：Scala Polars将极其高速的Polars DataFrame库带入Scala和Java项目。
 * [DataFrame EC](https://github.com/vmzakharov/dataframe-ec)：基于Eclipse Collections框架的表格数据结构。
 * [Poppy](https://github.com/tenmax/poppy)：Poppy是Java的Dataframe库，它提供常见的SQL操作来在Java中处理数据，由TenMax开源。
 * [Geni](https://github.com/zero-one-group/geni)：Geni是一个在Apache Spark上运行的Clojure Dataframe库。
