@@ -1782,6 +1782,11 @@
 * [CborTree](https://github.com/google/cbortree)：CborTree是一个Java库，用于将CBOR数据项编码/解码为方便的对象表示，Google开发。
 * [Borer](https://github.com/sirthias/borer)：适用于Scala的高效CBOR和JSON(反)序列化。
 
+#### TOON
+
+* [JToon](https://github.com/felipestanzani/JToon)：Java面向Token的对象表示法，用于LLM的JSON，Token成本仅为一半。
+* [TOON Java](https://github.com/wuahhh/toon-java)：面向LLM的高效数据序列化库。
+
 ## JSON库
 
 * [Jackson](https://github.com/FasterXML/jackson)：Jackson是Java中使用最广泛的JSON库。
@@ -1915,11 +1920,6 @@
 * [JsonDiff](https://gitee.com/codeleep/json-diff)：一款高性能且功能强大的JSON差异发现工具。
 * [Hamcrest JSON](https://github.com/hertzsprung/hamcrest-json)：用于比较JSON文档的Hamcrest匹配器。
 * [JsonDiff](https://github.com/LianjiaTech/json-diff)：JsonDiff提供了对JSON通用的Diff能力，支持JSON字符串的深度比较、支持无序数组比较、内含多种算法模型满足对JSON比较时各种需求，由贝壳开源。
-
-#### TOON
-
-* [JToon](https://github.com/felipestanzani/JToon)：Java面向Token的对象表示法，用于LLM的JSON，Token成本仅为一半。
-* [TOON Java](https://github.com/wuahhh/toon-java)：面向LLM的高效数据序列化库。
 
 ## 配置管理
 
