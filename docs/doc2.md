@@ -257,6 +257,8 @@
 * [Fest](https://github.com/alexruiz/fest-assert-2.x)：FEST-Assert为断言提供了流式的接口。
 * [Expekt](https://github.com/winterbe/expekt)：Expekt是一个基于Kotlin的BDD断言库，灵感源自Chai.js。
 * [Assertk](https://github.com/assertk-org/assertk)：Assertk是一个流式的Kotlin断言库，灵感来自AssertJ。
+* [Kluent](https://github.com/markusamshove/Kluent)：Kluent是一个专门为Kotlin编写的流式断言库。
+* [JSON Assert](https://github.com/marcingrzejszczak/jsonassert)：简单的库，提供流式的JSON断言接口。
 * [AssertJ DB](https://github.com/assertj/assertj-db)：AssertJ DB提供断言来测试数据库中的值。
 * [ArchUnit](https://github.com/TNG/ArchUnit)：ArchUnit是一个免费、简单且可扩展的库，用于检查Java代码的架构。
 * [Confidence](https://github.com/saynotobugsorg/confidence)：Confidence是一个声明式Java断言框架。
@@ -327,6 +329,9 @@
 * [OkHttp JSON Mock](https://github.com/mirrajabi/okhttp-json-mock)：OkHttp JSON Mock可以帮助你在短短几步内Mock使用OkHttp、Retrofit的JSON格式的数据。
 * [Moclojer](https://github.com/moclojer/moclojer)：Moclojer是一个简单高效的HTTP Mock服务器，可帮助你Mock用于开发、测试和原型设计的API。
 * [Retromock](https://github.com/infinum/Retromock)：用于Mock Retrofit服务中的响应的库，由Infinum开源。
+* [Mockinizer](https://github.com/donfuxx/Mockinizer)：Mockinizer帮助Android开发者通过MockWebServer快速模拟部分Web API响应，构建使用OkHttpClient/RetroFit的Web API调用应用。
+* [Mockery](https://github.com/VictorAlbertos/Mockery)：Android和Java库，用于模拟和测试网络层，内置支持Retrofit。
+* [Play MockWS](https://github.com/leanovate/play-mockws)：Play MockWS是一款适用于Play Framework的Mock WS客户端。
 * [V-Mock](https://gitee.com/vtDev/v-mock)：V-Mock是一个小巧的接口响应Mock系统。
 
 #### Mock库
@@ -429,6 +434,7 @@
 * [Narrative](https://github.com/tim-group/narrative)：一个使用流式Java构建行为驱动测试的框架。
 * [YatSpec](https://github.com/bodar/yatspec)：YatSpec是一个BDD测试框架。
 * [Tiger](https://github.com/gematik/app-Tiger)：Tiger是一个用于接口驱动的BDD黑盒测试的框架。
+* [BDD For All](https://github.com/Accenture/bdd-for-all)：灵活且易用的库，使你的BDD团队能够轻松协作，同时推动自动化、透明度和报告，由Accenture开源。
 
 #### 测试生成器
 
@@ -3430,6 +3436,7 @@
 * [Blurhash](https://github.com/vanniktech/blurhash)：Kotlin多平台库，可在你的Android应用程序、iOS/Mac应用程序和JVM后端中使用Blurhash。
 * [AVIF/HEIF Coder](https://github.com/awxkee/avif-coder)：该库提供了简单的接口来为Android解码或编码(创建)AVIF和HEIF图像。
 * [OpenSlide](https://github.com/openslide/openslide-java)：OpenSlide是一个用于读取整张幻灯片图像文件的C库，这是OpenSlide的Java绑定。
+* [Lept4J](https://github.com/nguyenq/lept4j)：Leptonica图像处理库的JNA Java包装器。
 
 #### 图像元数据
 
@@ -5346,6 +5353,7 @@
 * [YShop CRM](https://github.com/guchengwuyue/yshop-crm)：YShop CRM专门为企业销售团队量身定制的工具，能够有效的管理跟进客户提供销售业绩。
 * [AEAI CRM](https://gitee.com/agileai/aeaicrm)：AEAI CRM包括一些核心的客户关系管理业务功能。
 * [CordysCRM](https://github.com/1Panel-dev/CordysCRM)：Cordys CRM是飞致云出品的中国首个开源AI CRM，集信息化、数字化和智能化于一体。
+* [JinBooks](https://github.com/jinbooks/jinbooks)：JinBooks是功能齐全的财务记账系统，告别Excel手工记账。
 
 #### HRM系统
 
@@ -5472,7 +5480,7 @@
 * [Orise Charge Cloud](https://github.com/NaTieJun/orise-charge-cloud)：充电桩开源云平台，由悠码科技开发。
 * [JChargePointProtocol](https://gitee.com/san-bing/JChargePointProtocol)：一个高性能、分布式、支持海量并发量的充电桩Java服务端。
 * [YunCharging](https://github.com/yuncitys/YunCharging)：YunCharge是一套用于二轮电单车和四轮充电桩充电领域的运营和计费系统，由深圳云创智城科技公司开发。
-* [E-IoT](https://gitee.com/hdzc/e-iot)：简单、高性能，基于Vert.x实现多种充电协议。
+* [100Charge](https://gitee.com/ustcyc/100charge)：100Charge是基于若依的开源充电运营平台。
 
 #### 数据中台
 
@@ -5883,6 +5891,7 @@
 
 * [Librespot Java](https://github.com/librespot-org/librespot-java)：最新的开源Spotify客户端。
 * [Spotify Web API Java](https://github.com/spotify-web-api-java/spotify-web-api-java)：这是Spotify Web API的Java包装器/客户端。
+* [Java Spotify API](https://github.com/LabyStudio/java-spotify-api)：Java API，可以直接从本地Spotify进程访问Spotify播放数据，无需任何认证。
 
 #### Notion
 
@@ -6115,6 +6124,7 @@
 * [Open Banking](https://github.com/wso2/financial-open-banking)：WSO2开放银行加速器是一系列技术的集合，可提高开放银行合规性的速度并降低其复杂性。
 * [JBanking](https://github.com/marcwrobel/jbanking)：JBanking是一个帮助开发银行功能的实用程序库，专注但不限于欧洲银行业。
 * [BankingPortal API](https://github.com/abhi9720/BankingPortal-API)：使用Spring Boot和Spring Security的银行门户REST API。
+* [EBICS Java Client](https://github.com/ebics-java/ebics-java-client)：该库允许使用EBICS与银行互动。
 
 #### 量化交易
 
@@ -6434,6 +6444,7 @@
 * [OpenSmpp](https://github.com/OpenSmpp/opensmpp)：OpenSmpp是一个成熟的Java库，可实现SMPP协议，并允许开发外部短信实体(ESME)等。
 * [SMSLib](https://github.com/tdelenikas/smslib)：SMSLib是一个短信库。
 * [SMS Client](https://github.com/Lihuanghe/sms-client)：一个基于SMSGate框架的纯发送短信客户端库。
+* [SMS Spring Boot](https://github.com/jackieonway/sms-spring-boot-project)：短信服务Spring Boot Starter，目前支持腾讯和阿里短信服务。
 
 ## 邮件库
 
@@ -8647,6 +8658,7 @@
 
 #### 游戏开发库
 
+* [GDX AI](https://github.com/libgdx/gdx-ai)：GDX AI是一个高性能框架，提供游戏行业使用的一些最常见的AI技术。
 * [Tiled](https://github.com/mapeditor/tiled)：Tiled是一款通用的图块地图编辑器，适用于所有基于图块的游戏，例如角色扮演游戏、平台游戏或Breakout克隆游戏。
 * [PlayN](https://github.com/playn/playn)：PlayN是一个用Java编写的跨平台Java游戏开发库，面向HTML5浏览器、桌面JVM、Android和iOS设备。
 * [Zircon](https://github.com/Hexworks/zircon)：Zircon是一个可扩展且用户友好的多平台图块引擎。
