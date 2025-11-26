@@ -471,9 +471,12 @@
     * [抄袭检测](docs/doc2.md#抄袭检测)
     * [代码属性图](docs/doc2.md#代码属性图)
 * [软件工程](docs/doc2.md#软件工程)
+    * [软件建模](docs/doc2.md#软件建模)
+    * [铁路图生成器](docs/doc2.md#铁路图生成器)
     * [DDD框架](docs/doc2.md#DDD框架)
     * [CQRS框架](docs/doc2.md#CQRS框架)
     * [设计模式](docs/doc2.md#设计模式)
+    * [中介器](docs/doc2.md#中介器)
 * [审计框架](docs/doc2.md#审计框架)
 * [原型工具](docs/doc2.md#原型工具)
 * [工件仓库](docs/doc2.md#工件仓库)
@@ -524,7 +527,6 @@
     * [教育软件](docs/doc2.md#教育软件)
     * [评测系统](docs/doc2.md#评测系统)
     * [理财系统](docs/doc2.md#理财系统)
-    * [BaaS](docs/doc2.md#BaaS)
     * [Data API](docs/doc2.md#Data-API)
     * [插件框架](docs/doc2.md#插件框架)
     * [POS](docs/doc2.md#POS)
@@ -538,6 +540,7 @@
     * [银行卡/信用卡](docs/doc2.md#银行卡信用卡)
 * [云计算](docs/doc2.md#云计算)
     * [SaaS平台](docs/doc2.md#SaaS平台)
+    * [BaaS平台](docs/doc2.md#BaaS平台)
     * [PaaS平台](docs/doc2.md#PaaS平台)
     * [IaaS平台](docs/doc2.md#IaaS平台)
     * [仿真框架](docs/doc2.md#仿真框架)
@@ -1590,6 +1593,7 @@
 * [RateLimitJ](https://github.com/mokies/ratelimitj)：RateLimitJ是用于速率限制的Java库，提供可扩展的存储和应用程序框架适配器。
 * [SDS](https://github.com/didi/sds)：SDS是一个基于Java开发的简单、易用、高性能的服务降级系统，支持限流、熔断和降级等功能，由滴滴开源。
 * [Akali](https://gitee.com/dromara/Akali)：Akali是一个轻量级本地化热点检测/降级框架，适用于大流量场景，可轻松解决业务中超高流量的并发查询等场景，由dromara社区开源。
+* [JRugged](https://github.com/Comcast/jrugged)：JRugged库实现了一些在Java中构建健壮、可用于生产环境的服务器代码所需的常用模式，由Comcast开源。
 * [Spillway](https://github.com/coveooss/spillway)：Spillway可在公共API的软件级别添加分布式节流，由Coveo开源。
 * [SnowJena](https://github.com/onblog/SnowJena)：SnowJena是基于令牌桶算法实现的分布式无锁限流框架，支持动态配置规则，支持可视化监控，开箱即用。
 * [FastBreak](https://github.com/Nike-Inc/fastbreak)：FastBreak是一个简单的Java 8原生断路器，支持异步Future、阻塞和回调/手动模式，由Nike开源。
@@ -1889,7 +1893,6 @@
 * [Talend Open Studio](https://github.com/Talend/tcommon-studio-se)：Talend Open Studio可以使你立即开始构建基本数据管道，从你控制的本地安装的开源环境中执行简单的ETL和数据集成任务，获取数据的图形配置文件并管理文件。
 * [Kettle](https://github.com/pentaho/pentaho-kettle)：Kettle是一款开源的ETL工具，可以用它来对数据进行抽取、清洗和转换操作，主作者是Matt Casters。
 * [FineDataLink](https://www.finedatalink.com/)：FineDataLink是一款低代码/高时效的企业级一站式数据集成平台，这是帆软的商业产品。
-* [Smart Kettle](https://gitee.com/yaukie/smartkettle)：Smart Kettle是基于开源Kettle自研的Kettle核心接口调用基础组件。
 * [Scriptella](https://github.com/scriptella/scriptella-etl)：Scriptella是一个用Java编写的开源ETL和脚本执行工具。
 * [Apatar](https://www.altoros.com/blog/tag/apatar/)：Apatar是一个开源的数据抽取、转换、装载(ETL)项目。
 * [Flowman](https://github.com/dimajix/flowman)：Flowman是一个由Spark支持的ETL框架，简化了复杂数据管道的开发。
@@ -2138,6 +2141,11 @@
 * [HermesEventBus](https://github.com/Xiaofei-it/HermesEventBus)：HermesEventBus是一个在进程之间使用EventBus的库，在IPC或插件开发中很有用。
 * [AndroidEventBus](https://github.com/hehonghui/AndroidEventBus)：AndroidEventBus是适用于Android的轻量级事件总线库，简化了Activity、Fragments、Threads、Services等之间的通信。
 * [Nakadi](https://github.com/zalando/nakadi)：Nakadi是一个分布式事件总线代理，它在类似Kafka的队列之上实现了RESTful API抽象，可用于以可靠且高度可用的方式实时发送、接收和分析流数据，由Zalando开源。
+* [Apollo](https://github.com/Sloaix/Apollo)：RxJava的事件总线。
+* [TinyBus](https://github.com/sergejsha/tinybus)：TinyBus是Otto事件总线的更快实现，附加了你错过的额外功能。
+* [xBus](https://github.com/mcxiaoke/xBus)：简洁的EventBus实现。
+* [ElegantBus](https://github.com/codyer/ElegantBus)：ElegantBus是一款Android平台，基于LivaData的消息总线框架。
+* [Router](https://github.com/SilenceDut/Router)：Router是类似事件总线的替代品，由动态代理实现。
 * [Alpine](https://github.com/ZeroMemes/Alpine)：Alpine是适用于Java 8+的轻量级事件系统。
 * [Broker](https://github.com/adrielcafe/broker)：Broker是一个使用Coroutines构建的适用于Android和JVM的发布-订阅库。
 * [Events4J](https://github.com/PhilippHeuer/events4j)：Java事件调度程序/消费者。
@@ -3849,7 +3857,7 @@
 * [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
 * [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
 * [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
-* [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku旨在为你的组织和AI代理提供统一的访问、路由和资源管理功能。
+* [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku是一款面向AI应用的路由器，采用MCP提供支持。
 
 #### AI Assistant
 
