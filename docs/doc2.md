@@ -3802,7 +3802,6 @@
 * [DITA-OT](https://github.com/dita-ot/dita-ot)：DITA-OT是一个开源发布引擎，用于在Darwin信息类型架构中创作的内容。
 * [Orchid](https://github.com/orchidhq/Orchid)：Orchid是一个用于生成具有所有功能的项目文档网站的框架。
 * [Znai](https://github.com/testingisdocumenting/znai)：Znai将人类书写的文本与代码、图形、REST API、Java文档、Doxygen等工件相结合，以创建最新、可维护、精美的用户指南和教程。
-* [OpooPress](https://github.com/opoo/opoopress)：OpooPress框架是一个完全灵活、完全可扩展的基于Java的静态站点生成器。
 
 ## Javadoc
 
@@ -5420,6 +5419,7 @@
 * [Aurora](https://github.com/linhaojun857/aurora)：基于Spring Boot、Vue开发的个人博客系统。
 * [Cryogen](https://github.com/cryogen-project/cryogen)：Cryogen是用Clojure编写的简单静态站点生成器。
 * [My Site](https://github.com/WinterChenS/my-site)：My Site是由Docker、Spring Boot 2、Mybatis、Thymeleaf等技术实现的个人网站。
+* [OpooPress](https://github.com/opoo/opoopress)：OpooPress框架是一个完全灵活、完全可扩展的基于Java的静态站点生成器。
 * [Apache Roller](https://github.com/apache/roller)：Roller是一个基于Java、功能齐全的多用户和群组博客服务器，适用于大大小小的博客网站。
 * [ThriveX](https://github.com/LiuYuYang01/ThriveX-Server)：ThriveX是一个高颜值、全开源、永不收费的现代化博客管理系统。
 * [Tale Blog](https://github.com/otale/tale)：Tale是使用轻量级的MVC框架Blade进行开发的简洁美观的Java博客系统。
