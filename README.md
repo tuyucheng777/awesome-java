@@ -475,7 +475,10 @@
     * [铁路图生成器](docs/doc2.md#铁路图生成器)
     * [DDD框架](docs/doc2.md#DDD框架)
     * [CQRS框架](docs/doc2.md#CQRS框架)
-    * [设计模式](docs/doc2.md#设计模式)
+* [设计模式](docs/doc2.md#设计模式)
+    * [构建器模式](docs/doc2.md#构建器模式)
+    * [代理模式](docs/doc2.md#代理模式)
+    * [责任链模式](docs/doc2.md#责任链模式)
     * [中介器](docs/doc2.md#中介器)
 * [审计框架](docs/doc2.md#审计框架)
 * [原型工具](docs/doc2.md#原型工具)
@@ -863,7 +866,6 @@
 * [印章生成](docs/doc2.md#印章生成)
 * [代码生成器](docs/doc2.md#代码生成器)
 * [注解处理器](docs/doc2.md#注解处理器)
-    * [构建器模式](docs/doc2.md#构建器模式)
     * [访问器模式](docs/doc2.md#访问器模式)
     * [不可变模式](docs/doc2.md#不可变模式)
     * [配置对象模式](docs/doc2.md#配置对象模式)
@@ -1597,6 +1599,7 @@
 * [Spillway](https://github.com/coveooss/spillway)：Spillway可在公共API的软件级别添加分布式节流，由Coveo开源。
 * [SnowJena](https://github.com/onblog/SnowJena)：SnowJena是基于令牌桶算法实现的分布式无锁限流框架，支持动态配置规则，支持可视化监控，开箱即用。
 * [FastBreak](https://github.com/Nike-Inc/fastbreak)：FastBreak是一个简单的Java 8原生断路器，支持异步Future、阻塞和回调/手动模式，由Nike开源。
+* [Duct Tape](https://github.com/rnorth/duct-tape)：Duct Tape是一个小型的Java 8库，提供对调用外部API的代码容错支持， 不可靠的组件，包括可能故障、超时或结果不一致的组件。
 * [Token Bucket](https://github.com/bbeck/token-bucket)：该库提供了令牌桶算法的实现。
 * [RateLimiter Spring Boot Starter](https://github.com/taptap/ratelimiter-spring-boot-starter)：基于Redis的偏业务应用的分布式限流组件，目前支持时间窗口、令牌桶两种限流算法，由Taptap开源。
 * [Kanaloa](https://github.com/iheartradio/kanaloa)：Kanaloa是一个库，通过提供背压、断路器、负载均衡等功能来提高反向代理服务的弹性。
@@ -2155,6 +2158,7 @@
 * [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
 * [Eventbus](https://github.com/likavn/eventbus)：Eventbus是基于Spring Boot Starter的分布式业务消息分发总线组件(发布/订阅模式)，支持延时消息。
 * [Deezpatch](https://github.com/joel-jeremy/deezpatch)：Deezpatch是一个简单快速的库，用于将请求和事件分派到相应的处理程序。
+* [Minibus](https://github.com/jneat/minibus)：Java应用实例的简单事件总线。
 
 #### 消息总线
 
@@ -2211,6 +2215,7 @@
 * [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
 * [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
 * [Kouncil](https://github.com/Consdata/kouncil)：Kouncil让你可以使用现代Web界面监控和管理Apache Kafka集群。
+* [Liiklus](https://github.com/bsideup/liiklus)：Liiklus是基于RSocket/gRPC的事件系统网关，防止那些认为Kafka过于低级的人。
 * [Offset Explorer](https://www.kafkatool.com/index.html)：Offset Explorer是一个用于管理和使用Apache Kafka集群的GUI应用程序。
 * [Confluent Platform](https://www.confluent.io/en-gb/product/confluent-platform/gui-driven-management-and-monitoring/)：Confluent Platform提供直观的GUI来管理和监控Apache Kafka，由Confluent开发。
 * [Kpow](https://factorhouse.io/kpow/)：Kpow是Apache Kafka的监控和管理工具。
@@ -2570,6 +2575,7 @@
 * [VanillaDB](https://github.com/vanilladb/vanillacore)：VanillaCore是一个单节点、多线程关系数据库引擎，部分支持SQL-92标准，并通过JDBC、嵌入或(基于Java的)存储过程提供连接。
 * [SkinnerDB](https://github.com/cornelldbgroup/skinnerdb)：SkinnerDB是一个用于数据分析的关系型数据库管理系统，由康奈尔数据库小组开发。
 * [CreatorDB](https://github.com/CreatorsStack/CreatorDB)：CreatorDB是一个DBMS数据库管理系统，包含存储、算子、优化、事务、索引等。
+* [Interference](https://github.com/interference-project/interference)： Interference是一个简单的Java框架，它允许你在Java应用程序中启动分布式数据库和复杂的事件处理服务，并使用类似JPA的接口和注解进行结构映射和数据操作。
 
 #### NoSQL数据库
 
@@ -3427,6 +3433,7 @@
 * [Puree](https://github.com/cookpad/puree-android)：Puree是一个日志收集器，由Cookpad开源。
 * [Fluency](https://github.com/komamitsu/fluency)：Fluentd和Fluent Bit(以及AWS S3和Treasure Data)的高吞吐量数据提取记录器。
 * [Log4a](https://github.com/pqpo/Log4a)：Log4a是一个基于Mmap、高性能、高可用的Android日志收集框架。
+* [LogWise](https://github.com/ds-horizon/logwise)：Logwise是一款轻量级、开源解决方案，旨在让日志管理更简洁、更快捷、更适合开发者，由Dream11开源。
 
 #### 请求/响应记录
 
@@ -3596,13 +3603,11 @@
 * [AutoDispose](https://github.com/uber/AutoDispose)：AutoDispose是一个RxJava 2+工具，用于通过处置/取消自动将RxJava流的执行绑定到提供的作用域，由Uber开源。
 * [Electric](https://github.com/hyperfiddle/electric)：Electric是一种响应式和网络感知的Clojure/Script DSL，它在编程语言层完全抽象客户端/服务器状态同步，以便在动态Web应用程序中实现跨越前端/后端边界的强大组合。
 * [Reaktive](https://github.com/badoo/Reaktive)：Reactive Extensions的Kotlin多平台实现。
-* [RSocket JVM](https://github.com/jauntsdn/rsocket-jvm)：RSocket JVM在JVM上提供非常快速的类gRPC和兼容gRPC的服务，并通过多种网络传输提供丰富的流模型。
-* [Sqlbrite](https://github.com/square/sqlbrite)：围绕SupportSQLiteOpenHelper和ContentResolver的轻量级包装器，它向查询引入了响应式流语义，由Square开源。
-* [StorIO](https://github.com/pushtorefresh/storio)：SQLiteDatabase和ContentResolver的响应式API。
+* [Sodium](https://github.com/SodiumFRP/sodium)：面向多种语言的函数式响应式编程库。
+* [Scala.Rx](https://github.com/lihaoyi/scala.rx)：Scala.Rx是Scala的变更传播库。
+* [Reagent](https://github.com/JakeWharton/Reagent)：未来响应式库的实验。
 * [RxNetty](https://github.com/ReactiveX/RxNetty)：RxNetty是Netty的Rx适配器。
 * [Netty Reactive Streams](https://github.com/playframework/netty-reactive-streams)：Netty的Reactive Streams实现。
-* [Reactive gRPC](https://github.com/salesforce/reactive-grpc)：Reactive gRPC是一套将gRPC与Reactive Streams编程库结合使用的库，由Salesforce开源。
-* [Reactive Wizard](https://github.com/FortnoxAB/reactive-wizard)：Reactive Wizard项目可以轻松构建利用Reactor和Netty强大功能的高性能且可扩展的Web应用程序，由Fortnox开源。
 * [CohereFlux](https://github.com/pellse/cohereflux)：CohereFlux是一个响应式、函数式、类型安全和无状态的数据聚合框架，用于查询和合并来自多个数据源/服务的数据。
 * [Reactive Commons](https://github.com/reactive-commons/reactive-commons-java)：Reactive Commons的目的是提供一组针对不同模式和实践的抽象和实现，这些模式和实践构成了响应式微服务架构的基础，由哥伦比亚银行维护。
 * [Reakt](https://github.com/advantageous/reakt)：Reakt是Java的响应式接口。
