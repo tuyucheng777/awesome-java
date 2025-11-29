@@ -961,6 +961,8 @@
 * [Seata](https://github.com/apache/incubator-seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
 * [SOFA DTX](https://mvnrepository.com/artifact/com.alipay.dtx/dtx-sofa)：DTX是蚂蚁研发的一款金融级分布式事务中间件。
 * [Apache ShardingSphere](https://github.com/apache/shardingsphere)：ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
+* [Eventuate Tram Core](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
+* [Namastack](https://github.com/namastack/namastack-outbox)：Spring Boot的发件箱实现。
 * [ByteTCC](https://github.com/liuyangming/ByteTCC)：ByteTCC是分布式事务管理器的实现，基于TCC机制。
 * [Atomikos](https://github.com/atomikos/transactions-essentials)：Atomikos是一个轻量级的分布式事务管理器，由Atomikos开源。
 * [Narayana](https://github.com/jbosstm/narayana)：Narayana是一个事务工具包，为使用各种基于标准的事务协议开发的应用程序提供支持，JBoss开源。
@@ -2814,6 +2816,7 @@
 * [Rill Flow](https://github.com/weibocom/rill-flow)：Rill Flow是一种高性能、可扩展的分布式工作流编排服务，由微博开源。
 * [ProActive Workflows](https://github.com/ow2-proactive/scheduling)：ProActive是一款功能全面的开源作业调度和编排器，同时还具备工作流和资源管理功能，由Activeeon开发。
 * [Kstry](https://gitee.com/kstry/kstry-core)：Kstry可以将原本存在于代码中错综复杂的方法调用关系以可视化流程图的形式更直观的展示出来。
+* [Baker](https://github.com/ing-bank/baker)：Baker是一个库，它提供了一种简单直观的方法来编排基于微服务的流程，由ING银行开源。
 * [Flux](https://github.com/flipkart-incubator/flux)：Flux是一个异步、可扩展、可选的多租户、分布式且可靠的基于状态机的编排器，由Flipkart开源。
 * [Solon Flow](https://gitee.com/opensolon/solon-flow)：Java Flow通用流编排应用开发框架，支持已知流编排的各种场景。
 
@@ -3022,6 +3025,7 @@
 * [TinyTask](https://github.com/inaka/TinyTask)：一个用于创建异步后台任务的小型Android库，由Inaka开发。
 * [Hashed Wheel Timer](https://github.com/ifesdjeen/hashed-wheel-timer)：与ScheduledExecutorService兼容的高性能计时器/调度程序库。
 * [LogiCommon](https://github.com/didi/LogiCommon)：LogiCommon包含认证、鉴权、管理、任务调度通用功能组件，由滴滴开源。
+* [Persistasaurus](https://github.com/gunnarmorling/persistasaurus)：Persistasaurus是一个基于SQLite的极简Java持久化执行库。
 
 ## 企业集成模式
 
@@ -4300,6 +4304,7 @@
 * [Camel](https://github.com/dianping/camel)：Camel是大众点评开发的软负载一体解决方案，承担了F5硬负载层后的软负载工作。
 * [OpenTOSCA Container](https://github.com/OpenTOSCA/container)：OpenTOSCA Container是基于Java/Maven的运行时，用于部署和管理基于TOSCA的应用程序，由斯图加特大学开源。
 * [Maintain Console](https://github.com/ChenYilei2016/maintain-console-public)：Maintain Console是一个专为企业级分布式系统设计的运维管理平台，通过统一的Web控制台实现对多个微服务应用的远程实时脚本执行,不需要重新发布代码。
+* [Bugatti](https://github.com/QianmiOpen/bugatti)：Bugatti是专为解决开发、运维人员在项目打包、发布、部署、项目依赖、跨环境配置，健康监控等问题统一处理平台，由千米网开源。
 
 ## 性能分析&调优
 
@@ -4685,6 +4690,7 @@
 * [Evento](https://github.com/EventoFramework/evento-framework)：Evento框架为开发人员提供了一套强大的工具包，用于构建和管理利用事件溯源和CQRS架构模式的分布式应用程序。
 * [Splitet](https://github.com/Splitet/SplitetFramework)：Splitet是一个基于Java的事件溯源框架，由Kloia开源。
 * [Loom](https://github.com/loom/loom-java)：Loom是一组用于实现分布式消息传递和事件源模式的框架。
+* [FModel](https://github.com/fraktalio/fmodel)：Fmodel旨在将函数式、代数式和响应式领域建模引入Kotlin。
 * [OpenCQRS](https://github.com/open-cqrs/opencqrs)：OpenCQRS是一个轻量级开源Java框架，用于基于CQRS和事件源模式构建应用程序。
 * [Sourcerer](https://github.com/elder-oss/sourcerer)：Sourcerer是一个固执己见、函数式且与存储无关的框架，用于使用事件源在Java 8中实现CQRS架构，由Elder开发。
 * [Apache Polygene](https://github.com/apache/polygene-java)：Apache Polygene实现了面向复合编程，无需使用任何预处理器或新的语言元素。
@@ -5988,6 +5994,7 @@
 * [Austin](https://gitee.com/zhongfucheng/austin)：Austin是统一的接口发送各种类型消息，对消息生命周期全链路追踪。
 * [Dinger](https://github.com/AnswerAIL/dingtalk-spring-boot-starter)：Dinger(叮鸽)，Spring Boot集成钉钉/企业微信/飞书群机器人实现消息通知中间件。
 * [MixPush](https://github.com/taoweiji/MixPush)：Android混合推送SDK，快速集成6个厂商推送，共享系统推送通道。
+* [Capillary](https://github.com/google/capillary)：Capillary是一个库，用于简化从基于Java的应用服务器向Android客户端发送端到端加密推送消息的过程，由Google开源。
 * [JPush API Java](https://github.com/jpush/jpush-api-java-client)：这是JPush REST API的Java版本封装开发包，由极光推送官方提供。
 * [个推PUSH Java SDK](https://github.com/GetuiLaboratory/getui-pushapi-java-client-v2)：个推官方提供的推送服务端SDK，基于全新的REST API V2接口。
 * [WxPusher](https://github.com/wxpusher/wxpusher-sdk-java)：WxPusher是一个轻量级企业消息推送平台，旨在提供企业内部沟通和协作的便捷解决方案。
@@ -6656,6 +6663,7 @@
 * [SMS](https://github.com/yunpian/sms)：云通讯、国际短信、短信API、短信SDK，短信平台，短信验证码，短信接口。
 * [Cloudhopper SMPP](https://github.com/twitter-archive/cloudhopper-smpp)：Cloudhopper SMPP是SMPP的高效、可扩展且灵活的Java实现，由Twitter开源。
 * [jSMPP](https://github.com/opentelecoms-org/jsmpp)：jSMPP是SMPP协议的Java实现，它提供与消息中心或ESME通信的接口，并且能够处理每秒3000-5000条消息的流量。
+* [JSMPP](https://github.com/uudashr/jsmpp)：Java SMPP API。
 * [OpenSmpp](https://github.com/OpenSmpp/opensmpp)：OpenSmpp是一个成熟的Java库，可实现SMPP协议，并允许开发外部短信实体(ESME)等。
 * [SMSLib](https://github.com/tdelenikas/smslib)：SMSLib是一个短信库。
 * [SMS Client](https://github.com/Lihuanghe/sms-client)：一个基于SMSGate框架的纯发送短信客户端库。
@@ -10100,7 +10108,6 @@
 
 ## OSGI
 
-* [OSGi](https://github.com/osgi/osgi)：OSGi是Java动态化模块化系统的一系列规范。
 * [Apache Karaf](https://github.com/apache/karaf)：Karaf提供了一个轻量级的OSGi容器，可以用于部署各种组件。
 * [OPS4j Pax Web](https://github.com/ops4j/org.ops4j.pax.web)：Pax Web通过更好的Servlet支持、过滤器、监听器、错误页面和JSP等扩展了OSGi HTTP服务，以满足最新版本的Servlet规范。
 * [Bnd](https://github.com/bndtools/bnd)：Bnd是用于构建OSGi包的工具，包括Eclipse、Maven和Gradle插件。
@@ -10267,6 +10274,7 @@
 * [DeepL Java](https://github.com/DeepLcom/deepl-java)：DeepL API是一种语言翻译API，它允许其他计算机程序将文本和文档发送到DeepL的服务器并接收高质量的翻译。
 * [Google API Translate Java](https://github.com/richmidwinter/google-api-translate-java)：提供一个简单、非官方的Java客户端API来使用Google翻译。
 * [Lokalized](https://github.com/lokalized/lokalized-java)：Lokalized有助于在JVM上进行听起来自然的软件翻译。
+* [AT4J](https://github.com/brenoepics/at4j)：AT4J是Azure Translator API的Java封装库。
 
 ## 字幕库
 
@@ -10671,7 +10679,7 @@
 
 * [Apache Commons Codec](https://github.com/apache/commons-codec)：Commons Codec包含各种格式(例如Base64和十六进制)的简单编码器和解码器。
 * [OWASP Java Encoder](https://github.com/OWASP/owasp-java-encoder)：OWASP Java Encoder是一个简单易用的嵌入式高性能编码器类，没有依赖且包袱很少，由OWASP开源。
-* [Simple Binary Encoding](https://github.com/real-logic/simple-binary-encoding)：SBE是OSI第6层表示，用于对低延迟金融应用程序的二进制应用程序消息进行编码和解码。
+* [Simple Binary Encoding](https://github.com/aeron-io/simple-binary-encoding)：SBE是OSI第6层表示，用于对低延迟金融应用程序的二进制应用程序消息进行编码和解码。
 * [Juniversalchardet](https://github.com/albfernandez/juniversalchardet)：Juniversalchardet是universalchardet的Java端口，universalchardet是Mozilla的编码检测器库。
 * [PETSCII BBS Builder](https://github.com/sblendorio/petscii-bbs)：一个Java框架，用于构建高度可定制的PETSCII(和ASCII)支持的BBS，可从8位Commodore计算机访问。
 * [Xtream Codec](https://github.com/hylexus/xtream-codec)：基于Reactor Netty的私有协议编解码库。
