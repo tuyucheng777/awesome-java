@@ -2204,6 +2204,7 @@
 * [IHMC ROS 2 Library](https://github.com/ihmcrobotics/ihmc-ros2-library)：Java中与ROS2兼容的通信库，使用Fast-DDS。
 * [ROS 2 Java](https://github.com/ros2-java/ros2_java)：这是一组使开发人员能够为JVM和Android编写ROS 2应用程序的项目。
 * [JROS2](https://github.com/ihmcrobotics/jros2)：一个Java版ROS 2库，使用Fast-DDS中间件。
+* [jAER](https://github.com/SensorsINI/jaer)：用于地址事件表示(AER)神经形态处理的Java工具，由苏黎世联邦理工学院开源
 * [ROSJava](https://github.com/rosjava/rosjava_core)：ROSJava是ROS的第一个纯Java实现。
 * [OpenTCS NeNa](https://github.com/nielstiben/openTCS-NeNa)：OpenTCS-NeNa软件是一款OpenTCS车辆驱动程序，用于连接ROS2机器人和OpenTCS车队管理器，由萨克逊大学开源。
 * [DARP](https://github.com/athakapo/DARP)：用于最优多机器人覆盖路径规划的划分区域算法。
@@ -5583,7 +5584,6 @@
 * [U3W AI](https://gitee.com/U3W-AI/U3W-AI)：优立方AI主机提供多AI平台集成的AIGC解决方案，支持免Token使用并与微信生态对接。
 * [Art](https://gitee.com/fxzcloud/art)：Art是一个开源、一站式AI应用开发平台，其灵感来源于行业领先的Coze和Dify。
 * [Torch Yun](https://github.com/isxcode/torch-yun)：至数云是一款超轻量、企业级人工智能应用平台。
-* [JoySafety](https://github.com/jd-opensource/JoySafety)：JoySafety是京东开源的大模型安全框架。
 * [SuperSQL](https://gitee.com/guocjsh/supersql-open)：SuperSQL是一个基于国内外先进生成式大模型的Java框架，实现从自然语言文本到SQL查询的智能转换。
 * [DataAgent](https://github.com/spring-ai-alibaba/DataAgent)：DataAgent是一个基于Spring AI Alibaba的自然语言转SQL项目，能让你用自然语言直接查询数据库，不需要写复杂的SQL。
 * [DAT](https://github.com/junjiem/dat)：DAT让业务人员能够用自然语言直接与数据库对话，无需编写复杂的SQL查询。
@@ -6463,6 +6463,7 @@
 * [Eclipse Milo](https://github.com/eclipse/milo)：Milo是OPC UA的开源实现，它包括高性能堆栈(通道、序列化、数据结构、安全性)以及构建在堆栈顶部的客户端和服务器SDK。
 * [UA Java](https://github.com/OPCFoundation/UA-Java-Legacy)：UA Java是一个OPC UA堆栈参考实现。
 * [Apache PLC4X](https://github.com/apache/plc4x)：PLC4X致力于创建一组库，用于以统一的方式与工业级可编程逻辑控制器(PLC)进行通信。
+* [CrowdOS](https://github.com/crowdosNWPU/CrowdOS)：CrowdOS是一个适用于众包和移动众包感知的通用操作系统，可以同时处理多种类型的众包问题，由西北工业大学开发。
 * [HslCommunication](https://github.com/dathlin/HslCommunicationJavaDemo)：一款非常热门的工业物联网通讯插件。
 * [Eclipse Californium](https://github.com/eclipse-californium/californium)：Californium是RFC7252(物联网云服务的约束应用协议)的Java实现，由博世软件开源。
 * [Eclipse Leshan](https://github.com/eclipse-leshan/leshan)：Leshan是OMA轻量级M2M服务器和客户端Java实现。
@@ -6549,9 +6550,8 @@
 * [IOTGate](https://gitee.com/willbeahero/IOTGate)：Java版基于Netty的物联网高并发智能网关。
 * [Gateway4Java](https://github.com/ganweisoft/Gateway4Java)：Gateway是一个高性能、集中式的各种设备插件通信和调度模块。
 
-#### MQTT
+#### MQTT服务器
 
-* [Eclipse Paho](https://github.com/eclipse/paho.mqtt.java)：Paho Java是一个用Java编写的MQTT客户端库，由Eclipse IoT组织开发。
 * [HiveMQ](https://github.com/hivemq/hivemq-community-edition)：HiveMQ是一个基于Java的开源MQTT代理，完全支持MQTT 3.x和MQTT 5。
 * [Moquette](https://github.com/moquette-io/moquette)：Moquette的目标是成为符合MQTT标准的Broker，代理支持QoS 0、QoS 1和QoS 2。
 * [BifroMQ](https://github.com/baidu/bifromq)：BifroMQ是一种高性能、分布式MQTT代理实现，可无缝集成原生多租户支持，由百度开源。
@@ -6559,31 +6559,41 @@
 * [Akiro](https://www.akiroio.com/)：Akiro是一款高扩展性的MQTT Broker，支持超过2000万个活跃MQTT连接，每秒发送超过100万条消息。
 * [JoramMQ](https://scalagent.com/mqtt/)：JoramMQ基于OW2联盟发布的开源JORAM产品构建，并由ScalAgent DT维护。
 * [Waterstream](https://waterstream.io/product/)：Waterstream是一个功能齐全的MQTT代理，通过原生Kafka消费者和生产者在任何与Kafka兼容的平台上运行。
-* [MQTT Client](https://github.com/fusesource/mqtt-client)：MQTT Client为MQTT提供API，如果发生任何网络故障，它会自动重新连接到MQTT服务器并恢复客户端会话。
-* [AndrOBD](https://github.com/fr3ts0n/AndrOBD)：AndrOBD允许你的Android设备通过任何ELM327兼容的OBD适配器连接到汽车的车载诊断系统，显示各种信息并执行操作。
 * [ActiveMQ Artemis](https://github.com/apache/activemq-artemis)：ActiveMQ Artemis是ActiveMQ的下一代消息代理。
 * [Mica MQTT](https://gitee.com/dromara/mica-mqtt)：Mica MQTT是低延迟、高性能的MQTT物联网组件。
 * [SMQTT](https://gitee.com/quickmsg/mqtt-cluster)：SMQTT是一款高性能、高吞吐量、高扩展性的物联网MQTT集群Broker。
 * [MqttWk](https://github.com/Wizzercn/MqttWk)：MqttWk是由Netty实现的高并发高可用MQTT服务Broker。
 * [JMQTT](https://github.com/Cicizz/jmqtt)：JMQTT是一个MQTT Broker，由Java和Netty实现，支持持久化和集群。
 * [TBMQ](https://github.com/thingsboard/tbmq)：TBMQ是一个开源MQTT消息代理，能够处理4M+并发客户端连接，支持每个集群节点每秒至少3M消息吞吐量，并具有低延迟交付。
-* [MoP](https://github.com/streamnative/mop)：MoP是为了在Pulsar上原生支持MQTT协议而开发的。
+* [MoP](https://github.com/streamnative/mop)：MoP的开发是为了在Pulsar上原生支持MQTT协议。
 * [EnMasse](https://github.com/EnMasseProject/enmasse)：EnMasse在Kubernetes和OpenShift上提供了一个自助消息传递平台，具有统一的界面来管理不同的消息传递基础设施。
 * [Smart MQTT](https://gitee.com/smartboot/smart-mqtt)：Smart MQTT是一款开源的云原生分布式MQTT Broker服务器，支持海量物联网设备互联互通。
 * [RocketMQ MQTT](https://github.com/apache/rocketmq-mqtt)：全新的MQTT协议架构模型，基于该模型RocketMQ可以更好地支持来自物联网设备、手机APP等终端的消息。
-* [HelloIoT](https://github.com/adrianromero/helloiot)：HelloIoT是一个MQTT仪表板应用程序，你可以使用HelloIoT作为MQTT客户端应用程序来发布和订阅主题，也可以使用HelloIoT作为客户端平台来创建自己的仪表板。
 * [SMQTTX](https://gitee.com/quickmsg/smqttx)：基于Java实现的物联网分布式MQTT消息代理服务器。
-* [WeMQ](https://gitee.com/dromara/WeMQ)：WeMQ是一款面向物联网设备运营商的开源物联网设备调试系统，提供完整的物联网设备调试方案，集成设备管理、MQTT服务器管理、客户管理等功能，由dormara社区开源。
 * [MQTTX](https://github.com/Amazingwujun/mqttx)：MQTTX基于MQTT v3.1.1协议开发，旨在提供易于使用且性能优越的MQTT Broker。
 * [IoT MQTT Server](https://gitee.com/recallcode/iot-mqtt-server)：轻量级物联网MQTT服务器，支持集群。
 * [KMQTT](https://github.com/davidepianca98/KMQTT)：KMQTT是Kotlin多平台MQTT 3.1.1/5.0客户端和代理，目的是针对最多可能的构建目标。
 * [MonsterMQ](https://github.com/vogler75/monster-mq)：MonsterMQ是一个基于Vert.X和Hazelcast构建的MQTT代理。
 * [Zer0MQTTServer](https://github.com/zer0Black/zer0MQTTServer)：使用Java AIO实现的MQTT协议服务器，用于推送和IM聊天。
 * [IoT Harbor](https://github.com/1ssqq1lxr/iot-harbor)：Reactor Netty库实现的MQTT Server。
-* [Vert.x MQTT](https://github.com/vert-x3/vertx-mqtt)：Vert.x MQTT提供MQTT提供服务器和客户端组件。
-* [Netty MQTT Client](https://github.com/xzc-coder/netty-mqtt-client)：基于Netty实现的MQTT 3及MQTT 5协议的客户端。
+* [Vert.x MQTT](https://github.com/vert-x3/vertx-mqtt)：Vert.x MQTT提供MQTT服务器和客户端组件。
 * [MQTT/UDP](https://github.com/dzavalishin/mqtt_udp)：MQTT/UDP是源自MQTT的基于UDP广播/组播的协议。
+
+#### MQTT客户端
+
+* [Eclipse Paho](https://github.com/eclipse/paho.mqtt.java)：Paho Java是一个用Java编写的MQTT客户端库，由Eclipse IoT组织开发。
+* [HiveMQ MQTT Client](https://github.com/hivemq/hivemq-mqtt-client)：MQTT 5.0和3.1.1兼容且功能丰富的高性能Java客户端库，具有不同的API风格和背压支持。
+* [MQTT Client](https://github.com/fusesource/mqtt-client)：MQTT Client为MQTT提供API，如果发生任何网络故障，它会自动重新连接到MQTT服务器并恢复客户端会话。
+* [HelloIoT](https://github.com/adrianromero/helloiot)：HelloIoT是一个MQTT仪表板应用程序，你可以使用HelloIoT作为MQTT客户端应用程序来发布和订阅主题，也可以使用HelloIoT作为客户端平台来创建自己的仪表板。
+* [WeMQ](https://gitee.com/dromara/WeMQ)：WeMQ是一款面向物联网设备运营商的开源物联网设备调试系统，提供完整的物联网设备调试方案，集成设备管理、MQTT服务器管理、客户管理等功能，由dormara社区开源。
+* [Socket MQTT](https://github.com/daoshenzzg/socket-mqtt)：Socket MQTT是一个基于Netty、MQTT实现的推送基础框架。
+* [Netty MQTT Client](https://github.com/xzc-coder/netty-mqtt-client)：基于Netty实现的MQTT 3及MQTT 5协议的客户端。
 * [Courier](https://github.com/gojek/courier-android)：Courier是一个Kotlin库，用于使用MQTT协议创建长时间运行的连接。
+* [MQTT.fx](https://www.softblade.de/)：MQTT.fx是开发和生产中测试物联网路由的工具。
+* [CorreoMQTT](https://github.com/EXXETA/correomqtt)：CorreoMQTT是使用HiveMQ客户端库的现代图形MQTT客户端。
+* [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox)：JMSToolBox是一个通用JMS客户端，能够以一致的方式与市场上数量最多的队列管理器/队列提供程序进行交互。
+* [MqttInsight](https://github.com/ptma/mqtt-insight)：MqttInsight是一款开源跨平台MQTT桌面客户端。
+* [MQTT Spy](https://github.com/eclipse-paho/paho.mqtt-spy)：MQTT Spy是一款开源桌面和命令行实用程序，旨在帮助你监控MQTT主题上的活动。
 
 #### 车联网
 
@@ -8667,14 +8677,6 @@
 * [Telegram Files](https://github.com/jarvis2f/telegram-files)：自托管的Telegram文件下载器，用于连续、稳定和无人值守的下载。
 * [Drifty](https://github.com/SaptarshiSarkar12/Drifty)：Drifty是一个用Java构建的开源交互式文件下载系统，它提供CLI和GUI，灵活易用。
 * [JDownloader](https://github.com/mycodedoesnotcompile2/jdownloader_mirror)：JDownloader是一款免费的开源下载管理工具。
-
-#### MQTT客户端
-
-* [MQTT.fx](https://www.softblade.de/)：MQTT.fx是开发和生产中测试物联网路由的工具。
-* [CorreoMQTT](https://github.com/EXXETA/correomqtt)：CorreoMQTT是使用HiveMQ客户端库的现代图形MQTT客户端。
-* [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox)：JMSToolBox是一个通用JMS客户端，能够以一致的方式与市场上数量最多的队列管理器/队列提供程序进行交互。
-* [MqttInsight](https://github.com/ptma/mqtt-insight)：MqttInsight是一款开源跨平台MQTT桌面客户端。
-* [MQTT Spy](https://github.com/eclipse-paho/paho.mqtt-spy)：MQTT Spy是一款开源桌面和命令行实用程序，旨在帮助你监控MQTT主题上的活动。
 
 #### LaTeX编辑器
 
