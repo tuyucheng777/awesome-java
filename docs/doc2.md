@@ -3244,7 +3244,6 @@
 * [Purefun](https://github.com/tonivade/purefun)：Java函数式编程库。
 * [DataEnum](https://github.com/spotify/dataenum)：DataEnum允许你在Java中使用代数数据类型，由Spotify开源。
 * [Pragmatic](https://github.com/siy/pragmatica)：在实践中应用实用函数式Java方法所需的最小Java类集。
-* [Typeof](https://github.com/nurkiewicz/typeof)：Java 8中的instanceof运算符和访问者模式替代品。
 * [HighJ](https://github.com/highj/highj)：HighJ试图克服Java缺乏高阶类型多态性的问题，并将几个众所周知的类型类(包括Applicative、Monad和Foldable)和数据结构从Haskell转换为Java。
 * [Vallang](https://github.com/usethesource/vallang)：Vallang是JVM上高度集成且大部分封闭的相互递归基本数据类型的集合。
 * [Fluent](https://github.com/rogerkeays/fluent)：Fluent允许你像调用对象方法一样调用静态Java方法。
@@ -3320,8 +3319,11 @@
 
 #### 模式匹配
 
+* [Derive4j](https://github.com/derive4j/derive4j)：Derive4j是一个Java 8注解处理器，用于派生代数数据类型构造函数、模式匹配等。
 * [JPML](https://github.com/klappdev/jpml)：JPML是一个Java模式匹配库。
+* [ADT4J](https://github.com/sviperll/adt4j)：该库为Java实现了代数数据类型。
 * [Motif](https://github.com/johnlcox/motif)：Motif在Java 8中提供类似Scala的模式匹配。
+* [Typeof](https://github.com/nurkiewicz/typeof)：Java 8中的instanceof运算符和访问者模式替代品。
 * [SuitCase](https://github.com/d-plaindoux/suitcase)：SuitCase是一个方便的Java库，专用于使用模式匹配机制进行对象操作。
 * [Procrastination](https://github.com/gdejohn/procrastination)：Procrastination是一个小型、简单的库，将函数式编程的优势引入Java 11。
 
@@ -4863,6 +4865,7 @@
 ## 源代码转换
 
 * [JSweet](https://github.com/cincheo/jsweet)：JSweet利用TypeScript通过JavaScript库和框架用Java编写丰富且响应迅速的Web应用程序。
+* [Java2Typescript](https://github.com/raphaeljolivet/java2typescript)：Java2Typescript提供了一个Java REST服务定义和Typescript客户端之间的桥梁。
 * [J2CL](https://github.com/google/j2cl)：J2CL是一个功能强大、简单且轻量级的从Java到Closure风格JavaScript的转译器，由Google开源。
 * [J4TS](https://github.com/j4ts/j4ts)：J4TS基于GWT的JRE模拟库的一个分支，用Java编写，并使用JSweet转译器转译为TypeScript/JavaScript。
 * [SWC4j](https://github.com/caoccao/swc4j)：SWC4j是一款基于JVM的超高速JavaScript和TypeScript编译和打包工具。
@@ -8110,6 +8113,7 @@
 * [DarculaFX](https://github.com/mouse0w0/darculafx)：JavaFX Darcula主题。
 * [FlatBee](https://github.com/marcschuler/FlatBee)：一个扁平化、流式的JavaFX CSS主题。
 * [FXThemes](https://github.com/dukke/FXThemes)：用于JavaFX高级主题开发的实用程序类。
+* [GNDecorator](https://github.com/gleidsonmt/GNDecorator)：适用于JavaFX应用程序的现代窗口装饰器。
 
 #### JavaFX样式库
 
@@ -10519,7 +10523,6 @@
 ## 注解处理器
 
 * [Lombok](https://github.com/projectlombok/lombok)：Lombok是对Java语法非常有用的补充，消除大量样板代码。
-* [Derive4j](https://github.com/derive4j/derive4j)：Derive4j是一个Java 8注解处理器，用于派生代数数据类型构造函数、模式匹配等。
 * [AndroidAnnotations](https://github.com/androidannotations/androidannotations)：AndroidAnnotations是一个开源框架，可加速Android开发。
 * [Jackdaw](https://github.com/vbauer/jackdaw)：Jackdaw是一个Java注解处理器，可以简化Java/Android开发并防止编写繁琐的代码。
 * [Rest.Vertx](https://github.com/zandero/rest.vertx)：适用于Vert.x Vertical的JAX-RS风格注解处理器。
@@ -10527,7 +10530,6 @@
 * [Gson Path](https://github.com/LachlanMcKee/gsonpath)：一个注解处理器库，在编译时生成Gson类型适配器，也使用基本的JsonPath功能。
 * [Sundrio](https://github.com/sundrio/sundrio)：Sundrio提供了一种抽象的Java代码表示方法，允许你在不受上下文限制的情况下表示、操作和生成代码。
 * [APTK](https://github.com/toolisticon/aptk)：APTK可帮助你以更有效的方式构建注解处理器的工具包。
-* [ADT4J](https://github.com/sviperll/adt4j)：该库为Java实现了代数数据类型。
 * [Incap](https://github.com/tbroyer/gradle-incap-helper)：用于构建增量注解处理器的辅助库和注解处理器。
 * [Better Strings](https://github.com/antkorwin/better-strings)：Better Strings是用于Java字符串插值的插件。
 
