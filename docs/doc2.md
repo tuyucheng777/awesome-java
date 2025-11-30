@@ -5376,7 +5376,7 @@
 * [JPress](https://gitee.com/JPressProjects/jpress)：JPress是一个使用Java开发、类似WordPress的产品，支持多站点、多语种自动切换等，由小码科技开源。
 * [师说CMS](https://gitee.com/shishuo/CMS_old)：师说CMS是一款使用Java语言开发的CMS，使用了Spring MVC、Spring、MyBatis等流行框架，提供首页大图管理、目录管理、文章管理和管理员管理等功能。
 * [NiceFish](https://gitee.com/mumu-osc/NiceFish)：NiceFish是一个系列项目，目标是示范前后端分离的开发模式。
-* [BookLore](https://github.com/adityachandelgit/BookLore)：BookLore是一款自托管的Web应用，用于整理和管理你的个人藏书。
+* [BookLore](https://github.com/booklore-app/booklore)：BookLore是一款自托管的Web应用，用于整理和管理你的个人藏书。
 * [JFinal CMS](https://gitee.com/jflyfox/jfinal_cms)：JFinal CMS是一个Java开发的功能强大的信息咨询网站，采用JFinal作为Web框架。
 * [XWiki Platform](https://github.com/xwiki/xwiki-platform)：XWiki Platform是一个通用的Wiki平台，为构建在其之上的应用程序提供运行时服务。
 * [StubbornJava](https://github.com/StubbornJava/StubbornJava)：用于构建无需框架的Web服务器/服务的非常规Java代码。
@@ -7941,7 +7941,7 @@
 * [Cinch](https://github.com/palantir/Cinch)：管理MVC模式的组件操作/事件绑定的Java库，由Palantir开源。
 * [jGAF](https://github.com/pgdurand/jGAF)：jGAF是一个旨在促进为Java平台创建跨平台图形应用程序的库。
 * [Projector Server](https://github.com/JetBrains/projector-server)：用于远程运行Swing应用程序的服务器端库，由JetBrains开源。
-* [ReflectionUI](https://github.com/dotxyteam/ReflectionUI)：基于Java反射的GUI构建器/生成器。
+* [ReflectionUI](https://github.com/dotxyteam/ReflectionUI)：ReflectionUI是一个免费的Java GUI构建器/生成器库。
 * [Compositor](https://compositor.sourceforge.net/)：Compositor让你可以将应用程序的UI与代码分开描述。
 * [MDIUtilities](https://mdiutilities.sourceforge.io/)：MDIUtilities是一个提供各种实用程序类的Java库，主要用于Swing或JavaFX开发。
 * [Marathon](https://github.com/jalian-systems/marathonv5)：Marathon是一款用于录制、回放和重构使用Swing或FX组件开发的Java GUI程序测试用例的工具。
