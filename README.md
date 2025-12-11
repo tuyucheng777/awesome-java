@@ -105,10 +105,11 @@
   * [HTTP路由](#HTTP路由)
   * [Web服务器](#Web服务器)
   * [应用服务器](#应用服务器)
-  * [WebSocket](#WebSocket)
   * [FTP服务器](#FTP服务器)
   * [NIO框架](#NIO框架)
   * [网络库](#网络库)
+  * [WebSocket](#WebSocket)
+  * [Socket.IO](#Socket.IO)
   * [Socket](#Socket)
   * [TCP/UDP库](#TCPUDP库)
   * [Pcap](#Pcap)
@@ -2811,6 +2812,7 @@
 * [Jetty HttpClient](https://github.com/eclipse/jetty.project/tree/jetty-10.0.x/jetty-client)：Jetty中执行HTTP和HTTPS请求的模块。
 * [HTTP4J](https://github.com/IntellectualSites/HTTP4J)：HTTP4J是Java HttpURLConnection的一个简单、轻量级且小型的包装器。
 * [Donkey](https://github.com/AppsFlyer/donkey)：现代Clojure、Ring兼容的HTTP服务器和客户端，专为易用性和性能而设计。
+* [OkCronet](https://github.com/limuyang2/okcronet)：OkCronet是一个类似于OKHTTP的网络请求库，使用Cronet实现。
 * [HTTPBuilder](https://github.com/jgritman/httpbuilder)：Groovy的简单HTTP客户端。
 * [HttpBuilder NG](https://github.com/http-builder-ng/http-builder-ng)：适用于Groovy、Java的简单HTTP客户端。
 * [RestVolley](https://github.com/HujiangTechnology/RestVolley)：RestVolley是一个基于Volley和OkHttp的HTTP请求框架，由沪江科技开源。
@@ -2906,43 +2908,6 @@
 * [Smart Servlet](https://gitee.com/smartboot/smart-servlet)：Smart Servlet是一款实现了Servlet 4.0规范，支持多应用隔离部署的的Web容器。
 * [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
 
-#### WebSocket
-
-* [Pushy](https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658)：Pushy是Netflix的WebSocket服务器，可与运行Netflix应用程序的设备保持持久的WebSocket连接。
-* [Java WebSocket](https://github.com/TooTallNate/Java-WebSocket)：该项目包含用纯Java编写的准系统WebSocket客户端和服务器实现。
-* [Scarlet](https://github.com/Tinder/Scarlet)：Scarlet是受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端，由Tinder开源。
-* [SignalR](https://github.com/aspnet/SignalR)：SignalR是一个开源库，可简化向应用程序添加实时功能，由Microsoft开发。
-* [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
-* [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient是适用于Java的异步HTTP和WebSocket客户端库。
-* [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
-* [WebSocket Android](https://github.com/codebutler/android-websockets)：一个非常简单的Android WebSocket客户端。
-* [Kafka WebSocket](https://github.com/b/kafka-websocket)：kafka分布式消息代理的简单WebSocket服务器接口。
-* [Socket.IO Java](https://github.com/socketio/socket.io-client-java)：全功能的Java Socket.IO客户端库，与Socket.IO v1.0及更高版本兼容。
-* [EzyFox](https://github.com/youngmonkeys/ezyfox-server)：EzyFox支持企业产品开发的各种基本组件，包括TCP、UDP、WebSocket、HTTP RESTful API、RPC协议、数据库交互、内存缓存和消息队列。
-* [Pusher Java Client](https://github.com/pusher/pusher-websocket-java)：适用于Java的Pusher Channels客户端库，面向Java和Android。
-* [Socket.IO](https://github.com/scalecube/socketio)：ScaleCube Socket.IO是基于Netty框架的Socket.IO Java服务器的轻量级实现
-* [JavaWebsocketClient](https://github.com/jacek-marchwicki/JavaWebsocketClient)：JavaWebsocketClient库是用于Java和Android的RX中Websocket连接的简单库，它被设计为快速且容错。
-* [Qonduit](https://github.com/NationalSecurityAgency/qonduit)：Accumulo的安全WebSocket代理，由美国国家安全局开源。
-* [Netty Socket.IO](https://github.com/mrniko/netty-socketio)：该项目是Socket.IO服务器的开源Java实现，基于Netty服务器框架。
-* [wAsync](https://github.com/Atmosphere/wasync)：wAsync是一个基于Java的库，允许与任何支持WebSocket或HTTP协议的Web服务器进行异步通信。
-* [Java/Android WebSocket Client](https://github.com/gusavila92/java-android-websocket-client)：一个非常轻量级的WebSocket客户端库，适用于基于JVM的客户端或Android，旨在实现RFC 6455中定义的WebSocket协议。
-* [Netty WebSocket Spring Boot Starter](https://github.com/YeautyYE/netty-websocket-spring-boot-starter)：轻量级、高性能的WebSocket框架。
-* [Webbit](https://github.com/webbit/webbit)：Webbit是基于Java事件的WebSocket和HTTP服务器。
-* [Autobahn](https://github.com/crossbario/autobahn-java)：Autobahn是适用于Android和Java 8的Java中的WebSocket和WAMP。
-* [Jawampa](https://github.com/Matthias247/jawampa)：Jawampa是一个为Java提供对Web应用程序消息传递协议(WAMP)支持的库。
-* [Eclipse Tyrus](https://github.com/eclipse-ee4j/tyrus)：Tyrus是开源JSR 356-WebSocket参考实现的Java API，可轻松开发WebSocket应用程序。
-* [Socket.IO Java Client](https://github.com/Gottox/socket.io-java-client)：Java中的Socket.IO客户端实现。
-* [Socket.IO Java](https://github.com/trinopoty/socket.io-server-java)：这是从JavaScript服务器移植的Java Socket.IO服务器库。
-* [Babl WebSocket Server](https://github.com/babl-ws/babl)：Babl是一款高性能、可扩展的WebSocket服务器，专为低延迟应用程序而设计。
-* [Socket.x](https://github.com/obsidiandynamics/socketx)：Socket.x是一个用于构建高性能、分布式WebSocket应用程序的库。
-* [WebSocketDemo](https://github.com/0xZhangKe/WebSocketDemo)：用于简化WebSocket在Android平台使用的封装方法。
-* [RxWebSocket](https://github.com/dhhAndroid/RxWebSocket)：RxWebSocket是一个基于Okhttp和RxJava封装的WebSocket客户端。
-* [MOKO Socket.IO](https://github.com/icerockdev/moko-socket-io)：IceRock的MOKO Socket.IO是Socket.IO实现Kotlin多平台库。
-* [Netty Socket.IO](https://github.com/socketio4j/netty-socketio)：基于Netty框架的Java Socket.IO服务器实现。
-* [WebSocket Android Phonegap](https://github.com/anismiles/websocket-android-phonegap)：这是一个为Android平台实现Websocket API的Java库。
-* [TubeSock](https://github.com/FirebaseExtended/TubeSock)：TubeSock是WebSocket协议客户端的Java实现，由Google开源。
-* [Krossbow](https://github.com/joffrey-bion/krossbow)：Krossbow是一个Kotlin多平台STOMP 1.2客户端，具有基于协程的API。
-
 #### FTP服务器
 
 * [Apache FtpServer](https://mina.apache.org/ftpserver-project/)：FtpServer是一个100%纯Java FTP服务器。
@@ -2982,6 +2947,7 @@
 * [Android Network Tools](https://github.com/stealthcopter/AndroidNetworkTools)：该项目是一组有用的Android网络工具库，例如端口扫描、ping等。
 * [AdbLib](https://github.com/cgutman/AdbLib)：ADB网络协议的Java库实现。
 * [COMSAT](https://github.com/puniverse/comsat)：COMSAT是一组开源库，将Quasar与各种Web或企业技术集成。
+* [Bitchat](https://github.com/all4you/bitchat)：Bitchat是一个基于Netty的网络框架。
 * [Infinileap](https://github.com/hhu-bsinfo/infinileap)：Infinileap是适用于Java 19+的基于ucx的现代网络框架，由杜塞尔多夫海因里希海涅大学计算机科学系操作系统小组开发。
 * [TLS Channel](https://github.com/marianobarrios/tls-channel)：TLS Channel是一个通过TLS连接实现ByteChannel接口的库。
 * [JXIO](https://github.com/accelio/JXIO)：JXIO是基于AccelIO(C库)的Java API。
@@ -2993,6 +2959,48 @@
 * [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
 * [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
 * [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
+
+#### WebSocket
+
+* [Pushy](https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658)：Pushy是Netflix的WebSocket服务器，可与运行Netflix应用程序的设备保持持久的WebSocket连接。
+* [Java WebSocket](https://github.com/TooTallNate/Java-WebSocket)：该项目包含用纯Java编写的准系统WebSocket客户端和服务器实现。
+* [Scarlet](https://github.com/Tinder/Scarlet)：Scarlet是受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端，由Tinder开源。
+* [SignalR](https://github.com/aspnet/SignalR)：SignalR是一个开源库，可简化向应用程序添加实时功能，由Microsoft开发。
+* [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
+* [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient是适用于Java的异步HTTP和WebSocket客户端库。
+* [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
+* [WebSocket Android](https://github.com/codebutler/android-websockets)：一个非常简单的Android WebSocket客户端。
+* [Kafka WebSocket](https://github.com/b/kafka-websocket)：kafka分布式消息代理的简单WebSocket服务器接口。
+* [EzyFox](https://github.com/youngmonkeys/ezyfox-server)：EzyFox支持企业产品开发的各种基本组件，包括TCP、UDP、WebSocket、HTTP RESTful API、RPC协议、数据库交互、内存缓存和消息队列。
+* [Pusher Java Client](https://github.com/pusher/pusher-websocket-java)：适用于Java的Pusher Channels客户端库，面向Java和Android。
+* [JavaWebsocketClient](https://github.com/jacek-marchwicki/JavaWebsocketClient)：JavaWebsocketClient库是用于Java和Android的RX中Websocket连接的简单库，它被设计为快速且容错。
+* [Qonduit](https://github.com/NationalSecurityAgency/qonduit)：Accumulo的安全WebSocket代理，由美国国家安全局开源。
+* [wAsync](https://github.com/Atmosphere/wasync)：wAsync是一个基于Java的库，允许与任何支持WebSocket或HTTP协议的Web服务器进行异步通信。
+* [Java/Android WebSocket Client](https://github.com/gusavila92/java-android-websocket-client)：一个非常轻量级的WebSocket客户端库，适用于基于JVM的客户端或Android，旨在实现RFC 6455中定义的WebSocket协议。
+* [Netty WebSocket Spring Boot Starter](https://github.com/YeautyYE/netty-websocket-spring-boot-starter)：轻量级、高性能的WebSocket框架。
+* [Webbit](https://github.com/webbit/webbit)：Webbit是基于Java事件的WebSocket和HTTP服务器。
+* [Autobahn](https://github.com/crossbario/autobahn-java)：Autobahn是适用于Android和Java 8的Java中的WebSocket和WAMP。
+* [Jawampa](https://github.com/Matthias247/jawampa)：Jawampa是一个为Java提供对Web应用程序消息传递协议(WAMP)支持的库。
+* [Eclipse Tyrus](https://github.com/eclipse-ee4j/tyrus)：Tyrus是开源JSR 356-WebSocket参考实现的Java API，可轻松开发WebSocket应用程序。
+* [Babl WebSocket Server](https://github.com/babl-ws/babl)：Babl是一款高性能、可扩展的WebSocket服务器，专为低延迟应用程序而设计。
+* [Socket.x](https://github.com/obsidiandynamics/socketx)：Socket.x是一个用于构建高性能、分布式WebSocket应用程序的库。
+* [WebSocketDemo](https://github.com/0xZhangKe/WebSocketDemo)：用于简化WebSocket在Android平台使用的封装方法。
+* [RxWebSocket](https://github.com/dhhAndroid/RxWebSocket)：RxWebSocket是一个基于Okhttp和RxJava封装的WebSocket客户端。
+* [WebSocket Android Phonegap](https://github.com/anismiles/websocket-android-phonegap)：这是一个为Android平台实现Websocket API的Java库。
+* [TubeSock](https://github.com/FirebaseExtended/TubeSock)：TubeSock是WebSocket协议客户端的Java实现，由Google开源。
+* [Krossbow](https://github.com/joffrey-bion/krossbow)：Krossbow是一个Kotlin多平台STOMP 1.2客户端，具有基于协程的API。
+
+#### Socket.IO
+
+* [Socket.IO Java](https://github.com/socketio/socket.io-client-java)：全功能的Java Socket.IO客户端库，与Socket.IO v1.0及更高版本兼容。
+* [Socket.IO](https://github.com/scalecube/socketio)：ScaleCube Socket.IO是基于Netty框架的Socket.IO Java服务器的轻量级实现。
+* [Netty Socket.IO](https://github.com/mrniko/netty-socketio)：该项目是Socket.IO服务器的开源Java实现，基于Netty服务器框架。
+* [Socket.IO Java Client](https://github.com/Gottox/socket.io-java-client)：Java中的Socket.IO客户端实现。
+* [Socket.IO Java](https://github.com/trinopoty/socket.io-server-java)：这是从JavaScript服务器移植的Java Socket.IO服务器库。
+* [MOKO Socket.IO](https://github.com/icerockdev/moko-socket-io)：IceRock的MOKO Socket.IO是Socket.IO实现Kotlin多平台库。
+* [Netty Socket.IO](https://github.com/socketio4j/netty-socketio)：基于Netty框架的Java Socket.IO服务器实现。
+* [Vert.x Socket.IO](https://github.com/keesun/mod-socket-io)：该模块允许Vert.x像Node.js一样创建Socket.IO服务器。
+* [Play Socket.IO](https://github.com/playframework/play-socket.io)：Play后端Socket.IO支持。
 
 #### Socket
 
@@ -3008,9 +3016,14 @@
 * [JNR UnixSocket](https://github.com/jnr/jnr-unixsocket)：Java的本机I/O访问。
 * [Epoll](https://github.com/wizzardo/epoll)：基于事件的套接字服务器，使用epoll。
 * [JNanomsg](https://github.com/niwinz/jnanomsg)：用于Nanomsg的Clojure和Java绑定。
+* [Hxy Socket](https://github.com/a805748009/hxy-socket)：基于Spring Boot和Netty的Socket通信框架。
+* [AndroidSocket](https://github.com/itsMelo/AndroidSocket)：Android上一套完整的Socket解决方案。
+* [XAndroidSocket](https://github.com/Blankeer/XAndroidSocket)：Socket封装，支持TCP/UDP客户端和服务端，支持自定义粘包处理、验证处理、解析处理。
+* [ASocket](https://github.com/jenly1314/ASocket)：ASocket是一个TCP/UDP协议的封装库，方便快速实现TCP的长连接与UDP的单播、组播、广播等相关通信。
 * [AIO Socket](https://gitee.com/starboot/aio-socket)：AIO Socket是Java AIO通讯内核，采用了内存池、线程池、对象池、缓存池以及插件化增添模块等思想进行设计。
 * [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
 * [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
+* [Netty Chat](https://github.com/tonybase/netty-chat)：使用Netty实现IMServer，支持TCP和WebSocket实现。
 
 #### TCP/UDP库
 
@@ -3019,6 +3032,9 @@
 * [Chronicle Network](https://github.com/OpenHFT/Chronicle-Network)：Chronicle Network是一个高性能网络(TCP/IP)库。
 * [CoralReactor](https://www.coralblocks.com/index.php/category/coralreactor/)：CoralReactor是一个功能强大、超低延迟、异步、非阻塞的网络I/O库，可通过简单的API提供高性能。
 * [TCP Gateway](https://github.com/SongranZhang/tcp-gateway)：基于Netty 4的高性能TCP网关，用于请求数据或推送消息。
+* [AndroidServer](https://github.com/fengzhizi715/AndroidServer)：基于Kotlin、Netty开发，为Android App提供Server的功能，包括HTTP、TCP、WebSocket服务。
+* [LANCOMM](https://github.com/fighter-lee/lancomm)：Android局域网通讯，基于UDP和TCP封装的局域网通讯协议框架。
+* [NettyIM](https://github.com/CWTakiku/NettyIM)：NettyIM是一款基于Netty高度定制化的通讯SDK，支持TCP、UDP和WebSocket协议的通信。
 * [SimpleNet](https://github.com/jhg023/SimpleNet)：SimpleNet是一个用Java编写的简单的客户端/服务器框架。
 * [Dragonite](https://github.com/dragonite-network/dragonite-java)：Dragonite是一种基于UDP的可靠应用级数据传输协议，针对有损和不稳定的网络进行了高度优化。
 * [JBoss Remoting](https://github.com/jboss-remoting/jboss-remoting)：JBoss Remoting的目的是提供一个用于通过网络进行对称和非对称通信的通用框架，由RedHat开发。
@@ -3176,6 +3192,7 @@
 * [Quiche4j](https://github.com/kachayev/quiche4j)：QUIC传输协议和HTTP/3的Java实现。
 * [Netty QUIC Codec](https://github.com/netty/netty-incubator-codec-quic)：这是利用quiche的Netty的新型实验性QUIC编解码器。
 * [Quincy](https://github.com/protocol7/quincy)：Quincy是基于Netty框架的QUIC的Java实现。
+* [KNet](https://github.com/VKCOM/KNet)：支持QUIC协议的Android网络库。
 
 #### SNMP
 
@@ -3218,6 +3235,7 @@
 * [Java IPv6](https://github.com/janvanbesien/java-ipv6)：Java IPv6是一个用于IPv6相关概念的Java库，例如IPv6地址、网络掩码、地址池等。
 * [IpDB Java](https://github.com/ipipdotnet/ipdb-java)：IPIP.net官方支持的IP数据库ipdb格式解析库。
 * [IP Info](https://gitee.com/jthinking/ip-info)：IP地理位置获取，支持获取IPv4、IPv6地址信息。
+* [JIP Common](https://gitee.com/toktok/jip-common)：JIP Common支持IPv4和IPv6，多种IP格式的解析。
 * [Ineter](https://github.com/maltalex/ineter)：用于处理IP地址、范围和子网的快速Java库。
 
 ## 工具库
