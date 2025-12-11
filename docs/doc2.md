@@ -919,6 +919,7 @@
 
 * [DAL](https://github.com/ctripcorp/dal)：DAL是携程框架部开发的数据库访问框架，支持流行的分库分表操作。
 * [Doma](https://github.com/domaframework/doma)：Doma是适用于Java 8+的面向DAO的数据库映射框架。
+* [Dynamic SQL2](https://github.com/pengweizhong/dynamic-sql2)：Dynamic SQL2是一个灵活、安全的Java动态SQL构建框架，提供简洁的DSL风格接口，帮助开发者动态构建SQL查询。
 * [MiniDao](https://github.com/jeecgboot/MiniDao)：MiniDao是一款轻量级Java持久层框架，基于Spring JDBC\Freemarker实现，具备Mybatis一样的SQL分离和逻辑标签能力，由北京国炬公司开发。
 * [DAS](https://github.com/ppdaicorp/das)：DAS是信也科技自研的数据库访问框架。
 * [DAOMedge](https://medge.id.au/medge/daomedge/)：DaoMerge是一个简单易用、文档齐全的数据库访问对象库，并带有代码生成器。
