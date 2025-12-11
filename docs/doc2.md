@@ -1117,6 +1117,7 @@
 * [DBUtil](https://github.com/vladmihalcea/db-util)：该工具可以在测试期间自动检测N+1查询问题。
 * [JPlusOne](https://github.com/adgadev/jplusone)：JPlusOne是用于自动检测和断言基于JPA的Spring Boot Java应用程序中发生的“N+1问题”并查找JPA发出的SQL语句的一般来源的工具。
 * [Spring Hibernate Query Utils](https://github.com/yannbriancon/spring-hibernate-query-utils)：该库提供了检测N+1查询并对Spring和Hibernate生成的查询进行计数的工具。
+* [JPA N+1 Detector](https://github.com/joon6093/jpa-nplus1-detector)：检测JPA应用中的N+1查询问题。
 
 #### Redis库/工具
 
@@ -1958,6 +1959,7 @@
 * [JsonDiff](https://gitee.com/codeleep/json-diff)：一款高性能且功能强大的JSON差异发现工具。
 * [Hamcrest JSON](https://github.com/hertzsprung/hamcrest-json)：用于比较JSON文档的Hamcrest匹配器。
 * [JsonDiff](https://github.com/LianjiaTech/json-diff)：JsonDiff提供了对JSON通用的Diff能力，支持JSON字符串的深度比较、支持无序数组比较、内含多种算法模型满足对JSON比较时各种需求，由贝壳开源。
+* [Jazon](https://github.com/zendesk/jazon)：一个用于测试JSON负载断言的库。
 
 ## 配置管理
 
@@ -2254,6 +2256,7 @@
 * [MorphoLibJ](https://github.com/ijpb/MorphoLibJ)：MorphoLibJ是ImageJ的数学形态学方法和插件的集合，由INRA-IJPB建模和数字成像实验室创建。
 * [Rings](https://github.com/PoslavskySV/rings)：Rings是一个高效的轻量级交换代数库。
 * [JPOP](https://www5.cs.fau.de/research/software/java-parallel-optimization-package/)：JPOP是一个开源软件库，允许最小化非线性函数，由斯坦福大学开源。
+* [MathEngine](https://github.com/raharrison/MathEngine)：一个数学库，配备高级表达式解析器，带有自定义函数，并支持向量和矩阵。
 
 #### 线性代数
 
@@ -3110,6 +3113,7 @@
 * [JColor](https://github.com/dialex/JColor)：JColor提供了一种简单的语法，可以在终端上以彩色字体或背景打印消息。
 * [Colorized Java](https://github.com/vieitesss/colorize-Java)：在Java控制台中打印彩色文本的小型库。
 * [Asciimg](https://github.com/korhner/asciimg)：Asciimg是一个用Java编写的可扩展Ascii艺术生成器。
+* [Text UI](https://github.com/alibaba/text-ui)：阿里开源的文本用户界面库。
 * [Crossword](https://github.com/JakeWharton/crossword)：用于渲染文本的2D画布，通常用于控制台应用程序。
 * [Pretty Print](https://github.com/snowe2010/pretty-print)：JVM的漂亮打印模块。
 * [Kolor](https://github.com/ziggy42/kolor)：Kolor是一个使用Kotlin打印彩色字符串的库。
