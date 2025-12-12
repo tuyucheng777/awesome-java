@@ -589,6 +589,7 @@
 * [Maveryx](https://www.maveryx.com/)：Maveryx是一款专注于减少测试维护成本、适应动态UI的高效测试自动化工具。
 * [TestHubo](https://github.com/tiklab-project/tiklab-testhubo)：全栈式测试管理工具，涵盖功能测试、接口测试、Web测试、App测试及性能测试等，全面覆盖各种测试场景。
 * [Online Inspection Tracker](https://github.com/TheCoolQATeam/online-inspection-tracker)：Online Inspection Tracker是一个线上UI自动化巡检工具，旨在帮助开发人员和测试人员快速、高效地检测线上Web应用的UI界面是否存在异常。
+* [BitDive](https://bitdive.io/)：BitDive是零代码集成测试平台，可根据运行时应用程序行为生成测试用例。
 
 #### QA自动化
 
@@ -1683,6 +1684,7 @@
 * [DeSensitization](https://github.com/allurx/desensitization)：Blur是一个Java库，用于屏蔽和混淆任何数据结构中的敏感数据。
 * [Data Mask](https://github.com/bancolombia/data-mask)：与Jackson一起使用的实用程序库，旨在通过使用额外的加密/解密进行屏蔽来保护敏感数据，由哥伦比亚银行开源。
 * [Chlorine Finder](https://github.com/dataApps/chlorine-finder)：Chlorine Finder是一个用于检测文本中敏感元素的开源库。
+* [Rpamis Security](https://github.com/rpamis/rpamis-security)：Rpamis Security项目是一个基于Mybatis插件开发的安全组件，旨在提供更优于市面上组件的脱敏、加解密落库等企业数据安全解决方案。
 
 #### 零知识证明
 
@@ -1824,6 +1826,7 @@
 * [JToon](https://github.com/felipestanzani/JToon)：Java面向Token的对象表示法，用于LLM的JSON，Token成本仅为一半。
 * [TOON Java](https://github.com/wuahhh/toon-java)：面向LLM的高效数据序列化库。
 * [TOON4s](https://github.com/vim89/toon4s)：TOON4s是Scala的TOON惯用实现。
+* [Toon4j](https://github.com/ricken07/Toon4j)：TOON的Java实现。
 
 ## JSON库
 
@@ -1897,6 +1900,7 @@
 * [xJsonKit](https://gitee.com/troyzhxu/xjsonkit)：xJsonKit是一个超轻量级JSON/JSONB/XML/YAML解析门面API。
 * [Tethys](https://github.com/tethys-json/tethys)：Tethys是用于Scala的无AST JSON库。
 * [JsonPathKt](https://github.com/eygraber/JsonPathKt)：Kotlin Multiplatform中更轻量级、更高效的JsonPath实现。
+* [JSON Repair](https://github.com/HAibiiin/json-repair)：JSON Repair是一个Java库，用于修复由大语言模型在不同应用层生成的异常JSON。
 
 #### JSON Schema
 
@@ -3615,6 +3619,7 @@
 * [OpenStego](https://github.com/syvaidya/openstego)：OpenStego是一款隐写术应用程序。
 * [RubberStamp](https://github.com/vinaygaba/RubberStamp)：RubberStamp是一个Android库，可让你轻松地为图像添加水印。
 * [WaterMarkIt](https://github.com/OlegCheban/WaterMarkIt)：轻量级、与框架无关的Java库，用于向各种文件类型(包括PDF和图像)添加水印。
+* [Innamark](https://github.com/FraunhoferISST/Innamark)：Innamark项目提供隐写/水印解决方案。
 
 ## 压缩库
 
@@ -5073,11 +5078,13 @@
 * [Naive Admin](https://www.naiveadmin.com/)：开箱即用的企业级前后端框架。
 * [PanisBoot](https://github.com/paynezhuang/panis-boot)：PanisBoot是一款现代化的后台管理系统脚手架，基于Spring Boot 3进行开发。
 * [EMS Admin](https://github.com/ems-admin/ems-admin-vue3)：EMS Admin是一套极简的后台管理系统。
+* [CyreneAdmin](https://gitee.com/momoljw/CyreneAdmin)：CyreneAdmin是一个现代化的后台管理系统，提供双框架支持(Spring Boot、Solon)。
 
 #### 低代码
 
 * [Appsmith](https://github.com/appsmithorg/appsmith)：Appsmith是一个开源低代码平台，可简化自定义应用程序的开发、部署和维护。
 * [JeecgBoot](https://github.com/jeecgboot/JeecgBoot)：JeecgBoot是一款基于AIGC和低代码引擎的AI低代码平台，旨在帮助开发者快速实现低代码开发和构建、部署个性化的AI应用，由北京国炬公司开发。
+* [OutSystems](https://www.outsystems.com/)：OutSystems是一个由人工智能驱动的低代码平台。
 * [APITable](https://github.com/apitable/apitable)：APITable是一个面向API的低代码平台，用于构建协作应用程序。
 * [JeeSite](https://gitee.com/thinkgem/jeesite5)：JeeSite是一个轻量级、企业级低代码解决方案，由济南卓源软件公司开源。
 * [Guns](https://gitee.com/stylefeng/guns)：Guns是一个现代化的Java应用开发框架，基于主流技术Spring Boot 2、Vue 3。
@@ -9105,6 +9112,7 @@
 * [MateVM](https://github.com/MateVM/MateVM)：MateVM是一个用Haskell编写的Java JIT编译器。
 * [Apache Royale Compiler](https://github.com/apache/royale-compiler)：Royale编译器将ActionScript 3.0和MXML代码编译为SWF或JavaScript。
 * [JLLVM](https://github.com/JLLVM/JLLVM)：JLLVM是一个无需解释器的按需JIT编译JVM，由维也纳工业大学开源。
+* [BIT Mini C](https://github.com/jiweixing/BIT-MiniCC)：BIT Mini C编译器是一个用于教学的Java C编译框架，由北京理工大学开源。
 
 #### 内存中编译器
 
@@ -9543,6 +9551,8 @@
 * [Hipster4j](https://github.com/citiususc/hipster)：Hipster4j是一个轻量级且功能强大的Java和Android启发式搜索库，它包含常见的、完全可定制的算法，例如Dijkstra、A*、DFS、BFS、Bellman-Ford等，由圣地亚哥德孔波斯特拉大学开源。
 * [Jaicore Search](https://starlibs.github.io/AILibs/projects/jaicore-search/)：Jaicore Search是一个启发式搜索库，由帕德博恩大学开发。
 * [Maze](https://github.com/armin-reichert/mazes)：该项目提供了35多种算法的Java实现，用于生成所谓的“完美迷宫”(只是无向图的生成树)。
+* [JGAlgo](https://github.com/barakugav/JGAlgo)：JGAlgo是一个用Java编写的高性能图算法库。
+* [JWalker](https://github.com/epieffe/jwalker)：一个极其通用的Java库，用于将A*及其他内置搜索算法应用于用户定义的图。
 
 #### 随机流算法
 
@@ -9583,6 +9593,7 @@
 * [FastNoise Lite](https://github.com/Auburn/FastNoiseLite)：FastNoise Lite是一个极其便携的开源噪声生成库，具有大量噪声算法可供选择。
 * [OpenSimplex2](https://github.com/KdotJPG/OpenSimplex2)：OpenSimplex Noise的后继者，以及更新的OpenSimplex。
 * [Joise](https://github.com/SudoPlayGames/Joise)：Joise是一个用Java编写的2D、3D、4D和6D模块化噪声库。
+* [OpenSimplexNoise](https://gist.github.com/KdotJPG/b1270127455a94ac5d19)：基于A*格的替代构造的视觉各向同性相干噪声算法。这
 
 #### 装箱算法
 
@@ -10030,6 +10041,7 @@
 * [MAVLinkJava](https://github.com/ghelle/MAVLinkJava)：用于MAVLink的Java代码生成器和Java库。
 * [MAVLink Kotlin](https://github.com/divyanshupundir/mavlink-kotlin)：适用于Kotlin多平台的现代MAVLink库。
 * [MAVSDK Java](https://github.com/mavlink/MAVSDK-Java)：Java的MAVSDK客户端。
+* [DroneDetour](https://github.com/xumeng367/DroneDetour)：DroneDetour是一个基于Java的库，并提供Android演示，它实现了一种智能无人机绕行路径规划算法。
 * [Drone Route Path](https://github.com/originDoris/drone-route-path)：本项目是一个专业的无人机航线规划算法库，主要用于无人机摄影测量任务的路径规划。
 
 ## AIS库
@@ -10366,6 +10378,7 @@
 * [Kolasu](https://github.com/Strumenta/kolasu)：Kolasu提供使用Kotlin构建自定义、可能可变的抽象语法树(AST)的基础设施。
 * [Kastree](https://github.com/cretz/kastree)：Kastree是一个简单的库，用于将Kotlin源代码作为一组AST对象进行操作。
 * [Despector](https://github.com/Despector/Despector)：一个Java/Kotlin反编译工具和AST库。
+* [YAJCo](https://github.com/kpi-tuke/yajco)：YAJCo是一款基于注解模型的语言解析器生成器。
 
 #### 表达式引擎
 
@@ -10435,6 +10448,7 @@
 * [Xeger](https://github.com/agarciadom/xeger)：Xeger是一个用于生成与特定正则表达式匹配的字符串的Java库。
 * [OpenRegex](https://github.com/knowitall/openregex)：OpenRegex是一种高效灵活的基于标记的正则表达式语言和引擎，由华盛顿大学开源。
 * [Regex Builder](https://github.com/sgreben/regex-builder)：Regex Builder库是作为java.util.regex的轻量级包装器实现的。
+* [Needle](https://github.com/hyperpape/needle)：Needle是JVM的一个非常快速的正则表达式库。
 
 #### SQL解析器
 
