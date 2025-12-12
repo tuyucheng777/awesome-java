@@ -3794,6 +3794,7 @@
 * [Malmo](https://github.com/microsoft/malmo)：Malmo是一个建立在Minecraft之上的人工智能实验和研究平台，由Microsoft开源。
 * [AI Descartes](https://github.com/IBM/AI-Descartes)：IBM开发的用于加速基本定律符号发现的开源包。
 * [Baidu AIP SDK](https://github.com/Baidu-AIP/java-sdk)：百度AI开放平台Java SDK。
+* [TrustyAI](https://github.com/trustyai-explainability/trustyai-explainability)：TrustyAI的核心是一个面向可解释人工智能的Java库和服务。
 
 #### LLM框架
 
@@ -4247,6 +4248,7 @@
 * [AnomalyDetection](https://github.com/JeemyJohn/AnomalyDetection)：Java实现的异常检测算法。
 * [Isolation Forest](https://github.com/linkedin/isolation-forest)：这是孤立森林无监督异常值检测算法的分布式Scala/Spark实现，由LinkedIn开发。
 * [Yurita](https://github.com/paypal/yurita)：Yurita是一个用于开发大规模异常检测模型的开源项目，由Paypal开发。
+* [Ad4j](https://github.com/algorithm-tools/ad4j)：Ad4j是一个基于统计和机器学习方法的异常检测算法库，使用Java实现。
 
 #### 逻辑编程
 
