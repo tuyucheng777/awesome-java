@@ -1787,6 +1787,7 @@
 * [Zserio](https://github.com/ndsev/zserio)：Zserio是一个以紧凑、高效、低开销的方式序列化结构化数据的框架。
 * [Chill](https://github.com/twitter/chill)：Kryo序列化库的扩展，包括序列化器和一组类，以简化Hadoop、Storm、Akka等系统中Kryo的配置，由Twitter开源。
 * [Opack](https://github.com/realtimetech-solution/opack)：Opack是一个Java库，可以实现Java对象与普通对象之间的序列化/反序列化，由韩国公司Realtime开源。
+* [Fse](https://gitee.com/eric_ds/fse)：高性能Java序列化框架，可以任意Java对象序列化为字节数组并且完成反序列化。
 * [Avro4s](https://github.com/sksamuel/avro4s)：Avro4s是一个用Scala编写的Avro模式/类生成及序列化/反序列化库。
 * [Salat](https://github.com/salat/salat)：Salat是一个简单的案例类序列化库。
 * [Protobuf Java Format](https://github.com/bivas/protobuf-java-format)：基于谷歌的Protobuf Message，提供不同格式的序列化和反序列化。
@@ -1800,6 +1801,7 @@
 * [SerialKiller](https://github.com/ikkisoft/SerialKiller)：SerialKiller是一个易于使用的前瞻Java反序列化库，用于保护应用程序免受不受信任的输入。
 * [Blixtser](https://github.com/Mojang/blixtser)：Blixtser是一款快速高效的Java序列化工具，由Mojang开源。
 * [JBoss Marshalling](https://github.com/jboss-remoting/jboss-marshalling)：JBoss Marshalling是WildFly项目使用的替代序列化API。
+* [MyraCodec](https://github.com/mvp-express/myra-codec)：MYRA Codec是一个高性能的二进制序列化库，采用模式优先设计。
 
 #### Protocol Buffer
 
@@ -8055,6 +8057,7 @@
 * [Matplotlib4j](https://github.com/sh0nk/matplotlib4j)：Matplotlib4j是一个用于Java、Scala和Kotlin的简单绘图库。
 * [Ardor3D](https://github.com/Renanse/Ardor3D)：Ardor3D是一个基于Java的免费、面向专业的开源3D图形引擎。
 * [JGraphX](https://github.com/jgraph/jgraphx)：JGraphX是一个Java Swing图表库。
+* [Matplot3D](https://gitee.com/tanling8334/Matplot3D-for-Java)：Matplot3D是一个基于Java环境开发的三维图形图表组件。
 * [Java-GTK](https://github.com/bailuk/java-gtk)：Java的GTK 4绑定。
 * [Mil Sym Java](https://github.com/missioncommand/mil-sym-java)：Mil Sym Java是一组陈旧的Java库，已在美国陆军任务指挥软件中使用多年。
 * [VTM](https://github.com/mapsforge/vtm)：OpenGL矢量地图库-在Android、iOS、桌面和浏览器上运行。
@@ -8062,6 +8065,7 @@
 * [GRAL](https://github.com/eseifert/gral)：GRAL是一个用于显示图表的免费Java库。
 * [Java Swing Custom Chart](https://github.com/DJ-Raven/java-swing-custom-chart)：Java Swing自定义图表库。
 * [JMonet](https://github.com/defano/jmonet)：JMonet是一个易于使用的工具包，用于将MacPaint或Microsoft Paint中的绘画工具集成到Java Swing或JavaFX应用程序中。
+* [Simple Graphics](https://github.com/academia-de-codigo/simple-graphics)：带有鼠标和键盘事件的简易图形库。
 
 #### Swing测试库
 
@@ -8146,6 +8150,8 @@
 * [VFX](https://github.com/wkgcass/vfx)：JavaFX UI组件库。
 * [VirtualizedFX](https://github.com/palexdev/VirtualizedFX)：VirtualizedFX是一个开源Java库，它提供虚拟化组件来显示大量数据，而不会因仅渲染其中一部分而影响性能。
 * [JavaFX Blur](https://github.com/kieferlam/JavaFX-Blur)：该库提供了使用JNI调用本机窗口管理器功能将模糊效果应用于JavaFX Stage的方法。
+
+* [JavaFX UI](https://github.com/xjw580/javafx-ui)：适用于JavaFX的UI组件库。
 
 #### JavaFX组件库
 
@@ -8270,6 +8276,7 @@
 * [Spring Boot JavaFX Support](https://github.com/roskenet/springboot-javafx-support)：Spring Boot与JavaFX集成。
 * [KickstartFX](https://github.com/xpipe-io/kickstartfx)：KickstartFX是适用于JavaFX应用程序的高级、即用型模板。
 * [Drombler FX](https://github.com/Drombler/drombler-fx)：JavaFX的模块化应用程序框架。
+* [JavaFX Boot](https://gitee.com/westinyang/javafx-boot)：JavaFX、Spring Boot快速开始脚手架。
 
 #### 键盘鼠标监听器
 
@@ -9409,6 +9416,7 @@
 * [PauselessHashMap](https://github.com/giltene/PauselessHashMap)：java.util.HashMap兼容的Map，在调整大小时不会停止put或get。
 * [SmoothieMap](https://github.com/TimeAndSpaceIO/SmoothieMap)：SmoothieMap是Java的Map实现，具有最低的内存使用率并且不存在重哈希延迟峰值。
 * [BigMap](https://github.com/fizzed/bigmap)：轻量级Map、SortedMap、LinkedMap、Set和SortedSet实现，可通过将任务卸载到磁盘来缓解内存压力。
+* [HashSmith](https://github.com/bluuewhale/HashSmith)：HashSmith提供多种高性能哈希表实现，优化于现代JVM的速度和内存效率。
 
 #### List
 
@@ -10187,6 +10195,7 @@
 * [Functional Validation](https://github.com/MAIF/functional-validation)：该库提供了工具来验证Bean并组合验证堆栈错误。
 * [Vador](https://github.com/salesforce-misc/Vador)：Vador是一个现代验证框架，旨在简化和提高REST API验证，由Salesforce开源。
 * [SpEL Validator](https://github.com/stick-i/spel-validator)：SpEL Validator是基于Spring EL的参数校验包，也是javax.validation的扩展增强包，用于简化参数校验。
+* [Smart Validator](https://gitee.com/fetech-framework/smart-validator)：轻量级服务端校验框架。
 * [Konform](https://github.com/konform-kt/konform)：Kotlin的可移植校验库。
 * [Akkurate](https://github.com/nesk/akkurate)：Akkurate是一个利用Kotlin表达能力的校验库。
 * [Parsix](https://github.com/parsix/parsix)：高级解析，以确保你的输入满足业务逻辑所需的所有约束。
