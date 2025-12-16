@@ -3122,6 +3122,7 @@
 * [LightTunnel](https://gitee.com/tuuzed/LightTunnel)：内网穿透工具，支持TCP、HTTP、HTTPS穿透。
 * [Ngrok Spring Boot Starter](https://github.com/kilmajster/ngrok-spring-boot-starter)：Spring Boot集成Ngrok变得简单。
 * [HP](https://gitee.com/HServer/hp)：内网穿透轻量版，支持HTTP、HTTPS、TCP、UDP，支持云端动态控制穿透配置。
+* [ETP](https://github.com/xiaoniucode/etp)：ETP是一个轻量级的高性能内网穿透应用，支持TCP、HTTP等协议。
 * [Java Ngrok](https://github.com/alexdlaird/java-ngrok)：Java Ngrok是一个Ngrok包装器，用于管理自己的二进制文件，通过方便的Java提供应用程序接口。
 * [NeoLink](https://github.com/NeoLinkProxy/NeoLink)：NeoLink是一个轻量级的内网穿透客户端，用于将本地TCP、UDP服务暴露给公网NeoServer。
 
@@ -4317,6 +4318,7 @@
 * [FaceRecognition LivenessDetection Android](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android)：适用于Android的本地人脸识别人脸活体检测SDK，由FacePlugIn开源。
 * [Red5](https://gitee.com/endlesshh/red5-rtmp-push)：Java版天网人脸识别系统，可以获取视频流进行人脸识别后推送到流媒体服务器实时展示。
 * [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：千搜科技第五代人脸识别引擎Java接口。
+* [SeetaFace6 Java SDK](https://github.com/tracy100/seetaface6SDK)：基于SeetaFace6的Java语言SDK封装，提供完整的人脸识别解决方案。
 
 #### 语音识别
 
