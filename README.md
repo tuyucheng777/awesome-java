@@ -1160,6 +1160,7 @@
 * [Lagom](https://github.com/lagom/lagom)：Lagom是一个开源框架，用于用Java或Scala构建响应式微服务系统，由Lightbend开源。
 * [Apollo](https://github.com/spotify/apollo)：Apollo是Spotify编写微服务时使用的一组Java库，包含HTTP服务器和URI路由系统等模块，使得实现RESTful API服务变得轻而易举。
 * [Armeria](https://github.com/line/armeria)：Armeria是适合任何情况的首选微服务框架，你可以利用自己喜欢的技术构建任何类型的微服务，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Streams、Spring Boot和Dropwizard，由Line开源。
+* [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个轻量级的开源框架，专为构建快速、高效的云原生Java微服务而设计，由IBM开源。
 * [GreenLightning](https://oci-pronghorn.gitbook.io/greenlightning)：GreenLightning是一个可嵌入的高性能微服务框架，内置HTTP和MQTT支持。
 * [Light-4J](https://github.com/networknt/light-4j)：Light-4J是快速、轻量级且更高效的微服务框架。
 * [MSF4J](https://github.com/wso2/msf4j)：MSF4J是一个用于开发和运行微服务的轻量级高性能框架，由WSO2开源。
@@ -2875,6 +2876,7 @@
 * [SimpleWebServer](https://github.com/94fzb/simplewebserver)：SimpleWebServer是一款使用Java基于NIO编写的超轻量级开源Web应用服务器。
 * [Magician](https://github.com/JMagician/Magician)：Magician是一个基于Netty的小型HTTP服务包，它使启动HTTP服务变得非常容易，并且还支持WebSocket。
 * [Flupke](https://github.com/ptrd/flupke)：Flupke是一个100%纯Java HTTP3实现，运行在Kwik之上。
+* [JRuby Rack](https://github.com/jruby/jruby-rack)：JRuby Rack是一款适用于Java Servlet环境的轻量级适配器，允许任何基于Rack的应用程序在Java Servlet容器中未修改运行。
 
 #### 应用服务器
 
@@ -2964,6 +2966,7 @@
 * [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
 * [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
 * [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
+* [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，框架能够做到纳秒级别的端到端延迟。
 
 #### WebSocket
 
@@ -3069,6 +3072,7 @@
 * [Vngx JSch](https://github.com/vngx/vngx-jsch)：Vngx JSch是用纯Java编写的流行的JSch库的更新版本。
 * [SSHLib](https://github.com/connectbot/sshlib)：ConnectBot的SSH库，它最初是Trilead SSH2库的延续。
 * [Ganymed SSH-2](https://github.com/hudson/ganymed-ssh-2)：Ganymed SSH-2是一个用纯Java实现SSH-2协议的库。
+* [Jsync](https://github.com/fizzed/jsync)：纯Java类rsync库，用于本地到远程SSH/SFTP。
 
 #### DNS库
 
@@ -3103,6 +3107,7 @@
 * [Styx](https://github.com/ExpediaGroup/styx)：Styx是用于JVM的可编程、异步、基于事件的反向代理，由Expedia开源。
 * [Carapaceproxy](https://github.com/diennea/carapaceproxy)：Carapac是一个分布式Java反向代理。
 * [Bouncer](https://github.com/ggrandes/bouncer)：Bouncer是一个开源Java网络代理。
+* [Shadowsocks Java](https://github.com/TongxiJi/shadowsocks-java)：基于Netty 4框架的Java实现的Shadowsocks。
 * [Proxy Vole](https://github.com/MarkusBernhardt/proxy-vole)：Proxy Vole是一个用于自动检测平台网络代理设置的Java库。
 * [Mallet](https://github.com/sensepost/mallet)：Mallet是一种用于创建任意协议代理的工具，类似于我们熟悉的拦截Web代理，只是更加通用。
 * [WK Proxy](https://github.com/catas-w/WK-Proxy)：WK Proxy是一款用于HTTP代理和数据包捕获的开源桌面工具，可在Windows和macOS平台上使用。
@@ -3133,6 +3138,7 @@
 * [Netty io_uring](https://github.com/netty/netty-incubator-transport-io_uring)：Netty为io_uring提供的实验性支持。
 * [PanamaUring](https://github.com/dreamlike-ocean/PanamaUring)：这是一个探索性质的项目，使用Java的新FFI为Java引入io_uring。
 * [JUring](https://github.com/davidtos/JUring)：JUring是一个高性能Java库，它使用Java的FFM API提供与Linux的io_uring异步I/O接口的绑定。
+* [Myra Transport](https://github.com/mvp-express/myra-transport)：基于Linux io_uring实现真正的异步I/O，支持零复制缓冲区管理和内核绕过功能。
 
 #### 网络监控
 
@@ -3619,6 +3625,7 @@
 * [High Scale Lib](https://github.com/boundary/high-scale-lib)：High Scale Lib是并发且高度可扩展的实用程序的集合，由BMC开源。
 * [GPars](https://github.com/GPars/GPars)：GPars框架为Java开发人员提供了直观且安全的方法来同时处理Java或Groovy任务。
 * [Async](https://github.com/OpenTSDB/async)：受Twisted API启发的异步Java处理构建块。
+* [FastAsync](https://gitee.com/china2010pan/fact-async)：FastAsync是一个基于Spring的异步并行框架。
 * [ConcurrentUtil](https://github.com/Tuinity/ConcurrentUtil)：适用于多线程安全编程的高性能实用程序。
 * [AsyncService](https://github.com/JoanZapata/android-asyncservice)：AsyncService使用注解来缩短启动异步长时间任务并返回结果所需的代码。
 * [Caesar](https://github.com/vbauer/caesar)：Caesar是一个小型的Java库，允许创建某个同步Bean的异步代理版本。
@@ -4306,6 +4313,7 @@
 * [KanjiTomo OCR](https://github.com/sakarika/kanjitomo-ocr)：KanjiTomo OCR是一个用于从图像中识别日语字符的Java库。
 * [MathOCR](https://github.com/chungkwong/MathOCR)：MathOCR是一个用Java语言编写的印刷体科技文档识别系统。
 * [NewOCR](https://github.com/MSPaintIDE/NewOCR)：NewOCR是一款用Java制作的OCR，无需使用机器学习。
+* [JiaJiaOCR](https://github.com/jiangnanboy/JiaJiaOCR)：JiaJiaOCR完全用Java代码实现OCR功能，无需调用DLL或者EXE文件。
 
 #### 人脸识别
 
