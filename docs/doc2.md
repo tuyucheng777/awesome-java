@@ -926,6 +926,7 @@
 * [DAS](https://github.com/ppdaicorp/das)：DAS是信也科技自研的数据库访问框架。
 * [DAOMedge](https://medge.id.au/medge/daomedge/)：DaoMerge是一个简单易用、文档齐全的数据库访问对象库，并带有代码生成器。
 * [UroboroSQL](https://github.com/future-architect/uroborosql)：UroboroSQL是一个简单的SQL执行库，可以利用与Java 8兼容的2-way-SQL，由日本Future公司开源。
+* [WestDAO](https://github.com/westwong/westDao)：基于Spirng JPA JPQL，借鉴MyBatis Plus的全新DAO框架。
 
 #### 持久层库
 
@@ -1020,6 +1021,8 @@
 * [OpenScope](https://gitee.com/mofum/open-scope)：OpenScope是一种轻量级、易维护的数据权限的解决方案，它能处理比较复杂的权限操作逻辑。
 * [Spring Data MyBatis](https://github.com/easybest/spring-data-mybatis)：该模块提供对基于MyBatis的数据访问层的增强支持。
 * [Easyquery](https://github.com/wwtg99/easyquery)：Easyquery可以通过定义查询对象和自动构建查询SQL来快速轻松地构建查询请求，例如过滤、搜索和排序，无需手动拼接SQL或组装查询代码。
+* [MyBatis R2DBC](https://github.com/linux-china/mybatis-r2dbc)：将MyBatis Reactive化，底层的JDBC替换为R2DBC。
+* [A.CTable](https://gitee.com/sunchenbin/mybatis-enhance)：A.CTable是一个基于Spring和Mybatis的Maven项目，通过配置Model注解的方式来创建表，修改表结构，提供通用的单表CUDR工具。
 
 ## Hibernate库
 
@@ -2271,6 +2274,7 @@
 
 * [Breeze](https://github.com/scalanlp/breeze)：Breeze是一组用于机器学习和数值计算的库。
 * [JAMA](https://math.nist.gov/javanumerics/jama/)：JAMA是Java的基本线性代数包，它提供了用于构造和操作真实的稠密矩阵的用户级类，由马里兰大学和美国国家标准与技术研究院开发。
+* [JOML](https://github.com/JOML-CI/JOML)：JOML的目标是提供易于使用、功能丰富且高效的线性代数运算，以满足任何三维应用的需求。
 * [ND4j](https://github.com/deeplearning4j/deeplearning4j/tree/master/nd4j)：通用线性代数库，包含500多个数学、线性代数和深度学习运算。
 * [Symja](https://github.com/axkr/symja_android_library)：Symja是计算机代数语言和符号数学库，用纯Java实现的流行算法的集合。
 * [JAS](https://github.com/kredel/java-algebra-system)：JAS是一种面向对象、类型安全且多线程的计算机代数方法，由曼海姆大学开源。
@@ -7945,6 +7949,7 @@
 * [JImGUI](https://github.com/ice1000/jimgui)：ImGUI的的纯Java绑定。
 * [ImGui Java](https://github.com/SpaiR/imgui-java)：ImGui基于JNI的绑定。
 * [LEGUI](https://github.com/SpinyOwl/legui)：Java OpenGL GUI库，专为与最新的LWJGL(LWJGL 3)一起使用而创建。
+* [VisUI](https://github.com/kotcrab/vis-ui)：VisUI允许在LibGDX中使用scene2d.ui创建漂亮的界面。
 * [PolyUI](https://github.com/Polyfrost/polyui-jvm)：PolyUI是一个由Polyfrost开发的声明式UI框架。
 * [Kotlin LibUI](https://github.com/msink/kotlin-libui)：libui是一个轻量级的C语言多平台UI库，使用此绑定，你可以开发跨平台且外观原生的GUI程序。
 * [Membrane](https://github.com/phronmophobic/membrane)：Membrane提供了构建用户界面所需的所有工具。
@@ -8071,6 +8076,7 @@
 * [Matplotlib4j](https://github.com/sh0nk/matplotlib4j)：Matplotlib4j是一个用于Java、Scala和Kotlin的简单绘图库。
 * [Ardor3D](https://github.com/Renanse/Ardor3D)：Ardor3D是一个基于Java的免费、面向专业的开源3D图形引擎。
 * [JGraphX](https://github.com/jgraph/jgraphx)：JGraphX是一个Java Swing图表库。
+* [JMathPlot](https://github.com/yannrichet/jmathplot)：Java交互式2D和3D绘图。
 * [Matplot3D](https://gitee.com/tanling8334/Matplot3D-for-Java)：Matplot3D是一个基于Java环境开发的三维图形图表组件。
 * [Java-GTK](https://github.com/bailuk/java-gtk)：Java的GTK 4绑定。
 * [Mil Sym Java](https://github.com/missioncommand/mil-sym-java)：Mil Sym Java是一组陈旧的Java库，已在美国陆军任务指挥软件中使用多年。
@@ -8452,6 +8458,7 @@
 * [AIDE](https://www.android-ide.com/)：AIDE是一个Android/Java IDE，可以在Android手机上进行Android软件和游戏的开发，由Appfour提供。
 * [TIDE](https://sourceforge.net/projects/tide)：TIDE是一个小巧但功能强大且齐全的开源Java IDE。
 * [FDT](https://fdt.powerflasher.com/)：FDT是一个基于Eclipse的IDE，适用于交互式开发人员、自由职业者和机构，由Powerflasher开发。
+* [Lightly](https://www.lightlycode.com/)：轻量且功能强大的集成开发工具。
 * [Brokk](https://github.com/BrokkAi/brokk)：Brokk是一个能够从语义上理解代码而非仅仅将其理解为文本块的代码助手。
 * [FeatureIDE](https://github.com/FeatureIDE/FeatureIDE)：FeatureIDE是一个基于Eclipse的IDE，支持面向特性的软件开发的所有阶段，主要由德国马格德堡大学、帕绍大学开发。
 * [Nightcode](https://github.com/oakes/Nightcode)：Nightcode是一款适用于Clojure和ClojureScript的简洁IDE。
@@ -8769,6 +8776,7 @@
 * [Scage](https://github.com/delorum/scage)：Scage是一个用于编写简单2D OpenGL游戏的框架。
 * [Tiny](https://github.com/minigdx/tiny)：Tiny是一款由Lua提供支持的轻量级跨平台游戏引擎。
 * [Voodoo2D](https://github.com/JacksonHoggard/voodoo2d)：Voodoo2D是一款基于LWJGL构建的2D游戏引擎，其设计旨在轻量级且易于使用。
+* [WurfelEngine](https://github.com/BSVogler/WurfelEngineSDK)：WurfelEngine是一款基于Java的游戏引擎，专为创建具有等距渲染风格的3D游戏而设计。
 * [Kubriko](https://github.com/pandulapeter/kubriko)：Kubriko旨在为Android、桌面(Windows、Linux、macOS)、iOS和Web平台创建简单的2D游戏，提供一个轻量级、可扩展且易于使用的解决方案。
 * [GDL](https://github.com/damn/gdl-old)：GDL是一个函数式2D游戏引擎，围绕保存应用程序当前状态的上下文对象的思想构建。
 * [DimensioneX](https://www.dimensionex.net/)：DimensioneX是一款简单、免费的多人(MMORPG)游戏引擎。
@@ -8921,6 +8929,7 @@
 * [ModernUI](https://github.com/BloCamLimb/ModernUI)：Modern UI是一个专为独立2D和3D渲染软件开发而设计的桌面应用程序框架。
 * [Scenery](https://github.com/scenerygraphics/scenery)：Scenery是一个场景绘制和渲染库，它允许你基于网格数据快速创建高质量的3D可视化效果。
 * [Grafx](https://grafx.sourceforge.net/)：Grafx是一个开源Java库，用于使用浮点端点坐标绘制线条和填充多边形。
+* [JRender](https://github.com/nbrugger-tgm/JRender)：JRender是一个完全用Java完成的3D PBR引擎。
 * [ClearVolume](https://github.com/ClearVolume/clearvolume)：ClearVolume是一个实时3D可视化库，专为SPIM和DLSM显微镜等高端体积显微镜而设计，由马克斯普朗克分子细胞生物学和遗传学研究所开源。
 * [Vulkan4j](https://github.com/club-doki7/vulkan4j)：Vulkan4j是一系列针对Java的图形和相关API绑定，使用Java 22 Panama API实现。
 * [Box2DLights](https://github.com/libgdx/box2dlights)：Box2DLights是一个2D光照框架，它使用Box2D进行光线投射，并使用OpenGL ES 2.0进行渲染。
@@ -8947,6 +8956,7 @@
 * [JBT](https://github.com/gaia-ucm/jbt)：JBT是一个用于构建和运行行为树的Java框架。
 * [Clyde](https://github.com/threerings/clyde)：Clyde库提供了各种用于创建动作导向的联网3D游戏的工具。
 * [Smallville](https://github.com/nickm980/smallville)：电子游戏的生成代理。
+* [Jamepad](https://github.com/williamahartman/Jamepad)：Jamepad是一个用于使用Java游戏手柄的库。
 
 #### 碰撞检测
 
@@ -8984,6 +8994,7 @@
 * [Overlap2D](https://github.com/UnderwaterApps/overlap2d)：Overlap2D是一款2D关卡和UI编辑器，具有与引擎无关的游戏开发理念。
 * [Bladecoder Adventure](https://github.com/bladecoder/bladecoder-adventure-engine)：Bladecoder Adventure引擎是一组用于创建交互式图形冒险(经典点击游戏)的工具。
 * [Talos](https://github.com/rockbite/talos)：基于节点的开源VFX编辑器，具有强大的界面和随时可用的LibGDX运行时。
+* [Moon](https://github.com/damn/moon)：Moon是一款开源的动作角色扮演游戏制作器。
 * [RPGBoss](https://github.com/rpgboss/rpgboss)：点击式角色扮演游戏编辑器和引擎。
 * [Mundus](https://github.com/mbrlabs/Mundus)：Mundus是一个独立于平台的3D世界编辑器，采用Java、Kotlin以及LibGDX、VisUI构建。
 
@@ -8994,6 +9005,7 @@
 * [Mindustry](https://github.com/Anuken/Mindustry)：Mindustry是一款2D游戏，其玩法融合塔防、工厂自动化、沙盒与即时战略。
 * [Shattered Pixel Dungeon](https://github.com/00-Evan/shattered-pixel-dungeon)：Shattered Pixel Dungeon是一款传统的Roguelike地下城探索角色扮演游戏。
 * [Pixel Dungeon](https://github.com/watabou/pixel-dungeon)：Pixel Dungeon是一款传统的Roguelike游戏，具有像素艺术图形和简单的界面，适用于Android、iOS、Windows、Mac和Linux。
+* [Riiablo](https://github.com/collinsmith/riiablo)：用Java和LibGDX重制《暗黑破坏神II》。
 * [ByteLegend](https://github.com/ByteLegend/ByteLegend)：ByteLegend是一款免费、开源的MMORPG游戏，你可以在其中获得现实世界的高薪编程技能。
 * [OpenKeeper](https://github.com/tonihele/OpenKeeper)：OpenKeeper是地下城守护者II游戏和引擎的开源重制版。
 
@@ -9252,6 +9264,7 @@
 
 * [RxAndroidAudio](https://github.com/Piasy/RxAndroidAudio)：Android音频封装库，部分Rx支持。
 * [Libpd](https://github.com/libpd/libpd)：Pure Data可嵌入音频合成库。
+* [Noise](https://github.com/paramsen/noise)：Noise是kissfft的Android包装器，kissfft是一个用C语言编写的FFT实现。
 * [MP3agic](https://github.com/mpatric/mp3agic)：用于读取MP3文件和读取/操作ID3标签(ID3v1和ID3v2.2到ID3v2.4)的Java库。
 * [TarsosDSP](https://github.com/JorenSix/TarsosDSP)：TarsosDSP是一个用于音频处理的Java库，其目的是为实用的音乐处理算法提供一个易于使用的接口。
 * [LavaPlayer](https://github.com/sedmelluq/lavaplayer)：LavaPlayer是一个用Java编写的音频播放器库，它可以从各种源加载音轨并将其转换为Opus帧流，专为Discord机器人使用而设计。
@@ -9661,6 +9674,7 @@
 * [Facebook JNI](https://github.com/facebookincubator/fbjni)：Facebook JNI工具库旨在简化Java JNI的使用。
 * [JFFI](https://github.com/jnr/jffi)：libffi的Java绑定。
 * [JNIPP](https://github.com/mitchdowd/jnipp)：JNIPP是标准JNI的C++包装器，它旨在简化Java和C++代码集成过程中的一些繁琐步骤。
+* [JNIGen](https://github.com/libgdx/gdx-jnigen)：JNIGen是一个小型库，可以与LibGDX一起/或不一起使用，允许C/C++代码与Java源代码内联编写。
 * [Native Platform](https://github.com/gradle/native-platform)：用于各种本机API的跨平台Java API的集合，由Gradle团队开源。
 * [Libcore Syscall](https://github.com/cinit/LibcoreSyscall)：Libcore Syscall是一个适用于Android的Java库，允许你直接从Java代码进行任何Linux系统调用。
 * [JNI HPP](https://github.com/mapbox/jni.hpp)：JNI HPP是一个现代的、类型安全的、仅标头的C++14 JNI包装器，其目的是使从C++调用Java或从Java调用C++变得方便而安全。
@@ -9771,7 +9785,7 @@
 * [TornadoVM](https://github.com/beehive-lab/TornadoVM)：TornadoVM是OpenJDK和GraalVM的插件，允许程序员在异构硬件上自动运行Java程序，这是曼彻斯特大学高级处理器技术小组的研究项目。
 * [JCuda](https://github.com/jcuda/jcuda)：CUDA的Java绑定。
 * [Aparapi](https://github.com/Syncleus/aparapi)：Aparapi允许开发人员通过在运行时动态地将Java字节代码转换为OpenCL内核来编写能够直接在显卡GPU上执行的本机Java代码。
-* [PixelFlow](https://github.com/diwi/PixelFlow)：用于高性能GPU计算处理的Java库。
+* [PixelFlow](https://github.com/diwi/PixelFlow)：PixelFlow是一款用于高性能GPU计算的Processing/Java库。
 * [JavaCL](https://github.com/nativelibs4java/JavaCL)：Java的OpenCL绑定。
 * [ArrayFire Java](https://github.com/arrayfire/arrayfire-java)：ArrayFire的Java包装器。
 * [JOCL](https://github.com/gpu/JOCL)：OpenCL的Java绑定。
