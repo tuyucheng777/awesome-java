@@ -1830,6 +1830,7 @@
 * [Kripton](https://github.com/xcesco/kripton)：Kripton是一个适用于Android平台的Java库，它提供了一种简单统一的方法，通过注解和接口来管理不同Java类的持久性。
 * [CborTree](https://github.com/google/cbortree)：CborTree是一个Java库，用于将CBOR数据项编码/解码为方便的对象表示，Google开发。
 * [Borer](https://github.com/sirthias/borer)：适用于Scala的高效CBOR和JSON(反)序列化。
+* [CBOR](https://github.com/authlete/cbor)：这是一个适用于CBOR、COSE、CWT和mdoc的Java库。
 
 #### TOON
 
@@ -1926,6 +1927,7 @@
 * [JSONS2XSD](https://github.com/ethlo/jsons2xsd)：用Java编写的JSON模式到XML模式转换器。
 * [JDocs](https://github.com/americanexpress/unify-jdocs)：JDocs是一个JSON操作库，它完全消除了对模型/POJO类的需要，而是直接在JSON文档上工作，由美国运通开源。
 * [Snowy](https://github.com/ssilverman/snowy-json)：Snowy是一个功能齐全的JSON Schema验证器。
+* [Kotlinx Schema](https://github.com/Kotlin/kotlinx-schema)：Kotlin多平台库，通过KSP在编译时和运行时通过反射生成JSON Schema。
 * [JSONSchemaFriend](https://github.com/jimblackler/jsonschemafriend)：JSONSchemaFriend是一个基于JSON Schema的数据验证器，以Java库的形式提供。
 * [JSONx Java](https://github.com/jsonx-org/java)：JSONx Java为JSON模式定义语言处理器、验证器和运行时API提供参考实现。
 * [JSON Schema](https://github.com/harrel56/json-schema)：实现JSON模式规范的Java库。
@@ -2029,6 +2031,7 @@
 * [Jeesuite](https://gitee.com/vakinge/jeesuite-config)：功能齐全、适合二开的配置中心，由dromara社区开源。
 * [ConfigKeeper](https://gitee.com/sxfad/config-keeper)：ConfigKeeper是由随行付基于Spring Cloud研发的分布式配置中心。
 * [Fig](https://github.com/theapache64/fig)：使用Google Sheet作为远程配置。
+* [Duic](https://github.com/zhudyos/duic)：Duic是采用Kotlin与Spring Webflux开发的配置中心。
 
 #### 配置语言
 
@@ -2036,6 +2039,7 @@
 * [Sjsonnet](https://github.com/databricks/sjsonnet)：Jsonnet配置语言的JVM实现，由Databricks开源。
 * [Dhallj](https://github.com/travisbrown/dhallj)：该项目是JVM的Dhall配置语言的实现。
 * [HCL4j](https://github.com/bertramdev/hcl4j)：HCL4j是JVM上Hashicorp配置语言的解析器。
+* [KSON](https://github.com/kson-org/kson)：KSON结合了JSON和YAML的优点，像JSON一样稳健高效，像YAML一样干净易读。
 
 #### YML库
 
@@ -4680,6 +4684,7 @@
 * [Eclipse Epsilon](https://github.com/eclipse-epsilon/epsilon)：Epsilon是一系列脚本语言和工具，用于自动化常见的基于模型的软件工程任务，例如代码生成、模型到模型的转换、模型验证和模型可视化，它们可以开箱即用地与EMF、UML、Simulink、XML和其他类型的模型配合使用。
 * [Lowfer](https://github.com/mbouchenoire/lowfer)：Lowfer是一个简单的工具，可以帮助软件工程师和架构师记录、讨论和分析软件设计和架构。
 * [Getaviz](https://github.com/softvis-research/Getaviz)：借助Getaviz，你可以通过在2D、3D和虚拟现实中探索软件工件来观察地解决软件工程问题，由莱比锡大学开源。
+* [Invert](https://github.com/square/invert)：Invert是一款大规模收集和分析项目统计数据的工具，由Square开源。
 * [Code to Knowledge Graph](https://github.com/Bevel-Software/code-to-knowledge-graph)：Code to Knowledge Graph是一个Kotlin/JVM工具包，利用VS Code的LSP解析源代码并创建丰富且可查询的知识图谱，从任何代码库中提取实体、关系和架构洞察。
 
 #### 铁路图生成器
@@ -5169,6 +5174,7 @@
 * [JUDO](https://www.judo.codes/)：JUDO是一个针对创建和运行企业应用优化的低代码开发工具箱。
 * [Openkoda](https://github.com/openkoda/openkoda)：即用型开发平台，可加速构建业务应用程序和内部工具的过程。
 * [Stratoflow](https://stratoflow.com/java-open-source-low-code-platform/)：Java开源低代码，简化并加快企业SaaS系统的开发。
+* [Quick Boot](https://github.com/csx-bill/quick-boot)：基于AMIS前端框架、Spring Boot后端框架构建的企业级低代码开发平台。
 
 #### 权限管理系统
 
@@ -8877,7 +8883,6 @@
 * [Mmorpg](https://github.com/kingston-csj/mmorpg)：Mmorpg是一个用Java编写的分布式高性能mmorpg手游服务端框架。
 * [GameServer4j](https://github.com/jzyong/GameServer4j)：分布式Java游戏服务器，包括登录、网关、游戏演示。
 * [ZFoo](https://github.com/zfoo-project/zfoo)：ZFoo是一个极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
-* [IoGame](https://gitee.com/game-town/ioGame)：IoGame是一个轻量级的网络编程框架，适用于网络游戏服务器、物联网、内部系统及各种需要长连接的场景。
 * [Apollo](https://github.com/apollo-rsps/apollo)：Apollo是一个高性能、模块化的RuneScape模拟器，具有一系列用于管理数据文件和插件的实用程序。
 * [Noark](https://gitee.com/xiaoe/noark3)：Noark是一个游戏服务器端框架，可快速开发出一个易维护、易扩展且稳定高能的游戏服务器。
 * [Carmelo](https://github.com/needmorecode/carmelo)：Carmelo是一个快速、可扩展的Java服务器框架，专为在线游戏而设计。
@@ -9518,6 +9523,8 @@
 * [Biski64](https://github.com/danielcota/biski64)：Biski64是一个极快的伪随机数生成器(PRNG)，保证最小周期为2^64。
 * [GraphAware UUID](https://github.com/graphaware/neo4j-uuid)：GraphAware UUID是一个简单的库，它透明地为图中新创建的节点和关系分配一个UUID。
 * [Locality UUID Java](https://github.com/groupon/locality-uuid.java)：这是一个UUID类，旨在帮助在插入分布式数据系统(例如MongoDB或HBase)时控制数据位置，由Groupon开源。
+* [Kotlinx UUID](https://github.com/hfhbd/kotlinx-uuid)：Kotlinx UUID是一个多平台Kotlin库，为kotlin.uuid.Uuid添加了辅助方法。
+* [CUID Java](https://github.com/thibaultmeyer/cuid-java)：CUID的Java实现。
 
 ## 算法库
 
@@ -9916,6 +9923,7 @@
 * [Time Zone Map](https://github.com/dustin-johnson/timezonemap)：用于将位置或地区映射到时区的Java/Kotlin库。
 * [IPDatabase](https://github.com/wzhe06/ipdatabase)：二叉树快速搜索IP地址数据库。
 * [JMapProjLib](https://github.com/OSUCartography/JMapProjLib)：Java地图投影库，由俄勒冈州立大学开源。
+* [PROJ JNI](https://github.com/OSGeo/PROJ-JNI)：PROJ C/C++库的Java原生接口。 
 
 #### 经纬度库
 
