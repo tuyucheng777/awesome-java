@@ -3332,6 +3332,8 @@
 * [Legacy Lands Libaray](https://github.com/LegacyLands/legacy-lands-library)：Legacy Lands Libaray为现代Minecraft插件开发提供了必要的工具和实用程序。
 * [Abacus Common](https://github.com/landawn/abacus-common)：Abacus Common是一个通用的Java编程库，它提供了一组丰富的实用程序、数据结构和函数API。
 * [OstermillerUtils](https://ostermiller.org/utils/)：OstermillerUtils是一组开源的Java实用程序。
+* [Feilong](https://github.com/ifeilong/feilong)：Feilong是让Java开发更简便的工具库。
+* [ZUtil](https://github.com/duanluan/ZUtil)：ZUtil是一个追求更快、更全的Java工具类库。
 
 ## Bean映射&复制
 
