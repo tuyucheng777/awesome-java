@@ -2010,6 +2010,10 @@
 * [Configured](https://github.com/CarmJos/configured)：Configured是一个简单、易于使用的通用解决方案，用于管理、加载、读取、 以及更新配置文件。
 * [SConfig](https://github.com/ekrich/sconfig)：支持Scala、Java、Scala.js和Scala Native的HOCON配置库。
 * [Simple YAML](https://github.com/Carleslc/Simple-YAML)：Simple YAML是一个设计用于为你的程序、工具和插件创建配置文件的库。
+* [Okaeri Configs](https://github.com/OkaeriPoland/okaeri-configs)：Okaeri Configs是一个强大、轻量级的Java配置库。
+* [OneConfig](https://github.com/Polyfrost/OneConfig)：OneConfig是由Polyfrost开发的一个免费开源配置库。
+* [Tamaya](https://github.com/apache/incubator-retired-tamaya)：Tamaya是一个非常强大但灵活的配置方案。
+* [ConfigLib](https://github.com/Exlll/ConfigLib)：ConfigLib是一个用于保存、加载、更新和注释YAML配置文件的Minecraft库。
 
 #### 分布式配置
 
@@ -2032,6 +2036,7 @@
 * [ConfigKeeper](https://gitee.com/sxfad/config-keeper)：ConfigKeeper是由随行付基于Spring Cloud研发的分布式配置中心。
 * [Fig](https://github.com/theapache64/fig)：使用Google Sheet作为远程配置。
 * [Duic](https://github.com/zhudyos/duic)：Duic是采用Kotlin与Spring Webflux开发的配置中心。
+* [Diablo](https://github.com/ihaolin/diablo)：轻量的分布式配置管理平台。
 
 #### 配置语言
 
@@ -4059,6 +4064,8 @@
 * [Ph Schematron](https://github.com/phax/ph-schematron)：Ph Schematron是一个Java库，它通过ISO Schematron、SchXslt或Java纯实现来验证XML文档。
 * [SimpleXML](https://github.com/ngallagher/simplexml)：Simple是一个高性能的Java XML序列化和配置框架。
 * [XOM](https://github.com/elharo/xom)：XOM是一个新的XML对象模型。
+* [Scalaxb](https://github.com/eed3si9n/scalaxb)：Scalaxb是Scala的XML数据绑定工具。
+* [Kotlin XML Builder](https://github.com/redundent/kotlin-xml-builder)：一个轻量级、安全类型构建器，用于在Kotlin中构建XML文档。
 
 #### HTML库
 
@@ -7983,6 +7990,7 @@
 * [Sierra](https://github.com/HTTP-RPC/Sierra)：Sierra是一个用于简化Java Swing应用程序开发的开源框架。
 * [Cinch](https://github.com/palantir/Cinch)：管理MVC模式的组件操作/事件绑定的Java库，由Palantir开源。
 * [jGAF](https://github.com/pgdurand/jGAF)：jGAF是一个旨在促进为Java平台创建跨平台图形应用程序的库。
+* [MindFusion.Swing](https://mindfusion.dev/java-pack.html)：MindFusion.Swing Pack为你的桌面应用提供丰富的数据界面控件，集成在一个高价值的套件中。
 * [Projector Server](https://github.com/JetBrains/projector-server)：用于远程运行Swing应用程序的服务器端库，由JetBrains开源。
 * [ReflectionUI](https://github.com/dotxyteam/ReflectionUI)：ReflectionUI是一个免费的Java GUI构建器/生成器库。
 * [Compositor](https://compositor.sourceforge.net/)：Compositor让你可以将应用程序的UI与代码分开描述。
@@ -8008,6 +8016,7 @@
 * [Sea Glass](https://github.com/khuxtable/seaglass)：Sea Glass是适用于JRE 1.6及更高版本的Java可插拔LaF。
 * [FlatSwing](https://github.com/Mommoo/FlatSwing)：一个由平面设计制成的漂亮的Java Swing库。
 * [JTattoo](https://github.com/michael-hagen/JTattoo)：JTattoo是一个基于Swing的应用程序的LaF库。
+* [JGoodies Looks](https://www.jgoodies.com/freeware/libraries/looks/)：JGoodies的Windows L&F系列能让你的Swing应用看起来更美观。
 
 #### Swing UI库
 
@@ -8047,9 +8056,15 @@
 * [SwingX](https://github.com/arotenberg/swingx)：SwingX是一个扩展Java Swing库的组件和实用程序库。
 * [SwingBox](https://github.com/radkovo/SwingBox)：SwingBox是一个Java Swing组件，允许显示包含CSS支持的(X)HTML文档。
 * [Swing Toast Notifications](https://github.com/DJ-Raven/swing-toast-notifications)：适用于Java桌面应用程序的Swing Toast通知。
+* [JToaster](https://jtoaster.sourceforge.net/)：JToaster是一个用于Swing应用的Java工具类，它会显示一个从屏幕底部升起的动画框，配有通知消息和/或相关的图片。
 * [TableFilter](https://coderazzi.net/tablefilter/)：TableFilter是一组Swing组件，用于支持用户自定义的表格过滤功能。
 * [GC4S](https://github.com/sing-group/GC4S)：GC4S是一个开源库，为Swing提供面向生物信息学的GUI组件集合，由维戈大学开源。
 * [GlazedLists](https://github.com/glazedlists/glazedlists)：Java的开源List转换。
+* [JIDE Components](https://www.jidesoft.com/products/component.htm)：JIDE Components包含一系列非常实用的组件。
+* [JIDE Dialogs](https://www.jidesoft.com/products/dialogs.htm)：JIDE Dialogs是一个使对话框创建更简单的产品。
+* [JIDE Code Editor](https://www.jidesoft.com/products/editor.htm)：JIDE Code Editor是一个源代码编辑器组件。
+* [JIDE Dashboard](https://www.jidesoft.com/products/dashboard.htm)：JIDE Dashboard提供了一个占位符来展示各种小部件。
+* [JIDE Grids](https://www.jidesoft.com/products/grids.htm)：JIDE Grids是一个包含所有JTable相关组件的集合。
 
 #### Swing Dock库
 
@@ -8058,6 +8073,7 @@
 * [DockingFrames](https://github.com/Benoker/DockingFrames)：DockingFrames是一个开源Java Swing Dock框架。
 * [FlexDock](https://github.com/opencollab/flexdock)：FlexDock是一个用于跨平台Swing应用程序的Java Dock框架。
 * [Sanaware Java Docking](https://sanaware.com/)：Sanaware Java Docking是一个用于管理Java Swing应用程序窗口的库。
+* [JIDE Docking](https://www.jidesoft.com/products/dock.htm)：JIDE Docking框架提供了一个非常强大且易于使用的可扩展窗口解决方案。
 
 #### Swing布局库
 
@@ -8067,6 +8083,7 @@
 * [Swing Library](https://github.com/oliverwatkins/swing_library)：该库包含许多Java Swing框架所缺少的高级组件和布局管理器。
 * [PanelMatic](https://github.com/codeworth-gh/PanelMatic)：PanelMatic是一个成熟的Swing工具库，旨在轻松创建复杂的高质量布局。
 * [KGradientPanel](https://github.com/k33ptoo/KGradientPanel)：Swing渐变面板。
+* [JGoodies FormLayout](https://www.jgoodies.com/freeware/libraries/forms/)：JGoodies FormLayout帮助你快速布局并实现一致的Swing面板。
 
 #### Swing选择器
 
@@ -8096,6 +8113,8 @@
 * [Java Swing Custom Chart](https://github.com/DJ-Raven/java-swing-custom-chart)：Java Swing自定义图表库。
 * [JMonet](https://github.com/defano/jmonet)：JMonet是一个易于使用的工具包，用于将MacPaint或Microsoft Paint中的绘画工具集成到Java Swing或JavaFX应用程序中。
 * [Simple Graphics](https://github.com/academia-de-codigo/simple-graphics)：带有鼠标和键盘事件的简易图形库。
+* [JIDE Gantt Chart](https://www.jidesoft.com/products/gantt.htm)：JIDE Gantt Chart是一个纯粹的Java Swing库，使你可以在Swing应用中创建甘特图成为可能。
+* [JIDE Charts](https://www.jidesoft.com/products/charts.htm)：JIDE Charts是一个强大且灵活的图表软件。
 
 #### Swing测试库
 
@@ -8267,6 +8286,7 @@
 * [FXDiagram](https://github.com/JanKoehnlein/FXDiagram)：FXDiagram是一个基于JavaFX创建图表工具的框架。
 * [JFXUtils](https://github.com/gillius/jfxutils)：适用于JDK 8的缩放和平移图表和窗格缩放。
 * [Timeline](https://github.com/dariol83/timeline)：该模块包含JavaFX的时间线/甘特图的实现。
+* [JLeaflet](https://github.com/makbn/java_leaflet)：JLeaflet是一个用于将Leaflet地图集成到Vaadin和JavaFX应用中的Java库，支持完整的JPMS。
 
 #### JavaFX图标库
 
