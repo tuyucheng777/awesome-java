@@ -3948,6 +3948,7 @@
 * [Zouzhiy Excel](https://github.com/zouzhiy/zouzhiy-excel)：Zouzhiy Excel是一款Excel导入导出的轻量级工具。
 * [ZzExcelCreator](https://github.com/zhouzhuo810/ZzExcelCreator)：Excel表格生成工具。
 * [Spoiwo](https://github.com/norbert-radyk/spoiwo)：Spoiwo是一个用于在Scala中生成函数式电子表格的开源库。
+* [XLLoop](https://github.com/poidasmith/xlloop)：XLLoop是一个开源框架，用于在集中式服务器上实现Excel用户自定义函数(UDF)。
 * [SQLite2XL](https://github.com/androidmads/SQLite2XL)：这是一个轻量级库，用于将SQLite数据库转换为Excel并将Excel转换为SQLite。
 * [Excel Download](https://github.com/lannstark/excel-download)：通用Excel模块，可简单、快速地实现Excel下载。
 * [EasyDataBaseExport](https://github.com/Zhuoyuan1/EasyDataBaseExport)：EasyDataBaseExport是一款数据库表结构导出工具，支持MySQL、Oracle、Sqlserver、PostgreSQL、达梦、虚谷、DB2等数据库，同时支持Excel、Word、Markdown、Html、PDF文档导出。
@@ -6331,6 +6332,7 @@
 * [Binance Trading Bot](https://github.com/yonathan95/BinanceTradingBot)：Binance Trading Bot是一个加密货币交易机器人，使用币安交易所期货市场。
 * [AiTrader](https://github.com/sanzol-tech/ai-trader)：币安期货的交易信号与加密货币交易工具。
 * [TxBits](https://github.com/txbits/txbits)：TxBits是一个开源的比特币和加密货币交易所。
+* [OpenNFT](https://github.com/shengjian-tech/opennft)：开源NFT发行交易平台。
 
 #### 区块链SDK
 
@@ -6339,6 +6341,7 @@
 * [Cardano](https://github.com/bloxbean/cardano-client-lib)：Java中的Cardano客户端库。
 * [Hashgraph Java SDK](https://github.com/hashgraph/hedera-sdk-java)：适用于Java的Hedera Hashgraph SDK。
 * [Sol4k](https://github.com/sol4k/sol4k)：Sol4k是Solana的Kotlin客户端，可与Java或任何其他JVM语言以及Android一起使用。
+* [Solanaj](https://github.com/p2p-org/solanaj)：Solanaj是一个用于使用Solana RPC API与Solana区块链集成的API。
 * [Java Stellar SDK](https://github.com/lightsail-network/java-stellar-sdk)：Java Stellar SDK库提供了用于构建交易并连接到Horizon和Soroban-RPC服务器的API。
 * [Server Blockchain SDK](https://github.com/OmniOneID/did-blockchain-sdk-server)：Server Blockchain SDK提供与区块链网络交互和调用智能合约的SDK。
 * [TON4j](https://github.com/neodix42/ton4j)：用于与TON区块链交互的Java库和包装器。
@@ -8819,6 +8822,7 @@
 * [Arc](https://github.com/Anuken/Arc)：基于LibGDX的Java游戏开发框架。
 * [VatraLib](https://vatrasoft.de/vatralib/)：VatraLib是一个用Java编写的2D游戏引擎。
 * [Omicron](https://github.com/msx80/Omicron)：Omicron是一个基于LibGDX的开源Java游戏引擎。
+* [RemsEngine](https://github.com/AntonioNoack/RemsEngine)：RemsEngine是一个基于Kotlin/OpenGL/ECS的开源游戏引擎。
 
 #### Minecraft
 
@@ -9499,6 +9503,7 @@
 * [Bloofi](https://github.com/lemire/bloofi)：多维布隆过滤器的Java实现。
 * [Opposite Bloom Filter](https://github.com/jmhodges/opposite_of_a_bloom_filter)：该仓库包含Java和Go中“布隆过滤器的对立面”的线程安全实现。
 * [Java Bloom Filter](https://github.com/MagnusS/Java-BloomFilter)：Java Bloom Filter是一个用Java编写的独立布隆过滤器实现。
+* [Bloomfilter](https://github.com/wangxu0/bloomfilter)：该项目实现了布隆过滤器，并可选择和扩展不同的BitSet或其他存储方法。
 
 #### 布谷鸟过滤器
 
@@ -10075,6 +10080,7 @@
 * [JSOFA](https://github.com/Javastro/jsofa)：JSOFA是国际天文学联合会的C SOFA软件库的纯Java版本，由曼彻斯特大学开源。
 * [AstroLib](https://mhuss.com/AstroLib/docs/Overview.html)：Java天文算法库。
 * [Commons Suncalc](https://github.com/shred/commons-suncalc)：用于计算太阳和月亮位置和相位的Java库。
+* [Kastro](https://github.com/yoxjames/Kastro)：Kastro是一个Kotlin多平台库，用于计算月亮和太阳的天文事件。
 * [Debian Astro Java](https://blends.debian.org/astro/tasks/java)：用于天文学的Java包集合。
 * [JSky](https://jsky.sourceforge.net/)：JSky项目的目标是构建一套用于天文学的可复用Java组件，最初源于欧洲南方天文台的Skycat应用程序的开发。
 * [Simple Astronomy Lib](https://github.com/SimpleAstronomy/simple-astronomy-lib)：一个用于计算月相的简单且免费的天文学库。
