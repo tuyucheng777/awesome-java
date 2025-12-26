@@ -237,6 +237,7 @@
 * [TrackRay](https://github.com/iSafeBlue/TrackRay)：溯光是一个开源渗透测试框架，框架自身实现了漏洞扫描功能，集成了知名安全工具：Metasploit、Nmap、Sqlmap、AWVS、Burpsuite等。
 * [Jackhammer](https://github.com/olacabs/jackhammer)：Jackhammer是一款协作工具，旨在弥合安全团队与开发团队、QA团队之间的差距，并成为TPM的促进者，以了解和跟踪投入生产的代码的质量。
 * [WS Attacker](https://github.com/RUB-NDS/WS-Attacker)：WS Attacker是一个用于Web服务渗透测试的模块化框架，由波鸿鲁尔大学开发。
+* [DELTA](https://github.com/seungsoo-lee/DELTA)：DELTA是一个渗透测试框架，用于为各种测试用例重生成已知的攻击场景。
 
 #### 快照测试
 
@@ -552,6 +553,7 @@
 * [Smart Test Framework](https://github.com/HPInc/smart-test-framework)：Smart Test Framework是一个多用途测试框架，能够为网页、Web服务、桌面应用程序和移动应用程序创建自动化测试，由惠普开源。
 * [JSystem](https://github.com/Top-Q/jsystem)：JSystem是一个用于编写和管理自动化系统测试的专业开源框架。
 * [Ellithium](https://github.com/Abdelrhman-Ellithy/Ellithium)：Ellithium是一个统一、强大、灵活且可扩展的测试自动化框架，旨在简化和增强测试流程。
+* [Sakura](https://github.com/SakuraTechy/sakura-selenium)：Sakura是一个基于Selenium改造过后的新一代Web自动化测试框架，主要用于Web应用程序的自动化测试。
 
 #### 自动化工具
 
@@ -1057,6 +1059,7 @@
 * [Kotlin JPA Specification DSL](https://github.com/consoleau/kotlin-jpa-specification-dsl)：该库提供了一个流式的DSL，用于使用Spring Data规范(即JPA Criteria API)查询Spring Data JPA Repository，而无需样板代码或生成的元模型。
 * [Querity](https://github.com/queritylib/querity)：Querity是一个可扩展的查询构建器，用于在Java应用程序中创建和运行数据库查询。
 * [JPA Entity Generator](https://github.com/smartnews/jpa-entity-generator)：这是一个生成Lombok连接的JPA实体源代码的Java库。
+* [Thymeleaf Spring Data Dialect](https://github.com/jpenren/thymeleaf-spring-data-dialect)：这是一种Thymeleaf的方言，提供了一些属性，用于创建分页和排序元素。 
 
 #### 数据库连接池
 
@@ -1428,6 +1431,7 @@
 * [Ki4so](https://gitee.com/ywbrj042/ki4so)：Ki4so是一个简约、无状态、易扩展、易伸缩的适合于大型互联网Web应用场景的单点登录系统。
 * [Jespa](https://www.ioplex.com/)：Jespa是一个纯Java软件库，它直接实现了将Java应用程序轻松高效地集成到Windows环境中所需的Microsoft Windows协议和逻辑。
 * [UniAuth](https://github.com/dianrong/UniAuth)：UniAuth是一个统一登录、鉴权、权限管理的综合系统，由点融科技开源。
+* [Simple SSO](https://github.com/sheefee/simple-sso)：一个基于Java的简单SSO项目。
 
 #### 安全库
 
@@ -1965,6 +1969,7 @@
 #### JSON-RPC
 
 * [JSON-RPC](https://github.com/briandilley/jsonrpc4j)：该项目旨在为Java编程语言提供轻松实现JSON-RPC的工具。
+* [Dubbo JSONRPC](https://github.com/apache/dubbo-rpc-jsonrpc)：Dubbo项目的JSON RPC模块。
 * [Simple JSON-RPC](https://github.com/arteam/simple-json-rpc)：用于将JSON-RPC 2.0协议简单集成到Java应用程序的库。
 * [Triaina](https://github.com/mixi-inc/triaina)：Triaina在Web客户端和本机客户端之间提供基于JSON-RPC的通信协议。
 
@@ -2450,6 +2455,7 @@
 * [Pellet](https://github.com/stardog-union/pellet)：Pellet是Java中的OWL 2推理机，由Complexible开发。
 * [HermiT](https://github.com/phillord/hermit-reasoner)：HermiT是一个符合OWL 2 DL标准的推理器，使用直接语义，由牛津大学开源。
 * [Openllet](https://github.com/Galigator/openllet)：Openllet是一个用Java编写的OWL 2推理器，建立在Pellet之上，由巴黎第十一大学开源。
+* [FaCT++](https://github.com/tilde-lab/pyfactxx)：FaCT++是一款经过良好优化的开源推理器，用于SROIQ描述逻辑，由曼彻斯特大学开源。
 * [ELK Reasoner](https://github.com/liveontologies/elk-reasoner)：ELK是一个本体推理器，旨在支持OWL 2 EL配置文件，由乌尔姆大学人工智能研究所和牛津大学计算机科学系知识表示和推理小组开源。
 * [Aristotle](https://github.com/arachne-framework/aristotle)：Clojure的RDF/OWL库，为Apache Jena提供面向数据的包装器。
 
@@ -2710,6 +2716,7 @@
 * [Elves](https://github.com/hellokaton/elves)：一个轻量级的爬虫框架设计与实现。
 * [VIPS](https://github.com/tpopela/vips_java)：用Java实现基于视觉的页面分割算法。
 * [Website Crawler](https://github.com/pc8544/Website-Crawler)：Website Crawler API允许开发者通过四个简单端点程序爬取网站并访问结构化元数据。
+* [EasyBook](https://github.com/Zzzia/EasyBook)：Java/Android多站点小说爬虫库。
 
 #### HTML提取
 
@@ -4689,6 +4696,7 @@
 * [JIG](https://github.com/dddjava/jig)：JIG是一个支持代码设计的工具。
 * [VMF](https://github.com/miho/VMF)：VMF是一个轻量级的建模框架，它可以方便地将带注解的Java接口转换为功能强大的实现。
 * [USE](https://github.com/useocl/use)：USE是一种信息系统规范系统，它基于统一建模语言(UML)的一个子集。
+* [E-ADR](https://github.com/adr/e-adr)：嵌入Java代码中的架构决策记录。
 * [Eclipse Epsilon](https://github.com/eclipse-epsilon/epsilon)：Epsilon是一系列脚本语言和工具，用于自动化常见的基于模型的软件工程任务，例如代码生成、模型到模型的转换、模型验证和模型可视化，它们可以开箱即用地与EMF、UML、Simulink、XML和其他类型的模型配合使用。
 * [Lowfer](https://github.com/mbouchenoire/lowfer)：Lowfer是一个简单的工具，可以帮助软件工程师和架构师记录、讨论和分析软件设计和架构。
 * [Getaviz](https://github.com/softvis-research/Getaviz)：借助Getaviz，你可以通过在2D、3D和虚拟现实中探索软件工件来观察地解决软件工程问题，由莱比锡大学开源。
@@ -4953,6 +4961,9 @@
 * [Angular Node Java AI](https://github.com/ganatan/angular-node-java-ai)：Angular 20全栈Starter，配套Node.js、Spring Boot和AI。
 * [Kotlin Swagger Spring Functional](https://github.com/cdimascio/kotlin-openapi-spring-functional-template)：Kotlin Spring WebFlux的项目模板。
 * [Spring Boot AdminLTE](https://github.com/hendisantika/spring-boot-adminlte)：该应用包含Spring Boot和AdminLTE 2模板以促进开发。
+* [Spring Boot API Seedling](https://github.com/Zoctan/spring-boot-api-seedling)：基于Spring Boot的种子项目，用于快速构建API、RESTFul API。
+* [Spring Boot Vue Template Jwt](https://github.com/itbaima-study/SpringBoot-Vue-Template-Jwt)：Spring Boot 3、Vue 3前后端分离项目模版。
+* [Spring Boot Nextjs Starter Kit](https://github.com/NerminKarapandzic/spring-boot-nextjs-starter-kit)：Spring Boot、Next.js项目模板。
 
 #### 脚手架
 
@@ -5007,6 +5018,8 @@
 * [Arconia](https://github.com/arconia-io/arconia)：Arconia是一个Spring Boot的附加框架，旨在增强使用Java构建的现代企业应用程序。
 * [Eden Architect](https://github.com/shiyindaxiaojie/eden-architect)：Eden Architect致力于提供企业开发的一站式解决方案。
 * [Aooms](https://gitee.com/cyb-javaer/Aooms)：Aooms是基于Spring Cloud生态的微服务开发平台，不止于简单的框架集成。
+* [Plasticene](https://github.com/plasticene/plasticene-boot-starter-parent)：Plasticene基于Spring Boot 2.x、Spring Cloud和Spring Cloud Alibaba企业级系统架构底层框架封装。
+* [Holon](https://github.com/holon-platform/holon-core)：Holon是一个Java开发生态系统，用于创建和维护高质量、企业级的Web应用和服务。
 
 #### 后台管理系统
 
@@ -5198,6 +5211,7 @@
 * [AuthX](https://gitee.com/devlive-community/authx)：AuthX是一个简单、易用的开源权限管理平台，旨在帮助开发者轻松地实现基于角色的访问控制(RBAC)和权限管理。
 * [JeeSpringCloud](https://gitee.com/JeeHuangBingGui/jeeSpringCloud)：基于Spring Boot 2.0的后台权限管理系统，界面简洁美观。
 * [Cool Admin](https://github.com/cool-team-official/cool-admin-java)：Cool Admin后台权限管理系统，开源免费、AI编码、流程编排、模块化、插件化，用于快速构建后台应用程序。
+* [Spring Boot Vue Admin](https://github.com/Zoctan/spring-boot-vue-admin)：Spring Boot Vue Admin提供一套后台权限管理模板。
 
 #### 商城系统
 
@@ -5384,6 +5398,7 @@
 * [Lucky](https://github.com/Luckly-XYZ/Lucky-cloud)：Lucky是一个基于Spring Boot 3、Spring Cloud Alibaba构建的高性能、高可用的即时通讯服务端系统。
 * [OrdinaryRoad Live Chat Client](https://github.com/OrdinaryRoad-Project/ordinaryroad-live-chat-client)：一个基于Netty的通用直播间弹幕客户端。
 * [灯塔APS](https://gitee.com/lighthouse-aps/im)：灯塔APS高级生产计划排程是一款基于有限资源进行合理排产实现精准计划的排产类工业软件。
+* [FastIM](https://github.com/zhangyaoo/fastim)：基于Netty高可用分布式即时通讯系统。
 
 #### 问题跟踪系统
 
@@ -5563,6 +5578,7 @@
 * [Rhythm](https://github.com/FishPiOffical/rhythm)：Rhythm社区系统，超丰富的社区功能，基于Symphony社区版深度定制。
 * [OpenIsle](https://github.com/nagisa77/OpenIsle)：OpenIsle是一个使用Spring Boot和Vue 3构建的全栈开源社区平台。
 * [Spring Boot Forum](https://github.com/weiqingwen/spring-boot-forum)：简易微论坛、内容管理系统。
+* [Roothub](https://github.com/miansen/Roothub)：SSM、MySQL开发的论坛系统。
 
 #### ERP系统
 
@@ -5590,6 +5606,7 @@
 * [Avalon](https://gitee.com/ShinraL/avalon)：Java版前后分离快速开发ERP平台，基于开源技术栈精心打造，融合Vue 3、Spring Boot。
 * [ECP](https://gitee.com/loyin/ECP)：ECP是基于JFinal、Avalon、Bootstrap、JqGrid、Snaker工作流开发的客户关系及进销存财务系统。
 * [Kingborn](https://gitee.com/kingborn/master-erp)：精博ERP是基于后端Spring Boot、MyBatis框架，PC前端Vue、ElementUI框架，微信小程序打造的全套ERP系统。
+* [T3rik ERP](https://gitee.com/wangsanping/t3rik-erp)：T3rik是一个聚焦于制造执行系统(MES)和人力资源管理(HRM)的开源平台。
 
 #### CRM系统
 
@@ -5855,6 +5872,7 @@
 * [NORD POS](https://github.com/nordpos/nordpos)：NORD POS是Openbravo POS应用的一个分支，专为触摸屏设计。
 * [Sanguine POS](https://sanguinesoftwares.com/sanguine-pos/)：Sanguine POS采用Java开发，可管理餐饮行业的所有计费复杂性。
 * [ReadySTORE POS](https://www.utcretail.com/readystore-pos)：UTC RETAIL的ReadySTORE POS解决方案是一款专为多店零售商设计的企业软件解决方案。
+* [JavaFX POS](https://github.com/sadatrafsanjani/JavaFX-Point-of-Sales)：带有库存管理的POS系统。
 
 #### 业务
 
@@ -5968,6 +5986,7 @@
 * [SwellRT](https://github.com/SwellRT/swellrt)：SwellRT是一个开源后端即服务，它提供预构建的功能来加速协作Web应用程序的开发。
 * [Appwrite](https://github.com/appwrite/sdk-for-android)：Appwrite是一个用于开发Web、移动和Flutter应用程序的后端平台。
 * [JavaBaas](https://gitee.com/javabaas/JavaBaas)：JavaBaas是基于Java语言开发的后台服务框架。
+* [Divide](https://github.com/HiddenStage/divide)：Divide是一个开源的后端即服务。
 
 #### PaaS平台
 
@@ -6034,6 +6053,7 @@
 * [WX Dump4j](https://github.com/xuchengsheng/wx-dump-4j)：WX Dump4j是一款基于Java开发的微信数据分析工具。
 * [JeewxBoot](https://gitee.com/jeecg/jeewx-boot)：JeewxBoot是一款免费的Java微信管家平台，支持微信公众号、小程序、微信第三方平台、抽奖活动等，由北京国炬公司开源。
 * [QYWX](https://github.com/shuaidd/qywx)：企业微信API封装。
+* [Wechat](https://github.com/ihaolin/wechat)：轻量的微信公众号组件。
 * [ItChat4j](https://github.com/yaphone/itchat4j)：ItChat4j提供了简单易用的API，可以很方便地对个人微信号进行扩展，实现自动回复，微信挂机机器人等。
 * [WeChat API](https://github.com/hellokaton/wechat-api)：WeChat API是微信个人号的Java版本API，让个人号具备更多能力，提供方便的接口调用。
 * [WeCOM SDK](https://gitee.com/felord/wecom-sdk)：WeCOM SDK是开源的企业微信开放API的Java实现。
@@ -6328,6 +6348,7 @@
 * [Bitrade](https://github.com/SevenEX/bitrade-parent)：七喜是一个基于ZTUO开源代码进行大量优化的数字货币交易系统。
 * [TradeBot](https://github.com/markusaksli/TradeBot)：TradeBot是一款使用Binance API的加密货币交易机器人。
 * [Coinc](https://github.com/newVkDing2/coinc)：Coinc是一个数字货币交易系统，基于Java开发的比特币交易所。
+* [CoinEx](https://github.com/coinexcom/coinex_exchange_api)：CoinEx API开放且简洁，确保你可以自行构建交易工具，实现更有效的交易策略。
 * [Binance Trader](https://github.com/unterstein/binance-trader)：Binance.com上的加密货币实验机器人。
 * [Binance Trading Bot](https://github.com/yonathan95/BinanceTradingBot)：Binance Trading Bot是一个加密货币交易机器人，使用币安交易所期货市场。
 * [AiTrader](https://github.com/sanzol-tech/ai-trader)：币安期货的交易信号与加密货币交易工具。
@@ -6546,6 +6567,7 @@
 * [SmartThings](https://www.samsung.com/us/smartthings/)：SmartThings是一款免费应用程序，它使用Wi-Fi连接基于Matter协议的智能设备，无论其制造商是哪家公司，这是三星的产品。
 * [ThingsBoard](https://github.com/thingsboard/thingsboard)：ThingsBoard是一个开源物联网平台，用于数据收集、处理、可视化和设备管理。
 * [OpenRemote](https://github.com/openremote/openremote)：OpenRemote是一个直观、用户友好的100%开源物联网平台。
+* [Ignition](https://inductiveautomation.com/)：Ignition是一个强大的集成开发环境，包含你创建几乎所有类型的工业软件应用所需的一切。
 * [JetLinks](https://gitee.com/jetlinks/jetlinks-community)：JetLinks是一个开箱即用，可二次开发的企业级物联网基础平台。
 * [FastBee](https://gitee.com/beecue/fastbee)：FastBee开源物联网平台，简单易用，更适合中小企业和个人学习使用，由曲靖蜂信科技公司开发。
 * [Syhthems](https://github.com/ehaut/syhthems-platform)：Syhthems是一个开源的物联网平台项目，由河南工业大学开源。
@@ -6584,6 +6606,7 @@
 * [Amazon Echo Bridge](https://github.com/armzilla/amazon-echo-ha-bridge)：Amazon Echo Bridge允许你快速模拟Phillips Hue桥，从而能够将Amazon Echo无缝集成到各种家庭自动化系统中。
 * [Khome](https://github.com/dennisschroeder/khome)：Khome是一个用Kotlin编写的Home Assistant智能家居自动化库。
 * [SmartApplianceEnabler](https://github.com/camueller/SmartApplianceEnabler)：SmartApplianceEnabler可将普通的家用电器转变为智能的、可远程控制的家电，并使其能够参与家庭能源管理，尤其是与光伏太阳能发电相结合。
+* [Arcus](https://github.com/arcus-smart-home/arcusplatform)：Arcus是一个开源的家庭自动化与控制系统。
 
 #### 数字孪生
 
@@ -6685,6 +6708,7 @@
 * [SerialPundit](https://github.com/RishiGupta12/SerialPundit)：SerialPundit是一个用于串行端口和HID通信的SDK。
 * [PureJavaComm](https://github.com/nyholku/purejavacomm)：PureJavaComm是一个用于从Java访问串行端口的API。
 * [NRJavaSerial](https://github.com/NeuronRobotics/nrjavaserial)：Java串行端口系统，这是RXTX项目的一个分支，用于本地代码的jar加载。
+* [SerialPortHelper](https://github.com/freyskill/SerialPortHelper)：Android串口通讯助手，使用C++实现。
 * [jRxTx](https://github.com/openmuc/jrxtx)：jRxTx是一个Java串行通信库，它可用于使用众所周知的基于UART的串行协议进行通信。
 * [JavaCAN](https://github.com/pschichtel/JavaCAN)：Linux内核提供的socketcan API的简单JNI包装器。
 
@@ -8346,6 +8370,7 @@
 * [WebBrowser](https://github.com/goxr3plus/JavaFX-Web-Browser)：使用Java和JavaFX制作的Web浏览器。
 * [Wolvic XR Browser](https://github.com/Igalia/wolvic)：Wolvic是一个开源浏览器，包括XR构建的沉浸式游戏、视频和环境。
 * [JCEF](https://github.com/chromiumembedded/java-cef)：JCEF是一个简单的框架，用于使用Java编程语言将基于Chromium的浏览器嵌入到其他应用程序中。
+* [Pandomium](https://github.com/dzikoysk/pandomium)：Pandomium是专为Maven项目设计的JCEF实现。
 * [GNGR](https://github.com/gngrOrg/gngr)：这是一款支持隐私的新型跨平台浏览器，GNGR是纯Java的Web标准的独立实现。
 * [JxBrowser](https://teamdev.com/jxbrowser/)：将Chromium Web浏览器添加到你的Java应用程序中。
 * [Chromium](https://github.com/equodev/chromium)：Equo Chromium Community小部件是一个跨平台浏览器，允许用户在Java应用程序内创建和呈现基于Web的现代UI。
@@ -8823,6 +8848,7 @@
 * [VatraLib](https://vatrasoft.de/vatralib/)：VatraLib是一个用Java编写的2D游戏引擎。
 * [Omicron](https://github.com/msx80/Omicron)：Omicron是一个基于LibGDX的开源Java游戏引擎。
 * [RemsEngine](https://github.com/AntonioNoack/RemsEngine)：RemsEngine是一个基于Kotlin/OpenGL/ECS的开源游戏引擎。
+* [Marauroa](https://github.com/arianne/marauroa)：Marauroa是一款多人在线游戏引擎。
 
 #### Minecraft
 
@@ -9366,6 +9392,7 @@
 * [WebRTC Server Java](https://github.com/ddssingsong/webrtc_server_java)：实现基本的信令收发，配合Android端实现基本的呼叫、响铃、挂断、语音通话、视频通话的功能。
 * [Contact Center](https://github.com/caoliang1918/contact-center)：智能电话外呼系统。
 * [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
+* [CSipSimple](https://github.com/r3gis3r/CSipSimple)：CSipSimple是一款开源的Android原生SIP客户端。
 * [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
 * [JazminServer](https://github.com/guooscar/JazminServer)：JazminServer是一个基于Java的应用程序/消息/RPC/SIP/RTMP/UDP中继服务器。
 * [Taoyao](https://gitee.com/acgist/taoyao)：桃夭是套基于Mediasoup开发的WebRTC音视频信令服务，可以非常方便的扩展信令接入更多智能终端。
@@ -9550,6 +9577,7 @@
 * [Locality UUID Java](https://github.com/groupon/locality-uuid.java)：这是一个UUID类，旨在帮助在插入分布式数据系统(例如MongoDB或HBase)时控制数据位置，由Groupon开源。
 * [Kotlinx UUID](https://github.com/hfhbd/kotlinx-uuid)：Kotlinx UUID是一个多平台Kotlin库，为kotlin.uuid.Uuid添加了辅助方法。
 * [CUID Java](https://github.com/thibaultmeyer/cuid-java)：CUID的Java实现。
+* [IDGenerator](https://github.com/jingpeicomp/id-generator)：生成19位的Long ID、22位的短UUID、卡号、短卡号、带校验码卡号、激活码、付款码、数据加密、手机号加密、带失效时间的数字加密。
 
 ## 算法库
 
@@ -9590,6 +9618,7 @@
 * [Fuzzy Matcher](https://github.com/intuit/fuzzy-matcher)：Fuzzy Matcher是一个基于Java的库，用于对文档集合中的相似元素进行匹配和分组，由Intuit开发。
 * [StringMetric](https://github.com/rockymadden/stringmetric)：StringMetric提供执行近似字符串匹配、字符串相似度/距离测量、按单词发音索引以及发音相似性比较的功能。
 * [SimMetrics](https://github.com/Simmetrics/simmetrics)：相似度和距离度量的Java库，例如Levenshtein距离和余弦相似度。
+* [Xsimilarity](https://github.com/iamxiatian/xsimilarity)：相似度计算软件包。
 * [TextAnalyzer](https://github.com/sea-boat/TextAnalyzer)：基于机器学习、统计学和词典的文本分析器，可以分析文本。
 * [Java String Similarity](https://github.com/rrice/java-string-similarity)：Java String Similarity是一个实现了多种计算字符串之间相似度算法的Java库。
 * [NLP HanZi Similar](https://github.com/houbb/nlp-hanzi-similar)：NLP HanZi Similar为汉字提供相似性的计算。
@@ -10297,6 +10326,7 @@
 * [Jackrabbit WebDAV](https://jackrabbit.apache.org/jcr/components/jackrabbit-webdav-library.html)：该组件提供用于构建WebDAV服务器或客户端的接口和常用实用程序类。
 * [Dav4JVM](https://github.com/bitfireAT/dav4jvm)：Dav4JVM是用于JVM(Java/Kotlin)的WebDAV/CalDAV/CardDAV库，它最初是为DAVx⁵开发的。
 * [Milton](https://github.com/miltonio/milton2)：可在Windows、Mac、Linux、Android和iOS上运行的Milton Java WebDAV/CalDAV/CardDAV服务器库。
+* [Webdav Caiyun](https://github.com/VGEAREN/webdav-caiyun)：中国移动和彩云WebDAV。
 
 ## AirPlay
 
@@ -10352,6 +10382,7 @@
 * [Sensitive Words Filter](https://github.com/hooj0/sensitive-words-filter)：敏感词过滤项目，提供TTMP、DFA、DAT、Hash Bucket、Tire算法支持过滤。
 * [DzFilter](https://github.com/fanhua1994/DzFilter)：使用DFA算法实现的敏感词过滤。
 * [BadWordFiltering](https://github.com/VaneProject/bad-word-filtering)：此库可识别并处理脏话、粗俗语言及其他语言。
+* [KeywordFilter](https://github.com/k5h9999/keywordfilter)：基于分词原理修改写的一个过滤敏感词库，可以改成动态，支持返回敏感词，高亮敏感词，替换敏感词等操作。
 
 ## 国际化
 
@@ -10381,6 +10412,7 @@
 * [Translator](https://github.com/therealbush/translator)：适用于Kotlin/JVM和Java的简单且免费的Google翻译库。
 * [DeepL Java](https://github.com/DeepLcom/deepl-java)：DeepL API是一种语言翻译API，它允许其他计算机程序将文本和文档发送到DeepL的服务器并接收高质量的翻译。
 * [Google API Translate Java](https://github.com/richmidwinter/google-api-translate-java)：提供一个简单、非官方的Java客户端API来使用Google翻译。
+* [Microsoft Translator Java API](https://github.com/boatmeme/microsoft-translator-java-api)：提供一个围绕Microsoft Translator API的Java包装器。
 * [Lokalized](https://github.com/lokalized/lokalized-java)：Lokalized有助于在JVM上进行听起来自然的软件翻译。
 * [AT4J](https://github.com/brenoepics/at4j)：AT4J是Azure Translator API的Java封装库。
 
@@ -10401,6 +10433,7 @@
 * [Color Java](https://github.com/ngageoint/color-java)：Color是一个Java库，提供颜色表示，支持十六进制、RBG、算术RBG、HSL和整数颜色，由美国国家地理空间情报局开发。
 * [Color](https://github.com/bowbahdoe/color)：JVM的颜色库。
 * [Color.kt](https://github.com/kdrag0n/colorkt)：Color.kt是适用于Kotlin Multiplatform和Java的现代色彩科学库。
+* [Android Random Color](https://github.com/uknownothingsnow/AndroidRandomColor)：Android随机颜色生成器库。
 
 ## 短链接
 
