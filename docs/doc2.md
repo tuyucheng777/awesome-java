@@ -1817,7 +1817,16 @@
 #### Protocol Buffer
 
 * [Wire](https://github.com/square/wire)：Wire是适用于Android、Kotlin、Swift和Java的gRPC和协议缓冲区，Square开源。
+* [ScalaPB](https://github.com/scalapb/ScalaPB)：ScalaPB是Scala的Protobuf编译器插件。
 * [ProtoStream](https://github.com/infinispan/protostream)：ProtoStream是一个基于Protobuf数据格式的序列化库，由RedHat开源。
+* [Kroto Plus](https://github.com/marcoferrer/kroto-plus)：gRPC Kotlin协程，Protobuf DSL，Protoc脚本。
+* [Muduo Protorpc](https://github.com/chenshuo/muduo-protorpc)：基于Muduo的Protobuf RPC。
+* [Protokt](https://github.com/open-toast/protokt)：Kotlin的Protocol Buffer编译器和运行时。
+* [KrotoDC](https://github.com/mscheong01/krotoDC)：KrotoDC是一个protoc插件，用于从.proto输入生成Kotlin数据类和gRPC服务/存根。
+* [Connect Kotlin](https://github.com/connectrpc/connect-kotlin)：Connect Kotlin是一个精简的库，用于生成、类型安全且习语化Kotlin客户端通过Protobuf与你的应用服务器通信。
+* [Protop](https://github.com/protop-io/protop)：Protop是一个开源Protobuf包管理器。
+* [Protobuf4j](https://github.com/roastedroot/protobuf4j)：Protobuf4j是以纯Java字节码运行的Protobuf。
+* [PBJ](https://github.com/hashgraph/pbj)：PBJ是一个替代的Google Protobuf代码生成器、解析器和Gradle模块。
 * [OpenRTB](https://github.com/google/openrtb)：该库支持OpenRTB规范，为所有protobuf支持的语言提供绑定，并为Java提供额外支持，例如JSON序列化和验证，由Google开源。
 * [Pbandk](https://github.com/streem/pbandk)：Pbandk是Protocol Buffers的Kotlin多平台代码生成器和运行时。
 * [QuickBuffers](https://github.com/HebiRobotics/QuickBuffers)：QuickBuffers是Google Protocol Buffers的Java实现，专为零分配环境中的低延迟用例而开发，由CMU生物机器人实验室开发。
@@ -1885,6 +1894,7 @@
 * [Jolt](https://github.com/bazaarvoice/jolt)：使用Java编写的JSON到JSON转换库，由Bazaarvoice开源。
 * [Boon](https://github.com/boonproject/boon)：Boon是一个简单的基于Java的JSON工具包，你可以使用Boon以高效且快速的方式对JSON数据进行编码或解码。
 * [ZSON](https://github.com/zhangfei19841004/zson)：专为测试人员打造的JSON解析器。
+* [Stag](https://github.com/vimeo/stag-java)：Stag通过自动生成无反射TypeAdapters来提升Gson的性能。
 * [Hjson Java](https://github.com/hjson/hjson-java)：Hjson格式的Java实现。
 * [Avaje JsonB](https://github.com/avaje/avaje-jsonb)：通过APT源代码生成进行快速、无反射的JSON绑定的Java库。
 * [NanoJson](https://github.com/mmastrac/nanojson)：NanoJson是一个小型、兼容的Java JSON解析器和写入器。
@@ -3306,6 +3316,7 @@
 * [SneakyThrow](https://github.com/rainerhahnekamp/sneakythrow)：SneakyThrow是一个用于忽略受检异常的Java库。
 * [Faux Pas](https://github.com/zalando/faux-pas)：Faux Pas是一个简化Java函数式编程错误处理的库，由Zalando开源。
 * [Either](https://github.com/jbock-java/either)：Java的函数式错误处理库。
+* [RxEither](https://github.com/eleventigers/rxeither)：RxJava的Either类型。
 * [Catch Exception](https://github.com/Codearte/catch-exception)：Catch Exception库在单行代码中捕获异常，并使它们可用于进一步分析。
 * [Maybe](https://github.com/JoseLion/maybe)：Maybe是一个类似于java.util.Optional的单子包装器，但意图不同。
 * [Dichotomy](https://github.com/xyzsd/dichotomy)：Java的Result、Either、Try和Maybe类型的单子类型。
@@ -3677,6 +3688,7 @@
 * [Qat Java](https://github.com/intel/qat-java)：Qat Java库使用英特尔QuickAssist技术QATzip库提供加速压缩和解压缩。
 * [CafeUndZopfli](https://github.com/eustas/CafeUndZopfli)：CafeUndZopfli是一个用Java编写的压缩库。
 * [Atlassian Gzip Filter](https://bitbucket.org/atlassian/atlassian-gzipfilter)：Atlassian Gzip Filter通过使用Servlet过滤器透明地为你的Web应用程序添加gzip过滤功能。
+* [Ziplet](https://github.com/ziplet/ziplet)：Ziplet可以基于HttpServletRequest中的HTTP请求头，压缩写入HttpServletResponse的数据，或解压从请求中读取的数据。
 * [XZ Java](https://github.com/tukaani-project/xz-java)：XZ Java是纯Java中XZ数据压缩的完整实现。
 * [WebGraph](https://github.com/vigna/webgraph)：WebGraph是一个旨在研究网络图的图压缩框架，它利用现代压缩技术提供了管理非常大的图形的简单方法，由米兰大学开发。
 * [JVM Brotli](https://github.com/nixxcode/jvm-brotli)：适用于Brotli压缩格式的轻量级跨平台Java库。
@@ -5554,6 +5566,7 @@
 * [Aurora](https://github.com/xcyeye/aurora-blog)：Aurora是一个基于Spring Cloud Alibaba的多人微服务博客项目。
 * [Blog](https://github.com/Jiale-Fang/blog)：基于Spring Boot、Vue、ELK、WebSocket构建的个人博客。
 * [Lipi](https://github.com/SohanChy/Lipi)：Lipi将Hugo的强大功能融入到GUI中，并尝试让Hugo更易于日常使用，而无需记住任何烦人的命令。
+* [MBlog](https://github.com/mblog-backend/backend)：MBlog基于Java、MySQL，支持自部署的前后端分离的微博。
 
 #### 论坛系统
 
@@ -5579,6 +5592,7 @@
 * [OpenIsle](https://github.com/nagisa77/OpenIsle)：OpenIsle是一个使用Spring Boot和Vue 3构建的全栈开源社区平台。
 * [Spring Boot Forum](https://github.com/weiqingwen/spring-boot-forum)：简易微论坛、内容管理系统。
 * [Roothub](https://github.com/miansen/Roothub)：SSM、MySQL开发的论坛系统。
+* [JnuForum](https://github.com/xzping/jnu_forum)：JnuForum是基于Java的论坛系统。
 
 #### ERP系统
 
@@ -6423,6 +6437,7 @@
 * [Ta4j](https://github.com/ta4j/ta4j)：Ta4j是一个用于技术分析的开源Java库，它提供了创建、评估和执行交易策略的基本组件。
 * [Northstar](https://gitee.com/dromara/northstar)：这是一个面向程序员的专业级量化交易软件，用于期货、股票、外汇、炒币等多种交易场景，实现自动交易，由dromara社区开源。
 * [Redtorch](https://github.com/sun0x00/redtorch)：Redtorch是基于Kotlin(Java)语言开发的开源量化交易程序开发框架。
+* [HFTFramework](https://github.com/javifalces/HFTFramework)：HFTFramework包含一个使用Java和Python开发的高频交易框架。 
 * [Kite Connect](https://github.com/zerodha/javakiteconnect)：Kite Connect是一组类似REST的API，它公开了构建完整的投资和交易平台所需的许多功能。
 * [QuantComponents](https://github.com/lsgro/quantcomponents)：用于量化金融和算法交易的免费Java组件。
 * [JQuantLib](https://github.com/frgomes/jquantlib)：JQuantLib是一个免费、开源、全面的量化金融框架，100%用Java编写。
@@ -6708,6 +6723,7 @@
 * [SerialPundit](https://github.com/RishiGupta12/SerialPundit)：SerialPundit是一个用于串行端口和HID通信的SDK。
 * [PureJavaComm](https://github.com/nyholku/purejavacomm)：PureJavaComm是一个用于从Java访问串行端口的API。
 * [NRJavaSerial](https://github.com/NeuronRobotics/nrjavaserial)：Java串行端口系统，这是RXTX项目的一个分支，用于本地代码的jar加载。
+* [Android SerialPort](https://github.com/GeekBugs/Android-SerialPort)：Android平台上的USB串口调试库。
 * [SerialPortHelper](https://github.com/freyskill/SerialPortHelper)：Android串口通讯助手，使用C++实现。
 * [jRxTx](https://github.com/openmuc/jrxtx)：jRxTx是一个Java串行通信库，它可用于使用众所周知的基于UART的串行协议进行通信。
 * [JavaCAN](https://github.com/pschichtel/JavaCAN)：Linux内核提供的socketcan API的简单JNI包装器。
@@ -6750,6 +6766,7 @@
 * [Guerlab](https://gitee.com/guerlab_net/guerlab-sms)：Guerlab是基于Spring Boot的短信服务支持，通过引用不同的Starter启用不同的短信通道支持，支持多通道下的负载均衡，支持同步/异步方式发送。
 * [SMSGate](https://github.com/Lihuanghe/SMSGate)：SMSGate是Netty 4框架实现的三网合一短信网关核心框架。
 * [SMSCGateway](https://github.com/RestComm/smscgateway)：SMSC用于向移动运营商网络(GSM、SS7 MAP)、SMS聚合器(SMPP)和互联网电话服务提供商(SIP、SMPP)发送/接收SMS。
+* [SMS Platform](https://github.com/makemyownlife/platform-sms)：基于Spring Boot开发的短信网关服务，提供客户端SDK。
 * [SMS](https://github.com/yunpian/sms)：云通讯、国际短信、短信API、短信SDK，短信平台，短信验证码，短信接口。
 * [Cloudhopper SMPP](https://github.com/twitter-archive/cloudhopper-smpp)：Cloudhopper SMPP是SMPP的高效、可扩展且灵活的Java实现，由Twitter开源。
 * [jSMPP](https://github.com/opentelecoms-org/jsmpp)：jSMPP是SMPP协议的Java实现，它提供与消息中心或ESME通信的接口，并且能够处理每秒3000-5000条消息的流量。
