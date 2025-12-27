@@ -2106,6 +2106,7 @@
 * [Shuttle](https://github.com/cubefs/shuttle)：Shuttle提供远程Shuffle功能，可以按分区将Shuffle数据分组并转储到分布式文件系统中，由OPPO大数据团队开源。
 * [Remote Shuffle Server](https://github.com/uber/RemoteShuffleService)：Uber Remote Shuffle Server为Spark应用程序提供了在远程服务器上存储Shuffle数据的功能。
 * [Cloud Shuffle Service](https://github.com/bytedance/CloudShuffleService)：Cloud Shuffle Service是适用于计算引擎(包括Spark/Flink/MapReduce)的通用远程Shuffle解决方案，由字节开源。
+* [Flink Remote Shuffle](https://github.com/flink-extended/flink-remote-shuffle)：该项目实现了用于Flink批量数据处理的远程洗牌服务。
 * [Splash](https://github.com/MemVerge/splash)：Splash提供一个快速、灵活和可靠的Shuffle管理器，允许用户插入喜欢的后端存储和网络框架来保存和交换Shuffle数据。
 
 #### 时序数据分析
@@ -2161,6 +2162,7 @@
 * [AvatarMQ](https://github.com/tang-jie/AvatarMQ)：AvatarMQ是基于Netty构建的分布式消息队列系统，支持多个生产者和多个消费者之间的消息路由、传递。
 * [ChanaMQ](https://github.com/qingmang-team/chanamq)：ChanaMQ是一个基于Akka的AMQP消息代理，由轻芒开源。
 * [RingBroker](https://github.com/ElevatedDev/RingBroker)：RingBroker是一个高吞吐量、低延迟的分布式消息系统。
+* [Mykit Delay](https://github.com/binghe001/mykit-delay)：Mykit体系中提供的简单、稳定、可扩展的延迟消息队列框架，提供精准的定时任务和延迟队列处理功能。
 
 #### 事件总线
 
@@ -2202,11 +2204,13 @@
 * [CoralSequencer](https://www.coralblocks.com/index.php/category/coralsequencer/)：CoralSequencer是一款功能齐全、超低延迟、全序消息传递中间件，适用于基于异步消息的分布式系统。
 * [EBus](https://ebus.sourceforge.io/eBus)：EBus是一个Java中间件API，支持无代理、基于类型+主题的发布/订阅和请求/回复消息传递，用于应用程序内和应用程序间的对象级通信。
 * [Kaka](https://gitee.com/zkpursuit/kaka-core)：服务于后端的事件领域模型，全局事件通知框架，无任何第三方依赖。
+* [NYBus](https://github.com/amitshekhariitbhu/NYBus)：NYBus是一个面向Android和Java应用的Pub-Sub库。
 * [Spring Cloud Bus](https://github.com/spring-cloud/spring-cloud-bus)：Spring Cloud Bus是一种轻量级的消息代理，用于集成和传输微服务之间的消息。
 * [LiveEventBus](https://github.com/JeremyLiao/LiveEventBus)：LiveEventBus是一款Android消息总线，基于LiveData，具有生命周期感知能力，支持Sticky、AndroidX、款进程。
 * [Varadhi](https://github.com/flipkart-incubator/varadhi)：Varadhi是具有REST接口的消息总线实现，由Flipkart开源。
 * [Low Level Design](https://github.com/InterviewReady/Low-Level-Design)：常见数据结构的低级设计，包括事件总线。
 * [Flux Capacitor](https://github.com/flux-capacitor-io/flux-capacitor-client)：该仓库包含Flux Capacitor服务的官方Java客户端。
+* [Message Pipe](https://github.com/minbox-projects/message-pipe)：Message Pipe是一款基于Redis实现的分布式顺序消息管道框架。
 
 #### 应用总线
 
@@ -2342,6 +2346,7 @@
 * [Butterfly](https://github.com/simonalong/Butterfly)：Butterfly是一个超高性能的发号器框架。
 * [Snowflake](https://github.com/relops/snowflake)：用于生成K阶唯一64位整数的Java库。
 * [SnowflakeId](https://github.com/phxql/snowflake-id)：使用Java生成类似Twitter的Snowflake ID。
+* [DistributedID](https://github.com/beyondfengyu/DistributedID)：DistributedID提供一个轻量级、高并发、高可用的生成唯一ID的服务。
 
 #### Session集群
 
@@ -2886,6 +2891,9 @@
 * [JRuby Rack](https://github.com/jruby/jruby-rack)：JRuby Rack是一款适用于Java Servlet环境的轻量级适配器，允许任何基于Rack的应用程序在Java Servlet容器中未修改运行。
 * [Android Web Server](https://github.com/sonuauti/Android-Web-Server)：Java语言的简单且小容量的Android版TCP/IP Web服务器。
 * [Dorado](https://github.com/javagossip/dorado)：简单、快速、轻量级的HTTP Server实现，基于Netty 4和JDK 1.8+。
+* [RedAnt](https://github.com/all4you/redant)：RedAnt是一个基于Netty的轻量级Web容器。
+* [loServer](https://github.com/looly/loServer)：loServer是基于Netty的HTTP应用服务器。
+* [DroidPHP](https://github.com/DroidPHP/DroidPHP)：DroidPHP是一个面向安卓设备的开源Web服务器，允许你从安卓设备运行基于PHP和MYSQL的应用。
 
 #### 应用服务器
 
@@ -3125,6 +3133,7 @@
 * [ProxyChecker](https://github.com/faiqsohail/ProxyChecker)：一款易于使用的开源多线程代理检查器。
 * [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi)：HTTP隧道工具。
 * [OJP](https://github.com/Open-J-Proxy/ojp)：JDBC驱动程序和第7层代理服务器将应用程序与关系型数据库连接管理分离。
+* [HttpProxy](https://github.com/arloor/HttpProxy)：HTTP代理，支持CONNECT和普通GET/POST。
 
 #### 内网穿透
 
@@ -3141,6 +3150,7 @@
 * [ETP](https://github.com/xiaoniucode/etp)：ETP是一个轻量级的高性能内网穿透应用，支持TCP、HTTP等协议。
 * [Java Ngrok](https://github.com/alexdlaird/java-ngrok)：Java Ngrok是一个Ngrok包装器，用于管理自己的二进制文件，通过方便的Java提供应用程序接口。
 * [NeoLink](https://github.com/NeoLinkProxy/NeoLink)：NeoLink是一个轻量级的内网穿透客户端，用于将本地TCP、UDP服务暴露给公网NeoServer。
+* [NET Penetrate](https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple)：内网穿透、GUI、一键启动、不限速，内置日志。
 
 #### IO_Uring
 
@@ -3211,6 +3221,7 @@
 
 #### QUIC
 
+* [Cronet](https://chromium.googlesource.com/chromium/src/+/master/components/cronet)：Cronet是Google开发的一个网络库，旨在提供高性能、低延迟的网络请求和数据传输。
 * [Kwik](https://github.com/ptrd/kwik)：Kwik是QUIC协议Java的实现，Kwik最初仅作为客户端，但自2021年5月起它支持客户端和服务器。
 * [Quiche4j](https://github.com/kachayev/quiche4j)：QUIC传输协议和HTTP/3的Java实现。
 * [Netty QUIC Codec](https://github.com/netty/netty-incubator-codec-quic)：这是利用quiche的Netty的新型实验性QUIC编解码器。
@@ -3598,6 +3609,7 @@
 * [IgDiskCache](https://github.com/facebookarchive/ig-disk-cache)：IgDiskCache是一个容错的Android磁盘缓存库，由Instagram开源。
 * [Fuse](https://github.com/kittinunf/Fuse)：适用于Android的简单通用LRU缓存。
 * [Kotlin Cacheable](https://github.com/mori-atsushi/kotlin-cacheable)：Kotlin Cacheable是适用于Kotlin Multiplatform的基于注解的缓存库。
+* [KakaCache](https://github.com/LittleFriendsGroup/KakaCache)：KakaCache是一个专用于解决Android中网络请求及图片加载的缓存处理框架。
 
 #### 分布式缓存
 
@@ -3611,6 +3623,7 @@
 * [L2Cache](https://github.com/ck-jesse/l2cache)：L2Cache是一个基于内存、Redis、Spring Cache实现的满足高并发场景下的分布式二级缓存框架。
 * [BlazingCache](https://github.com/diennea/blazingcache)：BlazingCache是分布式Java应用程序的快速缓存。
 * [HotArmor](https://github.com/bafuka/HotArmor)：HotArmor是一款为高并发场景设计的热点数据保护中间件。
+* [Memcarrot](https://github.com/carrotdata/memcarrot)：Memcarrot是一款与Memcached协议完全兼容的缓存服务器。
 
 #### 缓存管理器
 
@@ -3647,6 +3660,7 @@
 * [ConcurrentUtil](https://github.com/Tuinity/ConcurrentUtil)：适用于多线程安全编程的高性能实用程序。
 * [AsyncService](https://github.com/JoanZapata/android-asyncservice)：AsyncService使用注解来缩短启动异步长时间任务并返回结果所需的代码。
 * [Caesar](https://github.com/vbauer/caesar)：Caesar是一个小型的Java库，允许创建某个同步Bean的异步代理版本。
+* [PLock](https://github.com/pqpo/PLock)：PLock是一种简单高效的跨进程锁，同时支持读写锁。
 
 #### 响应式
 
@@ -3753,6 +3767,7 @@
 * [ThreadPool4j](https://github.com/aofeng/threadpool4j)：ThreadPool4j是一个实现多线程池的类。
 * [HY.Common.TPool](https://github.com/HY-Org/hy.common.tpool)：线程池、任务、任务组、任务池，定时任务的类库。
 * [ThreadDebugger](https://github.com/Jacksgong/ThreadDebugger)：线程监视器和线程池工厂。
+* [EasyThread](https://github.com/yjfnypeu/EasyThread)：EasyThread通过对原生的线程池进行封装，可让你更方便的进行线程任务操作。
 
 #### Actor库
 
@@ -3848,6 +3863,7 @@
 * [ChocoBuilder](https://github.com/unit-mesh/choco-builder)：ChocoBuilder是一款开源的LLM应用开发框架，旨在帮助你轻松打造强大的软件开发SDLC、LLM生成助手。
 * [JBoltAI](https://jboltai.com/)：JBoltAI是Java企业级AI应用开发框架，旨在帮助Java系统快速接入大模型能力并开发具有AI能力的功能模块。
 * [DriftKit](https://github.com/driftkit-ai/driftkit-framework)：DriftKit是适用于Java的生产级AI框架。
+* [SmartFuse](https://github.com/mainpropath/AI-SmartFuse-Framework)：SmartFuse是一个大模型应用框架。
 
 #### LLM客户端
 
@@ -3905,6 +3921,7 @@
 * [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
 * [AgentScope](https://github.com/agentscope-ai/agentscope-java)：AgentScope是一个由阿里开源的新一代多智能体应用开发框架。
 * [Agentic ADK](https://github.com/AIDC-AI/Agentic-ADK)：Agentic ADK是阿里巴巴国际站AI事业部推出的Agent应用开发框架，基于Google ADK和Ali LangEngine。
+* [JDOxyGent4J](https://github.com/jd-opensource/JDOxyGent4J)：OxyGent是一个开源框架，将工具、模型和代理统一为模块化的Oxy，由京东开源。
 * [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
 * [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
 * [Apache Flink Agents](https://github.com/apache/flink-agents)：Apache Flink Agents是一个基于Apache Flink的Agentic AI框架。
@@ -4066,6 +4083,7 @@
 * [Jpostal](https://github.com/openvenues/jpostal)：Jpostal是libpostal的Java绑定，用于快速国际街道地址解析/规范化。
 * [BerkeleyLM](https://github.com/adampauls/berkeleylm)：用于在内存中估算、存储大型N-Gram语言模型并高效访问它们，由伯克利开源。
 * [BlackLab](https://github.com/instituutnederlandsetaal/BlackLab)：BlackLab是一个基于Apache Lucene构建的语料库检索引擎，由荷兰语言研究所开源。
+* [AHANLP](https://github.com/jsksxs360/AHANLP)：AHANLP自然语言处理包，提供包括分词、依存句法分析、语义角色标注、自动摘要、语义相似度计算、LDA主题预测、词云等服务。
 
 #### 分词器
 
