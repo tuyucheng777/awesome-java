@@ -3116,6 +3116,7 @@
 * [JLine](https://github.com/jline/jline3)：JLine是一个用于处理控制台输入的Java库。
 * [Kotlinx CLI](https://github.com/Kotlin/kotlinx-cli)：通用命令行解析器的纯Kotlin实现，由JetBrains开发。
 * [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：该库实现了一个基于文本的窗口系统。
+* [Lamp](https://github.com/Revxrsal/Lamp)：Lamp是一个多功能且强大的命令框架，专为现代Java和Kotlin应用设计。
 * [Kotlin Inquirer](https://github.com/kotlin-inquirer/kotlin-inquirer)：受Inquirer.js启发编写的常见交互式命令行用户界面集合。
 * [W2J CLI](https://github.com/frost373/w2j-cli)：Java Web命令行框架，帮助你轻松构建命令行Java Web系统。
 * [Clamshell Cli](https://github.com/vladimirvivien/clamshell-cli)：Clamshell Cli是一个用Java构建基于控制台的命令行应用程序的框架。
@@ -3734,7 +3735,6 @@
 * [Apache Commons ClassScan](https://commons.apache.org/sandbox/commons-classscan)：ClassScan可以提供有关运行时可用的所有类的信息，无论该类是否已加载。
 * [FEST Reflect](https://github.com/alexruiz/fest-reflect)：FEST Reflect提供了直观、紧凑且类型安全的流式API，使Java反射非常易于使用：不再需要强制转换、检查异常、PriviledgedActions或setAccessible调用。
 * [Lambda Factory](https://github.com/Hervian/lambda-factory)：Lambda Factory是一个Java实用程序项目，它提供了基于反射的方法调用的快速替代方案。
-* [Mirror](http://projetos.vidageek.net/mirror/mirror/)：Mirror的创建是为了解决一个简单的问题，通常命名为ReflectionUtil，它几乎适用于所有依赖反射来完成高级任务的项目。
 * [Reflection Util](https://github.com/cronn/reflection-util)：简化Java反射常见用例的工具类。
 * [BlackReflection](https://github.com/CodingGay/BlackReflection)：BlackReflection提供了一系列API，方便使用Java反射。
 * [Reflection ReMapper](https://github.com/jpenilla/reflection-remapper)：Reflection ReMapper是一个简化反射调用的库，特别支持重映射的环境。
@@ -4614,6 +4614,7 @@
 * [Code2flow](https://github.com/menduogesei/code2flow-in-java)：Code2flow Java版本，生成动态语言的调用图。
 * [JDart](https://github.com/psycopaths/jdart)：JDart是一个在Java程序上执行一致执行的工具，它是作为NASA Java Pathfinder(JPF)的扩展编写的，由NASA开源。
 * [Kex](https://github.com/vorpal-research/kex)：Kex是一个用于分析Java字节码的平台，由Jetbrains开发。
+* [LibScout](https://github.com/reddr/LibScout)：LibScout是一款轻量级且高效的静态分析工具，用于检测Android/Java应用中的第三方库。
 
 #### 编码规范
 
@@ -5389,6 +5390,7 @@
 * [MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK)：MobileIMSDK是一个原创多端IM通信层框架，轻量级、高度提炼，支持UDP、TCP、WebSocket三种协议。
 * [OIM](https://gitee.com/oimchat/oim-fx)：OIM是一套即时通讯的聊天系统，可以用于公司内网、外网通讯、客服系统等。
 * [CometD](https://github.com/cometd/cometd)：CometD是用于网络消息传递的可扩展Comet(服务器推送)实现。
+* [iCometClient4j](https://github.com/kyleduo/iCometClient4j)：iComet服务器的客户端，适用于Java/Android平台。
 * [QIQIIM](https://gitee.com/qiqiim/qiqiim-server)：QIQIIM提供简单快捷的IM方案，可用于公司内网、外网通讯，客服系统等。
 * [Spark](https://github.com/igniterealtime/Spark)：Spark是一款针对企业和组织进行优化的开源跨平台IM客户端。
 * [Gifsockets](https://github.com/videlalvaro/gifsockets)：使用Gif动画作为传输的实时通信库。
