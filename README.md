@@ -1080,6 +1080,7 @@
 * [WebforJ](https://github.com/webforj/webforj)：WebforJ是一个强大且灵活的Web框架，可让你使用Java轻松创建现代且引人入胜的用户界面，由BASIS开源。
 * [WComponents](https://github.com/BorderTech/wcomponents)：WComponents是一个用于为企业和政府构建可访问的Web应用程序的Java框架。
 * [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA的SDK，由Adobe维护。
+* [Flavour](https://flavour.sourceforge.io/)：Flavour是一个内置电池的框架，用于用Java制作单页Web应用。
 
 #### SSR框架
 
@@ -1553,6 +1554,7 @@
 * [Java DogStatsD Client](https://github.com/DataDog/java-dogstatsd-client)：用Java实现的DogStatsD客户端库，由DataDog开源。
 * [Kafka StatsD Metrics](https://github.com/airbnb/kafka-statsd-metrics2)：将Kafka指标发送到StatsD，由Airbnb开源。
 * [Metrics InfluxDB](https://github.com/davidB/metrics-influxdb)：一个用于指标的报告器，向InfluxDB服务器发布测量结果。
+* [Metrics Elasticsearch Reporter](https://github.com/elastic/elasticsearch-metrics-reporter-java)：Metrics Elasticsearch报告器。
 
 ## API网关
 
@@ -1824,6 +1826,7 @@
 * [Myria](https://github.com/uwescience/myria)：Myria是华盛顿大学的分布式、无共享大数据管理系统和云服务。
 * [DataCompare](https://gitee.com/dromara/data-compare)：DataCompare是一个大数据数据比对和数据探测平台，由dromara社区开源。
 * [Quark](https://github.com/qubole/quark)：Quark是一个基于分析数据库的数据虚拟化引擎。
+* [VerdictDB](https://github.com/verdict-project/verdict)：VerdictDB是一个查询加速器，位于你的应用程序下与SQL引擎之间，由密歇根大学开源。
 
 #### 存储格式
 
@@ -2542,6 +2545,7 @@
 * [Lu Raft KV Storage](https://github.com/stateIs0/lu-raft-kv)：这是一个Java版本的Raft KV分布式存储实现。
 * [RogueMap](https://gitee.com/bryan31/RogueMap)：RogueMap是一个高性能的嵌入式键值存储引擎，提供堆外内存和持久化存储能力。
 * [MiniBase](https://github.com/openinx/minibase)：MiniBase是一个嵌入式KV存储引擎。
+* [KVStorage](https://github.com/taoweiji/KVStorage)：强大的Android结构化KV存储框架，基于YAML生成Java结构化存储类。
 
 #### 数据网格
 
@@ -3004,6 +3008,7 @@
 * [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
 * [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，框架能够做到纳秒级别的端到端延迟。
 * [JRakNet](https://github.com/whirvis/JRakNet)：JRakNet是一个基于Java的网络库，实现了基于UDP的协议RakNet。
+* [Mikrotik](https://github.com/GideonLeGrange/mikrotik-java)：Mikrotik RouterOS API的Java客户端库实现。
 
 #### WebSocket
 
@@ -3034,6 +3039,7 @@
 * [WebSocket Android Phonegap](https://github.com/anismiles/websocket-android-phonegap)：这是一个为Android平台实现Websocket API的Java库。
 * [TubeSock](https://github.com/FirebaseExtended/TubeSock)：TubeSock是WebSocket协议客户端的Java实现，由Google开源。
 * [Krossbow](https://github.com/joffrey-bion/krossbow)：Krossbow是一个Kotlin多平台STOMP 1.2客户端，具有基于协程的API。
+* [Netty WebSocket](https://github.com/zhoumengkang/netty-websocket)：一个基于Netty构建的完整WebSocket服务器。
 
 #### Socket.IO
 
@@ -3069,6 +3075,7 @@
 * [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
 * [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
 * [Netty Chat](https://github.com/tonybase/netty-chat)：使用Netty实现IMServer，支持TCP和WebSocket实现。
+* [Engine.IO Java](https://github.com/socketio/engine.io-client-java)：Java的Engine.IO客户端库。
 
 #### TCP/UDP库
 
@@ -3146,6 +3153,7 @@
 * [Carapaceproxy](https://github.com/diennea/carapaceproxy)：Carapac是一个分布式Java反向代理。
 * [Bouncer](https://github.com/ggrandes/bouncer)：Bouncer是一个开源Java网络代理。
 * [Shadowsocks Java](https://github.com/TongxiJi/shadowsocks-java)：基于Netty 4框架的Java实现的Shadowsocks。
+* [Shadowsocks Netty](https://github.com/ksfzhaohui/shadowsocks-netty)：基于Netty 4.0实现的Shadowsocks客户端。
 * [Proxy Vole](https://github.com/MarkusBernhardt/proxy-vole)：Proxy Vole是一个用于自动检测平台网络代理设置的Java库。
 * [Mallet](https://github.com/sensepost/mallet)：Mallet是一种用于创建任意协议代理的工具，类似于我们熟悉的拦截Web代理，只是更加通用。
 * [WK Proxy](https://github.com/catas-w/WK-Proxy)：WK Proxy是一款用于HTTP代理和数据包捕获的开源桌面工具，可在Windows和macOS平台上使用。
@@ -3204,6 +3212,7 @@
 * [FDT](https://github.com/fast-data-transfer/fdt)：FDT是一种高效数据传输应用程序，能够通过广域网(使用标准TCP)以磁盘速度读写。
 * [ANX](https://github.com/cisco-ie/anx)：适用于Java的高级NETCONF浏览器和NETCONF客户端库，Cisco开源。
 * [WHOIS](https://github.com/RIPE-NCC/whois)：WHOIS是由RIPE NCC开源的一款WHOIS协议实现工具。
+* [The ONE](https://github.com/akeranen/the-one)：机会网络环境模拟器，由阿尔托大学开源。
 
 #### 端口转发
 
@@ -3299,6 +3308,7 @@
 * [IP Info](https://gitee.com/jthinking/ip-info)：IP地理位置获取，支持获取IPv4、IPv6地址信息。
 * [JIP Common](https://gitee.com/toktok/jip-common)：JIP Common支持IPv4和IPv6，多种IP格式的解析。
 * [Ineter](https://github.com/maltalex/ineter)：用于处理IP地址、范围和子网的快速Java库。
+* [CZ88.IP](https://github.com/tagphi/czdb-search-java)：CZDB Search是一个用于在CZ88 IP库中搜索数据的Java库。
 
 ## 工具库
 
@@ -3635,6 +3645,7 @@
 * [Fuse](https://github.com/kittinunf/Fuse)：适用于Android的简单通用LRU缓存。
 * [Kotlin Cacheable](https://github.com/mori-atsushi/kotlin-cacheable)：Kotlin Cacheable是适用于Kotlin Multiplatform的基于注解的缓存库。
 * [KakaCache](https://github.com/LittleFriendsGroup/KakaCache)：KakaCache是一个专用于解决Android中网络请求及图片加载的缓存处理框架。
+* [HttpResponseCache](https://github.com/candrews/HttpResponseCache)：HttpResponseCache库为使用java.net.HttpUrlConnection类的HTTP和HTTPS请求提供透明且自动的缓存。
 
 #### 分布式缓存
 
@@ -3719,6 +3730,7 @@
 * [Reakt](https://github.com/advantageous/reakt)：Reakt是Java的响应式接口。
 * [IxJava](https://github.com/akarnokd/ixjava)：Java的Iterable Extensions，与RxJava类似。
 * [Functional Reactive Lib](https://github.com/svenruppert/functional-reactive-lib)：仅使用核心Java的函数式响应库。
+* [Gridgo](https://github.com/gridgo/gridgo)：Gridgo是一个平台，旨在通过异步I/O连接器和事件驱动编程，更容易创建分布式系统。
 
 #### Future扩展
 
@@ -3794,6 +3806,7 @@
 * [HY.Common.TPool](https://github.com/HY-Org/hy.common.tpool)：线程池、任务、任务组、任务池，定时任务的类库。
 * [ThreadDebugger](https://github.com/Jacksgong/ThreadDebugger)：线程监视器和线程池工厂。
 * [EasyThread](https://github.com/yjfnypeu/EasyThread)：EasyThread通过对原生的线程池进行封装，可让你更方便的进行线程任务操作。
+* [YCThreadPool](https://github.com/yangchong211/YCThreadPool)：轻量级简易线程池库。
 
 #### Actor库
 
@@ -3916,6 +3929,7 @@
 * [Google Gen AI Java SDK](https://github.com/googleapis/java-genai)：Gemini Developer API和Vertex AI API的Java惯用SDK。
 * [Anthropic Java API](https://github.com/anthropics/anthropic-sdk-java)：Anthropic Java SDK提供了从用Java编写的应用程序方便访问Anthropic REST API的功能。
 * [Qianfan SDK](https://github.com/baidubce/bce-qianfan-sdk)：百度千帆大模型平台SDK。
+* [Qianfan Starter](https://github.com/Akika404/qianfan-starter)：一个为快速接入文心千帆平台开发的高性能Spring Boot Starter，支持历史消息管理、流式返回、文生图等。
 * [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
 * [AI4j](https://github.com/LnYo-Cly/ai4j)：用于快速接入AI大模型应用的Java SDK。
 * [AI Java](https://github.com/mainpropath/AI-java)：AI Java旨在简化与各大模型API的交互。
@@ -4067,6 +4081,8 @@
 * [ML Ease](https://github.com/linkedin/ml-ease)：ML Ease是LinkedIn开源的大规模机器学习库。
 * [Apache Hivemall](https://github.com/apache/incubator-hivemall)：Apache Hivemall是一个可扩展的机器学习库，可在Hive、Spark和Pig上运行，由日本Treasure Data公司开源。
 * [ModernMT](https://github.com/modernmt/modernmt)：ModernMT是一种基于Fairseq Transformer模型的上下文感知、增量和分布式通用神经机器翻译技术。
+* [JStarCraft AI](https://github.com/HongZhaoHua/jstarcraft-ai)：JStarCraft AI是一个机器学习的轻量级框架。
+* [XGBoost Predictor Java](https://github.com/komiya-atsushi/xgboost-predictor-java)：XGBoost预测器的纯Java实现，用于在线预测任务。
 
 #### 自然语言处理
 
@@ -4111,6 +4127,7 @@
 * [BerkeleyLM](https://github.com/adampauls/berkeleylm)：用于在内存中估算、存储大型N-Gram语言模型并高效访问它们，由伯克利开源。
 * [BlackLab](https://github.com/instituutnederlandsetaal/BlackLab)：BlackLab是一个基于Apache Lucene构建的语料库检索引擎，由荷兰语言研究所开源。
 * [AHANLP](https://github.com/jsksxs360/AHANLP)：AHANLP自然语言处理包，提供包括分词、依存句法分析、语义角色标注、自动摘要、语义相似度计算、LDA主题预测、词云等服务。
+* [JChunk](https://github.com/jchunk-io/jchunk)：JChunk是一个简单的库，支持不同类型的文本拆分策略。
 
 #### 分词器
 
