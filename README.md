@@ -1141,6 +1141,7 @@
 * [Remotely](https://github.com/Verizon/remotely)：Remotely是一个优雅、合理、纯函数式的远程系统，由Verizon开发。
 * [Jenkins Remoting](https://github.com/jenkinsci/remoting)：Jenkins Remoting是一个库和可执行Java档案，它实现了Jenkins中的通信层。
 * [ExtDirectSpring](https://github.com/ralscha/extdirectspring)：Ext Direct协议在Java和Spring上的实现。
+* [aXMLRPC](https://github.com/gturri/aXMLRPC)：aXMLRPC是一个轻量级XML-RPC客户端的Java库。
 
 ### 微服务框架
 
@@ -1302,6 +1303,7 @@
 * [Harness CD Community Edition](https://github.com/harness/harness-core)：Harness CD是一种现代自助式持续交付解决方案，允许开发人员在他们选择的任何公共或私有云基础设施上部署、验证和自动回滚Kubernetes和其他云原生应用程序。
 * [Bob](https://github.com/bob-cd/bob)：Bob允许你构建自己的自定义CI/CD基础设施，从而允许你将Bob用于各种不同的目的。
 * [CruiseControl](https://cruisecontrol.sourceforge.net/)：CruiseControl既是一个持续集成工具，也是一个用于创建自定义持续构建流程的可扩展框架，由ThoughtWorks开源。
+* [Nelson](https://github.com/getnelson/nelson)：Nelson是一个用于持续部署容器并自动管理其生命周期的系统。
 
 ## JDK
 
@@ -1965,6 +1967,7 @@
 * [SyncLite](https://github.com/syncliteio/SyncLite)：SyncLite是一个开源、低代码、全面的关系数据整合平台，可帮助开发人员快速构建用于边缘、桌面和移动环境的数据密集型应用程序。
 * [PolarDB-X CDC](https://github.com/polardb/polardbx-cdc)：PolarDB-X CDC是PolarDB-X的核心组件，负责全局二进制日志的生成、发布和订阅，由阿里开源。
 * [Hiriver](https://github.com/rolandhe/hiriver)：Hiriver是纯java开发的、高性能的、基于解析MySQL Row Base Binlog技术实现的用于监控MySQL数据变化并分发这些变化的框架。
+* [MyPipe](https://github.com/mardambey/mypipe)：MySQL二进制日志消费者，能够对更改的行进行操作，并将更改发布到不同系统，重点是Apache Kafka。
 
 #### 连接器
 
@@ -2172,6 +2175,7 @@
 * [ChanaMQ](https://github.com/qingmang-team/chanamq)：ChanaMQ是一个基于Akka的AMQP消息代理，由轻芒开源。
 * [RingBroker](https://github.com/ElevatedDev/RingBroker)：RingBroker是一个高吞吐量、低延迟的分布式消息系统。
 * [Mykit Delay](https://github.com/binghe001/mykit-delay)：Mykit体系中提供的简单、稳定、可扩展的延迟消息队列框架，提供精准的定时任务和延迟队列处理功能。
+* [FileMQ](https://github.com/zeromq/filemq)：FileMQ是一种基于ZeroMQ的发布-订阅文件服务。
 
 #### 事件总线
 
@@ -2447,6 +2451,7 @@
 * [Egothor](https://egothor.sourceforge.net/)：Egothor是一个开源、高性能、功能齐全的文本搜索引擎，完全用Java编写。
 * [Datafari](https://github.com/francelabs/datafari)：Datafari是一个开源企业搜索解决方案，由法国实验室开源。
 * [Iveely](https://github.com/Fanping/iveely.search)：Iveely是纯Java实现的搜索引擎。
+* [JStarCraft RNS](https://github.com/HongZhaoHua/jstarcraft-rns)：JStarCraft RNS是一个面向信息检索领域的轻量级引擎。
 
 #### 图数据库
 
@@ -2546,6 +2551,7 @@
 * [RogueMap](https://gitee.com/bryan31/RogueMap)：RogueMap是一个高性能的嵌入式键值存储引擎，提供堆外内存和持久化存储能力。
 * [MiniBase](https://github.com/openinx/minibase)：MiniBase是一个嵌入式KV存储引擎。
 * [KVStorage](https://github.com/taoweiji/KVStorage)：强大的Android结构化KV存储框架，基于YAML生成Java结构化存储类。
+* [Kissme](https://github.com/netguru/Kissme)：Kissme是一个开源库，提供加密键值存储。
 
 #### 数据网格
 
@@ -2683,6 +2689,7 @@
 * [ObjectDB](https://www.objectdb.com/)：ObjectDB是Java的对象数据库，可以在客户端-服务器模式和嵌入式模式下使用。
 * [Atoti](https://www.atoti.io/)：Atoti是一个数据分析平台，集一流的计算引擎、可视化套件和实时OLAP多维数据集于一体，由ActiveViam开发。
 * [ZooDB](https://github.com/tzaeschke/zoodb)：ZooDB是一个基于JDO 3.0标准的面向对象数据库。
+* [Prevayler](https://github.com/prevayler/prevayler)：Prevayler是用于业务对象持久化、负载均衡和容错的最简单、最快速且最透明的架构。
 
 #### XML数据库
 
@@ -2916,6 +2923,7 @@
 * [MineServer](https://github.com/stevenkin/MineServer)：MineServer是一个基于原生的NIO实现的HTTP Server。
 * [Hella HTTP](https://github.com/bbeaupain/hella-http)：Hella HTTP是一个非常快速的Java HTTP库，使用nio_uring进行I/O。
 * [ESA HttpServer](https://github.com/esastack/esa-httpserver)：ESA HttpServer是一个基于Netty的异步事件驱动HTTP服务器。
+* [Netty RESTful Server](https://github.com/zhoumengkang/netty-restful-server)：一个基于Netty构建的轻量高性能RESTful服务器。
 
 #### 应用服务器
 
@@ -4239,6 +4247,7 @@
 * [FEL](https://github.com/yahoo/FEL)：快速实体链接器工具包，用于训练模型将实体链接到文档和查询中的知识库，由Yahoo开源。
 * [Dexter](https://github.com/dexter/dexter)：Dexter是一个框架，它实现了一些流行的算法，并提供了开发任何实体链接技术所需的所有工具，由HPC实验室开源。
 * [Inception](https://github.com/inception-project/inception)：Inception提供了一个语义标注平台，提供智能标注帮助和知识管理，由达姆施塔特工业大学开源。
+* [LIMES](https://github.com/dice-group/LIMES)：LIMES是一个用于发现链接数据源中实体之间连接的框架，由帕德博恩大学开源。
 
 #### 信息提取
 
@@ -4266,6 +4275,7 @@
 * [HIGHFLIP](https://github.com/baidu/highflip)：HIGHFLIP是一个顶层联邦学习互通服务，用于解决异构联邦平台间相互通信的问题，百度开源。
 * [FATE Serving](https://github.com/FederatedAI/FATE-Serving)：FATE Serving是一个高性能、工业化的联邦学习模型服务系统，由微众开源。
 * [PrimiHub Platform](https://github.com/primihub/primihub-platform)：PrimiHub Platform是一个面向MPC和FL点对点服务的多方计算和多方联邦任务安全调度平台。
+* [SecretPad](https://github.com/secretflow/secretpad)：SecretPad是一个基于Kuscia的隐私计算的Web框架，能够方便的使用基于保护隐私的数据智能和机器学习的能力，由蚂蚁开源。
 
 #### 推荐系统
 
