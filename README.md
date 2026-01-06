@@ -381,6 +381,7 @@
 * [SMT求解器](docs/doc2.md#SMT求解器)
 * [命令行开发](docs/doc2.md#命令行开发)
   * [CLI库](docs/doc2.md#CLI库)
+  * [TUI](docs/doc2.md#TUI)
   * [命令行参数解析](docs/doc2.md#命令行参数解析)
   * [ASCII艺术](docs/doc2.md#ASCII艺术)
   * [文本表](docs/doc2.md#文本表)
@@ -875,6 +876,7 @@
   * [访问器模式](docs/doc2.md#访问器模式)
   * [不可变模式](docs/doc2.md#不可变模式)
   * [配置对象模式](docs/doc2.md#配置对象模式)
+  * [命名参数](docs/doc2.md#命名参数)
   * [处理器测试](docs/doc2.md#处理器测试)
 * [类路径扫描](docs/doc2.md#类路径扫描)
 * [行为分析](docs/doc2.md#行为分析)
@@ -3243,6 +3245,7 @@
 * [OpenVirteX](https://github.com/os-libera/OpenVirteX)：OVX是一个网络管理程序，可以在单个物理基础设施之上创建多个虚拟和可编程网络。
 * [Angry IP Scanner](https://github.com/angryip/ipscan)：Angry IP Scanner是适用于Windows、Linux和Mac的快速且友好的网络扫描器。
 * [Discourse Network Analyzer](https://github.com/leifeld/dna)：Discourse Network Analyzer是一种具有网络导出功能的定性内容分析工具。
+* [NMapGUI](https://github.com/daniel-cues/NMapGUI)：NMapGUI是NMap网络分析工具的高级图形用户界面。
 * [Batfish](https://github.com/batfish/batfish)：Batfish是一种网络验证工具，通过分析网络设备的配置，为安全性、可靠性和合规性提供正确性保证。
 * [FDT](https://github.com/fast-data-transfer/fdt)：FDT是一种高效数据传输应用程序，能够通过广域网(使用标准TCP)以磁盘速度读写。
 * [ANX](https://github.com/cisco-ie/anx)：适用于Java的高级NETCONF浏览器和NETCONF客户端库，Cisco开源。
