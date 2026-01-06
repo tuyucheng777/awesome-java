@@ -1627,6 +1627,7 @@
 * [CloudCrypto](https://github.com/liuweiran900217/CloudCrypto)：用于云存储应用程序的加密原语实现的库，由北京航空航天大学开源。
 * [ART](https://github.com/facebookresearch/asynchronousratchetingtree)：ART是一种端到端加密群组消息协议，它旨在提供可扩展的群组消息传递，同时保持强大的安全保障，由Facebook开源。
 * [Jsign](https://github.com/ebourg/jsign)：Jsign是一种多功能代码签名工具，允许你对Windows可执行文件、安装程序包和脚本进行签名和时间戳。
+* [Scytale](https://github.com/yakivmospan/scytale)：一个管理Android不同API上密钥生成、密钥存储和加密的工具。
 
 #### 密码库
 
@@ -1933,6 +1934,7 @@
 * [Tethys](https://github.com/tethys-json/tethys)：Tethys是用于Scala的无AST JSON库。
 * [JsonPathKt](https://github.com/eygraber/JsonPathKt)：Kotlin Multiplatform中更轻量级、更高效的JsonPath实现。
 * [JSON Repair](https://github.com/HAibiiin/json-repair)：JSON Repair是一个Java库，用于修复由大语言模型在不同应用层生成的异常JSON。
+* [ZIO Json](https://github.com/zio/zio-json)：ZIO Json是一个快速且安全的JSON库。
 
 #### JSON Schema
 
@@ -2373,6 +2375,7 @@
 * [BigDecimalMath](https://github.com/eobermuhlner/big-math)：使用任意精度的高级Java BigDecimal数学函数库。
 * [Decimal4j](https://github.com/tools4j/decimal4j)：用于基于长整型的快速定点算术的Java库，支持最多18位小数。
 * [Huldra](https://github.com/bwakell/Huldra)：该项目旨在提供高效的Java原语，主要涉及任意精度整数运算。
+* [Kotlin MP BigNum](https://github.com/ionspin/kotlin-multiplatform-bignum)：Kotlin MP BigNum库是一个纯Kotlin实现的任意精度算术运算。
 
 #### 微分
 
@@ -2909,6 +2912,7 @@
 * [OpenRules](https://openrulesdecisionmanager.com/)：OpenRules是一个具有强大规则引擎的业务规则管理系统。
 * [Visual Rules](https://flagleader.com/list.php?pid=1&ty=8&tty=34)：旗正规则引擎是由国家科技部和财政部的创新基金支持开发的一款业务规则管理系统(BRMS)产品。
 * [Dataframe Rules Engine](https://github.com/databrickslabs/dataframe-rules-engine)：用于自定义数据帧/数据集验证的可扩展规则引擎，由Databricks开源。
+* [Liudao](https://github.com/ysrc/Liudao)：六道实时业务风控系统，由同程安全开源。
 
 ## 状态机
 
@@ -2992,6 +2996,7 @@
 * [Oceanus.BI](https://github.com/hf200012/oceanus.bi)：Oceanus是一个可自由拖拽的BI可视化系统。
 * [EazyBI](https://eazybi.com/)：EazyBI是一款功能强大的工具，提供易于使用的拖放式创建自定义报告、图表和仪表板小工具。
 * [BambooBSC](https://github.com/billchen198318/bamboobsc)：BambooBSC是一个开源的平衡计分卡商业智能系统。
+* [Tahopen](https://github.com/tahopen/tahopen-platform)：Tahopen是一个强大的开源商业分析平台，由Pentaho分支而来。
 
 ## 模板引擎
 
@@ -3127,7 +3132,6 @@
 * [Airline](https://github.com/rvesse/airline)：Airline是一个Java库，提供基于注解的命令行接口解析框架。
 * [JLine](https://github.com/jline/jline3)：JLine是一个用于处理控制台输入的Java库。
 * [Kotlinx CLI](https://github.com/Kotlin/kotlinx-cli)：通用命令行解析器的纯Kotlin实现，由JetBrains开发。
-* [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：该库实现了一个基于文本的窗口系统。
 * [Lamp](https://github.com/Revxrsal/Lamp)：Lamp是一个多功能且强大的命令框架，专为现代Java和Kotlin应用设计。
 * [Kotlin Inquirer](https://github.com/kotlin-inquirer/kotlin-inquirer)：受Inquirer.js启发编写的常见交互式命令行用户界面集合。
 * [W2J CLI](https://github.com/frost373/w2j-cli)：Java Web命令行框架，帮助你轻松构建命令行Java Web系统。
@@ -3135,6 +3139,13 @@
 * [Kotter](https://github.com/varabyte/kotter)：Kotter旨在成为一个相对精简、声明式且符合Kotlin语法的API，提供实用的功能，助你轻松编写赏心悦目的控制台应用程序。
 * [Text-IO](https://github.com/beryx/text-io)：Text-IO是一个用于创建Java控制台应用程序的库，它可用于需要读取用户交互式输入的应用程序。
 * [Clique](https://github.com/kusoroadeolu/Clique)：Clique是无依赖迷你CLI框架，旨在美化Java中的CLI应用程序。
+
+#### TUI
+
+* [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：该库实现了一个基于文本的窗口系统。
+* [TUI Scala](https://github.com/oyvindberg/tui-scala)：TUI Scala是用于构建富终端用户界面和仪表盘的Scala库。
+* [Casciian](https://github.com/crramirez/casciian)：Java文本用户界面库。
+* [Text UI](https://github.com/alibaba/text-ui)：阿里开源的文本用户界面库。
 
 #### 命令行参数解析
 
@@ -3171,7 +3182,6 @@
 * [JColor](https://github.com/dialex/JColor)：JColor提供了一种简单的语法，可以在终端上以彩色字体或背景打印消息。
 * [Colorized Java](https://github.com/vieitesss/colorize-Java)：在Java控制台中打印彩色文本的小型库。
 * [Asciimg](https://github.com/korhner/asciimg)：Asciimg是一个用Java编写的可扩展Ascii艺术生成器。
-* [Text UI](https://github.com/alibaba/text-ui)：阿里开源的文本用户界面库。
 * [Crossword](https://github.com/JakeWharton/crossword)：用于渲染文本的2D画布，通常用于控制台应用程序。
 * [Pretty Print](https://github.com/snowe2010/pretty-print)：JVM的漂亮打印模块。
 * [Kolor](https://github.com/ziggy42/kolor)：Kolor是一个使用Kotlin打印彩色字符串的库。
@@ -3459,6 +3469,7 @@
 * [Classyshark Bytecode Viewer](https://github.com/borisf/classyshark-bytecode-viewer)：Java/Kotlin编译代码查看器。
 * [CFR](https://github.com/leibnitz27/cfr)：CFR可以很好地将class文件从其他JVM语言转回Java。
 * [UnLuac](https://github.com/HansWessels/unluac)：UnLuac是Lua 5.1的反编译器，它在使用标准Lua编译器编译的Lua块上运行。
+* [MinecraftDecompiler](https://github.com/MaxPixelStudios/MinecraftDecompiler)：MinecraftDecompiler是一个有用的工具/库，可以通过流行的映射和各种反编译器来解混淆和反编译Minecraft(或任何jar文件)。
 
 ## 代码混淆
 
@@ -4818,12 +4829,6 @@
 * [Pie](https://github.com/feiniaojin/pie)：Pie是一个可快速上手的责任链框架。
 * [Auto Pipeline](https://github.com/foldright/auto-pipeline)：Auto Pipeline是一个源代码生成器，可以自动生成组件的管道。
 
-#### 中介器
-
-* [PipelinR](https://github.com/sizovs/pipelinr)：PipelinR是适用于Java应用程序的轻量级命令处理管道。
-* [KediatR](https://github.com/Trendyol/kediatR)：使用Kotlin实现的具有原生协程支持的中介器。
-* [Carbon Mediation](https://github.com/wso2/carbon-mediation)：WSO2 Carbon Mediation包含WSO2 Carbon平台所需的中介功能。
-
 ## 审计框架
 
 * [Audit4j](https://github.com/audit4j/audit4j-core)：Audit4j是一个开源审计框架，专门设计用于捕获整个企业应用程序中各个组件生成和触发的审计事件。
@@ -5327,6 +5332,7 @@
 * [LDBZ Shop](https://github.com/laodaobazi/ldbz-shop)：Java分布式商城项目。
 * [TacoMall](https://github.com/realjerrytang/tacomall)：塔可商城是一个基于Spring Boot 3、Uniapp、Vue3 技术栈开发的开源跨平台小程序、管理后台，后端服务的项目。
 * [Siam](https://github.com/siam1026/siam-server)：暹罗点餐是一款Java餐饮点餐系统，适用于多门店的连锁品牌。
+* [Shopzz](https://github.com/whoiszxl/shopzz)：一个使用Spring Cloud Alibaba开发的微服务C2B2C的社区、交易平台。
 
 #### 秒杀系统
 
@@ -5364,6 +5370,7 @@
 * [Pathling](https://github.com/aehrc/pathling)：Pathling是一组工具，可让你在健康数据分析中更轻松地使用FHIR和临床术语，由澳大利亚电子健康研究中心开源。
 * [E-Medical System](https://github.com/soumyadip007/E-Medical-System-Web-Project-Using-Spring-Boot-Security-JPA-Rest-Thymeleaf-HQL)：使用Spring Boot开发的电子医疗系统Web项目。
 * [Open Healthcare Codegen Tool Framework](https://github.com/wso2/open-healthcare-codegen-tool-framework)：Open Healthcare Codegen Tool Framework包含一些常用实用程序和接口，用于实现针对常见医疗协议(FHIR、HL7v2)的工具，由WSO2开源。
+* [OpenClinica](https://github.com/OpenClinica/OpenClinica)：OpenClinica是一款开源的电子数据采集(EDC)和临床数据管理(CDM)软件，用于智能且安全地优化临床试验工作流程。
 
 #### 项目管理
 
@@ -5629,6 +5636,8 @@
 * [JnuForum](https://github.com/xzping/jnu_forum)：JnuForum是基于Java的论坛系统。
 * [Campus](https://github.com/oddfar/campus-example)：校园论坛、博客。
 * [JForum](https://github.com/rafaelsteil/jforum3)：JForum是一款强大的论坛软件，作为Java Web应用构建。
+* [Forum](https://github.com/fanchaoo/forum)：一个简单的论坛项目，采用Spring、SpringMVC、MyBatis。
+* [Community](https://github.com/cosen1024/community)：一个仿照牛客网实现的讨论社区。
 
 #### ERP系统
 
@@ -6375,6 +6384,8 @@
 * [Bitcoinj](https://github.com/bitcoinj/bitcoinj)：Bitcoinj库是比特币协议的Java实现，它允许它维护钱包并发送/接收交易，而不需要Bitcoin Core的本地副本。
 * [Bisq](https://github.com/bisq-network/bisq)：Bisq是一种安全、私密且去中心化的方式，可以将比特币兑换成国家货币和其他数字资产。
 * [Eclair](https://github.com/ACINQ/eclair)：Eclair是闪电网络的Scala实现。
+* [LightningJ](https://github.com/lightningj-org/lightningj)：LightningJ旨在简化Java开发者对现有Lightning节点实现的集成。
+* [Lightning KMP](https://github.com/ACINQ/lightning-kmp)：Kotlin中Lightning网络的实现。
 * [Bitcoin Wallet](https://github.com/bitcoin-wallet/bitcoin-wallet)：适用于Android设备的比特币钱包应用程序。
 * [Huobi Java SDK](https://github.com/HuobiRDCenter/huobi_Java)：火币Java SDK v3，可以使用此SDK查询所有市场数据、进行交易和管理你的账户。
 * [IRI](https://github.com/iotaledger/iri)：IRI是一款开源Java软件，可在IOTA主网和Devnet上运行。
@@ -6393,6 +6404,8 @@
 * [Lighthouse](https://github.com/vinumeris/lighthouse)：Lighthouse是一款去中心化的点对点众筹应用，它利用了比特币协议的智能合约功能。
 * [BOP Bitcoin Server](https://github.com/bitsofproof/supernode)：BOP Bitcoin Server是一个企业级的比特币协议实现。
 * [Mercury](https://github.com/mappum/mercury)：Mercury是一个支持无需信任的跨链交易的多币钱包。
+* [ConsensusJ](https://github.com/ConsensusJ/consensusj)：JVM和Android的比特币组件。 
+* [Bitcoin KMP](https://github.com/ACINQ/bitcoin-kmp)：Kotlin多平台比特币库。
 
 #### 交易所
 
@@ -6782,6 +6795,7 @@
 * [SerialPortHelper](https://github.com/freyskill/SerialPortHelper)：Android串口通讯助手，使用C++实现。
 * [jRxTx](https://github.com/openmuc/jrxtx)：jRxTx是一个Java串行通信库，它可用于使用众所周知的基于UART的串行协议进行通信。
 * [JavaCAN](https://github.com/pschichtel/JavaCAN)：Linux内核提供的socketcan API的简单JNI包装器。
+* [NettyX](https://github.com/fbbzl/nettyx)：Netty扩展，提供了部分工具类，同时支持串口通信。
 
 #### Modbus
 
@@ -8620,6 +8634,7 @@
 * [λiquid](https://github.com/mogenslund/liquid)：Clojure文本编辑器，用于编辑Clojure代码和Markdown代码。
 * [Clopad](https://github.com/fredoverflow/clopad)：Clopad是一款极简的Clojure代码编辑器。
 * [JNotepad](https://gitee.com/jcnc-org/JNotepad)：JNotepad是一款简约而强大的跨平台文本编辑器，旨在提供用户友好的界面和丰富的功能以及插件化使用。
+* [NeoeEdit](https://github.com/neoedmund/neoeedit)：NeoeEdit是一款智能、轻量且强大的文本编辑器。
 * [Pure Writer](https://github.com/PureWriter/desktop)：Pure Writer是一个开源编辑器。
 * [PH NotePad](https://github.com/pH-7/Simple-Java-Text-Editor)：PH NotePad是一款简单且轻便的文本编辑器，用Java编写。
 * [Arachnophilia](https://arachnoid.com/arachnophilia/)：Arachnophilia是Paul Lutus用Java编写的源代码编辑器。
@@ -9193,6 +9208,7 @@
 * [Hotswap Agent](https://github.com/HotswapProjects/HotswapAgent)：Java无限运行时类和资源重定义。
 * [Fakereplace](https://github.com/fakereplace/fakereplace)：该项目提供了一个JavaAgent和一个客户端，用于在标准JDK热交换提供的基础上热替换JVM中的类。
 * [RelProxy](https://github.com/jmarranz/relproxy)：RelProxy是一个简单的Java和Groovy热类重加载器，提供透明的动态编译和类重新加载，以及纯Java代码的脚本支持和Shell。
+* [HotSeconds](https://github.com/Liubsyy/HotSecondsIDEA)：HotSeconds是一款Java远程热部署的插件。
 
 ## 类加载
 
@@ -10682,6 +10698,7 @@
 
 * [JParsec](https://github.com/jparsec/jparsec)：Jparsec是一个为Java编写的递归下降解析器组合器框架。
 * [Autumn](https://github.com/norswap/autumn)：Autumn是一个Java解析器组合器库。
+* [Better Parse](https://github.com/h0tk3y/better-parse)：一个不错的解析器组合器库，适用于Kotlin JVM、JS和多平台项目。
 * [ParsecJ](https://github.com/jon-hanson/parsecj)：ParsecJ是一个用于构建LL(1)解析器的Java单子解析器组合器框架。
 * [Java PetitParser](https://github.com/petitparser/java-petitparser)：PetitParser结合了无扫描器解析、解析器组合器、解析表达式语法(PEG)和Packrat解析器的思想，将语法和解析器建模为可以动态重新配置的对象。
 * [Jar Jar Parse](https://github.com/BjoernLoetters/Jar-Jar-Parse)：Jar Jar Parse是一个轻量级库，专为Java中的解析器快速原型设计而设计。
