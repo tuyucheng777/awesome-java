@@ -125,6 +125,7 @@
 #### 模糊测试
 
 * [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer)：由Code Intelligence开发的适用于JVM平台的覆盖率引导的进程内模糊器，它基于libFuzzer，并将许多由仪器驱动的突变功能引入JVM。
+* [Kelinci](https://github.com/isstac/kelinci)：用于在Java程序上运行AFL的接口，由CMU开源。
 * [Kotlinx Fuzz](https://github.com/JetBrains-Research/kotlinx.fuzz)：Kotlinx Fuzz是一个适用于Kotlin的通用模糊测试库，由JetBrains开源。
 * [SQLancer](https://github.com/sqlancer/sqlancer)：SQLancer是一个自动测试DBMS以发现其实现中的逻辑错误的工具。
 * [Javafuzz](https://github.com/fuzzitdev/javafuzz)：Javafuzz是用于测试Java包的覆盖率引导模糊器。
@@ -593,6 +594,7 @@
 * [TestHubo](https://github.com/tiklab-project/tiklab-testhubo)：全栈式测试管理工具，涵盖功能测试、接口测试、Web测试、App测试及性能测试等，全面覆盖各种测试场景。
 * [Online Inspection Tracker](https://github.com/TheCoolQATeam/online-inspection-tracker)：Online Inspection Tracker是一个线上UI自动化巡检工具，旨在帮助开发人员和测试人员快速、高效地检测线上Web应用的UI界面是否存在异常。
 * [BitDive](https://bitdive.io/)：BitDive是零代码集成测试平台，可根据运行时应用程序行为生成测试用例。
+* [MasterYi](https://gitee.com/xuwangcheng/masteryi-automated-testing)：专注于接口自动化测试的管理平台。
 
 #### QA自动化
 
@@ -1398,6 +1400,7 @@
 * [Signpost](https://github.com/mttkay/signpost)：Signpost是一种简单直观的解决方案，用于在Java平台上签署符合OAuth Core 1.0a标准的HTTP消息。
 * [CredentialManager](https://github.com/PhilippHeuer/credential-manager)：一个简单的OAuth客户端和CredentialManager库，支持多个存储后端。
 * [Okta Spring Boot](https://github.com/okta/okta-spring-boot)：Okta Spring Boot Starter，使你的Spring Boot应用程序能够通过OAuth 2.0/OIDC 与Okta协同工作。
+* [Retroauth](https://github.com/andretietz/retroauth)：一个基于Retrofit构建的库，便于简单处理认证请求。
 
 #### 身份管理平台
 
@@ -1649,6 +1652,7 @@
 * [RandPassGenerator](https://github.com/nsacyber/RandPassGenerator)：RandPassGenerator是一个简单的命令行实用程序，用于生成随机密码、密码短语和原始密钥，由美国国家安全局网络安全局开源。
 * [Aerogear OTP Java](https://github.com/aerogear-attic/aerogear-otp-java)：根据RFC 4226生成一次性密码的Java库。
 * [JSS](https://github.com/dogtagpki/jss)：NSS是一组库，旨在支持跨平台开发启用安全性的客户端和服务器应用程序。
+* [Strongbox](https://github.com/schibsted/strongbox)：Strongbox是AWS的秘钥管理器。
 
 #### 加密算法
 
@@ -4431,6 +4435,7 @@
 * [Erlyberly](https://github.com/andytill/erlyberly)：Erlyberly是一款使用Erlang跟踪技术的Erlang、Elixir和LFE调试器。
 * [JMXTerm](https://github.com/jiaqi/jmxterm)：JMXTerm是一个用Java编写的基于开源命令行的交互式JMX客户端。
 * [Autotune](https://github.com/kruize/autotune)：Kruize Autotune是Kubernetes的自主性能调优工具，由IBM开源。
+* [Container Auto Tune](https://github.com/alipay/container-auto-tune)：Container Auto Tune是一款智能参数调优产品，帮助开发者和操作员自动调整应用，通过智能算法分析JVM合理的配置参数，由蚂蚁开源。
 
 #### 诊断工具
 
@@ -4882,6 +4887,7 @@
 * [JSmooth](https://github.com/BrunoReX/jsmooth)：JSmooth是一个Java可执行包装器，可构建启动Java应用程序的标准Windows可执行二进制文件(.exe)。
 * [JSystemd](https://github.com/jpmsilva/jsystemd)：JSystemd旨在提供一个更好的平台来将Java应用程序与systemd集成，并将它们作为适当的操作系统服务运行。
 * [Jar Jar Links](https://github.com/google/jarjar)：Jar Jar Links是一个实用程序，可以轻松地重新打包Java库并将它们嵌入到你自己的发行版中。
+* [JNSM](https://gitee.com/eguid/java-nssm-service-manager)：Java开发的简单Windows服务安装管理工具，支持JAR包和EXE安装为Windows服务，并支持批量管理已安装服务。
 
 ## 部署
 
@@ -8870,6 +8876,7 @@
 * [Telegram Files](https://github.com/jarvis2f/telegram-files)：自托管的Telegram文件下载器，用于连续、稳定和无人值守的下载。
 * [Drifty](https://github.com/SaptarshiSarkar12/Drifty)：Drifty是一个用Java构建的开源交互式文件下载系统，它提供CLI和GUI，灵活易用。
 * [JDownloader](https://github.com/mycodedoesnotcompile2/jdownloader_mirror)：JDownloader是一款免费的开源下载管理工具。
+* [JDownloader](https://github.com/mirror/jdownloader)：JDownloader是一款免费的开源下载管理工具。
 
 #### LaTeX编辑器
 
@@ -9410,6 +9417,14 @@
 * [CryptoFS](https://github.com/cryptomator/cryptofs)：CryptoFS是Cryptomator加密工具的底层Java文件系统库。
 * [MongoDB File Server](https://github.com/waylau/mongodb-file-server)：MongoDB File Server是一个基于MongoDB的文件服务器系统。
 
+## S3
+
+* [S3Proxy](https://github.com/gaul/s3proxy)：S3Proxy实现S3 API和代理请求，支持多种用例。
+* [S3S3Mirror](https://github.com/cobbzilla/s3s3mirror)：一个用于将内容从一个S3桶镜像到另一个桶的工具。
+* [S3mper](https://github.com/Netflix/s3mper)：S3mper是一个库，通过使用一致的次级索引，在亚马逊S3索引之上增加了一层一致性检查，由Netflix开源。
+* [S3Auth](https://github.com/yegor256/s3auth)：Amazon S3 HTTP基础认证网关。
+* [S3 Stream Upload](https://github.com/alexmojaki/s3-stream-upload)：这个库让你能够高效地将大量数据流传输到AWS S3，而无需将整个对象存储在内存中或使用文件。
+
 ## 音视频处理
 
 这里包括Java中音频、视频、多媒体相关的库、框架。
@@ -9532,6 +9547,7 @@
 * [ESL Client](https://github.com/esl-client/esl-client)：ESL Client是FreeSWITCH项目中基于Java的事件套接字库。
 * [FreeSWITCH ESL ALL](https://github.com/zhouhailin/freeswitch-externals)：FreeSWITCH额外项目。
 * [Contact Center](https://github.com/caoliang1918/contact-center)：智能电话外呼系统。
+* [Asterisk Java](https://github.com/asterisk-java/asterisk-java)：Asterisk Java包含一组Java类，使你能够轻松构建与Asterisk PBX服务器交互的Java应用程序。
 
 ## 数据结构
 
@@ -9693,6 +9709,7 @@
 * [ConsistentHash](https://github.com/Jaskey/ConsistentHash)：Java中的通用一致性哈希实现，支持虚拟节点和用户定义的哈希函数。
 * [Min2phase](https://github.com/cs0x7f/min2phase)：Kociemba两阶段算法的优化实现。
 * [JWave](https://github.com/graetz23/JWave)：离散傅里叶变换、快速小波变换和小波包变换算法的Java实现。
+* [Kalman](https://github.com/wouterbulten/kalmanjs)：卡尔曼一维数据滤波器。 
 * [RNNoise4j](https://github.com/henkelmax/rnnoise4j)：一个用C语言使用JNI编写的RNNoise Java包装程序。
 * [RendezvousHash](https://github.com/clohfink/RendezvousHash)：基于环的一致哈希的替代方案，这是Rendezvous(最高随机权重，HRW)哈希的快速线程安全实现。
 * [Patricia Trie](https://github.com/rkapsi/patricia-trie)：检索以字母数字编码的信息的实用算法。
@@ -10787,6 +10804,8 @@
 * [APTK](https://github.com/toolisticon/aptk)：APTK可帮助你以更有效的方式构建注解处理器的工具包。
 * [Incap](https://github.com/tbroyer/gradle-incap-helper)：用于构建增量注解处理器的辅助库和注解处理器。
 * [Better Strings](https://github.com/antkorwin/better-strings)：Better Strings是用于Java字符串插值的插件。
+* [ValueClasses](https://github.com/tguzik/valueclasses)：Java值类的基础抽象和模板。
+* [AutoDelegate](https://github.com/ryandens/auto-delegate)：Java注解处理器，用于自动将接口API委托给该接口的组合实例。
 
 #### 访问器模式
 
@@ -10803,6 +10822,11 @@
 * [Config Builder](https://github.com/TNG/config-builder)：Config Builder使用注解和反射来构建自定义类的配置实例。
 * [Propify](https://github.com/vgerbot-libraries/propify)：Propify是一个功能强大、轻量级的Java注解处理器，它通过从配置文件(YAML、INI或Properties)和国际化包生成类型安全的类来消除配置错误。
 * [Coat](https://github.com/poiu-de/coat)：Coat是一个注解处理器，用于生成将配置值读入类型安全对象的类。
+
+#### 命名参数
+
+* [Default4j](https://github.com/reugn/default4j)：通过注解在Java中处理默认参数值。
+* [NamedParameters](https://github.com/Auties00/NamedParameters)：Java 17的命名和可选参数。
 
 #### 处理器测试
 
