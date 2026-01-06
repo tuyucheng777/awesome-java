@@ -69,6 +69,7 @@
   * [事件总线](#事件总线)
   * [消息总线](#消息总线)
   * [应用总线](#应用总线)
+  * [中介器](#中介器)
   * [消息队列客户端](#消息队列客户端)
   * [Kafka](#Kafka)
 * [分布式开发](#分布式开发)
@@ -484,7 +485,6 @@
   * [构建器模式](docs/doc2.md#构建器模式)
   * [代理模式](docs/doc2.md#代理模式)
   * [责任链模式](docs/doc2.md#责任链模式)
-  * [中介器](docs/doc2.md#中介器)
 * [审计框架](docs/doc2.md#审计框架)
 * [原型工具](docs/doc2.md#原型工具)
 * [工件仓库](docs/doc2.md#工件仓库)
@@ -2235,6 +2235,12 @@
 * [JBoss Fuse](https://github.com/jboss-fuse/fuse)：JBoss Fuse是一个开源ESB，其功能基于Apache Camel、Apache CXF、Apache ActiveMQ、Apache Karaf和Fabric8，集成在一个发行版中。
 * [Petals ESB](https://petals.linagora.com/)：Petals ESB是一个开源企业服务总线。
 
+#### 中介器
+
+* [PipelinR](https://github.com/sizovs/pipelinr)：PipelinR是适用于Java应用程序的轻量级命令处理管道。
+* [KediatR](https://github.com/Trendyol/kediatR)：使用Kotlin实现的具有原生协程支持的中介器。
+* [Carbon Mediation](https://github.com/wso2/carbon-mediation)：WSO2 Carbon Mediation包含WSO2 Carbon平台所需的中介功能。
+
 #### 消息队列客户端
 
 * [RabbitMQ Java](https://github.com/rabbitmq/rabbitmq-java-client)：RabbitMQ Java客户端库。
@@ -3912,6 +3918,7 @@
 * [JBoltAI](https://jboltai.com/)：JBoltAI是Java企业级AI应用开发框架，旨在帮助Java系统快速接入大模型能力并开发具有AI能力的功能模块。
 * [DriftKit](https://github.com/driftkit-ai/driftkit-framework)：DriftKit是适用于Java的生产级AI框架。
 * [SmartFuse](https://github.com/mainpropath/AI-SmartFuse-Framework)：SmartFuse是一个大模型应用框架。
+* [Dokimos](https://github.com/dokimos-dev/dokimos)：Dokimos是一个开源的Java大语言模型应用评估框架。
 
 #### LLM客户端
 
@@ -4137,6 +4144,7 @@
 * [BlackLab](https://github.com/instituutnederlandsetaal/BlackLab)：BlackLab是一个基于Apache Lucene构建的语料库检索引擎，由荷兰语言研究所开源。
 * [AHANLP](https://github.com/jsksxs360/AHANLP)：AHANLP自然语言处理包，提供包括分词、依存句法分析、语义角色标注、自动摘要、语义相似度计算、LDA主题预测、词云等服务。
 * [JChunk](https://github.com/jchunk-io/jchunk)：JChunk是一个简单的库，支持不同类型的文本拆分策略。
+* [Entity Fishing](https://github.com/kermitt2/entity-fishing)：Entity Fishing是一个用于捕鱼实体的机器学习工具。
 
 #### 分词器
 
