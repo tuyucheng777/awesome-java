@@ -1634,6 +1634,7 @@
 * [CloudCrypto](https://github.com/liuweiran900217/CloudCrypto)：用于云存储应用程序的加密原语实现的库，由北京航空航天大学开源。
 * [ART](https://github.com/facebookresearch/asynchronousratchetingtree)：ART是一种端到端加密群组消息协议，它旨在提供可扩展的群组消息传递，同时保持强大的安全保障，由Facebook开源。
 * [Scytale](https://github.com/yakivmospan/scytale)：一个管理Android不同API上密钥生成、密钥存储和加密的工具。
+* [Datasafe](https://github.com/adorsys/datasafe)：Datasafe是一个专为开发者和企业量身定制的强大库，提供加密和版本化的数据存储。
 * [OpenJCEPlus](https://github.com/IBM/OpenJCEPlus)：OpenJCEPlus加密提供程序是JCE API的实现，由IBM开源。
 * [Cryptography Kotlin](https://github.com/whyoleg/cryptography-kotlin)：Kotlin的类型安全多平台密码库。
 
