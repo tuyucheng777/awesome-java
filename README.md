@@ -3884,6 +3884,7 @@
 
 #### 并发数据结构
 
+* [Disruptor](https://github.com/LMAX-Exchange/disruptor)：Disruptor是一个高性能线程间消息传递库，由英国外汇交易公司LMAX开发。
 * [ExpiringMap](https://github.com/jhalterman/expiringmap)：ExpiringMap是一种高性能、低开销、零依赖、线程安全的ConcurrentMap实现，可让键值对过期。
 * [JCTools](https://github.com/JCTools/JCTools)：JCTools旨在提供JDK目前缺少的一些并发数据结构。
 * [ConcurrentLinkedHashMap](https://github.com/ben-manes/concurrentlinkedhashmap)：java.util.LinkedHashMap的高性能版本，用作软件缓存。
