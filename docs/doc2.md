@@ -470,6 +470,7 @@
 * [JUnit JSON Params](https://github.com/joshka/junit-json-params)：JUnit 5 JSON参数化测试库。
 * [Spockito](https://github.com/tools4j/spockito)：一个简单的Java库，用于以类似表格的方式定义数据。
 * [EasyTest](https://github.com/EaseTech/easytest-core)：EasyTest是一个用于在Java中执行数据驱动测试的库。
+* [TableTest](https://github.com/nchaugen/tabletest)：TableTest通过简洁的表格格式扩展了JUnit用于数据驱动测试。
 
 #### Selenium库
 
@@ -820,6 +821,7 @@
 * [Nebula Java](https://github.com/vesoft-inc/nebula-java)：Nebula Graph的Java客户端和数据导入器。
 * [Meilisearch Java](https://github.com/meilisearch/meilisearch-java)：Meilisearch是一个开源搜索引擎。
 * [ArangoDB Java Driver](https://github.com/arangodb/arangodb-java-driver)：官方ArangoDB Java驱动程序。
+* [Avatica](https://github.com/apache/calcite-avatica)：Avatica是一个用于构建数据库驱动程序的框架。
 
 #### ORM框架
 
@@ -2070,7 +2072,7 @@
 * [Fig](https://github.com/theapache64/fig)：使用Google Sheet作为远程配置。
 * [Duic](https://github.com/zhudyos/duic)：Duic是采用Kotlin与Spring Webflux开发的配置中心。
 * [Diablo](https://github.com/ihaolin/diablo)：轻量的分布式配置管理平台。
-* [Datasafe](https://github.com/adorsys/datasafe)：Datasafe是一个专为开发者和企业量身定制的强大库，提供加密和版本化的数据存储。
+* [CredHub](https://github.com/cloudfoundry/credhub)：CredHub提供了一个API，可以安全地存储、生成、检索和删除各种类型的凭据。
 
 #### 配置语言
 
@@ -3531,6 +3533,7 @@
 * [Paranoid](https://github.com/MichaelRocks/paranoid)：适用于安卓应用的字符串混淆器。
 * [JSource Obfuscator](https://github.com/luelueking/JSource-Obfuscator)：Java源代码混淆器。
 * [McDeob](https://github.com/ShaneBeeStudios/McDeob)：McDeob是一款用于Minecraft服务器/客户端jar的重新映射和去混淆工具。
+* [Class Winter](https://github.com/Dulcinea-J/class-winter-master)：Class Winter是一款Java字节码文件安全加密工具。
 
 ## 逆向工程
 
@@ -6190,6 +6193,8 @@
 * [Social SDK](https://github.com/belerweb/social-sdk)：Social SDK是一个集成新浪微博开放平台、QQ互联、腾讯微博开发平台、微信公众平台等社交平台的接口的Java库。
 * [Evernote SDK Java](https://github.com/Evernote/evernote-sdk-java)：该SDK包含用于从Java应用调用Evernote Cloud API的包装代码。
 * [Bilibili API](https://github.com/czp3009/bilibili-api)：该项目提供Bilibili API的JVM调用。
+* [Steamworks4j](https://github.com/code-disaster/steamworks4j)：一个用于访问Steamworks API的薄Java包装器。
+* [DiscordIPC](https://github.com/jagrosh/DiscordIPC)：通过IPC本地连接到Discord客户端，以获得部分RPC功能。
 * [Artifactory Java Client](https://github.com/jfrog/artifactory-client-java)：Artifactory Java客户端在你的Java代码中提供简单而强大的Artifactory连接和管理。
 * [Cloud Foundry Java Client](https://github.com/cloudfoundry/cf-java-client)：CF Java Client项目是一个用于与Cloud Foundry实例交互的Java语言绑定。
 
