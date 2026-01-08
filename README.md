@@ -107,6 +107,7 @@
   * [HTTP路由](#HTTP路由)
   * [Web服务器](#Web服务器)
   * [应用服务器](#应用服务器)
+  * [CFML引擎](#CFML引擎)
   * [FTP服务器](#FTP服务器)
   * [NIO框架](#NIO框架)
   * [网络库](#网络库)
@@ -1642,6 +1643,7 @@
 * [RequestLimit](https://gitee.com/kaligence/requestLimit)：RequestLimit是一款基于Redis和Spring AOP的请求限制工具。
 * [RedisLimiter Spring Boot](https://gitee.com/aiyuntang/redislimiter-spring-boot)：一个优秀的分布式Spring Boot/Spring Cloud API限流框架。
 * [ServiceKeeper](https://github.com/esastack/esa-servicekeeper)：ServiceKeeper是一个轻量级的服务治理框架，提供了许多很棒的功能，比如速率限制、并发限制、断路器、重试并撤退。
+* [Upperbound](https://github.com/SystemFw/upperbound)：Upperbound是一个纯函数式的基于区间速率限制器。
 
 #### 重试
 
@@ -2332,6 +2334,7 @@
 * [Astraea](https://github.com/opensource4you/astraea)：Astraea提供各式工具来降低Kafka使用门槛以及提高Kafka效能和资源使用率。
 * [Kafka Web Console](https://github.com/cjmamo/kafka-web-console)：Kafka Web Console是一个用于监控Apache Kafka的Java Web应用程序。
 * [Kafka Offset Monitor](https://github.com/Morningstar/kafka-offset-monitor)：这是一个用于监控Kafka消费者及其在日志中的位置(偏移量)的应用程序。
+* [Kafka Backup](https://github.com/itadventurer/kafka-backup)：Kafka Backup是一个用于备份和恢复Kafka数据的工具，包括所有(可配置的)主题数据，尤其是消费者组的偏移量。
 
 ## 分布式开发
 
@@ -2898,6 +2901,7 @@
 * [Resty](https://github.com/beders/Resty)：Resty是一个小巧、方便的接口，用于在Java中与RESTful服务通信。
 * [Kohttp](https://github.com/rybalkinsd/kohttp)：Kotlin DSL HTTP客户端。
 * [Appsly Android REST](https://github.com/xebia-functional/appsly-android-rest)：Appsly Android REST是一款基于注解的客户端库，由Xebia开源。
+* [HTTP API Invoker](https://github.com/dadiyang/http-api-invoker)：让HTTP接口调用跟调用本地方法一样自然优雅。
 
 #### HTTP路由
 
@@ -2996,6 +3000,12 @@
 * [Smart Servlet](https://gitee.com/smartboot/smart-servlet)：Smart Servlet是一款实现了Servlet 4.0规范，支持多应用隔离部署的的Web容器。
 * [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
 
+#### CFML引擎
+
+* [Lucee](https://github.com/lucee/Lucee)：Lucee是一款高性能、开源的CFML服务器。
+* [Railo](https://github.com/getrailo/railo)：Railo是一款高性能、开源的CFML引擎。
+* [OpenBD](https://github.com/OpenBD/openbd-core)：OpenBD是开源且免费的Java CFML运行时。
+
 #### FTP服务器
 
 * [Apache FtpServer](https://mina.apache.org/ftpserver-project/)：FtpServer是一个100%纯Java FTP服务器。
@@ -3020,6 +3030,7 @@
 * [One NIO](https://github.com/odnoklassniki/one-nio)：One NIO是一个用于构建高性能Java服务器的库，由Odnoklassniki开源。
 * [Gecko](https://github.com/killme2008/gecko)：Gecko是一个Java NIO的通讯组件，它在一个轻量级的NIO框架的基础上提供了更高层次的封装和功能，由淘宝开发。
 * [FireNio](https://github.com/FireNio/firenio)：FireNio是基于Java NIO开发的一款可快速构建网络通讯项目的异步IO框架。
+* [HawtDispatch](https://github.com/fusesource/hawtdispatch)：HawtDispatch是一个小型的线程池和NIO处理框架API。
 * [Mycat NIO](https://github.com/MyCATApache/Mycat-NIO)：非常高性能又简单的NIO框架。
 * [Acteur](https://github.com/timboudreau/acteur)：Acteur是一个使用Netty编写Web服务器应用程序的框架。
 * [UberFire I/O](https://github.com/kiegroup/appformer/tree/main/uberfire-io)：NIO.2的实用程序/门面集。
@@ -3814,6 +3825,7 @@
 * [AsyncTool](https://gitee.com/jd-platform-opensource/asyncTool)：AsyncTool是解决任意的多线程并行、串行、阻塞、依赖、回调的并行框架，由京东开源。
 * [Bolts](https://github.com/BoltsFramework/Bolts-Android)：Bolts是一系列底层库的集合，旨在简化移动应用的开发，由Parse和Facebook设计。
 * [JDeferred](https://github.com/jdeferred/jdeferred)：JDeferred是一个Java Deferred/Promise库，类似于JQuery的Deferred Object。
+* [Android Deferred Object](https://github.com/CodeAndMagic/android-deferred-object)：Android中对jQuery中延迟对象模式的实现。
 * [Gobrs Async](https://gitee.com/dromara/gobrs-async)：Gobrs Async是一款功能强大、配置灵活、带有全链路异常回调、内存优化、异常状态管理于一身的高性能多线程并发编程和动态编排框架，由dromara社区开源。
 * [Trickle](https://github.com/spotify/trickle)：Trickle是一个用于编写异步代码的小型库，由Spotify开源。
 * [TaskManager](https://github.com/iqiyi/TaskManager)：TaskManager是一种支持依赖关系、任务兜底策略的任务调度管理工具，由爱奇艺开源。
@@ -3854,6 +3866,7 @@
 * [ThreadDebugger](https://github.com/Jacksgong/ThreadDebugger)：线程监视器和线程池工厂。
 * [EasyThread](https://github.com/yjfnypeu/EasyThread)：EasyThread通过对原生的线程池进行封装，可让你更方便的进行线程任务操作。
 * [YCThreadPool](https://github.com/yangchong211/YCThreadPool)：轻量级简易线程池库。
+* [AsyncManager](https://github.com/boxme/AsyncManager)：AsyncManager通过分别将后台任务的创建和终止保持为仅一次API调用，尽可能简化后台线程的管理。
 
 #### Actor库
 
@@ -4128,6 +4141,7 @@
 * [DL Learner](https://github.com/SmartDataAnalytics/DL-Learner)：DL Learner是一个使用OWL、RDF和描述逻辑进行监督机器学习的框架，由德累斯顿工业大学开源。
 * [Word2VEC Java](https://github.com/NLPchina/Word2VEC_java)：Word2VEC Java版本的一个实现。
 * [Word2VecJava](https://github.com/medallia/Word2VecJava)：Word2Vec Java移植。
+* [Word2Vec](https://github.com/jsksxs360/Word2Vec)：Word2Vec是对Word2VEC Java的进一步包装，同时实现了常用的词语相似度和句子相似度计算。
 * [ML Ease](https://github.com/linkedin/ml-ease)：ML Ease是LinkedIn开源的大规模机器学习库。
 * [Apache Hivemall](https://github.com/apache/incubator-hivemall)：Apache Hivemall是一个可扩展的机器学习库，可在Hive、Spark和Pig上运行，由日本Treasure Data公司开源。
 * [ModernMT](https://github.com/modernmt/modernmt)：ModernMT是一种基于Fairseq Transformer模型的上下文感知、增量和分布式通用神经机器翻译技术。
@@ -4180,6 +4194,7 @@
 * [JChunk](https://github.com/jchunk-io/jchunk)：JChunk是一个简单的库，支持不同类型的文本拆分策略。
 * [Entity Fishing](https://github.com/kermitt2/entity-fishing)：Entity Fishing是一个用于捕鱼实体的机器学习工具。
 * [Epic](https://github.com/dlwh/epic)：Epic是Scala的一个结构化预测框架。
+* [TimeNLP](https://github.com/shinyke/Time-NLP)：中文语句中的时间语义识别。
 
 #### 分词器
 
@@ -4259,6 +4274,7 @@
 * [Primus](https://github.com/bytedance/primus)：Primus是用于机器学习应用程序的通用分布式调度框架，它管理TensorFlow等机器学习训练器的训练生命周期和数据分布，以执行大规模分布式训练，由字节开源。
 * [Serenade](https://github.com/serenadeai/serenade)：该仓库包含Serenade客户端应用程序、在线服务(如语音引擎、代码引擎和核心应用程序)和模型训练的代码。
 * [Multi Model Server](https://github.com/awslabs/multi-model-server)：MMS是一种灵活且易于使用的工具，用于为使用任何ML/DL框架训练的深度学习模型提供服务，由AWS开源。
+* [Easy BERT](https://github.com/robrua/easy-bert)：Easy BERT是一个非常简单的API，用于使用Google高质量的BERT语言模型。 
 
 #### 强化学习
 
@@ -4272,6 +4288,7 @@
 * [BEAST 2](https://github.com/CompEvol/beast2)：BEAST是一个使用分子序列MCMC进行贝叶斯推理的跨平台程序，由奥克兰大学领导开发。
 * [BEAST X](https://github.com/beast-dev/beast-mcmc)：BEAST X是一款跨平台的程序，使用MCMC对分子序列进行贝叶斯分析。
 * [Keanu](https://github.com/improbable-research/keanu)：Keanu是一个通用的概率编程库，由Improbable的研究团队开发。
+* [BartMachine](https://github.com/kapelner/bartMachine)：R-Java贝叶斯加法回归树实现，由纽约市立大学开源。
 * [Java Naive Bayes Classifier](https://github.com/ptnplanet/Java-Naive-Bayes-Classifier)：基于朴素贝叶斯方法的Java分类器。
 
 #### 因果推理
@@ -4458,6 +4475,8 @@
 * [MathOCR](https://github.com/chungkwong/MathOCR)：MathOCR是一个用Java语言编写的印刷体科技文档识别系统。
 * [NewOCR](https://github.com/MSPaintIDE/NewOCR)：NewOCR是一款用Java制作的OCR，无需使用机器学习。
 * [JiaJiaOCR](https://github.com/jiangnanboy/JiaJiaOCR)：JiaJiaOCR完全用Java代码实现OCR功能，无需调用DLL或者EXE文件。
+* [Tess Two](https://github.com/rmtheis/tess-two)：Android版Tesseract工具是一组用于Tesseract OCR和Leptonica图像处理库的Android API和构建文件。
+* [Vlpr4j](https://github.com/eguid/vlpr4j)：基于OpenCV的Java车牌检测识别库。
 
 #### 人脸识别
 
@@ -4472,6 +4491,7 @@
 * [Red5](https://gitee.com/endlesshh/red5-rtmp-push)：Java版天网人脸识别系统，可以获取视频流进行人脸识别后推送到流媒体服务器实时展示。
 * [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：千搜科技第五代人脸识别引擎Java接口。
 * [SeetaFace6 Java SDK](https://github.com/tracy100/seetaface6SDK)：基于SeetaFace6的Java语言SDK封装，提供完整的人脸识别解决方案。
+* [Face++](https://github.com/FacePlusPlus/facepp-java-sdk)：适用于Java的Face++ SDK。
 
 #### 语音识别
 
