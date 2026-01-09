@@ -134,6 +134,7 @@
   * [Radius](#Radius)
   * [以太网](#以太网)
   * [IP库](#IP库)
+  * [SIP](#SIP)
 * [工具库](#工具库)
 * [Bean映射&复制](#Bean映射复制)
 * [IoC](#IoC)
@@ -579,6 +580,7 @@
   * [TheMovieDb](docs/doc2.md#TheMovieDb)
   * [TeamSpeak](docs/doc2.md#TeamSpeak)
   * [Mastodon](docs/doc2.md#Mastodon)
+  * [Flickr](docs/doc2.md#Flickr)
 * [Docker客户端](docs/doc2.md#Docker客户端)
 * [Consul客户端](docs/doc2.md#Consul客户端)
 * [Kubernetes客户端](docs/doc2.md#Kubernetes客户端)
@@ -616,6 +618,7 @@
   * [串口](docs/doc2.md#串口)
   * [Modbus](docs/doc2.md#Modbus)
   * [USB库](docs/doc2.md#USB库)
+  * [CoAP](docs/doc2.md#CoAP)
   * [XBee](docs/doc2.md#XBee)
 * [短信](docs/doc2.md#短信)
 * [邮件库](docs/doc2.md#邮件库)
@@ -1098,6 +1101,7 @@
 * [PurpleJS](https://github.com/purplejs/purplejs)：PurpleJS是一个简单而强大的框架，无需脱离JavaScript即可创建高性能Web应用程序。
 * [Inertia4J](https://github.com/Inertia4J/inertia4j)：Inertia提供了一个协议，可以直接从后端渲染现代前端框架编写的组件，Inertia4J是一个实现此类协议的JVM适配器。
 * [Renarde](https://github.com/quarkiverse/quarkus-renarde)：Renarde是一个基于Quarkus、Qute、Hibernate和Quarkus REST的服务器端Web框架。
+* [JReact](https://github.com/KnisterPeter/jreact)：在服务器端的Java上使用React.js。
 
 #### WebService框架
 
@@ -1280,6 +1284,8 @@
 * [Saker.build](https://github.com/sakerbuild/saker.build)：Saker.build是一个与语言无关的构建系统，专注于可扩展性和可扩展的增量构建。
 * [Kobalt](https://github.com/cbeust/kobalt)：Kobalt是一个受Gradle和Maven启发的构建系统。
 * [Batect](https://github.com/batect/batect)：Batect允许你根据一个或多个Docker容器定义你的开发任务，在任何地方快速、一致地运行这些任务，并轻松地与你的团队共享。
+* [CBT](https://github.com/cvogt/cbt)：CBT是一个构建工具，有助于协调编译、代码和文档生成、打包、部署以及定制工具你的项目。
+* [Bleep](https://github.com/oyvindberg/bleep)：Bleep是一个超快的Scala构建工具。
 
 ## 包管理器
 
@@ -1960,6 +1966,7 @@
 * [StreamSets](https://github.com/streamsets/datacollector-oss)：StreamSets Data Collector是一个企业级开源持续大数据采集平台。
 * [Cascading](https://github.com/cwensel/cascading)：Cascading是一个功能丰富的API，用于在本地或集群上定义和执行复杂且容错的数据处理流。
 * [ETL Engine](https://github.com/add2ws/etl-engine-project)：ETL Engine是一款轻量级、面向开发者的ETL库，旨在作为Kettle的高性能替代方案。
+* [Arc](https://github.com/tripl-ai/arc)：Arc是一个有主见的框架，用于定义可预测、可重复且可管理的数据管道。
 
 #### CDC组件
 
@@ -3288,6 +3295,8 @@
 * [Xeres](https://github.com/zapek/Xeres)：Xeres是一款朋友之间、去中心化且安全的通信和共享应用程序。
 * [Hive2Hive](https://github.com/Hive2Hive/Hive2Hive)：Hive2Hive是一个用Java编写的开源库，用于安全、分布式、基于P2P的文件同步和共享。
 * [Near](https://github.com/adroitandroid/Near)：Near是适用于Android的P2P库，用于使用UDP在本地网络上进行发现，并使用TCP套接字进行传输。
+* [P2P](https://github.com/metanet/p2p)：这是一个使用Java和Netty构建非结构化P2P网络的实验性工作。
+* [JED2K](https://github.com/a-pavlov/jed2k)：ED2K网络的Java库。
 
 #### SDN
 
@@ -3365,6 +3374,13 @@
 * [Ineter](https://github.com/maltalex/ineter)：用于处理IP地址、范围和子网的快速Java库。
 * [CZ88.IP](https://github.com/tagphi/czdb-search-java)：CZDB Search是一个用于在CZ88 IP库中搜索数据的Java库。
 
+#### SIP
+
+* [SIP Servlet](https://github.com/RestComm/sip-servlets)：RestComm SIP Servlet是SIP、IMS和WebRTC应用服务器。
+* [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
+* [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
+* [CSipSimple](https://github.com/r3gis3r/CSipSimple)：CSipSimple是一款开源的Android原生SIP客户端。
+
 ## 工具库
 
 * [Guava](https://github.com/google/guava)：Guava是Google的一组核心Java库，其中包括新的集合类型、不可变集合、图库以及用于并发、I/O、哈希、原始类型、字符串等的实用程序。
@@ -3438,6 +3454,7 @@
 * [Feilong](https://github.com/ifeilong/feilong)：Feilong是让Java开发更简便的工具库。
 * [ZUtil](https://github.com/duanluan/ZUtil)：ZUtil是一个追求更快、更全的Java工具类库。
 * [Craft Atom](https://github.com/mindwind/craft-atom)：Craft Atom是一个精心打造且优雅的Java原子组件库。
+* [Humanizer.JVM](https://github.com/MehdiK/Humanizer.jvm)：Humanizer.JVM是.NET上Humanizer框架的改编版本。
 
 ## Bean映射&复制
 
@@ -3583,6 +3600,7 @@
 * [Log4k](https://github.com/smyrgeorge/log4k)：适用于Kotlin多平台的全面日志记录和跟踪解决方案。
 * [Stream Log](https://github.com/GetStream/stream-log)：Stream Log是Kotlin Multiplatform的轻量级且可扩展的记录器库。
 * [Kermit](https://github.com/touchlab/Kermit)：Touchlab的Kermit是一个Kotlin多平台集中式日志记录实用程序。
+* [Log](https://github.com/zserge/log)：Log是一个超简单的Android Log替代方案，也可以在普通的Java项目中使用。
 
 #### 日志采集
 
@@ -3960,6 +3978,7 @@
 * [LangStream](https://github.com/LangStream/langstream)：LangStream是一个用于构建和运行GenAI应用程序的框架，DataStax开源。
 * [Java LangChain](https://github.com/Starcloud-Cloud/java-langchain)：Java LangChain是一个Java 8+的LangChain实现，在Java环境中构建强大的基于LLM的应用程序。
 * [ChocoBuilder](https://github.com/unit-mesh/choco-builder)：ChocoBuilder是一款开源的LLM应用开发框架，旨在帮助你轻松打造强大的软件开发SDLC、LLM生成助手。
+* [OpenSandbox](https://github.com/alibaba/OpenSandbox)：OpenSandbox是一个通用的AI应用场景沙盒平台，提供多语言SDK、统一沙盒协议和沙盒运行时，支持与LLM相关的能力(命令执行、文件操作、代码执行、浏览器操作、代理执行等)，由阿里开源。
 * [JBoltAI](https://jboltai.com/)：JBoltAI是Java企业级AI应用开发框架，旨在帮助Java系统快速接入大模型能力并开发具有AI能力的功能模块。
 * [DriftKit](https://github.com/driftkit-ai/driftkit-framework)：DriftKit是适用于Java的生产级AI框架。
 * [SmartFuse](https://github.com/mainpropath/AI-SmartFuse-Framework)：SmartFuse是一个大模型应用框架。
@@ -3978,6 +3997,7 @@
 * [OpenAI Java SDK](https://gitee.com/devlive-community/openai-java-sdk)：为Java开发人员提供方便易用的SDK来与OpenAI模型的API进行交互。
 * [ChatGPT Spring Boot](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter，具有ChatGPT聊天和功能支持。
 * [ChatGPT Spring Boot](https://github.com/flashvayne/chatgpt-spring-boot-starter)：基于OpenAI官方API的Spring Boot Starter。
+* [ChatGPT Spring Boot](https://github.com/lzhpo/chatgpt-spring-boot-starter)：支持OpenAI所有可用的接口，包括但不限于流式输出和Token计算等。
 * [EDDI](https://github.com/labsai/eddi)：EDDI是一个中间件，用于连接和管理LLM API机器人，为OpenAI ChatGPT、Facebook Hugging Face、Anthropic Claude、Google Gemini和Ollama等API提供高级提示和对话管理。
 * [OpenAI4j](https://github.com/ai-for-java/openai4j)：这是一个非官方的Java客户端库，可帮助你的Java应用程序与OpenAI API连接。
 * [Ollama4j](https://github.com/ollama4j/ollama4j)：用于与Ollama服务器交互的Java库。
@@ -4147,6 +4167,7 @@
 * [ModernMT](https://github.com/modernmt/modernmt)：ModernMT是一种基于Fairseq Transformer模型的上下文感知、增量和分布式通用神经机器翻译技术。
 * [JStarCraft AI](https://github.com/HongZhaoHua/jstarcraft-ai)：JStarCraft AI是一个机器学习的轻量级框架。
 * [XGBoost Predictor Java](https://github.com/komiya-atsushi/xgboost-predictor-java)：XGBoost预测器的纯Java实现，用于在线预测任务。
+* [DistML](https://github.com/intel-machine-learning/DistML)：DistML是一个机器学习工具，可以在Spark上训练非常大的模型，它与Spark完全兼容，由Intel开源。
 
 #### 自然语言处理
 
@@ -4477,6 +4498,7 @@
 * [JiaJiaOCR](https://github.com/jiangnanboy/JiaJiaOCR)：JiaJiaOCR完全用Java代码实现OCR功能，无需调用DLL或者EXE文件。
 * [Tess Two](https://github.com/rmtheis/tess-two)：Android版Tesseract工具是一组用于Tesseract OCR和Leptonica图像处理库的Android API和构建文件。
 * [Vlpr4j](https://github.com/eguid/vlpr4j)：基于OpenCV的Java车牌检测识别库。
+* [JavaANPR](https://github.com/oskopek/javaanpr)：JavaANPR是一款自动车牌识别软件。
 
 #### 人脸识别
 
