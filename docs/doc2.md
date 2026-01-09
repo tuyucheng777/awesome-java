@@ -6620,8 +6620,7 @@
 * [Java_NFe](https://github.com/Samuel-Oliveira/Java_NFe)：用于使用NFe/NFCe WebService的Java库。
 * [RSHK JSIFENLib](https://github.com/roshkadev/rshk-jsifenlib)：RSHK JSIFENLib是一个开源库，无需外部依赖，通过Java与SIFEN(全国综合电子发票系统)进行交互。
 * [Billy](https://github.com/premium-minds/billy)：Billy是一个应用程序计费库，为应用程序提供创建、管理和存储计费工件(例如发票和贷方票据)的能力。
-* [Cyclops](https://github.com/icclab/cyclops)：Cyclops是一款全面的动态评级和计费解决方案，适用于云服务，由苏黎世应用科学大学开源。
-* [Mustang](https://github.com/ZUGFeRD/mustangproject)：Mustang使你能够读取、写入和验证(例如重新计算)机器可读的发票、订单或交货通知。
+* [Cyclops](https://github.com/icclab/cyclops)：Cyclops是一款全面的动态评级和计费解决方案，适用于云服务，由苏黎世应用科学大学开源
 * [Konik](https://github.com/konik-io/konik)：用于创建、读取和验证符合ZUGFeRD标准的发票的库。
 * [Pb UBL](https://github.com/phax/ph-ubl)：用于读写UBL 2.0、2.1、2.2、2.3和2.4文档的Java库。
 * [Phase4](https://github.com/phax/phase4)：Phase4是一个可嵌入的轻量级Java库，用于发送和接收不同配置文件的AS4消息。
@@ -9419,7 +9418,6 @@
 * [Aliyun OSS](https://github.com/aliyun/aliyun-oss-java-sdk)：Aliyun OSS Java SDK让Java开发者能够轻松使用阿里云OSS。
 * [Java Storage](https://github.com/googleapis/java-storage)：Google Cloud Storage的Java惯用客户端。
 * [Ambry](https://github.com/linkedin/ambry)：Ambry是一个分布式对象存储，支持存储数万亿个小型不可变对象(50K-100K)以及数十亿个大型对象，由LinkedIn开发。
-* [S3Proxy](https://github.com/gaul/s3proxy)：S3Proxy实现S3 API和代理请求，支持多种用例。
 * [MinIO](https://github.com/minio/minio-java)：MinIO Java SDK是S3客户端，用于对任何与Amazon S3兼容的对象存储服务执行存储桶和对象操作。
 * [MinIO Plus](https://gitee.com/lxp135/minio-plus)：MinIO Plus是一个MinIO的二次封装与增强工具。
 * [X File Storage](https://gitee.com/dromara/x-file-storage)：X File Storage允许使用一行代码将文件存储到本地、FTP、SFTP、WebDAV以及各种云对象存储服务。
