@@ -2761,6 +2761,7 @@
 * [VIPS](https://github.com/tpopela/vips_java)：用Java实现基于视觉的页面分割算法。
 * [Website Crawler](https://github.com/pc8544/Website-Crawler)：Website Crawler API允许开发者通过四个简单端点程序爬取网站并访问结构化元数据。
 * [EasyBook](https://github.com/Zzzia/EasyBook)：Java/Android多站点小说爬虫库。
+* [ScriptSpider](https://github.com/xjtushilei/ScriptSpider)：一个Java版本的组件化的分布式通用爬虫。
 
 #### HTML提取
 
@@ -3220,6 +3221,7 @@
 * [Ascii Art Table](https://github.com/klaus31/ascii-art-table)：通过Java将数据打印到Ascii表的简单库。
 * [ASCII Tables](https://github.com/freva/ascii-table)：使用Java轻松创建和自定义简单的ASCII表。
 * [Java Text Tables](https://github.com/iNamik/java_text_tables)：Java中的文本表库。
+* [Mini Table](https://github.com/blinkfox/mini-table)：一个轻量级、零依赖的Java ASCII表格生成库。
 
 #### 进度条
 
@@ -4244,6 +4246,7 @@
 #### 文件库
 
 * [HWPLib](https://github.com/neolord0/hwplib)：Java的HWP库。
+* [HWPXLib](https://github.com/neolord0/hwpxlib)：HWPXLib是一个可以读取和写入hwpx文件的Java库。
 * [MPXJ](https://github.com/joniles/mpxj)：该库使你能够从各种文件格式和数据库中读取项目计划(有时称为进度表或项目集)，还可以将该信息写入各种文件格式。
 * [OSMPBF](https://github.com/openstreetmap/OSM-binary)：OSMPBF是一个用于读取和写入OpenStreetMap PBF文件的Java/C++库。
 * [WaveAccess](https://github.com/sintrb/WaveAccess)：波形文件(.wav)的Java读写操作库。
@@ -4509,6 +4512,7 @@
 * [DBdoctor](https://www.dbdoctor.cn/)：DBdoctor是一款内核级数据库性能诊断软件。
 * [WarmRoast](https://github.com/sk89q/warmroast)：WarmRoast是带有基于Web界面的Java CPU诊断/采样器。
 * [Java Simon](https://github.com/virgo47/javasimon)：Java Simon是一个简单的监控API，让你能够更好地理解并跟踪你的应用。
+* [NMON Visualizer](https://github.com/nmonvisualizer/nmonvisualizer)：NMON Visualizer是一款用于分析AIX和Linux上NMON系统文件的Java图形界面工具。
 
 #### Spring Boot仪表板
 
@@ -5042,6 +5046,7 @@
 * [Spring Boot Nextjs Starter Kit](https://github.com/NerminKarapandzic/spring-boot-nextjs-starter-kit)：Spring Boot、Next.js项目模板。
 * [Spring Boot Starter](https://github.com/savicprvoslav/Spring-Boot-starter)：Spring启动项目，包含预配置的JPA、Spring Security、配置文件、Swagger等。
 * [Spring Boot RESTful Starter](https://github.com/lmarklil/springboot-restful-starter)：Spring Boot RESTful API脚手架。
+* [Spring Backend Boilerplate](https://github.com/melthaw/spring-backend-boilerplate)：基于Spring Boot框架的模块化后端样板，易于开始并添加你的业务部分。
 
 #### 脚手架
 
@@ -5433,6 +5438,7 @@
 * [HeartBeat](https://github.com/thoughtworks/HeartBeat)：HeartBeat是一个用于跟踪项目交付指标的工具，可以帮助你更好地了解交付绩效，由ThoughtWorks开发。
 * [BulletJournal](https://github.com/singerdmx/BulletJournal)：BulletJournal是一个开源平台，用于笔记本保存、账本管理、任务/项目管理和协调，擅长个人组织、日程安排、提醒、待办事项列表、笔记共享、多人账本和团队项目协作。
 * [GoGoScrum](https://github.com/gogoscrum/gogoscrum-rest-service)：GoGoScrum是一款轻量级的敏捷项目管理工具，专为高效的团队协作而设计。
+* [BurningOKR](https://github.com/BurningOKR/BurningOKR)：BurningOKR是一款开源的目标与关键成果法(OKR)管理软件。
 
 #### 即时通讯
 
@@ -5486,6 +5492,7 @@
 * [Live Chat Engine](https://github.com/edolganov/live-chat-engine)：开源系统，用于在任何网站上与访客进行实时聊天。
 * [WebQQ](https://github.com/iqq-team/webqq-core)：一个基于WebQQ协议开发的库，你可以基于这个库让你的程序集成QQ相关的功能。
 * [Chatterbox](https://github.com/gmingchen/chatterbox)：Chatterbox是一个即时聊天系统。
+* [OnChat](https://github.com/onch-at/onchat)：OnChat是一个简单、美观、移动优先的即时消息渐进式Web应用程序。
 
 #### 问题跟踪系统
 
@@ -6330,6 +6337,11 @@
 * [BigBone](https://github.com/PattaFeuFeu/bigbone)：BigBone是适用于Java和Kotlin的Mastodon客户端库。
 * [Twitter Scale Mastodon](https://github.com/redplanetlabs/twitter-scale-mastodon)：该项目是Mastodon实例的生产级实现，可扩展至Twitter规模(5亿用户、700平均扇出、非平衡社交图谱、每秒7000篇帖子)。
 
+#### Flickr
+
+* [Flickr4Java](https://github.com/boncey/Flickr4Java)：Flickr的Java API。
+* [FlickrJ](https://sourceforge.net/projects/flickrj/)：Flickr API的Java包装器。
+
 ## Docker客户端
 
 * [Docker Java](https://github.com/docker-java/docker-java)：Java Docker官方客户端。
@@ -6454,6 +6466,7 @@
 * [ConsensusJ](https://github.com/ConsensusJ/consensusj)：JVM和Android的比特币组件。 
 * [Bitcoin KMP](https://github.com/ACINQ/bitcoin-kmp)：Kotlin多平台比特币库。
 * [Bitcoin RPC Client](https://github.com/Polve/bitcoin-rpc-client)：这是一个轻量级的Java比特币JSON-RPC客户端绑定。
+* [Kotlin WalletConnect Lib](https://github.com/WalletConnect/kotlin-walletconnect-lib)：用于在Kotlin或Java中使用WalletConnect的库。
 
 #### 交易所
 
@@ -6498,6 +6511,7 @@
 * [Java Stellar SDK](https://github.com/lightsail-network/java-stellar-sdk)：Java Stellar SDK库提供了用于构建交易并连接到Horizon和Soroban-RPC服务器的API。
 * [Server Blockchain SDK](https://github.com/OmniOneID/did-blockchain-sdk-server)：Server Blockchain SDK提供与区块链网络交互和调用智能合约的SDK。
 * [TON4j](https://github.com/neodix42/ton4j)：用于与TON区块链交互的Java库和包装器。
+* [EOS Java API Wrapper](https://github.com/EOSEssentials2/eos-java-rpc-wrapper)：EOS RPC调用的Java实现。
 
 #### 智能合约
 
@@ -6673,7 +6687,6 @@
 * [Apache PLC4X](https://github.com/apache/plc4x)：PLC4X致力于创建一组库，用于以统一的方式与工业级可编程逻辑控制器(PLC)进行通信。
 * [CrowdOS](https://github.com/crowdosNWPU/CrowdOS)：CrowdOS是一个适用于众包和移动众包感知的通用操作系统，可以同时处理多种类型的众包问题，由西北工业大学开发。
 * [HslCommunication](https://github.com/dathlin/HslCommunicationJavaDemo)：一款非常热门的工业物联网通讯插件。
-* [Eclipse Californium](https://github.com/eclipse-californium/californium)：Californium是RFC7252(物联网云服务的约束应用协议)的Java实现，由博世软件开源。
 * [Eclipse Leshan](https://github.com/eclipse-leshan/leshan)：Leshan是OMA轻量级M2M服务器和客户端Java实现。
 * [Apache StreamPipes](https://github.com/apache/streampipes)：StreamPipes是一个自助物联网工具箱，使非技术用户能够连接、分析和探索物联网数据流，由FZI研究中心开源。
 * [Eclipse HawkBit](https://github.com/eclipse/hawkbit)：Eclipse HawkBit 是一个开源的物联网设备固件更新(FOTA)和管理平台，由博世软件开源。
@@ -6789,6 +6802,7 @@
 * [IoT Harbor](https://github.com/1ssqq1lxr/iot-harbor)：Reactor Netty库实现的MQTT Server。
 * [Vert.x MQTT](https://github.com/vert-x3/vertx-mqtt)：Vert.x MQTT提供MQTT服务器和客户端组件。
 * [MQTT/UDP](https://github.com/dzavalishin/mqtt_udp)：MQTT/UDP是源自MQTT的基于UDP广播/组播的协议。
+* [JoMQTT](https://github.com/joey-happy/jo-mqtt)：轻量级物联网MQTT服务器，快速部署、支持集群。
 
 #### MQTT客户端
 
@@ -6873,6 +6887,15 @@
 * [JavaDoesUSB](https://github.com/manuelbl/JavaDoesUSB)：Java Does USB是一个用于处理USB设备的Java库，它允许查询有关所有连接的USB设备的信息，并使用自定义/供应商特定协议与USB设备进行通信。
 * [Hid4Java](https://github.com/gary-rowe/hid4java)：libusb/hidapi库的跨平台JNA包装器，在Windows/Mac/Linux上开箱即用。
 * [Java USB LibUSB](https://github.com/trygvis/javax-usb-libusb1)：基于libusb的javax.usb实现。
+
+#### CoAP
+
+* [Eclipse Californium](https://github.com/eclipse-californium/californium)：Californium是RFC7252(物联网云服务的约束应用协议)的Java实现，由博世软件开源。
+* [NCoAP](https://github.com/okleine/nCoAP)：使用Netty实现的CoAP协议。
+* [Toolkit](https://github.com/IoT-Technology/IoT-Toolkit)：Toolkit是一款支持多种物联网协议的客户端命令行工具。
+* [Java CoAP](https://github.com/PelionIoT/java-coap)：CoAP Java库。
+* [CoapBlaster](https://github.com/google/coapblaster)：CoapBlaster是一个实验性的开源CoAP客户端/服务器库，由Google开源。
+* [Java CoAP](https://github.com/open-coap/java-coap)：这个库可以用来创建支持JVM的设备或基于CoAP的服务。
 
 #### XBee
 
@@ -9128,6 +9151,7 @@
 * [JGLM](https://github.com/jroyalty/jglm)：OpenGL Mathematics C++库(GLM)的概念性移植。
 * [GLM](https://github.com/java-graphics/glm)：GLM是OpenGL Mathematics(GLM)的Java端口，它是一个基于OpenGL着色语言(GLSL)规范的图形软件数学库。
 * [Kgl](https://github.com/gergelydaniel/kgl)：Kotlin Multiplatform的轻量级OpenGL抽象。
+* [GraphicZ](https://github.com/PointRider/open-java)：GraphicZ是基于小孔成像原理与图形光栅化的字符3D画面框架。
 * [Marlin](https://github.com/bourgesl/marlin-renderer)：Marlin是一个开源Java 2D渲染引擎，基于OpenJDK的Pisces实现，针对性能进行了优化(改进了内存使用和占用空间、更好的多线程)和更好的视觉质量。
 * [Oreon](https://github.com/fynnfluegge/oreon-engine)：OpenGL/Vulkan Java 3D引擎。
 * [ModernUI](https://github.com/BloCamLimb/ModernUI)：Modern UI是一个专为独立2D和3D渲染软件开发而设计的桌面应用程序框架。
@@ -9181,6 +9205,7 @@
 
 * [Baritone](https://github.com/cabaletta/baritone)：Baritone是Impact从4.4版本开始使用的寻路系统。
 * [Pathetic](https://github.com/bsommerfeld/pathetic)：Pathetic是一个高度可配置的Java A*寻路库，旨在通过自定义节点验证和成本处理实现可扩展性。
+* [Any-Angle Pathfinding](https://github.com/Ohohcakester/Any-Angle-Pathfinding)：一组用于任意角度路径寻寻和可视化的算法。
 * [Recast4j](https://github.com/recast4j/recast4j)：Recast和Detour导航网格工具集的Java端口。
 * [Pathfinding](https://github.com/xaguzman/pathfinding)：一个用于游戏的Java寻路库。
 * [Tektosyne](https://github.com/kynosarges/tektosyne)：Tektosyne库提供了计算几何和基于图形的寻路算法，以及支持数学实用程序和专门的集合。
@@ -9520,6 +9545,7 @@
 * [Video4j](https://github.com/metaloom/video4j)：Video4j是org.openpnp:opencv之上的高级库，它提供API在Java中处理视频媒体。
 * [FMJ](http://fmj-sf.net/)：FMJ是一个开源项目，其目标是提供Java媒体框架(JMF)的替代方案，同时保持与JMF的API兼容。
 * [Easy FLV](https://gitee.com/javpower/easy-flv)：Easy FLV是一个Java库，可以将RTSP或RTMP视频流转换为FLV格式，以便在Web浏览器中播放。
+* [Duo Video](https://github.com/duoec/duo-video)：Duo Video是一个强大的Java视频编辑SDK，通过简洁优雅的API以编程方式生成专业级视频项目。
 
 #### 多媒体库
 
@@ -9545,15 +9571,9 @@
 * [WebRTC Java](https://github.com/devopvoid/webrtc-java)：WebRTC Java是WebRTC Native API的Java包装器，提供与W3C JavaScript API类似的功能。
 * [Jitsi Videobridge](https://github.com/jitsi/jitsi-videobridge)：Jitsi Videobridge是一个与WebRTC兼容的视频路由器或SFU，可用于构建高度可扩展的视频会议基础设施。
 * [OpenVidu](https://github.com/OpenVidu/openvidu)：OpenVidu是一个使你能够构建实时应用程序的平台。
-* [OnChat](https://github.com/onch-at/onchat)：OnChat是一个简单、美观、移动优先的即时消息渐进式Web应用程序。
 * [Kurento](https://github.com/Kurento/kurento)：Kurento Media Server负责媒体传输、处理、加载和记录。
 * [NextRTC](https://github.com/mslosarz/nextrtc-signaling-server)：NextRTC是一个用Java编写的简单WebRTC信令服务器。
-* [SIP Servlet](https://github.com/RestComm/sip-servlets)：RestComm SIP Servlet是SIP、IMS和WebRTC应用服务器。
 * [WebRTC Server Java](https://github.com/ddssingsong/webrtc_server_java)：实现基本的信令收发，配合Android端实现基本的呼叫、响铃、挂断、语音通话、视频通话的功能。
-* [Contact Center](https://github.com/caoliang1918/contact-center)：智能电话外呼系统。
-* [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
-* [CSipSimple](https://github.com/r3gis3r/CSipSimple)：CSipSimple是一款开源的Android原生SIP客户端。
-* [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
 * [JazminServer](https://github.com/guooscar/JazminServer)：JazminServer是一个基于Java的应用程序/消息/RPC/SIP/RTMP/UDP中继服务器。
 * [Taoyao](https://gitee.com/acgist/taoyao)：桃夭是套基于Mediasoup开发的WebRTC音视频信令服务，可以非常方便的扩展信令接入更多智能终端。
 
@@ -9598,7 +9618,6 @@
 * [FreeSWITCH ESL ALL](https://github.com/zhouhailin/freeswitch-externals)：FreeSWITCH额外项目。
 * [Contact Center](https://github.com/caoliang1918/contact-center)：智能电话外呼系统。
 * [Asterisk Java](https://github.com/asterisk-java/asterisk-java)：Asterisk Java包含一组Java类，使你能够轻松构建与Asterisk PBX服务器交互的Java应用程序。
-* [Peers](https://github.com/ymartineau/peers)：Peers是一款非常简单的软电话。
 
 ## 数据结构
 
@@ -9725,7 +9744,6 @@
 * [JNVM](https://github.com/jnvm-project/jnvm)：J-NVM是一个Java框架，用于高效、本地地访问Java中的非易失性主存储器(NVMM)作为堆外内存，由南巴黎电信学院开源。
 * [Slab](https://github.com/RichardWarburton/slab)：保证内存对齐的堆外Java POJO。
 * [Overlord](https://github.com/Moderocky/Overlord)：Overlord是一个强大的内存管理库。
-* [Scala Offheap](https://github.com/densh/scala-offheap)：Scala的类型安全堆外内存库。
 
 ## 结构体
 
@@ -11140,7 +11158,6 @@
 
 * [Apache Commons OGNL](https://github.com/apache/commons-ognl)：OGNL代表对象图导航语言；它是一种表达式语言，用于获取和设置Java对象的属性，以及其他附加功能，例如列表投影和选择以及Lambda表达式。
 * [OGNL](https://github.com/orphan-oss/ognl)：对象图导航库。
-* [OGNL Expression](https://mvnrepository.com/artifact/marmalade/marmalade-el-ognl)：OGNL表达式库。
 
 ## 超媒体类型
 
