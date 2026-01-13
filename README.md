@@ -619,6 +619,7 @@
   * [Modbus](docs/doc2.md#Modbus)
   * [USB库](docs/doc2.md#USB库)
   * [CoAP](docs/doc2.md#CoAP)
+  * [ONVIF](docs/doc2.md#ONVIF)
   * [XBee](docs/doc2.md#XBee)
 * [短信](docs/doc2.md#短信)
 * [邮件库](docs/doc2.md#邮件库)
@@ -2405,6 +2406,7 @@
 * [SnowflakeId](https://github.com/phxql/snowflake-id)：使用Java生成类似Twitter的Snowflake ID。
 * [DistributedID](https://github.com/beyondfengyu/DistributedID)：DistributedID提供一个轻量级、高并发、高可用的生成唯一ID的服务。
 * [ECP UID](https://github.com/linhuaichuan/ecp-uid)：基于美团Leaf、百度Uid Generator、原生Snowflake进行整合的唯一ID生成器。
+* [GeneratorsId](https://github.com/shimu200/generatorsId)：GeneratorsId是一款基于雪花算法生成唯一ID的Java库。
 
 #### Session集群
 
@@ -3226,6 +3228,7 @@
 * [Winfoom](https://github.com/ecovaci/winfoom)：Winfoom是一个HTTP(s)代理服务器的界面，允许应用程序通过代理进行身份验证，而无需处理实际的握手过程。
 * [Java HTTP/HTTPS Proxy Server](https://github.com/stefano-lupo/Java-Proxy-Server)：Proxy Server是位于客户端和客户端希望从中获取文件的远程服务器之间的服务器。
 * [Proxy](https://github.com/ztgreat/proxy)：基于Netty的TCP代理工具，可以借助公网服务器，访问内网主机TCP服务。
+* [NitmProxy](https://github.com/chhsiao90/nitmproxy)：一个基于Netty的实验性代理服务器。
 
 #### 内网穿透
 
@@ -3995,6 +3998,7 @@
 * [ChatGPT Java](https://gitee.com/grt1228/chatgpt-java)：ChatGPT的Java客户端，OpenAI官方API的Java版SDK。
 * [RunAnywhere SDK](https://github.com/RunanywhereAI/runanywhere-sdks)：隐私优先的设备上AI SDK，可将强大的语言模型直接引入你的iOS和Android应用程序。
 * [OpenAI Java SDK](https://gitee.com/devlive-community/openai-java-sdk)：为Java开发人员提供方便易用的SDK来与OpenAI模型的API进行交互。
+* [ChatGPT SDK Java](https://github.com/1321928757/chatgpt-sdk-java)：ChatGPT大模型开放SDK。
 * [ChatGPT Spring Boot](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter，具有ChatGPT聊天和功能支持。
 * [ChatGPT Spring Boot](https://github.com/flashvayne/chatgpt-spring-boot-starter)：基于OpenAI官方API的Spring Boot Starter。
 * [ChatGPT Spring Boot](https://github.com/lzhpo/chatgpt-spring-boot-starter)：支持OpenAI所有可用的接口，包括但不限于流式输出和Token计算等。
@@ -4005,6 +4009,7 @@
 * [Simple OpenAI](https://github.com/sashirestela/simple-openai)：Simple OpenAI是一个Java HTTP客户端库，用于向OpenAI API发送请求并接收响应。
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
+* [ChatGLM SDK Java](https://github.com/1321928757/chatglm-sdk-java)：智谱AI大模型开放SDK。
 * [DeepSeek4j](https://github.com/pig-mesh/deepseek4j)：DeepSeek4j是一个用于快速集成DeepSeek AI能力的Spring Boot Starter。
 * [A2A Java](https://github.com/a2aproject/a2a-java)：A2A Java提供了A2A协议的Java服务器实现，由RedHat开发。
 * [Google Gen AI Java SDK](https://github.com/googleapis/java-genai)：Gemini Developer API和Vertex AI API的Java惯用SDK。
@@ -4067,6 +4072,7 @@
 * [Jimi](https://github.com/Leavesfly/Jimi)：Jimi是一个功能强大的AI驱动的命令行智能代理系统。
 * [Agent O Rama](https://github.com/redplanetlabs/agent-o-rama)：Agent O Rama是一个端到端的LLM代理平台，用于构建、跟踪、测试和监控代理，具有集成存储和一键部署功能。
 * [Jason](https://github.com/jason-lang/jason)：Jason是AgentSpeak扩展版的完全解释器，AgentSpeak是一种面向智能体的逻辑编程语言。
+* [AssistantAgent](https://github.com/spring-ai-alibaba/AssistantAgent)：AssistantAgent是一款基于Spring AI Alibaba构建的企业级智能助理框架。
 
 #### LLMOps
 
@@ -4374,6 +4380,7 @@
 * [Samantha](https://github.com/grouplens/samantha)：Samantha是用于离线机器学习和推荐建模以及快速在线生产服务的通用推荐器和预测器服务器，由明尼苏达大学开源。
 * [Universal Recommender](https://github.com/actionml/universal-recommender)：Universal Recommender是一种新型的协同过滤推荐器，其基于一种能够利用各种用户偏好指标数据的算法-相关交叉出现算法。
 * [CF4j](https://github.com/ferortega/cf4j)：Java的协同过滤库，用于开展基于协同过滤的推荐系统研究实验。
+* [RiVal](https://github.com/recommenders/rival)：RiVal是一个用于数据拆分和推荐系统评估的工具包。
 * [Myrrix](https://github.com/myrrix/myrrix-recommender)：Myrrix的独立推荐系统。
 * [Sifarish](https://github.com/pranab/sifarish)：Sifarish是一套基于Hadoop和Storm实现的个性化推荐解决方案。
 
