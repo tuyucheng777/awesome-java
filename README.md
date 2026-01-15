@@ -80,6 +80,7 @@
   * [Raft算法](#Raft算法)
   * [Paxos算法](#Paxos算法)
   * [Gossip算法](#Gossip算法)
+  * [CRDT](#CRDT)
 * [数据库](#数据库)
   * [搜索引擎](#搜索引擎)
   * [图数据库](#图数据库)
@@ -248,7 +249,6 @@
   * [Spring测试](docs/doc2.md#Spring测试)
   * [测试套件](docs/doc2.md#测试套件)
   * [测试模板](docs/doc2.md#测试模板)
-  * [测试异味](docs/doc2.md#测试异味)
   * [代码覆盖率](docs/doc2#代码覆盖率)
 * [数据库开发](docs/doc2.md#数据库开发)
   * [数据库驱动](docs/doc2.md#数据库驱动)
@@ -475,6 +475,7 @@
 * [软件质量](docs/doc2.md#软件质量)
   * [静态分析](docs/doc2.md#静态分析)
   * [编码规范](docs/doc2.md#编码规范)
+  * [代码异味](docs/doc2.md#代码异味)
   * [依赖分析](docs/doc2.md#依赖分析)
   * [迁移&重构](docs/doc2.md#迁移重构)
   * [污点分析](docs/doc2.md#污点分析)
@@ -620,6 +621,7 @@
   * [USB库](docs/doc2.md#USB库)
   * [CoAP](docs/doc2.md#CoAP)
   * [ONVIF](docs/doc2.md#ONVIF)
+  * [ZigBee](docs/doc2.md#ZigBee)
   * [XBee](docs/doc2.md#XBee)
 * [短信](docs/doc2.md#短信)
 * [邮件库](docs/doc2.md#邮件库)
@@ -774,7 +776,6 @@
   * [队列](docs/doc2.md#队列)
   * [Map](docs/doc2.md#Map)
   * [List](docs/doc2.md#List)
-  * [CRDT](docs/doc2.md#CRDT)
   * [布隆过滤器](docs/doc2.md#布隆过滤器)
   * [布谷鸟过滤器](docs/doc2.md#布谷鸟过滤器)
 * [基本类型](docs/doc2.md#基本类型)
@@ -2194,6 +2195,7 @@
 * [Mykit Delay](https://github.com/binghe001/mykit-delay)：Mykit体系中提供的简单、稳定、可扩展的延迟消息队列框架，提供精准的定时任务和延迟队列处理功能。
 * [FileMQ](https://github.com/zeromq/filemq)：FileMQ是一种基于ZeroMQ的发布-订阅文件服务。
 * [Smallrye Reactive Messaging](https://github.com/smallrye/smallrye-reactive-messaging)：Eclipse MicroProfile Reactive Messaging规范实现，用于构建事件驱动的微服务和数据流应用。
+* [RMQ](https://github.com/xetorthio/rmq)：RMQ是一个基于Redis的小巧且非常易用的消息队列。
 
 #### IPC
 
@@ -2407,6 +2409,7 @@
 * [DistributedID](https://github.com/beyondfengyu/DistributedID)：DistributedID提供一个轻量级、高并发、高可用的生成唯一ID的服务。
 * [ECP UID](https://github.com/linhuaichuan/ecp-uid)：基于美团Leaf、百度Uid Generator、原生Snowflake进行整合的唯一ID生成器。
 * [GeneratorsId](https://github.com/shimu200/generatorsId)：GeneratorsId是一款基于雪花算法生成唯一ID的Java库。
+* [Vesta](https://github.com/iweisi/vesta-id-generator)：Vesta是一款通用的ID生成器。
 
 #### Session集群
 
@@ -2453,6 +2456,14 @@
 * [Apache Gossip](https://github.com/apache/incubator-retired-gossip)：Apache Gossip是一个基于Gossip协议的开源项目，旨在提供一个可靠、高效的分布式通信机制。
 * [JGossip](https://github.com/monkeymq/jgossip)：Gossip协议的Java实现。
 * [ScaleCube Cluster](https://github.com/scalecube/scalecube-cluster)：ScaleCube Cluster是一个轻量级的去中心化集群成员资格、故障检测和Gossip协议库。
+
+#### CRDT
+
+* [Wurmloch CRDT](https://github.com/netopyr/wurmloch-crdt)：JVM无冲突复制数据类型(CRDT)的实验实现。
+* [Interval Tree Clocks](https://github.com/ricardobcl/Interval-Tree-Clocks)：Interval Tree Clocks是一种新的时钟机制，可用于参与者数量动态变化的场景。
+* [Java CRDT](https://github.com/ajantis/java-crdt)：Java中常见的无冲突复制数据类型集合。
+* [CRJDT](https://github.com/fthomas/crjdt)：Scala中的无冲突复制JSON数据类型(CRDT)。
+* [Synk](https://github.com/CharlieTap/synk)：一个适用于离线优先应用的Kotlin多平台CRDT库。
 
 ## 数据库
 
