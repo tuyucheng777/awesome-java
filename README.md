@@ -1049,6 +1049,7 @@
 * [Lambada](https://github.com/cagataygurturk/lambadaframework)：Lambada是一个实现JAX-RS API的REST框架，可让你以Serverless方式将应用程序部署到AWS Lambda和API Gateway。
 * [AceQL HTTP](https://github.com/kawansoft/aceql-http)：AceQL HTTP是一个类似REST的API库，允许你从任何支持HTTP的设备通过HTTP访问远程SQL数据库。
 * [Utterlyidle](https://github.com/bodar/utterlyidle)：另一个受JSR 311优点启发的Java REST库。
+* [Netty REST Server](https://github.com/lining90567/netty-rest-server)：Netty REST Server是基于Netty开发的高性能RESTful框架，提供控制器注解、全局异常控制器、拦截器等功能。
 
 #### MVC框架
 
@@ -3548,6 +3549,7 @@
 * [JBoss MSC](https://github.com/jboss-msc/jboss-msc)：JBoss MSC是Java的轻量级高并发依赖注入容器。
 * [SIRIUS Kernel](https://github.com/scireum/sirius-kernel)：提供通用核心类和依赖注入微内核，为所有SIRIUS应用程序提供支持。
 * [Lightsaber](https://github.com/MichaelRocks/lightsaber)：Lightsaber的目标是提供闪电般快速的编译时依赖注入，同时不依赖APT。
+* [DI.kt](https://github.com/sergeshustoff/dikt)：Kotlin多平台的简单且强大的DI。
 
 ## AOP
 
@@ -4288,6 +4290,7 @@
 * [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark)：CaffeOnSpark将深度学习引入Hadoop和Spark集群，由Yahoo开源。
 * [JDLL](https://github.com/bioimage-io/JDLL)：JDLL提供了一个用于运行深度学习模型的Java库，支持Java软件和各种深度学习框架之间的通信。
 * [SmartJavaAI](https://gitee.com/dengwenjie/SmartJavaAI)：SmartJavaAI是专为Java开发者打造的一个功能丰富、开箱即用的AI算法工具包。
+* [DeepDSL](https://github.com/deepdsl/deepdsl)：DeepDSL是一种嵌入于Scala中的DSL，用于编写深度学习网络应用。
 
 #### 模型训练
 
@@ -4394,6 +4397,7 @@
 * [RiVal](https://github.com/recommenders/rival)：RiVal是一个用于数据拆分和推荐系统评估的工具包。
 * [Myrrix](https://github.com/myrrix/myrrix-recommender)：Myrrix的独立推荐系统。
 * [Sifarish](https://github.com/pranab/sifarish)：Sifarish是一套基于Hadoop和Storm实现的个性化推荐解决方案。
+* [Storch Recommend](https://github.com/bytedeco/storch-recommend)：Storch Recommend是一个基于Scala的深度学习项目，专注于构建推荐系统。
 
 #### 遗传算法
 
