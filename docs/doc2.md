@@ -1069,7 +1069,7 @@
 * [Kotlin JPA Specification DSL](https://github.com/consoleau/kotlin-jpa-specification-dsl)：该库提供了一个流式的DSL，用于使用Spring Data规范(即JPA Criteria API)查询Spring Data JPA Repository，而无需样板代码或生成的元模型。
 * [Querity](https://github.com/queritylib/querity)：Querity是一个可扩展的查询构建器，用于在Java应用程序中创建和运行数据库查询。
 * [JPA Entity Generator](https://github.com/smartnews/jpa-entity-generator)：这是一个生成Lombok连接的JPA实体源代码的Java库。
-* [Thymeleaf Spring Data Dialect](https://github.com/jpenren/thymeleaf-spring-data-dialect)：这是一种Thymeleaf的方言，提供了一些属性，用于创建分页和排序元素。 
+* [Thymeleaf Spring Data Dialect](https://github.com/jpenren/thymeleaf-spring-data-dialect)：这是一种Thymeleaf的方言，提供了一些属性，用于创建分页和排序元素。
 * [Specification With Projection](https://github.com/pramoth/specification-with-projection)：支持使用Spring Data JPA JpaSpecificationExecutor.findAll(Specification, Pageable)的投影。
 * [Java Dynamic Query](https://github.com/tdilber/spring-data-dynamic-query)：该项目旨在为Spring Data JPA、Spring Data MongoDB和Spring Data Elasticsearch提供强大且统一的动态查询创建功能。
 * [QLRM](https://github.com/martinellich/qlrm)：在JPA中，原生SQL查询没有构造函数表达式，QLRM弥补了这一空白。
@@ -3123,7 +3123,6 @@
 * [LogiCommon](https://github.com/didi/LogiCommon)：LogiCommon包含认证、鉴权、管理、任务调度通用功能组件，由滴滴开源。
 * [Persistasaurus](https://github.com/gunnarmorling/persistasaurus)：Persistasaurus是一个基于SQLite的极简Java持久化执行库。
 * [Quartz Manager](https://github.com/fabioformosa/quartz-manager)：Quartz Manager是一个Java库，你可以导入Spring Web应用中，用于运行定时作业、启动和停止它们并获取作业结果。
-* [Octobot](https://github.com/cscotta/Octobot)：Octobot是一个任务队列工作器，旨在实现可靠性、易用性和高吞吐量。
 
 ## 企业集成模式
 
@@ -3322,6 +3321,7 @@
 * [Pure4J](https://github.com/pure4j/pure4j)：Java语言的编译时纯度和不变性语义。
 * [Exchange Collections](https://github.com/exchange-core/collections)：Exchange Collections是一个开源高性能Java集合项目。
 * [Solid](https://github.com/konmik/solid)：Solid是一个用于数据处理的Android库。
+* [Scalaj Collection](https://github.com/scalaj/scalaj-collection)：一个用于在Java和Scala集合之间转换的库。
 
 ## 数组库
 
@@ -3580,6 +3580,7 @@
 * [ABCDE](https://github.com/Yricky/abcde)：ABCDE是一个使用Kotlin编写的OpenHarmony逆向工具包。
 * [SkidSuite](https://github.com/GenericException/SkidSuite)：SkidSuite 3是与Java应用程序逆向工程相关的有用工具的集合。
 * [Java Disassembler](https://github.com/LLVM-but-worse/java-disassembler)：JDA是一款专注、轻量且功能强大的Java静态反汇编器。
+* [Jakstab](https://github.com/jkinder/jakstab)：Jakstab是一个基于抽象解释的集成反汇编和静态分析框架，用于设计可执行文件的分析和恢复可靠的控制流图。
 
 ## 反向移植
 
@@ -3651,6 +3652,8 @@
 * [Identicon](https://github.com/donpark/identicon)：原始Identicon Java和Canvas实现。
 * [Jgravatar](https://github.com/ralfebert/jgravatar)：Jgravatar是一个用于从gravatar.com获取头像图像的小型Java库。
 * [WebP4j](https://github.com/MrNanko/webp4j)：WebP4j是一个基于JNI的Java库，支持在Java项目中进行WebP图像编码和解码。
+* [ImageTracerJava](https://github.com/jankovicsandras/imagetracerjava)：用于桌面的简单栅格图像追踪器和矢量化工具，使用Java编写。
+* [Tinify Java](https://github.com/tinify/tinify-java)：Tinify API的Java客户端。
 
 #### 图像元数据
 
@@ -4313,6 +4316,7 @@
 * [Markdown2Pdf](https://github.com/Qkyrie/Markdown2Pdf)：一个使用Java将Markdown转换为PDF的简单库。
 * [XWiki Rendering](https://github.com/xwiki/xwiki-rendering)：XWiki Rendering是一个通用的渲染系统，它将给定语法(Wiki语法、HTML等)的文本输入转换为另一种语法(XHTML等)。
 * [Deck2pdf](https://github.com/melix/deck2pdf)：Deck2pdf是一个简单的应用程序，可将你的deck.js、reveal.js、impress.js、Flowtime.js、Google html5slides、Slide Presentation Framework、ruban或DZSlides幻灯片转换为PDF文件。
+* [XDOC Office Server](https://gitee.com/xdoc/xoffice)：一个Java EE服务，将Office文档转换为PDF，格式兼容性好。
 
 #### Mime解析
 
@@ -4352,6 +4356,13 @@
 * [WPS View](https://gitee.com/mose-x/wps-view-java)：基于WPS在线编辑、在线预览后台服务。
 * [File Preview Spring Boot Starter](https://github.com/wb04307201/file-preview-spring-boot-starter)：一个文档在线预览的中间件，可通过简单的配置即可集成到Spring Boot中。
 * [All Docs](https://github.com/Jarrettluo/all-docs)：All Docs是一款可以在线预览、存储和共享Word、Excel、PowerPoint、PDF、图片等文档的工具。
+
+#### 文件同步
+
+* [Rsync4j](https://github.com/fracpete/rsync4j)：适用于Linux、OSX和Windows的rsync的简单Java包装器。
+* [Yajsync](https://github.com/perlundq/yajsync)：Yajsync是用Java编写的rsync移植版。
+* [Jsync](https://github.com/fizzed/jsync)：纯Java类rsync库，用于本地到远程SSH/SFTP。
+* [Mirror](https://github.com/stephenh/mirror)：Mirror一个用于远程开发的实时双向同步工具。
 
 ## 容器化工具
 
@@ -4484,7 +4495,7 @@
 * [Autotune](https://github.com/kruize/autotune)：Kruize Autotune是Kubernetes的自主性能调优工具，由IBM开源。
 * [Container Auto Tune](https://github.com/alipay/container-auto-tune)：Container Auto Tune是一款智能参数调优产品，帮助开发者和操作员自动调整应用，通过智能算法分析JVM合理的配置参数，由蚂蚁开源。
 * [JavaMonitor](https://github.com/onblog/JavaMonitor)：Java应用性能远程监控系统。
-* [RHQ](https://github.com/rhq-project/rhq)：RHQ项目是一个用于系统管理和监控的框架和工具，由RedHat开源。 
+* [RHQ](https://github.com/rhq-project/rhq)：RHQ项目是一个用于系统管理和监控的框架和工具，由RedHat开源。
 
 #### 诊断工具
 
@@ -4715,6 +4726,7 @@
 * [Spotless](https://github.com/diffplug/spotless)：Spotless是支持多种语言的代码格式化工具。
 * [Prettier Java](https://github.com/jhipster/prettier-java)：Prettier是一个代码格式化程序，它通过解析代码并使用自己的规则重新打印代码来强制执行一致的样式。
 * [CodeBuff](https://github.com/antlr/codebuff)：Codebuff是一种使用机器学习算法的格式化工具。
+* [CodeShittifier](https://github.com/sharp-edge/CodeShittifier)：CodeShittifier是一款Java和Kotlin代码格式化工具。
 * [Cornell Java Code Style](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)：康奈尔大学Java编程风格指南。
 * [Oracle Java Code Convention](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)：Oracle官方Java代码约定。
 * [Android AOSP Style Guide](https://source.android.com/docs/setup/contribute/code-style?hl=zh-cn)：面向贡献者的AOSP Java代码样式指南。
@@ -5529,6 +5541,8 @@
 * [ChatBox](https://github.com/felizdevida/chat-box)：ChatBox是一个仿微信实现的网页版聊天软件。
 * [SmartIM](https://github.com/Jamling/SmartIM)：SmartIM插件的底层库，已实现SmartQQ、微信桌面版协议。
 * [LeoIM](https://github.com/lining90567/leo-im-server)：LeoIM是基于Java、Netty、Vue、Element-UI开发的轻量级IM。
+* [DevSphere](https://github.com/shutu-hub/devSphere)：DevSphere是一个基于Spring Boot构建的高性能实时聊天系统。
+* [Skype4J](https://github.com/samczsun/Skype4J)：这是一个用于Java的Skype API。
 
 #### 问题跟踪系统
 
@@ -6102,7 +6116,7 @@
 * [YunGouOS Pay SDK](https://gitee.com/YunGouOS/YunGouOS-PAY-SDK)：微信/支付宝官方服务商接口(支持个人、个体户、企业)签约开通，一行代码搞定所有支付。
 * [XPay](https://github.com/Exrick/xpay)：XPay个人免签收款支付系统。
 * [Vmq](https://github.com/szvone/Vmq)：V免签是基于Spring Boot 2.1.1实现的一套免签支付程序。
-* [Payments Modernization Hub](https://github.com/RahulAutade2288/payments-modernization-hub)：这是为银行和金融科技组织设计的现代支付中心的参考实现。 
+* [Payments Modernization Hub](https://github.com/RahulAutade2288/payments-modernization-hub)：这是为银行和金融科技组织设计的现代支付中心的参考实现。
 
 #### 支付网关
 
@@ -6393,6 +6407,7 @@
 * [Docker Java API](https://github.com/amihaiemil/docker-java-api)：另一个轻量级的Docker客户端库。
 * [Docker Client](https://github.com/gesellix/docker-client)：用Groovy编写的JVM的Docker HTTP客户端。
 * [Jocker](https://github.com/ndeloof/jocker)：Jocker是用于访问Docker API的Docker客户端库。
+* [Rapid](https://github.com/ozlerhakan/rapid)：Rapid Docker Interface提供Docker查询与Docker主机之间的连接。
 
 ## Consul客户端
 
@@ -6506,7 +6521,7 @@
 * [Lighthouse](https://github.com/vinumeris/lighthouse)：Lighthouse是一款去中心化的点对点众筹应用，它利用了比特币协议的智能合约功能。
 * [BOP Bitcoin Server](https://github.com/bitsofproof/supernode)：BOP Bitcoin Server是一个企业级的比特币协议实现。
 * [Mercury](https://github.com/mappum/mercury)：Mercury是一个支持无需信任的跨链交易的多币钱包。
-* [ConsensusJ](https://github.com/ConsensusJ/consensusj)：JVM和Android的比特币组件。 
+* [ConsensusJ](https://github.com/ConsensusJ/consensusj)：JVM和Android的比特币组件。
 * [Bitcoin KMP](https://github.com/ACINQ/bitcoin-kmp)：Kotlin多平台比特币库。
 * [Bitcoin RPC Client](https://github.com/Polve/bitcoin-rpc-client)：这是一个轻量级的Java比特币JSON-RPC客户端绑定。
 * [Kotlin WalletConnect Lib](https://github.com/WalletConnect/kotlin-walletconnect-lib)：用于在Kotlin或Java中使用WalletConnect的库。
@@ -6597,6 +6612,7 @@
 * [Quandl4J](https://github.com/jimmoores/quandl4j)：Quandl是一个通过开放REST API提供数百万个免费数据集的来源，涵盖金融、经济、社会和国家数据。
 * [AlphaVantage4j](https://github.com/patriques82/alphavantage4j)：该库实现了Alpha Vantage提供的免费API的包装器。
 * [Kite Connect](https://github.com/zerodha/javakiteconnect)：Kite Connect是一组类似REST的API，它公开了构建完整的投资和交易平台所需的许多功能。
+* [UCP SDK Java](https://github.com/Open-Commerce-Protocol/ucp-sdk-java)：通用商务协议(UCP)的非官方SDK。
 
 #### 银行API
 
@@ -6616,7 +6632,7 @@
 * [Trading Backtest](https://github.com/lukstei/trading-backtest)：这是一个用Java编写的通用轻量级股票回溯测试引擎。
 * [Northstar](https://gitee.com/dromara/northstar)：这是一个面向程序员的专业级量化交易软件，用于期货、股票、外汇、炒币等多种交易场景，实现自动交易，由dromara社区开源。
 * [Redtorch](https://github.com/sun0x00/redtorch)：Redtorch是基于Kotlin(Java)语言开发的开源量化交易程序开发框架。
-* [HFTFramework](https://github.com/javifalces/HFTFramework)：HFTFramework包含一个使用Java和Python开发的高频交易框架。 
+* [HFTFramework](https://github.com/javifalces/HFTFramework)：HFTFramework包含一个使用Java和Python开发的高频交易框架。
 * [QuantComponents](https://github.com/lsgro/quantcomponents)：用于量化金融和算法交易的免费Java组件。
 * [JQuantLib](https://github.com/frgomes/jquantlib)：JQuantLib是一个免费、开源、全面的量化金融框架，100%用Java编写。
 * [Strata](https://github.com/OpenGamma/Strata)：Strata是OpenGamma的开源分析和市场风险库。
@@ -6690,6 +6706,11 @@
 * [OpenAS2](https://github.com/OpenAS2/OpenAs2App)：OpenAS2是EDIINT AS2标准的基于Java的实现。
 * [AS2 Lib](https://github.com/phax/as2-lib)：通用Java AS2库、Servlet和服务器。
 * [Holodeck B2B](https://github.com/holodeck-b2b/Holodeck-B2B)：Holodeck B2B是一款AS4系统间消息传递解决方案，它实现了ebMS3及其AS4配置文件的OASIS规范。
+
+## 数字广告
+
+* [OpenSSP](https://github.com/ad-tech-group/openssp)：这是一个通用的开源供应方平台，完全支持OpenRTB。
+* [XRTB](https://github.com/benmfaul/XRTB)：一个用Java 1.8编写的实时竞价引擎。
 
 ## JavaCard
 
@@ -6866,6 +6887,20 @@
 * [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox)：JMSToolBox是一个通用JMS客户端，能够以一致的方式与市场上数量最多的队列管理器/队列提供程序进行交互。
 * [MqttInsight](https://github.com/ptma/mqtt-insight)：MqttInsight是一款开源跨平台MQTT桌面客户端。
 * [MQTT Spy](https://github.com/eclipse-paho/paho.mqtt-spy)：MQTT Spy是一款开源桌面和命令行实用程序，旨在帮助你监控MQTT主题上的活动。
+
+#### 电力系统
+
+* [PowSyBl](https://github.com/powsybl/powsybl-core)：PowSyBl是一个用Java编写的开源框架，可以轻松编写用于电力系统仿真和分析的复杂软件。
+* [SIMONA](https://github.com/ie3-institute/simona)：SIMONA提供了一个仿真工具箱，用于运行和实施大规模基于代理的电网仿真，重点关注配电网，由多特蒙德工业大学开源。
+* [GXF](https://github.com/OSGP/open-smart-grid-platform)：GXF是一个支持公共空间硬件监控和控制的软件平台，由荷兰Alliander公司开源。
+* [j60870](https://github.com/gythialy/j60870)：j60870是一个实现IEC 60870-5-104通信标准的库。
+* [IEC](https://github.com/mujave/iec)：国家电网规约101/104协议解析与组装。
+* [OperatorFabric](https://github.com/opfab/operatorfabric-core)：OperatorFabric是一个模块化、可扩展、工业强度的平台，用于电力、水和其他公用事业运营。
+* [JoularJX](https://github.com/joular/joularjx)：JoularJX是一个基于Java的源代码级别电源监控代理，支持现代Java版本和多操作系统，以监控硬件和软件的功耗，由波城大学开源。
+* [IEC61850bean](https://github.com/beanit/iec61850bean)：IEC61850bean是一个基于MMS映射实现IEC 61850标准的库，用于客户端和服务器通信。
+* [IEC104 Microgrid](https://github.com/msun1996/IEC104_microgrid)：IEC104协议主站客户端程序，属于微电网管理系统一部分。
+* [IEC104-1](https://github.com/huarda/IEC104-1)：用于与光伏之间进行通信。
+* [Rapid61850](https://github.com/stevenblair/rapid61850)：该软件的目标是自动生成读取和写入GOOSE及采样值数据包的C/C代码。
 
 #### 车联网
 
@@ -8842,6 +8877,7 @@
 * [UMLet](https://github.com/umlet/umlet)：UMLet是一个开源UML工具，具有简单的用户界面。
 * [TinyUML](https://sourceforge.net/projects/tinyuml/)：TinyUML是一款免费软件工具，可轻松快速地创建UML 2图。
 * [Topcoder](https://github.com/topcoder-archive/topcoder-platform-topcoder-UML-Tool)：TopCoder是一款易于使用、功能一致的建模工具，专为设计与开发竞赛而设计。
+* [Ramus](https://github.com/Vitaliy-Yakovchuk/ramus)：基于Java的IDEF0与DFD建模器。
 
 #### 数电
 
@@ -9281,6 +9317,7 @@
 * [Zay ES](https://github.com/jMonkeyEngine-Contributions/zay-es)：Zay ES是一个基于Java的高性能实体组件系统。
 * [Fleks](https://github.com/Quillraven/Fleks)：用Kotlin编写的快速、轻量级实体组件系统库。
 * [Geary](https://github.com/MineInAbyss/geary)：Geary是一个用Kotlin编写的实体组件系统。
+* [JALSE](https://github.com/Ellzord/JALSE)：JALSE是一个用Java 8编写的轻量级实体模拟框架。
 
 #### 游戏编辑器
 
@@ -9724,6 +9761,7 @@
 * [GenericTree](https://github.com/vivin/GenericTree)：Java中的通用(N元)树实现。
 * [Autocomplete](https://github.com/vivekn/autocomplete)：在多种语言中实现高效的自动单词补全的Tries。
 * [JSI](https://github.com/aled/jsi)：JSI项目旨在维护高性能Java版本的RTree空间索引算法。
+* [Merkle Tree](https://github.com/quux00/merkle-tree)：Java中的Merkle Tree实现。
 
 #### 堆
 
@@ -9842,7 +9880,7 @@
 * [ConsistentHash](https://github.com/Jaskey/ConsistentHash)：Java中的通用一致性哈希实现，支持虚拟节点和用户定义的哈希函数。
 * [Min2phase](https://github.com/cs0x7f/min2phase)：Kociemba两阶段算法的优化实现。
 * [JWave](https://github.com/graetz23/JWave)：离散傅里叶变换、快速小波变换和小波包变换算法的Java实现。
-* [Kalman](https://github.com/wouterbulten/kalmanjs)：卡尔曼一维数据滤波器。 
+* [Kalman](https://github.com/wouterbulten/kalmanjs)：卡尔曼一维数据滤波器。
 * [RNNoise4j](https://github.com/henkelmax/rnnoise4j)：一个用C语言使用JNI编写的RNNoise Java包装程序。
 * [RendezvousHash](https://github.com/clohfink/RendezvousHash)：基于环的一致哈希的替代方案，这是Rendezvous(最高随机权重，HRW)哈希的快速线程安全实现。
 * [Patricia Trie](https://github.com/rkapsi/patricia-trie)：检索以字母数字编码的信息的实用算法。
@@ -10062,6 +10100,7 @@
 
 * [Sigar](https://github.com/hyperic/sigar)：Sigar提供跨平台的系统信息收集的API。
 * [OSHI](https://github.com/oshi/oshi)：OSHI是一个免费的基于JNA的Java操作系统和硬件信息库，提供跨平台实现来检索系统信息，例如操作系统版本、进程、内存和CPU使用情况、磁盘和分区、设备、传感器等。
+* [Looca](https://github.com/Britooo/looca-api)：Looca是一个收集机器数据的API，旨在方便在学术环境中的学习。
 * [JavaSysMon](https://github.com/jezhumble/javasysmon)：JavaSysMon旨在提供一种独立于操作系统的方式来管理操作系统进程并获取实时系统性能信息(例如CPU和内存使用情况)，并作为单个jar文件分发。
 
 ## 外部进程执行
@@ -10151,19 +10190,6 @@
 * [PDDL4J](https://github.com/pellierd/pddl4j)：PDDL4J的目的是促进基于PDDL语言(规划域描述语言)的自动化规划Java工具的开发，格勒诺布尔计算机科学实验室开源。
 * [Neptus](https://github.com/LSTS/neptus)：Neptus是用于操作所有类型无人驾驶车辆的分布式指挥和控制基础设施，由波尔图大学开源。
 
-## 电力系统
-
-* [PowSyBl](https://github.com/powsybl/powsybl-core)：PowSyBl是一个用Java编写的开源框架，可以轻松编写用于电力系统仿真和分析的复杂软件。
-* [SIMONA](https://github.com/ie3-institute/simona)：SIMONA提供了一个仿真工具箱，用于运行和实施大规模基于代理的电网仿真，重点关注配电网，由多特蒙德工业大学开源。
-* [GXF](https://github.com/OSGP/open-smart-grid-platform)：GXF是一个支持公共空间硬件监控和控制的软件平台，由荷兰Alliander公司开源。
-* [j60870](https://github.com/gythialy/j60870)：j60870是一个实现IEC 60870-5-104通信标准的库。
-* [IEC](https://github.com/mujave/iec)：国家电网规约101/104协议解析与组装。
-* [OperatorFabric](https://github.com/opfab/operatorfabric-core)：OperatorFabric是一个模块化、可扩展、工业强度的平台，用于电力、水和其他公用事业运营。
-* [JoularJX](https://github.com/joular/joularjx)：JoularJX是一个基于Java的源代码级别电源监控代理，支持现代Java版本和多操作系统，以监控硬件和软件的功耗，由波城大学开源。
-* [IEC61850bean](https://github.com/beanit/iec61850bean)：IEC61850bean是一个基于MMS映射实现IEC 61850标准的库，用于客户端和服务器通信。
-* [IEC104 Microgrid](https://github.com/msun1996/IEC104_microgrid)：IEC104协议主站客户端程序，属于微电网管理系统一部分。
-* [IEC104-1](https://github.com/huarda/IEC104-1)：用于与光伏之间进行通信。
-
 ## 量子计算
 
 * [Strange](https://github.com/redfx-quantum/strange)：该项目定义了一个可用于创建量子程序的Java API。
@@ -10198,8 +10224,6 @@
 * [Spatial K](https://github.com/maplibre/spatial-k)：Spatial K是一组用于在Kotlin中处理地理空间数据的库。
 * [Geocoding](https://github.com/bitlap/geocoding)：本项目旨在将不规范(或者连续)的文本地址进行尽可能的标准化，以及对两个地址进行相似度的计算。
 * [GeoPackage Java](https://github.com/ngageoint/geopackage-java)：GeoPackage是开放地理空间联盟GeoPackage规范的Java实现，由美国国家地理空间情报局开源。
-* [GeoJson Jackson](https://github.com/opendatalab-de/geojson-jackson)：GeoJson POJO Jackson，轻松序列化和反序列化对象。
-* [Android GeoJSON](https://github.com/cocoahero/android-geojson)：一个完整的Android GeoJSON实现。
 * [GeoGig](https://github.com/locationtech/geogig)：GeoGig是一个地理空间分布式版本控制系统。
 * [CLAVIN](https://github.com/Novetta/CLAVIN)：CLAVIN是一个开源软件包，用于文档地理解析和地理分辨率，采用基于上下文的地理实体分辨率。
 * [JPX](https://github.com/jenetics/jpx)：JPX是一个Java库，用于创建、读取和写入GPX格式的GPS数据。
@@ -10238,7 +10262,7 @@
 * [Time Zone Map](https://github.com/dustin-johnson/timezonemap)：用于将位置或地区映射到时区的Java/Kotlin库。
 * [IPDatabase](https://github.com/wzhe06/ipdatabase)：二叉树快速搜索IP地址数据库。
 * [JMapProjLib](https://github.com/OSUCartography/JMapProjLib)：Java地图投影库，由俄勒冈州立大学开源。
-* [PROJ JNI](https://github.com/OSGeo/PROJ-JNI)：PROJ C/C++库的Java原生接口。 
+* [PROJ JNI](https://github.com/OSGeo/PROJ-JNI)：PROJ C/C++库的Java原生接口。
 
 #### 经纬度库
 
@@ -10252,6 +10276,15 @@
 * [IP2Location](https://github.com/ip2location/ip2location-java)：IP2Location组件允许用户查询IP地址以获取访问者的国家、地区、城市、ISP或公司名称等信息。
 * [Geo](https://github.com/davidmoten/geo)：用于地理哈希的Java实用方法。
 * [Location4j](https://github.com/tomaytotomato/location4j)：Location4j是一个简单的Java库，旨在高效、准确地查找国家、州和城市的地理数据。
+
+#### GeoJson
+
+* [GeoJson Jackson](https://github.com/opendatalab-de/geojson-jackson)：GeoJson POJO Jackson，轻松序列化和反序列化对象。
+* [Android GeoJSON](https://github.com/cocoahero/android-geojson)：一个完整的Android GeoJSON实现。
+* [JTS2GeoJSON](https://github.com/bjornharrtell/jts2geojson)：此Java库可以将JTS几何体转换为GeoJSON格式，反之亦然。
+* [GeoGson](https://github.com/filosganga/geogson)：该库提供对使用广为人知的GeoJSON标准解析和写入地理空间实体的最基本支持。
+* [Play GeoJSON](https://github.com/jroper/play-geojson)：Play的JSON库对GeoJSON的支持。
+* [Simple Features GeoJSON](https://github.com/ngageoint/simple-features-geojson-java)：Simple Features GeoJSON是一个Java库，用于向GeoJSON写入和读取Simple Feature Geometry，由美国国家地理空间情报局与BIT Systems合作开发。
 
 #### GIS系统
 
@@ -10326,12 +10359,12 @@
 * [JGEX](https://github.com/yezheng1981/Java-Geometry-Expert)：JGEX是一款结合了动态几何软件、自动几何定理证明器(GTP)和视觉动态证明呈现方法的软件，由威奇托州立大学开源。
 * [JTS](https://github.com/locationtech/jts)：JTS Topology是一个用于创建和操作向量几何的Java库。
 * [PGS](https://github.com/micycle1/PGS)：Processing Geometry Suite是一个软件项目，它以Processing库的形式提供对2D几何算法的轻松访问。
+* [iGeo](https://github.com/sghr/iGeo)：iGeo是一个免费的开源3D建模软件库，适用于建筑、产品设计、交互设计等领域的计算设计。
 * [Geometry API](https://github.com/Esri/geometry-api-java)：Esri几何API可用于在第三方数据处理解决方案中启用空间数据处理。
 * [Campskeleton](https://github.com/twak/campskeleton)：Java中的加权直骨架实现。
 * [GeoRegression](https://github.com/lessthanoptimal/GeoRegression)：GeoRegression是一个基于Java的免费几何库，用于机器人和计算机视觉等领域的科学计算，重点关注2D/3D空间。
 * [Computational Geometry](https://github.com/mikhaildubov/computational-geometry)：该项目包含二维空间中基本计算几何算法的实现和可视化工具。
 * [Polygon Contains Point](https://github.com/sromku/polygon-contains-point)：检查平面上的给定点位于多边形内、外还是边界上。
-* [JTS2GeoJSON](https://github.com/bjornharrtell/jts2geojson)：此Java库可以将JTS几何体转换为GeoJSON格式，反之亦然。
 
 ## 航空航天
 
@@ -10988,6 +11021,7 @@
 * [QDox](https://github.com/paul-hammant/qdox)：QDox是一个高速、占用空间小的解析器，用于完全提取类/接口/方法定义(包括注解、参数、参数名称)，由Throughworks开发。
 * [INFOMAS ASL](https://github.com/rmuller/infomas-asl)：INFOMAS ASL可用于扫描类路径以查找带注解的类、方法或实例变量。
 * [Class Scanner](https://gitee.com/centchen/class-scanner)：Class Scanner为一个Java类扫描器，用于获取指定包下的Class类，同时可根据指定注解进行过滤。
+* [JHades](https://github.com/jhades/jhades)：JHades是一个Java类路径故障排除工具。
 
 ## 行为分析
 

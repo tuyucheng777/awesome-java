@@ -113,7 +113,7 @@
   * [NIO框架](#NIO框架)
   * [网络库](#网络库)
   * [WebSocket](#WebSocket)
-  * [Socket.IO](#Socket.IO)
+  * [Socket.IO](#SocketIO)
   * [Socket](#Socket)
   * [TCP/UDP库](#TCPUDP库)
   * [Pcap](#Pcap)
@@ -462,6 +462,7 @@
   * [文件上传](docs/doc2.md#文件上传)
   * [文件比较](docs/doc2.md#文件比较)
   * [文件预览](docs/doc2.md#文件预览)
+  * [文件同步](docs/doc2.md#文件同步)
 * [容器化工具](docs/doc2.md#容器化工具)
 * [DevOps](docs/doc2.md#DevOps)
 * [性能分析&调优](docs/doc2.md#性能分析调优)
@@ -603,6 +604,7 @@
   * [货币](docs/doc2.md#货币)
   * [FinTS](docs/doc2.md#FinTS)
   * [电子发票](docs/doc2.md#电子发票)
+* [数字广告](docs/doc2.md#数字广告)
 * [JavaCard](docs/doc2.md#JavaCard)
 * [智能卡](docs/doc2.md#智能卡)
 * [物联网](docs/doc2.md#物联网)
@@ -613,6 +615,7 @@
   * [物联网网关](docs/doc2.md#物联网网关)
   * [MQTT服务器](docs/doc2.md#MQTT服务器)
   * [MQTT客户端](docs/doc2.md#MQTT客户端)
+  * [电力系统](docs/doc2.md#电力系统)
   * [车联网](docs/doc2.md#车联网)
   * [车载诊断](docs/doc2.md#车载诊断)
   * [嵌入式](docs/doc2.md#嵌入式)
@@ -812,12 +815,12 @@
 * [操作系统](docs/doc2.md#操作系统)
 * [运动规划](docs/doc2.md#运动规划)
 * [自动规划](docs/doc2.md#自动规划)
-* [电力系统](docs/doc2.md#电力系统)
 * [量子计算](docs/doc2.md#量子计算)
 * [IPFS](docs/doc2.md#IPFS)
 * [地理空间](docs/doc2.md#地理空间)
   * [坐标库](docs/doc2.md#坐标库)
   * [经纬度库](docs/doc2.md#经纬度库)
+  * [GeoJson](docs/doc2.md#GeoJson)
   * [GIS系统](docs/doc2.md#GIS系统)
   * [GIS GUI](docs/doc2.md#GIS-GUI)
   * [大地测量](docs/doc2.md#大地测量)
@@ -963,7 +966,6 @@
 * [AndServer](https://github.com/yanzhenjie/AndServer)：AndServer是Android平台的Web服务器和Web框架。
 * [Takes](https://github.com/yegor256/takes)：Takes是一个真正的面向对象且不可变的Java Web开发框架。
 * [Argo](https://github.com/58code/Argo)：Argo是起源于58同城的内部Web框架。
-* [Kora](https://github.com/Tinkoff/kora)：Kora是一个基于JVM的框架，用于构建后端应用程序。
 * [IGRP](https://github.com/NOSiCode-CV/IGRP-Framework)：IGRP是由美国NOSi开发的平台，用于创建Web应用程序，基于业务步骤、流程、自动代码生成和一次性原则的合并。
 * [Klite](https://github.com/codeborne/klite)：Klite是一个适用于JVM上Kotlin协程的超轻量级非阻塞HTTP框架，由Codeborne开发。
 * [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
@@ -1402,6 +1404,7 @@
 * [JPHP](https://github.com/jphp-group/jphp)：JPHP是使用JVM的PHP的新实现，支持PHP语言(7.1+)的许多功能。
 * [JGO](https://github.com/thomasmodeneis/jgo)：Golang的Java编译器和运行时环境。
 * [LuaJ](https://github.com/luaj/luaj)：为JME和JSE编写的轻量级、快速、以Java为中心的Lua解释器。
+* [Kahlua](https://github.com/krka/kahlua2)：Kahlua是一个虚拟机，以及一个标准库，它尽量模仿Lua，同时尽可能重用Java的功能。
 * [Enkel](https://github.com/JakubDziworski/Enkel-JVM-language)：Enkel是一种运行在JVM上的简单编程语言。
 * [Yeti](https://github.com/mth/yeti)：Yeti是ML风格的函数式编程语言，在JVM上运行。
 * [Wyvern](https://github.com/wyvernlang/wyvern)：Wyvern是一种新型通用编程语言，旨在支持适应性和可靠性，由CMU开源。
@@ -1537,7 +1540,7 @@
 * [Money](https://github.com/Comcast/money)：Money是一个模块化的分布式追踪平台，可以无缝地融入现代应用程序中，由Comcast开源。
 * [DataDog Java](https://github.com/DataDog/dd-trace-java)：DadaDog分布式跟踪工具的Java客户端。
 * [Tracing Java](https://github.com/palantir/tracing-java)：提供类似Zipkin跟踪功能的Java库，由Palantir开源。
-* [SmallRye OpenTelemetry](https://github.com/smallrye/smallrye-opentelemetry)：OpenTelemetry Tracing的CDI和Jakarta REST实现。 
+* [SmallRye OpenTelemetry](https://github.com/smallrye/smallrye-opentelemetry)：OpenTelemetry Tracing的CDI和Jakarta REST实现。
 
 ## 指标库
 
@@ -1817,6 +1820,7 @@
 * [Apache Falcon](http://falcon.apache.org/)：Falcon是一个Feed处理和Feed管理系统，旨在让最终消费者更轻松地在Hadoop集群上进行Feed处理和管理。
 * [Beekeeper](https://github.com/ExpediaGroup/beekeeper)：Beekeeper是一个安排删除孤立路径和过期元数据的服务，由Expedia开源。
 * [Base DMS](https://github.com/basedt/dms)：Base DMS是一个开源、免费且由AI驱动的智能数据管理系统。
+* [DataQuality](https://github.com/agile-lab-dev/DataQuality)：DQ是一个构建大数据环境中并行和分布式质量检查的框架。
 
 #### 查询引擎
 
@@ -1845,6 +1849,7 @@
 * [Quark](https://github.com/qubole/quark)：Quark是一个基于分析数据库的数据虚拟化引擎。
 * [VerdictDB](https://github.com/verdict-project/verdict)：VerdictDB是一个查询加速器，位于你的应用程序下与SQL引擎之间，由密歇根大学开源。
 * [Substrait Java](https://github.com/substrait-io/substrait-java)：Substrait是一种描述结构化数据计算操作的格式，旨在实现不同语言和系统间的互操作性。
+* [CQL](https://github.com/CategoricalData/CQL)：CQL利用范论执行与数据相关的任务-如查询、组合、迁移和演化数据库。
 
 #### 存储格式
 
@@ -1911,7 +1916,7 @@
 * [Table Computing](https://github.com/alibaba/table-computing)：Table Computing是一个分布式轻量级、高性能、低延迟的流式处理和数据分析框架，由阿里开发。
 * [Dagger](https://github.com/raystack/dagger)：Dagger是一个易于使用、通过代码进行配置的云原生框架，构建在Flink之上，用于实时流数据的状态处理。
 * [S4](https://github.com/s4/core)：S4是一个通用、分布式、可扩展、部分容错、可插拔的平台，它允许程序员轻松开发用于处理连续无界数据流的应用程序，由Yahoo开源。
-* [Tranquility](https://github.com/druid-io/tranquility)：Tranquility帮助你向Druid发送实时事件流，并无缝且无宕机地处理分区、复制、服务发现和模式迁移。 
+* [Tranquility](https://github.com/druid-io/tranquility)：Tranquility帮助你向Druid发送实时事件流，并无缝且无宕机地处理分区、复制、服务发现和模式迁移。
 
 #### ETL工具
 
@@ -2197,6 +2202,7 @@
 * [FileMQ](https://github.com/zeromq/filemq)：FileMQ是一种基于ZeroMQ的发布-订阅文件服务。
 * [Smallrye Reactive Messaging](https://github.com/smallrye/smallrye-reactive-messaging)：Eclipse MicroProfile Reactive Messaging规范实现，用于构建事件驱动的微服务和数据流应用。
 * [RMQ](https://github.com/xetorthio/rmq)：RMQ是一个基于Redis的小巧且非常易用的消息队列。
+* [Octobot](https://github.com/cscotta/Octobot)：Octobot是一个任务队列工作器，旨在实现可靠性、易用性和高吞吐量。
 
 #### IPC
 
@@ -2923,6 +2929,7 @@
 * [Kohttp](https://github.com/rybalkinsd/kohttp)：Kotlin DSL HTTP客户端。
 * [Appsly Android REST](https://github.com/xebia-functional/appsly-android-rest)：Appsly Android REST是一款基于注解的客户端库，由Xebia开源。
 * [HTTP API Invoker](https://github.com/dadiyang/http-api-invoker)：让HTTP接口调用跟调用本地方法一样自然优雅。
+* [MicroProfile Rest Client](https://github.com/microprofile/microprofile-rest-client)：MicroProfile Rest Client提供了一种类型安全的方法来通过HTTP调用RESTful服务。
 
 #### HTTP路由
 
@@ -3084,6 +3091,8 @@
 * [JRakNet](https://github.com/whirvis/JRakNet)：JRakNet是一个基于Java的网络库，实现了基于UDP的协议RakNet。
 * [Mikrotik](https://github.com/GideonLeGrange/mikrotik-java)：Mikrotik RouterOS API的Java客户端库实现。
 * [Limitart](https://gitee.com/HankXV/Limitart)：Limitart是轻量级、高性能、少依赖、低级封装的服务器开发工具和项目搭建模板，可以开发游戏服务器和小型中间件等。
+* [CCNx](https://github.com/ProjectCCNx/ccnx)：CCNx参考实现，提供了构建和运行使用以及展示基本CCNx协议的应用程序所需的库和组件。
+* [OpenRQ](https://github.com/openrq-team/OpenRQ)：开源的RaptorQ实现。
 
 #### WebSocket
 
@@ -4315,7 +4324,7 @@
 * [Primus](https://github.com/bytedance/primus)：Primus是用于机器学习应用程序的通用分布式调度框架，它管理TensorFlow等机器学习训练器的训练生命周期和数据分布，以执行大规模分布式训练，由字节开源。
 * [Serenade](https://github.com/serenadeai/serenade)：该仓库包含Serenade客户端应用程序、在线服务(如语音引擎、代码引擎和核心应用程序)和模型训练的代码。
 * [Multi Model Server](https://github.com/awslabs/multi-model-server)：MMS是一种灵活且易于使用的工具，用于为使用任何ML/DL框架训练的深度学习模型提供服务，由AWS开源。
-* [Easy BERT](https://github.com/robrua/easy-bert)：Easy BERT是一个非常简单的API，用于使用Google高质量的BERT语言模型。 
+* [Easy BERT](https://github.com/robrua/easy-bert)：Easy BERT是一个非常简单的API，用于使用Google高质量的BERT语言模型。
 
 #### 强化学习
 
