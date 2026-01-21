@@ -574,6 +574,7 @@
   * [Slack](docs/doc2.md#Slack)
   * [Reddit](docs/doc2.md#Reddit)
   * [TikTok](docs/doc2.md#TikTok)
+  * [Discord](docs/doc2.md#Discord)
   * [Spotify](docs/doc2.md#Spotify)
   * [Notion](docs/doc2.md#Notion)
   * [JIRA](docs/doc2.md#JIRA)
@@ -609,6 +610,7 @@
 * [智能卡](docs/doc2.md#智能卡)
 * [物联网](docs/doc2.md#物联网)
   * [物联网框架](docs/doc2.md#物联网框架)
+  * [物联网SDK](docs/doc2.md#物联网SDK)
   * [物联网平台](docs/doc2.md#物联网平台)
   * [智能家居](docs/doc2.md#智能家居)
   * [数字孪生](docs/doc2.md#数字孪生)
@@ -1107,6 +1109,7 @@
 * [Inertia4J](https://github.com/Inertia4J/inertia4j)：Inertia提供了一个协议，可以直接从后端渲染现代前端框架编写的组件，Inertia4J是一个实现此类协议的JVM适配器。
 * [Renarde](https://github.com/quarkiverse/quarkus-renarde)：Renarde是一个基于Quarkus、Qute、Hibernate和Quarkus REST的服务器端Web框架。
 * [JReact](https://github.com/KnisterPeter/jreact)：在服务器端的Java上使用React.js。
+* [Angular Universal](https://github.com/swaechter/angularj-universal)：Angular Universal是一种在SSR动态预渲染Angular应用程序并将内容直接发送到浏览器作为“已启动”应用程序的解决方案。
 
 #### WebService框架
 
@@ -1574,6 +1577,7 @@
 * [Kafka StatsD Metrics](https://github.com/airbnb/kafka-statsd-metrics2)：将Kafka指标发送到StatsD，由Airbnb开源。
 * [Metrics InfluxDB](https://github.com/davidB/metrics-influxdb)：一个用于指标的报告器，向InfluxDB服务器发布测量结果。
 * [Metrics Elasticsearch Reporter](https://github.com/elastic/elasticsearch-metrics-reporter-java)：Metrics Elasticsearch报告器。
+* [Micrometer JVM Extras](https://github.com/mweirauch/micrometer-jvm-extras)：为Micrometer提供的一组额外的JVM进程指标。
 
 ## API网关
 
@@ -1871,6 +1875,7 @@
 * [Pocket](https://github.com/stanford-mast/pocket)：Pocket是一个专为临时数据共享而设计的存储系统，由斯坦福大学开源。
 * [Apache Crail](https://github.com/apache/incubator-crail)：Apache Crail是一个快速的多层分布式存储系统，专为高性能网络和存储硬件而设计，由IBM开源。
 * [DCache](https://github.com/dCache/dcache)：DCache是一个用于存储和检索分布在大量异构服务器节点中数据的系统，由德国电子同步加速器研究所、欧洲核子研究中心等机构开源。
+* [Haplocheirus](https://github.com/twitter-archive/haplocheirus)：Haplocheirus是一个基于Redis的时间线存储引擎，由Twitter开源。
 
 #### 流处理平台
 
@@ -2896,6 +2901,7 @@
 * [RxVolley](https://github.com/kymjs/RxVolley)：RxVolley是Volley的修改版，移除了HttpClient，并支持RxJava。
 * [Novate](https://github.com/Tamicer/Novate)：Novate是一款Android网络框架，基于Retrofit和RxJava打造的链式网络库。
 * [Unirest](https://github.com/Kong/unirest-java)：Unirest是一个简化的轻量级HTTP客户端库。
+* [Whiskey](https://github.com/twitter/whiskey)：Whiskey是一个基于NIO的Java HTTP库，专门针对Android移动客户端的需求，由Twitter开源。
 * [RawHTTP](https://github.com/renatoathaydes/rawhttp)：一个Java库，可以轻松处理由RFC-7230定义的原始HTTP 1.1以及大部分HTTP 1.0(RFC-1945)。
 * [HTTP Kit](https://github.com/http-kit/http-kit)：HTTP Kit是一个简约且高效的Clojure兼容环的HTTP客户端/服务器。
 * [Forest](https://gitee.com/dromara/forest)：Forest是一个高层、极简的声明式HTTP调用API框架，由dromara社区开源。
@@ -2990,6 +2996,7 @@
 * [Hella HTTP](https://github.com/bbeaupain/hella-http)：Hella HTTP是一个非常快速的Java HTTP库，使用nio_uring进行I/O。
 * [ESA HttpServer](https://github.com/esastack/esa-httpserver)：ESA HttpServer是一个基于Netty的异步事件驱动HTTP服务器。
 * [Netty RESTful Server](https://github.com/zhoumengkang/netty-restful-server)：一个基于Netty构建的轻量高性能RESTful服务器。
+* [Soklet](https://github.com/soklet/soklet)：Soklet是一个零依赖的Java HTTP/1.1和SSE服务器。
 
 #### 应用服务器
 
@@ -4196,6 +4203,7 @@
 * [JStarCraft AI](https://github.com/HongZhaoHua/jstarcraft-ai)：JStarCraft AI是一个机器学习的轻量级框架。
 * [XGBoost Predictor Java](https://github.com/komiya-atsushi/xgboost-predictor-java)：XGBoost预测器的纯Java实现，用于在线预测任务。
 * [DistML](https://github.com/intel-machine-learning/DistML)：DistML是一个机器学习工具，可以在Spark上训练非常大的模型，它与Spark完全兼容，由Intel开源。
+* [Java Machine Learning Library](https://github.com/Daniel-Liu-c0deb0t/Java-Machine-Learning)：Java的简单机器学习(神经网络)库。
 
 #### 自然语言处理
 

@@ -439,6 +439,7 @@
 * [YatSpec](https://github.com/bodar/yatspec)：YatSpec是一个BDD测试框架。
 * [Tiger](https://github.com/gematik/app-Tiger)：Tiger是一个用于接口驱动的BDD黑盒测试的框架。
 * [BDD For All](https://github.com/Accenture/bdd-for-all)：灵活且易用的库，使你的BDD团队能够轻松协作，同时推动自动化、透明度和报告，由Accenture开源。
+* [Jnario](https://github.com/sebastianbenz/Jnario)：Jnario是一个用于为Java编写可执行规范的框架。
 
 #### 测试生成器
 
@@ -890,6 +891,8 @@
 * [Requery](https://github.com/requery/requery)：Requery是一个轻量级但功能强大的对象映射和SQL生成器，适用于Java/Kotlin/Android，支持RxJava和Java 8。
 * [DataNucleus](https://github.com/datanucleus/datanucleus-core)：DataNucleus是一个兼容各种标准(JDO1、JDO2、JDO2.1、JDO2.2、JDO2.3、和JPA1)的Java数据持久化框架。
 * [SQL Forge](https://github.com/wb04307201/sql-forge)：SQL Forge ORM框架。
+* [Transponder](https://github.com/OrienteerBAP/Transponder)：Transponder是一个用于NoSQL数据库的ORM库。
+* [BatooJPA](https://github.com/BatooOrg/BatooJPA)：BatooJPA是一种高性能的JPA实现。
 
 #### JDBC框架
 
@@ -1806,6 +1809,7 @@
 * [DataFixerUpper](https://github.com/Mojang/DataFixerUpper)：DataFixerUpper是一组用于增量构建、合并和优化数据转换的实用程序，由Mojang开源。
 * [Serial](https://github.com/twitter/Serial)：Serial是一种自定义序列化实现，旨在提高性能并增加开发人员对对象序列化的可见性和控制，由Twitter开源。
 * [Swift](https://github.com/facebookarchive/swift)：Swift是一个易于使用、基于注解的Java库，用于创建Thrift可序列化类型和服务，由Facebook开源。
+* [Taira](https://github.com/Keep-Tech/Taira)：轻量的数据字节序列化/反序列化工具，由Keep开源。
 * [Thrifty](https://github.com/microsoft/thrifty)：Thrifty是Apache Thrift软件堆栈的一个实现，它使用了Thrift编译器所采用的1/4方法数，由Microsoft开源。
 * [Transit](https://github.com/cognitect/transit-format)：Transit是一种用于在不同编程语言编写的应用程序之间传递值的格式和库集合。
 * [Ion Java](https://github.com/amazon-ion/ion-java)：Ion数据表示法的Java实现，由Amazon开源。
@@ -2575,6 +2579,7 @@
 * [Renku](https://github.com/SwissDataScienceCenter/renku)：Renku是一个将各种工具捆绑在一起的平台，用于可重复和协作的数据分析项目，由瑞士数据科学中心开源。
 * [Nexus](https://github.com/BlueBrain/nexus)：Blue Brain Nexus是一个生态系统，它允许你通过知识图谱来组织和更好地利用数据，由洛桑联邦理工学院开源。
 * [OpenSPG](https://github.com/OpenSPG/openspg)：OpenSPG是蚂蚁集团与OpenKG合作开发的基于SPG(语义增强可编程图)框架的知识图引擎。
+* [Graphene](https://github.com/Lambda-3/Graphene)：Graphene是一个信息提取管道，可以从文本中提取知识图谱(从复杂事实性话语中提取N元关系和修辞结构)。
 * [LinkedDataHub](https://github.com/AtomGraph/LinkedDataHub)：LinkedDataHub是一款开源软件，可用于管理数据、创建可视化以及在RDF知识图上构建应用程序。
 * [AMIE](https://github.com/dig-team/amie)：AMIE是一个在知识库上挖掘Horn规则的系统，由巴黎电信学院开源。
 * [CM-Well](https://github.com/CM-Well/CM-Well)：CM-Well是一个开源、可写入的链接数据存储库，由汤森路透和路孚特开发，并用作其核心知识图谱数据库。
@@ -2686,6 +2691,7 @@
 * [Glow](https://github.com/projectglow/glow)：Glow是一个开源工具包，用于实现生物库规模及更大范围的生物信息学，由Regeneron开发。
 * [GEDCOM X Java](https://github.com/FamilySearch/gedcomx-java)：该项目托管GEDCOM X项目的Java实现，并作为GEDCOM X的参考实现，由FamilySearch开源。
 * [Systems Genetics](https://github.com/molgenis/systemsgenetics)：通用Java基因型读取器/写入器、QTL映射软件、链比对工具，由格罗宁根大学开源。
+* [VarDictJava](https://github.com/AstraZeneca-NGS/VarDictJava)：VarDictJava是一款用Java和Perl编写的变体发现程序。
 
 #### NGS
 
@@ -2970,6 +2976,7 @@
 * [Bansa](https://github.com/brianegan/bansa)：受Redux和Elm启发的Java和Kotlin状态容器。
 * [Grox](https://github.com/groupon/grox)：Grox有助于维护Java/Android应用程序的状态。
 * [Simple Statemachine](https://github.com/mapteb/simple-state-machine)：用于Spring Boot项目的简单Java状态机。
+* [Statelin](https://github.com/anupcowkur/Statelin)：Statelin是一个完全用Kotlin实现的有限状态机。
 
 ## 报表引擎
 
@@ -3359,6 +3366,7 @@
 * [JKScope](https://github.com/evpl/jkscope)：受Kotlin启发的Java作用域函数。
 * [KindedJ](https://github.com/KindedJ/KindedJ)：KindedJ提供一组通用接口，为使用JVM中基于证据的高级类型模拟的所有项目提供跨库和跨语言支持。
 * [Functional Utils](https://github.com/solita/functional-utils)：Java的函数工具库。
+* [Higher Kinded J](https://github.com/higher-kinded-j/higher-kinded-j)：Higher Kinded J为Java带来了两项Java长期以来亟需的功能，通过Effect Path API实现的可组合错误处理，以及通过Focus DSL实现的类型安全的不可变数据导航。
 
 #### 函数式异常处理
 
@@ -3510,6 +3518,7 @@
 * [JStudio](https://github.com/Tonic-Box/JStudio)：JStudio是一个用于分析、反编译和转换Java字节码的Java逆向工程和静态分析IDE。
 * [JVM Explorer](https://github.com/Naton1/jvm-explorer)：JVM Explorer是一款用于浏览本地运行的JVM中加载的类文件的Java桌面应用程序。
 * [ClassAnalyzer](https://github.com/tinylcy/ClassAnalyzer)：Java类文件反汇编器。
+* [XPanda](https://github.com/asmjmp0/xpanda)：XPanda是一款鸿蒙的反编译器。
 
 ## 代码混淆
 
@@ -3592,6 +3601,7 @@
 * [ThreeTen](https://github.com/ThreeTen/threetenbp)：ThreeTen Backport提供Java 8日期时间类到Java 6和7的向后移植。
 * [ThreeTenABP](https://github.com/JakeWharton/ThreeTenABP)：针对Android的JSR-310反向移植的改编版。
 * [StreamSupport](https://github.com/stefan-zobel/streamsupport)：StreamSupport是适用于Android和Java 6或7用户的Java 8 java.util.function和java.util.stream API的向后移植。
+* [Frgaal](https://github.com/eppleton/frgaal)：Frgaal的目标是让Java语言的许多最新特性和增强功能也能在旧版运行时环境中运行。
 
 ## 图像处理
 
@@ -5117,6 +5127,7 @@
 * [Zero Ecotope](https://gitee.com/zero-ws/zero-ecotope)：Zero Ecotope是一个基于Vert.x的中间件容器，它可以帮助软件开发人员在Vert.x中快速开发和实施。
 * [Twitter Bootstrap Scaffolding](https://github.com/robfletcher/twitter-bootstrap-scaffolding)：Twitter Bootstrap支持的Grails脚手架模板。
 * [Taming Thymeleaf CLI](https://github.com/wimdeblauwe/ttcli)：该项目的目标是提供一个命令行工具，帮助设置使用JTE或Thymeleaf作为模板引擎。
+* [Spring Boot Scaffold](https://github.com/netodevel/cli-spring-boot-scaffold)：用于生成Spring Boot项目的CRUD和配置的命令行。
 
 #### 快速开发框架
 
@@ -5705,6 +5716,7 @@
 * [Spring React Blog](https://github.com/keumtae-kim/spring-boot-react-blog)：基于Token的博客应用，使用Spring Boot、React和JWT。
 * [MyBlog](https://github.com/Lemonreds/javaee-blog)：基于JSP/Servlet的个人博客网站。
 * [AcBlog](https://github.com/memo012/ac-blog)：适合学生搭建的个人博客。
+* [Mayday](https://gitee.com/song_haozhi/mayday)：Mayday博客系统，基于Spring Boot、Mybatis、Ehcache、Thymeleaf、Bootstrap构建。
 
 #### 论坛系统
 
@@ -6267,6 +6279,7 @@
 
 ## Webhook
 
+* [Standard Webhooks](https://github.com/standard-webhooks/standard-webhooks)：标准Webhooks规范。
 * [Svix](https://github.com/svix/svix-webhooks)：Svix让开发者可以轻松发送Webhook。
 * [Discord Webhook](https://github.com/MinnDevelopment/discord-webhooks)：为Discord Webhook API提供易于使用的绑定。
 * [Slack WebHook](https://github.com/gpedro/slack-webhook)：Java的Slack WebHook集成。
@@ -6284,10 +6297,10 @@
 * [Bilibili API](https://github.com/czp3009/bilibili-api)：该项目提供Bilibili API的JVM调用。
 * [Steamworks4j](https://github.com/code-disaster/steamworks4j)：一个用于访问Steamworks API的薄Java包装器。
 * [Music Utils](https://github.com/1015770492/yumbo-music-utils)：QQ音乐、网易云音乐工具包，调用工具类快捷得到返回的JSON数据。
-* [DiscordIPC](https://github.com/jagrosh/DiscordIPC)：通过IPC本地连接到Discord客户端，以获得部分RPC功能。
 * [Artifactory Java Client](https://github.com/jfrog/artifactory-client-java)：Artifactory Java客户端在你的Java代码中提供简单而强大的Artifactory连接和管理。
 * [Cloud Foundry Java Client](https://github.com/cloudfoundry/cf-java-client)：CF Java Client项目是一个用于与Cloud Foundry实例交互的Java语言绑定。
 * [DigitalOcean API Java](https://github.com/jeevatkm/digitalocean-api-java)：Java中的DigitalOcean API客户端。
+* [Chzzk4j](https://github.com/R2turnTrue/chzzk4j)：CHZZK(Naver的视频流媒体服务)的非官方Java API库。
 
 #### Twitter
 
@@ -6348,6 +6361,12 @@
 * [DyJava](https://gitee.com/sxwdmjy/dy-java)：DyJava是一款功能强大的抖音Java开发工具包，支持多种抖音开发功能模块的后端开发，包括但不限于移动/网站应用、开放平台、抖店和小程序等。
 * [TikTok4j](https://github.com/cyrus07424/tiktok4j)：Java版非官方TikTok/DouYin API。
 * [TikTok Live Java](https://github.com/jwdeveloper/TikTokLiveJava)：用于从TikTok LIVE实时接收直播事件(评论、礼物等)。
+
+#### Discord
+
+* [Discord RPC](https://github.com/Vatuu/discord-rpc)：Discord RPC库的Java包装器。
+* [Java Discord RPC](https://github.com/MinnDevelopment/java-discord-rpc)：Discord RPC的Java绑定。
+* [DiscordIPC](https://github.com/jagrosh/DiscordIPC)：通过IPC本地连接到Discord客户端，以获得部分RPC功能。
 
 #### Spotify
 
@@ -6573,6 +6592,7 @@
 * [TON Kotlin](https://github.com/ton-blockchain/ton-kotlin)：TON Kotlin多平台SDK。
 * [EOS Java API Wrapper](https://github.com/EOSEssentials2/eos-java-rpc-wrapper)：EOS RPC调用的Java实现。
 * [EOS4j](https://github.com/espritblock/eos4j)：Java版EOSIO 1.0.1。
+* [XRL4j](https://github.com/XRPLF/xrpl4j)：XRL4j是一个纯Java实现的XRP分类账本SDK。
 
 #### 智能合约
 
@@ -6643,6 +6663,7 @@
 * [Codera Quant](https://github.com/dsinyakov/quant)：Codera Quant是一个Java框架，用于通过交互经纪商TWS API或其他经纪商API进行算法交易策略的开发、执行和回测。
 * [SumZeroTrading](https://github.com/FueledByChai/SumZeroTrading)：SumZeroTrading是一个全面的基于Java的算法交易框架。
 * [JQuant](https://github.com/eryk/JQuant)：JQuant是使用Java语言编写的量化开发工具箱。
+* [QuantWorld](https://github.com/QuantWorldOrg/QuantWorld)：QuantWorld是一个基于Java的开源量化交易系统。
 
 #### FIX引擎
 
@@ -6763,8 +6784,6 @@
 * [Eclipse Tahu](https://github.com/eclipse/tahu)：Tahu提供各种语言和各种设备的客户端库和参考实现。
 * [HA-Bridge](https://github.com/bwssytems/ha-bridge)：将Philips Hue API模拟到其他家庭自动化网关，例如Amazon Echo/Dot或支持Philips Hue本地网络发现的其他系统。
 * [OpenHAB Add-ons](https://github.com/openhab/openhab-addons)：该库包含在OpenHAB核心API之上实现的官方附加组件集。
-* [Azure IoT SDK](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
-* [AWS IoT Device SDK Java](https://github.com/aws/aws-iot-device-sdk-java)：AWS IoT Device SDK使Java开发人员能够通过MQTT或基于WebSocket协议的MQTT访问AWS IoT平台。
 * [Eclipse Sparkplug](https://github.com/eclipse-sparkplug/sparkplug)：Sparkplug为网络边缘网关或支持本机MQTT的终端设备与Sparkplug主机应用程序如何在MQTT基础设施内进行双向通信提供了开放且免费的规范。
 * [Eclipse Arrowhead](https://github.com/eclipse-arrowhead/core-java-spring)：Arrowhead是一个用于构建自动化和数字化解决方案的框架和实施平台。
 * [Sentilo](https://github.com/sentilo/sentilo)：Sentilo是一个架构，它隔离了为利用“城市生成”的信息而开发的应用程序和部署在城市各处以收集和广播该信息的传感器层。
@@ -6775,6 +6794,12 @@
 * [GRASSMARLIN](https://github.com/nsacyber/GRASSMARLIN)：GRASSMARLIN提供工业控制系统以及监控和数据采集(SCADA)网络的IP网络态势感知，以支持网络安全，由美国国家安全局网络安全局开源。
 * [Apache Edgent](https://github.com/apache/incubator-retired-edgent)：Edgent是一种适用于边缘设备的开源编程模型和运行时，使你能够分析设备上的数据和事件，由Pivotal开源。
 * [Eclipse sensiNact](https://eclipse-sensinact.readthedocs.io/en/latest/index.html)：Eclipse sensiNact是一个专注于物联网的横向平台，尤其适用于各种智慧城市和智能家居应用。
+
+#### 物联网SDK
+
+* [Azure IoT SDK](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
+* [AWS IoT Device SDK Java](https://github.com/aws/aws-iot-device-sdk-java)：AWS IoT Device SDK使Java开发人员能够通过MQTT或基于WebSocket协议的MQTT访问AWS IoT平台。
+* [IoT Device Java](https://github.com/tencentyun/iot-device-java)：腾讯云物联网通信Java和Android SDK。
 
 #### 物联网平台
 
@@ -6813,6 +6838,7 @@
 * [IOT Tree](https://github.com/bambooww/iot-tree)：IOT Tree是一套面向物联网接入、数据规范化、人机交互展示、调度控制和数据利用的服务软件系统。
 * [IntelliConnect](https://github.com/ruanrongman/IntelliConnect)：IntelliConnect是一个由创万联社区开发的智慧物联网平台内核。
 * [SmartCity](https://gitee.com/genchuan/genchuan-smart-city)：智慧城市一网统管平台是由福建亘川科技公司开发的城市治理核心系统。
+* [IoT Platform](https://github.com/osswangxining/iotplatform)：一个开源物联网平台，能够实现物联网项目的快速开发、管理和扩展。
 
 #### 智能家居
 
@@ -6822,6 +6848,7 @@
 * [Khome](https://github.com/dennisschroeder/khome)：Khome是一个用Kotlin编写的Home Assistant智能家居自动化库。
 * [SmartApplianceEnabler](https://github.com/camueller/SmartApplianceEnabler)：SmartApplianceEnabler可将普通的家用电器转变为智能的、可远程控制的家电，并使其能够参与家庭能源管理，尤其是与光伏太阳能发电相结合。
 * [Arcus](https://github.com/arcus-smart-home/arcusplatform)：Arcus是一个开源的家庭自动化与控制系统。
+* [HomA](https://github.com/binarybucks/homA)：HomA是一个免费的开源框架，用于构建智能家居并将其连接到物联网。
 
 #### 数字孪生
 
@@ -8572,6 +8599,7 @@
 * [JFXUtils](https://github.com/gillius/jfxutils)：适用于JDK 8的缩放和平移图表和窗格缩放。
 * [Timeline](https://github.com/dariol83/timeline)：该模块包含JavaFX的时间线/甘特图的实现。
 * [JLeaflet](https://github.com/makbn/java_leaflet)：JLeaflet是一个用于将Leaflet地图集成到Vaadin和JavaFX应用中的Java库，支持完整的JPMS。
+* [Fancy Chart](https://github.com/tesis-dynaware/fancy-chart)：Fancy Chart是LineChart和TableView控件的组合。
 
 #### JavaFX图标库
 
@@ -9276,7 +9304,6 @@
 * [Recast4j](https://github.com/ppiastucki/recast4j)：Recast和Detour导航网格工具集的Java端口。
 * [Slick2D](https://slick.ninjacave.com/)：Slick2D是一组易于使用的工具和实用程序，围绕LWJGL、OpenGL绑定，使2D Java游戏开发变得更加容易。
 * [Discord Game SDK4j](https://github.com/JnCrMx/discord-game-sdk4j)：该项目为Discord GameSDK提供Java绑定。
-* [Discord RPC](https://github.com/Vatuu/discord-rpc)：Discord RPC库的Java包装器。
 * [JInput](https://github.com/jinput/jinput)：用于访问输入设备的库，由Sun公司游戏技术小组发起。
 * [Mixite](https://github.com/Hexworks/mixite)：Mixite是一个六边形网格库，提供一个优化、简单且易用的六边形网格绘制库，而无需依赖任何GUI框架。
 * [SquidLib](https://github.com/yellowstonegames/SquidLib)：SquidLib是一个功能非常齐全的库，部分目标是制作传统Roguelike和类似类型的游戏。
@@ -9637,6 +9664,7 @@
 * [Volctl](https://github.com/BjoernPetersen/volctl)：一个简单的Java库，提供对Windows和Linux上的音频音量控制的访问。
 * [Crate Digger](https://github.com/Deep-Symmetry/crate-digger)：一个用于获取和解析rekordbox媒体导出跟踪分析文件的Java库。
 * [Beads](https://github.com/orsjb/beads)：Beads是一个用于创意实时音频和音乐的Java库。
+* [Musique](https://github.com/tulskiy/musique)：Musique是一个100% Java音频播放器，支持大多数流行的格式。
 
 #### 视频库
 
@@ -9650,6 +9678,7 @@
 * [FMJ](http://fmj-sf.net/)：FMJ是一个开源项目，其目标是提供Java媒体框架(JMF)的替代方案，同时保持与JMF的API兼容。
 * [Easy FLV](https://gitee.com/javpower/easy-flv)：Easy FLV是一个Java库，可以将RTSP或RTMP视频流转换为FLV格式，以便在Web浏览器中播放。
 * [Duo Video](https://github.com/duoec/duo-video)：Duo Video是一个强大的Java视频编辑SDK，通过简洁优雅的API以编程方式生成专业级视频项目。
+* [Syphon](https://github.com/Syphon/Processing)：Syphon是一项开源的Mac OS X技术，允许应用程序实时共享视频和静态图像。
 
 #### 多媒体库
 
@@ -9704,6 +9733,7 @@
 * [FLAC Java](https://github.com/nayuki/FLAC-library-Java)：Java中的FLAC解码器库。
 * [Xuggler](https://www.xuggle.com/xuggler/)：Xuggler是一个功能强大的工具，旨在简化直接从Java解压缩、修改和重新压缩任何媒体文件或流的过程。
 * [JNA AAC Encoder](https://github.com/sheinbergon/jna-aac-encoder)：此库为JVM提供AAC编码功能。
+* [VorbisJava](https://github.com/Gagravarr/VorbisJava)：一个用于处理Ogg Vorbis文件的库。
 
 #### 媒体服务器
 
@@ -9738,6 +9768,7 @@
 * [ObjectLayout](https://github.com/ObjectLayout/ObjectLayout)：ObjectLayout提供了一组数据结构类，这些类的设计考虑了优化的内存布局。
 * [Zero-Allocation Hashing](https://github.com/OpenHFT/Zero-Allocation-Hashing)：用于对Java中的任何字节序列进行哈希处理，包括各种原始数组、缓冲区、CharSequence等。
 * [Completely](https://github.com/fmmfonseca/completely)：Completely是一个Java自动完成库。
+* [SimpleHashSet](https://github.com/liaohuqiu/SimpleHashSet)：SimpleHashSet是内存占用更小的HashSet。
 
 #### 树
 
@@ -10365,6 +10396,7 @@
 * [GeoRegression](https://github.com/lessthanoptimal/GeoRegression)：GeoRegression是一个基于Java的免费几何库，用于机器人和计算机视觉等领域的科学计算，重点关注2D/3D空间。
 * [Computational Geometry](https://github.com/mikhaildubov/computational-geometry)：该项目包含二维空间中基本计算几何算法的实现和可视化工具。
 * [Polygon Contains Point](https://github.com/sromku/polygon-contains-point)：检查平面上的给定点位于多边形内、外还是边界上。
+* [Earcut4j](https://github.com/maplibre/earcut4j)：该库实现了一个改进的耳切多边形三角剖分库。
 
 ## 航空航天
 
@@ -10980,6 +11012,7 @@
 * [AutoDelegate](https://github.com/ryandens/auto-delegate)：Java注解处理器，用于自动将接口API委托给该接口的组合实例。
 * [Annote](https://github.com/kusoroadeolu/annote)：Annote是一个将Java注解作为编程语言执行的解释器。
 * [AutoValue With Extension](https://github.com/gabrielittner/auto-value-with)：Google AutoValue的扩展，实现了AutoValue对象的“wither”方法。
+* [Kolobok](https://github.com/ukman/kolobok)：Spring Java注解处理器。
 
 #### 访问器模式
 
