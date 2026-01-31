@@ -1184,6 +1184,7 @@
 * [EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)：EasyTransaction是一个分布式事务解决方案，统一使用TCC、SAGA、FMT、可靠消息、补偿等，由齐牛金融开源。
 * [AtlasDB](https://github.com/palantir/atlasdb)：AtlasDB是一个构建在任何通用键值存储之上的事务层，由Palantir开源。
 * [Hmily](https://github.com/dromara/hmily)：Hmily是一个金融级分布式事务解决方案，由dromara社区开源。
+* [MicroProfile LRA](https://github.com/microprofile/microprofile-lra)：该规范引入了用于协调活动的服务API。
 * [TCC Transaction](https://github.com/changmingxie/tcc-transaction)：TCC Transaction是一款开源的微服务架构下的TCC型分布式事务解决方案，致力于提供高性能和简单易用的分布式事务服务。
 * [Multiverse](https://github.com/pveentjer/Multiverse)：Multiverse是JVM的软件事务内存实现。
 * [LCN](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库，由CodingAPI组织开源。
@@ -1502,6 +1503,7 @@
 * [Neo4j GraphQL](https://github.com/neo4j-graphql/neo4j-graphql)：这是Neo4j的GraphQL Endpoint扩展。
 * [Neo4j OGM](https://github.com/neo4j/neo4j-ogm)：Neo4j OGM是Neo4j的快速对象图映射库，针对利用Cypher的基于服务器的安装进行了优化。
 * [NeoTypes](https://github.com/neotypes/neotypes)：用于Neo4j的Scala轻量级、类型安全、异步驱动程序。
+* [Cytosm](https://github.com/cytosm/cytosm)：Cytosm是一个开源软件库，用于将Cypher查询即时转换为普通的SQL。
 
 #### Etcd库/工具
 
@@ -2111,6 +2113,7 @@
 * [Miaocha](https://github.com/Hinadt-Inc/miaocha)：Miaocha是一款专为企业设计的开源日志分析平台。
 * [LogParser](https://github.com/nielsbasjes/logparser)：Apache HTTPD和Nginx访问日志解析器。
 * [Giant Log Viewer](https://github.com/sunny-chung/giant-log-viewer)：一款跨平台桌面便携应用程序，可在“less”不可用时立即查看任意大小的文本文件。
+* [LogSniffer](https://github.com/mbok/logsniffer)：LogSniffer是一款功能强大的开源Web工具，用于解析、查看、监控和分析日志数据。
 
 #### Logback Appender
 
@@ -3500,7 +3503,6 @@
 * [Schedulix](https://github.com/schedulix/schedulix)：Schedulix是一个开源企业作业调度系统。
 * [Hodor](https://github.com/dromara/hodor)：Hodor是一个专注于任务调度以及任务编排的一站式分布式任务调度系统，由dromara社区开源。
 * [TASKANA](https://github.com/Taskana/taskana)：TASKANA是一个任务管理组件开源库，它可以嵌入到你的应用程序中，也可以在适当的情况下独立运行。
-* [Juice](https://github.com/HujiangTechnology/Juice)：Juice是沪江学习系统项目组所开发的一套基于Mesos Framework的分布式任务调度云系统。
 * [JQM](https://github.com/enioka-Haute-Couture/jqm)：JQM是一个任务队列管理器。
 * [Database Queue](https://github.com/yoomoney/db-queue)：该库在Java和数据库之上提供了工作队列实现，由YooMoney开源。
 * [TinyTask](https://github.com/inaka/TinyTask)：一个用于创建异步后台任务的小型Android库，由Inaka开发。
@@ -4351,6 +4353,7 @@
 * [APK](https://github.com/wso2/apk)：APK即Kubernetes API平台，这是一种尖端的API管理解决方案，旨在利用Kubernetes的强大功能来实现无缝且可扩展的部署，WSO2开源。
 * [RESTFiddle](https://github.com/AnujaK/restfiddle)：适用于团队的企业级API管理平台，RESTFiddle帮助你设计、开发、测试和发布API。
 * [Qi-API](https://github.com/qimu666/qi-api)：Qi-API是一个为用户和开发者提供全面API接口调用服务的平台。
+* [Spring.Boot.SAPI.Starter](https://github.com/xiaour/spring.boot.sapi.starter)：基于Spring Boot 2.x的接口管理工具，一个简单的API输出工具。
 
 ## 技术文档
 
@@ -4674,6 +4677,7 @@
 * [StAEDI](https://github.com/xlate/staedi)：StAEDI是一个使用Java编写的用于EDI读写和验证的流式API。
 * [EDIReader](https://github.com/BerryWorksSoftware/edireader)：EDIReader是一款灵活轻量级的EDI解析器，采用纯Java编写，使用SAX API，提供多种集成选项。
 * [X12 Parser](https://github.com/imsweb/x12-parser)：用于ANSI ASC X12文档的解析器。
+* [EDI JSON](https://github.com/BerryWorksSoftware/edi-json)：EDI、JSON相互转换库。
 
 #### OBJ库
 
@@ -6640,6 +6644,7 @@
 * [GoPush](https://gitee.com/openWolf/gopush)：GoPush是开源的分布式推送消息服务。
 * [Push Server](https://github.com/qingzhou-dev/push-server)：Push Server是一个基于Spring Boot 4构建的轻量级企业微信推送服务。
 * [Yfiton](https://github.com/yfiton/yfiton)：Yfiton是一个API和命令行工具，用于通过知名或现代通信服务发送通知。
+* [RPush](https://github.com/shuangmulin/rpush)：多平台统一消息推送系统。
 
 ## 异常通知
 
@@ -6932,6 +6937,7 @@
 * [Kotlin WalletConnect Lib](https://github.com/WalletConnect/kotlin-walletconnect-lib)：用于在Kotlin或Java中使用WalletConnect的库。
 * [LibdohJ](https://github.com/dogecoin/libdohj)：LibdohJ库是一个轻量级的Bitcoinj Java库的包装库。
 * [Monero Java](https://github.com/woodser/monero-java)：用于使用门罗币的Java库。
+* [Bitherj](https://github.com/bither/bitherj)：Bitherj是一个适用于安卓系统的比特币库。
 
 #### 交易所
 
@@ -7056,6 +7062,7 @@
 * [SumZeroTrading](https://github.com/FueledByChai/SumZeroTrading)：SumZeroTrading是一个全面的基于Java的算法交易框架。
 * [JQuant](https://github.com/eryk/JQuant)：JQuant是使用Java语言编写的量化开发工具箱。
 * [QuantWorld](https://github.com/QuantWorldOrg/QuantWorld)：QuantWorld是一个基于Java的开源量化交易系统。
+* [Tiger Quant](https://github.com/tigerfintech/tiger_quant)：Java实盘量化框架。
 
 #### FIX引擎
 
@@ -9765,6 +9772,16 @@
 * [JBump](https://github.com/implicit-invocation/jbump)：JBump是Bump.Lua的Java端口，它是一个2D AABB碰撞检测和响应库。
 * [PhysX JNI](https://github.com/fabmax/physx-jni)：Nvidia PhysX的Java JNI绑定。
 
+#### 噪声库
+
+* [Noise](https://github.com/SpongePowered/noise)：Java噪声生成库，基于Jason Bevins的libnoise C++库。
+* [JNoise](https://github.com/Articdive/JNoise)：JNoise是一个简单易用的Java库，用于在Java中生成噪声(包括梯度噪声)。
+* [FastNoise Lite](https://github.com/Auburn/FastNoiseLite)：FastNoise Lite是一个极其便携的开源噪声生成库，具有大量噪声算法可供选择。
+* [OpenSimplex2](https://github.com/KdotJPG/OpenSimplex2)：OpenSimplex Noise的后继者，以及更新的OpenSimplex。
+* [Joise](https://github.com/SudoPlayGames/Joise)：Joise是一个用Java编写的2D、3D、4D和6D模块化噪声库。
+* [OpenSimplexNoise](https://gist.github.com/KdotJPG/b1270127455a94ac5d19)：基于A*格的替代构造的视觉各向同性相干噪声算法。
+* [Noise4J](https://github.com/czyzby/noise4j)：适用于Java应用程序的简单地图生成器。
+
 #### 寻路算法
 
 * [Baritone](https://github.com/cabaletta/baritone)：Baritone是Impact从4.4版本开始使用的寻路系统。
@@ -10076,6 +10093,7 @@
 * [RxAndroidAudio](https://github.com/Piasy/RxAndroidAudio)：Android音频封装库，部分Rx支持。
 * [Libpd](https://github.com/libpd/libpd)：Pure Data可嵌入音频合成库。
 * [Noise](https://github.com/paramsen/noise)：Noise是kissfft的Android包装器，kissfft是一个用C语言编写的FFT实现。
+* [RNNoise4j](https://github.com/henkelmax/rnnoise4j)：RNNoise4j是一个用C语言编写，并使用JNI实现的RNNoise Java封装器。
 * [MP3agic](https://github.com/mpatric/mp3agic)：用于读取MP3文件和读取/操作ID3标签(ID3v1和ID3v2.2到ID3v2.4)的Java库。
 * [TarsosDSP](https://github.com/JorenSix/TarsosDSP)：TarsosDSP是一个用于音频处理的Java库，其目的是为实用的音乐处理算法提供一个易于使用的接口。
 * [LavaPlayer](https://github.com/sedmelluq/lavaplayer)：LavaPlayer是一个用Java编写的音频播放器库，它可以从各种源加载音轨并将其转换为Opus帧流，专为Discord机器人使用而设计。
@@ -10356,7 +10374,6 @@
 * [Min2phase](https://github.com/cs0x7f/min2phase)：Kociemba两阶段算法的优化实现。
 * [JWave](https://github.com/graetz23/JWave)：离散傅里叶变换、快速小波变换和小波包变换算法的Java实现。
 * [Kalman](https://github.com/wouterbulten/kalmanjs)：卡尔曼一维数据滤波器。
-* [RNNoise4j](https://github.com/henkelmax/rnnoise4j)：一个用C语言使用JNI编写的RNNoise Java包装程序。
 * [RendezvousHash](https://github.com/clohfink/RendezvousHash)：基于环的一致哈希的替代方案，这是Rendezvous(最高随机权重，HRW)哈希的快速线程安全实现。
 * [Patricia Trie](https://github.com/rkapsi/patricia-trie)：检索以字母数字编码的信息的实用算法。
 * [Jbsdiff](https://github.com/malensek/jbsdiff)：bsdiff算法的Java实现。
@@ -10458,15 +10475,6 @@
 * [LDA4j](https://github.com/hankcs/LDA4j)：LDA(潜在狄利克雷分配)的Java实现。
 * [JGibbLDA](https://jgibblda.sourceforge.net/)：JGibbLDA是隐性狄利克雷分配(LDA)的Java实现，使用吉布斯抽样技术进行参数估计和推理，由越南国立大学开源。
 * [JGibbLabeledLDA](https://github.com/myleott/JGibbLabeledLDA)：这是基于流行的JGibbLDA包的Labeled LDA的Java实现。
-
-#### 噪声库
-
-* [Noise](https://github.com/SpongePowered/noise)：Java噪声生成库，基于Jason Bevins的libnoise C++库。
-* [JNoise](https://github.com/Articdive/JNoise)：JNoise是一个简单易用的Java库，用于在Java中生成噪声(包括梯度噪声)。
-* [FastNoise Lite](https://github.com/Auburn/FastNoiseLite)：FastNoise Lite是一个极其便携的开源噪声生成库，具有大量噪声算法可供选择。
-* [OpenSimplex2](https://github.com/KdotJPG/OpenSimplex2)：OpenSimplex Noise的后继者，以及更新的OpenSimplex。
-* [Joise](https://github.com/SudoPlayGames/Joise)：Joise是一个用Java编写的2D、3D、4D和6D模块化噪声库。
-* [OpenSimplexNoise](https://gist.github.com/KdotJPG/b1270127455a94ac5d19)：基于A*格的替代构造的视觉各向同性相干噪声算法。
 
 #### 装箱算法
 

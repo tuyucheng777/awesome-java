@@ -750,6 +750,7 @@
   * [游戏开发库](docs/doc2.md#游戏开发库)
   * [游戏API](docs/doc2.md#游戏API)
   * [碰撞检测](docs/doc2.md#碰撞检测)
+  * [噪声库](docs/doc2.md#噪声库)
   * [寻路算法](docs/doc2.md#寻路算法)
   * [实体框架](docs/doc2.md#实体框架)
   * [游戏编辑器](docs/doc2.md#游戏编辑器)
@@ -809,7 +810,6 @@
   * [LDA算法](docs/doc2.md#LDA算法)
   * [装箱算法](docs/doc2.md#装箱算法)
   * [下采样](docs/doc2.md#下采样)
-  * [噪声库](docs/doc2.md#噪声库)
 * [原生开发](docs/doc2.md#原生开发)
 * [互操作](docs/doc2.md#互操作)
   * [Python](docs/doc2.md#Python)
@@ -1338,6 +1338,7 @@
 * [Bob](https://github.com/bob-cd/bob)：Bob允许你构建自己的自定义CI/CD基础设施，从而允许你将Bob用于各种不同的目的。
 * [CruiseControl](https://cruisecontrol.sourceforge.net/)：CruiseControl既是一个持续集成工具，也是一个用于创建自定义持续构建流程的可扩展框架，由ThoughtWorks开源。
 * [Nelson](https://github.com/getnelson/nelson)：Nelson是一个用于持续部署容器并自动管理其生命周期的系统。
+* [Orkestra](https://github.com/Orkestra-Tech/orkestra)：Orkestra是一个开源的持续集成/持续部署服务器，以库的形式运行在Kubernetes上。
 
 ## JDK
 
@@ -1600,6 +1601,7 @@
 * [Micrometer JVM Extras](https://github.com/mweirauch/micrometer-jvm-extras)：为Micrometer提供的一组额外的JVM进程指标。
 * [Metrics](https://github.com/MinXie1209/metrics)：Metrics是一个暴露应用指标的平台，提供业务无侵入方式对生产级Java服务应用进行指标的监控和暴露。
 * [Illuminati](https://github.com/LeeKyoungIl/illuminati)：Illuminati是一个收集应用中所有数据的平台，并通过Kibana或其他工具实时显示数据。
+* [Kafka Metrics](https://github.com/amient/kafka-metrics)：Kafka Metrics是一个用于实时聚合大型分布式系统指标的系统。
 
 ## API网关
 
@@ -2099,6 +2101,7 @@
 * [Big Whale](https://gitee.com/meetyoucrop/big-whale)：巨鲸任务调度平台为美柚大数据研发的分布式计算任务调度系统，提供Spark、Flink等批处理任务的DAG调度和流处理任务的运行管理和状态监控。
 * [Sylph](https://github.com/harbby/sylph)：Sylph是一个用于实时流计算的平台，核心是通过工作流描述构建分布式流计算应用程序。
 * [Genie](https://github.com/Netflix/genie)：Genie是Netflix开发的联合大数据编排和执行引擎。
+* [Juice](https://github.com/HujiangTechnology/Juice)：Juice是沪江学习系统项目组所开发的一套基于Mesos Framework的分布式任务调度云系统。
 
 #### 执行引擎
 
