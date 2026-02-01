@@ -832,6 +832,7 @@
 * [量子计算](docs/doc2.md#量子计算)
 * [IPFS](docs/doc2.md#IPFS)
 * [地理空间](docs/doc2.md#地理空间)
+  * [OpenStreetMap](docs/doc2.md#OpenStreetMap)
   * [坐标库](docs/doc2.md#坐标库)
   * [经纬度库](docs/doc2.md#经纬度库)
   * [GeoJson](docs/doc2.md#GeoJson)
@@ -1193,6 +1194,7 @@
 * [Apache ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个用于用Java快速开发微服务的软件开发工具包，提供服务注册、服务发现、动态路由和服务管理功能，由华为开源。
 * [Eclipse MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展，由IBM、RedHat、Oracle、Fujitsu、Microsoft等组织参与。
 * [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
+* [Nano](https://github.com/NanoNative/nano)：Nano是一种轻量级方法，它使开发人员能够以极小的代码量，使用函数式、流式、链式调用、简洁的现代Java语言编写微服务。
 * [KivaKit](https://github.com/Telenav/kivakit)：KivaKit是一套用于日常开发的集成Java迷你框架，由Telenav开源。
 * [Riposte](https://github.com/Nike-Inc/riposte)：Riposte是一个基于Netty的微服务框架，用于快速开发生产就绪的HTTP API，由Nike开源。
 * [Lagom](https://github.com/lagom/lagom)：Lagom是一个开源框架，用于用Java或Scala构建响应式微服务系统，由Lightbend开源。
@@ -1571,6 +1573,7 @@
 * [Dropwizard Metrics](https://github.com/dropwizard/metrics)：Metrics提供了强大的工具包，可用于测量生产环境中关键组件的行为，由Yammer开源。
 * [Prometheus Java](https://github.com/prometheus/client_java)：适用于JVM应用程序的Prometheus检测库。
 * [OpenTelemetry Java Instrumentation](https://github.com/open-telemetry/opentelemetry-java-instrumentation)：该项目提供了一个Java代理JAR，可以附加到任何Java 8+应用程序，并动态注入字节码以从许多流行的库和框架捕获遥测数据。
+* [Eclipse Microprofile Metrics](https://github.com/microprofile/microprofile-metrics)：Microprofile Metrics旨在为Microprofile服务器提供一种统一的方式，将监控数据导出到管理代理，并提供一个统一的Java API。
 * [Servo](https://github.com/Netflix/servo)：Servo提供了一个简单的接口，用于在Java中公开和发布应用程序指标，由Netflix开源。
 * [Micrometer](https://github.com/micrometer-metrics/micrometer)：Micrometer为最流行的可观察性系统提供了一个门面，允许你在不锁定供应商的情况下检测基于JVM的应用程序代码，由VMware开源。
 * [Oculus](https://github.com/etsy/oculus)：Oculus是Etsy Kale系统的异常关联组件。
@@ -1602,6 +1605,7 @@
 * [Metrics](https://github.com/MinXie1209/metrics)：Metrics是一个暴露应用指标的平台，提供业务无侵入方式对生产级Java服务应用进行指标的监控和暴露。
 * [Illuminati](https://github.com/LeeKyoungIl/illuminati)：Illuminati是一个收集应用中所有数据的平台，并通过Kibana或其他工具实时显示数据。
 * [Kafka Metrics](https://github.com/amient/kafka-metrics)：Kafka Metrics是一个用于实时聚合大型分布式系统指标的系统。
+* [JMXFetch](https://github.com/DataDog/jmxfetch)：JMXFetch是一个新工具，用于从JMX服务器收集指标，以便将其发送到Datadog。
 
 ## API网关
 
@@ -2281,7 +2285,7 @@
 * [FastCast](https://github.com/RuedigerMoeller/fast-cast)：FastCast是一个高速无代理消息传递库，涵盖从简单的共享内存到大型LAN集群应用程序的Java进程间通信。
 * [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
 * [Eventbus](https://github.com/likavn/eventbus)：Eventbus是基于Spring Boot Starter的分布式业务消息分发总线组件(发布/订阅模式)，支持延时消息。
-* [Deezpatch](https://github.com/joel-jeremy/deezpatch)：Deezpatch是一个简单快速的库，用于将请求和事件分派到相应的处理程序。
+* [Deezpatch](https://github.com/joel-jeremy/emissary)：Deezpatch是一个简单快速的库，用于将请求和事件分派到相应的处理程序。
 * [Minibus](https://github.com/jneat/minibus)：Java应用实例的简单事件总线。
 * [Evas](https://github.com/sellmair/evas)：Kotlin的现代高性能小型EventBus。
 * [Nepxion EventBus](https://github.com/Nepxion/EventBus)：Nepxion EventBus是一款基于Google Guava通用事件派发机制的事件总线组件。
@@ -4047,6 +4051,8 @@
 * [Epic](https://github.com/dlwh/epic)：Epic是Scala的一个结构化预测框架。
 * [TimeNLP](https://github.com/shinyke/Time-NLP)：中文语句中的时间语义识别。
 * [TACIT](https://github.com/USC-CSSL/TACIT)：TACIT是一款文本的开源分析、抓取和解释工具，由南加州大学开源。
+* [ApexNLP](https://github.com/6thsolution/ApexNLP)：ApexNLP是一个确定性的基于规则的系统，旨在识别和规范化不同格式的事件表达式。
+* [HebMorph](https://github.com/synhershko/HebMorph)：HebMorph是一个开源项目，旨在使各种信息检索软件库能够正确检索希伯来语，同时保持良好的召回率、精确率和相关性。
 
 #### 分词器
 
