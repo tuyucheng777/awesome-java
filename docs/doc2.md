@@ -4699,7 +4699,6 @@
 * [HWPLib](https://github.com/neolord0/hwplib)：Java的HWP库。
 * [HWPXLib](https://github.com/neolord0/hwpxlib)：HWPXLib是一个可以读取和写入hwpx文件的Java库。
 * [MPXJ](https://github.com/joniles/mpxj)：该库使你能够从各种文件格式和数据库中读取项目计划(有时称为进度表或项目集)，还可以将该信息写入各种文件格式。
-* [OSMPBF](https://github.com/openstreetmap/OSM-binary)：OSMPBF是一个用于读取和写入OpenStreetMap PBF文件的Java/C++库。
 * [WaveAccess](https://github.com/sintrb/WaveAccess)：波形文件(.wav)的Java读写操作库。
 * [JPMML Evaluator](https://github.com/jpmml/jpmml-evaluator)：用于生成和使用PMML文档的Java库。
 * [Org Java](https://github.com/orgzly/org-java)：Org模式文件Java解析器。
@@ -10714,8 +10713,6 @@
 * [Apache SIS](https://github.com/apache/sis)：SIS是一个用于开发地理空间应用程序的Java语言库。
 * [Geo Assist](https://github.com/thegeekyasian/geo-assist)：Geo Assist是一个开源Java库，旨在简化空间数据的处理过程。
 * [GeoMesa](https://github.com/locationtech/geomesa)：GeoMesa是一套开源工具，可在分布式计算系统上进行大规模地理空间查询和分析。
-* [Barefoot](https://github.com/bmwcarit/barefoot)：Barefoot是一个Java库，用于与OpenStreetMap进行在线和离线地图匹配，由宝马开源。
-* [Mapsforge](https://github.com/mapsforge/mapsforge)：Mapsforge是一个Android、Java平台可用的地图库，支持OpenStreetMap地图数据的离线呈现。
 * [SeaRoute](https://github.com/eurostat/searoute)：SeaRoute可以计算两个地点之间的最短海上路线，由欧盟统计局开源。
 * [MrGeo](https://github.com/ngageoint/mrgeo)：MrGeo是一个地理空间工具包，旨在提供可大规模执行的基于栅格的地理空间功能，由美国国家地理空间情报局与DigitalGlobe合作开发。
 * [NoiseModelling](https://github.com/Universite-Gustave-Eiffel/NoiseModelling)：NoiseModelling是一个能够生成噪声图的库，由古斯塔夫埃菲尔大学开源。
@@ -10738,9 +10735,7 @@
 * [ElasticGeo](https://github.com/ngageoint/elasticgeo)：ElasticGeo提供了一个GeoTools数据存储，允许使用GeoServer通过OGC服务发布Elasticsearch索引中的地理空间特征，由美国国家地理空间情报局开源。
 * [Unfolding](https://github.com/tillnagel/unfolding)：Unfolding是一个用Processing和Java创建交互式地图和地理可视化的库。
 * [H2GIS](https://github.com/orbisgis/h2gis)：H2数据库的空间扩展，由法国Lab-STICC实验室内CNRS的GIS和信息科学领域的科学家和工程师领导。
-* [OSHDB](https://github.com/GIScience/oshdb)：OpenStreetMap全历史数据的高性能时空数据分析平台，由海德堡大学开源。
 * [OpenLR](https://github.com/tomtom-international/openlr)：OpenLR的参考实现。一种地图无关的动态位置定位方法。
-* [Apache Baremaps](https://github.com/apache/incubator-baremaps)：Baremaps是一个工具包和一组用于创建、发布和操作在线地图的基础设施组件。
 * [Wilayah Indonesia](https://github.com/yusufsyaifudin/wilayah-indonesia)：印度尼西亚行政地图。
 * [CityGML4j](https://github.com/citygml4j/citygml4j)：CityGML4j是OGC CityGML的开源Java库和API。
 * [GeoAPI](https://github.com/opengeospatial/geoapi)：GeoAPI为地理空间应用程序提供了一组Java和Python语言编程接口。
@@ -10758,8 +10753,34 @@
 
 #### OpenStreetMap
 
+* [Photon](https://github.com/komoot/photon)：Photon是一个为OpenStreetMap数据构建的开源地理编码器。
+* [OSMdroid](https://github.com/osmdroid/osmdroid)：OSMdroid是Android MapView类的一个完全免费且功能齐全的替代品。
+* [OSM2World](https://github.com/tordanik/OSM2World)：OSM2World是一款开源转换器，它可以利用OpenStreetMap数据创建各种格式的世界三维模型。
+* [Basemaps](https://github.com/protomaps/basemaps)：OpenStreetMap数据的底图PMTiles生成和制图样式等等。
+* [Apache Baremaps](https://github.com/apache/incubator-baremaps)：Baremaps是一个工具包和一组用于创建、发布和操作在线地图的基础设施组件。
+* [OSMPBF](https://github.com/openstreetmap/OSM-binary)：OSMPBF是一个用于读取和写入OpenStreetMap PBF文件的Java/C++库。
+* [Barefoot](https://github.com/bmwcarit/barefoot)：Barefoot是一个Java库，用于与OpenStreetMap进行在线和离线地图匹配，由宝马开源。
+* [Mapsforge](https://github.com/mapsforge/mapsforge)：Mapsforge是一个Android、Java平台可用的地图库，支持OpenStreetMap地图数据的离线呈现。
+* [Gisgraphy](https://github.com/gisgraphy/gisgraphy)：Gisgraphy提供正向和反向地理编码、地理定位和车辆跟踪Web服务。
+* [Touch Mapper](https://github.com/skarkkai/touch-mapper)：触觉地图制作工具，可根据指定的OpenStreetMap区域创建3D或压花打印文件。
+* [OSHDB](https://github.com/GIScience/oshdb)：OpenStreetMap全历史数据的高性能时空数据分析平台，由海德堡大学开源。
+* [OpenStreetMap H3](https://github.com/igor-suhorukov/openstreetmap_h3)：OSM星球转储高性能数据加载器。
+* [OSM4Scala](https://github.com/simplexspatial/osm4scala)：用于OpenStreetMap Pbf文件的高性能Scala库和Spark Polyglot(Scala、Python、SQL等)连接器。
+* [ParallelPBF](https://github.com/woltapp/parallelpbf)：用Java编写的OSM PBF格式多线程读写器。
+* [Ohsome API](https://github.com/GIScience/ohsome-api)：Ohsome API是一个通用的Web API，用于对OpenStreetMap数据进行深度分析，尤其侧重于其历史数据。
+* [OSM4j](https://github.com/topobyte/osm4j)：用于处理OpenStreetMap数据和API的库和工具。
+* [OSM Common](https://github.com/karlwettin/osm-common)：用于访问OpenStreetMap服务、解析和处理数据的库。
+* [OSMembrane](https://github.com/openstreetmap/osmembrane)：OSMembrane是Osmosis数据处理工具的前端。
+* [Knooppuntnet](https://github.com/vmarc/knooppuntnet)：Knooppuntnet是一个用于规划OpenStreetMap中步行、骑行和其他类型节点网络路线的网站。
+* [Map Download](https://gitee.com/CrimsonHu/java_map_download)：使用Java开发的地图瓦片图下载工具，支持OpenStreetMap、天地图、谷歌地图、高德地图、腾讯地图、必应地图的XYZ瓦片图下载与合并。
 * [Overpasser](https://github.com/zsoltk/overpasser)：通过查询Overpass API实现与OpenStreetMap数据的流式Java接口。
 * [OSMAPI](https://github.com/westnordost/osmapi)：OSMAPI是OSM API 0.6的客户端。
+* [Osmosis](https://github.com/openstreetmap/osmosis)：Osmosis是一个用于处理OSM数据的命令行Java应用程序。
+* [BRouter](https://github.com/abrensch/brouter)：BRouter是一款可配置的OSM离线路由工具，具备海拔感知功能，采用Java和Android开发。
+* [Atlas](https://github.com/osmlab/atlas)：Atlas是一种高效地在内存中表示OpenStreetMap数据的方法。
+* [MapSplit](https://github.com/simonpoole/mapsplit)：MapSplit是一个小型应用程序，用于将较大的OpenStreetMap数据文件分割成瓦片。
+* [PT2MATSim](https://github.com/matsim-org/pt2matsim)：PT2MATSim是一个软件包，用于将来自GTFS、HAFAS或OSM的公共交通数据转换为完全映射的MATSim时刻表，由柏林工业大学开源。
+* [OSMLib](https://github.com/conveyal/osm-lib)：一个用于访问任意大小的OSM文件中随机实体的库。
 
 #### 坐标库
 
@@ -10801,7 +10822,6 @@
 * [GeoServer](https://github.com/geoserver/geoserver)：GeoServer是一个用Java编写的开源软件服务器，允许用户共享和编辑地理空间数据。
 * [Deegree](https://github.com/deegree/deegree3)：Deegree是用于空间数据基础设施和地理空间网络的开源软件，由德国波恩大学地理系开发。
 * [geOrchestra](https://github.com/georchestra/georchestra)：geOrchestra是一个完整的空间数据基础设施解决方案，由法国地理信息社区开源。
-* [Photon](https://github.com/komoot/photon)：Photon是一个为OpenStreetMap数据构建的开源地理编码器。
 * [Beast](https://bitbucket.org/bdlabucr/beast)：Beast是一个针对时空数据进行大型探索性分析的系统，支持矢量和栅格数据，具有多维数据类型和索引结构，由加州大学河滨分校开源。
 * [SEPAL](https://github.com/openforis/sepal)：SEPAL是一个用于地理数据处理的云计算平台。
 * [GeoWebCache](https://github.com/GeoWebCache/geowebcache)：GeoWebCache是一个用Java实现的图块缓存服务器，提供各种图块缓存服务，如WMS-C、TMS、WMTS、谷歌Maps、MS Bing等。
@@ -10809,7 +10829,6 @@
 * [DHIS 2](https://github.com/dhis2/dhis2-core)：DHIS 2是一个灵活、基于Web的开源信息系统，具有出色的可视化功能，包括GIS、图表和数据透视表，由奥斯陆大学HISP中心开发。
 * [GAF](https://gitee.com/supermapgaf/GAF)：SuperMap GAF基于SuperMap GIS基础软件进行研发，是连接GIS基础软件与行业应用的重要纽带。
 * [Traccar](https://github.com/traccar/traccar)：Traccar是一个开源GPS跟踪系统，支持200多种GPS协议和2000多种GPS跟踪设备型号。
-* [Planetiler](https://github.com/onthegomap/planetiler)：Planetiler是一种从OpenStreetMap等地理数据源生成矢量切片的工具。
 * [Nunaliit](https://github.com/GCRC/nunaliit)：Nunaliit是一个用于创建交互式、数据驱动的网络地图集的系统，由卡尔顿大学地理信息学和制图研究中心(GCRC)的一个团队开发。
 * [Mago 3DTiler](https://github.com/Gaia3D/mago-3d-tiler)：Mago 3DTiler是一款OGC 3D Tiles工具，由Gaia3D开源。
 * [Reitti](https://github.com/dedicatedcode/reitti)：Reitti是一款全面的个人位置追踪和分析应用，可帮助你了解自己的活动模式和重要地点。
@@ -10820,7 +10839,6 @@
 
 * [WorldWind Java](https://github.com/NASAWorldWind/WorldWindJava)：WorldWind Java是NASA推出的一款开源的三维地球软件开发套件。
 * [MeteoInfo](https://github.com/meteoinfo/MeteoInfo)：MeteoInfo是GIS应用(MeteoInfoMap)、科学计算和可视化环境(MeteoInfoLab)的集成框架，特别适合气象界，由中国气象局开源。
-* [Map Download](https://gitee.com/CrimsonHu/java_map_download)：使用Java开发的地图瓦片图下载工具，支持OpenStreetMap、天地图、谷歌地图、高德地图、腾讯地图、必应地图的XYZ瓦片图下载与合并。
 * [GpsPrune](https://github.com/activityworkshop/GpsPrune)：GpsPrune是一款基于地图的应用程序，用于查看、编辑和转换来自GPS系统的坐标数据。
 * [OrbisGIS](https://github.com/orbisgis/orbisgis)：OrbisGIS是一个跨平台开源地理信息系统(GIS)，由法国Lab-STICC实验室内的CNRS领导。
 * [Tinfour](https://github.com/gwlucastrig/Tinfour)：Tinfour是一个用Java编写的软件库，提供了用于构建和应用符合Delaunay准则的不规则三角网络(TIN)的工具。
