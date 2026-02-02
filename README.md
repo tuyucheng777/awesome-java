@@ -162,6 +162,7 @@
   * [模型训练](#模型训练)
   * [强化学习](#强化学习)
   * [贝叶斯推理](#贝叶斯推理)
+  * [敏感词过滤](#敏感词过滤)
   * [因果推理](#因果推理)
   * [语义解析](#语义解析)
   * [实体链接](#实体链接)
@@ -337,6 +338,7 @@
 * [日期时间](docs/doc2.md#日期时间)
   * [日历库](docs/doc2.md#日历库)
   * [日期/时间解析器](docs/doc2.md#日期时间解析器)
+  * [假期库](docs/doc2.md#假期库)
 * [MATLAB](docs/doc2.md#MATLAB)
 * [Jupyter](docs/doc2.md#Jupyter)
 * [机器人开发](docs/doc2.md#机器人开发)
@@ -586,6 +588,7 @@
   * [Skype](docs/doc2.md#Skype)
   * [Notion](docs/doc2.md#Notion)
   * [JIRA](docs/doc2.md#JIRA)
+  * [Trello](docs/doc2.md#Trello)
   * [Jenkins](docs/doc2.md#Jenkins)
   * [TheMovieDb](docs/doc2.md#TheMovieDb)
   * [TeamSpeak](docs/doc2.md#TeamSpeak)
@@ -601,6 +604,7 @@
   * [交易所](docs/doc2.md#交易所)
   * [区块链SDK](docs/doc2.md#区块链SDK)
   * [智能合约](docs/doc2.md#智能合约)
+  * [IPFS](docs/doc2.md#IPFS)
 * [金融](docs/doc2.md#金融)
   * [金融API](docs/doc2.md#金融API)
   * [银行API](docs/doc2.md#银行API)
@@ -830,7 +834,6 @@
 * [运动规划](docs/doc2.md#运动规划)
 * [自动规划](docs/doc2.md#自动规划)
 * [量子计算](docs/doc2.md#量子计算)
-* [IPFS](docs/doc2.md#IPFS)
 * [地理空间](docs/doc2.md#地理空间)
   * [OpenStreetMap](docs/doc2.md#OpenStreetMap)
   * [坐标库](docs/doc2.md#坐标库)
@@ -872,7 +875,6 @@
 * [表情库](docs/doc2.md#表情库)
 * [字体库](docs/doc2.md#字体库)
 * [语言库](docs/doc2.md#语言库)
-* [敏感词过滤](docs/doc2.md#敏感词过滤)
 * [国际化](docs/doc2.md#国际化)
 * [翻译库](docs/doc2.md#翻译库)
 * [字幕库](docs/doc2.md#字幕库)
@@ -1606,6 +1608,7 @@
 * [Illuminati](https://github.com/LeeKyoungIl/illuminati)：Illuminati是一个收集应用中所有数据的平台，并通过Kibana或其他工具实时显示数据。
 * [Kafka Metrics](https://github.com/amient/kafka-metrics)：Kafka Metrics是一个用于实时聚合大型分布式系统指标的系统。
 * [JMXFetch](https://github.com/DataDog/jmxfetch)：JMXFetch是一个新工具，用于从JMX服务器收集指标，以便将其发送到Datadog。
+* [Metrics Kafka](https://github.com/stealthly/metrics-kafka)：Metrics Kafka提供一个端到端的工作环境，使系统能够将其指标/传感器数据发送到Kafka，然后根据这些数据生成警报和图表。
 
 ## API网关
 
@@ -2396,6 +2399,7 @@
 * [Kafka Web Console](https://github.com/cjmamo/kafka-web-console)：Kafka Web Console是一个用于监控Apache Kafka的Java Web应用程序。
 * [Kafka Offset Monitor](https://github.com/Morningstar/kafka-offset-monitor)：这是一个用于监控Kafka消费者及其在日志中的位置(偏移量)的应用程序。
 * [Kafka Backup](https://github.com/itadventurer/kafka-backup)：Kafka Backup是一个用于备份和恢复Kafka数据的工具，包括所有(可配置的)主题数据，尤其是消费者组的偏移量。
+* [Uforwarder](https://github.com/uber/uForwarder)：Uforwarder是一个代理，它通过RPC协议将数据从Kafka传输到消息消费者。
 
 ## 分布式开发
 
@@ -3387,6 +3391,7 @@
 * [NeoLink](https://github.com/NeoLinkProxy/NeoLink)：NeoLink是一个轻量级的内网穿透客户端，用于将本地TCP、UDP服务暴露给公网NeoServer。
 * [NET Penetrate](https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple)：内网穿透、GUI、一键启动、不限速，内置日志。
 * [Natx](https://github.com/wucao/natx)：Natx是一个基于Java Netty实现的可用于内网穿透的代理工具，支持TCP协议。
+* [SuperTunnel](https://github.com/davidkey/supertunnel)：SuperTunnel是一个可以通过HTTP隧道传输普通TCP流量的程序。
 
 #### IO_Uring
 
@@ -3524,6 +3529,7 @@
 * [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
 * [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
 * [CSipSimple](https://github.com/r3gis3r/CSipSimple)：CSipSimple是一款开源的Android原生SIP客户端。
+* [Vonage Java SDK](https://github.com/Vonage/vonage-java-sdk)：Vonage Java服务端SDK，支持SMS、消息、语音、文字转语音、号码、认证、视频等API功能。
 
 ## 工具库
 
@@ -3751,6 +3757,7 @@
 * [BlazingCache](https://github.com/diennea/blazingcache)：BlazingCache是分布式Java应用程序的快速缓存。
 * [HotArmor](https://github.com/bafuka/HotArmor)：HotArmor是一款为高并发场景设计的热点数据保护中间件。
 * [Memcarrot](https://github.com/carrotdata/memcarrot)：Memcarrot是一款与Memcached协议完全兼容的缓存服务器。
+* [RainbowCache](https://github.com/gshjd/RainbowCache)：RainbowCache是一套缓存注解，内置利用Redis完成的并发锁。
 
 #### 缓存管理器
 
@@ -3885,6 +3892,7 @@
 * [JManus](https://github.com/spring-ai-alibaba/JManus)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
 * [Coze Java](https://github.com/coze-dev/coze-java)：Coze API SDK Java是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
 * [Dify Java Client](https://github.com/imfangs/dify-java-client)：Dify Java Client是一个用于与Dify平台进行交互的Java客户端库。
+* [Dify Spring Boot Starter](https://github.com/guoshiqiufeng/dify-spring-boot-starter)：为Dify提供Spring Boot Starter和纯Java支持，简化开发。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
 * [Browser4](https://github.com/platonai/Browser4)：Browser4是为AI打造的闪电般快速、协程安全的浏览器引擎。
 * [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
@@ -3916,6 +3924,7 @@
 * [Claudine](https://github.com/xemantic/claudine)：Claudine是一个AI助手。
 * [PVA](https://github.com/Cyborgscode/Personal-Voice-Assistent)：PVA是一个开源的Linux/Unix语音辅助软件。
 * [IBM Watsonx Assistant Toolkit](https://github.com/watson-developer-cloud/assistant-toolkit)：IBM Watsonx Assistant Toolkit旨在帮助使用IBM Watsonx助手的开发者和数据科学家构建、部署和维护更高效的AI解决方案，以实现业务需求。
+* [SEPIA](https://github.com/SEPIA-Framework/sepia-assist-server)：SEPIA是一个模块化的开源框架，配备了构建完整数字语音助手所需的所有工具，包括语音识别、唤醒词检测、文本转语音、自然语言理解、对话管理、SDK、跨平台客户端应用等功能。
 
 #### 机器学习
 
@@ -4053,6 +4062,7 @@
 * [TACIT](https://github.com/USC-CSSL/TACIT)：TACIT是一款文本的开源分析、抓取和解释工具，由南加州大学开源。
 * [ApexNLP](https://github.com/6thsolution/ApexNLP)：ApexNLP是一个确定性的基于规则的系统，旨在识别和规范化不同格式的事件表达式。
 * [HebMorph](https://github.com/synhershko/HebMorph)：HebMorph是一个开源项目，旨在使各种信息检索软件库能够正确检索希伯来语，同时保持良好的召回率、精确率和相关性。
+* [AIDR](https://github.com/qcri-social/AIDR)：AIDR是一个免费开源平台，用于过滤和分类与自然灾害和人道主义危机相关的社交媒体信息，由卡塔尔计算研究所开源。
 
 #### 分词器
 
@@ -4083,6 +4093,8 @@
 * [MMSeg4j](https://github.com/chenlb/mmseg4j-core)：MMSeg4j是使用Chih-Hao Tsai的MMSeg算法实现的中文分词器。
 * [Vitk](https://github.com/phuonglh/vn.vitk)：越南语文本处理工具包，由越南河内国立大学理学院开源。
 * [KOMORAN](https://github.com/shineware/KOMORAN)：KOMORAN是一个用Java实现的韩语形态分析器，由Shineware开源。
+* [Russian Morphology](https://github.com/AKuznetsov/russianmorphology)：Lucene的俄语形态学。
+* [Jaba](https://github.com/Sweetiee-yi/Jaba)：结巴分词Java版。
 
 #### 深度学习
 
@@ -4110,6 +4122,7 @@
 * [SmartJavaAI](https://gitee.com/dengwenjie/SmartJavaAI)：SmartJavaAI是专为Java开发者打造的一个功能丰富、开箱即用的AI算法工具包。
 * [DeepDSL](https://github.com/deepdsl/deepdsl)：DeepDSL是一种嵌入于Scala中的DSL，用于编写深度学习网络应用。
 * [JRNN](https://github.com/lipiji/JRNN)：Java中的LSTM和GRU。
+* [DeepDriver](https://github.com/LongJunCai/DeepDriver)：DeepDriver是一个Java深度学习框架，目前支持ANN/CNN/DNN/RNN/LSTM。
 
 #### 模型训练
 
@@ -4151,6 +4164,18 @@
 * [Keanu](https://github.com/improbable-research/keanu)：Keanu是一个通用的概率编程库，由Improbable的研究团队开发。
 * [BartMachine](https://github.com/kapelner/bartMachine)：R-Java贝叶斯加法回归树实现，由纽约市立大学开源。
 * [Java Naive Bayes Classifier](https://github.com/ptnplanet/Java-Naive-Bayes-Classifier)：基于朴素贝叶斯方法的Java分类器。
+
+#### 敏感词过滤
+
+* [ToolGood.Words](https://github.com/toolgood/ToolGood.Words)：一款高性能非法词(敏感词)检测组件，附带繁体简体互换，支持全角半角互换等功能。
+* [Sensitive Word](https://github.com/houbb/sensitive-word)：基于DFA算法实现的高性能敏感词工具。
+* [Sensitive Word Filter](https://github.com/hailin0/sensitive-word-filter)：简易敏感词处理器，支持返回敏感词、高亮敏感词、替换敏感词等操作。
+* [Sensitive Words Filter](https://github.com/hooj0/sensitive-words-filter)：敏感词过滤项目，提供TTMP、DFA、DAT、Hash Bucket、Tire算法支持过滤。
+* [DzFilter](https://github.com/fanhua1994/DzFilter)：使用DFA算法实现的敏感词过滤。
+* [BadWordFiltering](https://github.com/VaneProject/bad-word-filtering)：此库可识别并处理脏话、粗俗语言及其他语言。
+* [KeywordFilter](https://github.com/k5h9999/keywordfilter)：基于分词原理修改写的一个过滤敏感词库，可以改成动态，支持返回敏感词，高亮敏感词，替换敏感词等操作。
+* [Sensitivewd Filter](https://github.com/andyzty/sensitivewd-filter)：敏感词过滤、广告词过滤、包含敏感词库，停顿词库。
+* [Filter4J](https://github.com/LL4J/Filter4J)：Filter4J是一个极小化、基于深度学习的文本内容违规检测库。
 
 #### 因果推理
 
