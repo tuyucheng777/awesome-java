@@ -379,6 +379,7 @@
 * [编排引擎](docs/doc2.md#编排引擎)
 * [规则引擎](docs/doc2.md#规则引擎)
 * [状态机](docs/doc2.md#状态机)
+* [状态容器](docs/doc2.md#状态容器)
 * [报表引擎](docs/doc2.md#报表引擎)
 * [商业智能](docs/doc2.md#商业智能)
 * [模板引擎](docs/doc2.md#模板引擎)
@@ -801,7 +802,7 @@
 * [基本类型](docs/doc2.md#基本类型)
 * [堆外内存库](docs/doc2.md#堆外内存库)
 * [结构体](docs/doc2.md#结构体)
-* [随机数生成器](docs/doc2.md#随机数生成器)
+* [随机生成器](docs/doc2.md#随机生成器)
 * [算法库](docs/doc2.md#算法库)
   * [字符串算法](docs/doc2.md#字符串算法)
   * [文本排序](docs/doc2.md#文本排序)
@@ -836,6 +837,7 @@
 * [量子计算](docs/doc2.md#量子计算)
 * [地理空间](docs/doc2.md#地理空间)
   * [OpenStreetMap](docs/doc2.md#OpenStreetMap)
+  * [GTFS](docs/doc2.md#GTFS)
   * [坐标库](docs/doc2.md#坐标库)
   * [经纬度库](docs/doc2.md#经纬度库)
   * [GeoJson](docs/doc2.md#GeoJson)
@@ -843,7 +845,6 @@
   * [GIS GUI](docs/doc2.md#GIS-GUI)
   * [大地测量](docs/doc2.md#大地测量)
 * [路由引擎](docs/doc2.md#路由引擎)
-* [GTFS](docs/doc2.md#GTFS)
 * [几何学](docs/doc2.md#几何学)
 * [航空航天](docs/doc2.md#航空航天)
 * [天文学](docs/doc2.md#天文学)
@@ -976,7 +977,6 @@
 * [Lift](https://github.com/lift/framework)：Lift是一个强大、安全的Web框架。
 * [Kora](https://github.com/kora-projects/kora)：Kora是一个用于编写Java/Kotlin应用程序的框架，重点关注性能、效率和透明度。
 * [Duct](https://github.com/duct-framework/duct)：Duct是一个高度模块化的框架，用于使用数据驱动架构在Clojure中构建服务器端应用程序。
-* [Oorian](https://oorian.com/)：Oorian是一个基于Java的框架，用于创建动态、交互式、数据驱动的Web应用程序。
 * [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。
 * [Scalatra](https://github.com/scalatra/scalatra)：Scalatra是一个小型、类似Sinatra的Scala Web框架。
 * [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是围绕Pipeline，关注点分离和基于组件的Web开发的概念构建的Web应用程序框架。
@@ -1105,6 +1105,7 @@
 * [Apache Wicket](https://github.com/apache/wicket)：Wicket是一个开源、基于组件的Java Web应用程序框架。
 * [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
 * [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
+* [Oorian](https://oorian.com/)：Oorian是一个基于Java的框架，用于创建动态、交互式、数据驱动的Web应用程序。
 * [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。
 * [JWt](https://github.com/emweb/jwt)：JWt是一个用于开发Web应用程序的Java库，它提供了一种纯Java组件驱动的方法来构建Web应用程序，并使用Ajax或纯HTML进行呈现。
 * [Errai](https://github.com/errai/errai)：Errai是一个Java/GWT Web框架，用于构建富客户端Web应用程序，由RedHat开源。
@@ -1462,6 +1463,7 @@
 * [Snow](https://gitee.com/jcnc-org/snow)：Snow是一门面向AI时代的新型编程语言，灵感源自大模型的发展趋势。
 * [Ixion](https://github.com/IxionLang/ixion-jvm)：适用于JVM平台的多范式编译型编程语言。
 * [Yona](https://github.com/yona-lang/yona)：Yona是一种极简、观点明确的强动态类型、严格的函数式编程语言，具有类似ML的语法，适用于GraalVM多语言虚拟机。
+* [TopShell](https://github.com/topshell-language/topshell)：TopShell是一种纯函数式、响应式脚本语言。
 
 ## 云原生
 
@@ -1927,6 +1929,7 @@
 * [Hazelcast](https://github.com/hazelcast/hazelcast)：Hazelcast是一个实时流处理平台，可让你构建立即对数据采取操作的应用程序，由Hazelcast开源。
 * [JStorm](https://github.com/alibaba/jstorm)：JStorm是参考Storm基于Java语言重写的实时流式计算系统框架，由阿里开源。
 * [Onyx](https://github.com/onyx-platform/onyx)：Onyx是一个无主、云规模、容错、高性能分布式计算系统。
+* [Spring XD](https://github.com/spring-attic/spring-xd)：Spring XD可以轻松解决常见的大数据问题，例如数据摄取和导出、实时分析以及批量工作流编排，由Pivotal开源。
 * [Dempsy](https://github.com/Dempsy/dempsy)：Dempsy是一个用于轻松编写分布式、动态可扩展应用程序的框架，用于处理无限量的(近)实时消息流。
 * [Apache Heron](https://github.com/apache/incubator-heron)：Heron是Twitter开源的一个实时的、容错的、分布式的流数据处理系统。
 * [Apache StreamPark](https://github.com/apache/incubator-streampark)：StreamPark是一个流处理开发框架和应用程序管理平台，由个人组织StreamXHub创建。
@@ -2979,6 +2982,7 @@
 * [Java cURL](https://github.com/rockswang/java-curl)：Java cURL是一个基于标准JDK中的HttpURLConnection实现的纯Java HTTP实用程序。
 * [JCurl](https://github.com/finos/JCurl)：Java中支持JSON的Curl，由金融科技基金会开源。
 * [JQuickCurl](https://github.com/paohaijiao/jquick-curl)：JQuickCurl是一个面向Java开发者的高性能、易用HTTP客户端框架。
+* [Ok2Curl](https://github.com/mrmike/Ok2Curl)：将OkHttp请求转换为Curl日志的简单方法。
 * [Resty](https://github.com/beders/Resty)：Resty是一个小巧、方便的接口，用于在Java中与RESTful服务通信。
 * [Kohttp](https://github.com/rybalkinsd/kohttp)：Kotlin DSL HTTP客户端。
 * [Appsly Android REST](https://github.com/xebia-functional/appsly-android-rest)：Appsly Android REST是一款基于注解的客户端库，由Xebia开源。
@@ -3378,7 +3382,9 @@
 
 * [Lanproxy](https://github.com/ffay/lanproxy)：Lanproxy是一个将局域网个人电脑、服务器代理到公网的内网穿透工具，支持TCP流量转发，可支持任何TCP上层协议。
 * [Neo reGeorg](https://github.com/L-codes/Neo-reGeorg)：reGeorg是新一代内网穿透工具，这是该项目的重构版本。
+* [Dev Tunnels](https://github.com/microsoft/dev-tunnels)：Dev Tunnels允许开发者安全地将本地Web服务暴露到互联网上，控制谁可以访问，并且可以轻松地从任何地方调试你的Web应用程序，由Microsoft开源。
 * [Neutrino Proxy](https://gitee.com/dromara/neutrino-proxy)：Neutrino Proxy是一个基于Netty的开源Java内网穿透项目，由dromara社区开源。
+* [PortBuddy](https://github.com/amak-tech/port-buddy)：PortBuddy是一个强大而简单的工具，它可以让你将本地主机或私有网络中打开的端口暴露到公共互联网。
 * [Natcross2](https://github.com/Pluto-Whong/natcross2)：Natcross2是需要自己提供硬件支持、部署的内网穿透工具。
 * [Venomous Sting](https://gitee.com/haojiangbo/venomous_sting)：基于Netty实现的高性能内网穿透，支持所有TCP上层协议的转发。
 * [MagpieBridge](https://gitee.com/jiucheng_org/magpiebridge)：使用Java基于AIO/NIO实现的内网穿透工具。
@@ -3842,6 +3848,7 @@
 * [ChatGLM SDK Java](https://github.com/1321928757/chatglm-sdk-java)：智谱AI大模型开放SDK。
 * [DeepSeek4j](https://github.com/pig-mesh/deepseek4j)：DeepSeek4j是一个用于快速集成DeepSeek AI能力的Spring Boot Starter。
 * [A2A Java](https://github.com/a2aproject/a2a-java)：A2A Java提供了A2A协议的Java服务器实现，由RedHat开发。
+* [A2A Java](https://github.com/vishalmysore/a2ajava)：Google A2A协议的Java实现。
 * [Google Gen AI Java SDK](https://github.com/googleapis/java-genai)：Gemini Developer API和Vertex AI API的Java惯用SDK。
 * [Anthropic Java API](https://github.com/anthropics/anthropic-sdk-java)：Anthropic Java SDK提供了从用Java编写的应用程序方便访问Anthropic REST API的功能。
 * [Qianfan SDK](https://github.com/baidubce/bce-qianfan-sdk)：百度千帆大模型平台SDK。
@@ -3925,6 +3932,7 @@
 * [PVA](https://github.com/Cyborgscode/Personal-Voice-Assistent)：PVA是一个开源的Linux/Unix语音辅助软件。
 * [IBM Watsonx Assistant Toolkit](https://github.com/watson-developer-cloud/assistant-toolkit)：IBM Watsonx Assistant Toolkit旨在帮助使用IBM Watsonx助手的开发者和数据科学家构建、部署和维护更高效的AI解决方案，以实现业务需求。
 * [SEPIA](https://github.com/SEPIA-Framework/sepia-assist-server)：SEPIA是一个模块化的开源框架，配备了构建完整数字语音助手所需的所有工具，包括语音识别、唤醒词检测、文本转语音、自然语言理解、对话管理、SDK、跨平台客户端应用等功能。
+* [Bibliothecarius](https://github.com/coderabbit214/bibliothecarius)：Bibliothecarius是一款本地数据分析工具，可根据自定义提示展开对话。
 
 #### 机器学习
 
@@ -4209,6 +4217,7 @@
 * [Xponents](https://github.com/OpenSextant/Xponents)：Xponents是一组信息提取库，包括提取和规范化地理实体、日期/时间模式、关键字/分类法和各种模式。
 * [Wandora](https://github.com/wandora-team/wandora)：Wandora是一个基于主题图和Java的通用信息提取、管理和发布应用程序。
 * [Reach](https://github.com/clulab/reach)：Reach是一个面向生物医学领域的信息提取系统，旨在读取科学文献并提取癌症信号通路，由亚利桑那大学开源。
+* [OpenIE](https://github.com/dair-iitd/OpenIE-standalone)：OpenIE是华盛顿大学和印度理工学院德里分校联合开发的开源信息抽取系统。
 * [Palladian](https://github.com/palladian/palladian)：Palladian是一个基于Java的工具包，提供执行典型互联网信息检索任务的功能。
 * [Minie](https://github.com/uma-pi1/minie)：提供简化提取的开放信息提取系统，由德国曼海姆大学开源。
 * [Textricator](https://github.com/measuresforjustice/textricator)：Textricator是一种从文档中提取文本并生成结构化数据的工具。

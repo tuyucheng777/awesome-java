@@ -226,6 +226,7 @@
 * [DbFit](https://github.com/dbfit/dbfit)：DbFit是一个数据库测试框架，支持对数据库代码进行简单的测试驱动开发。
 * [DbUnit](https://www.dbunit.org/)：DbUnit是一个JUnit扩展，针对数据库驱动的项目。
 * [DbSetup](https://github.com/Ninja-Squad/DbSetup)：DbSetup允许在执行自动化集成测试(通常是DAO/Repository自动化测试)之前填充数据库。
+* [MatchaDB](https://gitlab.com/carool1/matchadb)：MatchaDB是一款测试工具，它以JSON文件作为输入来填充数据库。
 * [Kafka JUnit](https://github.com/salesforce/kafka-junit)：该库包装了Kafka的嵌入式测试集群，使你可以更轻松地使用JUnit针对在测试上下文中运行的真实kafka服务器创建和运行集成测试，由Salesforce开源。
 * [Database Rider](https://github.com/database-rider/database-rider)：Database Rider集成了DBUnit和JUnit，使数据库测试变得轻而易举。
 * [ElasticSearch Test](https://github.com/tlrx/elasticsearch-test)：一个让ElasticSearch单元测试变得轻而易举的框架。
@@ -704,6 +705,7 @@
 * [Kdriver](https://github.com/cdpdriver/kdriver)：Kdriver是一个极快、协程优先、无法检测的Kotlin网页抓取/浏览器自动化库。
 * [OperaPrestoDriver](https://github.com/operasoftware/operaprestodriver)：OperaPrestoDriver是由Opera和志愿者开发的、由厂商支持的WebDriver实现，它能够对基于Presto的Opera产品进行程序化自动化。
 * [JSErrorCollector](https://github.com/mguillem/JSErrorCollector)：本项目允许在使用WebDriver运行测试时捕获JavaScript错误。
+* [Shadow Automation Selenium](https://github.com/sukgu/shadow-automation-selenium)：本项目专注于使用Java Selenium实现多级Shadow根DOM的自动化。
 
 #### Cucumber库
 
@@ -1086,6 +1088,7 @@
 * [SQL Forge](https://github.com/wb04307201/sql-forge)：SQL Forge ORM框架。
 * [Transponder](https://github.com/OrienteerBAP/Transponder)：Transponder是一个用于NoSQL数据库的ORM库。
 * [BatooJPA](https://github.com/BatooOrg/BatooJPA)：BatooJPA是一种高性能的JPA实现。
+* [DoytoQuery](https://github.com/doytowin/doyto-query)：DoytoQuery实现了一种动态查询语言，它能够从对象生成查询语句。
 
 #### JDBC框架
 
@@ -1487,6 +1490,7 @@
 * [Luke](https://github.com/DmitryKey/luke)：Luke是一个用于检查Lucene/Solr/Elasticsearch索引的GUI工具。
 * [KnowSearch](https://github.com/didi/KnowSearch)：KnowSearch是面向Elasticsearch研发与运维人员，围绕集群、索引构建的零侵入、多租户的Elasticsearch GUI管控平台，由滴滴开源。
 * [SQL4ES](https://github.com/Anchormen/sql4es)：SQL4ES是适用于Elasticsearch 6.3.2的JDBC 4.1驱动程序，它实现了大多数JDBC接口。
+* [Knapsack](https://github.com/jprante/elasticsearch-knapsack)：Knapsack是一个功能强大的Elasticsearch导出/导入插件。
 
 #### DynamoDB库/工具
 
@@ -2068,6 +2072,7 @@
 * [Stream Log](https://github.com/GetStream/stream-log)：Stream Log是Kotlin Multiplatform的轻量级且可扩展的记录器库。
 * [Kermit](https://github.com/touchlab/Kermit)：Touchlab的Kermit是一个Kotlin多平台集中式日志记录实用程序。
 * [Log](https://github.com/zserge/log)：Log是一个超简单的Android Log替代方案，也可以在普通的Java项目中使用。
+* [JLog](https://github.com/CoenQian/jlog)：JLog是一款对Android开发者非常有用的日志工具。
 * [KmLogging](https://github.com/DiamondEdge1/KmLogging)：Kotlin多平台日志库，面向Android、iOS、JVM、WasmJS和JS。
 
 #### 日志采集
@@ -2468,6 +2473,7 @@
 * [YamlPath](https://github.com/yaml-path/YamlPath)：用于读取YAML文档并替换值的Java DSL。
 * [YamlConfiguration](https://github.com/bspfsystems/YamlConfiguration)：YamlConfiguration是一个用于创建和编辑Java程序中使用的配置YAML文件的库。
 * [YamlKt](https://github.com/Him188/yamlkt)：多平台YAML解析器。
+* [WAST](https://github.com/wycst/wast)：WAST是一个高性能Java工具集库包，包括JSON、YAML、CSV、HttpClient、JDBC和EL引擎。
 
 #### INI库
 
@@ -2683,6 +2689,7 @@
 * [MAPF](https://github.com/J-morag/MAPF)：几种MAPF算法的Java实现。
 * [Meanlib](https://github.com/TeamMeanMachine/meanlib)：Meanlib是由Team 2471 Mean Machine制作的Kotlin FRC机器人实用程序库。
 * [YAMS](https://github.com/Yet-Another-Software-Suite/YAMS)：YAMS是一个与WPILib兼容的库，为常见的FRC机械装置提供统一且可扩展的接口。
+* [EOCV-Sim](https://github.com/deltacv/EOCV-Sim)：EOCV-Sim是一种直接在你的计算机上通过简单的用户界面测试管道的直接方法，它模拟EasyOpenCV库和一些FTC SDK结构，允许你在想要将其传输到机器人时直接复制粘贴管道代码。
 
 ## 数学库
 
@@ -2729,6 +2736,7 @@
 * [Orbital](https://github.com/LS-Lab/orbital)：Orbital是一个Java类库，为逻辑、数学和计算机科学提供面向对象的表示和算法，由卡尔斯鲁厄理工学院开源。
 * [Ptolemaeus](https://gitlab.com/lmco/ptolemaeus)：为实数和复数值线性代数、非线性优化、超维计算几何、动力系统等开发的Java数学库，由洛克希德马丁公司开发。
 * [Keigen](https://github.com/paramsen/Keigen)：Keigen是Eigen的Kotlin包装器，Eigen是一个用C++编写的线性代数库。
+* [Tensor](https://github.com/datahaki/tensor)：Java 25中的张量计算库。
 
 #### 矩阵
 
@@ -3149,6 +3157,7 @@
 * [Cockroach](https://github.com/zhangyingwei/cockroach)： Cockroach是一个小巧、灵活、健壮的爬虫框架。
 * [Goniub](https://github.com/CreditTone/goniub)：Goniub是一个Java爬虫工具库。
 * [CrawlerPack](https://github.com/abola/CrawlerPack)：Java网络资料爬虫包。
+* [Firecrawl Java SDK](https://github.com/firecrawl/firecrawl-java-sdk)：一个用于Firecrawl API的Java客户端库，提供网页爬虫、数据抓取和搜索功能。
 
 #### HTML提取
 
@@ -3347,11 +3356,17 @@
 * [Morfologik Stemming](https://github.com/morfologik/morfologik-stemming)：用于有限状态自动机构建和基于字典的形态词典的工具。
 * [TSM4j](https://github.com/weilueluo/tsm4j)：Java的类型化状态机。
 * [Dk.Brics.Automaton](https://github.com/cs-au-dk/dk.brics.automaton)：Java的有限状态自动机和正则表达式，由奥胡斯大学开源。
-* [Redux Java](https://github.com/glung/redux-java)：Redux的Java版本，应用程序的可预测状态容器。
-* [Bansa](https://github.com/brianegan/bansa)：受Redux和Elm启发的Java和Kotlin状态容器。
 * [Grox](https://github.com/groupon/grox)：Grox有助于维护Java/Android应用程序的状态。
 * [Simple Statemachine](https://github.com/mapteb/simple-state-machine)：用于Spring Boot项目的简单Java状态机。
 * [Statelin](https://github.com/anupcowkur/Statelin)：Statelin是一个完全用Kotlin实现的有限状态机。
+
+## 状态容器
+
+* [Redux Java](https://github.com/glung/redux-java)：Redux的Java版本，应用程序的可预测状态容器。
+* [Bansa](https://github.com/brianegan/bansa)：受Redux和Elm启发的Java和Kotlin状态容器。
+* [Reductor](https://github.com/Yarikx/reductor)：受Redux启发的Java/Android可预测状态容器库。
+* [Redux Kotlin](https://github.com/reduxkotlin/redux-kotlin)：Kotlin的Redux实现(支持多平台JVM、Native、JS、WASM)。
+* [Redux](https://github.com/evant/redux)：Java/Android平台的Redux移植。
 
 ## 报表引擎
 
@@ -4165,6 +4180,7 @@
 * [RubberStamp](https://github.com/vinaygaba/RubberStamp)：RubberStamp是一个Android库，可让你轻松地为图像添加水印。
 * [WaterMarkIt](https://github.com/OlegCheban/WaterMarkIt)：轻量级、与框架无关的Java库，用于向各种文件类型(包括PDF和图像)添加水印。
 * [Innamark](https://github.com/FraunhoferISST/Innamark)：Innamark项目提供隐写/水印解决方案。
+* [BlindWatermark](https://github.com/ww23/BlindWatermark)：Java盲水印。
 
 #### 图像操作软件
 
@@ -4614,6 +4630,7 @@
 * [JsoupXpath](https://github.com/zhegexiaohuozi/JsoupXpath)：纯Java实现的支持W3C Xpath 1.0标准语法的HTML解析器。
 * [JTidy](https://github.com/jtidy/jtidy)：JTidy是HTML Tidy的Java端口，一个HTML语法检查器和漂亮的打印机。
 * [J2Html](https://github.com/tipsy/j2html)：Java到HTML生成器。
+* [Ksoup](https://github.com/MohamedRejeb/Ksoup)：Ksoup是一个轻量级的Kotlin多平台库，用于解析HTML、提取HTML标签、属性和文本，以及对HTML实体进行编码和解码。
 * [Jspoon](https://github.com/DroidsOnRoids/jspoon)：Jspoon是一个Java库，它提供基于CSS选择器将HTML解析为Java对象的功能。
 * [HtmlDsl](https://github.com/jaredrummler/HtmlDsl)：提供用于构建Android TextView的DSL代码。
 * [NekoHTML](https://github.com/codelibs/nekohtml)：HTML解析器和标签平衡器。
@@ -4730,10 +4747,13 @@
 * [Fixedformat4j](https://github.com/jeyben/fixedformat4j)：Fixedformat4j是一个易于使用的Java框架，用于处理平面固定格式的文本文件。
 * [JWARC](https://github.com/iipc/jwarc)：一个用于读取和写入WARC文件的Java库。
 * [Kabeja](https://github.com/fuzziness/kabeja)：Kabeja是一个用于解析、处理和转换Autodesk DXF格式的Java库。
+* [Jonix](https://github.com/zach-m/jonix)：Jonix是一个功能强大、免费、开源的Java库，专为从ONIX for Books数据源中提取数据而设计。
 
 #### 文件转换
 
 * [PDF2JSON](https://github.com/modesty/pdf2json)：PDF2JSON是一个PDF文件解析器，可将PDF二进制文件转换为基于文本的JSON。
+* [UTT](https://github.com/queer/utt)：UTT是一个通用的文本转换器。
+* [Bookish](https://github.com/parrt/bookish)：Bookish是一种类似XML和Markdown的书籍和文章格式，它可以将其转换为HTML和LaTeX格式。
 * [Retrosheet](https://github.com/theapache64/retrosheet)：将Google电子表格转换为JSON端点。
 * [OPENHTMLTOPDF](https://github.com/danfickle/openhtmltopdf)：OPENHTMLTOPDF是一个纯Java库，用于使用CSS 2.1进行布局和格式化，输出为PDF或图像，呈现格式良好的XML/XHTML的合理子集。
 * [Java WkHtmlToPdf Wrapper](https://github.com/jhonnymertz/java-wkhtmltopdf-wrapper)：WkHtmlToPdf命令行工具的基于Java的包装器。
@@ -4800,6 +4820,7 @@
 * [WPS View](https://gitee.com/mose-x/wps-view-java)：基于WPS在线编辑、在线预览后台服务。
 * [File Preview Spring Boot Starter](https://github.com/wb04307201/file-preview-spring-boot-starter)：一个文档在线预览的中间件，可通过简单的配置即可集成到Spring Boot中。
 * [All Docs](https://github.com/Jarrettluo/all-docs)：All Docs是一款可以在线预览、存储和共享Word、Excel、PowerPoint、PDF、图片等文档的工具。
+* [Kbase Doc](https://github.com/ekoz/kbase-doc)：文档在线预览编辑。
 
 #### 文件同步
 
@@ -5582,6 +5603,8 @@
 * [Taming Thymeleaf CLI](https://github.com/wimdeblauwe/ttcli)：该项目的目标是提供一个命令行工具，帮助设置使用JTE或Thymeleaf作为模板引擎。
 * [Spring Boot Scaffold](https://github.com/netodevel/cli-spring-boot-scaffold)：用于生成Spring Boot项目的CRUD和配置的命令行。
 * [Kor](https://github.com/Sefford/kor)：Kor是一个Clean Architecture实现的框架。
+* [Lion](https://github.com/micyo202/lion)：Lion是基于Spring Cloud体系实现的一套支持云原生的分布式微服务架构。
+* [ZL Backend](https://github.com/basic-framework/web-backend)：ZL Backend是一套企业级后端基础脚手架，基于Spring Boot构建。
 
 #### 快速开发框架
 
@@ -5887,6 +5910,7 @@
 * [TacoMall](https://github.com/realjerrytang/tacomall)：塔可商城是一个基于Spring Boot 3、Uniapp、Vue3 技术栈开发的开源跨平台小程序、管理后台，后端服务的项目。
 * [Siam](https://github.com/siam1026/siam-server)：暹罗点餐是一款Java餐饮点餐系统，适用于多门店的连锁品牌。
 * [Shopzz](https://github.com/whoiszxl/shopzz)：一个使用Spring Cloud Alibaba开发的微服务C2B2C的社区、交易平台。
+* [BcMall](https://github.com/xjjdog/bcmall)：BcMall是一个以教学为目的的电商系统。
 
 #### 秒杀系统
 
@@ -6062,6 +6086,7 @@
 * [JeeCMS](https://www.jeecms.com/)：JeeCMS是基于Java、Vue、Spring Boot等技术研发的开源内容管理系统。
 * [Asbru Web](https://wcm.asbrusoft.com/)：Asbru Web内容管理系统包括全方位的先进和强大的功能，以支持业务需求并简化小型和简单网站以及大型复杂网站的开发。
 * [Autumn](https://github.com/ShuaiJunlan/Autumn)：Autumn是一个Web子系统集合，旨在提供通用的Web系统解决方案。
+* [Apache Lenya](https://lenya.apache.org/)：Apache Lenya是一个开源的Java/XML内容管理系统，它具备版本控制、多站点管理、日程安排、搜索、所见即所得编辑器和工作流等功能。
 
 #### 博客系统
 
@@ -6118,6 +6143,8 @@
 * [MyBlog](https://github.com/Lemonreds/javaee-blog)：基于JSP/Servlet的个人博客网站。
 * [AcBlog](https://github.com/memo012/ac-blog)：适合学生搭建的个人博客。
 * [Mayday](https://gitee.com/song_haozhi/mayday)：Mayday博客系统，基于Spring Boot、Mybatis、Ehcache、Thymeleaf、Bootstrap构建。
+* [Jantent](https://github.com/jantent/Jantent)：用Spring Boot开发的Web博客系统。
+* [Mars Blog](https://gitee.com/Marsfactory/mars-blog)：Mars Blog是一个现代化的博客系统。
 
 #### 论坛系统
 
@@ -6278,6 +6305,7 @@
 * [Qcadoo MES](https://github.com/qcadoo/mes)：Qcadoo MES是一款针对中小企业的生产管理互联网应用，它结合了大型ERP系统的功能，适应中小企业的具体特点。
 * [Industry MES](https://github.com/ricefishtech/industry4.0-mes)：开源MES，生产制造管理系统。
 * [HM MES](https://gitee.com/imdreamer/hm-MES)：这里汇聚了开源社区最好的MES系统，一共有几套系统。
+* [FreeMES](https://github.com/metaxk-company/free-mes)：开源MES，支持二开。
 
 #### PMS系统
 
@@ -6301,6 +6329,7 @@
 #### 云盘系统
 
 * [ZFile](https://github.com/zfile-dev/zfile)：ZFile是一个适用于个人或小团队的在线网盘程序。
+* [Free FS](https://gitee.com/dromara/free-fs)：Free FS是一个基于Spring Boot 3.x的企业级文件管理网盘系统后端，专注于提供高性能、高可靠的文件存储和管理服务，由dromara开源。
 * [QiWen File](https://gitee.com/qiwen-cloud/qiwen-file)：基于Spring Boot、Vue CLI框架开发的分布式文件系统。
 * [ZWZ](https://gitee.com/college996/zwz-netdisk)：基于Spring Boot、Dubbo、Zookeeper、Nacos技术栈的网盘系统。
 * [Kiftd](https://gitee.com/kohgylw/kiftd)：Kiftd是一款便捷、开源、功能完善的Java网盘/云盘系统。
@@ -6776,6 +6805,7 @@
 #### TikTok
 
 * [DyJava](https://gitee.com/sxwdmjy/dy-java)：DyJava是一款功能强大的抖音Java开发工具包，支持多种抖音开发功能模块的后端开发，包括但不限于移动/网站应用、开放平台、抖店和小程序等。
+* [Live Room Watcher](https://github.com/scx567888/live-room-watcher)：可抓取直播间弹幕、礼物、点赞、原始流地址等。
 * [TikTok4j](https://github.com/cyrus07424/tiktok4j)：Java版非官方TikTok/DouYin API。
 * [TikTok Live Java](https://github.com/jwdeveloper/TikTokLiveJava)：用于从TikTok LIVE实时接收直播事件(评论、礼物等)。
 
@@ -7065,6 +7095,7 @@
 * [IBC](https://github.com/IbcAlpha/IBC)：IBC可以自动化运行盈透证券交易者工作站和网关的许多方面。
 * [Univocity Trader](https://github.com/uniVocity/univocity-trader)：Univocity Trader是一个开源交易框架，旨在使任何具有基本编程技能的人都能有效地创建和测试用于买卖股票、加密货币或任何其他类型工具的交易算法。
 * [Eclipse Tradista](https://github.com/eclipse-tradista/tradista)：Tradista是一种轻量级的金融风险管理解决方案，使你能够使用单一工具管理你的日常财务和风险管理任务。
+* [ObjectLab Kit](https://github.com/Appendium/objectlabkit)：商业/外汇日期计算器、外汇汇率计算器和实用工具。
 
 #### 金融API
 
@@ -7668,6 +7699,7 @@
 * [Telegram Bot](https://github.com/vendelieu/telegram-bot)：带有方便的Kotlin DSL的Telegram Bot API包装器。
 * [JTelegramBot](https://github.com/Eng-Fouad/JTelegramBot)：JTelegramBot是一个Java库，它使用构建器设计模式对Telegram Bot API进行了封装，使其更简单易用。
 * [Kt Telegram Bot](https://github.com/elbekD/kt-telegram-bot)：用于Kotlin语言的Telegram Bot库。
+* [Telebof](https://github.com/natanimn/Telebof)：Telebof是一个简单易用的现代Java库，用于使用Telegram Bot API构建Telegram机器人。
 
 #### Facebook机器人
 
@@ -8944,6 +8976,7 @@
 * [WellBehavedFX](https://github.com/FXMisc/WellBehavedFX)：该项目为JavaFX定义和覆盖事件处理程序(例如键盘快捷键)提供了更好的机制。
 * [SynchronizeFX](https://github.com/zeiss-digital-innovation/SynchronizeFX)：SynchronizeFX支持在本地计算机和网络上的不同JVM之间进行属性绑定。
 * [JideFX](https://github.com/jidesoft/jidefx-oss)：JideFX通用层是JavaFX平台各种扩展和实用程序的集合。
+* [FX](https://github.com/int4-org/FX)：这是一个JavaFX库，提供流式、类型安全的控件、面板和自定义节点构建器，以及响应式、领域感知模型和可观察实用程序。
 
 #### JavaFX主题库
 
@@ -9199,6 +9232,7 @@
 * [IPED](https://github.com/sepinf-inc/IPED)：IPED是一款开源软件，可用于处理和分析数字证据，由巴西联邦警察局的数字取证专家开发。
 * [NodeBox](https://github.com/nodebox/nodebox)：NodeBox系列工具让你能够按照自己想要的方式创建生成设计，由布鲁塞尔圣卢卡斯大学学院开发。
 * [FigTree](https://github.com/rambaut/figtree)：FigTree被设计为系统发育树的图形查看器和用于生成可发表图表的程序。
+* [SplitsTree](https://github.com/husonlab/splitstree6)：SplitsTree是一个开源项目，它提供了一系列算法和流程，用于计算和处理无根和有根系统发育树及网络，由蒂宾根大学开源。
 * [PEmbroider](https://github.com/CreativeInquiry/PEmbroider)：PEmbroider是一个使用Processing进行计算刺绣的开源库，由CMU开源。
 * [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI)：jExifToolGUI是一个多平台Java/Swing图形前端，由Phil Harvey开发，用于优秀的命令行ExifTool应用程序。
 * [WePush](https://github.com/rememberber/WePush)：专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息等。
@@ -9787,6 +9821,7 @@
 * [Game](https://github.com/pacampbell/Game)：用于Java 2D游戏编程的类集合。
 * [SGL](https://github.com/regb/scala-game-library)：SGL是一个使用Scala开发跨平台2D视频游戏的库。
 * [Chesslib](https://github.com/bhlangonijr/chesslib)：Chesslib是一个简单的Java国际象棋库，用于根据棋盘位置生成合法的国际象棋走法、解析以PGN或FEN格式存储的国际象棋游戏以及许多其他内容。
+* [Majiang Algorithms](https://github.com/esrrhs/majiang_algorithm)：麻将胡牌算法以及AI算法。
 * [JBT](https://github.com/gaia-ucm/jbt)：JBT是一个用于构建和运行行为树的Java框架。
 * [Clyde](https://github.com/threerings/clyde)：Clyde库提供了各种用于创建动作导向的联网3D游戏的工具。
 * [Smallville](https://github.com/nickm980/smallville)：电子游戏的生成代理。
@@ -9871,6 +9906,7 @@
 * [Riiablo](https://github.com/collinsmith/riiablo)：用Java和LibGDX重制《暗黑破坏神II》。
 * [ByteLegend](https://github.com/ByteLegend/ByteLegend)：ByteLegend是一款免费、开源的MMORPG游戏，你可以在其中获得现实世界的高薪编程技能。
 * [OpenKeeper](https://github.com/tonihele/OpenKeeper)：OpenKeeper是地下城守护者II游戏和引擎的开源重制版。
+* [Xonotic](https://github.com/xonotic/xonotic)：Xonotic是一款令人上瘾的竞技场式第一人称射击游戏，拥有流畅的动作和丰富的武器种类。
 
 #### 象棋引擎
 
@@ -10393,7 +10429,7 @@
 * [Javastruct](https://github.com/dubrousky/javastruct)：Javastruct是一个将Java对象用作C或C++结构的库。
 * [Strukt](https://github.com/Jire/Strukt)：JVM上的C风格结构体。
 
-## 随机数生成器
+## 随机生成器
 
 * [JNanoId](https://github.com/aventrix/jnanoid)：Java的唯一字符串ID生成器。
 * [UUID Creator](https://github.com/f4b6a3/uuid-creator)：这是一个用于生成通用唯一标识符的Java库。
@@ -10411,6 +10447,7 @@
 * [Kotlinx UUID](https://github.com/hfhbd/kotlinx-uuid)：Kotlinx UUID是一个多平台Kotlin库，为kotlin.uuid.Uuid添加了辅助方法。
 * [CUID Java](https://github.com/thibaultmeyer/cuid-java)：CUID的Java实现。
 * [IDGenerator](https://github.com/jingpeicomp/id-generator)：生成19位的Long ID、22位的短UUID、卡号、短卡号、带校验码卡号、激活码、付款码、数据加密、手机号加密、带失效时间的数字加密。
+* [Name Machine](https://github.com/ajbrown/name-machine)：Name Machine是一个Java工具，用于生成具有合理出现概率的随机名称。
 
 ## 算法库
 
@@ -10815,6 +10852,15 @@
 * [PT2MATSim](https://github.com/matsim-org/pt2matsim)：PT2MATSim是一个软件包，用于将来自GTFS、HAFAS或OSM的公共交通数据转换为完全映射的MATSim时刻表，由柏林工业大学开源。
 * [OSMLib](https://github.com/conveyal/osm-lib)：一个用于访问任意大小的OSM文件中随机实体的库。
 * [Planetiler OpenMapTiles](https://github.com/openmaptiles/planetiler-openmaptiles)：用Java实现的适用于Planetiler工具的OpenMapTiles矢量瓦片模式。
+* [OpenMetroMaps](https://github.com/OpenMetroMaps/OpenMetroMaps)：OpenMetroMaps一种用于存储公共交通网络示意图的文件格式。
+
+#### GTFS
+
+* [OneBusAway GTFS](https://github.com/OneBusAway/onebusaway-gtfs-modules)：用于读取和写入GTFS源的Java库，包括数据库支持。
+* [GTFS Realtime](https://github.com/MobilityData/gtfs-realtime-bindings)：根据GTFS Realtime协议缓冲区规范为流行语言生成的语言绑定。
+* [GTFS Validator](https://github.com/MobilityData/gtfs-validator)：用于调度(静态)文件的规范GTFS验证器项目。
+* [GTFS Validator](https://github.com/conveyal/gtfs-validator)：用于GTFS验证和统计的Java框架。
+* [GTFS Lib](https://github.com/conveyal/gtfs-lib)：一个使用磁盘存储加载和保存任意大小的GTFS提要的库。
 
 #### 坐标库
 
@@ -10905,14 +10951,6 @@
 * [OpenTrafficSim](https://github.com/averbraeck/opentrafficsim)：OpenTrafficSim是一个多级交通模拟器，由代尔夫特理工大学开源。
 * [RouteConverter](https://github.com/cpesch/RouteConverter)：RouteConverter是一款流行的开源工具，用于显示、编辑、丰富和转换路线、轨迹和航点。
 * [MobiTopp](https://github.com/kit-ifv/mobitopp)：MobiTopp是卡尔斯鲁厄理工学院交通研究所开发的基于代理的出行需求模型。
-
-## GTFS
-
-* [OneBusAway GTFS](https://github.com/OneBusAway/onebusaway-gtfs-modules)：用于读取和写入GTFS源的Java库，包括数据库支持。
-* [GTFS Realtime](https://github.com/MobilityData/gtfs-realtime-bindings)：根据GTFS Realtime协议缓冲区规范为流行语言生成的语言绑定。
-* [GTFS Validator](https://github.com/MobilityData/gtfs-validator)：用于调度(静态)文件的规范GTFS验证器项目。
-* [GTFS Validator](https://github.com/conveyal/gtfs-validator)：用于GTFS验证和统计的Java框架。
-* [GTFS Lib](https://github.com/conveyal/gtfs-lib)：一个使用磁盘存储加载和保存任意大小的GTFS提要的库。
 
 ## 几何学
 
@@ -11114,6 +11152,7 @@
 * [Eclipse Equinox](https://eclipse.dev/equinox/)：Equinox是OSGi核心框架规范的实现，这是一组实现各种可选OSGi服务和其他用于运行基于OSGi的系统的基础设施的捆绑包。
 * [Eclipse Virgo](https://projects.eclipse.org/projects/rt.virgo)：Virgo Web Server是一个完全基于模块的Java应用程序服务器，旨在以高度的灵活性和可靠性运行企业Java应用程序和Spring驱动的应用程序，由VMware开发。
 * [OSGi Testing](https://github.com/osgi/osgi-test)：该项目提供了一组捆绑包，其中包含用于测试OSGi API的有用类。
+* [OSGiFX](https://github.com/amitjoy/osgifx)：一款易于使用的桌面应用程序，用于远程管理OSGi框架。
 
 ## RAML
 
@@ -11450,6 +11489,7 @@
 * [Java PetitParser](https://github.com/petitparser/java-petitparser)：PetitParser结合了无扫描器解析、解析器组合器、解析表达式语法(PEG)和Packrat解析器的思想，将语法和解析器建模为可以动态重新配置的对象。
 * [Jar Jar Parse](https://github.com/BjoernLoetters/Jar-Jar-Parse)：Jar Jar Parse是一个轻量级库，专为Java中的解析器快速原型设计而设计。
 * [Mug Dot Parse](https://github.com/google/mug/tree/master/dot-parse)：低程序的Java解析器组合器，适合日常一次性解析任务。
+* [Papa Carlo](https://github.com/Eliah-Lakhin/papa-carlo)：Papa Carlo是第一个采用增量解析方法的Scala解析库。
 
 #### 源代码解析
 
