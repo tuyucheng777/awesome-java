@@ -17,6 +17,7 @@
   * [RPC框架](#RPC框架)
   * [微服务框架](#微服务框架)
   * [Spring Cloud框架](#Spring-Cloud框架)
+  * [插件框架](#插件框架)
 * [微服务库](#微服务库)
 * [微服务治理](#微服务治理)
 * [REST错误处理](#REST错误处理)
@@ -30,7 +31,6 @@
 * [Serverless](#Serverless)
 * [APM](#APM)
 * [分布式跟踪](#分布式跟踪)
-* [指标库](#指标库)
 * [API网关](#API网关)
 * [服务发现](#服务发现)
 * [容错组件](#容错组件)
@@ -303,6 +303,7 @@
   * [数据匿名化](docs/doc2.md#数据匿名化)
   * [电子签名](docs/doc2.md#电子签名)
 * [日志库](docs/doc2.md#日志库)
+  * [日志门面](docs/doc2.md#日志门面)
   * [日志采集](docs/doc2.md#日志采集)
   * [请求/响应记录](docs/doc2.md#请求响应记录)
   * [日志追踪](docs/doc2.md#日志追踪)
@@ -373,7 +374,8 @@
 * [网络爬虫](docs/doc2.md#网络爬虫)
   * [爬虫库](docs/doc2.md#爬虫库)
   * [HTML提取](docs/doc2.md#HTML提取)
-  * [爬虫平台](docs/doc2.md#爬虫平台)
+  * [爬虫系统](docs/doc2.md#爬虫系统)
+  * [爬虫IP池](docs/doc2.md#爬虫IP池)
   * [Youtube爬取](docs/doc2.md#Youtube爬取)
 * [工作流](docs/doc2.md#工作流)
 * [编排引擎](docs/doc2.md#编排引擎)
@@ -476,8 +478,12 @@
   * [文件同步](docs/doc2.md#文件同步)
 * [容器化工具](docs/doc2.md#容器化工具)
 * [DevOps](docs/doc2.md#DevOps)
+* [管理面板](docs/doc2.md#管理面板)
 * [性能分析&调优](docs/doc2.md#性能分析调优)
   * [诊断工具](docs/doc2.md#诊断工具)
+  * [指标库](docs/doc2.md#指标库)
+  * [指标报告](docs/doc2.md#指标报告)
+  * [指标收集](docs/doc2.md#指标收集)
   * [Spring Boot仪表板](docs/doc2.md#Spring-Boot仪表板)
   * [GC日志分析](docs/doc2.md#GC日志分析)
   * [堆转储](docs/doc2.md#堆转储)
@@ -522,7 +528,8 @@
   * [后台管理系统](docs/doc2.md#后台管理系统)
   * [低代码](docs/doc2.md#低代码)
   * [权限管理系统](docs/doc2.md#权限管理系统)
-  * [商城系统](docs/doc2.md#商城系统)
+  * [电商系统](docs/doc2.md#电商系统)
+  * [销售点系统](docs/doc2.md#销售点系统)
   * [秒杀系统](docs/doc2.md#秒杀系统)
   * [医疗系统](docs/doc2.md#医疗系统)
   * [项目管理](docs/doc2.md#项目管理)
@@ -551,11 +558,6 @@
   * [教育软件](docs/doc2.md#教育软件)
   * [评测系统](docs/doc2.md#评测系统)
   * [理财系统](docs/doc2.md#理财系统)
-  * [Data API](docs/doc2.md#Data-API)
-  * [插件框架](docs/doc2.md#插件框架)
-  * [POS](docs/doc2.md#POS)
-  * [业务](docs/doc2.md#业务)
-  * [电商](docs/doc2.md#电商)
 * [支付](docs/doc2.md#支付)
   * [微信支付](docs/doc2.md#微信支付)
   * [支付宝](docs/doc2.md#支付宝)
@@ -894,7 +896,6 @@
   * [解析器组合器](docs/doc2.md#解析器组合器)
   * [源代码解析](docs/doc2.md#源代码解析)
   * [手机号解析](docs/doc2.md#手机号解析)
-  * [Cron解析](docs/doc2.md#Cron解析)
   * [Tree Sitter](docs/doc2.md#Tree-Sitter)
 * [形式验证](docs/doc2.md#形式验证)
 * [印章生成](docs/doc2.md#印章生成)
@@ -994,7 +995,7 @@
 * [Alpas](https://github.com/alpas/alpas)：Alpas是一个基于Kotlin的Web框架，可让你简单、快速地创建Web应用程序和API。
 * [Asta4D](https://github.com/astamuse/asta4d)：Asta4D是一个对设计人员友好、对开发人员灵活的Web应用程序框架。
 * [FOXopen](https://github.com/Fivium/FOXopen)：FOXopen是一个基于Java的开源Web框架，能够快速开发基于安全工作流的Web系统，由英国能源与气候变化部开发。
-* [Wasabi](https://github.com/wasabifx/wasabi)：为JVM定义一个简单、可扩展的HTTP框架，并使用Kotlin构建。
+* [Wasabi](https://github.com/wasabifx/wasabi)：Wasabi是一个用Kotlin为JVM构建的HTTP框架。
 * [Java Express](https://github.com/simonwep/java-express)：基于Express.js的HTTP框架，无依赖，使用简单。
 * [HappyX](https://github.com/HapticX/happyx)：HappyX是一个异步、面向宏、全栈支持的Web框架。
 * [Severell](https://github.com/severell/severell)：Severell是一个Web应用框架，旨在让Java Web应用开发变得轻松有趣。
@@ -1083,6 +1084,7 @@
 * [YangMVC](https://gitee.com/yangtf/YangMVC)：YangMVC是一个现代化的Java Web框架，采用约定优于配置的设计理念，让Web开发变得简单高效。
 * [ServiceFramework](https://github.com/allwefantasy/ServiceFramework)：ServiceFramework是一个敏捷、快速、富领域模型的Java MVC框架。
 * [Doodle](https://github.com/zzzzbw/doodle)：Doodle是一个简易的Java MVC框架，它提供了类似于Spring的Bean容器、IoC、AOP、MVC等功能。
+* [Nettice](https://github.com/cyfonly/nettice)：基于Netty HTTP协议栈的轻量级MVC组件。
 
 #### JSF框架
 
@@ -1178,6 +1180,8 @@
 * [ExtDirectSpring](https://github.com/ralscha/extdirectspring)：Ext Direct协议在Java和Spring上的实现。
 * [aXMLRPC](https://github.com/gturri/aXMLRPC)：aXMLRPC是一个轻量级XML-RPC客户端的Java库。
 * [PRPC](https://github.com/bruce-pang/prpc)：PRPC是一个采用Netty实现的RPC框架。
+* [EasyRPC](https://github.com/yeecode/EasyRPC)：EasyRPC是一个RPC的最小实现。
+* [ABG Cloud](https://github.com/annabergite/abg-rpc)：ABG Cloud是一款速度超凡的异步响应式RPC框架。
 
 ### 微服务框架
 
@@ -1234,6 +1238,23 @@
 * [Spring Cloud Tencent](https://github.com/Tencent/spring-cloud-tencent)：Spring Cloud Tencent是实现标准Spring Cloud SPI的一站式微服务解决方案，它将Spring Cloud与腾讯中间件集成，让微服务开发变得简单。
 * [Spring Cloud Huawei](https://github.com/huaweicloud/spring-cloud-huawei)：Spring Cloud Huawei是一个让使用Spring Cloud开发微服务变得更加简单和高效的框架。
 * [Spring Cloud Formula](https://gitee.com/baidu/spring-cloud-formula)：Spring Cloud Formula是百度云CNAP的面向客户提供的Java微服务框架设施。
+
+#### 插件框架
+
+* [OSGi](https://www.osgi.org/)：OSGi是一种模块化方法和规范，允许开发者在Java中创建稳健、高度解耦且动态的应用程序。
+* [Spring Plugin](https://github.com/spring-projects/spring-plugin)：Spring Plugin提供了一种更务实的插件开发方法。
+* [Jarslink](https://github.com/sofastack/sofa-jarslink)：Jarslink是SOFABoot官方基于SOFAArk开发的功能插件，负责管理多应用在SOFAArk容器之上的合并部署，由蚂蚁开源。
+* [PF4J](https://github.com/pf4j/pf4j)：PF4J是一个开源的轻量级Java插件框架。
+* [Spring Brick](https://gitee.com/starblues/springboot-plugin-framework-parent)：为动态扩展系统而生的插件开发框架。
+* [SBP](https://github.com/hank-cp/sbp)：SBP将面向插件的编程引入Spring Boot。
+* [Lattice](https://github.com/hiforce/lattice)：Lattice是一个强大、轻量级的业务扩展调用框架。
+* [EXP](https://github.com/stateIs0/exp)：EXP是一款Java插件化热插拔框架。
+* [Mosaic](https://github.com/Time-Machine-Lab/Mosaic)：Mosaic是一个面向企业级应用的现代化Java插件框架。
+* [Easy Extension](https://github.com/xiaoshicae/easy-extension)：Easy Extension框架主要解决复杂系统的扩展性问题。
+* [JPlugin](https://github.com/sunlet/jplugin)：JPlugin是轻量级的应用框架，支持便捷地开发插件式系统。
+* [Zephyr](https://github.com/sunshower-io/zephyr)：Zephyr是一个基于Java的开源插件框架，具有智能依赖管理、模块化设计和小巧的占用空间。
+* [KWai Business Extension Framework](https://github.com/kwai/kwai-business-extension-framwork)：KWai Business Extension Framework提供一套通用业务扩展框架，通过引入业务身份识别和可扩展的隔离架构，帮助业务搭建定制业务流程的架构标准、研发工具和运维体系，由快手开发。
+* [LingFrame](https://github.com/LingFrame/LingFrame)：LingFrame是一个基于JVM的新一代微内核插件化框架。
 
 ## 微服务库
 
@@ -1572,46 +1593,6 @@
 * [SmallRye OpenTelemetry](https://github.com/smallrye/smallrye-opentelemetry)：OpenTelemetry Tracing的CDI和Jakarta REST实现。
 * [Spring Trace](https://github.com/holyeye/spring-trace)：Spring Trace可以让你轻松跟踪应用程序调用的状态。
 
-## 指标库
-
-* [Dropwizard Metrics](https://github.com/dropwizard/metrics)：Metrics提供了强大的工具包，可用于测量生产环境中关键组件的行为，由Yammer开源。
-* [Prometheus Java](https://github.com/prometheus/client_java)：适用于JVM应用程序的Prometheus检测库。
-* [OpenTelemetry Java Instrumentation](https://github.com/open-telemetry/opentelemetry-java-instrumentation)：该项目提供了一个Java代理JAR，可以附加到任何Java 8+应用程序，并动态注入字节码以从许多流行的库和框架捕获遥测数据。
-* [Eclipse Microprofile Metrics](https://github.com/microprofile/microprofile-metrics)：Microprofile Metrics旨在为Microprofile服务器提供一种统一的方式，将监控数据导出到管理代理，并提供一个统一的Java API。
-* [Servo](https://github.com/Netflix/servo)：Servo提供了一个简单的接口，用于在Java中公开和发布应用程序指标，由Netflix开源。
-* [Micrometer](https://github.com/micrometer-metrics/micrometer)：Micrometer为最流行的可观察性系统提供了一个门面，允许你在不锁定供应商的情况下检测基于JVM的应用程序代码，由VMware开源。
-* [Oculus](https://github.com/etsy/oculus)：Oculus是Etsy Kale系统的异常关联组件。
-* [CloudWatch Exporter](https://github.com/prometheus/cloudwatch_exporter)：适用于Amazon CloudWatch的Prometheus导出器。
-* [Java Metrics](https://github.com/runtimetools/javametrics)：Java Metrics为Java运行时提供性能监控工具，通过其内置仪表板直观地提供监控数据，由IBM开源。
-* [Metrics Spring](https://github.com/ryantenney/metrics-spring)：Metrics Spring将Dropwizard Metrics库与Spring集成，并提供XML和Java配置。
-* [Spectator](https://github.com/Netflix/spectator)：用于记录维度时间序列的检测代码的简单库，由Netflix开源。
-* [Alibaba Metrics](https://github.com/alibaba/metrics)：Alibaba Metrics是阿里内部广泛使用的度量埋点基础类库。
-* [FFWD](https://github.com/spotify/ffwd)：FFWD是一种灵活的度量转发代理，旨在在系统本地运行并通过各种协议接收指标，然后将它们转发到TSDB，由Spotify开源。
-* [Argus](https://github.com/salesforce/Argus)：Argus是一个时序监控和警报平台，它由离散服务组成，用于配置警报、摄取和转换指标和事件、发送通知、创建命名空间以及建立和实施策略和使用配额，由Salesforce开源。
-* [Tally](https://github.com/uber-java/tally)：Tally提供了一个通用的指标输出接口，同时让你无需担心指标的发射速度，由Uber开源。
-* [Pollianna](https://github.com/apple/pollianna)：Pollianna是一个Java库和Java命令行代理，它通过用户确定的轮询区间累积JVM指标，并通过JMX进行公开，因此它们可以被Java和非Java遥测数据汇共享，由Apple开源。
-* [SOFALookout](https://github.com/sofastack/sofa-lookout)：SOFALookout是一个利用多维度的Metrics对目标系统进行度量和监控的项目，由蚂蚁开源。
-* [Ultrabrew Metrics](https://github.com/ultrabrew/metrics)：Ultrabrew Metrics是一个高性能的仪表库，专为大规模JVM应用而设计。
-* [Blueflood](https://github.com/rax-maas/blueflood)：Blueflood是一个多租户、分布式度量处理系统，能够大规模地摄取、汇总和提供指标，由Rackspace开源。
-* [PerfMon](https://github.com/undera/perfmon-agent)：用于访问远程计算机上的系统指标的代理应用程序。
-* [Metriql](https://github.com/metriql/metriql)：Metriql是一个开源指标存储，允许公司将其指标定义为代码并轻松地在其BI和数据工具之间共享它们。
-* [Pepper Metrics](https://github.com/zrbcool/pepper-metrics)：Pepper Metrics基于RED理论，即对每个服务进行RED指标收集，并持久化到数据库，并通过Dashboard进行展示，辅助进行性能趋势分析，由酷划在线开发。
-* [Hawkular Metrics](https://github.com/hawkular/hawkular-metrics)：Hawkular Metrics是Hawkular社区的度量数据存储引擎部分。
-* [Tritium](https://github.com/palantir/tritium)：Tritium是一个用于检测应用程序的库，以在运行时提供更好的可观察性，Palantir开源。
-* [Jmxtrans](https://github.com/jmxtrans/jmxtrans)：Jmxtrans是一个工具，允许你连接到任意数量的JVM并查询它们的属性，而无需编写任何Java代码。
-* [MetricsHub](https://github.com/MetricsHub/metricshub-community)：MetricsHub是OpenTelemetry的通用指标收集解决方案。
-* [Java StatsD Client](https://github.com/tim-group/java-statsd-client)：用Java实现的StatsD客户端库。
-* [Java DogStatsD Client](https://github.com/DataDog/java-dogstatsd-client)：用Java实现的DogStatsD客户端库，由DataDog开源。
-* [Kafka StatsD Metrics](https://github.com/airbnb/kafka-statsd-metrics2)：将Kafka指标发送到StatsD，由Airbnb开源。
-* [Metrics InfluxDB](https://github.com/davidB/metrics-influxdb)：一个用于指标的报告器，向InfluxDB服务器发布测量结果。
-* [Metrics Elasticsearch Reporter](https://github.com/elastic/elasticsearch-metrics-reporter-java)：Metrics Elasticsearch报告器。
-* [Micrometer JVM Extras](https://github.com/mweirauch/micrometer-jvm-extras)：为Micrometer提供的一组额外的JVM进程指标。
-* [Metrics](https://github.com/MinXie1209/metrics)：Metrics是一个暴露应用指标的平台，提供业务无侵入方式对生产级Java服务应用进行指标的监控和暴露。
-* [Illuminati](https://github.com/LeeKyoungIl/illuminati)：Illuminati是一个收集应用中所有数据的平台，并通过Kibana或其他工具实时显示数据。
-* [Kafka Metrics](https://github.com/amient/kafka-metrics)：Kafka Metrics是一个用于实时聚合大型分布式系统指标的系统。
-* [JMXFetch](https://github.com/DataDog/jmxfetch)：JMXFetch是一个新工具，用于从JMX服务器收集指标，以便将其发送到Datadog。
-* [Metrics Kafka](https://github.com/stealthly/metrics-kafka)：Metrics Kafka提供一个端到端的工作环境，使系统能够将其指标/传感器数据发送到Kafka，然后根据这些数据生成警报和图表。
-
 ## API网关
 
 * [Zuul](https://github.com/Netflix/zuul)：Zuul是一种网关服务，提供动态路由、监控、弹性、安全性等，由Netflix开源。
@@ -1637,6 +1618,7 @@
 * [Kaazing Gateway](https://github.com/kaazing/gateway)：Kaazing Gateway是一个网络网关，旨在为基于Web的实时协议提升提供单一接入点，支持负载均衡、集群和安全管理。
 * [API ML](https://github.com/zowe/api-layer)：API ML为大型机服务REST API提供单一访问点，由IBM开源。
 * [OWASP Application Gateway](https://github.com/The-OAG-Development-Project/Application-Gateway)：OWASP Application Gateway是一个HTTP反向代理，位于你的Web应用程序和客户端之间，负责处理Oauth2登录和会话管理。
+* [Bus Vortex](https://github.com/818000/bus/tree/main/bus-vortex)：Bus Vortex是一个基于Spring WebFlux构建的分布式、全异步、高性能、可扩展且轻量级的API网关。
 
 ## 服务发现
 
@@ -1694,6 +1676,7 @@
 * [ServiceKeeper](https://github.com/esastack/esa-servicekeeper)：ServiceKeeper是一个轻量级的服务治理框架，提供了许多很棒的功能，比如速率限制、并发限制、断路器、重试并撤退。
 * [Upperbound](https://github.com/SystemFw/upperbound)：Upperbound是一个纯函数式的基于区间速率限制器。
 * [Distributed Limit](https://github.com/forezp/distributed-limit)：分布式限流解决方案。
+* [Bus Limiter](https://github.com/818000/bus/tree/main/bus-limiter)：Bus Limiter是一款轻量级、局部化的热点检测和性能下降框架，专为高流量场景而设计。
 
 #### 重试
 
@@ -1807,6 +1790,7 @@
 * [LemonGrenade](https://github.com/NationalSecurityAgency/lemongrenade)：LemonGrenade被设计为一个自动化系统，能够将系统、数据源或功能智能地链接在一起，而无需最终用户手动指定链接，由美国国家安全局开源。
 * [DataFu](https://github.com/apache/datafu)：DataFu是用于处理Hadoop中的大规模数据的库集合，由LinkedIn开源。
 * [HRider](https://github.com/NiceSystems/hrider)：HRider是一个GUI应用程序，它提供了一种更简单的方式来查看或操作保存在HBase分布式数据库中的数据。
+* [HIndex](https://github.com/Huawei-Hadoop/hindex)：HBase二级索引，由华为开源。
 
 #### 大数据组件
 
@@ -2226,6 +2210,7 @@
 * [JoyQueue](https://github.com/jd-opensource/joyqueue)：JoyQueue是一个性能卓越的云原生生产就绪消息平台，由京东开源。
 * [HornetQ](https://github.com/hornetq/hornetq)：HornetQ是一个开源项目，用于构建多协议、可嵌入、高性能、集群、异步消息传递系统，由Redhat开发。
 * [XXL-MQ](https://gitee.com/xuxueli0323/xxl-mq)：XXL-MQ是一款轻量级分布式消息队列，拥有水平扩展、高可用、海量数据堆积、单机TPS过10万、毫秒级投递等特性。
+* [WeEvent](https://github.com/WeBankBlockchain/WeEvent)：WeEvent是一套分布式事件驱动架构，实现了可信、可靠、高效的跨机构、跨平台事件通知机制，由微众银行开源。
 * [SwiftMQ](https://github.com/iitsoftware/swiftmq-ce)：SwiftMQ CE是一个功能齐全的企业消息传递系统。
 * [TxEventQ](https://www.oracle.com/database/advanced-queuing/)：TxEventQ是Oracle数据库中内置的消息传递平台，可用于应用程序工作流、微服务和事件触发的操作。
 * [OpenMessaging](https://github.com/openmessaging/openmessaging-java)：OpenMessaging是由阿里发起，由Yahoo、滴滴、Streamlio、微众、Datapipeline等公司共同创建的分布式消息规范。
@@ -2251,6 +2236,7 @@
 * [RMQ](https://github.com/xetorthio/rmq)：RMQ是一个基于Redis的小巧且非常易用的消息队列。
 * [Octobot](https://github.com/cscotta/Octobot)：Octobot是一个任务队列工作器，旨在实现可靠性、易用性和高吞吐量。
 * [QDB](https://github.com/qdb-io/qdb-server)：QDB是一个支持重播的持久性消息队列。
+* [Luxun](https://github.com/bulldog2011/luxun)：Luxun是一款高吞吐量、分布式发布/订阅消息系统。
 
 #### IPC
 
@@ -2269,6 +2255,7 @@
 
 * [EventBus](https://github.com/greenrobot/EventBus)：EventBus是适用于Android和Java的发布/订阅事件总线。
 * [EventBus](https://github.com/MinecraftForge/EventBus)：EventBus是一个简单的订阅者-发布者框架。
+* [Guava EventBus](https://github.com/google/guava/tree/master/guava/src/com/google/common/eventbus)：EventBus允许组件之间进行发布/订阅式通信，而无需显式地相互注册。
 * [MBassador](https://github.com/bennidi/mbassador)：MBassador是一个轻量级、高性能的事件总线，实现了发布订阅模式。
 * [Otto](https://github.com/square/otto)：Otto是一种事件总线，旨在解耦应用程序的不同部分，同时仍然允许它们高效通信，由Square开源。
 * [Alibaba RSocket Broker](https://github.com/alibaba/alibaba-rsocket-broker)：Alibaba RSocket Broker是一款基于RSocket协议的响应式对等通讯系统，为通讯多方构建分布式的RPC、Pub/Sub、Streaming等通讯支持。
@@ -2279,6 +2266,7 @@
 * [Nakadi](https://github.com/zalando/nakadi)：Nakadi是一个分布式事件总线代理，它在类似Kafka的队列之上实现了RESTful API抽象，可用于以可靠且高度可用的方式实时发送、接收和分析流数据，由Zalando开源。
 * [Apollo](https://github.com/Sloaix/Apollo)：RxJava的事件总线。
 * [TinyBus](https://github.com/sergejsha/tinybus)：TinyBus是Otto事件总线的更快实现，附加了你错过的额外功能。
+* [Netflix EventBus](https://github.com/Netflix/netflix-commons/tree/master/netflix-eventbus/src)：用于进程内的事件总线。
 * [xBus](https://github.com/mcxiaoke/xBus)：简洁的EventBus实现。
 * [ModuleBus](https://github.com/cangwang/ModuleBus)：ModuleBus用于不同模块之间的通信。
 * [ElegantBus](https://github.com/codyer/ElegantBus)：ElegantBus是一款Android平台，基于LivaData的消息总线框架。
@@ -2318,6 +2306,7 @@
 * [Message Pipe](https://github.com/minbox-projects/message-pipe)：Message Pipe是一款基于Redis实现的分布式顺序消息管道框架。
 * [MessageBus](https://github.com/dorkbox/MessageBus)：MessageBus是一个极其轻量级的消息/事件总线实现。
 * [JPost](https://github.com/janishar/JPost)：Java和Android类通信库。
+* [KillBill Queue](https://github.com/killbill/killbill-commons/tree/master/queue)：KillBill Queue是一个通知队列、持久消息总线库。
 
 #### 应用总线
 
@@ -2353,42 +2342,21 @@
 
 #### Kafka
 
-* [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Kafka集群的工具，由Yahoo开源。
-* [Kafka UI](https://github.com/provectus/kafka-ui)：用于管理Kafka集群的多功能、快速且轻量级的Web UI。
 * [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
 * [Confluent Parallel Consumer](https://github.com/confluentinc/parallel-consumer)：并行Apache Kafka客户端包装器，具有客户端排队功能、更简单的消费者/生产者API、关键并发性和可扩展的非阻塞IO处理。
-* [KafkaUI Lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
 * [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
-* [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
-* [Kouncil](https://github.com/Consdata/kouncil)：Kouncil让你可以使用现代Web界面监控和管理Apache Kafka集群。
 * [Liiklus](https://github.com/bsideup/liiklus)：Liiklus是基于RSocket/gRPC的事件系统网关，防止那些认为Kafka过于低级的人。
 * [Greyhound](https://github.com/wix/greyhound)：Apache Kafka的高级SDK。
-* [Offset Explorer](https://www.kafkatool.com/index.html)：Offset Explorer是一个用于管理和使用Apache Kafka集群的GUI应用程序。
-* [Confluent Platform](https://www.confluent.io/en-gb/product/confluent-platform/gui-driven-management-and-monitoring/)：Confluent Platform提供直观的GUI来管理和监控Apache Kafka，由Confluent开发。
-* [Kpow](https://factorhouse.io/kpow/)：Kpow是Apache Kafka的监控和管理工具。
 * [Lenses](https://lenses.io/)：Lenses是开发人员体验工具，可帮助企业在一个地方使用每个Apache Kafka。
-* [KafkaEsque](https://github.com/patschuh/KafkaEsque)：KafkaEsque是一个用JavaFX开发的Kafka GUI工具。
-* [KnowStreaming](https://github.com/didi/KnowStreaming)：Know Streaming是一套云原生的Kafka管控平台，脱胎于众多互联网内部多年的Kafka运营实践经验，专注于Kafka运维管控、监控告警、资源治理、多活容灾等核心场景，由滴滴开源。
-* [EFAK](https://github.com/smartloli/EFAK)：EAFK是一个开源的Kafka集群管理和监控工具，旨在帮助用户更好地管理和监控其Kafka集群。
-* [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
-* [KafkIO](https://kafkio.com/)：面向工程师和管理员的快速、简便的Apache Kafka GUI，适用于macOS、Windows和Linux，由Certak公司维护。
-* [Kafka WebView](https://github.com/SourceLabOrg/kafka-webview)：Kafka WebView提供了一个易于使用的基于Web的界面，用于从Kafka主题中读取数据并提供基本的过滤和搜索功能。
 * [Cruise Control](https://github.com/linkedin/cruise-control)：Cruise Control是一款帮助大规模运行Kafka集群的产品，由LinkedIn开源。
-* [KCenter](https://github.com/xaecbd/KCenter)：KCenter是一个统一的Kafka集群管理维护、生产者/消费者监控、生态组件使用的一站式平台。
-* [Kafka Map](https://github.com/dushixiang/kafka-map)：Kafka Map是使用Java 17和React开发的Kafka可视化工具。
 * [Kstreamplify](https://github.com/michelin/kstreamplify)：Kstreamplify是一个Java库，使你能够快速创建基于Kafka Stream的应用程序，并提供许多附加高级功能，由米其林开源。
-* [Kafka Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：Kafka Sprout是一个Web GUI，可以帮助你在本地计算机上快速启动Zookeeper和Kafka服务器，无需任何代码配置。
-* [Kafka Dog](https://github.com/Pitayafruits/kafka-dog)：Kafka Dog是一款轻量级的Apache Kafka可视化管理工具，提供图形化界面用于管理和监控Kafka集群。
 * [Xinfra Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor是一个在真实集群中实现和执行长时间运行的kafka系统测试的框架，由LinkedIn开源。
 * [Confluent Schema Registry](https://github.com/confluentinc/schema-registry)：Kafka的Confluence模式注册中心。
-* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Kafka集群的UI。
 * [Mirus](https://github.com/salesforce/mirus)：Mirus是Kafka的跨数据中心数据复制工具，由Salesforce开源。
-* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
 * [Jikkou](https://github.com/streamthoughts/jikkou)：Jikkou是一款开源工具，旨在提供一种高效且简单的方法来管理、自动化和配置事件流平台上的资源。
 * [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Kafka集群的方法，由RedHat开源。
 * [Julie](https://github.com/kafka-ops/julie)：JulieOps帮助你自动化管理Kafka中的事物，从主题、配置到元数据，以及访问控制、模式。
 * [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Kafka之上的流式任务处理框架，由Line开源。
-* [Kafka Console UI](https://gitee.com/xiaodong_xu/kafka-console-ui)：一款轻量级的kafka可视化管理平台，安装配置快捷、简单易用。
 * [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
 * [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
 * [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载均衡的服务，由Pinterest开源。
@@ -2396,10 +2364,6 @@
 * [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
 * [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
 * [Kafka Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
-* [Kafbat UI](https://github.com/kafbat/kafka-ui)：Kafbat UI是一个免费的开源Web UI，用于监控和管理Kafka集群。
-* [Klaw](https://github.com/Aiven-Open/klaw)：Klaw是一个自助式Kafka主题管理/治理工具/门户，由Aiven开源。
-* [Astraea](https://github.com/opensource4you/astraea)：Astraea提供各式工具来降低Kafka使用门槛以及提高Kafka效能和资源使用率。
-* [Kafka Web Console](https://github.com/cjmamo/kafka-web-console)：Kafka Web Console是一个用于监控Apache Kafka的Java Web应用程序。
 * [Kafka Offset Monitor](https://github.com/Morningstar/kafka-offset-monitor)：这是一个用于监控Kafka消费者及其在日志中的位置(偏移量)的应用程序。
 * [Kafka Backup](https://github.com/itadventurer/kafka-backup)：Kafka Backup是一个用于备份和恢复Kafka数据的工具，包括所有(可配置的)主题数据，尤其是消费者组的偏移量。
 * [Uforwarder](https://github.com/uber/uForwarder)：Uforwarder是一个代理，它通过RPC协议将数据从Kafka传输到消息消费者。
@@ -2548,7 +2512,7 @@
 * [Zoie](https://github.com/senseidb/zoie)：Zoie是一个用Java编写的实时搜索/索引系统，由LinkedIn开源。
 * [Scope](https://www.transwarp.cn/subproduct/scope)：Scope是星环第二代搜索引擎软件，可应用于表单、日志、视频、图像、文本文件等各类非结构化数据的对象存储与检索场景。
 * [Cleo](https://github.com/LinkedInAttic/cleo)：Cleo是一个灵活的软件库，用于快速开发部分、无序和实时的预输入搜索，由LinkedIn开源。
-* [OpenSearchServer](https://github.com/jaeksoft/opensearchserver)：OpenSearchServer是一款功能强大的、基于Lucene的企业级搜索引擎软件。
+* [OpenSearchServer](https://github.com/jaeksoft/opensearchserver)：OpenSearchServer是一款功能强大、基于Lucene的企业级搜索引擎软件。
 * [Bobo](https://github.com/senseidb/bobo)：Bobo是一个用Java编写的多面搜索引擎，由LinkedIn开源。
 * [OpenK9](https://github.com/smclab/openk9)：OpenK9是一款完整的认知企业搜索解决方案，由SMC Treviso开源。
 * [Loklak](https://github.com/loklak/loklak_server)：Loklak是一个服务器应用程序，能够从各种来源收集消息，包括Twitter，服务器包含搜索索引和点对点索引共享接口。
@@ -2941,7 +2905,7 @@
 * [HttpFetch](https://github.com/youzan/httpfetch)：HttpFetch用于对HTTP请求进行封装，通过对接口函数进行代理，实现优雅的HTTP调用，有赞开源。
 * [EasyHttp](https://github.com/getActivity/EasyHttp)：Android网络请求框架，简单易用。
 * [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：OkGo基于HTTP协议，封装了OkHttp的网络请求框架。
-* [Wasp](https://github.com/orhanobut/wasp)：紧凑且易于使用的“一体化”Android网络解决方案。
+* [Wasp](https://github.com/orhanobut/wasp)：小巧易用、功能齐全的安卓网络解决方案。
 * [STTP](https://github.com/softwaremill/sttp)：STTP是SoftwareMill开源的库，它提供了一个干净的、程序员友好的API来描述HTTP请求以及如何处理响应。
 * [Http4s](https://github.com/http4s/http4s)：Http4s是一个极简且符合Scala规范的HTTP服务接口。
 * [Ktorfit](https://github.com/Foso/Ktorfit)：Ktorfit是一个适用于Kotlin多平台的HTTP客户端/Kotlin符号处理器，使用受Retrofit启发的KSP和Ktor客户端。
@@ -2991,6 +2955,9 @@
 * [Axios](https://github.com/xiao-akatsuki/axios)：使Java更容易发送HTTPS。
 * [DavidWebb](https://github.com/hgoebl/DavidWebb)：轻量级Java HTTP客户端，用于调用JSON REST服务。
 * [Spring Boot HTTP Clients](https://github.com/maciejwalkowiak/spring-boot-http-clients)：Spring Boot HTTP Clients为Spring Boot应用程序中基于WebClient和Spring 6 HTTP接口的HTTP客户端提供零样板自动配置。
+* [Hutool HTTP](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-http)：Hutool HTTP针对JDK的HttpUrlConnection做一层封装，简化了HTTPS请求、文件上传、Cookie记忆等操作。
+* [Bus HTTP](https://github.com/818000/bus/tree/main/bus-http)：Bus HTTP是一个高性能的Java应用程序HTTP客户端库。
+* [Kalle](https://github.com/yanzhenjie/Kalle)：Kalle是一个Android平台的HttpClient，它遵循HTTP标准协议，支持同步请求和异步请求。
 
 #### HTTP路由
 
@@ -3210,6 +3177,8 @@
 * [Jocket](https://github.com/pcdv/jocket)：Jocket是使用共享内存的低延迟Java套接字实现。
 * [OkSocket](https://github.com/xuuhaoo/OkSocket)：OkSocket是一个Java库，旨在解决轻量级的Socket通信。
 * [BizSocket](https://github.com/typ0520/bizsocket)：异步Socket，对一些业务场景做了支持。
+* [Hutool Socket](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-socket)：Hutool Socket针对NIO和AIO做了简单的封装，用于简化Socket异步开发。
+* [Bus Socket](https://github.com/818000/bus/tree/main/bus-socket)：Bus Socket是一个开源的Java AIO框架。
 * [EasySocket](https://github.com/jiusetian/EasySocket)：EasySocket是一个轻量级的Android端Socket框架，可快速实现客户端和服务端之间的TCP长连接通讯。
 * [Socket.D](https://gitee.com/noear/socket.d)：Socket.D是基于事件和语义消息流的网络应用协议。
 * [JUDS](https://github.com/mcfunley/juds)：JUDS提供类来满足Java中访问Unix域套接字的需求。
@@ -3250,6 +3219,7 @@
 * [Google Cloud Messaging](https://github.com/google/gcm)：Google Cloud Messaging是一种服务，允许开发人员将数据从服务器发送到用户的设备，并从同一连接上的设备接收消息。
 * [野火IM](https://github.com/wildfirechat/im-server)：野火IM是专业级的即时通讯和实时音视频整体解决方案，由北京野火无限网络科技有限公司维护和支持。
 * [V-IM](https://gitee.com/alyouge/V-IM)：V-IM是基于JS的超轻量级聊天软件，服务端使用Spring Boot。
+* [Briar](https://github.com/briar/briar)：Briar是一款专为活动家、记者以及任何需要安全、便捷、强大的沟通方式的人士设计的即时通讯应用。
 * [FshareIM](https://github.com/fsharechat)：FshareIM是一个技术自主可控即时IM通讯系统，适于私有化部署。
 * [Face2Face](https://github.com/a2888409/face2face)：基于Netty的异步非阻塞实时聊天(IM)服务器。
 * [Tigase Server](https://github.com/tigase/tigase-server)：Tigase XMPP Server是用Java编写的高度优化、高度模块化且非常灵活的XMPP/Jabber服务器。
@@ -3299,6 +3269,7 @@
 * [LeoIM](https://github.com/lining90567/leo-im-server)：LeoIM是基于Java、Netty、Vue、Element-UI开发的轻量级IM。
 * [DevSphere](https://github.com/shutu-hub/devSphere)：DevSphere是一个基于Spring Boot构建的高性能实时聊天系统。
 * [FastBeeIM](https://github.com/Art0white/FastBeeIM)：提供给开发者快速实现IM服务端、客户端的能力。
+* [KingIM](https://github.com/jkxqj/KingIM)：KingIM是基于Netty的性能强悍的实时通讯系统。
 
 #### Pcap
 
@@ -3362,6 +3333,7 @@
 * [Carapaceproxy](https://github.com/diennea/carapaceproxy)：Carapac是一个分布式Java反向代理。
 * [Bouncer](https://github.com/ggrandes/bouncer)：Bouncer是一个开源Java网络代理。
 * [Shadowsocks Java](https://github.com/TongxiJi/shadowsocks-java)：基于Netty 4框架的Java实现的Shadowsocks。
+* [Shadowsocks Java](https://github.com/blakey22/shadowsocks-java)：Shadowsocks Java客户端。
 * [Shadowsocks Netty](https://github.com/ksfzhaohui/shadowsocks-netty)：基于Netty 4.0实现的Shadowsocks客户端。
 * [Proxy Vole](https://github.com/MarkusBernhardt/proxy-vole)：Proxy Vole是一个用于自动检测平台网络代理设置的Java库。
 * [Mallet](https://github.com/sensepost/mallet)：Mallet是一种用于创建任意协议代理的工具，类似于我们熟悉的拦截Web代理，只是更加通用。
@@ -3694,6 +3666,7 @@
 * [DI.kt](https://github.com/sergeshustoff/dikt)：Kotlin多平台的简单且强大的DI。
 * [Koject](https://github.com/mori-atsushi/koject)：Koject是一个基于KSP的Kolin多平台依赖注入容器库。
 * [TODAY](https://github.com/TAKETODAY/today-infrastructure)：一个用于应用软件基础设施的Java库。
+* [Petite](https://petite.jodd.org/)：Petite是一款非常出色的小型IoC容器和组件管理器。
 
 ## AOP
 
@@ -3708,6 +3681,9 @@
 * [Proxy](https://github.com/Ericsson/proxy)：Proxy是一个小而强大的拦截库，可以让你在运行时操作现有的对象和类行为，由爱立信开源。
 * [CaesarJ](https://caesarj.org/)：CaesarJ是一种基于Java的新编程语言，它有助于实现更好的模块化和可重用组件的开发，由达姆城工业大学开源。
 * [Matrix](https://github.com/Nepxion/Matrix)：Matrix是一款集成Spring AutoProxy，Spring Registrar和Spring Import Selector三种机制的AOP框架。
+* [Proxetta](https://proxetta.jodd.org/)：Proxetta在运行时创建动态代理，为切面提供高效的支持。
+* [Hutool AOP](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-aop)：Hutool AOP主要针对JDK中动态代理进行封装。
+* [Bus Proxy](https://github.com/818000/bus/tree/main/bus-proxy)：Bus Proxy为在Java中使用动态代理提供了一种简单而强大的方法。
 
 ## 缓存库
 
@@ -3724,6 +3700,8 @@
 * [Store](https://github.com/nytimes/Store)：Store是用于异步数据加载和缓存的Java库，由纽约时报开源。
 * [MicroStream](https://github.com/microstream-one/microstream)：MicroStream是一个突破性的Java原生对象图持久层，专为需要轻量级高性能持久层的微服务和Serverless函数而构建。
 * [J2Cache](https://gitee.com/ld/J2Cache)：J2Cache是OSChina目前正在使用的二级缓存框架。
+* [Bus Cache](https://github.com/818000/bus/tree/main/bus-cache)：Bus Cache是一个企业级缓存框架，它提供统一的缓存抽象，支持多种存储实现。
+* [Hutool Cache](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-cache)：Hutool Cache模块提供一种缓存的简单实现方案。
 * [Cache4k](https://github.com/ReactiveCircus/cache4k)：Kotlin Multiplatform的内存缓存。
 * [Reservoir](https://github.com/anupcowkur/Reservoir)：Reservoir是一个简单的Android库，允许你使用键/值对轻松序列化对象并将其缓存到磁盘。
 * [LayerCache](https://github.com/appmattus/layercache)：使Android和Java的缓存变得简单。
@@ -3806,6 +3784,7 @@
 * [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)：Spring AI Alibaba基于Spring AI构建，是阿里云通义系列模型及服务在Java AI应用开发领域的最佳实践。
 * [Agents Flex](https://gitee.com/agents-flex/agents-flex)：Agents Flex是一个用Java开发的AI应用开发框架，旨在简化AI应用开发。
 * [Solon AI](https://gitee.com/opensolon/solon-ai)：Solon AI是一个Java AI(智能体)全场景应用开发框架。
+* [Hutool AI](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-ai)：Hutool AI用于对接各大AI模型的工具模块，提供了统一的API接口来访问不同的AI服务。
 * [FIT](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
 * [JoySafety](https://github.com/jd-opensource/JoySafety)：JoySafety是京东开源的大模型安全框架。
 * [LangGraph4j](https://github.com/langgraph4j/langgraph4j)：Java版LangGraph，一个使用LLM构建有状态、多参与者应用程序的库。
@@ -3885,6 +3864,7 @@
 * [AgentScope](https://github.com/agentscope-ai/agentscope-java)：AgentScope是一个由阿里开源的新一代多智能体应用开发框架。
 * [Agentic ADK](https://github.com/AIDC-AI/Agentic-ADK)：Agentic ADK是阿里巴巴国际站AI事业部推出的Agent应用开发框架，基于Google ADK和Ali LangEngine。
 * [JDOxyGent4J](https://github.com/jd-opensource/JDOxyGent4J)：OxyGent是一个开源框架，将工具、模型和代理统一为模块化的Oxy，由京东开源。
+* [Spring AI Agent Utils](https://github.com/spring-ai-community/spring-ai-agent-utils)：Spring AI Agent Utils是一个Spring AI库，它将Claude Code启发的工具和代理技能引入到你的AI应用程序中。
 * [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
 * [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
 * [Apache Flink Agents](https://github.com/apache/flink-agents)：Apache Flink Agents是一个基于Apache Flink的Agentic AI框架。
@@ -4354,6 +4334,7 @@
 * [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
 * [JavaVision](https://gitee.com/javpower/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
 * [VisRec API](https://github.com/JavaVisRec/visrec-api)：Java视觉识别规范API。
+* [Bus OpenCV](https://github.com/818000/bus/tree/main/bus-opencv)：Bus OpenCV为OpenCV提供了一个简化的Java接口。
 
 #### OCR
 
