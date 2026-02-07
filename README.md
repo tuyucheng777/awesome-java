@@ -394,6 +394,7 @@
   * [CLI库](docs/doc2.md#CLI库)
   * [TUI](docs/doc2.md#TUI)
   * [命令行参数解析](docs/doc2.md#命令行参数解析)
+  * [命令调度](docs/doc2.md#命令调度)
   * [ASCII艺术](docs/doc2.md#ASCII艺术)
   * [文本打印](docs/doc2.md#文本打印)
   * [文本表](docs/doc2.md#文本表)
@@ -538,6 +539,8 @@
   * [CMS系统](docs/doc2.md#CMS系统)
   * [博客系统](docs/doc2.md#博客系统)
   * [论坛系统](docs/doc2.md#论坛系统)
+  * [图书系统](docs/doc2.md#图书系统)
+  * [社交网络](docs/doc2.md#社交网络)
   * [ERP系统](docs/doc2.md#ERP系统)
   * [CRM系统](docs/doc2.md#CRM系统)
   * [HRM系统](docs/doc2.md#HRM系统)
@@ -706,6 +709,8 @@
   * [Swing主题库](docs/doc2.md#Swing主题库)
   * [Swing UI库](docs/doc2.md#Swing-UI库)
   * [Swing组件库](docs/doc2.md#Swing组件库)
+  * [Swing对话框](docs/doc2.md#Swing对话框)
+  * [Swing编辑器组件](docs/doc2.md#Swing编辑器组件)
   * [Swing Dock库](docs/doc2.md#Swing-Dock库)
   * [Swing布局库](docs/doc2.md#Swing布局库)
   * [Swing选择器](docs/doc2.md#Swing选择器)
@@ -724,6 +729,7 @@
   * [JavaFX项目模板](docs/doc2.md#JavaFX项目模板)
   * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
   * [浏览器](docs/doc2.md#浏览器)
+  * [Processing](docs/doc2.md#Processing)
   * [JavaFX程序](docs/doc2.md#JavaFX程序)
   * [GUI程序](docs/doc2.md#GUI程序)
   * [IDE](docs/doc2.md#IDE)
@@ -1290,6 +1296,7 @@
 * [Water](https://gitee.com/noear/water)：为Java服务开发和治理，提供一站式解决方案(可以理解为微服务架构支持套件)。
 * [CoSky](https://gitee.com/AhooWang/CoSky)：CoSky是一个轻量级微服务治理平台，为分布式系统提供服务发现和配置管理功能。
 * [DHorse](https://github.com/512team/dhorse)：DHorse是一个轻量级、简单易用的云应用管理平台，具有多云和多环境管理、应用管理和部署、服务治理等功能。
+* [Spring Cloud Gray](https://github.com/SpringCloud/spring-cloud-gray)：Spring Cloud Gray是一套开源的微服务灰度路由解决方案。
 
 ## REST错误处理
 
@@ -1495,6 +1502,7 @@
 * [Java Control Plane](https://github.com/envoyproxy/java-control-plane)：Envoy gRPC控制平面的Java实现。
 * [JEAF](https://anaptecs.atlassian.net/wiki/spaces/JEAF/overview)：JEAF是一组框架、库和工具，支持开发基于Java的轻量级云原生企业应用程序。
 * [Foremast](https://github.com/intuit/foremast)：Foremast是一个基于Kubernetes的云原生应用健康管理器，由Intuit开源。
+* [Janus](https://github.com/evoila/janus)：Janus是一个多租户可观测性代理，为Prometheus、Loki和Tempo提供基于标签的访问控制和查询强制执行。
 
 ## Serverless
 
@@ -1604,6 +1612,7 @@
 * [SIA Gateway](https://github.com/siaorg/sia-gateway)：SIA Gateway是基于Spring Cloud微服务生态体系下开发的一个分布式微服务网关系统，宜信开源。
 * [Gravitee](https://github.com/gravitee-io/gravitee-api-management)：Gravitee是一个灵活且快速的开源API网关。
 * [Zilla](https://github.com/aklivity/zilla)：Zilla是一个轻量级但功能丰富的代理，对HTTP、SSE、gRPC、MQTT和Kafka协议提供一流的支持。
+* [Amplify](https://docs.axway.com/)：Amplify是一个API网关、门户。
 * [Choreo Connect](https://github.com/wso2/product-microgateway)：Choreo Connect是一个云原生、以开发人员为中心的API网关代理，由WSO2开源。
 * [Heimdall](https://github.com/getheimdall/heimdall)：Heimdall是由Conductor Tecnologia SA开发的开源项目，旨在提供API编排解决方案。
 * [DigiRunner](https://github.com/TPIsoftwareOSPO/digiRunner-Open-Source)：DigiRunner是一个应用层API网关，可充当微服务架构中客户端与后端服务之间通信的中央枢纽。
@@ -1690,6 +1699,7 @@
 * [Sisyphus](https://github.com/houbb/sisyphus)：Sisyphus是支持过程式编程和注解编程的Java重试框架。
 * [Fast Retry](https://github.com/burukeYou/fast-retry)：Fast Retry是一个高性能任务重试框架，只需几个线程就可以支持到百万级别任务的并发重试处理。
 * [Retrieval](https://gitee.com/spjich/retrieval)：Retrieval是一个精简的Java重试组件，支持同步，异步，以及制定时间内重试。
+* [Smart Retry](https://github.com/Gxiaoqiang/smart-retry)：Smart Retry是一个方法重试组件。
 
 #### 负载均衡
 
@@ -1847,6 +1857,8 @@
 * [Beekeeper](https://github.com/ExpediaGroup/beekeeper)：Beekeeper是一个安排删除孤立路径和过期元数据的服务，由Expedia开源。
 * [Base DMS](https://github.com/basedt/dms)：Base DMS是一个开源、免费且由AI驱动的智能数据管理系统。
 * [DataQuality](https://github.com/agile-lab-dev/DataQuality)：DQ是一个构建大数据环境中并行和分布式质量检查的框架。
+* [DQOps](https://github.com/dqops/dqo)：DQOps是一款DataOps友好的数据质量监控工具，具有可定制的数据质量检查和数据质量仪表板。
+* [FTA](https://github.com/tsegall/fta)：元数据/数据识别Java库。
 
 #### 查询引擎
 
@@ -1888,6 +1900,7 @@
 * [Apache TsFile](https://github.com/apache/tsfile)：TsFile是一种专为时序数据设计的列式存储文件格式，支持高效压缩、读写高吞吐，并且兼容Spark、Flink等多种框架，由清华大学开源。
 * [IndexR](https://github.com/shunfei/indexr)：IndexR是HDFS上的超快速列式数据格式，专注于快速分析，既适用于海量静态(历史)数据，也适用于快速摄取实时数据，由舜飞开源。
 * [TrinityLake](https://github.com/trinitylake-io/trinitylake)：TrinityLake格式定义了Lakehouse中的对象，并提供了一种一致且高效的方式来访问和操作这些对象。
+* [Carpet](https://github.com/jerolba/parquet-carpet)：Java的Parquet序列化和反序列化库。
 * [Hardwood](https://github.com/hardwood-hq/hardwood)：Apache Parquet的最小依赖实现。
 
 #### 存储系统
@@ -2196,6 +2209,7 @@
 * [Apache ActiveMQ Artemis](https://github.com/apache/activemq-artemis)：ActiveMQ Artemis是Apache ActiveMQ的下一代消息代理。
 * [Apache Camel](https://github.com/apache/camel)：Camel是一个开源集成框架，使你能够快速轻松地集成使用或生成数据的各种系统，由RedHat开源。
 * [Apache EventMesh](https://github.com/apache/eventmesh)：EventMesh是新一代Serverless事件中间件，用于构建分布式事件驱动应用程序，由微众银行开源。
+* [TIBCO Messaging](https://www.tibco.com/platform/messaging)：TIBCO Messaging是用于可靠数据分发的企业级消息传递基础架构。
 * [QMQ](https://github.com/qunarcorp/qmq)：QMQ是去哪儿网内部广泛使用的消息中间件。
 * [PMQ](https://github.com/ppdaicorp/pmq)：PMQ是信也科技自研的一款轻量级分布式消息队列，能够保证消息的不丢失，具有部署和运维简单的特性。
 * [IBM MQ](https://www.ibm.com/products/mq)：IBM MQ是一个中间件产品系列，用于点对点和发布-订阅消息传递。
@@ -2284,6 +2298,10 @@
 * [Evas](https://github.com/sellmair/evas)：Kotlin的现代高性能小型EventBus。
 * [Nepxion EventBus](https://github.com/Nepxion/EventBus)：Nepxion EventBus是一款基于Google Guava通用事件派发机制的事件总线组件。
 * [EasyEvent](https://github.com/openquartz/easy-event)：EasyEvent是一款基于Google Guava的EventBus为蓝本的分布式、可扩展、最终一致性、实时的EventBus解决方案。
+* [LambdaEvents](https://github.com/Lenni0451/LambdaEvents)：快速且模块化的Java事件库。
+* [Orbit](https://github.com/MeteorDevelopment/orbit)：极速事件系统。
+* [DietrichEvents2](https://github.com/florianreuth/DietrichEvents2)：DietrichEvents2是世界上速度最快的Java事件系统之一。
+* [Event Library](https://github.com/SmushyTaco/Event-Library)：一个轻量级、借助反射机制但由LambdaMetafactory加速的Kotlin和JVM事件总线。
 
 #### 消息总线
 
@@ -2809,6 +2827,7 @@
 * [Apollo Delphinius](https://github.com/salesforce/apollo)：Apollo Delphinius项目是一个实验性多租户分布式系统平台，由Salesforce开源。
 * [GeoDesk](https://github.com/clarisma/geodesk)：GeoDesk是一个用于OpenStreetMap数据的快速且存储高效的地理空间数据库。
 * [CubeDB](https://github.com/cubedb/cubedb)：CubeDB是一个简单、快速的内存多键计数器存储。
+* [Actionbase](https://github.com/kakao/actionbase)：Actionbase是一个用于提供用户交互的数据库，由Kakao开源。
 
 ## 数据库中间件
 
@@ -3836,6 +3855,7 @@
 * [AI4j](https://github.com/LnYo-Cly/ai4j)：用于快速接入AI大模型应用的Java SDK。
 * [AI Java](https://github.com/mainpropath/AI-java)：AI Java旨在简化与各大模型API的交互。
 * [Intelligent Java](https://github.com/intelligentnode/IntelliJava)：IntelliJava是使用Java与最新语言模型和深度学习框架集成的终极工具。
+* [Copilot SDK Java](https://github.com/copilot-community-sdk/copilot-sdk-java)：GitHub Copilot CLI的Java SDK。
 
 #### 推理引擎
 
@@ -4330,7 +4350,6 @@
 * [GRIP](https://github.com/WPIRoboticsProjects/GRIP)：GRIP是一款用于快速原型设计和部署计算机视觉算法的应用程序，主要用于机器人应用，由伍斯特理工学院开源。
 * [Origami](https://github.com/hellonico/origami)：Origami是JVM上的图像处理、计算机视觉和神经网络库。
 * [PaperVision](https://github.com/deltacv/PaperVision)：PaperVision旨在让计算机视觉更容易被使用。
-* [OpenCV Processing](https://github.com/atduskgreg/opencv-processing)：OpenCV Processing基于OpenCV的官方Java绑定，为常见的OpenCV函数提供方便的包装器。
 * [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
 * [JavaVision](https://gitee.com/javpower/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
 * [VisRec API](https://github.com/JavaVisRec/visrec-api)：Java视觉识别规范API。
@@ -4357,6 +4376,7 @@
 * [Tess Two](https://github.com/rmtheis/tess-two)：Android版Tesseract工具是一组用于Tesseract OCR和Leptonica图像处理库的Android API和构建文件。
 * [Vlpr4j](https://github.com/eguid/vlpr4j)：基于OpenCV的Java车牌检测识别库。
 * [JavaANPR](https://github.com/oskopek/javaanpr)：JavaANPR是一款自动车牌识别软件。
+* [ABBYY Cloud OCR SDK](https://github.com/abbyy/ocrsdk.com)：ABBYY Cloud OCR SDK提供Web API，可轻松在C#、Java、Python或任何其他支持网络通信的开发工具中使用。
 
 #### 人脸识别
 
