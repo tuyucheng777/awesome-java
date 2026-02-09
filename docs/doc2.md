@@ -127,6 +127,7 @@
 * [DynamicTp](https://github.com/dromara/dynamic-tp)：基于配置中心的轻量级动态线程池，内置监控告警功能，集成常用中间件线程池管理，可通过SPI自定义扩展实现，由美团开源。
 * [Dirigiste](https://github.com/clj-commons/dirigiste)：Dirigiste提供了java.util.concurrent.ExecutorService的快速、功能丰富的检测版本，并提供了一种将该检测提供给控制机制的方法，该控制机制可以根据需要扩大或缩小池。
 * [JADE](https://developer.jdcloud.com/article/4004)：JADE是由京东零售中台-研发架构组维护的线程池项目。
+* [Claypoole](https://github.com/clj-commons/claypoole)：Clojure的线程池工具。
 * [ThreadPool4j](https://github.com/aofeng/threadpool4j)：ThreadPool4j是一个实现多线程池的类。
 * [HY.Common.TPool](https://github.com/HY-Org/hy.common.tpool)：线程池、任务、任务组、任务池，定时任务的类库。
 * [ThreadDebugger](https://github.com/Jacksgong/ThreadDebugger)：线程监视器和线程池工厂。
@@ -208,28 +209,14 @@
 
 * [Testcontainers](https://github.com/testcontainers/testcontainers-java)：Testcontainers是一个支持JUnit测试的Java库，提供通用数据库、Selenium Web浏览器或任何其他可以在Docker容器中运行的东西的轻量级一次性实例。
 * [MicroShed](https://github.com/MicroShed/microshed-testing)：MicroShed Test提供了一种快速、简单的方法来为Java微服务应用程序编写和运行真正的生产集成测试。
-* [Embedded LDAP JUnit](https://github.com/zapodot/embedded-ldap-junit)：用于在JUnit测试中运行嵌入式LDAP服务器的JUnit Rule。
-* [Embedded MySQL](https://github.com/wix-incubator/wix-embedded-mysql)：用于测试的嵌入式MySQL。
-* [Embedded Database](https://github.com/zonkyio/embedded-database-spring-test)：用于为Spring支持的集成测试创建隔离的嵌入式数据库的库。
-* [Embedded Consul](https://github.com/pszymczyk/embedded-consul)：Embedded Consul提供了在集成测试中运行Consul的简单方法。
-* [DbFit](https://github.com/dbfit/dbfit)：DbFit是一个数据库测试框架，支持对数据库代码进行简单的测试驱动开发。
-* [DbUnit](https://www.dbunit.org/)：DbUnit是一个JUnit扩展，针对数据库驱动的项目。
-* [DbSetup](https://github.com/Ninja-Squad/DbSetup)：DbSetup允许在执行自动化集成测试(通常是DAO/Repository自动化测试)之前填充数据库。
-* [MatchaDB](https://gitlab.com/carool1/matchadb)：MatchaDB是一款测试工具，它以JSON文件作为输入来填充数据库。
-* [Database Rider](https://github.com/database-rider/database-rider)：Database Rider集成了DBUnit和JUnit，使数据库测试变得轻而易举。
-* [LDAP Server](https://github.com/intoolswetrust/ldap-server)：用于测试目的的简单内存LDAP服务器。
 * [Testcontainers Spring Boot](https://github.com/PlaytikaOSS/testcontainers-spring-boot)：基于Spring Boot的集成测试的容器自动配置。
 * [Embedded Process Util](https://github.com/flapdoodle-oss/de.flapdoodle.embed.process)：Embedded Process Util为在单元测试中运行进程提供一种平台中立的方式。
-* [Alternator](https://github.com/mboudreau/Alternator)：用于测试目的在本地运行的模拟DynamoDB。
 * [Keycloak Testcontainer](https://github.com/dasniko/testcontainers-keycloak)：Keycloak SSO的Testcontainers实现。
 * [Arquillian](https://github.com/arquillian/arquillian-core)：Arquillian是一个创新且高度可扩展的JVM测试平台，使开发人员能够轻松地为Java中间件创建自动化集成、功能和验收测试，由RedHat开源。
 * [Kindcontainer](https://github.com/dajudge/kindcontainer)：基于Java的Testcontainers容器实现，为集成测试提供临时Kubernetes集群。
-* [Embedded DB JUnit](https://github.com/zapodot/embedded-db-junit)：提供内存数据库的JUnit Rule(支持H2和HyperSQL)。
-* [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。
 * [PelicanDT](https://github.com/alibaba/PelicanDT)：PelicanDT是阿里云提供的一款Linux系统远程控制利器，是主要针对分布式应用提供的集成测试解决方案，用于帮助开发者简单、高效地测试分布式应用。
 * [Lowkey Vault](https://github.com/nagyesta/lowkey-vault)：Lowkey Vault是一个测试替身，旨在与Azure Key Vault REST API兼容。
 * [Docker IT Scala](https://github.com/whisklabs/docker-it-scala)：一组实用程序类，可轻松进行与Scala中的Docker化服务的集成测试。
-* [DbSandboxer](https://github.com/misirio/dbsandboxer)：DbSandboxer通过为集成测试创建沙盒数据库实例来为Spring Boot应用程序提供测试隔离。
 
 #### 接口测试
 
@@ -256,6 +243,17 @@
 * [WSPerfLab](https://github.com/Netflix-Skunkworks/WSPerfLab)：用于测试Web服务实现的项目，由Netflix开源。
 * [RestCLI](https://github.com/restcli/restcli)：用于执行Intellij HTTP客户端文件的命令行应用程序。
 * [HttpX](https://github.com/servicex-sh/httpx)：HttpX是一个用于执行来自JetBrains Http File的请求的CLI。
+
+#### 数据库测试
+
+* [Embedded Database](https://github.com/zonkyio/embedded-database-spring-test)：用于为Spring支持的集成测试创建隔离的嵌入式数据库的库。
+* [DbFit](https://github.com/dbfit/dbfit)：DbFit是一个数据库测试框架，支持对数据库代码进行简单的测试驱动开发。
+* [DbUnit](https://www.dbunit.org/)：DbUnit是一个JUnit扩展，针对数据库驱动的项目。
+* [DbSetup](https://github.com/Ninja-Squad/DbSetup)：DbSetup允许在执行自动化集成测试(通常是DAO/Repository自动化测试)之前填充数据库。
+* [MatchaDB](https://gitlab.com/carool1/matchadb)：MatchaDB是一款测试工具，它以JSON文件作为输入来填充数据库。
+* [Database Rider](https://github.com/database-rider/database-rider)：Database Rider集成了DBUnit和JUnit，使数据库测试变得轻而易举。
+* [Embedded DB JUnit](https://github.com/zapodot/embedded-db-junit)：提供内存数据库的JUnit Rule(支持H2和HyperSQL)。
+* [DbSandboxer](https://github.com/misirio/dbsandboxer)：DbSandboxer通过为集成测试创建沙盒数据库实例来为Spring Boot应用程序提供测试隔离。
 
 #### 端到端测试
 
@@ -957,33 +955,11 @@
 
 #### 数据库驱动
 
-* [Postgresql](https://github.com/pgjdbc/pgjdbc)：Postgresql JDBC驱动程序。
-* [PGJDBC NG](https://github.com/impossibl/pgjdbc-ng)：PostgreSQL的新JDBC驱动程序，旨在支持JDBC和Postgres的高级功能。
-* [Postgresql R2DBC](https://github.com/pgjdbc/r2dbc-postgresql)：Postgresql R2DBC驱动程序。
-* [PostgreSQL Async](https://github.com/mauricio/postgresql-async)：用Scala编写的异步、基于Netty的PostgreSQL和MySQL数据库驱动程序。
-* [Postgres Async Driver](https://github.com/alaisi/postgres-async-driver)：Postgres Async Driver是PostgreSQL的非阻塞Java驱动程序。
-* [MySQL](https://github.com/mysql/mysql-connector-j)：MySQL JDBC驱动程序。
-* [AWS MySQL JDBC](https://github.com/awslabs/aws-mysql-jdbc)：AWS MySQL Driver是一个使应用程序能够充分利用集群MySQL数据库功能的驱动程序。
-* [AWS JDBC Driver](https://github.com/aws/aws-advanced-jdbc-wrapper)：该包装器是对现有JDBC驱动程序的补充，旨在扩展驱动程序的功能，使应用程序能够充分利用Amazon Aurora等集群数据库的功能。
-* [MariaDB Java Connector](https://github.com/mariadb-corporation/mariadb-connector-j)：MariaDB Java Connector是一个与JDBC 4.2兼容的驱动程序，用于将用Java开发的应用程序连接到MariaDB和MySQL数据库。
-* [Oracle](https://www.oracle.com/database/technologies/maven-central-guide.html)：Oracle JDBC驱动程序。
-* [Oracle R2DBC](https://github.com/oracle/oracle-r2dbc)：Oracle数据库的R2DBC驱动程序。
-* [SqlServer](https://github.com/microsoft/mssql-jdbc)：SqlServer JDBC驱动程序。
-* [R2DBC MySQL](https://github.com/mirromutth/r2dbc-mysql)：该项目包含R2DBC SPI的MySQL实现。
-* [R2DBC SPI](https://github.com/r2dbc/r2dbc-spi)：R2DBC实现的SPI。
-* [R2DBC MySQL](https://github.com/asyncer-io/r2dbc-mysql)：该项目包含R2DBC SPI的MySQL实现。
-* [R2DBC MSSQL](https://github.com/r2dbc/r2dbc-mssql)：使用TDS协议的SQLServer的R2DBC驱动程序。
-* [MariaDB R2DBC](https://github.com/mariadb-corporation/mariadb-connector-r2dbc)：非阻塞MariaDB和MySQL客户端。
-* [Influx4j](https://github.com/brettwooldridge/influx4j)：适用于InfluxDB的高性能、零垃圾Java客户端/驱动程序。
 * [OceanBase Client](https://github.com/oceanbase/obconnector-j)：兼容JDBC 4.2的OceanBase Java驱动程序。
 * [SQLite JDBC](https://github.com/xerial/sqlite-jdbc)：用于在Java中访问和创建SQLite数据库文件的库。
 * [Couchbase](https://github.com/couchbase/couchbase-java-client)：Couchbase Server的官方Java客户端。
-* [InfluxDB Java](https://github.com/influxdata/influxdb-java)：InfluxDB的官方Java客户端库。
-* [InfluxDB2 Java](https://github.com/influxdata/influxdb-client-java)：适用于JVM的InfluxDB 2客户端。
-* [RxJava JDBC](https://github.com/davidmoten/rxjava2-jdbc)：RxJava 2与JDBC集成，包括非阻塞连接池。
 * [Reactive SQL Client](https://github.com/eclipse-vertx/vertx-sql-client)：用Java编写的高性能响应式SQL客户端。
 * [Snowflake JDBC Driver](https://github.com/snowflakedb/snowflake-jdbc)：Snowflake JDBC驱动程序。
-* [JAsync-SQL](https://github.com/jasync-sql/jasync-sql)：JAsync-SQL是一个使用Kotlin编写的简单、基于Netty、异步、高性能且可靠的PostgreSQL和MySQL数据库驱动程序。
 * [TiKV Java](https://github.com/tikv/client-java)：TiKV的Java客户端库。
 * [VtDriver](https://github.com/jd-opensource/vtdriver)：VtDriver是一套基于分布式数据库Vitess而开发的Vitess Java客户端解决方案，由京东开源。
 * [PGVector Java](https://github.com/pgvector/pgvector-java)：PGVector Java支持。
@@ -1117,7 +1093,8 @@
 
 #### 持久层库
 
-* [SquiDB](https://github.com/yahoo/squidb)：SquiDB是适用于Android和iOS的跨平台SQLite数据库层，旨在尽可能轻松地使用SQLite数据库，由Yahoo开源
+* [SquiDB](https://github.com/yahoo/squidb)：SquiDB是适用于Android和iOS的跨平台SQLite数据库层，旨在尽可能轻松地使用SQLite数据库，由Yahoo开源。
+* [Open J Proxy](https://github.com/Open-J-Proxy/ojp)：Open J Proxy是一款智能JDBC Type 3驱动程序和第7层代理，可保护你的数据库免受连接风暴的影响，同时为微服务和云原生应用程序实现弹性扩展。
 * [SQL Brite](https://github.com/square/sqlbrite)：一个轻量级的SQLiteOpenHelper包装器，为SQL作引入了响应式流语义，由Square开源。
 * [StorIO](https://github.com/pushtorefresh/storio)：SQLiteDatabase和ContentResolver的响应式API。
 * [Apache MetaModel](https://metamodel.apache.org/)：Metamodel是一个用于处理结构化数据的Java库，它提供了强大的元数据驱动的数据访问API，支持多种数据源，如关系数据库、CSV文件等。
@@ -1161,7 +1138,6 @@
 * [Seata](https://github.com/apache/incubator-seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
 * [SOFA DTX](https://mvnrepository.com/artifact/com.alipay.dtx/dtx-sofa)：DTX是蚂蚁研发的一款金融级分布式事务中间件。
 * [Apache ShardingSphere](https://github.com/apache/shardingsphere)：ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
-* [Eventuate Tram Core](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
 * [Namastack](https://github.com/namastack/namastack-outbox)：Spring Boot的发件箱实现。
 * [ByteTCC](https://github.com/liuyangming/ByteTCC)：ByteTCC是分布式事务管理器的实现，基于TCC机制。
 * [Atomikos](https://github.com/atomikos/transactions-essentials)：Atomikos是一个轻量级的分布式事务管理器，由Atomikos开源。
@@ -1191,6 +1167,7 @@
 * [Txle](https://github.com/actiontech/txle)：Txle是爱可生开发的分布式事务解决方案，可以保证业务数据的最终一致性。
 * [Zeze](https://github.com/e2wugui/zeze)：Zeze是一个基于一致性缓存的分布式事务应用框架。
 * [Transactional Outbox](https://github.com/tomorrow-one/transactional-outbox)：该库是Kafka事务发件箱模式的实现。
+* [CoolMQ](https://github.com/vvsuperman/coolmq)：基于RabbitMQ的分布式事务解决方案。
 
 ## Mybatis库
 
@@ -1331,6 +1308,46 @@
 * [Spring Hibernate Query Utils](https://github.com/yannbriancon/spring-hibernate-query-utils)：该库提供了检测N+1查询并对Spring和Hibernate生成的查询进行计数的工具。
 * [JPA N+1 Detector](https://github.com/joon6093/jpa-nplus1-detector)：检测JPA应用中的N+1查询问题。
 
+#### MySQL库/工具
+
+* [MySQL](https://github.com/mysql/mysql-connector-j)：MySQL JDBC驱动程序。
+* [AWS MySQL JDBC](https://github.com/awslabs/aws-mysql-jdbc)：AWS MySQL Driver是一个使应用程序能够充分利用集群MySQL数据库功能的驱动程序。
+* [AWS JDBC Driver](https://github.com/aws/aws-advanced-jdbc-wrapper)：该包装器是对现有JDBC驱动程序的补充，旨在扩展驱动程序的功能，使应用程序能够充分利用Amazon Aurora等集群数据库的功能。
+* [MariaDB Java Connector](https://github.com/mariadb-corporation/mariadb-connector-j)：MariaDB Java Connector是一个与JDBC 4.2兼容的驱动程序，用于将用Java开发的应用程序连接到MariaDB和MySQL数据库。
+* [R2DBC MySQL](https://github.com/mirromutth/r2dbc-mysql)：该项目包含R2DBC SPI的MySQL实现。
+* [R2DBC MySQL](https://github.com/asyncer-io/r2dbc-mysql)：该项目包含R2DBC SPI的MySQL实现。
+* [MariaDB R2DBC](https://github.com/mariadb-corporation/mariadb-connector-r2dbc)：非阻塞MariaDB和MySQL客户端。
+* [R2DBC SPI](https://github.com/r2dbc/r2dbc-spi)：R2DBC实现的SPI。
+* [Embedded MySQL](https://github.com/wix-incubator/wix-embedded-mysql)：用于测试的嵌入式MySQL。
+
+#### PostgreSQL库/工具
+
+* [Postgresql](https://github.com/pgjdbc/pgjdbc)：Postgresql JDBC驱动程序。
+* [PGJDBC NG](https://github.com/impossibl/pgjdbc-ng)：PostgreSQL的新JDBC驱动程序，旨在支持JDBC和Postgres的高级功能。
+* [Postgresql R2DBC](https://github.com/pgjdbc/r2dbc-postgresql)：Postgresql R2DBC驱动程序。
+* [PostgreSQL Async](https://github.com/mauricio/postgresql-async)：用Scala编写的异步、基于Netty的PostgreSQL和MySQL数据库驱动程序。
+* [Postgres Async Driver](https://github.com/alaisi/postgres-async-driver)：Postgres Async Driver是PostgreSQL的非阻塞Java驱动程序。
+* [JAsync-SQL](https://github.com/jasync-sql/jasync-sql)：JAsync-SQL是一个使用Kotlin编写的简单、基于Netty、异步、高性能且可靠的PostgreSQL和MySQL数据库驱动程序。
+* [PgBulkInsert](https://github.com/PgBulkInsert/PgBulkInsert)：PgBulkInsert是一个使用二进制复制协议向PostgreSQL进行批量插入的Java库。
+* [PG Index Health](https://github.com/mfvanek/pg-index-health)：PG Index Health是一个用于分析和维护PostgreSQL数据库中索引和表健康状况的Java库。
+* [Migrate2Postgres](https://github.com/isapir/Migrate2Postgres)：该工具允许你轻松地将数据库从其他兼容JDBC的DBMS迁移到Postgres。
+* [Embedded PostgreSQL](https://github.com/opentable/otj-pg-embedded)：允许使用Docker容器将PostgreSQL嵌入到Java应用程序代码中。
+* [Embedded Postgres Binaries](https://github.com/zonkyio/embedded-postgres-binaries)：该项目提供了PostgreSQL二进制文件的轻量级捆绑包，大小更小，旨在用于测试目的。
+* [Embedded PostgreSQL Server](https://github.com/yandex-qatools/postgresql-embedded)：嵌入式PostgreSQL服务器提供了一种平台中立的方式来在单元测试中运行Postgres二进制文件，由Yandex开源。
+* [EXperDB Management](https://github.com/experdb/eXperDB-Management)：EXperDB Management是一款PostgreSQL管理工具。
+* [APGDiff](https://github.com/fordfrog/apgdiff)：APGDiff是免费的PostgreSQL Diff工具，可用于比较/差异数据库模式。
+* [StackGres](https://github.com/ongres/stackgres)：StackGres是Kubernetes的全栈PostgreSQL发行版，打包到一个简单的部署单元中，拥有一组精心挑选和调整的周边PostgreSQL组件。
+
+#### Oracle库/工具
+
+* [Oracle](https://www.oracle.com/database/technologies/maven-central-guide.html)：Oracle JDBC驱动程序。
+* [Oracle R2DBC](https://github.com/oracle/oracle-r2dbc)：Oracle数据库的R2DBC驱动程序。
+
+#### SQLServer库/工具
+
+* [SqlServer](https://github.com/microsoft/mssql-jdbc)：SqlServer JDBC驱动程序。
+* [R2DBC MSSQL](https://github.com/r2dbc/r2dbc-mssql)：使用TDS协议的SQLServer的R2DBC驱动程序。
+
 #### Redis库/工具
 
 * [Redisson](https://github.com/redisson/redisson)：Redisson是一个具有内存数据网格功能的Redis Java客户端。
@@ -1429,6 +1446,7 @@
 * [Folsom](https://github.com/spotify/folsom)：Folsom是Java的异步Memcached客户端库，由Spotify开源。
 * [XMemcached](https://github.com/killme2008/xmemcached)：XMemcached是一个高性能、易于使用的Java阻塞多线程Memcached客户端。
 * [Spymemcached](https://github.com/dustin/java-memcached-client)：Spymemcached是一个用Java编写的简单、异步、单线程Memcached客户端。
+* [Memcached Java Client](https://github.com/gwhalin/Memcached-Java-Client)：Memcached Java客户端。
 
 #### Zookeeper库/工具
 
@@ -1453,18 +1471,6 @@
 * [CKibana](https://github.com/TongchengOpenSource/ckibana)：CKibana是一项使用原生Kibana方便分析ClickHouse数据的服务，由同程旅行开源。
 * [Graphhouse](https://github.com/ClickHouse/graphouse)：Graphhouse允许你使用ClickHouse作为Graphite存储。
 * [ClickHouse Client](https://github.com/Ecwid/clickhouse-client)：ClickHouse的Java/Kotlin客户端。
-
-#### PostgreSQL库/工具
-
-* [PgBulkInsert](https://github.com/PgBulkInsert/PgBulkInsert)：PgBulkInsert是一个使用二进制复制协议向PostgreSQL进行批量插入的Java库。
-* [PG Index Health](https://github.com/mfvanek/pg-index-health)：PG Index Health是一个用于分析和维护PostgreSQL数据库中索引和表健康状况的Java库。
-* [Migrate2Postgres](https://github.com/isapir/Migrate2Postgres)：该工具允许你轻松地将数据库从其他兼容JDBC的DBMS迁移到Postgres。
-* [Embedded PostgreSQL](https://github.com/opentable/otj-pg-embedded)：允许使用Docker容器将PostgreSQL嵌入到Java应用程序代码中。
-* [Embedded Postgres Binaries](https://github.com/zonkyio/embedded-postgres-binaries)：该项目提供了PostgreSQL二进制文件的轻量级捆绑包，大小更小，旨在用于测试目的。
-* [Embedded PostgreSQL Server](https://github.com/yandex-qatools/postgresql-embedded)：嵌入式PostgreSQL服务器提供了一种平台中立的方式来在单元测试中运行Postgres二进制文件，由Yandex开源。
-* [EXperDB Management](https://github.com/experdb/eXperDB-Management)：EXperDB Management是一款PostgreSQL管理工具。
-* [APGDiff](https://github.com/fordfrog/apgdiff)：APGDiff是免费的PostgreSQL Diff工具，可用于比较/差异数据库模式。
-* [StackGres](https://github.com/ongres/stackgres)：StackGres是Kubernetes的全栈PostgreSQL发行版，打包到一个简单的部署单元中，拥有一组精心挑选和调整的周边PostgreSQL组件。
 
 #### ElasticSearch库/工具
 
@@ -1499,6 +1505,7 @@
 * [Jcabi DynamoDB](https://github.com/jcabi/jcabi-dynamo)：AWS DynamoDB SDK的面向对象包装器。
 * [Tempest](https://github.com/cashapp/tempest)：适用于Kotlin和Java的类型安全DynamoDB。
 * [DynamoDB Transactions](https://github.com/awslabs/dynamodb-transactions)：DynamoDB Transactions在DynamoDB中提供原子性、一致性、隔离性和持久性(ACID)，使你能够更轻松地维护应用程序中的数据正确性。
+* [Alternator](https://github.com/mboudreau/Alternator)：用于测试目的在本地运行的模拟DynamoDB。
 * [DynamoDB Geo](https://github.com/amazon-archives/dynamodb-geo)：Amazon DynamoDB的地理库使Java开发人员能够轻松创建和查询地理空间数据。
 * [Spring Data DynamoDB](https://github.com/michaellavelle/spring-data-dynamodb)：该模块提供对基于AWS DynamoDB构建的数据访问层的增强支持。
 * [Amazon DynamoDB Encryption Java](https://github.com/aws/aws-dynamodb-encryption-java)：适用于Java的Amazon DynamoDB加密客户端。
@@ -1525,6 +1532,12 @@
 
 * [Milvus Java SDK](https://github.com/milvus-io/milvus-sdk-java)：Milvus的Java SDK。
 * [MilvusPlus](https://gitee.com/dromara/MilvusPlus)：MilvusPlus是一个功能强大的Java库，旨在简化与Milvus向量数据库的交互，为开发者提供类似MyBatis Plus注解和方法调用风格的直观API，由dromara社区开源。
+
+#### Influx库/工具
+
+* [Influx4j](https://github.com/brettwooldridge/influx4j)：适用于InfluxDB的高性能、零垃圾Java客户端/驱动程序。
+* [InfluxDB Java](https://github.com/influxdata/influxdb-java)：InfluxDB的官方Java客户端库。
+* [InfluxDB2 Java](https://github.com/influxdata/influxdb-client-java)：适用于JVM的InfluxDB 2客户端。
 
 #### Vault库/工具
 
@@ -1697,6 +1710,8 @@
 * [DavMail](https://github.com/mguessan/davmail)：POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange和Office 365网关。
 * [Spring LDAP](https://github.com/spring-projects/spring-ldap)：Spring LDAP是一个用于简化Java LDAP编程的库，其构建原理与Spring JDBC相同。
 * [UnboundID LDAP SDK](https://github.com/pingidentity/ldapsdk)：UnboundID LDAP SDK是一个快速、功能强大、用户友好且完全免费的开源Java库，用于与LDAP目录服务器进行通信。
+* [LDAP Server](https://github.com/intoolswetrust/ldap-server)：用于测试目的的简单内存LDAP服务器。
+* [Embedded LDAP JUnit](https://github.com/zapodot/embedded-ldap-junit)：用于在JUnit测试中运行嵌入式LDAP服务器的JUnit Rule。
 * [Apache DS](https://github.com/apache/directory-server)：DS是一个完全用Java编写的可扩展、可嵌入的目录服务器，已通过Open Group认证，兼容LDAPv3。
 * [Apache Directory Kerby](https://github.com/apache/directory-kerby)：Directory子项目，是Java Kerberos绑定。它提供了丰富、直观且可互操作的实现、库、KDC和各种设施，根据云、Hadoop和移动等现代环境的需要集成了PKI、OTP和令牌。
 * [Apache Directory Studio](https://github.com/apache/directory-studio)：Directory Studio是一个完整的目录工具平台，旨在与任何LDAP服务器一起使用，但它是专门为与ApacheDS一起使用而设计的。
@@ -5445,8 +5460,10 @@
 
 #### CQRS框架
 
+* [Eventuate Tram Core](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
 * [JdonFramework](https://github.com/banq/jdonframework)：JdonFramework是一个支持Pub-Sub异步编程模型的领域事件框架。
 * [Reveno](https://github.com/dmart28/reveno)：Reveno是一款基于JVM、速度极快、持久耐用且简洁易用的异步事务处理框架。
+* [Fun.CQRS](https://github.com/fun-cqrs/fun-cqrs)：Fun.CQRS是一个用于构建CQRS/ES应用程序的Scala库。
 * [Evento](https://github.com/EventoFramework/evento-framework)：Evento框架为开发人员提供了一套强大的工具包，用于构建和管理利用事件溯源和CQRS架构模式的分布式应用程序。
 * [Splitet](https://github.com/Splitet/SplitetFramework)：Splitet是一个基于Java的事件溯源框架，由Kloia开源。
 * [Loom](https://github.com/loom/loom-java)：Loom是一组用于实现分布式消息传递和事件源模式的框架。
@@ -5467,6 +5484,8 @@
 * [FactCast](https://github.com/factcast/factcast)：FactCast是一个基于PostgreSQL的事件存储系统。
 * [Spine Event Engine](https://github.com/SpineEventEngine/core-java)：Spine Event Engine是一个Java框架，用于构建事件源和CQRS应用程序。
 * [Kestrel](https://github.com/cultureamp/kestrel)：Kestrel是用于在Kotlin中构建事件溯源、CQRS应用程序的框架。
+* [Muon](https://github.com/muoncore/stack-event)：Muon是一套库和服务，可让你构建高效的面向消息和事件的分布式系统。
+* [Simple Sourcing](https://github.com/simplesourcing/simplesource)：Simple Sourcing是一个用于构建事件溯源系统的API。
 
 ## 设计模式
 
@@ -5658,6 +5677,7 @@
 * [Celerio Angular Quickstart](https://github.com/jaxio/celerio-angular-quickstart)：从现有数据库模式生成一个Angular 5 CRUD应用。
 * [Spring Boot MicroServices Template](https://github.com/anilallewar/microservices-basics-spring-boot)：使用Spring Boot和Spring Cloud创建完整微服务的基础架构框架。
 * [Spring Boot Template](https://github.com/hmcts/spring-boot-template)：该模板的目的是加快新Spring应用程序的创建速度，并帮助在多个团队之间保持相同的标准，由英国法院及审裁处事务局开源。
+* [Spring Cloud Template](https://github.com/TyCoding/cloud-template)：一套极简的Spring Cloud项目开发模板。
 * [Kotlin Ktor Exposed Starter](https://github.com/raharrison/kotlin-ktor-exposed-starter)：这是一个使用Kotlin创建简单RESTful Web服务的入门项目。
 * [Spring Boot Java Template](https://github.com/team-dodn/spring-boot-java-template)：基于Java的Spring Boot基本结构模板。
 * [Spring Boot Starter](https://github.com/ericus20/spring-boot-starter)：适用于Spring Boot项目的完整模板，可用于生产环境。
@@ -5723,6 +5743,7 @@
 * [Lion](https://github.com/micyo202/lion)：Lion是基于Spring Cloud体系实现的一套支持云原生的分布式微服务架构。
 * [ZL Backend](https://github.com/basic-framework/web-backend)：ZL Backend是一套企业级后端基础脚手架，基于Spring Boot构建。
 * [Code Generator](https://github.com/zhengqingya/code-generator)：一套基于Spring Boot、Vue、Shiro的代码生成器。
+* [Smart Cloud](https://github.com/smart-cloud/smart-cloud)：基于Spring Boot、Spring Cloud的脚手架。
 
 #### 快速开发框架
 
@@ -5732,6 +5753,7 @@
 * [Synapse](https://github.com/americanexpress/synapse)：Synapse是一组用于快速开发的轻量级基础框架模块，内置企业级成熟度和质量，由美国运通开源。
 * [Tiny](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
 * [CXBOX](https://github.com/CX-Box/cxbox)：CXBOX的主要目标是加速基于Spring Boot的典型企业级应用程序的开发。
+* [BootKit](https://github.com/bootkit-io/bootkit)：BootKit是一个功能强大的框架，作为Spring Boot的附加组件，旨在增强使用Java构建的现代企业应用程序。
 * [Fw Cloud Framework](https://github.com/liuweijw/fw-cloud-framework)：基于Spring Cloud全家桶开发分布式框架，实现基于Vue全家桶等前后端分离项目工程。
 * [DevOps Boot](https://github.com/bkdevops-projects/devops-framework)：DevOps Boot是基于Spring Boot的微服务快速开发框架，由腾讯DevOps团队开发。
 * [Hawaii Framework](https://github.com/hawaiifw/hawaii-framework)：Hawaii Framework是一个用于开发基于Spring的应用程序的Java框架，由ilionx开源。
@@ -5954,6 +5976,7 @@
 * [Spring Boot Vue Admin](https://github.com/Zoctan/spring-boot-vue-admin)：Spring Boot Vue Admin提供一套后台权限管理模板。
 * [ColorOne](https://github.com/miracleren/colorOne)：ColorOne是一套开源的权限管理系统。
 * [CL Privilege](https://github.com/pumadong/cl-privilege)：通用权限管理系统，作为配置中心，管理后台系统的菜单、功能、用户、角色等，并提供Dubbo接口。
+* [Fisher](https://github.com/fxllong/fisher)：Fisher是基于Spring Cloud Alibaba、Oauth2、Vue的后台权限管理框架。
 
 #### 电商系统
 
@@ -5985,6 +6008,7 @@
 * [E-Commerce](https://github.com/foysal-mahmud/E-BookShop----Spring-boot)：完整电子商务项目，使用Spring、Hibernate、Bootstrap和MySQL完成。
 * [Spring Boot eshopOnContainers](https://github.com/harshaghanta/springboot-eshopOnContainers)：基于Spring Boot的eshopOnContainers项目实现。
 * [Ecommerce](https://github.com/webtutsplus/ecommerce-backend)：电子商务后端API。
+* [Microservices Event Sourcing](https://github.com/chaokunyang/microservices-event-sourcing)：Microservices Event Sourcing是一个微服务架构的在线购物平台。
 * [WooCommerce API Java](https://github.com/calatonsystems/wc-api-java)：WooCommerce REST API的Java封装库。
 * [UCP SDK Java](https://github.com/Open-Commerce-Protocol/ucp-sdk-java)：Google通用商务协议(UCP)的非官方SDK。
 * [微同商城](https://gitee.com/fuyang_lipengjun/platform)：减少重复造轮子，开源微信小程序商城。
@@ -7000,6 +7024,7 @@
 * [Spring Cloud Consul](https://github.com/spring-cloud/spring-cloud-consul)：Spring Cloud Consul为Spring Boot应用程序提供Consul集成。
 * [Consul Java](https://github.com/rickfast/consul-client)：Consul HTTP API的Java客户端。
 * [Consultant](https://github.com/Magnetme/consultant)：Consultant是一个Java库，允许从Consul存储中检索其配置。
+* [Embedded Consul](https://github.com/pszymczyk/embedded-consul)：Embedded Consul提供了在集成测试中运行Consul的简单方法。
 
 ## Kubernetes客户端
 
@@ -8899,7 +8924,7 @@
 * [LEGUI](https://github.com/SpinyOwl/legui)：Java OpenGL GUI库，专为与最新的LWJGL(LWJGL 3)一起使用而创建。
 * [VisUI](https://github.com/kotcrab/vis-ui)：VisUI允许在LibGDX中使用scene2d.ui创建漂亮的界面。
 * [PolyUI](https://github.com/Polyfrost/polyui-jvm)：PolyUI是一个由Polyfrost开发的声明式UI框架。
-* [Kotlin LibUI](https://github.com/msink/kotlin-libui)：libui是一个轻量级的C语言多平台UI库，使用此绑定，你可以开发跨平台且外观原生的GUI程序。
+* [Kotlin LibUI](https://github.com/msink/kotlin-libui)：LibUI是一个轻量级的C语言多平台UI库，使用此绑定，你可以开发跨平台且外观原生的GUI程序。
 * [Membrane](https://github.com/phronmophobic/membrane)：Membrane提供了构建用户界面所需的所有工具。
 * [Apache Pivot](https://github.com/apache/pivot)：Pivot是一个用Java构建丰富互联网应用程序的平台，其中WTK工具包是它的图形组件，由VMware开源。
 * [LWJGUI](https://github.com/orange451/LWJGUI)：一个基于LWJGL3的JavaFX替代方案，用于在Java中创建用户界面。
@@ -9492,6 +9517,7 @@
 * [JDoodle](https://www.jdoodle.com/)：JDoodle是一款在线Java编译器IDE，它能够让你在浏览器中编写、运行和调试Java代码，无需在本地安装任何开发环境。
 * [SnapCode](https://github.com/reportmill/SnapCode)：SnapCode使你可以在任何现代浏览器中快速轻松地开始编写Java代码。
 * [Compilejava](https://www.compilejava.net/)：Compilejava是运行Java代码的简单在线工具。
+* [OnlineExecutor](https://github.com/TangBean/OnlineExecutor)：基于Spring Boot的在线Java IDE。
 
 #### 数学软件
 
@@ -10042,6 +10068,7 @@
 * [ByteLegend](https://github.com/ByteLegend/ByteLegend)：ByteLegend是一款免费、开源的MMORPG游戏，你可以在其中获得现实世界的高薪编程技能。
 * [OpenKeeper](https://github.com/tonihele/OpenKeeper)：OpenKeeper是地下城守护者II游戏和引擎的开源重制版。
 * [Xonotic](https://github.com/xonotic/xonotic)：Xonotic是一款令人上瘾的竞技场式第一人称射击游戏，拥有流畅的动作和丰富的武器种类。
+* [FreeCol](https://github.com/FreeCol/freecol)：FreeCol是一款回合制策略游戏，基于经典游戏《殖民》(Colonization)，与《文明》(Civilization)系列类似。
 
 #### 象棋引擎
 
@@ -10186,6 +10213,7 @@
 * [Fakereplace](https://github.com/fakereplace/fakereplace)：该项目提供了一个JavaAgent和一个客户端，用于在标准JDK热交换提供的基础上热替换JVM中的类。
 * [RelProxy](https://github.com/jmarranz/relproxy)：RelProxy是一个简单的Java和Groovy热类重加载器，提供透明的动态编译和类重新加载，以及纯Java代码的脚本支持和Shell。
 * [HotSeconds](https://github.com/Liubsyy/HotSecondsIDEA)：HotSeconds是一款Java远程热部署的插件。
+* [JVM ByteSwap Tool](https://github.com/sunwu51/JVMByteSwapTool)：一款可以在JVM运行时热插拔类字节码的工具。
 
 ## 类加载
 
@@ -10441,6 +10469,7 @@
 * [Musique](https://github.com/tulskiy/musique)：Musique是一个100% Java音频播放器，支持大多数流行的格式。
 * [JVstHost](https://github.com/mhroth/jvsthost)：JVstHost是一个基于Java的开源VST主机程序。
 * [jVSTwRapper](https://jvstwrapper.sourceforge.net/)：jVSTwRapper是一个简单可靠的Java音频插件封装工具。
+* [MP3SPI](https://github.com/umjammer/mp3spi)：MP3 Java音频SPI。
 
 #### 视频库
 
@@ -10515,6 +10544,7 @@
 
 * [Airsonic](https://github.com/airsonic/airsonic)：Airsonic是一款免费的基于Web的媒体服务器，可让你随时随地访问音乐。
 * [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer)：Universal Media Server是兼容DLNA的UPnP媒体服务器，它能够在大多数现代设备之间共享视频、音频和图像。
+* [Stream M](https://github.com/vbence/stream-m)：Stream M旨在成为一个开源解决方案，使用HTML5视频标签和Google的WebM或流行的H.264视频格式将实时视频直接流式传输到Web浏览器中。
 * [LiveBox](https://github.com/parzulpan/livebox)：LiveBox是一个跨平台的网络媒体聚合应用，支持直播视频、高清电视和广播电台的在线观看或收听。
 * [EasyMedia](https://gitee.com/52jian/EasyMedia)：Spring Boot、Netty实现的HTTP-FLV、WebSocket-FLV流媒体服务。
 * [PS3 Media Server](https://github.com/ps3mediaserver/ps3mediaserver)：PS3 Media Server是一个跨平台的DLNA兼容UPnP媒体服务器。

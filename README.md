@@ -210,6 +210,7 @@
   * [单元测试](docs/doc2.md#单元测试)
   * [集成测试](docs/doc2.md#集成测试)
   * [接口测试](docs/doc2.md#接口测试)
+  * [数据库测试](docs/doc2.md#数据库测试)
   * [端到端测试](docs/doc2.md#端到端测试)
   * [功能测试](docs/doc2.md#功能测试)
   * [突变测试](docs/doc2.md#突变测试)
@@ -267,18 +268,22 @@
   * [数据库工具](docs/doc2.md#数据库工具)
   * [存储过程](docs/doc2.md#存储过程)
   * [N+1检测](docs/doc2.md#N1检测)
+  * [MySQL库/工具](docs/doc2.md#MySQL库工具)
+  * [PostgreSQL库/工具](docs/doc2.md#PostgreSQL库工具)
+  * [Oracle库/工具](docs/doc2.md#Oracle库工具)
+  * [SQLServer库/工具](docs/doc2.md#SQLServer库工具)
   * [Redis库/工具](docs/doc2.md#Redis库工具)
   * [MongoDB库/工具](docs/doc2.md#MongoDB库工具)
   * [Cassandra库/工具](docs/doc2.md#Cassandra库工具)
   * [Memcached库/工具](docs/doc2.md#Memcached库工具)
   * [Zookeeper库/工具](docs/doc2.md#Zookeeper库工具)
   * [ClickHouse库/工具](docs/doc2.md#ClickHouse库工具)
-  * [PostgreSQL库/工具](docs/doc2.md#PostgreSQL库工具)
   * [ElasticSearch库/工具](docs/doc2.md#ElasticSearch库工具)
   * [DynamoDB库/工具](docs/doc2.md#DynamoDB库工具)
   * [Neo4j库/工具](docs/doc2.md#Neo4j库工具)
   * [Etcd库/工具](docs/doc2.md#Etcd库工具)
   * [Milvus库/工具](docs/doc2.md#Milvus库工具)
+  * [Influx库/工具](docs/doc2.md#Influx库工具)
   * [Vault库/工具](docs/doc2.md#Vault库工具)
 * [安全](docs/doc2.md#安全)
   * [安全框架](docs/doc2.md#安全框架)
@@ -1129,6 +1134,7 @@
 * [WComponents](https://github.com/BorderTech/wcomponents)：WComponents是一个用于为企业和政府构建可访问的Web应用程序的Java框架。
 * [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA的SDK，由Adobe维护。
 * [Flavour](https://flavour.sourceforge.io/)：Flavour是一个内置电池的框架，用于用Java制作单页Web应用。
+* [Echo](https://github.com/echo3/echo3)：Echo是一个用于开发富Web应用程序的开源框架。
 
 #### SSR框架
 
@@ -1745,6 +1751,7 @@
 * [Magda](https://github.com/magda-io/magda)：Magda是适用于所有大数据和小数据的联合开源数据目录，由澳大利亚联邦科学与工业研究组织的Data61和澳大利亚总理及内阁部发起。
 * [Lightning Catalog](https://github.com/zetaris/lightning-catalog)：Lightning Catalog是Zetaris开源的数据目录，用于在临时分析、数据仓库、Lake House和ML项目中准备任意规模的数据。
 * [DDF](https://github.com/codice/ddf)：DDF是一个免费的开源通用数据层，它从底层数据结构中抽象出服务和业务逻辑，以便快速集成新的数据源，由Codice基金会开源。
+* [Floecat](https://github.com/eng-floe/floecat)：Floecat是一个面向现代数据湖目录的目录。
 
 #### 数据治理
 
@@ -2274,6 +2281,7 @@
 * [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
 * [NSQ-J](https://github.com/sproutsocial/nsq-j)：NSQ实时分布式消息传递平台的Java客户端。
 * [NATS Java](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
+* [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。
 * [Amazon SQS Java Messaging Library](https://github.com/awslabs/amazon-sqs-java-messaging-lib)：Amazon SQS Java Messaging Library包含与JMS兼容的类，用于与Amazon SQS进行通信。
 * [Java Pub/Sub](https://github.com/googleapis/java-pubsub)：Google Cloud Pub/Sub的Java惯用客户端。
 * [Google Pub/Sub](https://github.com/GoogleCloudPlatform/pubsub)：Google Cloud Pub/Sub开源项目。
@@ -3327,7 +3335,6 @@ Kafka生态管理系统、运维平台。
 * [WK Proxy](https://github.com/catas-w/WK-Proxy)：WK Proxy是一款用于HTTP代理和数据包捕获的开源桌面工具，可在Windows和macOS平台上使用。
 * [ProxyChecker](https://github.com/faiqsohail/ProxyChecker)：一款易于使用的开源多线程代理检查器。
 * [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi)：HTTP隧道工具。
-* [OJP](https://github.com/Open-J-Proxy/ojp)：JDBC驱动程序和第7层代理服务器将应用程序与关系型数据库连接管理分离。
 * [HttpProxy](https://github.com/arloor/HttpProxy)：HTTP代理，支持CONNECT和普通GET/POST。
 * [RPT](https://github.com/iamlinhui/rpt)：内网穿透&反向代理(支持TCP上层协议，支持HTTP/HTTPS端口复用)。
 * [Winfoom](https://github.com/ecovaci/winfoom)：Winfoom是一个HTTP(s)代理服务器的界面，允许应用程序通过代理进行身份验证，而无需处理实际的握手过程。
