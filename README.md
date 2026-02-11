@@ -161,6 +161,7 @@
   * [LLMOps](#LLMOps)
   * [AI Assistant](#AI-Assistant)
   * [机器学习](#机器学习)
+  * [神经网络](#神经网络)
   * [自然语言处理](#自然语言处理)
   * [分词器](#分词器)
   * [深度学习](#深度学习)
@@ -942,6 +943,7 @@
   * [WebAssembly](docs/doc2.md#WebAssembly)
   * [JavaScript引擎](docs/doc2.md#JavaScript引擎)
   * [GWT库](docs/doc2.md#GWT库)
+  * [Vaadin库](docs/doc2.md#Vaadin库)
   * [CSS库](docs/doc2.md#CSS库)
 * [对象图导航](docs/doc2.md#对象图导航)
 * [超媒体类型](docs/doc2.md#超媒体类型)
@@ -1054,6 +1056,7 @@
 * [WebDSL](https://github.com/webdsl/webdsl)：WebDSL是一种用于使用丰富数据模型对Web应用程序进行建模的DSL，由代尔夫特理工大学开源。
 * [Unify](https://github.com/flowcentraltechnologies/unify-framework)：Unify是一个基于服务器端组件的框架，用于在Java中开发Web应用程序。
 * [Dandelion](https://github.com/dandelion/dandelion)：Dandelion是一个免费开源的Java框架，旨在简化基于JVM的环境中的Web开发。
+* [Juzu](https://github.com/juzu/juzu)：Juzu Web是一个用于开发MVC应用程序的Web框架，强调简洁性和类型安全。
 
 #### REST框架
 
@@ -1104,6 +1107,8 @@
 * [ServiceFramework](https://github.com/allwefantasy/ServiceFramework)：ServiceFramework是一个敏捷、快速、富领域模型的Java MVC框架。
 * [Doodle](https://github.com/zzzzbw/doodle)：Doodle是一个简易的Java MVC框架，它提供了类似于Spring的Bean容器、IoC、AOP、MVC等功能。
 * [Nettice](https://github.com/cyfonly/nettice)：基于Netty HTTP协议栈的轻量级MVC组件。
+* [JKMVC](https://github.com/shigebeyond/jkmvc)：JKMVC是一个优雅、强大且轻量级的MVC Web框架，使用Kotlin构建。
+* [Stapler](https://github.com/jenkinsci/stapler)：Stapler Web框架，由Jenkins组织开源。
 
 #### JSF框架
 
@@ -1135,6 +1140,9 @@
 * [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA的SDK，由Adobe维护。
 * [Flavour](https://flavour.sourceforge.io/)：Flavour是一个内置电池的框架，用于用Java制作单页Web应用。
 * [Echo](https://github.com/echo3/echo3)：Echo是一个用于开发富Web应用程序的开源框架。
+* [Fastball](https://github.com/fastball-projects/fastball)：Fastball是一套面向后端、声明式界面开发框架。
+* [NG-Objects](https://github.com/ngobjects/ng-objects)：NG-Objects是一个开源Web框架，它很大程度上基于苹果公司的WebObjects框架的概念。
+* [N2O Framework](https://github.com/i-novus-llc/n2o-framework)：N2O Framework是一个用Java和ReactJS编写的库，允许你创建具有复杂用户界面的Web应用程序，而无需深入了解Web技术和前端框架。
 
 #### SSR框架
 
@@ -2251,6 +2259,7 @@
 * [MessageBus](https://github.com/dorkbox/MessageBus)：MessageBus是一个极其轻量级的消息/事件总线实现。
 * [JPost](https://github.com/janishar/JPost)：Java和Android类通信库。
 * [KillBill Queue](https://github.com/killbill/killbill-commons/tree/master/queue)：KillBill Queue是一个通知队列、持久消息总线库。
+* [Ably Pub/Sub Java SDK](https://github.com/ably/ably-java)：Ably Pub/Sub提供灵活的API，提供诸如发布-订阅消息、消息历史、在线状态和推送通知等功能。
 
 #### 应用总线
 
@@ -2367,6 +2376,7 @@ Kafka生态管理系统、运维平台。
 * [Waltz](https://github.com/wepay/waltz)：Waltz是一种基于仲裁的分布式预写日志，用于复制事务，由WePay开源。
 * [Jepsen](https://github.com/jepsen-io/jepsen)：Jepsen致力于提高分布式数据库、队列、共识系统等的安全性。
 * [Rapid](https://github.com/lalithsuresh/rapid)：Rapid是一种分布式成员服务，它允许一组进程轻松形成集群，并在成员资格发生变化时接收通知。
+* [Libcrunch](https://github.com/twitter-archive/libcrunch)：Libcrunch是一个轻量级映射框架，它将数据对象映射到多个节点，并受到用户指定的约束，由Twitter开源。
 * [Low Level Design](https://github.com/InterviewReady/Low-Level-Design)：常见数据结构的低级设计。
 * [Ordasity](https://github.com/boundary/ordasity)：Ordasity是Boundary用于在JVM上构建有状态集群服务的库。
 * [Dhalion](https://github.com/microsoft/Dhalion)：Dhalion是一个用于自动扩展和调整分布式系统的框架，由Microsoft开源。
@@ -2526,6 +2536,7 @@ Kafka生态管理系统、运维平台。
 * [Iveely](https://github.com/Fanping/iveely.search)：Iveely是纯Java实现的搜索引擎。
 * [JStarCraft RNS](https://github.com/HongZhaoHua/jstarcraft-rns)：JStarCraft RNS是一个面向信息检索领域的轻量级引擎。
 * [Lucilla](https://github.com/haroldadmin/lucilla)：Lucilla是一个用于Kotlin的内存全文搜索库。
+* [Heliosearch](https://github.com/Heliosearch/heliosearch)：Heliosearch是一款高性能NoSQL搜索服务器，是Solr开源搜索的下一代产品。
 
 #### 图数据库
 
@@ -2609,6 +2620,7 @@ Kafka生态管理系统、运维平台。
 * [CurioDB](https://github.com/stephenmcd/curiodb)：CurioDB是一个分布式持久Redis克隆，使用Scala和Akka构建。
 * [TreodeDB](https://github.com/Treode/store)：TreodeDB是一个提供多行原子写入的分布式数据库，它专为RESTful服务而设计。
 * [Hank](https://github.com/LiveRamp/hank)：Hank是LiveRamp构建和使用的一个非常快速且非常紧凑的分布式键值NoSQL数据库。
+* [IODB](https://github.com/input-output-hk/iodb)：IODB是为区块链应用设计的嵌入式存储引擎。
 * [WaspDB](https://github.com/rehacktive/waspdb)：WaspDB是一个适用于Android的纯Java键值对数据库库。
 * [FastKV](https://github.com/BillyWei01/FastKV)：FastKV是用Java编写的高效可靠的键值存储库，专为Android平台优化。
 * [LSM Tree](https://github.com/indeedeng/lsmtree)：LSM Tree是一种快速键/值存储，对于大容量随机访问读写非常有效，由Indeed开发。
@@ -2627,6 +2639,7 @@ Kafka生态管理系统、运维平台。
 * [KVStorage](https://github.com/taoweiji/KVStorage)：强大的Android结构化KV存储框架，基于YAML生成Java结构化存储类。
 * [Kissme](https://github.com/netguru/Kissme)：Kissme是一个开源库，提供加密键值存储。
 * [QuickKV](https://github.com/sumimakito/QuickKV)：为Android项目提供的轻量且易用的键值数据库。
+* [Kottage](https://github.com/irgaly/kottage)：Kotlin多平台键值存储本地缓存，实现单一数据源。
 
 #### 数据网格
 
@@ -2953,6 +2966,7 @@ Kafka生态管理系统、运维平台。
 * [Hutool HTTP](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-http)：Hutool HTTP针对JDK的HttpUrlConnection做一层封装，简化了HTTPS请求、文件上传、Cookie记忆等操作。
 * [Bus HTTP](https://github.com/818000/bus/tree/main/bus-http)：Bus HTTP是一个高性能的Java应用程序HTTP客户端库。
 * [Kalle](https://github.com/yanzhenjie/Kalle)：Kalle是一个Android平台的HttpClient，它遵循HTTP标准协议，支持同步请求和异步请求。
+* [Unfiltered](https://github.com/unfiltered/unfiltered)：Unfiltered是一个用于在Scala中处理HTTP请求的工具包。
 
 #### HTTP路由
 
@@ -3164,6 +3178,7 @@ Kafka生态管理系统、运维平台。
 * [Netty Socket.IO](https://github.com/socketio4j/netty-socketio)：基于Netty框架的Java Socket.IO服务器实现。
 * [Vert.x Socket.IO](https://github.com/keesun/mod-socket-io)：该模块允许Vert.x像Node.js一样创建Socket.IO服务器。
 * [Play Socket.IO](https://github.com/playframework/play-socket.io)：Play后端Socket.IO支持。
+* [Socketcluster Client](https://github.com/sacOO7/socketcluster-client-java)：用于Node.js中SocketCluster框架的原生Java和Android客户端。
 
 #### Socket
 
@@ -3396,6 +3411,7 @@ Kafka生态管理系统、运维平台。
 * [ANX](https://github.com/cisco-ie/anx)：适用于Java的高级NETCONF浏览器和NETCONF客户端库，Cisco开源。
 * [WHOIS](https://github.com/RIPE-NCC/whois)：WHOIS是由RIPE NCC开源的一款WHOIS协议实现工具。
 * [The ONE](https://github.com/akeranen/the-one)：机会网络环境模拟器，由阿尔托大学开源。
+* [Net2Plan](https://github.com/girtel/Net2Plan)：Net2Plan是一个用Java开发的通信网络规划、优化和评估工具。
 
 #### 端口转发
 
@@ -3418,6 +3434,8 @@ Kafka生态管理系统、运维平台。
 * [Near](https://github.com/adroitandroid/Near)：Near是适用于Android的P2P库，用于使用UDP在本地网络上进行发现，并使用TCP套接字进行传输。
 * [P2P](https://github.com/metanet/p2p)：这是一个使用Java和Netty构建非结构化P2P网络的实验性工作。
 * [JED2K](https://github.com/a-pavlov/jed2k)：ED2K网络的Java库。
+* [TeleHash](https://github.com/quartzjer/TeleHash)：Telehash是一种100%开放、安全的网状网络技术。
+* [Iroh FFI](https://github.com/n0-computer/iroh-ffi)：Iroh的FFI绑定。
 
 #### SDN
 
@@ -3494,6 +3512,8 @@ Kafka生态管理系统、运维平台。
 * [JIP Common](https://gitee.com/toktok/jip-common)：JIP Common支持IPv4和IPv6，多种IP格式的解析。
 * [Ineter](https://github.com/maltalex/ineter)：用于处理IP地址、范围和子网的快速Java库。
 * [CZ88.IP](https://github.com/tagphi/czdb-search-java)：CZDB Search是一个用于在CZ88 IP库中搜索数据的Java库。
+* [IP2Location](https://github.com/renfei/ip2location)：IP2Location提供免费的IP地理位置数据库。
+* [IP2Location](https://github.com/ip2location/ip2location-java)：IP2Location组件允许用户查询IP地址以获取访问者的国家、地区、城市、ISP或公司名称等信息。
 
 #### SIP
 
@@ -3577,6 +3597,7 @@ Kafka生态管理系统、运维平台。
 * [Craft Atom](https://github.com/mindwind/craft-atom)：Craft Atom是一个精心打造且优雅的Java原子组件库。
 * [Humanizer.JVM](https://github.com/MehdiK/Humanizer.jvm)：Humanizer.JVM是.NET上Humanizer框架的改编版本。
 * [Exotic](https://github.com/forax/exotic)：Java中实现特殊语义的类集。
+* [Yue Library](https://gitee.com/yl-yue/yue-library)：Yue Library是一个基于Spring Boot封装的增强库，提供丰富的Java工具类库、优越的ORM框架、优雅的业务封装、优化的Spring环境配置等。
 
 ## Bean映射&复制
 
@@ -3720,6 +3741,9 @@ Kafka生态管理系统、运维平台。
 * [KakaCache](https://github.com/LittleFriendsGroup/KakaCache)：KakaCache是一个专用于解决Android中网络请求及图片加载的缓存处理框架。
 * [HttpResponseCache](https://github.com/candrews/HttpResponseCache)：HttpResponseCache库为使用java.net.HttpUrlConnection类的HTTP和HTTPS请求提供透明且自动的缓存。
 * [Buffer Trigger](https://github.com/PhantomThief/buffer-trigger)：一个带有可自定义数据触发器的本地数据缓冲区。
+* [HuanCun](https://github.com/OpenXiangShan/HuanCun)：开源高性能无阻塞缓存，中科院开发。
+* [Carbonite](https://github.com/eveliotc/carbonite)：一个简单、基于内存且持久化的Android对象缓存。
+* [CacheManage](https://github.com/ronghao/CacheManage)：Android缓存管理器，分为内存缓存和文件缓存两种。
 
 #### 分布式缓存
 
@@ -3758,6 +3782,7 @@ Kafka生态管理系统、运维平台。
 * [Split Java](https://github.com/splitio/java-client)：该SDK旨在与Split(受控部署平台)配合使用，通过功能标志向用户提供功能，以管理完整的客户体验。
 * [Flip](https://github.com/tacitknowledge/flip)：Flip让你能够轻松地在Java应用程序中使用功能切换。
 * [Optimizely Java SDK](https://github.com/optimizely/java-sdk)：Optimizely Feature Experimentation是一款面向产品开发团队的A/B测试和功能管理工具。
+* [FFS](https://github.com/Doist/ffs)：快速、精简且开源的功能标志解决方案。
 
 ## 人工智能
 
@@ -3809,6 +3834,7 @@ Kafka生态管理系统、运维平台。
 * [ChatGPT Spring Boot](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter，具有ChatGPT聊天和功能支持。
 * [ChatGPT Spring Boot](https://github.com/flashvayne/chatgpt-spring-boot-starter)：基于OpenAI官方API的Spring Boot Starter。
 * [ChatGPT Spring Boot](https://github.com/lzhpo/chatgpt-spring-boot-starter)：支持OpenAI所有可用的接口，包括但不限于流式输出和Token计算等。
+* [ChatGPT](https://github.com/LiLittleCat/ChatGPT)：ChatGPT API的Java客户端。
 * [EDDI](https://github.com/labsai/eddi)：EDDI是一个中间件，用于连接和管理LLM API机器人，为OpenAI ChatGPT、Facebook Hugging Face、Anthropic Claude、Google Gemini和Ollama等API提供高级提示和对话管理。
 * [OpenAI4j](https://github.com/ai-for-java/openai4j)：这是一个非官方的Java客户端库，可帮助你的Java应用程序与OpenAI API连接。
 * [Ollama4j](https://github.com/ollama4j/ollama4j)：用于与Ollama服务器交互的Java库。
@@ -3818,6 +3844,7 @@ Kafka生态管理系统、运维平台。
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
 * [ChatGLM SDK Java](https://github.com/1321928757/chatglm-sdk-java)：智谱AI大模型开放SDK。
+* [ChatGLM SDK Java](https://github.com/fuzhengwei/chatglm-sdk-java)：智谱AI大模型开放SDK。
 * [DeepSeek4j](https://github.com/pig-mesh/deepseek4j)：DeepSeek4j是一个用于快速集成DeepSeek AI能力的Spring Boot Starter。
 * [A2A Java](https://github.com/a2aproject/a2a-java)：A2A Java提供了A2A协议的Java服务器实现，由RedHat开发。
 * [A2A Java](https://github.com/vishalmysore/a2ajava)：Google A2A协议的Java实现。
@@ -3848,6 +3875,7 @@ Kafka生态管理系统、运维平台。
 * [Wren Engine](https://github.com/Canner/wren-engine)：Wren Engine被设计为独立的语义引擎，你可以轻松地使用任何AI代理实现它，可以将其用作语义层的通用语义。
 * [OneMCP](https://github.com/Gentoro-OneMCP/onemcp)：OneMCP是一个开源运行时，使AI代理可以轻松准确高效地使用你的API。
 * [Coral Server](https://github.com/Coral-Protocol/coral-server)：Coral协议的实现，充当MCP服务器，为代理提供相互通信的工具。
+* [Server2MCP](https://github.com/TheEterna/api2mcp4j)：Server2MCP是一个Spring Boot Starter，用于自动集成MCP服务。
 
 #### 代理框架
 
@@ -3870,7 +3898,7 @@ Kafka生态管理系统、运维平台。
 
 * [JoyAgent JDGenie](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
 * [Astron](https://github.com/iflytek/astron-agent)：星辰Agent是一款面向AI开发者与中小企业的企业级Agent开发平台，由科大讯飞开源。
-* [JManus](https://github.com/spring-ai-alibaba/JManus)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
+* [JManus](https://github.com/spring-ai-alibaba/Lynxe)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
 * [Coze Java](https://github.com/coze-dev/coze-java)：Coze API SDK Java是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
 * [Dify Java Client](https://github.com/imfangs/dify-java-client)：Dify Java Client是一个用于与Dify平台进行交互的Java客户端库。
 * [Dify Spring Boot Starter](https://github.com/guoshiqiufeng/dify-spring-boot-starter)：为Dify提供Spring Boot Starter和纯Java支持，简化开发。
@@ -3934,13 +3962,11 @@ Kafka生态管理系统、运维平台。
 * [Oryx 2](https://github.com/OryxProject/oryx)：Oryx 2是基于Spark和Kafka构建的Lambda架构的实现，专门用于实时大规模机器学习，由Cloudera开源。
 * [Seldon](https://github.com/SeldonIO/seldon-server)：Seldon Server是一个机器学习平台，可帮助你的数据科学团队将模型部署到生产中。
 * [Tribuo](https://github.com/oracle/tribuo)：Tribuo是Java中的机器学习库，提供多类分类、回归、聚类、异常检测和多标签分类，Oracle开源。
-* [Neural Networks](https://github.com/ivan-vasilev/neuralnetworks)：Neural Networks是一些用于训练深度神经网络的算法的Java实现。
 * [ML Commons](https://github.com/opensearch-project/ml-commons)：ML Commons提供了一组常见的机器学习算法，例如K-Means或线性回归，以帮助开发人员在OpenSearch中构建ML相关功能，由AWS开源。
 * [AeroSolve](https://github.com/airbnb/aerosolve)：AeroSolve是一个人性化机器学习库，由Airbnb开源。
 * [Photon ML](https://github.com/linkedin/photon-ml)：Photon ML是一个基于Spark的机器学习库，由LinkedIn开源。
 * [Trident ML](https://github.com/pmerienne/trident-ml)：Trident ML是一个实时在线机器学习库。
 * [PSL](https://github.com/linqs/psl)：PSL是一种用于开发概率模型的机器学习框架，由马里兰大学和加州大学圣克鲁斯分校开发。
-* [Cortex](https://github.com/originrose/cortex)：Cortex是Clojure中的神经网络、回归和特征学习框架，由ThinkTopic开源。
 * [QuickML](https://github.com/sanity/quickml)：QuickML是一个易于使用、功能强大且快速的Java机器学习库。
 * [BIDMach](https://github.com/BIDData/BIDMach)：BIDMach是伯克利BID实验室研发的一个开源机器学习框架。
 * [Datumbox](https://github.com/datumbox/datumbox-framework)：Datumbox是一个用Java编写的开源机器学习框架，可以快速开发机器学习和统计应用程序。
@@ -3957,10 +3983,7 @@ Kafka生态管理系统、运维平台。
 * [MOA](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法和评估工具，由怀卡托大学开发。
 * [JGAAP](https://github.com/evllabs/JGAAP)：JGAAP是一种允许非专家使用尖端机器学习技术解决文本归因问题的工具，由杜肯大学开源。
 * [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是一个纯Java机器学习框架，用于支持遗传编程、NEAT/HyperNEAT和其他神经网络技术。
-* [Neuroph](https://github.com/neuroph/neuroph)：Neuroph是一个开源Java神经网络框架和神经网络开发环境。
-* [NeuroFlow](https://github.com/zenecture/neuroflow)：NeuroFlow是一个用于设计、训练和评估人工神经网络的Scala库。
 * [Astminer](https://github.com/JetBrains-Research/astminer)：用于挖掘基于路径的代码表示的库，由JetBrains开源。
-* [SimpleDNN](https://github.com/KotlinNLP/SimpleDNN)：SimpleDNN是一个用Kotlin编写的机器学习轻量级开源库，旨在支持自然语言处理任务中的相关神经网络架构。
 * [Apache PredictionIO](https://github.com/apache/predictionio)：PredictionIO是一个面向开发人员、数据科学家和最终用户的开源机器学习框架。
 * [Voyager](https://github.com/spotify/voyager)：Voyager是一个适用于Python和Java的近似最近邻搜索库，注重易用性、简单性和可部署性，由Spotify开源。
 * [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Spark上构建模块化、可重用、强类型的机器学习工作流，由Salesforce开源。
@@ -3986,7 +4009,6 @@ Kafka生态管理系统、运维平台。
 * [Fregata](https://github.com/TalkingData/Fregata)：Fregata是一个基于Spark的轻量级、超快速的大规模机器学习库，并在Scala中提供高级API，由TalkingData开源。
 * [RuleKit](https://github.com/adaa-polsl/RuleKit)：RuleKit是一种用于规则学习的多功能工具，基于顺序覆盖归纳算法，它适用于分类、回归和生存问题，由西里西亚理工大学开源。
 * [Foundry](https://github.com/algorithmfoundry/Foundry)：Cognitive Foundry是一个开源Java库，用于构建专注于机器学习的智能系统，由桑迪亚国家实验室领导。
-* [Komputation](https://github.com/sekwiatkowski/komputation)：Komputation是一个用Kotlin和CUDA C编写的JVM神经网络框架。
 * [Harness](https://github.com/actionml/harness)：Harness是一个机器学习/人工智能服务器，带有许多算法的插件，包括通用推荐器。
 * [DL Learner](https://github.com/SmartDataAnalytics/DL-Learner)：DL Learner是一个使用OWL、RDF和描述逻辑进行监督机器学习的框架，由德累斯顿工业大学开源。
 * [Word2VEC Java](https://github.com/NLPchina/Word2VEC_java)：Word2VEC Java版本的一个实现。
@@ -3999,7 +4021,18 @@ Kafka生态管理系统、运维平台。
 * [JStarCraft AI](https://github.com/HongZhaoHua/jstarcraft-ai)：JStarCraft AI是一个机器学习的轻量级框架。
 * [XGBoost Predictor Java](https://github.com/komiya-atsushi/xgboost-predictor-java)：XGBoost预测器的纯Java实现，用于在线预测任务。
 * [DistML](https://github.com/intel-machine-learning/DistML)：DistML是一个机器学习工具，可以在Spark上训练非常大的模型，它与Spark完全兼容，由Intel开源。
+* [HMMLib](https://github.com/bmwcarit/hmm-lib)：该库实现了用于时间非齐次马尔可夫过程的隐马尔可夫模型，由宝马开源。
+
+#### 神经网络
+
+* [Neural Networks](https://github.com/ivan-vasilev/neuralnetworks)：Neural Networks是一些用于训练深度神经网络的算法的Java实现。
+* [Cortex](https://github.com/originrose/cortex)：Cortex是Clojure中的神经网络、回归和特征学习框架，由ThinkTopic开源。
+* [Neuroph](https://github.com/neuroph/neuroph)：Neuroph是一个开源Java神经网络框架和神经网络开发环境。
+* [NeuroFlow](https://github.com/zenecture/neuroflow)：NeuroFlow是一个用于设计、训练和评估人工神经网络的Scala库。
+* [StackNet](https://github.com/kaz-Anova/StackNet)：StackNet是一个计算、可扩展和分析框架，类似于前馈神经网络，并在多个级别使用Wolpert的堆栈泛化来提高机器学习问题的准确性，由伦敦大学开源。
+* [Komputation](https://github.com/sekwiatkowski/komputation)：Komputation是一个用Kotlin和CUDA C编写的JVM神经网络框架。
 * [Java Machine Learning Library](https://github.com/Daniel-Liu-c0deb0t/Java-Machine-Learning)：Java的简单机器学习(神经网络)库。
+* [SimpleDNN](https://github.com/KotlinNLP/SimpleDNN)：SimpleDNN是一个用Kotlin编写的机器学习轻量级开源库，旨在支持自然语言处理任务中的相关神经网络架构。
 
 #### 自然语言处理
 
@@ -4387,6 +4420,7 @@ Kafka生态管理系统、运维平台。
 * [ElevateAI Java SDK](https://github.com/NICEElevateAI/ElevateAIJavaSDK)：ElevateAI提供了用于语音转文本、语音交互的行为分析和情感分析的API。
 * [WhisperJNI](https://github.com/GiviMAD/whisper-jni)：whisper.cpp的JNI包装器，允许将语音转录为Java中的文本。
 * [AIUIChatSDK](https://github.com/wowo3129/AIUIChatSDK)：讯飞语音AIUI、百度语音封装。
+* [WhisperCat](https://github.com/ddxy/whispercat)：WhisperCat是你捕捉音频、转录和管理音频的得力助手，所有功能都集成在一个简洁流畅的界面中。
 
 #### 语音合成
 
@@ -4397,12 +4431,14 @@ Kafka生态管理系统、运维平台。
 * [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
 * [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
 * [Voices](https://github.com/hcoles/voices)：适用于Java 17及更高版本的快速进程内文本转语音。
+* [AndroidMaryTTS](https://github.com/AndroidMaryTTS/AndroidMaryTTS)：AndroidMaryTTS是一款基于MaryTTS构建的开源Android离线文本转语音应用。
 
 ## 数据科学
 
 * [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个DataFrame和可视化库，支持加载、清理、转换、过滤和汇总数据。
 * [Luckysheet](https://github.com/dream-num/Luckysheet)：Luckysheet是一款类似Excel的在线电子表格，功能强大、配置简单。
 * [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充，由Google开源。
+* [Vegas](https://github.com/vegas-viz/Vegas)：Vegas的目标是成为Scala和Spark世界中缺失的Matplotlib。
 * [Apache SystemDS](https://github.com/apache/systemds)：SystemDS是一个开源ML系统，适用于端到端数据科学生命周期。
 * [Incanter](https://github.com/incanter/incanter)：Incanter是一个基于Clojure、类似R的JVM统计计算和图形环境。
 * [Hopsworks](https://github.com/logicalclocks/hopsworks)：Hopsworks是一个ML数据平台，具有以Python为中心的特征存储和MLOps功能，由Hopsworks开源。
@@ -4486,6 +4522,7 @@ Kafka生态管理系统、运维平台。
 * [Spatial Framework Hadoop](https://github.com/Esri/spatial-framework-for-hadoop)：Hadoop空间框架允许开发人员和数据科学家使用Hadoop数据处理系统进行空间数据分析。
 * [ALITA](https://github.com/didi/ALITA)：ALITA是一个基于层的数据分析工具，由滴滴开源。
 * [Analytics Java](https://github.com/segmentio/analytics-java)：轻松将分析功能集成到任何Java应用程序中。
+* [ERTool](https://github.com/ibm-datapower/ertool)：ERTool是一个用于数据分析的Java包，旨在简化大型数据集的处理，由IBM开源。
 
 #### 实体解析
 
