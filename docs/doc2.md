@@ -35,6 +35,7 @@
 * [Mobius](https://github.com/spotify/mobius)：Mobius是一个用于管理状态演化和副作用的函数响应式框架，具有用于连接Android UI和RxJava Observables的附加组件，由Spotify开源。
 * [Ratpack](https://github.com/ratpack/ratpack)：Ratpack是一个简单、功能强大的工具包，用于创建高性能Web应用程序。
 * [REScala](https://github.com/rescala-lang/REScala)：REScala是JVM和Web上最先进的函数式响应式编程解决方案，由达姆施塔特工业大学开源。
+* [Missionary](https://github.com/leonoel/missionary)：Missionary是一个响应式数据流编程工具包，为惰性连续信号、即时离散流和I/O操作提供引用透明的操作符。
 * [Hibernate Reactive](https://github.com/hibernate/hibernate-reactive)：Hibernate ORM的响应式API，支持非阻塞数据库驱动程序以及与数据库的响应式交互。
 * [Reactors.IO](https://github.com/reactors-io/reactors)：Reactors.IO是一个基于异步事件流的并发、分布式编程框架。
 * [AutoDispose](https://github.com/uber/AutoDispose)：AutoDispose是一个RxJava 2+工具，用于通过处置/取消自动将RxJava流的执行绑定到提供的作用域，由Uber开源。
@@ -592,6 +593,7 @@
 * [Instantiator](https://github.com/sockeqwe/Instantiator)：Instantiator可以为你创建任意类的实例，让你可以专注于编写测试，而无需花费时间和精力设置测试数据。
 * [Genesis](https://github.com/ThisIsLibra/genesis)：Genesis是一个框架，允许用户创建自己的测试用例，并在生成过程中进行混淆处理。
 * [Arbitrater](https://github.com/tyro/arbitrater)：Arbitrater是一个通过反射创建任意类实例的库。
+* [Mockj](https://gitee.com/kkk001/mockj)：生成Mock数据的利器，Mockjs的Java实现。
 
 #### BDD框架
 
@@ -1092,6 +1094,8 @@
 * [DBVisitor](https://gitee.com/zycgit/dbvisitor)：DBVisitor提供Java对关系数据库更加自然的访问。
 * [Hutool DB](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-db)：Hutool DB是一个在JDBC基础上封装的数据库操作工具类。
 * [DbOom](https://db.jodd.org/)：DbOom在JDBC之上提供了一个高效、强大且轻量级的接口层，显著简化了数据库代码的编写。
+* [ThinkJD](https://gitee.com/Leytton/ThinkJD)：ThinkJD是一个简洁而强大的开源JDBC操作库。
+* [Pyranid](https://github.com/pyranid/pyranid)：Pyranid是一个面向现代Java应用程序的零依赖JDBC接口。
 
 #### DAO框架
 
@@ -1410,6 +1414,7 @@
 * [ReactiveMongo](https://github.com/ReactiveMongo/ReactiveMongo)：ReactiveMongo是一个Scala驱动程序，提供完全非阻塞和异步I/O操作。
 * [Mars](https://github.com/whaleal/mars)：Mars是用于Java的MongoDB ORM/ODM框架，由上海锦木信息技术有限公司与中国东方航空公司共同开发。
 * [Jongo](https://github.com/bguerout/jongo)：Jongo使Mongo查询语言可在Java中使用。
+* [KMongo](https://github.com/Litote/kmongo)：KMongo是一个用于MongoDB的Kotlin工具包。
 * [Morphia](https://github.com/MorphiaOrg/morphia)：Morphia是基于Java的MongoDB对象-文档映射器。
 * [Mongojack](https://github.com/mongojack/mongojack)：Mongojack将Java对象映射到MongoDB文档。
 * [MongoPlus](https://gitee.com/aizuda/mongo-plus)：MongoPlus可以使用MyBatisPlus的方式优雅的操作MongoDB，由爱组搭开源。
@@ -1951,6 +1956,7 @@
 * [GMSM Java](https://gitee.com/cn-openjava/gmsm-java)：国密算法Java版，包含非对称算法SM2、对称算法SM4、摘要算法SM3。
 * [SM2/SM3/SM4 Encrypt](https://github.com/xjfuuu/SM2_SM3_SM4Encrypt)：基于Java语言的国密SM2/SM3/SM4算法库，包含加密/解密、签名/验签、摘要算法的实现。
 * [HSD Cipher SM](https://github.com/gotoworld/hsd-cipher-sm)：国密算法SM2、SM3、SM4实现。
+* [GM Java](https://gitee.com/RuanKongkong/gm-java)：GM Java是一套用Java开发的支持国密算法的加解密工具包。
 * [Cat](https://gitee.com/bat/cat)：一款小巧的Java加密与解密算法调用工具包。
 * [Bcrypt](https://github.com/patrickfav/bcrypt)：bcrypt密码哈希函数的Java独立实现。
 * [Shamir](https://github.com/codahale/shamir)：Shamir的秘密共享算法在GF(256)上的Java实现。
@@ -3598,6 +3604,7 @@
 * [EazyBI](https://eazybi.com/)：EazyBI是一款功能强大的工具，提供易于使用的拖放式创建自定义报告、图表和仪表板小工具。
 * [BambooBSC](https://github.com/billchen198318/bamboobsc)：BambooBSC是一个开源的平衡计分卡商业智能系统。
 * [Tahopen](https://github.com/tahopen/tahopen-platform)：Tahopen是一个强大的开源商业分析平台，由Pentaho分支而来。
+* [StyleBI](https://github.com/inetsoft-technology/stylebi)：StyleBI是一款云原生、资源占用极低的商业智能Web应用，由数据转换管道和可视化微服务驱动。
 
 ## 功能切换
 
@@ -3713,7 +3720,6 @@
 * [SIA-TASK](https://github.com/siaorg/sia-task)：SIA-TASK是任务调度的一体式解决方案，简单易用，由宜信开源。
 * [Jobs](https://gitee.com/baomidou/jobs)：baomidou社区开源的分布式任务调度组件。
 * [BigBen](https://github.com/walmartlabs/bigben)：BigBen是一个基于Cassandra和Hazelcast的通用、多租户、基于时间的事件调度程序和Cron调度框架，由沃尔玛开源。
-* [Rqueue](https://github.com/sonus21/rqueue)：Rqueue是一个为Spring框架构建的异步任务执行器，基于Redis支持的Spring框架的消息传递库。
 * [Antares](https://github.com/ihaolin/antares)：分布式任务调度平台。
 * [Light Task Scheduler](https://github.com/ltsopensource/light-task-scheduler)：LTS主要用于解决分布式任务调度问题，支持实时任务、定时任务和Cron任务。
 * [Atlassian Scheduler](https://bitbucket.org/atlassian/atlassian-scheduler)：Atlassian Scheduler库是用于在Atlassian应用程序中创建调度任务的API。
@@ -5883,6 +5889,10 @@
 * [Skeleton Spring Boot Web Services](https://github.com/leanstacks/skeleton-ws-spring-boot)：这是一个为Spring Boot RESTful Web Services应用设计的项目骨架。
 * [Spring WebApp Template](https://github.com/making/spring-webapp-template)：这是一个使用Spring框架的Web应用程序模板项目。
 * [Maven Archetype Plugin](https://github.com/apache/maven-archetype)：Archetype是一个Maven项目模板工具包。
+* [Spring Boot Maven Angular Starter](https://github.com/shekhargulati/spring-boot-maven-angular-starter)：这是一个基于Spring Boot和Angular的多模块Maven入门应用，默认配置良好。
+* [Spring Boot Start Current](https://github.com/yujunhao8831/spring-boot-start-current)：Spring Boot脚手架。
+* [Vue.js Java Starter](https://github.com/kucharzyk/vuejs-java-starter)：Vue.js Spring Boot Starter项目。
+* [Boot React](https://github.com/geowarin/boot-react)：这个简单的项目利用Spring Dev Tools和React Transform实现热重载，可以提高你的工作效率。
 
 #### 脚手架
 
@@ -5921,6 +5931,7 @@
 #### 快速开发框架
 
 * [ApiBoot](https://gitee.com/minbox-projects/api-boot)：ApiBoot是接口服务的落地解决方案，提供了一系列开箱即用的组件，通过封装来简化主流第三方框架的集成。
+* [SOFABoot](https://github.com/sofastack/sofa-boot)：SOFABoot是一个基于Spring Boot的Java开发框架，由蚂蚁开源。
 * [Ape Frame](https://gitee.com/classicChickenWings/ape-frame)：基于Spring Boot封装的轻量级开发框架。
 * [Demoiselle](https://github.com/demoiselle/framework)：Demoiselle框架实现了集成框架的概念，其目标是通过最大限度地减少选择和集成专业框架的时间来促进应用程序的构建，从而提高生产力并保证系统的可维护性。
 * [Synapse](https://github.com/americanexpress/synapse)：Synapse是一组用于快速开发的轻量级基础框架模块，内置企业级成熟度和质量，由美国运通开源。
@@ -6062,6 +6073,7 @@
 * [Agile Admin](https://github.com/gmingchen/agile-admin)：Agile Admin是一个基于Vue 3、ElementPlus、Java的多租户后台权限管理系统。
 * [MEE Admin](https://github.com/funnyzpc/mee-admin)：Admin、CMS、Console等多用途开源后台系统。
 * [Dokit](https://github.com/perye/dokit)：基于Spring Boot 2.1.9、JPA、Spring Security、Redis、Vue的前后端分离的后台管理系统。
+* [Spring Cloud Vue](https://github.com/OptionalDay/spring-cloud-vue)：Cloud Vue是一套基于Spring Cloud、Mybatis、Vue全家桶的前后端分离框架。
 
 #### 低代码
 
@@ -6188,6 +6200,9 @@
 * [Microservices Event Sourcing](https://github.com/chaokunyang/microservices-event-sourcing)：Microservices Event Sourcing是一个微服务架构的在线购物平台。
 * [WooCommerce API Java](https://github.com/calatonsystems/wc-api-java)：WooCommerce REST API的Java封装库。
 * [UCP SDK Java](https://github.com/Open-Commerce-Protocol/ucp-sdk-java)：Google通用商务协议(UCP)的非官方SDK。
+* [ECommerce MicroService App](https://github.com/SelimHorri/ecommerce-microservice-backend-app)：基于Spring Boot微服务架构和Spring Cloud的电子商务应用，拥有强大且高弹性的后端管理功能。
+* [Shop](https://github.com/vito16/shop)：基于Spring Boot和Bootstrap搭建的商城系统。
+* [Spring Boot React ECommerce App](https://github.com/ujjavaldesai07/spring-boot-react-ecommerce-app)：基于微服务架构的电子商务应用程序，使用Spring Boot和ReactJS构建。
 * [微同商城](https://gitee.com/fuyang_lipengjun/platform)：减少重复造轮子，开源微信小程序商城。
 * [智汇商城](https://gitee.com/catshen/zhsc)：智汇商城是一款持续更新得轻量级、高性能、前后端分离的电商系统。
 * [Mall](https://github.com/macrozheng/mall)：Mall项目致力于打造一个完整的电商系统，采用现阶段主流技术实现。
@@ -6516,6 +6531,8 @@
 * [Mars Blog](https://gitee.com/Marsfactory/mars-blog)：Mars Blog是一个现代化的博客系统。
 * [Blog System](https://github.com/withstars/Blog-System)：个人博客系统，基于Spring、Spring MVC、MyBatis构建。
 * [FS Blog](https://github.com/JamesZBL/FS-Blog)：基于Spring Boot的个人博客。
+* [Fame](https://github.com/zzzzbw/Fame)：基于Spring Boot、Vue 3、Nuxt开发的博客系统。
+* [Spring Boot Blog REST API](https://github.com/osopromadze/Spring-Boot-Blog-REST-API)：使用Spring Boot、MySQL、JPA和Hibernate为博客构建RESTful CRUD API。
 
 #### 论坛系统
 
@@ -6548,6 +6565,8 @@
 * [QuestApp](https://github.com/rdilruba/questapp)：QuestApp是一款基于Java的简单Web应用程序，允许用户参与讨论和分享内容，其功能类似于一个基本的论坛或博客平台。
 * [Molihub](https://github.com/373675032/molihub)：Molihub是一个基于Spring、Spring MVC、JDBCTemplate、JSP开发的Java Web项目。
 * [Spring Reddit Clone](https://github.com/SaiUpadhyayula/spring-reddit-clone)：这是一个使用Spring Boot、Spring Security、Spring Data JPA和Spring MVC构建的Reddit克隆网站。
+* [JavaQuark](https://github.com/ChinaLHR/JavaQuarkBBS)：基于Spring Boot实现的一个简易的Java社区。
+* [Code Nest](https://github.com/xiaou61/Code-Nest)：Code Nest是一个面向开发者的成长型社区与知识运营平台。
 
 #### 图书系统
 
@@ -6570,6 +6589,7 @@
 * [Smithereen](https://github.com/grishka/Smithereen)：具有好友、动态消息和群组功能的联邦式、兼容ActivityPub的社交网络。
 * [My Moments](https://github.com/amrkhaledccd/my-moments)：用于学习目的的Instagram克隆。
 * [Activity Streams](https://github.com/OpenSocial/activitystreams)：活动流2.0 Java参考实现，由IBM开源。
+* [Twitter Spring React.js](https://github.com/merikbest/twitter-spring-reactjs)：使用Spring Framework和React.js，采用微服务架构开发Twitter克隆版。
 
 #### ERP系统
 
@@ -7693,6 +7713,7 @@
 * [IBoot](https://gitee.com/iteaj/iboot)：IBoot是基于Java 1.8、Spring Boot 2.7、Netty等框架开发的物联网网关。
 * [IOTGate](https://gitee.com/willbeahero/IOTGate)：Java版基于Netty的物联网高并发智能网关。
 * [Gateway4Java](https://github.com/ganweisoft/Gateway4Java)：Gateway是一个高性能、集中式的各种设备插件通信和调度模块。
+* [IoTOS Gateway](https://gitee.com/geekhekr/iotos-soft-gateway)：IoTOS的配套专用软网关开发Java SDK。
 
 #### MQTT服务器
 
@@ -9131,8 +9152,9 @@
 * [ImGui](https://github.com/kotlin-graphics/imgui)：这是ImGui的Kotlin重写，一个用于C++的无膨胀图形用户界面库。
 * [JImGUI](https://github.com/ice1000/jimgui)：ImGUI的的纯Java绑定。
 * [ImGui Java](https://github.com/SpaiR/imgui-java)：ImGui基于JNI的绑定。
-* [LEGUI](https://github.com/SpinyOwl/legui)：Java OpenGL GUI库，专为与最新的LWJGL(LWJGL 3)一起使用而创建。
+* [LEGUI](https://github.com/SpinyOwl/legui)：Java OpenGL GUI库，专为与最新的LWJGL一起使用而创建。
 * [VisUI](https://github.com/kotcrab/vis-ui)：VisUI允许在LibGDX中使用scene2d.ui创建漂亮的界面。
+* [Doodle](https://github.com/nacular/doodle)：Doodle助你完全使用Kotlin创建美观现代的应用程序。
 * [PolyUI](https://github.com/Polyfrost/polyui-jvm)：PolyUI是一个由Polyfrost开发的声明式UI框架。
 * [Kotlin LibUI](https://github.com/msink/kotlin-libui)：LibUI是一个轻量级的C语言多平台UI库，使用此绑定，你可以开发跨平台且外观原生的GUI程序。
 * [Membrane](https://github.com/phronmophobic/membrane)：Membrane提供了构建用户界面所需的所有工具。
@@ -10546,6 +10568,7 @@
 * [GraalVM](https://github.com/oracle/graal)：GraalVM将Java应用程序编译为本机可执行文件，可立即启动、快速扩展并使用更少的计算资源，由Oracle开源。
 * [RoboVM](https://github.com/MobiVM/robovm)：RoboVM是Java字节码的提前编译器，针对Linux、Mac OS X和iOS，由Xamarin维护。
 * [TeaVM](https://github.com/konsoletyper/teavm)：TeaVM是Java字节码的提前编译器，可生成在浏览器中运行的JavaScript和WebAssembly。
+* [Spring Native](https://github.com/spring-attic/spring-native)：Spring Native提供了使用GraalVM本机镜像编译器将Spring应用程序编译为本机可执行文件的Beta支持。
 * [JTransc](https://github.com/soywiz-archive/jtransc)：JTransc是一个AOT，它将.class和.jar文件编译成目标编程语言/可执行文件，并将所有必需的依赖项打包到一个文件或文件夹中。
 * [Excelsior JET](https://github.com/excelsior-oss/excelsior-jet-maven-plugin)：Excelsior JET是一款带有AOT的Java虚拟机增强工具。
 * [BugVM](https://github.com/ibinti/bugvm)：BugVM使用独立的JVM将字节码编译为二进制代码。
@@ -10695,6 +10718,7 @@
 * [ktmidi](https://github.com/atsushieno/ktmidi)：ktmidi是一个Kotlin多平台库，用于MIDI访问API和MIDI数据处理，支持MIDI 1.0和MIDI 2.0。
 * [Jopus](https://github.com/kinsleykajiva/jopus)：Jopus使用Project Panama为Opus交互式音频编解码器提供高性能的Java绑定。
 * [JMBE](https://github.com/DSheirer/jmbe)：Java AMBE/IMBE音频解码器。
+* [Libshout Java](https://github.com/OlegKunitsyn/libshout-java)：Java Libshout绑定。
 
 #### 视频库
 
@@ -11091,7 +11115,6 @@
 * [SoLoader](https://github.com/facebook/SoLoader)：SoLoader是Android的本机代码加载器，Facebook开源。
 * [JNIWrapper](https://teamdev.com/jniwrapper/)：该库可以在没有JNI的情况下在Java中使用本机代码。
 * [JniHelpers](https://github.com/spotify/JniHelpers)：JniHelpers是一个旨在方便使用C++编写JNI代码的库，Spotify开源。
-* [Spring Native](https://github.com/spring-attic/spring-native)：Spring Native提供了使用GraalVM本机镜像编译器将Spring应用程序编译为本机可执行文件的beta支持。
 * [JavaCPP-Presets](https://github.com/bytedeco/javacpp-presets)：JavaCPP Presets包含广泛使用的C/C++库的Java配置和接口类。
 * [JNAerator](https://github.com/nativelibs4java/JNAerator)：JNAerator为C、C++和Objective-C库生成完整的本机绑定，针对BridJ、JNA或Node.js运行时。
 * [Nalim](https://github.com/apangin/nalim)：Nalim是一个使用JVMCI(JVM编译器接口)将Java方法链接到本机函数的库。
@@ -11779,6 +11802,7 @@
 * [Bopomofo4j](https://gitee.com/rnkrsoft/Bopomofo4j)：Bopomofo4j是一个零依赖、纯Java开发的汉字转拼音库。
 * [JPinyin](https://github.com/qzw1210/jpinyin)：JPinyin是一个汉字转拼音的Java开源类库，在PinYin4j的功能基础上做了一些改进。
 * [PinIn](https://github.com/Towdium/PinIn)：PinIn是一个用于解决各类汉语拼音匹配问题的Java库。
+* [Pinyin](https://gitee.com/duguying2008/pinyin)：Pinyin是一个Java库，可以将汉字翻译成中文拼音。
 * [Moji4J](https://github.com/andree-surya/moji4j)：Moji4J是一个开源Java库，用于在日语平假名、片假名和罗马字脚本之间进行转换。
 * [Myanmar Tools](https://github.com/google/myanmar-tools)：该项目包括用于处理缅甸使用的字体编码的工具，目前支持广泛的Zawgyi-One字体编码，由Google开源。
 * [Jakaroma](https://github.com/nicolas-raoul/jakaroma)：Java汉字/等到罗马字转换器。

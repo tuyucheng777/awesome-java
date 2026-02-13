@@ -987,7 +987,6 @@
 * [Javalin](https://github.com/javalin/javalin)：Javalin是一个非常轻量级的Kotlin和Java Web框架，支持WebSockets、HTTP2和异步请求。
 * [Ninja](https://github.com/ninjaframework/ninja)：Ninja是Java的全栈Web框架，坚如磐石、快速且高效。
 * [KVision](https://github.com/rjaros/kvision)：KVision是一个为Kotlin语言创建的开源Web框架，它允许开发人员使用Kotlin构建现代Web应用程序。
-* [SOFABoot](https://github.com/sofastack/sofa-boot)：SOFABoot是一个基于Spring Boot的Java开发框架，由蚂蚁开源。
 * [Jooby](https://github.com/jooby-project/jooby)：Jooby是一个现代、高性能且易于使用的Java和Kotlin Web框架上。
 * [Elide](https://github.com/elide-dev/elide)：Elide是一个用于开发快速Web应用程序的云优先多语言运行时。
 * [CabinJ](https://github.com/CabinJV/CabinJv)：CabinJ是一个使用Java NIO构建的高性能、轻量级HTTP服务器框架，可实现高效的非阻塞I/O操作。
@@ -1064,6 +1063,7 @@
 * [Dandelion](https://github.com/dandelion/dandelion)：Dandelion是一个免费开源的Java框架，旨在简化基于JVM的环境中的Web开发。
 * [Juzu](https://github.com/juzu/juzu)：Juzu Web是一个用于开发MVC应用程序的Web框架，强调简洁性和类型安全。
 * [Wisdom](https://github.com/wisdom-framework/wisdom)：Wisdom是一个模块化和动态的Web框架。
+* [Oxygen](https://gitee.com/justlive1/oxygen)：轻量级Java框架，支持JDK 21、模块化。
 * [Windward](https://github.com/Flmelody/windward)：Windward是一个轻量级的Java Web框架。
 
 #### REST框架
@@ -1143,6 +1143,7 @@
 * [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。
 * [JWt](https://github.com/emweb/jwt)：JWt是一个用于开发Web应用程序的Java库，它提供了一种纯Java组件驱动的方法来构建Web应用程序，并使用Ajax或纯HTML进行呈现。
 * [Errai](https://github.com/errai/errai)：Errai是一个Java/GWT Web框架，用于构建富客户端Web应用程序，由RedHat开源。
+* [Krema](https://github.com/krema-build/krema)：使用Java和你最喜欢的Web框架构建现代桌面应用程序。
 * [WebforJ](https://github.com/webforj/webforj)：WebforJ是一个强大且灵活的Web框架，可让你使用Java轻松创建现代且引人入胜的用户界面，由BASIS开源。
 * [WComponents](https://github.com/BorderTech/wcomponents)：WComponents是一个用于为企业和政府构建可访问的Web应用程序的Java框架。
 * [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA的SDK，由Adobe维护。
@@ -1219,6 +1220,11 @@
 * [EasyRPC](https://github.com/yeecode/EasyRPC)：EasyRPC是一个RPC的最小实现。
 * [ABG Cloud](https://github.com/annabergite/abg-rpc)：ABG Cloud是一款速度超凡的异步响应式RPC框架。
 * [Grain](https://github.com/dianbaer/grain)：Grain是一个极简、组件式的RPC框架。
+* [xRPC](https://github.com/yj8023xx/xrpc)：xRPC是一个轻量级、高吞吐量、低延迟的RPC框架，可为支持RDMA网络接口的应用提供超低延迟的RPC通信。
+* [Thunder](https://github.com/Nepxion/Thunder)：Nepxion Thunder是一个基于Netty、Hessian、Zookeeper的分布式RPC框架。
+* [Nexus](https://github.com/StephenFaust/nexus)：Nexus是一个简单的RPC框架。
+* [Navi PBRPC](https://github.com/neoremind/navi-pbrpc)：Navi PBRPC提供了一种使用协议缓冲区的RPC解决方案。
+* [Mango](https://github.com/TFdream/mango)：Mango是一个高性能的开源Java RPC框架。
 
 ### 微服务框架
 
@@ -2265,6 +2271,7 @@
 * [EBus](https://ebus.sourceforge.io/eBus)：EBus是一个Java中间件API，支持无代理、基于类型+主题的发布/订阅和请求/回复消息传递，用于应用程序内和应用程序间的对象级通信。
 * [Kaka](https://gitee.com/zkpursuit/kaka-core)：服务于后端的事件领域模型，全局事件通知框架，无任何第三方依赖。
 * [NYBus](https://github.com/amitshekhariitbhu/NYBus)：NYBus是一个面向Android和Java应用的Pub-Sub库。
+* [Rqueue](https://github.com/sonus21/rqueue)：Rqueue是一个为Spring框架构建的异步任务执行器，基于Redis支持的Spring框架的消息传递库。
 * [Spring Cloud Bus](https://github.com/spring-cloud/spring-cloud-bus)：Spring Cloud Bus是一种轻量级的消息代理，用于集成和传输微服务之间的消息。
 * [LiveEventBus](https://github.com/JeremyLiao/LiveEventBus)：LiveEventBus是一款Android消息总线，基于LiveData，具有生命周期感知能力，支持Sticky、AndroidX、款进程。
 * [Varadhi](https://github.com/flipkart-incubator/varadhi)：Varadhi是具有REST接口的消息总线实现，由Flipkart开源。
@@ -3176,6 +3183,7 @@ Kafka生态管理系统、运维平台。
 * [Nettosphere](https://github.com/Atmosphere/nettosphere)：Nettosphere是由Atmosphere和Netty提供支持的Java WebSocket和HTTP服务器。
 * [Netty REST](https://github.com/buremba/netty-rest)：Netty REST是一个基于Netty的高性能HTTP和WebSocket服务器实现。
 * [Vert.x STOMP](https://github.com/vert-x3/vertx-stomp)：STOMP客户端/服务器实现。
+* [JFinal WebSocket](https://gitee.com/xxssyyyyssxx/jfinal-websocket)：JFinal架构下开发WebSocket。
 
 #### Socket.IO
 
@@ -3447,6 +3455,7 @@ Kafka生态管理系统、运维平台。
 * [TeleHash](https://github.com/quartzjer/TeleHash)：Telehash是一种100%开放、安全的网状网络技术。
 * [Iroh FFI](https://github.com/n0-computer/iroh-ffi)：Iroh的FFI绑定。
 * [Nostr Java](https://github.com/tcheeric/nostr-java)：是一个用于Nostr协议的Java SDK。
+* [I2P+](https://github.com/I2PPlus/i2pplus)：I2P+是Java I2P匿名网络层的软分支。
 
 #### SDN
 
@@ -3533,6 +3542,7 @@ Kafka生态管理系统、运维平台。
 * [CZ88.IP](https://github.com/tagphi/czdb-search-java)：CZDB Search是一个用于在CZ88 IP库中搜索数据的Java库。
 * [IP2Location](https://github.com/renfei/ip2location)：IP2Location提供免费的IP地理位置数据库。
 * [IP2Location](https://github.com/ip2location/ip2location-java)：IP2Location组件允许用户查询IP地址以获取访问者的国家、地区、城市、ISP或公司名称等信息。
+* [QQZeng IP](https://gitee.com/qqzeng-ip/qqzeng-ip)：QQZeng IP地址数据库。
 
 #### SIP
 
