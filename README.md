@@ -18,7 +18,6 @@
   * [微服务框架](#微服务框架)
   * [Spring Cloud框架](#Spring-Cloud框架)
   * [插件框架](#插件框架)
-* [微服务库](#微服务库)
 * [微服务治理](#微服务治理)
 * [REST错误处理](#REST错误处理)
 * [构建工具](#构建工具)
@@ -531,6 +530,7 @@
 * [工件仓库](docs/doc2.md#工件仓库)
 * [打包](docs/doc2.md#打包)
 * [部署](docs/doc2.md#部署)
+* [更新](docs/doc2.md#更新)
 * [运行](docs/doc2.md#运行)
 * [REPL](docs/doc2.md#REPL)
 * [Java Web Start](docs/doc2.md#Java-Web-Start)
@@ -719,6 +719,8 @@
   * [Android WebView](docs/doc2.md#Android-WebView)
   * [Android加载库](docs/doc2.md#Android加载库)
   * [Android换肤框架](docs/doc2.md#Android换肤框架)
+  * [APK解析器](docs/doc2.md#APK解析器)
+  * [ADB](docs/doc2.md#ADB)
 * [GUI开发/程序](docs/doc2.md#GUI开发程序)
   * [GUI框架](docs/doc2.md#GUI框架)
   * [移动开发框架](docs/doc2.md#移动开发框架)
@@ -1197,6 +1199,7 @@
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
 * [Joynr](https://github.com/bmwcarit/joynr)：Joynr是一个与传输协议无关(MQTT、HTTP、WebSockets等)、基于Franca IDL的通信框架，支持多种通信范例，由宝马开源。
+* [Stitch](https://github.com/twitter/stitch)：Stitch是一个Scala库，用于优雅高效地组合对服务的RPC调用，由Twitter开发。
 * [DubboX](https://github.com/dangdangdotcom/dubbox)：DubboX在Dubbo框架中添加了RESTful远程处理、Kyro/FST序列化等功能，由当当开发。
 * [NettyRPC](https://github.com/luxiaoxun/NettyRpc)：NettyRpc是一个基于Netty、ZooKeeper和Spring的简单RPC框架。
 * [JoyRPC](https://github.com/jd-opensource/joyrpc)：JoyRPC是一款基于Java实现的RPC服务框架，由京东开源。
@@ -1245,10 +1248,12 @@
 * [Apache ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个用于用Java快速开发微服务的软件开发工具包，提供服务注册、服务发现、动态路由和服务管理功能，由华为开源。
 * [Eclipse MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展，由IBM、RedHat、Oracle、Fujitsu、Microsoft等组织参与。
 * [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
+* [Misk](https://github.com/cashapp/misk)：Misk是来自Cash App的开源微服务容器，它允许你使用Kotlin或Java快速创建微服务。
 * [Nano](https://github.com/NanoNative/nano)：Nano是一种轻量级方法，它使开发人员能够以极小的代码量，使用函数式、流式、链式调用、简洁的现代Java语言编写微服务。
 * [KivaKit](https://github.com/Telenav/kivakit)：KivaKit是一套用于日常开发的集成Java迷你框架，由Telenav开源。
 * [Riposte](https://github.com/Nike-Inc/riposte)：Riposte是一个基于Netty的微服务框架，用于快速开发生产就绪的HTTP API，由Nike开源。
 * [Lagom](https://github.com/lagom/lagom)：Lagom是一个开源框架，用于用Java或Scala构建响应式微服务系统，由Lightbend开源。
+* [Squbs](https://github.com/paypal/squbs)：Squbs是一套组件，可在大规模托管云环境中实现Akka和Akka HTTP应用程序/服务的标准化和可操作化，Paypal开源。
 * [Apollo](https://github.com/spotify/apollo)：Apollo是Spotify编写微服务时使用的一组Java库，包含HTTP服务器和URI路由系统等模块，使得实现RESTful API服务变得轻而易举。
 * [Armeria](https://github.com/line/armeria)：Armeria是适合任何情况的首选微服务框架，你可以利用自己喜欢的技术构建任何类型的微服务，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Streams、Spring Boot和Dropwizard，由Line开源。
 * [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个轻量级的开源框架，专为构建快速、高效的云原生Java微服务而设计，由IBM开源。
@@ -1258,11 +1263,14 @@
 * [NutzBoot](https://gitee.com/nutz/nutzboot)：NutzBoot是可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、流控熔断、分布式事务等解决方案。
 * [Starlight](https://github.com/baidu/starlight)：Starlight是一套面向云原生的微服务通信框架，兼容Spring生态，由百度开源。
 * [KumuluzEE](https://github.com/kumuluz/kumuluzee)：KumuluzEE是一个轻量级框架，用于使用标准Java、Java EE/Jakarta EE技术开发微服务并将现有Java应用程序迁移到微服务，由SUNESIS公司开发。
+* [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行REST微服务，由AOL开源。
 * [Apache Meecrowave](https://github.com/apache/openwebbeans-meecrowave)：Meecrowave是Apache的一个轻量级微服务框架，能够与CDI、JAX-RS和JSON API完美兼容。
 * [Ja-Micro](https://github.com/Sixt/ja-micro)：Ja-Micro是一个用于构建微服务的轻量级Java框架，由Sixt开发。
+* [Hexagon](https://github.com/hexagonkt/hexagon)：Hexagon是一个用Kotlin编写的微服务工具包，其目的是简化在云平台内运行的服务器应用程序的构建。
 * [Colossus](https://github.com/tumblr/colossus)：Colossus是一个用来构建Scala微服务的轻量级I/O框架，由Tumblr开源。
 * [JBoot](https://gitee.com/JbootProjects/jboot)：JBoot是一个基于JFinal、Dubbo、Seata、Sentinel、ShardingSphere、Nacos等开发的国产框架。
 * [ActiveJ](https://github.com/activej/activej)：ActiveJ是适用于现代Web、云、高负载和微服务的Java框架。
+* [AdeptJ](https://github.com/AdeptJ/adeptj-runtime)：高性能、动态、模块化的RESTful API、微服务和Web应用运行时。
 * [Launcher](https://github.com/fujitsu/launcher)：Launcher是MicroProfile的一个实现，由Fujitsu开源。
 * [Flower](https://github.com/zhihuili/flower)：Flower是一个构建在Akka上的响应式微服务框架。
 * [Las2peer](https://github.com/rwth-acis/las2peer)：Las2peer是一个基于Java的服务器框架，用于在分布式点对点(P2P)环境中开发和部署微服务，由亚琛工业大学开发。
@@ -1299,29 +1307,6 @@
 * [Zephyr](https://github.com/sunshower-io/zephyr)：Zephyr是一个基于Java的开源插件框架，具有智能依赖管理、模块化设计和小巧的占用空间。
 * [KWai Business Extension Framework](https://github.com/kwai/kwai-business-extension-framwork)：KWai Business Extension Framework提供一套通用业务扩展框架，通过引入业务身份识别和可扩展的隔离架构，帮助业务搭建定制业务流程的架构标准、研发工具和运维体系，由快手开发。
 * [LingFrame](https://github.com/LingFrame/LingFrame)：LingFrame是一个基于JVM的新一代微内核插件化框架。
-
-## 微服务库
-
-* [Dapr Java](https://github.com/dapr/java-sdk)：Dapr是Microsoft开源的一个可移植、事件驱动的运行时，用于跨云和边缘构建分布式应用程序。
-* [AdeptJ Runtime](https://github.com/AdeptJ/adeptj-runtime)：适用于RESTful API、微服务和Web应用的高性能、动态、模块化运行时。
-* [Fluxzero](https://github.com/fluxzero-io/fluxzero-sdk-java)：Fluxzero是一个云运行时，用于构建后端，而无需基础设施开销。
-* [Parapet](https://github.com/parapet-io/parapet)：Parapet是一个用于构建分布式和事件驱动系统的纯函数式库。
-* [CloudEvents Java](https://github.com/cloudevents/sdk-java)：CloudEvents是一种以通用格式描述事件数据的规范，以提供跨服务、平台和系统的互操作性。
-* [Nepxion Discovery](https://github.com/Nepxion/Discovery)：Nepxion Discovery是专注于企业级云原生微服务开源解决方案。
-* [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行REST微服务，由AOL开源。
-* [TAC](https://github.com/alibaba/tac)：TAC是与Tangram配套的服务端解决方案，由阿里提供。
-* [QBit](https://github.com/advantageous/qbit)：QBit是一个用于构建微服务的响应式编程库。
-* [Misk](https://github.com/cashapp/misk)：Misk是来自Cash App的开源微服务容器，它允许你使用Kotlin或Java快速创建微服务。
-* [Prana](https://github.com/Netflix/Prana)：Prana是Netflix开源的一个Sidecar代理，专门为非JVM应用程序提供与Netflix OSS生态系统的集成能力。
-* [Stitch](https://github.com/twitter/stitch)：Stitch是一个Scala库，用于优雅高效地组合对服务的RPC调用，由Twitter开发。
-* [Conjure](https://github.com/palantir/conjure)：Conjure是一个简单的工具链，用于定义一次API并生成多种语言的客户端/服务器接口，由Palantir开源。
-* [Hexagon](https://github.com/hexagonkt/hexagon)：Hexagon是一个用Kotlin编写的微服务工具包，其目的是简化在云平台内运行的服务器应用程序的构建。
-* [Mica](https://gitee.com/596392912/mica)：Spring Cloud微服务开发核心工具集，支持Web和WebFlux。
-* [Edison MicroService](https://github.com/otto-de/edison-microservice)：Spring Boot之上的独立库集合，可提供更快的JVM微服务设置。
-* [Squbs](https://github.com/paypal/squbs)：Squbs是一套组件，可在大规模托管云环境中实现Akka和Akka HTTP应用程序/服务的标准化和可操作化，Paypal开源。
-* [SIP](https://github.com/x1F/sip-framework)：SIP能够使用微服务构建轻量级集成适配器，以实现系统的技术和非技术解耦，因此具有高度可扩展性。
-* [Mats3](https://github.com/centiservice/mats3)：Mats3是一个Java库，可促进异步、无状态、多阶段、基于消息的服务的开发。
-* [Mercury](https://github.com/Accenture/mercury)：Mercury是一个用于事件驱动编程的软件开发工具包，由Accenture开源。
 
 ## 微服务治理
 
@@ -1438,13 +1423,16 @@
 
 ## 云原生
 
+* [Dapr Java](https://github.com/dapr/java-sdk)：Dapr是Microsoft开源的一个可移植、事件驱动的运行时，用于跨云和边缘构建分布式应用程序。
 * [Linkerd](https://github.com/linkerd/linkerd)：Linkerd是一个提供弹性云端原生应用服务网格的开源项目，也是面向微服务的开源RPC代理。
 * [Ballerina](https://github.com/ballerina-platform/ballerina-lang)：Ballerina是一种针对集成进行了优化的开源云原生编程语言，它由WSO2开发和支持。
 * [Buildpacks](https://buildpacks.io)：Buildpacks可以将应用程序源代码转换为可以在任何云上运行的镜像。
+* [Prana](https://github.com/Netflix/Prana)：Prana是Netflix开源的一个Sidecar代理，专门为非JVM应用程序提供与Netflix OSS生态系统的集成能力。
 * [Envoy Control](https://github.com/allegro/envoy-control)：Envoy Control是一个用于Service Mesh的生产就绪控制平面，基于与平台无关的Envoy Proxy数据平面，由Allegro开源。
 * [Java Control Plane](https://github.com/envoyproxy/java-control-plane)：Envoy gRPC控制平面的Java实现。
 * [JEAF](https://anaptecs.atlassian.net/wiki/spaces/JEAF/overview)：JEAF是一组框架、库和工具，支持开发基于Java的轻量级云原生企业应用程序。
 * [Foremast](https://github.com/intuit/foremast)：Foremast是一个基于Kubernetes的云原生应用健康管理器，由Intuit开源。
+* [CloudEvents Java](https://github.com/cloudevents/sdk-java)：CloudEvents是一种以通用格式描述事件数据的规范，以提供跨服务、平台和系统的互操作性。
 * [Janus](https://github.com/evoila/janus)：Janus是一个多租户可观测性代理，为Prometheus、Loki和Tempo提供基于标签的访问控制和查询强制执行。
 
 ## Serverless
@@ -1452,7 +1440,8 @@
 * [Apache OpenWhisk](https://github.com/apache/openwhisk)：OpenWhisk是一个用于构建云应用程序的Serverless函数平台，由IBM开源。
 * [Kotless](https://github.com/JetBrains/kotless)：Kotlin Serverless框架，由JetBrains开源。
 * [Koupleless](https://github.com/koupleless/koupleless)：Koupleless是一种模块化的Serverless技术解决方案，它能让普通应用以比较低的代价演进为Serverless研发模式，由蚂蚁开源。
-* [Apiary](https://github.com/DBOS-project/apiary)：Apiary是一个事务性功能即服务(FaaS)框架，用于构建面向数据库的应用程序，例如微服务和Web服务后端，这是MIT、斯坦福合作的一个研究项目。
+* [Apiary](https://github.com/DBOS-project/apiary)：Apiary是一个FaaS框架，用于构建面向数据库的应用程序，例如微服务和Web服务后端，这是MIT、斯坦福合作的一个研究项目。
+* [Fluxzero](https://github.com/fluxzero-io/fluxzero-sdk-java)：Fluxzero是一个云运行时，用于构建后端，而无需基础设施开销。
 * [Powertools Lambda Java](https://github.com/aws-powertools/powertools-lambda-java)：Powertools是一个开发工具包，用于实现Serverless最佳实践并提高开发人员速度。
 * [Google App Engine](https://github.com/GoogleCloudPlatform/appengine-java-standard)：Google App Engine标准Java运行时：Prod运行时、本地devappserver、Cloud SDK Java组件、GAE API和GAE API模拟器。
 * [Serverless Java Container](https://github.com/awslabs/aws-serverless-java-container)：Serverless Java Container让你可以在AWS Lambda中轻松运行使用Spring、Spring Boot、Struts、Jersey或Spark等框架编写的Java应用程序。
@@ -2161,6 +2150,7 @@
 * [AndroidEventBus](https://github.com/hehonghui/AndroidEventBus)：AndroidEventBus是适用于Android的轻量级事件总线库，简化了Activity、Fragments、Threads、Services等之间的通信。
 * [Nakadi](https://github.com/zalando/nakadi)：Nakadi是一个分布式事件总线代理，它在类似Kafka的队列之上实现了RESTful API抽象，可用于以可靠且高度可用的方式实时发送、接收和分析流数据，由Zalando开源。
 * [Apollo](https://github.com/Sloaix/Apollo)：RxJava的事件总线。
+* [Mercury](https://github.com/Accenture/mercury)：Mercury是一个用于事件驱动编程的软件开发工具包，由Accenture开源。
 * [TinyBus](https://github.com/sergejsha/tinybus)：TinyBus是Otto事件总线的更快实现，附加了你错过的额外功能。
 * [Netflix EventBus](https://github.com/Netflix/netflix-commons/tree/master/netflix-eventbus/src)：用于进程内的事件总线。
 * [xBus](https://github.com/mcxiaoke/xBus)：简洁的EventBus实现。
@@ -2200,6 +2190,7 @@
 * [EBus](https://ebus.sourceforge.io/eBus)：EBus是一个Java中间件API，支持无代理、基于类型+主题的发布/订阅和请求/回复消息传递，用于应用程序内和应用程序间的对象级通信。
 * [Kaka](https://gitee.com/zkpursuit/kaka-core)：服务于后端的事件领域模型，全局事件通知框架，无任何第三方依赖。
 * [NYBus](https://github.com/amitshekhariitbhu/NYBus)：NYBus是一个面向Android和Java应用的Pub-Sub库。
+* [Mats3](https://github.com/centiservice/mats3)：Mats3是一个Java库，可促进异步、无状态、多阶段、基于消息的服务的开发。
 * [Rqueue](https://github.com/sonus21/rqueue)：Rqueue是一个为Spring框架构建的异步任务执行器，基于Redis支持的Spring框架的消息传递库。
 * [Spring Cloud Bus](https://github.com/spring-cloud/spring-cloud-bus)：Spring Cloud Bus是一种轻量级的消息代理，用于集成和传输微服务之间的消息。
 * [LiveEventBus](https://github.com/JeremyLiao/LiveEventBus)：LiveEventBus是一款Android消息总线，基于LiveData，具有生命周期感知能力，支持Sticky、AndroidX、款进程。
@@ -2322,6 +2313,7 @@ Kafka生态管理系统、运维平台。
 * [Jepsen](https://github.com/jepsen-io/jepsen)：Jepsen致力于提高分布式数据库、队列、共识系统等的安全性。
 * [Rapid](https://github.com/lalithsuresh/rapid)：Rapid是一种分布式成员服务，它允许一组进程轻松形成集群，并在成员资格发生变化时接收通知。
 * [Libcrunch](https://github.com/twitter-archive/libcrunch)：Libcrunch是一个轻量级映射框架，它将数据对象映射到多个节点，并受到用户指定的约束，由Twitter开源。
+* [Parapet](https://github.com/parapet-io/parapet)：Parapet是一个用于构建分布式和事件驱动系统的纯函数式库。
 * [Low Level Design](https://github.com/InterviewReady/Low-Level-Design)：常见数据结构的低级设计。
 * [Ordasity](https://github.com/boundary/ordasity)：Ordasity是Boundary用于在JVM上构建有状态集群服务的库。
 * [Dhalion](https://github.com/microsoft/Dhalion)：Dhalion是一个用于自动扩展和调整分布式系统的框架，由Microsoft开源。
@@ -3033,6 +3025,7 @@ Kafka生态管理系统、运维平台。
 * [Eclipse Grizzly](https://github.com/eclipse-ee4j/grizzly)：Grizzly的目标是帮助开发人员使用NIO构建可扩展且强大的服务器，Oracle开源。
 * [SOFABolt](https://github.com/sofastack/sofa-bolt)：SOFABolt是蚂蚁金融开发的一套基于Netty实现的网络通信框架。
 * [Aleph](https://github.com/clj-commons/aleph)：Aleph是一个基于Netty构建的客户端和服务器网络编程库。
+* [RxNetty](https://github.com/ReactiveX/RxNetty)：RxNetty是Netty的Rx适配器，由Netflix开源。
 * [Voovan](https://gitee.com/helyho/Voovan)：Voovan是一个高性能异步网络框架和Web服务器框架。
 * [T-IO](https://gitee.com/tywo45/t-io)：T-IO是基于Java开发的一款高性能网络编程框架，由钛特云开源。
 * [JNet](https://gitee.com/eric_ds/jnet)：JNet框架是Java AIO接口的一层薄封装，仅进一步降低其编程复杂性，不提供额外的抽象。
@@ -3058,7 +3051,6 @@ Kafka生态管理系统、运维平台。
 * [IoGame](https://github.com/iohao/ioGame)：IoGame是一个轻量级的网络编程框架，适用于网络游戏服务器、物联网、内部系统及各种需要长连接的场景。
 * [JVM Libp2p](https://github.com/libp2p/jvm-libp2p)：用Kotlin编写的JVM的Libp2p实现。
 * [Android Network Tools](https://github.com/stealthcopter/AndroidNetworkTools)：该项目是一组有用的Android网络工具库，例如端口扫描、ping等。
-* [AdbLib](https://github.com/cgutman/AdbLib)：ADB网络协议的Java库实现。
 * [COMSAT](https://github.com/puniverse/comsat)：COMSAT是一组开源库，将Quasar与各种Web或企业技术集成。
 * [Bitchat](https://github.com/all4you/bitchat)：Bitchat是一个基于Netty的网络框架。
 * [Infinileap](https://github.com/hhu-bsinfo/infinileap)：Infinileap是适用于Java 19+的基于ucx的现代网络框架，由杜塞尔多夫海因里希海涅大学计算机科学系操作系统小组开发。
