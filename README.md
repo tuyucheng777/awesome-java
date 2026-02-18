@@ -1143,6 +1143,7 @@
 * [Kweb](https://github.com/kwebio/kweb-core)：Kweb旨在让开发者轻松创建现代化网站，无需担心服务器和浏览器之间复杂的通信问题。
 * [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
 * [Oorian](https://oorian.com/)：Oorian是一个基于Java的框架，用于创建动态、交互式、数据驱动的Web应用程序。
+* [SmartClient](https://smartclient.com/product/smartclient.jsp)：SmartClient将业界最丰富的跨浏览器UI组件集与Java服务器框架相结合，为构建企业Web应用程序提供端到端的解决方案。
 * [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。
 * [JWt](https://github.com/emweb/jwt)：JWt是一个用于开发Web应用程序的Java库，它提供了一种纯Java组件驱动的方法来构建Web应用程序，并使用Ajax或纯HTML进行呈现。
 * [Errai](https://github.com/errai/errai)：Errai是一个Java/GWT Web框架，用于构建富客户端Web应用程序，由RedHat开源。

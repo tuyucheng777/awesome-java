@@ -45,6 +45,7 @@
 * [Sodium](https://github.com/SodiumFRP/sodium)：面向多种语言的函数式响应式编程库。
 * [Scala.Rx](https://github.com/lihaoyi/scala.rx)：Scala.Rx是Scala的变更传播库。
 * [Reagent](https://github.com/JakeWharton/Reagent)：未来响应式库的实验。
+* [ReactorQL](https://github.com/jetlinks/reactor-ql)：用SQL来描述Reactor API进行数据处理。
 * [Netty Reactive Streams](https://github.com/playframework/netty-reactive-streams)：Netty的Reactive Streams实现。
 * [CohereFlux](https://github.com/pellse/cohereflux)：CohereFlux是一个响应式、函数式、类型安全和无状态的数据聚合框架，用于查询和合并来自多个数据源/服务的数据。
 * [Reactive Commons](https://github.com/reactive-commons/reactive-commons-java)：Reactive Commons的目的是提供一组针对不同模式和实践的抽象和实现，这些模式和实践构成了响应式微服务架构的基础，由哥伦比亚银行维护。
@@ -3403,6 +3404,7 @@
 * [ActiveMatrix BPM](https://docs.tibco.com/products/tibco-activematrix-bpm-4-3-0)：TIBCO ActiveMatrix BPM用于开发、部署、执行和管理以业务流程管理为中心的应用程序。
 * [Piper](https://github.com/runabol/piper)：Piper是一个基于Spring Boot构建的开源分布式工作流引擎，设计非常简单。
 * [Maestro](https://github.com/lucidity-labs/maestro)：Maestro是一个简单但功能强大、持久的工作流库。
+* [Workflow](https://github.com/square/workflow-kotlin)：Workflow是一个提供架构原语的应用程序框架，由Square开源。
 * [ByteChef](https://github.com/bytechefhq/bytechef)：ByteChef是一个开源、低代码、可扩展的API集成和工作流自动化平台。
 * [Infinitic](https://github.com/infiniticio/infinitic)：Infinitic是一个开源框架，使应用程序团队能够构建、测试和发布可用于生产的工作流程，而无需配置或管理后端工具。
 * [Compileflow](https://github.com/alibaba/compileflow)：Compileflow是一个非常轻量级、高性能、可集成和可扩展的流程引擎，由阿里开源。
@@ -3822,6 +3824,7 @@
 * [Text UI](https://github.com/alibaba/text-ui)：阿里开源的文本用户界面库。
 * [TamboUI](https://github.com/tamboui/tamboui)：TamboUI将Rust的Ratatui或Go的Bubble Tea等项目中的TUI范式引入到Java生态系统中。
 * [TUI4J](https://github.com/WilliamAGH/tui4j)：TUI4J是一个受Bubble Tea启发的Java TUI框架。
+* [Latte](https://github.com/flatscrew/latte)：Latte是Golang的Bubble Tea的Java移植版。
 
 #### 命令行参数解析
 
@@ -5045,6 +5048,7 @@
 * [XDOC Office Server](https://gitee.com/xdoc/xoffice)：一个Java EE服务，将Office文档转换为PDF，格式兼容性好。
 * [Workable Converter](https://github.com/liumapp/workable-converter)：基于LibreOffice实现的文档转换项目。
 * [jHTML2Md](https://github.com/nico2sh/jHTML2Md)：一个简单的Java HTML转Markdown转换器。
+* [Nanhu Print Java](https://github.com/hongjinqiu/nanhu-print-java)：Nanhu Print Java是一个用Java语言实现的XML转PDF生成框架。
 
 #### Mime解析
 
@@ -6265,6 +6269,7 @@
 * [RenRen Security](https://gitee.com/renrenio/renren-security)：RenRen Security是采用Spring Boot、MyBatisPlus、Shiro、Vue 3、ElementPlus等框架开发的一套权限系统。
 * [Cloud Platform](https://gitee.com/geek_qi/cloud-platform)：Cloud Platform是基于Spring Cloud微服务化RBAC的管理平台。
 * [Surpass](https://gitee.com/tomsun28/bootshiro)：Surpass是基于Spring Boot、Sureness的面向REST API资源无状态认证权限管理系统的后端。
+* [RuoYi Cloud Plus](https://gitee.com/dromara/RuoYi-Cloud-Plus)：RuoYi Cloud Plus微服务通用权限管理系统，由dromara社区开源。
 * [Dillon Admin Pro](https://gitee.com/lwdillon/dillon-admin-pro)：基于JavaFX、Java Swing、Spring Boot开发的权限管理系统。
 * [Pro Cloud](https://gitee.com/gitsc/pro-cloud)：Pro Cloud是一个Security作为安全框架，基于OAuth2的RBAC权限管理微服务系统。
 * [Pre](https://gitee.com/li_haodong/pre)：Pre是基于Spring Boot、Spring Security、Vue的前后端分离的的RBAC权限管理系统。
@@ -7575,6 +7580,7 @@
 * [Eclipse Tradista](https://github.com/eclipse-tradista/tradista)：Tradista是一种轻量级的金融风险管理解决方案，使你能够使用单一工具管理你的日常财务和风险管理任务。
 * [ObjectLab Kit](https://github.com/Appendium/objectlabkit)：商业/外汇日期计算器、外汇汇率计算器和实用工具。
 * [Lamma](https://github.com/maxcellent/lamma)：Lamma是一个专业的金融工具时间表生成库，用于生成抵押贷款还款时间表、固定收益票息支付时间表、股票衍生品定价日期等。
+* [AML Monitoring Engine](https://github.com/Jeremiahcheng1206/AML-Monitoring-Engine)：AML Monitoring Engine是一个尖端系统，它利用深度学习来检测和打击可疑的金融交易。
 
 #### 金融API
 
@@ -9293,6 +9299,7 @@
 
 * [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform)：Compose Multiplatform是一个声明式框架，用于使用Kotlin跨多个平台共享UI，由JetBrains开发。
 * [CodenameOne](https://github.com/codenameone/CodenameOne)：Codename One是面向Java和Kotlin开发人员的移动优先跨平台环境。
+* [Gluon Mobile](https://gluonhq.com/products/mobile/)：Gluon Mobile将JavaFX带到iOS和Android平台，使开发者能够使用同一套代码库编写桌面和移动应用程序。
 * [Multi-OS Engine](https://github.com/multi-os-engine/multi-os-engine)：Multi-OS Engine为iOS平台API提供了Java运行时和Java接口，用于开发具有原生外观、原生性能以及可从Android应用程序移植常见Java逻辑模块的原生iOS应用程序。
 * [MobileUI](https://mobileui.dev/)：MobileUI是第一个适用于iOS和Android的基于Java的原生UI框架。
 * [OpenJDK Mobile](https://github.com/openjdk/mobile)：Mobile的目标是专注于将JDK移植到iOS、Android和Windows等流行的移动平台。
@@ -11835,6 +11842,7 @@
 ## 蓝牙
 
 * [BLE Indoor Positioning](https://github.com/neXenio/BLE-Indoor-Positioning)：BLE Indoor Positioning是一个Java库，能够根据从蓝牙信标接收的广播数据包估算位置。
+* [Kable](https://github.com/JuulLabs/kable)：Kable提供了一个简单的基于协程的API，用于与低功耗蓝牙设备进行交互。
 * [Bluetooth Manager](https://github.com/sputnikdev/bluetooth-manager)：用于管理蓝牙适配器、蓝牙设备、GATT服务和特性的库/框架。
 * [BlueCove](https://sourceforge.net/projects/bluecove/)：Bluecove是Java的跨平台蓝牙库，最初由英特尔研究院开发。
 * [LiteBle](https://github.com/litesuits/android-lite-bluetoothLE)：Android低功耗蓝牙便捷操作框架，基于回调。
@@ -12501,6 +12509,8 @@
 * [AngularGWT](https://github.com/cromwellian/angulargwt)：这是一个能够用Java为AngularJS编写组件或完整的应用程序的库。
 * [AutoREST](https://github.com/intendia-oss/autorest)：GWT自动RESTful服务代理生成器。
 * [GWTP](https://github.com/ArcBees/GWTP)：GWTP是一个完整的模型视图演示器框架，可简化你的下一个GWT项目。
+* [GXT](https://www.sencha.com/products/gxt/)：GXT是一个全面的Java框架，它使用GWT编译器来构建Web应用程序，允许开发人员用Java编写应用程序，并将他们的代码编译成高度优化的跨平台HTML5代码。
+* [SmartGWT](https://smartclient.com/product/smartgwt.jsp)：SmartGWT将业界最丰富的GWT UI组件集与Java服务器框架相结合，为构建企业Web应用程序提供端到端的解决方案。
 * [Domino UI](https://github.com/DominoKit/domino-ui)：类型安全且功能丰富的UI组件库，供Java开发人员使用流式API，并且不依赖于外部JavaScript。
 * [React4j](https://github.com/react4j/react4j)：该项目的目标是能够从GWT无缝使用React的组件模型，并利用React开发支持工具(例如React的Devtools)生态系统。
 * [GWT Material](https://github.com/GwtMaterialDesign/gwt-material)：GWT的Google Material Design包装器。
@@ -12822,6 +12832,7 @@
 * [Kumo](https://github.com/kennycason/kumo)：Kumo的目标是用Java创建一个功能强大且用户友好的词云API。
 * [Amadeus Java](https://github.com/amadeus4dev/amadeus-java)：Amadeus为旅游行业提供了丰富的API。
 * [SourceAFIS](https://github.com/robertvazan/sourceafis-java)：SourceAFIS Java是SourceAFIS(一种用于识别人类指纹的算法)的纯Java端口，它可以1:1比较两个指纹或1:N在大型数据库中搜索匹配的指纹。
+* [Citeproc Java](https://github.com/michel-kraemer/citeproc-java)：Citeproc Java是一个用于Java的引用样式语言(CSL)处理器。
 
 ## 教程系列
 
