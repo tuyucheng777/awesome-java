@@ -980,6 +980,7 @@
 * [Snowflake JDBC Driver](https://github.com/snowflakedb/snowflake-jdbc)：Snowflake JDBC驱动程序。
 * [TiKV Java](https://github.com/tikv/client-java)：TiKV的Java客户端库。
 * [VtDriver](https://github.com/jd-opensource/vtdriver)：VtDriver是一套基于分布式数据库Vitess而开发的Vitess Java客户端解决方案，由京东开源。
+* [LevelDB JNI](https://github.com/fusesource/leveldbjni)：LevelDB JNI为你提供了一个Java接口来访问LevelDB C++库。
 * [PGVector Java](https://github.com/pgvector/pgvector-java)：PGVector Java支持。
 * [Aerospike Java Client](https://github.com/aerospike/aerospike-client-java)：Aerospike数据库的Java客户端库。
 * [OpenGauss JDBC](https://gitee.com/opengauss/openGauss-connector-jdbc)：OpenGauss JDBC驱动程序。
@@ -1934,6 +1935,7 @@
 * [Hash](https://github.com/KotlinCrypto/hash)：Kotlin多平台的密码学哈希函数。
 * [AESCipher Java](https://github.com/WelkinXie/AESCipher-Java)：Java的AES加密。
 * [Kryptonite Kafka](https://github.com/hpgrahsl/kryptonite-for-kafka)：Kryptonite Kafka是一个用于对流入和流出Apache Kafka的记录进行字段级加密的库。
+* [WolfCrypt JNI](https://github.com/wolfSSL/wolfcrypt-jni)：WolfCrypt JCE提供程序和JNI封装器。
 
 #### 密码库
 
@@ -2250,6 +2252,7 @@
 * [LogWise](https://github.com/ds-horizon/logwise)：Logwise是一款轻量级、开源解决方案，旨在让日志管理更简洁、更快捷、更适合开发者，由Dream11开源。
 * [Hangout](https://github.com/childe/hangout)：Logstash的另一个Java重制版。
 * [Syslog Java Client](https://github.com/jenkinsci/syslog-java-client)：用Java编写的客户端库，用于向Syslog服务器发送消息。
+* [HawtJournal](https://github.com/fusesource/hawtjournal)：HawtJournal是一种基于仅追加轮换日志和校验和可变长度记录的日志存储实现，具有固定并发读取、完全并发写入、动态批处理和死日志清理功能。
 
 #### 请求/响应记录
 
@@ -2929,6 +2932,7 @@
 * [Ojalgo](https://github.com/optimatika/ojAlgo)：Ojalgo是用于数学、线性代数和优化的开源Java代码。
 * [EJML](https://github.com/lessthanoptimal/ejml)：EJML是一个用Java编写的快速且易于使用的线性代数库，适用于稠密、稀疏、实数和复杂矩阵。
 * [La4j](https://github.com/vkostyukov/la4j)：La4j是一个开源的Java库，提供线性代数基元(矩阵和向量)和算法。
+* [Slash](https://github.com/dragonfly-ai/slash)：Scala线性代数与统计学技巧。
 * [NetLib Java](https://github.com/fommil/netlib-java)：NetLib Java是低级BLAS、LAPACK和ARPACK的包装器，其执行速度与带有纯JVM回退的C/Fortran接口一样快。
 * [OwlPack](https://www.cs.rice.edu/%7Ezoran/OwlPack/)：OwlPack是一个多态、面向对象风格的Java通用线性代数库，基于标准Fortran LINPACK库，由莱斯大学开源。
 * [Matrix Toolkits Java](https://github.com/fommil/matrix-toolkits-java)：MTJ是一个用于开发线性代数应用程序的高性能库。
@@ -2962,6 +2966,7 @@
 
 * [Eclipse January](https://github.com/eclipse/january)：January是一组用于在Java中处理数值数据的库，它部分受到NumPy的启发，旨在提供类似的功能。
 * [NumJ](https://github.com/J-Libraries/numJ)：NumJ是一个受NumPy启发的Java库，提供对多维数组和数学运算的支持。
+* [Viktor](https://github.com/JetBrains-Research/viktor)：Viktor使用Java Vector API在Kotlin中实现了NumPy Ndarray功能的受限子集，由JetBrains开源。
 * [Tensorics](https://github.com/tensorics/tensorics-core)：Tensorics是一个用于多维数据处理的Java框架。
 * [NdArray Java](https://github.com/tensorflow/java-ndarray)：NdArray公开了用于在Java中操作N维空间中的数据的实用程序，由Tensorflow开源。
 * [Shared Scientific Toolbox](https://carsomyr.github.io/shared/)：SST是基础科学库的集合，其主要目的是充当所涉及的科学计算的高度特定需求与Java编程语言的更传统方面之间的桥梁。
@@ -3827,11 +3832,11 @@
 
 * [Lanterna](https://github.com/mabe02/lanterna)：Lanterna是一个Java库，允许你在纯文本环境中编写简单的半图形用户界面，与C库curses非常相似，但具有更多功能。
 * [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：该库实现了一个基于文本的窗口系统。
+* [TamboUI](https://github.com/tamboui/tamboui)：TamboUI将Rust的Ratatui或Go的Bubble Tea等项目中的TUI范式引入到Java生态系统中。
 * [Text-IO](https://github.com/beryx/text-io)：Text-IO是一个用于创建Java控制台应用程序的库，它可用于需要读取用户交互式输入的应用程序。
 * [TUI Scala](https://github.com/oyvindberg/tui-scala)：TUI Scala是用于构建富终端用户界面和仪表盘的Scala库。
 * [Casciian](https://github.com/crramirez/casciian)：Java文本用户界面库。
 * [Text UI](https://github.com/alibaba/text-ui)：阿里开源的文本用户界面库。
-* [TamboUI](https://github.com/tamboui/tamboui)：TamboUI将Rust的Ratatui或Go的Bubble Tea等项目中的TUI范式引入到Java生态系统中。
 * [TUI4J](https://github.com/WilliamAGH/tui4j)：TUI4J是一个受Bubble Tea启发的Java TUI框架。
 * [Latte](https://github.com/flatscrew/latte)：Latte是Golang的Bubble Tea的Java移植版。
 
@@ -3864,6 +3869,7 @@
 * [Intake](https://github.com/EngineHub/Intake)：Intake是一个面向IoC的命令解析库。
 * [Commands](https://github.com/aikar/commands)：Java命令分发框架，支持Bukkit、Spigot、Paper、Sponge、Bungee、JDA、Velocity。
 * [JDA Commands](https://github.com/Kaktushose/jda-commands)：JDA Commands是一个轻量级、易于使用的命令框架，用于使用JDA构建Discord机器人，并完全支持交互功能。
+* [Imperat](https://github.com/MeveraStudios/Imperat)：Imperat是适用于Java应用程序的最高效、功能最丰富的命令框架。
 
 #### ASCII艺术
 
@@ -4002,9 +4008,9 @@
 ## 数组库
 
 * [Bytes](https://github.com/patrickfav/bytes-java)：Bytes是一个实用程序库，可以轻松地在Java中创建、解析、转换、验证和转换字节数组。
-* [Viktor](https://github.com/JetBrains-Research/viktor)：Viktor使用Java Vector API在Kotlin中实现了NumPy Ndarray功能的受限子集，由JetBrains开源。
 * [Hiphip](https://github.com/plumatic/hiphip)：Hiphip是Clojure的一个数组库，提供了优雅的原始数组的快速数学方法。
 * [JLargeArrays](https://gitlab.com/visnow.org/JLargeArrays)：JLargeArrays是一个纯Java的一维数组库，最多可以存储2的63次方个元素，由华沙大学开源。
+* [NArr](https://github.com/dragonfly-ai/narr)：NArr在所有平台上都能提供原生数组的性能。
 
 ## 泛型库
 
@@ -4702,6 +4708,8 @@
 * [Apache FOP](https://github.com/apache/xmlgraphics-fop)：FOP是由XSL-FO驱动的打印格式化程序和独立于输出的格式化程序。
 * [PdfCompare](https://github.com/red6/pdfcompare)：一个简单的Java库，用于比较两个PDF文件。
 * [Boxable](https://github.com/dhorions/boxable)：Boxable是一个可用于轻松在PDF文档中创建表格的库。
+* [PDFBox Layout](https://github.com/ralfstuckert/pdfbox-layout)：PDFBox Layout是一个基于Apache PDFBox的简单布局API。
+* [Ph PDF Layout](https://github.com/phax/ph-pdf-layout)：使用Apache PDFBox 3.x创建流畅页面布局的Java库。
 * [PDF Studio Viewer](https://www.qoppa.com/pdfstudioviewer/)：PDF Studio Viewer是一款可靠且易于使用的跨平台PDF阅读器。
 * [EasyTable](https://github.com/vandeseer/easytable)：这是一个基于PDFBox构建的小项目，允许你以相当简单的方式创建表格。
 * [Science Parse](https://github.com/allenai/science-parse)：Science Parse解析科学论文(PDF形式)并以结构化形式返回，由艾伦人工智能研究院开源。
@@ -5475,6 +5483,7 @@
 * [JFR Flame Graph](https://github.com/chrishantha/jfr-flame-graph)：这是一个简单的应用程序，用于从Java Flight Recorder转储中读取方法分析示例，并将这些堆栈跟踪转换为FlameGraph兼容格式。
 * [Flamegrapher](https://github.com/flamegrapher/flamegrapher)：Flamegrapher是Java Flight Recorder的前端，允许你启动、转储、停止、保存以及从浏览器下载JFR记录。
 * [Gumshoe](https://github.com/worstcase/gumshoe)：监控与各个调用堆栈相关的应用程序性能统计数据，以火焰图或根图的形式交互过滤和查看，由Dell开源。
+* [Jeffrey](https://github.com/petrbouda/jeffrey)：Jeffrey利用交互式火焰图、内存分析和深度JFR事件检查来识别性能瓶颈。
 * [JavaFlame](https://github.com/beothorn/javaflame)：Java的简单易用的火焰图，无需服务器或打开连接，只需插入代理并获取结果。
 * [PerfGenie](https://github.com/salesforce-misc/perfGenie)：PerfGenie是一种持续的低开销上下文分析解决方案，可以解析和可视化JFR格式配置文件和Jstack，由Salesforce开源。
 * [Flight Rrecorder Starter](https://github.com/mirkosertic/flight-recorder-starter)：这是一个Spring Boot Starter，它将JDK Flight Recorder作为Spring Boot Actor Endpoint公开。
@@ -5525,6 +5534,7 @@
 * [Argus](https://github.com/arguslab/Argus-SAF)：Argus SAF是一个静态分析框架，用于对Android应用程序进行安全审查，由堪萨斯州立大学和南卡罗来纳大学开源。
 * [SWAN](https://github.com/themaplelab/swan)：SWAN是一个静态程序分析框架，支持对Swift应用程序进行深度数据流分析，由阿尔伯塔大学开源。
 * [Semgrep](https://github.com/semgrep/semgrep)：Semgrep是一种快速、开源、静态分析工具，用于在编辑期、提交和CI时搜索代码、查找错误并强制执行代码标准。
+* [CodeCharta](https://github.com/MaibornWolff/codecharta)：CodeCharta是一款可视化工具，它将复杂的软件架构和代码指标转化为交互式、可自定义的可视化图，使每个人都能轻松地沟通和分析代码库，由MaibornWolff开源。
 * [Droidefense](https://github.com/droidefense/engine)：Droidefense是安卓应用/恶意软件分析/逆向工程工具的代号。
 * [CodeFuse Query](https://github.com/codefuse-ai/CodeFuse-Query)：CodeFuse Query是一种强大的静态代码分析平台，适合大规模、复杂的代码库分析场景，由蚂蚁CodeFuse团队开发。
 * [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs)：Find Security Bugs是用于Java Web应用程序安全审核的SpotBugs插件，由OWASP开源。
@@ -6009,6 +6019,7 @@
 * [Spring Boot React Webpack Starter](https://github.com/dlizarra/spring-boot-react-webpack-starter)：使用Spring Boot作为后端、React作为前端的入门级Web应用，使用Maven和Webpack作为构建工具，前后端均支持热重载，并且无需XML配置。
 * [Hexagonal Spring](https://github.com/jaguililla/hexagonal_spring)：Spring模板，用于采用六边形架构设计的REST服务。
 * [WebFluxTemplate](https://github.com/TransEmpiric/webFluxTemplate)：带有可用的Spring Security、WebSocket、REST、Web MVC以及JWT身份验证的Spring Webflux模板应用程序。
+* [Bugzkit](https://github.com/while1618/bugzkit)：Bugzkit是一个可直接用于生产环境的Web应用程序模板，旨在处理Web应用程序的基本功能。
 * [AdminStore](https://gitee.com/cng1985/adminstore)：一个简单的项目初始化模板，集成Shiro、Spring、Hibernate、Spring MVC、Ehcache、Bootstrap。
 * [Skeleton Spring Boot Web Services](https://github.com/leanstacks/skeleton-ws-spring-boot)：这是一个为Spring Boot RESTful Web Services应用设计的项目骨架。
 * [Spring WebApp Template](https://github.com/making/spring-webapp-template)：这是一个使用Spring框架的Web应用程序模板项目。
@@ -7639,6 +7650,7 @@
 #### 量化交易
 
 * [Ta4j](https://github.com/ta4j/ta4j)：Ta4j是一个用于技术分析的开源Java库，它提供了创建、评估和执行交易策略的基本组件。
+* [QuantLib SWIG](https://github.com/lballabio/QuantLib-SWIG)：QuantLib SWIG提供了从多种语言中使用QuantLib的方法，目前其支持语言包括Python、C#、Java、Scala和R。
 * [SubMicroTrading](https://github.com/Richard-Rose/SubMicroTrading)：SubMicroTrading是一个高度并发的基于组件的算法交易框架。
 * [QD](https://github.com/devexperts/QD)：QD是Devexperts开源的一个高性能金融数据处理和分发框架，专门为金融行业设计，用于处理市场数据、交易消息和其他金融数据流。
 * [Trading Backtest](https://github.com/lukstei/trading-backtest)：这是一个用Java编写的通用轻量级股票回溯测试引擎。
@@ -10002,6 +10014,7 @@
 * [CaDoodle](https://github.com/CommonWealthRobotics/CaDoodle)：CaDoodle是一款适用于Linux、Windows、Mac和ChromeOS的本地拖放式CAD应用程序。
 * [ORIPA](https://github.com/oripa/oripa)：ORIPA是一款专门用于设计折纸折痕图案的绘图软件。
 * [Archimedes](https://github.com/ArchimedesCAD/Archimedes)：Archimedes是一款免费开源CAD软件。
+* [LDPartEditor](https://github.com/nilsschmidt1337/ldparteditor)：LDraw零件编辑器，快速轻松地创建和编辑LDraw零件。
 
 #### 办公软件
 
@@ -10888,7 +10901,7 @@
 * [JVstHost](https://github.com/mhroth/jvsthost)：JVstHost是一个基于Java的开源VST主机程序。
 * [jVSTwRapper](https://jvstwrapper.sourceforge.net/)：jVSTwRapper是一个简单可靠的Java音频插件封装工具。
 * [MP3SPI](https://github.com/umjammer/mp3spi)：MP3 Java音频SPI。
-* [ktmidi](https://github.com/atsushieno/ktmidi)：ktmidi是一个Kotlin多平台库，用于MIDI访问API和MIDI数据处理，支持MIDI 1.0和MIDI 2.0。
+* [KtMIDI](https://github.com/atsushieno/ktmidi)：KtMIDI是一个Kotlin多平台库，用于MIDI访问API和MIDI数据处理，支持MIDI 1.0和MIDI 2.0。
 * [Jopus](https://github.com/kinsleykajiva/jopus)：Jopus使用Project Panama为Opus交互式音频编解码器提供高性能的Java绑定。
 * [JMBE](https://github.com/DSheirer/jmbe)：Java AMBE/IMBE音频解码器。
 * [Libshout Java](https://github.com/OlegKunitsyn/libshout-java)：Java Libshout绑定。
