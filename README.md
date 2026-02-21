@@ -184,6 +184,8 @@
   * [语音识别](#语音识别)
   * [语音合成](#语音合成)
 * [数据科学](#数据科学)
+  * [商业智能](#商业智能)
+  * [电子表格](#电子表格)
   * [数据可视化](#数据可视化)
   * [Echarts](#Echarts)
   * [数据挖掘](#数据挖掘)
@@ -354,6 +356,10 @@
 * [MATLAB](docs/doc2.md#MATLAB)
 * [Jupyter](docs/doc2.md#Jupyter)
 * [机器人开发](docs/doc2.md#机器人开发)
+  * [运动规划与路径生成](docs/doc2.md#运动规划与路径生成)
+  * [计算机视觉与感知](docs/doc2.md#计算机视觉与感知)
+  * [控制与调试](docs/doc2.md#控制与调试)
+  * [驱动和工具](docs/doc2.md#驱动和工具)
 * [数学库](docs/doc2.md#数学库)
   * [线性代数](docs/doc2.md#线性代数)
   * [矩阵](docs/doc2.md#矩阵)
@@ -395,7 +401,6 @@
 * [状态机](docs/doc2.md#状态机)
 * [状态容器](docs/doc2.md#状态容器)
 * [报表引擎](docs/doc2.md#报表引擎)
-* [商业智能](docs/doc2.md#商业智能)
 * [功能切换](docs/doc2.md#功能切换)
 * [模板引擎](docs/doc2.md#模板引擎)
 * [批处理框架](docs/doc2.md#批处理框架)
@@ -862,7 +867,6 @@
 * [GPU编程](docs/doc2.md#GPU编程)
 * [硬件操作](docs/doc2.md#硬件操作)
 * [操作系统](docs/doc2.md#操作系统)
-* [运动规划](docs/doc2.md#运动规划)
 * [自动规划](docs/doc2.md#自动规划)
 * [量子计算](docs/doc2.md#量子计算)
 * [地理空间](docs/doc2.md#地理空间)
@@ -1082,6 +1086,7 @@
 * [Xenon](https://github.com/vmware-archive/xenon)：Xenon是一个用于编写小型REST服务的框架，由VMware开发。
 * [Restlet](https://github.com/restlet/restlet-framework-java)：Restlet框架帮助Java开发人员构建更好的遵循REST架构风格的Web API，由Talend开源。
 * [RESTHeart](https://github.com/SoftInstigate/restheart)：RESTHeart是一个用于构建HTTP微服务的框架，旨在为开发人员提供开箱即用的直观API。
+* [JsonApi4j](https://github.com/MoonWorm/jsonapi4j)：JsonApi4j是一个现代、轻量级的Java框架，用于构建结构良好、可扩展且可用于生产环境的RESTful API。
 * [Grumpyrest](https://github.com/MartinGeisse/grumpyrest)：Grumpyrest是一个Java REST服务器框架，不使用注解、自动依赖注入或响应流，并最大限度地减少反射的使用。
 * [Resty](https://github.com/Dreampie/Resty)：Resty一款极简的RESTful轻量级的Web框架。
 * [Airlift](https://github.com/airlift/airlift)：Airlift是一个用Java构建REST服务的框架，由Dropbox开源。
@@ -1119,6 +1124,7 @@
 * [Nettice](https://github.com/cyfonly/nettice)：基于Netty HTTP协议栈的轻量级MVC组件。
 * [JKMVC](https://github.com/shigebeyond/jkmvc)：JKMVC是一个优雅、强大且轻量级的MVC Web框架，使用Kotlin构建。
 * [Stapler](https://github.com/jenkinsci/stapler)：Stapler Web框架，由Jenkins组织开源。
+* [Prime MVC](https://github.com/prime-framework/prime-mvc)：Prime MVC是一个用Java构建的高性能MVC框架，由Inversoft公司开源。
 
 #### JSF框架
 
@@ -1338,6 +1344,7 @@
 * [Spring REST Exception Handler](https://github.com/jirutka/spring-rest-exception-handler)：该项目的目标是为RESTful API提供一个方便的异常处理程序，以满足错误响应的最佳实践，而无需重复。
 * [Unified Dispose Spring Boot](https://github.com/purgeteam/unified-dispose-springboot)：包含一些基础的异常处理以及返回包装功能。
 * [Spring MVC REST Exhandler](https://github.com/stormpath/spring-mvc-rest-exhandler)：Spring MVC REST异常处理程序。
+* [Quarkus RESTeasy Problem](https://github.com/quarkiverse/quarkus-resteasy-problem)：Quarkus REST API的统一错误响应。
 
 ## 构建工具
 
@@ -1479,6 +1486,7 @@
 * [WAF](https://github.com/chengdedeng/waf)：WAF是使用Java开发的API Gateway，底层使用Netty。
 * [DGate](https://github.com/DTeam-Top/dgate)：DGate是基于Vertx的API Gateway。
 * [Membrane](https://github.com/membrane/api-gateway)：Membrane是用Java编写的REST、OpenAPI、GraphQL和SOAP的API网关，由Predic8公司开源。
+* [OmniGateway](https://gitee.com/vakinge/omniGateway)：OmniGateway是一个全能应用网关。
 * [API Premium Gateway](https://github.com/Feynix2004/API-Premium-Gateway)：API Premium Gateway是一个轻量级的Java服务，旨在为你的分布式系统和应用提供强大的API高可用与智能调度能力。
 * [Otoroshi](https://github.com/MAIF/otoroshi)：Otoroshi是一个轻量级API管理层，由MAIF团队开发，可以处理微服务之间的所有调用。
 * [Okapi](https://github.com/folio-org/okapi)：Okapi是一个多租户API网关，由Open Library基金会开源。
@@ -1537,7 +1545,9 @@
 * [SDS](https://github.com/didi/sds)：SDS是一个基于Java开发的简单、易用、高性能的服务降级系统，支持限流、熔断和降级等功能，由滴滴开源。
 * [Spillway](https://github.com/coveooss/spillway)：Spillway可在公共API的软件级别添加分布式节流，由Coveo开源。
 * [SnowJena](https://github.com/onblog/SnowJena)：SnowJena是基于令牌桶算法实现的分布式无锁限流框架，支持动态配置规则，支持可视化监控，开箱即用。
+* [FlowControl](https://gitee.com/shiqiyue/flow-control)：Spring Boot流量控制，控制用户访问API的次数。
 * [Token Bucket](https://github.com/bbeck/token-bucket)：该库提供了令牌桶算法的实现。
+* [IP Limiter](https://gitee.com/laofeng/ip-limiter)：IP限流平台，自动对异常访问的IP进行限制。
 * [RateLimiter Spring Boot Starter](https://github.com/taptap/ratelimiter-spring-boot-starter)：基于Redis的偏业务应用的分布式限流组件，目前支持时间窗口、令牌桶两种限流算法，由Taptap开源。
 * [Distributed Rate Limiter](https://github.com/uppnrise/distributed-rate-limiter)：高性能、Redis支持的令牌桶速率限制器服务，带有REST API。
 * [RequestLimit](https://gitee.com/kaligence/requestLimit)：RequestLimit是一款基于Redis和Spring AOP的请求限制工具。
@@ -2153,6 +2163,7 @@
 * [Apollo](https://github.com/Sloaix/Apollo)：RxJava的事件总线。
 * [Mercury](https://github.com/Accenture/mercury)：Mercury是一个用于事件驱动编程的软件开发工具包，由Accenture开源。
 * [TinyBus](https://github.com/sergejsha/tinybus)：TinyBus是Otto事件总线的更快实现，附加了你错过的额外功能。
+* [JFinal Event](https://gitee.com/596392912/JFinal-event)：JFinal Event事件驱动插件，无任何第三方依赖，小巧玲珑。
 * [Netflix EventBus](https://github.com/Netflix/netflix-commons/tree/master/netflix-eventbus/src)：用于进程内的事件总线。
 * [xBus](https://github.com/mcxiaoke/xBus)：简洁的EventBus实现。
 * [ModuleBus](https://github.com/cangwang/ModuleBus)：ModuleBus用于不同模块之间的通信。
@@ -2193,6 +2204,7 @@
 * [NYBus](https://github.com/amitshekhariitbhu/NYBus)：NYBus是一个面向Android和Java应用的Pub-Sub库。
 * [Mats3](https://github.com/centiservice/mats3)：Mats3是一个Java库，可促进异步、无状态、多阶段、基于消息的服务的开发。
 * [Rqueue](https://github.com/sonus21/rqueue)：Rqueue是一个为Spring框架构建的异步任务执行器，基于Redis支持的Spring框架的消息传递库。
+* [Message Trunk](https://gitee.com/1028125449/message-trunk)：Message Trunk是基于Java开发的轻量级消息总线框架。
 * [Spring Cloud Bus](https://github.com/spring-cloud/spring-cloud-bus)：Spring Cloud Bus是一种轻量级的消息代理，用于集成和传输微服务之间的消息。
 * [LiveEventBus](https://github.com/JeremyLiao/LiveEventBus)：LiveEventBus是一款Android消息总线，基于LiveData，具有生命周期感知能力，支持Sticky、AndroidX、款进程。
 * [Varadhi](https://github.com/flipkart-incubator/varadhi)：Varadhi是具有REST接口的消息总线实现，由Flipkart开源。
@@ -2327,6 +2339,7 @@ Kafka生态管理系统、运维平台。
 * [Fallout](https://github.com/datastax/fallout)：Fallout是一种用于运行本地或大规模远程分布式正确性、验证和性能测试的工具，由DataStax开源。
 * [Narya](https://github.com/threerings/narya)：Narya提供了一个用于构建实时分布式系统的框架，重点支持多人在线游戏。
 * [Java Gearman Service](https://github.com/gearman/java-service)：Java Gearman Service是一个易于使用的分布式网络应用框架，实现了Gearman协议，用于将任务分配给更适合完成该作业的其他机器或进程。
+* [Distributed Tool](https://gitee.com/xuan698400/distributed-tool)：Distributed Tool是分布式常用工具组件，包括分布式List、Set、Long、信号量、缓存、锁、序列号生成器、订阅发布模式等常用工具类。
 
 #### 分布式锁
 
@@ -2347,6 +2360,7 @@ Kafka生态管理系统、运维平台。
 * [Jedis Lock](https://github.com/abelaska/jedis-lock)：Jedis Lock是一个使用Redis数据库和Jedis驱动实现的分布式锁，使用起来非常方便和简单。
 * [Distributed Redis Tool](https://github.com/crossoverJie/distributed-redis-tool)：这是一个基于Redis的简单分布式工具。
 * [Spring Boot Distributed Redisson](https://github.com/yudiandemingzi/spring-boot-distributed-redisson)：Redis实现分布式锁。
+* [Lock Spring Boot Starter](https://gitee.com/tooleek/lock-spring-boot-starter)：Lock Spring是一款基于Spring Boot Starter机制的分布式锁框架。
 
 #### 分布式ID
 
@@ -2454,6 +2468,7 @@ Kafka生态管理系统、运维平台。
 * [Zoie](https://github.com/senseidb/zoie)：Zoie是一个用Java编写的实时搜索/索引系统，由LinkedIn开源。
 * [Scope](https://www.transwarp.cn/subproduct/scope)：Scope是星环第二代搜索引擎软件，可应用于表单、日志、视频、图像、文本文件等各类非结构化数据的对象存储与检索场景。
 * [Cleo](https://github.com/LinkedInAttic/cleo)：Cleo是一个灵活的软件库，用于快速开发部分、无序和实时的预输入搜索，由LinkedIn开源。
+* [Katta](https://gitee.com/yiidata/katta)：Katta是一个分布式搜索引擎解决方案。
 * [OpenSearchServer](https://github.com/jaeksoft/opensearchserver)：OpenSearchServer是一款功能强大、基于Lucene的企业级搜索引擎软件。
 * [Bobo](https://github.com/senseidb/bobo)：Bobo是一个用Java编写的多面搜索引擎，由LinkedIn开源。
 * [OpenK9](https://github.com/smclab/openk9)：OpenK9是一款完整的认知企业搜索解决方案，由SMC Treviso开源。
@@ -2906,6 +2921,7 @@ Kafka生态管理系统、运维平台。
 * [Bus HTTP](https://github.com/818000/bus/tree/main/bus-http)：Bus HTTP是一个高性能的Java应用程序HTTP客户端库。
 * [Kalle](https://github.com/yanzhenjie/Kalle)：Kalle是一个Android平台的HttpClient，它遵循HTTP标准协议，支持同步请求和异步请求。
 * [Unfiltered](https://github.com/unfiltered/unfiltered)：Unfiltered是一个用于在Scala中处理HTTP请求的工具包。
+* [HttpHelper](https://gitee.com/wolfsmoke/WSHttpHelper)：HttpHelper是一个轻量级Http请求框架，致力于为Http请求提供简洁明了的接口。
 
 #### HTTP路由
 
@@ -3018,6 +3034,7 @@ Kafka生态管理系统、运维平台。
 * [Anomic](https://github.com/Orbiter/anomic_ftp_server)：Anomic是一个简单的FTP服务器。
 * [SwiFTP](https://github.com/ppareit/swiftp)：Android设备的FTP服务器。
 * [DrFTPD](https://github.com/drftpd-ng/drftpd)：DrFTPD是一个用Java编写的分布式FTP服务器。
+* [ThinServer](https://gitee.com/sanluan/ThinServer)：ThinServer是基于JDK提供的HttpServer开发的Web服务容器和以Socket开发的FTP Server。
 
 #### NIO框架
 
@@ -3318,6 +3335,7 @@ Kafka生态管理系统、运维平台。
 * [HP](https://gitee.com/HServer/hp)：内网穿透轻量版，支持HTTP、HTTPS、TCP、UDP，支持云端动态控制穿透配置。
 * [ETP](https://github.com/xiaoniucode/etp)：ETP是一个轻量级的高性能内网穿透应用，支持TCP、HTTP等协议。
 * [Java Ngrok](https://github.com/alexdlaird/java-ngrok)：Java Ngrok是一个Ngrok包装器，用于管理自己的二进制文件，通过方便的Java提供应用程序接口。
+* [Fast Ngrok](https://gitee.com/cyejing/fast-ngrok)：Java版本Ngrok客户端。
 * [NeoLink](https://github.com/NeoLinkProxy/NeoLink)：NeoLink是一个轻量级的内网穿透客户端，用于将本地TCP、UDP服务暴露给公网NeoServer。
 * [NET Penetrate](https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple)：内网穿透、GUI、一键启动、不限速，内置日志。
 * [Natx](https://github.com/wucao/natx)：Natx是一个基于Java Netty实现的可用于内网穿透的代理工具，支持TCP协议。
@@ -3818,6 +3836,7 @@ Kafka生态管理系统、运维平台。
 * [TensorFlow Java](https://github.com/tensorflow/java)：TensorFlow可以在任何JVM上运行，用于构建、训练和运行机器学习模型，Google开源。
 * [TensorFlow Scala](https://github.com/eaplatanios/tensorflow_scala)：适用于Scala编程语言的TensorFlow API。
 * [Apache Mahout](https://github.com/apache/mahout)：Mahout的目标是构建一个用于快速创建可扩展、高性能机器学习应用程序的环境。
+* [Apache SystemDS](https://github.com/apache/systemds)：SystemDS是一个开源ML系统，适用于端到端数据科学生命周期。
 * [Alink](https://github.com/alibaba/Alink)：Alink是基于Flink的机器学习算法平台，由阿里计算平台PAI团队开发。
 * [SynapseML](https://github.com/microsoft/SynapseML)：SynapseML是一个开源库，可简化大规模可扩展机器学习管道的创建，由Microsoft开源。
 * [H2O](https://github.com/h2oai/h2o-3)：H2O是一个用于分布式、可扩展机器学习的内存平台，由Oxdata开源。
@@ -4069,6 +4088,7 @@ Kafka生态管理系统、运维平台。
 * [HebMorph](https://github.com/synhershko/HebMorph)：HebMorph是一个开源项目，旨在使各种信息检索软件库能够正确检索希伯来语，同时保持良好的召回率、精确率和相关性。
 * [AIDR](https://github.com/qcri-social/AIDR)：AIDR是一个免费开源平台，用于过滤和分类与自然灾害和人道主义危机相关的社交媒体信息，由卡塔尔计算研究所开源。
 * [BookNLP](https://github.com/dbamman/book-nlp)：BookNLP是一个自然语言处理流程，可扩展到书籍和其他长篇文档。
+* [KoreanTextMatcher](https://github.com/bangjunyoung/KoreanTextMatcher)：KoreanTextMatcher是一个Java库，提供韩语音节近似匹配和声母搜索功能。
 
 #### 分词器
 
@@ -4145,6 +4165,7 @@ Kafka生态管理系统、运维平台。
 * [KeywordFilter](https://github.com/k5h9999/keywordfilter)：基于分词原理修改写的一个过滤敏感词库，可以改成动态，支持返回敏感词，高亮敏感词，替换敏感词等操作。
 * [Sensitivewd Filter](https://github.com/andyzty/sensitivewd-filter)：敏感词过滤、广告词过滤、包含敏感词库，停顿词库。
 * [Filter4J](https://github.com/LL4J/Filter4J)：Filter4J是一个极小化、基于深度学习的文本内容违规检测库。
+* [WordFilter](https://gitee.com/humingzhang/wordfilter)：DFA算法实现的敏感词过滤工具。
 
 #### 模型训练
 
@@ -4187,6 +4208,7 @@ Kafka生态管理系统、运维平台。
 
 #### 认知架构
 
+* [Soar](https://github.com/SoarGroup/Soar)：Soar是一种用于开发展现智能行为的系统的认知架构，由密歇根大学开源。
 * [JSoar](https://github.com/soartech/jsoar)：Soar认知架构的纯Java实现，由密歇根大学人工智能实验室开源。
 * [CST](https://github.com/CST-Group/cst)：CST是一个基于Java的工具包，用于构建认知架构，由坎皮纳斯大学开源。
 
@@ -4315,10 +4337,8 @@ Kafka生态管理系统、运维平台。
 ## 数据科学
 
 * [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个DataFrame和可视化库，支持加载、清理、转换、过滤和汇总数据。
-* [Luckysheet](https://github.com/dream-num/Luckysheet)：Luckysheet是一款类似Excel的在线电子表格，功能强大、配置简单。
 * [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充，由Google开源。
 * [Vegas](https://github.com/vegas-viz/Vegas)：Vegas的目标是成为Scala和Spark世界中缺失的Matplotlib。
-* [Apache SystemDS](https://github.com/apache/systemds)：SystemDS是一个开源ML系统，适用于端到端数据科学生命周期。
 * [Incanter](https://github.com/incanter/incanter)：Incanter是一个基于Clojure、类似R的JVM统计计算和图形环境。
 * [Hopsworks](https://github.com/logicalclocks/hopsworks)：Hopsworks是一个ML数据平台，具有以Python为中心的特征存储和MLOps功能，由Hopsworks开源。
 * [ShinyProxy](https://github.com/openanalytics/shinyproxy)：ShinyProxy是用于Shiny和数据科学应用程序的开源企业部署软件。
@@ -4332,25 +4352,57 @@ Kafka生态管理系统、运维平台。
 * [Datavines](https://github.com/datavane/datavines)：DataVines是一个易于使用的数据质量服务平台，支持多种指标，由Datavane大数据组织开源。
 * [Koma](https://github.com/kyonifer/koma)：Koma是Kotlin的科学计算环境。
 * [Classifai](https://github.com/CertifaiAI/classifai)：Classifai是最全面的开源数据标注平台之一。
-* [DataSpread](https://github.com/dataspread/dataspread-web)：DataSpread是一个电子表格-数据库混合系统，包含电子表格前端和数据库后端，由伊利诺伊大学和加州大学伯克利分校开源。
 * [Kandy](https://github.com/Kotlin/kandy)：Kandy是Kotlin的一个开源绘图库，它提供了用于创建图形的强大而灵活的DSL，并利用了各种流行的引擎，由JetBrains开源。
 * [Kravis](https://github.com/holgerbrandl/kravis)：Kravis实现一种语法，使用一组标准化的动词来创建各种各样的图表。
 * [ERDDAP](https://github.com/ERDDAP/erddap)：ERDDAP是一款科学数据服务器，它为用户提供了一种简单、一致的方式，可以下载常见文件格式的网格化和表格化科学数据集子集，并制作图表和地图，由美国国家海洋和大气管理局开源。
 * [Javelit](https://github.com/javelit/javelit)：Javelit是一个Java闪电般快速的数据应用程序开发框架，深受Streamlit的启发。
 
+#### 商业智能
+
+* [DataEase](https://github.com/dataease/dataease)：DataEase是开源的数据可视化分析工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化，由飞致云开源。
+* [Davinci](https://github.com/edp963/davinci)：Davinci是一个DVaaS平台解决方案，面向业务人员/数据工程师/数据分析师/数据科学家，致力于提供一站式数据可视化解决方案，由宜信开源。
+* [DataGear](https://gitee.com/datagear/datagear)：DataGear是一款开源免费的数据可视化分析平台，支持接入SQL、CSV、Excel、HTTP接口、JSON等多种数据源，由溪歌科技开源。
+* [FlyFish](https://gitee.com/CloudWise/fly-fish)：FlyFish是一个数据可视化编码平台，通过简易的方式快速创建数据模型，通过拖拉拽的形式，快速生成一套数据可视化解决方案，云智慧开源。
+* [Datart](https://github.com/running-elephant/datart)：Datart是新一代数据可视化开放平台，支持各类企业数据可视化场景需求，如创建和使用报表、仪表板和大屏，进行可视化数据分析，构建可视化数据应用等，由宜信开源。
+* [Metabase](https://github.com/metabase/metabase)：Metabase是一个开源的商业智能工具，你可以通过它理解数据、分析数据，进行数据查询并获取格式化结果，以数据驱动决策。
+* [Poli](https://github.com/shzlw/poli)：Poli是一款易于使用的SQL报告应用程序，专为SQL爱好者打造。
+* [FineBI](https://www.finebi.com/)：FineBI是帆软公司推出的一款商业智能产品。
+* [SuperSonic](https://github.com/tencentmusic/supersonic)：SuperSonic是下一代LLM支持的数据分析平台，集成了ChatBI和HeadlessBI，由腾讯音乐娱乐开源。
+* [CBoard](https://gitee.com/tuiqiao/CBoard)：CBoard由上海楚果信息技术有限公司主导开源，它不仅仅是一款自助BI数据分析产品，还是开放的BI产品开发平台。
+* [DataRoom](https://gitee.com/gcpaas/DataRoom)：DataRoom是一款基于Spring Boot、MyBatis Plus、Vue、ElementUI、G2Plot、Echarts等技术栈的大屏设计器，由科大国创云网科技公司开源。
+* [BI Platform](https://github.com/baidu/BIPlatform)：百度开源，业内领先的Holap敏捷BI分析平台，提供高性能、准实时、可扩展的、一站式的BI建模、分析平台。
+* [Abixen Platform](https://github.com/abixen/abixen-platform)：Abixen是一个基于微服务的软件平台，用于构建企业应用程序，通过创建特定的微服务并通过提供的CMS集成来提供功能。
+* [Helical Insight](https://github.com/helicalinsight/helicalinsight)：Helical Insight是世界上第一个开源商业智能框架，可以帮助你从一个或多个数据源中获取见解。
+* [Guitar](https://github.com/iflytek/Guitar)：Guitar是一款简单、高效的分布式多维BI报表分析引擎，由科大讯飞开源。
+* [LinceBI](https://github.com/LinceBI/lincebi)：LinceBI是一个完整的商业智能解决方案，包括ETL、元数据、大数据和机器学习等模块。
+* [Knowage](https://github.com/KnowageLabs/Knowage-Server)：Knowage是开源分析和商业智能套件，可让你将传统数据和大/云数据源组合成有价值且有意义的信息，由OW2开源。
+* [Datafor](https://datafor.com.cn/)：Datafor是一款自助式敏捷BI工具，旨在为用户提供直观易用的数据可视化和探索式分析功能，帮助用户快速进行数据探索、分析和决策。
+* [JRelax-BI](https://gitee.com/zengchao/JRelax-BI)：BI商业智能，自定义表单+自定义流程+自定义报表。
+* [ART](https://art.sourceforge.net/)：ART是一种报告和商业智能解决方案，它可以快速部署SQL查询结果，支持表格报告、图表、仪表板、调度。
+* [FusionView](https://gitee.com/hitsoft1995/fusion-view)：富表智能数据可视化平台是一款面向企业和行业级别的用户，具有AI特色的可视化与BI商业智能敏捷分析的平台。
+* [ReportServer](https://github.com/infofabrik/reportserver)：ReportServer是一个现代、多功能的开源商业智能(BI)平台，具有强大的报告功能，由ReportServer公司开发。
+* [Logi Analytics](https://insightsoftware.com/logi-analytics/)：Logi Analytics提供具有自助分析功能的商业智能和数据发现平台，这是InsightSoftware公司的商业产品。
+* [睿思BI](https://gitee.com/ruisibi/rsbi-pom)：睿思BI是由成都睿思商智公司研发的企业数据分析系统。
+* [Rakam](https://github.com/rakam-io/rakam-api)：Rakam是一个分析平台，可让你创建分析服务。
+* [Oceanus.BI](https://github.com/hf200012/oceanus.bi)：Oceanus是一个可自由拖拽的BI可视化系统。
+* [EazyBI](https://eazybi.com/)：EazyBI是一款功能强大的工具，提供易于使用的拖放式创建自定义报告、图表和仪表板小工具。
+* [BambooBSC](https://github.com/billchen198318/bamboobsc)：BambooBSC是一个开源的平衡计分卡商业智能系统。
+* [Tahopen](https://github.com/tahopen/tahopen-platform)：Tahopen是一个强大的开源商业分析平台，由Pentaho分支而来。
+* [StyleBI](https://github.com/inetsoft-technology/stylebi)：StyleBI是一款云原生、资源占用极低的商业智能Web应用，由数据转换管道和可视化微服务驱动。
+
+#### 电子表格
+
+* [Luckysheet](https://github.com/dream-num/Luckysheet)：Luckysheet是一款类似Excel的在线电子表格，功能强大、配置简单。
+* [DataSpread](https://github.com/dataspread/dataspread-web)：DataSpread是一个电子表格-数据库混合系统，包含电子表格前端和数据库后端，由伊利诺伊大学和加州大学伯克利分校开源。
+
 #### 数据可视化
 
 * [KNIME](https://github.com/knime/knime-core)：KNIME是由德国的康斯坦茨大学，一组研究制药应用的开发团队在2006年7月推出的一款针对大数据的软件。
-* [Davinci](https://github.com/edp963/davinci)：Davinci是一个DVaaS平台解决方案，面向业务人员/数据工程师/数据分析师/数据科学家，致力于提供一站式数据可视化解决方案，由宜信开源。
 * [DataCap](https://github.com/devlive-community/datacap)：DataCap是用于数据转换、集成和可视化的集成软件，由Devlive社区开源。
 * [Mirador](https://github.com/mirador/mirador)：Mirador是一种通过视觉探索在复杂数据集中识别新假设的工具，由斯坦福联合哈佛大学、美国国家美术馆和其他几家世界各地的机构共同进行扩展开发。
 * [Ananas](https://github.com/ananas-analytics/ananas-desktop)：Ananas是一款可破解的数据集成/分析工具，使非技术用户能够编辑数据处理作业并按需可视化数据。
-* [Datart](https://github.com/running-elephant/datart)：Datart是新一代数据可视化开放平台，支持各类企业数据可视化场景需求，如创建和使用报表、仪表板和大屏，进行可视化数据分析，构建可视化数据应用等，由宜信开源。
 * [Stroom](https://github.com/gchq/stroom)：Stroom是一个数据处理、存储和分析平台，由英国政府通讯总部开源。
 * [Hillview](https://github.com/vmware-archive/hillview)：Hillview是一种基于云的服务，用于以交互方式可视化大型数据集，由VMWare开源。
-* [DataEase](https://github.com/dataease/dataease)：DataEase是开源的数据可视化分析工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化，由飞致云开源。
-* [DataGear](https://gitee.com/datagear/datagear)：DataGear是一款开源免费的数据可视化分析平台，支持接入SQL、CSV、Excel、HTTP接口、JSON等多种数据源，由溪歌科技开源。
-* [FlyFish](https://gitee.com/CloudWise/fly-fish)：FlyFish是一个数据可视化编码平台，通过简易的方式快速创建数据模型，通过拖拉拽的形式，快速生成一套数据可视化解决方案，云智慧开源。
 * [Dex](https://github.com/PatMartin/Dex)：Dex是数据科学的强大工具，它是在JavaFX之上用Groovy和Java编写的数据可视化工具，能够进行强大的ETL和发布Web可视化。
 * [LJV](https://github.com/atp-mipt/ljv)：LJV是使用Graphviz可视化Java数据结构的工具，由莫斯科物理技术学院开源。
 * [Twig](https://github.com/gavalian/groot)：Twig是用纯Java编写的强大的数据分析和可视化工具。
