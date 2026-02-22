@@ -598,10 +598,11 @@
   * [边缘计算](docs/doc2.md#边缘计算)
 * [云服务SDK](docs/doc2.md#云服务SDK)
 * [微信开发](docs/doc2.md#微信开发)
-* [推送SDK](docs/doc2.md#推送SDK)
-* [异常通知](docs/doc2.md#异常通知)
-* [APN](docs/doc2.md#APN)
-* [Webhook](docs/doc2.md#Webhook)
+* [推送与通知](docs/doc2.md#推送与通知)
+  * [推送](docs/doc2.md#推送)
+  * [APN](docs/doc2.md#APN)
+  * [异常通知](docs/doc2.md#异常通知)
+  * [Webhook](docs/doc2.md#Webhook)
 * [API&客户端](docs/doc2.md#API客户端)
   * [Twitter](docs/doc2.md#Twitter)
   * [Facebook](docs/doc2.md#Facebook)
@@ -2116,7 +2117,7 @@
 * [Metamorphosis](https://github.com/killme2008/Metamorphosis)：Metamorphosis是淘宝开源的一个Java消息中间件。
 * [ElasticMQ](https://github.com/softwaremill/elasticmq)：ElasticMQ是一个消息队列系统，提供基于Actor的Scala和SQS兼容的REST接口，由SoftwareMill开源。
 * [Hermes](https://github.com/ctripcorp/hermes)：携程异步消息队列解决方案。
-* [Eclipse OpenMQ](https://github.com/eclipse-ee4j/openmq)：OpenMQ是一个完整的面向消息的中间件平台，提供高质量、企业级消息传递。
+* [Eclipse OpenMQ](https://github.com/eclipse-ee4j/openmq)：OpenMQ是一个完整的面向消息的中间件平台，提供高质量、企业级消息传递，由Sun开源。
 * [JORAM](https://joram.ow2.io/)：JORAM是JMS API规范的开源Java实现(符合Java 11至21以及JMS 1.1、2.0和3.0)，由格勒诺布尔大学开源。
 * [Jafka](https://github.com/adyliu/jafka)：Jafka是从Apache Kafka克隆出来的分布式发布-订阅消息系统，由搜狐维护。
 * [Hermes](https://github.com/allegro/hermes)：Hermes是一个构建在Kafka之上的异步消息代理，由波兰最大电商Allegro开源。
