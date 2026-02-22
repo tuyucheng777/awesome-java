@@ -1346,6 +1346,7 @@
 * [Unified Dispose Spring Boot](https://github.com/purgeteam/unified-dispose-springboot)：包含一些基础的异常处理以及返回包装功能。
 * [Spring MVC REST Exhandler](https://github.com/stormpath/spring-mvc-rest-exhandler)：Spring MVC REST异常处理程序。
 * [Quarkus RESTeasy Problem](https://github.com/quarkiverse/quarkus-resteasy-problem)：Quarkus REST API的统一错误响应。
+* [Problem Detail](https://github.com/t1/problem-details)：Problem Detail Java API、TCK以及JAX-RS和Spring Boot的实现。
 
 ## 构建工具
 
@@ -1497,6 +1498,7 @@
 * [API ML](https://github.com/zowe/api-layer)：API ML为大型机服务REST API提供单一访问点，由IBM开源。
 * [OWASP Application Gateway](https://github.com/The-OAG-Development-Project/Application-Gateway)：OWASP Application Gateway是一个HTTP反向代理，位于你的Web应用程序和客户端之间，负责处理Oauth2登录和会话管理。
 * [Bus Vortex](https://github.com/818000/bus/tree/main/bus-vortex)：Bus Vortex是一个基于Spring WebFlux构建的分布式、全异步、高性能、可扩展且轻量级的API网关。
+* [Clivia](https://gitee.com/palading_cr/clivia)：Clivia是一款基于Spring WebFlux的可扩展、高性能、高弹性、响应式的API网关。
 
 ## 服务发现
 
@@ -2211,7 +2213,7 @@
 * [Varadhi](https://github.com/flipkart-incubator/varadhi)：Varadhi是具有REST接口的消息总线实现，由Flipkart开源。
 * [Low Level Design](https://github.com/InterviewReady/Low-Level-Design)：常见数据结构的低级设计，包括事件总线。
 * [Flux Capacitor](https://github.com/flux-capacitor-io/flux-capacitor-client)：该仓库包含Flux Capacitor服务的官方Java客户端。
-* [Message Pipe](https://github.com/minbox-projects/message-pipe)：Message Pipe是一款基于Redis实现的分布式顺序消息管道框架。
+* [Message Pipe](https://gitee.com/minbox-projects/message-pipe)：Message Pipe是一款基于Redis实现的分布式顺序消息管道框架。
 * [MessageBus](https://github.com/dorkbox/MessageBus)：MessageBus是一个极其轻量级的消息/事件总线实现。
 * [JPost](https://github.com/janishar/JPost)：Java和Android类通信库。
 * [KillBill Queue](https://github.com/killbill/killbill-commons/tree/master/queue)：KillBill Queue是一个通知队列、持久消息总线库。
@@ -2470,6 +2472,7 @@ Kafka生态管理系统、运维平台。
 * [Scope](https://www.transwarp.cn/subproduct/scope)：Scope是星环第二代搜索引擎软件，可应用于表单、日志、视频、图像、文本文件等各类非结构化数据的对象存储与检索场景。
 * [Cleo](https://github.com/LinkedInAttic/cleo)：Cleo是一个灵活的软件库，用于快速开发部分、无序和实时的预输入搜索，由LinkedIn开源。
 * [Katta](https://gitee.com/yiidata/katta)：Katta是一个分布式搜索引擎解决方案。
+* [Turing](https://github.com/openviglet/turing)：Turing是一个功能强大的企业搜索平台，它彻底改变了企业发现、搜索和交互内容的方式。
 * [OpenSearchServer](https://github.com/jaeksoft/opensearchserver)：OpenSearchServer是一款功能强大、基于Lucene的企业级搜索引擎软件。
 * [Bobo](https://github.com/senseidb/bobo)：Bobo是一个用Java编写的多面搜索引擎，由LinkedIn开源。
 * [OpenK9](https://github.com/smclab/openk9)：OpenK9是一款完整的认知企业搜索解决方案，由SMC Treviso开源。
@@ -2974,7 +2977,7 @@ Kafka生态管理系统、运维平台。
 * [Android Web Server](https://github.com/sonuauti/Android-Web-Server)：Java语言的简单且小容量的Android版TCP/IP Web服务器。
 * [Dorado](https://github.com/javagossip/dorado)：简单、快速、轻量级的HTTP Server实现，基于Netty 4和JDK 1.8+。
 * [RedAnt](https://github.com/all4you/redant)：RedAnt是一个基于Netty的轻量级Web容器。
-* [loServer](https://github.com/looly/loServer)：loServer是基于Netty的HTTP应用服务器。
+* [LoServer](https://github.com/looly/loServer)：LoServer是基于Netty的HTTP应用服务器。
 * [DroidPHP](https://github.com/DroidPHP/DroidPHP)：DroidPHP是一个面向安卓设备的开源Web服务器，允许你从安卓设备运行基于PHP和MYSQL的应用。
 * [Akka HTTP](https://github.com/akka/akka-http)：Akka以流式传输为先的HTTP服务器/模块。
 * [ZIO HTTP](https://github.com/zio/zio-http)：ZIO HTTP是一个用于构建HTTP应用的Scala库。
@@ -3083,6 +3086,7 @@ Kafka生态管理系统、运维平台。
 * [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
 * [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
 * [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，框架能够做到纳秒级别的端到端延迟。
+* [UJCat](https://gitee.com/Foldcc/UJCat)：UJCat是基于Netty 4的极简易上手网络框架。
 * [JRakNet](https://github.com/whirvis/JRakNet)：JRakNet是一个基于Java的网络库，实现了基于UDP的协议RakNet。
 * [Mikrotik](https://github.com/GideonLeGrange/mikrotik-java)：Mikrotik RouterOS API的Java客户端库实现。
 * [Limitart](https://gitee.com/HankXV/Limitart)：Limitart是轻量级、高性能、少依赖、低级封装的服务器开发工具和项目搭建模板，可以开发游戏服务器和小型中间件等。
@@ -3240,6 +3244,7 @@ Kafka生态管理系统、运维平台。
 * [DevSphere](https://github.com/shutu-hub/devSphere)：DevSphere是一个基于Spring Boot构建的高性能实时聊天系统。
 * [FastBeeIM](https://github.com/Art0white/FastBeeIM)：提供给开发者快速实现IM服务端、客户端的能力。
 * [KingIM](https://github.com/jkxqj/KingIM)：KingIM是基于Netty的性能强悍的实时通讯系统。
+* [Ocean](https://gitee.com/dempe/ocean)：基于MQTT协议、Netty通讯组件实现的IM。
 
 #### Pcap
 
@@ -3397,7 +3402,7 @@ Kafka生态管理系统、运维平台。
 * [JED2K](https://github.com/a-pavlov/jed2k)：ED2K网络的Java库。
 * [TeleHash](https://github.com/quartzjer/TeleHash)：Telehash是一种100%开放、安全的网状网络技术。
 * [Iroh FFI](https://github.com/n0-computer/iroh-ffi)：Iroh的FFI绑定。
-* [Nostr Java](https://github.com/tcheeric/nostr-java)：是一个用于Nostr协议的Java SDK。
+* [Nostr Java](https://github.com/tcheeric/nostr-java)：Nostr Java是一个用于Nostr协议的Java SDK。
 * [I2P+](https://github.com/I2PPlus/i2pplus)：I2P+是Java I2P匿名网络层的软分支。
 
 #### SDN
@@ -3795,6 +3800,7 @@ Kafka生态管理系统、运维平台。
 * [AssistantAgent](https://github.com/spring-ai-alibaba/AssistantAgent)：AssistantAgent是一款基于Spring AI Alibaba构建的企业级智能助理框架。
 * [Jai Workflow](https://github.com/czelabueno/jai-workflow)：Jai Workflow是一个开源的Java库，用于构建、打包、集成、编排和监控面向Java开发人员的智能体AI系统。
 * [Bella Workflow](https://github.com/LianjiaTech/bella-workflow)：Bella Workflow是贝壳找房内部核心的LLM应用开发平台，致力于为开发者提供更灵活、高效、强大的AI应用构建能力。
+* [Ampere](https://github.com/socket-link/ampere)：Ampere是一个Kotlin多平台框架，其中每个代理决策都会发出一个结构化的、可查询的事件。
 
 #### NL2SQL
 
@@ -3933,6 +3939,7 @@ Kafka生态管理系统、运维平台。
 * [KotlinDL](https://github.com/Kotlin/kotlindl)：KotlinDL是一个用Kotlin编写的高级深度学习API，由JetBrains开源。
 * [Apache MXNet](https://mxnet.apache.org/versions/1.9.1/api/java)：Apache MXNet是一个兼顾效率和灵活性的深度学习框架，由AWS开源。
 * [TonY](https://github.com/tony-framework/TonY)：TonY是一个在Hadoop上本地运行深度学习作业的框架，由LinkedIn开源。
+* [SKaiNET](https://github.com/SKaiNET-developers/SKaiNET)：SKaiNET是一个用Kotlin编写的开源深度学习框架。
 * [Porcupine](https://github.com/Picovoice/porcupine)：Porcupine是一款高精度且轻量级的唤醒词引擎。
 * [FlexNeuART](https://github.com/oaqa/FlexNeuART)：FlexNeuART是一个轻量级模块化的信息检索框架，适用于研究、教育和评估，由CMU开源。
 * [DeepLearning](https://github.com/ThoughtWorksInc/DeepLearning.scala)：DeepLearning是一个简单的库，用于从面向对象和函数式编程结构创建复杂的神经网络，由ThoughtWorks开源。
@@ -4292,6 +4299,7 @@ Kafka生态管理系统、运维平台。
 * [Tess Two](https://github.com/rmtheis/tess-two)：Android版Tesseract工具是一组用于Tesseract OCR和Leptonica图像处理库的Android API和构建文件。
 * [Vlpr4j](https://github.com/eguid/vlpr4j)：基于OpenCV的Java车牌检测识别库。
 * [JavaANPR](https://github.com/oskopek/javaanpr)：JavaANPR是一款自动车牌识别软件。
+* [OpenAnpr](https://gitee.com/open-visual/open-anpr)：基于深度学习的智能车牌识别，支持14种中文车牌类型。
 * [ABBYY Cloud OCR SDK](https://github.com/abbyy/ocrsdk.com)：ABBYY Cloud OCR SDK提供Web API，可轻松在C#、Java、Python或任何其他支持网络通信的开发工具中使用。
 * [Sypht Java Client](https://github.com/sypht-team/sypht-java-client)：Sypht是一款SaaS API，用于从文档中提取关键字段。
 

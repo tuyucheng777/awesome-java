@@ -597,6 +597,7 @@
 * [Genesis](https://github.com/ThisIsLibra/genesis)：Genesis是一个框架，允许用户创建自己的测试用例，并在生成过程中进行混淆处理。
 * [Arbitrater](https://github.com/tyro/arbitrater)：Arbitrater是一个通过反射创建任意类实例的库。
 * [Mockj](https://gitee.com/kkk001/mockj)：生成Mock数据的利器，Mockjs的Java实现。
+* [Data Processer](https://gitee.com/CloudWise/Data-Processer)：Data Processer是一个模拟数据生成器。
 
 #### BDD框架
 
@@ -1066,6 +1067,7 @@
 * [Transponder](https://github.com/OrienteerBAP/Transponder)：Transponder是一个用于NoSQL数据库的ORM库。
 * [BatooJPA](https://github.com/BatooOrg/BatooJPA)：BatooJPA是一种高性能的JPA实现。
 * [DoytoQuery](https://github.com/doytowin/doyto-query)：DoytoQuery实现了一种动态查询语言，它能够从对象生成查询语句。
+* [RexDB](https://gitee.com/rexsoft/rexdb)：RexDB是一款使用Java语言编写、开源的持久层框架。
 
 #### JDBC框架
 
@@ -1422,6 +1424,7 @@
 * [ReactiveMongo](https://github.com/ReactiveMongo/ReactiveMongo)：ReactiveMongo是一个Scala驱动程序，提供完全非阻塞和异步I/O操作。
 * [Mars](https://github.com/whaleal/mars)：Mars是用于Java的MongoDB ORM/ODM框架，由上海锦木信息技术有限公司与中国东方航空公司共同开发。
 * [Jongo](https://github.com/bguerout/jongo)：Jongo使Mongo查询语言可在Java中使用。
+* [En2Do](https://github.com/Koboo/en2do)：MongoDB的实体框架。
 * [KMongo](https://github.com/Litote/kmongo)：KMongo是一个用于MongoDB的Kotlin工具包。
 * [Morphia](https://github.com/MorphiaOrg/morphia)：Morphia是基于Java的MongoDB对象-文档映射器。
 * [Mongojack](https://github.com/mongojack/mongojack)：Mongojack将Java对象映射到MongoDB文档。
@@ -2491,6 +2494,8 @@
 * [Forge](https://github.com/kittinunf/Forge)：Forge是一个JSON库，帮助你以函数式方式将Kotlin类与JSON互相映射。
 * [ScalaJack](https://github.com/gzoller/ScalaJack)：ScalaJack是一个非常快速、无缝的非模式数据序列化引擎，旨在仅需极少的额外代码即可序列化一个类。
 * [MJson](https://github.com/bolerio/mjson)：MJson是一个极其轻量级的Java JSON库，拥有非常简洁的API。
+* [OkJSON](https://gitee.com/calvinwilliams/okjson)：OkJSON是用Java编写的JSON处理器。
+* [Json4Bean](https://gitee.com/angryid/json4bean)：Json4Bean是一个JSON序列化库。
 
 #### JSON Schema
 
@@ -3394,6 +3399,7 @@
 * [HtmlExtractor](https://github.com/ysc/HtmlExtractor)：HtmlExtractor是一个Java实现的基于模板的网页结构化信息精准抽取组件。
 * [Essence](https://github.com/cdimascio/essence)：Kotlin和Java的自动网页内容提取器。
 * [ContentExtractor](https://github.com/hfut-dmic/ContentExtractor)：ContentExtractor是一个开源的网页正文抽取工具，具有非常高的抽取精度，由合肥工业大学开源。
+* [Norconex Importer](https://github.com/Norconex/importer)：Norconex Importer是一个Java库和命令行应用程序，旨在解析和提取计算机文件中的内容，并将其转换为纯文本格式，支持各种格式(HTML、PDF、Word等)。
 
 #### 爬虫系统
 
@@ -3697,6 +3703,7 @@
 * [Jamon](http://www.jamon.org/index.html)：Jamon是一个Java文本模板引擎，用于生成动态HTML、XML或任何基于文本的内容。
 * [FreshMarker](https://gitlab.com/schegge/freshmarker)：FreshMarker是一个简单的嵌入式Java 21模板引擎，其灵感来自FreeMarker。
 * [ZML](https://gitee.com/zhiqim/zhiqim_zml)：ZML是知启蒙定义的、类似于Java、Javascript语法的语句和表达式，通常和XML/HTML混编在一起形成的一种新的标记语言。
+* [Wit](https://github.com/febit/wit)：Wit是一个完全用Java编写的模板引擎，支持Java 17+。
 * [Japid](https://github.com/branaway/Japid)：Japid是一个基于Java的动态内容渲染模板系统。
 * [ManTL](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-templates)：ManTL是一个轻量级且类型安全的模板引擎，通过Manifold直接集成到Java编译器中。
 * [Spring Boot HTMX](https://github.com/wimdeblauwe/htmx-spring-boot)：该项目简化了HTMX与Spring Boot/Spring Web MVC应用程序的集成。
@@ -4362,6 +4369,8 @@
 * [WebP4j](https://github.com/MrNanko/webp4j)：WebP4j是一个基于JNI的Java库，支持在Java项目中进行WebP图像编码和解码。
 * [ImageTracerJava](https://github.com/jankovicsandras/imagetracerjava)：用于桌面的简单栅格图像追踪器和矢量化工具，使用Java编写。
 * [Tinify Java](https://github.com/tinify/tinify-java)：Tinify API的Java客户端。
+* [QOI Java](https://github.com/saharNooby/qoi-java)：Quite OK Image Format的纯Java 8实现。
+* [JAI ImageIO JPEG2000](https://github.com/jai-imageio/jai-imageio-jpeg2000)：Java高级图像I/O工具API对JPEG2000的支持。
 
 #### 图像元数据
 
@@ -4414,6 +4423,7 @@
 * [Captcha Plus](https://github.com/xingyuv/captcha-plus)：Captcha Plus行为验证码，包含滑动拼图、文字点选两种方式，UI支持弹出和嵌入两种方式。
 * [NanoCaptcha](https://github.com/logicsquad/nanocaptcha)：NanoCaptcha是一个用于生成图像和音频验证码的Java库。
 * [Hutool Captcha](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-captcha)：Hutool图片验证码实现。
+* [GreenBamboo CAPTCHA](https://gitee.com/503718696/GreenBamboo-CAPTCHA)：GreenBamboo CAPTCHA拥有实现统一图形验证码生成接口的验证码实体类，项目只需调用各种验证码实例即可轻松获得验证的能力。
 
 #### 二维码库
 
@@ -4511,6 +4521,7 @@
 * [ParallelGZIP](https://github.com/shevek/parallelgzip)：ParallelGZIP包含一个并行GZIP实现，它是标准java.util.zip类的高性能替代品。
 * [JZlib](https://github.com/ymnk/jzlib)：JZlib是zlib在纯Java中的重新实现。
 * [Junrar](https://github.com/junrar/junrar)：纯Java RAR库。
+* [JUnRAR](https://github.com/edmund-wagner/junrar)：纯Java解压缩工具。
 * [JArchiveLib](https://github.com/thrau/jarchivelib)：JArchiveLib是一个简单的Java归档和压缩库，它在Apache Commons Compress之上提供了一个精简且易于使用的API层。
 * [JTar](https://github.com/kamranzafar/jtar)：JTar是一个简单的Java Tar库，它提供了一种使用IO流创建和读取Tar文件的简单方法。
 * [7 Zip JBinding](https://github.com/borisbrodski/sevenzipjbinding)：7 Zip JBinding是7-Zip免费压缩/解压缩库的免费跨平台Java绑定。
@@ -4791,6 +4802,7 @@
 * [EasyDataBaseExport](https://github.com/Zhuoyuan1/EasyDataBaseExport)：EasyDataBaseExport是一款数据库表结构导出工具，支持MySQL、Oracle、Sqlserver、PostgreSQL、达梦、虚谷、DB2等数据库，同时支持Excel、Word、Markdown、Html、PDF文档导出。
 * [Excel Parser](https://github.com/nvenky/excel-parser)：基于注解的Excel解析库，用于简化Java中Excel表格的解析。
 * [POI EL](https://gitee.com/kkk001/poi-el)：POI EL支持强大的Excel模板导出功能。
+* [BingExcel](https://gitee.com/bingyulei007/bingExcel)：BingExcel是一个Java库，可用于将Excel表格转换为Java对象表示形式。
 
 #### CSV库
 
@@ -4965,7 +4977,7 @@
 * [License](https://github.com/kobeyk/license)：软件许可证书生成+验证。
 * [Candlepin](https://github.com/candlepin/candlepin)：Candlepin是一个开源订阅和授权引擎，旨在从供应商和客户的角度管理软件订阅。
 * [Solicitor](https://github.com/devonfw/solicitor)：Solicitor是一款能够管理软件依赖项许可证的工具。
-* [Smart License](https://gitee.com/smartboot/smart-license)：Smart-License是一款用于安全加固的开源项目，主要服务于非开源产品、商业软件、具备试用功能的付费软件等，为软件提供授权制的使用方式。
+* [Smart License](https://gitee.com/smartboot/smart-license)：Smart License是一款用于安全加固的开源项目，主要服务于非开源产品、商业软件、具备试用功能的付费软件等，为软件提供授权制的使用方式。
 * [LICENSE4J](https://www.license4j.com/)：LICENSE4J包含一个强大的库、一个直观的许可证管理器和一个多功能的许可证服务器。
 * [Licensius](https://github.com/decebals/licensius)：Java开源微型许可证框架。
 
@@ -5814,6 +5826,7 @@
 
 * [Apache Commons Chain](https://github.com/apache/commons-chain)：GoF责任链模式的实现。
 * [Pie](https://github.com/feiniaojin/pie)：Pie是一个可快速上手的责任链框架。
+* [StepChain](https://gitee.com/zengfr/stepchain)：StepChain通用业务流程流水线处理框架。
 * [Auto Pipeline](https://github.com/foldright/auto-pipeline)：Auto Pipeline是一个源代码生成器，可以自动生成组件的管道。
 
 ## 审计框架
@@ -5874,6 +5887,11 @@
 * [JNSM](https://gitee.com/eguid/java-nssm-service-manager)：Java开发的简单Windows服务安装管理工具，支持JAR包和EXE安装为Windows服务，并支持批量管理已安装服务。
 * [MacAppBundle](https://github.com/crotwell/gradle-macappbundle)：一个用于根据项目创建Mac OSX APP应用程序和DMG的Gradle插件。
 * [JBundle](https://github.com/avelino/jbundle)：JBundle将JVM应用程序转换为独立的二进制文件。
+* [Nucleus](https://github.com/kdroidFilter/Nucleus)：Nucleus是一个Gradle插件，用于构建、打包和分发JVM桌面应用程序，使其能够以原生安装程序的形式在macOS、Windows和Linux系统上运行。
+* [Gradle Linux Packaging](https://github.com/nebula-plugins/gradle-ospackage-plugin)：该插件使用规范的Gradle Copy Specs提供基于Gradle的系统包组装，通常适用于基于RedHat和Debian的发行版。
+* [Badass Runtime](https://github.com/beryx/badass-runtime-plugin)：使用此Gradle插件，你可以为非模块化应用程序创建自定义运行时镜像。
+* [Badass JLink](https://github.com/beryx/badass-jlink-plugin)：使用此Gradle插件，你可以用最少的努力创建模块化应用程序的自定义运行时镜像，即使它依赖于自动模块。
+* [Java Debian Package](https://github.com/tcurdt/jdeb)：该库提供了一个Ant任务和一个Maven插件，可以以真正跨平台的方式从Java构建创建Debian软件包。
 
 ## 部署
 
@@ -5894,6 +5912,7 @@
 * [Rultor](https://github.com/yegor256/rultor)：Rultor是一个DevOps团队助理，它通过易于使用的直观聊天机器人界面帮助你自动执行日常操作(合并、部署和发布)。
 * [JarManage](https://gitee.com/code2roc/jar-manage)：JarManage是一个可视化Jar包部署平台，让部署变得简单、快捷。
 * [Liima](https://github.com/liimaorg/liima)：Liima自动化中间件允许你在无限数量的不同环境中管理各种版本的Java EE应用程序的配置，包括这些应用程序的自动部署。
+* [Gradle Cargo](https://github.com/bmuschko/gradle-cargo-plugin)：Gradle插件通过Cargo为本地和远程容器提供部署功能。
 
 ## 更新
 
@@ -6621,6 +6640,8 @@
 * [Asbru Web](https://wcm.asbrusoft.com/)：Asbru Web内容管理系统包括全方位的先进和强大的功能，以支持业务需求并简化小型和简单网站以及大型复杂网站的开发。
 * [Autumn](https://github.com/ShuaiJunlan/Autumn)：Autumn是一个Web子系统集合，旨在提供通用的Web系统解决方案。
 * [Apache Lenya](https://lenya.apache.org/)：Apache Lenya是一个开源的Java/XML内容管理系统，它具备版本控制、多站点管理、日程安排、搜索、所见即所得编辑器和工作流等功能。
+* [Wetech CMS](https://gitee.com/cjbi/wetech-cms)：Wetech CMS旨在开发一个通用、可持续开发集成、方便扩展的CMS系统。
+* [JWordpress](https://gitee.com/jxuasea/JWordpress)：WordPress Java版本。
 
 #### 博客系统
 
@@ -6689,6 +6710,7 @@
 * [FzqBlog](https://gitee.com/asmysoul/FzqBlog)：FzqBlog博客，使用Spring、SpringMVC、Mybatis、Quartz、Freemarker开发。
 * [Ezone](https://gitee.com/coodyer/ezone)：Ezone是一个开源博客。
 * [Art Blog](https://gitee.com/luotf/Art_Blog)：基于Spring、SpringMVC、Mybatis架构的开源博客。
+* [AutuBlog](https://gitee.com/wenhaofan/AutuBlog)：AntuBlog是一款使用基于JFinal开发的轻量级Java博客系统。
 
 #### 论坛系统
 
@@ -6873,6 +6895,7 @@
 * [Warehouse](https://github.com/longpi1/warehouse)：基于Spring Boot的中小型仓库物流管理系统。
 * [Logistics](https://github.com/anselleeyy/logistics-back)：基于Spring Boot 2.0、LayUI 2框架的物流管理系统。
 * [OpenQuarterMaster](https://github.com/Epic-Breakfast-Productions/OpenQuarterMaster)：Open Quartermaster是一款开源的库存管理系统，设计简洁易用，功能强大且可扩展。
+* [KYTMS](https://gitee.com/jet-chain/KYTMS)：KYTMS是辽宁捷畅物流为公司个性化需求量身定制的一套TMS系统。
 
 #### MES系统
 
@@ -7362,6 +7385,7 @@
 
 * [Jenkins Java Client](https://github.com/jenkinsci/java-client-api)：适用于Java的Jenkins API客户端。
 * [Jenkins REST](https://github.com/cdancy/jenkins-rest)：Java客户端，基于JClouds构建，用于与Jenkins REST API配合使用。
+* [Jenkins Client Java](https://gitee.com/linuxsuren/jenkins-client-java)：Jenkins客户端的Java绑定。
 
 #### TheMovieDb
 
@@ -7394,6 +7418,7 @@
 * [Jocker](https://github.com/ndeloof/jocker)：Jocker是用于访问Docker API的Docker客户端库。
 * [Rapid](https://github.com/ozlerhakan/rapid)：Rapid Docker Interface提供Docker查询与Docker主机之间的连接。
 * [Docker Java](https://github.com/intisy/docker-java)：Docker Java提供了一个独立的Java Docker服务器。
+* [JDocker](https://gitee.com/helyho/JDocker)：JDocker是一个基于Docker API的封装包。
 
 ## Consul客户端
 
@@ -7583,6 +7608,7 @@
 * [BNB Beacon Chain Java SDK](https://github.com/bnb-chain/java-sdk)：BNB Beacon Chain Java SDK作为一个轻量级的Java库，用于与BNB信标链交互。
 * [Ripple Java Library](https://github.com/ripple-unmaintained/ripple-lib-java)：Java版Ripple。
 * [PlatON Java SDK](https://github.com/PlatONnetwork/client-sdk-java)：PlatON为Java开发者提供的PlatON公链开发工具包。
+* [Ethers Kt](https://github.com/Kr1ptal/ethers-kt)：Ethers Kt是一个异步、高性能的Kotlin库，用于与基于EVM的区块链进行交互。
 
 #### 智能合约
 
@@ -7619,7 +7645,7 @@
 * [Accounting](https://github.com/Nick-Triller/accounting)：Accounting是一个用Java编写的内存中复式记账组件。
 * [IBC](https://github.com/IbcAlpha/IBC)：IBC可以自动化运行盈透证券交易者工作站和网关的许多方面。
 * [Univocity Trader](https://github.com/uniVocity/univocity-trader)：Univocity Trader是一个开源交易框架，旨在使任何具有基本编程技能的人都能有效地创建和测试用于买卖股票、加密货币或任何其他类型工具的交易算法。
-* [Eclipse Tradista](https://github.com/eclipse-tradista/tradista)：Tradista是一种轻量级的金融风险管理解决方案，使你能够使用单一工具管理你的日常财务和风险管理任务。
+* [Eclipse Tradista](https://github.com/eclipse-tradista/tradista)：Tradista是一个模块化、高性能的资本市场平台，旨在统一并保障你的金融运营。
 * [ObjectLab Kit](https://github.com/Appendium/objectlabkit)：商业/外汇日期计算器、外汇汇率计算器和实用工具。
 * [Lamma](https://github.com/maxcellent/lamma)：Lamma是一个专业的金融工具时间表生成库，用于生成抵押贷款还款时间表、固定收益票息支付时间表、股票衍生品定价日期等。
 * [AML Monitoring Engine](https://github.com/Jeremiahcheng1206/AML-Monitoring-Engine)：AML Monitoring Engine是一个尖端系统，它利用深度学习来检测和打击可疑的金融交易。
@@ -10217,6 +10243,7 @@
 * [OpenRSC](https://github.com/Open-RSC/Core-Framework)：该仓库包含Open RuneScape Classic游戏框架。
 * [Yaeger](https://github.com/han-yaeger/yaeger)：Yaeger是一个教育游戏引擎运行时，也是一个功能齐全的2D游戏引擎，只需要传统的面向对象编程风格，由HAN应用科技大学开源。
 * [Arc](https://github.com/Anuken/Arc)：基于LibGDX的Java游戏开发框架。
+* [Nostr](https://github.com/NostrGameEngine/ngengine)：Nostr是一个用于构建游戏和应用程序的游戏引擎和框架，与Nostr生态系统集成。
 * [VatraLib](https://vatrasoft.de/vatralib/)：VatraLib是一个用Java编写的2D游戏引擎。
 * [Omicron](https://github.com/msx80/Omicron)：Omicron是一个基于LibGDX的开源Java游戏引擎。
 * [RemsEngine](https://github.com/AntonioNoack/RemsEngine)：RemsEngine是一个基于Kotlin/OpenGL/ECS的开源游戏引擎。
@@ -10859,6 +10886,7 @@
 * [S3 Stream Upload](https://github.com/alexmojaki/s3-stream-upload)：这个库让你能够高效地将大量数据流传输到AWS S3，而无需将整个对象存储在内存中或使用文件。
 * [Jcabi S3](https://github.com/jcabi/jcabi-s3)：Amazon S3 SDK之上的面向对象层。
 * [VFX S3](https://github.com/abashev/vfs-s3)：Apache Commons VFS项目的Amazon S3驱动程序。
+* [Ladon S3 Server](https://github.com/mindmill/ladon-s3-server)：S3 Java API实现。
 
 ## 音视频处理
 
@@ -11637,6 +11665,7 @@
 * [OpenJUMP](https://github.com/openjump-gis/openjump)：OpenJUMP诞生于JUMP，JUMP是一个开源GIS，最初由Vividsolutions用Java开发，并由不列颠哥伦比亚省(加拿大)自然资源部资助。
 * [Maxent](https://github.com/mrmaxent/Maxent)：Maxent是一个独立的Java应用程序，用于对物种地理分布进行建模，由美国自然历史博物馆开源。
 * [McIDAS-V](https://github.com/mcidasv/mcidasv)：McIDAS-V是3D地球物理数据分析和可视化的免费开源软件，由威斯康星大学麦迪逊分校开发。
+* [SuperMap](https://gitee.com/supermap/SuperMap-iDesktop-Cross)：SuperMap是一款支持跨平台、全开源的桌面GIS应用与开发平台系统。
 
 #### 大地测量
 
@@ -12053,6 +12082,7 @@
 * [Color](https://github.com/bowbahdoe/color)：JVM的颜色库。
 * [Color.kt](https://github.com/kdrag0n/colorkt)：Color.kt是适用于Kotlin Multiplatform和Java的现代色彩科学库。
 * [Android Random Color](https://github.com/uknownothingsnow/AndroidRandomColor)：Android随机颜色生成器库。
+* [HSLuv Java](https://github.com/hsluv/hsluv-java)：HSLuv的Java实现。
 
 ## 短链接
 
@@ -12427,6 +12457,7 @@
 * [LoA](https://github.com/bottomless-archive-project/library-of-alexandria)：LoA是一个旨在从互联网收集和存档文献的项目。
 * [Kramerius](https://github.com/ceskaexpedice/kramerius)：Kramerius是一款数字图书馆开源软件解决方案，主要用于数字化图书馆藏书、专著和期刊，由捷克共和国科学院图书馆、捷克共和国国家图书馆等开源。
 * [OpacClient](https://github.com/opacapp/opacclient)：一个Java客户端库和一个Android应用程序，可访问来自世界各地的1000多个公共和学术图书馆。
+* [Metafacture](https://github.com/metafacture/metafacture-core)：Metafacture是一个用于处理半结构化数据的工具包，专注于图书馆元数据。
 
 ## 自动程序修复
 
@@ -12702,8 +12733,6 @@
 * [GitHub Maven Plugins](https://github.com/github/maven-plugins)：与GitHub集成的Maven插件集合，这些插件通过GitHub Java库构建在API v3之上。
 * [ProGuard Maven Plugin](https://github.com/wvengen/proguard-maven-plugin)：ProGuard Maven插件支持模块化ProGuard包。
 * [Git-Flow Maven Plugin](https://github.com/aleksandr-m/gitflow-maven-plugin)：Git-Flow Maven插件支持各种Git工作流，包括GitFlow和GitHub Flow，该插件从命令行运行Git和Maven命令。
-* [Java Debian Package](https://github.com/tcurdt/jdeb)：该库提供了一个Ant任务和一个Maven插件，可以以真正跨平台的方式从Java构建创建Debian软件包。
-* [Launch4j Maven Plugin](https://github.com/orphan-oss/launch4j-maven-plugin)：一个包装Launch4j的Maven插件。
 * [Coveralls Maven Plugin](https://github.com/trautonen/coveralls-maven-plugin)：用于向Coveralls Web服务提交Java代码覆盖率报告的Maven插件。
 * [Sortpom Maven Plugin](https://github.com/Ekryd/sortpom)：通过格式化XML并按预定义的顺序组织XML部分来帮助用户对pom.xml进行排序的Maven插件。
 * [Jasmine Maven Plugin](https://github.com/searls/jasmine-maven-plugin)：用于执行Jasmine Specs的Maven插件。
@@ -12771,25 +12800,21 @@
 * [Gradle Nexus Publish Plugin](https://github.com/gradle-nexus/publish-plugin)：用于发布到Nexus仓库的Gradle插件。
 * [Gradle License Plugin](https://github.com/jaredsburrows/gradle-license-plugin)：该插件提供了根据配置生成HTML许可证报告的任务。
 * [License Gradle Plugin](https://github.com/hierynomus/license-gradle-plugin)：该插件将扫描并调整你的源文件以包含提供的标头。
-* [Badass JLink Plugin](https://github.com/beryx/badass-jlink-plugin)：使用此Gradle插件，你可以用最少的努力创建模块化应用程序的自定义运行时镜像，即使它依赖于自动模块。
 * [Gradle Static Analysis Plugin](https://github.com/novoda/gradle-static-analysis-plugin)：Gradle插件可轻松在不同的Android、Java或Kotlin项目中应用相同的静态分析工具设置。
 * [Focus](https://github.com/dropbox/focus)：Gradle插件可通过排除不必要的模块来帮助你加快构建速度。
 * [Gradle Android JUnit JaCoCo Plugin](https://github.com/vanniktech/gradle-android-junit-jacoco-plugin)：Gradle插件可从Android Gradle项目生成JaCoCo报告。
 * [Gradle ErrorProne Plugin](https://github.com/tbroyer/gradle-errorprone-plugin)：该插件配置JavaCompile任务以使用Error Prone。
 * [Android Unused Resources Remover Plugin](https://github.com/konifar/gradle-unused-resources-remover-plugin)：Gradle插件可删除Android项目中未使用的资源。
-* [Gradle Linux Packaging Plugin](https://github.com/nebula-plugins/gradle-ospackage-plugin)：该插件使用规范的Gradle Copy Specs提供基于Gradle的系统包组装，通常适用于基于RedHat和Debian的发行版。
 * [Gradle Code Quality Tools Plugin](https://github.com/vanniktech/gradle-code-quality-tools-plugin)：配置Checkstyle、PMD、CPD、Lint、Detekt和Ktlint的Gradle插件。
 * [Gradle License Report](https://github.com/jk1/Gradle-License-Report)：用于生成有关Gradle项目依赖项许可证的报告的插件。
 * [Gradle Git Properties](https://github.com/n0mer/gradle-git-properties)：这个Gradle插件可用于为基于Git的项目生成git.properties文件。
 * [Gradle SSH Plugin](https://github.com/int128/gradle-ssh-plugin)：Gradle SSH Plugin提供SSH功能，例如Gradle上的命令执行或文件传输。
-* [Gradle Launch4j](https://github.com/TheBoegl/gradle-launch4j)：使用Launch4j创建Windows可执行文件的Gradle插件。
 * [Gradle Dependency Lock Plugin](https://github.com/nebula-plugins/gradle-dependency-lock-plugin)：允许使用动态依赖版本将其锁定到特定版本。
 * [Gradle APT Plugin](https://github.com/tbroyer/gradle-apt-plugin)：Gradle插件使使用Java注解处理器变得更容易/更安全。
 * [Gradle Sonatype Nexus Plugin](https://github.com/bmuschko/gradle-nexus-plugin)：该插件提供配置和上传工件到Sonatype Nexus的支持。
 * [Gradle Changelog Plugin](https://github.com/JetBrains/gradle-changelog-plugin)：用于以“保留变更日志”风格解析和管理变更日志的插件。
 * [Paraphrase](https://github.com/JakeWharton/paraphrase)：一个实验性的Gradle插件，可生成编译安全的格式字符串构建器。
 * [Gradle Android Git Version](https://github.com/gladed/gradle-android-git-version)：一个Gradle插件，用于从Git标签计算Android友好的版本名称和代码。
-* [Gradle Cargo Plugin](https://github.com/bmuschko/gradle-cargo-plugin)：Gradle插件通过Cargo为本地和远程容器提供部署功能。
 * [Gradle Plugins](https://github.com/freefair/gradle-plugins)：Gradle插件集合。
 * [Gradle TestSets Plugin](https://github.com/unbroken-dome/gradle-testsets-plugin)：Gradle构建系统的插件，允许指定测试集。
 * [Gradle Witness](https://github.com/signalapp/gradle-witness)：一个支持对远程依赖项进行静态验证的Gradle插件。
@@ -12809,7 +12834,6 @@
 * [Extra Java Module Info Gradle plugin](https://github.com/gradlex-org/extra-java-module-info)：一个Gradle 6.8+插件，用于在模块化Java项目中将旧版Java库用作Java模块。
 * [Clojurephant](https://github.com/clojurephant/clojurephant)：Gradle插件为Clojure和ClojureScript语言提供支持。
 * [KtFmt Gradle](https://github.com/cortinico/ktfmt-gradle)：一个将KtFmt应用于你的Gradle构建的包装器，并重新格式化你的Kotlin源代码。
-* [Badass Runtime Plugin](https://github.com/beryx/badass-runtime-plugin)：使用此Gradle插件，你可以为非模块化应用程序创建自定义运行时镜像。
 * [Gratatouille](https://github.com/GradleUp/gratatouille)：Gratatouille是一个用于构建Gradle插件的框架。
 * [Genymotion Gradle Plugin](https://github.com/Genymobile/genymotion-gradle-plugin)：一个插件，允许你从Gradle脚本轻松控制所有Genymotion设备。
 * [Gradle Gatling Plugin](https://github.com/lkishalmi/gradle-gatling-plugin)：Gradle的Gatling插件。
