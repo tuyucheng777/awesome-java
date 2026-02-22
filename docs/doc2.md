@@ -2773,6 +2773,7 @@
 * [Lib Recur](https://github.com/dmfs/lib-recur)：该库解析RFC 5545和RFC 2445中定义的重复字符串并迭代实例。
 * [TickTock](https://github.com/ZacSweers/ticktock)：TickTock是一个时区数据管理库，适用于JVM和Android，针对Java 8或更高版本中的java.time.* API。
 * [Business Hours Java](https://github.com/dhatim/business-hours-java)：这个Java库有助于处理工作时间，例如“周一到周五上午9点到下午6点，周六上午9点到中午12点”。
+* [Java Time Fun](https://github.com/sami-eljabali/java-time-fun)：java.time包Kotlin扩展函数库。
 
 #### 日历库
 
@@ -3446,6 +3447,7 @@
 * [jDMN](https://github.com/goldmansachs/jdmn)：jDMN为DMN中指定的决策模型提供执行引擎，这些决策可以解释或翻译为Java并在JVM上执行，由高盛银行开源。
 * [DBOS](https://github.com/dbos-inc/dbos-transact-java)：DBOS提供轻量级、持久耐用且由Postgres支持的工作流。
 * [JDEasyFlow](https://github.com/JDEasyFlow/jd-easyflow)：JDEasyFlow是京东开源的一个通用流程编排组件，适用于服务编排、工作流、审计等，具有易用、灵活、易扩展的特点。
+* [Spring Web Flow](https://github.com/spring-projects/spring-webflow)：Spring Web Flow有助于构建需要引导导航的Web应用程序-例如购物车、航班登记、贷款申请等等。
 * [ActiveMatrix BPM](https://docs.tibco.com/products/tibco-activematrix-bpm-4-3-0)：TIBCO ActiveMatrix BPM用于开发、部署、执行和管理以业务流程管理为中心的应用程序。
 * [Piper](https://github.com/runabol/piper)：Piper是一个基于Spring Boot构建的开源分布式工作流引擎，设计非常简单。
 * [Maestro](https://github.com/lucidity-labs/maestro)：Maestro是一个简单但功能强大、持久的工作流库。
@@ -3877,6 +3879,7 @@
 * [Commands](https://github.com/aikar/commands)：Java命令分发框架，支持Bukkit、Spigot、Paper、Sponge、Bungee、JDA、Velocity。
 * [JDA Commands](https://github.com/Kaktushose/jda-commands)：JDA Commands是一个轻量级、易于使用的命令框架，用于使用JDA构建Discord机器人，并完全支持交互功能。
 * [Imperat](https://github.com/MeveraStudios/Imperat)：Imperat是适用于Java应用程序的最高效、功能最丰富的命令框架。
+* [LiteCommands](https://github.com/Rollczi/LiteCommands)：LiteCommands是一个功能丰富且用途广泛的命令框架，旨在简化各种平台和实现中的命令处理。
 
 #### ASCII艺术
 
@@ -4606,6 +4609,7 @@
 * [Springfox](https://github.com/springfox/springfox)：Springfox库旨在自动生成使用Spring系列项目编写的JSON API的机器和人类可读规范。
 * [SpringDoc OpenAPI](https://github.com/springdoc/springdoc-openapi)：SpringDoc OpenAPI库有助于使用Spring Boot项目自动生成API文档。
 * [Spring Boot Starter Swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：该项目主要利用Spring Boot的自动配置特性来实现快速的将Swagger 2引入Spring Boot应用来生成API文档，简化原生使用Swagger 2的整合代码。
+* [Spring Boot Starter Swagger](https://gitee.com/battcn/spring-boot-starter-swagger)：Spring Boot Starter Swagger是一款建立在Swagger基础之上的工具包，利用Spring Boot自动装配的特性，简化了传统Swagger的繁琐配置。
 * [JApiDocs](https://github.com/YeDaxia/JApiDocs)：JApiDocs是一个Spring Boot无注解API文档生成器。
 * [Spring REST Docs](https://github.com/spring-projects/spring-restdocs)：Spring REST Docs的目标是帮助你为RESTful服务生成准确且可读的文档。
 * [Spring Auto REST Docs](https://github.com/ScaCap/spring-auto-restdocs)：Spring REST Docs的扩展。
@@ -5030,6 +5034,7 @@
 * [HWPLib](https://github.com/neolord0/hwplib)：Java的HWP库。
 * [HWPXLib](https://github.com/neolord0/hwpxlib)：HWPXLib是一个可以读取和写入hwpx文件的Java库。
 * [MPXJ](https://github.com/joniles/mpxj)：该库使你能够从各种文件格式和数据库中读取项目计划(有时称为进度表或项目集)，还可以将该信息写入各种文件格式。
+* [EZ-vCard](https://github.com/mangstadt/ez-vcard)：EZ-vCard是一个用于Java的vCard解析器库。
 * [Org Java](https://github.com/orgzly/org-java)：Org模式文件Java解析器。
 * [JElf](https://github.com/fornwall/jelf)：用于解析ELF文件的Java库。
 * [jHDF](https://github.com/jamesmudd/jhdf)：该项目是用于访问HDF5文件的纯Java实现。
@@ -5786,6 +5791,7 @@
 * [Eventuate](https://github.com/RBMHTechnology/eventuate)：Eventuate是一个工具包，用于构建由事件驱动和事件源服务组成的应用程序，由红牛开源。
 * [Dewdrop](https://github.com/matsientst/dewdrop)：Dewdrop是一个固执己见、简单而强大的框架，用于在Java中实现事件源。
 * [ES4j](https://github.com/eventsourcing/es4j)：Java事件捕获和查询框架。
+* [Edomata](https://github.com/hnaderi/edomata)：Edomata是一个轻量级、多态、纯函数式的库，用于在Scala中实现事件驱动自动化。
 * [EventStore Java Client](https://github.com/msemys/esjc)：EventStore Java客户端。
 * [Assembler](https://github.com/pellse/assembler)：Assembler是一个响应式、函数式、类型安全和无状态的数据聚合框架，用于查询和合并来自多个数据源/服务的数据。
 * [Occurrent](https://github.com/johanhaleby/occurrent)：Occurrent是一个基于云事件规范的事件溯源库。
@@ -6047,6 +6053,7 @@
 * [Spring Boot Start Current](https://github.com/yujunhao8831/spring-boot-start-current)：Spring Boot脚手架。
 * [Vue.js Java Starter](https://github.com/kucharzyk/vuejs-java-starter)：Vue.js Spring Boot Starter项目。
 * [Boot React](https://github.com/geowarin/boot-react)：这个简单的项目利用Spring Dev Tools和React Transform实现热重载，可以提高你的工作效率。
+* [SpringUserFramework](https://github.com/devondragon/SpringUserFramework)：适用于Spring的简单用户管理框架/入门应用。
 
 #### 脚手架
 
@@ -6948,6 +6955,7 @@
 * [JChargePointProtocol](https://gitee.com/san-bing/JChargePointProtocol)：一个高性能、分布式、支持海量并发量的充电桩Java服务端。
 * [YunCharging](https://github.com/yuncitys/YunCharging)：YunCharge是一套用于二轮电单车和四轮充电桩充电领域的运营和计费系统，由深圳云创智城科技公司开发。
 * [100Charge](https://gitee.com/ustcyc/100charge)：100Charge是基于若依的开源充电运营平台。
+* [EIoT](https://gitee.com/hdzc/e-iot)：简单，高性能，基于Vert.x实现多种充电协议。
 
 #### 数据中台
 
@@ -9390,7 +9398,6 @@
 * [MDIUtilities](https://mdiutilities.sourceforge.io/)：MDIUtilities是一个提供各种实用程序类的Java库，主要用于Swing或JavaFX开发。
 * [Marathon](https://github.com/jalian-systems/marathonv5)：Marathon是一款用于录制、回放和重构使用Swing或FX组件开发的Java GUI程序测试用例的工具。
 * [Codion](https://github.com/codion-is/codion)：Codion是一个全栈Java富客户端桌面CRUD应用程序框架。
-* [Jameica](https://github.com/willuhn/jameica)：Jameica是一个用于开发富客户端桌面应用程序的Java框架和运行时平台。
 
 #### Swing主题库
 
@@ -9419,7 +9426,6 @@
 * [Lemur](https://github.com/jMonkeyEngine-Contributions/Lemur)：Lemur是用于在jMonkeyEngine应用程序中制作用户界面的GUI工具包。
 * [Griffon](https://github.com/griffon/griffon)：Griffon是JVM的桌面应用程序开发平台，受Grails的启发，Griffon利用了约定优于配置、模块化和选择自由等概念。
 * [JGoodies](https://www.jgoodies.com/downloads/libraries/)：JGoodies可帮助美化桌面应用程序并更快地构建设计良好、一致的视图。
-* [Eclipse Nebula](https://github.com/eclipse/nebula)：该项目包含大量UI元素，可在基于Java和SWT的胖或瘦客户端应用程序中使用。
 * [JIDE](https://github.com/jidesoft/jide-oss)：JIDE提供专业的Java UI组件，专注于为软件开发人员提供富客户端应用程序。
 * [Swing Modal Dialog](https://github.com/DJ-Raven/swing-modal-dialog)：使用FlatLaf定制的Java Swing UI库。
 * [Swing Material](https://github.com/leMaik/swing-material)：Swing的Material Design组件和实用程序的集合。
@@ -9500,6 +9506,7 @@
 * [XChart](https://github.com/knowm/XChart)：XChart是一个轻量且方便的数据绘制库，旨在在尽可能短的时间内从数据到图表，并消除自定义图表样式时的猜测工作。
 * [JFreeChart](https://github.com/jfree/jfreechart)：JFreeChart是一个适用于Java平台的综合免费图表库，可在客户端(JavaFX和Swing)或服务器端使用。
 * [Prefuse](https://github.com/prefuse/Prefuse)：Prefuse是一个基于Java的工具包，用于构建交互式信息可视化应用程序，由加州大学伯克利分校开源。
+* [LWJGL AWT](https://github.com/LWJGLX/lwjgl3-awt)：LWJGL3对AWT、Swing的支持。
 * [Lets Plot](https://github.com/JetBrains/lets-plot)：Lets Plot是一个基于图形语法原理构建的多平台绘图库，由JetBrains开源。
 * [Orson Charts](https://github.com/jfree/orson-charts)：Orson Charts是一个用于Java平台的3D图表库，可以生成各种3D图表，用于客户端应用程序(JavaFX和Swing)和服务器端应用程序(导出为PDF、SVG、PNG和JPEG)。
 * [Matplotlib4j](https://github.com/sh0nk/matplotlib4j)：Matplotlib4j是一个用于Java、Scala和Kotlin的简单绘图库。
@@ -9680,7 +9687,6 @@
 * [Countries](https://github.com/HanSolo/countries)：Countries是一个JavaFX库，其中包含有关国家/地区的信息，例如形状、GPS坐标、城市和机场。
 * [JFreePDF](https://github.com/jfree/jfreepdf)：JFreePDF是Java平台的一个库模块，允许你使用标准Java2D绘图API(Graphics2D)以Adobe的可移植文档格式(PDF)创建内容。
 * [Graph Editor](https://github.com/eckig/graph-editor)：用于在JavaFX中创建和编辑类似图形的图表的库。
-* [Eclipse SWTChart](https://github.com/eclipse/swtchart)：SWTChart允许创建不同类型的图表。
 * [SmartGraph](https://github.com/brunomnsilva/JavaFXSmartGraph)：该项目提供了一个通用JavaFX图形可视化库，可以通过力导向算法实时自动排列顶点的位置。
 * [JavaFX D3](https://github.com/stefaneidelloth/javafx-d3)：提供用于将JavaScript库d3.js与JavaFX应用程序使用的Java API。
 * [Orson Charts](https://github.com/jfree/orson-charts)：Orson Charts是一个用于Java平台的3D图表库，可以生成各种3D图表，用于客户端应用程序(JavaFX和Swing)和服务器端应用程序(导出为PDF、SVG、PNG和JPEG)。
@@ -9733,6 +9739,17 @@
 * [KickstartFX](https://github.com/xpipe-io/kickstartfx)：KickstartFX是适用于JavaFX应用程序的高级、即用型模板。
 * [Drombler FX](https://github.com/Drombler/drombler-fx)：JavaFX的模块化应用程序框架。
 * [JavaFX Boot](https://gitee.com/westinyang/javafx-boot)：JavaFX、Spring Boot快速开始脚手架。
+
+#### SWT
+
+* [JFace](https://wiki.eclipse.org/JFace)：JFace是一个UI工具包，其中包含用于处理许多常见UI编程任务的类。
+* [Eclipse Nebula](https://github.com/eclipse/nebula)：Nebula包含大量UI元素，可在基于Java和SWT的胖或瘦客户端应用程序中使用。
+* [Eclipse SWTChart](https://github.com/eclipse/swtchart)：SWTChart允许创建不同类型的图表。
+* [Jameica](https://github.com/willuhn/jameica)：Jameica是一个用于开发富客户端桌面应用程序的Java框架和运行时平台。
+* [DurianSwt](https://github.com/diffplug/durian-swt)：用于SWT的响应式实用程序和流式构建器。
+* [SWT Bling](https://github.com/ReadyTalk/swt-bling)：SWT Bling是适用于SWT的炫酷现代小部件。
+* [NatTable](https://github.com/eclipse-nattable/nattable)：NatTable是一个功能强大且灵活的SWT表格/网格小部件，旨在处理非常大的数据集、实时更新、动态样式等。
+* [SWT Evolve](https://github.com/equodev/swt-evolve)：SWT Evolve是一个跨平台的SWT标准库的即插即用型替代方案，它允许你立即将应用程序的用户界面升级到现代、流式且美观的标准，而无需重写UI代码。
 
 #### 键盘鼠标监听器
 
@@ -10876,6 +10893,7 @@
 * [CryptoFS](https://github.com/cryptomator/cryptofs)：CryptoFS是Cryptomator加密工具的底层Java文件系统库。
 * [MongoDB File Server](https://github.com/waylau/mongodb-file-server)：MongoDB File Server是一个基于MongoDB的文件服务器系统。
 * [ZeroFs](https://github.com/roastedroot/zerofs)：ZeroFs是原始Jimfs项目的移植版，零依赖。
+* [Facade FS](https://gitee.com/nomou/facade-fs)：Facade FS提供一个对常见文件系统(本地文件系统/FTP/SFTP/OSS)统一访问的API接口。
 
 ## S3
 
@@ -11339,7 +11357,7 @@
 * [Native Utils](https://github.com/adamheinrich/native-utils)：一个简单的工具库，用于加载存储在JAR存档中的动态库。
 * [Jextract](https://github.com/openjdk/jextract)：Jextract是一个从本机库头自动生成Java绑定的工具，Oracle开发。
 * [BridJ](https://github.com/nativelibs4java/BridJ)：BridJ是一个Java/原生互操作性库，专注于速度和易用性。
-* [HawtJNI](https://github.com/fusesource/hawtjni)：基于Eclipse SWT中使用的JNI生成器的JNI代码生成器。
+* [HawtJNI](https://github.com/fusesource/hawtjni)：HawtJNI是一个代码生成器，用于生成实现Java本地方法所需的JNI代码。
 * [FastFFI](https://github.com/alibaba/fastFFI)：适用于Java和C++的现代高效FFI，由阿里开源。
 * [Native Library Loader](https://github.com/scijava/native-lib-loader)：用于从Java中提取和加载本机库的本机库加载器。
 * [Jssembly](https://github.com/dvx/jssembly)：Jssembly是一个库，允许你通过JNI桥从Java执行本机汇编。
@@ -12379,6 +12397,7 @@
 ## 行为分析
 
 * [Dawn](https://github.com/eventtracing/dawn)：曙光埋点集自动化埋点与全链路追踪等特点于一身，近乎完美地解决了传统埋点的所有痛点，兼顾了开发效率与埋点数据的高精度特点，网易云开源。
+* [EventHub](https://github.com/Codecademy/EventHub)：EventHub使公司能够进行跨设备事件跟踪。
 * [SA Java SDK](https://github.com/sensorsdata/sa-sdk-java)：神策数据官方Java埋点SDK，是一款轻量级用于Java端的数据采集埋点SDK。
 * [小象用户行为分析平台](https://gitee.com/xiaoxiangopen/analysis)：商用产品开源，包括用户埋点数据采集、用户标签分群和画像、智慧运营、营销等。
 * [ClkLog](https://gitee.com/clklog/clklog)：ClkLog是一款记录用户行为分析和画像的免费可商用开源软件，技术人员可快速搭建私有的应用系统。

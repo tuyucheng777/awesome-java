@@ -751,6 +751,7 @@
   * [JavaFX动画库](docs/doc2.md#JavaFX动画库)
   * [JavaFX渲染库](docs/doc2.md#JavaFX渲染库)
   * [JavaFX项目模板](docs/doc2.md#JavaFX项目模板)
+  * [SWT](docs/doc2.md#SWT)
   * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
   * [浏览器](docs/doc2.md#浏览器)
   * [Processing](docs/doc2.md#Processing)
@@ -1706,6 +1707,7 @@
 * [Lightning Catalog](https://github.com/zetaris/lightning-catalog)：Lightning Catalog是Zetaris开源的数据目录，用于在临时分析、数据仓库、Lake House和ML项目中准备任意规模的数据。
 * [DDF](https://github.com/codice/ddf)：DDF是一个免费的开源通用数据层，它从底层数据结构中抽象出服务和业务逻辑，以便快速集成新的数据源，由Codice基金会开源。
 * [Floecat](https://github.com/eng-floe/floecat)：Floecat是一个面向现代数据湖目录的目录。
+* [Delta Sharing](https://github.com/delta-io/delta-sharing)：Delta Sharing是一种用于安全实时交换大型数据集的开放协议，它使组织能够实时共享数据，而无需考虑其使用的计算平台。
 
 #### 数据治理
 
@@ -2987,6 +2989,7 @@ Kafka生态管理系统、运维平台。
 * [Netty RESTful Server](https://github.com/zhoumengkang/netty-restful-server)：一个基于Netty构建的轻量高性能RESTful服务器。
 * [Soklet](https://github.com/soklet/soklet)：Soklet是一个零依赖的Java HTTP/1.1和SSE服务器。
 * [Java WebServer](https://github.com/dasanjos/java-WebServer)：这是一个基于W3C规范，用Java实现的简单多线程HTTP 1.1服务器，用于教学目的。
+* [Jerrymouse](https://github.com/michaelliao/jerrymouse)：Jerrymouse是一个轻量级的Servlet容器，它实现了Jakarta Servlet 6规范。
 
 #### 应用服务器
 
@@ -3519,7 +3522,7 @@ Kafka生态管理系统、运维平台。
 * [dOOv](https://github.com/doov-org/doov)：dOOv是一个用于类型安全域模型验证和映射的流式API。
 * [Datus](https://github.com/roookeee/datus)：Datus能够在流式的函数式API中定义两个数据结构之间的转换过程。
 * [Mappie](https://github.com/Mr-Mappie/mappie)：Mappie是一款Kotlin多平台编译器插件，它可以生成代码来简化对象映射代码的开发。
-* [Crane4j](https://github.com/opengoofy/crane4j)：一个简单易用的数据映射框架，通过简单的注解配置快速根据外键/编码值填充相关字段，支持字典、枚举、方法等多种数据源。
+* [Crane4j](https://github.com/opengoofy/crane4j)：Crane4j是一个简单易用的数据映射框架，通过简单的注解配置快速根据外键/编码值填充相关字段，支持字典、枚举、方法等多种数据源。
 * [Cloning](https://github.com/kostaskougios/cloning)：Cloning是一个小型开源Java库，可深度克隆对象。
 * [Konvert](https://github.com/mcarleio/konvert)：Konvert是一个使用KSP的映射代码生成器。
 * [BeanUtils](https://github.com/yangtu222/BeanUtils)：BeanUtils库是一个Java bean复制实用程序，具有强大的功能和高性能。
@@ -4317,6 +4320,7 @@ Kafka生态管理系统、运维平台。
 * [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：千搜科技第五代人脸识别引擎Java接口。
 * [SeetaFace6 Java SDK](https://github.com/tracy100/seetaface6SDK)：基于SeetaFace6的Java语言SDK封装，提供完整的人脸识别解决方案。
 * [Face++](https://github.com/FacePlusPlus/facepp-java-sdk)：适用于Java的Face++ SDK。
+* [FaceLog](https://gitee.com/l0km/facelog)：FaceLog是一个用于人脸识别验证的跨平台跨语言的开发框架。
 
 #### 语音识别
 
