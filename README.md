@@ -576,7 +576,6 @@
   * [PLM系统](docs/doc2.md#PLM系统)
   * [EMS系统](docs/doc2.md#EMS系统)
   * [云盘系统](docs/doc2.md#云盘系统)
-  * [充电桩系统](docs/doc2.md#充电桩系统)
   * [数据中台](docs/doc2.md#数据中台)
   * [知识管理系统](docs/doc2.md#知识管理系统)
   * [SCRM系统](docs/doc2.md#SCRM系统)
@@ -658,6 +657,7 @@
   * [物联网网关](docs/doc2.md#物联网网关)
   * [MQTT服务器](docs/doc2.md#MQTT服务器)
   * [MQTT客户端](docs/doc2.md#MQTT客户端)
+  * [充电桩](docs/doc2.md#充电桩)
   * [电力系统](docs/doc2.md#电力系统)
   * [环境监测](docs/doc2.md#环境监测)
   * [车联网](docs/doc2.md#车联网)
@@ -3995,7 +3995,7 @@ Kafka生态管理系统、运维平台。
 * [Gin](https://github.com/gintool/gin)：Gin是一种基因改良(GI)工具。
 * [JCLEC](https://sourceforge.net/projects/jclec)：JCLEC是一个用Java开发的通用进化计算框架，由科尔多瓦大学开源。
 * [EasyOpt](http://www.iescm.com/easyopt/)：EasyOpt这是一个轻量级的Java库，提供了遗传算法、粒子群优化等常用启发式优化算法的实现，适用于快速原型设计和教学。
-* [Chips-n-Salsa](https://github.com/cicirello/Chips-n-Salsa)：Chips-n-Salsa是一个可定制、可混合、迭代、并行、随机和自适应本地搜索算法的Java库。
+* [Chips N Salsa](https://github.com/cicirello/Chips-n-Salsa)：Chips N Salsa是一个可定制、可混合、迭代、并行、随机和自适应本地搜索算法的Java库。
 * [NSGA-II](https://github.com/onclave/NSGA-II)：NSGA-II的Java实现。
 
 #### 聚类算法
