@@ -398,6 +398,7 @@
 * [工作流](docs/doc2.md#工作流)
 * [编排引擎](docs/doc2.md#编排引擎)
 * [规则引擎](docs/doc2.md#规则引擎)
+* [决策引擎](docs/doc2.md#决策引擎)
 * [状态机](docs/doc2.md#状态机)
 * [状态容器](docs/doc2.md#状态容器)
 * [报表引擎](docs/doc2.md#报表引擎)
@@ -1074,6 +1075,8 @@
 * [Wisdom](https://github.com/wisdom-framework/wisdom)：Wisdom是一个模块化和动态的Web框架。
 * [Oxygen](https://gitee.com/justlive1/oxygen)：轻量级Java框架，支持JDK 21、模块化。
 * [Windward](https://github.com/Flmelody/windward)：Windward是一个轻量级的Java Web框架。
+* [Enkan](https://github.com/kawasima/enkan)：Enkan是一个受Ring启发的极简框架。
+* [Mangoo I/O](https://github.com/svenkubiak/mangooio)：Mangoo I/O是一个现代、直观、轻量级且高性能的全栈Java Web框架，专为重视速度和简洁性的开发人员而设计。
 
 #### REST框架
 
@@ -1563,6 +1566,7 @@
 * [Distributed Limit](https://github.com/forezp/distributed-limit)：分布式限流解决方案。
 * [Bus Limiter](https://github.com/818000/bus/tree/main/bus-limiter)：Bus Limiter是一款轻量级、局部化的热点检测和性能下降框架，专为高流量场景而设计。
 * [QPS Helper](https://github.com/wujiuye/qps-helper)：通用的QPS、TPS统计工具包。
+* [Guardian](https://github.com/BigGG-Guardian/guardian)：轻量级Spring Boot API请求层防护框架。
 
 #### 重试
 
@@ -1843,6 +1847,7 @@
 * [Kstreamplify](https://github.com/michelin/kstreamplify)：Kstreamplify是一个Java库，使你能够快速创建基于Kafka Stream的应用程序，并提供许多附加高级功能，由米其林开源。
 * [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Kafka之上的流式任务处理框架，由Line开源。
 * [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
+* [TypeStream](https://github.com/typestreamio/typestream)：TypeStream连接到你的Postgres或MySQL，并将每次插入、更新和删除操作都变成实时管道-同步数据、用AI丰富数据并立即显示数据。
 
 #### ETL工具
 
@@ -2681,7 +2686,7 @@ Kafka生态管理系统、运维平台。
 * [VanillaDB](https://github.com/vanilladb/vanillacore)：VanillaCore是一个单节点、多线程关系数据库引擎，部分支持SQL-92标准，并通过JDBC、嵌入或(基于Java的)存储过程提供连接。
 * [SkinnerDB](https://github.com/cornelldbgroup/skinnerdb)：SkinnerDB是一个用于数据分析的关系型数据库管理系统，由康奈尔数据库小组开发。
 * [CreatorDB](https://github.com/CreatorsStack/CreatorDB)：CreatorDB是一个DBMS数据库管理系统，包含存储、算子、优化、事务、索引等。
-* [Interference](https://github.com/interference-project/interference)： Interference是一个简单的Java框架，它允许你在Java应用程序中启动分布式数据库和复杂的事件处理服务，并使用类似JPA的接口和注解进行结构映射和数据操作。
+* [Interference](https://github.com/interference-project/interference)：Interference是一个简单的Java框架，它允许你在Java应用程序中启动分布式数据库和复杂的事件处理服务，并使用类似JPA的接口和注解进行结构映射和数据操作。
 
 #### NoSQL数据库
 
@@ -2732,6 +2737,7 @@ Kafka生态管理系统、运维平台。
 * [Cottontail](https://github.com/vitrivr/cottontaildb)：CottontailDB是一个旨在多媒体检索的列存储，它允许经典的布尔和向量空间检索，即相似性搜索中使用的最近邻查找，由巴塞尔大学开源。
 * [VectoRex](https://gitee.com/giteeClass/VectoRex)：VectoRex是一个纯Java实现的高性能、可扩展的向量搜索引擎，专为现代AI和大数据应用设计。
 * [Research4j](https://github.com/bhavuklabs/research4j)：Research4j是一个功能全面的Java库，它通过智能查询分析、动态引文获取、自适应推理策略以及无缝LLM集成来实现研究工作流程的自动化。
+* [Proximum](https://github.com/replikativ/proximum)：Proximum是一个高性能、可嵌入的向量数据库，适用于Clojure和Java，具有类似Git的版本控制和零成本分支功能。
 
 #### 对象数据库
 
@@ -2930,6 +2936,7 @@ Kafka生态管理系统、运维平台。
 * [Kalle](https://github.com/yanzhenjie/Kalle)：Kalle是一个Android平台的HttpClient，它遵循HTTP标准协议，支持同步请求和异步请求。
 * [Unfiltered](https://github.com/unfiltered/unfiltered)：Unfiltered是一个用于在Scala中处理HTTP请求的工具包。
 * [HttpHelper](https://gitee.com/wolfsmoke/WSHttpHelper)：HttpHelper是一个轻量级Http请求框架，致力于为Http请求提供简洁明了的接口。
+* [Mechanize](https://github.com/GistLabs/mechanize)：Mechanize是一个有状态的HTTP Web服务客户端，支持HTML、JSON和XML服务。
 
 #### HTTP路由
 
@@ -3105,6 +3112,7 @@ Kafka生态管理系统、运维平台。
 * [Java WebSocket](https://github.com/TooTallNate/Java-WebSocket)：该项目包含用纯Java编写的准系统WebSocket客户端和服务器实现。
 * [Scarlet](https://github.com/Tinder/Scarlet)：Scarlet是受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端，由Tinder开源。
 * [SignalR](https://github.com/aspnet/SignalR)：SignalR是一个开源库，可简化向应用程序添加实时功能，由Microsoft开发。
+* [SignalRKore](https://github.com/lepicekmichal/SignalRKore)：SignalRKore是一个用于ASP.NET Core SignalR的Kotlin多平台客户端库。
 * [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient是适用于Java的异步HTTP和WebSocket客户端库。
 * [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
@@ -3214,6 +3222,7 @@ Kafka生态管理系统、运维平台。
 * [WebQQ](https://github.com/iqq-team/webqq-core)：一个基于WebQQ协议开发的库，你可以基于这个库让你的程序集成QQ相关的功能。
 * [ChatBox](https://github.com/felizdevida/chat-box)：ChatBox是一个仿微信实现的网页版聊天软件。
 * [SmartIM](https://github.com/Jamling/SmartIM)：SmartIM插件的底层库，已实现SmartQQ、微信桌面版协议。
+* [Lithium](https://github.com/wireapp/lithium)：Lithium是用Java编写的Wire Services SDK。
 
 #### Pcap
 
@@ -3694,6 +3703,7 @@ Kafka生态管理系统、运维平台。
 * [Ollama4j](https://github.com/ollama4j/ollama4j)：用于与Ollama服务器交互的Java库。
 * [OpenAi4J](https://github.com/Lambdua/openai4j)：OpenAi4J是一个非官方Java库，旨在促进与OpenAI的GPT模型的交互，包括GPT4-Turbo Vision、Assistant v2等最新功能。
 * [Simple OpenAI](https://github.com/sashirestela/simple-openai)：Simple OpenAI是一个Java HTTP客户端库，用于向OpenAI API发送请求并接收响应。
+* [JVM OpenAI](https://github.com/StefanBratanov/jvm-openai)：一个针对JVM的简约非官方OpenAI API客户端，使用Java编写。
 * [OGTwelveUtilPack](https://github.com/OGtwelve/OGTwelveUtilPack)：OGtwelve工具包，包含许多在现实开发环境中可能使用的各种工具。
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
@@ -3842,6 +3852,7 @@ Kafka生态管理系统、运维平台。
 * [Conjecture](https://github.com/etsy/Conjecture)：Conjecture是一个使用Scalding DSL在Hadoop中构建机器学习模型的框架，由Etsy开源。
 * [Metarank](https://github.com/metarank/metarank)：Metarank是一项开源排名服务，它可以帮助你构建个性化的语义/神经搜索和推荐。
 * [MOA](https://github.com/Waikato/moa)：MOA是一个用于大数据流挖掘的开源框架，它包括一系列机器学习算法和评估工具，由怀卡托大学开发。
+* [AIKA](https://github.com/aika-algorithm/aika-java)：AIKA是一个实验性的人工智能框架，它弥合了现代基于Transformer的深度学习、受生物启发的脉冲神经网络和混合神经符号方法之间的差距。
 * [JGAAP](https://github.com/evllabs/JGAAP)：JGAAP是一种允许非专家使用尖端机器学习技术解决文本归因问题的工具，由杜肯大学开源。
 * [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是一个纯Java机器学习框架，用于支持遗传编程、NEAT/HyperNEAT和其他神经网络技术。
 * [Astminer](https://github.com/JetBrains-Research/astminer)：用于挖掘基于路径的代码表示的库，由JetBrains开源。
@@ -4068,6 +4079,8 @@ Kafka生态管理系统、运维平台。
 * [AIDR](https://github.com/qcri-social/AIDR)：AIDR是一个免费开源平台，用于过滤和分类与自然灾害和人道主义危机相关的社交媒体信息，由卡塔尔计算研究所开源。
 * [BookNLP](https://github.com/dbamman/book-nlp)：BookNLP是一个自然语言处理流程，可扩展到书籍和其他长篇文档。
 * [KoreanTextMatcher](https://github.com/bangjunyoung/KoreanTextMatcher)：KoreanTextMatcher是一个Java库，提供韩语音节近似匹配和声母搜索功能。
+* [CRF](https://github.com/asher-stern/CRF)：条件随机场(CRF)和词性标注器的实现。
+* [Dicio Numbers](https://github.com/Stypox/dicio-numbers)：这个多语言库实现了从文本中提取数字、日期或持续时间，以及将这些数字、日期或持续时间格式化为人类可读文本的方法。
 
 #### 分词器
 
@@ -4170,6 +4183,7 @@ Kafka生态管理系统、运维平台。
 * [Serenade](https://github.com/serenadeai/serenade)：该仓库包含Serenade客户端应用程序、在线服务(如语音引擎、代码引擎和核心应用程序)和模型训练的代码。
 * [Multi Model Server](https://github.com/awslabs/multi-model-server)：MMS是一种灵活且易于使用的工具，用于为使用任何ML/DL框架训练的深度学习模型提供服务，由AWS开源。
 * [Easy BERT](https://github.com/robrua/easy-bert)：Easy BERT是一个非常简单的API，用于使用Google高质量的BERT语言模型。
+* [Openscoring](https://github.com/openscoring/openscoring)：用于对PMML模型进行评分的REST Web服务。
 
 #### 因果推理
 
