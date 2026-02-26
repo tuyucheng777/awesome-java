@@ -171,6 +171,7 @@
     * [语义解析](#语义解析)
     * [实体链接](#实体链接)
     * [敏感词过滤](#敏感词过滤)
+    * [语言检测](#语言检测)
   * [模型训练](#模型训练)
   * [因果推理](#因果推理)
   * [专家系统](#专家系统)
@@ -922,7 +923,6 @@
 * [短链接](docs/doc2.md#短链接)
 * [单位库](docs/doc2.md#单位库)
 * [调用图](docs/doc2.md#调用图)
-* [语言检测](docs/doc2.md#语言检测)
 * [解析库](docs/doc2.md#解析库)
   * [词法解析](docs/doc2.md#词法解析)
   * [表达式引擎](docs/doc2.md#表达式引擎)
@@ -1292,6 +1292,7 @@
 * [Redkale](https://gitee.com/redkale/redkale)：Redkale是基于Java 11全新的微服务框架，包含HTTP、WebSocket、TCP/UDP、数据序列化、数据缓存、依赖注入等功能。
 * [SeedStack](https://github.com/seedstack/seed)：SeedStack是一个固执己见、易于使用的Java开发堆栈。
 * [Moleculer Java](https://github.com/moleculer-java/moleculer-java)：Moleculer Java是JVM的Moleculer微服务框架的实现。
+* [Xian](https://github.com/xiancloud/xian)：Xian是一个Reactive风格的微服务框架。
 
 ### Spring Cloud框架
 
@@ -1542,6 +1543,7 @@
 * [Duct Tape](https://github.com/rnorth/duct-tape)：Duct Tape是一个小型的Java 8库，提供对调用外部API的代码容错支持， 不可靠的组件，包括可能故障、超时或结果不一致的组件。
 * [Kanaloa](https://github.com/iheartradio/kanaloa)：Kanaloa是一个库，通过提供背压、断路器、负载均衡等功能来提高反向代理服务的弹性。
 * [Failover](https://github.com/societe-generale/failover)：Failover是用于管理外部引用服务故障转移的通用库，由法国兴业银行开源。
+* [FuseBox](https://github.com/potetm/fusebox)：FuseBox是一个极其轻量级的Clojure和Babashka容错库。
 * [Vert.x Circuit Breaker](https://github.com/vert-x3/vertx-circuit-breaker)：Vert.x Circuit Breaker是Vert.x中断路器模式的一种实现。
 
 #### 限流
@@ -1772,6 +1774,7 @@
 * [VerdictDB](https://github.com/verdict-project/verdict)：VerdictDB是一个查询加速器，位于你的应用程序下与SQL引擎之间，由密歇根大学开源。
 * [Substrait Java](https://github.com/substrait-io/substrait-java)：Substrait是一种描述结构化数据计算操作的格式，旨在实现不同语言和系统间的互操作性。
 * [CQL](https://github.com/CategoricalData/CQL)：CQL利用范论执行与数据相关的任务-如查询、组合、迁移和演化数据库。
+* [Wvlet](https://github.com/wvlet/wvlet)：Wvlet是一种新型的跨SQL流式查询语言，用于函数式数据建模和交互式数据探索。
 
 #### 存储格式
 
@@ -2313,6 +2316,7 @@ Kafka生态管理系统、运维平台。
 * [Kafka Offset Monitor](https://github.com/Morningstar/kafka-offset-monitor)：这是一个用于监控Kafka消费者及其在日志中的位置(偏移量)的应用程序。
 * [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
 * [Lenses](https://lenses.io/)：Lenses是开发人员体验工具，可帮助企业在一个地方使用每个Apache Kafka。
+* [Remora](https://github.com/zalando-incubator/remora)：Remora是Apache Kafka的一个监控工具，提供消费者延迟检测服务，由Zalando开源。
 
 #### Kafka复制和备份
 
@@ -2389,6 +2393,7 @@ Kafka生态管理系统、运维平台。
 * [UidGenerator](https://github.com/baidu/uid-generator)：UidGenerator是一个Java实现的、基于Snowflake的唯一ID生成器，由百度开源。
 * [CosId](https://gitee.com/AhooWang/CosId)：CosId旨在提供通用、灵活、高性能的分布式ID生成器。
 * [Cantor](https://github.com/ManbangGroup/cantor)：Cantor是一个全局序列生成器服务，具有分布式、无状态、高可用性，由满帮集团开源。
+* [NanoId](https://github.com/zelark/nano-id)：NanoId是一个适用于Clojure和ClojureScript的小型、安全、URL友好型唯一字符串ID生成器。
 * [Java Snowflake](https://github.com/callicoder/java-snowflake)：基于雪花算法的分布式ID生成器。
 * [SnowFlake](https://github.com/beyondfengyu/SnowFlake)：Twitter的雪花算法SnowFlake，使用Java语言实现。
 * [Snowflake](https://github.com/downgoon/snowflake)：Twitter Snowflake的Java版本，一种用于大规模生成唯一ID号的Web服务，并具有一些简单的保证。
@@ -3223,6 +3228,7 @@ Kafka生态管理系统、运维平台。
 * [ChatBox](https://github.com/felizdevida/chat-box)：ChatBox是一个仿微信实现的网页版聊天软件。
 * [SmartIM](https://github.com/Jamling/SmartIM)：SmartIM插件的底层库，已实现SmartQQ、微信桌面版协议。
 * [Lithium](https://github.com/wireapp/lithium)：Lithium是用Java编写的Wire Services SDK。
+* [JXMPP](https://github.com/igniterealtime/jxmpp)：JXMPP是一个基于Java的开源XMPP库。
 
 #### Pcap
 
@@ -3302,6 +3308,7 @@ Kafka生态管理系统、运维平台。
 * [Java NIO TCP Proxy](https://github.com/terma/java-nio-tcp-proxy)：基于NIO的Java TCP代理。
 * [Quarantyne](https://github.com/quarantyne/quarantyne)：Quarantyne是一个用Java编写的反向代理。
 * [EasyHttpProxy](https://github.com/puhaiyang/easyHttpProxy)：支持HTTP/HTTPS代理，类似于Fiddler。
+* [NettyGateway](https://github.com/tang-jie/NettyGateway)：NettyGateway是一个具有灵活路由规则的HTTP代理服务器。
 
 #### 内网穿透
 
@@ -3560,6 +3567,7 @@ Kafka生态管理系统、运维平台。
 * [DI.kt](https://github.com/sergeshustoff/dikt)：Kotlin多平台的简单且强大的DI。
 * [Koject](https://github.com/mori-atsushi/koject)：Koject是一个基于KSP的Kolin多平台依赖注入容器库。
 * [TODAY](https://github.com/TAKETODAY/today-infrastructure)：一个用于应用软件基础设施的Java库。
+* [Spork](https://github.com/ByteWelder/Spork)：Spork是一个快速的运行时注解处理库。
 * [Petite](https://petite.jodd.org/)：Petite是一款非常出色的小型IoC容器和组件管理器。
 * [PureJIn](https://github.com/jbee/purejin)：PureJIn是一个Java依赖注入库，它仅使用原生Java代码，通过流式的绑定API定义容器上下文。
 
@@ -3573,6 +3581,7 @@ Kafka生态管理系统、运维平台。
 * [Lancet](https://github.com/eleme/lancet)：Lancet是一个轻量级的Android AOP框架，由饿了么开源。
 * [Jcabi Aspects](https://github.com/jcabi/jcabi-aspects)：Jcabi Aspects是有用的AspectJ切面和注解的集合。
 * [AspectJX](https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx)：AspectJX是基于AspectJ的AOP框架，同时支持Kotlin应用，由沪江科技开源。
+* [CrepeCake](https://github.com/linisme/CrepeCake)：CrepeCake是一个类似AspectJ的编译时AOP引擎。
 * [Proxy](https://github.com/Ericsson/proxy)：Proxy是一个小而强大的拦截库，可以让你在运行时操作现有的对象和类行为，由爱立信开源。
 * [CaesarJ](https://caesarj.org/)：CaesarJ是一种基于Java的新编程语言，它有助于实现更好的模块化和可重用组件的开发，由达姆城工业大学开源。
 * [Matrix](https://github.com/Nepxion/Matrix)：Matrix是一款集成Spring AutoProxy，Spring Registrar和Spring Import Selector三种机制的AOP框架。
@@ -3625,6 +3634,7 @@ Kafka生态管理系统、运维平台。
 * [HuanCun](https://github.com/OpenXiangShan/HuanCun)：开源高性能无阻塞缓存，中科院开发。
 * [Carbonite](https://github.com/eveliotc/carbonite)：一个简单、基于内存且持久化的Android对象缓存。
 * [CacheManage](https://github.com/ronghao/CacheManage)：Android缓存管理器，分为内存缓存和文件缓存两种。
+* [LruCache](https://github.com/hotchemi/LruCache)：LruCache是一个微型、线程安全的内存缓存实现，使用LRU策略。
 
 #### 分布式缓存
 
@@ -3640,6 +3650,7 @@ Kafka生态管理系统、运维平台。
 * [HotArmor](https://github.com/bafuka/HotArmor)：HotArmor是一款为高并发场景设计的热点数据保护中间件。
 * [Memcarrot](https://github.com/carrotdata/memcarrot)：Memcarrot是一款与Memcached协议完全兼容的缓存服务器。
 * [RainbowCache](https://github.com/gshjd/RainbowCache)：RainbowCache是一套缓存注解，内置利用Redis完成的并发锁。
+* [Simple Spring Memcached](https://github.com/ragnor/simple-spring-memcached)：Simple Spring Memcached是一个即插即用的库，可通过注解在Spring Bean中启用Memcached缓存。
 
 #### 缓存管理器
 
@@ -3732,6 +3743,7 @@ Kafka生态管理系统、运维平台。
 * [Triton](https://github.com/triton-inference-server/client)：Triton Python、C++和Java客户端库。
 * [SD4J](https://github.com/oracle/sd4j)：此仓库包含在ONNX运行时之上运行的Stable Diffusion推理的实现，由Oracle开源。
 * [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
+* [Inference4j](https://github.com/inference4j/inference4j)：Inference4j是一个基于ONNX Runtime构建的Java推理专用AI库。
 
 #### MCP
 
@@ -3781,6 +3793,8 @@ Kafka生态管理系统、运维平台。
 * [Jai Workflow](https://github.com/czelabueno/jai-workflow)：Jai Workflow是一个开源的Java库，用于构建、打包、集成、编排和监控面向Java开发人员的智能体AI系统。
 * [Bella Workflow](https://github.com/LianjiaTech/bella-workflow)：Bella Workflow是贝壳找房内部核心的LLM应用开发平台，致力于为开发者提供更灵活、高效、强大的AI应用构建能力。
 * [Ampere](https://github.com/socket-link/ampere)：Ampere是一个Kotlin多平台框架，其中每个代理决策都会发出一个结构化的、可查询的事件。
+* [PaiAgent](https://github.com/itwanger/PaiAgent)：PaiAgent是一个企业级的AI工作流可视化编排平台，让AI能力的组合和调度变得简单高效。
+* [Lynx AI](https://gitee.com/lynx-ai/lynx-ai)：Lynx AI是一个功能强大的企业级AI智能体管理平台，提供从智能体创建、知识库管理、工作流编排到自然语言数据分析的完整AI解决方案。
 
 #### NL2SQL
 
@@ -4159,6 +4173,13 @@ Kafka生态管理系统、运维平台。
 * [Filter4J](https://github.com/LL4J/Filter4J)：Filter4J是一个极小化、基于深度学习的文本内容违规检测库。
 * [WordFilter](https://gitee.com/humingzhang/wordfilter)：DFA算法实现的敏感词过滤工具。
 
+#### 语言检测
+
+* [Language Detection](https://github.com/shuyo/language-detection)：这是一个用纯Java实现的语言检测库。
+* [Language Detector](https://github.com/optimaize/language-detector)：Java语言检测库。
+* [JLangDetect](https://github.com/melix/jlangdetect)：JLangDetect是JVM的语言检测库。
+* [Language Detection CLD2](https://github.com/commoncrawl/language-detection-cld2)：自然语言检测，CLD2的Java绑定。
+
 #### 模型训练
 
 * [ONNX Runtime](https://github.com/microsoft/onnxruntime/tree/main/java)：ONNX Runtime是一个跨平台推理和训练机器学习加速器，由Microsoft开源。
@@ -4385,6 +4406,7 @@ Kafka生态管理系统、运维平台。
 * [Tahopen](https://github.com/tahopen/tahopen-platform)：Tahopen是一个强大的开源商业分析平台，由Pentaho分支而来。
 * [StyleBI](https://github.com/inetsoft-technology/stylebi)：StyleBI是一款云原生、资源占用极低的商业智能Web应用，由数据转换管道和可视化微服务驱动。
 * [Visualis](https://gitee.com/WeBank/Visualis)：Visualis是一个基于宜信的开源项目Davinci开发的数据可视化BI工具，由微众银行开发。
+* [DashBuilder](https://github.com/dashbuilder/dashbuilder)：DashBuilder是一款功能齐全的Web应用程序，允许非技术用户和程序员创建业务仪表板，由RedHat开源。
 
 #### 电子表格
 
