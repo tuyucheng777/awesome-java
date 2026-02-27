@@ -86,7 +86,6 @@
   * [图数据库](#图数据库)
   * [RDF数据库](#RDF数据库)
   * [键值存储](#键值存储)
-  * [数据网格](#数据网格)
   * [时序数据库](#时序数据库)
   * [嵌入式数据库](#嵌入式数据库)
   * [关系型数据库](#关系型数据库)
@@ -144,6 +143,7 @@
 * [缓存库](#缓存库)
   * [本地缓存](#本地缓存)
   * [分布式缓存](#分布式缓存)
+  * [数据网格](#数据网格)
   * [缓存管理器](#缓存管理器)
 * [人工智能](#人工智能)
   * [LLM框架](#LLM框架)
@@ -152,6 +152,7 @@
   * [MCP](#MCP)
   * [代理框架](#代理框架)
   * [AI智能体](#AI智能体)
+  * [终端助手](#终端助手)
   * [NL2SQL](#NL2SQL)
   * [LLMOps](#LLMOps)
   * [AI Assistant](#AI-Assistant)
@@ -167,6 +168,8 @@
     * [贝叶斯推理](#贝叶斯推理)
   * [自然语言处理](#自然语言处理)
     * [分词器](#分词器)
+    * [语言库](#语言库)
+    * [词嵌入](#词嵌入)
     * [信息提取](#信息提取)
     * [语义解析](#语义解析)
     * [实体链接](#实体链接)
@@ -914,7 +917,6 @@
 * [Unicode](docs/doc2.md#Unicode)
 * [表情库](docs/doc2.md#表情库)
 * [字体库](docs/doc2.md#字体库)
-* [语言库](docs/doc2.md#语言库)
 * [国际化](docs/doc2.md#国际化)
 * [翻译库](docs/doc2.md#翻译库)
 * [字幕库](docs/doc2.md#字幕库)
@@ -1027,6 +1029,7 @@
 * [Skinny](https://github.com/skinny-framework/skinny-framework)：Skinny是一个用于构建Servlet应用程序的全栈Web应用程序框架。
 * [Xitrum](https://github.com/xitrum-framework/xitrum)：Xitrum是一个基于Netty、Akka和Hazelcast的异步集群Scala Web框架。
 * [Firefly](https://github.com/hypercube1024/firefly)：Firefly是一个异步Web框架，用于快速开发高性能Web应用程序。
+* [Airframe](https://github.com/wvlet/airframe)：Airframe是Scala应用程序开发的基本构建块，包括日志记录、使用JSON或MessagePack进行对象序列化、依赖注入、支持RPC的HTTP服务器/客户端、使用AirSpec进行功能测试等。
 * [Deft](https://github.com/rschildmeijer/deft)：Deft是一个在JVM上运行的单线程、异步、事件驱动的高性能Web服务器。
 * [Alpas](https://github.com/alpas/alpas)：Alpas是一个基于Kotlin的Web框架，可让你简单、快速地创建Web应用程序和API。
 * [Asta4D](https://github.com/astamuse/asta4d)：Asta4D是一个对设计人员友好、对开发人员灵活的Web应用程序框架。
@@ -1077,6 +1080,9 @@
 * [Windward](https://github.com/Flmelody/windward)：Windward是一个轻量级的Java Web框架。
 * [Enkan](https://github.com/kawasima/enkan)：Enkan是一个受Ring启发的极简框架。
 * [Mangoo I/O](https://github.com/svenkubiak/mangooio)：Mangoo I/O是一个现代、直观、轻量级且高性能的全栈Java Web框架，专为重视速度和简洁性的开发人员而设计。
+* [Simple](https://github.com/ngallagher/simpleframework)：Simple的目标是为服务器端Java带来简洁性、可扩展性和高性能。
+* [Turismo](https://github.com/ghosthack/turismo)：Turismo是一个轻量级的Sinatra/Express风格的Java Web框架。
+* [RoubSite](https://github.com/lonesafe/roubsite)：RoubSite是一个简单、轻量、易上手的Java Web开发框架。
 
 #### REST框架
 
@@ -1322,6 +1328,7 @@
 * [Zephyr](https://github.com/sunshower-io/zephyr)：Zephyr是一个基于Java的开源插件框架，具有智能依赖管理、模块化设计和小巧的占用空间。
 * [KWai Business Extension Framework](https://github.com/kwai/kwai-business-extension-framwork)：KWai Business Extension Framework提供一套通用业务扩展框架，通过引入业务身份识别和可扩展的隔离架构，帮助业务搭建定制业务流程的架构标准、研发工具和运维体系，由快手开发。
 * [LingFrame](https://github.com/LingFrame/LingFrame)：LingFrame是一个基于JVM的新一代微内核插件化框架。
+* [Sps4j](https://github.com/qchole/sps4j)：Sps4j是一个轻量级且易于使用的Java插件框架。
 
 ## 微服务治理
 
@@ -1518,6 +1525,7 @@
 * [Artemis](https://github.com/ctripcorp/artemis)：Artemis是携程框架部门SOA服务注册表，包含服务自注册自发现、实例变更实时推送、服务分组路由功能。
 * [Ranger](https://github.com/flipkart-incubator/ranger)：Ranger是一个基于Zookeeper构建的高级服务发现框架，由Flipkart开源。
 * [Vert.x Service Discovery](https://github.com/vert-x3/vertx-service-discovery)：Vert.x Service Discovery提供发现基础设施来注册和发现微服务应用程序公开的服务。
+* [Captain](https://github.com/pyloque/captain)：Captain是另一个基于Redis的服务发现实现。
 
 ## 容错组件
 
@@ -1540,6 +1548,7 @@
 * [Sarge](https://github.com/jhalterman/sarge)：Sarge创建受监督的对象，这些对象通过执行重试、状态重置和故障升级来自动处理发生故障时的情况，从而轻松实现简单而强大的容错能力。
 * [JRugged](https://github.com/Comcast/jrugged)：JRugged库实现了一些在Java中构建健壮、可用于生产环境的服务器代码所需的常用模式，由Comcast开源。
 * [FastBreak](https://github.com/Nike-Inc/fastbreak)：FastBreak是一个简单的Java 8原生断路器，支持异步Future、阻塞和回调/手动模式，由Nike开源。
+* [Resilient](https://github.com/santimattius/kmp-resilient)：Resilient是一个Kotlin多平台库，为挂起函数提供弹性模式(超时、重试、熔断器、速率限制器、隔离层、对冲、缓存、回退)。
 * [Duct Tape](https://github.com/rnorth/duct-tape)：Duct Tape是一个小型的Java 8库，提供对调用外部API的代码容错支持， 不可靠的组件，包括可能故障、超时或结果不一致的组件。
 * [Kanaloa](https://github.com/iheartradio/kanaloa)：Kanaloa是一个库，通过提供背压、断路器、负载均衡等功能来提高反向代理服务的弹性。
 * [Failover](https://github.com/societe-generale/failover)：Failover是用于管理外部引用服务故障转移的通用库，由法国兴业银行开源。
@@ -1781,6 +1790,7 @@
 * [Apache CarbonData](https://github.com/apache/carbondata)：CarbonData是一种索引列式数据存储解决方案，用于在大数据平台上进行快速分析，例如Hadoop、Spark等，由华为开源。
 * [Apache ORC](https://github.com/apache/orc)：ORC是一种自描述、类型感知的列式文件格式，专为Hadoop工作负载而设计，由Hortonworks和Facebook联合开发。
 * [Arrow Java](https://github.com/apache/arrow-java)：Arrow是一种通用的列式格式和多语言工具箱，用于快速数据交换和内存分析。
+* [JavaCPP Arrow](https://github.com/bytedeco/javacpp-presets/tree/master/arrow)：Apache Arrow定义了一种与语言无关的列式内存格式，用于存储扁平数据和嵌套数据。
 * [Apache Parquet](https://github.com/apache/parquet-java)：Parquet是Hadoop生态系统中的任何项目都可以使用的列式存储格式，由Twitter和Cloudera共同开源。
 * [Yosegi](https://github.com/yahoojapan/yosegi)：Yosegi是一种无模式的列式存储格式，提供像JSON一样灵活的表示和类似其他列式存储格式的高效读取，由Yahoo开源。
 * [GraphAr](https://github.com/apache/incubator-graphar)：GraphAr是一个用于图数据存储和检索的开源标准数据文件格式，由阿里开源。
@@ -1851,6 +1861,7 @@
 * [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Kafka之上的流式任务处理框架，由Line开源。
 * [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
 * [TypeStream](https://github.com/typestreamio/typestream)：TypeStream连接到你的Postgres或MySQL，并将每次插入、更新和删除操作都变成实时管道-同步数据、用AI丰富数据并立即显示数据。
+* [DataSQRL](https://github.com/DataSQRL/sqrl)：DataSQRL是一个数据自动化框架，它使用开源技术在SQL中构建可靠的数据管道、数据API和数据产品。
 
 #### ETL工具
 
@@ -2024,6 +2035,7 @@
 * [Imhotep](https://github.com/indeedeng/imhotep)：Imhotep是Indeed打造的大型分析平台。
 * [Mondrian](https://github.com/pentaho/mondrian)：Mondrian是一款OLAP服务器，使业务用户能够实时分析大量数据。
 * [Pivot4J](https://github.com/mysticfall/pivot4j)：Pivot4J提供了一个用于OLAP服务器的通用API，可用于构建带有透视表风格GUI的分析服务前端。
+* [Druidry](https://github.com/zapr-oss/druidry)：Druidry是一个基于Java的开源实用程序库，它支持自动创建对Druid的查询。
 
 #### CEP引擎
 
@@ -2091,6 +2103,7 @@
 * [GrammarViz](https://github.com/GrammarViz2/grammarviz2_src)：GrammarViz是一款具有GUI和CLI界面的时序探索性分析软件。
 * [Timeseries Forecast](https://github.com/Workday/timeseries-forecast)：这是一个Java开源库，提供时序预测功能。
 * [STL4j](https://github.com/ServiceNow/stl-decomp-4j)：Seasonal Trend Loess时序分解算法的Java实现。
+* [Java Time Series](https://github.com/signaflo/java-timeseries)：Java中的时序分析。
 
 ## 进程间通信
 
@@ -2256,6 +2269,7 @@
 * [NATS Java](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
 * [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。
 * [Amazon SQS Java Messaging Library](https://github.com/awslabs/amazon-sqs-java-messaging-lib)：Amazon SQS Java Messaging Library包含与JMS兼容的类，用于与Amazon SQS进行通信。
+* [IBM MQ JMS Spring Components](https://github.com/ibm-messaging/mq-jms-spring)：用于辅助MQ JMS与Spring框架集成的组件。
 * [Java Pub/Sub](https://github.com/googleapis/java-pubsub)：Google Cloud Pub/Sub的Java惯用客户端。
 * [Google Pub/Sub](https://github.com/GoogleCloudPlatform/pubsub)：Google Cloud Pub/Sub开源项目。
 * [PSC](https://github.com/pinterest/psc)：PSC是一个通用且可扩展的客户端库，允许应用程序通过统一的接口与不同的后端PubSub系统进行交互，由Pinterest开发。
@@ -2545,6 +2559,7 @@ Kafka生态管理系统、运维平台。
 * [StarGraph](https://github.com/Lambda-3/Stargraph)：StarGraph是一个用于查询大型知识图的图数据库，由帕绍大学开源。
 * [Apache S2Graph](https://github.com/apache/incubator-s2graph)：S2Graph是一个基于HBase构建的分布式、可扩展的OLTP图数据库，支持超大图的快速遍历。
 * [Fluree](https://github.com/fluree/db)：Fluree是一个不可变、时态、账本支持的语义图数据库，具有云原生架构。
+* [Unipop](https://github.com/unipop-graph/unipop)：Unipop是一个数据联合和虚拟化引擎，它将你的数据建模为虚拟图，并使用Gremlin GQL公开查询API。
 * [Segrada](https://github.com/mkalus/segrada)：Segrada是一个用于研究和文献的语义图数据库。
 
 #### RDF数据库
@@ -2611,17 +2626,7 @@ Kafka生态管理系统、运维平台。
 * [Kissme](https://github.com/netguru/Kissme)：Kissme是一个开源库，提供加密键值存储。
 * [QuickKV](https://github.com/sumimakito/QuickKV)：为Android项目提供的轻量且易用的键值数据库。
 * [Kottage](https://github.com/irgaly/kottage)：Kotlin多平台键值存储本地缓存，实现单一数据源。
-
-#### 数据网格
-
-* [GemFire](https://www.vmware.com/products/app-platform/tanzu-gemfire)：GemFire是一个分布式内存数据管理平台，专为高性能和低延迟的实时应用程序而设计，由VMware开发。
-* [Apache Geode](https://github.com/apache/geode)：Geode是一个数据管理平台，可在广泛分布的云架构中提供对数据密集型应用程序的实时、一致的访问，由GemStone开源。
-* [Coherence](https://github.com/oracle/coherence)：Coherence是一个可扩展、容错、云就绪的分布式平台，用于构建基于网格的应用程序并可靠地存储数据，由Oracle开源。
-* [Infinispan](https://github.com/infinispan/infinispan)：Infinispan是一个开源内存数据网格，提供灵活的部署选项和强大的数据存储、管理和处理功能，由RedHat开源。
-* [Apache Ignite](https://github.com/apache/ignite)：Ignite是一个分布式数据库，用于以内存速度进行高性能计算，由GridGain开源。
-* [GridGain](https://www.gridgain.com/)：GridGain是一个基于Apache Ignite的内存计算平台，旨在解决速度和规模挑战。
-* [XAP](https://github.com/xap/xap)：XAP是一个分布式、高度可扩展的内存数据网格，由GigaSpaces开源。
-* [Galaxy](https://github.com/puniverse/galaxy)：Galaxy是一个内存数据网格，它的主要功能是将数据对象分布在集群节点之间进行分布式处理。
+* [KiritoDB](https://github.com/lexburner/kiritoDB)：使用Java实现的高性能键值引擎。
 
 #### 时序数据库
 
@@ -2666,6 +2671,7 @@ Kafka生态管理系统、运维平台。
 * [Couchbase Android](https://github.com/couchbase/couchbase-lite-android)：适用于Android的轻量级、嵌入式、可同步NoSQL数据库引擎。
 * [Tupl](https://github.com/cojen/Tupl)：Tupl是一个高性能、并发、事务性、可扩展、低级嵌入式数据库。
 * [Keva](https://github.com/keva-dev/keva)：Keva是一个开源、JVM堆外内存数据存储，用作数据库或缓存，可以直接替代Redis。
+* [Codax](https://github.com/dscarpetti/codax)：Codax是一个符合Clojure语言习惯的事务型嵌入式数据库。
 * [Krati](https://github.com/jingwei/krati)：Krati是一个简单的持久数据存储，具有极低的延迟和高吞吐量。
 * [Java Dirty](https://github.com/mrwilson/java-dirty)：一种基于文件的快速追加对象存储系统，使用内存映射文件。
 
@@ -2841,6 +2847,7 @@ Kafka生态管理系统、运维平台。
 * [Sharding Method](https://github.com/QNJR-GROUP/sharding-method)：Sharding Method是服务层Sharding框架，全SQL、全数据库兼容，由齐牛金融开源。
 * [Compass](https://github.com/sogou-biztech/compass)：Compass是搜狗商业平台研发部开发的一套轻量级分布式数据库访问框架。
 * [Oceanus](https://github.com/wuba/Oceanus)：58同城数据库中间件，功能简单、易于上手。
+* [MyBatis Shards](https://github.com/makersoft/mybatis-shards)：MyBatis Shards专业的MyBatis数据库切分框架。
 
 #### Binlog
 
@@ -3389,6 +3396,7 @@ Kafka生态管理系统、运维平台。
 * [Iroh FFI](https://github.com/n0-computer/iroh-ffi)：Iroh的FFI绑定。
 * [Nostr Java](https://github.com/tcheeric/nostr-java)：Nostr Java是一个用于Nostr协议的Java SDK。
 * [I2P+](https://github.com/I2PPlus/i2pplus)：I2P+是Java I2P匿名网络层的软分支。
+* [MuWire](https://github.com/zlatinb/muwire)：MuWire是一款文件发布和网络工具，它利用I2P技术保护用户身份。
 
 #### SDN
 
@@ -3480,6 +3488,7 @@ Kafka生态管理系统、运维平台。
 
 #### SIP
 
+* [JSS7](https://github.com/RestComm/jss7)：jSS7提供了一个开源软件解决方案，实现了专用设备的M3UA、SCCP、TCAP、CAMEL、MAP、ISUP协议，以及基于IP的M3UA协议。
 * [SIP Servlet](https://github.com/RestComm/sip-servlets)：RestComm SIP Servlet是SIP、IMS和WebRTC应用服务器。
 * [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
 * [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
@@ -3652,6 +3661,17 @@ Kafka生态管理系统、运维平台。
 * [RainbowCache](https://github.com/gshjd/RainbowCache)：RainbowCache是一套缓存注解，内置利用Redis完成的并发锁。
 * [Simple Spring Memcached](https://github.com/ragnor/simple-spring-memcached)：Simple Spring Memcached是一个即插即用的库，可通过注解在Spring Bean中启用Memcached缓存。
 
+#### 数据网格
+
+* [GemFire](https://www.vmware.com/products/app-platform/tanzu-gemfire)：GemFire是一个分布式内存数据管理平台，专为高性能和低延迟的实时应用程序而设计，由VMware开发。
+* [Apache Geode](https://github.com/apache/geode)：Geode是一个数据管理平台，可在广泛分布的云架构中提供对数据密集型应用程序的实时、一致的访问，由GemStone开源。
+* [Coherence](https://github.com/oracle/coherence)：Coherence是一个可扩展、容错、云就绪的分布式平台，用于构建基于网格的应用程序并可靠地存储数据，由Oracle开源。
+* [Infinispan](https://github.com/infinispan/infinispan)：Infinispan是一个开源内存数据网格，提供灵活的部署选项和强大的数据存储、管理和处理功能，由RedHat开源。
+* [Apache Ignite](https://github.com/apache/ignite)：Ignite是一个分布式数据库，用于以内存速度进行高性能计算，由GridGain开源。
+* [GridGain](https://www.gridgain.com/)：GridGain是一个基于Apache Ignite的内存计算平台，旨在解决速度和规模挑战。
+* [XAP](https://github.com/xap/xap)：XAP是一个分布式、高度可扩展的内存数据网格，由GigaSpaces开源。
+* [Galaxy](https://github.com/puniverse/galaxy)：Galaxy是一个内存数据网格，它的主要功能是将数据对象分布在集群节点之间进行分布式处理。
+
 #### 缓存管理器
 
 * [JetCache](https://github.com/alibaba/jetcache)：JetCache是一种Java缓存抽象，它为不同的缓存解决方案提供统一的使用方式，由阿里开源。
@@ -3738,6 +3758,7 @@ Kafka生态管理系统、运维平台。
 * [JLama](https://github.com/tjake/Jlama)：JLama是Java的现代LLM推理引擎，由DataStax开发。
 * [Llama3.java](https://github.com/mukel/llama3.java)：Java中的实用Llama 3推理。
 * [GPULlama3](https://github.com/beehive-lab/GPULlama3.java)：使用原生Java编写的Llama3模型，通过TornadoVM在GPU上自动加速，由曼彻斯特大学开源。
+* [JavaCPP TensorRT](https://github.com/bytedeco/javacpp-presets/tree/master/tensorrt)：TensorRT是一个用于优化已训练深度学习模型以实现高性能推理的SDK。
 * [UOLLM](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，永源的商业产品。
 * [LLama Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
 * [Triton](https://github.com/triton-inference-server/client)：Triton Python、C++和Java客户端库。
@@ -3749,6 +3770,7 @@ Kafka生态管理系统、运维平台。
 
 * [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk)：适用于MCP服务器和客户端的官方Java SDK，由VMware开源。
 * [MCP Kotlin SDK](https://github.com/modelcontextprotocol/kotlin-sdk)：MCP官方Kotlin SDK，由JetBrains合作维护。
+* [Quarkus MCP Server](https://github.com/quarkiverse/quarkus-mcp-server)：Quarkus扩展提供了声明式和编程式API，使开发人员能够轻松实现MCP服务器功能。
 * [Wren Engine](https://github.com/Canner/wren-engine)：Wren Engine被设计为独立的语义引擎，你可以轻松地使用任何AI代理实现它，可以将其用作语义层的通用语义。
 * [OneMCP](https://github.com/Gentoro-OneMCP/onemcp)：OneMCP是一个开源运行时，使AI代理可以轻松准确高效地使用你的API。
 * [Coral Server](https://github.com/Coral-Protocol/coral-server)：Coral协议的实现，充当MCP服务器，为代理提供相互通信的工具。
@@ -3786,7 +3808,6 @@ Kafka生态管理系统、运维平台。
 * [AgentX](https://github.com/lucky-aeon/AgentX)：AgentX是一个基于大模型和多能力平台的智能Agent构建平台。
 * [Innospots](https://gitee.com/innospots/innospots)：Innospots是一款开箱即用的开源企业数字化智能决策解决方案。
 * [AgC](https://github.com/masaic-ai-platform/AgC)：AgC是为Open Agentic Compute提供支持的开放核心期刊平台，Open Agentic Compute是一种新的计算基质，专为大规模部署、运行和编排AI代理而构建。
-* [Jimi](https://github.com/Leavesfly/Jimi)：Jimi是一个功能强大的AI驱动的命令行智能代理系统。
 * [Agent O Rama](https://github.com/redplanetlabs/agent-o-rama)：Agent O Rama是一个端到端的LLM代理平台，用于构建、跟踪、测试和监控代理，具有集成存储和一键部署功能。
 * [Jason](https://github.com/jason-lang/jason)：Jason是AgentSpeak扩展版的完全解释器，AgentSpeak是一种面向智能体的逻辑编程语言。
 * [AssistantAgent](https://github.com/spring-ai-alibaba/AssistantAgent)：AssistantAgent是一款基于Spring AI Alibaba构建的企业级智能助理框架。
@@ -3795,6 +3816,11 @@ Kafka生态管理系统、运维平台。
 * [Ampere](https://github.com/socket-link/ampere)：Ampere是一个Kotlin多平台框架，其中每个代理决策都会发出一个结构化的、可查询的事件。
 * [PaiAgent](https://github.com/itwanger/PaiAgent)：PaiAgent是一个企业级的AI工作流可视化编排平台，让AI能力的组合和调度变得简单高效。
 * [Lynx AI](https://gitee.com/lynx-ai/lynx-ai)：Lynx AI是一个功能强大的企业级AI智能体管理平台，提供从智能体创建、知识库管理、工作流编排到自然语言数据分析的完整AI解决方案。
+
+#### 终端助手
+
+* [Jimi](https://github.com/Leavesfly/Jimi)：Jimi是一个功能强大的AI驱动的命令行智能代理系统。
+* [Solon Code](https://gitee.com/opensolon/soloncode)：Solon Code是基于Solon AI框架构建的高性能、自主式AI终端助手。
 
 #### NL2SQL
 
@@ -3836,6 +3862,7 @@ Kafka生态管理系统、运维平台。
 * [MediaPipe](https://github.com/google-ai-edge/mediapipe)：MediaPipe Solutions提供了一套库和工具，可让你在应用程序中快速应用人工智能和机器学习技术，由Google开源。
 * [Flink ML](https://github.com/apache/flink-ml)：Flink ML是一个提供机器学习API和基础设施的库，可简化ML管道的构建。
 * [TensorFlow Java](https://github.com/tensorflow/java)：TensorFlow可以在任何JVM上运行，用于构建、训练和运行机器学习模型，Google开源。
+* [JavaCPP TensorFlow](https://github.com/bytedeco/javacpp-presets/tree/master/tensorflow)：TensorFlow是一个端到端的开源机器学习平台。
 * [TensorFlow Scala](https://github.com/eaplatanios/tensorflow_scala)：适用于Scala编程语言的TensorFlow API。
 * [Apache Mahout](https://github.com/apache/mahout)：Mahout的目标是构建一个用于快速创建可扩展、高性能机器学习应用程序的环境。
 * [Apache SystemDS](https://github.com/apache/systemds)：SystemDS是一个开源ML系统，适用于端到端数据科学生命周期。
@@ -3852,6 +3879,7 @@ Kafka生态管理系统、运维平台。
 * [Photon ML](https://github.com/linkedin/photon-ml)：Photon ML是一个基于Spark的机器学习库，由LinkedIn开源。
 * [Trident ML](https://github.com/pmerienne/trident-ml)：Trident ML是一个实时在线机器学习库。
 * [PSL](https://github.com/linqs/psl)：PSL是一种用于开发概率模型的机器学习框架，由马里兰大学和加州大学圣克鲁斯分校开发。
+* [JavaCPP TVM](https://github.com/bytedeco/javacpp-presets/tree/master/tvm)：TVM是一个开放的机器学习编译框架。
 * [QuickML](https://github.com/sanity/quickml)：QuickML是一个易于使用、功能强大且快速的Java机器学习库。
 * [BIDMach](https://github.com/BIDData/BIDMach)：BIDMach是伯克利BID实验室研发的一个开源机器学习框架。
 * [Datumbox](https://github.com/datumbox/datumbox-framework)：Datumbox是一个用Java编写的开源机器学习框架，可以快速开发机器学习和统计应用程序。
@@ -3875,8 +3903,10 @@ Kafka生态管理系统、运维平台。
 * [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Spark上构建模块化、可重用、强类型的机器学习工作流，由Salesforce开源。
 * [JSAT](https://github.com/EdwardRaff/JSAT)：JSAT是一个用于快速入门机器学习问题的库。
 * [JavaML](https://github.com/charliermarsh/java-ml)：用Java实现的一系列标准机器学习(分类)算法。
+* [DynaML](https://github.com/tailhq/DynaML)：DynaML是一个面向科研、教育和工业领域的Scala和JVM机器学习工具箱。
 * [Brain4J](https://github.com/brain4j-org/brain4j)：Brain4J是一个用Java编写的开源机器学习框架，设计时考虑了速度和轻量级。
 * [ABAGAIL](https://github.com/pushkar/ABAGAIL)：该库包含许多互连的Java包，用于实现机器学习和人工智能算法。
+* [Pyramid](https://github.com/cheng-li/pyramid)：Pyramid是一个Java机器学习库，它实现了许多最先进的机器学习算法。
 * [LearnLib](https://github.com/LearnLib/learnlib)：LearnLib是一个免费、开源的用于自动机学习算法的Java库，由德国多特蒙德工业大学开发。
 * [Junto](https://github.com/parthatalukdar/junto)：该工具包由各种基于图的半监督学习(SSL)算法的实现组成，包含高斯随机场、吸附和修正吸附。
 * [HTM.Java](https://github.com/numenta/htm.java)：Java中的分层临时内存实现-Numenta智能计算平台的官方社区驱动Java端口。
@@ -3897,10 +3927,6 @@ Kafka生态管理系统、运维平台。
 * [Foundry](https://github.com/algorithmfoundry/Foundry)：Cognitive Foundry是一个开源Java库，用于构建专注于机器学习的智能系统，由桑迪亚国家实验室领导。
 * [Harness](https://github.com/actionml/harness)：Harness是一个机器学习/人工智能服务器，带有许多算法的插件，包括通用推荐器。
 * [DL Learner](https://github.com/SmartDataAnalytics/DL-Learner)：DL Learner是一个使用OWL、RDF和描述逻辑进行监督机器学习的框架，由德累斯顿工业大学开源。
-* [Word2VEC Java](https://github.com/NLPchina/Word2VEC_java)：Word2VEC Java版本的一个实现。
-* [Word2VecJava](https://github.com/medallia/Word2VecJava)：Word2Vec Java移植。
-* [Word2Vec](https://github.com/jsksxs360/Word2Vec)：Word2Vec是对Word2VEC Java的进一步包装，同时实现了常用的词语相似度和句子相似度计算。
-* [Word2VEC](https://github.com/siegfang/word2vec)：Word2VEC的Java并行实现。
 * [ML Ease](https://github.com/linkedin/ml-ease)：ML Ease是LinkedIn开源的大规模机器学习库。
 * [Apache Hivemall](https://github.com/apache/incubator-hivemall)：Apache Hivemall是一个可扩展的机器学习库，可在Hive、Spark和Pig上运行，由日本Treasure Data公司开源。
 * [ModernMT](https://github.com/modernmt/modernmt)：ModernMT是一种基于Fairseq Transformer模型的上下文感知、增量和分布式通用神经机器翻译技术。
@@ -3916,6 +3942,7 @@ Kafka生态管理系统、运维平台。
 #### 神经网络
 
 * [Neural Networks](https://github.com/ivan-vasilev/neuralnetworks)：Neural Networks是一些用于训练深度神经网络的算法的Java实现。
+* [JavaCPP NGraph](https://github.com/bytedeco/javacpp-presets/tree/master/ngraph)：NGraph是英特尔面向人工神经网络的图编译器。
 * [Cortex](https://github.com/originrose/cortex)：Cortex是Clojure中的神经网络、回归和特征学习框架，由ThinkTopic开源。
 * [Neuroph](https://github.com/neuroph/neuroph)：Neuroph是一个开源Java神经网络框架和神经网络开发环境。
 * [NeuroFlow](https://github.com/zenecture/neuroflow)：NeuroFlow是一个用于设计、训练和评估人工神经网络的Scala库。
@@ -3927,12 +3954,16 @@ Kafka生态管理系统、运维平台。
 #### 深度学习
 
 * [Eclipse Deeplearning4J](https://github.com/deeplearning4j/deeplearning4j)：Deeplearning4j是一套用于在JVM上运行深度学习的工具，由Skymind开源。
+* [JavaCPP PyTorch](https://github.com/bytedeco/javacpp-presets/tree/master/pytorch)：PyTorch是一种用于构建深度学习模型的功能完备框架。
 * [EasyAI](https://gitee.com/dromara/easyAi)：EasyAI是一个原生Java人工智能算法框架，由dormara社区开源。
 * [Deep Java Library](https://github.com/deepjavalibrary/djl)：DJL是一个开源、高级、与引擎无关的深度学习Java框架，由AWS开源。
 * [BigDL](https://github.com/intel-analytics/BigDL-2.x)：BigDL是一个使用INT4/FP4/INT8/FP8在Intel XPU上运行LLM的库，延迟非常低，由Intel开源。
 * [Hbox](https://github.com/Qihoo360/hbox)：Hbox是一个结合大数据和人工智能的便捷高效的调度平台，支持多种机器学习、深度学习框架，由360开源。
 * [KotlinDL](https://github.com/Kotlin/kotlindl)：KotlinDL是一个用Kotlin编写的高级深度学习API，由JetBrains开源。
 * [Apache MXNet](https://mxnet.apache.org/versions/1.9.1/api/java)：Apache MXNet是一个兼顾效率和灵活性的深度学习框架，由AWS开源。
+* [JavaCPP MXNet](https://github.com/bytedeco/javacpp-presets/tree/master/mxnet)： MXNet是一个兼顾效率和灵活性的深度学习框架。
+* [JavaCPP Caffe](https://github.com/bytedeco/javacpp-presets/tree/master/caffe)：Caffe是一个深度学习框架，其设计理念是兼顾表达能力、速度和模块化。
+* [JavaCPP DNNL](https://github.com/bytedeco/javacpp-presets/tree/master/dnnl)：DNNL是一个开源的跨平台高性能库，包含用于深度学习应用程序的基本构建模块。
 * [TonY](https://github.com/tony-framework/TonY)：TonY是一个在Hadoop上本地运行深度学习作业的框架，由LinkedIn开源。
 * [SKaiNET](https://github.com/SKaiNET-developers/SKaiNET)：SKaiNET是一个用Kotlin编写的开源深度学习框架。
 * [Porcupine](https://github.com/Picovoice/porcupine)：Porcupine是一款高精度且轻量级的唤醒词引擎。
@@ -3973,6 +4004,7 @@ Kafka生态管理系统、运维平台。
 
 #### 强化学习
 
+* [JavaCPP Gym](https://github.com/bytedeco/javacpp-presets/tree/master/gym)：Gym是一个开源的Python库，用于开发和比较强化学习算法。
 * [Java Reinforcement Learning](https://github.com/chen0040/java-reinforcement-learning)：该软件包提供了强化学习算法的Java实现，例如Q-Learn、R-Learn、SARSA、Actor-Critic。
 * [BURLAP](https://github.com/jmacglashan/burlap)：BURLAP是一个Java代码库，用于开发单智能体或多智能体规划与学习算法及其相关领域，由布朗大学开源。
 * [JADE](https://jade.tilab.com/)：JADE是一个用Java实现的软件代理开发框架，由意大利电信开发。
@@ -4030,6 +4062,7 @@ Kafka生态管理系统、运维平台。
 * [Clust4j](https://github.com/tgsmith61591/clust4j)：Clust4j是一组基于Java的分类聚类算法。
 * [Hierarchical Clustering Java](https://github.com/lbehnke/hierarchical-clustering-java)：用Java实现凝聚层次聚类算法，支持不同的链接方法。
 * [FastDTW](https://github.com/rmaestre/FastDTW)：FastDTW是一种近似动态时间规整(DTW)算法。
+* [DBSCAN Spark](https://github.com/irvingc/dbscan-on-spark)：Apache Spark的DBSCAN聚类算法的实现。
 
 #### 贝叶斯推理
 
@@ -4039,6 +4072,7 @@ Kafka生态管理系统、运维平台。
 * [Keanu](https://github.com/improbable-research/keanu)：Keanu是一个通用的概率编程库，由Improbable的研究团队开发。
 * [BartMachine](https://github.com/kapelner/bartMachine)：R-Java贝叶斯加法回归树实现，由纽约市立大学开源。
 * [Java Naive Bayes Classifier](https://github.com/ptnplanet/Java-Naive-Bayes-Classifier)：基于朴素贝叶斯方法的Java分类器。
+* [Bayes Scala](https://github.com/danielkorzekwa/bayes-scala)：Bayes Scala是一个用于贝叶斯网络和概率图模型的Scala库。
 
 ### 自然语言处理
 
@@ -4078,8 +4112,8 @@ Kafka生态管理系统、运维平台。
 * [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP)：VnCoreNLP是一个快速、准确的越南语NLP标注管道，通过分词、词性标注、命名实体识别和依存句法分析等关键NLP组件提供丰富的语言标注。
 * [Zemberek NLP](https://github.com/ahmetaa/zemberek-nlp)：Zemberek NLP提供土耳其语自然语言处理工具。
 * [FastText](https://github.com/ivanhk/fastText_java)：Facebook FastText的Java移植。
-* [JFastText](https://github.com/vinhkhuc/JFastText)：JFastText是Facebook FastText的Java包装器，一个用于高效学习词嵌入和快速句子分类的库。
 * [Jpostal](https://github.com/openvenues/jpostal)：Jpostal是libpostal的Java绑定，用于快速国际街道地址解析/规范化。
+* [JavaCPP Libpostal](https://github.com/bytedeco/javacpp-presets/tree/master/libpostal)：Libpostal利用统计自然语言处理和开放数据来解析/规范化世界各地的街道地址。
 * [BerkeleyLM](https://github.com/adampauls/berkeleylm)：用于在内存中估算、存储大型N-Gram语言模型并高效访问它们，由伯克利开源。
 * [BlackLab](https://github.com/instituutnederlandsetaal/BlackLab)：BlackLab是一个基于Apache Lucene构建的语料库检索引擎，由荷兰语言研究所开源。
 * [AHANLP](https://github.com/jsksxs360/AHANLP)：AHANLP自然语言处理包，提供包括分词、依存句法分析、语义角色标注、自动摘要、语义相似度计算、LDA主题预测、词云等服务。
@@ -4102,6 +4136,7 @@ Kafka生态管理系统、运维平台。
 * [NLPIR](https://github.com/NLPIR-team/NLPIR)：NLPIR是由中科院计算所开发的分词工具。
 * [Jieba Analysis](https://github.com/huaban/jieba-analysis)：结巴分词Java版，由花瓣网开源。
 * [Segmenter](https://nlp.stanford.edu/software/segmenter.shtml)：Segmenter用于对中文或阿拉伯语文本中的单词进行标记化或分段，由斯坦福开源。
+* [JavaCPP SentencePiece](https://github.com/bytedeco/javacpp-presets/tree/master/sentencepiece)：SentencePiece是一款无监督文本分词器和反分词器。
 * [Elasticsearch IK Analysis](https://github.com/infinilabs/analysis-ik)：IK Analysis插件集成了Lucene IK分析器，并支持自定义词典，由INFINI Labs维护。
 * [Pinyin Analysis](https://github.com/infinilabs/analysis-pinyin)：Pinyin Analysis插件方便汉字与拼音之间的转换，由INFINI Labs维护。
 * [Sudachi](https://github.com/WorksApplications/Sudachi)：Sudachi是日语形态分析器。
@@ -4127,6 +4162,33 @@ Kafka生态管理系统、运维平台。
 * [KOMORAN](https://github.com/shineware/KOMORAN)：KOMORAN是一个用Java实现的韩语形态分析器，由Shineware开源。
 * [Russian Morphology](https://github.com/AKuznetsov/russianmorphology)：Lucene的俄语形态学。
 * [Jaba](https://github.com/Sweetiee-yi/Jaba)：结巴分词Java版。
+* [Chinese Utils](https://github.com/luhuiguo/chinese-utils)：中文工具集，包括中文简繁体转换、拼音转换以及中文分词。
+
+#### 语言库
+
+* [TinyPinyin](https://github.com/promeG/TinyPinyin)：适用于Java和Android的快速、低内存占用的汉字转拼音库。
+* [Pinyin4j](https://github.com/belerweb/pinyin4j)：支持汉字(简体和繁体)到最流行的拼音系统，包括汉语拼音、通用拼音、Wade-Giles、MPS2、Yale和Gwoyeu Romatzyh。
+* [Opencc4j](https://github.com/houbb/opencc4j)：Opencc4j支持中文繁简体转换，考虑到词组级别。
+* [Pinyin](https://github.com/houbb/pinyin)：Java高性能中文转拼音工具，支持同音字。
+* [Pinyin Plus](https://github.com/taptap/pinyin-plus)：汉字转拼音库，支持多音字，由Taptap开源。
+* [PinyinSearchLibrary](https://github.com/handsomezhou/PinyinSearchLibrary)：PinyinSearch库是一个Java库，为T9搜索和Qwerty搜索提供数据解析方法、数据匹配方法等。
+* [Bopomofo4j](https://gitee.com/rnkrsoft/Bopomofo4j)：Bopomofo4j是一个零依赖、纯Java开发的汉字转拼音库。
+* [JPinyin](https://github.com/qzw1210/jpinyin)：JPinyin是一个汉字转拼音的Java开源类库，在PinYin4j的功能基础上做了一些改进。
+* [PinIn](https://github.com/Towdium/PinIn)：PinIn是一个用于解决各类汉语拼音匹配问题的Java库。
+* [Pinyin](https://gitee.com/duguying2008/pinyin)：Pinyin是一个Java库，可以将汉字翻译成中文拼音。
+* [Moji4J](https://github.com/andree-surya/moji4j)：Moji4J是一个开源Java库，用于在日语平假名、片假名和罗马字脚本之间进行转换。
+* [Myanmar Tools](https://github.com/google/myanmar-tools)：该项目包括用于处理缅甸使用的字体编码的工具，目前支持广泛的Zawgyi-One字体编码，由Google开源。
+* [Jakaroma](https://github.com/nicolas-raoul/jakaroma)：Java汉字/等到罗马字转换器。
+* [JCorrector](https://github.com/jiangnanboy/jcorrector)：JCorrector中文文本纠错工具。
+
+#### 词嵌入
+
+* [Word2VEC Java](https://github.com/NLPchina/Word2VEC_java)：Word2VEC Java版本的一个实现。
+* [Word2VecJava](https://github.com/medallia/Word2VecJava)：Word2Vec Java移植。
+* [Word2Vec](https://github.com/jsksxs360/Word2Vec)：Word2Vec是对Word2VEC Java的进一步包装，同时实现了常用的词语相似度和句子相似度计算。
+* [Word2VEC](https://github.com/siegfang/word2vec)：Word2VEC的Java并行实现。
+* [Wiki2Vec](https://github.com/idio/wiki2vec)：通过维基百科转储创建Dbpedia实体的Word2Vec向量的实用程序。
+* [JFastText](https://github.com/vinhkhuc/JFastText)：JFastText是Facebook FastText的Java包装器，一个用于高效学习词嵌入和快速句子分类的库。
 
 #### 信息提取
 
@@ -4146,6 +4208,9 @@ Kafka生态管理系统、运维平台。
 * [Minie](https://github.com/uma-pi1/minie)：提供简化提取的开放信息提取系统，由德国曼海姆大学开源。
 * [Textricator](https://github.com/measuresforjustice/textricator)：Textricator是一种从文档中提取文本并生成结构化数据的工具。
 * [Baleen](https://github.com/dstl/baleen)：Baleen是一个文本分析框架，允许从非结构化和半结构化数据中提取信息，由英国国防科学技术实验室开源。
+* [TextRank](https://github.com/hankcs/TextRank)：TextRank算法提取关键词与自动摘要的Java实现。
+* [Maui](https://github.com/zelandiya/maui)：Maui可以自动识别文本文档中的主要主题。
+* [Number Words](https://github.com/accelerated-text/numberwords)：Number Words构建自然数、百分比和分数的数字表达式。
 
 #### 语义解析
 
@@ -4159,6 +4224,7 @@ Kafka生态管理系统、运维平台。
 * [Dexter](https://github.com/dexter/dexter)：Dexter是一个框架，它实现了一些流行的算法，并提供了开发任何实体链接技术所需的所有工具，由HPC实验室开源。
 * [Inception](https://github.com/inception-project/inception)：Inception提供了一个语义标注平台，提供智能标注帮助和知识管理，由达姆施塔特工业大学开源。
 * [LIMES](https://github.com/dice-group/LIMES)：LIMES是一个用于发现链接数据源中实体之间连接的框架，由帕德博恩大学开源。
+* [Berkeley Entity](https://github.com/gregdurrett/berkeley-entity)：Berkeley Entity Resolution System采用特征丰富的判别模型，联合解决命名实体识别、共指解析和实体链接问题。
 
 #### 敏感词过滤
 
@@ -4268,6 +4334,7 @@ Kafka生态管理系统、运维平台。
 ### 计算机视觉
 
 * [OpenCV](https://github.com/opencv/opencv)：OpenCV是一个包含数百种计算机视觉算法的开源库，提供官方Java API，由Intel开发。
+* [JavaCPP OpenCV](https://github.com/bytedeco/javacpp-presets/tree/master/opencv)：OpenCV是一个包含数百种计算机视觉算法的开源库。
 * [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个屡获殊荣的库和工具集合，用于多媒体(图像、文本、视频、音频等)内容分析和内容生成，由南安普顿大学开发。
 * [OpenCV](https://github.com/openpnp/opencv)：OpenCV是一个跨平台的计算机视觉库，这是OpenCV的Java绑定。
 * [JavaCV](https://github.com/bytedeco/javacv)：JavaCV包含OpenCV、FFmpeg等的Java接口。
@@ -4286,6 +4353,7 @@ Kafka生态管理系统、运维平台。
 #### OCR
 
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
+* [JavaCPP Tesseract](https://github.com/bytedeco/javacpp-presets/tree/master/tesseract)：Tesseract是一个开源文本识别引擎。
 * [C-OCR](https://github.com/ctripcorp/C-OCR)：C-OCR是携程自研的OCR项目，主要包括身份证、护照、火车票、签证等旅游相关证件、材料的识别。
 * [Aspose.OCR](https://products.aspose.com/ocr/java/)：Aspose OCR是一种高效、用户友好且经济高效的OCR API。
 * [Spire.OCR](https://www.e-iceblue.com/Introduce/ocr-for-java.html)：Spire.OCR是一个专业的OCR库，可从JPG、PNG、GIF、BMP和TIFF格式的图像中读取文本。
