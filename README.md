@@ -4328,7 +4328,8 @@ Kafka生态管理系统、运维平台。
 * [MaryTTS](https://github.com/marytts/marytts)：MaryTTS是一个用纯Java编写的开源、多语言文本到语音合成系统。
 * [FreeTTS](https://freetts.sourceforge.io/)：FreeTTS是一个完全用Java编程语言编写的语音合成系统。
 * [VeloVoice](https://github.com/Mai-Onsyn/VeloVoice)：一个用于解析中文小说并通过TTS转换为语音的JavaFX软件。
-* [Java TTS](https://github.com/ikfly/java-tts)：参考其他语言版本写的Java版文字转语音，使用 Edge API。
+* [Java TTS](https://github.com/ikfly/java-tts)：参考其他语言版本写的Java版文字转语音，使用Edge API。
+* [Edge-TTS](https://github.com/yynag/edge-tts-android)：Edge-TTS是一款文本转语音服务，它使用Edge-TTS API将文本转换为语音。
 * [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
 * [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
 * [Voices](https://github.com/hcoles/voices)：适用于Java 17及更高版本的快速进程内文本转语音。
