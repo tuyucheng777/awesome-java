@@ -423,6 +423,24 @@
 * [DELTA](https://github.com/seungsoo-lee/DELTA)：DELTA是一个渗透测试框架，用于为各种测试用例重生成已知的攻击场景。
 * [Armitage](https://github.com/rsmudge/armitage)：Armitage是一款用于Metasploit的图形化网络攻击管理工具。
 
+#### 混沌引擎
+
+* [ChaosBlade Box](https://github.com/chaosblade-io/chaosblade-box)：一个拥有丰富场景的混沌工程平台，由阿里开源。
+* [Simian Army](https://github.com/Netflix/SimianArmy)：Simian Army是一套工具，可让你的云保持最佳状态运行，由Netflix开源。
+* [Mangle](https://github.com/vmware/mangle)：Mangle使你能够针对应用程序和基础设施组件无缝运行混沌工程实验，以评估弹性和容错能力，由VMware开源。
+* [OpenChaos](https://github.com/openmessaging/openchaos)：OpenChaos为供应商提出了一个统一的API，为在云原生环境中执行混沌工程原理的各个方面提供解决方案，由阿里发起。
+* [Chaos Monkey Spring Boot](https://github.com/codecentric/chaos-monkey-spring-boot)：该项目为Spring Boot应用程序提供了Chaos Monkey，并将尝试攻击你正在运行的Spring Boot应用程序。
+* [Byte Monkey](https://github.com/mrwilson/byte-monkey)：Byte Monkey是一个小型Java库，用于测试JVM应用程序中的故障场景。
+* [AWSSSMChaosRunner](https://github.com/amzn/awsssmchaosrunner)：AWSSSMChaosRunner是一个简化EC2和ECS的故障注入测试和混沌工程的库，由Amazon开源。
+* [ChaosBlade Exec JVM](https://github.com/chaosblade-io/chaosblade-exec-jvm)：该项目是一个基于JVM-SandBox的ChaosBlade执行器，通过增强类来对Java应用程序进行混沌实验，阿里开源。
+* [CloudRaider](https://github.com/intuit/CloudRaider)：CloudRaider是一个全新的测试框架，用于在AWS中执行“故障模式影响分析”(FMEA)测试，由Intuit开发。
+* [Chaos Proxy](https://github.com/clusterfk/chaos-proxy)：Chaos Proxy是一款值得信赖的不可靠HTTP代理，专为微服务混沌测试而设计的轻量级工具。
+* [Toxiproxy Java](https://github.com/trekawek/toxiproxy-java)：这是Toxiproxy的客户端库，Toxiproxy是一款模拟网络和系统状况的代理。
+* [Cthulhu](https://github.com/xmatters/cthulhu-chaos-testing)：Cthulhu是一款混沌工程工具，用于评估微服务系统的弹性。
+* [Chaos Engine](https://github.com/ThalesGroup/chaos-engine)：Chaos Engine是一款用于在云应用程序中创建随机混沌事件以测试弹性的应用程序，由Thales开源。
+* [NetCrusher](https://github.com/NetCrusherOrg/netcrusher-java)：NetCrusher是Java的TCP/UDP代理框架和命令行工具，可以放置在任何客户端和服务器之间，并允许检查双方的故障转移。
+* [Chaos HTTP Proxy](https://github.com/bouncestorage/chaos-http-proxy)：通过代理服务器引入HTTP请求的失败。
+
 #### 快照测试
 
 * [ApprovalTests](https://github.com/approvals/ApprovalTests.Java)：Java的ApprovalTest验证库。
@@ -1120,6 +1138,7 @@
 * [UroboroSQL](https://github.com/future-architect/uroborosql)：UroboroSQL是一个简单的SQL执行库，可以利用与Java 8兼容的2-way-SQL，由日本Future公司开源。
 * [WestDAO](https://github.com/westwong/westDao)：基于Spirng JPA JPQL，借鉴MyBatis Plus的全新DAO框架。
 * [JSqlBox](https://gitee.com/drinkjava2/jsqlbox)：JSqlBox是一个全功能开源Java数据库持久层工具。
+* [Apache EmpireDB](https://github.com/apache/empire-db)：EmpireDB是一个轻量级的关系型数据库访问库，用于处理所有关系型数据的存储、操作、检索和建模方面。
 
 #### 持久层库
 
@@ -1132,13 +1151,11 @@
 * [Objectify](https://github.com/objectify/objectify)：Objectify是专门为Google Cloud Datastore设计的Java数据访问API。
 * [PulseDB](https://github.com/feedzai/pdb)：PulseDB是一个用Java编写的数据库映射软件库，它提供对各种数据库实现的透明访问和操作，由Feedzai开源。
 * [Elsql](https://github.com/OpenGamma/ElSql)：ElSql允许SQL从Java应用程序外部化。
-* [SqlRender](https://github.com/OHDSI/SqlRender)：这是一个R包和Java库，用于呈现参数化SQL，并将其转换为不同的SQL方言，由OHDSI开源。
 * [Cantor](https://github.com/salesforce/cantor)：Cantor是一个数据服务层，它为各种存储解决方案(例如MySQL和S3)之上的多种基本数据结构提供持久化，由Salesforce开源。
 * [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
 * [MySQL Backup4j](https://github.com/SeunMatt/mysql-backup4j)：MySQL Backup4j是一个用于以编程方式导出MySQL数据库并将压缩转储发送到电子邮件、Amazon S3、Google Drive或任何其他选择的云存储的库。
 * [Ektorp](https://github.com/helun/Ektorp)：Ektorp是一个使用CouchDB作为存储引擎的持久层API。
-* [Infobip Spring Data Querydsl](https://github.com/infobip/infobip-spring-data-querydsl)：Infobip Spring Data Querydsl使用户能够在Spring Data Repository之上利用Querydsl API的全部功能。
 * [SQLHelper](https://github.com/bes2008/sqlhelper)：基于Java的SQL工具。
 * [Uni Pagination](https://github.com/taoganio/uni-pagination)：Uni Pagination是一个基于Java的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。
 * [DTT](https://github.com/julxxy/dtt-spring-boot-parent)：DTT是一个面向对象的Java框架，使开发者能够通过注解驱动的开发，基于领域模型自动创建数据库表。
@@ -1153,6 +1170,9 @@
 * [Zealot](https://github.com/blinkfox/zealot)：Zealot是基于Java语言开发的SQL及对应参数动态拼接生成的工具包。
 * [Zeko](https://github.com/darkredz/Zeko-SQL-Builder)：Zeko SQL Builder是一个为Kotlin语言编写的高性能轻量级SQL库。
 * [EntityQL](https://github.com/eXsio/querydsl-entityql)：JPA和Spring Data JDBC原生查询构建器，适用于Java、Groovy和Kotlin。
+* [Kotlin JDSL](https://github.com/line/kotlin-jdsl)：Kotlin JDSL是一个Kotlin库，它简化了查询的构建和执行，由Line开源。
+* [Querity](https://github.com/queritylib/querity)：Querity是一个可扩展的查询构建器，用于在Java应用程序中创建和运行数据库查询。
+* [SqlRender](https://github.com/OHDSI/SqlRender)：SqlRender是一个R包和Java库，用于呈现参数化SQL，并将其转换为不同的SQL方言，由OHDSI开源。
 
 #### NoSQL库
 
@@ -1218,6 +1238,7 @@
 * [Stream Query](https://gitee.com/dromara/stream-query)：Stream Query允许完全摆脱Mapper的Mybatis Plus体验。
 * [OpenScope](https://gitee.com/mofum/open-scope)：OpenScope是一种轻量级、易维护的数据权限的解决方案，它能处理比较复杂的权限操作逻辑。
 * [Spring Data MyBatis](https://github.com/easybest/spring-data-mybatis)：该模块提供对基于MyBatis的数据访问层的增强支持。
+* [Spring Boot Mybatis RW](https://github.com/chenlei2/spring-boot-mybatis-rw)：基于Mybatis，Spring Boot开箱即用的读写分离插件。
 * [Easyquery](https://github.com/wwtg99/easyquery)：Easyquery可以通过定义查询对象和自动构建查询SQL来快速轻松地构建查询请求，例如过滤、搜索和排序，无需手动拼接SQL或组装查询代码。
 * [MyBatis R2DBC](https://github.com/linux-china/mybatis-r2dbc)：将MyBatis Reactive化，底层的JDBC替换为R2DBC。
 * [A.CTable](https://gitee.com/sunchenbin/mybatis-enhance)：A.CTable是一个基于Spring和Mybatis的Maven项目，通过配置Model注解的方式来创建表，修改表结构，提供通用的单表CUDR工具。
@@ -1243,7 +1264,6 @@
 
 * [JPA Spec](https://github.com/wenhao/jpa-spec)：JPA按Specification查询框架。
 * [RSQL JPA](https://github.com/tennaito/rsql-jpa)：该库提供了RSQL表达式到JPA Criteria Query(JPQL的对象表示)的转换器。
-* [Kotlin JDSL](https://github.com/line/kotlin-jdsl)：Kotlin JDSL是一个Kotlin库，它简化了查询的构建和执行，由Line开源。
 * [RSQL JPA Specification](https://github.com/perplexhub/rsql-jpa-specification)：将RSQL查询转换为org.springframework.data.jpa.domain.Specification或com.querydsl.core.types.Predicate并支持实体关联查询。
 * [FluentJPA](https://github.com/streamx-co/FluentJPA)：FluentJPA是一种用于关系型数据库和JPA的LINQ技术，它允许你通过直接集成到Java语言中来编写强类型查询。
 * [Blaze Persistence](https://github.com/Blazebit/blaze-persistence)：Blaze Persistence是面向JPA提供程序的丰富Criteria API。
@@ -1256,17 +1276,18 @@
 * [Spring Data JPA DataTables](https://github.com/darrachequesne/spring-data-jpa-datatables)：该项目是Spring Data JPA项目的扩展，以便于与启用了服务器端处理的jQuery插件DataTables一起使用。
 * [Spring Search](https://github.com/theodo-fintech/spring-search)：Spring Search提供了一种简单的查询语言来对JPA实体执行高级搜索。
 * [Specification Arg Resolver](https://github.com/tkaczmarzyk/specification-arg-resolver)：用于使用Spring MVC和Spring Data JPA过滤数据的替代API。
+* [Infobip Spring Data Querydsl](https://github.com/infobip/infobip-spring-data-querydsl)：Infobip Spring Data Querydsl使用户能够在Spring Data Repository之上利用Querydsl API的全部功能。
 * [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions)：Spring Data JPA MongoDB Expressions是一个允许你使用MongoDB查询语言查询Spring Data JPA Repository的库。
 * [Spring Data JPA Extra](https://github.com/slyak/spring-data-jpa-extra)：Spring Data JPA带模板动态查询功能(例如FreeMarker、Velocity等)，类似MyBatis。
 * [Spring Data Generator](https://github.com/cmeza20/spring-data-generator)：用于JPA Repository和管理器的Spring Data Generator。
 * [Kotlin JPA Specification DSL](https://github.com/consoleau/kotlin-jpa-specification-dsl)：该库提供了一个流式的DSL，用于使用Spring Data规范(即JPA Criteria API)查询Spring Data JPA Repository，而无需样板代码或生成的元模型。
-* [Querity](https://github.com/queritylib/querity)：Querity是一个可扩展的查询构建器，用于在Java应用程序中创建和运行数据库查询。
 * [JPA Entity Generator](https://github.com/smartnews/jpa-entity-generator)：这是一个生成Lombok连接的JPA实体源代码的Java库。
 * [Thymeleaf Spring Data Dialect](https://github.com/jpenren/thymeleaf-spring-data-dialect)：这是一种Thymeleaf的方言，提供了一些属性，用于创建分页和排序元素。
 * [Specification With Projection](https://github.com/pramoth/specification-with-projection)：支持使用Spring Data JPA JpaSpecificationExecutor.findAll(Specification, Pageable)的投影。
 * [Java Dynamic Query](https://github.com/tdilber/spring-data-dynamic-query)：该项目旨在为Spring Data JPA、Spring Data MongoDB和Spring Data Elasticsearch提供强大且统一的动态查询创建功能。
 * [QLRM](https://github.com/martinellich/qlrm)：在JPA中，原生SQL查询没有构造函数表达式，QLRM弥补了这一空白。
 * [Joiner](https://github.com/encircled/Joiner)：Joiner是一个Java库，支持创建类型安全的JPA查询。
+* [QueryFilterJPA](https://github.com/acoboh/query-filter-jpa)：QueryFilterJPA让你能够以最少的设置创建功能强大的动态过滤器。
 
 #### 数据库连接池
 
@@ -1630,6 +1651,7 @@
 * [Policy Machine](https://github.com/usnistgov/policy-machine-core)：NIST Policy Machine的核心组件，是下一代访问控制(NGAC)标准的参考实现，由美国国家标准技术研究院开源。
 * [Open Agent Auth](https://github.com/alibaba/open-agent-auth)：Open Agent Auth是一个企业级授权框架，它为代表用户运行的AI代理提供加密身份绑定、细粒度授权、请求级隔离和语义审计跟踪，由阿里开源。
 * [Firebase Spring Boot REST API Authentication](https://github.com/gladius/firebase-spring-boot-rest-api-authentication)：适用于Spring Boot的Firebase身份验证。
+* [Spring Authorization Manager](https://github.com/ScienJus/spring-authorization-manager)：基于Spring MVC，提供API服务端的身份验证功能。
 
 #### JWT库
 
@@ -1729,6 +1751,7 @@
 * [SSO](https://github.com/kawhii/sso)：CAS单点登录系统，其中包括CAS认证服务、配置中心、监控平台，服务管理的高可用项目。
 * [TKey](https://gitee.com/cdk8s/tkey)：TKey以OAuth 2.0标准为接口设计原则的单点登录系统。
 * [Kisso](https://gitee.com/baomidou/kisso)：Kisso是基于Cookie的SSO中间件。
+* [JOSSO](https://josso.atricore.com/)：JOSSO是一款开源且提供商业支持的互联网单点登录解决方案。
 * [Waffle](https://github.com/Waffle/waffle)：为流行的Java Web服务器启用嵌入式Windows单点登录。
 * [Kerb4J](https://github.com/bedrin/kerb4j)：Java中Kerberos和SPNEGO的正确实现。
 * [SPNEGO](https://spnego.sourceforge.net/)：Java中的集成Windows身份验证和授权。
@@ -2437,6 +2460,7 @@
 * [Thrifty](https://github.com/microsoft/thrifty)：Thrifty是Apache Thrift软件堆栈的一个实现，它使用了Thrift编译器所采用的1/4方法数，由Microsoft开源。
 * [Transit](https://github.com/cognitect/transit-format)：Transit是一种用于在不同编程语言编写的应用程序之间传递值的格式和库集合。
 * [Ion Java](https://github.com/amazon-ion/ion-java)：Ion数据表示法的Java实现，由Amazon开源。
+* [Centurion](https://github.com/sksamuel/centurion)：Centurion是一款高性能的Kotlin工具包，用于以类型安全且符合Kotlin惯用方式处理列式和流式数据格式。
 * [SOFA Hessian](https://github.com/sofastack/sofa-hessian)：SOFA Hessian基于原生Hessian v4.0.51进行改进，目前已在蚂蚁金服内部稳定运行多年。
 * [Kotlin Serialization](https://github.com/Kotlin/kotlinx.serialization)：Kotlin Serialization由一个编译器插件组成，它为可序列化的类生成访问者代码，具有核心序列化API的运行时库以及具有各种序列化格式的支持库。
 * [Nippy](https://github.com/taoensso/nippy)：Clojure的快速序列化库。
@@ -3403,6 +3427,7 @@
 * [OpenCGA](https://github.com/opencb/opencga)：OpenCGA是一个开源项目，旨在为数百TB甚至PB级的基因组规模数据分析提供大数据存储引擎和分析框架，由剑桥大学计算生物学开源。
 * [HMFTools](https://github.com/hartwigmedical/hmftools)：该存储库包含全基因组、靶向DNA和全转录组分析流程中使用的工具套件，WiGiTS是一套通用的开源基因组和转录组分析工具，用于癌症研究和诊断，由哈特维格医学基金会开源。
 * [Drop-seq](https://github.com/broadinstitute/Drop-seq)：用于分析Drop-seq数据的Java和R工具，由麻省理工学院和哈佛大学布罗德研究所开源。
+* [RTG Tools](https://github.com/RealTimeGenomics/rtg-tools)：RTG Tools是RTG Core的一个子集，其中包含多个用于处理VCF文件和序列数据的实用工具。
 * [InterProScan](https://github.com/ebi-pf-team/interproscan)：InterPro通过将蛋白质归类为家族并预测域和重要位点来提供蛋白质的功能分析，由欧洲分子生物学实验室开源。
 * [Cloud Pipeline](https://github.com/epam/cloud-pipeline)：与云无关的基因组学分析、科学计算和存储平台，由EPAM开源。
 * [Cellbase](https://github.com/opencb/cellbase)：Cellbase是一个集中式数据库，集成了来自多个主要基因组和生物数据库的大量信息，用于基因组注释和临床变异优先级排序，由剑桥大学计算生物学开源。
@@ -3700,6 +3725,7 @@
 * [Rulegin](https://github.com/JaryZhen/rulegin)：基于JavaScript Engine的轻量级规则引擎系统。
 * [BitRules](https://github.com/richardstartin/multi-matcher)：BitRules是一种相当高效的数据结构，用于将大量简单规则应用于文档。
 * [Reguloj](https://github.com/metio/reguloj)：Reguloj是一个小巧轻便的Java规则引擎。
+* [DTRules](https://github.com/dtrules/dtrules)：DTRules是一个可用于生产的规则引擎，它允许业务分析师和策略专家使用Excel电子表格中的决策表，结合人类可读的DSL来定义复杂的业务逻辑。
 
 ## 决策引擎
 
@@ -3919,6 +3945,7 @@
 * [JobX](https://github.com/datavane/jobx)：JobX是一个功能完善真正通用的Linux定时任务调度系统，由Datavane大数据组织开源。
 * [TwTasks](https://github.com/transferwise/tw-tasks-executor)：TwTasks是一个能够以分布式方式执行任意异步代码并提供完全一致性保证的框架。
 * [Chronos](https://github.com/aolarchive/chronos)：用于后端系统的类似Cron的任务，由AOL开源。
+* [Niubi Job](https://github.com/xiaolongzuo/niubi-job)：Niubi Job是一个具备高可用特性的专门针对定时任务的任务调度框架。
 * [Redis Scheduler](https://github.com/davidmarquis/redis-scheduler)：Redis Scheduler是一个使用Redis的分布式调度器的Java实现。
 * [Cron4j](http://www.sauronsoftware.it/projects/cron4j/)：Cron4j是Java平台的调度程序，与UNIX Cron守护程序非常相似。
 * [Bus Cron](https://github.com/818000/bus/tree/main/bus-cron)：Bus Cron是一个基于Cron表达式的轻量级、高性能的定时任务框架。
@@ -5917,6 +5944,7 @@
 
 * [COLA](https://github.com/alibaba/COLA)：COLA代表整洁面向对象分层架构，由阿里开源。
 * [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
+* [Roma](https://www.romaframework.org/)：Roma允许你按照真正的领域驱动设计方法，轻松开发企业级Java应用程序。
 * [Spring Modulith](https://github.com/spring-projects/spring-modulith)：Spring Modulith允许开发人员构建结构良好的Spring Boot应用程序，并指导开发人员查找和使用由领域驱动的应用程序模块。
 * [PICASO](https://zhuanlan.zhihu.com/p/7561767079)：PICASO是一套以DDD作为思想内核，专门为集成式复杂业务系统设计的通用基础框架，由京东开发。
 * [jMolecules](https://github.com/xmolecules/jmolecules)：jMolecules用于帮助开发人员以无干扰的普通Java实现领域模型。
@@ -6883,6 +6911,7 @@
 * [CrafterCMS](https://github.com/craftercms/craftercms)：CrafterCMS是一个现代内容管理平台，用于构建数字体验应用程序。
 * [ηCMS](https://ncms.softmotions.com/)：开发人员可以基于ηCMS核心框架创建自己的Java项目，由Softmotions开发。
 * [MRCMS](https://github.com/wuweiit/mushroom)：MRCMS是一款Java开发的内容管理系统，采用数据模型、模板、插件实现，内置提供了文章模型发布功能。
+* [OpenWGA](https://www.openwga.com/)：OpenWGA是开源的基于Java的企业级内容管理系统。
 * [NoraCMS](http://inbox-online.com/noracms/)：NoraCMS是一个企业CMS，它为你提供创建引人入胜的Web体验和通过所有渠道接触客户所需的自由和灵活性。
 * [CONTENTBOX](https://www.contentboxcms.org/)：CONTENTBOX是一款功能强大的开源无头CMS，100%完全可定制。
 * [CicadasCMS](https://gitee.com/westboy/CicadasCMS)：CicadasCMS是使用Spring Boot、Mybatis、Beetl开发的一款CMS，支持自定义内容模型、模板标签、全站静态化等功能。
@@ -7183,6 +7212,7 @@
 * [Logistics](https://github.com/anselleeyy/logistics-back)：基于Spring Boot 2.0、LayUI 2框架的物流管理系统。
 * [OpenQuarterMaster](https://github.com/Epic-Breakfast-Productions/OpenQuarterMaster)：Open Quartermaster是一款开源的库存管理系统，设计简洁易用，功能强大且可扩展。
 * [KYTMS](https://gitee.com/jet-chain/KYTMS)：KYTMS是辽宁捷畅物流为公司个性化需求量身定制的一套TMS系统。
+* [InventoryManagementSystem](https://github.com/sajxraj/InventoryManagementSystem)：这是一款使用Java SE开发的软件，它提供了一种便捷的方式来跟踪产品、供应商、客户以及采购和销售信息。
 
 #### MES系统
 
@@ -7322,6 +7352,7 @@
 * [Fenxi365](https://gitee.com/flyemu/public-financial)：纷析云SaaS云财务软件开源版。
 * [Investbook](https://github.com/spacious-team/investbook)：Investbook帮助投资者统一管理和分析来自不同券商的交易记录，计算投资组合的各项关键指标。
 * [Budget App](https://github.com/paukiatwee/budgetapp)：Budget App是一款开源的个人预算应用程序。
+* [Facto](https://github.com/nymanjens/facto)：家庭会计工具。
 
 ## 支付
 
@@ -8315,6 +8346,7 @@
 #### 车载诊断
 
 * [AndrOBD](https://github.com/fr3ts0n/AndrOBD)：AndrOBD允许你的安卓设备通过任何兼容ELM327的OBD适配器连接到汽车的车载诊断系统，显示各种信息并执行操作。
+* [Kayak](https://github.com/dschanoeh/Kayak)：Kayak是一款用于CAN总线诊断和监控的应用程序。
 * [OBD Java API](https://github.com/pires/obd-java-api)：OBD-II Java API。
 * [Kotlin OBD API](https://github.com/eltonvs/kotlin-obd-api)：一个轻量级、由开发人员驱动的API，用于查询和解析OBD命令。
 
@@ -11286,6 +11318,7 @@
 * [MP3SPI](https://github.com/umjammer/mp3spi)：MP3 Java音频SPI。
 * [KtMIDI](https://github.com/atsushieno/ktmidi)：KtMIDI是一个Kotlin多平台库，用于MIDI访问API和MIDI数据处理，支持MIDI 1.0和MIDI 2.0。
 * [Jopus](https://github.com/kinsleykajiva/jopus)：Jopus使用Project Panama为Opus交互式音频编解码器提供高性能的Java绑定。
+* [Opus JNI](https://github.com/LabyMod/opus-jni)：Opus JNI是一个非常简单易用的Opus编解码器JNI封装库。
 * [JMBE](https://github.com/DSheirer/jmbe)：Java AMBE/IMBE音频解码器。
 * [Libshout Java](https://github.com/OlegKunitsyn/libshout-java)：Java Libshout绑定。
 * [WaveAccess](https://github.com/sintrb/WaveAccess)：波形文件(.wav)的Java读写操作库。
@@ -11751,6 +11784,7 @@
 
 * [JNI Rs](https://github.com/jni-rs/jni-rs)：该项目为Rust提供了完整的JNI绑定。
 * [J4RS](https://github.com/astonbitecode/j4rs)：J4RS允许从Rust轻松调用Java代码，反之亦然。
+* [Gobley](https://github.com/gobley/gobley)：将Rust嵌入到你的Kotlin多平台项目中。
 * [Robusta](https://github.com/giovanniberti/robusta)：该库提供了一个过程宏，使得在Rust中编写与JNI兼容的代码变得更容易。
 * [Duchess](https://github.com/duchess-rs/duchess)：Duchess是一个Rust包，可以简单、符合人体工程学且高效地与Java代码进行互操作。
 
@@ -11929,6 +11963,7 @@
 * [Trilateration](https://github.com/lemmingapex/trilateration)：使用非线性最小二乘优化器解决N维空间三边测量问题的公式。
 * [Compass](https://github.com/jordond/compass)：Compass是一个Kotlin多平台库定位工具包。
 * [PostGIS](https://github.com/postgis/postgis-java)：PostGIS的Java绑定及其他Java相关项目。
+* [GeOxygene](https://github.com/IGNF/geoxygene)：GeOxygene旨在提供一个开放框架，该框架实现了OGC/ISO规范，用于GIS应用的开发和部署，由法国国家测绘局开源。
 
 #### OpenStreetMap
 
@@ -12043,6 +12078,7 @@
 * [McIDAS-V](https://github.com/mcidasv/mcidasv)：McIDAS-V是3D地球物理数据分析和可视化的免费开源软件，由威斯康星大学麦迪逊分校开发。
 * [SuperMap](https://gitee.com/supermap/SuperMap-iDesktop-Cross)：SuperMap是一款支持跨平台、全开源的桌面GIS应用与开发平台系统。
 * [uDig](https://github.com/locationtech/udig-platform)：uDig的目标是提供一套完整的Java解决方案，用于桌面GIS数据的访问、编辑和查看。
+* [GvSIG](https://www.osgeo.org/projects/gvsig)：GvSIG是一个功能强大、用户友好、可互操作的GIS系统，在全球拥有数千名用户。
 
 #### 大地测量
 
@@ -12438,6 +12474,7 @@
 * [Mdict Java](https://github.com/KnIfER/mdict-java)：用于Java的Mdict字典文件格式的查询库。
 * [ExtJWNL](https://github.com/extjwnl/extjwnl)：ExtJWNL是一个用于创建、读取和更新WordNet格式词典的Java API。
 * [Stardict4j](https://codeberg.org/miurahr/stardict4j)：Stardict4j是Java版StarDict词典文件的访问库。
+* [JMdict Simplified](https://github.com/scriptin/jmdict-simplified)：JMdict的简化版处理库。
 
 ## 颜色库
 
@@ -12518,17 +12555,13 @@
 * [EsProc](https://github.com/SPLWare/esProc)：EsProc SPL是一种用于数据处理的脚本语言，具有精心设计的丰富的库函数和强大的语法，可以通过JDBC接口在Java程序中执行并独立计算，由SPLWare开源。
 * [IK Expression](https://code.google.com/archive/p/ik-expression/)：IK Expression是一个开源、可扩展、基于Java语言开发的一个超轻量级的公式化语言解析执行工具包。
 * [FastEL](https://github.com/dbcxy/fast-el)：轻量级的高效表达式计算引擎。
-* [QLExpress](https://github.com/alibaba/QLExpress)：QLExpress是一种强大的、轻量级的、动态的Java平台语言，旨在提高开发人员在不同业务场景中的生产力，阿里开源。
 * [MVEL](https://github.com/mvel/mvel)：MVEL是一种混合动态/静态类型、可嵌入的表达式语言和Java平台运行时。
-* [BeanShell](https://github.com/beanshell/beanshell)：Beanshell是一个小型、免费、可嵌入的Java源解释器，具有对象脚本语言功能。
-* [Magic Script](https://gitee.com/ssssssss-team/magic-script)：Magic Script是一款基于JVM的脚本语言。
 * [OGNL](https://github.com/orphan-oss/ognl)：OGNL代表对象图导航语言，它是一种用于获取和设置Java对象属性的表达式语言。
 * [Formula](https://github.com/salesforce/formula-engine)：可重用公式引擎的实现，具有JavaScript和SQL生成以及Salesforce批准的语法。
 * [SpEL](https://github.com/spring-projects/spring-framework)：SpEL是一种功能强大的表达式语言，支持在运行时查询和操作对象图。
 * [Janino](https://github.com/janino-compiler/janino)：Janino是一个超小、超快的Java编译器。
 * [JUEL](https://github.com/beckchr/juel)：JUEL是统一表达语言(EL)的实现，指定为JSP 2.1标准(JSR-245)的一部分，已在JEE5中引入。
 * [FEEL](https://github.com/camunda/feel-scala)：由Camunda用Scala编写的FEEL引擎。
-* [Liquor](https://gitee.com/noear/liquor)：Java动态编译、表达式、脚本工具。
 * [Cucumber Expressions](https://github.com/cucumber/cucumber-expressions)：Cucumber Expressions是正则表达式的替代品，具有更直观的语法。
 * [CEL Java](https://github.com/google/cel-java)：CEL是一种非图灵完备语言，旨在简单、快速、安全和可移植，由Google开发。
 * [Grammaticus](https://github.com/salesforce/grammaticus)：Grammaticus是一个语法引擎，允许用户重命名名词，同时保持内容的语法正确，由Salesforce开源。
@@ -12540,6 +12573,13 @@
 * [JBool Expressions](https://github.com/bpodgursky/jbool_expressions)：JBool Expressions是一个简单的开源库，用于在Java中创建和操作布尔表达式。
 * [Tweakflow](https://github.com/twineworks/tweakflow)：Tweakflow为JVM应用程序提供了一种以类似公式的符号来评估用户提供的表达式的方法。
 * [Starscript](https://github.com/MeteorDevelopment/starscript)：Java的快速文本格式化语言。
+
+#### 脚本语言
+
+* [QLExpress](https://github.com/alibaba/QLExpress)：QLExpress是一种强大的、轻量级的、动态的Java平台语言，旨在提高开发人员在不同业务场景中的生产力，阿里开源。
+* [BeanShell](https://github.com/beanshell/beanshell)：Beanshell是一个小型、免费、可嵌入的Java源解释器，具有对象脚本语言功能。
+* [Magic Script](https://gitee.com/ssssssss-team/magic-script)：Magic Script是一款基于JVM的脚本语言。
+* [Liquor](https://gitee.com/noear/liquor)：Java动态编译、表达式、脚本工具。
 * [JQuick Java](https://github.com/paohaijiao/jquick-java)：JQuick Java是一种轻量级类Java脚本语言，专为简洁高效的编程而设计。
 
 #### 数学表达式
@@ -12746,6 +12786,7 @@
 * [小象用户行为分析平台](https://gitee.com/xiaoxiangopen/analysis)：商用产品开源，包括用户埋点数据采集、用户标签分群和画像、智慧运营、营销等。
 * [ClkLog](https://gitee.com/clklog/clklog)：ClkLog是一款记录用户行为分析和画像的免费可商用开源软件，技术人员可快速搭建私有的应用系统。
 * [UBA](https://github.com/Foleyzhao/UBA)：JianWei是一款专业的企业级用户行为分析系统。
+* [Botan](https://github.com/botanio/sdk)：Botan是一个基于Yandex.Appmetrica的Telegram机器人分析系统。
 
 ## URL库
 
@@ -12941,7 +12982,6 @@
 * [JScript](https://github.com/TopchetoEU/jscript)：JScript是一个引擎，能够运行EcmaScript 5，完全用Java编写。
 * [Karate JS](https://github.com/karatelabs/karate-js)：适用于JVM的轻量级JavaScript引擎。
 * [Trireme](https://github.com/apigee/trireme)：Trireme在JVM内运行Node.js脚本。
-* [DWR](https://github.com/directwebremoting/dwr)：DWR是一个Java库，它使服务器上的Java和浏览器中的JavaScript能够尽可能简单地交互和调用。
 * [Reeva](https://github.com/ReevaJS/reeva)：Reeva是一个使用Kotlin从头编写的JavaScript引擎。
 * [QuickJs4J](https://github.com/roastedroot/quickjs4j)：QuickJs4J允许你使用沙盒环境安全轻松地从Java运行JavaScript。
 * [QuickJS Wrapper](https://github.com/HarlonWang/quickjs-wrapper)：Android/JVM的QuickJS包装器。
