@@ -707,6 +707,7 @@
 * [JSErrorCollector](https://github.com/mguillem/JSErrorCollector)：本项目允许在使用WebDriver运行测试时捕获JavaScript错误。
 * [Shadow Automation Selenium](https://github.com/sukgu/shadow-automation-selenium)：本项目专注于使用Java Selenium实现多级Shadow根DOM的自动化。
 * [DevTools Selenium](https://github.com/testleaf-software/devtools-webdriver)：DevTools Selenium是一个用于集成Selenium WebDriver和Chrome DevTools的Java库。
+* [PatatiumWebUi](https://gitee.com/zhengshuheng/PatatiumWebUi)：PatatiumWebUi是一个WebUI自动化测试框架。
 
 #### WebDriver
 
@@ -799,6 +800,7 @@
 * [Video Recorder](https://github.com/SergeyPirogov/video-recorder-java)：该库只需添加一些注解即可轻松录制UI测试的视频。
 * [Step](https://github.com/exense/step)：Step是一个统一的软件自动化平台，可让你充分利用自动化工件，同时摆脱特定工具。
 * [TESTAR](https://github.com/TESTARtool/TESTAR_dev)：TESTAR是一款能够在GUI级别对桌面、Web和移动应用程序进行无脚本自动化系统测试的工具，由瓦伦西亚理工大学、乌得勒支大学和荷兰开放大学等开发。
+* [Rabbit](https://gitee.com/tuzikuaipao/rabbit_test_platform_server)：Rabbit是一个开源的自动化测试平台。
 * [Testerra](https://github.com/telekom/testerra)：Testerra是一个用于自动测试(Web)应用程序的集成框架，由德国电信开源。
 * [ReVoman](https://github.com/salesforce-misc/ReVoman)：ReVoman是一个JVM API自动化工具，它通过让你在JVM程序/测试中执行Postman集合来重新构想API自动化，由Salesforce开源。
 * [BotCity](https://github.com/botcity-dev/botcity-framework-core)：BotCity RPA模块提供识别UI元素并使用鼠标和键盘操作与其交互的功能。
@@ -1093,6 +1095,7 @@
 
 #### JDBC框架
 
+* [Jakarta Persistence](https://github.com/jakartaee/persistence)：Jakarta Persistence定义了Java环境中持久化管理和对象/关系映射的行业标准。
 * [Spring JDBC](https://github.com/spring-projects/spring-framework)：Spring JDBC是Spring框架提供的一个基于JDBC之上的用于操作关系型数据库的模块。
 * [Jdbi](https://github.com/jdbi/jdbi)：Jdbi库提供了对Java和其他JVM语言中的关系数据库的便捷、惯用的访问。
 * [Sql2o](https://github.com/aaberg/sql2o)：Sql2o是一个小型Java库，可以轻松地将SQL语句的结果转换为对象。
@@ -1176,6 +1179,7 @@
 
 #### NoSQL库
 
+* [Jakarta NoSQL](https://github.com/jakartaee/nosql)：Jakarta NoSQL是一个综合框架，旨在简化Java应用程序与各种NoSQL数据库的集成。
 * [Eclipse JNoSQL](https://github.com/eclipse-jnosql/jnosql)：JNoSQL是Jakarta NoSQL和Jakarta Data规范的兼容实现，可简化Java应用程序与NoSQL数据库的集成。
 * [Kundera](https://github.com/Impetus/kundera)：Kundera是一个带有JPA接口的多语言对象映射器。
 * [Lightblue](https://github.com/lightblue-platform/lightblue-core)：Lightblue是基于文档的数据访问层框架，由RedHat开源。
@@ -1186,6 +1190,7 @@
 
 * [Seata](https://github.com/apache/incubator-seata)：Seata是一个易于使用、高性能、开源的分布式事务解决方案，由阿里开源。
 * [SOFA DTX](https://mvnrepository.com/artifact/com.alipay.dtx/dtx-sofa)：DTX是蚂蚁研发的一款金融级分布式事务中间件。
+* [Jakarta Transactions](https://github.com/jakartaee/transactions)：Jakarta Transactions允许在Java环境中跨多个X/Open XA资源执行分布式事务。
 * [Apache ShardingSphere](https://github.com/apache/shardingsphere)：ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
 * [Namastack](https://github.com/namastack/namastack-outbox)：Spring Boot的发件箱实现。
 * [ByteTCC](https://github.com/liuyangming/ByteTCC)：ByteTCC是分布式事务管理器的实现，基于TCC机制。
@@ -1433,6 +1438,7 @@
 * [Redis Admin](https://gitee.com/xuebusi/redis-admin)：Redis Admin是一个简单好用的Redis缓存图形化管理工具，包含Redis的5种数据类型的CRUD操作。
 * [Redis Admin](https://gitee.com/xianxin98/redis-admin)：轻量级Redis缓存图形化管理工具，包含Redis的5种数据类型的CRUD操作。
 * [RedisFront](https://gitee.com/dromara/RedisFront)：RedisFront是一款开源跨平台Redis桌面客户端工具，支持单机模式、集群模式、哨兵模式以及SSH隧道连接，由dromara社区开源。
+* [NRedis Proxy](https://gitee.com/284520459/redis-monitor)：NRedis Proxy是一个Redis中间件服务。
 * [Redis Manager](https://github.com/ngbdf/redis-manager)：Redis Manager是Redis一站式管理平台，支持集群的监控、安装、管理、告警以及基本的数据操作功能。
 * [XPipe](https://github.com/ctripcorp/x-pipe)：X-Pipe是由携程框架部门研发的Redis多数据中心复制管理系统。
 * [CacheCloud](https://github.com/sohutv/cachecloud)：CacheCloud是一个Redis云管理平台，支持Redis多种架构高效管理、有效降低大规模Redis运维成本，提升资源管控能力和利用率，由搜狐开源。
@@ -2017,6 +2023,8 @@
 * [SM2/SM3/SM4 Encrypt](https://github.com/xjfuuu/SM2_SM3_SM4Encrypt)：基于Java语言的国密SM2/SM3/SM4算法库，包含加密/解密、签名/验签、摘要算法的实现。
 * [HSD Cipher SM](https://github.com/gotoworld/hsd-cipher-sm)：国密算法SM2、SM3、SM4实现。
 * [GM Java](https://gitee.com/RuanKongkong/gm-java)：GM Java是一套用Java开发的支持国密算法的加解密工具包。
+* [Java GM](https://github.com/Hyperledger-TWGC/java-gm)：基于BouncyCastle实现国密算法SM2、SM3、SM4的操作类。
+* [AlgorithmNation](https://gitee.com/xshuai/algorithmNation)：SM2、SM3、SM4国密算法库。
 * [Cat](https://gitee.com/bat/cat)：CAT是一款小巧的Java加密与解密算法调用工具包。
 * [Bcrypt](https://github.com/patrickfav/bcrypt)：bcrypt密码哈希函数的Java独立实现。
 * [Shamir](https://github.com/codahale/shamir)：Shamir的秘密共享算法在GF(256)上的Java实现。
@@ -2051,6 +2059,7 @@
 * [Encrypt Body Spring Boot Starter](https://github.com/Licoy/encrypt-body-spring-boot-starter)：Spring Boot控制器统一的响应体编码/加密与请求体解密的注解处理方式，支持MD5/SHA/AES/DES/RSA。
 * [RSA Encrypt Body Spring Boot](https://gitee.com/isuperag/rsa-encrypt-body-spring-boot)：Spring Boot接口加密，可以对返回值、参数值通过注解的方式自动加解密。
 * [HTTPSign](https://gitee.com/fastquery2016/httpsign)：RESTful API签名认证。
+* [Encrypt Spring Boot Starter](https://gitee.com/gouliang/dtguai-encrypt-spring-boot-starter)：Spring Boot通过注解实现数据加密与解密，支持多种加密方式及国密算法。
 
 #### 数据脱敏
 
@@ -2111,6 +2120,7 @@
 * [EJBCA](https://github.com/Keyfactor/ejbca-ce)：开源公钥基础设施(PKI)和证书颁发机构(CA)软件。
 * [Dogtag PKI](https://github.com/dogtagpki/pki)：Dogtag证书系统是一个企业级开源证书颁发机构(CA)。
 * [ACME4J](https://github.com/shred/acme4j)：ACME Java客户端。
+* [LittleCA](https://github.com/dushitaoyuan/littleca)：LittleCA是一个基于BC的小型CA(证书颁发机构)库。
 
 #### 数据匿名化
 
@@ -2158,6 +2168,7 @@
 * [Indeed Util](https://github.com/indeedeng/util)：由Indeed开发的通用Java工具类。
 * [JUtils](https://github.com/chenssy89/jutils)：JUtils包含通用的Java工具类库。
 * [VJTools](https://github.com/vipshop/vjtools)：VJTools是由唯品会开源的Java编码标准、库和工具。
+* [ZftLive](https://gitee.com/zftlive/zftlive)：ZftLive是一个集成目前Android主流优秀第三方组件、优秀好用的自定义控件、实用工具类封装。
 * [DevUtils](https://github.com/afkT/DevUtils)：DevUtils是一个Android工具库，主要根据不同功能模块，封装快捷使用的工具类及API方法调用。
 * [SOFA Common](https://github.com/sofastack/sofa-common-tools)：SOFA Common是蚂蚁为其他SOFA库提供一些实用功能的库。
 * [Commons Core](https://github.com/ponfee/commons-core)：Java工具类库。
@@ -2648,6 +2659,7 @@
 * [Vert.x JSON Schema](https://github.com/eclipse-vertx/vertx-json-schema)：Vert.x Json Schema为Json Schema规范提供了可扩展且异步的实现。
 * [Scala JSON Schema](https://github.com/andyglow/scala-jsonschema)：Scala JSON Schema的目标是使JSON Schema的生成方式与所有流行的JSON读写库一致。
 * [JSON Schema Core](https://github.com/java-json-tools/json-schema-core)：JSON Schema Validator和其他处理器的核心支持架构。
+* [JSON Schema Validator](https://github.com/OptimumCode/json-schema-validator)：JSON Schema的一个Kotlin多平台实现。
 
 #### JsonPath
 
@@ -2890,6 +2902,7 @@
 ## 日期时间
 
 * [Joda Time](https://github.com/JodaOrg/joda-time)：Joda Time提供了Java日期和时间类的优质替代品。
+* [Kotlinx Datetime](https://github.com/Kotlin/kotlinx-datetime)：KotlinX多平台日期/时间库。
 * [Prettytime](https://github.com/ocpsoft/prettytime)：Java的社交风格日期和时间格式。
 * [Time4J](https://github.com/MenoData/Time4J)：Time4J是围绕Date、Calendar和SimpleDateFormat的旧Java类的完整且高端的替代品。
 * [ThreeTen Extra](https://github.com/ThreeTen/threeten-extra)：ThreeTen Extra提供了额外的日期时间类来补充JDK 8中的类。
@@ -7835,6 +7848,7 @@
 * [XDAGJ](https://github.com/XDagger/xdagj)：XDAGJ是XDAG在Java中的实现。
 * [Snowblossom](https://github.com/snowblossomcoin/snowblossom)：Snowblossom是一种简单的加密货币。
 * [MyLocalTon](https://github.com/neodix42/MyLocalTon)：个人本地TON区块链。
+* [JulongChain](https://github.com/JulongChain/julongchain)：聚龙链是一个基于Java的开源联盟链区块链底层技术平台。
 
 #### 以太坊
 
@@ -8633,6 +8647,7 @@
 * [Kt Telegram Bot](https://github.com/elbekD/kt-telegram-bot)：用于Kotlin语言的Telegram Bot库。
 * [Telebof](https://github.com/natanimn/Telebof)：Telebof是一个简单易用的现代Java库，用于使用Telegram Bot API构建Telegram机器人。
 * [Telegram Bot API](https://github.com/hellokaton/telegram-bot-api)：Java的Telegram机器人API，帮助你快速创建一个小机器人。
+* [Kotlin Telegram Bot](https://github.com/DEHuckaKpyT/telegram-bot)：Kotlin Telegram Bot库，用于创建具有实用功能的可扩展应用程序。
 
 #### Facebook机器人
 
@@ -11090,6 +11105,7 @@
 * [Neptune](https://github.com/LPC4/Neptune-32)：Neptune是一款定制的32位CPU模拟器，集成了汇编器和汇编语言。
 * [Nand2Tetris](https://github.com/itoshkov/nand2tetris-emu)：Nand2Tetris软件套件允许使用Java实现新型芯片。
 * [MSPSim](https://github.com/contiki-ng/mspsim)：MSPSim是一款基于Java的指令级仿真器，用于仿真MSP430系列微处理器以及部分传感器网络平台。
+* [EMUStudio](https://github.com/emustudio/emuStudio)：EMUStudio是一款用于计算机模拟和编写模拟计算机程序的桌面应用程序。
 
 ## MIPS
 
@@ -12557,6 +12573,7 @@
 #### 表达式引擎
 
 * [Aviator](https://code.google.com/archive/p/aviator/)：Aviator是一个高性能、轻量级的基于Java实现的表达式引擎，它动态地将String类型的表达式编译成Java字节码并交给JVM执行，Google开源。
+* [Jakarta Expression Language](https://github.com/jakartaee/expression-language)：Jakarta Expression Language定义了一种用于Java应用程序的表达式语言。
 * [Apache Commons JEXL](https://github.com/apache/commons-jexl)：Commons JEXL库是Java共生表达式语言的实现。
 * [AviatorScript](https://github.com/killme2008/aviatorscript)：AviatorScript是一门高性能、轻量级寄宿于JVM(包括Android平台)之上的脚本语言。
 * [JSEL](https://code.google.com/archive/p/lite/wikis/JSEL.wiki)：JSEL是一个兼容JavaScript运算规则的简单表达式解释引擎。
