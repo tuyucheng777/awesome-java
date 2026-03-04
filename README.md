@@ -292,6 +292,7 @@
   * [授权服务器](docs/doc2.md#授权服务器)
   * [OAuth库](docs/doc2.md#OAuth库)
   * [身份管理平台](docs/doc2.md#身份管理平台)
+  * [跨域身份管理](docs/doc2.md#跨域身份管理)
   * [单点登录](docs/doc2.md#单点登录)
   * [安全库](docs/doc2.md#安全库)
   * [LDAP](docs/doc2.md#LDAP)
@@ -300,7 +301,6 @@
   * [漏洞工具](docs/doc2.md#漏洞工具)
   * [安全培训](docs/doc2.md#安全培训)
   * [自保护](docs/doc2.md#自保护)
-  * [跨域身份管理](docs/doc2.md#跨域身份管理)
   * [加密库](docs/doc2.md#加密库)
   * [密码库](docs/doc2.md#密码库)
   * [加密算法](docs/doc2.md#加密算法)
@@ -355,6 +355,7 @@
   * [执行策略](docs/doc2.md#执行策略)
   * [GraphQL标量](docs/doc2.md#GraphQL标量)
 * [日期时间](docs/doc2.md#日期时间)
+  * [TimeAgo](docs/doc2.md#TimeAgo)
   * [日历库](docs/doc2.md#日历库)
   * [日期/时间解析器](docs/doc2.md#日期时间解析器)
   * [假期库](docs/doc2.md#假期库)
@@ -378,13 +379,13 @@
   * [直方图](docs/doc2.md#直方图)
   * [运筹学](docs/doc2.md#运筹学)
 * [图处理](docs/doc2.md#图处理)
-* [本体库](docs/doc2.md#本体库)
+* [语义Web](docs/doc2.md#语义Web)
+  * [本体库](docs/doc2.md#本体库)
   * [本体编辑器](docs/doc2.md#本体编辑器)
   * [本体推理机](docs/doc2.md#本体推理机)
   * [本体匹配](docs/doc2.md#本体匹配)
   * [本体转换](docs/doc2.md#本体转换)
   * [RDF库](docs/doc2.md#RDF库)
-  * [语义Web](docs/doc2.md#语义Web)
   * [知识图谱](docs/doc2.md#知识图谱)
 * [生物信息学](docs/doc2.md#生物信息学)
   * [生物工具](docs/doc2.md#生物工具)
@@ -444,6 +445,7 @@
 * [字节码操作](docs/doc2.md#字节码操作)
 * [反编译](docs/doc2.md#反编译)
 * [代码混淆](docs/doc2.md#代码混淆)
+* [反混淆](docs/doc2.md#反混淆)
 * [逆向工程](docs/doc2.md#逆向工程)
 * [反向移植](docs/doc2.md#反向移植)
 * [图像处理](docs/doc2.md#图像处理)
@@ -1911,7 +1913,10 @@
 * [Cascading](https://github.com/cwensel/cascading)：Cascading是一个功能丰富的API，用于在本地或集群上定义和执行复杂且容错的数据处理流。
 * [ETL Engine](https://github.com/add2ws/etl-engine-project)：ETL Engine是一款轻量级、面向开发者的ETL库，旨在作为Kettle的高性能替代方案。
 * [Arc](https://github.com/tripl-ai/arc)：Arc是一个有主见的框架，用于定义可预测、可重复且可管理的数据管道。
+* [Hale](https://github.com/halestudio/hale)：Hale Studio是一款桌面和服务器环境，用于分析、转换和验证复杂数据集。
 * [Enhydrator](https://github.com/AdamBien/enhydrator)：Enhydrator读取类似表格的结构，进行过滤、转换，然后将结果写回。
+* [Rope](https://gitee.com/starblues/rope)：Rope是一款轻量级别的ETL工具。
+* [ETL Platform](https://gitee.com/liujl1990/etl-platform)：基于Spring Boot、Spring Batch实现的ETL链式数据抽取平台，由百数通医疗公司开源。
 
 #### CDC组件
 
@@ -1978,8 +1983,8 @@
 
 #### 集群管理
 
-* [Apache Aurora](https://github.com/apache/aurora)：Aurora是一个用于长期运行服务和cron作业的Mesos框架，由Twitter开源。
-* [Chronos](https://github.com/mesos/chronos)：Chronos是cron的替代品，它是一个分布式容错调度程序，运行在Mesos之上，可用于作业编排。
+* [Apache Aurora](https://github.com/apache/aurora)：Aurora是一个用于长期运行服务和Cron作业的Mesos框架，由Twitter开源。
+* [Chronos](https://github.com/mesos/chronos)：Chronos是Cron的替代品，它是一个分布式容错调度程序，运行在Mesos之上，可用于作业编排。
 * [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
 * [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
 * [OPENI](https://github.com/open-intelligence/OpenI-Octopus)：OPENI是一个集群管理工具和资源调度平台，最初由微软研究院、微软搜索技术中心、北京大学、西安交通大学、浙江大学和中国科学技术大学联合设计和开发。
@@ -3168,6 +3173,7 @@ Kafka生态管理系统、运维平台。
 * [KMP SocketIO](https://github.com/HackWebRTC/kmp-socketio)：KMP实现的SocketIO客户端。
 * [Socket.IO.Play](https://github.com/milliondreams/socket.io.play)：Play框架的Socket.io服务器端支持。
 * [Spray SocketIO](https://github.com/dcaoyuan/spray-socketio)：Spray上的Socket.IO实现，支持集群分片。
+* [Socket.IO Netty](https://github.com/ibdknox/socket.io-netty)：Socket.IO Netty是一个基于Netty构建的Socket.IO服务器实现。
 
 #### Socket
 
@@ -3209,6 +3215,7 @@ Kafka生态管理系统、运维平台。
 * [SimpleNet](https://github.com/jhg023/SimpleNet)：SimpleNet是一个用Java编写的简单的客户端/服务器框架。
 * [Dragonite](https://github.com/dragonite-network/dragonite-java)：Dragonite是一种基于UDP的可靠应用级数据传输协议，针对有损和不稳定的网络进行了高度优化。
 * [JBoss Remoting](https://github.com/jboss-remoting/jboss-remoting)：JBoss Remoting的目的是提供一个用于通过网络进行对称和非对称通信的通用框架，由RedHat开发。
+* [Extasys](https://github.com/nsiatras/extasys)：Extasys是一个高性能的异步TCP/UDP套接字库。
 
 #### IM
 
@@ -3550,7 +3557,7 @@ Kafka生态管理系统、运维平台。
 * [Fairy](https://github.com/FairyProject/fairy)：Fairy是一个针对跨平台大型Minecraft应用程序插件优化的框架。
 * [Apache OpenEJB](https://openejb.apache.org/)：OpenEJB是一个开源、可嵌入、轻量级的EJB容器系统和EJB服务器。
 * [Apache OpenWebBeans](https://github.com/apache/openwebbeans)：OpenWebBeans是CDI 2.0规范的实现，最初由OW2开发。
-* [Eclipse Sisu](https://github.com/eclipse/sisu.inject)：Sisu是一个基于JSR330的模块化容器，支持类路径扫描、自动绑定和动态自动装配，由Sonatype开发。
+* [Eclipse Sisu](https://github.com/eclipse-sisu/sisu-project)：Sisu是一个基于JSR330的模块化容器，支持类路径扫描、自动绑定和动态自动装配，由Sonatype开发。
 * [Weld](https://github.com/weld/core)：Weld是CDI的参考实现，由RedHat开源。
 * [Coody](https://gitee.com/coodyer/Coody-Framework)：Coody是一个国产IoC框架，轻量级、简单快速。
 * [Grapht](https://github.com/grouplens/grapht)：Grapht是一个轻量级的依赖注入器，由明尼苏达大学开源。
@@ -3759,6 +3766,7 @@ Kafka生态管理系统、运维平台。
 * [SuperSQL](https://gitee.com/guocjsh/supersql-open)：SuperSQL是一个基于国内外先进生成式大模型的Java框架，实现从自然语言文本到SQL查询的智能转换。
 * [DataAgent](https://github.com/spring-ai-alibaba/DataAgent)：DataAgent是一个基于Spring AI Alibaba的自然语言转SQL项目，能让你用自然语言直接查询数据库，不需要写复杂的SQL。
 * [DAT](https://github.com/junjiem/dat)：DAT让业务人员能够用自然语言直接与数据库对话，无需编写复杂的SQL查询。
+* [WebSQL](https://gitee.com/boy_0214/websql)：WebSQL管理工具，SQL执行、数据开发、跨库联查、Text2Sql、ETL同步、动态数据源、SQL管理、数据监测等众多功能。
 
 #### LLMOps
 
