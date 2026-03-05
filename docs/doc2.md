@@ -1094,6 +1094,7 @@
 * [BatooJPA](https://github.com/BatooOrg/BatooJPA)：BatooJPA是一种高性能的JPA实现。
 * [DoytoQuery](https://github.com/doytowin/doyto-query)：DoytoQuery实现了一种动态查询语言，它能够从对象生成查询语句。
 * [RexDB](https://gitee.com/rexsoft/rexdb)：RexDB是一款使用Java语言编写、开源的持久层框架。
+* [Revenj](https://github.com/ngs-doo/revenj)：Revenj是一个针对.NET/JVM的快速框架，具有对Postgres和Oracle数据库的高级LINQ支持。
 
 #### JDBC框架
 
@@ -1621,7 +1622,6 @@
 
 #### 安全框架
 
-* [JAAS](https://docs.oracle.com/en/java/javase/11/security/java-authentication-and-authorization-service-jaas-reference-guide.html)：JAAS实现了标准可插拔身份验证模块(PAM)框架的Java版本，由Oracle开发。
 * [Spring Security](https://github.com/spring-projects/spring-security)：Spring Security是一个功能强大且高度可定制的身份验证和访问控制框架，由VMware开源。
 * [Jakarta Security](https://github.com/jakartaee/security)：Jakarta Security提供了一组必需的安全功能，包括身份验证、授权、数据完整性和传输安全。
 * [Apache Shiro](https://github.com/apache/shiro)：Shiro是一个功能强大且易于使用的Java安全框架，可以执行身份验证、授权、加密和会话管理。
@@ -1651,6 +1651,7 @@
 * [Cedar](https://github.com/cedar-policy/cedar-java)：Cedar是一种开源策略语言和评估引擎，使开发人员能够将细粒度的权限表达为在其应用程序中强制执行的易于理解的策略，并将访问控制与应用程序逻辑分离，由AWS开源。
 * [SAPL](https://github.com/heutelbeck/sapl-policy-engine)：SAPL是一种用于实现ABAC的强大的策略语言和引擎。
 * [CoSec](https://github.com/Ahoo-Wang/CoSec)：CoSec是基于角色的访问控制和基于策略的多租户响应式安全框架。
+* [Thunx](https://github.com/xenit-eu/thunx)：Thunx是一个可插拔的基于属性的访问控制系统。
 * [PicketLink](https://github.com/picketlink/picketlink)：PicketLink是一个用于保护Java EE应用程序的安全框架，由RedHat开发。
 * [OWASP ESAPI Java](https://github.com/ESAPI/esapi-java-legacy)：OWASP ESAPI是一个免费、开源的Web应用程序安全控制库，使程序员可以更轻松地编写风险较低的应用程序。
 * [Netryx](https://github.com/OWASP/www-project-netryx)：Netryx是由OWASP exploit小组领导的高级Java安全框架。
@@ -2639,6 +2640,7 @@
 * [OkJSON](https://gitee.com/calvinwilliams/okjson)：OkJSON是用Java编写的JSON处理器。
 * [Json4Bean](https://gitee.com/angryid/json4bean)：Json4Bean是一个JSON序列化库。
 * [Json Util](https://gitee.com/yidasanqian/json-util)：Json Util工具类整合了Jackson、Gson和Fastjson库并统一API。
+* [Kondor JSON](https://github.com/uberto/kondor-json)：Kondor JSON是一个功能强大的Kotlin库，无需使用反射、注解或代码生成，即可快速安全地序列化/反序列化Json。
 
 #### JSON Schema
 
@@ -2924,6 +2926,7 @@
 * [Java Time Fun](https://github.com/sami-eljabali/java-time-fun)：java.time包Kotlin扩展函数库。
 * [Island Time](https://github.com/erikc5000/island-time)：一个用于处理日期和时间的Kotlin多平台库，其灵感主要来源于java.time库。
 * [khronos](https://github.com/hotchemi/khronos)：Kotlin中直观的Date扩展。
+* [DateTime233](https://github.com/SolarisNeko/datetime233)：DateTime233是一款功能强大且直观的日期时间实用程序，可简化日期和时间的处理。
 
 #### TimeAgo
 
@@ -3334,6 +3337,7 @@
 * [Elda](https://github.com/epimorphics/elda)：Elda是Linked Data API的Java实现，它提供了一种可配置的方式，使用简单的RESTful URL访问RDF数据，这些URL被转换为对SPARQL端点的查询。
 * [Quetzal](https://github.com/Quetzal-RDF/quetzal)：支持多种后端的SPARQL到SQL转换引擎。
 * [RDF Delta](https://github.com/afs/rdf-delta)：RDF Delta提供了一个用于记录和发布RDF数据集变更的系统。
+* [IFCtoRDF](https://github.com/pipauwel/IFCtoRDF)：IFCtoRDF是一组可重用的Java组件，允许解析IFC-SPF文件并将其转换为RDF图。
 
 #### 知识图谱
 
@@ -3788,6 +3792,7 @@
 * [Statelin](https://github.com/anupcowkur/Statelin)：Statelin是一个完全用Kotlin实现的有限状态机。
 * [Easy StateMachine](https://github.com/ycj007/easy-statemachine)：轻量级状态机工作流框架。
 * [Kotlin Finite-State Machine](https://github.com/open-jumpco/kfsm)：Kotlin中的有限状态机。
+* [Strict Machine](https://github.com/digitalpetri/strict-machine)：Strict Machine是一个声明式DSL，用于构建异步评估的有限状态机。
 
 ## 状态容器
 
@@ -3899,6 +3904,7 @@
 * [Squarespace Template](https://github.com/Squarespace/template-compiler)：Squarespace Template是Squarespace网站构建平台的核心模板编译引擎。
 * [Inflectible](https://github.com/gvlasov/inflectible)：Inflectible是一款灵活的模板引擎，支持词形变化。
 * [Flamewing](https://github.com/pazvanti/Flamewing)：Flamewing是一个适用于Spring和Spring Boot的现代模板引擎。
+* [Handlebars.Scala](https://github.com/mwunsch/handlebars.scala)：Handlebars的Scala实现，它是Mustache模板语言的扩展和超集。
 
 ## 批处理框架
 
@@ -4446,7 +4452,7 @@
 * [Stringer](https://jfxstore.com/stringer/)：Stringer可保护Java应用程序二进制文件(JAR、Java 9模块、OSGI、WAR、EAR、Eclipse RCP)免遭逆向工程和修改。
 * [Obfuscator](https://github.com/superblaubeere27/obfuscator)：Obfuscator是一个GUI Java混淆器。
 * [JObfuscator](https://www.pelock.com/products/jobfuscator)：JObfuscator是Java语言的源代码混淆器。
-* [Gruntpocalypse](https://github.com/SpartanB312/Grunt)：Gruntpocalypse是一个用Kotlin编写的JVM字节码混淆器，具有30多种功能。
+* [Grunteon](https://github.com/SpartanB312/Grunt)：Grunteon是第三代Grunt混淆器，一个用Kotlin编写的JVM字节码混淆器。
 * [Java Obfuscator](https://github.com/alpheratzteam/obfuscator)：用于保护Java应用程序的混淆器。
 * [Jar Obfuscator](https://github.com/jar-analyzer/jar-obfuscator)：Jar Obfuscator是一个Jar/Class文件混淆工具。
 * [JNIC](https://jnic.dev/)：强大的Java原生混淆器。
@@ -4462,6 +4468,8 @@
 * [JarEncrypt](https://github.com/AloneMonkey/JarEncrypt)：Jar包保护加密解决方案。
 * [Bus Shade](https://github.com/818000/bus/tree/main/bus-shade)：Bus Shade是一款功能强大的Java工具包，提供全面的JAR加密和代码生成功能。
 * [UniObfuscator](https://github.com/MJVL/UniObfuscator)：一个简单的Java代码混淆器，利用Java的Unicode转义将代码隐藏在注释标签和Unicode垃圾数据中。
+* [Scuti](https://github.com/netindev/scuti)：Scuti Java混淆器。
+* [JarGuard](https://www.jarguardpro.cn/)：JarGuard Pro提供强大的Java字节码混淆功能。
 
 ## 反混淆
 
@@ -5534,6 +5542,7 @@
 * [NMON Visualizer](https://github.com/nmonvisualizer/nmonvisualizer)：NMON Visualizer是一款用于分析AIX和Linux上NMON系统文件的Java图形界面工具。
 * [CostTime](https://github.com/JeasonWong/CostTime)：一个用于计算方法耗时的库。
 * [Java Object Search](https://github.com/c0ny1/java-object-searcher)：Java内存对象搜索辅助工具。
+* [Babar](https://github.com/criteo/babar)：Babar是一个分布式应用程序分析器，专为分析大规模分布式应用程序。
 
 #### APM
 
@@ -6151,6 +6160,7 @@
 * [JarManage](https://gitee.com/code2roc/jar-manage)：JarManage是一个可视化Jar包部署平台，让部署变得简单、快捷。
 * [Liima](https://github.com/liimaorg/liima)：Liima自动化中间件允许你在无限数量的不同环境中管理各种版本的Java EE应用程序的配置，包括这些应用程序的自动部署。
 * [Gradle Cargo](https://github.com/bmuschko/gradle-cargo-plugin)：Gradle插件通过Cargo为本地和远程容器提供部署功能。
+* [WAD](https://github.com/AdamBien/wad)：WAD监视src\main\java文件夹中的变化，使用该文件夹构建项目pom.xml，并将ThinWAR部署到配置的文件夹中。
 
 ## 更新
 
@@ -6293,6 +6303,7 @@
 * [Jakarta EE kickoff App](https://github.com/javaeekickoff/java-ee-kickoff-app)：用于启动新的Jakarta EE或Java EE Web应用程序的基本项目模板。
 * [Spring Boot Best Practice](https://github.com/tomoyane/springboot-bestpractice)：Spring Boot最佳实践架构模板。
 * [Quarkus DDD Boilerplate](https://github.com/dolap-tech/quarkus-ddd-boilerplate)：Quarkus领域驱动设计样板，使用多模块结构和Gradle。
+* [Skeleton](https://github.com/fengchangsheng/skeleton)：Spring Boot、Mybatis骨架。
 
 #### 脚手架
 
@@ -6330,6 +6341,8 @@
 * [Smart Cloud](https://github.com/smart-cloud/smart-cloud)：基于Spring Boot、Spring Cloud的脚手架。
 * [Sloth](https://github.com/dee1024/sloth)：Sloth是一个生成脚手架代码的工具。
 * [Spring Initializr TUI](https://github.com/danvega/spring-initializr-tui)：一个用于搭建Spring Boot项目的交互式终端界面。
+* [MicroService Scaffold](https://github.com/jackson-zb/microservice-scaffold)：基于Spring Cloud搭建的微服务脚手架。
+* [AirPower4J](https://github.com/AirPowerTeam/AirPower4J)：AirPower4J是一个基于Java 17、Spring Boot 3.x、JPA、MySQL的后端开发脚手架。
 
 #### 快速开发框架
 
@@ -6638,6 +6651,8 @@
 * [NoneIM](https://github.com/defineYIDA/NoneIM)：None-IM是一款分布式可横向扩展的IM系统。
 * [CsjIM](https://github.com/kingston-csj/im)：仿QQ即时通讯系统服务端。
 * [BootPush](https://github.com/bootsrc/bootpush)：即时消息推送服务。
+* [Akaxin](https://github.com/DarLiner/openzaly)：Akaxin是一款开源免费的私有聊天软件，可以部署在任意服务器上。
+* [JiwuChat](https://github.com/KiWi233333/jiwu-chat-core)：JiwuChat是一个轻量级跨平台IM聊天应用。
 
 #### 电商系统
 
@@ -6680,6 +6695,7 @@
 * [Spring Boot React ECommerce App](https://github.com/ujjavaldesai07/spring-boot-react-ecommerce-app)：基于微服务架构的电子商务应用程序，使用Spring Boot和ReactJS构建。
 * [Online Marketplace](https://github.com/f-lab-edu/online-marketplace)：Coupang克隆，设计和构建了一个电子商务服务服务器。
 * [OnlineShop](https://github.com/merikbest/OnlineShop)：Java Spring Boot Web商店。
+* [Ecommerce App](https://github.com/C0de-cake/ecommerce-app)：Spring boot 3、Angular 18、Tailwind CSS、PostgreSQL、Kinde电商平台。
 * [微同商城](https://gitee.com/fuyang_lipengjun/platform)：减少重复造轮子，开源微信小程序商城。
 * [智汇商城](https://gitee.com/catshen/zhsc)：智汇商城是一款持续更新得轻量级、高性能、前后端分离的电商系统。
 * [Mall](https://github.com/macrozheng/mall)：Mall项目致力于打造一个完整的电商系统，采用现阶段主流技术实现。
@@ -7560,6 +7576,7 @@
 * [Wx Tools](https://github.com/antgan/wx-tools)：Wx Tools是基于微信公众平台API的轻量级框架。
 * [Weixin4J](https://gitee.com/weixin4j/weixin4j)：Weixin4J为Java微信开发爱好者提供的微信公众开发平台SDK，简化了Java对微信的开发。
 * [MPSDK4J](https://gitee.com/lisenhui/mpsdk4j)：Java微信公共平台开发SDK。
+* [Wechat Core](https://github.com/151376liujie/wechat-core)：Wechat Core是一款轻量级的微信消息处理框架，可以让业务代码与微信微信处理框架代码解耦。
 
 ## 推送与通知
 
@@ -7675,6 +7692,7 @@
 * [Telegram API](https://github.com/telegram-s/telegram-api-old)：该库允许你对Telegram进行RPC调用。
 * [Telegram4J](https://github.com/Telegram4J/Telegram4J)：使用Java 17编写的Telegram MTProto API的响应式Java库。
 * [Telegram Server](https://github.com/aykutalparslan/Telegram-Server)：Telegram Server是Telegram API的一个开源服务器端实现。
+* [Spring Boot Starter Telegram](https://github.com/p-vorobyev/spring-boot-starter-telegram)：基于Spring Boot的TDLib Telegram客户端。
 
 #### Whatsapp
 
@@ -7959,6 +7977,7 @@
 * [Bitfinex Websocket API Java](https://github.com/jnidzwetzki/bitfinex-v2-wss-api-java)：本项目提供了一个用于Bitfinex WebSocket API(v2)的Java客户端库。
 * [PolyHermes](https://github.com/WrBug/PolyHermes)：PolyHermes是一个功能强大的Polymarket预测市场跟单交易系统，支持自动化跟单、多账户管理、实时订单推送和统计分析。
 * [Bybit API Connectors](https://github.com/bybit-exchange/api-connectors)：用于连接Bybit API的库。
+* [BIZZAN](https://github.com/BIZZAN-Exchange/BIZZAN)：BIZZAN是一个免费、开源的数字货币交易系统。
 
 #### 区块链SDK
 
@@ -8378,6 +8397,7 @@
 * [JT808 Server](https://gitee.com/yezhihao/jt808-server)：JT808、JT808协议解析；支持TCP、UDP，实时兼容2011、2013、2019版本协议，支持分包。
 * [JT Framework](https://github.com/hylexus/jt-framework)：基于Spring Boot的JT-808协议服务端。
 * [Eclipse MOSAIC](https://github.com/eclipse-mosaic/mosaic)：MOSAIC是智能互联移动领域的多尺度仿真框架，它允许将来自不同领域的模拟器耦合到综合模拟工具。
+* [Xtream Codec](https://github.com/hylexus/xtream-codec)：基于Reactor Netty的私有协议编解码库。
 * [JTT1078 Video Server](https://gitee.com/matrixy/jtt1078-video-server)：基于JT/T 1078协议实现的视频转播服务器。
 * [Spring Boot Starter JT808](https://gitee.com/zhoyq/spring-boot-starter-jt808)：交通标准808协议解析二次开发包。
 * [SmartCar Java SDK](https://github.com/smartcar/java-sdk)：SmartCar API允许你使用HTTP请求读取车辆数据(位置、里程表)并向车辆发送命令(锁定、解锁)。
@@ -11190,6 +11210,8 @@
 * [Apache Royale Compiler](https://github.com/apache/royale-compiler)：Royale编译器将ActionScript 3.0和MXML代码编译为SWF或JavaScript。
 * [JLLVM](https://github.com/JLLVM/JLLVM)：JLLVM是一个无需解释器的按需JIT编译JVM，由维也纳工业大学开源。
 * [BIT Mini C](https://github.com/jiweixing/BIT-MiniCC)：BIT Mini C编译器是一个用于教学的Java C编译框架，由北京理工大学开源。
+* [Clava](https://github.com/specs-feup/clava)：Clava是一个C/C++/CUDA/OpenCL源代码编译器，它使用TypeScript/JavaScript编写分析和转换功能，并注重可组合性和可重用性。
+* [Prog8](https://github.com/irmen/prog8)：Prog8是用于8位6502/65c02微处理器的结构化编程语言。
 
 #### 内存中编译器
 
@@ -12959,7 +12981,6 @@
 * [OWASP Java Encoder](https://github.com/OWASP/owasp-java-encoder)：OWASP Java Encoder是一个简单易用的嵌入式高性能编码器类，没有依赖且包袱很少，由OWASP开源。
 * [Simple Binary Encoding](https://github.com/aeron-io/simple-binary-encoding)：SBE是OSI第6层表示，用于对低延迟金融应用程序的二进制应用程序消息进行编码和解码。
 * [Juniversalchardet](https://github.com/albfernandez/juniversalchardet)：Juniversalchardet是universalchardet的Java端口，universalchardet是Mozilla的编码检测器库。
-* [Xtream Codec](https://github.com/hylexus/xtream-codec)：基于Reactor Netty的私有协议编解码库。
 * [Preon](https://github.com/preon/preon)：Preon旨在提供一个处理二进制编码数据的框架。
 * [Netty ZMTP](https://github.com/spotify/netty-zmtp)：这是Netty的ZeroMQ编解码器，旨在实现ZMTP，由Spotify开源。
 * [Base62](https://github.com/seruco/base62)：Java的Base62编码器/解码器。
