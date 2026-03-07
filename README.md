@@ -536,6 +536,7 @@
   * [污点分析](docs/doc2.md#污点分析)
   * [抄袭检测](docs/doc2.md#抄袭检测)
   * [代码属性图](docs/doc2.md#代码属性图)
+  * [调用图](docs/doc2.md#调用图)
 * [软件工程](docs/doc2.md#软件工程)
   * [软件架构](docs/doc2.md#软件架构)
   * [软件建模](docs/doc2.md#软件建模)
@@ -805,6 +806,7 @@
   * [下载器](docs/doc2.md#下载器)
   * [LaTeX编辑器](docs/doc2.md#LaTeX编辑器)
   * [字幕软件](docs/doc2.md#字幕软件)
+  * [学术软件](docs/doc2.md#学术软件)
   * [图形与设计](docs/doc2.md#图形与设计)
   * [软件定义无线电](docs/doc2.md#软件定义无线电)
   * [文本处理与校对](docs/doc2.md#文本处理与校对)
@@ -948,7 +950,6 @@
 * [颜色库](docs/doc2.md#颜色库)
 * [短链接](docs/doc2.md#短链接)
 * [单位库](docs/doc2.md#单位库)
-* [调用图](docs/doc2.md#调用图)
 * [解析库](docs/doc2.md#解析库)
   * [词法解析](docs/doc2.md#词法解析)
   * [表达式引擎](docs/doc2.md#表达式引擎)
@@ -3749,9 +3750,9 @@ Kafka生态管理系统、运维平台。
 #### AI智能体
 
 * [JoyAgent JDGenie](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
-* [Astron](https://github.com/iflytek/astron-agent)：星辰Agent是一款面向AI开发者与中小企业的企业级Agent开发平台，由科大讯飞开源。
+* [Astron](https://github.com/iflytek/astron-agent)：Astron Agent是一个企业级、商业友好的智能代理工作流开发平台，由科大讯飞开源。
 * [JManus](https://github.com/spring-ai-alibaba/Lynxe)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
-* [Coze Java](https://github.com/coze-dev/coze-java)：Coze API SDK Java是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
+* [Coze Java](https://github.com/coze-dev/coze-java)：Coze是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
 * [Dify Java Client](https://github.com/imfangs/dify-java-client)：Dify Java Client是一个用于与Dify平台进行交互的Java客户端库。
 * [Dify Spring Boot Starter](https://github.com/guoshiqiufeng/dify-spring-boot-starter)：为Dify提供Spring Boot Starter和纯Java支持，简化开发。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
@@ -3769,6 +3770,7 @@ Kafka生态管理系统、运维平台。
 * [Ampere](https://github.com/socket-link/ampere)：Ampere是一个Kotlin多平台框架，其中每个代理决策都会发出一个结构化的、可查询的事件。
 * [PaiAgent](https://github.com/itwanger/PaiAgent)：PaiAgent是一个企业级的AI工作流可视化编排平台，让AI能力的组合和调度变得简单高效。
 * [Lynx AI](https://gitee.com/lynx-ai/lynx-ai)：Lynx AI是一个功能强大的企业级AI智能体管理平台，提供从智能体创建、知识库管理、工作流编排到自然语言数据分析的完整AI解决方案。
+* [Ragent](https://github.com/nageoffer/ragent)：Ragent是一个企业级RAG智能体平台，基于Java 17、Spring Boot 3、React 18构建。
 
 #### AI网关
 
@@ -3797,6 +3799,7 @@ Kafka生态管理系统、运维平台。
 * [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
 * [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
 * [Surogate Studio](https://github.com/invergent-ai/surogate-studio)：Surogate Studio是一个企业级LLMOps平台，旨在加速生成式AI应用的开发和部署。
+* [Tracy](https://github.com/JetBrains/tracy)：Tracy可以帮助你直接从Kotlin或Java项目中跟踪、监控和评估AI驱动的功能，由JetBrains开源。
 
 #### AI Assistant
 

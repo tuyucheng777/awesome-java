@@ -1708,6 +1708,7 @@
 * [OAuth2 Server](https://github.com/clouway/oauth2-server)：OAuth2服务器库。
 * [PAuth](https://github.com/FinVolution/pauth)：PAuth实现了OAuth2的四种授权模式，用于应用的单点登录、按领域进行划分的用户+角色+应用、资源访问的权限控制等各个功能，由信也科技开源。
 * [Spring OAuth Server](https://github.com/authlete/spring-oauth-server)：Spring框架上的授权服务器和OpenID提供程序。
+* [OAuthServer](https://github.com/jeesun/oauthserver)：OAuthServer是一个基于Spring Boot Oauth2的完整的独立的Oauth2 Server微服务。
 
 #### OAuth库
 
@@ -1826,6 +1827,7 @@
 * [PacBot](https://github.com/tmobile/pacbot)：PacBot是一个用于云持续合规性监控、合规性报告和安全自动化的平台，由T-Mobile开源。
 * [Maltego](https://www.maltego.com/)：Maltego是一款用于信息搜集和可视化的开源情报和取证工具，由Paterva开发。
 * [Wycheproof](https://github.com/google/wycheproof)：Wycheproof项目针对已知攻击测试加密库，由Google开源。
+* [FoFa Viewer](https://github.com/wgpsec/fofa_viewer)：FoFa Viewer是一个用JavaFX编写的用户友好的FOFA客户端，由狼组安全团队开源。
 * [Paladin Cloud](https://github.com/PaladinCloud/CE)：Paladin Cloud是一个免费的开源云安全平台，致力于帮助你发现云安全中的盲点。
 * [APIKit](https://github.com/API-Security/APIKit)：APIKit可以主动/被动扫描发现应用泄露的API文档，并将API文档解析成BurpSuite中的数据包用于API安全测试，由APISecurity社区开发。
 * [Secrux](https://github.com/SecurityCrux/secrux)：Secrux是一个支持多租户、可单机部署的安全治理平台。
@@ -1954,6 +1956,8 @@
 * [Password4j](https://github.com/Password4j/password4j)：Password4j是一个Java用户友好的加密库，用于使用不同的密钥派生函数(KDF)和加密哈希函数(CHF)来加密和验证密码。
 * [Lazysodium](https://github.com/terl/lazysodium-java)：Libsodium加密库的Java实现。
 * [Libsodium JNI](https://github.com/joshjdevl/libsodium-jni)：Android NaCL JNI封装。
+* [Kotlin Multiplatform Libsodium](https://github.com/ionspin/kotlin-multiplatform-libsodium)：Libsodium Kotlin多平台绑定。
+* [Libsodium Java](https://github.com/muquit/libsodium-jna)：Libsodium Java是一个Java库，它通过JNA绑定Libsodium的C加密API。
 * [JNACL](https://github.com/neilalexander/jnacl)：NaCl网络和密码库的纯Java实现。
 * [Salty Coffee](https://github.com/NeilMadden/salty-coffee)：NaCl加密库的纯Java实现。
 * [Caesium](https://github.com/lvh/caesium)：Caesium是一个用于Clojure的现代密码学库。
@@ -2104,6 +2108,7 @@
 * [jSSLKeyLog](https://github.com/jsslkeylog/jsslkeylog)：Java代理库将SSL会话密钥记录到Wireshark的文件中。
 * [Certificate Ripper](https://github.com/Hakky54/certificate-ripper)：用于提取服务器证书的命令行工具。
 * [TlsLibrary](https://github.com/s1monw1/TlsLibrary)：该库提供了一个API，用于使用标准的JSSE创建基本的SSL/TLS连接。
+* [Certificate Transparency](https://github.com/appmattus/certificatetransparency)：Android和JVM的证书透明度。
 
 #### CORS
 
@@ -5071,7 +5076,7 @@
 * [Deephaven CSV](https://github.com/deephaven/deephaven-csv)：Deephaven CSV库是一个高性能、面向列、类型推断的CSV解析器。
 * [PicoCSV](https://github.com/nbbrd/picocsv)：Java的轻量级CSV库。
 * [PureCSV](https://github.com/sentenza/PureCSV)：PureCSV是一个用于处理CSV格式的Scala库。
-* [BeanIO](https://github.com/beanio/beanio)：用于从XML、CSV、分隔和固定长度流格式编组和解组Bean对象的Java库。
+* [BeanIO](https://github.com/beanio/beanio)：BeanIO是一个开源的Java框架，用于从大型平面文件或数据流中编组和反编组Java Bean。
 
 ### Word库
 
@@ -5880,7 +5885,6 @@
 * [Joana](https://github.com/joana-team/joana)：Joana是一款静态分析工具，可用于Java字节码的信息流控制。
 * [Freud](https://github.com/LMAX-Exchange/freud)：Freud为用户提供了一种定义自己的静态分析测试的简单方法，由英国外汇交易公司LMAX开发。
 * [CodeNarc](https://github.com/CodeNarc/CodeNarc)：CodeNarc是一款Groovy源代码静态分析工具，支持监控和执行多种编码标准和最佳实践。
-* [Code2flow](https://github.com/menduogesei/code2flow-in-java)：Code2flow Java版本，生成动态语言的调用图。
 * [JDart](https://github.com/psycopaths/jdart)：JDart是一个在Java程序上执行一致执行的工具，它是作为NASA Java Pathfinder(JPF)的扩展编写的，由NASA开源。
 * [Kex](https://github.com/vorpal-research/kex)：Kex是一个用于分析Java字节码的平台，由Jetbrains开发。
 * [LibScout](https://github.com/reddr/LibScout)：LibScout是一款轻量级且高效的静态分析工具，用于检测Android/Java应用中的第三方库。
@@ -5988,6 +5992,14 @@
 * [CPG](https://github.com/Fraunhofer-AISEC/cpg)：一个用于从源代码中提取代码属性图的简单库。
 * [Code Property Graph](https://github.com/ShiftLeftSecurity/codepropertygraph)：CPG是一种可扩展且与语言无关的程序代码表示形式，专为增量和分布式代码分析而设计。
 * [Plume](https://github.com/plume-oss/plume)：Plume是一个代码表示基准测试库，可以选择从Java字节码中提取AST并将结果存储在各种图数据库中，由Amazon开源。
+
+#### 调用图
+
+* [AppMethodOrder](https://github.com/zjw-swun/AppMethodOrder)：一个能让你了解所有函数调用顺序以及函数耗时的Android库。
+* [Java CallGraph](https://github.com/Adrninistrator/java-all-call-graph)：Java CallGraph能够通过静态分析的方式批量生成指定Java方法向下的完整调用链。
+* [Java CallGraph](https://github.com/gousiosg/java-callgraph)：一套用于在Java中生成静态和动态调用图的程序。
+* [Spring Project Tree](https://github.com/onblog/ProjectTree)：基于AOP开发的一款方法调用链分析框架。
+* [Code2flow](https://github.com/menduogesei/code2flow-in-java)：Code2flow Java版本，生成动态语言的调用图。
 
 ## 软件工程
 
@@ -6309,6 +6321,7 @@
 * [Spring Boot Starter](https://github.com/ericus20/spring-boot-starter)：适用于Spring Boot项目的完整模板，可用于生产环境。
 * [Spring Boot Boilerplate](https://github.com/Genc/spring-boot-boilerplate)：Spring Boot Boilerplate是一个Starter套件，该项目包括Spring Boot、Spring Data JPA、Spring Validation、Spring Security、JWT、PostgreSQL、Mapstruct、Lombok、Swagger。
 * [Element Vue SpringBoot Code Template](https://github.com/xwjie/ElementVueSpringbootCodeTemplate)：使用Vue、VueX、ElementUI、Spring Boot的代码框架。
+* [Hexagonal Architecture/Clean Architecture/DDD](https://github.com/dustinsand/hex-arch-kotlin-spring-boot)：参考JVM多模块项目，用于使用六边形架构、DDD、Kotlin、Spring Boot、Quarkus、Lambda、Gradle实现响应式微服务和Lambda。
 * [MicroService Skeleton](https://github.com/yangxiufeng666/Micro-Service-Skeleton)：微服务开发基础框架。
 * [Spring Microservices Boilerplate](https://github.com/danielliao11/spring-microservice-boilerplate)：Spring Microservices Boilerplate是一个方便Java后端人员快速开发的微服务脚手架。
 * [Spring Boot Angular 2](https://github.com/borysn/spring-boot-angular2)：使用Spring Boot、Angular 2和Bootstrap 4来构建RESTful应用程序原型的启动项目。
@@ -6742,6 +6755,7 @@
 * [Online Marketplace](https://github.com/f-lab-edu/online-marketplace)：Coupang克隆，设计和构建了一个电子商务服务服务器。
 * [OnlineShop](https://github.com/merikbest/OnlineShop)：Java Spring Boot Web商店。
 * [Ecommerce App](https://github.com/C0de-cake/ecommerce-app)：Spring boot 3、Angular 18、Tailwind CSS、PostgreSQL、Kinde电商平台。
+* [Modern Ecommerce](https://github.com/JohnnyLe/Modern-Ecommerce)：Modern Ecommerce是一款企业级开源可扩展的电子商务架构。
 * [微同商城](https://gitee.com/fuyang_lipengjun/platform)：减少重复造轮子，开源微信小程序商城。
 * [智汇商城](https://gitee.com/catshen/zhsc)：智汇商城是一款持续更新得轻量级、高性能、前后端分离的电商系统。
 * [Mall](https://github.com/macrozheng/mall)：Mall项目致力于打造一个完整的电商系统，采用现阶段主流技术实现。
@@ -7769,6 +7783,7 @@
 * [Librespot Java](https://github.com/librespot-org/librespot-java)：最新的开源Spotify客户端。
 * [Spotify Web API Java](https://github.com/spotify-web-api-java/spotify-web-api-java)：这是Spotify Web API的Java包装器/客户端。
 * [Java Spotify API](https://github.com/LabyStudio/java-spotify-api)：Java API，可以直接从本地Spotify进程访问Spotify播放数据，无需任何认证。
+* [Kotlin Spotify Web API](https://github.com/adamint/spotify-web-api-kotlin)：Spotify Web API的Kotlin实现，支持Kotlin/JS、Kotlin/Android、Kotlin/JVM和Kotlin/Native。
 
 #### Bilibili
 
@@ -10268,12 +10283,10 @@
 
 #### JavaFX程序
 
-* [JabRef](https://github.com/JabRef/jabref)：JabRef是一个开源、跨平台的引文和引用管理工具。
 * [Phoebus](https://github.com/ControlSystemStudio/phoebus)：Phoebus是一个框架和一系列工具，用于监控和操作大型控制系统，例如加速器社区中使用的系统。
 * [AsciidocFX](https://github.com/asciidocfx/AsciidocFX)：AsciidocFX是一款书籍/文档编辑工具，用户可以创建PDF、Epub、Mobi和HTML等形式的书籍/文档。
 * [PDF4Teachers](https://github.com/ClementGre/PDF4Teachers)：PDF4Teachers专为教师设计，它允许你以出色的工作效率对PDF返回的评估进行注释。
 * [NS USBloader](https://github.com/developersu/ns-usbloader)：NS USBloader是适用于Huntereb/Awoo-Installer或其他兼容安装程序以及XorTroll/Goldleaf(USB) NSP安装程序的PC端安装程序。
-* [FoFa Viewer](https://github.com/wgpsec/fofa_viewer)：FoFa Viewer是一个用JavaFX编写的用户友好的FOFA客户端，由狼组安全团队开源。
 * [Markdown Writer FX](https://github.com/JFormDesigner/markdown-writer-fx)：用JavaFX编写的开源Markdown编辑器。
 * [ToolsFx](https://github.com/Leon406/ToolsFx)：基于Kotlin、TornadoFX的跨平台密码学工具箱。
 * [xJavaFxTool](https://gitee.com/xwintop/xJavaFxTool)：xJavaFxTool是使用JavaFX开发的实用小工具集。
@@ -10293,7 +10306,6 @@
 * [Officer Breaker](https://github.com/nedlir/OfficerBreaker)：Officer Breaker是一个简单的程序，它可以从属于Office Open XML格式系列(.pptx/.xlsx/.docx文件类型)的只读保护文件中删除密码。
 * [RoomIt](https://gitee.com/rococy/RoomIt)：RoomIt是一款基于JavaFX、操作简便、轻量的屏幕画笔工具。
 * [Dev Tools](https://github.com/reugn/dev-tools)：单个桌面应用程序中的开发人员实用程序的集合。
-* [RubberTranslator](https://github.com/RubberTranslator/RubberTranslator)：RubberTranslator是基于JavaFX开发的一款文献辅助翻译软件。
 * [LectureStudio](https://github.com/lectureStudio/lectureStudio)：LectureStudio是一款开源免费的电子教学软件，支持Windows、Mac OS和Linux，由萨尔兰大学开源。
 * [LLMFX](https://github.com/jesuino/LLMFX)：LLMFX是一个非常简单的桌面应用程序，用于与LLM服务器交互。
 * [Metadata Viewer](https://github.com/erroralex/Metadata-Viewer)：一款JavaFX桌面应用程序，用于提取和管理跨多个平台的AI图像生成元数据。
@@ -10307,8 +10319,6 @@
 * [BIMserver](https://github.com/opensourceBIM/BIMserver)：BIMserver使你能够存储和管理建筑(或其他建筑相关)项目的信息，由荷兰国家应用科学院和埃因霍芬理工大学开发。
 * [Repeat](https://github.com/repeats/Repeat)：跨平台鼠标/键盘记录/重播和自动化热键/宏创建，以及更高级的自动化功能。
 * [EtherPad](https://github.com/ether/pad)：Etherpad Lite是一种更简单、更快、更轻的协作编辑解决方案。
-* [Citespace](https://citespace.podia.com/)：CiteSpace是一个免费的Java应用程序，用于可视化和分析科学文献中的趋势和模式，由德雷塞尔大学开源。
-* [Docear](https://github.com/BeelGroup/Docear-Desktop)：Docear是一款独特的学术文献管理解决方案，由锡根大学开源。
 * [IPED](https://github.com/sepinf-inc/IPED)：IPED是一款开源软件，可用于处理和分析数字证据，由巴西联邦警察局的数字取证专家开发。
 * [FigTree](https://github.com/rambaut/figtree)：FigTree被设计为系统发育树的图形查看器和用于生成可发表图表的程序。
 * [SplitsTree](https://github.com/husonlab/splitstree6)：SplitsTree是一个开源项目，它提供了一系列算法和流程，用于计算和处理无根和有根系统发育树及网络，由蒂宾根大学开源。
@@ -10662,6 +10672,13 @@
 * [Jubler](https://github.com/teras/Jubler)：Jubler是一个编辑基于文本的字幕的工具。
 * [ArcTime](https://arctime.org/)：ArcTime是一个易用、强大、高效的字幕制作软件，由南京亿铭科技开发。
 * [Caption OCR Tool](https://github.com/sum1re/caption_ocr_tool)：视频硬字幕提取工具。
+
+#### 学术软件
+
+* [JabRef](https://github.com/JabRef/jabref)：JabRef是一个开源、跨平台的引文和引用管理工具。
+* [Citespace](https://citespace.podia.com/)：CiteSpace是一个免费的Java应用程序，用于可视化和分析科学文献中的趋势和模式，由德雷塞尔大学开源。
+* [Docear](https://github.com/BeelGroup/Docear-Desktop)：Docear是一款独特的学术文献管理解决方案，由锡根大学开源。
+* [RubberTranslator](https://github.com/RubberTranslator/RubberTranslator)：RubberTranslator是基于JavaFX开发的一款文献辅助翻译软件。
 
 #### 图形与设计
 
@@ -11159,6 +11176,7 @@
 * [Yona](https://github.com/yona-lang/yona)：Yona是一种极简、观点明确的强动态类型、严格的函数式编程语言，具有类似ML的语法，适用于GraalVM多语言虚拟机。
 * [TopShell](https://github.com/topshell-language/topshell)：TopShell是一种纯函数式、响应式脚本语言。
 * [Temper](https://github.com/temperlang/temper)：Temper编程语言可以与其他编程语言交叉转换。
+* [Lice](https://github.com/lice-lang/lice)：一种运行在JVM上的多范式编程语言。
 
 ## JVM代理
 
@@ -11289,6 +11307,7 @@
 * [BIT Mini C](https://github.com/jiweixing/BIT-MiniCC)：BIT Mini C编译器是一个用于教学的Java C编译框架，由北京理工大学开源。
 * [Clava](https://github.com/specs-feup/clava)：Clava是一个C/C++/CUDA/OpenCL源代码编译器，它使用TypeScript/JavaScript编写分析和转换功能，并注重可组合性和可重用性。
 * [Prog8](https://github.com/irmen/prog8)：Prog8是用于8位6502/65c02微处理器的结构化编程语言。
+* [OberonC](https://github.com/lboasso/oberonc)：适用于JVM的Oberon-07编译器。
 
 #### 内存中编译器
 
@@ -12651,13 +12670,6 @@
 * [QUDTLib](https://github.com/qudtlib/qudtlib-java)：QUDTLib为Java提供单位转换及相关功能。
 * [UNITILITY](https://github.com/pjazdzyk/unitility)：适用于Java的计量单位和物理量转换器，支持Spring Boot和Quarkus，可用于Web应用开发。
 * [Units Of Measure](https://github.com/kunalsheth/units-of-measure)：Kotlin中的类型安全量纲分析和单位转换。
-
-## 调用图
-
-* [AppMethodOrder](https://github.com/zjw-swun/AppMethodOrder)：一个能让你了解所有函数调用顺序以及函数耗时的Android库。
-* [Java CallGraph](https://github.com/Adrninistrator/java-all-call-graph)：Java CallGraph能够通过静态分析的方式批量生成指定Java方法向下的完整调用链。
-* [Java CallGraph](https://github.com/gousiosg/java-callgraph)：一套用于在Java中生成静态和动态调用图的程序。
-* [Spring Project Tree](https://github.com/onblog/ProjectTree)：基于AOP开发的一款方法调用链分析框架。
 
 ## 解析库
 
