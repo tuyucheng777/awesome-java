@@ -133,7 +133,6 @@
   * [SOCKS](#SOCKS)
   * [Radius](#Radius)
   * [NETCONF](#NETCONF)
-  * [以太网](#以太网)
   * [IP库](#IP库)
   * [SIP](#SIP)
 * [Bean映射&复制](#Bean映射复制)
@@ -392,6 +391,7 @@
   * [生物工作流](docs/doc2.md#生物工作流)
   * [基因组](docs/doc2.md#基因组)
   * [NGS](docs/doc2.md#NGS)
+* [医学](docs/doc2.md#医学)
 * [化学库](docs/doc2.md#化学库)
 * [家谱学](docs/doc2.md#家谱学)
 * [心理测量学](docs/doc2.md#心理测量学)
@@ -478,6 +478,8 @@
 * [Javadoc](docs/doc2.md#Javadoc)
 * [文件操作](docs/doc2.md#文件操作)
   * [PDF库](docs/doc2.md#PDF库)
+    * [PDF表格库](docs/doc2.md#PDF表格库)
+    * [PDF比较库](docs/doc2.md#PDF比较库)
   * [Excel库](docs/doc2.md#Excel库)
   * [CSV库](docs/doc2.md#CSV库)
   * [Word库](docs/doc2.md#Word库)
@@ -498,6 +500,11 @@
   * [OFD库](docs/doc2.md#OFD库)
   * [文件库](docs/doc2.md#文件库)
   * [文件转换](docs/doc2.md#文件转换)
+    * [PDF/HTML转换](docs/doc2#PDFHTML转换)
+    * [PDF/Markdown转换](docs/doc2#PDFMarkdown转换)
+    * [PDF/Word转换](docs/doc2#PDFWord转换)
+    * [PDF/JSON转换](docs/doc2#PDFJSON转换)
+    * [XML/JSON转换](docs/doc2#XMLJSON转换)
   * [Mime解析](docs/doc2.md#Mime解析)
   * [文件上传](docs/doc2.md#文件上传)
   * [文件比较](docs/doc2.md#文件比较)
@@ -530,6 +537,7 @@
   * [抄袭检测](docs/doc2.md#抄袭检测)
   * [代码属性图](docs/doc2.md#代码属性图)
 * [软件工程](docs/doc2.md#软件工程)
+  * [软件架构](docs/doc2.md#软件架构)
   * [软件建模](docs/doc2.md#软件建模)
   * [铁路图生成器](docs/doc2.md#铁路图生成器)
   * [DDD框架](docs/doc2.md#DDD框架)
@@ -639,14 +647,20 @@
   * [区块链](docs/doc2.md#区块链)
   * [以太坊](docs/doc2.md#以太坊)
   * [比特币](docs/doc2.md#比特币)
+  * [闪电网络](docs/doc2.md#闪电网络)
+  * [钱包应用](docs/doc2.md#钱包应用)
   * [交易所](docs/doc2.md#交易所)
+  * [交易机器人](docs/doc2.md#交易机器人)
+  * [交易所API](docs/doc2.md#交易所API)
   * [区块链SDK](docs/doc2.md#区块链SDK)
   * [智能合约](docs/doc2.md#智能合约)
   * [IPFS](docs/doc2.md#IPFS)
 * [金融](docs/doc2.md#金融)
   * [金融API](docs/doc2.md#金融API)
   * [银行API](docs/doc2.md#银行API)
-  * [量化交易](docs/doc2.md#量化交易)
+  * [技术分析](docs/doc2.md#技术分析)
+  * [量化框架](docs/doc2.md#量化框架)
+  * [算法交易](docs/doc2.md#算法交易)
   * [FIX引擎](docs/doc2.md#FIX引擎)
   * [订单匹配引擎](docs/doc2.md#订单匹配引擎)
   * [信用卡数据交换](docs/doc2.md#信用卡数据交换)
@@ -675,6 +689,7 @@
   * [串口](docs/doc2.md#串口)
   * [PLC](docs/doc2.md#PLC)
   * [Modbus](docs/doc2.md#Modbus)
+  * [EtherNet/IP](docs/doc2.md#EtherNetIP)
   * [USB库](docs/doc2.md#USB库)
   * [CoAP](docs/doc2.md#CoAP)
   * [ONVIF](docs/doc2.md#ONVIF)
@@ -790,6 +805,11 @@
   * [下载器](docs/doc2.md#下载器)
   * [LaTeX编辑器](docs/doc2.md#LaTeX编辑器)
   * [字幕软件](docs/doc2.md#字幕软件)
+  * [图形与设计](docs/doc2.md#图形与设计)
+  * [软件定义无线电](docs/doc2.md#软件定义无线电)
+  * [文本处理与校对](docs/doc2.md#文本处理与校对)
+  * [工业控制与实验室](docs/doc2.md#工业控制与实验室)
+  * [文件与数据管理](docs/doc2.md#文件与数据管理)
 * [游戏开发](docs/doc2.md#游戏开发)
   * [游戏引擎](docs/doc2.md#游戏引擎)
   * [Minecraft](docs/doc2.md#Minecraft)
@@ -1919,6 +1939,8 @@
 * [Enhydrator](https://github.com/AdamBien/enhydrator)：Enhydrator读取类似表格的结构，进行过滤、转换，然后将结果写回。
 * [Rope](https://gitee.com/starblues/rope)：Rope是一款轻量级别的ETL工具。
 * [ETL Platform](https://gitee.com/liujl1990/etl-platform)：基于Spring Boot、Spring Batch实现的ETL链式数据抽取平台，由百数通医疗公司开源。
+* [CcETL](https://gitee.com/xzjsccz/Cc_ETL)：CcETL是一款基于XXL-Job深度改造的可视化定时任务调度平台，专为数据集成和任务编排而设计。
+* [EasyETL](https://gitee.com/easyetl/EasyETLPublic)：EasyETL是一款自主研发并开源的分布式数据中台。
 
 #### CDC组件
 
@@ -2157,6 +2179,7 @@
 * [Octobot](https://github.com/cscotta/Octobot)：Octobot是一个任务队列工作器，旨在实现可靠性、易用性和高吞吐量。
 * [QDB](https://github.com/qdb-io/qdb-server)：QDB是一个支持重播的持久性消息队列。
 * [Luxun](https://github.com/bulldog2011/luxun)：Luxun是一款高吞吐量、分布式发布/订阅消息系统。
+* [ReactMQ](https://github.com/adamw/reactmq)：响应式消息队列。
 
 #### IPC
 
@@ -3128,6 +3151,7 @@ Kafka生态管理系统、运维平台。
 * [Pushy](https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658)：Pushy是Netflix的WebSocket服务器，可与运行Netflix应用程序的设备保持持久的WebSocket连接。
 * [Java WebSocket](https://github.com/TooTallNate/Java-WebSocket)：该项目包含用纯Java编写的准系统WebSocket客户端和服务器实现。
 * [Jakarta WebSocket](https://github.com/jakartaee/websocket)：Jakarta WebSocket定义了一组用于开发WebSocket应用程序的Java API。
+* [Spring WebSocket](https://docs.spring.io/spring-framework/reference/web/websocket.html)：Spring框架提供的WebSocket API，可以使用它来编写处理WebSocket消息的客户端和服务端应用程序。
 * [Scarlet](https://github.com/Tinder/Scarlet)：Scarlet是受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端，由Tinder开源。
 * [SignalR](https://github.com/aspnet/SignalR)：SignalR是一个开源库，可简化向应用程序添加实时功能，由Microsoft开发。
 * [SignalRKore](https://github.com/lepicekmichal/SignalRKore)：SignalRKore是一个用于ASP.NET Core SignalR的Kotlin多平台客户端库。
@@ -3471,13 +3495,6 @@ Kafka生态管理系统、运维平台。
 * [OpenDaylight NETCONF](https://github.com/opendaylight/netconf)：本项目托管了IETF NETCONF工作组定义的协议的实现。
 * [JNC](https://github.com/tail-f-systems/JNC)：Java NETCONF客户端。
 * [NETCONF4J](https://github.com/dana-i2cat/netconf4j)：这是一个从零开始实现的简单版Netconf协议。
-
-#### 以太网
-
-* [Nzyme](https://github.com/nzymedefense/nzyme)：借助Nzyme，你可以监控所有以太网和WiFi网络流量是否存在威胁、确认预期行为并有选择地将数据转发到你的SIEM或日志管理系统。
-* [Etherip](https://github.com/ornl-epics/etherip)：用于通过以太网/IP协议在AllenBradley Control Logix或Compact Logix PLC上读取和写入标签的Java库，由橡树岭国家实验室开源。
-* [EtherNet/IP](https://github.com/digitalpetri/ethernet-ip)：适用于Java的异步、非阻塞EtherNet/IP客户端实现。
-* [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter)：CICFlowMeter是一种用于异常检测的以太网流量双向流生成器和分析器，由约克大学开发。
 
 #### IP库
 
