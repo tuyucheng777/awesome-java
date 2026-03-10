@@ -413,6 +413,11 @@
 * [批处理框架](docs/doc2.md#批处理框架)
 * [语法高亮](docs/doc2.md#语法高亮)
 * [任务调度](docs/doc2.md#任务调度)
+  * [分布式调度](docs/doc2.md#分布式调度)
+  * [嵌入式调度](docs/doc2.md#嵌入式调度)
+  * [作业队列](docs/doc2.md#作业队列)
+  * [Cron解析](docs/doc2.md#Cron解析)
+  * [任务监控](docs/doc2.md#任务监控)
 * [企业集成模式](docs/doc2.md#企业集成模式)
 * [SMT求解器](docs/doc2.md#SMT求解器)
 * [命令行开发](docs/doc2.md#命令行开发)
@@ -2181,6 +2186,7 @@
 * [QDB](https://github.com/qdb-io/qdb-server)：QDB是一个支持重播的持久性消息队列。
 * [Luxun](https://github.com/bulldog2011/luxun)：Luxun是一款高吞吐量、分布式发布/订阅消息系统。
 * [ReactMQ](https://github.com/adamw/reactmq)：响应式消息队列。
+* [Uncode MQ](https://gitee.com/uncode/uncode-mq)：Uncode MQ是基于Netty的轻量级Java消息中间件。
 
 #### IPC
 
@@ -2237,6 +2243,7 @@
 * [DietrichEvents2](https://github.com/florianreuth/DietrichEvents2)：DietrichEvents2是世界上速度最快的Java事件系统之一。
 * [Event Library](https://github.com/SmushyTaco/Event-Library)：一个轻量级、借助反射机制但由LambdaMetafactory加速的Kotlin和JVM事件总线。
 * [SSE-EventBus](https://github.com/ralscha/sse-eventbus)：EventBus库，用于使用SSE将事件从Spring应用程序发送到Web浏览器。
+* [SmartEventBus](https://github.com/JeremyLiao/SmartEventBus)：SmartEventBus是一个Android平台的消息总线框架。
 
 #### 消息总线
 
@@ -2459,6 +2466,7 @@ Kafka生态管理系统、运维平台。
 * [Jetty Session Redis](https://github.com/ovea-deprecated/jetty-session-redis)：使用Redis进行Jetty会话集群。
 * [Amazon DynamoDB Session Manager](https://github.com/amazon-archives/aws-dynamodb-session-tomcat)：基于Amazon DynamoDB的Apache Tomcat会话存储。
 * [Tomcat Session Manager](https://github.com/vmware-archive/session-managers)：Tomcat Session Manager的实现，将数据持久化到Redis中，由VMware开源。
+* [Uncode Session](https://gitee.com/uncode/uncode-session)：Uncode Session是一个非常小巧的集群Session共享组件。
 
 #### Raft算法
 
@@ -2925,7 +2933,7 @@ Kafka生态管理系统、运维平台。
 * [Http4s](https://github.com/http4s/http4s)：Http4s是一个极简且符合Scala规范的HTTP服务接口。
 * [Ktorfit](https://github.com/Foso/Ktorfit)：Ktorfit是一个适用于Kotlin多平台的HTTP客户端/Kotlin符号处理器，使用受Retrofit启发的KSP和Ktor客户端。
 * [Scalaj HTTP](https://github.com/scalaj/scalaj-http)：HttpURLConnection的简单Scala封装库。
-* [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Java和Android的异步套接字、HTTP(s)和WebSocket库；基于NIO，而不是线程。
+* [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
 * [Chuck](https://github.com/jgilfelt/chuck)：Chuck是一个简单的应用内HTTP检查器，适用于Android OkHttp客户端。
 * [NoHttp](https://github.com/yanzhenjie/NoHttp)：NoHttp是一个Android实现的HTTP标准协议框架，支持多种缓存模式，底层可动态切换OkHttp、URLConnection。
 * [Volley](https://github.com/google/volley)：Volley是一个HTTP库，它使Android应用程序的网络变得更容易，Google开源。
@@ -3172,7 +3180,12 @@ Kafka生态管理系统、运维平台。
 * [Autobahn](https://github.com/crossbario/autobahn-java)：Autobahn是适用于Android和Java 8的Java中的WebSocket和WAMP。
 * [Jawampa](https://github.com/Matthias247/jawampa)：Jawampa是一个为Java提供对Web应用程序消息传递协议(WAMP)支持的库。
 * [Eclipse Tyrus](https://github.com/eclipse-ee4j/tyrus)：Tyrus是开源JSR 356-WebSocket参考实现的Java API，可轻松开发WebSocket应用程序。
-* [Babl WebSocket Server](https://github.com/babl-ws/babl)：Babl是一款高性能、可扩展的WebSocket服务器，专为低延迟应用程序而设计。
+* [Spray WebSocket](https://github.com/dcaoyuan/spray-websocket)：Spray的WebSocket支持。
+* [Netty WebSocket Spring Boot](https://github.com/niezhiliang/netty-websocket-spring-boot)：基于Netty实现的WebSocket消息推送。
+* [WsManager](https://github.com/Rabtman/WsManager)：WsManager是一个简化OkHttp Websocket使用的库。
+* [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：SwaggerSocket协议允许任何现有的REST资源在WebSocket协议之上执行。
+* [Hookup](https://github.com/backchatio/hookup)：Hookup是一个基于Akka构建的可靠的Netty WebSocket服务器。
+* [Babl](https://github.com/babl-ws/babl)：Babl是一款高性能、可扩展的WebSocket服务器，专为低延迟应用程序而设计。
 * [Socket.x](https://github.com/obsidiandynamics/socketx)：Socket.x是一个用于构建高性能、分布式WebSocket应用程序的库。
 * [WebSocketDemo](https://github.com/0xZhangKe/WebSocketDemo)：用于简化WebSocket在Android平台使用的封装方法。
 * [RxWebSocket](https://github.com/dhhAndroid/RxWebSocket)：RxWebSocket是一个基于Okhttp和RxJava封装的WebSocket客户端。
@@ -3555,6 +3568,7 @@ Kafka生态管理系统、运维平台。
 * [EasyMapper](https://github.com/neoremind/easy-mapper)：EasyMapper是一个简单、轻量级、高性能的Java bean映射框架，百度开源。
 * [BeanKnife](https://github.com/vipcxj/beanknife)：BeanKnife是用于自动生成DTO的注解处理器库。
 * [DTOGen](https://github.com/manoelcampos/dtogen)：DTOGen是一个Java 21+库，它使用注解从给定的模型类/记录自动生成DTO记录。
+* [Bean Query](https://github.com/Jimmy-Shi/bean-query)：Bean Query复用Apache Commons BeanUtils、Apache Commons Collections、Hamcrest来简化对Bean的排序、过滤和转换。
 
 ## IoC
 
@@ -3750,6 +3764,7 @@ Kafka生态管理系统、运维平台。
 * [Veadk Java](https://github.com/volcengine/veadk-java)：VeADK是由火山引擎推出的为Agent智能体的应用构建提供开发、部署、观测、评测等全流程云原生解决方案。
 * [ACP Kotlin SDK](https://github.com/agentclientprotocol/kotlin-sdk)：ACP规范了AI代理与客户端交换消息、协商能力和文件传输的方式。
 * [Mem4j](https://github.com/LangMem/mem4j)：Mem4j是一个Java库，为AI代理和应用程序提供长期记忆功能。
+* [AgentScope Runtime Java](https://github.com/agentscope-ai/agentscope-runtime-java)：AgentScope Runtime是用于代理部署和工具沙箱的运行时框架。
 
 #### AI智能体
 
