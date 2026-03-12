@@ -1549,6 +1549,7 @@
 * [OWASP Application Gateway](https://github.com/The-OAG-Development-Project/Application-Gateway)：OWASP Application Gateway是一个HTTP反向代理，位于你的Web应用程序和客户端之间，负责处理Oauth2登录和会话管理。
 * [Bus Vortex](https://github.com/818000/bus/tree/main/bus-vortex)：Bus Vortex是一个基于Spring WebFlux构建的分布式、全异步、高性能、可扩展且轻量级的API网关。
 * [Clivia](https://gitee.com/palading_cr/clivia)：Clivia是一款基于Spring WebFlux的可扩展、高性能、高弹性、响应式的API网关。
+* [HXAPIGate](https://gitee.com/willbeahero/HXAPIGate)：HXAPIGate是基于Netty、Shiro开发的一款高性能API网关。
 
 ## 服务发现
 
@@ -1753,6 +1754,7 @@
 * [WhyLogs](https://github.com/whylabs/whylogs)：WhyLogs是一个面向机器学习模型和数据管道的开源数据日志记录库。
 * [Spline](https://github.com/AbsaOSS/spline)：Spline是适用于Apache Spark等数据处理框架的开源数据沿袭跟踪解决方案，由南非联合银行集团开源。
 * [Legend](https://github.com/finos/legend)：Legend是一个数据平台，它提供了一个通过API或自助查询访问数据的单一位置，并具有内置治理功能，由金融科技开源基金会FINOS开源。
+* [SQLFlow](https://github.com/sqlparser/sqlflow_public)：SQLFlow是一款用于跟踪列级数据沿袭的工具。
 * [Marquez](https://github.com/MarquezProject/marquez)：Marquez是一种开源元数据服务，用于数据生态系统元数据的收集、聚合和可视化，由WeWork开源。
 * [Schemata](https://github.com/ananthdurai/schemata)：Schemata是一个用于数据去中心化、领域驱动型所有权的模式建模框架。
 * [Data Platform Open](https://github.com/shaiwz/data-platform-open)：可视化拖拽式大数据集成平台、大数据平台、大数据，包含数据流、数据源、数据对齐、查询模板、完善的监控等。
@@ -2027,6 +2029,7 @@
 * [Apache Myriad](https://github.com/apache/incubator-myriad)：Myriad是一个Mesos框架，旨在扩展Mesos上的YARN集群，由eBay、MapR和Mesosphere开源。
 * [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：DCM使程序员能够使用高级声明性语言(SQL)构建调度程序和集群管理器，由VMware开源。
 * [Marathon](https://github.com/mesosphere/marathon)：Marathon是经过生产验证的用于容器编排的Mesos框架，由Mesosphere开源。
+* [Metronome](https://github.com/dcos/metronome)：Metronome是一个用于定时任务的Apache Mesos框架。
 
 #### 调度系统
 
@@ -2039,6 +2042,7 @@
 * [Sylph](https://github.com/harbby/sylph)：Sylph是一个用于实时流计算的平台，核心是通过工作流描述构建分布式流计算应用程序。
 * [Genie](https://github.com/Netflix/genie)：Genie是Netflix开发的联合大数据编排和执行引擎。
 * [Juice](https://github.com/HujiangTechnology/Juice)：Juice是沪江学习系统项目组所开发的一套基于Mesos Framework的分布式任务调度云系统。
+* [Schedoscope](https://github.com/ottogroup/schedoscope)：Schedoscope是一个调度框架，用于轻松敏捷地开发、测试、加载和监控你的数据中心、湖。
 
 #### 执行引擎
 
@@ -2454,6 +2458,12 @@ Kafka生态管理系统、运维平台。
 * [GeneratorsId](https://github.com/shimu200/generatorsId)：GeneratorsId是一款基于雪花算法生成唯一ID的Java库。
 * [Vesta](https://github.com/iweisi/vesta-id-generator)：Vesta是一款通用的ID生成器。
 * [Leaf Snowflake](https://github.com/weizhenyi/leaf-snowflake)：Leaf Snowflake是一个分布式、单调递增的长整型整数ID生成器。
+* [ID Generator](https://gitee.com/darkranger/id-generator)：分布式ID生成器。
+* [XSequence](https://gitee.com/xuan698400/xsequence)：XSequence是一个简单的分布式序列号生成组件。
+* [Sequence](https://gitee.com/xianglin/sequence)：分布式系统唯一ID生成方法。
+* [ID Generator](https://gitee.com/simpleweb/id-generator)：基于Twitter SnowFlake算法实现的分布式ID发号器。
+* [Flake Java](https://github.com/mumrah/flake-java)：基于Twitter Snowflake的ID生成器。
+* [JavaSnowFlake](https://github.com/Predictor/javasnowflake)：基于Twitter Snowflake ID生成算法的64位顺序ID生成器。
 
 #### Session集群
 
@@ -2927,6 +2937,7 @@ Kafka生态管理系统、运维平台。
 * [Http Request](https://github.com/kevinsawicki/http-request)：Http Request是一个简单的便利库，用于使用HttpURLConnection发出请求并访问响应。
 * [HttpFetch](https://github.com/youzan/httpfetch)：HttpFetch用于对HTTP请求进行封装，通过对接口函数进行代理，实现优雅的HTTP调用，有赞开源。
 * [EasyHttp](https://github.com/getActivity/EasyHttp)：Android网络请求框架，简单易用。
+* [OkHttpUtils](https://github.com/hongyangAndroid/okhttputils)：OkHttp的辅助类。
 * [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：OkGo基于HTTP协议，封装了OkHttp的网络请求框架。
 * [Wasp](https://github.com/orhanobut/wasp)：小巧易用、功能齐全的安卓网络解决方案。
 * [STTP](https://github.com/softwaremill/sttp)：STTP是SoftwareMill开源的库，它提供了一个干净的、程序员友好的API来描述HTTP请求以及如何处理响应。
@@ -3153,6 +3164,7 @@ Kafka生态管理系统、运维平台。
 * [CCNx](https://github.com/ProjectCCNx/ccnx)：CCNx参考实现，提供了构建和运行使用以及展示基本CCNx协议的应用程序所需的库和组件。
 * [OpenRQ](https://github.com/openrq-team/OpenRQ)：开源的RaptorQ实现。
 * [Netphony Network Protocols](https://github.com/telefonicaid/netphony-network-protocols)：Java网络协议库，PCEP、RSVP-TE、OSPF、BGP-LS。
+* [TSNsched](https://github.com/ACassimiro/TSNsched)：TSNsched使用Z3定理求解器为时间敏感网络(TSN)生成流量调度，由帕拉伊巴联邦大学开源。
 
 #### WebSocket
 
@@ -3535,6 +3547,7 @@ Kafka生态管理系统、运维平台。
 
 * [JSS7](https://github.com/RestComm/jss7)：jSS7提供了一个开源软件解决方案，实现了专用设备的M3UA、SCCP、TCAP、CAMEL、MAP、ISUP协议，以及基于IP的M3UA协议。
 * [SIP Servlet](https://github.com/RestComm/sip-servlets)：RestComm SIP Servlet是SIP、IMS和WebRTC应用服务器。
+* [Java SIP MRCP](https://github.com/laoyin/java-sip-mrcp)：Java SIP MRCP是一个基于Java的项目，实现了SIP协议和MRCPv2协议，用于实时语音转写(ASR)的媒体传输。
 * [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
 * [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
 * [CSipSimple](https://github.com/r3gis3r/CSipSimple)：CSipSimple是一款开源的Android原生SIP客户端。
@@ -3943,6 +3956,7 @@ Kafka生态管理系统、运维平台。
 * [KotlinDL](https://github.com/Kotlin/kotlindl)：KotlinDL是一个用Kotlin编写的高级深度学习API，由JetBrains开源。
 * [Apache MXNet](https://mxnet.apache.org/versions/1.9.1/api/java)：Apache MXNet是一个兼顾效率和灵活性的深度学习框架，由AWS开源。
 * [TonY](https://github.com/tony-framework/TonY)：TonY是一个在Hadoop上本地运行深度学习作业的框架，由LinkedIn开源。
+* [TinyAI](https://github.com/Leavesfly/TinyAI)：TinyAI是一个完全基于Java构建的全栈式AI框架，提供从底层数值计算到前沿AI应用的完整技术栈。
 * [SKaiNET](https://github.com/SKaiNET-developers/SKaiNET)：SKaiNET是一个用Kotlin编写的开源深度学习框架。
 * [Porcupine](https://github.com/Picovoice/porcupine)：Porcupine是一款高精度且轻量级的唤醒词引擎。
 * [FlexNeuART](https://github.com/oaqa/FlexNeuART)：FlexNeuART是一个轻量级模块化的信息检索框架，适用于研究、教育和评估，由CMU开源。
