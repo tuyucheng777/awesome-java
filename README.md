@@ -34,7 +34,6 @@
   * [重试](#重试)
   * [负载均衡](#负载均衡)
   * [健康检查](#健康检查)
-  * [优雅停机](#优雅停机)
 * [大数据](#大数据)
   * [大数据框架](#大数据框架)
   * [大数据工具](#大数据工具)
@@ -125,6 +124,7 @@
   * [网络工具](#网络工具)
   * [端口转发](#端口转发)
   * [P2P](#P2P)
+  * [BitTorrent](#BitTorrent)
   * [SDN](#SDN)
   * [SMB](#SMB)
   * [KCP](#KCP)
@@ -561,6 +561,7 @@
 * [运行](docs/doc2.md#运行)
 * [REPL](docs/doc2.md#REPL)
 * [Java Web Start](docs/doc2.md#Java-Web-Start)
+* [优雅停机](docs/doc2.md#优雅停机)
 * [RPM](docs/doc2.md#RPM)
 * [Java环境管理](docs/doc2.md#Java环境管理)
 * [API变更管理](docs/doc2.md#API变更管理)
@@ -985,7 +986,6 @@
 * [数字资产管理](docs/doc2.md#数字资产管理)
 * [自动程序修复](docs/doc2.md#自动程序修复)
 * [协议实现](docs/doc2.md#协议实现)
-* [BitTorrent](docs/doc2.md#BitTorrent)
 * [编解码](docs/doc2.md#编解码)
 * [打印机](docs/doc2.md#打印机)
 * [Web开发](docs/doc2.md#Web开发)
@@ -1172,6 +1172,7 @@
 * [JKMVC](https://github.com/shigebeyond/jkmvc)：JKMVC是一个优雅、强大且轻量级的MVC Web框架，使用Kotlin构建。
 * [Stapler](https://github.com/jenkinsci/stapler)：Stapler Web框架，由Jenkins组织开源。
 * [Prime MVC](https://github.com/prime-framework/prime-mvc)：Prime MVC是一个用Java构建的高性能MVC框架，由Inversoft公司开源。
+* [Induction](http://inductionframework.org/)：Induction是一个功能强大、高性能的Java MVC Web应用框架。
 
 #### JSF框架
 
@@ -1207,6 +1208,7 @@
 * [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA的SDK，由Adobe维护。
 * [Flavour](https://flavour.sourceforge.io/)：Flavour是一个内置电池的框架，用于用Java制作单页Web应用。
 * [Echo](https://github.com/echo3/echo3)：Echo是一个用于开发富Web应用程序的开源框架。
+* [Seam](https://www.seamframework.org/)：Seam是一个功能强大的开源开发平台，用于构建基于Java的富互联网应用程序，由RedHat开源。
 * [Fastball](https://github.com/fastball-projects/fastball)：Fastball是一套面向后端、声明式界面开发框架。
 * [NG-Objects](https://github.com/ngobjects/ng-objects)：NG-Objects是一个开源Web框架，它很大程度上基于苹果公司的WebObjects框架的概念。
 * [N2O Framework](https://github.com/i-novus-llc/n2o-framework)：N2O Framework是一个用Java和ReactJS编写的库，允许你创建具有复杂用户界面的Web应用程序，而无需深入了解Web技术和前端框架。
@@ -1547,7 +1549,6 @@
 * [Kaazing Gateway](https://github.com/kaazing/gateway)：Kaazing Gateway是一个网络网关，旨在为基于Web的实时协议提升提供单一接入点，支持负载均衡、集群和安全管理。
 * [API ML](https://github.com/zowe/api-layer)：API ML为大型机服务REST API提供单一访问点，由IBM开源。
 * [OWASP Application Gateway](https://github.com/The-OAG-Development-Project/Application-Gateway)：OWASP Application Gateway是一个HTTP反向代理，位于你的Web应用程序和客户端之间，负责处理Oauth2登录和会话管理。
-* [Bus Vortex](https://github.com/818000/bus/tree/main/bus-vortex)：Bus Vortex是一个基于Spring WebFlux构建的分布式、全异步、高性能、可扩展且轻量级的API网关。
 * [Clivia](https://gitee.com/palading_cr/clivia)：Clivia是一款基于Spring WebFlux的可扩展、高性能、高弹性、响应式的API网关。
 * [HXAPIGate](https://gitee.com/willbeahero/HXAPIGate)：HXAPIGate是基于Netty、Shiro开发的一款高性能API网关。
 
@@ -1654,13 +1655,6 @@
 * [SmallRye Health](https://github.com/smallrye/smallrye-health)：SmallRye Health是Eclipse MicroProfile Health的一个实现。
 * [Health Check](https://github.com/Netflix/runtime-health)：HealthCheck公开一个REST端点，用于外部监控，由Netflix开源。
 * [HeartBeat](https://gitee.com/mkk/HeartBeat)：心跳检测各类应用服务器(如Tomcat、Jetty)，Web服务器(如Apache、Nginx)的Java Web应用程序。
-
-#### 优雅停机
-
-* [Spring Boot Graceful Shutdown](https://github.com/SchweizerischeBundesbahnen/springboot-graceful-shutdown)：Spring Boot Graceful Shutdown使你的Spring Boot应用程序能够在OpenShift上进行滚动部署，而无需任何停机，由瑞士联邦铁路开源。
-* [Spring Boot Graceful Shutdown](https://github.com/timpeeters/spring-boot-graceful-shutdown)：该项目为Spring Boot添加了优雅关闭行为。
-* [Spring Boot Graceful Shutdown](https://github.com/corentin59/spring-boot-graceful-shutdown)：该Starter公开了Spring Boot项目的端点以执行正常关闭。
-* [Spring Boot Graceful Shutdown](https://github.com/LeeKyoungIl/springboot-graceful-shutdown)：简单的Spring Boot优雅关机库。
 
 ## 大数据
 
@@ -2020,6 +2014,7 @@
 * [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
 * [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
 * [OPENI](https://github.com/open-intelligence/OpenI-Octopus)：OPENI是一个集群管理工具和资源调度平台，最初由微软研究院、微软搜索技术中心、北京大学、西安交通大学、浙江大学和中国科学技术大学联合设计和开发。
+* [Rapid](https://github.com/lalithsuresh/rapid)：Rapid是一种分布式成员服务，它允许一组进程轻松形成集群，并在成员资格发生变化时接收通知。
 * [Norbert](https://github.com/rhavyn/norbert)：Norbert是一个提供简单集群管理和集群感知客户端/服务器网络API的库，由Linkedin开源。
 * [Apache Helix](https://github.com/apache/helix)：Helix是一个通用集群管理框架，用于自动管理节点集群上托管的分区、复制和分布式资源，由LinkedIn开源。
 * [Apache Airavata](https://airavata.apache.org/)：Airavata是一个软件框架，用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业，由印第安纳大学开源。
@@ -2390,7 +2385,6 @@ Kafka生态管理系统、运维平台。
 
 * [Waltz](https://github.com/wepay/waltz)：Waltz是一种基于仲裁的分布式预写日志，用于复制事务，由WePay开源。
 * [Jepsen](https://github.com/jepsen-io/jepsen)：Jepsen致力于提高分布式数据库、队列、共识系统等的安全性。
-* [Rapid](https://github.com/lalithsuresh/rapid)：Rapid是一种分布式成员服务，它允许一组进程轻松形成集群，并在成员资格发生变化时接收通知。
 * [Libcrunch](https://github.com/twitter-archive/libcrunch)：Libcrunch是一个轻量级映射框架，它将数据对象映射到多个节点，并受到用户指定的约束，由Twitter开源。
 * [Parapet](https://github.com/parapet-io/parapet)：Parapet是一个用于构建分布式和事件驱动系统的纯函数式库。
 * [Low Level Design](https://github.com/InterviewReady/Low-Level-Design)：常见数据结构的低级设计。
@@ -2400,6 +2394,7 @@ Kafka生态管理系统、运维平台。
 * [COMPSs](https://github.com/bsc-wdc/compss)：COMPSs是一种编程模型，旨在简化分布式基础设施(例如集群、网格和云)的应用程序开发，由巴塞罗那超级计算中心开源。
 * [UNICORE](https://github.com/UNICORE-EU)：UNICORE是一个用于构建联合系统的软件套件，提供对高性能计算和数据资源的安全、无缝访问，由于利希研究中心开发。
 * [Drasyl](https://github.com/drasyl/drasyl)：Drasyl是一个用于快速开发分布式应用程序的高性能框架，由汉堡大学开源。
+* [Gridgo](https://github.com/gridgo/gridgo)：Gridgo是一个利用异步I/O连接器和事件驱动编程简化分布式系统构建的平台。
 * [Oracle Bedrock](https://github.com/coherence-community/oracle-bedrock)：Oracle Bedrock提供了一个通用Java框架，用于开发、编排和测试高度并发的分布式应用程序。
 * [Apache Fluo](https://github.com/apache/fluo)：Fluo是一个分布式处理系统，允许用户对大型数据集进行增量更新，由美国国家安全局开源。
 * [Fallout](https://github.com/datastax/fallout)：Fallout是一种用于运行本地或大规模远程分布式正确性、验证和性能测试的工具，由DataStax开源。
@@ -2566,6 +2561,7 @@ Kafka生态管理系统、运维平台。
 * [JStarCraft RNS](https://github.com/HongZhaoHua/jstarcraft-rns)：JStarCraft RNS是一个面向信息检索领域的轻量级引擎。
 * [Lucilla](https://github.com/haroldadmin/lucilla)：Lucilla是一个用于Kotlin的内存全文搜索库。
 * [Heliosearch](https://github.com/Heliosearch/heliosearch)：Heliosearch是一款高性能NoSQL搜索服务器，是Solr开源搜索的下一代产品。
+* [Regain](https://regain.sourceforge.net/)：Regain是一款类似于Google等网络搜索引擎的搜索引擎。
 
 #### 图数据库
 
@@ -3462,6 +3458,25 @@ Kafka生态管理系统、运维平台。
 * [I2P+](https://github.com/I2PPlus/i2pplus)：I2P+是Java I2P匿名网络层的软分支。
 * [MuWire](https://github.com/zlatinb/muwire)：MuWire是一款文件发布和网络工具，它利用I2P技术保护用户身份。
 
+#### BitTorrent
+
+* [Bt](https://github.com/atomashpolskiy/bt)：BitTorrent库和客户端，具有DHT、磁力链接、加密等功能。
+* [BiglyBT](https://github.com/BiglySoftware/BiglyBT)：基于Azureus开源项目的功能齐全的Bittorrent客户端。
+* [PeerBanHelper](https://github.com/PBH-BTN/PeerBanHelper)：PeerBanHelper是一个开源的个人网络防火墙安全软件。
+* [Vuze](https://www.vuze.com/)：Vuze是一个用Java编写的BitTorrent客户端，且支持I2P和Tor匿名网络协议。
+* [Snail](https://gitee.com/acgist/snail)：基于Java、JavaFX开发的下载工具，支持下载协议BT(BitTorrent、磁力链接、种子文件)、HLS(M3U8)、FTP、HTTP。
+* [MLDHT](https://github.com/the8472/mldht)：一个Java库和独立节点，实现了基于Kademlia的BitTorrent主线DHT，并考虑到长期运行的服务器级节点。
+* [Kademlia](https://github.com/JoshuaKissoon/Kademlia)：这是Kademlia路由协议和DHT的实现。
+* [OpenSeedbox](https://github.com/openseedbox/openseedbox)：OpenSeedbox是一个基于Web的BitTorrent用户界面。
+* [BitLet](https://github.com/bitletorg/bitlet)：BitLet是BitTorrent协议的简单Java实现。
+* [Ttorrent](https://github.com/mpetazzoni/ttorrent)：BitTorrent协议的Java实现。
+* [FrostWire JLibTorrent](https://github.com/frostwire/frostwire-jlibtorrent)：FrostWire为libtorrent提供的swig Java接口。
+* [Libtorrent4j](https://github.com/aldenml/libtorrent4j)：Libtorrent的swig Java接口。
+* [FrostWire](https://github.com/frostwire/frostwire)：FrostWir是BitTorrent网络的媒体播放器和点对点(P2P)信息共享客户端。
+* [STorrent](https://github.com/oxlade39/STorrent)：STorrent是一个几乎完全用Akka编写的BitTorrent客户端。
+* [Torrent4j](https://github.com/Rogiel/torrent4j)：用纯Java实现的Bittorrent库。
+* [JavaTorrent](https://github.com/Johnnei/JavaTorrent)：Java Torrent是一个用Java编写的BitTorrent协议实现。
+
 #### SDN
 
 * [OpenDaylight](https://github.com/opendaylight)：OpenDaylight由Linux基金会支持，其目标在于开发支援软件定义网络(SDN)的各种软件工具，建立网络功能虚拟化的基础。
@@ -3599,7 +3614,7 @@ Kafka生态管理系统、运维平台。
 * [PicoContainer](https://github.com/picocontainer/picocontainer)：PicoContainer是非常轻量级的IoC容器，提供依赖注入和对象生命周期管理的功能。
 * [Avaje Inject](https://github.com/avaje/avaje-inject)：面向Java和Kotlin开发人员的快速、轻型依赖注入库。
 * [HK2](https://github.com/eclipse-ee4j/glassfish-hk2)：HK2是Jakarta依赖注入的实现，由Oracle开发。
-* [Apache DeltaSpike](https://github.com/apache/deltaspike)：DeltaSpike是一套可移植的CDI扩展，旨在使使用CDI和Java EE时的应用程序开发变得更加容易。
+* [Apache DeltaSpike](https://github.com/apache/deltaspike)：DeltaSpike是一套可移植的CDI扩展，旨在使使用CDI和Java EE时的应用程序开发变得更加容易，由RedHat开源。
 * [Javax Inject](https://github.com/javax-inject/javax-inject)：Javax Inject是JSR-330依赖注入标准。
 * [Java IoC](https://github.com/ibm/java-ioc)：Java控制反转框架，由IBM开发。
 * [Katana](https://github.com/rewe-digital/katana)：Katana是适用于JVM上的Kotlin的轻量级、简约的依赖注入库，专为Android而设计。
@@ -3704,7 +3719,7 @@ Kafka生态管理系统、运维平台。
 * [ChatGPT Java](https://github.com/PlexPt/chatgpt-java)：ChatGPT Java SDK，支持GPT3.5、GPT4 API。
 * [ChatGPT Java](https://github.com/Grt1228/chatgpt-java)：ChatGPT的Java客户端。
 * [ChatGPT Java](https://github.com/arctisio/chatgpt-java)：使用逆向工程API的OpenAI ChatGPT的轻量级Java库。
-* [ChatGPT Java](https://gitee.com/grt1228/chatgpt-java)：ChatGPT的Java客户端，OpenAI官方API的Java版SDK。
+* [ChatGPT Java](https://github.com/hongspell/chatgpt-java)：ChatGPT Java支持OpenAI的一些官方接口，并提供基于命令行聊天的对话模式。
 * [RunAnywhere SDK](https://github.com/RunanywhereAI/runanywhere-sdks)：隐私优先的设备上AI SDK，可将强大的语言模型直接引入你的iOS和Android应用程序。
 * [OpenAI Java SDK](https://gitee.com/devlive-community/openai-java-sdk)：为Java开发人员提供方便易用的SDK来与OpenAI模型的API进行交互。
 * [ChatGPT SDK Java](https://github.com/1321928757/chatgpt-sdk-java)：ChatGPT大模型开放SDK。
