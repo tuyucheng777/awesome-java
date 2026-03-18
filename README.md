@@ -324,6 +324,7 @@
   * [日志采集](docs/doc2.md#日志采集)
   * [请求/响应记录](docs/doc2.md#请求响应记录)
   * [日志追踪](docs/doc2.md#日志追踪)
+  * [操作日志](docs/doc2.md#操作日志)
   * [日志分析](docs/doc2.md#日志分析)
   * [Logback Appender](docs/doc2.md#Logback-Appender)
   * [结构化日志](docs/doc2.md#结构化日志)
@@ -993,6 +994,7 @@
   * [JavaScript引擎](docs/doc2.md#JavaScript引擎)
   * [GWT库](docs/doc2.md#GWT库)
   * [Vaadin库](docs/doc2.md#Vaadin库)
+  * [Wicket库](docs/doc2.md#Wicket库)
   * [CSS库](docs/doc2.md#CSS库)
 * [对象图导航](docs/doc2.md#对象图导航)
 * [超媒体类型](docs/doc2.md#超媒体类型)
@@ -1155,6 +1157,7 @@
 * [AceQL HTTP](https://github.com/kawansoft/aceql-http)：AceQL HTTP是一个类似REST的API库，允许你从任何支持HTTP的设备通过HTTP访问远程SQL数据库。
 * [Utterlyidle](https://github.com/bodar/utterlyidle)：另一个受JSR 311优点启发的Java REST库。
 * [Netty REST Server](https://github.com/lining90567/netty-rest-server)：Netty REST Server是基于Netty开发的高性能RESTful框架，提供控制器注解、全局异常控制器、拦截器等功能。
+* [ICERest](https://github.com/T-baby/ICERest)：ICEREST是一个非常轻量级的RESTful路由框架。
 
 #### MVC框架
 
@@ -1287,6 +1290,8 @@
 * [Nexus](https://github.com/StephenFaust/nexus)：Nexus是一个简单的RPC框架。
 * [Navi PBRPC](https://github.com/neoremind/navi-pbrpc)：Navi PBRPC提供了一种使用协议缓冲区的RPC解决方案。
 * [Mango](https://github.com/TFdream/mango)：Mango是一个高性能的开源Java RPC框架。
+* [Kepler](https://github.com/Kepler-Framework/Kepler-All)：Kepler分布式服务框架。
+* [Protobuf RPC](https://github.com/pjklauser/protobuf-rpc-pro)：Protobuf RPC提供了一个基于Java的Google Protocol Buffer RPC服务实现。
 
 ### 微服务框架
 
@@ -1367,6 +1372,7 @@
 * [KWai Business Extension Framework](https://github.com/kwai/kwai-business-extension-framwork)：KWai Business Extension Framework提供一套通用业务扩展框架，通过引入业务身份识别和可扩展的隔离架构，帮助业务搭建定制业务流程的架构标准、研发工具和运维体系，由快手开发。
 * [LingFrame](https://github.com/LingFrame/LingFrame)：LingFrame是一个基于JVM的新一代微内核插件化框架。
 * [Sps4j](https://github.com/qchole/sps4j)：Sps4j是一个轻量级且易于使用的Java插件框架。
+* [SciJava Common](https://github.com/scijava/scijava-common)：SciJava Common提供了一个插件框架，并具有可扩展的服务发现机制，由其自身的注解处理器提供支持，从而可以动态加载插件。
 
 ## 微服务治理
 
@@ -1551,6 +1557,7 @@
 * [OWASP Application Gateway](https://github.com/The-OAG-Development-Project/Application-Gateway)：OWASP Application Gateway是一个HTTP反向代理，位于你的Web应用程序和客户端之间，负责处理Oauth2登录和会话管理。
 * [Clivia](https://gitee.com/palading_cr/clivia)：Clivia是一款基于Spring WebFlux的可扩展、高性能、高弹性、响应式的API网关。
 * [HXAPIGate](https://gitee.com/willbeahero/HXAPIGate)：HXAPIGate是基于Netty、Shiro开发的一款高性能API网关。
+* [Moon Gateway](https://github.com/longcoding/moon-api-gateway)：基于Spring Boot 2.1、Servlet 4和Jetty 9客户端的异步API网关。
 
 ## 服务发现
 
@@ -2186,6 +2193,7 @@
 * [Luxun](https://github.com/bulldog2011/luxun)：Luxun是一款高吞吐量、分布式发布/订阅消息系统。
 * [ReactMQ](https://github.com/adamw/reactmq)：响应式消息队列。
 * [Uncode MQ](https://gitee.com/uncode/uncode-mq)：Uncode MQ是基于Netty的轻量级Java消息中间件。
+* [Spring Redis MQ](https://github.com/ScienJus/spring-redis-mq)：基于Spring和Redis的分布式消息队列。
 
 #### IPC
 
@@ -2243,6 +2251,8 @@
 * [Event Library](https://github.com/SmushyTaco/Event-Library)：一个轻量级、借助反射机制但由LambdaMetafactory加速的Kotlin和JVM事件总线。
 * [SSE-EventBus](https://github.com/ralscha/sse-eventbus)：EventBus库，用于使用SSE将事件从Spring应用程序发送到Web浏览器。
 * [SmartEventBus](https://github.com/JeremyLiao/SmartEventBus)：SmartEventBus是一个Android平台的消息总线框架。
+* [Bekit](https://github.com/zhongxunking/bekit)：Bekit框架致力于解决在应用开发中公共性问题，目前已完成事件总线、流程引擎、服务引擎功能模块。
+* [RxBus2](https://github.com/MFlisar/RxBus2)：RxBus2是一个响应式事件总线实现。
 
 #### 消息总线
 
@@ -2272,7 +2282,6 @@
 * [MessageBus](https://github.com/dorkbox/MessageBus)：MessageBus是一个极其轻量级的消息/事件总线实现。
 * [JPost](https://github.com/janishar/JPost)：Java和Android类通信库。
 * [KillBill Queue](https://github.com/killbill/killbill-commons/tree/master/queue)：KillBill Queue是一个通知队列、持久消息总线库。
-* [Ably Pub/Sub Java SDK](https://github.com/ably/ably-java)：Ably Pub/Sub提供灵活的API，提供诸如发布-订阅消息、消息历史、在线状态和推送通知等功能。
 
 #### 应用总线
 
@@ -2490,6 +2499,7 @@ Kafka生态管理系统、运维平台。
 * [LibRaft](https://github.com/allengeorge/libraft)：LibRaft是一个实现Raft分布式共识协议的Java库。
 * [Dongting](https://github.com/dtprj/dongting)：Dongting项目是一个集成了Raft、配置服务器、消息队列、底层RPC的高性能引擎。
 * [MicroRaft](https://github.com/MicroRaft/MicroRaft)：MicroRaft是Raft共识算法在Java中功能完整且稳定的开源实现。
+* [Raft Simple](https://github.com/DanielJyc/raft-simple)：Raft协议的Java版本简单实现。
 
 #### Paxos算法
 
@@ -2666,6 +2676,7 @@ Kafka生态管理系统、运维平台。
 * [QuickKV](https://github.com/sumimakito/QuickKV)：为Android项目提供的轻量且易用的键值数据库。
 * [Kottage](https://github.com/irgaly/kottage)：Kotlin多平台键值存储本地缓存，实现单一数据源。
 * [KiritoDB](https://github.com/lexburner/kiritoDB)：使用Java实现的高性能键值引擎。
+* [ChronDB](https://github.com/avelino/chrondb)：ChronDB是基于Git架构，按时间顺序排列的键值数据库，具有完整的版本历史记录。
 
 #### 时序数据库
 
@@ -2992,6 +3003,8 @@ Kafka生态管理系统、运维平台。
 * [Unfiltered](https://github.com/unfiltered/unfiltered)：Unfiltered是一个用于在Scala中处理HTTP请求的工具包。
 * [HttpHelper](https://gitee.com/wolfsmoke/WSHttpHelper)：HttpHelper是一个轻量级Http请求框架，致力于为Http请求提供简洁明了的接口。
 * [Mechanize](https://github.com/GistLabs/mechanize)：Mechanize是一个有状态的HTTP Web服务客户端，支持HTML、JSON和XML服务。
+* [UrlHttpUtils](https://github.com/guozhengXia/UrlHttpUtils)：最简单的HttpURLConnection封装。
+* [OKHttpUtil](https://github.com/admin4j/common-http)：专为Java打包的HTTP请求库。
 
 #### HTTP路由
 
@@ -3206,6 +3219,7 @@ Kafka生态管理系统、运维平台。
 * [Vert.x STOMP](https://github.com/vert-x3/vertx-stomp)：STOMP客户端/服务器实现。
 * [JFinal WebSocket](https://gitee.com/xxssyyyyssxx/jfinal-websocket)：JFinal架构下开发WebSocket。
 * [WebSocket Resources](https://github.com/signalapp/WebSocket-Resources)：一个Dropwizard库，允许你通过WebSocket使用Jersey风格的资源。
+* [Spring Websocket Grails](https://github.com/zyro23/grails-spring-websocket)：该插件旨在使Spring 4.0中引入的WebSocket支持可供Grails应用程序使用。
 
 #### Socket.IO
 
@@ -3734,6 +3748,7 @@ Kafka生态管理系统、运维平台。
 * [Simple OpenAI](https://github.com/sashirestela/simple-openai)：Simple OpenAI是一个Java HTTP客户端库，用于向OpenAI API发送请求并接收响应。
 * [JVM OpenAI](https://github.com/StefanBratanov/jvm-openai)：一个针对JVM的简约非官方OpenAI API客户端，使用Java编写。
 * [JavaAI](https://github.com/artemnefedov/JavaAI)：JavaAI是一个轻量级的Java库，旨在与OpenAI API交互。
+* [ChatGPT API SDK](https://github.com/gulihua10010/chatGptApiSdk)：ChatGPT官方API封装。
 * [OGTwelveUtilPack](https://github.com/OGtwelve/OGTwelveUtilPack)：OGtwelve工具包，包含许多在现实开发环境中可能使用的各种工具。
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
@@ -3818,6 +3833,7 @@ Kafka生态管理系统、运维平台。
 * [PaiAgent](https://github.com/itwanger/PaiAgent)：PaiAgent是一个企业级的AI工作流可视化编排平台，让AI能力的组合和调度变得简单高效。
 * [Lynx AI](https://gitee.com/lynx-ai/lynx-ai)：Lynx AI是一个功能强大的企业级AI智能体管理平台，提供从智能体创建、知识库管理、工作流编排到自然语言数据分析的完整AI解决方案。
 * [Ragent](https://github.com/nageoffer/ragent)：Ragent是一个企业级RAG智能体平台，基于Java 17、Spring Boot 3、React 18构建。
+* [Spring AI Playground](https://github.com/spring-ai-community/spring-ai-playground)：Spring AI Playground是一个自托管的Web UI平台，用于构建低代码工具，并通过内置的MCP服务器动态地向AI代理公开这些工具。
 
 #### AI网关
 
@@ -3939,6 +3955,7 @@ Kafka生态管理系统、运维平台。
 * [ML Ease](https://github.com/linkedin/ml-ease)：ML Ease是LinkedIn开源的大规模机器学习库。
 * [Apache Hivemall](https://github.com/apache/incubator-hivemall)：Apache Hivemall是一个可扩展的机器学习库，可在Hive、Spark和Pig上运行，由日本Treasure Data公司开源。
 * [ModernMT](https://github.com/modernmt/modernmt)：ModernMT是一种基于Fairseq Transformer模型的上下文感知、增量和分布式通用神经机器翻译技术。
+* [Noether](https://github.com/spotify/noether)：Noether是一套面向JVM和Scala的机器学习工具集，由Spotify开源。
 * [JStarCraft AI](https://github.com/HongZhaoHua/jstarcraft-ai)：JStarCraft AI是一个机器学习的轻量级框架。
 * [TGBoost](https://github.com/wepe/tgboost)：TGBoost是一个基于XGBoost评分函数和SLIQ高效建树算法的微缩梯度提升树实现。
 * [XGBoost Predictor Java](https://github.com/komiya-atsushi/xgboost-predictor-java)：XGBoost预测器的纯Java实现，用于在线预测任务。
@@ -3990,6 +4007,7 @@ Kafka生态管理系统、运维平台。
 * [DeepDSL](https://github.com/deepdsl/deepdsl)：DeepDSL是一种嵌入于Scala中的DSL，用于编写深度学习网络应用。
 * [JRNN](https://github.com/lipiji/JRNN)：Java中的LSTM和GRU。
 * [DeepDriver](https://github.com/LongJunCai/DeepDriver)：DeepDriver是一个Java深度学习框架，目前支持ANN/CNN/DNN/RNN/LSTM。
+* [JavaCNN](https://github.com/DeepCompute/cnn)：基于Java实现CNN。
 
 #### 推荐系统
 
