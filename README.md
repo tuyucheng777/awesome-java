@@ -64,13 +64,6 @@
   * [消息总线](#消息总线)
   * [应用总线](#应用总线)
   * [消息队列客户端](#消息队列客户端)
-* [Kafka](#Kafka)
-  * [Kafka测试库](#Kafka测试库)
-  * [Kafka管理和运维工具](#Kafka管理和运维工具)
-  * [Kafka监控和审计](#Kafka监控和审计)
-  * [Kafka复制和备份](#Kafka复制和备份)
-  * [Kafka代理](#Kafka代理)
-  * [Schema注册和管理](#Schema注册和管理)
 * [分布式开发](#分布式开发)
   * [分布式锁](#分布式锁)
   * [分布式ID](#分布式ID)
@@ -113,13 +106,13 @@
   * [Socket.IO](#SocketIO)
   * [Socket](#Socket)
   * [TCP/UDP库](#TCPUDP库)
+  * [IO_Uring](#IO_Uring)
   * [IM](#IM)
   * [Pcap](#Pcap)
   * [SSH库](#SSH库)
   * [DNS库](#DNS库)
   * [HTTP代理](#HTTP代理)
   * [内网穿透](#内网穿透)
-  * [IO_Uring](#IO_Uring)
   * [网络监控](#网络监控)
   * [网络工具](#网络工具)
   * [端口转发](#端口转发)
@@ -145,6 +138,7 @@
   * [MCP](#MCP)
   * [代理框架](#代理框架)
   * [AI智能体](#AI智能体)
+  * [OpenClaw](#OpenClaw)
   * [AI网关](#AI网关)
   * [终端助手](#终端助手)
   * [NL2SQL](#NL2SQL)
@@ -279,6 +273,7 @@
   * [Zookeeper库/工具](docs/doc2.md#Zookeeper库工具)
   * [ClickHouse库/工具](docs/doc2.md#ClickHouse库工具)
   * [ElasticSearch库/工具](docs/doc2.md#ElasticSearch库工具)
+  * [Lucene库/工具](docs/doc2.md#Lucene库工具)
   * [DynamoDB库/工具](docs/doc2.md#DynamoDB库工具)
   * [Neo4j库/工具](docs/doc2.md#Neo4j库工具)
   * [Etcd库/工具](docs/doc2.md#Etcd库工具)
@@ -314,6 +309,7 @@
   * [数据匿名化](docs/doc2.md#数据匿名化)
   * [电子签名](docs/doc2.md#电子签名)
 * [工具库](docs/doc2.md#工具库)
+* [参数校验](docs/doc2.md#参数校验)
 * [缓存库](docs/doc2.md#缓存库)
   * [本地缓存](docs/doc2.md#本地缓存)
   * [分布式缓存](docs/doc2.md#分布式缓存)
@@ -519,6 +515,13 @@
 * [容器化工具](docs/doc2.md#容器化工具)
 * [DevOps](docs/doc2.md#DevOps)
 * [管理面板](docs/doc2.md#管理面板)
+* [Kafka](docs/doc2.md#Kafka)
+  * [Kafka测试库](docs/doc2.md#Kafka测试库)
+  * [Kafka管理和运维工具](docs/doc2.md#Kafka管理和运维工具)
+  * [Kafka监控和审计](docs/doc2.md#Kafka监控和审计)
+  * [Kafka复制和备份](docs/doc2.md#Kafka复制和备份)
+  * [Kafka代理](docs/doc2.md#Kafka代理)
+  * [Schema注册和管理](docs/doc2.md#Schema注册和管理)
 * [性能分析&调优](docs/doc2.md#性能分析调优)
   * [诊断工具](docs/doc2.md#诊断工具)
   * [APM](docs/doc2.md#APM)
@@ -562,6 +565,7 @@
 * [运行](docs/doc2.md#运行)
 * [REPL](docs/doc2.md#REPL)
 * [Java Web Start](docs/doc2.md#Java-Web-Start)
+* [调试工具](docs/doc2.md#调试工具)
 * [优雅停机](docs/doc2.md#优雅停机)
 * [RPM](docs/doc2.md#RPM)
 * [Java环境管理](docs/doc2.md#Java环境管理)
@@ -863,6 +867,7 @@
   * [FFmpeg包装器](docs/doc2.md#FFmpeg包装器)
   * [音频编解码器](docs/doc2.md#音频编解码器)
   * [媒体服务器](docs/doc2.md#媒体服务器)
+  * [呼叫中心](docs/doc2.md#呼叫中心)
 * [数据结构](docs/doc2.md#数据结构)
   * [树](docs/doc2.md#树)
   * [堆](docs/doc2.md#堆)
@@ -941,7 +946,6 @@
 * [OData](docs/doc2.md#OData)
 * [海关](docs/doc2.md#海关)
 * [蓝牙](docs/doc2.md#蓝牙)
-* [校验](docs/doc2.md#校验)
 * [IPP](docs/doc2.md#IPP)
 * [OSC](docs/doc2.md#OSC)
 * [CalDAV](docs/doc2.md#CalDAV)
@@ -1119,6 +1123,8 @@
 * [Turismo](https://github.com/ghosthack/turismo)：Turismo是一个轻量级的Sinatra/Express风格的Java Web框架。
 * [RoubSite](https://github.com/lonesafe/roubsite)：RoubSite是一个简单、轻量、易上手的Java Web开发框架。
 * [Pustefix](http://www.pustefix-framework.org/)：Pustefix是一个开源的Java Web应用程序框架，用于使用Spring、XML和XSLT开发基于请求的MVC风格的Web应用程序。
+* [Unidal](https://github.com/unidal/frameworks)：Unidal是基于Servlet的MVC框架。
+* [Graffiti](https://github.com/webdevwilson/graffiti)：Graffiti是一个轻量级的Groovy Web框架，其设计灵感来自Sinatra。
 
 #### REST框架
 
@@ -1261,6 +1267,7 @@
 * [Joynr](https://github.com/bmwcarit/joynr)：Joynr是一个与传输协议无关(MQTT、HTTP、WebSockets等)、基于Franca IDL的通信框架，支持多种通信范例，由宝马开源。
 * [Stitch](https://github.com/twitter/stitch)：Stitch是一个Scala库，用于优雅高效地组合对服务的RPC调用，由Twitter开发。
 * [DubboX](https://github.com/dangdangdotcom/dubbox)：DubboX在Dubbo框架中添加了RESTful远程处理、Kyro/FST序列化等功能，由当当开发。
+* [Dubbo-G](https://github.com/lenovoDTC/dubbo-G)：Dubbo-G是联想基于Dubbo 2.5.3的二次开发版本。
 * [Mu RPC](https://github.com/higherkindness/mu-scala)：Mu RPC是一个纯函数式库，用于构建基于RPC端点的服务，支持RPC和HTTP/2，由47 Degrees开源。
 * [NettyRPC](https://github.com/luxiaoxun/NettyRpc)：NettyRpc是一个基于Netty、ZooKeeper和Spring的简单RPC框架。
 * [JoyRPC](https://github.com/jd-opensource/joyrpc)：JoyRPC是一款基于Java实现的RPC服务框架，由京东开源。
@@ -1571,6 +1578,7 @@
 * [Ranger](https://github.com/flipkart-incubator/ranger)：Ranger是一个基于Zookeeper构建的高级服务发现框架，由Flipkart开源。
 * [Vert.x Service Discovery](https://github.com/vert-x3/vertx-service-discovery)：Vert.x Service Discovery提供发现基础设施来注册和发现微服务应用程序公开的服务。
 * [Captain](https://github.com/pyloque/captain)：Captain是另一个基于Redis的服务发现实现。
+* [DDSL](https://github.com/mbknor/ddsl)：DDSL是动态分布式服务定位器。
 
 ## 容错组件
 
@@ -2194,6 +2202,7 @@
 * [ReactMQ](https://github.com/adamw/reactmq)：响应式消息队列。
 * [Uncode MQ](https://gitee.com/uncode/uncode-mq)：Uncode MQ是基于Netty的轻量级Java消息中间件。
 * [Spring Redis MQ](https://github.com/ScienJus/spring-redis-mq)：基于Spring和Redis的分布式消息队列。
+* [RedisQ](https://github.com/davidmarquis/redisq)：RedisQ是一个使用Redis作为后端的分布式消息队列的Java实现。
 
 #### IPC
 
@@ -2315,80 +2324,6 @@
 * [PSC](https://github.com/pinterest/psc)：PSC是一个通用且可扩展的客户端库，允许应用程序通过统一的接口与不同的后端PubSub系统进行交互，由Pinterest开发。
 * [Async Google Pub/Sub Client](https://github.com/spotify/async-google-pubsub-client)：一个低级别的Pub/Sub客户端和一个并发的每主题批处理发布者，由Spotify开发。
 * [OpenMAMA](https://github.com/finos/OpenMAMA)：OpenMAMA是一个高性能、与供应商无关的轻量级包装器，它为跨各种平台和语言的不同中间件和消息传递解决方案提供通用API接口，由金融科技基金会开源。
-
-## Kafka
-
-Kafka生态管理系统、运维平台。
-
-#### Kafka测试库
-
-* [Embedded Kafka](https://github.com/embeddedkafka/embedded-kafka)：提供内存中的Kafka实例来运行测试的库。
-* [Scalatest Embedded Kafka](https://github.com/manub/scalatest-embedded-kafka)：一个提供内存Kafka实例来运行测试的库。
-* [Kafka Unit](https://github.com/chbatey/kafka-unit)：允许你启动和停止Kafka代理、ZooKeeper实例，以对与Kafka通信的应用程序进行单元测试。
-* [Mocked Streams](https://github.com/jpzk/mockedstreams)：Mocked Streams是Scala 2.12和2.13的一个库，它允许你在没有Zookeeper和Kafka Brokers的情况下对Kafka Streams应用程序的处理拓扑进行单元测试。
-* [Fluent Kafka Streams Tests](https://github.com/bakdata/fluent-kafka-streams-tests)：使用Java进行流式的Kafka Streams测试。
-* [Kafka JUnit](https://github.com/salesforce/kafka-junit)：该库包装了Kafka的嵌入式测试集群，使你可以更轻松地使用JUnit针对在测试上下文中运行的真实kafka服务器创建和运行集成测试，由Salesforce开源。
-* [Kafka JUnit](https://github.com/charithe/kafka-junit)：Kafka JUnit提供了在测试期间启动和关闭Kafka代理的工具程序。
-* [Kafka JUnit](https://github.com/mguenther/kafka-junit)：Kafka JUnit使开发人员能够在JUnit测试中启动和停止由Kafka代理和分布式Kafka Connect Workers组成的完整Kafka集群。
-
-#### Kafka管理和运维工具
-
-* [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Kafka集群的工具，由Yahoo开源。
-* [Kafka UI](https://github.com/provectus/kafka-ui)：用于管理Kafka集群的多功能、快速且轻量级的Web UI。
-* [KafkaUI Lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
-* [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
-* [Kouncil](https://github.com/Consdata/kouncil)：Kouncil让你可以使用现代Web界面监控和管理Apache Kafka集群。
-* [Offset Explorer](https://www.kafkatool.com/index.html)：Offset Explorer是一个用于管理和使用Apache Kafka集群的GUI应用程序。
-* [Confluent Platform](https://www.confluent.io/en-gb/product/confluent-platform/gui-driven-management-and-monitoring/)：Confluent Platform提供直观的GUI来管理和监控Apache Kafka，由Confluent开发。
-* [Kpow](https://factorhouse.io/kpow/)：Kpow是Apache Kafka的监控和管理工具。
-* [KafkaEsque](https://github.com/patschuh/KafkaEsque)：KafkaEsque是一个用JavaFX开发的Kafka GUI工具。
-* [KnowStreaming](https://github.com/didi/KnowStreaming)：Know Streaming是一套云原生的Kafka管控平台，脱胎于众多互联网内部多年的Kafka运营实践经验，专注于Kafka运维管控、监控告警、资源治理、多活容灾等核心场景，由滴滴开源。
-* [EFAK](https://github.com/smartloli/EFAK)：EAFK是一个开源的Kafka集群管理和监控工具，旨在帮助用户更好地管理和监控其Kafka集群。
-* [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
-* [KafkIO](https://kafkio.com/)：面向工程师和管理员的快速、简便的Apache Kafka GUI，适用于macOS、Windows和Linux，由Certak公司维护。
-* [Kafka WebView](https://github.com/SourceLabOrg/kafka-webview)：Kafka WebView提供了一个易于使用的基于Web的界面，用于从Kafka主题中读取数据并提供基本的过滤和搜索功能。
-* [KCenter](https://github.com/xaecbd/KCenter)：KCenter是一个统一的Kafka集群管理维护、生产者/消费者监控、生态组件使用的一站式平台。
-* [Kafka Map](https://github.com/dushixiang/kafka-map)：Kafka Map是使用Java 17和React开发的Kafka可视化工具。
-* [Kafka Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：Kafka Sprout是一个Web GUI，可以帮助你在本地计算机上快速启动Zookeeper和Kafka服务器，无需任何代码配置。
-* [Kafka Dog](https://github.com/Pitayafruits/kafka-dog)：Kafka Dog是一款轻量级的Apache Kafka可视化管理工具，提供图形化界面用于管理和监控Kafka集群。
-* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Kafka集群的UI。
-* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
-* [Kafka Console UI](https://gitee.com/xiaodong_xu/kafka-console-ui)：一款轻量级的kafka可视化管理平台，安装配置快捷、简单易用。
-* [Kafbat UI](https://github.com/kafbat/kafka-ui)：Kafbat UI是一个免费的开源Web UI，用于监控和管理Kafka集群。
-* [Klaw](https://github.com/Aiven-Open/klaw)：Klaw是一个自助式Kafka主题管理/治理工具/门户，由Aiven开源。
-* [Kafka Web Console](https://github.com/cjmamo/kafka-web-console)：Kafka Web Console是一个用于监控Apache Kafka的Java Web应用程序。
-* [Astraea](https://github.com/opensource4you/astraea)：Astraea提供各式工具来降低Kafka使用门槛以及提高Kafka效能和资源使用率。
-* [Cruise Control](https://github.com/linkedin/cruise-control)：Cruise Control是一款帮助大规模运行Kafka集群的产品，由LinkedIn开源。
-* [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载均衡的服务，由Pinterest开源。
-* [Julie](https://github.com/kafka-ops/julie)：JulieOps帮助你自动化管理Kafka中的事物，从主题、配置到元数据，以及访问控制、模式。
-* [Kafka Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
-* [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Kafka集群的方法，由RedHat开源。
-
-#### Kafka监控和审计
-
-* [Xinfra Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor是一个在真实集群中实现和执行长时间运行的kafka系统测试的框架，由LinkedIn开源。
-* [Kafka Offset Monitor](https://github.com/Morningstar/kafka-offset-monitor)：这是一个用于监控Kafka消费者及其在日志中的位置(偏移量)的应用程序。
-* [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
-* [Lenses](https://lenses.io/)：Lenses是开发人员体验工具，可帮助企业在一个地方使用每个Apache Kafka。
-* [Remora](https://github.com/zalando-incubator/remora)：Remora是Apache Kafka的一个监控工具，提供消费者延迟检测服务，由Zalando开源。
-
-#### Kafka复制和备份
-
-* [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
-* [Mirus](https://github.com/salesforce/mirus)：Mirus是Kafka的跨数据中心数据复制工具，由Salesforce开源。
-* [Kafka Backup](https://github.com/itadventurer/kafka-backup)：Kafka Backup是一个用于备份和恢复Kafka数据的工具，包括所有(可配置的)主题数据，尤其是消费者组的偏移量。
-
-#### Kafka代理
-
-* [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
-* [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例。
-* [Liiklus](https://github.com/bsideup/liiklus)：Liiklus是基于RSocket/gRPC的事件系统网关。
-* [Uforwarder](https://github.com/uber/uForwarder)：Uforwarder是一个代理，它通过RPC协议将数据从Kafka传输到消息消费者。
-
-#### Schema注册和管理
-
-* [Confluent Schema Registry](https://github.com/confluentinc/schema-registry)：Kafka的Confluence模式注册中心。
-* [Jikkou](https://github.com/streamthoughts/jikkou)：Jikkou是一款开源工具，旨在提供一种高效且简单的方法来管理、自动化和配置事件流平台上的资源。
 
 ## 分布式开发
 
@@ -2677,6 +2612,7 @@ Kafka生态管理系统、运维平台。
 * [Kottage](https://github.com/irgaly/kottage)：Kotlin多平台键值存储本地缓存，实现单一数据源。
 * [KiritoDB](https://github.com/lexburner/kiritoDB)：使用Java实现的高性能键值引擎。
 * [ChronDB](https://github.com/avelino/chrondb)：ChronDB是基于Git架构，按时间顺序排列的键值数据库，具有完整的版本历史记录。
+* [Jodis](https://github.com/solar-systems/Jodis)：Jodis是一个高性能的基于内存的NoSQL键值数据库，采用Java开发。
 
 #### 时序数据库
 
@@ -3005,6 +2941,7 @@ Kafka生态管理系统、运维平台。
 * [Mechanize](https://github.com/GistLabs/mechanize)：Mechanize是一个有状态的HTTP Web服务客户端，支持HTML、JSON和XML服务。
 * [UrlHttpUtils](https://github.com/guozhengXia/UrlHttpUtils)：最简单的HttpURLConnection封装。
 * [OKHttpUtil](https://github.com/admin4j/common-http)：专为Java打包的HTTP请求库。
+* [RestfulKit](https://github.com/ydstar/RestfulKit)：简洁、易用的Android网络组件库。
 
 #### HTTP路由
 
@@ -3280,6 +3217,15 @@ Kafka生态管理系统、运维平台。
 * [JBoss Remoting](https://github.com/jboss-remoting/jboss-remoting)：JBoss Remoting的目的是提供一个用于通过网络进行对称和非对称通信的通用框架，由RedHat开发。
 * [Extasys](https://github.com/nsiatras/extasys)：Extasys是一个高性能的异步TCP/UDP套接字库。
 
+#### IO_Uring
+
+* [Jasyncfio](https://github.com/ikorennoy/jasyncfio)：Jasyncfio提供了基于Linux io_uring接口的异步文件I/O API。
+* [NIO_Uring](https://github.com/bbeaupain/nio_uring)：NIO_Uring是一个Java I/O库，它在底层使用io_uring。
+* [Netty io_uring](https://github.com/netty/netty-incubator-transport-io_uring)：Netty为io_uring提供的实验性支持。
+* [PanamaUring](https://github.com/dreamlike-ocean/PanamaUring)：这是一个探索性质的项目，使用Java的新FFI为Java引入io_uring。
+* [JUring](https://github.com/davidtos/JUring)：JUring是一个高性能Java库，它使用Java的FFM API提供与Linux的io_uring异步I/O接口的绑定。
+* [Myra Transport](https://github.com/mvp-express/myra-transport)：基于Linux io_uring实现真正的异步I/O，支持零复制缓冲区管理和内核绕过功能。
+
 #### IM
 
 * [Jitsi](https://github.com/jitsi/jitsi)：Jitsi Desktop是一款免费的开源音频/视频和聊天通信器，支持SIP、XMPP/Jabber、IRC等协议和许多其他有用的功能。
@@ -3387,6 +3333,7 @@ Kafka生态管理系统、运维平台。
 * [Quarantyne](https://github.com/quarantyne/quarantyne)：Quarantyne是一个用Java编写的反向代理。
 * [EasyHttpProxy](https://github.com/puhaiyang/easyHttpProxy)：支持HTTP/HTTPS代理，类似于Fiddler。
 * [NettyGateway](https://github.com/tang-jie/NettyGateway)：NettyGateway是一个具有灵活路由规则的HTTP代理服务器。
+* [TLSFragmenter](https://github.com/filtershekanha/TLSFragmenter)：TLSFragmenter包含一个使用Spring Boot框架构建的Java代理服务器实现。
 
 #### 内网穿透
 
@@ -3409,15 +3356,7 @@ Kafka生态管理系统、运维平台。
 * [NET Penetrate](https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple)：内网穿透、GUI、一键启动、不限速，内置日志。
 * [Natx](https://github.com/wucao/natx)：Natx是一个基于Java Netty实现的可用于内网穿透的代理工具，支持TCP协议。
 * [SuperTunnel](https://github.com/davidkey/supertunnel)：SuperTunnel是一个可以通过HTTP隧道传输普通TCP流量的程序。
-
-#### IO_Uring
-
-* [Jasyncfio](https://github.com/ikorennoy/jasyncfio)：Jasyncfio提供了基于Linux io_uring接口的异步文件I/O API。
-* [NIO_Uring](https://github.com/bbeaupain/nio_uring)：NIO_Uring是一个Java I/O库，它在底层使用io_uring。
-* [Netty io_uring](https://github.com/netty/netty-incubator-transport-io_uring)：Netty为io_uring提供的实验性支持。
-* [PanamaUring](https://github.com/dreamlike-ocean/PanamaUring)：这是一个探索性质的项目，使用Java的新FFI为Java引入io_uring。
-* [JUring](https://github.com/davidtos/JUring)：JUring是一个高性能Java库，它使用Java的FFM API提供与Linux的io_uring异步I/O接口的绑定。
-* [Myra Transport](https://github.com/mvp-express/myra-transport)：基于Linux io_uring实现真正的异步I/O，支持零复制缓冲区管理和内核绕过功能。
+* [Ecloud](https://github.com/CTF-MissFeng/Ecloud)：Ecloud是一款基于HTTP/1.1协议传输TCP流量工具。
 
 #### 网络监控
 
@@ -3471,6 +3410,7 @@ Kafka生态管理系统、运维平台。
 * [Nostr Java](https://github.com/tcheeric/nostr-java)：Nostr Java是一个用于Nostr协议的Java SDK。
 * [I2P+](https://github.com/I2PPlus/i2pplus)：I2P+是Java I2P匿名网络层的软分支。
 * [MuWire](https://github.com/zlatinb/muwire)：MuWire是一款文件发布和网络工具，它利用I2P技术保护用户身份。
+* [Tahrir](https://github.com/sanity/tahrir)：Tahrir是一个去中心化、抗审查、类似Twitter的P2P网络。
 
 #### BitTorrent
 
@@ -3808,6 +3748,7 @@ Kafka生态管理系统、运维平台。
 * [ACP Kotlin SDK](https://github.com/agentclientprotocol/kotlin-sdk)：ACP规范了AI代理与客户端交换消息、协商能力和文件传输的方式。
 * [Mem4j](https://github.com/LangMem/mem4j)：Mem4j是一个Java库，为AI代理和应用程序提供长期记忆功能。
 * [AgentScope Runtime Java](https://github.com/agentscope-ai/agentscope-runtime-java)：AgentScope Runtime是用于代理部署和工具沙箱的运行时框架。
+* [Memind](https://github.com/openmemind/memind)：Memind是一个面向人工智能代理的分层认知记忆系统，采用Java原生语言编写。
 
 #### AI智能体
 
@@ -3834,6 +3775,12 @@ Kafka生态管理系统、运维平台。
 * [Lynx AI](https://gitee.com/lynx-ai/lynx-ai)：Lynx AI是一个功能强大的企业级AI智能体管理平台，提供从智能体创建、知识库管理、工作流编排到自然语言数据分析的完整AI解决方案。
 * [Ragent](https://github.com/nageoffer/ragent)：Ragent是一个企业级RAG智能体平台，基于Java 17、Spring Boot 3、React 18构建。
 * [Spring AI Playground](https://github.com/spring-ai-community/spring-ai-playground)：Spring AI Playground是一个自托管的Web UI平台，用于构建低代码工具，并通过内置的MCP服务器动态地向AI代理公开这些工具。
+
+#### OpenClaw
+
+* [SkillHub](https://github.com/iflytek/skillhub)：SkillHub是一个企业级、开源的平台，用于管理Agent技能，由科大讯飞开源。
+* [JavaClaw](https://github.com/jobrunr/javaclaw)：JavaClaw是一款基于Java的个人AI助手，可在你自己的设备上运行。
+* [OpenClaw Java](https://github.com/yuenkang/openclaw-java)：OpenClaw的Java全栈实现。
 
 #### AI网关
 
@@ -3977,6 +3924,7 @@ Kafka生态管理系统、运维平台。
 * [Komputation](https://github.com/sekwiatkowski/komputation)：Komputation是一个用Kotlin和CUDA C编写的JVM神经网络框架。
 * [Java Machine Learning Library](https://github.com/Daniel-Liu-c0deb0t/Java-Machine-Learning)：Java的简单机器学习(神经网络)库。
 * [SimpleDNN](https://github.com/KotlinNLP/SimpleDNN)：SimpleDNN是一个用Kotlin编写的机器学习轻量级开源库，旨在支持自然语言处理任务中的相关神经网络架构。
+* [NeuralNetwork](https://github.com/amten/NeuralNetwork)：用Java实现的神经网络，带有Weka插件。
 
 #### 深度学习
 
@@ -4155,6 +4103,8 @@ Kafka生态管理系统、运维平台。
 * [KoreanTextMatcher](https://github.com/bangjunyoung/KoreanTextMatcher)：KoreanTextMatcher是一个Java库，提供韩语音节近似匹配和声母搜索功能。
 * [CRF](https://github.com/asher-stern/CRF)：条件随机场(CRF)和词性标注器的实现。
 * [Dicio Numbers](https://github.com/Stypox/dicio-numbers)：这个多语言库实现了从文本中提取数字、日期或持续时间，以及将这些数字、日期或持续时间格式化为人类可读文本的方法。
+* [JStarCraft NLP](https://github.com/HongZhaoHua/jstarcraft-nlp)：JStarCraft NLP是一个面向自然语言处理领域的轻量级引擎。
+* [KeywordExtraction](https://github.com/WuLC/KeywordExtraction)：关键词提取算法的实现，包括TextRank、TF-IDF以及二者的组合。
 
 #### 分词器
 
@@ -4190,6 +4140,7 @@ Kafka生态管理系统、运维平台。
 * [Russian Morphology](https://github.com/AKuznetsov/russianmorphology)：Lucene的俄语形态学。
 * [Jaba](https://github.com/Sweetiee-yi/Jaba)：结巴分词Java版。
 * [Chinese Utils](https://github.com/luhuiguo/chinese-utils)：中文工具集，包括中文简繁体转换、拼音转换以及中文分词。
+* [Elasticsearch Analysis Neologd](https://github.com/codelibs/elasticsearch-analysis-kuromoji-ipadic-neologd)：Elasticsearch Analysis Neologd插件为使用Neologd的Kuromoji提供了分词器/字符过滤器/令牌过滤器。
 
 #### 语言库
 
@@ -4436,6 +4387,8 @@ Kafka生态管理系统、运维平台。
 * [WhisperJNI](https://github.com/GiviMAD/whisper-jni)：whisper.cpp的JNI包装器，允许将语音转录为Java中的文本。
 * [AIUIChatSDK](https://github.com/wowo3129/AIUIChatSDK)：讯飞语音AIUI、百度语音封装。
 * [WhisperCat](https://github.com/ddxy/whispercat)：WhisperCat是你捕捉音频、转录和管理音频的得力助手，所有功能都集成在一个简洁流畅的界面中。
+* [Actions On Google Client Library](https://github.com/ticketmaster/actions-on-google-kotlin)：用于Google Actions的JVM客户端库。
+* [Rivr](https://github.com/nuecho/rivr)：Rivr是一个轻量级的开源对话引擎，使Java开发人员能够轻松创建企业级VoiceXML应用程序。
 
 #### 语音合成
 
@@ -4511,6 +4464,7 @@ Kafka生态管理系统、运维平台。
 
 * [Luckysheet](https://github.com/dream-num/Luckysheet)：Luckysheet是一款类似Excel的在线电子表格，功能强大、配置简单。
 * [DataSpread](https://github.com/dataspread/dataspread-web)：DataSpread是一个电子表格-数据库混合系统，包含电子表格前端和数据库后端，由伊利诺伊大学和加州大学伯克利分校开源。
+* [ZK Spreadsheet](https://github.com/zkoss/zkspreadsheet)：ZK Spreadsheet是一个开源的、可嵌入的、基于Web的在线电子表格，它使用纯Java在浏览器中提供Excel的丰富功能。
 
 #### 数据可视化
 
