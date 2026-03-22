@@ -592,6 +592,7 @@
   * [论坛系统](docs/doc2.md#论坛系统)
   * [图书系统](docs/doc2.md#图书系统)
   * [社交网络](docs/doc2.md#社交网络)
+  * [实时协作](docs/doc2.md#实时协作)
   * [ERP系统](docs/doc2.md#ERP系统)
   * [CRM系统](docs/doc2.md#CRM系统)
   * [HRM系统](docs/doc2.md#HRM系统)
@@ -1061,7 +1062,7 @@
 * [Takes](https://github.com/yegor256/takes)：Takes是一个真正的面向对象且不可变的Java Web开发框架。
 * [Argo](https://github.com/58code/Argo)：Argo是起源于58同城的内部Web框架。
 * [IGRP](https://github.com/NOSiCode-CV/IGRP-Framework)：IGRP是由美国NOSi开发的平台，用于创建Web应用程序，基于业务步骤、流程、自动代码生成和一次性原则的合并。
-* [Klite](https://github.com/codeborne/klite)：Klite是一个适用于JVM上Kotlin协程的超轻量级非阻塞HTTP框架，由Codeborne开发。
+* [Klite](https://github.com/keksworks/klite)：Klite是一个适用于JVM上Kotlin协程的超轻量级非阻塞HTTP框架，由Codeborne开发。
 * [Cicada](https://github.com/TogetherOS/cicada)：基于Netty的快速、轻量级Web框架。
 * [Coody](https://gitee.com/coodyer/Coody-Framework)：Coody是一个国产IoC框架，轻量级、简单快速。
 * [Skinny](https://github.com/skinny-framework/skinny-framework)：Skinny是一个用于构建Servlet应用程序的全栈Web应用程序框架。
@@ -1532,6 +1533,7 @@
 * [SwimOS](https://github.com/graphform/swim)：SwimOS是一个全栈应用程序平台，用于构建有状态的Web服务、流API和实时UI。
 * [FDK Java](https://github.com/fnproject/fdk-java)：Fn项目是一个开源的容器原生Serverless平台，你可以在任何云或本地运行，由Oracle开发。
 * [Yawp](https://github.com/feroult/yawp)：用于Google App Engine的Kotlin/Java API框架。
+* [MerLoc Java](https://github.com/thundra-io/merloc-java)：MerLoc是一款用于开发和调试AWS Lambda函数的实时工具。
 
 ## API网关
 
@@ -1841,6 +1843,7 @@
 * [DCache](https://github.com/dCache/dcache)：DCache是一个用于存储和检索分布在大量异构服务器节点中数据的系统，由德国电子同步加速器研究所、欧洲核子研究中心等机构开源。
 * [Haplocheirus](https://github.com/twitter-archive/haplocheirus)：Haplocheirus是一个基于Redis的时间线存储引擎，由Twitter开源。
 * [Hub](https://github.com/flightstats/hub)：Hub是一个容错性强、高可用的HTTP API，用于数据分发和存储。
+* [Block Storage](https://github.com/greglook/blocks)：该库为Clojure实现了内容寻址存储类型和协议。
 
 #### 流处理平台
 
@@ -2123,6 +2126,7 @@
 * [Apache XTable](https://github.com/apache/incubator-xtable)：XTable是一种表格式的跨表转换器，可促进跨数据处理系统和查询引擎的全方位互操作性，由Onehouse开源。
 * [RTF](https://github.com/jd-bigdata/rtf-lake)：京东RTF实时数据湖，是一个从底层重新构建的系统，解决了数据的接入、解析及清洗等ETL过程。
 * [PuppetDB](https://github.com/puppetlabs/puppetdb)：PuppetDB是Puppet的快速、可扩展且可靠的数据仓库。
+* [Smart Data Lake](https://github.com/smart-data-lake/smart-data-lake)：Smart Data Lake Builder是一个数据湖自动化框架，可轻松实现数据的加载和转换，由瑞士联邦铁路开源。
 
 #### 数据Shuffle
 
@@ -2203,6 +2207,7 @@
 * [Uncode MQ](https://gitee.com/uncode/uncode-mq)：Uncode MQ是基于Netty的轻量级Java消息中间件。
 * [Spring Redis MQ](https://github.com/ScienJus/spring-redis-mq)：基于Spring和Redis的分布式消息队列。
 * [RedisQ](https://github.com/davidmarquis/redisq)：RedisQ是一个使用Redis作为后端的分布式消息队列的Java实现。
+* [RSocket Broker](https://github.com/rsocket-broker/rsocket-broker)：RSocket协议的代理/中间件实现。
 
 #### IPC
 
@@ -2310,6 +2315,7 @@
 * [ReliableRMQ](https://github.com/levy-tech-spark/ReliableRMQ)：ReliableRMQ是一个Spring Boot框架，用于使用RabbitMQ的可靠消息传递实现分布式事务。
 * [Embedded RabbitMQ](https://github.com/AlejandroRivera/embedded-rabbitmq)：一个用于将RabbitMQ用作嵌入式服务的JVM库。
 * [RabbitMQ Advanced](https://github.com/societe-generale/rabbitmq-advanced-spring-boot-starter)：一个用于与RabbitMQ进行消息传递的通用库，它是Spring Boot AMQP的扩展，由法国兴业银行开源。
+* [RabbitMQ Kotlin](https://github.com/viartemev/rabbitmq-kotlin)：RabbitMQ Kotlin旨在为Kotlin开发者提供一种高效、基于协程的方式来与RabbitMQ交互。
 * [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
 * [Confluent Parallel Consumer](https://github.com/confluentinc/parallel-consumer)：并行Apache Kafka客户端包装器，具有客户端排队功能、更简单的消费者/生产者API、关键并发性和可扩展的非阻塞IO处理。
 * [Greyhound](https://github.com/wix/greyhound)：Apache Kafka的高级SDK。
@@ -2403,6 +2409,7 @@
 * [ID Generator](https://gitee.com/simpleweb/id-generator)：基于Twitter SnowFlake算法实现的分布式ID发号器。
 * [Flake Java](https://github.com/mumrah/flake-java)：基于Twitter Snowflake的ID生成器。
 * [JavaSnowFlake](https://github.com/Predictor/javasnowflake)：基于Twitter Snowflake ID生成算法的64位顺序ID生成器。
+* [ID Generator](https://github.com/haozi2015/id-generator)：ID Generator分布式ID生成器，解决在分布式系统唯一性标识生成复杂、不统一的问题。
 
 #### Session集群
 
@@ -2783,6 +2790,7 @@
 * [GeoDesk](https://github.com/clarisma/geodesk)：GeoDesk是一个用于OpenStreetMap数据的快速且存储高效的地理空间数据库。
 * [CubeDB](https://github.com/cubedb/cubedb)：CubeDB是一个简单、快速的内存多键计数器存储。
 * [Actionbase](https://github.com/kakao/actionbase)：Actionbase是一个用于提供用户交互的数据库，由Kakao开源。
+* [CATA](https://github.com/cata-network/cata_database)：CATA为元宇宙数据存储提供了一站式完整解决方案。
 
 ## 数据库中间件
 
@@ -2942,6 +2950,7 @@
 * [UrlHttpUtils](https://github.com/guozhengXia/UrlHttpUtils)：最简单的HttpURLConnection封装。
 * [OKHttpUtil](https://github.com/admin4j/common-http)：专为Java打包的HTTP请求库。
 * [RestfulKit](https://github.com/ydstar/RestfulKit)：简洁、易用的Android网络组件库。
+* [RosHTTP](https://github.com/hmil/RosHTTP)：一个易于阅读的Scala HTTP客户端API。
 
 #### HTTP路由
 
@@ -3094,6 +3103,7 @@
 * [Android Network Tools](https://github.com/stealthcopter/AndroidNetworkTools)：该项目是一组有用的Android网络工具库，例如端口扫描、ping等。
 * [COMSAT](https://github.com/puniverse/comsat)：COMSAT是一组开源库，将Quasar与各种Web或企业技术集成。
 * [Infinileap](https://github.com/hhu-bsinfo/infinileap)：Infinileap是适用于Java 19+的基于ucx的现代网络框架，由杜塞尔多夫海因里希海涅大学计算机科学系操作系统小组开发。
+* [Spring Boot Protocol](https://github.com/wangzihaogithub/spring-boot-protocol)：Spring Boot功能扩充，可以支持各种网络协议的动态切换。
 * [TLS Channel](https://github.com/marianobarrios/tls-channel)：TLS Channel是一个通过TLS连接实现ByteChannel接口的库。
 * [Commons Networking](https://github.com/CiscoSE/commons-networking)：由Cisco开源的公共网络实用程序库。
 * [DiSNI](https://github.com/zrlio/disni)：DiSNI是一个Java库，用于从用户空间直接存储和网络访问，它提供了一个RDMA接口来访问远程内存，由IBM开源。
@@ -3253,6 +3263,7 @@
 * [SmartIM](https://github.com/Jamling/SmartIM)：SmartIM插件的底层库，已实现SmartQQ、微信桌面版协议。
 * [Lithium](https://github.com/wireapp/lithium)：Lithium是用Java编写的Wire Services SDK。
 * [JXMPP](https://github.com/igniterealtime/jxmpp)：JXMPP是一个基于Java的开源XMPP库。
+* [T0rlib4j](https://github.com/PanagiotisDrakatos/T0rlib4j)：T0rlib4j是一个用于Tor的Java控制器库。
 
 #### Pcap
 
@@ -3334,6 +3345,7 @@
 * [EasyHttpProxy](https://github.com/puhaiyang/easyHttpProxy)：支持HTTP/HTTPS代理，类似于Fiddler。
 * [NettyGateway](https://github.com/tang-jie/NettyGateway)：NettyGateway是一个具有灵活路由规则的HTTP代理服务器。
 * [TLSFragmenter](https://github.com/filtershekanha/TLSFragmenter)：TLSFragmenter包含一个使用Spring Boot框架构建的Java代理服务器实现。
+* [Jladder](https://github.com/hudaming1/jladder)：基于Netty开发的HTTP/Socks代理服务器。
 
 #### 内网穿透
 
@@ -3873,6 +3885,7 @@
 * [Voyager](https://github.com/spotify/voyager)：Voyager是一个适用于Python和Java的近似最近邻搜索库，注重易用性、简单性和可部署性，由Spotify开源。
 * [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Spark上构建模块化、可重用、强类型的机器学习工作流，由Salesforce开源。
 * [JSAT](https://github.com/EdwardRaff/JSAT)：JSAT是一个用于快速入门机器学习问题的库。
+* [XDML](https://github.com/Qihoo360/XLearning-XDML)：XDML是一款基于参数服务器，采用专门缓存机制的分布式机器学习平台，由360开源。
 * [JavaML](https://github.com/charliermarsh/java-ml)：用Java实现的一系列标准机器学习(分类)算法。
 * [DynaML](https://github.com/tailhq/DynaML)：DynaML是一个面向科研、教育和工业领域的Scala和JVM机器学习工具箱。
 * [Brain4J](https://github.com/brain4j-org/brain4j)：Brain4J是一个用Java编写的开源机器学习框架，设计时考虑了速度和轻量级。
@@ -3912,6 +3925,8 @@
 * [JPMML LightGBM](https://github.com/jpmml/jpmml-lightgbm)：用于将LightGBM模型转换为PMML的Java库和命令行应用程序。
 * [LightGBM4j](https://github.com/metarank/lightgbm4j)：LightGBM4j是LightGBM项目的零依赖Java封装库。
 * [LightGBM Predict4j](https://github.com/lyg5623/lightgbm_predict4j)：LightGBM预测部分的Java实现。
+* [RankLib](https://github.com/codelibs/ranklib)：RankLib是一个学习排序算法库。
+* [ProbCog](https://github.com/opcode81/ProbCog)：ProbCog是一个统计关系学习和推理系统，支持在关系领域进行高效的学习和推理。
 
 #### 神经网络
 
@@ -3956,6 +3971,7 @@
 * [JRNN](https://github.com/lipiji/JRNN)：Java中的LSTM和GRU。
 * [DeepDriver](https://github.com/LongJunCai/DeepDriver)：DeepDriver是一个Java深度学习框架，目前支持ANN/CNN/DNN/RNN/LSTM。
 * [JavaCNN](https://github.com/DeepCompute/cnn)：基于Java实现CNN。
+* [Avro2TF](https://github.com/linkedin/Avro2TF)：Avro2TF旨在填补用户训练数据可供深度学习训练框架使用的空白，由LinkedIn开源。
 
 #### 推荐系统
 
@@ -4293,6 +4309,7 @@
 * [EUROPA](https://github.com/nasa/europa)：EUROPA是一个用于建模和解决规划、调度和约束规划问题的框架，NASA艾姆斯研究中心开源。
 * [Statix Solver](https://mvnrepository.com/artifact/org.metaborg/statix.solver)：由代尔夫特理工大学开源的约束求解器。
 * [Kodkod](https://github.com/emina/kodkod)：Kodkod提供了一个简洁的Java API，用于构建、操作和求解关系约束。
+* [ScalaZ3](https://github.com/epfl-lara/ScalaZ3)：使用Z3 SMT求解器进行约束求解的Scala DSL。
 
 #### 逻辑编程
 
@@ -4424,6 +4441,7 @@
 * [Kravis](https://github.com/holgerbrandl/kravis)：Kravis实现一种语法，使用一组标准化的动词来创建各种各样的图表。
 * [ERDDAP](https://github.com/ERDDAP/erddap)：ERDDAP是一款科学数据服务器，它为用户提供了一种简单、一致的方式，可以下载常见文件格式的网格化和表格化科学数据集子集，并制作图表和地图，由美国国家海洋和大气管理局开源。
 * [Javelit](https://github.com/javelit/javelit)：Javelit是一个Java闪电般快速的数据应用程序开发框架，深受Streamlit的启发。
+* [Studio9](https://github.com/NashTech-Labs/Studio-9)：Studio9是一个开源平台，支持随时随地进行协作式数据管理和AI/ML开发。
 
 #### 商业智能
 
@@ -4488,6 +4506,7 @@
 * [AAChartCore](https://github.com/AAChartModel/AAChartCore)：AAChartCore是AAChartKit的Java语言版本，基于流行的开源前端图表库Highcharts的一套易于使用、极其优雅的图形绘制控件。
 * [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
 * [Constellation](https://github.com/constellation-app/constellation)：Constellation是一款以图形为中心的数据可视化和交互式分析应用程序，支持跨大型复杂数据集的数据访问、联合和操作功能。
+* [Seahorse](https://github.com/deepsense-ai/seahorse)：Seahorse是一个开源的可视化框架，可让你以快速、简单和交互式的方式创建Apache Spark应用程序。
 
 #### ECharts
 
