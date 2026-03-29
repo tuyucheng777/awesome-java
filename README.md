@@ -335,6 +335,7 @@
 * [JSON库](docs/doc2.md#JSON库)
   * [JSON Schema](docs/doc2.md#JSON-Schema)
   * [JsonPath](docs/doc2.md#JsonPath)
+  * [JSON JQ](docs/doc2.md#JSON-JQ)
   * [JSON Patch](docs/doc2.md#JSON-Patch)
   * [JSON-LD](docs/doc2.md#JSON-LD)
   * [JSON-RPC](docs/doc2.md#JSON-RPC)
@@ -2346,6 +2347,7 @@
 * [Li Apache Kafka Clients](https://github.com/linkedin/li-apache-kafka-clients)：Li Apache Kafka Clients是一个基于原生Apache Kafka客户端构建的Kafka客户端封装库，由LinkedIn开发。
 * [Kafka Fast](https://github.com/gerritjvv/kafka-fast)：适用于任何JVM语言的快速Kafka库，用Clojure实现。
 * [Vert.x Kafka Client](https://github.com/vert-x3/vertx-kafka-client)：Vert.x的响应式Kafka客户端。
+* [KPipe](https://github.com/eschizoid/kpipe)：KPipe是一个轻量级的Kafka处理库，适用于现代Java，它允许你使用虚拟线程和函数式API构建安全、高性能的消息管道。
 * [NSQ-J](https://github.com/sproutsocial/nsq-j)：NSQ实时分布式消息传递平台的Java客户端。
 * [NATS Java](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
 * [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。

@@ -1477,6 +1477,7 @@
 * [Cymbal](https://github.com/dangdangdotcom/cymbal)：Cymbal是当当开源的Redis PaaS平台，目标是帮助技术团队以简单、低成本的方式管理大规模Redis集群。
 * [RCT](https://github.com/xaecbd/RCT)：RCT是通过解析RDB文件进行Redis内存结构分析的一站式平台。
 * [Redis RDB CLI](https://github.com/leonchen83/redis-rdb-cli)：Redis RDB CLI是一个可以解析、过滤、拆分、合并RDB以及离线分析内存使用情况的工具。
+* [RDB Parser](https://github.com/jwhitbeck/java-rdb-parser)：一个简单的Java库，用于解析Redis RDB文件。
 * [RIOT](https://github.com/redis/riot)：RIOT是一个命令行实用程序，旨在帮助你将数据输入和输出Redis。
 * [RedisDesktopManagerFX](https://github.com/tanhuang2016/RedisDesktopManagerFX)：这是一个基于Jedis，使用JavaFX开发的Redis GUI工具。
 * [RedisLettuceClient](https://gitee.com/tyanzhe/RedisLettuceClient)：RedisLettuceClient是一款基于Java Swing的跨平台的Redis桌面管理工具，支持单机、集群模式连接。
@@ -2881,8 +2882,6 @@
 * [JParse](https://github.com/nats-io/jparse)：JParse是一款创新的JVM JSON解析器，通过索引覆盖机制提供极速解析速度。
 * [uPickle](https://github.com/com-lihaoyi/upickle)：uPickle是一个简单、快速、无依赖的Scala JSON和二进制(MessagePack)序列化库。
 * [BSON4Jackson](https://github.com/michel-kraemer/bson4jackson)：该库向Jackson JSON处理器添加了对BSON的支持。
-* [Jackson-JQ](https://github.com/eiiches/jackson-jq)：Jackson JSON处理器的纯Java jq实现。
-* [Java JQ](https://github.com/arakelian/java-jq)：Java JQ封装库。
 * [EasyJSON](https://github.com/bes2008/easyjson)：EasyJSON是一个JSON门面库，就像SLF4j一样。
 * [Noggit](https://github.com/yonik/noggit)：Noggit是一个极快的Java流式JSON解析器。
 * [Actson](https://github.com/michel-kraemer/actson)：Actson是一个响应式JSON解析器。
@@ -2955,6 +2954,12 @@
 * [JSLT](https://github.com/schibsted/jslt)：JSLT是一种完整的JSON查询和转换语言。
 * [JsonPathKt](https://github.com/eygraber/JsonPathKt)：Kotlin Multiplatform中更轻量级、更高效的JsonPath实现。
 * [JsonPathKt](https://github.com/codeniko/JsonPathKt)：Kotlin中更轻量、更高效的JsonPath实现。
+
+#### JSON JQ
+
+* [Jackson-JQ](https://github.com/eiiches/jackson-jq)：Jackson JSON处理器的纯Java jq实现。
+* [Java JQ](https://github.com/arakelian/java-jq)：Java JQ封装库。
+* [Brackit](https://github.com/sirixdb/brackit)：Brackit是一个功能强大的JSONiq引擎，用于查询JSON和XML。
 
 #### JSON Patch
 
@@ -6498,21 +6503,18 @@ Kafka生态管理系统、运维平台。
 
 #### DDD框架
 
-* [COLA](https://github.com/alibaba/COLA)：COLA代表整洁面向对象分层架构，由阿里开源。
 * [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
 * [Roma](https://www.romaframework.org/)：Roma允许你按照真正的领域驱动设计方法，轻松开发企业级Java应用程序。
 * [Spring Modulith](https://github.com/spring-projects/spring-modulith)：Spring Modulith允许开发人员构建结构良好的Spring Boot应用程序，并指导开发人员查找和使用由领域驱动的应用程序模块。
 * [PICASO](https://zhuanlan.zhihu.com/p/7561767079)：PICASO是一套以DDD作为思想内核，专门为集成式复杂业务系统设计的通用基础框架，由京东开发。
 * [jMolecules](https://github.com/xmolecules/jmolecules)：jMolecules用于帮助开发人员以无干扰的普通Java实现领域模型。
 * [Apache Causeway](https://github.com/apache/causeway)：Causeway是一个用Java快速开发领域驱动应用程序的框架。
-* [Library](https://github.com/ddd-by-examples/library)：全面的领域驱动设计示例，包含问题空间战略分析和各种战术模式。
 * [DDDplus](https://github.com/funkygao/cp-ddd-framework)：DDDplus是一个轻量级的DDD正向/逆向业务建模增强框架，支持复杂的系统架构演进。
 * [ContextMapper](https://github.com/ContextMapper/context-mapper-dsl)：ContextMapper是一个开源工具，提供基于DDD模式的领域特定语言，用于上下文映射和服务分解。
 * [Aggregate Persistence](https://github.com/meixuesong/aggregate-persistence)：Aggregate Persistence旨在提供一种轻量级聚合持久化方案，帮助开发者真正从业务出发设计领域模型，由ThoughtWorks开源。
 * [DDDLib](https://github.com/dayatang/dddlib)：DDDLib是一个领域驱动设计类库。
 * [Akka DDD](https://github.com/pawelkaczor/akka-ddd)：Akka DDD是在Akka平台之上构建遵循DDD/CQRS/ES架构的分布式服务的框架。
 * [EzDDD](https://gitlab.com/TeddyChen/ezddd)：EzDDD是一个Java库，用于实现DDD、CQRS和清洁架构(CA)等战术设计模式。
-* [DDD Framework](https://github.com/lml200701158/ddd-framework)：DDD脚手架。
 * [ENode](https://github.com/anwu4/enode)：ENode是基于JVM平台，为业务实践DDD思想而落地的一个应用框架。
 * [DDD Base](https://github.com/linux-china/ddd-base)：Java领域驱动设计基础包。
 * [Aggregate Framework](https://github.com/changmingxie/aggregate-framework)：Aggregate Framework是一款基于DDD和CQRS思想开发的领域驱动框架。
@@ -6692,6 +6694,7 @@ Kafka生态管理系统、运维平台。
 * [Just](https://github.com/maciejwalkowiak/just)：Just是一个智能零配置命令行接口，用于在开发模式下运行Spring Boot应用程序。
 * [Blaze](https://github.com/fizzed/blaze)：用于JVM的快速、灵活、通用脚本和应用程序启动堆栈，由Fizzed开源。
 * [Jaz](https://learn.microsoft.com/en-us/java/jaz/overview)：Jaz是一款轻量级实用程序，可简化Java开发人员在Azure上运行其应用程序的方式，由Microsoft开发。
+* [Cargo](https://github.com/codehaus-cargo/cargo)：Cargo是一个瘦Java包装器，允许你以标准方式操作各种类型的应用程序容器(J2EE、Java EE、Jakarta EE等)。
 * [WinRun4j](https://github.com/poidasmith/winrun4j)：WinRun4j是适用于Windows的Java启动器。
 * [CloudCaptain](https://cloudcaptain.sh/)：CloudCaptain是在AWS上运行JVM、Node.js和Go应用程序最简单、最可靠、最安全的方式。
 * [Drip](https://github.com/ninjudd/drip)：Drip是Java虚拟机的启动器，它提供比java命令更快的启动时间。
@@ -6782,6 +6785,8 @@ Kafka生态管理系统、运维平台。
 
 #### 项目模板
 
+* [COLA](https://github.com/alibaba/COLA)：COLA代表整洁面向对象分层架构，由阿里开源。
+* [DDD Library](https://github.com/ddd-by-examples/library)：全面的领域驱动设计示例，包含问题空间战略分析和各种战术模式。
 * [PLMCodeTemplate](https://github.com/xwjie/PLMCodeTemplate)：Spring开发代码模板。
 * [Spring Boot Microservices](https://github.com/rohitghatol/spring-boot-microservices)：用于微服务架构的Spring Boot模板。
 * [AWS CloudFormation Template](https://github.com/widdix/aws-cf-templates)：AWS CloudFormation的免费模板。
@@ -6799,6 +6804,20 @@ Kafka生态管理系统、运维平台。
 * [Spring Boot Boilerplate](https://github.com/Genc/spring-boot-boilerplate)：Spring Boot Boilerplate是一个Starter套件，该项目包括Spring Boot、Spring Data JPA、Spring Validation、Spring Security、JWT、PostgreSQL、Mapstruct、Lombok、Swagger。
 * [Element Vue SpringBoot Code Template](https://github.com/xwjie/ElementVueSpringbootCodeTemplate)：使用Vue、VueX、ElementUI、Spring Boot的代码框架。
 * [Hexagonal Architecture/Clean Architecture/DDD](https://github.com/dustinsand/hex-arch-kotlin-spring-boot)：参考JVM多模块项目，用于使用六边形架构、DDD、Kotlin、Spring Boot、Quarkus、Lambda、Gradle实现响应式微服务和Lambda。
+* [DDDSample](https://github.com/citerus/dddsample-core)：该应用程序的总体目标是提供一个示例，展示如何使用大多数开发人员在当前工作中熟悉的工具来实现典型的领域驱动设计(DDD)应用程序。
+* [DDD Leaven v2](https://github.com/BottegaIT/ddd-leaven-v2)：DDD CQRS示例v2.0项目，可帮助你使用Spring、JPA和测试开始高级领域建模。
+* [Eden Cola](https://github.com/shiyindaxiaojie/eden-demo-cola)：基于对DDD、CQRS和SOLID原则的深刻理解，实现了阿里巴巴COLA架构的企业级应用。
+* [Kotlin DDD](https://github.com/Creditas/kotlin-ddd-sample)：Kotlin DDD是一个开源项目，旨在为希望使用Kotlin构建领域驱动设计(DDD)应用的用户提供起点或灵感。
+* [Spring Microservice DDD](https://github.com/EalenXie/spring-microservice-ddd)：微服务、DDD代码结构示例。
+* [DDD Practitioners Reference](https://github.com/humank/ddd-practitioners-ref)：领域驱动设计实践者参考手册。
+* [Event Driven Microservices Advanced](https://github.com/Armando1514/Event-Driven-Microservices-Advanced)：面向微服务的事件驱动架构，使用Clean Architecture、DDD、CQRS模式、Saga模式、Outbox、模式、CDC。
+* [Hexagonal Architecture DDD](https://github.com/JonathanM2ndoza/Hexagonal-Architecture-DDD)：六边形架构和领域驱动设计示例。
+* [Java DDD](https://github.com/CodelyTV/java-ddd-example)：Java DDD旨在为想要使用JUnit和Gradle引导Java项目的人员提供一个起点。
+* [DDD Java](https://github.com/jkazama/ddd-java)：这是一个使用Spring Boot实现的领域驱动设计(DDD)示例。
+* [DDD Framework](https://github.com/lml200701158/ddd-framework)：DDD脚手架。
+* [DDD CQRS 4 Java](https://github.com/fuinorg/ddd-cqrs-4-java-example)：本应用展示了如何在不使用DDD/CQRS框架的情况下实现DDD、CQRS和事件溯源。
+* [Endless DDD](https://github.com/org-endless/endless-ddd)：Endless DDD是一个完整的DDD开发解决方案，包含项目启动器、代码生成器和桌面应用。
+* [DDD ECommerce](https://github.com/ttulka/ddd-example-ecommerce)：本项目的目的是提供一个遵循领域驱动设计(DDD)和服务导向架构(SOA)原则的电子商务产品示例实现。
 * [MicroService Skeleton](https://github.com/yangxiufeng666/Micro-Service-Skeleton)：微服务开发基础框架。
 * [Spring Microservices Boilerplate](https://github.com/danielliao11/spring-microservice-boilerplate)：Spring Microservices Boilerplate是一个方便Java后端人员快速开发的微服务脚手架。
 * [Spring Boot Angular 2](https://github.com/borysn/spring-boot-angular2)：使用Spring Boot、Angular 2和Bootstrap 4来构建RESTful应用程序原型的启动项目。
@@ -6852,6 +6871,7 @@ Kafka生态管理系统、运维平台。
 * [Silhouette Seed Template](https://github.com/mohiva/play-silhouette-seed)：Silhouette Seed项目是一个Activator模板，展示了如何在Play Framework应用程序中实现Silhouette。
 * [Spring Best Practices](https://github.com/priyatam/spring-best-practices)：这是一个功能齐全、经过测试的Spring 3.2参考应用程序。
 * [Line Login Starter](https://github.com/line/line-login-starter)：这是一个入门应用程序，旨在帮助你将LINE Login集成到Web应用程序或网站中。
+* [Java Basic Skeleton](https://github.com/CodelyTV/java-basic-skeleton)：Java Basic Skeleton旨在为想要使用JUnit和Gradle引导Java项目的人员提供一个起点。
 
 #### 脚手架
 
@@ -6923,6 +6943,7 @@ Kafka生态管理系统、运维平台。
 * [RESThub](https://github.com/resthub/resthub-spring-stack)：RESThub是一个基于Spring和Backbone.js的技术栈，旨在轻松高效地构建HTML5应用程序。
 * [Edison MicroService](https://github.com/otto-de/edison-microservice)：Spring Boot之上的独立库集合，可提供更快的JVM微服务设置。
 * [Fw Cloud Framework](https://github.com/liuweijw/fw-cloud-framework)：基于Spring Cloud全家桶开发分布式框架，实现基于Vue全家桶等前后端分离项目工程。
+* [TOTVS Java Framework](https://tjf.totvs.com.br/)：TOTVS Java Framework是一个专为云原生应用程序设计的框架，结合了Java技术和Spring技术。
 * [DevOps Boot](https://github.com/bkdevops-projects/devops-framework)：DevOps Boot是基于Spring Boot的微服务快速开发框架，由腾讯DevOps团队开发。
 * [Hawaii Framework](https://github.com/hawaiifw/hawaii-framework)：Hawaii Framework是一个用于开发基于Spring的应用程序的Java框架，由ilionx开源。
 * [Essencium Backend](https://github.com/Frachtwerk/essencium-backend)：Essencium是一个构建在Spring Boot之上的软件库，允许开发人员快速开始新的软件项目。
@@ -11597,6 +11618,8 @@ Kafka生态管理系统、运维平台。
 * [PlayN](https://github.com/playn/playn)：PlayN是一个用Java编写的跨平台Java游戏开发库，面向HTML5浏览器、桌面JVM、Android和iOS设备。
 * [Zircon](https://github.com/Hexworks/zircon)：Zircon是一个可扩展且用户友好的多平台图块引擎。
 * [Raylib-J](https://github.com/CreedVI/Raylib-J)：Raylib-J是Raylib在Java中的手写绑定。
+* [Jaylib FFM](https://github.com/electronstudio/jaylib-ffm)：Jaylib FFM是一个基于Java FFM的Raylib绑定。
+* [Jaylib](https://github.com/electronstudio/jaylib)：Raylib的Java JNI绑定。
 * [Recast4j](https://github.com/ppiastucki/recast4j)：Recast和Detour导航网格工具集的Java端口。
 * [Slick2D](https://slick.ninjacave.com/)：Slick2D是一组易于使用的工具和实用程序，围绕LWJGL、OpenGL绑定，使2D Java游戏开发变得更加容易。
 * [Clarity](https://github.com/skadistats/clarity)：Clarity是一个用Java编写的开源Dota 2、CSGO、CS2和Deadlock回放文件解析器。
@@ -12331,6 +12354,7 @@ Kafka生态管理系统、运维平台。
 * [Big Queue](https://github.com/bulldog2011/bigqueue)：基于内存映射文件的大、快速且持久的队列。
 * [Low GC MemBuffers](https://github.com/cowtowncoder/low-gc-membuffers)：用于创建内存循环缓冲区的库，该缓冲区使用直接ByteBuffer来最大限度地减少GC开销。
 * [Popout](https://github.com/infobip/popout)：Popout是Java的基于文件的队列，由Infobip开源。
+* [Multi-Array Queue](https://github.com/MultiArrayQueue/MultiArrayQueue)：一种新的队列数据结构，它继承了基于数组的队列的优点，同时消除了其固定大小的主要缺点。
 
 #### Map
 
@@ -13908,7 +13932,6 @@ Kafka生态管理系统、运维平台。
 * [Rewrite Maven Plugin](https://github.com/openrewrite/rewrite-maven-plugin)：OpenRewrite的Maven插件，将Rewrite检查和修复任务应用为构建任务。
 * [Allure Maven Plugin](https://github.com/allure-framework/allure-maven)：该插件在Maven构建过程中通过现有XML文件生成Allure报告。
 * [Heroku Maven Plugin](https://github.com/heroku/heroku-maven-plugin)：用于将Java应用程序直接部署到Heroku，而无需推送到Git仓库。
-* [Cargo Maven Plugin](https://github.com/codehaus-cargo/cargo)：Cargo是一个瘦Java包装器，允许你以标准方式操作各种类型的应用程序容器(J2EE、Java EE、Jakarta EE等)。
 * [Maven Build Scanner](http://github.com/intuit/maven-build-scanner)：Maven Build Scanner是一款挂载到Maven构建的工具，它可以生成报告和图表，详细分析Maven执行不同任务所花费的时间，由Intuit开发。
 * [Maven IT Extension](https://github.com/khmarbaise/maven-it-extension)：实验性JUnit Jupiter扩展，用于为Maven插件/Maven扩展/Maven核心编写集成测试。
 * [Maven PlantUML Plugin](https://github.com/arnaudroques/maven-plantuml-plugin)：一个使用PlantUML语法生成UML图的Maven插件。
