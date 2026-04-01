@@ -299,7 +299,7 @@
   * [密码库](docs/doc2.md#密码库)
   * [加密算法](docs/doc2.md#加密算法)
   * [接口加密](docs/doc2.md#接口加密)
-  * [数据脱敏](docs/doc2.md#数据脱敏)
+  * [数据加解密](docs/doc2.md#数据加解密)
   * [零知识证明](docs/doc2.md#零知识证明)
   * [XSS](docs/doc2.md#XSS)
   * [TLS/SSL](docs/doc2.md#TLSSSL)
@@ -1113,7 +1113,6 @@
 * [TERASOLUNA](https://github.com/terasolunaorg/terasoluna-gfw)：TERASOLUNA是一种通过结合NTT Data的技术和知识来全面支持系统开发的解决方案。
 * [Core NG](https://github.com/neowu/core-ng-project)：Core NG是专为长期可维护性和代码质量控制而设计和优化的Web框架。
 * [AppFuse](https://github.com/appfuse/appfuse)：AppFuse是一个用于在JVM上构建Web应用程序的全栈框架。
-* [Webery](https://github.com/wizzardo/webery)：基于Epoll的Java HTTP服务器。
 * [HServer](https://gitee.com/HServer/HServer)：HServer是基于Netty开发的一个功能强大、资源丰富、开发灵活、轻量级、低入侵、高并发的新型Web开发框架。
 * [YMP](https://gitee.com/suninformation/ymate-platform-v2)：YMP是一个非常简单、易用的轻量级Java应用开发框架，涵盖AOP、IoC、Web、ORM、Validation、Plugin、Serv、Cache等特性。
 * [Sumk](https://github.com/youtongluan/sumk)：Sumk的定位是为互联网公司提供一个快速开发、接口交互(RPC和HTTP)、数据缓存、读写分离、负载均衡、故障转移的框架。
@@ -1253,6 +1252,7 @@
 * [JReact](https://github.com/KnisterPeter/jreact)：在服务器端的Java上使用React.js。
 * [Angular Universal](https://github.com/swaechter/angularj-universal)：Angular Universal是一种在SSR动态预渲染Angular应用程序并将内容直接发送到浏览器作为“已启动”应用程序的解决方案。
 * [Prerender Java](https://github.com/greengerong/prerender-java)：用于预渲染的Java框架。
+* [Medusa](https://github.com/medusa-ui/medusa)：Medusa是一个用Java构建的开源双向微前端框架，基于Spring Reactive、RSocket和Thymeleaf。
 
 #### WebService框架
 
@@ -1862,6 +1862,7 @@
 * [Haplocheirus](https://github.com/twitter-archive/haplocheirus)：Haplocheirus是一个基于Redis的时间线存储引擎，由Twitter开源。
 * [Hub](https://github.com/flightstats/hub)：Hub是一个容错性强、高可用的HTTP API，用于数据分发和存储。
 * [Block Storage](https://github.com/greglook/blocks)：该库为Clojure实现了内容寻址存储类型和协议。
+* [DFS Datastores](https://github.com/nathanmarz/dfs-datastores)：一种在分布式文件系统上存储记录的更简单、更强大的方法。
 
 #### 流处理平台
 
@@ -2291,6 +2292,7 @@
 * [Bekit](https://github.com/zhongxunking/bekit)：Bekit框架致力于解决在应用开发中公共性问题，目前已完成事件总线、流程引擎、服务引擎功能模块。
 * [RxBus2](https://github.com/MFlisar/RxBus2)：RxBus2是一个响应式事件总线实现。
 * [EventBinder](https://github.com/google/gwteventbinder)：EventBinder是一个用于简化GWT中EventBus使用的辅助库，由Google开源。
+* [Kotlin Channel Event Bus](https://github.com/Kotlin-Multiplatform-Foundation/kotlin-channel-event-bus)：一个Kotlin多平台库，它使用KotlinX协程通道提供了一个简单的事件总线实现。
 
 #### 消息总线
 
@@ -2382,6 +2384,7 @@
 * [Distributed Tool](https://gitee.com/xuan698400/distributed-tool)：Distributed Tool是分布式常用工具组件，包括分布式List、Set、Long、信号量、缓存、锁、序列号生成器、订阅发布模式等常用工具类。
 * [Replicate](https://github.com/unmeshjoshi/replicate)：Replicate是一个用于快速构建和测试复制算法的基础框架。
 * [Spring Cloud Cluster](https://github.com/spring-attic/spring-cloud-cluster)：Spring Cloud Cluster提供了一系列用于在分布式系统中构建集群特性的基本组件，例如领导者选举、集群状态的一致性存储、全局锁和一次性令牌。
+* [Distribute Tool](https://github.com/Motianshi/distribute-tool)：分布式工具类。
 
 #### 分布式锁
 
@@ -2497,6 +2500,7 @@
 * [Java CRDT](https://github.com/ajantis/java-crdt)：Java中常见的无冲突复制数据类型集合。
 * [CRJDT](https://github.com/fthomas/crjdt)：Scala中的无冲突复制JSON数据类型(CRDT)。
 * [Synk](https://github.com/CharlieTap/synk)：一个适用于离线优先应用的Kotlin多平台CRDT库。
+* [Akka Data Replication](https://github.com/patriknw/akka-data-replication)：Akka集群中CRDT的复制。
 
 ## 数据库
 
@@ -2992,6 +2996,7 @@
 * [RestfulKit](https://github.com/ydstar/RestfulKit)：简洁、易用的Android网络组件库。
 * [RosHTTP](https://github.com/hmil/RosHTTP)：一个易于阅读的Scala HTTP客户端API。
 * [HttpClientUtil](https://github.com/JourWon/httpclientutil)：HttpClient工具类，简单轻松的实现GET、POST、PUT和DELETE请求。
+* [Play WS](https://github.com/playframework/play-ws)：Play WS是一个功能强大的HTTP客户端库，最初由Play团队开发，用于Play框架。
 
 #### HTTP路由
 
@@ -3029,6 +3034,7 @@
 * [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
 * [Nginx Clojure](https://github.com/nginx-clojure/nginx-clojure)：Nginx Clojure是一个Nginx模块，用于嵌入Clojure或Java或Groovy程序，通常是那些基于Ring的处理程序。
 * [Jibble](http://www.jibble.org/miniwebserver/)：Jibble是一个用Java编写的非常小的独立Web服务器，它打包在JAR文件中，也可以在你自己的Java程序中使用。
+* [Webery](https://github.com/wizzardo/webery)：基于Epoll的Java HTTP服务器。
 * [TorqueBox](https://github.com/torquebox/torquebox)：TorqueBox运行在JRuby之上，并基于一个全新的轻量级、可插拔、多语言服务器。
 * [Android HTTP Server](https://github.com/piotrpolak/android-http-server)：完全用Java编写的小型但功能强大的多线程Web服务器。
 * [MuServer](https://github.com/3redronin/mu-server)：MuServer是一个基于Netty的现代Java Web服务器。
@@ -3169,6 +3175,9 @@
 * [OpenRQ](https://github.com/openrq-team/OpenRQ)：开源的RaptorQ实现。
 * [Netphony Network Protocols](https://github.com/telefonicaid/netphony-network-protocols)：Java网络协议库，PCEP、RSVP-TE、OSPF、BGP-LS。
 * [TSNsched](https://github.com/ACassimiro/TSNsched)：TSNsched使用Z3定理求解器为时间敏感网络(TSN)生成流量调度，由帕拉伊巴联邦大学开源。
+* [IAP Tools Java](https://github.com/jjenkov/iap-tools-java)：一个用于处理IAP网络协议及其数据格式ION的Java工具包。
+* [Resp Server](https://github.com/tonivade/resp-server)：Netty实现的Redis序列化协议，以及一个用于实现基于命令协议的简单框架。
+* [Orchid](https://github.com/subgraph/Orchid)：Orchid是一个用纯Java编写的Tor客户端实现和库。
 
 #### WebSocket
 
@@ -3214,6 +3223,7 @@
 * [JFinal WebSocket](https://gitee.com/xxssyyyyssxx/jfinal-websocket)：JFinal架构下开发WebSocket。
 * [WebSocket Resources](https://github.com/signalapp/WebSocket-Resources)：一个Dropwizard库，允许你通过WebSocket使用Jersey风格的资源。
 * [Spring Websocket Grails](https://github.com/zyro23/grails-spring-websocket)：该插件旨在使Spring 4.0中引入的WebSocket支持可供Grails应用程序使用。
+* [Netty WebSocket HTTP2](https://github.com/jauntsdn/netty-websocket-http2)：基于Netty的RFC8441实现，使用HTTP/2引导WebSockets，并支持多协议。
 
 #### Socket.IO
 
@@ -3582,6 +3592,7 @@
 * [SIP Servlet](https://github.com/RestComm/sip-servlets)：RestComm SIP Servlet是SIP、IMS和WebRTC应用服务器。
 * [Java SIP MRCP](https://github.com/laoyin/java-sip-mrcp)：Java SIP MRCP是一个基于Java的项目，实现了SIP协议和MRCPv2协议，用于实时语音转写(ASR)的媒体传输。
 * [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
+* [Peers](https://github.com/ymartineau/peers)：Peers是一款SIP、SDP、RTP兼容的软电话。
 * [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
 * [CSipSimple](https://github.com/r3gis3r/CSipSimple)：CSipSimple是一款开源的Android原生SIP客户端。
 * [Vonage Java SDK](https://github.com/Vonage/vonage-java-sdk)：Vonage Java服务端SDK，支持SMS、消息、语音、文字转语音、号码、认证、视频等API功能。
@@ -3609,6 +3620,7 @@
 * [FIT](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
 * [JoySafety](https://github.com/jd-opensource/JoySafety)：JoySafety是京东开源的大模型安全框架。
 * [LangGraph4j](https://github.com/langgraph4j/langgraph4j)：Java版LangGraph，一个使用LLM构建有状态、多参与者应用程序的库。
+* [Genkit Java](https://github.com/genkit-ai/genkit-java)：Genkit是一个用于构建全栈AI应用的开源框架，由Google的Firebase构建并投入生产使用。
 * [LangChain Java](https://github.com/HamaWhiteGG/langchain-java)：LangChain的Java语言实现，它使得开发LLM驱动的应用程序变得尽可能简单。
 * [Langtorch](https://github.com/Knowly-ai/langtorch)：Langtorch是一个Java库，可让你轻松构建可组合的LLM应用程序。
 * [OmniHai](https://github.com/omnifaces/omnihai)：OmniHai提供单一且一致的API，用于与多个AI提供商进行交互。
@@ -3754,6 +3766,7 @@
 * [Solon Code](https://gitee.com/opensolon/soloncode)：Solon Code是基于Solon AI框架构建的高性能、自主式AI终端助手。
 * [Agent Client](https://github.com/spring-ai-community/agent-client)：Agent Client为Spring AI生态系统提供自主的CLI代理集成。
 * [Copilot SDK Java](https://github.com/copilot-community-sdk/copilot-sdk-java)：GitHub Copilot CLI的Java SDK。
+* [Claude Agent SDK Java](https://github.com/spring-ai-community/claude-agent-sdk-java)：用于与Claude Code CLI交互的Java SDK。
 
 ### NL2SQL
 
@@ -3831,6 +3844,7 @@
 * [JGAAP](https://github.com/evllabs/JGAAP)：JGAAP是一种允许非专家使用尖端机器学习技术解决文本归因问题的工具，由杜肯大学开源。
 * [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是一个纯Java机器学习框架，用于支持遗传编程、NEAT/HyperNEAT和其他神经网络技术。
 * [Astminer](https://github.com/JetBrains-Research/astminer)：用于挖掘基于路径的代码表示的库，由JetBrains开源。
+* [Sandwood](https://github.com/oracle/sandwood)：Sandwood是一个用于构建基于JVM的概率模型的语言、编译器和运行时环境，由Oracle开源。
 * [Apache PredictionIO](https://github.com/apache/predictionio)：PredictionIO是一个面向开发人员、数据科学家和最终用户的开源机器学习框架。
 * [Voyager](https://github.com/spotify/voyager)：Voyager是一个适用于Python和Java的近似最近邻搜索库，注重易用性、简单性和可部署性，由Spotify开源。
 * [TransmogrifAI](https://github.com/salesforce/TransmogrifAI)：TransmogrifAI是一个AutoML库，用于在Spark上构建模块化、可重用、强类型的机器学习工作流，由Salesforce开源。
@@ -4048,6 +4062,7 @@
 * [Apache Joshua](https://github.com/apache/joshua)：Joshua是一个开源统计机器翻译解码器，用于基于短语、分层和基于语法的机器翻译，由约翰霍普金斯大学人类语言技术卓越中心开发。
 * [ClearTK](https://github.com/ClearTK/cleartk)：ClearTK提供了一个用Java开发统计自然语言处理组件的框架，并构建在UIMA之上，由科罗拉多大学博尔德分校开发。
 * [Twitter NLP](https://github.com/brendano/ark-tweet-nlp)：Tweet NLP是一个快速而强大的基于Java的标记器和词性标记器，由CMU开源。
+* [KoalaNLP](https://github.com/koalanlp/koalanlp)：KoalaNLP是一个Java/Kotlin/Scala库，旨在为韩语处理提供集成接口。
 * [GATE](https://github.com/GateNLP/gate-core)：GATE是一个开源软件工具包，能够解决几乎所有文本处理问题，由谢菲尔德大学开发。
 * [SemanticVectors](https://github.com/semanticvectors/semanticvectors)：SemanticVectors从自由自然语言文本创建语义WordSpace模型，由德克萨斯大学、昆士兰科技大学开源。
 * [AmbiverseNLU](https://github.com/ambiverse-nlu/ambiverse-nlu)：AmbiverseNLU是马克斯普朗克信息学研究所的自然语言理解套件。
@@ -4065,6 +4080,7 @@
 * [BlackLab](https://github.com/instituutnederlandsetaal/BlackLab)：BlackLab是一个基于Apache Lucene构建的语料库检索引擎，由荷兰语言研究所开源。
 * [AHANLP](https://github.com/jsksxs360/AHANLP)：AHANLP自然语言处理包，提供包括分词、依存句法分析、语义角色标注、自动摘要、语义相似度计算、LDA主题预测、词云等服务。
 * [JChunk](https://github.com/jchunk-io/jchunk)：JChunk是一个简单的库，支持不同类型的文本拆分策略。
+* [OpenCCG](https://github.com/OpenCCG/openccg)：OpenCCG是一个使用组合范畴语法进行语法分析和使用混合逻辑依存语义进行语义表示的文本解析和生成系统，由德克萨斯大学奥斯汀分校开源。
 * [Entity Fishing](https://github.com/kermitt2/entity-fishing)：Entity Fishing是一个用于捕鱼实体的机器学习工具。
 * [Epic](https://github.com/dlwh/epic)：Epic是Scala的一个结构化预测框架。
 * [TimeNLP](https://github.com/shinyke/Time-NLP)：中文语句中的时间语义识别。
