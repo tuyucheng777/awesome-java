@@ -299,7 +299,8 @@
   * [密码库](docs/doc2.md#密码库)
   * [加密算法](docs/doc2.md#加密算法)
   * [接口加密](docs/doc2.md#接口加密)
-  * [数据加解密](docs/doc2.md#数据加解密)
+  * [字段加密](docs/doc2.md#字段加密)
+  * [字段脱敏](docs/doc2.md#字段脱敏)
   * [零知识证明](docs/doc2.md#零知识证明)
   * [XSS](docs/doc2.md#XSS)
   * [TLS/SSL](docs/doc2.md#TLSSSL)
@@ -655,6 +656,8 @@
   * [Bilibili](docs/doc2.md#Bilibili)
   * [Skype](docs/doc2.md#Skype)
   * [Notion](docs/doc2.md#Notion)
+  * [Twitch](docs/doc2.md#Twitch)
+  * [Shopify](docs/doc2.md#Shopify)
   * [JIRA](docs/doc2.md#JIRA)
   * [Trello](docs/doc2.md#Trello)
   * [Jenkins](docs/doc2.md#Jenkins)
@@ -1552,6 +1555,7 @@
 * [FDK Java](https://github.com/fnproject/fdk-java)：Fn项目是一个开源的容器原生Serverless平台，你可以在任何云或本地运行，由Oracle开发。
 * [Yawp](https://github.com/feroult/yawp)：用于Google App Engine的Kotlin/Java API框架。
 * [MerLoc Java](https://github.com/thundra-io/merloc-java)：MerLoc是一款用于开发和调试AWS Lambda函数的实时工具。
+* [Gaelyk](https://github.com/gaelyk/gaelyk)：Gaelyk是一个轻量级工具包，用于在Google App Engine环境中使用Groovy开发应用程序。
 
 ## API网关
 
@@ -1586,6 +1590,7 @@
 * [HXAPIGate](https://gitee.com/willbeahero/HXAPIGate)：HXAPIGate是基于Netty、Shiro开发的一款高性能API网关。
 * [Moon Gateway](https://github.com/longcoding/moon-api-gateway)：基于Spring Boot 2.1、Servlet 4和Jetty 9客户端的异步API网关。
 * [ShipGate](https://github.com/2YSP/ship-gate)：ShipGate是一个基于Spring Web Flux和Netty开发的高性能响应式的API网关。
+* [Waterwall](https://github.com/DevLink-Tech-Academy/waterwall-api-gateway)：Waterwall是一个生产级API网关平台，用于发布、保护和监控API。
 
 ## 服务发现
 
@@ -1655,6 +1660,12 @@
 * [SYJ ReteLimit](https://github.com/shiyujun/syj-ratelimit)：无侵入的应用级网关限流框架。
 * [Shield ReteLimiter](https://github.com/TaXueWWL/shield-ratelimter)：基于Redis的分布式限流工具包。
 * [Play Guard](https://github.com/sief/play-guard)：Play2模块，用于基于令牌桶算法的速率限制。
+* [Throttling](https://github.com/sudohippie/throttle)：Throttling是一个速率限制API。
+* [RedisRateLimiter](https://github.com/tangaiyun/RedisRateLimiter)：基于Redis的API访问速率限制器。
+* [Rate Limit](https://github.com/jabley/rate-limit)：包含用于限制/节流Java应用程序的基本函数和实用程序，以及断路器实现。
+* [RateLimitedLogger](https://github.com/Swrve/rate-limited-logger)：一个与SLF4J兼容、简单流式的Java速率限制日志记录API。
+* [Rate Limit](https://github.com/houbb/rate-limit)：Rate Limit是一个为Java设计的渐进式限流工具。
+* [Krate](https://github.com/lpicanco/krate)：Krate是一个用于Kotlin的速率限制库。
 
 #### 重试
 
@@ -1684,6 +1695,7 @@
 * [ModCluster](https://github.com/modcluster/mod_cluster)：ModCluster是一个基于Apache httpd和纯Java Undertow的智能原生负载均衡器。
 * [Elastic Load Balancing](https://github.com/aws/elastic-load-balancing-tools)：ELB自动在Amazon EC2实例、容器或由IP地址标识的资源之间分配传入应用程序流量。
 * [ExpressGateway](https://github.com/shieldblaze/ExpressGateway)：ShieldBlaze ExpressGateway是一种高性能、可扩展且高可用的负载均衡器。
+* [Scaleguard](https://github.com/dhaneeshtb/scaleguard)：Scaleguard是一款高性能负载均衡器和反向代理，旨在高效地将流量分配到多个服务器，并确保服务的无缝可用性。
 
 #### 健康检查
 
@@ -1692,6 +1704,7 @@
 * [SmallRye Health](https://github.com/smallrye/smallrye-health)：SmallRye Health是Eclipse MicroProfile Health的一个实现。
 * [Health Check](https://github.com/Netflix/runtime-health)：HealthCheck公开一个REST端点，用于外部监控，由Netflix开源。
 * [HeartBeat](https://gitee.com/mkk/HeartBeat)：心跳检测各类应用服务器(如Tomcat、Jetty)，Web服务器(如Apache、Nginx)的Java Web应用程序。
+* [Heart Netty](https://gitee.com/zjz0812/heart-netty)：基于Netty4，ProtoBuf的Netty心跳服务器。
 
 ## 大数据
 
@@ -1711,8 +1724,8 @@
 * [Apache Drill](https://github.com/apache/drill)：Drill是一个分布式MPP查询层，支持针对NoSQL和Hadoop数据存储系统的SQL和替代查询语言，由LinkedIn、思科、威斯康星大学麦迪逊分校等开源。
 * [Apache Mnemonic](https://github.com/apache/mnemonic)：Mnemonic是一个面向非易失性混合内存存储的库，由Intel开源。
 * [Apache Kyuubi](https://github.com/apache/kyuubi)：Kyuubi是一个分布式多租户网关，用于在数据仓库和Lakehouse上提供Serverless SQL，由网易数帆开源。
-* [Scalding](https://github.com/twitter/scalding)：Scalding是一个Scala库，它简化了Hadoop MapReduce作业的配置，由Twitter开源。
 * [Snowplow](https://github.com/snowplow/snowplow)：Snowplow是一个开发者优先的收集行为数据的引擎。
+* [Scalding](https://github.com/twitter/scalding)：Scalding是一个Scala库，它简化了Hadoop MapReduce作业的配置，由Twitter开源。
 * [Piflow](https://github.com/cas-bigdatalab/piflow)：Piflow是一个易于使用、功能强大的大数据管道系统，由科学大数据社区开源。
 * [Scio](https://github.com/spotify/scio)：Scio是一个适用于Beam和Google Cloud Dataflow的Scala API，由Spotify开源。
 * [Batch Processing Gateway](https://github.com/apple/batch-processing-gateway)：批处理网关使在Kubernetes上运行Spark服务变得容易，它允许用户通过直观的API调用在Kubernetes上提交、检查和删除Spark应用程序，由Apple开源。
@@ -2444,6 +2457,7 @@
 * [Flake Java](https://github.com/mumrah/flake-java)：基于Twitter Snowflake的ID生成器。
 * [JavaSnowFlake](https://github.com/Predictor/javasnowflake)：基于Twitter Snowflake ID生成算法的64位顺序ID生成器。
 * [ID Generator](https://github.com/haozi2015/id-generator)：ID Generator分布式ID生成器，解决在分布式系统唯一性标识生成复杂、不统一的问题。
+* [Snowflake IdWorker](https://github.com/zzxadi/Snowflake-IdWorker)：基于Twitter Snowflake的分布式ID生成器。
 
 #### Session集群
 
@@ -2457,6 +2471,7 @@
 * [Amazon DynamoDB Session Manager](https://github.com/amazon-archives/aws-dynamodb-session-tomcat)：基于Amazon DynamoDB的Apache Tomcat会话存储。
 * [Tomcat Session Manager](https://github.com/vmware-archive/session-managers)：Tomcat Session Manager的实现，将数据持久化到Redis中，由VMware开源。
 * [Uncode Session](https://gitee.com/uncode/uncode-session)：Uncode Session是一个非常小巧的集群Session共享组件。
+* [BBoss Session](https://github.com/bbossgroups/security)：BBoss Session框架支持应用集群节点间以及跨域应用节点间的会话共享。
 
 #### Raft算法
 
@@ -2764,6 +2779,7 @@
 * [Android NoSQL](https://github.com/florent37/Android-NoSql)：适用于Android的轻量级、简单结构化的NoSQL数据库。
 * [Kodein](https://github.com/kosi-libs/Kodein-DB)：多平台NoSQL数据库。
 * [FleetDB](https://github.com/mmcgrana/fleetdb)：FleetDB是一个用Clojure实现的无模式数据库。
+* [ModeShape](https://github.com/ModeShape/modeshape)：ModeShape是一种分布式、分层、事务性和一致的数据存储，支持查询、全文搜索、事件、版本控制、引用以及灵活的动态模式，由RedHat开源。
 
 #### OLAP数据库
 
@@ -2939,6 +2955,7 @@
 * [Http4s](https://github.com/http4s/http4s)：Http4s是一个极简且符合Scala规范的HTTP服务接口。
 * [Ktorfit](https://github.com/Foso/Ktorfit)：Ktorfit是一个适用于Kotlin多平台的HTTP客户端/Kotlin符号处理器，使用受Retrofit启发的KSP和Ktor客户端。
 * [Scalaj HTTP](https://github.com/scalaj/scalaj-http)：HttpURLConnection的简单Scala封装库。
+* [Ballerina HTTP](https://github.com/ballerina-platform/module-ballerina-http)：Ballerina HTTP提供用于连接和交互HTTP和HTTP2端点的API。
 * [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
 * [Chuck](https://github.com/jgilfelt/chuck)：Chuck是一个简单的应用内HTTP检查器，适用于Android OkHttp客户端。
 * [NoHttp](https://github.com/yanzhenjie/NoHttp)：NoHttp是一个Android实现的HTTP标准协议框架，支持多种缓存模式，底层可动态切换OkHttp、URLConnection。
@@ -2997,6 +3014,8 @@
 * [RosHTTP](https://github.com/hmil/RosHTTP)：一个易于阅读的Scala HTTP客户端API。
 * [HttpClientUtil](https://github.com/JourWon/httpclientutil)：HttpClient工具类，简单轻松的实现GET、POST、PUT和DELETE请求。
 * [Play WS](https://github.com/playframework/play-ws)：Play WS是一个功能强大的HTTP客户端库，最初由Play团队开发，用于Play框架。
+* [HttpKit](https://gitee.com/m310851010/httpkit)：HttpKit是一个HTTP请求工具，支持多线程异步请求。
+* [Easy Okhttp](https://gitee.com/mzllon/easy-okhttp)：Easy Okhttp是一个对Okhttp3封装后Java网络框架。
 
 #### HTTP路由
 
@@ -3120,6 +3139,9 @@
 * [DrFTPD](https://github.com/drftpd-ng/drftpd)：DrFTPD是一个用Java编写的分布式FTP服务器。
 * [EdtFTPj](https://enterprisedt.com/products/edtftpj/)：EdtFTPj是适用于Java应用程序的成熟FTP库。
 * [ThinServer](https://gitee.com/sanluan/ThinServer)：ThinServer是基于JDK提供的HttpServer开发的Web服务容器和以Socket开发的FTP Server。
+* [LiteFTPD Unix](https://github.com/adlered/LiteFTPD-UNIX)：基于Java的高性能FTP服务端。
+* [Gripper](https://gitee.com/jingshishengxu/gripper)：Gripper是内嵌式FTP服务器。
+* [Ballerina FTP](https://github.com/ballerina-platform/module-ballerina-ftp)：Ballerina FTP提供FTP/SFTP客户端和FTP/SFTP服务器监听器，以便建立与远程位置的FTP/SFTP连接。
 
 #### NIO框架
 
@@ -3167,7 +3189,7 @@
 * [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
 * [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
 * [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
-* [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，框架能够做到纳秒级别的端到端延迟。
+* [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，能够做到纳秒级别的端到端延迟。
 * [JRakNet](https://github.com/whirvis/JRakNet)：JRakNet是一个基于Java的网络库，实现了基于UDP的协议RakNet。
 * [Mikrotik](https://github.com/GideonLeGrange/mikrotik-java)：Mikrotik RouterOS API的Java客户端库实现。
 * [Limitart](https://gitee.com/HankXV/Limitart)：Limitart是轻量级、高性能、少依赖、低级封装的服务器开发工具和项目搭建模板，可以开发游戏服务器和小型中间件等。
@@ -3178,6 +3200,9 @@
 * [IAP Tools Java](https://github.com/jjenkov/iap-tools-java)：一个用于处理IAP网络协议及其数据格式ION的Java工具包。
 * [Resp Server](https://github.com/tonivade/resp-server)：Netty实现的Redis序列化协议，以及一个用于实现基于命令协议的简单框架。
 * [Orchid](https://github.com/subgraph/Orchid)：Orchid是一个用纯Java编写的Tor客户端实现和库。
+* [ReverseHttp](https://github.com/tonyg/reversehttp)：ReverseHttp是一种动态、类似REST的HTTP网络注册和参与方式。
+* [EasyNetty](https://gitee.com/gemron/easynetty)：EasyNetty是一个基于Netty封装的快速分布式任务开发框架。
+* [ANetty](https://gitee.com/jenly1314/ANetty)：ANetty是基于Netty二次封装的Android链路通讯库，用以快速开发高性能，高可靠性的网络交互。
 
 #### WebSocket
 
@@ -3224,6 +3249,7 @@
 * [WebSocket Resources](https://github.com/signalapp/WebSocket-Resources)：一个Dropwizard库，允许你通过WebSocket使用Jersey风格的资源。
 * [Spring Websocket Grails](https://github.com/zyro23/grails-spring-websocket)：该插件旨在使Spring 4.0中引入的WebSocket支持可供Grails应用程序使用。
 * [Netty WebSocket HTTP2](https://github.com/jauntsdn/netty-websocket-http2)：基于Netty的RFC8441实现，使用HTTP/2引导WebSockets，并支持多协议。
+* [Ballerina Websocket](https://github.com/ballerina-platform/module-ballerina-websocket)：WebSocket库便于通过网络连接和与WebSocket端点进行交互，为客户端和服务器端通信提供强大的支持。
 
 #### Socket.IO
 
@@ -3268,6 +3294,14 @@
 * [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
 * [Netty Chat](https://github.com/tonybase/netty-chat)：使用Netty实现IMServer，支持TCP和WebSocket实现。
 * [Engine.IO Java](https://github.com/socketio/engine.io-client-java)：Java的Engine.IO客户端库。
+* [Ballerina TCP](https://github.com/ballerina-platform/module-ballerina-tcp)：Ballerina Socket模块。
+* [Kotlinx.Sockets](https://github.com/cy6erGn0m/kotlinx-sockets)：Kotlinx.Sockets是一个库，旨在为NIO套接字带来丰富的协程体验。
+* [Blink](https://github.com/qiujuer/Blink)：套接字发送和接收协议框架，易于使用的I/O。
+* [MinaSocket](https://github.com/Jeromeer/MinaSocket)：MinaSocket一款基于Mina的Socket长连接库。
+* [Bumblebee](https://github.com/EspoirX/Bumblebee)：基于有限状态机和Flow的WebSocket封装。
+* [RxSocketClient](https://github.com/codeestX/RxSocketClient)：适用于Android、Java和Kotlin的Reactive Socket API。
+* [Naga](https://github.com/techery/Naga)：Naga的目标是成为一个非常小的NIO库，它提供少量的Java类来封装常见的Socket和ServerSocket。
+* [AsyncSocket](https://github.com/samigehi/AsyncSocket)：这是一个基于NIO的Java库，它使用SocketChannels以非阻塞方式与服务器通信。
 
 #### TCP/UDP库
 
@@ -3284,6 +3318,7 @@
 * [JBoss Remoting](https://github.com/jboss-remoting/jboss-remoting)：JBoss Remoting的目的是提供一个用于通过网络进行对称和非对称通信的通用框架，由RedHat开发。
 * [Extasys](https://github.com/nsiatras/extasys)：Extasys是一个高性能的异步TCP/UDP套接字库。
 * [Sentinel](https://github.com/gideondk/sentinel)：Sentinel是使用Akka IO和Akka Streams为基于TCP的服务器和客户端提供的样板代码。
+* [Ballerina UDP](https://github.com/ballerina-platform/module-ballerina-udp)：Ballerina UDP提供用于向另一个应用程序进程发送/接收消息的API。
 
 #### IO_Uring
 
@@ -3575,6 +3610,7 @@
 * [Commons IP Math](https://github.com/jgonian/commons-ip-math)：Commons IP Math提供了丰富、类型安全的API，用于处理对IP资源执行的最常见操作，例如解析、以多种表示法打印、检查范围是否重叠或可以合并等。
 * [Java IPv6](https://github.com/janvanbesien/java-ipv6)：Java IPv6是一个用于IPv6相关概念的Java库，例如IPv6地址、网络掩码、地址池等。
 * [17mon](https://github.com/17mon/java)：17mon IP库解析代码。
+* [IP4s](https://github.com/Comcast/ip4s)：该项目定义了不可变、安全的数据结构，用于描述IP地址、组播连接、套接字地址以及类似的IP和网络相关数据类型。
 * [IPinfo](https://github.com/ipinfo/java)：IPinfo.io IP地址API的官方Java客户端库。
 * [ArtNet4j](https://github.com/cansik/artnet4j)：Art-Net DMX IP Java和Processing库。
 * [IpDB Java](https://github.com/ipipdotnet/ipdb-java)：IPIP.net官方支持的IP数据库ipdb格式解析库。
@@ -3597,6 +3633,7 @@
 * [CSipSimple](https://github.com/r3gis3r/CSipSimple)：CSipSimple是一款开源的Android原生SIP客户端。
 * [Vonage Java SDK](https://github.com/Vonage/vonage-java-sdk)：Vonage Java服务端SDK，支持SMS、消息、语音、文字转语音、号码、认证、视频等API功能。
 * [SIP Proxy](https://github.com/lunasaw/gb28181-proxy)：GB28181 Proxy是基于SIP实现GB28181的通信框架，区分客户端和服务器。
+* [SoftSwitch Gateway](https://github.com/Atoms-Cat/softswitch-gateway)：基于Netty 4对接的OpenSIP导出事件、导出MI和FreeSWITCH事件套接字库。
 
 ## 人工智能
 
@@ -3759,6 +3796,7 @@
 
 * [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
 * [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku是一款面向AI应用的路由器，采用MCP提供支持。
+* [ReShapr](https://github.com/reshaprio/reshapr)：用于AI原生API访问的开源、无代码MCP服务器。
 
 ### 终端助手
 
@@ -4347,6 +4385,7 @@
 * [OpenAnpr](https://gitee.com/open-visual/open-anpr)：基于深度学习的智能车牌识别，支持14种中文车牌类型。
 * [ABBYY Cloud OCR SDK](https://github.com/abbyy/ocrsdk.com)：ABBYY Cloud OCR SDK提供Web API，可轻松在C#、Java、Python或任何其他支持网络通信的开发工具中使用。
 * [Sypht Java Client](https://github.com/sypht-team/sypht-java-client)：Sypht是一款SaaS API，用于从文档中提取关键字段。
+* [PdfOCR](https://github.com/itext/itext-pdfocr-java)：PdfOCR是iText的一个插件，用于识别和提取扫描文档和图像中的文本。
 
 #### 人脸识别
 
@@ -4486,6 +4525,7 @@
 * [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
 * [Constellation](https://github.com/constellation-app/constellation)：Constellation是一款以图形为中心的数据可视化和交互式分析应用程序，支持跨大型复杂数据集的数据访问、联合和操作功能。
 * [Seahorse](https://github.com/deepsense-ai/seahorse)：Seahorse是一个开源的可视化框架，可让你以快速、简单和交互式的方式创建Apache Spark应用程序。
+* [Big Faceless Graph](https://bfo.com/products/graph/)：Big Faceless Graph库由完整的3D引擎支持，可以从任何视角快速绘制2D或带阴影的3D饼图、折线图、面积图和柱状图。
 
 #### ECharts
 
