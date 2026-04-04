@@ -1571,6 +1571,7 @@
 * [Gravitee](https://github.com/gravitee-io/gravitee-api-management)：Gravitee是一个灵活且快速的开源API网关。
 * [Zilla](https://github.com/aklivity/zilla)：Zilla是一个轻量级但功能丰富的代理，对HTTP、SSE、gRPC、MQTT和Kafka协议提供一流的支持。
 * [Apiman](https://github.com/apiman/apiman)：Apiman是一个灵活的开源API管理平台，由RedHat开源。
+* [GovWay](https://github.com/link-it/govway)：GovWay是一个开源API网关，专为满足公共管理的需求而设计，由Link.it开源。
 * [Haafiz](https://github.com/ProgrammerAnthony/Haafiz)：Haafiz是基于Netty，Disruptor，Etcd等技术开发的开源网关。
 * [Amplify](https://docs.axway.com/)：Amplify是一个API网关、门户。
 * [Choreo Connect](https://github.com/wso2/product-microgateway)：Choreo Connect是一个云原生、以开发人员为中心的API网关代理，由WSO2开源。
@@ -1593,6 +1594,11 @@
 * [Moon Gateway](https://github.com/longcoding/moon-api-gateway)：基于Spring Boot 2.1、Servlet 4和Jetty 9客户端的异步API网关。
 * [ShipGate](https://github.com/2YSP/ship-gate)：ShipGate是一个基于Spring Web Flux和Netty开发的高性能响应式的API网关。
 * [Waterwall](https://github.com/DevLink-Tech-Academy/waterwall-api-gateway)：Waterwall是一个生产级API网关平台，用于发布、保护和监控API。
+* [Amazon API Gateway Importer](https://github.com/amazon-archives/aws-apigateway-importer)：Amazon API Gateway Importer允许你从Swagger或RAML API表示形式创建或更新Amazon API Gateway API。
+* [API Gateway](https://github.com/Sukidal/api-gateway)：生产级别的高性能、高并发的入口网关系统。
+* [Dubbo Gateway](https://github.com/smallbeanteng/dubbo-gateway)：Dubbo高性能网关，提供了HTTP协议到Dubbo协议的转换。
+* [Kong Java Client](https://github.com/vaibhav-sinha/kong-java-client)：Kong API网关配置的Java客户端。
+* [Kong Client](https://github.com/taofen8/kong-client)：Kong Client是一个用于Kong的Java SDK，由淘粉吧开源。
 
 ## 服务发现
 
