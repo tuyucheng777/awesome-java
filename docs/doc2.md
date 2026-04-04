@@ -1110,6 +1110,28 @@
 * [Ferma](https://github.com/Syncleus/Ferma)：Apache TinkerPop图堆栈的ORM/OGM。
 * [DBFlute](https://github.com/dbflute/dbflute-core)：DBFlute是由Seasar基金会开源的一个数据库访问框架。
 * [Dream ORM](https://github.com/dream-orm/dream-orm)：Dream ORM是一个自主研发类似MyBatis的持久层框架。
+* [Stalactite](https://github.com/codefilarete/stalactite)：Stalactite是一个流式的Java ORM，它使用方法引用来映射Bean，而无需进行字节码增强。
+* [Xbatis](https://gitee.com/xbatis/xbatis)：Xbatis是一款基于Mybatis的ORM框架。
+* [EasyORM](https://github.com/chuanzh/easyorm)：轻量级ORM框架，零配置、快速开发、对基础的JDBC进行封装。
+* [Persist](https://github.com/r5v9/persist)：Persist是一个基于Java的ORM/DAO工具。
+* [JLeopard](https://github.com/chg122345/jleopard)：JLeopard是一个Java ORM框架。
+* [Nimble](https://github.com/pugwoo/nimble-orm)：Nimble是一个基于Spring JdbcTemplate的灵活轻量级ORM。
+* [DBTools](https://github.com/jeffdcamp/dbtools-android)：DBTools是一个Android ORM库，使用SQLite数据库变得容易。
+* [Briefest](https://github.com/javaoffers/briefest)：Briefest是一个高性能、轻量级、易用、零配置的ORM框架。
+* [FastQuery](https://gitee.com/fastquery2016/fastquery)：FastQuery数据持久层框架。
+* [FlexSQL](https://gitee.com/iJovi/FlexSQL)：FlexSQL是一款革命性的ORM插件，通过Java语法生成SQL语句。
+* [Daobab](https://github.com/daobab-projects/daobab-core)：Daobab是一个Java ORM库，允许将SQL构建为完全面向对象的Java代码。
+* [jORM](https://github.com/jajja/jorm)：jORM是一个轻量级的Java ORM框架。
+* [Yorm](https://github.com/naynecoder/yorm)：Yorm是一个基础的类ORM框架，专为Java Record类型设计，无需类生成和注解。
+* [Kronos](https://github.com/Kronos-orm/Kronos-orm)：Kronos是一个基于Kotlin编译器插件的现代ORM框架。
+* [ReActiveAndroid](https://github.com/ImangazalievM/ReActiveAndroid)：ReActiveAndroid是一个基于流行库ActiveAndroid的Android ORM。
+* [ORMDroid](https://github.com/roscopeco/ormdroid)：ORMDroid是一个简单的ORM持久化框架，适用于你的Android应用程序。
+* [GStorm](https://github.com/kdabir/gstorm)：GStorm是一个轻量级的持久化辅助工具，无需编写任何样板代码即可持久化数据，它还可以作为CSV文件的ORM。
+* [Storm](https://github.com/turbomanage/storm-gen)：适用于Android SQLite的简单ORM。
+* [SqlFly](https://github.com/click33/sqlfly)：SqlFly是一个好用的Java语言ORM框架。
+* [Monalisa](https://github.com/11039850/monalisa-orm)：Monalisa是一个简单的ORM。
+* [Alchemy](https://github.com/DanielSerdyukov/alchemy)：Android的响应式ORM。
+* [Shillelagh](https://github.com/AndrewReitz/shillelagh)：Shillelagh是一个SQLite库，旨在简化Android系统中SQLite的使用。
 
 #### JDBC框架
 
@@ -1147,6 +1169,9 @@
 * [ThinkJD](https://gitee.com/Leytton/ThinkJD)：ThinkJD是一个简洁而强大的开源JDBC操作库。
 * [Pyranid](https://github.com/pyranid/pyranid)：Pyranid是一个面向现代Java应用程序的零依赖JDBC接口。
 * [Kwery](https://github.com/andrewoma/kwery)：Kwery是一个用于Kotlin的SQL库。
+* [Fluent JDBC](https://github.com/jhannes/fluent-jdbc)：不使用ORM的Java数据库代码，风格流式美观。
+* [EasyJDBC](https://gitee.com/xphsc/easyjdbc)：EasyJDBC在Spring JdbcTemplate之上进行了一些包装，支持部分常用的JPA注解。
+* [SimplifyDb](https://gitee.com/keepbx/SimplifyDb)：SimplifyDb是一个Java基于Druid的一款Builder简化写SQL语句操作的框架。
 
 #### DAO框架
 
@@ -1161,6 +1186,7 @@
 * [JSqlBox](https://gitee.com/drinkjava2/jsqlbox)：JSqlBox是一个全功能开源Java数据库持久层工具。
 * [Apache EmpireDB](https://github.com/apache/empire-db)：EmpireDB是一个轻量级的关系型数据库访问库，用于处理所有关系型数据的存储、操作、检索和建模方面。
 * [Play2 CRUD](https://github.com/hakandilek/play2-crud)：Play2的简单CRUD和DAO实现。
+* [Uncode DAL](https://github.com/uncodecn/uncode-dal-all)：Uncode DAL是Java通用数据访问组件，基于Mybatis、Spring JDBC、Hibernate等ORM框架开发。
 
 #### 持久层库
 
@@ -1256,7 +1282,6 @@
 * [Mybatis Flex](https://github.com/mybatis-flex/mybatis-flex)：Mybatis Flex是一个优雅的Mybatis增强框架。
 * [Fluent Mybatis](https://gitee.com/fluent-mybatis/fluent-mybatis)：Fluent MyBatis是一个MyBatis增强工具。
 * [MybatisPlus Ext](https://gitee.com/dromara/mybatis-plus-ext)：MybatisPlus Ext对MybatisPlus做了进一步的拓展封装，即保留原功能，又添加了更多有用便捷的功能。
-* [Xbatis](https://gitee.com/xbatis/xbatis)：Xbatis是一款基于Mybatis的ORM框架。
 * [Mybatis PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)：Mybatis通用分页插件。
 * [Mapper](https://github.com/abel533/Mapper)：易于使用的Mybatis通用Mapper。
 * [Mapper](https://gitee.com/free/Mapper)：极其方便的使用Mybatis单表的增删改查工具。
@@ -1267,6 +1292,9 @@
 * [Mybatis Mate](https://gitee.com/baomidou/mybatis-mate-examples)：Mybatis-Mate为MP企业级模块，支持分库分表，数据审计、数据敏感词过滤(AC算法)，字段加密，字典回写(数据绑定)，数据权限，表结构自动生成SQL维护，支持国密SM2、SM3、SM4加密算法等。
 * [SQL Analysis](https://github.com/jd-opensource/sql-analysis)：SQL Analysis是基于Mybatis插件设计的一款慢SQL分析组件，由京东开源。
 * [PNDao](https://gitee.com/piaoniu/pndao)：一个非常简单的MyBatis辅助工具，可以基于DAO的命名约定帮你生成并维护SQL语句，由票牛开源。
+* [MyBatis Enhance](https://gitee.com/hengboy/mybatis-enhance)：MyBatis Enhance是对于原生的MyBatis的增强编写，不影响任何原生的使用。
+* [Mybatis Plus Join](https://gitee.com/mhb0409/mybatis-plus-join)：Mybatis Plus Join是Mybatis Plus的一个多表插件。
+* [MybatisExt](https://gitee.com/srb/mybatisext)：MybatisExt项目扩展自Mybatis。
 * [Stream Query](https://gitee.com/dromara/stream-query)：Stream Query允许完全摆脱Mapper的Mybatis Plus体验。
 * [OpenScope](https://gitee.com/mofum/open-scope)：OpenScope是一种轻量级、易维护的数据权限的解决方案，它能处理比较复杂的权限操作逻辑。
 * [Spring Data MyBatis](https://github.com/easybest/spring-data-mybatis)：该模块提供对基于MyBatis的数据访问层的增强支持。
@@ -1291,6 +1319,7 @@
 * [Hibernate Hydrate](https://github.com/arey/hibernate-hydrate)：Hibernate Hydrate项目的主要目标是填充持久实体图，从而避免著名的LazyInitializationException。
 * [Hibernate Redis](https://github.com/debop/hibernate-redis)：使用Redis的Hibernate二级缓存权限。
 * [SQLite Dialect](https://github.com/gwenn/sqlite-dialect)：受NHibernate启发的SQLite的Hibernate方言。
+* [Yawn](https://github.com/Faire/yawn)：Yawn是将Hibernate Criteria Query API封装成一个Kotlin友好、类型安全且直观的接口。
 
 #### JPA库
 
@@ -1511,6 +1540,7 @@
 * [UMongo](https://github.com/agirbal/umongo)：UMongo是用于浏览和管理MongoDB集群的桌面应用程序。
 * [Studio 3T](https://studio3t.com/)：Studio 3T是MongoDB的专业图形用户界面。
 * [MongoBee](https://github.com/mongobee/mongobee)：MongoBee是一个Java工具，可帮助你管理MongoDB中的更改并将其与你的应用程序同步。
+* [LambdaQuery](https://gitee.com/xuejike/lambda-query)：LambdaQuery支持通过Lambda进行多种数据源的查询。
 * [Mongo Lambda Query](https://github.com/DarMi7/mongo-lambda-query)：基于Lambda表达式，且面向对象的Mongo数据库查询插件。
 * [MongoHelper](https://gitee.com/cym1102/mongoHelper)：Spring Data MongoDB增强工具包，简化CRUD操作，提供类Mybatis Plus的数据库操作体验。
 * [POCDriver](https://github.com/johnlpage/POCDriver)：POCDriver是一个单一的JAR文件，允许你从命令行轻松指定和运行多个不同的工作负载。
@@ -1616,6 +1646,10 @@
 
 #### HBase库/工具
 
+* [SimpleHBase](https://github.com/alibaba/simplehbase)：SimpleHBase是Java和HBase之间的轻量级中间件，由阿里开源。
+* [PHO](https://github.com/eHarmony/pho)：PHO是一个使用Apache Phoenix在HBase上构建和执行查询的库。
+* [HBase ORM](https://github.com/flipkart-incubator/hbase-orm)：HBase ORM是一个轻量级、生产级、线程安全且高性能的库，它能够以最少的代码和良好的可测试性实现对HBase行的面向对象访问，由Flipkart开源。
+* [HbaseAPI](https://github.com/jacksoup/HbaseAPI)：基于Java封装了HBase的底层API，提供了基于注解的ORM支持。
 * [HbaseGUI](https://github.com/Observe-secretly/HbaseGUI)：HbaseGUI可视化工具，通过Hbase Client直接操作Hbase。
 * [HRider](https://github.com/NiceSystems/hrider)：HRider是一个GUI应用程序，它提供了一种更简单的方式来查看或操作保存在HBase分布式数据库中的数据。
 * [HBaseClient](https://github.com/HY-ZhengWei/HBaseClient)：HBase客户端数据管理软件。
@@ -1625,7 +1659,6 @@
 
 * [Jcabi DynamoDB](https://github.com/jcabi/jcabi-dynamo)：AWS DynamoDB SDK的面向对象包装器。
 * [Tempest](https://github.com/cashapp/tempest)：适用于Kotlin和Java的类型安全DynamoDB，由Cash App开源。
-* [Dynamonito](https://github.com/dailycred/dynamonito)：Dynamonito是DynamoDB高级映射器的直接替代品。
 * [DynamoDB Transactions](https://github.com/awslabs/dynamodb-transactions)：DynamoDB Transactions在DynamoDB中提供原子性、一致性、隔离性和持久性(ACID)，使你能够更轻松地维护应用程序中的数据正确性。
 * [Alternator](https://github.com/mboudreau/Alternator)：用于测试目的在本地运行的模拟DynamoDB。
 * [DynamoDB Geo](https://github.com/amazon-archives/dynamodb-geo)：Amazon DynamoDB的地理库使Java开发人员能够轻松创建和查询地理空间数据。
@@ -2378,9 +2411,14 @@
 * [Dev Tools](https://github.com/reugn/dev-tools)：单个桌面应用程序中的开发人员实用程序的集合。
 * [SmallRye Common](https://github.com/smallrye/smallrye-common)：SmallRye项目的常用工具库。
 * [DBeaver Common](https://github.com/dbeaver/dbeaver-common)：DBeaver项目的通用工具和依赖项。
+* [Liftwizard](https://github.com/liftwizard/liftwizard)：Liftwizard是Dropwizard的一系列捆绑包和插件。
 * [Extend Spring Boot](https://github.com/battcn/extend-spring-boot)：这是一个对文件存储、JDK8日期，分布式锁、分布式限流、跨域请求、国际化、防XSS攻击、关键字脱敏的增强包。
 * [Vinus Spring Boot Starter](https://gitee.com/ITEater/vinus-spring-boot-starter)：针对阿里云组件封装的一个Starter。
 * [SDA Dropwizard Commons](https://github.com/SDA-SE/sda-dropwizard-commons)：SDA Dropwizard Commons是一套库，用于轻松引导服务，遵循SDA SE推广的模式和规范。
+* [XSnow](https://github.com/xiaoyaoyou1212/XSnow)：基于RxJava2、Retrofit2精心打造的Android基础框架，包含网络、上传、下载、缓存、事件总线、权限管理、数据库、图片加载。
+* [Java Plugin](https://github.com/wujun728/jun_java_plugin)：Java Plugin整合Java企业级各种开发组件、开箱即用。
+* [AopArms](https://github.com/aicareles/AopArms)：AopArms提供了Android开发中常用的一套注解，如日志、异步处理、缓存、延迟操作、定时任务、重试机制、过滤频繁点击、拦截、埋点统计、全局性能监控等。
+* [Common Project](https://github.com/yz-java/common-project)：Java常用工具类、缓存接口、消息接口队列、第三方支付接口封装。
 
 ## 参数校验
 
@@ -2566,7 +2604,6 @@
 * [Ballerina Cache](https://github.com/ballerina-platform/module-ballerina-cache)：Ballerina Cache提供内存缓存API，它使用半持久化的键值映射。
 * [Kotlin Cacheable](https://github.com/mori-atsushi/kotlin-cacheable)：Kotlin Cacheable是适用于Kotlin Multiplatform的基于注解的缓存库。
 * [KakaCache](https://github.com/LittleFriendsGroup/KakaCache)：KakaCache是一个专用于解决Android中网络请求及图片加载的缓存处理框架。
-* [HttpResponseCache](https://github.com/candrews/HttpResponseCache)：HttpResponseCache库为使用java.net.HttpUrlConnection类的HTTP和HTTPS请求提供透明且自动的缓存。
 * [Buffer Trigger](https://github.com/PhantomThief/buffer-trigger)：一个带有可自定义数据触发器的本地数据缓冲区。
 * [HuanCun](https://github.com/OpenXiangShan/HuanCun)：开源高性能无阻塞缓存，中科院开发。
 * [Carbonite](https://github.com/eveliotc/carbonite)：一个简单、基于内存且持久化的Android对象缓存。
@@ -2577,6 +2614,28 @@
 * [Spring Cache Self Refresh](https://github.com/saiyedzaidi/spring-cache-self-refresh)：允许透明地重新加载缓存值，而不会丢弃已缓存的数据。
 * [CoroutinesCache](https://github.com/epam/CoroutinesCache)：CoroutinesCache是一个受Retrofit API启发的Android和Kotlin响应式缓存库。
 * [Cache](https://github.com/anomaly2104/cache-low-level-system-design)：缓存系统的底层设计。
+* [RxObservableDiskCache](https://github.com/pakoito/RxObservableDiskCache)：RxObservableDiskCache是一个库，用于将Singles或单值Observables请求的结果保存到本地磁盘缓存中，以便下次调用相同的请求时可以立即获得结果。
+* [ZIO Cache](https://github.com/zio/zio-cache)：ZIO Cache是一个库，它通过缓存值来简化应用程序性能的优化。
+* [Storo](https://github.com/lowlevel-studios/storo)：一个Android库，使用LRU缓存实现将任何可序列化对象缓存到磁盘，并可以为每个条目指定过期时间和可分配的最大大小。
+* [Deta Cache](https://github.com/yaoguangluo/Deta_Cache)：微型迷你Java线程安全HTTP JSON缓存服务器。
+* [CacheUtilsLibrary](https://github.com/westlinkin/CacheUtilsLibrary)：一个简单的Android工具库，可以将任何类型的数据写入缓存文件，并在以后读取它们。
+* [ReactiveCache](https://github.com/VictorAlbertos/ReactiveCache)：适用于Android和Java的响应式缓存，支持响应式链。
+* [Cleakka](https://github.com/ngocdaothanh/cleakka)：Cleakka是一个基于Akka的内存缓存。
+* [DCache](https://github.com/dora4/dcache-android)：DCache是一个适用于Android的开源离线数据缓存框架，旨在提供一种简单高效的方式来缓存网络请求结果和其他数据。
+* [Qachee](https://github.com/nicolasjafelle/Qachee)：Qachee是一个通用的缓存系统，专为Android应用而设计。
+* [Spring Collection Cacheable](https://github.com/qaware/collection-cacheable-for-spring)：Spring Cache扩展，用于将整个实体集合作为单个缓存项进行缓存。
+* [SCache](https://github.com/evolution-gaming/scache)：Scala中使用Cats Effect进行缓存。
+* [Tutu Cache](https://github.com/tri5m/tutu-cache)：Tutu Cache是一个简单易用的Spring缓存注解。
+* [POJO MVCC](https://github.com/aidanmorgan/pojo-mvcc)：POJO MVCC提供一个简单的内存中POJO多版本并发控制(MVCC)缓存。
+* [TwoLevelLruCache](https://github.com/wuman/TwoLevelLruCache)：一种两级LRU缓存，由内存中较小的L1缓存和磁盘上较大的L2缓存组成。
+* [CachePot](https://github.com/kimkevin/CachePot)：CachePot是一个简单的开源数据缓存管理工具。
+* [Cache](https://github.com/barakb/Cache)：快速、灵活高效的内存LRU Java缓存。
+* [iCloud Cache](https://gitee.com/ibyte/icloud-cache)：iCloud Cache是基于Spring Boot上的注解缓存，自带轻量级缓存管理页面。
+* [Kache](https://gitee.com/Kould/kache)：Kache缓存框架专注于优化高IO的Web应用中数据持久化层次的读写性能，并保证数据实时性，提高缓存数据库的空间利用率。
+* [Redis Smart Cache](https://github.com/redis-field-engineering/redis-smart-cache)：Redis Smart Cache允许你在不更改代码的情况下为应用程序添加缓存功能。
+* [RepositoryCache](https://github.com/FranRiadigos/RepositoryCache)：代理缓存管理器注解，可帮助你缓存Repository方法调用。
+* [Dynamonito](https://github.com/dailycred/dynamonito)：DynamoDB的Java缓存实用程序。
+* [Munin](https://github.com/qishenghe/munin)：Munin是一个敏捷的字典数据存储介质。
 
 #### 分布式缓存
 
@@ -2594,6 +2653,71 @@
 * [RainbowCache](https://github.com/gshjd/RainbowCache)：RainbowCache是一套缓存注解，内置利用Redis完成的并发锁。
 * [Simple Spring Memcached](https://github.com/ragnor/simple-spring-memcached)：Simple Spring Memcached是一个即插即用的库，可通过注解在Spring Bean中启用Memcached缓存。
 * [Uncode Cache](https://gitee.com/uncode/uncode-cache)：Uncode Cache是基于Redis和Ehcache的二级缓存组件。
+* [Memcached Spring Boot](https://github.com/sixhours-team/memcached-spring-boot)：为Spring Boot应用程序中Memcached缓存的自动配置提供支持的库。
+* [Disgear](https://github.com/yangbutao/disgear)：Disgear是一个基于Redis的分布式缓存，支持多台机器上的数据分段，支持高可用性、读写分离和自动选举，支持主节点故障。
+* [Redis Reactive Cache](https://github.com/Bryksin/redis-reactive-cache)：用于Spring Boot WebFlux的Redis响应式缓存。
+* [Flasher](https://gitee.com/ym-monkey/flasher)：Flasher为国内某大型一线电商平台的分布式缓存框架，基于Redis Cluster实现的Java客户端。
+* [Arcus Spring](https://github.com/naver/arcus-spring)：Arcus作为Spring Cache抽象的缓存提供程序，由Naver开源。
+* [Play Redis](https://github.com/KarelCemus/play-redis)：Play框架的Redis缓存模块。
+
+#### 键值存储
+
+* [Apache Accumulo](https://github.com/apache/accumulo)：Accumulo是一种排序的分布式键/值存储，可提供强大、可扩展的数据存储和检索，由美国国家安全局开源。
+* [Storehaus](https://github.com/twitter/storehaus)：Storehaus是一个可以轻松使用异步键值存储的库，由Twitter开源。
+* [Oracle Berkeley DB](https://www.oracle.com/database/technologies/related/berkeleydb.html)：Berkeley DB是一个高效的嵌入式数据库和键值数据库，最初起源于伯克利加州大学，Oracle提供一个纯Java程序编写的Berkeley DB。
+* [Hawk](https://github.com/orhanobut/hawk)：适用于Android的安全、简单的键值存储。
+* [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map)：Chronicle Map是一种超快速、内存中、非阻塞键值存储，专为低延迟和/或多进程应用程序(例如交易和金融市场应用程序)而设计。
+* [KVStore](https://github.com/ggrandes/kvstore)：KVStore是一个基于B+Tree的Java内存和磁盘键值存储。
+* [SimpleStore](https://github.com/uber/simple-store)：SimpleStore旨在为开发人员提供极其强大且高性能的解决方案，用于在磁盘上异步存储键值数据，由Uber开源。
+* [FireflyDB](https://github.com/godcrampy/fireflydb)：FireflyDB是一种快速、线程安全、基于JVM的键值存储引擎，具有微秒级延迟。
+* [JDBM3](https://github.com/jankotek/JDBM3)：JDBM提供TreeMap、HashMap等由磁盘存储备份的集合。
+* [Sparkey](https://github.com/spotify/sparkey-java)：Sparkey键值存储的Java实现，用作嵌入其他软件中的库，由Spotify开源。
+* [ClauDB](https://github.com/tonivade/claudb)：ClauDB是Java中的Redis实现。
+* [Pistachio](https://github.com/lyogavin/Pistachio)：Pistachio是Yahoo开源的KV存储引擎，非常适合存储用户配置文件系统。
+* [TomP2P](https://github.com/tomp2p/TomP2P)：TomP2P是一个P2P库和分布式哈希表(DHT)实现，为分布式应用程序提供去中心化的键值基础架构。
+* [Sleeper](https://github.com/gchq/sleeper)：Sleeper是一种Serverless、云原生、基于日志结构合并树的可扩展键值存储，由英国政府通讯总部开源。
+* [Oak](https://github.com/yahoo/Oak)：OakMap是一个并发键值Map，它将所有键和值保留在堆外，由Yahoo开源。
+* [KVDB](https://github.com/jd-opensource/jdchain-kvdb)：KVDB是一个简单的NoSQL数据库，支持简单的键值读写操作，由京东开源。
+* [LMDB](https://github.com/lmdbjava/lmdbjava)：LMDB是一种使用B+树的有序、嵌入式、持久的键值存储。
+* [Doris](https://github.com/itisaid/Doris)：Doris是大规模分布式KV存储系统，由阿里开源。
+* [Adama](https://github.com/mathgladiator/adama-lang)：Adama是一个开源、响应式、无服务器、隐私优先、面向文档、以计算为中心的键值存储系统。
+* [PalDB](https://github.com/linkedin/PalDB)：PalDB是一个用Java编写的嵌入式一次性写入键值存储，由LinkedIn开源。
+* [HaloDB](https://github.com/yahoo/HaloDB)：HaloDB是一个用Java编写的快速且简单的嵌入式键值存储，由Yahoo开源。
+* [JustinDB](https://github.com/justin-db/JustinDB)：JustinDB是一个最终一致的键值数据库，有利于写入可用性。
+* [Voldemort](https://github.com/voldemort/voldemort)：Voldemort是一个分布式键值存储系统，Amazon Dynamo的开源克隆，由LinkedIn开源。
+* [SwayDB](https://github.com/simerplaha/SwayDB)：用于JVM的持久内存键值存储引擎，旨在实现高性能和资源效率。
+* [BabuDB](https://github.com/xtreemfs/babudb)：BabuDB是一个嵌入式非关系型数据库系统，由柏林自由大学开源。
+* [BBoxDB](https://github.com/jnidzwetzki/bboxdb)：BBoxDB是一个高可用的分布式存储管理器，旨在处理多维大数据。
+* [CurioDB](https://github.com/stephenmcd/curiodb)：CurioDB是一个分布式持久Redis克隆，使用Scala和Akka构建。
+* [TreodeDB](https://github.com/Treode/store)：TreodeDB是一个提供多行原子写入的分布式数据库，它专为RESTful服务而设计。
+* [Hank](https://github.com/LiveRamp/hank)：Hank是LiveRamp构建和使用的一个非常快速且非常紧凑的分布式键值NoSQL数据库。
+* [IODB](https://github.com/input-output-hk/iodb)：IODB是为区块链应用设计的嵌入式存储引擎。
+* [WaspDB](https://github.com/rehacktive/waspdb)：WaspDB是一个适用于Android的纯Java键值对数据库库。
+* [FastKV](https://github.com/BillyWei01/FastKV)：FastKV是用Java编写的高效可靠的键值存储库，专为Android平台优化。
+* [LSM Tree](https://github.com/indeedeng/lsmtree)：LSM Tree是一种快速键/值存储，对于大容量随机访问读写非常有效，由Indeed开发。
+* [Distkv](https://github.com/distkv-project/distkv)：Distkv是一个具有表概念的轻量级分布式键值数据库系统。
+* [Chronos](https://github.com/Txture/chronos)：该项目致力于为Java虚拟机提供高效易用的版本化数据库持久化解决方案。
+* [Prithvi](https://github.com/psidh/Prithvi)：Prithvi是一个用Java从头构建的内存键值数据库，不依赖外部框架。
+* [PufferDB](https://github.com/adrielcafe/pufferdb)：PufferDB是一个键值存储，由Protobuf和协程提供支持。
+* [KVault](https://github.com/Liftric/KVault)：KVault是Kotlin多平台项目的安全键值存储。
+* [Riffle](https://github.com/Factual/riffle)：Riffle是一种只读键/值存储格式。
+* [HeftyDB](https://github.com/jordw/heftydb)：HeftyDB是一个适用于JVM的持久化、排序的键值对库。
+* [Remember](https://github.com/tumblr/Remember)：适用于Android的由共享偏好支持的内存数据存储，由Tumblr开源。
+* [MPH Table](https://github.com/indeedeng/mph-table)：MPH Table是一种不可变的键/值存储，具有高效的空间利用率和快速读取性能，由Indeed开源。
+* [Lu Raft KV Storage](https://github.com/stateIs0/lu-raft-kv)：这是一个Java版本的Raft KV分布式存储实现。
+* [RogueMap](https://gitee.com/bryan31/RogueMap)：RogueMap是一个高性能的嵌入式键值存储引擎，提供堆外内存和持久化存储能力。
+* [MiniBase](https://github.com/openinx/minibase)：MiniBase是一个嵌入式KV存储引擎。
+* [KVStorage](https://github.com/taoweiji/KVStorage)：强大的Android结构化KV存储框架，基于YAML生成Java结构化存储类。
+* [Kissme](https://github.com/netguru/Kissme)：Kissme是一个开源库，提供加密键值存储。
+* [QuickKV](https://github.com/sumimakito/QuickKV)：为Android项目提供的轻量且易用的键值数据库。
+* [Kottage](https://github.com/irgaly/kottage)：Kotlin多平台键值存储本地缓存，实现单一数据源。
+* [KiritoDB](https://github.com/lexburner/kiritoDB)：使用Java实现的高性能键值引擎。
+* [ChronDB](https://github.com/avelino/chrondb)：ChronDB是基于Git架构，按时间顺序排列的键值数据库，具有完整的版本历史记录。
+* [Jodis](https://github.com/solar-systems/Jodis)：Jodis是一个高性能的基于内存的NoSQL键值数据库，采用Java开发。
+* [EF Redis](https://github.com/wiqer/ef-redis)：EF Redis是Java版本的Redis Server。
+* [Distributed KV](https://github.com/burhanxz/Distributed-KV)：分布式键值系统。
+* [SimplixStorage](https://github.com/Simplix-Softworks/SimplixStorage)：SimplixStorage是一个以更佳方式存储数据的库。
+* [Cacheonix](https://github.com/cacheonix/cacheonix-core)：Cacheonix是一个开源项目，它提供了一个用Java编写的严格一致性分布式键值存储系统。
 
 #### 数据网格
 
@@ -2606,11 +2730,21 @@
 * [XAP](https://github.com/xap/xap)：XAP是一个分布式、高度可扩展的内存数据网格，由GigaSpaces开源。
 * [Galaxy](https://github.com/puniverse/galaxy)：Galaxy是一个内存数据网格，它的主要功能是将数据对象分布在集群节点之间进行分布式处理。
 * [Eclipse Data Grid](https://github.com/eclipse-datagrid/datagrid)：Eclipse Data Grid是一个内存数据处理层，用于加速数据库应用程序并减轻数据库的负担。
+* [RadarGun](https://github.com/radargun/radargun)：RadarGun是一个数据网格和分布式缓存基准测试框架，旨在测试Infinispan和其他分布式数据网格平台。
 
 #### 缓存管理器
 
 * [JetCache](https://github.com/alibaba/jetcache)：JetCache是一种Java缓存抽象，它为不同的缓存解决方案提供统一的使用方式，由阿里开源。
 * [AutoLoadCache](https://github.com/qiujiayu/AutoLoadCache)：AutoLoadCache是基于AOP、注解等技术实现的高效的缓存管理解决方案。
+* [ScalaCache](https://github.com/cb372/scalacache)：ScalaCache为最流行的缓存实现提供了一个门面，并具有简单、符合惯用的Scala API。
+* [SCM Spring Boot](https://gitee.com/zhys513/scm-springboot)：基于Spring Boot的统一注解缓存，支持Memcached、Redis、Ehcache的缓存无缝切换。
+
+#### HTTP缓存
+
+* [Spring MVC Cache Control](https://github.com/foo4u/spring-mvc-cache-control)：Spring MVC Cache Control是Spring MVC的一个扩展，旨在简化为带注解的MVC控制器实现HTTP/1.1 Cache-Control标头。
+* [Java EE Cache Filter](https://github.com/samaxes/javaee-cache-filter)：Java EE Cache Filter提供了一系列用于Java Web应用程序的常用Servlet过滤器，允许你透明地设置HTTP缓存标头以启用浏览器缓存。
+* [HTTPCache4j](https://github.com/httpcache4j/httpcache4j)：HTTPCache4j是一个Java浏览器缓存。
+* [HttpResponseCache](https://github.com/candrews/HttpResponseCache)：HttpResponseCache库为使用java.net.HttpUrlConnection类的HTTP和HTTPS请求提供透明且自动的缓存。
 
 ## 日志库
 
@@ -6664,6 +6798,7 @@ Kafka生态管理系统、运维平台。
 * [Muon](https://github.com/muoncore/stack-event)：Muon是一套库和服务，可让你构建高效的面向消息和事件的分布式系统。
 * [Simple Sourcing](https://github.com/simplesourcing/simplesource)：Simple Sourcing是一个用于构建事件溯源系统的API。
 * [EventStore2](https://github.com/ks-no/eventstore2)：EventStore2是一个用于在Java中创建事件溯源应用程序的框架。
+* [XOOM Symbio](https://github.com/vlingo/xoom-symbio)：VLINGO XOOM Symbio提供可扩展、高吞吐量和弹性的响应式存储，适用于服务和应用程序使用的CQRS、事件溯源、键值和对象。
 
 ## 设计模式
 
@@ -7103,6 +7238,7 @@ Kafka生态管理系统、运维平台。
 * [SpringBootUnity](https://github.com/houko/SpringBootUnity)：基于Spring Boot框架的多模块框架。
 * [Industry App Framework](https://github.com/cosmoplat-dev/industry-app-framework)：本服务致力于构建一套便捷的工业互联网开发基础设施。
 * [DXA Java Web Application](https://github.com/RWS/dxa-web-application-java)：DXA是RWS Tridion Sites 10.x、10、9.x和RWS Web 8的参考实现，旨在帮助你快速创建、设计和发布基于RWS Tridion/Web的网站。
+* [Joice](https://github.com/huhuics/joice)：Joice是使用Spring框架开发的分布式系统架构。
 
 #### 后台管理系统
 
@@ -7799,6 +7935,7 @@ Kafka生态管理系统、运维平台。
 * [NoteBlog](https://github.com/miyakowork/NoteBlog)：NoteBlog是一款基于LayUI的响应式个人优雅博客。
 * [LeoBlog](https://github.com/C-176/LeoBlog-back)：LeoBlog是一个仿知乎的博客系统，旨在提供一个简单易用的博客平台，让用户可以方便地发布、编辑和管理自己的博客。
 * [SGBlog](https://github.com/sangengcaotang/SGBlog)：Spring Boot项目博客系统。
+* [SlcpBlog](https://github.com/sunlicp/SlcpBlog)：Vue、Spring Boot实现的博客系统。
 
 #### 论坛系统
 
@@ -9573,6 +9710,7 @@ Kafka生态管理系统、运维平台。
 * [Kotlin Telegram Bot](https://github.com/DEHuckaKpyT/telegram-bot)：Kotlin Telegram Bot库，用于创建具有实用功能的可扩展应用程序。
 * [Telegraff](https://github.com/ruslanys/telegraff)：用于Telegram Bot开发的Kotlin DSL。
 * [OldTelebof](https://github.com/natanimn/OldTelebof)：简单易用的现代Java Telegram Bot API。
+* [Kotbot](https://github.com/Heapy/kotbot)：Telegram Bot库。
 
 #### Facebook机器人
 

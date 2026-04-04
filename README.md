@@ -76,7 +76,6 @@
   * [搜索引擎](#搜索引擎)
   * [图数据库](#图数据库)
   * [RDF数据库](#RDF数据库)
-  * [键值存储](#键值存储)
   * [时序数据库](#时序数据库)
   * [嵌入式数据库](#嵌入式数据库)
   * [关系型数据库](#关系型数据库)
@@ -317,8 +316,10 @@
 * [缓存库](docs/doc2.md#缓存库)
   * [本地缓存](docs/doc2.md#本地缓存)
   * [分布式缓存](docs/doc2.md#分布式缓存)
+  * [键值存储](docs/doc2.md#键值存储)
   * [数据网格](docs/doc2.md#数据网格)
   * [缓存管理器](docs/doc2.md#缓存管理器)
+  * [HTTP缓存](docs/doc2.md#HTTP缓存)
 * [日志库](docs/doc2.md#日志库)
   * [日志门面](docs/doc2.md#日志门面)
   * [日志采集](docs/doc2.md#日志采集)
@@ -1068,6 +1069,7 @@
 * [Lift](https://github.com/lift/framework)：Lift是一个强大、安全的Web框架。
 * [Kora](https://github.com/kora-projects/kora)：Kora是一个用于编写Java/Kotlin应用程序的框架，重点关注性能、效率和透明度。
 * [Duct](https://github.com/duct-framework/duct)：Duct是一个高度模块化的框架，用于使用数据驱动架构在Clojure中构建服务器端应用程序。
+* [RePlay](https://github.com/replay-framework/replay)：RePlay是Play1框架的一个分支，由Codeborne创建。
 * [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。
 * [Scalatra](https://github.com/scalatra/scalatra)：Scalatra是一个小型、类似Sinatra的Scala Web框架。
 * [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是围绕Pipeline，关注点分离和基于组件的Web开发的概念构建的Web应用程序框架。
@@ -2336,6 +2338,7 @@
 * [JPost](https://github.com/janishar/JPost)：Java和Android类通信库。
 * [KillBill Queue](https://github.com/killbill/killbill-commons/tree/master/queue)：KillBill Queue是一个通知队列、持久消息总线库。
 * [Banyan](https://github.com/yanghua/banyan)：Banyan用于跨多个应用程序进行通信和集成。
+* [XOOM Lattice](https://github.com/vlingo/xoom-lattice)：VLINGO XOOM Lattice提供计算网格、Actor缓存、对象空间、跨节点集群消息传递、发布/订阅、CQRS和事件溯源支持。
 
 #### 应用总线
 
@@ -2618,64 +2621,6 @@
 * [Strabon](https://strabon.di.uoa.gr/)：Strabon是一个完全实现的语义地理空间数据库系统，由雅典大学开源。
 * [Mulgara](http://www.mulgara.org/)：Mulgara是一个完全用Java编写的快速RDF数据库。
 
-#### 键值存储
-
-* [Apache Accumulo](https://github.com/apache/accumulo)：Accumulo是一种排序的分布式键/值存储，可提供强大、可扩展的数据存储和检索，由美国国家安全局开源。
-* [Storehaus](https://github.com/twitter/storehaus)：Storehaus是一个可以轻松使用异步键值存储的库，由Twitter开源。
-* [Oracle Berkeley DB](https://www.oracle.com/database/technologies/related/berkeleydb.html)：Berkeley DB是一个高效的嵌入式数据库和键值数据库，最初起源于伯克利加州大学，Oracle提供一个纯Java程序编写的Berkeley DB。
-* [Hawk](https://github.com/orhanobut/hawk)：适用于Android的安全、简单的键值存储。
-* [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map)：Chronicle Map是一种超快速、内存中、非阻塞键值存储，专为低延迟和/或多进程应用程序(例如交易和金融市场应用程序)而设计。
-* [KVStore](https://github.com/ggrandes/kvstore)：KVStore是一个基于B+Tree的Java内存和磁盘键值存储。
-* [SimpleStore](https://github.com/uber/simple-store)：SimpleStore旨在为开发人员提供极其强大且高性能的解决方案，用于在磁盘上异步存储键值数据，由Uber开源。
-* [FireflyDB](https://github.com/godcrampy/fireflydb)：FireflyDB是一种快速、线程安全、基于JVM的键值存储引擎，具有微秒级延迟。
-* [JDBM3](https://github.com/jankotek/JDBM3)：JDBM提供TreeMap、HashMap等由磁盘存储备份的集合。
-* [Sparkey](https://github.com/spotify/sparkey-java)：Sparkey键值存储的Java实现，用作嵌入其他软件中的库，由Spotify开源。
-* [ClauDB](https://github.com/tonivade/claudb)：ClauDB是Java中的Redis实现。
-* [Pistachio](https://github.com/lyogavin/Pistachio)：Pistachio是Yahoo开源的KV存储引擎，非常适合存储用户配置文件系统。
-* [TomP2P](https://github.com/tomp2p/TomP2P)：TomP2P是一个P2P库和分布式哈希表(DHT)实现，为分布式应用程序提供去中心化的键值基础架构。
-* [Sleeper](https://github.com/gchq/sleeper)：Sleeper是一种Serverless、云原生、基于日志结构合并树的可扩展键值存储，由英国政府通讯总部开源。
-* [Oak](https://github.com/yahoo/Oak)：OakMap是一个并发键值Map，它将所有键和值保留在堆外，由Yahoo开源。
-* [KVDB](https://github.com/jd-opensource/jdchain-kvdb)：KVDB是一个简单的NoSQL数据库，支持简单的键值读写操作，由京东开源。
-* [LMDB](https://github.com/lmdbjava/lmdbjava)：LMDB是一种使用B+树的有序、嵌入式、持久的键值存储。
-* [Doris](https://github.com/itisaid/Doris)：Doris是大规模分布式KV存储系统，由阿里开源。
-* [Adama](https://github.com/mathgladiator/adama-lang)：Adama是一个开源、响应式、无服务器、隐私优先、面向文档、以计算为中心的键值存储系统。
-* [PalDB](https://github.com/linkedin/PalDB)：PalDB是一个用Java编写的嵌入式一次性写入键值存储，由LinkedIn开源。
-* [HaloDB](https://github.com/yahoo/HaloDB)：HaloDB是一个用Java编写的快速且简单的嵌入式键值存储，由Yahoo开源。
-* [JustinDB](https://github.com/justin-db/JustinDB)：JustinDB是一个最终一致的键值数据库，有利于写入可用性。
-* [Voldemort](https://github.com/voldemort/voldemort)：Voldemort是一个分布式键值存储系统，Amazon Dynamo的开源克隆，由LinkedIn开源。
-* [SwayDB](https://github.com/simerplaha/SwayDB)：用于JVM的持久内存键值存储引擎，旨在实现高性能和资源效率。
-* [BabuDB](https://github.com/xtreemfs/babudb)：BabuDB是一个嵌入式非关系型数据库系统，由柏林自由大学开源。
-* [BBoxDB](https://github.com/jnidzwetzki/bboxdb)：BBoxDB是一个高可用的分布式存储管理器，旨在处理多维大数据。
-* [CurioDB](https://github.com/stephenmcd/curiodb)：CurioDB是一个分布式持久Redis克隆，使用Scala和Akka构建。
-* [TreodeDB](https://github.com/Treode/store)：TreodeDB是一个提供多行原子写入的分布式数据库，它专为RESTful服务而设计。
-* [Hank](https://github.com/LiveRamp/hank)：Hank是LiveRamp构建和使用的一个非常快速且非常紧凑的分布式键值NoSQL数据库。
-* [IODB](https://github.com/input-output-hk/iodb)：IODB是为区块链应用设计的嵌入式存储引擎。
-* [WaspDB](https://github.com/rehacktive/waspdb)：WaspDB是一个适用于Android的纯Java键值对数据库库。
-* [FastKV](https://github.com/BillyWei01/FastKV)：FastKV是用Java编写的高效可靠的键值存储库，专为Android平台优化。
-* [LSM Tree](https://github.com/indeedeng/lsmtree)：LSM Tree是一种快速键/值存储，对于大容量随机访问读写非常有效，由Indeed开发。
-* [Distkv](https://github.com/distkv-project/distkv)：Distkv是一个具有表概念的轻量级分布式键值数据库系统。
-* [Chronos](https://github.com/Txture/chronos)：该项目致力于为Java虚拟机提供高效易用的版本化数据库持久化解决方案。
-* [Prithvi](https://github.com/psidh/Prithvi)：Prithvi是一个用Java从头构建的内存键值数据库，不依赖外部框架。
-* [PufferDB](https://github.com/adrielcafe/pufferdb)：PufferDB是一个键值存储，由Protobuf和协程提供支持。
-* [KVault](https://github.com/Liftric/KVault)：KVault是Kotlin多平台项目的安全键值存储。
-* [Riffle](https://github.com/Factual/riffle)：Riffle是一种只读键/值存储格式。
-* [HeftyDB](https://github.com/jordw/heftydb)：HeftyDB是一个适用于JVM的持久化、排序的键值对库。
-* [Remember](https://github.com/tumblr/Remember)：适用于Android的由共享偏好支持的内存数据存储，由Tumblr开源。
-* [MPH Table](https://github.com/indeedeng/mph-table)：MPH Table是一种不可变的键/值存储，具有高效的空间利用率和快速读取性能，由Indeed开源。
-* [Lu Raft KV Storage](https://github.com/stateIs0/lu-raft-kv)：这是一个Java版本的Raft KV分布式存储实现。
-* [RogueMap](https://gitee.com/bryan31/RogueMap)：RogueMap是一个高性能的嵌入式键值存储引擎，提供堆外内存和持久化存储能力。
-* [MiniBase](https://github.com/openinx/minibase)：MiniBase是一个嵌入式KV存储引擎。
-* [KVStorage](https://github.com/taoweiji/KVStorage)：强大的Android结构化KV存储框架，基于YAML生成Java结构化存储类。
-* [Kissme](https://github.com/netguru/Kissme)：Kissme是一个开源库，提供加密键值存储。
-* [QuickKV](https://github.com/sumimakito/QuickKV)：为Android项目提供的轻量且易用的键值数据库。
-* [Kottage](https://github.com/irgaly/kottage)：Kotlin多平台键值存储本地缓存，实现单一数据源。
-* [KiritoDB](https://github.com/lexburner/kiritoDB)：使用Java实现的高性能键值引擎。
-* [ChronDB](https://github.com/avelino/chrondb)：ChronDB是基于Git架构，按时间顺序排列的键值数据库，具有完整的版本历史记录。
-* [Jodis](https://github.com/solar-systems/Jodis)：Jodis是一个高性能的基于内存的NoSQL键值数据库，采用Java开发。
-* [EF Redis](https://github.com/wiqer/ef-redis)：EF Redis是Java版本的Redis Server。
-* [Distributed KV](https://github.com/burhanxz/Distributed-KV)：分布式键值系统。
-* [SimplixStorage](https://github.com/Simplix-Softworks/SimplixStorage)：SimplixStorage是一个以更佳方式存储数据的库。
-
 #### 时序数据库
 
 * [QuestDB](https://github.com/questdb/questdb)：QuestDB是一个开源时序数据库，可实现高吞吐量摄取和快速SQL查询，并且操作简单。
@@ -2780,6 +2725,7 @@
 * [Kodein](https://github.com/kosi-libs/Kodein-DB)：多平台NoSQL数据库。
 * [FleetDB](https://github.com/mmcgrana/fleetdb)：FleetDB是一个用Clojure实现的无模式数据库。
 * [ModeShape](https://github.com/ModeShape/modeshape)：ModeShape是一种分布式、分层、事务性和一致的数据存储，支持查询、全文搜索、事件、版本控制、引用以及灵活的动态模式，由RedHat开源。
+* [Bagri](https://github.com/dsukhoroslov/bagri)：基于分布式缓存的XML/文档数据库。
 
 #### OLAP数据库
 
@@ -3086,6 +3032,7 @@
 * [Netty HTTP](https://github.com/cyfonly/netty-http)：Netty HTTP协议栈的简单实践。
 * [Spring Boot Starter Netty](https://github.com/Leibnizhu/spring-boot-starter-netty)：一个基于Netty实现的Spring Boot内置Servlet容器。
 * [Netty Servlet Bridge](https://github.com/bigpuritz/netty-servlet-bridge)：Netty Servlet Bridge允许将现有的基于Servlet API的Web应用程序集成到Netty支持的基础架构中。
+* [XOOM HTTP](https://github.com/vlingo/xoom-http)：VLINGO XOOM HTTP是一个响应式、可扩展、高吞吐量且具有弹性的HTTP服务器。
 
 #### 应用服务器
 
