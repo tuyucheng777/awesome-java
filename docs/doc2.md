@@ -650,7 +650,6 @@
 * [Tiger](https://github.com/gematik/app-Tiger)：Tiger是一个用于接口驱动的BDD黑盒测试的框架。
 * [BDD For All](https://github.com/Accenture/bdd-for-all)：灵活且易用的库，使你的BDD团队能够轻松协作，同时推动自动化、透明度和报告，由Accenture开源。
 * [Jnario](https://github.com/sebastianbenz/Jnario)：Jnario是一个用于为Java编写可执行规范的框架。
-* [Kensa](https://github.com/kensa-dev/kensa)：Kensa是一个现代化的Kotlin和Java BDD测试框架。
 
 #### 测试生成器
 
@@ -7124,6 +7123,9 @@ Kafka生态管理系统、运维平台。
 * [Spring Boot DDD](https://github.com/sandokandias/spring-boot-ddd)：Spring Boot与领域驱动设计。
 * [Mobile Backend Starter Java](https://github.com/googlearchive/solutions-mobile-backend-starter-java)：此应用程序使用Google Cloud Endpoints、App Engine和Java实现了Mobile Backend Starter。
 * [PofEAA REIWA](https://github.com/kawasima/pofeaa-reiwa)：这是Martin Fowler的《企业应用架构模式》中模式的现代Java实现，并针对当代开发实践进行了更新。
+* [Spring Maven Project Framework](https://github.com/ykameshrao/spring-hibernate-springdata-springmvc-maven-project-framework)：本项目提供了示例Hibernate实体、Spring Data实体和Akka Actor，以及类似作业、模型、存储库、服务和控制器类。
+* [Spring Clean Architecture](https://github.com/coi-gov-pl/spring-clean-architecture)：这是一个采用Clean Architecture架构，并使用Spring Framework实现的Web应用程序示例。
+* [Spring Boot MyBatis](https://github.com/ShawnyXiao/SpringBoot-MyBatis)：一个基于Spring Boot、MyBatis和Spring Security OAuth的REST后端框架。
 
 #### 脚手架
 
@@ -7246,6 +7248,7 @@ Kafka生态管理系统、运维平台。
 * [Industry App Framework](https://github.com/cosmoplat-dev/industry-app-framework)：本服务致力于构建一套便捷的工业互联网开发基础设施。
 * [DXA Java Web Application](https://github.com/RWS/dxa-web-application-java)：DXA是RWS Tridion Sites 10.x、10、9.x和RWS Web 8的参考实现，旨在帮助你快速创建、设计和发布基于RWS Tridion/Web的网站。
 * [Joice](https://github.com/huhuics/joice)：Joice是使用Spring框架开发的分布式系统架构。
+* [JfinalBlade](https://gitee.com/ikkong/JfinalBlade)：JFinalBlade是基于多个优秀的开源项目高度整合封装而成的快速开发平台。
 
 #### 后台管理系统
 

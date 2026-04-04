@@ -1144,6 +1144,10 @@
 * [Geisha](https://github.com/RitterHou/Geisha)：微型Java MVC框架。
 * [Circumflex](https://github.com/inca/circumflex)：Circumflex是一个轻量级的基于Scala的Web应用程序框架和ORM。
 * [LastaFlute](https://github.com/lastaflute/lastaflute)：LastaFlute是使用DBFlute和Java 8构建的LeAn Startup类型安全Web框架，由Seasar基金会开源。
+* [BlueEyes](https://github.com/jdegoes/blueeyes)：BlueEyes是一个轻量级的异步Web框架，适用于Scala编程语言。
+* [Kilua](https://github.com/rjaros/kilua)：Kilua允许你使用Kotlin语言构建现代Web应用程序。
+* [Spincast](https://github.com/spincast/spincast-framework)：Spincast是一个高度灵活且开源的Java Web框架，基于Guice。
+* [Cettia](https://github.com/cettia/cettia-java-server)：Cettia是一个功能齐全的Java实时Web应用程序框架。
 
 #### REST框架
 
@@ -1185,6 +1189,7 @@
 * [ICERest](https://github.com/T-baby/ICERest)：ICEREST是一个非常轻量级的RESTful路由框架。
 * [Naptime](https://github.com/coursera/naptime)：Naptime可以帮助服务器端开发者构建规范、符合RESTful原则、可复用的API。
 * [Kovert](https://github.com/kohesive/kovert)：Kovert是一个简单的REST框架。
+* [Kottpd](https://github.com/gimlet2/kottpd)：Kottpd是一个用纯Kotlin编写的轻量级REST框架，没有任何外部依赖。
 
 #### MVC框架
 
@@ -1196,6 +1201,7 @@
 * [BBoss](https://github.com/bbossgroups/bboss)：BBoss是一个Java EE框架，包括AOP/IoC、MVC、持久层、RPC等。
 * [Mapper](https://github.com/JetBrains/mapper)：JetBrains Mapper MVC框架。
 * [YangMVC](https://gitee.com/yangtf/YangMVC)：YangMVC是一个现代化的Java Web框架，采用约定优于配置的设计理念，让Web开发变得简单高效。
+* [Apache Shale](https://shale.apache.org/)：Shale是一个现代化的Web应用框架，其底层基于JavaServer Faces。
 * [ServiceFramework](https://github.com/allwefantasy/ServiceFramework)：ServiceFramework是一个敏捷、快速、富领域模型的Java MVC框架。
 * [Doodle](https://github.com/zzzzbw/doodle)：Doodle是一个简易的Java MVC框架，它提供了类似于Spring的Bean容器、IoC、AOP、MVC等功能。
 * [Nettice](https://github.com/cyfonly/nettice)：基于Netty HTTP协议栈的轻量级MVC组件。
@@ -1203,6 +1209,8 @@
 * [Stapler](https://github.com/jenkinsci/stapler)：Stapler Web框架，由Jenkins组织开源。
 * [Prime MVC](https://github.com/prime-framework/prime-mvc)：Prime MVC是一个用Java构建的高性能MVC框架，由Inversoft公司开源。
 * [Induction](http://inductionframework.org/)：Induction是一个功能强大、高性能的Java MVC Web应用框架。
+* [Netmc](https://gitee.com/yezhihao/netmc)：基于Netty实现MVC开发模式的框架。
+* [Micro](https://github.com/florinpatrascu/micro)：Micro是一个模块化的MVC框架，用于快速Web开发。
 
 #### JSF框架
 
@@ -1229,6 +1237,7 @@
 * [Oorian](https://oorian.com/)：Oorian是一个基于Java的框架，用于创建动态、交互式、数据驱动的Web应用程序。
 * [SmartClient](https://smartclient.com/product/smartclient.jsp)：SmartClient将业界最丰富的跨浏览器UI组件集与Java服务器框架相结合，为构建企业Web应用程序提供端到端的解决方案。
 * [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。
+* [Apache Click](https://click.apache.org/)：Apache Click是一个现代化的JEE Web应用框架，提供自然流畅的富客户端编程模型。
 * [JWt](https://github.com/emweb/jwt)：JWt是一个用于开发Web应用程序的Java库，它提供了一种纯Java组件驱动的方法来构建Web应用程序，并使用Ajax或纯HTML进行呈现。
 * [DWR](https://github.com/directwebremoting/dwr)：DWR是一个Java库，它使服务器上的Java和浏览器中的JavaScript能够尽可能简单地交互和调用。
 * [Errai](https://github.com/errai/errai)：Errai是一个Java/GWT Web框架，用于构建富客户端Web应用程序，由RedHat开源。
@@ -1242,6 +1251,7 @@
 * [Fastball](https://github.com/fastball-projects/fastball)：Fastball是一套面向后端、声明式界面开发框架。
 * [NG-Objects](https://github.com/ngobjects/ng-objects)：NG-Objects是一个开源Web框架，它很大程度上基于苹果公司的WebObjects框架的概念。
 * [N2O Framework](https://github.com/i-novus-llc/n2o-framework)：N2O Framework是一个用Java和ReactJS编写的库，允许你创建具有复杂用户界面的Web应用程序，而无需深入了解Web技术和前端框架。
+* [FireWeb](https://fireweb.sourceforge.io/index.html)：Java单页应用程序框架。
 
 #### SSR框架
 
