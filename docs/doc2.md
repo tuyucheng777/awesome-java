@@ -167,6 +167,7 @@
 * [RequirementsAsCode](https://github.com/bertilmuth/requirementsascode)：RequirementsAsCode是一个基于Java的行为驱动服务开发框架。
 * [Actor4j](https://github.com/relvaner/actor4j-core)：Actor4j的目标是提升消息传递的性能。
 * [Actor4k](https://github.com/smyrgeorge/actor4k)：Actor4k是一个用Kotlin和协程编写的小型Actor系统。
+* [ActorLite](https://github.com/Ahmed-Adel-Ismail/ActorLite)：ActorLite是一个轻量级的Actor模型库，它以消息驱动的方式帮助Android组件之间进行通信。
 
 #### ThreadLocal
 
@@ -1275,6 +1276,11 @@
 * [Lottor](https://github.com/keets2012/Lottor)：Lottor用于解决微服务架构下分布式事务的问题，基于可靠性消息事务模型实现。
 * [Meepo](https://github.com/wxbty/meepo)：Meepo是一个类XA/2PC机制的分布式事务管理器。
 * [Distributed Flexible Transaction](https://github.com/bingyufight/distributed-flexible-transaction)：Distributed Flexible Transaction是采用Best-Effort 1PC、回滚补偿机制实现的一个分布式事务框架。
+* [ReliableRMQ](https://github.com/levy-tech-spark/ReliableRMQ)：ReliableRMQ是一个Spring Boot框架，用于使用RabbitMQ的可靠消息传递实现分布式事务。
+* [Mykit Transaction Message](https://github.com/binghe001/mykit-transaction-message)：Myth框架演化而来的最终消息一致的分布式事务框架。
+* [ShineMQ](https://github.com/7le/shine-mq)：可靠消息分布式事务中间件。
+* [Java Saga](https://github.com/Domo42/saga-lib)：Java Saga库用于组织领域事件。
+* [Kkbida](https://gitee.com/kekingcn/kkbida)：Kkbida保证异构系统间消息通知时消息必达，由凯京科技开源。
 
 #### Mybatis库
 
@@ -2543,6 +2549,17 @@
 * [Injekt](https://github.com/kohesive/injekt)：Injekt让Kotlin中的依赖注入变得异常简单。
 * [PureJIn](https://github.com/jbee/purejin)：PureJIn是一个Java依赖注入库，它仅使用原生Java代码，通过流式的绑定API定义容器上下文。
 * [S2Container](https://github.com/seasarorg/seasar2)：S2Container是一个轻量级容器，支持DI和AOP，由Seasar基金会开源。
+* [Dagger Reflect](https://github.com/JakeWharton/dagger-reflect)：基于反射的Dagger依赖注入库实现，可实现快速的IDE构建和测试。
+* [Marinator](https://github.com/blueapron/marinator)：Marinator是一个依赖注入容器。
+* [Kinzhal](https://github.com/daugeldauge/kinzhal)：Kinzhal是一个用于编译时依赖注入的Kotlin多平台库。
+* [Butterfly](https://github.com/jjenkov/butterfly-di-container)：Butterfly Container是一个轻量级的Java依赖注入容器。
+* [EasyDI](https://github.com/manuel-mauky/EasyDI)：EasyDI是一个用于Java项目的小型依赖注入库。
+* [Shank](https://github.com/memoizr/shank)：简单的依赖注入框架。
+* [Anvil](https://github.com/amzn/kotlin-inject-anvil)：Anvil扩展了Dagger 2的功能，以简化依赖注入，由Amazon开源。
+* [Genie](https://github.com/osglworks/java-di)：Genie是一款基于JSR330的依赖注入解决方案，其设计灵感来源于Feather。
+* [Unnamed Inject](https://github.com/unnamed/inject)：Unnamed Inject是一个基于Google Guice的零依赖、轻量级且快速的运行时依赖注入库。
+* [Pax CDI](https://github.com/ops4j/org.ops4j.pax.cdi)：OSGi的上下文和依赖注入。
+* [Crysknife](https://github.com/crysknife-io/crysknife)：Crysknife是一个类似Jakarta CDI的J2CL框架。
 
 ## AOP
 
@@ -6123,7 +6140,6 @@ Kafka生态管理系统、运维平台。
 * [KafkaEsque](https://github.com/patschuh/KafkaEsque)：KafkaEsque是一个用JavaFX开发的Kafka GUI工具。
 * [KnowStreaming](https://github.com/didi/KnowStreaming)：Know Streaming是一套云原生的Kafka管控平台，脱胎于众多互联网内部多年的Kafka运营实践经验，专注于Kafka运维管控、监控告警、资源治理、多活容灾等核心场景，由滴滴开源。
 * [EFAK](https://github.com/smartloli/EFAK)：EAFK是一个开源的Kafka集群管理和监控工具，旨在帮助用户更好地管理和监控其Kafka集群。
-* [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
 * [KafkIO](https://kafkio.com/)：面向工程师和管理员的快速、简便的Apache Kafka GUI，适用于macOS、Windows和Linux，由Certak公司维护。
 * [Kafka WebView](https://github.com/SourceLabOrg/kafka-webview)：Kafka WebView提供了一个易于使用的基于Web的界面，用于从Kafka主题中读取数据并提供基本的过滤和搜索功能。
 * [KCenter](https://github.com/xaecbd/KCenter)：KCenter是一个统一的Kafka集群管理维护、生产者/消费者监控、生态组件使用的一站式平台。
@@ -6743,7 +6759,7 @@ Kafka生态管理系统、运维平台。
 * [RRDiagram](https://github.com/Chrriis/RRDiagram)：RR图是一个Java库，可从代码或BNF表示法生成铁路图。
 * [JSyntrax](https://github.com/atp-mipt/jsyntrax)：JSyntrax是一个铁路图生成器，它创建了用于编程语言的语法的直观说明，由莫斯科物理技术学院开源。
 
-#### DDD框架
+#### DDD
 
 * [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
 * [Roma](https://www.romaframework.org/)：Roma允许你按照真正的领域驱动设计方法，轻松开发企业级Java应用程序。
@@ -6768,7 +6784,7 @@ Kafka生态管理系统、运维平台。
 * [Spring Boot Framework](https://github.com/codingapi/springboot-framework)：本框架基于Spring Boot为提供领域驱动设计与事件风暴开发落地，提供的范式开源框架。
 * [Jexxa](https://github.com/jexxa-projects/Jexxa)：Jexxa是一个轻量级的、具有明确设计理念的框架，它使用领域驱动设计和六边形架构来构建持久、模块化和可测试的业务应用程序。
 
-#### CQRS框架
+#### CQRS
 
 * [JdonFramework](https://github.com/banq/jdonframework)：JdonFramework是一个支持Pub-Sub异步编程模型的领域事件框架。
 * [Eventuate Local](https://github.com/eventuate-local/eventuate-local)：Eventuate Local是一个事件溯源框架。
@@ -6802,6 +6818,7 @@ Kafka生态管理系统、运维平台。
 * [Simple Sourcing](https://github.com/simplesourcing/simplesource)：Simple Sourcing是一个用于构建事件溯源系统的API。
 * [EventStore2](https://github.com/ks-no/eventstore2)：EventStore2是一个用于在Java中创建事件溯源应用程序的框架。
 * [XOOM Symbio](https://github.com/vlingo/xoom-symbio)：VLINGO XOOM Symbio提供可扩展、高吞吐量和弹性的响应式存储，适用于服务和应用程序使用的CQRS、事件溯源、键值和对象。
+* [Command Bus](https://github.com/cloudogu/command-bus)：Spring和CDI的命令总线模式的Java实现。
 
 ## 设计模式
 
@@ -7126,6 +7143,7 @@ Kafka生态管理系统、运维平台。
 * [Spring Maven Project Framework](https://github.com/ykameshrao/spring-hibernate-springdata-springmvc-maven-project-framework)：本项目提供了示例Hibernate实体、Spring Data实体和Akka Actor，以及类似作业、模型、存储库、服务和控制器类。
 * [Spring Clean Architecture](https://github.com/coi-gov-pl/spring-clean-architecture)：这是一个采用Clean Architecture架构，并使用Spring Framework实现的Web应用程序示例。
 * [Spring Boot MyBatis](https://github.com/ShawnyXiao/SpringBoot-MyBatis)：一个基于Spring Boot、MyBatis和Spring Security OAuth的REST后端框架。
+* [TomEE JAX-RS Starter](https://github.com/tomitribe/tomee-jaxrs-starter-project)：Apache TomEE JAX-RS入门项目。
 
 #### 脚手架
 
@@ -8514,6 +8532,7 @@ Kafka生态管理系统、运维平台。
 * [PushServer](https://github.com/Aresyi/pushServer)：PushServer是一个简单、轻量的推送服务器，主要依赖Netty实现。
 * [Send Notification](https://github.com/jcgay/send-notification)：Java用于发送通知的工具箱。
 * [Ably Pub/Sub Java SDK](https://github.com/ably/ably-java)：Ably Pub/Sub提供灵活的API，提供诸如发布-订阅消息、消息历史、在线状态和推送通知等功能。
+* [AirMessage Server](https://github.com/airmessage/airmessage-server-legacy)：AirMessage的Mac版消息中继服务器。
 
 #### APN
 
@@ -9041,6 +9060,7 @@ Kafka生态管理系统、运维平台。
 * [Keepa API Framework](https://github.com/keepacom/api_backend)：Keepa API Java框架。
 * [LSEG Real-Time SDK](https://github.com/Refinitiv/Real-Time-SDK)：伦敦证券交易所集团实时SDK，包含EMA和ETA API。
 * [Java CTP API](https://github.com/nicai0609/JAVA-CTPAPI)：Java CTP API是国内期货交易CTP接口的Java封装。
+* [Banking Swift Messages Java](https://github.com/qoomon/banking-swift-messages-java)：银行SWIFT消息解析器和写入器。
 
 #### 银行API
 
@@ -9113,6 +9133,7 @@ Kafka生态管理系统、运维平台。
 * [ISO8583 Message Client](https://github.com/imohsenb/ISO8583-Message-Client-java)：一个轻量级ISO8583库，适用于Java和Android，基于构建器模式。
 * [j8583](https://bitbucket.org/chochos/j8583)：j8583是ISO8583协议的Java实现。
 * [Adelbs ISO8583](https://github.com/adelbs/ISO8583)：这是一个用于测试ISO8583协议的GUI工具，同时也是一个Java库。
+* [ISO8583 Java](https://github.com/vikrantlabde/iso8583-Java)：ISO 8583消息打包和解包库。
 
 #### 金融信息交换
 
@@ -9343,6 +9364,10 @@ Kafka生态管理系统、运维平台。
 * [JoMQTT](https://github.com/joey-happy/jo-mqtt)：轻量级物联网MQTT服务器，快速部署、支持集群。
 * [TTIoT](https://gitee.com/cloudSj/TTIot)：TTIoT云端物联网组件，为设备提供安全可靠的连接通信能力。
 * [MMQTT](https://github.com/MrHKing/mmqtt)：MMQTT是一款完全开源、高度可伸缩、高可用的分布式MQTT消息服务器，适用于IoT、M2M和移动应用程序。
+* [JetMQ](https://github.com/butaji/JetMQ)：JetMQ是一个轻量级MQTT消息代理。
+* [Mithqtt](https://github.com/longkerdandy/mithqtt)：Mithqtt是一个面向实际应用的开源分布式MQTT消息代理。
+* [Cassandana](https://github.com/mtsoleimani/cassandana)：Cassandana是一个完全用Java编写的开源MQTT消息代理。
+* [Netty MQTT](https://gitee.com/lxrv587/iot_push)：基于Netty、Spring Boot、JDK 8实现的MQTT 3.1.1协议的服务端跟客户端。
 
 #### MQTT客户端
 
