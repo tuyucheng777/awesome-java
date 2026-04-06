@@ -1164,7 +1164,6 @@
 * [Anorm](https://github.com/playframework/anorm)：Anorm是一个简单的数据访问层，它使用纯SQL与数据库交互，并提供API来解析和转换结果数据集。
 * [Eql](https://github.com/bingoohuang/eql)：Eql是一个简单，轻量的数据持久层的框架，可以用于代替Mybatis。
 * [Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus)：Spring JDBC Plus提供基于Spring Data JDBC的扩展，由Naver开源。
-* [Spring Data JDBC Repository](https://github.com/nurkiewicz/spring-data-jdbc-repository)：该项目的目的是提供基于Spring框架的JdbcTemplate的关系数据库的通用、轻量级且易于使用的DAO实现，并与Spring Data项目范围兼容。
 * [KotliQuery](https://github.com/seratch/kotliquery)：KotliQuery是一个为Kotlin开发者设计的实用RDB客户端库。
 * [DBVisitor](https://gitee.com/zycgit/dbvisitor)：DBVisitor提供Java对关系数据库更加自然的访问。
 * [Hutool DB](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-db)：Hutool DB是一个在JDBC基础上封装的数据库操作工具类。
@@ -1175,6 +1174,7 @@
 * [Fluent JDBC](https://github.com/jhannes/fluent-jdbc)：不使用ORM的Java数据库代码，风格流式美观。
 * [EasyJDBC](https://gitee.com/xphsc/easyjdbc)：EasyJDBC在Spring JdbcTemplate之上进行了一些包装，支持部分常用的JPA注解。
 * [SimplifyDb](https://gitee.com/keepbx/SimplifyDb)：SimplifyDb是一个Java基于Druid的一款Builder简化写SQL语句操作的框架。
+* [EasySQL](https://github.com/CarmJos/EasySQL)：简单便捷的数据库操作工具，可自定义连接池来源。
 
 #### DAO框架
 
@@ -1190,6 +1190,9 @@
 * [Apache EmpireDB](https://github.com/apache/empire-db)：EmpireDB是一个轻量级的关系型数据库访问库，用于处理所有关系型数据的存储、操作、检索和建模方面。
 * [Play2 CRUD](https://github.com/hakandilek/play2-crud)：Play2的简单CRUD和DAO实现。
 * [Uncode DAL](https://github.com/uncodecn/uncode-dal-all)：Uncode DAL是Java通用数据访问组件，基于Mybatis、Spring JDBC、Hibernate等ORM框架开发。
+* [Vertx jOOQ](https://github.com/jklingsporn/vertx-jooq)：一个jOOQ代码生成器，用于创建Vertx化的DAO和POJO。
+* [Spring Data JDBC Repository](https://github.com/nurkiewicz/spring-data-jdbc-repository)：该项目的目的是提供基于Spring框架的JdbcTemplate的关系数据库的通用、轻量级且易于使用的DAO实现，并与Spring Data项目范围兼容。
+* [SQLBrite DAO](https://github.com/sockeqwe/sqlbrite-dao)：SQLBrite的DAO实现。
 
 #### 持久层库
 
@@ -6074,7 +6077,6 @@
 * [Excel2Pdf](https://github.com/caryyu/excel2pdf)：Java Excel转PDF解决方案。
 * [XWiki Rendering](https://github.com/xwiki/xwiki-rendering)：XWiki Rendering是一个通用的渲染系统，它将给定语法(Wiki语法、HTML等)的文本输入转换为另一种语法(XHTML等)。
 * [Deck2pdf](https://github.com/melix/deck2pdf)：Deck2pdf是一个简单的应用程序，可将你的deck.js、reveal.js、impress.js、Flowtime.js、Google html5slides、Slide Presentation Framework、ruban或DZSlides幻灯片转换为PDF文件。
-* [Nanhu Print Java](https://github.com/hongjinqiu/nanhu-print-java)：Nanhu Print Java是一个用Java语言实现的XML转PDF生成框架。
 * [JSONToCSV](https://github.com/Arkni/json-to-csv)：JSON到CSV转换器。
 * [jPDFImages](https://www.qoppa.com/pdfimages/)：jPDFImages是一个Java库，用于从PDF文件导出图像以及将图像导入PDF文件。
 * [XML2CSV](https://github.com/fordfrog/xml2csv)：简单的XML转CSV工具。
@@ -6124,6 +6126,11 @@
 * [Jsonix Schema Compiler](https://github.com/highsource/jsonix-schema-compiler)：为XML Schema生成Jsonix映射。
 * [JSONS2XSD](https://github.com/ethlo/jsons2xsd)：用Java编写的JSON模式到XML模式转换器。
 * [MapNeat](https://github.com/nomemory/mapneat)：MapNeat是一个用Kotlin编写的JVM库，它提供了一种易于使用的DSL，用于以声明式的方式将JSON转换为JSON、XML转换为JSON、POJO转换为JSON。
+
+#### XML/PDF转换
+
+* [XML To PDF Generator](https://github.com/Teamz-Lab-LTD/Android-XML-to-PDF-Generator)：该库使用步骤构建器模式，可以非常轻松地将XML转换为PDF。
+* [Nanhu Print Java](https://github.com/hongjinqiu/nanhu-print-java)：Nanhu Print Java是一个用Java语言实现的XML转PDF生成框架。
 
 ### Mime解析
 
@@ -7015,6 +7022,10 @@ Kafka生态管理系统、运维平台。
 * [Pojo Builder](https://github.com/jenzz/Java-PojoBuilder)：使用注解处理的构建器模式的Java代码生成器。
 * [Record Builder](https://github.com/DanielLiu1123/recordbuilder)：注解处理器，用于为Java记录生成构建器类，灵感来自Protobuf。
 * [Avaje Record Builder](https://github.com/avaje/avaje-record-builder)：使用注解处理为记录生成构建器。
+* [InnerBuilder](https://github.com/analytically/innerbuilder)：IntelliJ IDEA插件，用于生成内部构建器类。
+* [Groovy Stream](https://github.com/timyates/groovy-stream)：为Streams提供流式的构建器。
+* [Fluent Interface Proxy](https://github.com/davidmarquis/fluent-interface-proxy)：本项目提供了一个代理，可以动态实现你的构建器接口。
+* [BuilderGen](http://github.com/pyricau/BuilderGen)：BuilderGen使用APT和CodeModel在编译时生成构建器。
 
 #### 代理模式
 
@@ -14038,6 +14049,10 @@ Kafka生态管理系统、运维平台。
 * [Antimirov](https://github.com/non/antimirov)：Antimirov是一个用于处理正则表达式的Scala包。
 * [RegexUtils](https://github.com/deepyu/RegexUtils)：Java表单注册常用正则表达式验证工具类。
 * [TouTou.RegexTool](https://github.com/toutouge/TouTou.RegexTool)：Java正则表达式工具。
+* [DFA Regex](https://github.com/zhztheplayer/DFA-Regex)：用Java编写的DFA正则表达式引擎。
+* [Com.Florianinergl.Util.Regex](https://github.com/florianingerl/com.florianingerl.util.regex)：这是一个用于Java的正则表达式库。
+* [JITrex](https://github.com/humio/jitrex)：快速JVM字节码正则表达式引擎。
+* [ToyRegex](https://github.com/rcoh/toyregex)：Scala中的一个简单的正则表达式实现。
 
 #### SQL解析器
 
@@ -14228,6 +14243,7 @@ Kafka生态管理系统、运维平台。
 * [UrlEncoder](https://github.com/ethauvin/urlencoder)：UrlEncoder是一个简单的防御库，用于对URL组件进行编码/解码。
 * [Urllib](https://github.com/EricEdens/urllib)：Urllib是一个让URL操作变得简单、有趣且安全的库。
 * [Ballerina URL](https://github.com/ballerina-platform/module-ballerina-url)：Ballerina URL提供URL编码/解码功能。
+* [URL Builder](https://github.com/palominolabs/url-builder)：使用构建器式API创建正确编码的URL。
 
 ## Expect库
 

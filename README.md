@@ -514,6 +514,7 @@
     * [PDF/Word转换](docs/doc2#PDFWord转换)
     * [PDF/JSON转换](docs/doc2#PDFJSON转换)
     * [XML/JSON转换](docs/doc2#XMLJSON转换)
+    * [XML/PDF转换](docs/doc2#XMLPDF转换)
   * [Mime解析](docs/doc2.md#Mime解析)
   * [文件上传](docs/doc2.md#文件上传)
   * [文件比较](docs/doc2.md#文件比较)
