@@ -655,6 +655,7 @@
   * [Spotify](docs/doc2.md#Spotify)
   * [Bilibili](docs/doc2.md#Bilibili)
   * [Skype](docs/doc2.md#Skype)
+  * [Trakt](docs/doc2.md#Trakt)
   * [Notion](docs/doc2.md#Notion)
   * [Twitch](docs/doc2.md#Twitch)
   * [Shopify](docs/doc2.md#Shopify)
@@ -898,6 +899,7 @@
 * [随机生成器](docs/doc2.md#随机生成器)
 * [算法库](docs/doc2.md#算法库)
   * [字符串算法](docs/doc2.md#字符串算法)
+  * [模糊匹配](docs/doc2.md#模糊匹配)
   * [组合优化算法](docs/doc2.md#组合优化算法)
   * [哈希算法](docs/doc2.md#哈希算法)
   * [文本排序](docs/doc2.md#文本排序)
@@ -2597,6 +2599,7 @@
 * [Lucilla](https://github.com/haroldadmin/lucilla)：Lucilla是一个用于Kotlin的内存全文搜索库。
 * [Heliosearch](https://github.com/Heliosearch/heliosearch)：Heliosearch是一款高性能NoSQL搜索服务器，是Solr开源搜索的下一代产品。
 * [Regain](https://regain.sourceforge.net/)：Regain是一款类似于Google等网络搜索引擎的搜索引擎。
+* [SimpleTextSearch](https://github.com/bradforj287/SimpleTextSearch)：这是一个轻量级且易于使用的Java全文搜索实现。
 
 #### 图数据库
 

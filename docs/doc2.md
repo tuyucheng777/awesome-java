@@ -2091,6 +2091,7 @@
 * [Libsodium JNI](https://github.com/joshjdevl/libsodium-jni)：Android NaCL JNI封装。
 * [Kotlin Multiplatform Libsodium](https://github.com/ionspin/kotlin-multiplatform-libsodium)：Libsodium Kotlin多平台绑定。
 * [Libsodium Java](https://github.com/muquit/libsodium-jna)：Libsodium Java是一个Java库，它通过JNA绑定Libsodium的C加密API。
+* [Robosodium](https://github.com/GerardSoleCa/Robosodium)：Robosodium是Libsodium JNI的一个分支。
 * [JNACL](https://github.com/neilalexander/jnacl)：NaCl网络和密码库的纯Java实现。
 * [Salty Coffee](https://github.com/NeilMadden/salty-coffee)：NaCl加密库的纯Java实现。
 * [Caesium](https://github.com/lvh/caesium)：Caesium是一个用于Clojure的现代密码学库。
@@ -2153,6 +2154,11 @@
 * [Aerogear OTP Java](https://github.com/aerogear-attic/aerogear-otp-java)：根据RFC 4226生成一次性密码的Java库。
 * [JSS](https://github.com/dogtagpki/jss)：NSS是一组库，旨在支持跨平台开发启用安全性的客户端和服务器应用程序。
 * [Strongbox](https://github.com/schibsted/strongbox)：Strongbox是AWS的秘钥管理器。
+* [OneTime](https://github.com/suvash/one-time)：Clojure的一次性密码(TOTP和HOTP)库。
+* [TOTP](https://github.com/linsir6/TOTP)：TOTP算法，基于时钟和共同密钥生成动态验证码的算法。
+* [Tick Authenticator](https://github.com/lingyejun/tick-authenticator)：RFC 6238中规定的基于时间的一次性密码(TOTP)算法。
+* [TOTP ME](https://github.com/kwart/totp-me)：Java ME TOTP身份验证器。
+* [TOTP Kt](https://github.com/robinohs/totp-kt)：这是一个用Kotlin实现的HOTP(RFC-4226)和TOTP(RFC-6238)协议。
 
 #### 加密算法
 
@@ -2177,6 +2183,8 @@
 * [Argon2 JVM](https://github.com/phxql/argon2-jvm)：JVM的Argon2绑定。
 * [Argon2Kt](https://github.com/lambdapioneer/argon2kt)：Argon2Kt是Argon2密码哈希的绑定，允许在Android上轻松安全地进行内存硬密码哈希处理。
 * [Jargon2](https://github.com/kosprov/jargon2-api)：Jargon2是一个类似构建器的API，用于配置和使用Hasher和Verifier API来计算和验证密码哈希值。
+* [PINkman](https://github.com/RedMadRobot/PINkman)：PINkman是一个用于安全实现PIN码身份验证的库。
+* [Argon2 Java](https://github.com/andreas1327250/argon2-java)：这是Argon2的纯Java实现，目标平台为Java 6。
 * [2FA](https://github.com/j256/two-factor-auth)：2因素身份验证Java代码，使用基于时间的一次性密码(TOTP)算法。
 * [XXTEA Java](https://github.com/xxtea/xxtea-java)：XXTEA是一种快速且安全的加密算法，这是一个用于Java的XXTEA库。
 * [Tencent Kona SM Suite](https://github.com/Tencent/TencentKonaSMSuite)：腾讯Kona SM Suite是一套Java安全提供程序，支持算法SM2、SM3和SM4，以及协议TLCP/GMSSL、TLS 1.3和TLS 1.2。
@@ -2186,7 +2194,6 @@
 * [Homomorphic Encryption](https://github.com/adwise-fiu/Homomorphic_Encryption)：包含ElGamal、Paillier、Goldweiser-Micali和DGK同态加密系统的软件包，由佛罗里达国际大学开源。
 * [GmSSL Java](https://github.com/GmSSL/GmSSL-Java)：本项目是GmSSL密码库的Java语言封装，可以用于Java环境和Android系统上的应用开发。
 * [Java FPE](https://github.com/mysto/java-fpe)：NIST批准的FF3和FF3-1格式保留加密(FPE)算法在Java中的实现。
-* [Murmur](https://github.com/sangupta/murmur)：Murmur是所有Murmur哈希的纯Java实现。
 * [Curve25519](https://github.com/signalapp/curve25519-java)：Curve25519的Java实现，在原生代码可用时由原生代码支持，由Open Whisper Systems开发。
 * [Format Preserving Encryption Java](https://github.com/idealista/format-preserving-encryption-java)：NIST批准的格式保留加密(FPE)在Java中的实现。
 * [Whitebox Crypto AES Java](https://github.com/ph4r05/Whitebox-crypto-AES-java)：Java中的白盒AES实现。
@@ -2198,6 +2205,7 @@
 * [JMacaroons](https://github.com/nitram509/jmacaroons)：Macaroons的纯Java实现。
 * [HKDF](https://github.com/patrickfav/hkdf)：这是一个独立的Java 7实现，实现了基于HMAC的密钥派生函数(HKDF)。
 * [Encryption](https://github.com/xuzongbao/encryption)：各种加密算法实现，Base64、对称密码(DES、3DES、AES)、非对称密码(DH、RSA)等。
+* [NaCl4s](https://github.com/emstlk/nacl4s)：Scala的NaCl库。
 
 #### 接口加密
 
@@ -3564,6 +3572,7 @@
 * [Hawking](https://github.com/zoho/hawking)：Hawking是一个自然语言日期时间解析器，可以从具有上下文的文本中提取日期和时间并解析为所需的格式。
 * [NaturalDateFormat](https://github.com/ZieIony/NaturalDateFormat)：一个用于按照Material Design指南中所述格式化日期的库。
 * [Human Readable](https://github.com/jacobras/Human-Readable)：一套用于KMP的小型数据格式化实用程序。
+* [FuzzyDateFormatter](https://github.com/izacus/FuzzyDateFormatter)：一个简单的格式化库，用于将日期格式化为模糊格式。
 
 #### 假期库
 
@@ -3722,6 +3731,7 @@
 * [Ptolemaeus](https://gitlab.com/lmco/ptolemaeus)：为实数和复数值线性代数、非线性优化、超维计算几何、动力系统等开发的Java数学库，由洛克希德马丁公司开发。
 * [Keigen](https://github.com/paramsen/Keigen)：Keigen是Eigen的Kotlin包装器，Eigen是一个用C++编写的线性代数库。
 * [Tensor](https://github.com/datahaki/tensor)：Java 25中的张量计算库。
+* [PCA Transform](https://github.com/mkobos/pca_transform)：Java PCA变换数据矩阵。
 
 #### 矩阵
 
@@ -3741,6 +3751,11 @@
 * [Jspline+](https://www.mathematik.hu-berlin.de/~lamour/software/JAVA/J_Spline/overview-summary.html)：Jspline+实现了各种样条函数，这些样条函数可通过在一维或多维散点网格上进行函数测量来构造，由新西伯利亚计算中心开源。
 * [BIDMat](https://github.com/BIDData/BIDMat)：BIDMat是一个非常快速的矩阵代数库，由伯克利BID实验室研发。
 * [YiShape Math](https://github.com/ScaleFree-Tech/yishape-math)：YiShape Math是一个基于Java开发的数学计算库，提供向量&矩阵运算、数据可视化、统计学、最优化、时间序列、信号处理、音频分析、图像处理和机器学习等核心功能，由电子科技大学开源。
+* [Sigir16 Eals](https://github.com/hexiangnan/sigir16-eals)：SIGIR16论文《基于隐式反馈的在线推荐快速矩阵分解》的实验代码。
+* [ML Matrix](https://github.com/amplab/ml-matrix)：ML Matrix是一个基于Apache Spark实现的分布式矩阵库，由加州大学伯克利分校AMPLab开源。
+* [WBSM4](https://github.com/xinmingyyj/WBSM4)：Java实现的二进制域上矩阵的基本运算，包括矩阵求逆、秩计算、矩阵乘法、矩阵向量乘法以及随机可逆矩阵的生成。
+* [MatRel](https://github.com/purduedb/MatRel)：一个支持机器学习和数据分析中分布式矩阵计算的库。
+* [Utils](https://github.com/matheus23/Utils)：噪声类、矩阵到数组映射器以及其他有用的Java功能。
 
 #### 多维数组
 
@@ -5227,6 +5242,7 @@
 * [StreamSupport](https://github.com/stefan-zobel/streamsupport)：StreamSupport是适用于Android和Java 6或7用户的Java 8 java.util.function和java.util.stream API的向后移植。
 * [Frgaal](https://github.com/eppleton/frgaal)：Frgaal的目标是让Java语言的许多最新特性和增强功能也能在旧版运行时环境中运行。
 * [JavaDowngrader](https://github.com/RaphiMC/JavaDowngrader)：JavaDowngrader是一个独立的程序和库，可以将Java类/程序降级到Java 8。
+* [Wormhole](https://github.com/JakeWharton/wormhole)：一个穿越时空的字节码重写器，它会将未来的API添加到android.jar中。
 
 ## 图像处理
 
@@ -6867,6 +6883,7 @@ Kafka生态管理系统、运维平台。
 * [Antiplag](https://github.com/fanghon/antiplag)：作业查重软件，它实现了程序代码、文档文本、图片之间的相似度检查。
 * [AC](https://github.com/manuel-freire/ac2)：AC是一款源代码抄袭检测工具，由马德里康普顿斯大学开源。
 * [XINCHECK](https://github.com/tianlian0/duplicate-check-sample)：文本查重SDK，可用于论文查重、标书查重、文档查重、作业查重、合同查重、防串标等场景，由芯锋科技公司开发。
+* [Gemini](https://github.com/src-d/gemini)：Gemini是一款用于在源代码库中搜索相似项的工具。
 
 #### 代码属性图
 
@@ -8736,7 +8753,6 @@ Kafka生态管理系统、运维平台。
 * [Ozone](https://github.com/christiandeange/ozone)：Bluesky的Kotlin多平台绑定。
 * [jPasskit](https://github.com/drallgood/jpasskit)：jPasskit是Apple PassKit Web服务的Java实现。
 * [Evernote SDK Java](https://github.com/Evernote/evernote-sdk-java)：该SDK包含用于从Java应用调用Evernote Cloud API的包装代码。
-* [Trakt Java](https://github.com/UweTrottmann/trakt-java)：一个Java库，用于通过Retrofit 2使用Trakt v2 API。
 * [Tieba API](https://github.com/libsgh/tieba-api)：封装了百度贴吧的基本操作，登录、签到、回帖等。
 * [Music Utils](https://github.com/1015770492/yumbo-music-utils)：QQ音乐、网易云音乐工具包，调用工具类快捷得到返回的JSON数据。
 * [GMusic.API](https://github.com/jkiddo/gmusic.api)：一个非官方的Google Play Music Java API。
@@ -8755,6 +8771,7 @@ Kafka生态管理系统、运维平台。
 * [Vimeo Networking](https://github.com/vimeo/vimeo-networking-java)：Vimeo Networking是一个用于与Vimeo API交互的JVM SDK。
 * [RadioBrowser4j](https://github.com/sfuhrm/radiobrowser4j)：RadioBrowser Java API库。
 * [WordPress Java](https://github.com/canbican/wordpress-java)：用于使用WordPress的XML-RPC功能的Java库。
+* [Play Store API](https://github.com/yeriomin/play-store-api)：Java中的Google Play Store Protobuf API封装。
 
 #### Twitter
 
@@ -8862,6 +8879,12 @@ Kafka生态管理系统、运维平台。
 * [Skype Java API](https://github.com/taksan/skype-java-api)：基于Skype4Java库的Skype专用Java API。
 * [JavaSkype](https://github.com/delthas/JavaSkype)：JavaSkype是一个轻量级且全面的Skype API，使用MSNP24协议和Java 8。
 
+#### Trakt
+
+* [Trakt Java](https://github.com/UweTrottmann/trakt-java)：一个Java库，用于通过Retrofit 2使用Trakt v2 API。
+* [Trakt Kotlin](https://github.com/ChrisKruegerDev/trakt-kotlin)：Trakt Kotlin是一个Kotlin多平台库，用于跟踪你的剧集和电影。
+* [Trakt Java](https://github.com/JakeWharton/trakt-java)：一个围绕Trakt RESTful API的Java封装器和一个简单的DSL，方便交互。
+
 #### Notion
 
 * [Notion SDK JVM](https://github.com/seratch/notion-sdk-jvm)：这是适用于任何JVM语言用户的Notion API SDK。
@@ -8906,6 +8929,7 @@ Kafka生态管理系统、运维平台。
 * [TheMovieDB API](https://github.com/c-eg/themoviedbapi)：该库为TMdB提供的JSON API提供了一个Java包装器，TMdB是一个开放的电影和电视内容数据库。
 * [The Movie DB API](https://github.com/Omertron/api-themoviedb)：TheMovieDb.org网站的API。
 * [TMDB Java](https://github.com/UweTrottmann/tmdb-java)：TMDB Java是使用Retrofit 2的TMDB v3 API的非官方包装器。
+* [TMDB Kotlin](https://github.com/ChrisKruegerDev/tmdb-kotlin)：TMDB Kotlin是一个Kotlin多平台库，用于获取电影、电视节目、剧集以及所有相关信息。
 
 #### TeamSpeak
 
@@ -8946,6 +8970,7 @@ Kafka生态管理系统、运维平台。
 * [Consul Java](https://github.com/rickfast/consul-client)：Consul HTTP API的Java客户端。
 * [Consultant](https://github.com/Magnetme/consultant)：Consultant是一个Java库，允许从Consul存储中检索其配置。
 * [Embedded Consul](https://github.com/pszymczyk/embedded-consul)：Embedded Consul提供了在集成测试中运行Consul的简单方法。
+* [Consul Client](https://github.com/vert-x3/vertx-consul-client)：用于与Consul交互的异步客户端。
 
 ## Kubernetes客户端
 
@@ -9673,6 +9698,9 @@ Kafka生态管理系统、运维平台。
 * [IoT Communication](https://gitee.com/xingshuang/iot-communication)：IoT Communication是一个物联网通信的工具、包含西门子S7通信协议、Modbus、三菱Melsec等。
 * [Protocol](https://gitee.com/weiyigulu_admin/protocol)：IEC104、Modbus、CDT的协议工具包。
 * [Modjn](https://github.com/klymenek/modjn)：使用Netty 4.x在Java中实现Modbus TCP客户端/服务器。
+* [ModbusMaster KT](https://github.com/hzlaoliu/modbus-master-kt)：ModbusMaster KT框架是一个使用Kotlin编写的开源项目，用于实现Modbus主站功能。
+* [JaMod](https://github.com/jeick/jamod)：JaMod是一个完全用Java编写的Modbus实现。
+* [Dn Modbus](https://github.com/Dn9x/dn-modbus)：Java Modbus库。
 
 #### EtherNet/IP
 
@@ -12063,6 +12091,7 @@ Kafka生态管理系统、运维平台。
 * [PokerServer](https://github.com/jacobhyphenated/PokerServer)：PokerServer是一个用于运行德州扑克友谊赛的服务器。
 * [Luna](https://github.com/luna-rs/luna)：Luna是一款#377 RS2服务器，设计轻巧、快速且易于使用。
 * [ServerFramework](https://github.com/zhangqi-ulua/ServerFramework)：ServerFramework是可用作全球同服或滚服的分布式Java游戏服务器框架。
+* [GameServer](https://github.com/ksfzhaohui/gameserver)：基于Netty 3.5的游戏服务器端框架。
 
 #### 游戏模拟器
 
@@ -12987,7 +13016,6 @@ Kafka生态管理系统、运维平台。
 * [Java String Similarity](https://github.com/tdebatty/java-string-similarity)：实现不同字符串相似度和距离测量的库。
 * [AhoCorasickDoubleArrayTrie](https://github.com/hankcs/AhoCorasickDoubleArrayTrie)：基于双数组Trie结构的Aho Corasick算法的极快实现。
 * [ByteSeek](https://github.com/nishihatapalmer/byteseek)：ByteSeek是一个Java库，用于有效匹配字节模式并搜索这些模式。
-* [Fuzzy Matcher](https://github.com/intuit/fuzzy-matcher)：Fuzzy Matcher是一个基于Java的库，用于对文档集合中的相似元素进行匹配和分组，由Intuit开发。
 * [StringMetric](https://github.com/rockymadden/stringmetric)：StringMetric提供执行近似字符串匹配、字符串相似度/距离测量、按单词发音索引以及发音相似性比较的功能。
 * [SimMetrics](https://github.com/Simmetrics/simmetrics)：相似度和距离度量的Java库，例如Levenshtein距离和余弦相似度。
 * [Xsimilarity](https://github.com/iamxiatian/xsimilarity)：相似度计算软件包。
@@ -12996,18 +13024,26 @@ Kafka生态管理系统、运维平台。
 * [Trie](https://github.com/umbertogriffo/Trie)：Java中混合Trie和Levenshtein距离的实现，用于极快的字符串前缀搜索和字符串相似度计算。
 * [LevenshteinAutomaton](https://github.com/klawson88/LevenshteinAutomaton)：LevenshteinAutomaton是一个快速且功能全面的Java库，能够执行基于自动机和非自动机的Damerau-Levenshtein距离计算和邻域计算。
 * [NLP HanZi Similar](https://github.com/houbb/nlp-hanzi-similar)：NLP HanZi Similar为汉字提供相似性的计算。
-* [StringDistance](https://github.com/vickumar1981/stringdistance)：Scala和Java的模糊匹配字符串距离库。
-* [JavaWuzzy](https://github.com/xdrop/fuzzywuzzy)：FuzzyWuzzy模糊字符串匹配算法的Java实现。
 * [Apache Commons Text](https://github.com/apache/commons-text)：Commons Text是一个专注于字符串算法的库。
 * [Strman](https://github.com/shekhargulati/strman-java)：Java 8字符串操作库。
 * [Aho Corasick](https://github.com/robert-bor/aho-corasick)：用于高效字符串匹配的Aho-Corasick算法的Java实现。
-* [StringSearch](https://github.com/johannburkard/StringSearch)：Java中的高性能模式匹配算法。
 * [Word Checker](https://github.com/houbb/word-checker)：Word Checker用于单词拼写检查。
 * [JavaPermutationTools](https://github.com/cicirello/JavaPermutationTools)：JavaPermutationTools库提供Java类、接口等，用于表示和生成排列和序列，以及对排列和序列执行计算。
 * [KaseChange](https://github.com/pearxteam/kasechange)：用于在各种大小写格式之间转换字符串的多平台Kotlin库。
 * [Pangu.Java](https://github.com/vinta/pangu.java)：Java中的偏执文本间距。
 * [MinHash](https://github.com/codelibs/minhash)：该库提供了用于b位MinHash算法的工具。
 * [BM25](https://github.com/stephanj/BM25)：BM25是搜索引擎使用的一种排名函数，用于根据文档与给定搜索查询的相关性对匹配文档进行排名。
+
+#### 模糊匹配
+
+* [JavaWuzzy](https://github.com/xdrop/fuzzywuzzy)：FuzzyWuzzy模糊字符串匹配算法的Java实现。
+* [Fuzzy Matcher](https://github.com/intuit/fuzzy-matcher)：Fuzzy Matcher是一个基于Java的库，用于对文档集合中的相似元素进行匹配和分组，由Intuit开发。
+* [StringSearch](https://github.com/johannburkard/StringSearch)：Java中的高性能模式匹配算法。
+* [StringDistance](https://github.com/vickumar1981/stringdistance)：Scala和Java的模糊匹配字符串距离库。
+* [FuzzyWuzzy Kotlin](https://github.com/willowtreeapps/fuzzywuzzy-kotlin)：Kotlin模糊字符串匹配库。
+* [PreDict](https://github.com/searchhub/preDict)：PreDict基于拼写纠错模糊搜索库SymSpell。
+* [FuzzyKot](https://github.com/terrakok/FuzzyKot)：Kotlin多平台模糊字符串匹配。
+* [TLSH](https://github.com/idealista/tlsh)：TLSH是由Trend Micro设计的模糊匹配库。
 
 #### 组合优化算法
 
@@ -13022,9 +13058,12 @@ Kafka生态管理系统、运维平台。
 * [RendezvousHash](https://github.com/clohfink/RendezvousHash)：基于环的一致哈希的替代方案，这是Rendezvous(最高随机权重，HRW)哈希的快速线程安全实现。
 * [ConsistentHash](https://github.com/Jaskey/ConsistentHash)：Java中的通用一致性哈希实现，支持虚拟节点和用户定义的哈希函数。
 * [MurmurHash Java](https://github.com/tnm/murmurhash-java)：MurmurHash2的32位和64位实现。
+* [Kotlinx MurmurHash](https://github.com/goncalossilva/kotlinx-murmurhash)：Kotlin多平台库，用于MurmurHash。
+* [Murmur](https://github.com/sangupta/murmur)：Murmur是所有Murmur哈希的纯Java实现。
 * [Rolling Hash Java](https://github.com/lemire/rollinghashjava)：Java中的滚动哈希函数。
 * [JavaUtil](https://github.com/yonik/java_util)：JavaUtil包含一个快速、高质量的哈希函数实现。
 * [G414 Hash](https://github.com/sunnygleason/g414-hash)：一系列实用的64位哈希工具，包括布隆过滤器和HashFile实现。
+* [Similarity Uniform Fuzzy Hash](https://github.com/s3curitybug/similarity-uniform-fuzzy-hash)：Similarity Uniform Fuzzy Hash是一种能够准确高效地计算两个文件之间相似度的工具。
 
 #### 文本排序
 
@@ -13068,6 +13107,7 @@ Kafka生态管理系统、运维平台。
 
 * [Simhash Java](https://github.com/sing1ee/simhash-java)：Simhash算法的Java简单实现。
 * [Simhash4J](https://github.com/xlturing/Simhash4J)：Simhash Java单机实现。
+* [Simhash](https://github.com/CreekLou/simhash)：高效的文本相似度去重算法实现。
 
 #### LSH算法
 
@@ -13076,9 +13116,9 @@ Kafka生态管理系统、运维平台。
 * [TarsosLSH](https://github.com/JorenSix/TarsosLSH)：TarsosLSH是一个实现次线性最近邻搜索算法的Java库。
 * [ScANNS](https://github.com/LinkedInAttic/scanns)：ScANNS是Apache Spark的一个最近邻搜索库，最初由LinkedIn开发。
 * [DynamicExplorationGraph](https://github.com/Visual-Computing/DynamicExplorationGraph)：DEG是一种基于图的近似最近邻搜索(ANNS)算法，由柏林应用技术大学开源。
-* [TLSH](https://github.com/idealista/tlsh)：TLSH是由Trend Micro设计的模糊匹配库。
 * [Spark Hash](https://github.com/mrsqueeze/spark-hash)：Apache Spark的局部敏感哈希算法。
 * [Spark Neighbors](https://github.com/karlhigley/spark-neighbors)：基于Spark的近似最近邻算法(ANN)，采用局部敏感哈希(LSH)。
+* [MinHashLSH](https://github.com/ALShum/MinHashLSH)：使用Java实现MinHash和LSH来查找Jaccard相似度衡量的近似重复文档。
 
 #### LDA算法
 
