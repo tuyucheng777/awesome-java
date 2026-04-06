@@ -247,7 +247,7 @@
 * [Hikaku](https://github.com/codecentric/hikaku)：Hikaku可以测试REST API实现是否满足其规范。
 * [Hiroaki](https://github.com/JorgeCastilloPrz/hiroaki)：Hiroaki的目的是利用Kotlin的强大功能，以惯用的方式实现API集成测试的清晰度。
 * [RESTest](https://github.com/isa-group/RESTest)：RESTest是一个用于RESTful Web API自动化黑盒测试的框架，由塞维利亚大学开源。
-* [Cornichon](https://github.com/agourlay/cornichon)：用于测试JSON HTTP API的可扩展Scala DSL。
+* [Cornichon](https://github.com/agourlay/cornichon)：Scala编写的HTTP JSON API测试工具。
 * [ChocoTea](https://github.com/cleopatra27/chocotea)：Chocotea是一个从Java代码生成Postman集合、环境和集成测试的库。
 * [Heat](https://github.com/ExpediaGroup/heat)：Heat是一个基于REST Assured框架的简单解决方案，由Expedia开源。
 * [Hrun4j](https://github.com/lematechvip/hrun4j)：Hrun4j是由乐马技术推出的开源一站式接口测试解决方案。
@@ -545,6 +545,8 @@
 * [Play MockWS](https://github.com/leanovate/play-mockws)：Play MockWS是一款适用于Play Framework的Mock WS客户端。
 * [V-Mock](https://gitee.com/vtDev/v-mock)：V-Mock是一个小巧的接口响应Mock系统。
 * [Mock Web Server](https://github.com/fabric8io/mockwebserver)：Okhttp MockWebServer的扩展，它提供了一个DSL，使用起来更方便。
+* [LiveStub](https://github.com/softwaremill/livestub)：LiveStub是一个HTTP服务器存根，由SoftwareMill开源。
+* [AndroidStubServer](https://github.com/byoutline/AndroidStubServer)：AndroidStubServer是一个简单的HTTP服务器，可以轻松Mock API。
 
 #### Mock库
 
@@ -607,6 +609,7 @@
 * [RandomJson](https://github.com/mangatmodi/RandomJson)：RandomJson提供Kotlin/Java库来创建随机JSON字符串。
 * [JSON Data Generator](https://github.com/everwatchsolutions/json-data-generator)：一个强大、通用的流式随机JSON数据生成器。
 * [JSON Data Generator](https://github.com/vincentrussell/json-data-generator)：JSON Data Generator可帮助你构建测试所需的JSON数据。
+* [JSON Generator](https://github.com/jimblackler/jsongenerator)：一个基于JSON Schema的JSON数据生成器。
 * [Nomen est Omen](https://github.com/igr/nomen-est-omen)：这个Java库有助于生成一些随机名称，你可以将它们用于某些唯一的ID或密码。
 * [Model Citizen](https://github.com/mguymon/model-citizen)：Model Citizen是一个基于注解的Java模型工厂。
 * [Test Arranger](https://github.com/ocadotechnology/test-arranger)：将测试数据排列为完全填充的对象。
@@ -1234,6 +1237,7 @@
 * [SimpleNoSQL](https://github.com/Jearil/SimpleNoSQL)：一个适用于Android的简单NoSQL客户端。
 * [Hibernate OGM](https://github.com/hibernate/hibernate-ogm)：Hibernate OGM使用Hibernate ORM引擎将数据存储在NoSQL数据网格中。
 * [Database OOP](https://github.com/petterobam/database-oop)：结构化数据存储系统的面向对象封装。
+* [SODA](https://github.com/oracle/soda-for-java)：SODA是一个API，它允许你将Oracle数据库用作NoSQL JSON文档存储。
 
 #### 事务
 
@@ -1649,6 +1653,7 @@
 * [Anserini](https://github.com/castorini/anserini)：Anserini是一个用于可重复信息检索研究的Lucene工具包，由滑铁卢大学开源。
 * [CouchDB Lucene](https://github.com/rnewson/couchdb-lucene)：启用Lucene对CouchDB文档进行全文搜索。
 * [SIREn](https://github.com/rdelbru/SIREn)：SIREn是一个Lucene/Solr扩展，用于高效的无模式半结构化全文搜索。
+* [Lucene Server](https://github.com/mikemccand/luceneserver)：Apache Lucene的高性能轻量级封装HTTP REST服务器。
 
 #### HBase库/工具
 
@@ -2599,7 +2604,6 @@
 * [Bus Cache](https://github.com/818000/bus/tree/main/bus-cache)：Bus Cache是一个企业级缓存框架，它提供统一的缓存抽象，支持多种存储实现。
 * [Hutool Cache](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-cache)：Hutool Cache模块提供一种缓存的简单实现方案。
 * [Cache4k](https://github.com/ReactiveCircus/cache4k)：Kotlin Multiplatform的内存缓存。
-* [Reservoir](https://github.com/anupcowkur/Reservoir)：Reservoir是一个简单的Android库，允许你使用键/值对轻松序列化对象并将其缓存到磁盘。
 * [LayerCache](https://github.com/appmattus/layercache)：使Android和Java的缓存变得简单。
 * [Kache](https://github.com/MayakaApps/Kache)：Kache是一个轻量级的Kotlin Multiplatform缓存库，支持内存和持久缓存，并支持不同的驱逐策略。
 * [OHC](https://github.com/snazy/ohc)：Java堆外缓存解决方案。
@@ -2975,6 +2979,31 @@
 * [MyraCodec](https://github.com/mvp-express/myra-codec)：MYRA Codec是一个高性能的二进制序列化库，采用模式优先设计。
 * [Courier](https://github.com/coursera/courier)：Courier是唯一一个以JSON为中心、基于模式的综合数据系统。
 * [Pickle](https://github.com/irmen/pickle)：Java和.NET对Python pickle序列化协议的实现。
+* [JSON Avro Converter](https://github.com/allegro/json-avro-converter)：JSON Avro Converter是一个JSON到Avro的转换工具，旨在简化向Avro的迁移，由Allegro开源。
+* [Avro4k](https://github.com/avro-kotlin/avro4k)：Kotlin对Avro格式的支持。
+* [Avro Util](https://github.com/linkedin/avro-util)：Avro Util是一系列实用程序和库，使Java项目能够更好地与Avro协同工作，由LinkedIn开源。
+* [Avro FastSerde](https://github.com/RTBHOUSE/avro-fastserde)：Avro FastSerde是Apache Avro序列化和反序列化的另一种替代方案。
+* [Reservoir](https://github.com/anupcowkur/Reservoir)：Reservoir是一个简单的Android库，允许你使用键/值对轻松序列化对象并将其缓存到磁盘。
+* [Akka Kryo Serialization](https://github.com/altoo-ag/akka-kryo-serialization)：适用于Scala和Akka的基于Kryo的序列化器。
+* [Kafka Serialization](https://github.com/kaluza-platform/kafka-serialization)：Kafka序列化/反序列化构建模块。
+* [AWS Glue Schema Registry](https://github.com/awslabs/aws-glue-schema-registry)：AWS Glue Schema Registry Library提供可与Glue Schema Registry集成的序列化器和反序列化器。
+* [Carpet](https://github.com/jerolba/parquet-carpet)：Java的Parquet序列化和反序列化库。
+* [Hardwood](https://github.com/hardwood-hq/hardwood)：Apache Parquet的最小依赖实现。
+* [Pushka](https://github.com/fomkin/pushka)：Pushka是一个不使用运行时反射的序列化库。
+* [Deed](https://github.com/igrishaev/deed)：适用于Clojure的快速、灵活、零依赖的序列化/反序列化库。
+* [Filo](https://github.com/velvia/filo)：Filo是适用于Scala和其他语言的快速、内存高效、序列化程度低的二进制数据向量。
+* [Protoless](https://github.com/julien-lafont/protoless)：Scala的Protobuf序列化库。
+* [Desert](https://github.com/vigoo/desert)：Scala的二进制序列化库。
+* [SubZero](https://github.com/jerrinot/subzero)：SubZero提供极其简便的Hazelcast与Kryo集成。
+* [Elsa](https://github.com/jankotek/elsa)：Elsa是一个用于Java的对象图序列化框架。
+* [AWS ObjectMapper](https://github.com/Netflix/awsobjectmapper)：用于AWS对象的序列化/反序列化库，由Netflix开源。
+* [Protostar](https://github.com/yezhihao/protostar)：Java序列化库，按字节码顺序写入。
+* [Packable](https://github.com/BillyWei01/Packable)：Packable是一个自动化的序列化框架。
+* [Micronaut Serialization](https://github.com/micronaut-projects/micronaut-serialization)：Micronaut Serialization是一个Micronaut模块，允许在构建时计算JSON和其他格式的序列化器和反序列化器。
+* [Xson](https://github.com/xsonorg/xson)：Xson是一个Java对象序列化和反序列化框架。
+* [KS3](https://github.com/Kantis/ks3)：KotlinX Serialization标准序列化器。
+* [Quickser](https://github.com/romix/quickser)：Quickser是一个用于快速高效地序列化Java类的库。
+* [Serial Builder](https://github.com/Marcono1234/serial-builder)：用于创建Java序列化数据的库。
 
 #### Protocol Buffer
 
@@ -3019,13 +3048,14 @@
 * [TOON Java](https://github.com/wuahhh/toon-java)：Java的TOON库。
 * [TOON4s](https://github.com/vim89/toon4s)：TOON4s是Scala的TOON惯用实现。
 * [Toon4j](https://github.com/ricken07/Toon4j)：TOON的Java实现。
+* [KToon](https://github.com/lukelast/ktoon)：用于TOON的Kotlin序列化器。
 
 #### EDN
 
 * [Fast EDN](https://github.com/tonsky/fast-edn)：快速EDN解析器。
 * [Edn Java](https://github.com/bpsm/edn-java)：Edn Java是一个用于解析和打印EDN的库。
 
-## JSON库
+## JSON
 
 * [Jackson](https://github.com/FasterXML/jackson)：Jackson是Java中使用最广泛的JSON库。
 * [Gson](https://github.com/google/gson)：Gson是一个Java库，可用于将Java对象转换为其JSON表示形式，由Google开源。
@@ -3047,6 +3077,7 @@
 * [Eclipse Yasson](https://github.com/eclipse-ee4j/yasson)：Yasson是一个Java框架，它在Java类和JSON文档之间提供标准绑定层。
 * [HikariJSON](https://github.com/brettwooldridge/HikariJSON)：HikariJSON是一个高性能JSON解析器。
 * [Eclipse Parsson](https://github.com/eclipse-ee4j/parsson)：Parsson是Jakarta JSON-P规范的实现。
+* [Helidon JSON](https://github.com/helidon-io/helidon/tree/main/json)：Helidon JSON解析器模块。
 * [JsonLube](https://github.com/alibaba/JsonLube)：JsonLube可以在编译期自动生成JSON解析代码，用户使用方式更简单，同时能收获原生解析的性能，由阿里开发。
 * [JSON-IO](https://github.com/jdereg/json-io)：JSON-IO是一个功能强大且轻量级的Java库，它简化了JSON5、JSON和TOON的序列化和反序列化，并能轻松处理复杂的对象图。
 * [Jsoniter](https://github.com/json-iterator/java)：Jsoniter是Java中可用的快速灵活的JSON解析器。
@@ -3061,44 +3092,31 @@
 * [Spray JSON](https://github.com/spray/spray-json)：Spray JSON是Scala中轻量级、干净且高效的JSON实现。
 * [Minimal JSON](https://github.com/ralfstx/minimal-json)：Minimal Json是用于Java的快速且最小的JSON解析器和编写器。
 * [Json Smart](https://github.com/netplex/json-smart-v2)：Json Smart是一个高性能JSON处理器库。
-* [JSON Sanitizer](https://github.com/OWASP/json-sanitizer)：JSON Sanitizer可以将类似JSON的内容转换为有效的JSON，由OWASP开源。
 * [CodeJson](https://gitee.com/eric_ds/jfire-codejson)：CodeJson是性能非常高的JSON序列化和反序列化库。
 * [Sawmill](https://github.com/logzio/sawmill)：Sawmill是一个JSON转换Java库。
 * [Argonaut](https://github.com/argonaut-io/argonaut)：Argonaut是一个用于Scala的JSON库，提供丰富的解析、打印和操作功能，以及方便的编解码器，用于在Scala数据类型之间进行转换。
 * [Apache Johnzon](https://github.com/apache/johnzon)：Johnzon提供JSON P实现和该规范的一组有用扩展。
 * [JsonBeans](https://github.com/EsotericSoftware/jsonbeans)：JsonBeans是一个轻量级库，可轻松将Java对象图序列化为JSON或从JSON反序列化。
-* [SIMDJson Java](https://github.com/simdjson/simdjson-java)：simdjson的官方Java版本，使用SIMD指令的JSON解析器。
+* [SIMDJson Java](https://github.com/simdjson/simdjson-java)：SIMDJson的官方Java版本，使用SIMD指令的JSON解析器。
 * [Jolt](https://github.com/bazaarvoice/jolt)：使用Java编写的JSON到JSON转换库，由Bazaarvoice开源。
 * [Boon](https://github.com/boonproject/boon)：Boon是一个简单的基于Java的JSON工具包，你可以使用Boon以高效且快速的方式对JSON数据进行编码或解码。
 * [ZSON](https://github.com/zhangfei19841004/zson)：专为测试人员打造的JSON解析器。
-* [Stag](https://github.com/vimeo/stag-java)：Stag通过自动生成无反射TypeAdapters来提升Gson的性能。
 * [Hjson Java](https://github.com/hjson/hjson-java)：Hjson格式的Java实现。
 * [JSON-B API](https://github.com/jakartaee/jsonb-api)：JSON-B是一个用于在Java对象和JSON消息之间进行转换的标准绑定层。
 * [Avaje JsonB](https://github.com/avaje/avaje-jsonb)：这是一个轻量级、快速且无需反射的JSON绑定库。
 * [NanoJson](https://github.com/mmastrac/nanojson)：NanoJson是一个小型、兼容的Java JSON解析器和写入器。
-* [JSON Flattener](https://github.com/wnameless/json-flattener)：JSON Flattener可以扁平化嵌套的JSON对象，反之亦然。
 * [JParse](https://github.com/nats-io/jparse)：JParse是一款创新的JVM JSON解析器，通过索引覆盖机制提供极速解析速度。
 * [uPickle](https://github.com/com-lihaoyi/upickle)：uPickle是一个简单、快速、无依赖的Scala JSON和二进制(MessagePack)序列化库。
-* [BSON4Jackson](https://github.com/michel-kraemer/bson4jackson)：该库向Jackson JSON处理器添加了对BSON的支持。
 * [EasyJSON](https://github.com/bes2008/easyjson)：EasyJSON是一个JSON门面库，就像SLF4j一样。
 * [Noggit](https://github.com/yonik/noggit)：Noggit是一个极快的Java流式JSON解析器。
 * [Actson](https://github.com/michel-kraemer/actson)：Actson是一个响应式JSON解析器。
 * [JSONCoder](https://github.com/eBay/jsonex)：Jsonex JSONCoder是一个轻量级通用对象序列化/反序列化库，该库多年来已在各种eBay项目中广泛使用。
 * [Functional JSON](https://github.com/MAIF/functional-json)：以函数式方式解析和写入JSON。
-* [JSON Masker](https://github.com/Breus/json-masker)：JSON Masker库允许高度灵活地屏蔽JSON中的敏感数据。
 * [StAXON](https://github.com/beckchr/staxon)：StAXON允许你使用javax.xml.stream读取和写入JSON。
-* [Hope](https://github.com/santanusinha/hope)：Hope是一种用Java编写的用于对JSON进行谓词评估的高级语言。
-* [JSON Canonicalization](https://github.com/cyberphone/json-canonicalization)：JSON Canonicalization Scheme的Java实现。
-* [Squiggly](https://github.com/bohnman/squiggly)：Squiggly是一个Jackson JSON PropertyFilter，它使用Facebook Graph API过滤语法的子集选择对象/列表/映射的属性。
 * [JsonPullParser](https://github.com/vvakame/JsonPullParser)：JsonPullParser是Java的JSON-POJO映射库。
-* [JSON Discoverer](https://github.com/SOM-Research/jsonDiscoverer)：JSON Discoverer是一款可让你获取JSON文档隐式架构的工具，由加泰罗尼亚开放大学开源。
 * [Jsonista](https://github.com/metosin/jsonista)：用于快速JSON编码和解码的Clojure库，由Metosin开源。
-* [Json Wikipedia](https://github.com/diegoceccarelli/json-wikipedia)：Json Wikipedia包含将Wikipedia XML转储转换为JSON或Avro转储的代码。
-* [JsonLogic Java](https://github.com/jamsesso/json-logic-java)：不使用Nashorn JS引擎的纯Java实现JsonLogic。
-* [JsonTemplate](https://github.com/json-template/JsonTemplate)：一个生成JSON字符串的Java工具。
 * [xJsonKit](https://gitee.com/troyzhxu/xjsonkit)：xJsonKit是一个超轻量级JSON/JSONB/XML/YAML解析门面API。
 * [Tethys](https://github.com/tethys-json/tethys)：Tethys是用于Scala的无AST JSON库。
-* [JSON Repair](https://github.com/HAibiiin/json-repair)：JSON Repair是一个Java库，用于修复由大语言模型在不同应用层生成的异常JSON。
 * [ZIO Json](https://github.com/zio/zio-json)：ZIO Json是一个快速且安全的JSON库。
 * [Forge](https://github.com/kittinunf/Forge)：Forge是一个JSON库，帮助你以函数式方式将Kotlin类与JSON互相映射。
 * [ScalaJack](https://github.com/gzoller/ScalaJack)：ScalaJack是一个非常快速、无缝的非模式数据序列化引擎，旨在仅需极少的额外代码即可序列化一个类。
@@ -3114,10 +3132,62 @@
 * [SJSON](https://github.com/debasishg/sjson)：SJSON提供将Scala对象非侵入式地序列化为JSON的功能。
 * [JSONTest](https://github.com/jsontest/jsontest)：JSON测试服务，包含JSON编码器/解码器实现。
 * [JSONUtil](https://github.com/billdavidson/JSONUtil)：JSONUtil是一个用于Java的JSON生成和解析库。
-* [JsonView](https://github.com/monitorjbl/json-view)：使用Jackson实现编程化JSON视图。
 * [NNJSON](https://github.com/shinovon/NNJSON)：适用于Java的JSON库，兼容CLDC 1.1和JDK 1.1。
 * [JsonSerde](https://github.com/rcongiu/Hive-JSON-Serde)：JsonSerde库使Apache Hive能够读写JSON格式的数据。
-* [Hive JSON Schema](https://github.com/quux00/hive-json-schema)：用于从JSON示例文档生成Hive Schema的工具。
+* [Cheshire](https://github.com/dakrone/cheshire)：Cheshire是一个快速的JSON编码库。
+* [Jsoniter Scala](https://github.com/plokhotnyuk/jsoniter-scala)：用于在编译时生成安全、超快速JSON编解码器的Scala宏。
+* [GsonFactory](https://github.com/getActivity/GsonFactory)：Gson解析容错框架。
+* [Data.Json](https://github.com/clojure/data.json)：Clojure中的JSON库。
+* [Jawn](https://github.com/typelevel/jawn)：Jawn的设计目标是以最快的速度将JSON解析成AST。
+* [JsonToJava](https://github.com/jonfhancock/JsonToJava)：Java类到JSON模型映射器。
+* [JKid](https://github.com/yole/jkid)：JKid是一个简单的Kotlin数据类JSON序列化/反序列化库。
+* [Dijon](https://github.com/jvican/dijon)：Scala中的动态JSON。
+* [GWT Jackson](https://github.com/nmorel/gwt-jackson)：GWT Jackson是一个用于GWT的JSON解析器，它使用Jackson 2.x注解来定制序列化/反序列化过程。
+* [JsonToJava](https://github.com/astav/JsonToJava)：Jackson的JSON到Java源代码生成器。
+* [JSONParser](https://github.com/code4wt/JSONParser)：JSONParser是一个简单的JSON解析器。
+* [PJSON](https://github.com/gerritjvv/pjson)：快速Clojure JSON解析器。
+* [JsonUtils](https://github.com/duanxinyuan/json-utils)：Json工具类，包含Gson、FastJson、Jackson。
+* [JSON](https://github.com/amirdew/JSON)：适用于Android的简单易用的JSON解析器。
+* [LazyJSON](https://github.com/doubledutch/LazyJSON)：LazyJSON是一个速度极快的Java JSON解析器。
+* [Jolyglot](https://github.com/VictorAlbertos/Jolyglot)：Jolyglot允许对象与JSON之间相互转换，而无需依赖任何具体的实现。
+* [Java Properties To JSON](https://github.com/mikolajmitura/java-properties-to-json)：一个简单的Java框架，用于将Java属性转换为JSON对象。
+* [JSONCode](https://github.com/lujinfeifly/jsoncode)：可以轻松地从JSON字符串中获取一个或多个值。
+* [ScalaJSON](https://github.com/mdedetrich/scalajson)：ScalaJSON库提供了两个最小的JSON AST实现，一个为典型用途设计，另一个为性能/特殊情况设计。
+* [BaseJson](https://github.com/kongzue/BaseJson)：改进型JSON解析库，快速解析JSON为Map或List对象。
+* [VJSON](https://github.com/wkgcass/vjson)：VJSON是一个轻量级的JSON解析器/反序列化器/构建器库。
+* [Flatjson](https://github.com/zalando-incubator/flatjson)：一个用Java编写的快速JSON解析器，由Zalando开源。
+* [Json](https://github.com/yanxuwen/Json)：一个非常简洁的JSON解析库，基于FastJSON。
+* [JSON](https://github.com/bowbahdoe/json)：一个易于学习和教授的Java JSON库。
+* [JsonJ](https://github.com/jillesvangurp/jsonj)：JsonJ是一个高性能的Jackson插件库，用于在Java中处理无模式JSON。
+* [Halarious](https://github.com/surech/halarious)：Halarious是一个简单的框架，用于按照HAL规范将Java类序列化和反序列化为JSON。
+* [Jsonda](https://github.com/kmizu/jsonda)：Jsonda是一个简单的JSON对象DSL。
+* [Rojoma JSON](https://github.com/rjmac/rojoma-json)：Scala JSON库，旨在轻松、类型安全且非反射地组装JSON有效负载。
+* [UBJson](https://github.com/ubjson/universal-binary-json-java)：通用二进制JSON Java库。
+* [Orderly](https://github.com/nparry/orderly4jvm)：Orderly是用于JVM的有序JSON实现。
+* [Fluid JSON](https://github.com/fluidsonic/fluid-json)：一个完全用Kotlin编写的JSON库。
+* [JSONKraken](https://github.com/zogar1993/jsonkraken)：JSONKraken是一个完全符合规范、经过高度优化且符合惯用语法的JSON解析器。
+* [Noson](https://gitee.com/ainilili/noson)：轻量级JSON序列化/反序列化工具。
+* [EasyJSON](https://gitee.com/coderjn/easyjson)：EasyJSON是一个通用的JSON库门面，可以无缝的在各个JSON库之间切换。
+* [Beetl JSON](https://gitee.com/xiandafu/beetl-json)：Beetl JSON提供了将对象序列化成JSON的类。
+* [JSOG Jackson](https://github.com/jsog/jsog-jackson)：Jackson的JSOG序列化器插件。
+* [JsZipper](https://github.com/mandubian/play-json-zipper)：JsZipper是一个全新的工具，允许对Play2/Json API中的JSON结构进行更复杂、更强大的操作。
+
+#### JSON库
+
+* [JSON Sanitizer](https://github.com/OWASP/json-sanitizer)：JSON Sanitizer可以将类似JSON的内容转换为有效的JSON，由OWASP开源。
+* [Stag](https://github.com/vimeo/stag-java)：Stag通过自动生成无反射TypeAdapters来提升Gson的性能。
+* [JSON Flattener](https://github.com/wnameless/json-flattener)：JSON Flattener可以扁平化嵌套的JSON对象，反之亦然。
+* [JSON Masker](https://github.com/Breus/json-masker)：JSON Masker库允许高度灵活地屏蔽JSON中的敏感数据。
+* [Hope](https://github.com/santanusinha/hope)：Hope是一种用Java编写的用于对JSON进行谓词评估的高级语言。
+* [JSON Canonicalization](https://github.com/cyberphone/json-canonicalization)：JSON Canonicalization Scheme的Java实现。
+* [Squiggly](https://github.com/bohnman/squiggly)：Squiggly是一个Jackson JSON PropertyFilter，它使用Facebook Graph API过滤语法的子集选择对象/列表/映射的属性。
+* [JSON Discoverer](https://github.com/SOM-Research/jsonDiscoverer)：JSON Discoverer是一款可让你获取JSON文档隐式架构的工具，由加泰罗尼亚开放大学开源。
+* [Json Wikipedia](https://github.com/diegoceccarelli/json-wikipedia)：Json Wikipedia包含将Wikipedia XML转储转换为JSON或Avro转储的代码。
+* [JsonLogic Java](https://github.com/jamsesso/json-logic-java)：不使用Nashorn JS引擎的纯Java实现JsonLogic。
+* [JsonTemplate](https://github.com/json-template/JsonTemplate)：一个生成JSON字符串的Java工具。
+* [JSON Repair](https://github.com/HAibiiin/json-repair)：JSON Repair是一个Java库，用于修复由大语言模型在不同应用层生成的异常JSON。
+* [JsonView](https://github.com/monitorjbl/json-view)：使用Jackson实现编程化JSON视图。
+* [JSON Typedef Codegen](https://github.com/jsontypedef/json-typedef-codegen)：一个可以根据JSON Typedef模式生成代码的CLI工具。
 
 #### JSON Schema
 
@@ -3130,7 +3200,6 @@
 * [JSON Schema Inferrer](https://github.com/saasquatch/json-schema-inferrer)：根据示例JSON推断JSON模式的Java库。
 * [JJSchema](https://github.com/reinert/JJSchema)：使用Jackson将Java类型转换为JSON Schema的生成器。
 * [Justify](https://github.com/leadpony/justify)：Justify是一个基于JSON模式规范和Jakarta JSON-P的JSON验证器。
-* [JSONS2XSD](https://github.com/ethlo/jsons2xsd)：用Java编写的JSON模式到XML模式转换器。
 * [JDocs](https://github.com/americanexpress/unify-jdocs)：JDocs是一个JSON操作库，它完全消除了对模型/POJO类的需要，而是直接在JSON文档上工作，由美国运通开源。
 * [Snowy](https://github.com/ssilverman/snowy-json)：Snowy是一个功能齐全的JSON Schema验证器。
 * [Kotlinx Schema](https://github.com/Kotlin/kotlinx-schema)：Kotlin多平台库，通过KSP在编译时和运行时通过反射生成JSON Schema。
@@ -3146,6 +3215,17 @@
 * [JSON Schema Core](https://github.com/java-json-tools/json-schema-core)：JSON Schema Validator和其他处理器的核心支持架构。
 * [JSON Schema Validator](https://github.com/OptimumCode/json-schema-validator)：JSON Schema的一个Kotlin多平台实现。
 * [JSON Schema Avro](https://github.com/fge/json-schema-avro)：该软件包包含两个处理器，用于将Avro Schema和JSON Schema相互转换。
+* [Spark JSON Schema](https://github.com/zalando-incubator/spark-json-schema)：Spark JSON Schema是用于Apache Spark的JSON Schema解析器，由Zalando开源。
+* [Play JSON Schema Validator](https://github.com/eclipsesource/play-json-schema-validator)：基于Play JSON库的Scala JSON模式校验库。
+* [Medeia Validator](https://github.com/worldturner/medeia-validator)：Medeia Validator是一个用于验证JSON数据的流式验证器。
+* [Xemantic AI Tool Schema](https://github.com/xemantic/xemantic-ai-tool-schema)：Xemantic AI Tool Schema是一个Kotlin多平台库，用于为Kotlin @Serializable类生成JSON Schema。
+* [JSON Kotlin Schema Codegen](https://github.com/pwall567/json-kotlin-schema-codegen)：JSON Schema代码生成。
+* [Hive JSON Schema](https://github.com/quux00/hive-json-schema)：用于从JSON示例文档生成Hive Schema的工具。
+* [Argus](https://github.com/aishfenton/Argus)：用于从JSON Schema生成代码的Scala宏。
+* [AutoSchema](https://github.com/coursera/autoschema)：从Scala类生成JSON Schema。
+* [Smartype](https://github.com/mParticle/smartype)：Smartype是一款功能强大的代码生成工具，可让你最大限度地利用组织和定义数据结构的时间。
+* [JSON Schema Serialization](https://github.com/Ricky12Awesome/json-schema-serialization)：添加了对使用KotlinX Serialization的JSON Schema的支持。
+* [JSON String Schema Generator](https://github.com/simplymequeeny/json-string-schema-generator)：使用Java从JSON数据生成JSON Schema或POJO。
 
 #### JsonPath
 
@@ -3159,19 +3239,24 @@
 * [JSLT](https://github.com/schibsted/jslt)：JSLT是一种完整的JSON查询和转换语言。
 * [JsonPathKt](https://github.com/eygraber/JsonPathKt)：Kotlin Multiplatform中更轻量级、更高效的JsonPath实现。
 * [JsonPathKt](https://github.com/codeniko/JsonPathKt)：Kotlin中更轻量、更高效的JsonPath实现。
+* [Gson Path](https://github.com/LachlanMcKee/gsonpath)：一个Java注解处理器库，它使用基本的JsonPath风格注解生成GSON类型适配器。
+* [JsonPath](https://github.com/nebhale/JsonPath)：JSONPath规范的Java实现。
+* [JsonPath4k](https://github.com/a-sit-plus/jsonpath4k)：Kotlin多平台RFC9535 JSONPath库。
 
 #### JSON JQ
 
 * [Jackson-JQ](https://github.com/eiiches/jackson-jq)：Jackson JSON处理器的纯Java jq实现。
 * [Java JQ](https://github.com/arakelian/java-jq)：Java JQ封装库。
 * [Brackit](https://github.com/sirixdb/brackit)：Brackit是一个功能强大的JSONiq引擎，用于查询JSON和XML。
+* [Josson](https://github.com/octomix/josson)：Josson是一个完整的JSON查询和转换语言。
+* [Kt JsonQ](https://github.com/shuza/kt-jsonq)：Kt JsonQ是一个简洁优雅的Kotlin库，用于查询任何类型的JSON数据。
 
 #### JSON Patch
 
 * [JSON Patch](https://github.com/java-json-tools/json-patch)：这是用Java编写的RFC 6902(JSON Patch)和RFC 7386(JSON Merge Patch)的实现。
 * [ZJSONPatch](https://github.com/flipkart-incubator/zjsonpatch)：这是用Java编写的RFC 6902 JSON Patch的实现，由Flipkart开源。
 * [Diffson](https://github.com/gnieh/diffson)：RFC-6901、RFC-6902和RFC-7396的Scala实现。
-* [BSONPatch](https://github.com/eBay/bsonpatch)：RFC 6902的BSON实现，用于计算两个BSON文档之间的差异，由eBay开源。
+* [Kotlin JSON Patch](https://github.com/ReidSync/kotlin-json-patch)：这是完全用Kotlin编写的RFC 6902 JSON Patch的实现。
 
 #### JSON-LD
 
@@ -3181,6 +3266,18 @@
 * [Schema.org Java](https://github.com/Kobee1203/schema-org-java)：Schema-org Java是一个用于创建schema.org实体的库。
 * [JB4JSON-LD](https://github.com/kbss-cvut/jb4jsonld)：JB4JSON-LD是一个简单的库，用于将Java对象序列化为JSON-LD，由布拉格捷克技术大学开源。
 * [Hydra Java](https://github.com/dschulten/hydra-java)：标注你的Java Bean并使用Hydra将它们序列化为JSON LD。
+* [Jackson JSON-LD](https://github.com/io-informatics/jackson-jsonld)：Jackson的JSON-LD模块。
+
+#### BSON
+
+* [BSON4Jackson](https://github.com/michel-kraemer/bson4jackson)：该库向Jackson JSON处理器添加了对BSON的支持。
+* [EBSON](https://github.com/kohanyirobert/ebson)：EBSON是一个用Java编写的可扩展BSON编码器/解码器库。
+* [Calypso](https://github.com/m2-oss/calypso)：Scala的BSON库。
+* [KBSON](https://github.com/jershell/kbson)：KotlinX Serialization对MongoDB BSON的支持。
+* [BSONPatch](https://github.com/eBay/bsonpatch)：RFC 6902的BSON实现，用于计算两个BSON文档之间的差异，由eBay开源。
+* [Vertx BSON Codec](https://github.com/pmlopes/vertx-bson-codec)：Vert.x 3的BSON编解码器。
+* [BSON Codecs JSR310](https://github.com/cbartosiak/bson-codecs-jsr310)：Java 8日期和时间API的BSON编解码器。
+* [KBSON](https://github.com/mongodb/kbson)：Kotlin多平台BSON实现。
 
 #### JSON-RPC
 
@@ -3204,6 +3301,8 @@
 * [Hamcrest JSON](https://github.com/hertzsprung/hamcrest-json)：用于比较JSON文档的Hamcrest匹配器。
 * [JsonDiff](https://github.com/LianjiaTech/json-diff)：JsonDiff提供了对JSON通用的Diff能力，支持JSON字符串的深度比较、支持无序数组比较、内含多种算法模型满足对JSON比较时各种需求，由贝壳开源。
 * [Jazon](https://github.com/zendesk/jazon)：一个用于测试JSON负载断言的库。
+* [JsonDiff](https://github.com/algesten/jsondiff)：结构化JSON差异/补丁工具。
+* [JSON Diff](https://github.com/deblockt/json-diff)：一个可定制的库，用于执行JSON比较并输出详细的差异信息。
 
 ## 配置管理
 
@@ -3328,6 +3427,9 @@
 * [JToml](https://github.com/agrison/jtoml)：这是使用Java的TOML标记语言的解析器。
 * [JToml](https://github.com/WasabiThumb/jtoml)：JToml是一个适用于Java 8及更高版本的模块化TOML库。
 * [Tomlkt](https://github.com/Peanuuutz/tomlkt)：内置支持kotlinx.serialization的多平台TOML库。
+* [4koma](https://github.com/valderman/4koma)：一个小型、独立、易于使用的Kotlin TOML解析器库。
+* [TOML JavaLib](https://github.com/TheElectronWill/TOML-javalib)：用于读写TOML数据的Java库。
+* [TOML Clj](https://github.com/tonsky/toml-clj)：TOML Clj是一个快速的JVM Clojure TOML解析器。
 
 ## GraphQL
 
@@ -4100,6 +4202,7 @@
 * [Scrala](https://github.com/dyweb/scrala)：Scrala是一个基于Scala的网页爬虫框架，其灵感来源于Scrapy。
 * [GuozhongCrawler](https://github.com/out0fmemory/GuozhongCrawler)：GuozhongCrawler是一个无须配置、便于二次开发的爬虫开源框架。
 * [MySpider](https://github.com/zazaluMonster/MySpider)：MySpider是使用Java语言实现的网络爬虫项目。
+* [Web Data Extractor](https://github.com/fivesmallq/web-data-extractor)：使用Jquery Selector、XPath或JsonPath从常见的Web格式(如HTML、XML和JSON)中提取和解析结构化数据。
 
 #### HTML提取
 
@@ -4603,7 +4706,7 @@
 * [Airline](https://github.com/airlift/airline)：Airline是一个基于Java注解的框架，用于解析类似Git的命令行结构。
 * [Airline 2](https://github.com/rvesse/airline)：Airline是一个Java库，提供基于注解的命令行接口解析框架。
 * [JLine](https://github.com/jline/jline3)：JLine是一个用于处理控制台输入的Java库。
-* [Kotlinx CLI](https://github.com/Kotlin/kotlinx-cli)：通用命令行解析器的纯Kotlin实现，由JetBrains开发。
+* [Kotlinx CLI](https://github.com/Kotlin/kotlinx-cli)：Kotlinx CLI可用于为Kotlin/JVM、Kotlin/Native以及任何其他Kotlin控制台应用程序创建用户友好且灵活的命令行界面，由JetBrains开发。
 * [Aesh](https://github.com/aeshell/aesh)：Aesh是一个用于处理控制台输入的Java库。
 * [Kotlin Inquirer](https://github.com/kotlin-inquirer/kotlin-inquirer)：受Inquirer.js启发编写的常见交互式命令行用户界面集合。
 * [W2J CLI](https://github.com/frost373/w2j-cli)：Java Web命令行框架，帮助你轻松构建命令行Java Web系统。
@@ -4645,6 +4748,10 @@
 * [Rop](https://github.com/ryenus/rop)：用Java编写的轻量级命令行参数解析器。
 * [Lanat](https://github.com/darvil82/lanat)：Lanat是Java 17的命令行参数解析器，具有易用性和高度可定制性。
 * [Barclay](https://github.com/broadinstitute/barclay)：Barclay是一组用于注释、解析、验证和生成命令行选项文档的类，由麻省理工学院和哈佛大学布罗德研究所开源。
+* [Sumac](https://github.com/quantifind/Sumac)：Sumac是一个命令行选项解析器和库。
+* [Drink](https://github.com/jonahseguin/drink)：Spigot插件的命令框架和参数解析器。
+* [Argyle](https://github.com/jfkelley/argyle)：Scala的命令行参数解析器。
+* [CliArgs](https://github.com/jjenkov/cli-args)：Java命令行参数解析器。
 
 #### 命令调度
 
@@ -4676,6 +4783,9 @@
 * [Chalk](https://github.com/tomas-langer/chalk)：Chalk专注于Java中的跨平台标准输出着色。
 * [ASCII Graphs](https://github.com/mdr/ascii-graphs)：一个用于图的ASCII艺术图库，它支持解析现有图解和将图渲染成ASCII图。
 * [Banana](https://github.com/yihleego/banana)：Banana是一个用于Java的FIGlet实用程序，可生成各种字体的文本横幅。
+* [Figlet4s](https://github.com/ColOfAbRiX/figlet4s)：Figlet4s是一个用于创建ASCII艺术横幅的库。
+* [Ascii Hexagonal Grid Pretty Printer](https://github.com/cmelchior/asciihexgrid)：Ascii Hexagonal Grid Pretty Printer是一个基于Java的工具，可以将六边形网格输出到命令行。
+* [Tree Printer](https://github.com/billvanyo-zz/tree_printer)：一个用于将二叉树打印为ASCII文本的Java类。
 
 #### 文本打印
 
@@ -4697,6 +4807,12 @@
 * [ASCII Tables](https://github.com/freva/ascii-table)：使用Java轻松创建和自定义简单的ASCII表。
 * [Java Text Tables](https://github.com/iNamik/java_text_tables)：Java中的文本表库。
 * [Mini Table](https://github.com/blinkfox/mini-table)：一个轻量级、零依赖的Java ASCII表格生成库。
+* [Table](https://github.com/cldwalker/table)：该库可以显示自动适应终端的ASCII表格，并能处理大多数数据结构。
+* [Doric](https://github.com/joegallo/doric)：Doric是一个用于从Clojure数据渲染出漂亮的Emacs风格表格的库。
+* [DBTablePrinter](https://github.com/htorun/dbtableprinter)：DBTablePrinter是一个Java实用工具类，用于将给定数据库表中的行打印到标准输出。
+* [Java Console Table Builder](https://github.com/thousandlemons/Java-Console-Table-Builder)：这个库可以轻松构建时尚的类似Excel的表格，并且可以将所有格式保留并打印成单个字符串。
+* [KFormat](https://github.com/marcelmay/kformat)：KFormat是一个轻量级的Kotlin库，用于格式化文本输出，例如在结构化表格中打印值。
+* [Tabl](https://github.com/justone/tabl)：在终端中根据数据创建表格。
 
 #### 进度条
 
@@ -5417,6 +5533,7 @@
 * [Swagger Codegen Maven Plugin](https://github.com/garethjevans/swagger-codegen-maven-plugin)：支持Swagger代码生成项目的Maven插件。
 * [Light Codegen](https://github.com/networknt/light-codegen)：基于Rocker的代码生成器，可以用作命令行实用程序或Web服务。
 * [GCE2Retrofit](https://github.com/chiuki/gce2retrofit)：Google Cloud Endpoint(GCE)发现文件生成Retrofit接口和相关模型。
+* [Swagger Confluence](https://github.com/starlightknight/swagger-confluence)：该项目的主要目标是简化将Swagger API文档发布到Atlassian Confluence服务器的过程。
 
 #### 接口优先
 
@@ -5451,6 +5568,7 @@
 * [JAPI](https://github.com/dounine/japi)：用于生成美观的API Java文档。
 * [Swagger4j](https://github.com/cpjit/swagger)：Swagger4j是一个快速生成可测试的Web接口文档的类库。
 * [JAsyncAPI](https://github.com/asyncapi/jasyncapi)：JAsyncAPI是一个基于Java代码优先的AsyncAPI规范工具。
+* [Docless](https://github.com/timeoutdigital/docless)：一个Scala DSL，用于为你的Web服务生成JSON模式和Swagger文档。
 
 #### 模式解析
 
@@ -5747,7 +5865,6 @@
 * [TagChowder](https://github.com/yahoo/tagchowder)：TagChowder是一个用Java编写的符合SAX的解析器，由Yahoo开源。
 * [Apache Santuario](https://github.com/apache/santuario-xml-security-java)：Santuario项目旨在提供XML主要安全标准的实现。
 * [Jaxb RI](https://github.com/eclipse-ee4j/jaxb-ri)：JAXB的Eclipse实现。
-* [SitemapGen4j](https://github.com/dfabulich/sitemapgen4j)：SitemapGen4j是一个用Java生成XML站点地图的库。
 * [Jaxen](https://github.com/jaxen-xpath/jaxen)：Jaxen是一个用Java编写的开源XPath 1.0库。
 * [Simple](http://simple.sourceforge.net)：Simple是Java的一个XML序列化框架。
 * [Xsd2bean](https://github.com/goldmansachs/gs-xsd2bean)：Xsd2bean是一个XML到对象的映射器，由高盛银行开源。
@@ -5775,6 +5892,29 @@
 * [DomTrip](https://github.com/maveniverse/domtrip)：DomTrip是一个用于无损XML编辑的Java库。
 * [TagSoup](http://vrici.lojban.org/~cowan/tagsoup/)：TagSoup是一个用Java编写的符合SAX规范的解析器。
 * [Ballerina XmlData](https://github.com/ballerina-platform/module-ballerina-xmldata)：Ballerina XmlData提供API，用于在XML和JSON/Ballerina记录之间进行转换。
+* [SitemapGen4j](https://github.com/dfabulich/sitemapgen4j)：SitemapGen4j是一个用Java生成XML站点地图的库。
+* [Scala XML](https://github.com/scala/scala-xml)：标准Scala XML库。
+* [AXML](https://github.com/xgouchet/AXML)：AXML是一个用于解析Android二进制XML文件的库。
+* [SOA Model](https://github.com/membrane/soa-model)：SOA Model是一个开源工具包和Java API，用于WSDL和XML Schema。
+* [XSD Gen](https://github.com/wiztools/xsd-gen)：用于从XML生成XSD的Java命令行工具。
+* [Kotlin Serialization XML](https://github.com/rharter/kotlinx-serialization-xml)：Kotlin Serialization的XML支持。
+* [Simple Easy XML Parser](https://github.com/novoda/simple-easy-xml-parser)：SEXP是一款基于Android SAX解析器但完全用Java编写的简单、高性能、类型化的XML解析器。
+* [DiffXML](https://github.com/amouat/diffxml)：XML文件差异和Patch库。
+* [Xs4s](https://github.com/ScalaWilliam/xs4s)：Scala的XML流式传输。
+* [XmlCombiner](https://github.com/atteo/xml-combiner)：XmlCombiner允许将多个XML文件合并为一个文件。
+* [EAXY](https://github.com/jhannes/eaxy)：EAXY是一个流式的Java库，用于构建、解析、搜索和操作XML。
+* [VTD-XML](https://github.com/dryade/vtd-xml)：VTD-XML是最先进、最强大的SOA和云计算XML处理模型。
+* [AXML](https://github.com/apk-editor/aXML)：AXML是一个纯Java库，用于解码和编码Android二进制XML文件。
+* [Spac](https://github.com/dylemma/xml-spac)：Spac是一个Scala库，用于以声明式风格构建流式消费者，专门用于XML和JSON等树状数据类型。
+* [Piriti](https://github.com/hpehl/piriti)：Piriti是一个基于合理默认值、少量注解和延迟绑定的GWT JSON和XML映射器。
+* [Simple Java XML Parser](https://github.com/rkalla/simple-java-xml-parser)：一款兼具XPath易用性和拉取式解析性能的Java XML解析器。
+* [FastXml](https://github.com/fastxml/fastxml)：FastXml是一个简单、高性能、内存占用小的基于拉取的XML解析器。
+* [Kotlin XML DSL](https://github.com/jonnyzzz/kotlin.xml.bind)：这是一个小型库，允许用户通过Kotlin DSL生成XML文件。
+* [XMLTool](https://github.com/mathieucarbou/xmltool)：XMLTool是一个非常简单的Java库，能够对XML文档执行各种常见操作。
+* [DSL4XML](https://github.com/steveliles/dsl4xml)：通过反映文档结构的DSL，轻松快速地将XML和JSON编组为Java对象。
+* [XML2AXML](https://github.com/hzw1199/xml2axml)：将XML编码为AXML或从AXML解码XML。
+* [DD PList](https://github.com/3breadt/dd-plist)：一个提供对ASCII、XML和二进制属性列表支持的Java库。
+* [Android PList Parser](https://github.com/tenaciousRas/android-plist-parser)：Android PList Parser是基于SAX的PList-XML解析器实现。
 
 ### HTML库
 
@@ -5798,6 +5938,7 @@
 * [Ultralight Java](https://github.com/LabyMod/ultralight-java)：Ultralight Web引擎的Java包装器，Ultralight是一款轻量级、跨平台的HTML渲染引擎，适用于桌面应用和游戏。
 * [Pine](https://github.com/sparsetech/pine)：Pine是一个适用于Scala平台的HTML5和XML函数式库。
 * [Lagarto](https://lagarto.jodd.org/)：Lagarto是一套用Java编写的HTML/XML解析器。
+* [ScalaTags](https://github.com/com-lihaoyi/scalatags)：ScalaTags是一个用于Scala的小型XML/HTML构建库。
 
 ### RTF库
 
@@ -5891,8 +6032,6 @@
 * [jHDF](https://github.com/jamesmudd/jhdf)：该项目是用于访问HDF5文件的纯Java实现。
 * [MSLinks](https://github.com/DmitriiShamrikov/mslinks)：用于解析和创建Windows快捷方式文件(.lnk)的库。
 * [JglTF](https://github.com/javagl/JglTF)：与glTF相关的Java库。
-* [Java netCDF](https://github.com/Unidata/netcdf-java)：netCDF Java库提供了科学数据访问的接口，它可用于从各种文件格式读取科学数据，包括netCDF、HDF、GRIB、BUFR等，由美国国家科学基金会开源。
-* [DD PList](https://github.com/3breadt/dd-plist)：一个Java库，提供对ASCII、XML和二进制属性列表的支持。
 * [Jcabi Manifests](https://github.com/jcabi/jcabi-manifests)：用于方便读取类路径中可用的MANIFEST.MF文件的Java库。
 * [Samchika](https://github.com/MayankPratap/Samchika)：Samchika是Java语言的一个可重复、易于使用且速度极快的文件处理库。
 * [TorchV Unstructured](https://github.com/torchv/torchv-unstructured)：一个强大且开发者友好的文档解析库，专为RAG应用优化。
@@ -5922,6 +6061,7 @@
 * [Nanhu Print Java](https://github.com/hongjinqiu/nanhu-print-java)：Nanhu Print Java是一个用Java语言实现的XML转PDF生成框架。
 * [JSONToCSV](https://github.com/Arkni/json-to-csv)：JSON到CSV转换器。
 * [jPDFImages](https://www.qoppa.com/pdfimages/)：jPDFImages是一个Java库，用于从PDF文件导出图像以及将图像导入PDF文件。
+* [XML2CSV](https://github.com/fordfrog/xml2csv)：简单的XML转CSV工具。
 
 #### PDF/HTML转换
 
@@ -5966,6 +6106,8 @@
 * [Json2Xml](https://github.com/lukas-krecan/json2xml)：Json2Xml项目是JSON到XML转换的简单实现。
 * [Silencio](https://github.com/damianszczepanik/silencio)：Silencio是一个用于转换XML、JSON、YAML、Properties和其他格式的Java库。
 * [Jsonix Schema Compiler](https://github.com/highsource/jsonix-schema-compiler)：为XML Schema生成Jsonix映射。
+* [JSONS2XSD](https://github.com/ethlo/jsons2xsd)：用Java编写的JSON模式到XML模式转换器。
+* [MapNeat](https://github.com/nomemory/mapneat)：MapNeat是一个用Kotlin编写的JVM库，它提供了一种易于使用的DSL，用于以声明式的方式将JSON转换为JSON、XML转换为JSON、POJO转换为JSON。
 
 ### Mime解析
 
@@ -6047,6 +6189,25 @@
 * [Titus](https://github.com/Netflix/titus-control-plane)：Titus是Netflix容器管理平台，用于管理容器并提供与基础设施生态系统的集成。
 * [Admiral](https://github.com/vmware-archive/admiral)：Admiral是一款高度可扩展且极具重量级的容器管理平台，用于部署和管理基于容器的应用，由VMware开源。
 * [DC/OS Commons](https://github.com/d2iq-archive/dcos-commons)：DC/OS SDK是一套工具、库和文档的集合，用于轻松地将Kafka、Cassandra、HDFS、Spark和TensorFlow等技术与DC/OS集成。
+
+## 集群管理
+
+* [Apache Aurora](https://github.com/apache/aurora)：Aurora是一个用于长期运行服务和Cron作业的Mesos框架，由Twitter开源。
+* [Chronos](https://github.com/mesos/chronos)：Chronos是Cron的替代品，它是一个分布式容错调度程序，运行在Mesos之上，可用于作业编排。
+* [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
+* [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
+* [OPENI](https://github.com/open-intelligence/OpenI-Octopus)：OPENI是一个集群管理工具和资源调度平台，最初由微软研究院、微软搜索技术中心、北京大学、西安交通大学、浙江大学和中国科学技术大学联合设计和开发。
+* [Rapid](https://github.com/lalithsuresh/rapid)：Rapid是一种分布式成员服务，它允许一组进程轻松形成集群，并在成员资格发生变化时接收通知。
+* [Norbert](https://github.com/rhavyn/norbert)：Norbert是一个提供简单集群管理和集群感知客户端/服务器网络API的库，由Linkedin开源。
+* [Apache Helix](https://github.com/apache/helix)：Helix是一个通用集群管理框架，用于自动管理节点集群上托管的分区、复制和分布式资源，由LinkedIn开源。
+* [Apache Airavata](https://airavata.apache.org/)：Airavata是一个软件框架，用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业，由印第安纳大学开源。
+* [Fenzo](https://github.com/Netflix/Fenzo)：Fenzo是Apache Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
+* [Apache REEF](https://github.com/apache/reef)：REEF是一个用于为集群资源管理器(例如Apache Hadoop YARN或Apache Mesos)开发可移植应用程序的库，由微软研究院开源。
+* [Orion](https://github.com/pinterest/orion)：Orion是一个适用于有状态分布式系统的通用可插拔管理和自动化平台，由Pinterest开源。
+* [Apache Myriad](https://github.com/apache/incubator-myriad)：Myriad是一个Mesos框架，旨在扩展Mesos上的YARN集群，由eBay、MapR和Mesosphere开源。
+* [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：DCM使程序员能够使用高级声明性语言(SQL)构建调度程序和集群管理器，由VMware开源。
+* [Marathon](https://github.com/mesosphere/marathon)：Marathon是经过生产验证的用于容器编排的Mesos框架，由Mesosphere开源。
+* [Metronome](https://github.com/dcos/metronome)：Metronome是一个用于定时任务的Apache Mesos框架。
 
 ## DevOps
 
@@ -7144,6 +7305,7 @@ Kafka生态管理系统、运维平台。
 * [Spring Clean Architecture](https://github.com/coi-gov-pl/spring-clean-architecture)：这是一个采用Clean Architecture架构，并使用Spring Framework实现的Web应用程序示例。
 * [Spring Boot MyBatis](https://github.com/ShawnyXiao/SpringBoot-MyBatis)：一个基于Spring Boot、MyBatis和Spring Security OAuth的REST后端框架。
 * [TomEE JAX-RS Starter](https://github.com/tomitribe/tomee-jaxrs-starter-project)：Apache TomEE JAX-RS入门项目。
+* [Servlet Maven Archetype](https://github.com/maciejwalkowiak/servlet3-maven-archetype)：该项目提供Maven原型，用于创建简单的基于Servlet 3的Web应用程序。
 
 #### 脚手架
 
@@ -8085,7 +8247,6 @@ Kafka生态管理系统、运维平台。
 * [AEAI CRM](https://gitee.com/agileai/aeaicrm)：AEAI CRM包括一些核心的客户关系管理业务功能。
 * [CordysCRM](https://github.com/1Panel-dev/CordysCRM)：Cordys CRM是飞致云出品的中国首个开源AI CRM，集信息化、数字化和智能化于一体。
 * [JinBooks](https://github.com/jinbooks/jinbooks)：JinBooks是功能齐全的财务记账系统，告别Excel手工记账。
-* [AI CRM](https://github.com/WuKongOpenSource/AI_CRM)：智能对话式客户关系管理系统。
 * [Zendesk Java Client](https://github.com/cloudbees-oss/zendesk-java-client)：这是一个用Java编写的Zendesk客户端实现。
 * [Salesforce REST API Connector](https://github.com/jesperfj/force-rest-api)：Salesforce REST API Connector是一个用于访问Salesforce平台REST API的Java客户端库。
 
@@ -8593,6 +8754,7 @@ Kafka生态管理系统、运维平台。
 * [STAPI](https://github.com/cezarykluczynski/stapi)：STAPI是第一个公开的星际迷航API，可通过REST访问。
 * [Vimeo Networking](https://github.com/vimeo/vimeo-networking-java)：Vimeo Networking是一个用于与Vimeo API交互的JVM SDK。
 * [RadioBrowser4j](https://github.com/sfuhrm/radiobrowser4j)：RadioBrowser Java API库。
+* [WordPress Java](https://github.com/canbican/wordpress-java)：用于使用WordPress的XML-RPC功能的Java库。
 
 #### Twitter
 
@@ -9134,6 +9296,10 @@ Kafka生态管理系统、运维平台。
 * [j8583](https://bitbucket.org/chochos/j8583)：j8583是ISO8583协议的Java实现。
 * [Adelbs ISO8583](https://github.com/adelbs/ISO8583)：这是一个用于测试ISO8583协议的GUI工具，同时也是一个Java库。
 * [ISO8583 Java](https://github.com/vikrantlabde/iso8583-Java)：ISO 8583消息打包和解包库。
+* [Simple8583](https://github.com/magicjoey/Simple8583)：简易ISO8583框架。
+* [Java8583](https://github.com/Ajsgn/Java8583)：基于Java语言实现的iso8583协议框架包。
+* [jBSBE](https://github.com/keyhan/jBSBE)：jBSBE是一个基于j8583的库。
+* [ISO8583 JSON XML](https://github.com/kamshory/ISO8583-JSON-XML)：该库用于将消息从一种格式转换为另一种格式，支持的格式包括ISO 8583、JSON和XML。
 
 #### 金融信息交换
 
@@ -11866,7 +12032,7 @@ Kafka生态管理系统、运维平台。
 * [Lila](https://github.com/lichess-org/lila)：Lila是一款免费的在线国际象棋游戏服务器，专注于实时游戏玩法和易用性。
 * [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：NettyGameServer是基于Netty 4.X实现的手机游戏分布式服务器，支持TCP、UDP、HTTP、WebSocket链接。
 * [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
-* [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式java游戏服务器。
+* [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式Java游戏服务器。
 * [AiJ](https://gitee.com/xiyoufang/aij)：AiJ是一套完整的房间类游戏解决方案，支持无限水平扩展来满足更大的人数承载，并且提供了良好的调试接口。
 * [Summer](https://github.com/SwingFrog/Summer)：Summer是一个轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
 * [JgServer](https://gitee.com/lizhaoandroid/JgServer)：JgServer是基于Netty、Spring、Mybatis和Redis等框架开发的服务端容器。
@@ -12378,6 +12544,7 @@ Kafka生态管理系统、运维平台。
 * [Build Server Protocol](https://github.com/build-server-protocol/build-server-protocol)：该项目致力于改进语言服务器/编辑器和构建工具之间的集成，由Scala中心和JetBrains领导。
 * [BSL Language Server](https://github.com/1c-syntax/bsl-language-server)：BSL语言服务器协议的实现。
 * [Meghanada Server](https://github.com/mopemope/meghanada-server)：适用于你的编辑器的Java IDE服务器，为你最喜欢的文本编辑器提供类似Java IDE的功能。
+* [XML Language Server](https://github.com/microclimate-devops/xml-language-server)：XML Language Server是语言服务器协议(LSP)的一个实现。
 
 ## 元编程
 
@@ -12615,6 +12782,7 @@ Kafka生态管理系统、运维平台。
 * [Pili Streaming Java SDK](https://github.com/pili-engineering/pili-sdk-java)：Pili Streaming Cloud服务器端Java库。
 * [TurnServer](https://github.com/jitsi/turnserver)：开源TURN服务器实现。
 * [Jellyfin Kotlin SDK](https://github.com/jellyfin/jellyfin-sdk-kotlin)：Jellyfin Kotlin SDK 实现了Jellyfin API，方便用户轻松访问服务器。
+* [RTSP WebSocket Server](https://github.com/xingshuangs/rtsp-websocket-server)：RTSP WebSocket Server用于获取视频流，然后在Web中呈现。
 
 #### 呼叫中心
 
@@ -12733,6 +12901,9 @@ Kafka生态管理系统、运维平台。
 * [Bloomfilter](https://github.com/wangxu0/bloomfilter)：该项目实现了布隆过滤器，并可选择和扩展不同的BitSet或其他存储方法。
 * [PageBloomFilter](https://github.com/PeterRK/PageBloomFilter)：带有页面的布隆过滤器，专为存储密度和查询速度设计。
 * [Hutool BloomFilter](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-bloomFilter)：Hutool BloomFilter提供一些Hash算法的布隆过滤。
+* [Bloomfilter](https://github.com/sangupta/bloomfilter)：Bloomfilter是一个纯Java实现的布隆过滤器。
+* [Bloomfilter](https://github.com/lovasoa/bloomfilter)：一个简单的Java布隆过滤器实现。
+* [Cljc Bloom](https://github.com/davidwclin/cljc-bloom)：Clojure/ClojureScript实现的跨平台布隆过滤器。
 
 #### 布谷鸟过滤器
 
@@ -12853,6 +13024,7 @@ Kafka生态管理系统、运维平台。
 * [MurmurHash Java](https://github.com/tnm/murmurhash-java)：MurmurHash2的32位和64位实现。
 * [Rolling Hash Java](https://github.com/lemire/rollinghashjava)：Java中的滚动哈希函数。
 * [JavaUtil](https://github.com/yonik/java_util)：JavaUtil包含一个快速、高质量的哈希函数实现。
+* [G414 Hash](https://github.com/sunnygleason/g414-hash)：一系列实用的64位哈希工具，包括布隆过滤器和HashFile实现。
 
 #### 文本排序
 
@@ -13254,12 +13426,15 @@ Kafka生态管理系统、运维平台。
 
 #### GeoJson
 
+* [Jackson Datatype JTS](https://github.com/bedatadriven/jackson-datatype-jts)：Jackson模块，为使用GeoJSON格式的JTS Geometry对象提供自定义序列化器和反序列化器。
 * [GeoJson Jackson](https://github.com/opendatalab-de/geojson-jackson)：GeoJson POJO Jackson，轻松序列化和反序列化对象。
 * [Android GeoJSON](https://github.com/cocoahero/android-geojson)：一个完整的Android GeoJSON实现。
 * [JTS2GeoJSON](https://github.com/bjornharrtell/jts2geojson)：此Java库可以将JTS几何体转换为GeoJSON格式，反之亦然。
 * [GeoGson](https://github.com/filosganga/geogson)：该库提供对使用广为人知的GeoJSON标准解析和写入地理空间实体的最基本支持。
 * [Play GeoJSON](https://github.com/jroper/play-geojson)：Play的JSON库对GeoJSON的支持。
 * [Simple Features GeoJSON](https://github.com/ngageoint/simple-features-geojson-java)：Simple Features GeoJSON是一个Java库，用于向GeoJSON写入和读取Simple Feature Geometry，由美国国家地理空间情报局与BIT Systems合作开发。
+* [GeoJsonify](https://github.com/Nextome/GeoJsonify)：轻松地将GeoJson图层添加到地图中。
+* [GeoJSON](https://github.com/jwills/geojson)：用于处理GeoJSON记录的Scala库。
 
 #### GIS系统
 
@@ -13394,10 +13569,13 @@ Kafka生态管理系统、运维平台。
 
 * [SOS](https://github.com/52North/SOS)：SOS提供了一个可互操作的基于Web的界面，用于插入和查询传感器数据和传感器描述。
 * [Unidata AWIPS](https://github.com/Unidata/awips2)：AWIPS是一个气象软件包，它用于解码、显示和分析数据，最初由雷神公司为国家气象局(NWS)开发。
+* [Java netCDF](https://github.com/Unidata/netcdf-java)：netCDF Java库提供了科学数据访问的接口，它可用于从各种文件格式读取科学数据，包括netCDF、HDF、GRIB、BUFR等，由美国国家科学基金会开源。
+* [GRIB2JSON](https://github.com/cambecc/grib2json)：一个将GRIB2文件解码为JSON的命令行实用程序。
 * [OpenDCS](https://github.com/opendcs/opendcs)：水文/气象数据开放数据采集系统。
 * [wContour](https://github.com/meteoinfo/wContour)：wContour用于在Java环境中实现地球科学数据分析软件开发中使用的等值线相关算法，由中国气象局开源。
 * [Vortex](https://github.com/HydrologicEngineeringCenter/Vortex)：Vortex是针对水文工程中心应用程序的数据处理实用程序的集合，例如HEC-HMS、HEC-RAS。
 * [SeaDAS](https://github.com/seadas/seadas)：SeaDAS软件由NASA开发，专门用于海洋水色数据的处理、可视化、分析和质量保证。
+* [JGribX](https://github.com/spidru/JGribX)：JGribX是一个用Java编写的GRIB解码器。
 
 ## 地震学
 
@@ -13735,6 +13913,8 @@ Kafka生态管理系统、运维平台。
 * [Despector](https://github.com/Despector/Despector)：一个Java/Kotlin反编译工具和AST库。
 * [YAJCo](https://github.com/kpi-tuke/yajco)：YAJCo是一款基于注解模型的语言解析器生成器。
 * [Dropincc.java](https://github.com/pfmiles/dropincc.java)：Dropincc.java是一个小型且易于使用的解析器生成器。
+* [Gherkin2](https://github.com/cucumber-attic/gherkin2)：Gherkin2是一个基于Ragel的Gherkin语言快速词法分析器和语法分析器。
+* [Org Parser](https://github.com/200ok-ch/org-parser)：Org Parser是Emacs中Org模式标记语言的解析器。
 
 #### 表达式引擎
 
@@ -13841,6 +14021,7 @@ Kafka生态管理系统、运维平台。
 * [Java PetitParser](https://github.com/petitparser/java-petitparser)：PetitParser结合了无扫描器解析、解析器组合器、解析表达式语法(PEG)和Packrat解析器的思想，将语法和解析器建模为可以动态重新配置的对象。
 * [Jar Jar Parse](https://github.com/BjoernLoetters/Jar-Jar-Parse)：Jar Jar Parse是一个轻量级库，专为Java中的解析器快速原型设计而设计。
 * [Mug Dot Parse](https://github.com/google/mug/tree/master/dot-parse)：低程序的Java解析器组合器，适合日常一次性解析任务。
+* [Kern](https://github.com/blancas/kern)：Kern是一个用于Clojure的解析器组合器库。
 * [Papa Carlo](https://github.com/Eliah-Lakhin/papa-carlo)：Papa Carlo是第一个采用增量解析方法的Scala解析库。
 * [ParseWorks](https://github.com/parseworks/parseworks)：ParseWorks是一个Java库，用于使用解析器组合器构建LLR解析器。
 * [Parsley](https://github.com/j-mie6/parsley)：Parsley是一个快速、现代的Scala解析器组合器库。
@@ -13925,7 +14106,6 @@ Kafka生态管理系统、运维平台。
 * [Jackdaw](https://github.com/vbauer/jackdaw)：Jackdaw是一个Java注解处理器，可以简化Java/Android开发并防止编写繁琐的代码。
 * [Rest.Vertx](https://github.com/zandero/rest.vertx)：适用于Vert.x Vertical的JAX-RS风格注解处理器。
 * [Domino Jackson](https://github.com/DominoKit/domino-jackson)：Domino Jackson是一个基于注解处理器的JSON映射器。
-* [Gson Path](https://github.com/LachlanMcKee/gsonpath)：一个注解处理器库，在编译时生成Gson类型适配器，也使用基本的JsonPath功能。
 * [Sundrio](https://github.com/sundrio/sundrio)：Sundrio提供了一种抽象的Java代码表示方法，允许你在不受上下文限制的情况下表示、操作和生成代码。
 * [APTK](https://github.com/toolisticon/aptk)：APTK可帮助你以更有效的方式构建注解处理器的工具包。
 * [Incap](https://github.com/tbroyer/gradle-incap-helper)：用于构建增量注解处理器的辅助库和注解处理器。
@@ -14191,6 +14371,7 @@ Kafka生态管理系统、运维平台。
 * [SmartGWT](https://smartclient.com/product/smartgwt.jsp)：SmartGWT将业界最丰富的GWT UI组件集与Java服务器框架相结合，为构建企业Web应用程序提供端到端的解决方案。
 * [Domino UI](https://github.com/DominoKit/domino-ui)：类型安全且功能丰富的UI组件库，供Java开发人员使用流式API，并且不依赖于外部JavaScript。
 * [React4j](https://github.com/react4j/react4j)：该项目的目标是能够从GWT无缝使用React的组件模型，并利用React开发支持工具(例如React的Devtools)生态系统。
+* [RestyGWT](https://github.com/resty-gwt/resty-gwt)：RestyGWT是一个用于生成REST服务和JSON编码数据传输对象的GWT生成器。
 * [GWT Material](https://github.com/GwtMaterialDesign/gwt-material)：GWT的Google Material Design包装器。
 * [Vue GWT](https://github.com/VueGWT/vue-gwt)：Vue GWT使用JsInterop和Elemental2将Vue.js与GWT 2.9集成，它允许你用Java编写Vue组件。
 * [GWT Bootstrap](https://github.com/gwtbootstrap/gwt-bootstrap)：提供了简单灵活的组件来表示Bootstrap组件、样式和插件，由Twitter开源。

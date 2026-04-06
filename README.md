@@ -43,17 +43,15 @@
   * [查询引擎](#查询引擎)
   * [存储格式](#存储格式)
   * [存储系统](#存储系统)
-  * [流处理平台](#流处理平台)
+  * [流处理](#流处理)
   * [ETL工具](#ETL工具)
   * [CDC组件](#CDC组件)
   * [连接器](#连接器)
-  * [集群管理](#集群管理)
   * [调度系统](#调度系统)
   * [执行引擎](#执行引擎)
   * [OLAP引擎](#OLAP引擎)
   * [CEP引擎](#CEP引擎)
   * [监控工具](#监控工具)
-  * [Notebook](#Notebook)
   * [数据湖框架](#数据湖框架)
   * [数据Shuffle](#数据Shuffle)
   * [时序数据分析](#时序数据分析)
@@ -94,22 +92,19 @@
   * [灾难备份](#灾难备份)
 * [网络编程](#网络编程)
   * [HTTP客户端](#HTTP客户端)
-  * [HTTP路由](#HTTP路由)
   * [Web服务器](#Web服务器)
-  * [应用服务器](#应用服务器)
-  * [CFML引擎](#CFML引擎)
   * [FTP服务器](#FTP服务器)
   * [NIO框架](#NIO框架)
   * [网络库](#网络库)
   * [WebSocket](#WebSocket)
   * [Socket.IO](#SocketIO)
   * [Socket](#Socket)
-  * [TCP/UDP库](#TCPUDP库)
+  * [TCP/UDP](#TCPUDP)
   * [IO_Uring](#IO_Uring)
   * [IM](#IM)
   * [Pcap](#Pcap)
-  * [SSH库](#SSH库)
-  * [DNS库](#DNS库)
+  * [SSH](#SSH)
+  * [DNS](#DNS)
   * [HTTP代理](#HTTP代理)
   * [内网穿透](#内网穿透)
   * [网络监控](#网络监控)
@@ -125,7 +120,7 @@
   * [SOCKS](#SOCKS)
   * [Radius](#Radius)
   * [NETCONF](#NETCONF)
-  * [IP库](#IP库)
+  * [IP](#IP)
   * [SIP](#SIP)
 * [人工智能](#人工智能)
   * [LLM框架](#LLM框架)
@@ -180,6 +175,7 @@
   * [数据分析](#数据分析)
   * [实体解析](#实体解析)
   * [Dataframe](#Dataframe)
+  * [Notebook](#Notebook)
 * [并发编程](docs/doc2.md#并发编程)
   * [响应式](docs/doc2.md#响应式)
   * [Future扩展](docs/doc2.md#Future扩展)
@@ -334,12 +330,14 @@
   * [CBOR](docs/doc2.md#CBOR)
   * [TOON](docs/doc2.md#TOON)
   * [EDN](docs/doc2.md#EDN)
-* [JSON库](docs/doc2.md#JSON库)
+* [JSON](docs/doc2.md#JSON)
+  * [JSON库](docs/doc2.md#JSON库)
   * [JSON Schema](docs/doc2.md#JSON-Schema)
   * [JsonPath](docs/doc2.md#JsonPath)
   * [JSON JQ](docs/doc2.md#JSON-JQ)
   * [JSON Patch](docs/doc2.md#JSON-Patch)
   * [JSON-LD](docs/doc2.md#JSON-LD)
+  * [BSON](docs/doc2.md#BSON)
   * [JSON-RPC](docs/doc2.md#JSON-RPC)
   * [JSON API](docs/doc2.md#JSON-API)
   * [JSON比较](docs/doc2.md#JSON比较)
@@ -522,6 +520,7 @@
   * [文件预览](docs/doc2.md#文件预览)
   * [文件同步](docs/doc2.md#文件同步)
 * [容器化工具](docs/doc2.md#容器化工具)
+* [集群管理](docs/doc2.md#集群管理)
 * [DevOps](docs/doc2.md#DevOps)
 * [管理面板](docs/doc2.md#管理面板)
 * [Kafka](docs/doc2.md#Kafka)
@@ -1880,8 +1879,6 @@
 * [Apache TsFile](https://github.com/apache/tsfile)：TsFile是一种专为时序数据设计的列式存储文件格式，支持高效压缩、读写高吞吐，并且兼容Spark、Flink等多种框架，由清华大学开源。
 * [IndexR](https://github.com/shunfei/indexr)：IndexR是HDFS上的超快速列式数据格式，专注于快速分析，既适用于海量静态(历史)数据，也适用于快速摄取实时数据，由舜飞开源。
 * [TrinityLake](https://github.com/trinitylake-io/trinitylake)：TrinityLake格式定义了Lakehouse中的对象，并提供了一种一致且高效的方式来访问和操作这些对象。
-* [Carpet](https://github.com/jerolba/parquet-carpet)：Java的Parquet序列化和反序列化库。
-* [Hardwood](https://github.com/hardwood-hq/hardwood)：Apache Parquet的最小依赖实现。
 
 #### 存储系统
 
@@ -1896,7 +1893,7 @@
 * [Block Storage](https://github.com/greglook/blocks)：该库为Clojure实现了内容寻址存储类型和协议。
 * [DFS Datastores](https://github.com/nathanmarz/dfs-datastores)：一种在分布式文件系统上存储记录的更简单、更强大的方法。
 
-#### 流处理平台
+#### 流处理
 
 * [Apache Flink](https://github.com/apache/flink)：Flink是一个开源流处理框架，具有强大的流处理和批处理能力，由柏林工业大学发起。
 * [Apache RocketMQ](https://github.com/apache/rocketmq)：RocketMQ是一个分布式消息和流媒体平台，具有低延迟、高性能和可靠性、万亿级容量和灵活的可扩展性，由阿里开源。
@@ -1950,6 +1947,7 @@
 * [Apache Apex Malhar](https://github.com/apache/apex-malhar)：Malhar包含一个开源的运算符和编解码器库，可用于Apache Apex平台，构建实时流处理应用程序。
 * [Vertigo](https://github.com/kuujo/vertigo)：Vertigo是一个基于Vert.x应用平台的持久化多语言事件处理框架。
 * [Swave](https://github.com/sirthias/swave)：Swave是一个用于Scala高性能流处理的实验性开源库。
+* [Data Artisans Streaming Ledger](https://github.com/dataArtisans/da-streamingledger)：Data Artisans Streaming Ledger是一个基于Apache Flink的库，用于处理跨多个共享状态/表的事件流，具有可序列化的ACID语义。
 
 #### ETL工具
 
@@ -2079,25 +2077,6 @@
 * [Splunk Connect Kafka](https://github.com/splunk/kafka-connect-splunk)：Splunk Connect Kafka是Splunk的Kafka Connect Sink。
 * [Pravega Flink Connectors](https://github.com/pravega/flink-connectors)：Pravega Flink Connectors实现了使用Apache Flink流处理框架读取和写入Pravega Streams的连接器。
 
-#### 集群管理
-
-* [Apache Aurora](https://github.com/apache/aurora)：Aurora是一个用于长期运行服务和Cron作业的Mesos框架，由Twitter开源。
-* [Chronos](https://github.com/mesos/chronos)：Chronos是Cron的替代品，它是一个分布式容错调度程序，运行在Mesos之上，可用于作业编排。
-* [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
-* [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
-* [OPENI](https://github.com/open-intelligence/OpenI-Octopus)：OPENI是一个集群管理工具和资源调度平台，最初由微软研究院、微软搜索技术中心、北京大学、西安交通大学、浙江大学和中国科学技术大学联合设计和开发。
-* [Rapid](https://github.com/lalithsuresh/rapid)：Rapid是一种分布式成员服务，它允许一组进程轻松形成集群，并在成员资格发生变化时接收通知。
-* [Norbert](https://github.com/rhavyn/norbert)：Norbert是一个提供简单集群管理和集群感知客户端/服务器网络API的库，由Linkedin开源。
-* [Apache Helix](https://github.com/apache/helix)：Helix是一个通用集群管理框架，用于自动管理节点集群上托管的分区、复制和分布式资源，由LinkedIn开源。
-* [Apache Airavata](https://airavata.apache.org/)：Airavata是一个软件框架，用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业，由印第安纳大学开源。
-* [Fenzo](https://github.com/Netflix/Fenzo)：Fenzo是Apache Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
-* [Apache REEF](https://github.com/apache/reef)：REEF是一个用于为集群资源管理器(例如Apache Hadoop YARN或Apache Mesos)开发可移植应用程序的库，由微软研究院开源。
-* [Orion](https://github.com/pinterest/orion)：Orion是一个适用于有状态分布式系统的通用可插拔管理和自动化平台，由Pinterest开源。
-* [Apache Myriad](https://github.com/apache/incubator-myriad)：Myriad是一个Mesos框架，旨在扩展Mesos上的YARN集群，由eBay、MapR和Mesosphere开源。
-* [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：DCM使程序员能够使用高级声明性语言(SQL)构建调度程序和集群管理器，由VMware开源。
-* [Marathon](https://github.com/mesosphere/marathon)：Marathon是经过生产验证的用于容器编排的Mesos框架，由Mesosphere开源。
-* [Metronome](https://github.com/dcos/metronome)：Metronome是一个用于定时任务的Apache Mesos框架。
-
 #### 调度系统
 
 * [Apache Oozie](https://github.com/apache/oozie)：Oozie是一个可扩展、可伸缩且可靠的系统，用于通过Web服务定义、管理、调度和执行复杂的Hadoop工作负载，由Yahoo开源。
@@ -2157,12 +2136,6 @@
 * [Apache Eagle](https://github.com/apache/eagle)：Eagle是一种开源分析解决方案，用于在大数据平台上立即识别安全和性能问题，由eBay开源。
 * [Flink Streaming Platform Web](https://github.com/zhp8341/flink-streaming-platform-web)：Flink Streaming Platform Web是基于Flink封装的一个可视化、轻量级的Flink Web客户端系统。
 * [SparkMeasure](https://github.com/LucaCanali/sparkMeasure)：SparkMeasure是一款旨在简化Apache Spark作业性能测量和故障排除的工具和库。
-
-#### Notebook
-
-* [Polynote](https://github.com/polynote/polynote)：Polynote是一个实验性多语言笔记本环境，由Netflix开源。
-* [Apache Zeppelin](https://github.com/apache/zeppelin)：Zeppelin是一款基于Web的笔记本，支持交互式数据分析，由韩国公司ZEPL开源。
-* [Spark Notebook](https://github.com/spark-notebook/spark-notebook)：Spark Notebook是针对企业环境的开源笔记本，为数据科学家和数据工程师提供了一个基于Web的交互式编辑器。
 
 #### 数据湖框架
 
@@ -2275,6 +2248,8 @@
 * [KMQueue](https://gitee.com/hutu92/KMQueue)：KMQueue是基于Redis实现的分布式队列。
 * [Quick Queue Redis](https://gitee.com/yangyale/quick-queue-redis)：基于Redis实现的消息队列。
 * [ZCMS](https://gitee.com/yejinzc/zcms)：ZCMS是基于Java NIO的消息中间件。
+* [Delay Queue](https://github.com/yangwenjie88/delay-queue)：Redis实现延迟消息队列。
+* [RedMQ](https://github.com/thisxulz/RedMQ)：基于Redis的消息队列。
 
 #### IPC
 
@@ -2299,7 +2274,6 @@
 * [Guava EventBus](https://github.com/google/guava/tree/master/guava/src/com/google/common/eventbus)：EventBus允许组件之间进行发布/订阅式通信，而无需显式地相互注册。
 * [MBassador](https://github.com/bennidi/mbassador)：MBassador是一个轻量级、高性能的事件总线，实现了发布订阅模式。
 * [Otto](https://github.com/square/otto)：Otto是一种事件总线，旨在解耦应用程序的不同部分，同时仍然允许它们高效通信，由Square开源。
-* [Alibaba RSocket Broker](https://github.com/alibaba/alibaba-rsocket-broker)：Alibaba RSocket Broker是一款基于RSocket协议的响应式对等通讯系统，为通讯多方构建分布式的RPC、Pub/Sub、Streaming等通讯支持。
 * [RxBus](https://github.com/AndroidKnife/RxBus)：RxBus是一个事件总线，旨在让你的应用程序有效地进行通信。
 * [Andromeda](https://github.com/iqiyi/Andromeda)：Andromeda为本地和远程服务提供模块之间的通信，由爱奇艺开源。
 * [HermesEventBus](https://github.com/Xiaofei-it/HermesEventBus)：HermesEventBus是一个在进程之间使用EventBus的库，在IPC或插件开发中很有用。
@@ -2312,14 +2286,12 @@
 * [Netflix EventBus](https://github.com/Netflix/netflix-commons/tree/master/netflix-eventbus/src)：用于进程内的事件总线。
 * [xBus](https://github.com/mcxiaoke/xBus)：简洁的EventBus实现。
 * [ModuleBus](https://github.com/cangwang/ModuleBus)：ModuleBus用于不同模块之间的通信。
-* [ElegantBus](https://github.com/codyer/ElegantBus)：ElegantBus是一款Android平台，基于LivaData的消息总线框架。
 * [Router](https://github.com/SilenceDut/Router)：Router是类似事件总线的替代品，由动态代理实现。
 * [Alpine](https://github.com/ZeroMemes/Alpine)：Alpine是适用于Java 8+的轻量级事件系统。
 * [Broker](https://github.com/adrielcafe/broker)：Broker是一个使用Coroutines构建的适用于Android和JVM的发布-订阅库。
 * [Events4J](https://github.com/PhilippHeuer/events4j)：Java事件调度程序/消费者。
 * [DamiBus](https://gitee.com/noear/dami)：DamiBus专为本地多模块之间通讯解耦而设计。
 * [IPC EventBus](https://github.com/Terracotta-OSS/ipc-eventbus)：IPC EventBus为JVM内和JVM外通信提供了一个简单的EventBus API。
-* [FastCast](https://github.com/RuedigerMoeller/fast-cast)：FastCast是一个高速无代理消息传递库，涵盖从简单的共享内存到大型LAN集群应用程序的Java进程间通信。
 * [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
 * [Eventbus](https://github.com/likavn/eventbus)：Eventbus是基于Spring Boot Starter的分布式业务消息分发总线组件(发布/订阅模式)，支持延时消息。
 * [Deezpatch](https://github.com/joel-jeremy/emissary)：Deezpatch是一个简单快速的库，用于将请求和事件分派到相应的处理程序。
@@ -2392,6 +2364,14 @@
 * [Banyan](https://github.com/yanghua/banyan)：Banyan用于跨多个应用程序进行通信和集成。
 * [XOOM Lattice](https://github.com/vlingo/xoom-lattice)：VLINGO XOOM Lattice提供计算网格、Actor缓存、对象空间、跨节点集群消息传递、发布/订阅、CQRS和事件溯源支持。
 * [Omnibus](https://github.com/agourlay/omnibus)：Omnibus是一个对HTTP友好的持久消息总线。
+* [Alibaba RSocket Broker](https://github.com/alibaba/alibaba-rsocket-broker)：Alibaba RSocket Broker是一款基于RSocket协议的响应式对等通讯系统，为通讯多方构建分布式的RPC、Pub/Sub、Streaming等通讯支持。
+* [ElegantBus](https://github.com/codyer/ElegantBus)：ElegantBus是一款Android平台，基于LivaData的消息总线框架。
+* [FastCast](https://github.com/RuedigerMoeller/fast-cast)：FastCast是一个高速无代理消息传递库，涵盖从简单的共享内存到大型LAN集群应用程序的Java进程间通信。
+* [Realtime Channel](https://github.com/goodow/realtime-channel)：分布式消息总线。
+* [Embedded RabbitMQ](https://github.com/AlejandroRivera/embedded-rabbitmq)：一个用于将RabbitMQ用作嵌入式服务的JVM库。
+* [PSC](https://github.com/pinterest/psc)：PSC是一个通用且可扩展的客户端库，允许应用程序通过统一的接口与不同的后端PubSub系统进行交互，由Pinterest开发。
+* [KPipe](https://github.com/eschizoid/kpipe)：KPipe是一个轻量级的Kafka处理库，适用于现代Java，它允许你使用虚拟线程和函数式API构建安全、高性能的消息管道。
+* [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。
 
 #### 应用总线
 
@@ -2408,7 +2388,7 @@
 * [Hop](https://github.com/rabbitmq/hop)：适用于Java、Groovy和其他JVM语言的RabbitMQ HTTP API客户端。
 * [SIA RabbitMQ Plus](https://github.com/siaorg/sia-rabbitmq-plus)：SIA RabbitMQ Plus是宜信开发的一个简单RabbitMQ客户端。
 * [Spring AMQP](https://github.com/spring-projects/spring-amqp)：Spring AMQP项目将核心Spring概念应用于基于AMQP的消息传递解决方案的开发。
-* [Embedded RabbitMQ](https://github.com/AlejandroRivera/embedded-rabbitmq)：一个用于将RabbitMQ用作嵌入式服务的JVM库。
+* [RabbitMQ Access](https://github.com/littlersmall/rabbitmq-access)：RabbitMQ手动确认模式Java封装。
 * [RabbitMQ Advanced](https://github.com/societe-generale/rabbitmq-advanced-spring-boot-starter)：一个用于与RabbitMQ进行消息传递的通用库，它是Spring Boot AMQP的扩展，由法国兴业银行开源。
 * [RabbitMQ Kotlin](https://github.com/viartemev/rabbitmq-kotlin)：RabbitMQ Kotlin旨在为Kotlin开发者提供一种高效、基于协程的方式来与RabbitMQ交互。
 * [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
@@ -2418,15 +2398,12 @@
 * [Li Apache Kafka Clients](https://github.com/linkedin/li-apache-kafka-clients)：Li Apache Kafka Clients是一个基于原生Apache Kafka客户端构建的Kafka客户端封装库，由LinkedIn开发。
 * [Kafka Fast](https://github.com/gerritjvv/kafka-fast)：适用于任何JVM语言的快速Kafka库，用Clojure实现。
 * [Vert.x Kafka Client](https://github.com/vert-x3/vertx-kafka-client)：Vert.x的响应式Kafka客户端。
-* [KPipe](https://github.com/eschizoid/kpipe)：KPipe是一个轻量级的Kafka处理库，适用于现代Java，它允许你使用虚拟线程和函数式API构建安全、高性能的消息管道。
 * [NSQ-J](https://github.com/sproutsocial/nsq-j)：NSQ实时分布式消息传递平台的Java客户端。
 * [NATS Java](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
-* [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。
 * [Amazon SQS Java Messaging Library](https://github.com/awslabs/amazon-sqs-java-messaging-lib)：Amazon SQS Java Messaging Library包含与JMS兼容的类，用于与Amazon SQS进行通信。
 * [IBM MQ JMS Spring Components](https://github.com/ibm-messaging/mq-jms-spring)：用于辅助MQ JMS与Spring框架集成的组件。
 * [Java Pub/Sub](https://github.com/googleapis/java-pubsub)：Google Cloud Pub/Sub的Java惯用客户端。
 * [Google Pub/Sub](https://github.com/GoogleCloudPlatform/pubsub)：Google Cloud Pub/Sub开源项目。
-* [PSC](https://github.com/pinterest/psc)：PSC是一个通用且可扩展的客户端库，允许应用程序通过统一的接口与不同的后端PubSub系统进行交互，由Pinterest开发。
 * [Async Google Pub/Sub Client](https://github.com/spotify/async-google-pubsub-client)：一个低级别的Pub/Sub客户端和一个并发的每主题批处理发布者，由Spotify开发。
 * [OpenMAMA](https://github.com/finos/OpenMAMA)：OpenMAMA是一个高性能、与供应商无关的轻量级包装器，它为跨各种平台和语言的不同中间件和消息传递解决方案提供通用API接口，由金融科技基金会开源。
 
@@ -2963,7 +2940,7 @@
 * [Unirest](https://github.com/Kong/unirest-java)：Unirest是一个简化的轻量级HTTP客户端库。
 * [Whiskey](https://github.com/twitter/whiskey)：Whiskey是一个基于NIO的Java HTTP库，专门针对Android移动客户端的需求，由Twitter开源。
 * [RawHTTP](https://github.com/renatoathaydes/rawhttp)：一个Java库，可以轻松处理由RFC-7230定义的原始HTTP 1.1以及大部分HTTP 1.0(RFC-1945)。
-* [HTTP Kit](https://github.com/http-kit/http-kit)：HTTP Kit是一个简约且高效的Clojure兼容环的HTTP客户端/服务器。
+* [HTTP Kit](https://github.com/http-kit/http-kit)：HTTP Kit是一个简约且高效的Clojure兼容Ring的HTTP客户端/服务器。
 * [Forest](https://gitee.com/dromara/forest)：Forest是一个高层、极简的声明式HTTP调用API框架，由dromara社区开源。
 * [Methanol](https://github.com/mizosoft/methanol)：Methanol是Java的轻量级HttpClient扩展。
 * [Jodd HTTP](https://github.com/oblac/jodd-http)：Jodd HTTP是一个小型、原始的HTTP客户端。
@@ -3014,29 +2991,49 @@
 * [Play WS](https://github.com/playframework/play-ws)：Play WS是一个功能强大的HTTP客户端库，最初由Play团队开发，用于Play框架。
 * [HttpKit](https://gitee.com/m310851010/httpkit)：HttpKit是一个HTTP请求工具，支持多线程异步请求。
 * [Easy Okhttp](https://gitee.com/mzllon/easy-okhttp)：Easy Okhttp是一个对Okhttp3封装后Java网络框架。
-
-#### HTTP路由
-
 * [Riptide](https://github.com/zalando/riptide)：Riptide是一个实现客户端响应路由的库，由Zalando开源。
-* [Netty HTTP](https://github.com/cdapio/netty-http)：一个使用Netty开发HTTP服务的库，支持基于JAX-RS风格注解路由端点的功能，由Google开源。
-* [Netty Router](https://github.com/sinetja/netty-router)：Netty Router是一个小型Java库，将HTTP请求路由到你的Netty处理程序。
-* [Avaje Jex](https://github.com/avaje/avaje-jex)：Avaje Jex是一个轻量级的JDK内置HTTP Server API包装器，并进行了一些关键的增强。
 
 #### Web服务器
 
 * [Apache Tomcat](https://github.com/apache/tomcat)：Tomcat是Java Servlet、JavaServer Pages、Java EL和Java WebSocket技术的开源实现，最初由Sun开发。
 * [Netty TCNative](https://github.com/netty/netty-tcnative)：Netty TCNative是Tomcat Native的一个分支，它包括Twitter贡献的一系列更改。
 * [Apache TomEE](https://github.com/apache/tomee)：TomEE是一个轻量级但功能强大的JavaEE应用服务器，具有功能丰富的工具。
-* [Helidon Nima](https://github.com/helidon-io/helidon/tree/helidon-3.x/webserver)：Helidon Níma是一个基于JDK虚拟线程的轻量级Web服务器，由Oracle开源。
+* [Helidon Nima](https://github.com/helidon-io/helidon)：Helidon Níma是一个基于JDK虚拟线程的轻量级Web服务器，由Oracle开源。
 * [Undertow](https://github.com/undertow-io/undertow)：Undertow是一个基于非阻塞IO的Java Web服务器，由RedHat开源。
 * [Wildfly](https://github.com/wildfly/wildfly)：WildFly是一个功能强大、模块化且轻量级的应用程序服务器，由RedHat开源。
 * [Oracle Weblogic](https://www.oracle.com/sg/java/weblogic/)：Oracle WebLogic Server是一个统一且可扩展的平台，用于在本地和云中开发、部署和运行Java等企业应用程序。
 * [Payara](https://github.com/payara/Payara)：Payara Platform Community Edition提供用于开发项目的开源服务器运行时以及容器化Jakarta EE和MicroProfile应用程序
+* [Piranha](https://github.com/piranhacloud/piranha)：Piranha项目提供云就绪容器和有用的附加/集成模块。
+* [JBoss Enterprise Application Platform](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)：RedHat JBoss企业应用平台可在任何环境中提供企业级安全性、性能和可扩展性。
 * [Eclipse Jetty](https://github.com/eclipse/jetty.project)：Jetty是一个轻量级、高度可扩展的基于Java的Web服务器和Servlet引擎。
 * [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
 * [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
+* [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个高度可组合、快速启动的动态应用程序服务器运行时环境，它是IBM WebSphere Liberty的开源实现。
+* [SAP AS](https://www.sap.com/products/technology-platform/netweaver.html)：SAP Web应用服务器是NetWeaver解决方案的一个组件。
+* [AISWare FlyingServer](https://www.asiainfo.com/zh_cn/product_aisware_flyingServer.html)：FlyingServer是一款满足Java EE 8标准的国产化Web中间件软件，支持WAR，EAR，JAR等应用的部署，由亚信科技提供。
+* [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html)：Adobe ColdFusion是一款久经考验的高性能应用程序服务器，可让程序员轻松进行Web开发。
+* [Apusic AAS](https://www.apusic.com/list-117.html)：金蝶Apusic应用服务器是一款标准、安全、高效、集成并具丰富功能的企业级应用服务器软件，全面支持Jakarta EE 8/9的技术规范。
+* [Fujitsu Software Enterprise Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/middleware/applatform/)：Enterprise Application Server是一款云原生应用服务器，采用富士通专有技术增强Java的可靠性和可操作性，可在短时间内发布，并可用于企业用途。
+* [InforSuite Application Server](https://www.inforbus.com/as.html)：中创应用服务器软件是国内通过Jakarta EE 9、8及Java EE 8、7、6完整兼容认证的企业级中间件，与国际主流产品最新版本保持规范一致，为应用运行提供高性能、高可用、高安全的支撑平台。
+* [Primeton AppServer](https://www.primeton.com/products/pas/)：Primeton AppServer提供了丰富的功能集，具备“立即部署”式Java EE容器的各种优点，由普元开发。
+* [BES Application Server](https://www.bessystem.com/product/0ad9b8c4d6af462b8d15723a5f25a87d/info?p=101#page-2)：BES是一款遵循Java EE标准的面向Java应用的通用中间件，由宝兰德提供。
+* [RockyAS](https://rockyasfile.obs-cn-shenzhen.pinganyun.com/RockyAS.html)：Rocky是一款标准、安全、高效的Web应用服务器，为企业级应用系统的便捷开发、灵活部署、可靠运行、高效管理及快速集成提供关键支撑能力，由平安云开发。
+* [Libercat](https://axiomjdk.ru/pages/libercat/)：Libercat是一款安全的俄罗斯制造的应用服务器，它基于Apache Tomcat和Apache TomEE，并实现了Jakarta EE规范。
+* [TongWeb Application Server](https://www.tongtech.com/dft/pctype/25.html)：TongWeb是一款全面符合Java EE、Jakarta EE最新标准规范、轻量易于使用、性能强大、具有高可靠性和高安全性的应用服务器产品，由东方通开发。
+* [JEUS](https://www.tmaxsoft.com/en/solution/view?solutionSeq=27)：JEUS是在Web环境中开发、运行、执行应用程序的平台，提供各种必要服务、符合Java标准的Web应用服务器，由韩国TmaxSoft公司开发。
+* [AliEE](https://help.aliyun.com/zh/edas/product-overview/what-is-alibaba-cloud-application-server?spm=a2c4g.11186623.0.0.72385806mPZpST)：阿里云应用服务器是一款企业级Java EE的应用服务器软件，用于构建和部署企业级应用程序。
+* [Cosminexus](https://www.hitachi.com/products/it/software/prod/cosminexus/)：Cosminexus是日立公司提供的用于构建和运行应用程序服务器的中间件产品。
+* [WebOTX Application Server](https://jpn.nec.com/webotx/appserver/index.html)：WebOTX是一个Java应用程序执行平台，非常适合在从本地到云的各种IT资源中推广DX，这是日本电气公司的产品。
+* [Xigema Application Server](http://www.vsettan.com.cn/7752.html)：XigemaAS是企业级应用服务器产品，完全符合Java EE 7规范，产品架构基于OSGi内核，高模块化、高动态性、强扩展性、轻量且配置简单，为企业应用提供稳定、高效、安全的运行引擎和支撑平台，这是华胜信泰的产品。
+* [Thunisoft Application Server](https://www.thunisoft.cn/col81/index)：Thunisoft是华宇自主研发的企业级中间件产品，符合Jakarta EE标准的轻量级服务器。
+* [JOnAS](https://jonas.ow2.org/)：JOnAS是由Bull和OW2开发的领先的Java EE 6 Web Profile认证开源OSGi企业服务器。
+* [Carbon](https://github.com/wso2/carbon-kernel)：Carbon是一个轻量级、通用的OSGi运行时，专门用于托管服务器，为服务器开发人员提供关键功能，由WSO2开源。
+* [UseOpen Application Server](http://www.useopen.com/p/uoas/)：UOAS是一款永源开源的Java应用服务器产品，支持Jakarta EE Web Profile规范的应用服务器功能。
+* [Smart Servlet](https://gitee.com/smartboot/smart-servlet)：Smart Servlet是一款实现了Servlet 4.0规范，支持多应用隔离部署的的Web容器。
+* [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
 * [Red5](https://github.com/Red5/red5-server)：Red5是一个用Java编写的开源Flash服务器。
 * [Microhttp](https://github.com/ebarlas/microhttp)：Microhttp是一种快速、可扩展、事件驱动、独立的Java Web服务器。
+* [WebObjects](https://wiki.wocommunity.org/xwiki/bin/view/WO/Home/)：WebObjects是一套集成的Java框架，用于快速开发可扩展、复杂的互联网和企业应用程序，最初由NeXT开发并由Apple维护。
 * [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，它是一个非常流行的支持Servlet和JSP的服务器。
 * [ZFoo](https://github.com/zfoo-project/zfoo)：ZFoo是一个极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
 * [Rupy](https://github.com/tinspin/rupy)：Rupy是一款节能、安全、高性能的HTTP应用服务器。
@@ -3085,46 +3082,24 @@
 * [Spring Boot Starter Netty](https://github.com/Leibnizhu/spring-boot-starter-netty)：一个基于Netty实现的Spring Boot内置Servlet容器。
 * [Netty Servlet Bridge](https://github.com/bigpuritz/netty-servlet-bridge)：Netty Servlet Bridge允许将现有的基于Servlet API的Web应用程序集成到Netty支持的基础架构中。
 * [XOOM HTTP](https://github.com/vlingo/xoom-http)：VLINGO XOOM HTTP是一个响应式、可扩展、高吞吐量且具有弹性的HTTP服务器。
-
-#### 应用服务器
-
-* [Payara](https://github.com/payara/Payara)：Payara Server是一个开源中间件平台，支持在任何环境中可靠、安全地部署Java EE(Jakarta EE)和MicroProfile应用程序。
-* [Apache TomEE](https://github.com/apache/tomee)：TomEE是一个轻量级但功能强大的JavaEE应用服务器，具有功能丰富的工具。
-* [Piranha](https://github.com/piranhacloud/piranha)：Piranha项目提供云就绪容器和有用的附加/集成模块。
-* [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个高度可组合、快速启动的动态应用程序服务器运行时环境，它是IBM WebSphere Liberty的开源实现。
-* [SAP AS](https://www.sap.com/products/technology-platform/netweaver.html)：SAP Web应用服务器是NetWeaver解决方案的一个组件。
-* [WebObjects](https://wiki.wocommunity.org/xwiki/bin/view/WO/Home/)：WebObjects是一套集成的Java框架，用于快速开发可扩展、复杂的互联网和企业应用程序，最初由NeXT开发并由Apple维护。
-* [AISWare FlyingServer](https://www.asiainfo.com/zh_cn/product_aisware_flyingServer.html)：FlyingServer是一款满足Java EE 8标准的国产化Web中间件软件，支持WAR，EAR，JAR等应用的部署，由亚信科技提供。
-* [Apusic AAS](https://www.apusic.com/list-117.html)：金蝶Apusic应用服务器是一款标准、安全、高效、集成并具丰富功能的企业级应用服务器软件，全面支持Jakarta EE 8/9的技术规范。
-* [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
-* [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html)：Adobe ColdFusion是一款久经考验的高性能应用程序服务器，可让程序员轻松进行Web开发。
-* [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
-* [Fujitsu Software Enterprise Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/middleware/applatform/)：Enterprise Application Server是一款云原生应用服务器，采用富士通专有技术增强Java的可靠性和可操作性，可在短时间内发布，并可用于企业用途。
-* [InforSuite Application Server](https://www.inforbus.com/as.html)：中创应用服务器软件是国内通过Jakarta EE 9、8及Java EE 8、7、6完整兼容认证的企业级中间件，与国际主流产品最新版本保持规范一致，为应用运行提供高性能、高可用、高安全的支撑平台。
-* [Resin](https://caucho.com/products/resin)：Resin是Caucho开发的Web服务器和Java应用服务器，有两个可用版本：Resin(可免费用于生产)和Resin Pro(需要支付许可费用)。
-* [JBoss Enterprise Application Platform](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)：RedHat JBoss企业应用平台可在任何环境中提供企业级安全性、性能和可扩展性。
-* [Primeton AppServer](https://www.primeton.com/products/pas/)：Primeton AppServer提供了丰富的功能集，具备“立即部署”式Java EE容器的各种优点，由普元开发。
-* [WildFly](https://github.com/wildfly/wildfly)：WildFly是一款功能强大、模块化且轻量级的应用程序服务器。
-* [BES Application Server](https://www.bessystem.com/product/0ad9b8c4d6af462b8d15723a5f25a87d/info?p=101#page-2)：BES是一款遵循Java EE标准的面向Java应用的通用中间件，由宝兰德提供。
-* [ManageFish Server](https://managecat.com/products/managed-glassfish)：ManageFish是GlassFish应用服务器版本的商业支持的发行版。
-* [Oracle WebLogic](https://www.oracle.com/middleware/technologies/weblogic-server-downloads.html)：WebLogic是Oracle出品的用于开发、集成、部署和管理大型分布式Web应用、网络应用和数据库应用的Java应用服务器。
-* [RockyAS](https://rockyasfile.obs-cn-shenzhen.pinganyun.com/RockyAS.html)：Rocky是一款标准、安全、高效的Web应用服务器，为企业级应用系统的便捷开发、灵活部署、可靠运行、高效管理及快速集成提供关键支撑能力，由平安云开发。
-* [Libercat](https://axiomjdk.ru/pages/libercat/)：Libercat是一款安全的俄罗斯制造的应用服务器，它基于Apache Tomcat和Apache TomEE，并实现了Jakarta EE规范。
-* [TongWeb Application Server](https://www.tongtech.com/dft/pctype/25.html)：TongWeb是一款全面符合Java EE、Jakarta EE最新标准规范、轻量易于使用、性能强大、具有高可靠性和高安全性的应用服务器产品，由东方通开发。
-* [JEUS](https://www.tmaxsoft.com/en/solution/view?solutionSeq=27)：JEUS是在Web环境中开发、运行、执行应用程序的平台，提供各种必要服务、符合Java标准的Web应用服务器，由韩国TmaxSoft公司开发。
-* [AliEE](https://help.aliyun.com/zh/edas/product-overview/what-is-alibaba-cloud-application-server?spm=a2c4g.11186623.0.0.72385806mPZpST)：阿里云应用服务器是一款企业级Java EE的应用服务器软件，用于构建和部署企业级应用程序。
-* [Cosminexus](https://www.hitachi.com/products/it/software/prod/cosminexus/)：Cosminexus是日立公司提供的用于构建和运行应用程序服务器的中间件产品。
-* [WebOTX Application Server](https://jpn.nec.com/webotx/appserver/index.html)：WebOTX是一个Java应用程序执行平台，非常适合在从本地到云的各种IT资源中推广DX，这是日本电气公司的产品。
-* [Xigema Application Server](http://www.vsettan.com.cn/7752.html)：XigemaAS是企业级应用服务器产品，完全符合Java EE 7规范， 产品架构基于OSGi内核，高模块化、高动态性、强扩展性、轻量且配置简单，为企业应用提供稳定、高效、安全的运行引擎和支撑平台，这是华胜信泰的产品。
-* [Thunisoft Application Server](https://www.thunisoft.cn/col81/index)：Thunisoft是华宇自主研发的企业级中间件产品，符合Jakarta EE标准的轻量级服务器。
-* [JOnAS](https://jonas.ow2.org/)：JOnAS是由Bull和OW2开发的领先的Java EE 6 Web Profile认证开源OSGi企业服务器。
-* [Carbon](https://github.com/wso2/carbon-kernel)：Carbon是一个轻量级、通用的OSGi运行时，专门用于托管服务器，为服务器开发人员提供关键功能，由WSO2开源。
-* [UseOpen Application Server](http://www.useopen.com/p/uoas/)：UOAS是一款永源开源的Java应用服务器产品，支持Jakarta EE Web Profile规范的应用服务器功能。
-* [Smart Servlet](https://gitee.com/smartboot/smart-servlet)：Smart Servlet是一款实现了Servlet 4.0规范，支持多应用隔离部署的的Web容器。
-* [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
-
-#### CFML引擎
-
+* [Socko](https://github.com/mashupbots/socko)：Socko是一个嵌入式Scala Web服务器，由Netty和Akka提供支持。
+* [ServDroid](https://github.com/joanpuigsanz/servdroid)：ServDroid是一个适用于Android平台的小型Web服务器。
+* [FastJava](https://github.com/tanoaks14/fastJava)：FastJava是一个轻量级的HTTP服务器原型，专注于低间接寻址的内部机制和基于Java Vector API的SIMD辅助解析。
+* [UniDbg Boot Server](https://github.com/anjia0532/unidbg-boot-server)：UniDbg Server提供HTTP API服务。
+* [React Native Static Server](https://github.com/futurepress/react-native-static-server)：React Native的HTTP静态文件服务器。
+* [AndroidServer](https://github.com/fengzhizi715/AndroidServer)：基于Kotlin、Netty开发，为Android App提供Server的功能，包括HTTP、TCP、WebSocket服务。
+* [Pekko HTTP](https://github.com/apache/pekko-http)：Pekko HTTP在Pekko Actor和Pekko Stream之上实现了完整的服务器端和客户端HTTP协议栈。
+* [Spray Can](https://github.com/spray/spray-can)：Spray Can是一个低开销、高性能、完全异步的HTTP 1.1服务器和客户端库。
+* [Macchiato](https://github.com/macchiato-framework/macchiato-core)：Node.js的Ring HTTP服务器抽象。
+* [SNUnit](https://github.com/lolgab/snunit)：SNUnit是一个Scala Native库，用于在Nginx Unit之上编写HTTP服务器应用程序。
+* [FS2 HTTP](https://github.com/Spinoco/fs2-http)：FS2 HTTP是一个简单的客户端和服务端库，允许你使用Scala FS2构建HTTP客户端和服务端。
+* [UZHTTP](https://github.com/polynote/uzhttp)：UZHTTP是一个使用ZIO的极简HTTP服务器。
+* [ZIO TLS HTTP](https://github.com/ollls/zio-tls-http)：100%非阻塞、仅使用Java NIO的JSON HTTP服务器。
+* [Pronghorn HTTP Server](https://github.com/pronghorn-tech/server)：Pronghorn HTTP Server是一个用Kotlin编写的底层高性能HTTP服务器。
+* [Android Embedded Server](https://github.com/nphausg/android.embeddedserver)：Android嵌入式服务器。
+* [Avaje Jex](https://github.com/avaje/avaje-jex)：Avaje Jex是一个轻量级的JDK内置HTTP Server API包装器，并进行了一些关键的增强。
+* [Netty HTTP](https://github.com/cdapio/netty-http)：一个使用Netty开发HTTP服务的库，支持基于JAX-RS风格注解路由端点的功能，由Google开源。
+* [Netty Router](https://github.com/sinetja/netty-router)：Netty Router是一个小型Java库，将HTTP请求路由到你的Netty处理程序。
 * [Lucee](https://github.com/lucee/Lucee)：Lucee是一款高性能、开源的CFML服务器。
 * [Railo](https://github.com/getrailo/railo)：Railo是一款高性能、开源的CFML引擎。
 * [OpenBD](https://github.com/OpenBD/openbd-core)：OpenBD是开源且免费的Java CFML运行时。
@@ -3249,6 +3224,7 @@
 * [Spring Websocket Grails](https://github.com/zyro23/grails-spring-websocket)：该插件旨在使Spring 4.0中引入的WebSocket支持可供Grails应用程序使用。
 * [Netty WebSocket HTTP2](https://github.com/jauntsdn/netty-websocket-http2)：基于Netty的RFC8441实现，使用HTTP/2引导WebSockets，并支持多协议。
 * [Ballerina Websocket](https://github.com/ballerina-platform/module-ballerina-websocket)：WebSocket库便于通过网络连接和与WebSocket端点进行交互，为客户端和服务器端通信提供强大的支持。
+* [JSONAPI](https://github.com/alecgorge/jsonapi)：JSONAPI是Bukkit的一个插件，它允许你通过简单而安全的HTTP API访问服务器和玩家的数据及其他信息，包含WebSocket、HTTP服务器。
 
 #### Socket.IO
 
@@ -3302,14 +3278,13 @@
 * [Naga](https://github.com/techery/Naga)：Naga的目标是成为一个非常小的NIO库，它提供少量的Java类来封装常见的Socket和ServerSocket。
 * [AsyncSocket](https://github.com/samigehi/AsyncSocket)：这是一个基于NIO的Java库，它使用SocketChannels以非阻塞方式与服务器通信。
 
-#### TCP/UDP库
+#### TCP/UDP
 
 * [KryoNet](https://github.com/EsotericSoftware/kryonet)：KryoNet是一个Java库，它提供了一个干净、简单的API，用于使用NIO进行高效的TCP和UDP客户端/服务器网络通信。
 * [QuickServer](https://github.com/QuickServerLab/QuickServer-Main)：QuickServer是一个开源Java库/框架，用于快速创建强大的多客户端TCP服务器应用程序。
 * [Chronicle Network](https://github.com/OpenHFT/Chronicle-Network)：Chronicle Network是一个高性能网络(TCP/IP)库。
 * [CoralReactor](https://www.coralblocks.com/index.php/category/coralreactor/)：CoralReactor是一个功能强大、超低延迟、异步、非阻塞的网络I/O库，可通过简单的API提供高性能。
 * [TCP Gateway](https://github.com/SongranZhang/tcp-gateway)：基于Netty 4的高性能TCP网关，用于请求数据或推送消息。
-* [AndroidServer](https://github.com/fengzhizi715/AndroidServer)：基于Kotlin、Netty开发，为Android App提供Server的功能，包括HTTP、TCP、WebSocket服务。
 * [LANCOMM](https://github.com/fighter-lee/lancomm)：Android局域网通讯，基于UDP和TCP封装的局域网通讯协议框架。
 * [NettyIM](https://github.com/CWTakiku/NettyIM)：NettyIM是一款基于Netty高度定制化的通讯SDK，支持TCP、UDP和WebSocket协议的通信。
 * [SimpleNet](https://github.com/jhg023/SimpleNet)：SimpleNet是一个用Java编写的简单的客户端/服务器框架。
@@ -3370,7 +3345,7 @@
 * [jNetPcap](https://github.com/slytechs-repos/jnetpcap-wrapper)：jNetPcap是一个用Java编写的软件库，提供与流行的libpcap本机库类似的API。
 * [Hadoop PCAP](https://github.com/RIPE-NCC/hadoop-pcap)：Hadoop PCAP用于并行地读取和分析数据包捕获文件，由欧洲IP网络协调中心开源。
 
-#### SSH库
+#### SSH
 
 * [Apache MINA SSHD](https://github.com/apache/mina-sshd)：MINA SSHD是一个100%纯Java库，支持客户端和服务器端的SSH协议。
 * [Trilead SSH](https://github.com/jenkinsci/trilead-ssh2)：Trilead SSH-2是一个用纯Java实现SSH-2协议的库。
@@ -3388,7 +3363,7 @@
 * [Ganymed SSH-2](https://github.com/hudson/ganymed-ssh-2)：Ganymed SSH-2是一个用纯Java实现SSH-2协议的库。
 * [Jsync](https://github.com/fizzed/jsync)：纯Java类rsync库，用于本地到远程SSH/SFTP。
 
-#### DNS库
+#### DNS
 
 * [DNSJava](https://github.com/dnsjava/dnsjava)：DNSJava是DNS协议的Java实现。
 * [DNS Proxy](https://github.com/mageddo/dns-proxy-server)：DPS是一种轻量级最终用户DNS服务器工具，可以轻松地在一个主机名可以根据配置的环境解析为不同IP的系统中进行开发。
@@ -3442,6 +3417,7 @@
 * [NettyGateway](https://github.com/tang-jie/NettyGateway)：NettyGateway是一个具有灵活路由规则的HTTP代理服务器。
 * [TLSFragmenter](https://github.com/filtershekanha/TLSFragmenter)：TLSFragmenter包含一个使用Spring Boot框架构建的Java代理服务器实现。
 * [Jladder](https://github.com/hudaming1/jladder)：基于Netty开发的HTTP/Socks代理服务器。
+* [HTTP Proxy Server](https://github.com/ffay/http-proxy-server)：HTTP代理服务器。
 
 #### 内网穿透
 
@@ -3602,7 +3578,7 @@
 * [JNC](https://github.com/tail-f-systems/JNC)：Java NETCONF客户端。
 * [NETCONF4J](https://github.com/dana-i2cat/netconf4j)：这是一个从零开始实现的简单版Netconf协议。
 
-#### IP库
+#### IP
 
 * [Ip2region](https://github.com/lionsoul2014/ip2region)：Ip2region是一个离线IP地址定位库和IP定位数据管理框架，提供了众多主流编程语言的xdb数据生成和查询客户端实现。
 * [IPAddress](https://github.com/seancfoley/IPAddress)：IPAddress是用于处理IP地址和子网(IPv4和IPv6)的Java库。
@@ -4593,5 +4569,11 @@
 * [Geni](https://github.com/zero-one-group/geni)：Geni是一个在Apache Spark上运行的Clojure Dataframe库。
 * [Saddle](https://github.com/saddle/saddle)：Saddle是Scala的一个数据操作库，它提供基于数组、索引、一维和二维的数据结构，这些数据结构在JVM原始类型上经过精心设计，以避免装箱和拆箱的开销。
 * [Paleo](https://github.com/netzwerg/paleo)：具有类型化列的不可变Java 8 Dataframe。
+
+#### Notebook
+
+* [Polynote](https://github.com/polynote/polynote)：Polynote是一个实验性多语言笔记本环境，由Netflix开源。
+* [Apache Zeppelin](https://github.com/apache/zeppelin)：Zeppelin是一款基于Web的笔记本，支持交互式数据分析，由韩国公司ZEPL开源。
+* [Spark Notebook](https://github.com/spark-notebook/spark-notebook)：Spark Notebook是针对企业环境的开源笔记本，为数据科学家和数据工程师提供了一个基于Web的交互式编辑器。
 
 ## [并发编程-面试宝典](docs/doc2.md)
