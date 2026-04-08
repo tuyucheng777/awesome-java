@@ -513,10 +513,13 @@
     * [PDF/Markdown转换](docs/doc2#PDFMarkdown转换)
     * [PDF/Word转换](docs/doc2#PDFWord转换)
     * [PDF/JSON转换](docs/doc2#PDFJSON转换)
+    * [PDF/Excel转换](docs/doc2#PDFExcel转换)
     * [XML/JSON转换](docs/doc2#XMLJSON转换)
     * [XML/PDF转换](docs/doc2#XMLPDF转换)
+    * [图像/文档转换](docs/doc2#图像文档转换)
   * [Mime解析](docs/doc2.md#Mime解析)
   * [文件上传](docs/doc2.md#文件上传)
+  * [文件下载](docs/doc2.md#文件下载)
   * [文件比较](docs/doc2.md#文件比较)
   * [文件预览](docs/doc2.md#文件预览)
   * [文件同步](docs/doc2.md#文件同步)
@@ -885,6 +888,7 @@
   * [呼叫中心](docs/doc2.md#呼叫中心)
 * [数据结构](docs/doc2.md#数据结构)
   * [树](docs/doc2.md#树)
+  * [Trie](docs/doc2.md#Trie)
   * [堆](docs/doc2.md#堆)
   * [图](docs/doc2.md#图)
   * [BitSet](docs/doc2.md#BitSet)
@@ -1598,6 +1602,7 @@
 * [Otoroshi](https://github.com/MAIF/otoroshi)：Otoroshi是一个轻量级API管理层，由MAIF团队开发，可以处理微服务之间的所有调用。
 * [Okapi](https://github.com/folio-org/okapi)：Okapi是一个多租户API网关，由Open Library基金会开源。
 * [CAPI](https://github.com/surisoft-io/capi)：由Apache Camel动态路由驱动的轻API网关/负载均衡器。
+* [Agate](https://github.com/dinstone/agate)：Agate是一个云原生、快速、可扩展的异步API网关。
 * [Janus](https://github.com/GrailStack/Janus)：Janus是Grail体系的一个组成模块，为各业务服务提供对外统一、高性能的HTTP网关。
 * [Kaazing Gateway](https://github.com/kaazing/gateway)：Kaazing Gateway是一个网络网关，旨在为基于Web的实时协议提升提供单一接入点，支持负载均衡、集群和安全管理。
 * [API ML](https://github.com/zowe/api-layer)：API ML为大型机服务REST API提供单一访问点，由IBM开源。
@@ -2092,6 +2097,7 @@
 * [Genie](https://github.com/Netflix/genie)：Genie是Netflix开发的联合大数据编排和执行引擎。
 * [Juice](https://github.com/HujiangTechnology/Juice)：Juice是沪江学习系统项目组所开发的一套基于Mesos Framework的分布式任务调度云系统。
 * [Schedoscope](https://github.com/ottogroup/schedoscope)：Schedoscope是一个调度框架，用于轻松敏捷地开发、测试、加载和监控你的数据中心、湖。
+* [Dataworks Zeus](https://github.com/ctripcorp/dataworks-zeus)：Dataworks Zeus是携程的Hadoop作业调度系统，源自Zeus。
 
 #### 执行引擎
 
@@ -2261,6 +2267,7 @@
 * [Flying Pigeon](https://github.com/Justson/flying-pigeon)：Flying Pigeon是一个IPC跨进程通信组件。
 * [Traffic SHM](https://github.com/peptos/traffic-shm)：Traffic SHM是一个基于Java的消息库，设计用于同一服务器上的进程间通信。
 * [Mycat IPC](https://github.com/MyCATApache/Mycat-IPC)：基于内存的共享IPC框架，具备超高性能。
+* [Eclipse ECF](https://github.com/eclipse-ecf/ecf)：ECF是一组用于支持进程间通信的模块化框架。
 * [Remoter](https://github.com/josesamuel/remoter)：用于使用纯Java接口的Android远程IPC服务的替代方案。
 * [OkBinder](https://github.com/7hens/okbinder)：OkBinder是一个轻量级的跨进程通信方案。
 * [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
@@ -2455,6 +2462,11 @@
 * [Spring Boot Distributed Redisson](https://github.com/yudiandemingzi/spring-boot-distributed-redisson)：Redis实现分布式锁。
 * [Lock Spring Boot Starter](https://gitee.com/tooleek/lock-spring-boot-starter)：Lock Spring是一款基于Spring Boot Starter机制的分布式锁框架。
 * [Simba](https://github.com/Ahoo-Wang/Simba)：Simba旨在提供易于使用且灵活的分布式锁服务，并支持多种存储实现。
+* [Dictator](https://gitee.com/onlyeat3/dictator)：中心化的配置管理组件。
+* [Coody Elock](https://gitee.com/coodyer/coody-elock)：基于Redis订阅实现的分布式锁插件。
+* [Redis Shared Lock](https://gitee.com/lsongiu/redis-shared-lock)：基于Redis的分布式共享锁，使用注解的方式对方法加锁。
+* [RedisLock](https://gitee.com/billion/redisLock)：RedisLock是一个应用于Spring Boot项目的基于Redis的分布式锁。
+* [Consul Distributed Lock](https://gitee.com/didispace/consul-distributed-lock)：基于Consul的分布式锁工具。
 
 #### 分布式ID
 
@@ -2493,6 +2505,10 @@
 * [JavaSnowFlake](https://github.com/Predictor/javasnowflake)：基于Twitter Snowflake ID生成算法的64位顺序ID生成器。
 * [ID Generator](https://github.com/haozi2015/id-generator)：ID Generator分布式ID生成器，解决在分布式系统唯一性标识生成复杂、不统一的问题。
 * [Snowflake IdWorker](https://github.com/zzxadi/Snowflake-IdWorker)：基于Twitter Snowflake的分布式ID生成器。
+* [Snowflake ID Generator](https://github.com/keets2012/snowflake-id-generator)：Snowflake升级版全局ID生成器。
+* [Sequence](https://github.com/izern/sequence)：高效GUID生成算法，基于Snowflake实现64位自增ID算法。
+* [ASnowflake](https://github.com/zjutkz/ASnowflake)：一个用于基于Snowflake生成全局唯一ID的库，是UUID的替代方案。
+* [Snowflake-UID Generator](https://github.com/johnhuang-cn/snowflake-uid)：UidGenerator是基于Twitter Snowflake算法的全局ID生成器。
 
 #### Session集群
 
@@ -2640,6 +2656,12 @@
 * [Unipop](https://github.com/unipop-graph/unipop)：Unipop是一个数据联合和虚拟化引擎，它将你的数据建模为虚拟图，并使用Gremlin GQL公开查询API。
 * [Segrada](https://github.com/mkalus/segrada)：Segrada是一个用于研究和文献的语义图数据库。
 * [Jiraph](https://github.com/ninjudd/jiraph)：Jiraph是一个用于Clojure的嵌入式图数据库。
+* [GraphChiDB](https://github.com/GraphChi/graphchiDB-scala)：GraphChiDB是一个可扩展、嵌入式、单机在线图数据库。
+* [SubGraph](https://github.com/den1k/subgraph)：用于重构的响应式图数据库。
+* [MapGraph](https://github.com/stuartsierra/mapgraph)：基本的内存图数据库，用于存储带链接的Map。
+* [Vertexium](https://github.com/visallo/vertexium)：Vertexium是一个用于操作图的API。
+* [FluxGraph](https://github.com/datablend/fluxgraph)：基于Datomic的时间图数据库。
+* [AbutionGraph](https://github.com/ThutmoseAI/AbutionGraph)：AbationGraph是一个用于实时数据分析的时序知识图谱数据库。
 
 #### RDF数据库
 
@@ -2674,6 +2696,10 @@
 * [ChronixDB](https://github.com/ChronixDB/chronix.server)：高效、快速的时序存储。
 * [Warp 10](https://github.com/senx/warp10-platform)：Warp 10是一个专为物联网设计的模块化开源平台，可收集、存储并允许你分析传感器数据。
 * [Yuvi](https://github.com/pinterest/yuvi)：Yuvi是一个用于存储近期时序指标数据的内存存储引擎，由Pinterest开源。
+* [Kudu TS](https://github.com/danburkert/kudu-ts)：Kudu TS是一个基于Apache Kudu的指标和时序数据库。
+* [MarketDb](https://github.com/ezhulenev/marketdb)：MarketDb是一个分布式、可扩展的时序数据库，基于HBase构建。
+* [ModelarDB](https://github.com/skejserjensen/ModelarDB)：ModelarDB是一个模块化的基于模型的时序管理系统。
+* [NSDb](https://github.com/radicalbit/NSDb)：NSDb是一个面向流处理的时序数据库，针对服务层进行了优化。
 
 #### 嵌入式数据库
 
@@ -2700,6 +2726,11 @@
 * [Codax](https://github.com/dscarpetti/codax)：Codax是一个符合Clojure语言习惯的事务型嵌入式数据库。
 * [Krati](https://github.com/jingwei/krati)：Krati是一个简单的持久数据存储，具有极低的延迟和高吞吐量。
 * [Java Dirty](https://github.com/mrwilson/java-dirty)：一种基于文件的快速追加对象存储系统，使用内存映射文件。
+* [TuplDB](https://github.com/cojen/TuplDB)：TuplDB是一款高性能、并发、事务性、可扩展的底层嵌入式数据库。
+* [Cupboard](https://github.com/gcv/cupboard)：Cupboard是一个用于Clojure的嵌入式数据库，旨在简化Clojure对象写入磁盘和检索的操作。
+* [Testudo](https://github.com/sepgh/testudo)：简单的嵌入式Java数据库。
+* [SQLited](https://github.com/forchid/sqlite-server)：基于C/S架构的高性能SQLite数据库服务器引擎。
+* [HanboDB](https://github.com/3kuai/hanbo-db)：HanboDB是一个高可用性、低延迟的内存数据库系统。
 
 #### 关系型数据库
 
@@ -2725,6 +2756,8 @@
 * [SkinnerDB](https://github.com/cornelldbgroup/skinnerdb)：SkinnerDB是一个用于数据分析的关系型数据库管理系统，由康奈尔数据库小组开发。
 * [CreatorDB](https://github.com/CreatorsStack/CreatorDB)：CreatorDB是一个DBMS数据库管理系统，包含存储、算子、优化、事务、索引等。
 * [Interference](https://github.com/interference-project/interference)：Interference是一个简单的Java框架，它允许你在Java应用程序中启动分布式数据库和复杂的事件处理服务，并使用类似JPA的接口和注解进行结构映射和数据操作。
+* [SimpleDBM](https://github.com/dibyendumajumdar/simpledbm)：SimpleDBM是一个用Java编写的开源事务型数据库引擎。
+* [Ahwen](https://github.com/komu/ahwen)：一个非常简单的SQL数据库。
 
 #### NoSQL数据库
 
@@ -2759,6 +2792,16 @@
 * [FleetDB](https://github.com/mmcgrana/fleetdb)：FleetDB是一个用Clojure实现的无模式数据库。
 * [ModeShape](https://github.com/ModeShape/modeshape)：ModeShape是一种分布式、分层、事务性和一致的数据存储，支持查询、全文搜索、事件、版本控制、引用以及灵活的动态模式，由RedHat开源。
 * [Bagri](https://github.com/dsukhoroslov/bagri)：基于分布式缓存的XML/文档数据库。
+* [Kotlin.Document.Store](https://github.com/lamba92/kotlin.document.store)：一个基于Kotlin的多平台嵌入式NoSQL文档数据库。
+* [iBoxDB](https://www.iboxdb.com/)：iBoxDB是一款快速的ADI表式文档NoSQL嵌入式数据库，可轻松存储对象和文档。
+* [GlobalsDB](https://github.com/Globals/GlobalsDB)：一个快速、成熟、简单、灵活且免费的NoSQL数据库。
+* [OStore](https://github.com/nestorpersist/ostore)：OStore是一种用于存储和处理大数据的新型软件系统。
+* [Aurinko](https://github.com/HouzuoGuo/Aurinko)：Aurinko是用Clojure编程语言实现的网络化文档数据库引擎。
+* [Tempo](https://github.com/Everteam-Software/tempo)：Tempo是一组运行时组件，用于支持SOA中的人类工作流程。
+* [CravenDB](https://github.com/robashton/cravendb)：一个用Clojure编写的文档数据库。
+* [TennBase](https://github.com/tenn-cn/TennBase)：一个基于B树的轻量级数据存储系统，实现了HBase的一些基本功能。
+* [Filelize](https://github.com/filelize/filelize-java)：Filelize是一款轻量级数据库，只需一行代码即可将数据写入和读取到易于阅读的文件中。
+* [XitDB](https://github.com/xit-vcs/xitdb-java)：XitDB是一个用Java编写的不可变数据库。
 
 #### OLAP数据库
 
@@ -2780,6 +2823,7 @@
 * [Research4j](https://github.com/bhavuklabs/research4j)：Research4j是一个功能全面的Java库，它通过智能查询分析、动态引文获取、自适应推理策略以及无缝LLM集成来实现研究工作流程的自动化。
 * [Proximum](https://github.com/replikativ/proximum)：Proximum是一个高性能、可嵌入的向量数据库，适用于Clojure和Java，具有类似Git的版本控制和零成本分支功能。
 * [ResonanceDB](https://github.com/LexProfi/ResonanceDB)：ResonanceDB是一种新一代语义数据库，旨在利用复值波形存储和检索含义丰富的模式。
+* [Tangerine](https://github.com/anuragts/tangerine)：Tangerine是一个内存向量数据库，旨在实现快速的读取和写入速度。
 
 #### 对象数据库
 
@@ -2788,6 +2832,7 @@
 * [Atoti](https://www.atoti.io/)：Atoti是一个数据分析平台，集一流的计算引擎、可视化套件和实时OLAP多维数据集于一体，由ActiveViam开发。
 * [ZooDB](https://github.com/tzaeschke/zoodb)：ZooDB是一个基于JDO 3.0标准的面向对象数据库。
 * [Prevayler](https://github.com/prevayler/prevayler)：Prevayler是用于业务对象持久化、负载均衡和容错的最简单、最快速且最透明的架构。
+* [DB4O](https://github.com/lytico/db4o)：DB40是一个对象数据库。
 
 #### XML数据库
 
@@ -2996,6 +3041,29 @@
 * [HttpKit](https://gitee.com/m310851010/httpkit)：HttpKit是一个HTTP请求工具，支持多线程异步请求。
 * [Easy Okhttp](https://gitee.com/mzllon/easy-okhttp)：Easy Okhttp是一个对Okhttp3封装后Java网络框架。
 * [Riptide](https://github.com/zalando/riptide)：Riptide是一个实现客户端响应路由的库，由Zalando开源。
+* [Hato](https://github.com/gnarroway/hato)：一个用于Clojure的HTTP客户端，封装了JDK 11的HttpClient。
+* [GAHC](https://github.com/eclipse-ee4j/glassfish-grizzly-ahc)：GAHC库旨在让Java应用程序能够轻松执行HTTP请求并异步处理HTTP响应。
+* [Jetty ReactiveStreams HttpClient](https://github.com/jetty-project/jetty-reactive-httpclient)：Jetty HttpClient的响应式封装。
+* [Requests Scala](https://github.com/com-lihaoyi/requests-scala)：Requests Scala是流行的Python Requests HTTP客户端的Scala移植版。
+* [Ninjato](https://github.com/agoda-com/ninjato)：Ninjato是一个库，它能让你编写简单而强大的远程HTTP调用。
+* [HTTP Client](https://github.com/biasedbit/http-client)：一个基于Netty的Java高性能、高吞吐量的HTTP客户端库。
+* [Basic HTTP Client](https://github.com/turbomanage/basic-http-client)：Basic HTTP Client是一个极简的HTTP客户端，使用java.net.HttpURLConnection发起请求。
+* [cVurl](https://github.com/corese4rch/cvurl)：cVurl是一个开源的Java HTTP客户端封装库。
+* [Rump](https://github.com/Jasper-ketelaar/Rump)：Rump是一个Java的REST客户端，模仿JavaScript中的Axios。
+* [HttpExchange Spring Boot Starter](https://github.com/DanielLiu1123/httpexchange-spring-boot-starter)：Spring 6声明式HTTP客户端Starter。
+* [Verano HTTP](https://github.com/Vatavuk/verano-http)：Verano HTTP是一个提供面向对象接口的HTTP客户端，用于构建HTTP请求。
+* [Cactoos HTTP](https://github.com/yegor256/cactoos-http)：Cactoos HTTP是一个实验性的HTTP客户端，完全面向对象。
+* [HttPizza](https://github.com/reisub/HttPizza)：适用于Android应用的轻量级HTTP客户端。
+* [HTTP Client Common](https://github.com/e5l/http-client-common)：Kotlin多平台HTTP客户端。
+* [Async Http Client](https://github.com/shenfeng/async-http-client)：基于Netty的异步HTTP客户端。
+* [Curly](https://github.com/m3dev/curly)：Curly是一个非常简单的HTTP客户端，使用起来就像curl命令行一样方便。
+* [LightHTTP](https://github.com/satorufujiwara/lighthttp)：适用于安卓系统的轻量级HTTP客户端。
+* [Tekniq](https://github.com/sepatel/tekniq)：一个基于Kotlin设计的框架，提供RESTful HTTP客户端、JDBC DSL、加载缓存、配置、验证等功能。
+* [Bayou](https://github.com/zhong-j-yu/bayou)：Java的异步HTTP服务器和客户端。
+* [Java Restify](https://github.com/ljtfreitas/java-restify)：Java Restify是一款基于接口的简单Java HTTP客户端。
+* [Networkinkt](https://github.com/egorzhdan/networkinkt)：基于协程的Kotlin多平台HTTP客户端封装。
+* [jCurl](https://github.com/eeichinger/jcurl)：jCurl是一个受curl启发、基于Java的HTTP命令行客户端。
+* [MSNet](https://github.com/limuyang2/msnet)：一款基于OkCronet的Android类型安全HTTP客户端。
 
 #### Web服务器
 
@@ -3120,6 +3188,17 @@
 * [LiteFTPD Unix](https://github.com/adlered/LiteFTPD-UNIX)：基于Java的高性能FTP服务端。
 * [Gripper](https://gitee.com/jingshishengxu/gripper)：Gripper是内嵌式FTP服务器。
 * [Ballerina FTP](https://github.com/ballerina-platform/module-ballerina-ftp)：Ballerina FTP提供FTP/SFTP客户端和FTP/SFTP服务器监听器，以便建立与远程位置的FTP/SFTP连接。
+* [ZIO FTP](https://github.com/zio/zio-ftp)：ZIO FTP是ZIO的FTP客户端的轻量级封装。
+* [FTPSync](https://github.com/PopFisher/FTPSync)：Java FTP上传下载文件。
+* [FTP4j](https://github.com/asbachb/ftp4j)：FTP4j是FTP、FTPS和FTPES协议的Java实现。
+* [FTP Pool](https://github.com/jayknoxqu/ftp-pool)：Commons Pool实现的FTP连接池。
+* [Java Portable FTP Server](https://github.com/dubasdey/portable-ftp-server)：适用于Windows、Linux和Mac的便携式FTP服务器。
+* [FTPClientPool](https://github.com/jellyflu/ftpClientPool)：FTP客户端池。
+* [Netty FTP Receiver](https://github.com/alexkasko/netty-ftp-receiver)：用于通过FTP接收文件的Netty处理器。
+* [FTP](https://github.com/FENG-MASTER/FTP)：FTP客户端和服务端。
+* [Simple Java FTP Server](https://github.com/pReya/ftpServer)：这是一个用Java实现的简单FTP服务器。
+* [One-FTPServer](https://github.com/benelog/one-ftpserver)：简单、便携式的FTP服务器。
+* [Java FTP Proxy Server](https://github.com/c960657/ftpproxy)：Java FTP代理服务器。
 
 #### NIO框架
 
@@ -3422,6 +3501,15 @@
 * [TLSFragmenter](https://github.com/filtershekanha/TLSFragmenter)：TLSFragmenter包含一个使用Spring Boot框架构建的Java代理服务器实现。
 * [Jladder](https://github.com/hudaming1/jladder)：基于Netty开发的HTTP/Socks代理服务器。
 * [HTTP Proxy Server](https://github.com/ffay/http-proxy-server)：HTTP代理服务器。
+* [Proxy](https://github.com/lvq410/Proxy)：基于Java的各种代理实现，包括纯TCP反向代理、HTTP、Socks5、内网穿透、私有WebSocket。
+* [Shadowsocks Netty Server](https://github.com/ksfzhaohui/shadowsocks-netty-server)：基于Netty 4.0实现的Shadowsocks服务器端。
+* [Shadowsocks Core](https://github.com/CC-Cheunggg/shadowsockets-core)：Java版的Shadowsocks服务端实现。
+* [Java WS](https://github.com/eooce/java-ws)：这是一个基于Java实现的多协议代理服务器。
+* [Shadowsocks Java](https://github.com/zhihengjiang/shadowsocks-java)：Shadowsocks Java是一个基于SOCKS5代理的使用Java开发的Shadowsocks代理软件。
+* [Shadowsocks Java](https://github.com/nooner2014/shadowsocks-java)：Shadowsocks Java是一个轻量级的隧道代理，可以帮助你穿过防火墙。
+* [Panama](https://github.com/loveinsky100/panama)：Panama是一个高性能的代理服务器，基于ShadowSocks协议，采用Netty实现。
+* [Shadowsocks Server](https://github.com/zk-123/shadowsocks)：Java开发的Shadowsocks。
+* [Shadowsocks Vert.x](https://github.com/Bestoa/shadowsocks-vertx)：Shadowsocks Vert.x是一个轻量级的隧道代理，可以帮助你穿过防火墙。
 
 #### 内网穿透
 
@@ -3445,6 +3533,12 @@
 * [Natx](https://github.com/wucao/natx)：Natx是一个基于Java Netty实现的可用于内网穿透的代理工具，支持TCP协议。
 * [SuperTunnel](https://github.com/davidkey/supertunnel)：SuperTunnel是一个可以通过HTTP隧道传输普通TCP流量的程序。
 * [Ecloud](https://github.com/CTF-MissFeng/Ecloud)：Ecloud是一款基于HTTP/1.1协议传输TCP流量工具。
+* [WeNat Client Java](https://github.com/newpanjing/wenat-client-java)：WeNat内网穿透Java版客户端。
+* [Pangolin](https://github.com/gnanquanmama/pangolin)：轻量级内网穿透工具，基于Java 8，Netty 4.x实现。
+* [QyNat Spring Boot Starter](https://github.com/whz11/qynat-spring-boot-starter)：一款可以实现内网穿透的Spring Boot Starter。
+* [OpenNAT](https://github.com/realJackSun/OpenNAT)：OpenNAT是一款轻量级适用于Web开发与部署的内网穿透框架。
+* [JNDC](https://github.com/qiweiview/jndc)：Java内网穿透可视化方案。
+* [Zrp](https://github.com/zhangjun1998/zrp)：Zrp是使用Java开发的一款基于Netty的内网穿透工具。
 
 #### 网络监控
 
@@ -3566,6 +3660,7 @@
 * [FlyingSocks](https://github.com/abc123lzf/flyingsocks)：该项目是基于Java Netty开发的Socks5代理客户端/服务器。
 * [JenTunnel](https://github.com/ggrandes/jentunnel)：JenTunnel是一个用Java编写、非常轻量级的SOCKS和HTTP代理服务器。
 * [Socks5 Netty](https://github.com/xtuhcy/socks5-netty)：基于Netty实现的Socks5代理。
+* [AgentX](https://github.com/ZhangJiupeng/AgentX)：AgentX是一个基于Netty的Socks5网络代理。
 
 #### Radius
 
@@ -3911,6 +4006,7 @@
 * [LightGBM Predict4j](https://github.com/lyg5623/lightgbm_predict4j)：LightGBM预测部分的Java实现。
 * [RankLib](https://github.com/codelibs/ranklib)：RankLib是一个学习排序算法库。
 * [ProbCog](https://github.com/opcode81/ProbCog)：ProbCog是一个统计关系学习和推理系统，支持在关系领域进行高效的学习和推理。
+* [LiFT](https://github.com/linkedin/LiFT)：LiFT是一个Scala/Spark库，用于衡量大规模机器学习工作流程中的公平性并缓解偏差，由LinkedIn开源。
 
 #### 神经网络
 
@@ -4366,6 +4462,7 @@
 * [ABBYY Cloud OCR SDK](https://github.com/abbyy/ocrsdk.com)：ABBYY Cloud OCR SDK提供Web API，可轻松在C#、Java、Python或任何其他支持网络通信的开发工具中使用。
 * [Sypht Java Client](https://github.com/sypht-team/sypht-java-client)：Sypht是一款SaaS API，用于从文档中提取关键字段。
 * [PdfOCR](https://github.com/itext/itext-pdfocr-java)：PdfOCR是iText的一个插件，用于识别和提取扫描文档和图像中的文本。
+* [MRZ](https://github.com/ZsBT/mrz-java)：用于解析国际民航组织(ICAO)规范的MRZ记录的Java解析器。
 
 #### 人脸识别
 
@@ -4579,5 +4676,6 @@
 * [Polynote](https://github.com/polynote/polynote)：Polynote是一个实验性多语言笔记本环境，由Netflix开源。
 * [Apache Zeppelin](https://github.com/apache/zeppelin)：Zeppelin是一款基于Web的笔记本，支持交互式数据分析，由韩国公司ZEPL开源。
 * [Spark Notebook](https://github.com/spark-notebook/spark-notebook)：Spark Notebook是针对企业环境的开源笔记本，为数据科学家和数据工程师提供了一个基于Web的交互式编辑器。
+* [Pulse](https://github.com/timestored/pulseui)：Pulse是一款开源工具，用于实时可视化分析、电子邮件报告和警报。
 
 ## [并发编程-面试宝典](docs/doc2.md)
