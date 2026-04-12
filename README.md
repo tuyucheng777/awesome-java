@@ -2590,6 +2590,7 @@
 * [CRJDT](https://github.com/fthomas/crjdt)：Scala中的无冲突复制JSON数据类型(CRDT)。
 * [Synk](https://github.com/CharlieTap/synk)：一个适用于离线优先应用的Kotlin多平台CRDT库。
 * [Akka Data Replication](https://github.com/patriknw/akka-data-replication)：Akka集群中CRDT的复制。
+* [Automerge Java](https://github.com/automerge/automerge-java)：Automerge是一种无冲突复制数据类型，它允许在不同设备上同时进行的更改自动合并，而无需任何中央服务器。
 
 ## 数据库
 
@@ -2641,6 +2642,10 @@
 * [Regain](https://regain.sourceforge.net/)：Regain是一款类似于Google等网络搜索引擎的搜索引擎。
 * [SimpleTextSearch](https://github.com/bradforj287/SimpleTextSearch)：这是一个轻量级且易于使用的Java全文搜索实现。
 * [WikiSe](https://github.com/arpitbbhayani/WikiSe)：WikiSe是一个完全用Java编写，并基于维基百科XML转储数据的维基百科搜索引擎。
+* [FTServer](https://github.com/iboxdb/ftserver)：Java全文搜索引擎服务器，轻量级可嵌入。
+* [Scalex](https://github.com/ornicar/scalex)：Scalex是类似Hoogle的Scala库文档搜索引擎。
+* [Flasma](https://github.com/sionic-ai/flasma)：利用GPU和动态布局实现高性能向量搜索引擎，精度无损失。
+* [Indexer4j](https://github.com/haeungun/indexer4j)：Indexer4j是一个简单的Java全文索引和搜索库。
 
 #### 图数据库
 
