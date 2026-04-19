@@ -154,6 +154,7 @@
     * [实体链接](#实体链接)
     * [敏感词过滤](#敏感词过滤)
     * [语言检测](#语言检测)
+    * [拼写检查](#拼写检查)
     * [WordNet](#WordNet)
   * [模型训练](#模型训练)
   * [因果推理](#因果推理)
@@ -681,6 +682,7 @@
   * [Mastodon](docs/doc2.md#Mastodon)
   * [Flickr](docs/doc2.md#Flickr)
 * [Docker客户端](docs/doc2.md#Docker客户端)
+* [Istio客户端](docs/doc2.md#Istio客户端)
 * [Consul客户端](docs/doc2.md#Consul客户端)
 * [Kubernetes客户端](docs/doc2.md#Kubernetes客户端)
 * [Web3](docs/doc2.md#Web3)
@@ -1715,6 +1717,7 @@
 * [Lightweight Rate Limiter](https://github.com/llsyyds/lightweight-rate-limiter)：基于Redis实现的轻量级分布式限流组件。
 * [IP Limiter](https://github.com/DDAaTao/ip-limiter)：IP Limiter是一个基于JVM缓存的轻量级、基于注解的IP速率限制组件。
 * [Rate Limiter Spring Boot Starter](https://github.com/gengu/rate-limiter-spring-boot-starter)：QPS流量控制Starter。
+* [Kite](https://github.com/williewheeler/kite)：Kite是一个基于Spring的组件库，其中包含名为守卫的组件，用于实现各种管理应用程序/服务可用性、性能和容量的模式。
 
 #### 重试
 
@@ -3281,6 +3284,7 @@
 * [AndroidHTTPServer](https://github.com/matt1/AndroidHTTPServer)：AndroidHTTPServer是一个适用于Android设备的多线程HTTP Web服务器库。
 * [EmbedHttp](https://github.com/nikkiii/embedhttp)：一个体积小巧、易于嵌入应用程序的Java HTTP服务器。
 * [Kwang](https://github.com/KwangIO/kwang)：Kwang是一个轻量级的Kotlin/Native封装库，用于封装高性能、低开销的Web服务器。
+* [Easy HTTPServer](https://github.com/NotBadPad/easy-httpserver)：Easy HTTPServer是一个Java实现的简单Web服务器。
 
 #### FTP服务器
 
@@ -3457,6 +3461,7 @@
 * [Spray SocketIO](https://github.com/dcaoyuan/spray-socketio)：Spray上的Socket.IO实现，支持集群分片。
 * [Socket.IO Netty](https://github.com/ibdknox/socket.io-netty)：Socket.IO Netty是一个基于Netty构建的Socket.IO服务器实现。
 * [Java Socket.IO Client](https://github.com/clwillingham/java-socket.io.client)：一个用Java编写的Socket.IO客户端。
+* [Socket.IO Spring Boot Starter](https://github.com/hiwepy/socketio-spring-boot-starter)：Netty Socket.IO的Spring Boot Starter。
 
 #### Socket
 
@@ -4095,6 +4100,7 @@
 * [IBM Watsonx Assistant Toolkit](https://github.com/watson-developer-cloud/assistant-toolkit)：IBM Watsonx Assistant Toolkit旨在帮助使用IBM Watsonx助手的开发者和数据科学家构建、部署和维护更高效的AI解决方案，以实现业务需求。
 * [SEPIA](https://github.com/SEPIA-Framework/sepia-assist-server)：SEPIA是一个模块化的开源框架，配备了构建完整数字语音助手所需的所有工具，包括语音识别、唤醒词检测、文本转语音、自然语言理解、对话管理、SDK、跨平台客户端应用等功能。
 * [Bibliothecarius](https://github.com/coderabbit214/bibliothecarius)：Bibliothecarius是一款本地数据分析工具，可根据自定义提示展开对话。
+* [DeskChan](https://github.com/DeskChan/DeskChan)：开源多平台个人助理框架。
 
 ### 机器学习
 
@@ -4534,6 +4540,15 @@
 * [JLangDetect](https://github.com/melix/jlangdetect)：JLangDetect是JVM的语言检测库。
 * [Language Detection CLD2](https://github.com/commoncrawl/language-detection-cld2)：自然语言检测，CLD2的Java绑定。
 
+#### 拼写检查
+
+* [Word Checker](https://github.com/houbb/word-checker)：Word Checker用于单词拼写检查。
+* [Customized SymSpell](https://github.com/MighTguY/customized-symspell)：SymSpell的Java版本。
+* [Jazzy](https://jazzy.sourceforge.net/)：Jazzy是一组API，可以轻松地为Java应用程序添加拼写检查功能。
+* [SpellChecker](https://github.com/bobbylight/SpellChecker)：SpellChecker是RSyntaxTextArea的一个拼写检查插件。
+* [EmailSuggester](https://github.com/fewlaps/quitnow-email-suggester)：更正电子邮件地址中的拼写错误。
+* [JSymSpell](https://github.com/rxp90/jsymspell)：JSymSpell是SymSpell的一个零依赖Java 8+移植版本。
+
 #### WordNet
 
 * [ExtJWNL](https://github.com/extjwnl/extjwnl)：ExtJWNL是一个用于创建、读取和更新WordNet格式词典的Java API。
@@ -4732,6 +4747,7 @@
 * [WhisperCat](https://github.com/ddxy/whispercat)：WhisperCat是你捕捉音频、转录和管理音频的得力助手，所有功能都集成在一个简洁流畅的界面中。
 * [Actions On Google Client Library](https://github.com/ticketmaster/actions-on-google-kotlin)：用于Google Actions的JVM客户端库。
 * [Rivr](https://github.com/nuecho/rivr)：Rivr是一个轻量级的开源对话引擎，使Java开发人员能够轻松创建企业级VoiceXML应用程序。
+* [JVoiceXML](https://github.com/JVoiceXML/JVoiceXML)：开源VoiceXML解释器。
 * [Dialogflow Java Client](https://github.com/dialogflow/dialogflow-java-client)：Dialogflow的Java客户端库。
 * [SpeechToText](https://gitee.com/yzd_org/speechToText)：基于WebSocket实现浏览器端文本、视频、语音的即时通讯，以及实时语音转文字。
 
