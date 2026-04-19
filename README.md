@@ -119,6 +119,7 @@
   * [NETCONF](#NETCONF)
   * [IP](#IP)
   * [SIP](#SIP)
+  * [SMPP](#SMPP)
 * [人工智能](#人工智能)
   * [LLM框架](#LLM框架)
   * [LLM客户端](#LLM客户端)
@@ -235,7 +236,6 @@
   * [其他测试库](docs/doc2.md#其他测试库)
   * [Spring测试](docs/doc2.md#Spring测试)
   * [测试套件](docs/doc2.md#测试套件)
-  * [测试模板](docs/doc2.md#测试模板)
   * [代码覆盖率](docs/doc2#代码覆盖率)
 * [数据库开发](docs/doc2.md#数据库开发)
   * [数据库驱动](docs/doc2.md#数据库驱动)
@@ -308,6 +308,7 @@
 * [工具库](docs/doc2.md#工具库)
 * [参数校验](docs/doc2.md#参数校验)
 * [Bean映射&复制](docs/doc2.md#Bean映射复制)
+* [对象比较](docs/doc2.md#对象比较)
 * [IoC](docs/doc2.md#IoC)
 * [AOP](docs/doc2.md#AOP)
 * [缓存库](docs/doc2.md#缓存库)
@@ -466,6 +467,7 @@
   * [图像比较](docs/doc2.md#图像比较)
   * [PNG库](docs/doc2.md#PNG库)
   * [SVG库](docs/doc2.md#SVG库)
+  * [WebP库](docs/doc2.md#WebP库)
   * [TIFF库](docs/doc2.md#TIFF库)
   * [缩略图](docs/doc2.md#缩略图)
   * [头像库](docs/doc2.md#头像库)
@@ -669,6 +671,7 @@
   * [Trakt](docs/doc2.md#Trakt)
   * [Notion](docs/doc2.md#Notion)
   * [Twitch](docs/doc2.md#Twitch)
+  * [Bluesky](docs/doc2.md#Bluesky)
   * [Shopify](docs/doc2.md#Shopify)
   * [JIRA](docs/doc2.md#JIRA)
   * [Trello](docs/doc2.md#Trello)
@@ -1652,6 +1655,7 @@
 * [ScalarDL](https://github.com/scalar-labs/scalardl)：ScalarDL是一种可扩展且实用的拜占庭故障检测中间件，适用于事务数据库系统，可实现正确性、可扩展性和数据库不可知性，由韩国Scalar公司维护。
 * [MicroProfile Fault Tolerance](https://github.com/eclipse/microprofile-fault-tolerance)：MicroProfile中提供的容错组件。
 * [PBScaler](https://github.com/WHU-AISE/PBScaler)：PBScaler是一个瓶颈感知自动扩展框架，旨在防止基于微服务的应用程序性能下降，由武汉大学开发。
+* [Senries](https://github.com/erikvanoosten/sentries)：Senries是一个独立的Scala库，它将处理调用数据库和远程服务等资源时的所有故障处理。
 
 #### 断路器
 
@@ -2189,6 +2193,7 @@
 * [PuppetDB](https://github.com/puppetlabs/puppetdb)：PuppetDB是Puppet的快速、可扩展且可靠的数据仓库。
 * [Smart Data Lake](https://github.com/smart-data-lake/smart-data-lake)：Smart Data Lake Builder是一个数据湖自动化框架，可轻松实现数据的加载和转换，由瑞士联邦铁路开源。
 * [S3 Tables Catalog](https://github.com/awslabs/s3-tables-catalog)：Amazon S3 Tables Catalog是一个客户端库，它将S3 Tables提供的控制平面操作与Apache Spark、Flink等引擎连接起来，并可与Iceberg Table格式配合使用。
+* [Lighthouse](https://github.com/datamindedbe/lighthouse)：Lighthouse是一个基于Apache Spark构建的数据湖库。
 
 #### 数据Shuffle
 
@@ -2260,7 +2265,6 @@
 * [RingBroker](https://github.com/ElevatedDev/RingBroker)：RingBroker是一个高吞吐量、低延迟的分布式消息系统。
 * [Mykit Delay](https://github.com/binghe001/mykit-delay)：Mykit体系中提供的简单、稳定、可扩展的延迟消息队列框架，提供精准的定时任务和延迟队列处理功能。
 * [FileMQ](https://github.com/zeromq/filemq)：FileMQ是一种基于ZeroMQ的发布-订阅文件服务。
-* [Smallrye Reactive Messaging](https://github.com/smallrye/smallrye-reactive-messaging)：Eclipse MicroProfile Reactive Messaging规范实现，用于构建事件驱动的微服务和数据流应用。
 * [RMQ](https://github.com/xetorthio/rmq)：RMQ是一个基于Redis的小巧且非常易用的消息队列。
 * [Octobot](https://github.com/cscotta/Octobot)：Octobot是一个任务队列工作器，旨在实现可靠性、易用性和高吞吐量。
 * [QDB](https://github.com/qdb-io/qdb-server)：QDB是一个支持重播的持久性消息队列。
@@ -2289,6 +2293,7 @@
 * [DataCarrier](https://github.com/wu-sheng/DataCarrier)：DataCarrier是一个轻量级、嵌入式、高吞吐量的发布/订阅消息队列。
 * [Simple Message Queue](https://github.com/kentfitch/Simple-message-queue)：一个用Java实现的非常简单的基于磁盘的消息队列。
 * [PSQueueServer](https://github.com/wjw465150/PSQueueServer)：PSQueueServer是一个轻量级高性能消息队列。
+* [Redis DQueue](https://github.com/hellokaton/redis-dqueue)：Redis DQueue是一个Redis、Java 8基础延迟队列库。
 
 #### IPC
 
@@ -2308,6 +2313,8 @@
 * [SIRC](https://github.com/sorcix/sIRC)：SIRC是一个简单的Java IRC库。
 * [Reactive IPC JVM](https://github.com/reactive-ipc/reactive-ipc-jvm)：JVM的响应式进程间通信。
 * [SharedMemory](https://github.com/NewtronLabs/SharedMemory)：Shared Memory库允许创建可供多个Android进程或应用程序同时访问的内存区域。
+* [Reactor Aeron](https://github.com/scalecube/reactor-aeron)：Reactor Aeron提供基于Aeron的无阻塞、支持反压的可靠UDP客户端和服务器，可高效可靠地传输UDP单播、UDP多播和IPC消息。
+* [JavaSharedMemory](https://github.com/ShirasawaSama/JavaSharedMemory)：进程间共享内存，基于Java 19 FFM API。
 
 #### 事件总线
 
@@ -2334,6 +2341,7 @@
 * [Events4J](https://github.com/PhilippHeuer/events4j)：Java事件调度程序/消费者。
 * [DamiBus](https://gitee.com/noear/dami)：DamiBus专为本地多模块之间通讯解耦而设计。
 * [IPC EventBus](https://github.com/Terracotta-OSS/ipc-eventbus)：IPC EventBus为JVM内和JVM外通信提供了一个简单的EventBus API。
+* [Craftgate Modulith Messaging](https://github.com/craftgate/craftgate-modulith-messaging)：用于管理内部模块间通信的Java库。
 * [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
 * [Eventbus](https://github.com/likavn/eventbus)：Eventbus是基于Spring Boot Starter的分布式业务消息分发总线组件(发布/订阅模式)，支持延时消息。
 * [Deezpatch](https://github.com/joel-jeremy/emissary)：Deezpatch是一个简单快速的库，用于将请求和事件分派到相应的处理程序。
@@ -2392,6 +2400,8 @@
 * [ZBus](https://gitee.com/openforce/zbus)：ZBus致力于使消息队列和RPC变得快速、轻量级并且易于为许多不同的平台构建你自己的面向服务的架构，由开放金融技术开源。
 * [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
 * [Mappedbus](https://github.com/caplogic/Mappedbus)：Mappedbus是一种用于利用共享内存的Java微服务的低延迟消息总线。
+* [Smallrye Reactive Messaging](https://github.com/smallrye/smallrye-reactive-messaging)：Eclipse MicroProfile Reactive Messaging规范实现，用于构建事件驱动的微服务和数据流应用。
+* [MicroProfile Reactive Messaging](https://github.com/microprofile/microprofile-reactive-messaging)：MicroProfile提供的基于Reactive Streams的异步消息传递支持。
 * [Spring Cloud Stream](https://github.com/spring-cloud/spring-cloud-stream)：Spring Cloud Stream是一个用于构建与共享消息系统连接的高度可扩展的事件驱动微服务的框架，由Pivotal开发。
 * [CoralSequencer](https://www.coralblocks.com/index.php/category/coralsequencer/)：CoralSequencer是一款功能齐全、超低延迟、全序消息传递中间件，适用于基于异步消息的分布式系统。
 * [EBus](https://ebus.sourceforge.io/eBus)：EBus是一个Java中间件API，支持无代理、基于类型+主题的发布/订阅和请求/回复消息传递，用于应用程序内和应用程序间的对象级通信。
@@ -2429,6 +2439,7 @@
 * [Apache ServiceMix](https://github.com/apache/servicemix)：ServiceMix是一个灵活的开源集成容器，它将ActiveMQ、Camel、CXF和Karaf的特性和功能成为一个强大的运行时平台，你可以使用它来构建自己的集成解决方案。它提供了一个完全由OSGi提供支持的企业级ESB。
 * [JBoss Fuse](https://github.com/jboss-fuse/fuse)：JBoss Fuse是一个开源ESB，其功能基于Apache Camel、Apache CXF、Apache ActiveMQ、Apache Karaf和Fabric8，集成在一个发行版中。
 * [Petals ESB](https://petals.linagora.com/)：Petals ESB是一个开源企业服务总线。
+* [Azure Service Bus Java](https://github.com/Azure/azure-service-bus-java)：Azure服务总线的Java客户端库。
 
 #### 消息队列客户端
 
@@ -2474,7 +2485,6 @@
 * [Apache Fluo](https://github.com/apache/fluo)：Fluo是一个分布式处理系统，允许用户对大型数据集进行增量更新，由美国国家安全局开源。
 * [Fallout](https://github.com/datastax/fallout)：Fallout是一种用于运行本地或大规模远程分布式正确性、验证和性能测试的工具，由DataStax开源。
 * [Narya](https://github.com/threerings/narya)：Narya提供了一个用于构建实时分布式系统的框架，重点支持多人在线游戏。
-* [Java Gearman Service](https://github.com/gearman/java-service)：Java Gearman Service是一个易于使用的分布式网络应用框架，实现了Gearman协议，用于将任务分配给更适合完成该作业的其他机器或进程。
 * [Distributed Tool](https://gitee.com/xuan698400/distributed-tool)：Distributed Tool是分布式常用工具组件，包括分布式List、Set、Long、信号量、缓存、锁、序列号生成器、订阅发布模式等常用工具类。
 * [Replicate](https://github.com/unmeshjoshi/replicate)：Replicate是一个用于快速构建和测试复制算法的基础框架。
 * [Spring Cloud Cluster](https://github.com/spring-attic/spring-cloud-cluster)：Spring Cloud Cluster提供了一系列用于在分布式系统中构建集群特性的基本组件，例如领导者选举、集群状态的一致性存储、全局锁和一次性令牌。
@@ -2794,6 +2804,7 @@
 * [SQLited](https://github.com/forchid/sqlite-server)：基于C/S架构的高性能SQLite数据库服务器引擎。
 * [HanboDB](https://github.com/3kuai/hanbo-db)：HanboDB是一个高可用性、低延迟的内存数据库系统。
 * [JFile](https://github.com/laforge49/JFile)：JFile基于JActor和Jid构建，增加了文件持久化和内存数据库功能。
+* [Rider](https://github.com/alchemystar/Rider)：Rider文件数据库。
 
 #### 关系型数据库
 
@@ -2866,6 +2877,7 @@
 * [TennBase](https://github.com/tenn-cn/TennBase)：一个基于B树的轻量级数据存储系统，实现了HBase的一些基本功能。
 * [Filelize](https://github.com/filelize/filelize-java)：Filelize是一款轻量级数据库，只需一行代码即可将数据写入和读取到易于阅读的文件中。
 * [XitDB](https://github.com/xit-vcs/xitdb-java)：XitDB是一个用Java编写的不可变数据库。
+* [Dyna53](https://github.com/ongres/dyna53)：Route53数据库，并提供与DynamoDB兼容的API。
 
 #### OLAP数据库
 
@@ -3136,6 +3148,10 @@
 * [Spring REST Invoker](https://github.com/ggeorgovassilis/spring-rest-invoker)：Spring Invoker，用于将远程REST服务映射到本地接口。
 * [Horizon](https://github.com/HubSpot/Horizon)：Horizon类采用Java HTTP客户端接口，旨在尽可能简化与REST服务的交互。
 * [Restler](https://github.com/excelsior-oss/restler)：Restler是一个库，它通过分析相应的带注解的Spring控制器接口，在运行时自动为Web服务生成客户端。
+* [Oh My Request](https://github.com/hellokaton/oh-my-request)：Java 8的简单请求库。
+* [Easy Requester](https://github.com/lookoutldz/easy-requester)：Easy Requester是一个轻量级的Java/Kotlin HTTP客户端库。
+* [HttpUtil](https://github.com/josdejong/httputil)：HttpUtil是一个包含多种方法的类，方便地执行HTTP请求。
+* [Requestor](https://github.com/reinert/requestor)：Requestor以独特的方式将简洁性、完整性和高性能结合在一个统一的HTTP客户端API中，适用于任何Java衍生语言。
 
 #### Web服务器
 
@@ -3264,6 +3280,7 @@
 * [AndroidHttpServer](https://github.com/andreivisan/AndroidHttpServer)：使用NanoHTTPD在Android应用程序中运行HTTP服务器。
 * [AndroidHTTPServer](https://github.com/matt1/AndroidHTTPServer)：AndroidHTTPServer是一个适用于Android设备的多线程HTTP Web服务器库。
 * [EmbedHttp](https://github.com/nikkiii/embedhttp)：一个体积小巧、易于嵌入应用程序的Java HTTP服务器。
+* [Kwang](https://github.com/KwangIO/kwang)：Kwang是一个轻量级的Kotlin/Native封装库，用于封装高性能、低开销的Web服务器。
 
 #### FTP服务器
 
@@ -3413,6 +3430,15 @@
 * [Scala Websocket Client](https://github.com/andyglow/websocket-scala-client)：Scala Websocket Client是一个开源库，它提供了一个简洁、对程序员友好的API来描述Websocket请求/响应机制。
 * [Bytesocks](https://github.com/lucko/bytesocks)：Bytesocks是一个快速轻量级的WebSocket服务器。
 * [Java WebSockify](https://github.com/jribble/Java-Websockify)：Java WebSockify是一个使用Netty编写的基本Websockify服务器实现。
+* [WebSocketGo](https://github.com/Gnepux/WebSocketGo)：WsGo是一个Java库，它可以用来管理WebSocket通道。
+* [LibGDXNet](https://github.com/jlcmes/libGDX-Net)：此扩展程序为LibGDX多平台游戏提供网络/多人游戏支持，它也可用于Java应用程序，为基于WebSocket客户端/服务器的应用程序提供WebSocket支持。
+* [Netty WebSocket](https://github.com/daixiaoch/netty-websocket)：Netty WebSocket是一个基于Netty的Java WebSocket集群框架。
+* [Bristleback](https://github.com/bristleback/bristleback)：Bristleback是一个完整的Java/JavaScript WebSocket框架。
+* [Java WebSocket](https://github.com/blinkdog/websocket)：Java中的简单WebSocket实现。
+* [Pocket Edition WebSocket Server API](https://github.com/jocopa3/PEWS-API)：适用于Minecraft Pocket版、Windows 10版和教育版的Java WebSocket服务器API实现。
+* [GWT WebSockets](https://github.com/sksamuel/gwt-websockets)：GWT的WebSocket客户端库。
+* [Dropwizard Websocket](https://github.com/LivePersonInc/dropwizard-websockets)：Dropwizard增强包，不仅支持JAX-RS资源，还支持使用JSR-356 API的WebSockets端点。
+* [Ext Netty](https://github.com/xjc-opensource/ext-opensource-netty)：基于Netty框架，提供对MQTT、WebSocket等协议的服务端与客户端的封装。
 
 #### Socket.IO
 
@@ -3582,6 +3608,7 @@
 * [BrowserUp Proxy](https://github.com/lightbody/browsermob-proxy)：BrowserMob Proxy允许你操作HTTP请求和响应、捕获HTTP内容以及将性能数据导出为HAR文件。
 * [LittleProxy](https://github.com/adamfisk/LittleProxy)：LittleProxy是一个用Java编写的高性能HTTP代理。
 * [PacketProxy](https://github.com/DeNA/PacketProxy)：PacketProxy是一个开源代理工具，可以拦截和检查TCP/UDP上的任何协议，而不仅限于HTTP/1.x、HTTP2或HTTPS，由DeNA开源。
+* [MitmProxy Java](https://github.com/appium/mitmproxy-java)：MitmProxy是一个免费开源的交互式HTTPS代理。
 * [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG)：OpenIG是一种高性能反向代理服务器，具有专门的会话管理和凭证重播功能。
 * [PowerTunnel](https://github.com/krlvm/PowerTunnel)：PowerTunnel是一个构建在LittleProxy之上的可扩展代理服务器。
 * [Styx](https://github.com/ExpediaGroup/styx)：Styx是用于JVM的可编程、异步、基于事件的反向代理，由Expedia开源。
@@ -3618,6 +3645,7 @@
 * [Shadowsocks Server](https://github.com/zk-123/shadowsocks)：Java开发的Shadowsocks。
 * [Shadowsocks Vert.x](https://github.com/Bestoa/shadowsocks-vertx)：Shadowsocks Vert.x是一个轻量级的隧道代理，可以帮助你穿过防火墙。
 * [OpenProxyJ](https://github.com/woshiwzy/OpenProxyJ)：纯Java实现的网络代理小工具。
+* [Java WebSocket Reverse Proxy](https://github.com/barrett-rob/java-websocket-reverse-proxy)：WebSocket反向代理的Java实现。
 
 #### 内网穿透
 
@@ -3824,6 +3852,15 @@
 * [SIP Proxy](https://github.com/lunasaw/gb28181-proxy)：GB28181 Proxy是基于SIP实现GB28181的通信框架，区分客户端和服务器。
 * [SoftSwitch Gateway](https://github.com/Atoms-Cat/softswitch-gateway)：基于Netty 4对接的OpenSIP导出事件、导出MI和FreeSWITCH事件套接字库。
 * [OpenVCX](https://github.com/openvcx/openvcx)：OpenVCX是一个基于SIP协议的视频流服务器，用于多方视频聊天、网络直播、录制和实时媒体分发。
+
+#### SMPP
+
+* [Cloudhopper SMPP](https://github.com/twitter-archive/cloudhopper-smpp)：Cloudhopper SMPP是SMPP的高效、可扩展且灵活的Java实现，由Twitter开源。
+* [jSMPP](https://github.com/opentelecoms-org/jsmpp)：jSMPP是SMPP协议的Java实现，它提供与消息中心或ESME通信的接口，并且能够处理每秒3000-5000条消息的流量。
+* [JSMPP](https://github.com/uudashr/jsmpp)：Java SMPP API。
+* [OpenSmpp](https://github.com/OpenSmpp/opensmpp)：OpenSmpp是一个成熟的Java库，可实现SMPP协议，并允许开发外部短信实体(ESME)等。
+* [SMPP Server](https://github.com/elibom/smpp-server)：SMPP Server是一个基于Cloudhopper SMPP库的项目，它接收客户端连接，并允许你轻松处理SMPP数据包。
+* [Spring Boot Starter SMPP](https://github.com/MikeSafonov/spring-boot-starter-smpp)：使用Spring Boot Starter通过SMPP发送短信。
 
 ## 人工智能
 
@@ -4154,6 +4191,7 @@
 * [RankLib](https://github.com/codelibs/ranklib)：RankLib是一个学习排序算法库。
 * [ProbCog](https://github.com/opcode81/ProbCog)：ProbCog是一个统计关系学习和推理系统，支持在关系领域进行高效的学习和推理。
 * [LiFT](https://github.com/linkedin/LiFT)：LiFT是一个Scala/Spark库，用于衡量大规模机器学习工作流程中的公平性并缓解偏差，由LinkedIn开源。
+* [TAK ML](https://github.com/raytheonbbn/tak-ml)：TAK ML是一个适用于TAK/ATAK的工具包，支持在运行环境中对机器学习模型进行打包、存储、分发和执行，由雷神公司开源。
 
 #### 神经网络
 
@@ -4352,6 +4390,7 @@
 * [AHANLP](https://github.com/jsksxs360/AHANLP)：AHANLP自然语言处理包，提供包括分词、依存句法分析、语义角色标注、自动摘要、语义相似度计算、LDA主题预测、词云等服务。
 * [JChunk](https://github.com/jchunk-io/jchunk)：JChunk是一个简单的库，支持不同类型的文本拆分策略。
 * [OpenCCG](https://github.com/OpenCCG/openccg)：OpenCCG是一个使用组合范畴语法进行语法分析和使用混合逻辑依存语义进行语义表示的文本解析和生成系统，由德克萨斯大学奥斯汀分校开源。
+* [EasyCCG](https://github.com/mikelewis0/easyccg)：EasyCCG是由Mike Lewis创建的CCG解析器。
 * [Entity Fishing](https://github.com/kermitt2/entity-fishing)：Entity Fishing是一个用于捕鱼实体的机器学习工具。
 * [Epic](https://github.com/dlwh/epic)：Epic是Scala的一个结构化预测框架。
 * [TimeNLP](https://github.com/shinyke/Time-NLP)：中文语句中的时间语义识别。
@@ -4623,6 +4662,7 @@
 * [Bus OpenCV](https://github.com/818000/bus/tree/main/bus-opencv)：Bus OpenCV为OpenCV提供了一个简化的Java接口。
 * [JavaCPP Chilitags](https://github.com/bytedeco/javacpp-presets/tree/master/chilitags)：Chilitags是一个用于检测和识别二维基准标记的跨平台软件库。
 * [OpenCV](https://github.com/PatternConsulting/opencv)：OpenCV Java绑定，与本地库打包在一起。
+* [JFeatureLib](https://github.com/locked-fg/JFeatureLib)：JFeatureLib是一个免费库，提供了几种图像特征的实现，以及主要用于计算机视觉研究领域的几种点/区域检测器。
 
 #### OCR
 
