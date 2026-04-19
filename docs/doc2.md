@@ -184,6 +184,13 @@
 * [ActorLite](https://github.com/Ahmed-Adel-Ismail/ActorLite)：ActorLite是一个轻量级的Actor模型库，它以消息驱动的方式帮助Android组件之间进行通信。
 * [JActor2](https://github.com/laforge49/JActor2)：健壮、可组合的Actor实现。
 * [JavaFlow](https://github.com/panghy/javaflow)：JavaFlow是一个基于Java的Actor并发框架，旨在支持高度并发、异步编程，并具有确定性执行以进行测试。
+* [Jumi Actors](https://github.com/luontola/jumi-actors)：用于Java的Actor库，支持并发和异步事件驱动编程。
+* [Otavia](https://github.com/otavia-projects/otavia)：适用于Scala 3的高性能I/O和Actor框架。
+* [μJavaActors](https://github.com/ggrandes-clones/j-javaactors-ibm)：μJavaActors是一个用于并行执行的Java Actor库，由IBM开源。
+* [Actor](https://github.com/edescourtis/actor)：一个极其精简的Java Actor库。
+* [Reels](https://github.com/davidmoten/reels)：用于Java的Actor框架，非阻塞、高性能。
+* [Dust](https://github.com/dust-ai-mr/dust-core)：Dust是一个适用于Java 21及更高版本的轻量级Actor框架。
+* [Actors](https://github.com/offbynull/actors)：Actors项目是一个轻量级的Java Actor框架，它极大地简化了可水平扩展软件的设计和开发。
 
 #### ThreadLocal
 
@@ -1447,6 +1454,7 @@
 * [Joiner](https://github.com/encircled/Joiner)：Joiner是一个Java库，支持创建类型安全的JPA查询。
 * [QueryFilterJPA](https://github.com/acoboh/query-filter-jpa)：QueryFilterJPA让你能够以最少的设置创建功能强大的动态过滤器。
 * [OmniPersistence](https://github.com/omnifaces/omnipersistence)：JPA、JDBC和数据源的实用工具。
+* [Spring Native Query](https://github.com/gasparbarancelli/spring-native-query)：Spring Native Query库旨在简化原生查询的执行。
 
 #### 数据库连接池
 
@@ -2253,6 +2261,7 @@
 * [Heimdall](https://github.com/qaware/heimdall)：该库实现了一种安全且可升级的密码哈希机制。
 * [Apache Pirk](https://github.com/apache/incubator-retired-pirk)：Apache Pirk是一个可扩展的私有信息检索框架。
 * [Crypto](https://github.com/guoliao502/crypto)：易于使用的Java加密API。
+* [Alice](https://github.com/rockaport/alice)：Alice是一个Java AES/DES加密库，用于处理字节数组、文件和流。
 
 #### 密码库
 
@@ -2586,6 +2595,8 @@
 * [DSI Utilities](https://github.com/vigna/dsiutils)：DSI Utilities是米兰大学DSI开发的项目中积累的类的大杂烩。
 * [Dew Common](https://github.com/gudaoxuri/dew-common)：Dew Common的理念是简化Java开发中最常用的操作，同时尽可能少地引入第三方包，做到通用、易用、精简。
 * [OnixByte Toolbox](https://github.com/onixbyte/onixbyte-toolbox)：OnixByte Toolbox是一款Java开发工具包，它提供了一套方便的工具，可以高效地编写代码。
+* [MgntUtils](https://github.com/michaelgantman/Mgnt)：MgntUtils提供一组用于执行常见任务的实用方法。
+* [Magic Starter](https://github.com/xkcoding/magic-starter)：Spring Boot通用工具Starter。
 
 ## 参数校验
 
@@ -4418,6 +4429,7 @@
 * [Glow](https://github.com/projectglow/glow)：Glow是一个开源工具包，用于实现生物库规模及更大范围的生物信息学，由Regeneron开发。
 * [Systems Genetics](https://github.com/molgenis/systemsgenetics)：通用Java基因型读取器/写入器、QTL映射软件、链比对工具，由格罗宁根大学开源。
 * [VarDictJava](https://github.com/AstraZeneca-NGS/VarDictJava)：VarDictJava是一款用Java和Perl编写的变体发现程序。
+* [CGView](https://github.com/paulstothard/cgview)：CGView是一个Java包，用于生成高质量、可缩放的环状基因组图谱。
 
 #### NGS
 
@@ -4963,6 +4975,7 @@
 * [Basis Template](https://github.com/badlogic/basis-template)：Basis Template是一个用于Java和其他JVM语言的富有表现力的模板引擎。
 * [Korte](https://github.com/soywiz-archive/korte)：Kotlin协程模板引擎，适用于多平台Kotlin。
 * [SQL Template](https://github.com/cero-t/sqltemplate)：适用于Spring Boot应用程序的简单SQL模板引擎。
+* [SqlTemplate](https://github.com/wenzuojing/SqlTemplate)：SqlTemplate是SQL模板引擎，主要解决动态拼接SQL字符串。
 * [Japid42](https://github.com/branaway/japid42)：Japid42是一个基于Java的原生模板引擎。
 * [Koreander](https://github.com/lukasjapan/koreander)：Koreander是一个Kotlin的HTML模板引擎，具有简洁优雅的Haml风格语法。
 * [Cambridge](https://github.com/erdincyilmazel/Cambridge)：Cambridge是一个Java平台的模板引擎，可以与你选择的任何Web框架配合使用。
@@ -5555,6 +5568,7 @@
 * [TweakJar](https://github.com/liaoguobao/TweakJar)：TweakJar是一个轻量级的运行时JAR包修改框架。
 * [ASM Inline](https://github.com/xxDark/asm-inline)：Java中的内联字节码。
 * [JarPlant](https://github.com/w1th4d/JarPlant)：Java归档植入工具包。
+* [ClassReader](https://github.com/HalfStackDeveloper/ClassReader)：基于Java的Class文件解析。
 
 ## 反编译
 
@@ -5995,6 +6009,7 @@
 * [JZlib](https://github.com/ymnk/jzlib)：JZlib是zlib在纯Java中的重新实现。
 * [Junrar](https://github.com/junrar/junrar)：纯Java RAR库。
 * [JUnRAR](https://github.com/edmund-wagner/junrar)：纯Java解压缩工具。
+* [Java UnRAR](https://github.com/jukka/java-unrar)：UnRAR是一个免费RAR压缩文件解压缩工具。
 * [UnRAR Android](https://github.com/maoabc/unrar-android)：Unrar库的Java绑定。
 * [JArchiveLib](https://github.com/thrau/jarchivelib)：JArchiveLib是一个简单的Java归档和压缩库，它在Apache Commons Compress之上提供了一个精简且易于使用的API层。
 * [JTar](https://github.com/kamranzafar/jtar)：JTar是一个简单的Java Tar库，它提供了一种使用IO流创建和读取Tar文件的简单方法。
@@ -7021,6 +7036,7 @@ Kafka生态管理系统、运维平台。
 * [Takin](https://github.com/shulieTech/Takin)：Takin是一个基于Java的开源系统，旨在测量全链路的在线或测试环境性能测试，由数列科技开源。
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils)：LatencyUtils包含一些用于跟踪延迟的实用工具。
 * [JOL](https://github.com/openjdk/jol)：JOL是用于分析JVM中对象布局的微型工具箱，Oracle开源。
+* [Demeter](https://github.com/yandex/demeter)：Demeter是一个性能测量库，可以简化应用程序中性能问题的排查，由Yandex开源。
 * [Cornerstone](https://github.com/ctripcorp/vi)：Cornerstone是携程框架部门研发的内部可视化组件VI的开源版本，VI主要是一个应用及应用相关环境的可视化工具，和应用健康状态及启动管理的工具。
 * [JMX Exporter](https://github.com/prometheus/jmx_exporter)：JMX Exporter是一个捕获JMX MBean值的收集器。
 * [Sidekick](https://github.com/runsidekick/sidekick)：Sidekick是一个开源实时应用程序调试器。
@@ -7452,6 +7468,7 @@ Kafka生态管理系统、运维平台。
 * [CodeRadar](https://github.com/adessoSE/coderadar)：Coderadar是一款持续的源代码分析工具。
 * [Hopper](https://github.com/cuplv/hopper)：Hopper是一款面向JVM语言的目标导向型静态分析工具，由科罗拉多大学博尔德分校开源。
 * [Naturalize](https://github.com/mast-group/naturalize)：Naturalize是一个与语言无关的框架，用于从代码库中学习编码约定，然后利用这些信息来建议更好的标识符名称和代码格式更改，由爱丁堡大学开源。
+* [EtherSolve](https://github.com/SeUniVr/EtherSolve)：EtherSolve是一款用于从以太坊字节码重建Solidity智能合约的控制流图和静态分析的工具。
 
 #### 空安全
 
@@ -8194,6 +8211,12 @@ Kafka生态管理系统、运维平台。
 * [SpringBoard](https://github.com/SystangoTechnologies/Springboard)：这是一个入门套件，旨在帮助开发者快速启动基于Spring的API型Java服务器的开发。
 * [Kotlin Spring Boot REST JPA JWT Starter](https://github.com/osahner/kotlin-spring-boot-rest-jpa-jwt-starter)：Kotlin Spring Boot 3 REST/JPA/JWT入门模板。
 * [Secure User Platform Spring Boot 3 JWT](https://github.com/NidhalNaffati/secure-user-platform-with-springboot3-vue3-jwt)：这是一个安全可靠的平台，专为用户注册、登录和密码找回而设计。
+* [Hexagonal Module](https://github.com/flex-public/hexagonal-module-sample)：模板项目，展示了如何使用Gradle多模块实现Spring Boot六边形架构。
+* [Library Hexagonal](https://github.com/wkrzywiec/library-hexagonal)：这是一个用六边形架构编写的模板应用程序。
+* [Hentai](https://github.com/jakubnabrdalik/hentai)：Java中具有高内聚模块化、CQRS和快速BDD测试的六边形架构模板。
+* [Hexagonal Architecture Java](https://github.com/SvenWoltmann/hexagonal-architecture-java)：该仓库包含一个根据六边形架构实现的Java REST应用程序模板。
+* [Hexagonal Architecture](https://github.com/rbailen/Hexagonal-Architecture)：一个使用Spring Boot实现六边形架构的示例模板。
+* [Modular Architecture Hexagonal](https://github.com/AlicanAkkus/Modular-Architecture-Hexagonal-Demo-Project)：本项目是一个可用于生产环境的模板实现，用于展示六边形架构的强大功能。
 
 #### 脚手架
 
@@ -9559,6 +9582,7 @@ Kafka生态管理系统、运维平台。
 * [EdgeCloudSim](https://github.com/CagataySonmez/EdgeCloudSim)：EdgeCloudSim提供了一个专门针对边缘计算场景的模拟环境，可用于开展兼顾计算和网络资源的实验。
 * [Repast](https://github.com/Repast/repast.simphony)：Repast是一系列先进、免费、开源的基于代理的建模和仿真平台，由美国阿贡国家实验室开发。
 * [OpenDC](https://github.com/atlarge-research/opendc)：OpenDC是一个用于云数据中心模拟的免费开源平台，由阿姆斯特丹自由大学开源。
+* [Open DIS Java](https://github.com/open-dis/open-dis-java)：IEEE-1278.1分布式交互式仿真(DIS)应用协议v6和v7的Java实现。
 
 #### 边缘计算
 
@@ -15315,6 +15339,7 @@ Kafka生态管理系统、运维平台。
 * [Scallion](https://github.com/epfl-lara/scallion)：Scallion是一个用于在Scala中为LL(1)语言编写解析器和美化打印机的库。
 * [ParSekt](https://github.com/absurdhero/parsekt)：Kotlin的解析器组合器库。
 * [Grappa](https://github.com/fge/grappa)：用Java完全编写解析器，用于解析任意文本输入，无需预处理阶段。
+* [Bullwinkle](https://github.com/sylvainhalle/Bullwinkle)：Bullwinkle是一个LL(k)语言的解析器，它通过递归下降和回溯进行运算。
 
 #### 源代码解析
 
@@ -15691,6 +15716,7 @@ Kafka生态管理系统、运维平台。
 * [GWT Polymer Elements](https://github.com/manolo/gwt-polymer-elements)：适用于GWT的Polymer Web Components。
 * [GWT Maps V3 API](https://github.com/branflake2267/GWT-Maps-V3-Api)：该库为Google地图Javascript API提供Java语言绑定。
 * [GWT OpenLayers](https://github.com/TDesjardins/gwt-ol)：使用JSInterop的OpenLayers 3+ GWT封装。
+* [jQM4GWT](https://github.com/jqm4gwt/jqm4gwt)：jQM4GWT是jQuery Mobile框架的高级封装，它将其转换为可在GWT应用中使用的组件库。
 
 #### Vaadin库
 

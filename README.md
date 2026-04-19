@@ -1523,6 +1523,7 @@
 * [Nelson](https://github.com/getnelson/nelson)：Nelson是一个用于持续部署容器并自动管理其生命周期的系统。
 * [Orkestra](https://github.com/Orkestra-Tech/orkestra)：Orkestra是一个开源的持续集成/持续部署服务器，以库的形式运行在Kubernetes上。
 * [Blazar](https://github.com/HubSpot/Blazar-Archive)：Blazar是一款持续集成工具，旨在与GitHub和Singularity集成。
+* [Yontrack](https://github.com/nemerosa/ontrack)：Yontrack的目标是简化交付流程，提供快速、高层次的洞察，为团队带来透明度和信心。
 
 ## JDK
 
@@ -3155,6 +3156,7 @@
 * [Easy Requester](https://github.com/lookoutldz/easy-requester)：Easy Requester是一个轻量级的Java/Kotlin HTTP客户端库。
 * [HttpUtil](https://github.com/josdejong/httputil)：HttpUtil是一个包含多种方法的类，方便地执行HTTP请求。
 * [Requestor](https://github.com/reinert/requestor)：Requestor以独特的方式将简洁性、完整性和高性能结合在一个统一的HTTP客户端API中，适用于任何Java衍生语言。
+* [Simple HTTP](https://github.com/xkcoding/simple-http)：抽取一个简单HTTP的通用接口，底层实现根据具体引入依赖指定。
 
 #### Web服务器
 
@@ -3514,6 +3516,7 @@
 * [Sentinel](https://github.com/gideondk/sentinel)：Sentinel是使用Akka IO和Akka Streams为基于TCP的服务器和客户端提供的样板代码。
 * [Ballerina UDP](https://github.com/ballerina-platform/module-ballerina-udp)：Ballerina UDP提供用于向另一个应用程序进程发送/接收消息的API。
 * [Angler](https://github.com/LMAX-Exchange/angler)：Angler是一个用于监控Linux内核中UDP和TCP消息处理性能的实用程序，由LMAX开源。
+* [KryoNetty](https://github.com/EsotericSoftware/kryonetty)：KryoNetty是一个Java库，它提供了一个简洁易用的API，用于使用Netty进行高效的TCP客户端/服务器网络通信。
 
 #### IO_Uring
 
