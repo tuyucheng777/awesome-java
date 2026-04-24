@@ -148,6 +148,7 @@
   * [自然语言处理](#自然语言处理)
     * [分词器](#分词器)
     * [语言库](#语言库)
+    * [拼音库](#拼音库)
     * [词嵌入](#词嵌入)
     * [信息提取](#信息提取)
     * [语义解析](#语义解析)
@@ -182,6 +183,7 @@
   * [响应式](docs/doc2.md#响应式)
   * [Future扩展](docs/doc2.md#Future扩展)
   * [协程库](docs/doc2.md#协程库)
+  * [Promise](docs/doc2.md#Promise)
   * [Async/Await](docs/doc2.md#AsyncAwait)
   * [并行编排](docs/doc2.md#并行编排)
   * [线程库](docs/doc2.md#线程库)
@@ -250,6 +252,7 @@
   * [Mybatis库](docs/doc2.md#Mybatis库)
   * [Hibernate库](docs/doc2.md#Hibernate库)
   * [JPA库](docs/doc2.md#JPA库)
+  * [Spring Data库](docs/doc2.md#Spring-Data库)
   * [数据库连接池](docs/doc2.md#数据库连接池)
   * [数据库迁移](docs/doc2.md#数据库迁移)
   * [数据源增强](docs/doc2.md#数据源增强)
@@ -594,6 +597,7 @@
 * [Java环境管理](docs/doc2.md#Java环境管理)
 * [API变更管理](docs/doc2.md#API变更管理)
 * [源代码转换](docs/doc2.md#源代码转换)
+* [代码预处理](docs/doc2.md#代码预处理)
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
 * [企业软件开发](docs/doc2.md#企业软件开发)
   * [项目模板](docs/doc2.md#项目模板)
@@ -1000,7 +1004,7 @@
 * [解析库](docs/doc2.md#解析库)
   * [词法解析](docs/doc2.md#词法解析)
   * [表达式引擎](docs/doc2.md#表达式引擎)
-  * [脚本语言](docs/doc2.md#脚本语言)
+  * [脚本引擎](docs/doc2.md#脚本引擎)
   * [数学表达式](docs/doc2.md#数学表达式)
   * [正则表达式](docs/doc2.md#正则表达式)
   * [SQL解析器](docs/doc2.md#SQL解析器)
@@ -1033,6 +1037,7 @@
   * [WebAssembly](docs/doc2.md#WebAssembly)
   * [JavaScript引擎](docs/doc2.md#JavaScript引擎)
   * [GWT库](docs/doc2.md#GWT库)
+  * [JSF库](docs/doc2.md#JSF库)
   * [Vaadin库](docs/doc2.md#Vaadin库)
   * [Wicket库](docs/doc2.md#Wicket库)
   * [CSS库](docs/doc2.md#CSS库)
@@ -1091,6 +1096,7 @@
 * [Kora](https://github.com/kora-projects/kora)：Kora是一个用于编写Java/Kotlin应用程序的框架，重点关注性能、效率和透明度。
 * [Duct](https://github.com/duct-framework/duct)：Duct是一个高度模块化的框架，用于使用数据驱动架构在Clojure中构建服务器端应用程序。
 * [RePlay](https://github.com/replay-framework/replay)：RePlay是Play1框架的一个分支，由Codeborne创建。
+* [Pytheas](https://github.com/Netflix/pytheas)：Pytheas是一个基于Guice、Jersey的Web应用框架，旨在快速构建原型并创建用于探索大型数据源的Web工具，由Netflix开源。
 * [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。
 * [Scalatra](https://github.com/scalatra/scalatra)：Scalatra是一个小型、类似Sinatra的Scala Web框架。
 * [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是围绕Pipeline，关注点分离和基于组件的Web开发的概念构建的Web应用程序框架。
@@ -1111,6 +1117,7 @@
 * [Asta4D](https://github.com/astamuse/asta4d)：Asta4D是一个对设计人员友好、对开发人员灵活的Web应用程序框架。
 * [FOXopen](https://github.com/Fivium/FOXopen)：FOXopen是一个基于Java的开源Web框架，能够快速开发基于安全工作流的Web系统，由英国能源与气候变化部开发。
 * [Wasabi](https://github.com/wasabifx/wasabi)：Wasabi是一个用Kotlin为JVM构建的HTTP框架。
+* [Sitebricks](https://github.com/dhanji/sitebricks)：Sitebricks是一套简单的Web应用库。
 * [Java Express](https://github.com/simonwep/java-express)：基于Express.js的HTTP框架，无依赖，使用简单。
 * [HappyX](https://github.com/HapticX/happyx)：HappyX是一个异步、面向宏、全栈支持的Web框架。
 * [Severell](https://github.com/severell/severell)：Severell是一个Web应用框架，旨在让Java Web应用开发变得轻松有趣。
@@ -1189,6 +1196,14 @@
 * [Ursus](https://github.com/rjenkins/ursus)：Ursus是一个受Dropwizard启发的框架，用于在JVM和Grizzly上开发轻量级Web服务和NIO应用。
 * [Dump](https://github.com/yuanguangxin/Dump)：Dump是一个轻量级的Web框架。
 * [JSONCat](https://github.com/Snailclimb/jsoncat)：JSONCat是模仿Spring Boot写的一个轻量级的HTTP框架。
+* [Wint](https://github.com/pister/wint)：Wint是一个简单Java Web框架，适合快速开发。
+* [Web4j](http://www.web4j.com/)：Web4j是一款开源的全栈Java Web应用框架。
+* [JFire](https://gitee.com/eric_ds/jfireframework)：JFire是一个框架体系，内容涵盖IOC容器、MVC、持久层、JSON、序列化、AIO、RPC。
+* [Giiwa](https://github.com/giiwa/giiwa)：Giiwa是一个Java Web的快速开发框架。
+* [Pond](https://gitee.com/edwinyxc/pond)：Pond是基于Netty和JDK 8的快速开发框架。
+* [Scooter](https://github.com/scooter/scooter)：Scooter的灵感来自于RoR所倡导的简单易用的理念，其主要特点是使用了CRUD生成器和ActiveRecord。
+* [NanoFramework](https://github.com/nano-projects/nano-framework)：NanoFramework是一个用于快速开发Web及任务调度项目的框架。
+* [Fast Framework](https://github.com/JeffLi1993/fast-framework)：基于JDK8实现的轻量级Java Web框架。
 
 #### REST框架
 
@@ -1234,6 +1249,8 @@
 * [Ditty](https://gitee.com/dingnate/ditty)：Ditty是基于Netty、Fastjson实现的一款极致简约Web RESTful框架。
 * [Vestful](https://gitee.com/helyho/Vestful)：Vestful是基于Voovan开发的通用RESTful服务框架。
 * [Limberest](https://github.com/limberest/limberest)：轻量级、灵活、优雅的Java REST框架。
+* [Srb4j](https://github.com/chenjianjx/srb4j)：Srb4j是一个Java RESTful后端代码框架，具有通用响应数据结构、用户/密码/访问令牌支持、社交登录和API文档生成功能。
+* [Archer](https://gitee.com/ArcherGroup/archer-framework)：Archer是一个旨在构建RESTful风格Web服务的轻量级框架。
 
 #### MVC框架
 
@@ -1258,6 +1275,9 @@
 * [Aquiver](https://github.com/i1619khz/aquiver)：Aquiver是一个基于Java 8和Netty的MVC框架。
 * [Dreamvc](https://github.com/Yaccc/Dreamvc)：一个简单且支持Java MVC框架RESTful结构的框架。
 * [ServletIO](https://github.com/zerh/ServletIO)：ServletIO将你的Servlet转换为MVC控制器。
+* [Nature](https://gitee.com/mvilplss/nature-framework)：Nature是一个基于JDK 8和Servlet 3.0规范，以易用性、代码简洁、开发快速、功能强大、易扩展、低耦合为目标，适用于快速开发的轻量级MVC、ORM框架。
+* [SMVC](https://gitee.com/1028125449/SMVC)：SMVC是基于Java开发的轻量级MVC框架。
+* [FastChar](https://github.com/JanesenGit/FastChar)：FastChar是以Java语言为基础的Web、ORM开源免费的MVC框架。
 
 #### JSF框架
 
@@ -1385,6 +1405,10 @@
 * [GWT RPC](https://github.com/Vertispan/gwt-rpc)：JVM和GWT兼容的对象序列化和RPC调用。
 * [DaRPC](https://github.com/zrlio/darpc)：DaRPC是一个Java库，它为支持RDMA的网络接口提供超低延迟的RPC服务。
 * [Kilua RPC](https://github.com/rjaros/kilua-rpc)：Kilua RPC是一个功能强大的RPC库，专为使用Kotlin编程语言创建的全栈应用程序而设计。
+* [Muduo Protorpc](https://github.com/chenshuo/muduo-protorpc)：Muduo Protorpc是基于Muduo的Protobuf RPC。
+* [Protobuf Socket RPC](https://github.com/sdeo/protobuf-socket-rpc)：Protobuf Socket RPC是一个基于TCP/IP套接字的简单RPC实现。
+* [MessagePack RPC](https://github.com/msgpack-rpc/msgpack-rpc-java)：MessagePack RPC的Java实现。
+* [SMBJ-RPC](https://github.com/rapid7/smbj-rpc)：DCE-RPC实现，能够通过SMBJ使用SMBv2通过IPC命名管道调用RPC。
 
 ### 微服务框架
 
@@ -1659,6 +1683,7 @@
 * [MicroProfile Fault Tolerance](https://github.com/eclipse/microprofile-fault-tolerance)：MicroProfile中提供的容错组件。
 * [PBScaler](https://github.com/WHU-AISE/PBScaler)：PBScaler是一个瓶颈感知自动扩展框架，旨在防止基于微服务的应用程序性能下降，由武汉大学开发。
 * [Senries](https://github.com/erikvanoosten/sentries)：Senries是一个独立的Scala库，它将处理调用数据库和远程服务等资源时的所有故障处理。
+* [Rezilience](https://github.com/svroonland/rezilience)：Rezilience是ZIO原生的一系列策略，旨在使异步系统更具故障恢复能力。
 
 #### 断路器
 
@@ -2342,6 +2367,7 @@
 * [Router](https://github.com/SilenceDut/Router)：Router是类似事件总线的替代品，由动态代理实现。
 * [Alpine](https://github.com/ZeroMemes/Alpine)：Alpine是适用于Java 8+的轻量级事件系统。
 * [Broker](https://github.com/adrielcafe/broker)：Broker是一个使用Coroutines构建的适用于Android和JVM的发布-订阅库。
+* [RRiBbit](https://mvnrepository.com/artifact/org.rribbit)：RRiBbit是一个开源的Java应用框架，可以用作事件总线。
 * [Events4J](https://github.com/PhilippHeuer/events4j)：Java事件调度程序/消费者。
 * [DamiBus](https://gitee.com/noear/dami)：DamiBus专为本地多模块之间通讯解耦而设计。
 * [IPC EventBus](https://github.com/Terracotta-OSS/ipc-eventbus)：IPC EventBus为JVM内和JVM外通信提供了一个简单的EventBus API。
@@ -2392,6 +2418,19 @@
 * [EventBus](https://github.com/LuckyJayce/EventBus)：事件总线，通过定义事件接口，APT方式生成事件代理分发事件给注册并实现的接口类。
 * [Electrons](https://github.com/carryxyh/Electrons)：Electrons是一个异步高性能事件总线，结合了生产者消费者模型和Pub/Sub模式。
 * [Vaadin4Spring Event Bus](https://github.com/peholmst/vaadin4spring)：Vaadin事件总线。
+* [RxBus](https://github.com/eleventigers/rxbus)：运行在类型安全的RxJava队列上的事件总线。
+* [EventBus](https://github.com/Revxrsal/EventBus)：一个速度极快、体积小巧、支持多线程且功能丰富的Java事件总线。
+* [Autobus](https://github.com/bq/autobus)：Autobus是一种增强型事件总线，旨在实现应用程序中解耦部分之间的通信。
+* [RxBus](https://github.com/ViTess/RxBus)：RxJava的简单事件总线，支持注解。
+* [MicroBus](https://github.com/konmik/MicroBus)：用于在Java应用程序中组织事件总线的最小解决方案。
+* [GimBus](https://github.com/PGSSoft/gimBUS)：GimBus是一个具有细粒度传递线程控制的Android事件总线。
+* [Energy](https://github.com/QuantumClient/Energy)：Energy是一个轻量级且快速的Java事件总线。
+* [JBus](https://github.com/dizitart/jbus)：适用于Java 1.6及更高版本的事件总线。
+* [UFO Eventbus](https://github.com/Rebirth-Project/ufo-event-bus)：UFO Eventbus是一个功能强大的异步、轻量级且可扩展的发布/订阅事件系统。
+* [EbService](https://github.com/wowselim/eventbus-service)：Vertx事件总线的类型安全扩展。
+* [Vert.x EventBus Java](https://github.com/abdlquadri/vertx-eventbus-java)：一个用Java编写的Vert.x EventBus客户端，可在Android上运行。
+* [RxBus2](https://github.com/KingJA/RxBus2)：一个基于RxJava2的简单事件总线库。
+* [RxBus](https://github.com/liuguangli/RxBus)：RxBus是一个针对Android优化的发布/订阅事件总线。
 
 #### 消息总线
 
@@ -2444,6 +2483,9 @@
 * [JBoss Fuse](https://github.com/jboss-fuse/fuse)：JBoss Fuse是一个开源ESB，其功能基于Apache Camel、Apache CXF、Apache ActiveMQ、Apache Karaf和Fabric8，集成在一个发行版中。
 * [Petals ESB](https://petals.linagora.com/)：Petals ESB是一个开源企业服务总线。
 * [Azure Service Bus Java](https://github.com/Azure/azure-service-bus-java)：Azure服务总线的Java客户端库。
+* [OpenEngSB](https://github.com/openengsb/openengsb)：OpenEngSB实现并连接所有必需的概念和工具，以提供一个通用的集成环境。
+* [Forklift](https://github.com/dcshock/forklift)：Forklift是一款企业服务总线，支持快速轻松地构建和部署微服务。
+* [WSO2 ESB](https://github.com/wso2-attic/product-esb)：WSO2 Enterprise Service Bus是一款轻量级、高性能、近乎零延迟的产品，全面支持SOAP、WS和REST等多种技术。
 
 #### 消息队列客户端
 
@@ -2569,6 +2611,7 @@
 * [LeafServer](https://github.com/Yaccc/leafserver)：高性能分布式唯一ID生成系统。
 * [Snowcast](https://github.com/noctarius/snowcast)：Snowcast是一个基于Hazelcast的自动配置、分布式、可扩展的ID生成器。
 * [Scala ID Generator](https://github.com/softwaremill/scala-id-generator)：Twitter Snowflake算法的ID生成器。
+* [TinyServices ID](https://gitee.com/tinyservices/tinyservices-id)：TinyServices ID是一个高性能可扩展生成唯一ID的服务。
 
 #### Session集群
 
@@ -2617,6 +2660,7 @@
 * [Essential Paxos](https://github.com/cocagne/paxos)：Essential Paxos提供了Paxos算法的基本实现。
 * [Klein](https://github.com/shihuili1218/klein)：Klein是一个基于Paxos的分布式集合工具库，包括分布式缓存、分布式消息队列、分布式List、分布式Map、分布式锁等。
 * [Paxos](https://github.com/jaksa76/paxos)：Paxos算法的Java实现。
+* [FrankenPaxos](https://github.com/mwhittaker/frankenpaxos)：Paxos协议的各种状态机复制实现。
 * [Trex](https://github.com/trex-paxos/trex)：Trex是用于JVM的嵌入式Paxos引擎。
 * [JPaxos](https://github.com/JPaxos/JPaxos)：JPaxos是一个Java库和运行时系统，用于构建高效的复制状态机，由洛桑联邦理工学院和波兹南理工大学开源。
 * [MyPaxos](https://github.com/luohaha/MyPaxos)：Multi Paxos协议服务的实现。
@@ -2987,6 +3031,7 @@
 * [ReAir](https://github.com/airbnb/reair)：ReAir是一套易于使用的工具，用于在Hive数据仓库之间复制表和分区，由Airbnb开源。
 * [Bireme](https://github.com/HashDataInc/bireme)：Bireme是Greenplum/HashData数据仓库的增量同步工具，目前支持MySQL、PostgreSQL和MongoDB数据源。
 * [LinkUp](https://gitee.com/wei_fu_wan/link-up)：LinkUp是一款开箱即用的数据同步工具，深度集成Apache SeaTunnel，提供从自动建表、任务调度到日志监控的全链路能力，界面直观，非技术人员也能轻松上手。
+* [AMPLI SYNC](https://github.com/AMPLIFIER-sp-z-o-o/ampli-sync)：AMPLI SYNC是一个开源同步框架，旨在实现本地SQLite数据库(边缘/客户端)与集中式关系型数据库(PostgreSQL、MSSQL、MySQL、Oracle)之间的双向数据复制。
 
 #### 分库分表
 
@@ -3157,6 +3202,8 @@
 * [HttpUtil](https://github.com/josdejong/httputil)：HttpUtil是一个包含多种方法的类，方便地执行HTTP请求。
 * [Requestor](https://github.com/reinert/requestor)：Requestor以独特的方式将简洁性、完整性和高性能结合在一个统一的HTTP客户端API中，适用于任何Java衍生语言。
 * [Simple HTTP](https://github.com/xkcoding/simple-http)：抽取一个简单HTTP的通用接口，底层实现根据具体引入依赖指定。
+* [UniHttp](https://github.com/burukeYou/UniHttp)：UniHttp是一个声明式的HTTP请求对接框架。
+* [MyRestUtil](https://github.com/xwjie/MyRestUtil)：基于Spring Boot的REST调用框架，定义接口然后即可直接注入使用。
 
 #### Web服务器
 
@@ -3391,6 +3438,9 @@
 * [Scarlet](https://github.com/Tinder/Scarlet)：Scarlet是受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端，由Tinder开源。
 * [SignalR](https://github.com/aspnet/SignalR)：SignalR是一个开源库，可简化向应用程序添加实时功能，由Microsoft开发。
 * [SignalRKore](https://github.com/lepicekmichal/SignalRKore)：SignalRKore是一个用于ASP.NET Core SignalR的Kotlin多平台客户端库。
+* [Jetty Websocket](https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-websocket)：Jetty提供Jakarta WebSocket规范的实现。
+* [Undertow WebSockets](https://github.com/undertow-io/undertow/tree/main/websockets-jsr)：Undertow使用XNIO Channel接口在底层提供对WebSocket的访问。
+* [Helidon WebSocket](https://github.com/helidon-io/helidon/tree/main/websocket)：Helidon为Jakarta WebSocket API提供的实现。
 * [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient是适用于Java的异步HTTP和WebSocket客户端库。
 * [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
@@ -3603,6 +3653,7 @@
 * [VinylDNS](https://github.com/vinyldns/vinyldns)：VinylDNS是一个与供应商无关的前端平台，用于实现自助式DNS并简化DNS操作，由Comcast开发。
 * [JDNSS](https://github.com/drsjb80/JDNSS)：JDNSS是一个仅权威、支持DNSSEC/TLS/DoH的Java叶DNS服务器。
 * [BlackHole](https://github.com/code4craft/blackhole)：BlackHole是一个Java编写的DNS服务器，它可以进行DNS缓存，也支持自定义域名配置，并可以防止DNS污染。
+* [jDnsProxy](https://github.com/moparisthebest/jDnsProxy)：简单、快速、轻量级的DNS代理和缓存。
 
 #### HTTP代理
 
@@ -3817,6 +3868,7 @@
 * [JRadius](https://github.com/coova/jradius)：JRadius是一个用于客户端和服务器的Java Radius框架。
 * [TinyRadius Netty](https://github.com/globalreachtech/tinyradius-netty)：TinyRadius Netty是一个Java Radius库。
 * [AAA4j Radius](https://github.com/aaa4j/aaa4j-radius)：用于构建Radius客户端和Radius服务器的Java库。
+* [jDiameter](https://github.com/RestComm/jdiameter)：jDiameter提供了一个开源的Java实现，用于实现Diameter标准的身份验证、授权和计费(AAA)功能。
 
 #### NETCONF
 
@@ -4192,7 +4244,6 @@
 * [DistML](https://github.com/intel-machine-learning/DistML)：DistML是一个机器学习工具，可以在Spark上训练非常大的模型，它与Spark完全兼容，由Intel开源。
 * [JDMP](https://github.com/jdmp/java-data-mining-package)：JDMP是一个用于数据分析和机器学习的开源Java库。
 * [MLTK](https://github.com/yinlou/mltk)：MLTK是一系列监督式机器学习算法的集合，旨在直接用于模型训练和后续开发。
-* [HMMLib](https://github.com/bmwcarit/hmm-lib)：该库实现了用于时间非齐次马尔可夫过程的隐马尔可夫模型，由宝马开源。
 * [JPMML Evaluator](https://github.com/jpmml/jpmml-evaluator)：JPMML Evaluator是Java/JVM平台上PMML规范版本3.0、3.1、3.2、4.0、4.1、4.2、4.3和4.4的参考实现。
 * [JPMML LightGBM](https://github.com/jpmml/jpmml-lightgbm)：用于将LightGBM模型转换为PMML的Java库和命令行应用程序。
 * [LightGBM4j](https://github.com/metarank/lightgbm4j)：LightGBM4j是LightGBM项目的零依赖Java封装库。
@@ -4415,6 +4466,7 @@
 * [KeywordExtraction](https://github.com/WuLC/KeywordExtraction)：关键词提取算法的实现，包括TextRank、TF-IDF以及二者的组合。
 * [MainPartExtractor](https://github.com/hankcs/MainPartExtractor)：主谓宾提取器的Java实现。
 * [JaTeCS](https://github.com/jatecs/jatecs)：JaTeCS是一个专注于自动文本分类的开源Java库。
+* [RelEx](https://github.com/opencog/relex)：RelEx是一个英语依存句法分析器。
 
 #### 分词器
 
@@ -4442,6 +4494,7 @@
 * [IdeaSeg](https://gitee.com/indexea/ideaseg)：IdeaSeg是Indexea推出的一个基于最新的HanLP自然语言处理工具包实现的中文分词器。
 * [THULAC](https://github.com/thunlp/THULAC-Java)：THULAC是由清华大学自然语言处理与社会人文计算实验室研制推出的一套中文词法分析工具包，具有中文分词和词性标注功能。
 * [THUCTC](https://github.com/thunlp/THUCTC)：THUCTC是由清华大学自然语言处理实验室推出的中文文本分类工具包，能够自动高效地实现用户自定义的文本分类语料的训练、评测、分类功能。
+* [THULAC4j](https://github.com/yizhiru/thulac4j)：THULAC4j是THULAC的高效Java 8实现。
 * [ElasticSearch BosonNLP Analysis](https://github.com/bosondata/elasticsearch-analysis-bosonnlp)：玻森数据开发的一款基于玻森中文分词的ElasticSearch插件。
 * [ElasticSearch Analysis HanLP](https://github.com/KennFalcon/elasticsearch-analysis-hanlp)：此分词器基于HanLP，提供了HanLP中大部分的分词方式。
 * [Ik Analyzer](https://github.com/blueshen/ik-analyzer)：支持Lucene 5/6/7/8/9+版本的分词器。
@@ -4456,19 +4509,11 @@
 * [Kotori](https://github.com/wanasit/kotori)：Kotori是一个用Kotlin编写的日语分词器和词法分析引擎。
 * [GPT2 Tokenizer Java](https://github.com/hyunwoongko/gpt2-tokenizer-java)：GPT2分词器的Java实现。
 * [Cue.Language](https://github.com/vcl-xx/cue.language)：Cue.Language是一个用于简单文本分析的小型Java库。
+* [LC Pinyin Analysis](https://github.com/gitchennan/elasticsearch-analysis-lc-pinyin)：一款运行于Elasticsearch之上的中文拼音智能分词插件，支持全拼、首字母、中文混合搜索。
 
 #### 语言库
 
-* [TinyPinyin](https://github.com/promeG/TinyPinyin)：适用于Java和Android的快速、低内存占用的汉字转拼音库。
-* [Pinyin4j](https://github.com/belerweb/pinyin4j)：支持汉字(简体和繁体)到最流行的拼音系统，包括汉语拼音、通用拼音、Wade-Giles、MPS2、Yale和Gwoyeu Romatzyh。
 * [Opencc4j](https://github.com/houbb/opencc4j)：Opencc4j支持中文繁简体转换，考虑到词组级别。
-* [Pinyin](https://github.com/houbb/pinyin)：Java高性能中文转拼音工具，支持同音字。
-* [Pinyin Plus](https://github.com/taptap/pinyin-plus)：汉字转拼音库，支持多音字，由Taptap开源。
-* [PinyinSearchLibrary](https://github.com/handsomezhou/PinyinSearchLibrary)：PinyinSearch库是一个Java库，为T9搜索和Qwerty搜索提供数据解析方法、数据匹配方法等。
-* [Bopomofo4j](https://gitee.com/rnkrsoft/Bopomofo4j)：Bopomofo4j是一个零依赖、纯Java开发的汉字转拼音库。
-* [JPinyin](https://github.com/qzw1210/jpinyin)：JPinyin是一个汉字转拼音的Java开源类库，在PinYin4j的功能基础上做了一些改进。
-* [PinIn](https://github.com/Towdium/PinIn)：PinIn是一个用于解决各类汉语拼音匹配问题的Java库。
-* [Pinyin](https://gitee.com/duguying2008/pinyin)：Pinyin是一个Java库，可以将汉字翻译成中文拼音。
 * [Moji4J](https://github.com/andree-surya/moji4j)：Moji4J是一个开源Java库，用于在日语平假名、片假名和罗马字脚本之间进行转换。
 * [Myanmar Tools](https://github.com/google/myanmar-tools)：该项目包括用于处理缅甸使用的字体编码的工具，目前支持广泛的Zawgyi-One字体编码，由Google开源。
 * [Jakaroma](https://github.com/nicolas-raoul/jakaroma)：Java汉字/等到罗马字转换器。
@@ -4476,6 +4521,25 @@
 * [Jaconv](https://github.com/kazuhikoarase/jaconv)：日文字体转换库。
 * [Korean Romanizer](https://github.com/crizin/korean-romanizer)：一个将韩语输入转换为罗马字符的Java库。
 * [ZhConverter](https://github.com/program-in-chinese/zhconverter)：中文字符简繁体互相转换工具。
+* [Quick Chinese Transfer](https://github.com/liuyueyi/quick-chinese-transfer)：简体中文、繁体中文、香港繁体、台湾繁体相互转换的Java库。
+
+#### 拼音库
+
+* [TinyPinyin](https://github.com/promeG/TinyPinyin)：适用于Java和Android的快速、低内存占用的汉字转拼音库。
+* [Pinyin4j](https://github.com/belerweb/pinyin4j)：支持汉字(简体和繁体)到最流行的拼音系统，包括汉语拼音、通用拼音、Wade-Giles、MPS2、Yale和Gwoyeu Romatzyh。
+* [Pinyin](https://github.com/houbb/pinyin)：Java高性能中文转拼音工具，支持同音字。
+* [Pinyin Plus](https://github.com/taptap/pinyin-plus)：汉字转拼音库，支持多音字，由Taptap开源。
+* [PinyinSearchLibrary](https://github.com/handsomezhou/PinyinSearchLibrary)：PinyinSearch库是一个Java库，为T9搜索和Qwerty搜索提供数据解析方法、数据匹配方法等。
+* [JPinyin](https://github.com/qzw1210/jpinyin)：JPinyin是一个汉字转拼音的Java开源类库，在PinYin4j的功能基础上做了一些改进。
+* [Bopomofo4j](https://gitee.com/rnkrsoft/Bopomofo4j)：Bopomofo4j是一个零依赖、纯Java开发的汉字转拼音库。
+* [PinIn](https://github.com/Towdium/PinIn)：PinIn是一个用于解决各类汉语拼音匹配问题的Java库。
+* [Pinyin](https://gitee.com/duguying2008/pinyin)：Pinyin是一个Java库，可以将汉字翻译成中文拼音。
+* [Py4j](https://github.com/TFdream/py4j)：一个用于将中文转换为拼音的开源Java库。
+* [Java Pinyin](https://github.com/frapples/java-pinyin)：一个汉字与拼音互转的工具库，提供简单的分词功能。
+* [UniPinyin](https://github.com/nillith/UniPinyin)：Java汉语拼音查询工具。
+* [PinyinUtils](https://github.com/GuoGuang/pinyinUtils)：汉字转换为拼音，支持多音字、首字母模式，支持标点模式、无标点模式。
+* [PinyinSearcher](https://github.com/yaochenkun/pinyin-searcher)：PinyinSearcher是一个支持以汉字、拼音首字母、拼音前缀、非汉字串前缀、非汉字串后缀等及他们混合进行关键字搜索的Java包。
+* [Pinyin2Hanzi](https://github.com/lovejing0306/pinyin2hanzi)：Java版拼音转汉字。
 
 #### 词嵌入
 
@@ -4535,6 +4599,7 @@
 * [Sensitivewd Filter](https://github.com/andyzty/sensitivewd-filter)：敏感词过滤、广告词过滤、包含敏感词库，停顿词库。
 * [Filter4J](https://github.com/LL4J/Filter4J)：Filter4J是一个极小化、基于深度学习的文本内容违规检测库。
 * [WordFilter](https://gitee.com/humingzhang/wordfilter)：DFA算法实现的敏感词过滤工具。
+* [LiteBanner](https://gitee.com/bryan31/liteBanner)：LiteBanner是一个轻量级的本地违禁词检测框架，可以整句过滤。
 
 #### 语言检测
 
@@ -4733,6 +4798,7 @@
 * [JSeetaface6](https://github.com/CongCongBig/JSeetaface6)：基于中科院Seetaface6进行封装的Java人脸识别算法库。
 * [InspireFace](https://github.com/HyperInspire/inspireface-android-sdk)：InspireFace是一个用C/C++开发的跨平台人脸识别SDK。
 * [InspireFace4J](https://github.com/metaloom/inspireface4j)：InspireFace4J提供了一个使用FFM的Java原生绑定，用于InspireFace人脸检测库。
+* [MTCNN Java](https://github.com/tzolov/mtcnn-java)：MTCNN人脸检测器的Java和Tensorflow实现。
 
 ### 语音识别
 
@@ -4817,7 +4883,7 @@
 * [FusionView](https://gitee.com/hitsoft1995/fusion-view)：富表智能数据可视化平台是一款面向企业和行业级别的用户，具有AI特色的可视化与BI商业智能敏捷分析的平台。
 * [ReportServer](https://github.com/infofabrik/reportserver)：ReportServer是一个现代、多功能的开源商业智能(BI)平台，具有强大的报告功能，由ReportServer公司开发。
 * [Logi Analytics](https://insightsoftware.com/logi-analytics/)：Logi Analytics提供具有自助分析功能的商业智能和数据发现平台，这是InsightSoftware公司的商业产品。
-* [睿思BI](https://gitee.com/ruisibi/rsbi-pom)：睿思BI是由成都睿思商智公司研发的企业数据分析系统。
+* [Ruisi BI](https://gitee.com/ruisibi/rsbi-pom)：Ruisi BI是由成都睿思商智公司研发的企业数据分析系统。
 * [Rakam](https://github.com/rakam-io/rakam-api)：Rakam是一个分析平台，可让你创建分析服务。
 * [Oceanus.BI](https://github.com/hf200012/oceanus.bi)：Oceanus是一个可自由拖拽的BI可视化系统。
 * [EazyBI](https://eazybi.com/)：EazyBI是一款功能强大的工具，提供易于使用的拖放式创建自定义报告、图表和仪表板小工具。
@@ -4826,6 +4892,8 @@
 * [StyleBI](https://github.com/inetsoft-technology/stylebi)：StyleBI是一款云原生、资源占用极低的商业智能Web应用，由数据转换管道和可视化微服务驱动。
 * [Visualis](https://gitee.com/WeBank/Visualis)：Visualis是一个基于宜信的开源项目Davinci开发的数据可视化BI工具，由微众银行开发。
 * [DashBuilder](https://github.com/dashbuilder/dashbuilder)：DashBuilder是一款功能齐全的Web应用程序，允许非技术用户和程序员创建业务仪表板，由RedHat开源。
+* [Query2Report](https://github.com/yogeshsd/query2report)：Query2Report是一个简单的开源商业智能平台，允许用户构建用于业务分析或企业报告的报表/仪表板。
+* [Flair BI](https://github.com/viz-centric/flair-bi)：Flair BI是一款开源、云原生且可扩展的应用程序，旨在提供商业和运营智能洞察。
 
 #### 电子表格
 
