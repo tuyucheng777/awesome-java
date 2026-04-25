@@ -16,6 +16,8 @@
     * [WebService框架](#WebService框架)
   * [RPC框架](#RPC框架)
   * [微服务框架](#微服务框架)
+* [HTTP客户端](#HTTP客户端)
+* [Web服务器](#Web服务器)
 * [微服务治理](#微服务治理)
 * [构建工具](#构建工具)
 * [包管理器](#包管理器)
@@ -87,39 +89,6 @@
   * [分库分表](#分库分表)
   * [Binlog](#Binlog)
   * [灾难备份](#灾难备份)
-* [网络编程](#网络编程)
-  * [HTTP客户端](#HTTP客户端)
-  * [Web服务器](#Web服务器)
-  * [FTP服务器](#FTP服务器)
-  * [NIO框架](#NIO框架)
-  * [网络库](#网络库)
-  * [WebSocket](#WebSocket)
-  * [Socket.IO](#SocketIO)
-  * [Socket](#Socket)
-  * [TCP/UDP](#TCPUDP)
-  * [IO_Uring](#IO_Uring)
-  * [IM](#IM)
-  * [Pcap](#Pcap)
-  * [SSH](#SSH)
-  * [DNS](#DNS)
-  * [HTTP代理](#HTTP代理)
-  * [内网穿透](#内网穿透)
-  * [网络监控](#网络监控)
-  * [网络工具](#网络工具)
-  * [端口转发](#端口转发)
-  * [P2P](#P2P)
-  * [BitTorrent](#BitTorrent)
-  * [SDN](#SDN)
-  * [SMB](#SMB)
-  * [KCP](#KCP)
-  * [QUIC](#QUIC)
-  * [SNMP](#SNMP)
-  * [SOCKS](#SOCKS)
-  * [Radius](#Radius)
-  * [NETCONF](#NETCONF)
-  * [IP](#IP)
-  * [SIP](#SIP)
-  * [SMPP](#SMPP)
 * [人工智能](#人工智能)
   * [LLM框架](#LLM框架)
   * [LLM客户端](#LLM客户端)
@@ -179,6 +148,37 @@
   * [实体解析](#实体解析)
   * [Dataframe](#Dataframe)
   * [Notebook](#Notebook)
+* [网络编程](docs/doc2.md#网络编程)
+  * [NIO框架](docs/doc2.md#NIO框架)
+  * [网络库](docs/doc2.md#网络库)
+  * [WebSocket](docs/doc2.md#WebSocket)
+  * [Socket.IO](docs/doc2.md#SocketIO)
+  * [Socket](docs/doc2.md#Socket)
+  * [TCP/UDP](docs/doc2.md#TCPUDP)
+  * [IO_Uring](docs/doc2.md#IO_Uring)
+  * [IM](docs/doc2.md#IM)
+  * [Pcap](docs/doc2.md#Pcap)
+  * [SSH](docs/doc2.md#SSH)
+  * [DNS](docs/doc2.md#DNS)
+  * [FTP服务器](docs/doc2.md#FTP服务器)
+  * [HTTP代理](docs/doc2.md#HTTP代理)
+  * [内网穿透](docs/doc2.md#内网穿透)
+  * [网络监控](docs/doc2.md#网络监控)
+  * [网络工具](docs/doc2.md#网络工具)
+  * [端口转发](docs/doc2.md#端口转发)
+  * [P2P](docs/doc2.md#P2P)
+  * [BitTorrent](docs/doc2.md#BitTorrent)
+  * [SDN](docs/doc2.md#SDN)
+  * [SMB](docs/doc2.md#SMB)
+  * [KCP](docs/doc2.md#KCP)
+  * [QUIC](docs/doc2.md#QUIC)
+  * [SNMP](docs/doc2.md#SNMP)
+  * [SOCKS](docs/doc2.md#SOCKS)
+  * [Radius](docs/doc2.md#Radius)
+  * [NETCONF](docs/doc2.md#NETCONF)
+  * [IP](docs/doc2.md#IP)
+  * [SIP](docs/doc2.md#SIP)
+  * [SMPP](docs/doc2.md#SMPP)
 * [并发编程](docs/doc2.md#并发编程)
   * [响应式](docs/doc2.md#响应式)
   * [Future扩展](docs/doc2.md#Future扩展)
@@ -719,8 +719,8 @@
 * [智能卡](docs/doc2.md#智能卡)
 * [物联网](docs/doc2.md#物联网)
   * [物联网框架](docs/doc2.md#物联网框架)
-  * [物联网SDK](docs/doc2.md#物联网SDK)
   * [物联网平台](docs/doc2.md#物联网平台)
+  * [物联网SDK](docs/doc2.md#物联网SDK)
   * [智能家居](docs/doc2.md#智能家居)
   * [数字孪生](docs/doc2.md#数字孪生)
   * [物联网网关](docs/doc2.md#物联网网关)
@@ -824,6 +824,10 @@
   * [JavaFX布局库](docs/doc2.md#JavaFX布局库)
   * [JavaFX动画库](docs/doc2.md#JavaFX动画库)
   * [JavaFX渲染库](docs/doc2.md#JavaFX渲染库)
+  * [JavaFX选择器](docs/doc2.md#JavaFX选择器)
+  * [JavaFX地图库](docs/doc2.md#JavaFX地图库)
+  * [JavaFX对话框](docs/doc2.md#JavaFX对话框)
+  * [JavaFX响应式库](docs/doc2.md#JavaFX响应式库)
   * [JavaFX项目模板](docs/doc2.md#JavaFX项目模板)
   * [SWT](docs/doc2.md#SWT)
   * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
@@ -1097,6 +1101,7 @@
 * [Duct](https://github.com/duct-framework/duct)：Duct是一个高度模块化的框架，用于使用数据驱动架构在Clojure中构建服务器端应用程序。
 * [RePlay](https://github.com/replay-framework/replay)：RePlay是Play1框架的一个分支，由Codeborne创建。
 * [Pytheas](https://github.com/Netflix/pytheas)：Pytheas是一个基于Guice、Jersey的Web应用框架，旨在快速构建原型并创建用于探索大型数据源的Web工具，由Netflix开源。
+* [NioFlow](https://core-http.vercel.app/)：NioFlow是一个极简的Java HTTP框架，专注于显式的程序化配置。
 * [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。
 * [Scalatra](https://github.com/scalatra/scalatra)：Scalatra是一个小型、类似Sinatra的Scala Web框架。
 * [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是围绕Pipeline，关注点分离和基于组件的Web开发的概念构建的Web应用程序框架。
@@ -1471,6 +1476,262 @@
 * [Xian](https://github.com/xiancloud/xian)：Xian是一个Reactive风格的微服务框架。
 * [Vertx Zero](https://github.com/silentbalanceyh/vertx-zero)：Vertx Zero Framework是一个用于服务网格微服务的工具。
 * [KIXEYE Chassis](https://github.com/Kixeye/chassis)：KIXEYE Chassis是一组独立的Java库，旨在提供在你自己的数据中心或云端快速构建和部署生产就绪服务所需的应用程序组件。
+
+## HTTP客户端
+
+* [Apache HttpComponents](https://github.com/apache/httpcomponents-core)：HttpComponents项目负责创建和维护专注于HTTP和相关协议的低级Java组件工具集。
+* [Apache HttpComponents Client](https://github.com/apache/httpcomponents-client)：Apache开源的HTTP客户端库，相比HttpComponents Core提供更流式的API。
+* [Feign](https://github.com/OpenFeign/feign)：Feign是一个Java到HTTP客户端绑定器，其灵感来自于Retrofit、JAXRS-2.0和WebSocket，由Netflix开源。
+* [OkHttp](https://github.com/square/okhttp)：Square为JVM、Android和GraalVM精心设计的HTTP客户端。
+* [Fuel](https://github.com/kittinunf/fuel)：由Kotlinx Coroutines支持的最简单的Kotlin HTTP网络库。
+* [Retrofit](https://github.com/square/retrofit)：Retrofit是适用于Android和JVM的类型安全HTTP客户端，由Square开源。
+* [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient库允许Java应用程序轻松执行HTTP请求并异步处理HTTP响应。
+* [RxEasyHttp](https://github.com/zhou-you/RxEasyHttp)：RxEasyHttp是一款基于RxJava 2、Retrofit 2实现简单易用的网络请求框架。
+* [Android Asynchronous HttpClient](https://github.com/android-async-http/android-async-http)：基于Apache HttpClient库的Android异步、基于回调的HTTP客户端。
+* [Google HTTP Java Client](https://github.com/googleapis/google-http-java-client)：Google HTTP Client由Google开源，是一个灵活、高效且功能强大的Java库，用于通过HTTP访问网络上的任何资源。
+* [Google API Java Client](https://github.com/googleapis/google-api-java-client)：Google API Java Client是一个灵活、高效且功能强大的Java客户端库，用于访问网络上任何基于HTTP的API。
+* [HttpClientUtil](https://github.com/Arronlong/httpclientutil)：HttpClientUtil是基于HttpClient 4.4.1封装的工具类。
+* [RoboSpice](https://github.com/stephanenicolas/robospice)：RoboSpice是一个模块化的Android库，可以轻松编写异步长时间运行的任务。
+* [Http Request](https://github.com/kevinsawicki/http-request)：Http Request是一个简单的便利库，用于使用HttpURLConnection发出请求并访问响应。
+* [HttpFetch](https://github.com/youzan/httpfetch)：HttpFetch用于对HTTP请求进行封装，通过对接口函数进行代理，实现优雅的HTTP调用，有赞开源。
+* [EasyHttp](https://github.com/getActivity/EasyHttp)：Android网络请求框架，简单易用。
+* [OkHttpUtils](https://github.com/hongyangAndroid/okhttputils)：OkHttp的辅助类。
+* [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：OkGo基于HTTP协议，封装了OkHttp的网络请求框架。
+* [Wasp](https://github.com/orhanobut/wasp)：小巧易用、功能齐全的安卓网络解决方案。
+* [STTP](https://github.com/softwaremill/sttp)：STTP是SoftwareMill开源的库，它提供了一个干净的、程序员友好的API来描述HTTP请求以及如何处理响应。
+* [Http4s](https://github.com/http4s/http4s)：Http4s是一个极简且符合Scala规范的HTTP服务接口。
+* [Ktorfit](https://github.com/Foso/Ktorfit)：Ktorfit是一个适用于Kotlin多平台的HTTP客户端/Kotlin符号处理器，使用受Retrofit启发的KSP和Ktor客户端。
+* [Scalaj HTTP](https://github.com/scalaj/scalaj-http)：HttpURLConnection的简单Scala封装库。
+* [Ballerina HTTP](https://github.com/ballerina-platform/module-ballerina-http)：Ballerina HTTP提供用于连接和交互HTTP和HTTP2端点的API。
+* [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
+* [Chuck](https://github.com/jgilfelt/chuck)：Chuck是一个简单的应用内HTTP检查器，适用于Android OkHttp客户端。
+* [NoHttp](https://github.com/yanzhenjie/NoHttp)：NoHttp是一个Android实现的HTTP标准协议框架，支持多种缓存模式，底层可动态切换OkHttp、URLConnection。
+* [Volley](https://github.com/google/volley)：Volley是一个HTTP库，它使Android应用程序的网络变得更容易，Google开源。
+* [RxVolley](https://github.com/kymjs/RxVolley)：RxVolley是Volley的修改版，移除了HttpClient，并支持RxJava。
+* [Novate](https://github.com/Tamicer/Novate)：Novate是一款Android网络框架，基于Retrofit和RxJava打造的链式网络库。
+* [Unirest](https://github.com/Kong/unirest-java)：Unirest是一个简化的轻量级HTTP客户端库。
+* [Whiskey](https://github.com/twitter/whiskey)：Whiskey是一个基于NIO的Java HTTP库，专门针对Android移动客户端的需求，由Twitter开源。
+* [RawHTTP](https://github.com/renatoathaydes/rawhttp)：一个Java库，可以轻松处理由RFC-7230定义的原始HTTP 1.1以及大部分HTTP 1.0(RFC-1945)。
+* [HTTP Kit](https://github.com/http-kit/http-kit)：HTTP Kit是一个简约且高效的Clojure兼容Ring的HTTP客户端/服务器。
+* [Forest](https://gitee.com/dromara/forest)：Forest是一个高层、极简的声明式HTTP调用API框架，由dromara社区开源。
+* [Methanol](https://github.com/mizosoft/methanol)：Methanol是Java的轻量级HttpClient扩展。
+* [Jodd HTTP](https://github.com/oblac/jodd-http)：Jodd HTTP是一个小型、原始的HTTP客户端。
+* [Feign Reactive](https://github.com/kptfh/feign-reactive)：基于Spring WebFlux的响应式Feign客户端。
+* [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
+* [Avaje HttpClient](https://github.com/avaje/avaje-http)：JDK 11 HttpClient的轻量级包装器。
+* [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：Jcabi HTTP是流式的Java HTTP客户端。
+* [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
+* [OkHttps](https://gitee.com/troyzhxu/okhttps)：OkHttps是对OkHttp3轻量封装的框架，包括异步预处理器，特色的标签，灵活的上传下载进度监听与过程控制功能。
+* [RXHttp](https://github.com/liujingxing/rxhttp)：适用于Android的类型安全HTTP客户端，基于OkHttp。
+* [HTTP4K](https://github.com/http4k/http4k)：HTTP4K是一个用纯Kotlin编写的轻量级但功能齐全的HTTP工具包，可以以功能一致的方式提供和使用HTTP服务。
+* [LiteHTTP](https://github.com/litesuits/android-lite-http)：LiteHTTP是一个简单、智能且灵活的Android HTTP框架。
+* [Communication](https://github.com/foundation-runtime/communication)：Communication包含与HTTP客户端和服务器通信相关的库，由Cisco开发。
+* [Netty HTTP Client](https://github.com/timboudreau/netty-http-client)：Java中的异步HTTP客户端，具有干净、基于回调的API，基于Netty 4.x。
+* [Jetty HttpClient](https://github.com/eclipse/jetty.project/tree/jetty-10.0.x/jetty-client)：Jetty中执行HTTP和HTTPS请求的模块。
+* [HTTP4J](https://github.com/IntellectualSites/HTTP4J)：HTTP4J是Java HttpURLConnection的一个简单、轻量级且小型的包装器。
+* [Donkey](https://github.com/AppsFlyer/donkey)：现代Clojure、Ring兼容的HTTP服务器和客户端，专为易用性和性能而设计。
+* [OkCronet](https://github.com/limuyang2/okcronet)：OkCronet是一个类似于OKHTTP的网络请求库，使用Cronet实现。
+* [HTTPBuilder](https://github.com/jgritman/httpbuilder)：Groovy的简单HTTP客户端。
+* [HttpBuilder NG](https://github.com/http-builder-ng/http-builder-ng)：适用于Groovy、Java的简单HTTP客户端。
+* [RestVolley](https://github.com/HujiangTechnology/RestVolley)：RestVolley是一个基于Volley和OkHttp的HTTP请求框架，由沪江科技开源。
+* [King HttpClient](https://github.com/king/king-http-client)：支持SSE的异步HTTP客户端。
+* [ESA RestClient](https://github.com/esastack/esa-restclient)：ESA RestClient是一个基于Netty的异步事件驱动HTTP客户端。
+* [Smart HTTP](https://gitee.com/smartboot/smart-http)：Smart HTTP是一款可编程的HTTP应用微内核，方便用户根据自身需求进行服务端或客户端的应用开发。
+* [cURL](https://github.com/libetl/curl)：在Java中使用cURL的库。
+* [Java cURL](https://github.com/rockswang/java-curl)：Java cURL是一个基于标准JDK中的HttpURLConnection实现的纯Java HTTP实用程序。
+* [JCurl](https://github.com/finos/JCurl)：Java中支持JSON的Curl，由金融科技基金会开源。
+* [JQuickCurl](https://github.com/paohaijiao/jquick-curl)：JQuickCurl是一个面向Java开发者的高性能、易用HTTP客户端框架。
+* [Ok2Curl](https://github.com/mrmike/Ok2Curl)：将OkHttp请求转换为Curl日志的简单方法。
+* [Resty](https://github.com/beders/Resty)：Resty是一个小巧、方便的接口，用于在Java中与RESTful服务通信。
+* [Kohttp](https://github.com/rybalkinsd/kohttp)：Kotlin DSL HTTP客户端。
+* [Appsly Android REST](https://github.com/xebia-functional/appsly-android-rest)：Appsly Android REST是一款基于注解的客户端库，由Xebia开源。
+* [HTTP API Invoker](https://github.com/dadiyang/http-api-invoker)：让HTTP接口调用跟调用本地方法一样自然优雅。
+* [MicroProfile Rest Client](https://github.com/microprofile/microprofile-rest-client)：MicroProfile Rest Client提供了一种类型安全的方法来通过HTTP调用RESTful服务。
+* [Axios](https://github.com/xiao-akatsuki/axios)：使Java更容易发送HTTPS。
+* [DavidWebb](https://github.com/hgoebl/DavidWebb)：轻量级Java HTTP客户端，用于调用JSON REST服务。
+* [Spring Boot HTTP Clients](https://github.com/maciejwalkowiak/spring-boot-http-clients)：Spring Boot HTTP Clients为Spring Boot应用程序中基于WebClient和Spring 6 HTTP接口的HTTP客户端提供零样板自动配置。
+* [Hutool HTTP](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-http)：Hutool HTTP针对JDK的HttpUrlConnection做一层封装，简化了HTTPS请求、文件上传、Cookie记忆等操作。
+* [Bus HTTP](https://github.com/818000/bus/tree/main/bus-http)：Bus HTTP是一个高性能的Java应用程序HTTP客户端库。
+* [Kalle](https://github.com/yanzhenjie/Kalle)：Kalle是一个Android平台的HttpClient，它遵循HTTP标准协议，支持同步请求和异步请求。
+* [Unfiltered](https://github.com/unfiltered/unfiltered)：Unfiltered是一个用于在Scala中处理HTTP请求的工具包。
+* [HttpHelper](https://gitee.com/wolfsmoke/WSHttpHelper)：HttpHelper是一个轻量级Http请求框架，致力于为Http请求提供简洁明了的接口。
+* [Mechanize](https://github.com/GistLabs/mechanize)：Mechanize是一个有状态的HTTP Web服务客户端，支持HTML、JSON和XML服务。
+* [UrlHttpUtils](https://github.com/guozhengXia/UrlHttpUtils)：最简单的HttpURLConnection封装。
+* [OKHttpUtil](https://github.com/admin4j/common-http)：专为Java打包的HTTP请求库。
+* [RestfulKit](https://github.com/ydstar/RestfulKit)：简洁、易用的Android网络组件库。
+* [RosHTTP](https://github.com/hmil/RosHTTP)：一个易于阅读的Scala HTTP客户端API。
+* [HttpClientUtil](https://github.com/JourWon/httpclientutil)：HttpClient工具类，简单轻松的实现GET、POST、PUT和DELETE请求。
+* [Play WS](https://github.com/playframework/play-ws)：Play WS是一个功能强大的HTTP客户端库，最初由Play团队开发，用于Play框架。
+* [HttpKit](https://gitee.com/m310851010/httpkit)：HttpKit是一个HTTP请求工具，支持多线程异步请求。
+* [Easy Okhttp](https://gitee.com/mzllon/easy-okhttp)：Easy Okhttp是一个对Okhttp3封装后Java网络框架。
+* [Riptide](https://github.com/zalando/riptide)：Riptide是一个实现客户端响应路由的库，由Zalando开源。
+* [Hato](https://github.com/gnarroway/hato)：一个用于Clojure的HTTP客户端，封装了JDK 11的HttpClient。
+* [GAHC](https://github.com/eclipse-ee4j/glassfish-grizzly-ahc)：GAHC库旨在让Java应用程序能够轻松执行HTTP请求并异步处理HTTP响应。
+* [Jetty ReactiveStreams HttpClient](https://github.com/jetty-project/jetty-reactive-httpclient)：Jetty HttpClient的响应式封装。
+* [Requests Scala](https://github.com/com-lihaoyi/requests-scala)：Requests Scala是流行的Python Requests HTTP客户端的Scala移植版。
+* [Ninjato](https://github.com/agoda-com/ninjato)：Ninjato是一个库，它能让你编写简单而强大的远程HTTP调用。
+* [HTTP Client](https://github.com/biasedbit/http-client)：一个基于Netty的Java高性能、高吞吐量的HTTP客户端库。
+* [Basic HTTP Client](https://github.com/turbomanage/basic-http-client)：Basic HTTP Client是一个极简的HTTP客户端，使用java.net.HttpURLConnection发起请求。
+* [cVurl](https://github.com/corese4rch/cvurl)：cVurl是一个开源的Java HTTP客户端封装库。
+* [Rump](https://github.com/Jasper-ketelaar/Rump)：Rump是一个Java的REST客户端，模仿JavaScript中的Axios。
+* [HttpExchange Spring Boot Starter](https://github.com/DanielLiu1123/httpexchange-spring-boot-starter)：Spring 6声明式HTTP客户端Starter。
+* [Verano HTTP](https://github.com/Vatavuk/verano-http)：Verano HTTP是一个提供面向对象接口的HTTP客户端，用于构建HTTP请求。
+* [Cactoos HTTP](https://github.com/yegor256/cactoos-http)：Cactoos HTTP是一个实验性的HTTP客户端，完全面向对象。
+* [HttPizza](https://github.com/reisub/HttPizza)：适用于Android应用的轻量级HTTP客户端。
+* [HTTP Client Common](https://github.com/e5l/http-client-common)：Kotlin多平台HTTP客户端。
+* [Async Http Client](https://github.com/shenfeng/async-http-client)：基于Netty的异步HTTP客户端。
+* [Curly](https://github.com/m3dev/curly)：Curly是一个非常简单的HTTP客户端，使用起来就像curl命令行一样方便。
+* [LightHTTP](https://github.com/satorufujiwara/lighthttp)：适用于安卓系统的轻量级HTTP客户端。
+* [Tekniq](https://github.com/sepatel/tekniq)：一个基于Kotlin设计的框架，提供RESTful HTTP客户端、JDBC DSL、加载缓存、配置、验证等功能。
+* [Bayou](https://github.com/zhong-j-yu/bayou)：Java的异步HTTP服务器和客户端。
+* [Java Restify](https://github.com/ljtfreitas/java-restify)：Java Restify是一款基于接口的简单Java HTTP客户端。
+* [Networkinkt](https://github.com/egorzhdan/networkinkt)：基于协程的Kotlin多平台HTTP客户端封装。
+* [jCurl](https://github.com/eeichinger/jcurl)：jCurl是一个受curl启发、基于Java的HTTP命令行客户端。
+* [MSNet](https://github.com/limuyang2/msnet)：一款基于OkCronet的Android类型安全HTTP客户端。
+* [Jus](https://github.com/apptik/jus)：Jus是一个灵活易用的Java和Android HTTP/REST客户端库。
+* [Reboot](https://github.com/dispatch/reboot)：Java AsyncHttpClient的Scala封装。
+* [ZZRHttp](https://github.com/zzrv5/ZZRHttp)：鸿蒙环境下HTTP轻量级工具类。
+* [ResCU](https://github.com/mmazi/rescu)：ResCU允许用户直接从JAX-RS注解接口在运行时创建代理REST客户端。
+* [Spring REST Invoker](https://github.com/ggeorgovassilis/spring-rest-invoker)：Spring Invoker，用于将远程REST服务映射到本地接口。
+* [Horizon](https://github.com/HubSpot/Horizon)：Horizon类采用Java HTTP客户端接口，旨在尽可能简化与REST服务的交互。
+* [Restler](https://github.com/excelsior-oss/restler)：Restler是一个库，它通过分析相应的带注解的Spring控制器接口，在运行时自动为Web服务生成客户端。
+* [Oh My Request](https://github.com/hellokaton/oh-my-request)：Java 8的简单请求库。
+* [Easy Requester](https://github.com/lookoutldz/easy-requester)：Easy Requester是一个轻量级的Java/Kotlin HTTP客户端库。
+* [HttpUtil](https://github.com/josdejong/httputil)：HttpUtil是一个包含多种方法的类，方便地执行HTTP请求。
+* [Requestor](https://github.com/reinert/requestor)：Requestor以独特的方式将简洁性、完整性和高性能结合在一个统一的HTTP客户端API中，适用于任何Java衍生语言。
+* [Simple HTTP](https://github.com/xkcoding/simple-http)：抽取一个简单HTTP的通用接口，底层实现根据具体引入依赖指定。
+* [UniHttp](https://github.com/burukeYou/UniHttp)：UniHttp是一个声明式的HTTP请求对接框架。
+* [MyRestUtil](https://github.com/xwjie/MyRestUtil)：基于Spring Boot的REST调用框架，定义接口然后即可直接注入使用。
+
+## Web服务器
+
+* [Apache Tomcat](https://github.com/apache/tomcat)：Tomcat是Java Servlet、JavaServer Pages、Java EL和Java WebSocket技术的开源实现，最初由Sun开发。
+* [Netty TCNative](https://github.com/netty/netty-tcnative)：Netty TCNative是Tomcat Native的一个分支，它包括Twitter贡献的一系列更改。
+* [Apache TomEE](https://github.com/apache/tomee)：TomEE是一个轻量级但功能强大的JavaEE应用服务器，具有功能丰富的工具。
+* [Helidon Nima](https://github.com/helidon-io/helidon)：Helidon Níma是一个基于JDK虚拟线程的轻量级Web服务器，由Oracle开源。
+* [Undertow](https://github.com/undertow-io/undertow)：Undertow是一个基于非阻塞IO的Java Web服务器，由RedHat开源。
+* [Wildfly](https://github.com/wildfly/wildfly)：WildFly是一个功能强大、模块化且轻量级的应用程序服务器，由RedHat开源。
+* [Oracle Weblogic](https://www.oracle.com/sg/java/weblogic/)：Oracle WebLogic Server是一个统一且可扩展的平台，用于在本地和云中开发、部署和运行Java等企业应用程序。
+* [Payara](https://github.com/payara/Payara)：Payara Platform Community Edition提供用于开发项目的开源服务器运行时以及容器化Jakarta EE和MicroProfile应用程序
+* [Piranha](https://github.com/piranhacloud/piranha)：Piranha项目提供云就绪容器和有用的附加/集成模块。
+* [JBoss Enterprise Application Platform](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)：RedHat JBoss企业应用平台可在任何环境中提供企业级安全性、性能和可扩展性。
+* [Eclipse Jetty](https://github.com/eclipse/jetty.project)：Jetty是一个轻量级、高度可扩展的基于Java的Web服务器和Servlet引擎。
+* [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
+* [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
+* [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个高度可组合、快速启动的动态应用程序服务器运行时环境，它是IBM WebSphere Liberty的开源实现。
+* [SAP AS](https://www.sap.com/products/technology-platform/netweaver.html)：SAP Web应用服务器是NetWeaver解决方案的一个组件。
+* [AISWare FlyingServer](https://www.asiainfo.com/zh_cn/product_aisware_flyingServer.html)：FlyingServer是一款满足Java EE 8标准的国产化Web中间件软件，支持WAR，EAR，JAR等应用的部署，由亚信科技提供。
+* [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html)：Adobe ColdFusion是一款久经考验的高性能应用程序服务器，可让程序员轻松进行Web开发。
+* [Apusic AAS](https://www.apusic.com/list-117.html)：金蝶Apusic应用服务器是一款标准、安全、高效、集成并具丰富功能的企业级应用服务器软件，全面支持Jakarta EE 8/9的技术规范。
+* [Fujitsu Software Enterprise Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/middleware/applatform/)：Enterprise Application Server是一款云原生应用服务器，采用富士通专有技术增强Java的可靠性和可操作性，可在短时间内发布，并可用于企业用途。
+* [InforSuite Application Server](https://www.inforbus.com/as.html)：中创应用服务器软件是国内通过Jakarta EE 9、8及Java EE 8、7、6完整兼容认证的企业级中间件，与国际主流产品最新版本保持规范一致，为应用运行提供高性能、高可用、高安全的支撑平台。
+* [Primeton AppServer](https://www.primeton.com/products/pas/)：Primeton AppServer提供了丰富的功能集，具备“立即部署”式Java EE容器的各种优点，由普元开发。
+* [BES Application Server](https://www.bessystem.com/product/0ad9b8c4d6af462b8d15723a5f25a87d/info?p=101#page-2)：BES是一款遵循Java EE标准的面向Java应用的通用中间件，由宝兰德提供。
+* [RockyAS](https://rockyasfile.obs-cn-shenzhen.pinganyun.com/RockyAS.html)：Rocky是一款标准、安全、高效的Web应用服务器，为企业级应用系统的便捷开发、灵活部署、可靠运行、高效管理及快速集成提供关键支撑能力，由平安云开发。
+* [Libercat](https://axiomjdk.ru/pages/libercat/)：Libercat是一款安全的俄罗斯制造的应用服务器，它基于Apache Tomcat和Apache TomEE，并实现了Jakarta EE规范。
+* [TongWeb Application Server](https://www.tongtech.com/dft/pctype/25.html)：TongWeb是一款全面符合Java EE、Jakarta EE最新标准规范、轻量易于使用、性能强大、具有高可靠性和高安全性的应用服务器产品，由东方通开发。
+* [JEUS](https://www.tmaxsoft.com/en/solution/view?solutionSeq=27)：JEUS是在Web环境中开发、运行、执行应用程序的平台，提供各种必要服务、符合Java标准的Web应用服务器，由韩国TmaxSoft公司开发。
+* [AliEE](https://help.aliyun.com/zh/edas/product-overview/what-is-alibaba-cloud-application-server?spm=a2c4g.11186623.0.0.72385806mPZpST)：阿里云应用服务器是一款企业级Java EE的应用服务器软件，用于构建和部署企业级应用程序。
+* [Cosminexus](https://www.hitachi.com/products/it/software/prod/cosminexus/)：Cosminexus是日立公司提供的用于构建和运行应用程序服务器的中间件产品。
+* [WebOTX Application Server](https://jpn.nec.com/webotx/appserver/index.html)：WebOTX是一个Java应用程序执行平台，非常适合在从本地到云的各种IT资源中推广DX，这是日本电气公司的产品。
+* [Xigema Application Server](http://www.vsettan.com.cn/7752.html)：XigemaAS是企业级应用服务器产品，完全符合Java EE 7规范，产品架构基于OSGi内核，高模块化、高动态性、强扩展性、轻量且配置简单，为企业应用提供稳定、高效、安全的运行引擎和支撑平台，这是华胜信泰的产品。
+* [Thunisoft Application Server](https://www.thunisoft.cn/col81/index)：Thunisoft是华宇自主研发的企业级中间件产品，符合Jakarta EE标准的轻量级服务器。
+* [JOnAS](https://jonas.ow2.org/)：JOnAS是由Bull和OW2开发的领先的Java EE 6 Web Profile认证开源OSGi企业服务器。
+* [Carbon](https://github.com/wso2/carbon-kernel)：Carbon是一个轻量级、通用的OSGi运行时，专门用于托管服务器，为服务器开发人员提供关键功能，由WSO2开源。
+* [UseOpen Application Server](http://www.useopen.com/p/uoas/)：UOAS是一款永源开源的Java应用服务器产品，支持Jakarta EE Web Profile规范的应用服务器功能。
+* [Smart Servlet](https://gitee.com/smartboot/smart-servlet)：Smart Servlet是一款实现了Servlet 4.0规范，支持多应用隔离部署的的Web容器。
+* [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
+* [Red5](https://github.com/Red5/red5-server)：Red5是一个用Java编写的开源Flash服务器。
+* [Microhttp](https://github.com/ebarlas/microhttp)：Microhttp是一种快速、可扩展、事件驱动、独立的Java Web服务器。
+* [WebObjects](https://wiki.wocommunity.org/xwiki/bin/view/WO/Home/)：WebObjects是一套集成的Java框架，用于快速开发可扩展、复杂的互联网和企业应用程序，最初由NeXT开发并由Apple维护。
+* [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，它是一个非常流行的支持Servlet和JSP的服务器。
+* [ZFoo](https://github.com/zfoo-project/zfoo)：ZFoo是一个极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
+* [Rupy](https://github.com/tinspin/rupy)：Rupy是一款节能、安全、高性能的HTTP应用服务器。
+* [Jigsaw](https://www.w3.org/Jigsaw/)：Jigsaw是W3C领先的Web服务器平台，它基于Java实现的先进架构，提供了HTTP 1.1的示例实现以及各种其他功能。
+* [Java HTTP](https://github.com/FusionAuth/java-http)：Java HTTP是一个轻量级、开源、零依赖的Java HTTP服务器。
+* [HttpServer](https://github.com/robaho/httpserver)：JDK com.sun.net.httpserver.HttpServer规范的零依赖实现，具有一些显著的增强功能。
+* [Reactor Netty](https://github.com/reactor/reactor-netty)：Reactor Netty提供基于Netty框架的非阻塞和背压就绪的TCP/HTTP/UDP/QUIC客户端和服务器。
+* [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd)：NanoHTTPD是一个轻量级HTTP服务器，设计用于嵌入其他应用程序。
+* [MiniCat](https://gitee.com/coodyer/minicat)：MiniCat是一款轻量化HTTP服务器，支持BIO、NIO两种模式。
+* [Java NIO Server](https://github.com/jjenkov/java-nio-server)：一个始终使用非阻塞IO的Java NIO服务器。
+* [AndServer](https://github.com/yanzhenjie/AndServer)：AndServer是Android平台的Web服务器和Web框架。
+* [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
+* [Nginx Clojure](https://github.com/nginx-clojure/nginx-clojure)：Nginx Clojure是一个Nginx模块，用于嵌入Clojure或Java或Groovy程序，通常是那些基于Ring的处理程序。
+* [Jibble](http://www.jibble.org/miniwebserver/)：Jibble是一个用Java编写的非常小的独立Web服务器，它打包在JAR文件中，也可以在你自己的Java程序中使用。
+* [Webery](https://github.com/wizzardo/webery)：基于Epoll的Java HTTP服务器。
+* [TorqueBox](https://github.com/torquebox/torquebox)：TorqueBox运行在JRuby之上，并基于一个全新的轻量级、可插拔、多语言服务器。
+* [Android HTTP Server](https://github.com/piotrpolak/android-http-server)：完全用Java编写的小型但功能强大的多线程Web服务器。
+* [MuServer](https://github.com/3redronin/mu-server)：MuServer是一个基于Netty的现代Java Web服务器。
+* [Fluent HTTP](https://github.com/CodeStory/fluent-http)：Fluent HTTP是一个简单、快速、成熟的Web服务器。
+* [JLHTTP](https://github.com/curtcox/JLHTTP)：JLHTTP是HTTP服务器的开源实现。
+* [TJWS](https://tjws.sourceforge.net/)：TJWS是作为Servlet容器构建的，其中HTTPD Servlet提供标准Web服务器功能。
+* [Aeromock](https://github.com/ca-archived/aeromock)：Aeromock是一个从模板文件和数据文件生成HTML的应用服务器。
+* [SimpleWebServer](https://github.com/94fzb/simplewebserver)：SimpleWebServer是一款使用Java基于NIO编写的超轻量级开源Web应用服务器。
+* [Magician](https://github.com/JMagician/Magician)：Magician是一个基于Netty的小型HTTP服务包，它使启动HTTP服务变得非常容易，并且还支持WebSocket。
+* [Flupke](https://github.com/ptrd/flupke)：Flupke是一个100%纯Java HTTP3实现，运行在Kwik之上。
+* [JRuby Rack](https://github.com/jruby/jruby-rack)：JRuby Rack是一款适用于Java Servlet环境的轻量级适配器，允许任何基于Rack的应用程序在Java Servlet容器中未修改运行。
+* [Android Web Server](https://github.com/sonuauti/Android-Web-Server)：Java语言的简单且小容量的Android版TCP/IP Web服务器。
+* [Dorado](https://github.com/javagossip/dorado)：简单、快速、轻量级的HTTP Server实现，基于Netty 4和JDK 1.8+。
+* [RedAnt](https://github.com/all4you/redant)：RedAnt是一个基于Netty的轻量级Web容器。
+* [LoServer](https://github.com/looly/loServer)：LoServer是基于Netty的HTTP应用服务器。
+* [DroidPHP](https://github.com/DroidPHP/DroidPHP)：DroidPHP是一个面向安卓设备的开源Web服务器，允许你从安卓设备运行基于PHP和MYSQL的应用。
+* [Akka HTTP](https://github.com/akka/akka-http)：Akka以流式传输为先的HTTP服务器/模块。
+* [ZIO HTTP](https://github.com/zio/zio-http)：ZIO HTTP是一个用于构建HTTP应用的Scala库。
+* [MineServer](https://github.com/stevenkin/MineServer)：MineServer是一个基于原生的NIO实现的HTTP Server。
+* [Hella HTTP](https://github.com/bbeaupain/hella-http)：Hella HTTP是一个非常快速的Java HTTP库，使用nio_uring进行I/O。
+* [ESA HttpServer](https://github.com/esastack/esa-httpserver)：ESA HttpServer是一个基于Netty的异步事件驱动HTTP服务器。
+* [Netty RESTful Server](https://github.com/zhoumengkang/netty-restful-server)：一个基于Netty构建的轻量高性能RESTful服务器。
+* [Soklet](https://github.com/soklet/soklet)：Soklet是一个零依赖的Java HTTP/1.1和SSE服务器。
+* [Java WebServer](https://github.com/dasanjos/java-WebServer)：这是一个基于W3C规范，用Java实现的简单多线程HTTP 1.1服务器，用于教学目的。
+* [Jerrymouse](https://github.com/michaelliao/jerrymouse)：Jerrymouse是一个轻量级的Servlet容器，它实现了Jakarta Servlet 6规范。
+* [Web.Java](https://github.com/laomafeima/WebJava)：Web.Java是一个高性能、轻量级的非阻塞式服务器。
+* [HttpKids](https://github.com/pyloque/httpkids)：基于Netty的微型HTTP服务器。
+* [WebServer](https://github.com/songxinjianqwe/WebServer)：WebServer是简化版的Web服务器。
+* [Sirius Web](https://github.com/scireum/sirius-web)：Sirius Web提供了一个现代化、可扩展的Web服务器、内容生成框架和电子邮件发送器。
+* [Netty HTTP](https://github.com/cyfonly/netty-http)：Netty HTTP协议栈的简单实践。
+* [Spring Boot Starter Netty](https://github.com/Leibnizhu/spring-boot-starter-netty)：一个基于Netty实现的Spring Boot内置Servlet容器。
+* [Netty Servlet Bridge](https://github.com/bigpuritz/netty-servlet-bridge)：Netty Servlet Bridge允许将现有的基于Servlet API的Web应用程序集成到Netty支持的基础架构中。
+* [XOOM HTTP](https://github.com/vlingo/xoom-http)：VLINGO XOOM HTTP是一个响应式、可扩展、高吞吐量且具有弹性的HTTP服务器。
+* [Socko](https://github.com/mashupbots/socko)：Socko是一个嵌入式Scala Web服务器，由Netty和Akka提供支持。
+* [ServDroid](https://github.com/joanpuigsanz/servdroid)：ServDroid是一个适用于Android平台的小型Web服务器。
+* [FastJava](https://github.com/tanoaks14/fastJava)：FastJava是一个轻量级的HTTP服务器原型，专注于低间接寻址的内部机制和基于Java Vector API的SIMD辅助解析。
+* [UniDbg Boot Server](https://github.com/anjia0532/unidbg-boot-server)：UniDbg Server提供HTTP API服务。
+* [React Native Static Server](https://github.com/futurepress/react-native-static-server)：React Native的HTTP静态文件服务器。
+* [AndroidServer](https://github.com/fengzhizi715/AndroidServer)：基于Kotlin、Netty开发，为Android App提供Server的功能，包括HTTP、TCP、WebSocket服务。
+* [Pekko HTTP](https://github.com/apache/pekko-http)：Pekko HTTP在Pekko Actor和Pekko Stream之上实现了完整的服务器端和客户端HTTP协议栈。
+* [Spray Can](https://github.com/spray/spray-can)：Spray Can是一个低开销、高性能、完全异步的HTTP 1.1服务器和客户端库。
+* [Macchiato](https://github.com/macchiato-framework/macchiato-core)：Node.js的Ring HTTP服务器抽象。
+* [SNUnit](https://github.com/lolgab/snunit)：SNUnit是一个Scala Native库，用于在Nginx Unit之上编写HTTP服务器应用程序。
+* [FS2 HTTP](https://github.com/Spinoco/fs2-http)：FS2 HTTP是一个简单的客户端和服务端库，允许你使用Scala FS2构建HTTP客户端和服务端。
+* [UZHTTP](https://github.com/polynote/uzhttp)：UZHTTP是一个使用ZIO的极简HTTP服务器。
+* [ZIO TLS HTTP](https://github.com/ollls/zio-tls-http)：100%非阻塞、仅使用Java NIO的JSON HTTP服务器。
+* [Pronghorn HTTP Server](https://github.com/pronghorn-tech/server)：Pronghorn HTTP Server是一个用Kotlin编写的底层高性能HTTP服务器。
+* [Android Embedded Server](https://github.com/nphausg/android.embeddedserver)：Android嵌入式服务器。
+* [Avaje Jex](https://github.com/avaje/avaje-jex)：Avaje Jex是一个轻量级的JDK内置HTTP Server API包装器，并进行了一些关键的增强。
+* [Netty HTTP](https://github.com/cdapio/netty-http)：一个使用Netty开发HTTP服务的库，支持基于JAX-RS风格注解路由端点的功能，由Google开源。
+* [Netty Router](https://github.com/sinetja/netty-router)：Netty Router是一个小型Java库，将HTTP请求路由到你的Netty处理程序。
+* [Lucee](https://github.com/lucee/Lucee)：Lucee是一款高性能、开源的CFML服务器。
+* [Railo](https://github.com/getrailo/railo)：Railo是一款高性能、开源的CFML引擎。
+* [OpenBD](https://github.com/OpenBD/openbd-core)：OpenBD是开源且免费的Java CFML运行时。
+* [RichServlet](https://gitee.com/284520459/RichServlet)：RichServlet是一款轻量级、高性能Servlet容器，实现了标准Servlet协议。
+* [Aspen](https://github.com/kevwil/aspen)：Aspen是一个类似于Thin的JRuby Web服务器。
+* [Thick](https://github.com/marekjelen/thick)：Thick是一个非常轻量级的JRuby Web服务器，基于优秀的Netty库。
+* [S Server](https://github.com/woshilaiceshide/s-server)：用Scala编写的小型智能服务器。
+* [Jinx](https://github.com/dromara/Jinx)：Spring Boot框架采用Netty取代Tomcat。
+* [Spring Boot Starter Netty](https://github.com/DanielThomas/spring-boot-starter-netty)：一个用于Spring Boot的Netty嵌入式Servlet桥接原型。
+* [Nano](https://github.com/AdamBien/nano)：微型Java 8 HTTP服务器。
+* [LolHTTP](https://github.com/criteo/lolhttp)：一个用于Scala的HTTP服务器和客户端库。
+* [Mirage](https://github.com/six-ddc/mirage)：一个用于轻松编写简单HTTP服务器的Web DSL和命令行工具。
+* [Simple Java HTTP Server](https://github.com/CoderFromScratch/simple-java-http-server)：Java创建的简单HTTP服务器。
+* [HTTPServer](https://github.com/jbossas/httpserver)：轻量级HTTP服务器。
+* [Simple HTTP Server](https://github.com/todokr/simple-http-server)：用Java、Scala和Clojure编写的简单HTTP服务器。
+* [Microboot](https://github.com/wwjwell/microboot)：Microboot是基于Netty开发的一个HTTP服务框架。
+* [Netty HTTP Server](https://github.com/fengjingwei/netty-http-server)：Netty HTTP服务器。
+* [AndroidHttpServer](https://github.com/andreivisan/AndroidHttpServer)：使用NanoHTTPD在Android应用程序中运行HTTP服务器。
+* [AndroidHTTPServer](https://github.com/matt1/AndroidHTTPServer)：AndroidHTTPServer是一个适用于Android设备的多线程HTTP Web服务器库。
+* [EmbedHttp](https://github.com/nikkiii/embedhttp)：一个体积小巧、易于嵌入应用程序的Java HTTP服务器。
+* [Kwang](https://github.com/KwangIO/kwang)：Kwang是一个轻量级的Kotlin/Native封装库，用于封装高性能、低开销的Web服务器。
+* [Easy HTTPServer](https://github.com/NotBadPad/easy-httpserver)：Easy HTTPServer是一个Java实现的简单Web服务器。
 
 ## 微服务治理
 
@@ -2318,6 +2579,7 @@
 * [ZCMS](https://gitee.com/yejinzc/zcms)：ZCMS是基于Java NIO的消息中间件。
 * [Delay Queue](https://github.com/yangwenjie88/delay-queue)：Redis实现延迟消息队列。
 * [RedMQ](https://github.com/thisxulz/RedMQ)：基于Redis的消息队列。
+* [Krafta](https://github.com/akansha204/kofta)：Krafta是一个用Java实现的Kafka式分布式日志系统。
 * [Rapid Queue](https://github.com/badqiu/rapid-queue)：最快速精简的Java消息队列。
 * [DataCarrier](https://github.com/wu-sheng/DataCarrier)：DataCarrier是一个轻量级、嵌入式、高吞吐量的发布/订阅消息队列。
 * [Simple Message Queue](https://github.com/kentfitch/Simple-message-queue)：一个用Java实现的非常简单的基于磁盘的消息队列。
@@ -2431,6 +2693,7 @@
 * [Vert.x EventBus Java](https://github.com/abdlquadri/vertx-eventbus-java)：一个用Java编写的Vert.x EventBus客户端，可在Android上运行。
 * [RxBus2](https://github.com/KingJA/RxBus2)：一个基于RxJava2的简单事件总线库。
 * [RxBus](https://github.com/liuguangli/RxBus)：RxBus是一个针对Android优化的发布/订阅事件总线。
+* [FXEventBus](https://github.com/AlmasB/FXEventBus)：基于JavaFX事件分发机制的简单事件总线实现。
 
 #### 消息总线
 
@@ -3074,853 +3337,6 @@
 * [Raigad](https://github.com/Netflix/Raigad)：Raigad是一个用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程，由Netflix开源。
 * [InnoDB Java Reader](https://github.com/alibaba/innodb-java-reader)：InnoDB Java Reader是一个直接访问MySQL InnoDB存储引擎文件的Java实现，由阿里开源。
 * [FQLite](https://github.com/pawlaszczyk/fqlite)：FQLite是一款用于查找和恢复SQLite数据库中已删除记录的工具。
-
-## 网络编程
-
-这里列出了网络相关的库、软件、工具、服务器集合。
-
-#### HTTP客户端
-
-* [Apache HttpComponents](https://github.com/apache/httpcomponents-core)：HttpComponents项目负责创建和维护专注于HTTP和相关协议的低级Java组件工具集。
-* [Apache HttpComponents Client](https://github.com/apache/httpcomponents-client)：Apache开源的HTTP客户端库，相比HttpComponents Core提供更流式的API。
-* [Feign](https://github.com/OpenFeign/feign)：Feign是一个Java到HTTP客户端绑定器，其灵感来自于Retrofit、JAXRS-2.0和WebSocket，由Netflix开源。
-* [OkHttp](https://github.com/square/okhttp)：Square为JVM、Android和GraalVM精心设计的HTTP客户端。
-* [Fuel](https://github.com/kittinunf/fuel)：由Kotlinx Coroutines支持的最简单的Kotlin HTTP网络库。
-* [Retrofit](https://github.com/square/retrofit)：Retrofit是适用于Android和JVM的类型安全HTTP客户端，由Square开源。
-* [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient库允许Java应用程序轻松执行HTTP请求并异步处理HTTP响应。
-* [RxEasyHttp](https://github.com/zhou-you/RxEasyHttp)：RxEasyHttp是一款基于RxJava 2、Retrofit 2实现简单易用的网络请求框架。
-* [Android Asynchronous HttpClient](https://github.com/android-async-http/android-async-http)：基于Apache HttpClient库的Android异步、基于回调的HTTP客户端。
-* [Google HTTP Java Client](https://github.com/googleapis/google-http-java-client)：Google HTTP Client由Google开源，是一个灵活、高效且功能强大的Java库，用于通过HTTP访问网络上的任何资源。
-* [Google API Java Client](https://github.com/googleapis/google-api-java-client)：Google API Java Client是一个灵活、高效且功能强大的Java客户端库，用于访问网络上任何基于HTTP的API。
-* [HttpClientUtil](https://github.com/Arronlong/httpclientutil)：HttpClientUtil是基于HttpClient 4.4.1封装的工具类。
-* [RoboSpice](https://github.com/stephanenicolas/robospice)：RoboSpice是一个模块化的Android库，可以轻松编写异步长时间运行的任务。
-* [Http Request](https://github.com/kevinsawicki/http-request)：Http Request是一个简单的便利库，用于使用HttpURLConnection发出请求并访问响应。
-* [HttpFetch](https://github.com/youzan/httpfetch)：HttpFetch用于对HTTP请求进行封装，通过对接口函数进行代理，实现优雅的HTTP调用，有赞开源。
-* [EasyHttp](https://github.com/getActivity/EasyHttp)：Android网络请求框架，简单易用。
-* [OkHttpUtils](https://github.com/hongyangAndroid/okhttputils)：OkHttp的辅助类。
-* [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：OkGo基于HTTP协议，封装了OkHttp的网络请求框架。
-* [Wasp](https://github.com/orhanobut/wasp)：小巧易用、功能齐全的安卓网络解决方案。
-* [STTP](https://github.com/softwaremill/sttp)：STTP是SoftwareMill开源的库，它提供了一个干净的、程序员友好的API来描述HTTP请求以及如何处理响应。
-* [Http4s](https://github.com/http4s/http4s)：Http4s是一个极简且符合Scala规范的HTTP服务接口。
-* [Ktorfit](https://github.com/Foso/Ktorfit)：Ktorfit是一个适用于Kotlin多平台的HTTP客户端/Kotlin符号处理器，使用受Retrofit启发的KSP和Ktor客户端。
-* [Scalaj HTTP](https://github.com/scalaj/scalaj-http)：HttpURLConnection的简单Scala封装库。
-* [Ballerina HTTP](https://github.com/ballerina-platform/module-ballerina-http)：Ballerina HTTP提供用于连接和交互HTTP和HTTP2端点的API。
-* [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
-* [Chuck](https://github.com/jgilfelt/chuck)：Chuck是一个简单的应用内HTTP检查器，适用于Android OkHttp客户端。
-* [NoHttp](https://github.com/yanzhenjie/NoHttp)：NoHttp是一个Android实现的HTTP标准协议框架，支持多种缓存模式，底层可动态切换OkHttp、URLConnection。
-* [Volley](https://github.com/google/volley)：Volley是一个HTTP库，它使Android应用程序的网络变得更容易，Google开源。
-* [RxVolley](https://github.com/kymjs/RxVolley)：RxVolley是Volley的修改版，移除了HttpClient，并支持RxJava。
-* [Novate](https://github.com/Tamicer/Novate)：Novate是一款Android网络框架，基于Retrofit和RxJava打造的链式网络库。
-* [Unirest](https://github.com/Kong/unirest-java)：Unirest是一个简化的轻量级HTTP客户端库。
-* [Whiskey](https://github.com/twitter/whiskey)：Whiskey是一个基于NIO的Java HTTP库，专门针对Android移动客户端的需求，由Twitter开源。
-* [RawHTTP](https://github.com/renatoathaydes/rawhttp)：一个Java库，可以轻松处理由RFC-7230定义的原始HTTP 1.1以及大部分HTTP 1.0(RFC-1945)。
-* [HTTP Kit](https://github.com/http-kit/http-kit)：HTTP Kit是一个简约且高效的Clojure兼容Ring的HTTP客户端/服务器。
-* [Forest](https://gitee.com/dromara/forest)：Forest是一个高层、极简的声明式HTTP调用API框架，由dromara社区开源。
-* [Methanol](https://github.com/mizosoft/methanol)：Methanol是Java的轻量级HttpClient扩展。
-* [Jodd HTTP](https://github.com/oblac/jodd-http)：Jodd HTTP是一个小型、原始的HTTP客户端。
-* [Feign Reactive](https://github.com/kptfh/feign-reactive)：基于Spring WebFlux的响应式Feign客户端。
-* [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
-* [Avaje HttpClient](https://github.com/avaje/avaje-http)：JDK 11 HttpClient的轻量级包装器。
-* [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：Jcabi HTTP是流式的Java HTTP客户端。
-* [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
-* [OkHttps](https://gitee.com/troyzhxu/okhttps)：OkHttps是对OkHttp3轻量封装的框架，包括异步预处理器，特色的标签，灵活的上传下载进度监听与过程控制功能。
-* [RXHttp](https://github.com/liujingxing/rxhttp)：适用于Android的类型安全HTTP客户端，基于OkHttp。
-* [HTTP4K](https://github.com/http4k/http4k)：HTTP4K是一个用纯Kotlin编写的轻量级但功能齐全的HTTP工具包，可以以功能一致的方式提供和使用HTTP服务。
-* [LiteHTTP](https://github.com/litesuits/android-lite-http)：LiteHTTP是一个简单、智能且灵活的Android HTTP框架。
-* [Communication](https://github.com/foundation-runtime/communication)：Communication包含与HTTP客户端和服务器通信相关的库，由Cisco开发。
-* [Netty HTTP Client](https://github.com/timboudreau/netty-http-client)：Java中的异步HTTP客户端，具有干净、基于回调的API，基于Netty 4.x。
-* [Jetty HttpClient](https://github.com/eclipse/jetty.project/tree/jetty-10.0.x/jetty-client)：Jetty中执行HTTP和HTTPS请求的模块。
-* [HTTP4J](https://github.com/IntellectualSites/HTTP4J)：HTTP4J是Java HttpURLConnection的一个简单、轻量级且小型的包装器。
-* [Donkey](https://github.com/AppsFlyer/donkey)：现代Clojure、Ring兼容的HTTP服务器和客户端，专为易用性和性能而设计。
-* [OkCronet](https://github.com/limuyang2/okcronet)：OkCronet是一个类似于OKHTTP的网络请求库，使用Cronet实现。
-* [HTTPBuilder](https://github.com/jgritman/httpbuilder)：Groovy的简单HTTP客户端。
-* [HttpBuilder NG](https://github.com/http-builder-ng/http-builder-ng)：适用于Groovy、Java的简单HTTP客户端。
-* [RestVolley](https://github.com/HujiangTechnology/RestVolley)：RestVolley是一个基于Volley和OkHttp的HTTP请求框架，由沪江科技开源。
-* [King HttpClient](https://github.com/king/king-http-client)：支持SSE的异步HTTP客户端。
-* [ESA RestClient](https://github.com/esastack/esa-restclient)：ESA RestClient是一个基于Netty的异步事件驱动HTTP客户端。
-* [Smart HTTP](https://gitee.com/smartboot/smart-http)：Smart HTTP是一款可编程的HTTP应用微内核，方便用户根据自身需求进行服务端或客户端的应用开发。
-* [cURL](https://github.com/libetl/curl)：在Java中使用cURL的库。
-* [Java cURL](https://github.com/rockswang/java-curl)：Java cURL是一个基于标准JDK中的HttpURLConnection实现的纯Java HTTP实用程序。
-* [JCurl](https://github.com/finos/JCurl)：Java中支持JSON的Curl，由金融科技基金会开源。
-* [JQuickCurl](https://github.com/paohaijiao/jquick-curl)：JQuickCurl是一个面向Java开发者的高性能、易用HTTP客户端框架。
-* [Ok2Curl](https://github.com/mrmike/Ok2Curl)：将OkHttp请求转换为Curl日志的简单方法。
-* [Resty](https://github.com/beders/Resty)：Resty是一个小巧、方便的接口，用于在Java中与RESTful服务通信。
-* [Kohttp](https://github.com/rybalkinsd/kohttp)：Kotlin DSL HTTP客户端。
-* [Appsly Android REST](https://github.com/xebia-functional/appsly-android-rest)：Appsly Android REST是一款基于注解的客户端库，由Xebia开源。
-* [HTTP API Invoker](https://github.com/dadiyang/http-api-invoker)：让HTTP接口调用跟调用本地方法一样自然优雅。
-* [MicroProfile Rest Client](https://github.com/microprofile/microprofile-rest-client)：MicroProfile Rest Client提供了一种类型安全的方法来通过HTTP调用RESTful服务。
-* [Axios](https://github.com/xiao-akatsuki/axios)：使Java更容易发送HTTPS。
-* [DavidWebb](https://github.com/hgoebl/DavidWebb)：轻量级Java HTTP客户端，用于调用JSON REST服务。
-* [Spring Boot HTTP Clients](https://github.com/maciejwalkowiak/spring-boot-http-clients)：Spring Boot HTTP Clients为Spring Boot应用程序中基于WebClient和Spring 6 HTTP接口的HTTP客户端提供零样板自动配置。
-* [Hutool HTTP](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-http)：Hutool HTTP针对JDK的HttpUrlConnection做一层封装，简化了HTTPS请求、文件上传、Cookie记忆等操作。
-* [Bus HTTP](https://github.com/818000/bus/tree/main/bus-http)：Bus HTTP是一个高性能的Java应用程序HTTP客户端库。
-* [Kalle](https://github.com/yanzhenjie/Kalle)：Kalle是一个Android平台的HttpClient，它遵循HTTP标准协议，支持同步请求和异步请求。
-* [Unfiltered](https://github.com/unfiltered/unfiltered)：Unfiltered是一个用于在Scala中处理HTTP请求的工具包。
-* [HttpHelper](https://gitee.com/wolfsmoke/WSHttpHelper)：HttpHelper是一个轻量级Http请求框架，致力于为Http请求提供简洁明了的接口。
-* [Mechanize](https://github.com/GistLabs/mechanize)：Mechanize是一个有状态的HTTP Web服务客户端，支持HTML、JSON和XML服务。
-* [UrlHttpUtils](https://github.com/guozhengXia/UrlHttpUtils)：最简单的HttpURLConnection封装。
-* [OKHttpUtil](https://github.com/admin4j/common-http)：专为Java打包的HTTP请求库。
-* [RestfulKit](https://github.com/ydstar/RestfulKit)：简洁、易用的Android网络组件库。
-* [RosHTTP](https://github.com/hmil/RosHTTP)：一个易于阅读的Scala HTTP客户端API。
-* [HttpClientUtil](https://github.com/JourWon/httpclientutil)：HttpClient工具类，简单轻松的实现GET、POST、PUT和DELETE请求。
-* [Play WS](https://github.com/playframework/play-ws)：Play WS是一个功能强大的HTTP客户端库，最初由Play团队开发，用于Play框架。
-* [HttpKit](https://gitee.com/m310851010/httpkit)：HttpKit是一个HTTP请求工具，支持多线程异步请求。
-* [Easy Okhttp](https://gitee.com/mzllon/easy-okhttp)：Easy Okhttp是一个对Okhttp3封装后Java网络框架。
-* [Riptide](https://github.com/zalando/riptide)：Riptide是一个实现客户端响应路由的库，由Zalando开源。
-* [Hato](https://github.com/gnarroway/hato)：一个用于Clojure的HTTP客户端，封装了JDK 11的HttpClient。
-* [GAHC](https://github.com/eclipse-ee4j/glassfish-grizzly-ahc)：GAHC库旨在让Java应用程序能够轻松执行HTTP请求并异步处理HTTP响应。
-* [Jetty ReactiveStreams HttpClient](https://github.com/jetty-project/jetty-reactive-httpclient)：Jetty HttpClient的响应式封装。
-* [Requests Scala](https://github.com/com-lihaoyi/requests-scala)：Requests Scala是流行的Python Requests HTTP客户端的Scala移植版。
-* [Ninjato](https://github.com/agoda-com/ninjato)：Ninjato是一个库，它能让你编写简单而强大的远程HTTP调用。
-* [HTTP Client](https://github.com/biasedbit/http-client)：一个基于Netty的Java高性能、高吞吐量的HTTP客户端库。
-* [Basic HTTP Client](https://github.com/turbomanage/basic-http-client)：Basic HTTP Client是一个极简的HTTP客户端，使用java.net.HttpURLConnection发起请求。
-* [cVurl](https://github.com/corese4rch/cvurl)：cVurl是一个开源的Java HTTP客户端封装库。
-* [Rump](https://github.com/Jasper-ketelaar/Rump)：Rump是一个Java的REST客户端，模仿JavaScript中的Axios。
-* [HttpExchange Spring Boot Starter](https://github.com/DanielLiu1123/httpexchange-spring-boot-starter)：Spring 6声明式HTTP客户端Starter。
-* [Verano HTTP](https://github.com/Vatavuk/verano-http)：Verano HTTP是一个提供面向对象接口的HTTP客户端，用于构建HTTP请求。
-* [Cactoos HTTP](https://github.com/yegor256/cactoos-http)：Cactoos HTTP是一个实验性的HTTP客户端，完全面向对象。
-* [HttPizza](https://github.com/reisub/HttPizza)：适用于Android应用的轻量级HTTP客户端。
-* [HTTP Client Common](https://github.com/e5l/http-client-common)：Kotlin多平台HTTP客户端。
-* [Async Http Client](https://github.com/shenfeng/async-http-client)：基于Netty的异步HTTP客户端。
-* [Curly](https://github.com/m3dev/curly)：Curly是一个非常简单的HTTP客户端，使用起来就像curl命令行一样方便。
-* [LightHTTP](https://github.com/satorufujiwara/lighthttp)：适用于安卓系统的轻量级HTTP客户端。
-* [Tekniq](https://github.com/sepatel/tekniq)：一个基于Kotlin设计的框架，提供RESTful HTTP客户端、JDBC DSL、加载缓存、配置、验证等功能。
-* [Bayou](https://github.com/zhong-j-yu/bayou)：Java的异步HTTP服务器和客户端。
-* [Java Restify](https://github.com/ljtfreitas/java-restify)：Java Restify是一款基于接口的简单Java HTTP客户端。
-* [Networkinkt](https://github.com/egorzhdan/networkinkt)：基于协程的Kotlin多平台HTTP客户端封装。
-* [jCurl](https://github.com/eeichinger/jcurl)：jCurl是一个受curl启发、基于Java的HTTP命令行客户端。
-* [MSNet](https://github.com/limuyang2/msnet)：一款基于OkCronet的Android类型安全HTTP客户端。
-* [Jus](https://github.com/apptik/jus)：Jus是一个灵活易用的Java和Android HTTP/REST客户端库。
-* [Reboot](https://github.com/dispatch/reboot)：Java AsyncHttpClient的Scala封装。
-* [ZZRHttp](https://github.com/zzrv5/ZZRHttp)：鸿蒙环境下HTTP轻量级工具类。
-* [ResCU](https://github.com/mmazi/rescu)：ResCU允许用户直接从JAX-RS注解接口在运行时创建代理REST客户端。
-* [Spring REST Invoker](https://github.com/ggeorgovassilis/spring-rest-invoker)：Spring Invoker，用于将远程REST服务映射到本地接口。
-* [Horizon](https://github.com/HubSpot/Horizon)：Horizon类采用Java HTTP客户端接口，旨在尽可能简化与REST服务的交互。
-* [Restler](https://github.com/excelsior-oss/restler)：Restler是一个库，它通过分析相应的带注解的Spring控制器接口，在运行时自动为Web服务生成客户端。
-* [Oh My Request](https://github.com/hellokaton/oh-my-request)：Java 8的简单请求库。
-* [Easy Requester](https://github.com/lookoutldz/easy-requester)：Easy Requester是一个轻量级的Java/Kotlin HTTP客户端库。
-* [HttpUtil](https://github.com/josdejong/httputil)：HttpUtil是一个包含多种方法的类，方便地执行HTTP请求。
-* [Requestor](https://github.com/reinert/requestor)：Requestor以独特的方式将简洁性、完整性和高性能结合在一个统一的HTTP客户端API中，适用于任何Java衍生语言。
-* [Simple HTTP](https://github.com/xkcoding/simple-http)：抽取一个简单HTTP的通用接口，底层实现根据具体引入依赖指定。
-* [UniHttp](https://github.com/burukeYou/UniHttp)：UniHttp是一个声明式的HTTP请求对接框架。
-* [MyRestUtil](https://github.com/xwjie/MyRestUtil)：基于Spring Boot的REST调用框架，定义接口然后即可直接注入使用。
-
-#### Web服务器
-
-* [Apache Tomcat](https://github.com/apache/tomcat)：Tomcat是Java Servlet、JavaServer Pages、Java EL和Java WebSocket技术的开源实现，最初由Sun开发。
-* [Netty TCNative](https://github.com/netty/netty-tcnative)：Netty TCNative是Tomcat Native的一个分支，它包括Twitter贡献的一系列更改。
-* [Apache TomEE](https://github.com/apache/tomee)：TomEE是一个轻量级但功能强大的JavaEE应用服务器，具有功能丰富的工具。
-* [Helidon Nima](https://github.com/helidon-io/helidon)：Helidon Níma是一个基于JDK虚拟线程的轻量级Web服务器，由Oracle开源。
-* [Undertow](https://github.com/undertow-io/undertow)：Undertow是一个基于非阻塞IO的Java Web服务器，由RedHat开源。
-* [Wildfly](https://github.com/wildfly/wildfly)：WildFly是一个功能强大、模块化且轻量级的应用程序服务器，由RedHat开源。
-* [Oracle Weblogic](https://www.oracle.com/sg/java/weblogic/)：Oracle WebLogic Server是一个统一且可扩展的平台，用于在本地和云中开发、部署和运行Java等企业应用程序。
-* [Payara](https://github.com/payara/Payara)：Payara Platform Community Edition提供用于开发项目的开源服务器运行时以及容器化Jakarta EE和MicroProfile应用程序
-* [Piranha](https://github.com/piranhacloud/piranha)：Piranha项目提供云就绪容器和有用的附加/集成模块。
-* [JBoss Enterprise Application Platform](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)：RedHat JBoss企业应用平台可在任何环境中提供企业级安全性、性能和可扩展性。
-* [Eclipse Jetty](https://github.com/eclipse/jetty.project)：Jetty是一个轻量级、高度可扩展的基于Java的Web服务器和Servlet引擎。
-* [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
-* [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
-* [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个高度可组合、快速启动的动态应用程序服务器运行时环境，它是IBM WebSphere Liberty的开源实现。
-* [SAP AS](https://www.sap.com/products/technology-platform/netweaver.html)：SAP Web应用服务器是NetWeaver解决方案的一个组件。
-* [AISWare FlyingServer](https://www.asiainfo.com/zh_cn/product_aisware_flyingServer.html)：FlyingServer是一款满足Java EE 8标准的国产化Web中间件软件，支持WAR，EAR，JAR等应用的部署，由亚信科技提供。
-* [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html)：Adobe ColdFusion是一款久经考验的高性能应用程序服务器，可让程序员轻松进行Web开发。
-* [Apusic AAS](https://www.apusic.com/list-117.html)：金蝶Apusic应用服务器是一款标准、安全、高效、集成并具丰富功能的企业级应用服务器软件，全面支持Jakarta EE 8/9的技术规范。
-* [Fujitsu Software Enterprise Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/middleware/applatform/)：Enterprise Application Server是一款云原生应用服务器，采用富士通专有技术增强Java的可靠性和可操作性，可在短时间内发布，并可用于企业用途。
-* [InforSuite Application Server](https://www.inforbus.com/as.html)：中创应用服务器软件是国内通过Jakarta EE 9、8及Java EE 8、7、6完整兼容认证的企业级中间件，与国际主流产品最新版本保持规范一致，为应用运行提供高性能、高可用、高安全的支撑平台。
-* [Primeton AppServer](https://www.primeton.com/products/pas/)：Primeton AppServer提供了丰富的功能集，具备“立即部署”式Java EE容器的各种优点，由普元开发。
-* [BES Application Server](https://www.bessystem.com/product/0ad9b8c4d6af462b8d15723a5f25a87d/info?p=101#page-2)：BES是一款遵循Java EE标准的面向Java应用的通用中间件，由宝兰德提供。
-* [RockyAS](https://rockyasfile.obs-cn-shenzhen.pinganyun.com/RockyAS.html)：Rocky是一款标准、安全、高效的Web应用服务器，为企业级应用系统的便捷开发、灵活部署、可靠运行、高效管理及快速集成提供关键支撑能力，由平安云开发。
-* [Libercat](https://axiomjdk.ru/pages/libercat/)：Libercat是一款安全的俄罗斯制造的应用服务器，它基于Apache Tomcat和Apache TomEE，并实现了Jakarta EE规范。
-* [TongWeb Application Server](https://www.tongtech.com/dft/pctype/25.html)：TongWeb是一款全面符合Java EE、Jakarta EE最新标准规范、轻量易于使用、性能强大、具有高可靠性和高安全性的应用服务器产品，由东方通开发。
-* [JEUS](https://www.tmaxsoft.com/en/solution/view?solutionSeq=27)：JEUS是在Web环境中开发、运行、执行应用程序的平台，提供各种必要服务、符合Java标准的Web应用服务器，由韩国TmaxSoft公司开发。
-* [AliEE](https://help.aliyun.com/zh/edas/product-overview/what-is-alibaba-cloud-application-server?spm=a2c4g.11186623.0.0.72385806mPZpST)：阿里云应用服务器是一款企业级Java EE的应用服务器软件，用于构建和部署企业级应用程序。
-* [Cosminexus](https://www.hitachi.com/products/it/software/prod/cosminexus/)：Cosminexus是日立公司提供的用于构建和运行应用程序服务器的中间件产品。
-* [WebOTX Application Server](https://jpn.nec.com/webotx/appserver/index.html)：WebOTX是一个Java应用程序执行平台，非常适合在从本地到云的各种IT资源中推广DX，这是日本电气公司的产品。
-* [Xigema Application Server](http://www.vsettan.com.cn/7752.html)：XigemaAS是企业级应用服务器产品，完全符合Java EE 7规范，产品架构基于OSGi内核，高模块化、高动态性、强扩展性、轻量且配置简单，为企业应用提供稳定、高效、安全的运行引擎和支撑平台，这是华胜信泰的产品。
-* [Thunisoft Application Server](https://www.thunisoft.cn/col81/index)：Thunisoft是华宇自主研发的企业级中间件产品，符合Jakarta EE标准的轻量级服务器。
-* [JOnAS](https://jonas.ow2.org/)：JOnAS是由Bull和OW2开发的领先的Java EE 6 Web Profile认证开源OSGi企业服务器。
-* [Carbon](https://github.com/wso2/carbon-kernel)：Carbon是一个轻量级、通用的OSGi运行时，专门用于托管服务器，为服务器开发人员提供关键功能，由WSO2开源。
-* [UseOpen Application Server](http://www.useopen.com/p/uoas/)：UOAS是一款永源开源的Java应用服务器产品，支持Jakarta EE Web Profile规范的应用服务器功能。
-* [Smart Servlet](https://gitee.com/smartboot/smart-servlet)：Smart Servlet是一款实现了Servlet 4.0规范，支持多应用隔离部署的的Web容器。
-* [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
-* [Red5](https://github.com/Red5/red5-server)：Red5是一个用Java编写的开源Flash服务器。
-* [Microhttp](https://github.com/ebarlas/microhttp)：Microhttp是一种快速、可扩展、事件驱动、独立的Java Web服务器。
-* [WebObjects](https://wiki.wocommunity.org/xwiki/bin/view/WO/Home/)：WebObjects是一套集成的Java框架，用于快速开发可扩展、复杂的互联网和企业应用程序，最初由NeXT开发并由Apple维护。
-* [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，它是一个非常流行的支持Servlet和JSP的服务器。
-* [ZFoo](https://github.com/zfoo-project/zfoo)：ZFoo是一个极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
-* [Rupy](https://github.com/tinspin/rupy)：Rupy是一款节能、安全、高性能的HTTP应用服务器。
-* [Jigsaw](https://www.w3.org/Jigsaw/)：Jigsaw是W3C领先的Web服务器平台，它基于Java实现的先进架构，提供了HTTP 1.1的示例实现以及各种其他功能。
-* [Java HTTP](https://github.com/FusionAuth/java-http)：Java HTTP是一个轻量级、开源、零依赖的Java HTTP服务器。
-* [HttpServer](https://github.com/robaho/httpserver)：JDK com.sun.net.httpserver.HttpServer规范的零依赖实现，具有一些显著的增强功能。
-* [Reactor Netty](https://github.com/reactor/reactor-netty)：Reactor Netty提供基于Netty框架的非阻塞和背压就绪的TCP/HTTP/UDP/QUIC客户端和服务器。
-* [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd)：NanoHTTPD是一个轻量级HTTP服务器，设计用于嵌入其他应用程序。
-* [MiniCat](https://gitee.com/coodyer/minicat)：MiniCat是一款轻量化HTTP服务器，支持BIO、NIO两种模式。
-* [Java NIO Server](https://github.com/jjenkov/java-nio-server)：一个始终使用非阻塞IO的Java NIO服务器。
-* [AndServer](https://github.com/yanzhenjie/AndServer)：AndServer是Android平台的Web服务器和Web框架。
-* [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
-* [Nginx Clojure](https://github.com/nginx-clojure/nginx-clojure)：Nginx Clojure是一个Nginx模块，用于嵌入Clojure或Java或Groovy程序，通常是那些基于Ring的处理程序。
-* [Jibble](http://www.jibble.org/miniwebserver/)：Jibble是一个用Java编写的非常小的独立Web服务器，它打包在JAR文件中，也可以在你自己的Java程序中使用。
-* [Webery](https://github.com/wizzardo/webery)：基于Epoll的Java HTTP服务器。
-* [TorqueBox](https://github.com/torquebox/torquebox)：TorqueBox运行在JRuby之上，并基于一个全新的轻量级、可插拔、多语言服务器。
-* [Android HTTP Server](https://github.com/piotrpolak/android-http-server)：完全用Java编写的小型但功能强大的多线程Web服务器。
-* [MuServer](https://github.com/3redronin/mu-server)：MuServer是一个基于Netty的现代Java Web服务器。
-* [Fluent HTTP](https://github.com/CodeStory/fluent-http)：Fluent HTTP是一个简单、快速、成熟的Web服务器。
-* [JLHTTP](https://github.com/curtcox/JLHTTP)：JLHTTP是HTTP服务器的开源实现。
-* [TJWS](https://tjws.sourceforge.net/)：TJWS是作为Servlet容器构建的，其中HTTPD Servlet提供标准Web服务器功能。
-* [Aeromock](https://github.com/ca-archived/aeromock)：Aeromock是一个从模板文件和数据文件生成HTML的应用服务器。
-* [SimpleWebServer](https://github.com/94fzb/simplewebserver)：SimpleWebServer是一款使用Java基于NIO编写的超轻量级开源Web应用服务器。
-* [Magician](https://github.com/JMagician/Magician)：Magician是一个基于Netty的小型HTTP服务包，它使启动HTTP服务变得非常容易，并且还支持WebSocket。
-* [Flupke](https://github.com/ptrd/flupke)：Flupke是一个100%纯Java HTTP3实现，运行在Kwik之上。
-* [JRuby Rack](https://github.com/jruby/jruby-rack)：JRuby Rack是一款适用于Java Servlet环境的轻量级适配器，允许任何基于Rack的应用程序在Java Servlet容器中未修改运行。
-* [Android Web Server](https://github.com/sonuauti/Android-Web-Server)：Java语言的简单且小容量的Android版TCP/IP Web服务器。
-* [Dorado](https://github.com/javagossip/dorado)：简单、快速、轻量级的HTTP Server实现，基于Netty 4和JDK 1.8+。
-* [RedAnt](https://github.com/all4you/redant)：RedAnt是一个基于Netty的轻量级Web容器。
-* [LoServer](https://github.com/looly/loServer)：LoServer是基于Netty的HTTP应用服务器。
-* [DroidPHP](https://github.com/DroidPHP/DroidPHP)：DroidPHP是一个面向安卓设备的开源Web服务器，允许你从安卓设备运行基于PHP和MYSQL的应用。
-* [Akka HTTP](https://github.com/akka/akka-http)：Akka以流式传输为先的HTTP服务器/模块。
-* [ZIO HTTP](https://github.com/zio/zio-http)：ZIO HTTP是一个用于构建HTTP应用的Scala库。
-* [MineServer](https://github.com/stevenkin/MineServer)：MineServer是一个基于原生的NIO实现的HTTP Server。
-* [Hella HTTP](https://github.com/bbeaupain/hella-http)：Hella HTTP是一个非常快速的Java HTTP库，使用nio_uring进行I/O。
-* [ESA HttpServer](https://github.com/esastack/esa-httpserver)：ESA HttpServer是一个基于Netty的异步事件驱动HTTP服务器。
-* [Netty RESTful Server](https://github.com/zhoumengkang/netty-restful-server)：一个基于Netty构建的轻量高性能RESTful服务器。
-* [Soklet](https://github.com/soklet/soklet)：Soklet是一个零依赖的Java HTTP/1.1和SSE服务器。
-* [Java WebServer](https://github.com/dasanjos/java-WebServer)：这是一个基于W3C规范，用Java实现的简单多线程HTTP 1.1服务器，用于教学目的。
-* [Jerrymouse](https://github.com/michaelliao/jerrymouse)：Jerrymouse是一个轻量级的Servlet容器，它实现了Jakarta Servlet 6规范。
-* [Web.Java](https://github.com/laomafeima/WebJava)：Web.Java是一个高性能、轻量级的非阻塞式服务器。
-* [HttpKids](https://github.com/pyloque/httpkids)：基于Netty的微型HTTP服务器。
-* [WebServer](https://github.com/songxinjianqwe/WebServer)：WebServer是简化版的Web服务器。
-* [Sirius Web](https://github.com/scireum/sirius-web)：Sirius Web提供了一个现代化、可扩展的Web服务器、内容生成框架和电子邮件发送器。
-* [Netty HTTP](https://github.com/cyfonly/netty-http)：Netty HTTP协议栈的简单实践。
-* [Spring Boot Starter Netty](https://github.com/Leibnizhu/spring-boot-starter-netty)：一个基于Netty实现的Spring Boot内置Servlet容器。
-* [Netty Servlet Bridge](https://github.com/bigpuritz/netty-servlet-bridge)：Netty Servlet Bridge允许将现有的基于Servlet API的Web应用程序集成到Netty支持的基础架构中。
-* [XOOM HTTP](https://github.com/vlingo/xoom-http)：VLINGO XOOM HTTP是一个响应式、可扩展、高吞吐量且具有弹性的HTTP服务器。
-* [Socko](https://github.com/mashupbots/socko)：Socko是一个嵌入式Scala Web服务器，由Netty和Akka提供支持。
-* [ServDroid](https://github.com/joanpuigsanz/servdroid)：ServDroid是一个适用于Android平台的小型Web服务器。
-* [FastJava](https://github.com/tanoaks14/fastJava)：FastJava是一个轻量级的HTTP服务器原型，专注于低间接寻址的内部机制和基于Java Vector API的SIMD辅助解析。
-* [UniDbg Boot Server](https://github.com/anjia0532/unidbg-boot-server)：UniDbg Server提供HTTP API服务。
-* [React Native Static Server](https://github.com/futurepress/react-native-static-server)：React Native的HTTP静态文件服务器。
-* [AndroidServer](https://github.com/fengzhizi715/AndroidServer)：基于Kotlin、Netty开发，为Android App提供Server的功能，包括HTTP、TCP、WebSocket服务。
-* [Pekko HTTP](https://github.com/apache/pekko-http)：Pekko HTTP在Pekko Actor和Pekko Stream之上实现了完整的服务器端和客户端HTTP协议栈。
-* [Spray Can](https://github.com/spray/spray-can)：Spray Can是一个低开销、高性能、完全异步的HTTP 1.1服务器和客户端库。
-* [Macchiato](https://github.com/macchiato-framework/macchiato-core)：Node.js的Ring HTTP服务器抽象。
-* [SNUnit](https://github.com/lolgab/snunit)：SNUnit是一个Scala Native库，用于在Nginx Unit之上编写HTTP服务器应用程序。
-* [FS2 HTTP](https://github.com/Spinoco/fs2-http)：FS2 HTTP是一个简单的客户端和服务端库，允许你使用Scala FS2构建HTTP客户端和服务端。
-* [UZHTTP](https://github.com/polynote/uzhttp)：UZHTTP是一个使用ZIO的极简HTTP服务器。
-* [ZIO TLS HTTP](https://github.com/ollls/zio-tls-http)：100%非阻塞、仅使用Java NIO的JSON HTTP服务器。
-* [Pronghorn HTTP Server](https://github.com/pronghorn-tech/server)：Pronghorn HTTP Server是一个用Kotlin编写的底层高性能HTTP服务器。
-* [Android Embedded Server](https://github.com/nphausg/android.embeddedserver)：Android嵌入式服务器。
-* [Avaje Jex](https://github.com/avaje/avaje-jex)：Avaje Jex是一个轻量级的JDK内置HTTP Server API包装器，并进行了一些关键的增强。
-* [Netty HTTP](https://github.com/cdapio/netty-http)：一个使用Netty开发HTTP服务的库，支持基于JAX-RS风格注解路由端点的功能，由Google开源。
-* [Netty Router](https://github.com/sinetja/netty-router)：Netty Router是一个小型Java库，将HTTP请求路由到你的Netty处理程序。
-* [Lucee](https://github.com/lucee/Lucee)：Lucee是一款高性能、开源的CFML服务器。
-* [Railo](https://github.com/getrailo/railo)：Railo是一款高性能、开源的CFML引擎。
-* [OpenBD](https://github.com/OpenBD/openbd-core)：OpenBD是开源且免费的Java CFML运行时。
-* [RichServlet](https://gitee.com/284520459/RichServlet)：RichServlet是一款轻量级、高性能Servlet容器，实现了标准Servlet协议。
-* [Aspen](https://github.com/kevwil/aspen)：Aspen是一个类似于Thin的JRuby Web服务器。
-* [Thick](https://github.com/marekjelen/thick)：Thick是一个非常轻量级的JRuby Web服务器，基于优秀的Netty库。
-* [S Server](https://github.com/woshilaiceshide/s-server)：用Scala编写的小型智能服务器。
-* [Jinx](https://github.com/dromara/Jinx)：Spring Boot框架采用Netty取代Tomcat。
-* [Spring Boot Starter Netty](https://github.com/DanielThomas/spring-boot-starter-netty)：一个用于Spring Boot的Netty嵌入式Servlet桥接原型。
-* [Nano](https://github.com/AdamBien/nano)：微型Java 8 HTTP服务器。
-* [LolHTTP](https://github.com/criteo/lolhttp)：一个用于Scala的HTTP服务器和客户端库。
-* [Mirage](https://github.com/six-ddc/mirage)：一个用于轻松编写简单HTTP服务器的Web DSL和命令行工具。
-* [Simple Java HTTP Server](https://github.com/CoderFromScratch/simple-java-http-server)：Java创建的简单HTTP服务器。
-* [HTTPServer](https://github.com/jbossas/httpserver)：轻量级HTTP服务器。
-* [Simple HTTP Server](https://github.com/todokr/simple-http-server)：用Java、Scala和Clojure编写的简单HTTP服务器。
-* [Microboot](https://github.com/wwjwell/microboot)：Microboot是基于Netty开发的一个HTTP服务框架。
-* [Netty HTTP Server](https://github.com/fengjingwei/netty-http-server)：Netty HTTP服务器。
-* [AndroidHttpServer](https://github.com/andreivisan/AndroidHttpServer)：使用NanoHTTPD在Android应用程序中运行HTTP服务器。
-* [AndroidHTTPServer](https://github.com/matt1/AndroidHTTPServer)：AndroidHTTPServer是一个适用于Android设备的多线程HTTP Web服务器库。
-* [EmbedHttp](https://github.com/nikkiii/embedhttp)：一个体积小巧、易于嵌入应用程序的Java HTTP服务器。
-* [Kwang](https://github.com/KwangIO/kwang)：Kwang是一个轻量级的Kotlin/Native封装库，用于封装高性能、低开销的Web服务器。
-* [Easy HTTPServer](https://github.com/NotBadPad/easy-httpserver)：Easy HTTPServer是一个Java实现的简单Web服务器。
-
-#### FTP服务器
-
-* [Apache FtpServer](https://mina.apache.org/ftpserver-project/)：FtpServer是一个100%纯Java FTP服务器。
-* [MinimalFTP](https://github.com/Guichaguri/MinimalFTP)：一个轻量级、简单的FTP服务器。
-* [Anomic](https://github.com/Orbiter/anomic_ftp_server)：Anomic是一个简单的FTP服务器。
-* [SwiFTP](https://github.com/ppareit/swiftp)：Android设备的FTP服务器。
-* [DrFTPD](https://github.com/drftpd-ng/drftpd)：DrFTPD是一个用Java编写的分布式FTP服务器。
-* [EdtFTPj](https://enterprisedt.com/products/edtftpj/)：EdtFTPj是适用于Java应用程序的成熟FTP库。
-* [ThinServer](https://gitee.com/sanluan/ThinServer)：ThinServer是基于JDK提供的HttpServer开发的Web服务容器和以Socket开发的FTP Server。
-* [LiteFTPD Unix](https://github.com/adlered/LiteFTPD-UNIX)：基于Java的高性能FTP服务端。
-* [Gripper](https://gitee.com/jingshishengxu/gripper)：Gripper是内嵌式FTP服务器。
-* [Ballerina FTP](https://github.com/ballerina-platform/module-ballerina-ftp)：Ballerina FTP提供FTP/SFTP客户端和FTP/SFTP服务器监听器，以便建立与远程位置的FTP/SFTP连接。
-* [ZIO FTP](https://github.com/zio/zio-ftp)：ZIO FTP是ZIO的FTP客户端的轻量级封装。
-* [FTPSync](https://github.com/PopFisher/FTPSync)：Java FTP上传下载文件。
-* [FTP4j](https://github.com/asbachb/ftp4j)：FTP4j是FTP、FTPS和FTPES协议的Java实现。
-* [FTP Pool](https://github.com/jayknoxqu/ftp-pool)：Commons Pool实现的FTP连接池。
-* [Java Portable FTP Server](https://github.com/dubasdey/portable-ftp-server)：适用于Windows、Linux和Mac的便携式FTP服务器。
-* [FTPClientPool](https://github.com/jellyflu/ftpClientPool)：FTP客户端池。
-* [Netty FTP Receiver](https://github.com/alexkasko/netty-ftp-receiver)：用于通过FTP接收文件的Netty处理器。
-* [FTP](https://github.com/FENG-MASTER/FTP)：FTP客户端和服务端。
-* [Simple Java FTP Server](https://github.com/pReya/ftpServer)：这是一个用Java实现的简单FTP服务器。
-* [One-FTPServer](https://github.com/benelog/one-ftpserver)：简单、便携式的FTP服务器。
-* [Java FTP Proxy Server](https://github.com/c960657/ftpproxy)：Java FTP代理服务器。
-
-#### NIO框架
-
-* [Netty](https://github.com/netty/netty)：Netty是一个异步事件驱动的网络应用程序框架，用于快速开发可维护的高性能协议服务器和客户端。
-* [Apache MINA](https://github.com/apache/mina)：MINA是一个网络应用框架，可以帮助用户开发高性能和高可扩展性的网络应用程序。
-* [Eclipse Grizzly](https://github.com/eclipse-ee4j/grizzly)：Grizzly的目标是帮助开发人员使用NIO构建可扩展且强大的服务器，Oracle开源。
-* [SOFABolt](https://github.com/sofastack/sofa-bolt)：SOFABolt是蚂蚁金融开发的一套基于Netty实现的网络通信框架。
-* [Aleph](https://github.com/clj-commons/aleph)：Aleph是一个基于Netty构建的客户端和服务器网络编程库。
-* [RxNetty](https://github.com/ReactiveX/RxNetty)：RxNetty是Netty的Rx适配器，由Netflix开源。
-* [Voovan](https://gitee.com/helyho/Voovan)：Voovan是一个高性能异步网络框架和Web服务器框架。
-* [T-IO](https://gitee.com/tywo45/t-io)：T-IO是基于Java开发的一款高性能网络编程框架，由钛特云开源。
-* [JNet](https://gitee.com/eric_ds/jnet)：JNet框架是Java AIO接口的一层薄封装，仅进一步降低其编程复杂性，不提供额外的抽象。
-* [XNIO](https://github.com/xnio/xnio)：XNIO是一个基于Java NIO的框架，支持阻塞和非阻塞IO，由RedHat开源。
-* [Blaze](https://github.com/http4s/blaze)：Blaze是一个用于构建异步管道的Scala库，专注于网络IO。
-* [SNF4J](https://github.com/snf4j/snf4j)：SNF4J是一个异步事件驱动的网络应用程序框架，用于快速轻松地开发网络应用程序。
-* [One NIO](https://github.com/odnoklassniki/one-nio)：One NIO是一个用于构建高性能Java服务器的库，由Odnoklassniki开源。
-* [Gecko](https://github.com/killme2008/gecko)：Gecko是一个Java NIO的通讯组件，它在一个轻量级的NIO框架的基础上提供了更高层次的封装和功能，由淘宝开发。
-* [FireNio](https://github.com/FireNio/firenio)：FireNio是基于Java NIO开发的一款可快速构建网络通讯项目的异步IO框架。
-* [UJCat](https://gitee.com/Foldcc/UJCat)：UJCat是基于Netty 4的极简易上手网络框架。
-* [Bitchat](https://github.com/all4you/bitchat)：Bitchat是一个基于Netty的网络框架。
-* [HawtDispatch](https://github.com/fusesource/hawtdispatch)：HawtDispatch是一个小型的线程池和NIO处理框架API。
-* [Mycat NIO](https://github.com/MyCATApache/Mycat-NIO)：非常高性能又简单的NIO框架。
-* [Acteur](https://github.com/timboudreau/acteur)：Acteur是一个使用Netty编写Web服务器应用程序的框架。
-* [UberFire I/O](https://github.com/kiegroup/appformer/tree/main/uberfire-io)：NIO.2的实用程序/门面集。
-* [Getty](https://gitee.com/kokjuis/getty)：Getty是完全基于Java NIO封装的高性能网络框架。
-* [JXIO](https://github.com/accelio/JXIO)：JXIO是基于AccelIO(C库)的Java API。
-* [Higgs](https://github.com/zcourts/higgs)：Higgs是一个纯JVM(基于NIO)的高性能、面向消息的网络框架。
-* [Net Ops Java](https://github.com/nanosai/net-ops-java)：Net Ops Java是一个工具包，用于在Java NIO之上用Java实现非阻塞网络客户端和服务器。
-
-#### 网络库
-
-* [TChannel](https://github.com/uber/tchannel)：TChannel是一种用于一般RPC的网络框架协议，支持无序响应，性能极高，中间人可以快速做出转发决策，由Uber开源。
-* [Network Connection](https://github.com/facebookarchive/network-connection-class)：Network Connection是一个Android库，可让你了解当前用户的互联网连接质量，由Facebook开源。
-* [Apache Commons Net](https://github.com/apache/commons-net)：Commons Net库包含网络实用程序和协议实现的集合。
-* [Envoy Mobile](https://github.com/envoyproxy/envoy-mobile)：构建在Envoy项目的核心网络层上的多平台客户端HTTP/网络库。
-* [IoGame](https://github.com/iohao/ioGame)：IoGame是一个轻量级的网络编程框架，适用于网络游戏服务器、物联网、内部系统及各种需要长连接的场景。
-* [Android Network Tools](https://github.com/stealthcopter/AndroidNetworkTools)：该项目是一组有用的Android网络工具库，例如端口扫描、ping等。
-* [COMSAT](https://github.com/puniverse/comsat)：COMSAT是一组开源库，将Quasar与各种Web或企业技术集成。
-* [Infinileap](https://github.com/hhu-bsinfo/infinileap)：Infinileap是适用于Java 19+的基于ucx的现代网络框架，由杜塞尔多夫海因里希海涅大学计算机科学系操作系统小组开发。
-* [Spring Boot Protocol](https://github.com/wangzihaogithub/spring-boot-protocol)：Spring Boot功能扩充，可以支持各种网络协议的动态切换。
-* [TLS Channel](https://github.com/marianobarrios/tls-channel)：TLS Channel是一个通过TLS连接实现ByteChannel接口的库。
-* [Commons Networking](https://github.com/CiscoSE/commons-networking)：由Cisco开源的公共网络实用程序库。
-* [DiSNI](https://github.com/zrlio/disni)：DiSNI是一个Java库，用于从用户空间直接存储和网络访问，它提供了一个RDMA接口来访问远程内存，由IBM开源。
-* [Barchart UDT](https://github.com/barchart/barchart-udt)：Barchart UDT是原生C++ UDT协议的Java包装器。
-* [URNLib](https://github.com/slub/urnlib)：用于表示、解析和编码RFC 2141和RFC 8141中指定的URN的Java库，由德累斯顿工业大学开源。
-* [Jcabi URN](https://github.com/jcabi/jcabi-urn)：Jcabi URN是根据RFC 2141的URN的不可变实现。
-* [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
-* [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
-* [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
-* [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，能够做到纳秒级别的端到端延迟。
-* [JRakNet](https://github.com/whirvis/JRakNet)：JRakNet是一个基于Java的网络库，实现了基于UDP的协议RakNet。
-* [Mikrotik](https://github.com/GideonLeGrange/mikrotik-java)：Mikrotik RouterOS API的Java客户端库实现。
-* [Limitart](https://gitee.com/HankXV/Limitart)：Limitart是轻量级、高性能、少依赖、低级封装的服务器开发工具和项目搭建模板，可以开发游戏服务器和小型中间件等。
-* [CCNx](https://github.com/ProjectCCNx/ccnx)：CCNx参考实现，提供了构建和运行使用以及展示基本CCNx协议的应用程序所需的库和组件。
-* [OpenRQ](https://github.com/openrq-team/OpenRQ)：开源的RaptorQ实现。
-* [Netphony Network Protocols](https://github.com/telefonicaid/netphony-network-protocols)：Java网络协议库，PCEP、RSVP-TE、OSPF、BGP-LS。
-* [TSNsched](https://github.com/ACassimiro/TSNsched)：TSNsched使用Z3定理求解器为时间敏感网络(TSN)生成流量调度，由帕拉伊巴联邦大学开源。
-* [IAP Tools Java](https://github.com/jjenkov/iap-tools-java)：一个用于处理IAP网络协议及其数据格式ION的Java工具包。
-* [Resp Server](https://github.com/tonivade/resp-server)：Netty实现的Redis序列化协议，以及一个用于实现基于命令协议的简单框架。
-* [Orchid](https://github.com/subgraph/Orchid)：Orchid是一个用纯Java编写的Tor客户端实现和库。
-* [ReverseHttp](https://github.com/tonyg/reversehttp)：ReverseHttp是一种动态、类似REST的HTTP网络注册和参与方式。
-* [EasyNetty](https://gitee.com/gemron/easynetty)：EasyNetty是一个基于Netty封装的快速分布式任务开发框架。
-* [ANetty](https://gitee.com/jenly1314/ANetty)：ANetty是基于Netty二次封装的Android链路通讯库，用以快速开发高性能，高可靠性的网络交互。
-* [MMUPnP](https://github.com/ohmae/mmupnp)：适用于Java/Kotlin的UPnP ControlPoint库。
-* [JNB Ping](https://github.com/brettwooldridge/jnb-ping)：这是一个用于Java的非阻塞ICMP库。
-* [PJ Net Tools](https://github.com/harp077/pj-net-tools)：纯Java网络工具。
-* [ICMP4j](https://github.com/laurentbh/icmp4j)：ICMP4j是一个用于Java的ICMP Ping实现，它具有简单清晰的API。
-* [SSDP Client](https://github.com/resourcepool/ssdp-client)：仅使用JDK API的简单异步SSDP/1.0 UPNP/1.1 Java客户端。
-* [JDivert](https://github.com/ffalcinelli/jdivert)：WinDivert的Java绑定，WinDivert是一个Windows驱动程序，允许用户模式应用程序捕获/修改/丢弃发送到/来自Windows网络堆栈的网络数据包。
-* [Mac Addredd Detector](https://github.com/gaoxingliang/mac-address-detector-java)：使用Pcap4j检测远程主机的MAC地址。
-
-#### WebSocket
-
-* [Pushy](https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658)：Pushy是Netflix的WebSocket服务器，可与运行Netflix应用程序的设备保持持久的WebSocket连接。
-* [Java WebSocket](https://github.com/TooTallNate/Java-WebSocket)：该项目包含用纯Java编写的准系统WebSocket客户端和服务器实现。
-* [Jakarta WebSocket](https://github.com/jakartaee/websocket)：Jakarta WebSocket定义了一组用于开发WebSocket应用程序的Java API。
-* [Spring WebSocket](https://docs.spring.io/spring-framework/reference/web/websocket.html)：Spring框架提供的WebSocket API，可以使用它来编写处理WebSocket消息的客户端和服务端应用程序。
-* [Scarlet](https://github.com/Tinder/Scarlet)：Scarlet是受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端，由Tinder开源。
-* [SignalR](https://github.com/aspnet/SignalR)：SignalR是一个开源库，可简化向应用程序添加实时功能，由Microsoft开发。
-* [SignalRKore](https://github.com/lepicekmichal/SignalRKore)：SignalRKore是一个用于ASP.NET Core SignalR的Kotlin多平台客户端库。
-* [Jetty Websocket](https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-websocket)：Jetty提供Jakarta WebSocket规范的实现。
-* [Undertow WebSockets](https://github.com/undertow-io/undertow/tree/main/websockets-jsr)：Undertow使用XNIO Channel接口在底层提供对WebSocket的访问。
-* [Helidon WebSocket](https://github.com/helidon-io/helidon/tree/main/websocket)：Helidon为Jakarta WebSocket API提供的实现。
-* [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
-* [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient是适用于Java的异步HTTP和WebSocket客户端库。
-* [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
-* [WebSocket Android](https://github.com/codebutler/android-websockets)：一个非常简单的Android WebSocket客户端。
-* [Kafka WebSocket](https://github.com/b/kafka-websocket)：kafka分布式消息代理的简单WebSocket服务器接口。
-* [EzyFox](https://github.com/youngmonkeys/ezyfox-server)：EzyFox支持企业产品开发的各种基本组件，包括TCP、UDP、WebSocket、HTTP RESTful API、RPC协议、数据库交互、内存缓存和消息队列。
-* [Pusher Java Client](https://github.com/pusher/pusher-websocket-java)：适用于Java的Pusher Channels客户端库，面向Java和Android。
-* [JavaWebsocketClient](https://github.com/jacek-marchwicki/JavaWebsocketClient)：JavaWebsocketClient库是用于Java和Android的RX中Websocket连接的简单库，它被设计为快速且容错。
-* [StompProtocolAndroid](https://github.com/NaikSoftware/StompProtocolAndroid)：该库提供对STOMP协议的支持。
-* [wAsync](https://github.com/Atmosphere/wasync)：wAsync是一个基于Java的库，允许与任何支持WebSocket或HTTP协议的Web服务器进行异步通信。
-* [Java/Android WebSocket Client](https://github.com/gusavila92/java-android-websocket-client)：一个非常轻量级的WebSocket客户端库，适用于基于JVM的客户端或Android，旨在实现RFC 6455中定义的WebSocket协议。
-* [Netty WebSocket Spring Boot Starter](https://github.com/YeautyYE/netty-websocket-spring-boot-starter)：轻量级、高性能的WebSocket框架。
-* [Webbit](https://github.com/webbit/webbit)：Webbit是基于Java事件的WebSocket和HTTP服务器。
-* [Autobahn](https://github.com/crossbario/autobahn-java)：Autobahn是适用于Android和Java 8的Java中的WebSocket和WAMP。
-* [Jawampa](https://github.com/Matthias247/jawampa)：Jawampa是一个为Java提供对Web应用程序消息传递协议(WAMP)支持的库。
-* [Eclipse Tyrus](https://github.com/eclipse-ee4j/tyrus)：Tyrus是开源JSR 356-WebSocket参考实现的Java API，可轻松开发WebSocket应用程序。
-* [Spray WebSocket](https://github.com/dcaoyuan/spray-websocket)：Spray的WebSocket支持。
-* [Netty WebSocket Spring Boot](https://github.com/niezhiliang/netty-websocket-spring-boot)：基于Netty实现的WebSocket消息推送。
-* [WsManager](https://github.com/Rabtman/WsManager)：WsManager是一个简化OkHttp Websocket使用的库。
-* [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：SwaggerSocket协议允许任何现有的REST资源在WebSocket协议之上执行。
-* [Hookup](https://github.com/backchatio/hookup)：Hookup是一个基于Akka构建的可靠的Netty WebSocket服务器。
-* [Babl](https://github.com/babl-ws/babl)：Babl是一款高性能、可扩展的WebSocket服务器，专为低延迟应用程序而设计。
-* [Socket.x](https://github.com/obsidiandynamics/socketx)：Socket.x是一个用于构建高性能、分布式WebSocket应用程序的库。
-* [WebSocketDemo](https://github.com/0xZhangKe/WebSocketDemo)：用于简化WebSocket在Android平台使用的封装方法。
-* [RxWebSocket](https://github.com/dhhAndroid/RxWebSocket)：RxWebSocket是一个基于Okhttp和RxJava封装的WebSocket客户端。
-* [WebSocket Android Phonegap](https://github.com/anismiles/websocket-android-phonegap)：这是一个为Android平台实现Websocket API的Java库。
-* [TubeSock](https://github.com/FirebaseExtended/TubeSock)：TubeSock是WebSocket协议客户端的Java实现，由Google开源。
-* [Krossbow](https://github.com/joffrey-bion/krossbow)：Krossbow是一个Kotlin多平台STOMP 1.2客户端，具有基于协程的API。
-* [Netty WebSocket](https://github.com/zhoumengkang/netty-websocket)：一个基于Netty构建的完整WebSocket服务器。
-* [Nettosphere](https://github.com/Atmosphere/nettosphere)：Nettosphere是由Atmosphere和Netty提供支持的Java WebSocket和HTTP服务器。
-* [Netty REST](https://github.com/buremba/netty-rest)：Netty REST是一个基于Netty的高性能HTTP和WebSocket服务器实现。
-* [Vert.x STOMP](https://github.com/vert-x3/vertx-stomp)：STOMP客户端/服务器实现。
-* [JFinal WebSocket](https://gitee.com/xxssyyyyssxx/jfinal-websocket)：JFinal架构下开发WebSocket。
-* [WebSocket Resources](https://github.com/signalapp/WebSocket-Resources)：一个Dropwizard库，允许你通过WebSocket使用Jersey风格的资源。
-* [Spring Websocket Grails](https://github.com/zyro23/grails-spring-websocket)：该插件旨在使Spring 4.0中引入的WebSocket支持可供Grails应用程序使用。
-* [Netty WebSocket HTTP2](https://github.com/jauntsdn/netty-websocket-http2)：基于Netty的RFC8441实现，使用HTTP/2引导WebSockets，并支持多协议。
-* [Ballerina Websocket](https://github.com/ballerina-platform/module-ballerina-websocket)：WebSocket库便于通过网络连接和与WebSocket端点进行交互，为客户端和服务器端通信提供强大的支持。
-* [JSONAPI](https://github.com/alecgorge/jsonapi)：JSONAPI是Bukkit的一个插件，它允许你通过简单而安全的HTTP API访问服务器和玩家的数据及其他信息，包含WebSocket、HTTP服务器。
-* [RxWebSocket](https://github.com/navinilavarasan/rxWebSocket)：RxWebSocket是OkHttp Websocket接口的一个简单响应式扩展，支持转换器工厂和拦截器。
-* [RxWebSocket](https://github.com/FutureMind/rxwebsocket)：RxWebSocket是一个简单、轻量级、响应式的OkHttp WebSocket封装器。
-* [Stampy](https://github.com/mrstampy/Stampy)：Stampy是STOMP 1.2规范的Java实现。
-* [GDX WebSockets](https://github.com/MrStahlfelge/gdx-websockets)：LibGDX WebSockets实现。
-* [Scala Websocket Client](https://github.com/andyglow/websocket-scala-client)：Scala Websocket Client是一个开源库，它提供了一个简洁、对程序员友好的API来描述Websocket请求/响应机制。
-* [Bytesocks](https://github.com/lucko/bytesocks)：Bytesocks是一个快速轻量级的WebSocket服务器。
-* [Java WebSockify](https://github.com/jribble/Java-Websockify)：Java WebSockify是一个使用Netty编写的基本Websockify服务器实现。
-* [WebSocketGo](https://github.com/Gnepux/WebSocketGo)：WsGo是一个Java库，它可以用来管理WebSocket通道。
-* [LibGDXNet](https://github.com/jlcmes/libGDX-Net)：此扩展程序为LibGDX多平台游戏提供网络/多人游戏支持，它也可用于Java应用程序，为基于WebSocket客户端/服务器的应用程序提供WebSocket支持。
-* [Netty WebSocket](https://github.com/daixiaoch/netty-websocket)：Netty WebSocket是一个基于Netty的Java WebSocket集群框架。
-* [Bristleback](https://github.com/bristleback/bristleback)：Bristleback是一个完整的Java/JavaScript WebSocket框架。
-* [Java WebSocket](https://github.com/blinkdog/websocket)：Java中的简单WebSocket实现。
-* [Pocket Edition WebSocket Server API](https://github.com/jocopa3/PEWS-API)：适用于Minecraft Pocket版、Windows 10版和教育版的Java WebSocket服务器API实现。
-* [GWT WebSockets](https://github.com/sksamuel/gwt-websockets)：GWT的WebSocket客户端库。
-* [Dropwizard Websocket](https://github.com/LivePersonInc/dropwizard-websockets)：Dropwizard增强包，不仅支持JAX-RS资源，还支持使用JSR-356 API的WebSockets端点。
-* [Ext Netty](https://github.com/xjc-opensource/ext-opensource-netty)：基于Netty框架，提供对MQTT、WebSocket等协议的服务端与客户端的封装。
-
-#### Socket.IO
-
-* [Socket.IO Java](https://github.com/socketio/socket.io-client-java)：全功能的Java Socket.IO客户端库，与Socket.IO v1.0及更高版本兼容。
-* [Socket.IO](https://github.com/scalecube/socketio)：ScaleCube Socket.IO是基于Netty框架的Socket.IO Java服务器的轻量级实现。
-* [Netty Socket.IO](https://github.com/mrniko/netty-socketio)：该项目是Socket.IO服务器的开源Java实现，基于Netty服务器框架。
-* [Socket.IO Java Client](https://github.com/Gottox/socket.io-java-client)：Java中的Socket.IO客户端实现。
-* [Socket.IO Java](https://github.com/trinopoty/socket.io-server-java)：这是从JavaScript服务器移植的Java Socket.IO服务器库。
-* [MOKO Socket.IO](https://github.com/icerockdev/moko-socket-io)：IceRock的MOKO Socket.IO是Socket.IO实现Kotlin多平台库。
-* [Netty Socket.IO](https://github.com/socketio4j/netty-socketio)：基于Netty框架的Java Socket.IO服务器实现。
-* [Vert.x Socket.IO](https://github.com/keesun/mod-socket-io)：该模块允许Vert.x像Node.js一样创建Socket.IO服务器。
-* [Play Socket.IO](https://github.com/playframework/play-socket.io)：Play后端Socket.IO支持。
-* [Socketcluster Client](https://github.com/sacOO7/socketcluster-client-java)：用于Node.js中SocketCluster框架的原生Java和Android客户端。
-* [KMP SocketIO](https://github.com/HackWebRTC/kmp-socketio)：KMP实现的SocketIO客户端。
-* [Socket.IO.Play](https://github.com/milliondreams/socket.io.play)：Play框架的Socket.io服务器端支持。
-* [Spray SocketIO](https://github.com/dcaoyuan/spray-socketio)：Spray上的Socket.IO实现，支持集群分片。
-* [Socket.IO Netty](https://github.com/ibdknox/socket.io-netty)：Socket.IO Netty是一个基于Netty构建的Socket.IO服务器实现。
-* [Java Socket.IO Client](https://github.com/clwillingham/java-socket.io.client)：一个用Java编写的Socket.IO客户端。
-* [Socket.IO Spring Boot Starter](https://github.com/hiwepy/socketio-spring-boot-starter)：Netty Socket.IO的Spring Boot Starter。
-
-#### Socket
-
-* [Smart Socket](https://gitee.com/smartboot/smart-socket)：Smart Socket是一款极简、易用、高性能的AIO通信框架。
-* [AndroidSocketClient](https://github.com/vilyever/AndroidSocketClient)：Socket客户端、服务器简单封装。
-* [Jocket](https://github.com/pcdv/jocket)：Jocket是使用共享内存的低延迟Java套接字实现。
-* [OkSocket](https://github.com/xuuhaoo/OkSocket)：OkSocket是一个Java库，旨在解决轻量级的Socket通信。
-* [BizSocket](https://github.com/typ0520/bizsocket)：异步Socket，对一些业务场景做了支持。
-* [Hutool Socket](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-socket)：Hutool Socket针对NIO和AIO做了简单的封装，用于简化Socket异步开发。
-* [Bus Socket](https://github.com/818000/bus/tree/main/bus-socket)：Bus Socket是一个开源的Java AIO框架。
-* [EasySocket](https://github.com/jiusetian/EasySocket)：EasySocket是一个轻量级的Android端Socket框架，可快速实现客户端和服务端之间的TCP长连接通讯。
-* [Socket.D](https://gitee.com/noear/socket.d)：Socket.D是基于事件和语义消息流的网络应用协议。
-* [JUDS](https://github.com/mcfunley/juds)：JUDS提供类来满足Java中访问Unix域套接字的需求。
-* [JUnixSocket](https://github.com/kohlschutter/junixsocket)：JUnixSocket是一个Java/JNI库，允许在Java中使用Unix域套接字(AF_UNIX套接字)和其他地址/协议系列(AF_TIPC、AF_VSOCK和AF_SYSTEM)。
-* [JNR UnixSocket](https://github.com/jnr/jnr-unixsocket)：Java的本机I/O访问。
-* [Epoll](https://github.com/wizzardo/epoll)：基于事件的套接字服务器，使用epoll。
-* [JNanomsg](https://github.com/niwinz/jnanomsg)：用于Nanomsg的Clojure和Java绑定。
-* [CocoSocket](https://github.com/beykery/cocosocket)：CocoSocket是一个为Cocos2d-x和Unity 3D手机网络游戏准备的底层通信框架。
-* [Hxy Socket](https://github.com/a805748009/hxy-socket)：基于Spring Boot和Netty的Socket通信框架。
-* [AndroidSocket](https://github.com/itsMelo/AndroidSocket)：Android上一套完整的Socket解决方案。
-* [XAndroidSocket](https://github.com/Blankeer/XAndroidSocket)：Socket封装，支持TCP/UDP客户端和服务端，支持自定义粘包处理、验证处理、解析处理。
-* [ASocket](https://github.com/jenly1314/ASocket)：ASocket是一个TCP/UDP协议的封装库，方便快速实现TCP的长连接与UDP的单播、组播、广播等相关通信。
-* [AIO Socket](https://gitee.com/starboot/aio-socket)：AIO Socket是Java AIO通讯内核，采用了内存池、线程池、对象池、缓存池以及插件化增添模块等思想进行设计。
-* [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
-* [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
-* [Netty Chat](https://github.com/tonybase/netty-chat)：使用Netty实现IMServer，支持TCP和WebSocket实现。
-* [Engine.IO Java](https://github.com/socketio/engine.io-client-java)：Java的Engine.IO客户端库。
-* [Ballerina TCP](https://github.com/ballerina-platform/module-ballerina-tcp)：Ballerina Socket模块。
-* [Kotlinx.Sockets](https://github.com/cy6erGn0m/kotlinx-sockets)：Kotlinx.Sockets是一个库，旨在为NIO套接字带来丰富的协程体验。
-* [Blink](https://github.com/qiujuer/Blink)：套接字发送和接收协议框架，易于使用的I/O。
-* [MinaSocket](https://github.com/Jeromeer/MinaSocket)：MinaSocket一款基于Mina的Socket长连接库。
-* [Bumblebee](https://github.com/EspoirX/Bumblebee)：基于有限状态机和Flow的WebSocket封装。
-* [RxSocketClient](https://github.com/codeestX/RxSocketClient)：适用于Android、Java和Kotlin的Reactive Socket API。
-* [Naga](https://github.com/techery/Naga)：Naga的目标是成为一个非常小的NIO库，它提供少量的Java类来封装常见的Socket和ServerSocket。
-* [AsyncSocket](https://github.com/samigehi/AsyncSocket)：这是一个基于NIO的Java库，它使用SocketChannels以非阻塞方式与服务器通信。
-
-#### TCP/UDP
-
-* [KryoNet](https://github.com/EsotericSoftware/kryonet)：KryoNet是一个Java库，它提供了一个干净、简单的API，用于使用NIO进行高效的TCP和UDP客户端/服务器网络通信。
-* [QuickServer](https://github.com/QuickServerLab/QuickServer-Main)：QuickServer是一个开源Java库/框架，用于快速创建强大的多客户端TCP服务器应用程序。
-* [Chronicle Network](https://github.com/OpenHFT/Chronicle-Network)：Chronicle Network是一个高性能网络(TCP/IP)库。
-* [CoralReactor](https://www.coralblocks.com/index.php/category/coralreactor/)：CoralReactor是一个功能强大、超低延迟、异步、非阻塞的网络I/O库，可通过简单的API提供高性能。
-* [TCP Gateway](https://github.com/SongranZhang/tcp-gateway)：基于Netty 4的高性能TCP网关，用于请求数据或推送消息。
-* [LANCOMM](https://github.com/fighter-lee/lancomm)：Android局域网通讯，基于UDP和TCP封装的局域网通讯协议框架。
-* [NettyIM](https://github.com/CWTakiku/NettyIM)：NettyIM是一款基于Netty高度定制化的通讯SDK，支持TCP、UDP和WebSocket协议的通信。
-* [SimpleNet](https://github.com/jhg023/SimpleNet)：SimpleNet是一个用Java编写的简单的客户端/服务器框架。
-* [Dragonite](https://github.com/dragonite-network/dragonite-java)：Dragonite是一种基于UDP的可靠应用级数据传输协议，针对有损和不稳定的网络进行了高度优化。
-* [JBoss Remoting](https://github.com/jboss-remoting/jboss-remoting)：JBoss Remoting的目的是提供一个用于通过网络进行对称和非对称通信的通用框架，由RedHat开发。
-* [Extasys](https://github.com/nsiatras/extasys)：Extasys是一个高性能的异步TCP/UDP套接字库。
-* [Sentinel](https://github.com/gideondk/sentinel)：Sentinel是使用Akka IO和Akka Streams为基于TCP的服务器和客户端提供的样板代码。
-* [Ballerina UDP](https://github.com/ballerina-platform/module-ballerina-udp)：Ballerina UDP提供用于向另一个应用程序进程发送/接收消息的API。
-* [Angler](https://github.com/LMAX-Exchange/angler)：Angler是一个用于监控Linux内核中UDP和TCP消息处理性能的实用程序，由LMAX开源。
-* [KryoNetty](https://github.com/EsotericSoftware/kryonetty)：KryoNetty是一个Java库，它提供了一个简洁易用的API，用于使用Netty进行高效的TCP客户端/服务器网络通信。
-
-#### IO_Uring
-
-* [Jasyncfio](https://github.com/ikorennoy/jasyncfio)：Jasyncfio提供了基于Linux io_uring接口的异步文件I/O API。
-* [NIO_Uring](https://github.com/bbeaupain/nio_uring)：NIO_Uring是一个Java I/O库，它在底层使用io_uring。
-* [Netty io_uring](https://github.com/netty/netty-incubator-transport-io_uring)：Netty为io_uring提供的实验性支持。
-* [PanamaUring](https://github.com/dreamlike-ocean/PanamaUring)：这是一个探索性质的项目，使用Java的新FFI为Java引入io_uring。
-* [JUring](https://github.com/davidtos/JUring)：JUring是一个高性能Java库，它使用Java的FFM API提供与Linux的io_uring异步I/O接口的绑定。
-* [Myra Transport](https://github.com/mvp-express/myra-transport)：基于Linux io_uring实现真正的异步I/O，支持零复制缓冲区管理和内核绕过功能。
-
-#### IM
-
-* [Jitsi](https://github.com/jitsi/jitsi)：Jitsi Desktop是一款免费的开源音频/视频和聊天通信器，支持SIP、XMPP/Jabber、IRC等协议和许多其他有用的功能。
-* [Signal Server](https://github.com/signalapp/Signal-Server)：Signal是一款开源、端到端加密的通讯应用程序，可用于发送文本、语音、图片和视频等多种形式的消息，由Open Whisper Systems开发。
-* [CIM](https://github.com/crossoverJie/cim)：CIM是一款面向开发者的IM系统，同时提供了一些组件帮助开发者构建一款属于自己可水平扩展的IM。
-* [Google Cloud Messaging](https://github.com/google/gcm)：Google Cloud Messaging是一种服务，允许开发人员将数据从服务器发送到用户的设备，并从同一连接上的设备接收消息。
-* [Tigase Server](https://github.com/tigase/tigase-server)：Tigase XMPP Server是用Java编写的高度优化、高度模块化且非常灵活的XMPP/Jabber服务器。
-* [Actor Platform](https://github.com/actorapp/actor-platform)：Actor是一个即时通讯平台。
-* [NettyChat](https://github.com/FreddyChen/NettyChat)：基于Netty、TCP、Protobuf实现的Android IM库。
-* [InChat](https://github.com/AwakenCN/InChat)：InChat是一个轻量级、高效、分布式的异步通信框架，支持聊天和物联网。
-* [Smack](https://github.com/igniterealtime/Smack)：Smack是一个开源、高度模块化、易于使用的XMPP客户端库，用Java编写，适用于兼容Java SE的JVM和Android。
-* [J-IM](https://gitee.com/xchao/j-im)：J-IM是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
-* [Openfire](https://github.com/igniterealtime/Openfire)：Openfire是一个即时通信和群聊服务器，它是使用Java编写的XMPP服务器。
-* [CIM](https://gitee.com/farsunset/cim)：CIM是一套完善的消息推送框架，可应用于信令推送，即时聊天，移动设备指令推送等领域。
-* [MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK)：MobileIMSDK是一个原创多端IM通信层框架，轻量级、高度提炼，支持UDP、TCP、WebSocket三种协议。
-* [CometD](https://github.com/cometd/cometd)：CometD是用于网络消息传递的可扩展Comet(服务器推送)实现。
-* [iCometClient4j](https://github.com/kyleduo/iCometClient4j)：iComet服务器的客户端，适用于Java/Android平台。
-* [Gifsockets](https://github.com/videlalvaro/gifsockets)：使用Gif动画作为传输的实时通信库。
-* [RongCloud Server SDK](https://github.com/rongcloud/server-sdk-java)：Java版融云即时通讯服务器SDK。
-* [SONA](https://github.com/BixinTech/sona)：SONA是一个由比心语音技术团队开发，用于快速搭建语音房产品的全端解决方案，支撑了比心聊天室、直播、游戏房等业务。
-* [Tencent Cloud IM Server SDK](https://github.com/doocs/qcloud-im-server-sdk-java)：腾讯云IM服务端SDK Java版。
-* [OrdinaryRoad Live Chat Client](https://github.com/OrdinaryRoad-Project/ordinaryroad-live-chat-client)：一个基于Netty的通用直播间弹幕客户端。
-* [WebQQ](https://github.com/iqq-team/webqq-core)：一个基于WebQQ协议开发的库，你可以基于这个库让你的程序集成QQ相关的功能。
-* [ChatBox](https://github.com/felizdevida/chat-box)：ChatBox是一个仿微信实现的网页版聊天软件。
-* [SmartIM](https://github.com/Jamling/SmartIM)：SmartIM插件的底层库，已实现SmartQQ、微信桌面版协议。
-* [Lithium](https://github.com/wireapp/lithium)：Lithium是用Java编写的Wire Services SDK。
-* [JXMPP](https://github.com/igniterealtime/jxmpp)：JXMPP是一个基于Java的开源XMPP库。
-* [T0rlib4j](https://github.com/PanagiotisDrakatos/T0rlib4j)：T0rlib4j是一个用于Tor的Java控制器库。
-* [Signal Service Java](https://github.com/signalapp/libsignal-service-java)：一个用于通过Signal进行通信的Java库。
-* [Signal CLI](https://github.com/AsamK/signal-cli)：Signal CLI是Signal即时通讯工具的命令行接口。
-* [Signald](https://github.com/thefinn93/signald)：Signal的API。
-
-#### Pcap
-
-* [Pcap4J](https://github.com/kaitoy/pcap4j)：Pcap4J是一个用于捕获、制作和发送数据包的Java库。
-* [Jpcap](https://github.com/jpcap/jpcap)：Jpcap是一组Java类，提供用于网络数据包捕获的接口和系统，由加州大学欧文分校开源。
-* [Pkts](https://github.com/aboutsip/pkts)：Pkts是一个用于读取和写入pcap的纯Java库。
-* [Pcap](https://github.com/ardikars/pcap)：Pcap提供了一个数据包处理库，可以在JVM语言之上进行快速开发。
-* [jNetPcap](https://github.com/slytechs-repos/jnetpcap-bindings)：jNetPcap是一个用Java编写的软件库，提供与流行的libpcap本机库类似的API。
-* [Hadoop PCAP](https://github.com/RIPE-NCC/hadoop-pcap)：Hadoop PCAP用于并行地读取和分析数据包捕获文件，由欧洲IP网络协调中心开源。
-
-#### SSH
-
-* [Apache MINA SSHD](https://github.com/apache/mina-sshd)：MINA SSHD是一个100%纯Java库，支持客户端和服务器端的SSH协议。
-* [Trilead SSH](https://github.com/jenkinsci/trilead-ssh2)：Trilead SSH-2是一个用纯Java实现SSH-2协议的库。
-* [Pty4J](https://github.com/JetBrains/pty4j)：Java中的伪终端实现，由JetBrains开源。
-* [JSch](https://github.com/mwiede/jsch)：实现SSH功能的Java库，可用于连接SFTP服务器。
-* [Jcabi SSH](https://github.com/jcabi/jcabi-ssh)：Java SSH客户端。
-* [JSch](https://github.com/is/jsch)：JSch是SSH2的纯Java实现。
-* [Maverick Synergy](https://github.com/sshtools/maverick-synergy)：Maverick Synergy是由JADAPTIVE开发的第三代Java SSH API。
-* [SSHJ](https://github.com/hierynomus/sshj)：Java的SSH、SCP和SFTP库。
-* [WebSSH](https://github.com/NoCortY/WebSSH)：纯Java实现的WebSSH。
-* [SSH Proxy](http://github.com/cronn/ssh-proxy)：SSH端口隧道的纯Java实现，能够理解涉及多跳才能到达目标主机的OpenSSH配置。
-* [SSHoogr](https://github.com/sshoogr/sshoogr)：SSHoogr是一个基于Groovy的DSL库，用于通过SSH连接远程服务器，由Aestas/IT开源。
-* [Vngx JSch](https://github.com/vngx/vngx-jsch)：Vngx JSch是用纯Java编写的流行的JSch库的更新版本。
-* [SSHLib](https://github.com/connectbot/sshlib)：ConnectBot的SSH库，它最初是Trilead SSH2库的延续。
-* [Ganymed SSH-2](https://github.com/hudson/ganymed-ssh-2)：Ganymed SSH-2是一个用纯Java实现SSH-2协议的库。
-* [Jsync](https://github.com/fizzed/jsync)：纯Java类rsync库，用于本地到远程SSH/SFTP。
-
-#### DNS
-
-* [DNSJava](https://github.com/dnsjava/dnsjava)：DNSJava是DNS协议的Java实现。
-* [DNS Proxy](https://github.com/mageddo/dns-proxy-server)：DPS是一种轻量级最终用户DNS服务器工具，可以轻松地在一个主机名可以根据配置的环境解析为不同IP的系统中进行开发。
-* [MiniDNS](https://github.com/MiniDNS/minidns)：MiniDNS是适用于Android和Java SE的DNS库。
-* [JmDNS](https://github.com/jmdns/jmdns)：JmDNS是多播DNS的Java实现，支持服务发现和注册，并与Apple的Bonjour完全兼容。
-* [MDNS Java](https://github.com/posicks/mdnsjava)：Java中的多播DNS和基于DNS的服务发现。
-* [Hola](https://github.com/fflewddur/hola)：Hola是一个极简的Java多播DNS服务发现实现。
-* [Zeroconf](https://github.com/faceless2/zeroconf)：Zeroconf是一个简单的Java多播DNS服务发现实现。
-* [Dns Cache Manipulator](https://github.com/alibaba/java-dns-cache-manipulator)：一个微小的0依赖线程安全Java库，用于以编程方式设置/查看DNS，无需接触host文件，使单元/集成测试可移植，由阿里开源。
-* [Denominator](https://github.com/Netflix/denominator)：Denominator是一个用于操作DNS云的可移植Java库，由Netflix开源。
-* [Happy DNS](https://github.com/qiniu/happy-dns-android)：用于Android的DNS库，由七牛云开源。
-* [DNS Java](https://github.com/spotify/dns-java)：这个小型DNS包装器库提供了一些与SRV查找相关的有用功能，由Spotify开源。
-* [DNS Cheater](https://gitee.com/matrixy/dns-cheater)：Java实现的DNS服务器，可通过Web管理界面随意设置灵活的解析规则。
-* [VinylDNS](https://github.com/vinyldns/vinyldns)：VinylDNS是一个与供应商无关的前端平台，用于实现自助式DNS并简化DNS操作，由Comcast开发。
-* [JDNSS](https://github.com/drsjb80/JDNSS)：JDNSS是一个仅权威、支持DNSSEC/TLS/DoH的Java叶DNS服务器。
-* [BlackHole](https://github.com/code4craft/blackhole)：BlackHole是一个Java编写的DNS服务器，它可以进行DNS缓存，也支持自定义域名配置，并可以防止DNS污染。
-* [jDnsProxy](https://github.com/moparisthebest/jDnsProxy)：简单、快速、轻量级的DNS代理和缓存。
-
-#### HTTP代理
-
-* [Decodo](https://github.com/Decodo/Decodo)：Decodo是一个轮换式住宅代理网络，允许用户使用超过1.15亿个IP地址池从网络收集数据。
-* [Apache Guacamole](https://github.com/apache/guacamole-client)：Guacamole是一个无客户端远程桌面网关，它支持VNC、RDP和SSH等标准协议。
-* [Proxyee](https://github.com/monkeyWie/proxyee)：Proxyee是一个Java编写的HTTP代理服务器库，支持HTTP、HTTPS、WebSocket协议，并支持MITM，可以捕获和篡改HTTP、HTTPS数据包。
-* [HTTP Proxy Servlet](https://github.com/mitre/HTTP-Proxy-Servlet)：这是Java Servlet形式的HTTP代理，由MITRE公司开发。
-* [Charon](https://github.com/mkopylec/charon-spring-boot-starter)：Charon是一个反向代理实现，它自动将HTTP请求从一个HTTP服务器转发到另一个HTTP服务器，并将收到的HTTP响应返回给客户端。
-* [Suo5](https://github.com/zema1/suo5)：Suo5是一个高性能HTTP隧道代理工具，它基于双向的Chunked-Encoding构建。
-* [Vert.x Http Proxy](https://github.com/eclipse-vertx/vertx-http-proxy)：Vert.x Http Proxy是基于Vert.x的反向代理，旨在实现可重用的反向代理逻辑以专注于更高的关注点。
-* [BrowserUp Proxy](https://github.com/lightbody/browsermob-proxy)：BrowserMob Proxy允许你操作HTTP请求和响应、捕获HTTP内容以及将性能数据导出为HAR文件。
-* [LittleProxy](https://github.com/adamfisk/LittleProxy)：LittleProxy是一个用Java编写的高性能HTTP代理。
-* [PacketProxy](https://github.com/DeNA/PacketProxy)：PacketProxy是一个开源代理工具，可以拦截和检查TCP/UDP上的任何协议，而不仅限于HTTP/1.x、HTTP2或HTTPS，由DeNA开源。
-* [MitmProxy Java](https://github.com/appium/mitmproxy-java)：MitmProxy是一个免费开源的交互式HTTPS代理。
-* [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG)：OpenIG是一种高性能反向代理服务器，具有专门的会话管理和凭证重播功能。
-* [PowerTunnel](https://github.com/krlvm/PowerTunnel)：PowerTunnel是一个构建在LittleProxy之上的可扩展代理服务器。
-* [Styx](https://github.com/ExpediaGroup/styx)：Styx是用于JVM的可编程、异步、基于事件的反向代理，由Expedia开源。
-* [Carapaceproxy](https://github.com/diennea/carapaceproxy)：Carapac是一个分布式Java反向代理。
-* [Bouncer](https://github.com/ggrandes/bouncer)：Bouncer是一个开源Java网络代理。
-* [Shadowsocks Java](https://github.com/TongxiJi/shadowsocks-java)：基于Netty 4框架的Java实现的Shadowsocks。
-* [Shadowsocks Java](https://github.com/blakey22/shadowsocks-java)：Shadowsocks Java客户端。
-* [Shadowsocks Netty](https://github.com/ksfzhaohui/shadowsocks-netty)：基于Netty 4.0实现的Shadowsocks客户端。
-* [Proxy Vole](https://github.com/MarkusBernhardt/proxy-vole)：Proxy Vole是一个用于自动检测平台网络代理设置的Java库。
-* [Mallet](https://github.com/sensepost/mallet)：Mallet是一种用于创建任意协议代理的工具，类似于我们熟悉的拦截Web代理，只是更加通用。
-* [WK Proxy](https://github.com/catas-w/WK-Proxy)：WK Proxy是一款用于HTTP代理和数据包捕获的开源桌面工具，可在Windows和macOS平台上使用。
-* [ProxyChecker](https://github.com/faiqsohail/ProxyChecker)：一款易于使用的开源多线程代理检查器。
-* [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi)：HTTP隧道工具。
-* [HttpProxy](https://github.com/arloor/HttpProxy)：HTTP代理，支持CONNECT和普通GET/POST。
-* [RPT](https://github.com/iamlinhui/rpt)：内网穿透&反向代理(支持TCP上层协议，支持HTTP/HTTPS端口复用)。
-* [Winfoom](https://github.com/ecovaci/winfoom)：Winfoom是一个HTTP(s)代理服务器的界面，允许应用程序通过代理进行身份验证，而无需处理实际的握手过程。
-* [Java HTTP/HTTPS Proxy Server](https://github.com/stefano-lupo/Java-Proxy-Server)：Proxy Server是位于客户端和客户端希望从中获取文件的远程服务器之间的服务器。
-* [Proxy](https://github.com/ztgreat/proxy)：基于Netty的TCP代理工具，可以借助公网服务器，访问内网主机TCP服务。
-* [NitmProxy](https://github.com/chhsiao90/nitmproxy)：一个基于Netty的实验性代理服务器。
-* [Java NIO TCP Proxy](https://github.com/terma/java-nio-tcp-proxy)：基于NIO的Java TCP代理。
-* [Quarantyne](https://github.com/quarantyne/quarantyne)：Quarantyne是一个用Java编写的反向代理。
-* [EasyHttpProxy](https://github.com/puhaiyang/easyHttpProxy)：支持HTTP/HTTPS代理，类似于Fiddler。
-* [NettyGateway](https://github.com/tang-jie/NettyGateway)：NettyGateway是一个具有灵活路由规则的HTTP代理服务器。
-* [TLSFragmenter](https://github.com/filtershekanha/TLSFragmenter)：TLSFragmenter包含一个使用Spring Boot框架构建的Java代理服务器实现。
-* [Jladder](https://github.com/hudaming1/jladder)：基于Netty开发的HTTP/Socks代理服务器。
-* [HTTP Proxy Server](https://github.com/ffay/http-proxy-server)：HTTP代理服务器。
-* [Proxy](https://github.com/lvq410/Proxy)：基于Java的各种代理实现，包括纯TCP反向代理、HTTP、Socks5、内网穿透、私有WebSocket。
-* [Shadowsocks Netty Server](https://github.com/ksfzhaohui/shadowsocks-netty-server)：基于Netty 4.0实现的Shadowsocks服务器端。
-* [Shadowsocks Core](https://github.com/CC-Cheunggg/shadowsockets-core)：Java版的Shadowsocks服务端实现。
-* [Java WS](https://github.com/eooce/java-ws)：这是一个基于Java实现的多协议代理服务器。
-* [Shadowsocks Java](https://github.com/zhihengjiang/shadowsocks-java)：Shadowsocks Java是一个基于SOCKS5代理的使用Java开发的Shadowsocks代理软件。
-* [Shadowsocks Java](https://github.com/nooner2014/shadowsocks-java)：Shadowsocks Java是一个轻量级的隧道代理，可以帮助你穿过防火墙。
-* [Panama](https://github.com/loveinsky100/panama)：Panama是一个高性能的代理服务器，基于ShadowSocks协议，采用Netty实现。
-* [Shadowsocks Server](https://github.com/zk-123/shadowsocks)：Java开发的Shadowsocks。
-* [Shadowsocks Vert.x](https://github.com/Bestoa/shadowsocks-vertx)：Shadowsocks Vert.x是一个轻量级的隧道代理，可以帮助你穿过防火墙。
-* [OpenProxyJ](https://github.com/woshiwzy/OpenProxyJ)：纯Java实现的网络代理小工具。
-* [Java WebSocket Reverse Proxy](https://github.com/barrett-rob/java-websocket-reverse-proxy)：WebSocket反向代理的Java实现。
-
-#### 内网穿透
-
-* [Lanproxy](https://github.com/ffay/lanproxy)：Lanproxy是一个将局域网个人电脑、服务器代理到公网的内网穿透工具，支持TCP流量转发，可支持任何TCP上层协议。
-* [Neo reGeorg](https://github.com/L-codes/Neo-reGeorg)：reGeorg是新一代内网穿透工具，这是该项目的重构版本。
-* [Dev Tunnels](https://github.com/microsoft/dev-tunnels)：Dev Tunnels允许开发者安全地将本地Web服务暴露到互联网上，控制谁可以访问，并且可以轻松地从任何地方调试你的Web应用程序，由Microsoft开源。
-* [Neutrino Proxy](https://gitee.com/dromara/neutrino-proxy)：Neutrino Proxy是一个基于Netty的开源Java内网穿透项目，由dromara社区开源。
-* [PortBuddy](https://github.com/amak-tech/port-buddy)：PortBuddy是一个强大而简单的工具，它可以让你将本地主机或私有网络中打开的端口暴露到公共互联网。
-* [Natcross2](https://github.com/Pluto-Whong/natcross2)：Natcross2是需要自己提供硬件支持、部署的内网穿透工具。
-* [Venomous Sting](https://gitee.com/haojiangbo/venomous_sting)：基于Netty实现的高性能内网穿透，支持所有TCP上层协议的转发。
-* [MagpieBridge](https://gitee.com/jiucheng_org/magpiebridge)：使用Java基于AIO/NIO实现的内网穿透工具。
-* [Joggle](https://github.com/joggle-cn/joggle)：Joggle是基于Ngrok二开的开源内网穿透项目，多节点、私有部署、云服务。
-* [LightTunnel](https://gitee.com/tuuzed/LightTunnel)：内网穿透工具，支持TCP、HTTP、HTTPS穿透。
-* [Ngrok Spring Boot Starter](https://github.com/kilmajster/ngrok-spring-boot-starter)：Spring Boot集成Ngrok变得简单。
-* [HP](https://gitee.com/HServer/hp)：内网穿透轻量版，支持HTTP、HTTPS、TCP、UDP，支持云端动态控制穿透配置。
-* [ETP](https://github.com/xiaoniucode/etp)：ETP是一个轻量级的高性能内网穿透应用，支持TCP、HTTP等协议。
-* [Java Ngrok](https://github.com/alexdlaird/java-ngrok)：Java Ngrok是一个Ngrok包装器，用于管理自己的二进制文件，通过方便的Java提供应用程序接口。
-* [Fast Ngrok](https://gitee.com/cyejing/fast-ngrok)：Java版本Ngrok客户端。
-* [NeoLink](https://github.com/NeoLinkProxy/NeoLink)：NeoLink是一个轻量级的内网穿透客户端，用于将本地TCP、UDP服务暴露给公网NeoServer。
-* [NET Penetrate](https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple)：内网穿透、GUI、一键启动、不限速，内置日志。
-* [Natx](https://github.com/wucao/natx)：Natx是一个基于Java Netty实现的可用于内网穿透的代理工具，支持TCP协议。
-* [SuperTunnel](https://github.com/davidkey/supertunnel)：SuperTunnel是一个可以通过HTTP隧道传输普通TCP流量的程序。
-* [Ecloud](https://github.com/CTF-MissFeng/Ecloud)：Ecloud是一款基于HTTP/1.1协议传输TCP流量工具。
-* [WeNat Client Java](https://github.com/newpanjing/wenat-client-java)：WeNat内网穿透Java版客户端。
-* [Pangolin](https://github.com/gnanquanmama/pangolin)：轻量级内网穿透工具，基于Java 8，Netty 4.x实现。
-* [QyNat Spring Boot Starter](https://github.com/whz11/qynat-spring-boot-starter)：一款可以实现内网穿透的Spring Boot Starter。
-* [OpenNAT](https://github.com/realJackSun/OpenNAT)：OpenNAT是一款轻量级适用于Web开发与部署的内网穿透框架。
-* [JNDC](https://github.com/qiweiview/jndc)：Java内网穿透可视化方案。
-* [Zrp](https://github.com/zhangjun1998/zrp)：Zrp是使用Java开发的一款基于Netty的内网穿透工具。
-* [Ngrok Java](https://github.com/dosgo/ngrok-java)：一个基于Java的Ngrok客户端。
-
-#### 网络监控
-
-* [Nzyme](https://github.com/nzymedefense/nzyme)：Nzyme用于监控以太网和WiFi网络流量。
-* [NetXMS](https://github.com/netxms/netxms)：NetXMS是一款开源网络和基础设施监控和管理解决方案，为IT基础设施的所有层提供性能和可用性监控以及灵活的事件处理、警报、报告和图表。
-* [OpenNMS](https://github.com/OpenNMS/opennms)：OpenNMS是一个开源网络监控平台，可帮助你可视化和监控本地和分布式网络上的所有内容。
-* [SIP3](https://github.com/sip3io/sip3-ansible)：SIP3是一种端到端解决方案，用于实时监控、分析和排除大量流量下的网络性能故障。
-* [Hyperic HQ](https://github.com/hyperic/hq)：Hyperic HQ是一个基于Java的软件资源监测和管理平台。
-* [jNetMap](https://rakudave.ch/jnetmap/)：jNetMap是一个图形网络监控和文档工具，它会每x分钟ping所有注册的设备，并根据ping的结果更新状态。
-* [Hello eBPF](https://github.com/parttimenerd/hello-ebpf)：允许直接用Java编写eBPF程序。
-* [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter)：CICFlowMeter是一种用于异常检测的以太网流量双向流生成器和分析器，由约克大学开发。
-
-#### 网络工具
-
-* [Nomulus](https://github.com/google/nomulus)：Nomulus是一种开源、可扩展、基于云的服务，用于运营顶级域名(TLD)，由Google开源。
-* [ONOS](https://github.com/opennetworkinglab/onos)：ONOS是一个开源SDN网络操作系统，主要面向服务提供商和企业骨干网，由Linux基金会开源。
-* [OpenVirteX](https://github.com/os-libera/OpenVirteX)：OVX是一个网络管理程序，可以在单个物理基础设施之上创建多个虚拟和可编程网络。
-* [Angry IP Scanner](https://github.com/angryip/ipscan)：Angry IP Scanner是适用于Windows、Linux和Mac的快速且友好的网络扫描器。
-* [NMapGUI](https://github.com/daniel-cues/NMapGUI)：NMapGUI是NMap网络分析工具的高级图形用户界面。
-* [Batfish](https://github.com/batfish/batfish)：Batfish是一种网络验证工具，通过分析网络设备的配置，为安全性、可靠性和合规性提供正确性保证。
-* [FDT](https://github.com/fast-data-transfer/fdt)：FDT是一种高效数据传输应用程序，能够通过广域网(使用标准TCP)以磁盘速度读写。
-* [WHOIS](https://github.com/RIPE-NCC/whois)：WHOIS是由RIPE NCC开源的一款WHOIS协议实现工具。
-* [The ONE](https://github.com/akeranen/the-one)：机会网络环境模拟器，由阿尔托大学开源。
-* [Net2Plan](https://github.com/girtel/Net2Plan)：Net2Plan是一个用Java开发的通信网络规划、优化和评估工具。
-
-#### 端口转发
-
-* [Cling](https://github.com/4thline/cling)：Cling致力于用Java创建一个兼容UPnP的软件栈。
-* [UPnP PortMapper](https://github.com/kaklakariada/portmapper)：UPnP PortMapper是一个易于使用的程序，用于管理本地网络中启用UPnP的互联网网关设备的端口映射。
-* [Port Mapper](https://github.com/offbynull/portmapper)：Port Mapper项目是一个Java库，可用于在启用NAT的路由器上转发端口。
-* [WeUPnP](https://github.com/bitletorg/weupnp)：WeUPnP是用Java编写的小型UPnP客户端库。
-* [Cybergarage UPnP](https://github.com/cybergarage/cybergarage-upnp)：Cybergarage UPnP是面向Java开发人员的UPnP开发包。
-* [WaifUPnP](https://github.com/adolfintel/WaifUPnP)：WaifUPnP是UPnP的一个非常基本的实现。
-* [HPPT](https://github.com/codingmiao/hppt)：HPPT是一款可通过任意协议转发TCP端口的工具。
-
-#### P2P
-
-* [I2P](https://github.com/i2p/i2p.i2p)：I2P是一个匿名网络，提供一个简单的层，身份敏感的应用程序可以使用该层进行安全通信。
-* [Peergos](https://github.com/Peergos/Peergos)：Peergos是一个创新性的去中心化文件存储和协作平台，它致力于提供安全、私密和可验证的在线分享与交互体验，由牛津大学、墨尔本大学等开源。
-* [Diztl](https://github.com/gravetii/diztl)：用于LAN的点对点文件发现和共享工具。
-* [Nightweb](https://github.com/oakes/Nightweb)：Nightweb是一款适用于Android设备和PC的应用，可帮助你连接到匿名的点对点社交网络。
-* [JVM Libp2p](https://github.com/libp2p/jvm-libp2p)：用Kotlin编写的JVM的Libp2p实现。
-* [Xeres](https://github.com/zapek/Xeres)：Xeres是一款朋友之间、去中心化且安全的通信和共享应用程序。
-* [Hive2Hive](https://github.com/Hive2Hive/Hive2Hive)：Hive2Hive是一个用Java编写的开源库，用于安全、分布式、基于P2P的文件同步和共享。
-* [Near](https://github.com/adroitandroid/Near)：Near是适用于Android的P2P库，用于使用UDP在本地网络上进行发现，并使用TCP套接字进行传输。
-* [P2P](https://github.com/metanet/p2p)：这是一个使用Java和Netty构建非结构化P2P网络的实验性工作。
-* [JED2K](https://github.com/a-pavlov/jed2k)：ED2K网络的Java库。
-* [TeleHash](https://github.com/quartzjer/TeleHash)：Telehash是一种100%开放、安全的网状网络技术。
-* [Iroh FFI](https://github.com/n0-computer/iroh-ffi)：Iroh的FFI绑定。
-* [Nostr Java](https://github.com/tcheeric/nostr-java)：Nostr Java是一个用于Nostr协议的Java SDK。
-* [I2P+](https://github.com/I2PPlus/i2pplus)：I2P+是Java I2P匿名网络层的软分支。
-* [MuWire](https://github.com/zlatinb/muwire)：MuWire是一款文件发布和网络工具，它利用I2P技术保护用户身份。
-* [Tahrir](https://github.com/sanity/tahrir)：Tahrir是一个去中心化、抗审查、类似Twitter的P2P网络。
-* [I2P Zero](https://github.com/i2p-zero/i2p-zero)：零依赖、小占用空间、跨平台的I2P Java路由器，带有简单的隧道/套接字控制器和SAM接口。
-
-#### BitTorrent
-
-* [Bt](https://github.com/atomashpolskiy/bt)：BitTorrent库和客户端，具有DHT、磁力链接、加密等功能。
-* [BiglyBT](https://github.com/BiglySoftware/BiglyBT)：基于Azureus开源项目的功能齐全的Bittorrent客户端。
-* [PeerBanHelper](https://github.com/PBH-BTN/PeerBanHelper)：PeerBanHelper是一个开源的个人网络防火墙安全软件。
-* [Vuze](https://www.vuze.com/)：Vuze是一个用Java编写的BitTorrent客户端，且支持I2P和Tor匿名网络协议。
-* [Snail](https://gitee.com/acgist/snail)：基于Java、JavaFX开发的下载工具，支持下载协议BT(BitTorrent、磁力链接、种子文件)、HLS(M3U8)、FTP、HTTP。
-* [MLDHT](https://github.com/the8472/mldht)：一个Java库和独立节点，实现了基于Kademlia的BitTorrent主线DHT，并考虑到长期运行的服务器级节点。
-* [Kademlia](https://github.com/JoshuaKissoon/Kademlia)：这是Kademlia路由协议和DHT的实现。
-* [OpenSeedbox](https://github.com/openseedbox/openseedbox)：OpenSeedbox是一个基于Web的BitTorrent用户界面。
-* [BitLet](https://github.com/bitletorg/bitlet)：BitLet是BitTorrent协议的简单Java实现。
-* [Ttorrent](https://github.com/mpetazzoni/ttorrent)：BitTorrent协议的Java实现。
-* [FrostWire JLibTorrent](https://github.com/frostwire/frostwire-jlibtorrent)：FrostWire为libtorrent提供的swig Java接口。
-* [Libtorrent4j](https://github.com/aldenml/libtorrent4j)：Libtorrent的swig Java接口。
-* [FrostWire](https://github.com/frostwire/frostwire)：FrostWir是BitTorrent网络的媒体播放器和点对点(P2P)信息共享客户端。
-* [STorrent](https://github.com/oxlade39/STorrent)：STorrent是一个几乎完全用Akka编写的BitTorrent客户端。
-* [Torrent4j](https://github.com/Rogiel/torrent4j)：用纯Java实现的Bittorrent库。
-* [JavaTorrent](https://github.com/Johnnei/JavaTorrent)：Java Torrent是一个用Java编写的BitTorrent协议实现。
-* [qBittorrent Kotlin](https://github.com/DrewCarlson/qBittorrent-Kotlin)：qBittorrent Web API的Kotlin封装。
-
-#### SDN
-
-* [OpenDaylight](https://github.com/opendaylight)：OpenDaylight由Linux基金会支持，其目标在于开发支援软件定义网络(SDN)的各种软件工具，建立网络功能虚拟化的基础。
-* [Floodlight](https://github.com/floodlight/floodlight)：Floodlight是领先的开源OpenFlow控制器，由Cisco维护。
-* [Lighty](https://github.com/PANTHEONtech/lighty)：Lighty是一个由OpenDaylight提供支持的SDK，用于支持、简化和加速Java中软件定义网络(SDN)解决方案的开发，由PANTHEON开源。
-* [FlowVisor](https://github.com/opennetworkinglab/flowvisor)：FlowVisor是一款专用的OpenFlow控制器，它充当OpenFlow交换机和多个OpenFlow控制器之间的透明代理。
-
-#### SMB
-
-* [jCIFS NG](https://github.com/AgNO3/jcifs-ng)：jCIFS库的清理和改进版本。
-* [SMBJ](https://github.com/hierynomus/smbj)：Java中的服务器消息块(SMB2、SMB3)实现。
-* [JCIFS](https://github.com/codelibs/jcifs)：JCIFS是一个开源客户端库，以纯Java实现CIFS/SMB网络协议。
-
-#### KCP
-
-* [Java KCP](https://github.com/l42111996/java-Kcp)：基于Netty实现的可靠UDP网络库(kcp算法)，包含fec实现。
-* [KCP Netty](https://github.com/szhnet/kcp-netty)：基于Netty的KCP的Java实现。
-* [JKCP](https://github.com/beykery/jkcp)：JKCP直接构建于UDP之上并提供方便的编程接口，只需要继承相关的类即可。
-* [KCP Java](https://github.com/hkspirt/kcp-java)：KCP的Java版本。
-* [KTUCP Netty](https://github.com/hjcenry/ktucp-netty)：KTUCP的Netty实现。
-
-#### QUIC
-
-* [Cronet](https://chromium.googlesource.com/chromium/src/+/master/components/cronet)：Cronet是Google开发的一个网络库，旨在提供高性能、低延迟的网络请求和数据传输。
-* [Kwik](https://github.com/ptrd/kwik)：Kwik是QUIC协议Java的实现，Kwik最初仅作为客户端，但自2021年5月起它支持客户端和服务器。
-* [Quiche4j](https://github.com/kachayev/quiche4j)：QUIC传输协议和HTTP/3的Java实现。
-* [Netty QUIC Codec](https://github.com/netty/netty-incubator-codec-quic)：这是利用quiche的Netty的新型实验性QUIC编解码器。
-* [Quincy](https://github.com/protocol7/quincy)：Quincy是基于Netty框架的QUIC的Java实现。
-* [KNet](https://github.com/VKCOM/KNet)：支持QUIC协议的Android网络库。
-* [Cronet Transport OkHttp](https://github.com/google/cronet-transport-for-okhttp)：该软件包允许OkHttp和Retrofit用户使用Cronet作为其传输层，并受益于QUIC/HTTP3支持和连接迁移等功能，由Google开发。
-* [Java Quic](https://github.com/trensetim/quic)：QUIC的纯Java实现。
-
-#### SNMP
-
-* [SNMP4J](https://www.snmp4j.org/)：SNMP4J是一种企业级、免费开源且最先进的Java SNMP v1/2c/v3实现。
-* [Mibble](https://github.com/cederberg/mibble)：Mibble是一个开源的Java SNMP MIB解析器库。
-* [Tnm4j](https://github.com/soulwing/tnm4j)：基于Tcl Tnm扩展，简化了Java的SNMP API。
-* [NetSNMPj](https://netsnmpj.sourceforge.net/)：NetSNMPj是一个开源Java库，允许Java代码使用net-snmp库执行SNMP v1、v2c和v3操作。
-* [SNMP API](https://ireasoning.com/snmpapi.shtml)：SNMP API是业界领先的SNMP库，它为构建网络管理应用程序提供了高性能、跨平台的SNMP Java API。
-* [DynamicSNMP](https://monfox.com/dsnmp/java-snmp-agent-sdk.html)：DynamicSNMP提供了一组通用的高级Java API，可大大简化平台无关的Java SNMP v1、v2c和v3代理软件的开发。
-* [SNMP Java](https://metricshub.org/snmp-java/)：Westhawk的轻量级SNMP协议栈，基于Java编写。
-
-#### SOCKS
-
-* [JSocks](https://github.com/ravn/jsocks)：JSocks是一个完全用Java编写的SOCKS服务器，同时支持SOCKS4和SOCKS5协议。
-* [SocksLib](https://github.com/fengyouchao/sockslib)：SocksLib是一个针对SOCKS5协议的Java库。
-* [Java SOCKS Proxy Server](https://github.com/bbottema/java-socks-proxy-server)：Java SOCKS Proxy Server是Java的SOCKS 4/5服务器。
-* [FlyingSocks](https://github.com/abc123lzf/flyingsocks)：该项目是基于Java Netty开发的Socks5代理客户端/服务器。
-* [JenTunnel](https://github.com/ggrandes/jentunnel)：JenTunnel是一个用Java编写、非常轻量级的SOCKS和HTTP代理服务器。
-* [Socks5 Netty](https://github.com/xtuhcy/socks5-netty)：基于Netty实现的Socks5代理。
-* [AgentX](https://github.com/ZhangJiupeng/AgentX)：AgentX是一个基于Netty的Socks5网络代理。
-
-#### Radius
-
-* [TinyRadius](https://github.com/ctran/TinyRadius)：TinyRadius是一个简单、小巧且快速的Java Radius库，能够发送和接收所有类型的Radius数据包。
-* [JRadius](https://github.com/coova/jradius)：JRadius是一个用于客户端和服务器的Java Radius框架。
-* [TinyRadius Netty](https://github.com/globalreachtech/tinyradius-netty)：TinyRadius Netty是一个Java Radius库。
-* [AAA4j Radius](https://github.com/aaa4j/aaa4j-radius)：用于构建Radius客户端和Radius服务器的Java库。
-* [jDiameter](https://github.com/RestComm/jdiameter)：jDiameter提供了一个开源的Java实现，用于实现Diameter标准的身份验证、授权和计费(AAA)功能。
-
-#### NETCONF
-
-* [ANX](https://github.com/cisco-ie/anx)：适用于Java的高级NETCONF浏览器和NETCONF客户端库，Cisco开源。
-* [NETCONF Java](https://github.com/Juniper/netconf-java)：一个现代化的NETCONF Java库。
-* [OpenDaylight NETCONF](https://github.com/opendaylight/netconf)：本项目托管了IETF NETCONF工作组定义的协议的实现。
-* [JNC](https://github.com/tail-f-systems/JNC)：Java NETCONF客户端。
-* [NETCONF4J](https://github.com/dana-i2cat/netconf4j)：这是一个从零开始实现的简单版Netconf协议。
-
-#### IP
-
-* [Ip2region](https://github.com/lionsoul2014/ip2region)：Ip2region是一个离线IP地址定位库和IP定位数据管理框架，提供了众多主流编程语言的xdb数据生成和查询客户端实现。
-* [IPAddress](https://github.com/seancfoley/IPAddress)：IPAddress是用于处理IP地址和子网(IPv4和IPv6)的Java库。
-* [Qqwry Java](https://github.com/jarod/qqwry-java)：读取QQWry IP数据库的Java库。
-* [Commons IP Math](https://github.com/jgonian/commons-ip-math)：Commons IP Math提供了丰富、类型安全的API，用于处理对IP资源执行的最常见操作，例如解析、以多种表示法打印、检查范围是否重叠或可以合并等。
-* [Java IPv6](https://github.com/janvanbesien/java-ipv6)：Java IPv6是一个用于IPv6相关概念的Java库，例如IPv6地址、网络掩码、地址池等。
-* [17mon](https://github.com/17mon/java)：17mon IP库解析代码。
-* [IP4s](https://github.com/Comcast/ip4s)：该项目定义了不可变、安全的数据结构，用于描述IP地址、组播连接、套接字地址以及类似的IP和网络相关数据类型。
-* [IPinfo](https://github.com/ipinfo/java)：IPinfo.io IP地址API的官方Java客户端库。
-* [ArtNet4j](https://github.com/cansik/artnet4j)：Art-Net DMX IP Java和Processing库。
-* [IpDB Java](https://github.com/ipipdotnet/ipdb-java)：IPIP.net官方支持的IP数据库ipdb格式解析库。
-* [IP Info](https://gitee.com/jthinking/ip-info)：IP地理位置获取，支持获取IPv4、IPv6地址信息。
-* [JIP Common](https://gitee.com/toktok/jip-common)：JIP Common支持IPv4和IPv6，多种IP格式的解析。
-* [Ineter](https://github.com/maltalex/ineter)：用于处理IP地址、范围和子网的快速Java库。
-* [CZ88.IP](https://github.com/tagphi/czdb-search-java)：CZDB Search是一个用于在CZ88 IP库中搜索数据的Java库。
-* [IP2Location](https://github.com/renfei/ip2location)：IP2Location提供免费的IP地理位置数据库。
-* [IP2Location](https://github.com/ip2location/ip2location-java)：IP2Location组件允许用户查询IP地址以获取访问者的国家、地区、城市、ISP或公司名称等信息。
-* [QQZeng IP](https://github.com/zengzhan/qqzeng-ip)：QQZeng IP地址数据库。
-* [Java DB-IP](https://github.com/ankushs92/Java-DB-IP)：一个用于DB-IP无城市数据库的Java封装。
-
-#### SIP
-
-* [JSS7](https://github.com/RestComm/jss7)：jSS7提供了一个开源软件解决方案，实现了专用设备的M3UA、SCCP、TCAP、CAMEL、MAP、ISUP协议，以及基于IP的M3UA协议。
-* [SIP Servlet](https://github.com/RestComm/sip-servlets)：RestComm SIP Servlet是SIP、IMS和WebRTC应用服务器。
-* [Java SIP MRCP](https://github.com/laoyin/java-sip-mrcp)：Java SIP MRCP是一个基于Java的项目，实现了SIP协议和MRCPv2协议，用于实时语音转写(ASR)的媒体传输。
-* [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
-* [Peers](https://github.com/ymartineau/peers)：Peers是一款SIP、SDP、RTP兼容的软电话。
-* [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
-* [CSipSimple](https://github.com/r3gis3r/CSipSimple)：CSipSimple是一款开源的Android原生SIP客户端。
-* [Vonage Java SDK](https://github.com/Vonage/vonage-java-sdk)：Vonage Java服务端SDK，支持SMS、消息、语音、文字转语音、号码、认证、视频等API功能。
-* [SIP Proxy](https://github.com/lunasaw/gb28181-proxy)：GB28181 Proxy是基于SIP实现GB28181的通信框架，区分客户端和服务器。
-* [SoftSwitch Gateway](https://github.com/Atoms-Cat/softswitch-gateway)：基于Netty 4对接的OpenSIP导出事件、导出MI和FreeSWITCH事件套接字库。
-* [OpenVCX](https://github.com/openvcx/openvcx)：OpenVCX是一个基于SIP协议的视频流服务器，用于多方视频聊天、网络直播、录制和实时媒体分发。
-
-#### SMPP
-
-* [Cloudhopper SMPP](https://github.com/twitter-archive/cloudhopper-smpp)：Cloudhopper SMPP是SMPP的高效、可扩展且灵活的Java实现，由Twitter开源。
-* [jSMPP](https://github.com/opentelecoms-org/jsmpp)：jSMPP是SMPP协议的Java实现，它提供与消息中心或ESME通信的接口，并且能够处理每秒3000-5000条消息的流量。
-* [JSMPP](https://github.com/uudashr/jsmpp)：Java SMPP API。
-* [OpenSmpp](https://github.com/OpenSmpp/opensmpp)：OpenSmpp是一个成熟的Java库，可实现SMPP协议，并允许开发外部短信实体(ESME)等。
-* [SMPP Server](https://github.com/elibom/smpp-server)：SMPP Server是一个基于Cloudhopper SMPP库的项目，它接收客户端连接，并允许你轻松处理SMPP数据包。
-* [Spring Boot Starter SMPP](https://github.com/MikeSafonov/spring-boot-starter-smpp)：使用Spring Boot Starter通过SMPP发送短信。
 
 ## 人工智能
 

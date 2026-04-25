@@ -1,3 +1,594 @@
+## 网络编程
+
+这里列出了网络相关的库、软件、工具、服务器集合。
+
+#### NIO框架
+
+* [Netty](https://github.com/netty/netty)：Netty是一个异步事件驱动的网络应用程序框架，用于快速开发可维护的高性能协议服务器和客户端。
+* [Apache MINA](https://github.com/apache/mina)：MINA是一个网络应用框架，可以帮助用户开发高性能和高可扩展性的网络应用程序。
+* [Eclipse Grizzly](https://github.com/eclipse-ee4j/grizzly)：Grizzly的目标是帮助开发人员使用NIO构建可扩展且强大的服务器，Oracle开源。
+* [SOFABolt](https://github.com/sofastack/sofa-bolt)：SOFABolt是蚂蚁金融开发的一套基于Netty实现的网络通信框架。
+* [Aleph](https://github.com/clj-commons/aleph)：Aleph是一个基于Netty构建的客户端和服务器网络编程库。
+* [RxNetty](https://github.com/ReactiveX/RxNetty)：RxNetty是Netty的Rx适配器，由Netflix开源。
+* [Voovan](https://gitee.com/helyho/Voovan)：Voovan是一个高性能异步网络框架和Web服务器框架。
+* [T-IO](https://gitee.com/tywo45/t-io)：T-IO是基于Java开发的一款高性能网络编程框架，由钛特云开源。
+* [JNet](https://gitee.com/eric_ds/jnet)：JNet框架是Java AIO接口的一层薄封装，仅进一步降低其编程复杂性，不提供额外的抽象。
+* [XNIO](https://github.com/xnio/xnio)：XNIO是一个基于Java NIO的框架，支持阻塞和非阻塞IO，由RedHat开源。
+* [Blaze](https://github.com/http4s/blaze)：Blaze是一个用于构建异步管道的Scala库，专注于网络IO。
+* [SNF4J](https://github.com/snf4j/snf4j)：SNF4J是一个异步事件驱动的网络应用程序框架，用于快速轻松地开发网络应用程序。
+* [One NIO](https://github.com/odnoklassniki/one-nio)：One NIO是一个用于构建高性能Java服务器的库，由Odnoklassniki开源。
+* [Gecko](https://github.com/killme2008/gecko)：Gecko是一个Java NIO的通讯组件，它在一个轻量级的NIO框架的基础上提供了更高层次的封装和功能，由淘宝开发。
+* [FireNio](https://github.com/FireNio/firenio)：FireNio是基于Java NIO开发的一款可快速构建网络通讯项目的异步IO框架。
+* [UJCat](https://gitee.com/Foldcc/UJCat)：UJCat是基于Netty 4的极简易上手网络框架。
+* [Bitchat](https://github.com/all4you/bitchat)：Bitchat是一个基于Netty的网络框架。
+* [HawtDispatch](https://github.com/fusesource/hawtdispatch)：HawtDispatch是一个小型的线程池和NIO处理框架API。
+* [Mycat NIO](https://github.com/MyCATApache/Mycat-NIO)：非常高性能又简单的NIO框架。
+* [Acteur](https://github.com/timboudreau/acteur)：Acteur是一个使用Netty编写Web服务器应用程序的框架。
+* [UberFire I/O](https://github.com/kiegroup/appformer/tree/main/uberfire-io)：NIO.2的实用程序/门面集。
+* [Getty](https://gitee.com/kokjuis/getty)：Getty是完全基于Java NIO封装的高性能网络框架。
+* [JXIO](https://github.com/accelio/JXIO)：JXIO是基于AccelIO(C库)的Java API。
+* [Higgs](https://github.com/zcourts/higgs)：Higgs是一个纯JVM(基于NIO)的高性能、面向消息的网络框架。
+* [Net Ops Java](https://github.com/nanosai/net-ops-java)：Net Ops Java是一个工具包，用于在Java NIO之上用Java实现非阻塞网络客户端和服务器。
+
+#### 网络库
+
+* [TChannel](https://github.com/uber/tchannel)：TChannel是一种用于一般RPC的网络框架协议，支持无序响应，性能极高，中间人可以快速做出转发决策，由Uber开源。
+* [Network Connection](https://github.com/facebookarchive/network-connection-class)：Network Connection是一个Android库，可让你了解当前用户的互联网连接质量，由Facebook开源。
+* [Apache Commons Net](https://github.com/apache/commons-net)：Commons Net库包含网络实用程序和协议实现的集合。
+* [Envoy Mobile](https://github.com/envoyproxy/envoy-mobile)：构建在Envoy项目的核心网络层上的多平台客户端HTTP/网络库。
+* [IoGame](https://github.com/iohao/ioGame)：IoGame是一个轻量级的网络编程框架，适用于网络游戏服务器、物联网、内部系统及各种需要长连接的场景。
+* [Android Network Tools](https://github.com/stealthcopter/AndroidNetworkTools)：该项目是一组有用的Android网络工具库，例如端口扫描、ping等。
+* [COMSAT](https://github.com/puniverse/comsat)：COMSAT是一组开源库，将Quasar与各种Web或企业技术集成。
+* [Infinileap](https://github.com/hhu-bsinfo/infinileap)：Infinileap是适用于Java 19+的基于ucx的现代网络框架，由杜塞尔多夫海因里希海涅大学计算机科学系操作系统小组开发。
+* [Spring Boot Protocol](https://github.com/wangzihaogithub/spring-boot-protocol)：Spring Boot功能扩充，可以支持各种网络协议的动态切换。
+* [TLS Channel](https://github.com/marianobarrios/tls-channel)：TLS Channel是一个通过TLS连接实现ByteChannel接口的库。
+* [Commons Networking](https://github.com/CiscoSE/commons-networking)：由Cisco开源的公共网络实用程序库。
+* [DiSNI](https://github.com/zrlio/disni)：DiSNI是一个Java库，用于从用户空间直接存储和网络访问，它提供了一个RDMA接口来访问远程内存，由IBM开源。
+* [Barchart UDT](https://github.com/barchart/barchart-udt)：Barchart UDT是原生C++ UDT协议的Java包装器。
+* [URNLib](https://github.com/slub/urnlib)：用于表示、解析和编码RFC 2141和RFC 8141中指定的URN的Java库，由德累斯顿工业大学开源。
+* [Jcabi URN](https://github.com/jcabi/jcabi-urn)：Jcabi URN是根据RFC 2141的URN的不可变实现。
+* [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
+* [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
+* [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
+* [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，能够做到纳秒级别的端到端延迟。
+* [JRakNet](https://github.com/whirvis/JRakNet)：JRakNet是一个基于Java的网络库，实现了基于UDP的协议RakNet。
+* [Mikrotik](https://github.com/GideonLeGrange/mikrotik-java)：Mikrotik RouterOS API的Java客户端库实现。
+* [Limitart](https://gitee.com/HankXV/Limitart)：Limitart是轻量级、高性能、少依赖、低级封装的服务器开发工具和项目搭建模板，可以开发游戏服务器和小型中间件等。
+* [CCNx](https://github.com/ProjectCCNx/ccnx)：CCNx参考实现，提供了构建和运行使用以及展示基本CCNx协议的应用程序所需的库和组件。
+* [OpenRQ](https://github.com/openrq-team/OpenRQ)：开源的RaptorQ实现。
+* [Netphony Network Protocols](https://github.com/telefonicaid/netphony-network-protocols)：Java网络协议库，PCEP、RSVP-TE、OSPF、BGP-LS。
+* [TSNsched](https://github.com/ACassimiro/TSNsched)：TSNsched使用Z3定理求解器为时间敏感网络(TSN)生成流量调度，由帕拉伊巴联邦大学开源。
+* [IAP Tools Java](https://github.com/jjenkov/iap-tools-java)：一个用于处理IAP网络协议及其数据格式ION的Java工具包。
+* [Resp Server](https://github.com/tonivade/resp-server)：Netty实现的Redis序列化协议，以及一个用于实现基于命令协议的简单框架。
+* [Orchid](https://github.com/subgraph/Orchid)：Orchid是一个用纯Java编写的Tor客户端实现和库。
+* [ReverseHttp](https://github.com/tonyg/reversehttp)：ReverseHttp是一种动态、类似REST的HTTP网络注册和参与方式。
+* [EasyNetty](https://gitee.com/gemron/easynetty)：EasyNetty是一个基于Netty封装的快速分布式任务开发框架。
+* [ANetty](https://gitee.com/jenly1314/ANetty)：ANetty是基于Netty二次封装的Android链路通讯库，用以快速开发高性能，高可靠性的网络交互。
+* [MMUPnP](https://github.com/ohmae/mmupnp)：适用于Java/Kotlin的UPnP ControlPoint库。
+* [JNB Ping](https://github.com/brettwooldridge/jnb-ping)：这是一个用于Java的非阻塞ICMP库。
+* [PJ Net Tools](https://github.com/harp077/pj-net-tools)：纯Java网络工具。
+* [ICMP4j](https://github.com/laurentbh/icmp4j)：ICMP4j是一个用于Java的ICMP Ping实现，它具有简单清晰的API。
+* [SSDP Client](https://github.com/resourcepool/ssdp-client)：仅使用JDK API的简单异步SSDP/1.0 UPNP/1.1 Java客户端。
+* [JDivert](https://github.com/ffalcinelli/jdivert)：WinDivert的Java绑定，WinDivert是一个Windows驱动程序，允许用户模式应用程序捕获/修改/丢弃发送到/来自Windows网络堆栈的网络数据包。
+* [Mac Addredd Detector](https://github.com/gaoxingliang/mac-address-detector-java)：使用Pcap4j检测远程主机的MAC地址。
+
+#### WebSocket
+
+* [Pushy](https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658)：Pushy是Netflix的WebSocket服务器，可与运行Netflix应用程序的设备保持持久的WebSocket连接。
+* [Java WebSocket](https://github.com/TooTallNate/Java-WebSocket)：该项目包含用纯Java编写的准系统WebSocket客户端和服务器实现。
+* [Jakarta WebSocket](https://github.com/jakartaee/websocket)：Jakarta WebSocket定义了一组用于开发WebSocket应用程序的Java API。
+* [Spring WebSocket](https://docs.spring.io/spring-framework/reference/web/websocket.html)：Spring框架提供的WebSocket API，可以使用它来编写处理WebSocket消息的客户端和服务端应用程序。
+* [Scarlet](https://github.com/Tinder/Scarlet)：Scarlet是受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端，由Tinder开源。
+* [SignalR](https://github.com/aspnet/SignalR)：SignalR是一个开源库，可简化向应用程序添加实时功能，由Microsoft开发。
+* [SignalRKore](https://github.com/lepicekmichal/SignalRKore)：SignalRKore是一个用于ASP.NET Core SignalR的Kotlin多平台客户端库。
+* [Jetty Websocket](https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-websocket)：Jetty提供Jakarta WebSocket规范的实现。
+* [Undertow WebSockets](https://github.com/undertow-io/undertow/tree/main/websockets-jsr)：Undertow使用XNIO Channel接口在底层提供对WebSocket的访问。
+* [Helidon WebSocket](https://github.com/helidon-io/helidon/tree/main/websocket)：Helidon为Jakarta WebSocket API提供的实现。
+* [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
+* [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient是适用于Java的异步HTTP和WebSocket客户端库。
+* [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
+* [WebSocket Android](https://github.com/codebutler/android-websockets)：一个非常简单的Android WebSocket客户端。
+* [Kafka WebSocket](https://github.com/b/kafka-websocket)：kafka分布式消息代理的简单WebSocket服务器接口。
+* [EzyFox](https://github.com/youngmonkeys/ezyfox-server)：EzyFox支持企业产品开发的各种基本组件，包括TCP、UDP、WebSocket、HTTP RESTful API、RPC协议、数据库交互、内存缓存和消息队列。
+* [Pusher Java Client](https://github.com/pusher/pusher-websocket-java)：适用于Java的Pusher Channels客户端库，面向Java和Android。
+* [JavaWebsocketClient](https://github.com/jacek-marchwicki/JavaWebsocketClient)：JavaWebsocketClient库是用于Java和Android的RX中Websocket连接的简单库，它被设计为快速且容错。
+* [StompProtocolAndroid](https://github.com/NaikSoftware/StompProtocolAndroid)：该库提供对STOMP协议的支持。
+* [wAsync](https://github.com/Atmosphere/wasync)：wAsync是一个基于Java的库，允许与任何支持WebSocket或HTTP协议的Web服务器进行异步通信。
+* [Java/Android WebSocket Client](https://github.com/gusavila92/java-android-websocket-client)：一个非常轻量级的WebSocket客户端库，适用于基于JVM的客户端或Android，旨在实现RFC 6455中定义的WebSocket协议。
+* [Netty WebSocket Spring Boot Starter](https://github.com/YeautyYE/netty-websocket-spring-boot-starter)：轻量级、高性能的WebSocket框架。
+* [Webbit](https://github.com/webbit/webbit)：Webbit是基于Java事件的WebSocket和HTTP服务器。
+* [Autobahn](https://github.com/crossbario/autobahn-java)：Autobahn是适用于Android和Java 8的Java中的WebSocket和WAMP。
+* [Jawampa](https://github.com/Matthias247/jawampa)：Jawampa是一个为Java提供对Web应用程序消息传递协议(WAMP)支持的库。
+* [Eclipse Tyrus](https://github.com/eclipse-ee4j/tyrus)：Tyrus是开源JSR 356-WebSocket参考实现的Java API，可轻松开发WebSocket应用程序。
+* [Spray WebSocket](https://github.com/dcaoyuan/spray-websocket)：Spray的WebSocket支持。
+* [Netty WebSocket Spring Boot](https://github.com/niezhiliang/netty-websocket-spring-boot)：基于Netty实现的WebSocket消息推送。
+* [WsManager](https://github.com/Rabtman/WsManager)：WsManager是一个简化OkHttp Websocket使用的库。
+* [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：SwaggerSocket协议允许任何现有的REST资源在WebSocket协议之上执行。
+* [Hookup](https://github.com/backchatio/hookup)：Hookup是一个基于Akka构建的可靠的Netty WebSocket服务器。
+* [Babl](https://github.com/babl-ws/babl)：Babl是一款高性能、可扩展的WebSocket服务器，专为低延迟应用程序而设计。
+* [Socket.x](https://github.com/obsidiandynamics/socketx)：Socket.x是一个用于构建高性能、分布式WebSocket应用程序的库。
+* [WebSocketDemo](https://github.com/0xZhangKe/WebSocketDemo)：用于简化WebSocket在Android平台使用的封装方法。
+* [RxWebSocket](https://github.com/dhhAndroid/RxWebSocket)：RxWebSocket是一个基于Okhttp和RxJava封装的WebSocket客户端。
+* [WebSocket Android Phonegap](https://github.com/anismiles/websocket-android-phonegap)：这是一个为Android平台实现Websocket API的Java库。
+* [TubeSock](https://github.com/FirebaseExtended/TubeSock)：TubeSock是WebSocket协议客户端的Java实现，由Google开源。
+* [Krossbow](https://github.com/joffrey-bion/krossbow)：Krossbow是一个Kotlin多平台STOMP 1.2客户端，具有基于协程的API。
+* [Netty WebSocket](https://github.com/zhoumengkang/netty-websocket)：一个基于Netty构建的完整WebSocket服务器。
+* [Nettosphere](https://github.com/Atmosphere/nettosphere)：Nettosphere是由Atmosphere和Netty提供支持的Java WebSocket和HTTP服务器。
+* [Netty REST](https://github.com/buremba/netty-rest)：Netty REST是一个基于Netty的高性能HTTP和WebSocket服务器实现。
+* [Vert.x STOMP](https://github.com/vert-x3/vertx-stomp)：STOMP客户端/服务器实现。
+* [JFinal WebSocket](https://gitee.com/xxssyyyyssxx/jfinal-websocket)：JFinal架构下开发WebSocket。
+* [WebSocket Resources](https://github.com/signalapp/WebSocket-Resources)：一个Dropwizard库，允许你通过WebSocket使用Jersey风格的资源。
+* [Spring Websocket Grails](https://github.com/zyro23/grails-spring-websocket)：该插件旨在使Spring 4.0中引入的WebSocket支持可供Grails应用程序使用。
+* [Netty WebSocket HTTP2](https://github.com/jauntsdn/netty-websocket-http2)：基于Netty的RFC8441实现，使用HTTP/2引导WebSockets，并支持多协议。
+* [Ballerina Websocket](https://github.com/ballerina-platform/module-ballerina-websocket)：WebSocket库便于通过网络连接和与WebSocket端点进行交互，为客户端和服务器端通信提供强大的支持。
+* [JSONAPI](https://github.com/alecgorge/jsonapi)：JSONAPI是Bukkit的一个插件，它允许你通过简单而安全的HTTP API访问服务器和玩家的数据及其他信息，包含WebSocket、HTTP服务器。
+* [RxWebSocket](https://github.com/navinilavarasan/rxWebSocket)：RxWebSocket是OkHttp Websocket接口的一个简单响应式扩展，支持转换器工厂和拦截器。
+* [RxWebSocket](https://github.com/FutureMind/rxwebsocket)：RxWebSocket是一个简单、轻量级、响应式的OkHttp WebSocket封装器。
+* [Stampy](https://github.com/mrstampy/Stampy)：Stampy是STOMP 1.2规范的Java实现。
+* [GDX WebSockets](https://github.com/MrStahlfelge/gdx-websockets)：LibGDX WebSockets实现。
+* [Scala Websocket Client](https://github.com/andyglow/websocket-scala-client)：Scala Websocket Client是一个开源库，它提供了一个简洁、对程序员友好的API来描述Websocket请求/响应机制。
+* [Bytesocks](https://github.com/lucko/bytesocks)：Bytesocks是一个快速轻量级的WebSocket服务器。
+* [Java WebSockify](https://github.com/jribble/Java-Websockify)：Java WebSockify是一个使用Netty编写的基本Websockify服务器实现。
+* [WebSocketGo](https://github.com/Gnepux/WebSocketGo)：WsGo是一个Java库，它可以用来管理WebSocket通道。
+* [LibGDXNet](https://github.com/jlcmes/libGDX-Net)：此扩展程序为LibGDX多平台游戏提供网络/多人游戏支持，它也可用于Java应用程序，为基于WebSocket客户端/服务器的应用程序提供WebSocket支持。
+* [Netty WebSocket](https://github.com/daixiaoch/netty-websocket)：Netty WebSocket是一个基于Netty的Java WebSocket集群框架。
+* [Bristleback](https://github.com/bristleback/bristleback)：Bristleback是一个完整的Java/JavaScript WebSocket框架。
+* [Java WebSocket](https://github.com/blinkdog/websocket)：Java中的简单WebSocket实现。
+* [Pocket Edition WebSocket Server API](https://github.com/jocopa3/PEWS-API)：适用于Minecraft Pocket版、Windows 10版和教育版的Java WebSocket服务器API实现。
+* [GWT WebSockets](https://github.com/sksamuel/gwt-websockets)：GWT的WebSocket客户端库。
+* [Dropwizard Websocket](https://github.com/LivePersonInc/dropwizard-websockets)：Dropwizard增强包，不仅支持JAX-RS资源，还支持使用JSR-356 API的WebSockets端点。
+* [Ext Netty](https://github.com/xjc-opensource/ext-opensource-netty)：基于Netty框架，提供对MQTT、WebSocket等协议的服务端与客户端的封装。
+
+#### Socket.IO
+
+* [Socket.IO Java](https://github.com/socketio/socket.io-client-java)：全功能的Java Socket.IO客户端库，与Socket.IO v1.0及更高版本兼容。
+* [Socket.IO](https://github.com/scalecube/socketio)：ScaleCube Socket.IO是基于Netty框架的Socket.IO Java服务器的轻量级实现。
+* [Netty Socket.IO](https://github.com/mrniko/netty-socketio)：该项目是Socket.IO服务器的开源Java实现，基于Netty服务器框架。
+* [Socket.IO Java Client](https://github.com/Gottox/socket.io-java-client)：Java中的Socket.IO客户端实现。
+* [Socket.IO Java](https://github.com/trinopoty/socket.io-server-java)：这是从JavaScript服务器移植的Java Socket.IO服务器库。
+* [MOKO Socket.IO](https://github.com/icerockdev/moko-socket-io)：IceRock的MOKO Socket.IO是Socket.IO实现Kotlin多平台库。
+* [Netty Socket.IO](https://github.com/socketio4j/netty-socketio)：基于Netty框架的Java Socket.IO服务器实现。
+* [Vert.x Socket.IO](https://github.com/keesun/mod-socket-io)：该模块允许Vert.x像Node.js一样创建Socket.IO服务器。
+* [Play Socket.IO](https://github.com/playframework/play-socket.io)：Play后端Socket.IO支持。
+* [Socketcluster Client](https://github.com/sacOO7/socketcluster-client-java)：用于Node.js中SocketCluster框架的原生Java和Android客户端。
+* [KMP SocketIO](https://github.com/HackWebRTC/kmp-socketio)：KMP实现的SocketIO客户端。
+* [Socket.IO.Play](https://github.com/milliondreams/socket.io.play)：Play框架的Socket.io服务器端支持。
+* [Spray SocketIO](https://github.com/dcaoyuan/spray-socketio)：Spray上的Socket.IO实现，支持集群分片。
+* [Socket.IO Netty](https://github.com/ibdknox/socket.io-netty)：Socket.IO Netty是一个基于Netty构建的Socket.IO服务器实现。
+* [Java Socket.IO Client](https://github.com/clwillingham/java-socket.io.client)：一个用Java编写的Socket.IO客户端。
+* [Socket.IO Spring Boot Starter](https://github.com/hiwepy/socketio-spring-boot-starter)：Netty Socket.IO的Spring Boot Starter。
+
+#### Socket
+
+* [Smart Socket](https://gitee.com/smartboot/smart-socket)：Smart Socket是一款极简、易用、高性能的AIO通信框架。
+* [AndroidSocketClient](https://github.com/vilyever/AndroidSocketClient)：Socket客户端、服务器简单封装。
+* [Jocket](https://github.com/pcdv/jocket)：Jocket是使用共享内存的低延迟Java套接字实现。
+* [OkSocket](https://github.com/xuuhaoo/OkSocket)：OkSocket是一个Java库，旨在解决轻量级的Socket通信。
+* [BizSocket](https://github.com/typ0520/bizsocket)：异步Socket，对一些业务场景做了支持。
+* [Hutool Socket](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-socket)：Hutool Socket针对NIO和AIO做了简单的封装，用于简化Socket异步开发。
+* [Bus Socket](https://github.com/818000/bus/tree/main/bus-socket)：Bus Socket是一个开源的Java AIO框架。
+* [EasySocket](https://github.com/jiusetian/EasySocket)：EasySocket是一个轻量级的Android端Socket框架，可快速实现客户端和服务端之间的TCP长连接通讯。
+* [Socket.D](https://gitee.com/noear/socket.d)：Socket.D是基于事件和语义消息流的网络应用协议。
+* [JUDS](https://github.com/mcfunley/juds)：JUDS提供类来满足Java中访问Unix域套接字的需求。
+* [JUnixSocket](https://github.com/kohlschutter/junixsocket)：JUnixSocket是一个Java/JNI库，允许在Java中使用Unix域套接字(AF_UNIX套接字)和其他地址/协议系列(AF_TIPC、AF_VSOCK和AF_SYSTEM)。
+* [JNR UnixSocket](https://github.com/jnr/jnr-unixsocket)：Java的本机I/O访问。
+* [Epoll](https://github.com/wizzardo/epoll)：基于事件的套接字服务器，使用epoll。
+* [JNanomsg](https://github.com/niwinz/jnanomsg)：用于Nanomsg的Clojure和Java绑定。
+* [CocoSocket](https://github.com/beykery/cocosocket)：CocoSocket是一个为Cocos2d-x和Unity 3D手机网络游戏准备的底层通信框架。
+* [Hxy Socket](https://github.com/a805748009/hxy-socket)：基于Spring Boot和Netty的Socket通信框架。
+* [AndroidSocket](https://github.com/itsMelo/AndroidSocket)：Android上一套完整的Socket解决方案。
+* [XAndroidSocket](https://github.com/Blankeer/XAndroidSocket)：Socket封装，支持TCP/UDP客户端和服务端，支持自定义粘包处理、验证处理、解析处理。
+* [ASocket](https://github.com/jenly1314/ASocket)：ASocket是一个TCP/UDP协议的封装库，方便快速实现TCP的长连接与UDP的单播、组播、广播等相关通信。
+* [AIO Socket](https://gitee.com/starboot/aio-socket)：AIO Socket是Java AIO通讯内核，采用了内存池、线程池、对象池、缓存池以及插件化增添模块等思想进行设计。
+* [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
+* [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
+* [Netty Chat](https://github.com/tonybase/netty-chat)：使用Netty实现IMServer，支持TCP和WebSocket实现。
+* [Engine.IO Java](https://github.com/socketio/engine.io-client-java)：Java的Engine.IO客户端库。
+* [Ballerina TCP](https://github.com/ballerina-platform/module-ballerina-tcp)：Ballerina Socket模块。
+* [Kotlinx.Sockets](https://github.com/cy6erGn0m/kotlinx-sockets)：Kotlinx.Sockets是一个库，旨在为NIO套接字带来丰富的协程体验。
+* [Blink](https://github.com/qiujuer/Blink)：套接字发送和接收协议框架，易于使用的I/O。
+* [MinaSocket](https://github.com/Jeromeer/MinaSocket)：MinaSocket一款基于Mina的Socket长连接库。
+* [Bumblebee](https://github.com/EspoirX/Bumblebee)：基于有限状态机和Flow的WebSocket封装。
+* [RxSocketClient](https://github.com/codeestX/RxSocketClient)：适用于Android、Java和Kotlin的Reactive Socket API。
+* [Naga](https://github.com/techery/Naga)：Naga的目标是成为一个非常小的NIO库，它提供少量的Java类来封装常见的Socket和ServerSocket。
+* [AsyncSocket](https://github.com/samigehi/AsyncSocket)：这是一个基于NIO的Java库，它使用SocketChannels以非阻塞方式与服务器通信。
+
+#### TCP/UDP
+
+* [KryoNet](https://github.com/EsotericSoftware/kryonet)：KryoNet是一个Java库，它提供了一个干净、简单的API，用于使用NIO进行高效的TCP和UDP客户端/服务器网络通信。
+* [QuickServer](https://github.com/QuickServerLab/QuickServer-Main)：QuickServer是一个开源Java库/框架，用于快速创建强大的多客户端TCP服务器应用程序。
+* [Chronicle Network](https://github.com/OpenHFT/Chronicle-Network)：Chronicle Network是一个高性能网络(TCP/IP)库。
+* [CoralReactor](https://www.coralblocks.com/index.php/category/coralreactor/)：CoralReactor是一个功能强大、超低延迟、异步、非阻塞的网络I/O库，可通过简单的API提供高性能。
+* [TCP Gateway](https://github.com/SongranZhang/tcp-gateway)：基于Netty 4的高性能TCP网关，用于请求数据或推送消息。
+* [LANCOMM](https://github.com/fighter-lee/lancomm)：Android局域网通讯，基于UDP和TCP封装的局域网通讯协议框架。
+* [NettyIM](https://github.com/CWTakiku/NettyIM)：NettyIM是一款基于Netty高度定制化的通讯SDK，支持TCP、UDP和WebSocket协议的通信。
+* [SimpleNet](https://github.com/jhg023/SimpleNet)：SimpleNet是一个用Java编写的简单的客户端/服务器框架。
+* [Dragonite](https://github.com/dragonite-network/dragonite-java)：Dragonite是一种基于UDP的可靠应用级数据传输协议，针对有损和不稳定的网络进行了高度优化。
+* [JBoss Remoting](https://github.com/jboss-remoting/jboss-remoting)：JBoss Remoting的目的是提供一个用于通过网络进行对称和非对称通信的通用框架，由RedHat开发。
+* [Extasys](https://github.com/nsiatras/extasys)：Extasys是一个高性能的异步TCP/UDP套接字库。
+* [Sentinel](https://github.com/gideondk/sentinel)：Sentinel是使用Akka IO和Akka Streams为基于TCP的服务器和客户端提供的样板代码。
+* [Ballerina UDP](https://github.com/ballerina-platform/module-ballerina-udp)：Ballerina UDP提供用于向另一个应用程序进程发送/接收消息的API。
+* [Angler](https://github.com/LMAX-Exchange/angler)：Angler是一个用于监控Linux内核中UDP和TCP消息处理性能的实用程序，由LMAX开源。
+* [KryoNetty](https://github.com/EsotericSoftware/kryonetty)：KryoNetty是一个Java库，它提供了一个简洁易用的API，用于使用Netty进行高效的TCP客户端/服务器网络通信。
+
+#### IO_Uring
+
+* [Jasyncfio](https://github.com/ikorennoy/jasyncfio)：Jasyncfio提供了基于Linux io_uring接口的异步文件I/O API。
+* [NIO_Uring](https://github.com/bbeaupain/nio_uring)：NIO_Uring是一个Java I/O库，它在底层使用io_uring。
+* [Netty io_uring](https://github.com/netty/netty-incubator-transport-io_uring)：Netty为io_uring提供的实验性支持。
+* [PanamaUring](https://github.com/dreamlike-ocean/PanamaUring)：这是一个探索性质的项目，使用Java的新FFI为Java引入io_uring。
+* [JUring](https://github.com/davidtos/JUring)：JUring是一个高性能Java库，它使用Java的FFM API提供与Linux的io_uring异步I/O接口的绑定。
+* [Myra Transport](https://github.com/mvp-express/myra-transport)：基于Linux io_uring实现真正的异步I/O，支持零复制缓冲区管理和内核绕过功能。
+
+#### IM
+
+* [Jitsi](https://github.com/jitsi/jitsi)：Jitsi Desktop是一款免费的开源音频/视频和聊天通信器，支持SIP、XMPP/Jabber、IRC等协议和许多其他有用的功能。
+* [Signal Server](https://github.com/signalapp/Signal-Server)：Signal是一款开源、端到端加密的通讯应用程序，可用于发送文本、语音、图片和视频等多种形式的消息，由Open Whisper Systems开发。
+* [CIM](https://github.com/crossoverJie/cim)：CIM是一款面向开发者的IM系统，同时提供了一些组件帮助开发者构建一款属于自己可水平扩展的IM。
+* [Google Cloud Messaging](https://github.com/google/gcm)：Google Cloud Messaging是一种服务，允许开发人员将数据从服务器发送到用户的设备，并从同一连接上的设备接收消息。
+* [Tigase Server](https://github.com/tigase/tigase-server)：Tigase XMPP Server是用Java编写的高度优化、高度模块化且非常灵活的XMPP/Jabber服务器。
+* [Actor Platform](https://github.com/actorapp/actor-platform)：Actor是一个即时通讯平台。
+* [NettyChat](https://github.com/FreddyChen/NettyChat)：基于Netty、TCP、Protobuf实现的Android IM库。
+* [InChat](https://github.com/AwakenCN/InChat)：InChat是一个轻量级、高效、分布式的异步通信框架，支持聊天和物联网。
+* [Smack](https://github.com/igniterealtime/Smack)：Smack是一个开源、高度模块化、易于使用的XMPP客户端库，用Java编写，适用于兼容Java SE的JVM和Android。
+* [J-IM](https://gitee.com/xchao/j-im)：J-IM是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
+* [Openfire](https://github.com/igniterealtime/Openfire)：Openfire是一个即时通信和群聊服务器，它是使用Java编写的XMPP服务器。
+* [CIM](https://gitee.com/farsunset/cim)：CIM是一套完善的消息推送框架，可应用于信令推送，即时聊天，移动设备指令推送等领域。
+* [MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK)：MobileIMSDK是一个原创多端IM通信层框架，轻量级、高度提炼，支持UDP、TCP、WebSocket三种协议。
+* [CometD](https://github.com/cometd/cometd)：CometD是用于网络消息传递的可扩展Comet(服务器推送)实现。
+* [iCometClient4j](https://github.com/kyleduo/iCometClient4j)：iComet服务器的客户端，适用于Java/Android平台。
+* [Gifsockets](https://github.com/videlalvaro/gifsockets)：使用Gif动画作为传输的实时通信库。
+* [RongCloud Server SDK](https://github.com/rongcloud/server-sdk-java)：Java版融云即时通讯服务器SDK。
+* [SONA](https://github.com/BixinTech/sona)：SONA是一个由比心语音技术团队开发，用于快速搭建语音房产品的全端解决方案，支撑了比心聊天室、直播、游戏房等业务。
+* [Tencent Cloud IM Server SDK](https://github.com/doocs/qcloud-im-server-sdk-java)：腾讯云IM服务端SDK Java版。
+* [OrdinaryRoad Live Chat Client](https://github.com/OrdinaryRoad-Project/ordinaryroad-live-chat-client)：一个基于Netty的通用直播间弹幕客户端。
+* [WebQQ](https://github.com/iqq-team/webqq-core)：一个基于WebQQ协议开发的库，你可以基于这个库让你的程序集成QQ相关的功能。
+* [ChatBox](https://github.com/felizdevida/chat-box)：ChatBox是一个仿微信实现的网页版聊天软件。
+* [SmartIM](https://github.com/Jamling/SmartIM)：SmartIM插件的底层库，已实现SmartQQ、微信桌面版协议。
+* [Lithium](https://github.com/wireapp/lithium)：Lithium是用Java编写的Wire Services SDK。
+* [JXMPP](https://github.com/igniterealtime/jxmpp)：JXMPP是一个基于Java的开源XMPP库。
+* [T0rlib4j](https://github.com/PanagiotisDrakatos/T0rlib4j)：T0rlib4j是一个用于Tor的Java控制器库。
+* [Signal Service Java](https://github.com/signalapp/libsignal-service-java)：一个用于通过Signal进行通信的Java库。
+* [Signal CLI](https://github.com/AsamK/signal-cli)：Signal CLI是Signal即时通讯工具的命令行接口。
+* [Signald](https://github.com/thefinn93/signald)：Signal的API。
+
+#### Pcap
+
+* [Pcap4J](https://github.com/kaitoy/pcap4j)：Pcap4J是一个用于捕获、制作和发送数据包的Java库。
+* [Jpcap](https://github.com/jpcap/jpcap)：Jpcap是一组Java类，提供用于网络数据包捕获的接口和系统，由加州大学欧文分校开源。
+* [Pkts](https://github.com/aboutsip/pkts)：Pkts是一个用于读取和写入pcap的纯Java库。
+* [Pcap](https://github.com/ardikars/pcap)：Pcap提供了一个数据包处理库，可以在JVM语言之上进行快速开发。
+* [jNetPcap](https://github.com/slytechs-repos/jnetpcap-bindings)：jNetPcap是一个用Java编写的软件库，提供与流行的libpcap本机库类似的API。
+* [Hadoop PCAP](https://github.com/RIPE-NCC/hadoop-pcap)：Hadoop PCAP用于并行地读取和分析数据包捕获文件，由欧洲IP网络协调中心开源。
+
+#### SSH
+
+* [Apache MINA SSHD](https://github.com/apache/mina-sshd)：MINA SSHD是一个100%纯Java库，支持客户端和服务器端的SSH协议。
+* [Trilead SSH](https://github.com/jenkinsci/trilead-ssh2)：Trilead SSH-2是一个用纯Java实现SSH-2协议的库。
+* [Pty4J](https://github.com/JetBrains/pty4j)：Java中的伪终端实现，由JetBrains开源。
+* [JSch](https://github.com/mwiede/jsch)：实现SSH功能的Java库，可用于连接SFTP服务器。
+* [Jcabi SSH](https://github.com/jcabi/jcabi-ssh)：Java SSH客户端。
+* [JSch](https://github.com/is/jsch)：JSch是SSH2的纯Java实现。
+* [Maverick Synergy](https://github.com/sshtools/maverick-synergy)：Maverick Synergy是由JADAPTIVE开发的第三代Java SSH API。
+* [SSHJ](https://github.com/hierynomus/sshj)：Java的SSH、SCP和SFTP库。
+* [WebSSH](https://github.com/NoCortY/WebSSH)：纯Java实现的WebSSH。
+* [SSH Proxy](http://github.com/cronn/ssh-proxy)：SSH端口隧道的纯Java实现，能够理解涉及多跳才能到达目标主机的OpenSSH配置。
+* [SSHoogr](https://github.com/sshoogr/sshoogr)：SSHoogr是一个基于Groovy的DSL库，用于通过SSH连接远程服务器，由Aestas/IT开源。
+* [Vngx JSch](https://github.com/vngx/vngx-jsch)：Vngx JSch是用纯Java编写的流行的JSch库的更新版本。
+* [SSHLib](https://github.com/connectbot/sshlib)：ConnectBot的SSH库，它最初是Trilead SSH2库的延续。
+* [Ganymed SSH-2](https://github.com/hudson/ganymed-ssh-2)：Ganymed SSH-2是一个用纯Java实现SSH-2协议的库。
+* [Jsync](https://github.com/fizzed/jsync)：纯Java类rsync库，用于本地到远程SSH/SFTP。
+
+#### DNS
+
+* [DNSJava](https://github.com/dnsjava/dnsjava)：DNSJava是DNS协议的Java实现。
+* [DNS Proxy](https://github.com/mageddo/dns-proxy-server)：DPS是一种轻量级最终用户DNS服务器工具，可以轻松地在一个主机名可以根据配置的环境解析为不同IP的系统中进行开发。
+* [MiniDNS](https://github.com/MiniDNS/minidns)：MiniDNS是适用于Android和Java SE的DNS库。
+* [JmDNS](https://github.com/jmdns/jmdns)：JmDNS是多播DNS的Java实现，支持服务发现和注册，并与Apple的Bonjour完全兼容。
+* [MDNS Java](https://github.com/posicks/mdnsjava)：Java中的多播DNS和基于DNS的服务发现。
+* [Hola](https://github.com/fflewddur/hola)：Hola是一个极简的Java多播DNS服务发现实现。
+* [Zeroconf](https://github.com/faceless2/zeroconf)：Zeroconf是一个简单的Java多播DNS服务发现实现。
+* [Dns Cache Manipulator](https://github.com/alibaba/java-dns-cache-manipulator)：一个微小的0依赖线程安全Java库，用于以编程方式设置/查看DNS，无需接触host文件，使单元/集成测试可移植，由阿里开源。
+* [Denominator](https://github.com/Netflix/denominator)：Denominator是一个用于操作DNS云的可移植Java库，由Netflix开源。
+* [Happy DNS](https://github.com/qiniu/happy-dns-android)：用于Android的DNS库，由七牛云开源。
+* [DNS Java](https://github.com/spotify/dns-java)：这个小型DNS包装器库提供了一些与SRV查找相关的有用功能，由Spotify开源。
+* [DNS Cheater](https://gitee.com/matrixy/dns-cheater)：Java实现的DNS服务器，可通过Web管理界面随意设置灵活的解析规则。
+* [VinylDNS](https://github.com/vinyldns/vinyldns)：VinylDNS是一个与供应商无关的前端平台，用于实现自助式DNS并简化DNS操作，由Comcast开发。
+* [JDNSS](https://github.com/drsjb80/JDNSS)：JDNSS是一个仅权威、支持DNSSEC/TLS/DoH的Java叶DNS服务器。
+* [BlackHole](https://github.com/code4craft/blackhole)：BlackHole是一个Java编写的DNS服务器，它可以进行DNS缓存，也支持自定义域名配置，并可以防止DNS污染。
+* [jDnsProxy](https://github.com/moparisthebest/jDnsProxy)：简单、快速、轻量级的DNS代理和缓存。
+
+#### FTP服务器
+
+* [Apache FtpServer](https://mina.apache.org/ftpserver-project/)：FtpServer是一个100%纯Java FTP服务器。
+* [MinimalFTP](https://github.com/Guichaguri/MinimalFTP)：一个轻量级、简单的FTP服务器。
+* [Anomic](https://github.com/Orbiter/anomic_ftp_server)：Anomic是一个简单的FTP服务器。
+* [SwiFTP](https://github.com/ppareit/swiftp)：Android设备的FTP服务器。
+* [DrFTPD](https://github.com/drftpd-ng/drftpd)：DrFTPD是一个用Java编写的分布式FTP服务器。
+* [EdtFTPj](https://enterprisedt.com/products/edtftpj/)：EdtFTPj是适用于Java应用程序的成熟FTP库。
+* [ThinServer](https://gitee.com/sanluan/ThinServer)：ThinServer是基于JDK提供的HttpServer开发的Web服务容器和以Socket开发的FTP Server。
+* [LiteFTPD Unix](https://github.com/adlered/LiteFTPD-UNIX)：基于Java的高性能FTP服务端。
+* [Gripper](https://gitee.com/jingshishengxu/gripper)：Gripper是内嵌式FTP服务器。
+* [Ballerina FTP](https://github.com/ballerina-platform/module-ballerina-ftp)：Ballerina FTP提供FTP/SFTP客户端和FTP/SFTP服务器监听器，以便建立与远程位置的FTP/SFTP连接。
+* [ZIO FTP](https://github.com/zio/zio-ftp)：ZIO FTP是ZIO的FTP客户端的轻量级封装。
+* [FTPSync](https://github.com/PopFisher/FTPSync)：Java FTP上传下载文件。
+* [FTP4j](https://github.com/asbachb/ftp4j)：FTP4j是FTP、FTPS和FTPES协议的Java实现。
+* [FTP Pool](https://github.com/jayknoxqu/ftp-pool)：Commons Pool实现的FTP连接池。
+* [Java Portable FTP Server](https://github.com/dubasdey/portable-ftp-server)：适用于Windows、Linux和Mac的便携式FTP服务器。
+* [FTPClientPool](https://github.com/jellyflu/ftpClientPool)：FTP客户端池。
+* [Netty FTP Receiver](https://github.com/alexkasko/netty-ftp-receiver)：用于通过FTP接收文件的Netty处理器。
+* [FTP](https://github.com/FENG-MASTER/FTP)：FTP客户端和服务端。
+* [Simple Java FTP Server](https://github.com/pReya/ftpServer)：这是一个用Java实现的简单FTP服务器。
+* [One-FTPServer](https://github.com/benelog/one-ftpserver)：简单、便携式的FTP服务器。
+* [Java FTP Proxy Server](https://github.com/c960657/ftpproxy)：Java FTP代理服务器。
+
+#### HTTP代理
+
+* [Decodo](https://github.com/Decodo/Decodo)：Decodo是一个轮换式住宅代理网络，允许用户使用超过1.15亿个IP地址池从网络收集数据。
+* [Apache Guacamole](https://github.com/apache/guacamole-client)：Guacamole是一个无客户端远程桌面网关，它支持VNC、RDP和SSH等标准协议。
+* [Proxyee](https://github.com/monkeyWie/proxyee)：Proxyee是一个Java编写的HTTP代理服务器库，支持HTTP、HTTPS、WebSocket协议，并支持MITM，可以捕获和篡改HTTP、HTTPS数据包。
+* [HTTP Proxy Servlet](https://github.com/mitre/HTTP-Proxy-Servlet)：这是Java Servlet形式的HTTP代理，由MITRE公司开发。
+* [Charon](https://github.com/mkopylec/charon-spring-boot-starter)：Charon是一个反向代理实现，它自动将HTTP请求从一个HTTP服务器转发到另一个HTTP服务器，并将收到的HTTP响应返回给客户端。
+* [Suo5](https://github.com/zema1/suo5)：Suo5是一个高性能HTTP隧道代理工具，它基于双向的Chunked-Encoding构建。
+* [Vert.x Http Proxy](https://github.com/eclipse-vertx/vertx-http-proxy)：Vert.x Http Proxy是基于Vert.x的反向代理，旨在实现可重用的反向代理逻辑以专注于更高的关注点。
+* [BrowserUp Proxy](https://github.com/lightbody/browsermob-proxy)：BrowserMob Proxy允许你操作HTTP请求和响应、捕获HTTP内容以及将性能数据导出为HAR文件。
+* [LittleProxy](https://github.com/adamfisk/LittleProxy)：LittleProxy是一个用Java编写的高性能HTTP代理。
+* [PacketProxy](https://github.com/DeNA/PacketProxy)：PacketProxy是一个开源代理工具，可以拦截和检查TCP/UDP上的任何协议，而不仅限于HTTP/1.x、HTTP2或HTTPS，由DeNA开源。
+* [MitmProxy Java](https://github.com/appium/mitmproxy-java)：MitmProxy是一个免费开源的交互式HTTPS代理。
+* [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG)：OpenIG是一种高性能反向代理服务器，具有专门的会话管理和凭证重播功能。
+* [PowerTunnel](https://github.com/krlvm/PowerTunnel)：PowerTunnel是一个构建在LittleProxy之上的可扩展代理服务器。
+* [Styx](https://github.com/ExpediaGroup/styx)：Styx是用于JVM的可编程、异步、基于事件的反向代理，由Expedia开源。
+* [Carapaceproxy](https://github.com/diennea/carapaceproxy)：Carapac是一个分布式Java反向代理。
+* [Bouncer](https://github.com/ggrandes/bouncer)：Bouncer是一个开源Java网络代理。
+* [Shadowsocks Java](https://github.com/TongxiJi/shadowsocks-java)：基于Netty 4框架的Java实现的Shadowsocks。
+* [Shadowsocks Java](https://github.com/blakey22/shadowsocks-java)：Shadowsocks Java客户端。
+* [Shadowsocks Netty](https://github.com/ksfzhaohui/shadowsocks-netty)：基于Netty 4.0实现的Shadowsocks客户端。
+* [Proxy Vole](https://github.com/MarkusBernhardt/proxy-vole)：Proxy Vole是一个用于自动检测平台网络代理设置的Java库。
+* [Mallet](https://github.com/sensepost/mallet)：Mallet是一种用于创建任意协议代理的工具，类似于我们熟悉的拦截Web代理，只是更加通用。
+* [WK Proxy](https://github.com/catas-w/WK-Proxy)：WK Proxy是一款用于HTTP代理和数据包捕获的开源桌面工具，可在Windows和macOS平台上使用。
+* [ProxyChecker](https://github.com/faiqsohail/ProxyChecker)：一款易于使用的开源多线程代理检查器。
+* [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi)：HTTP隧道工具。
+* [HttpProxy](https://github.com/arloor/HttpProxy)：HTTP代理，支持CONNECT和普通GET/POST。
+* [RPT](https://github.com/iamlinhui/rpt)：内网穿透&反向代理(支持TCP上层协议，支持HTTP/HTTPS端口复用)。
+* [Winfoom](https://github.com/ecovaci/winfoom)：Winfoom是一个HTTP(s)代理服务器的界面，允许应用程序通过代理进行身份验证，而无需处理实际的握手过程。
+* [Java HTTP/HTTPS Proxy Server](https://github.com/stefano-lupo/Java-Proxy-Server)：Proxy Server是位于客户端和客户端希望从中获取文件的远程服务器之间的服务器。
+* [Proxy](https://github.com/ztgreat/proxy)：基于Netty的TCP代理工具，可以借助公网服务器，访问内网主机TCP服务。
+* [NitmProxy](https://github.com/chhsiao90/nitmproxy)：一个基于Netty的实验性代理服务器。
+* [Java NIO TCP Proxy](https://github.com/terma/java-nio-tcp-proxy)：基于NIO的Java TCP代理。
+* [Quarantyne](https://github.com/quarantyne/quarantyne)：Quarantyne是一个用Java编写的反向代理。
+* [EasyHttpProxy](https://github.com/puhaiyang/easyHttpProxy)：支持HTTP/HTTPS代理，类似于Fiddler。
+* [NettyGateway](https://github.com/tang-jie/NettyGateway)：NettyGateway是一个具有灵活路由规则的HTTP代理服务器。
+* [TLSFragmenter](https://github.com/filtershekanha/TLSFragmenter)：TLSFragmenter包含一个使用Spring Boot框架构建的Java代理服务器实现。
+* [Jladder](https://github.com/hudaming1/jladder)：基于Netty开发的HTTP/Socks代理服务器。
+* [HTTP Proxy Server](https://github.com/ffay/http-proxy-server)：HTTP代理服务器。
+* [Proxy](https://github.com/lvq410/Proxy)：基于Java的各种代理实现，包括纯TCP反向代理、HTTP、Socks5、内网穿透、私有WebSocket。
+* [Shadowsocks Netty Server](https://github.com/ksfzhaohui/shadowsocks-netty-server)：基于Netty 4.0实现的Shadowsocks服务器端。
+* [Shadowsocks Core](https://github.com/CC-Cheunggg/shadowsockets-core)：Java版的Shadowsocks服务端实现。
+* [Java WS](https://github.com/eooce/java-ws)：这是一个基于Java实现的多协议代理服务器。
+* [Shadowsocks Java](https://github.com/zhihengjiang/shadowsocks-java)：Shadowsocks Java是一个基于SOCKS5代理的使用Java开发的Shadowsocks代理软件。
+* [Shadowsocks Java](https://github.com/nooner2014/shadowsocks-java)：Shadowsocks Java是一个轻量级的隧道代理，可以帮助你穿过防火墙。
+* [Panama](https://github.com/loveinsky100/panama)：Panama是一个高性能的代理服务器，基于ShadowSocks协议，采用Netty实现。
+* [Shadowsocks Server](https://github.com/zk-123/shadowsocks)：Java开发的Shadowsocks。
+* [Shadowsocks Vert.x](https://github.com/Bestoa/shadowsocks-vertx)：Shadowsocks Vert.x是一个轻量级的隧道代理，可以帮助你穿过防火墙。
+* [OpenProxyJ](https://github.com/woshiwzy/OpenProxyJ)：纯Java实现的网络代理小工具。
+* [Java WebSocket Reverse Proxy](https://github.com/barrett-rob/java-websocket-reverse-proxy)：WebSocket反向代理的Java实现。
+
+#### 内网穿透
+
+* [Lanproxy](https://github.com/ffay/lanproxy)：Lanproxy是一个将局域网个人电脑、服务器代理到公网的内网穿透工具，支持TCP流量转发，可支持任何TCP上层协议。
+* [Neo reGeorg](https://github.com/L-codes/Neo-reGeorg)：reGeorg是新一代内网穿透工具，这是该项目的重构版本。
+* [Dev Tunnels](https://github.com/microsoft/dev-tunnels)：Dev Tunnels允许开发者安全地将本地Web服务暴露到互联网上，控制谁可以访问，并且可以轻松地从任何地方调试你的Web应用程序，由Microsoft开源。
+* [Neutrino Proxy](https://gitee.com/dromara/neutrino-proxy)：Neutrino Proxy是一个基于Netty的开源Java内网穿透项目，由dromara社区开源。
+* [PortBuddy](https://github.com/amak-tech/port-buddy)：PortBuddy是一个强大而简单的工具，它可以让你将本地主机或私有网络中打开的端口暴露到公共互联网。
+* [Natcross2](https://github.com/Pluto-Whong/natcross2)：Natcross2是需要自己提供硬件支持、部署的内网穿透工具。
+* [Venomous Sting](https://gitee.com/haojiangbo/venomous_sting)：基于Netty实现的高性能内网穿透，支持所有TCP上层协议的转发。
+* [MagpieBridge](https://gitee.com/jiucheng_org/magpiebridge)：使用Java基于AIO/NIO实现的内网穿透工具。
+* [Joggle](https://github.com/joggle-cn/joggle)：Joggle是基于Ngrok二开的开源内网穿透项目，多节点、私有部署、云服务。
+* [LightTunnel](https://gitee.com/tuuzed/LightTunnel)：内网穿透工具，支持TCP、HTTP、HTTPS穿透。
+* [Ngrok Spring Boot Starter](https://github.com/kilmajster/ngrok-spring-boot-starter)：Spring Boot集成Ngrok变得简单。
+* [HP](https://gitee.com/HServer/hp)：内网穿透轻量版，支持HTTP、HTTPS、TCP、UDP，支持云端动态控制穿透配置。
+* [ETP](https://github.com/xiaoniucode/etp)：ETP是一个轻量级的高性能内网穿透应用，支持TCP、HTTP等协议。
+* [Java Ngrok](https://github.com/alexdlaird/java-ngrok)：Java Ngrok是一个Ngrok包装器，用于管理自己的二进制文件，通过方便的Java提供应用程序接口。
+* [Fast Ngrok](https://gitee.com/cyejing/fast-ngrok)：Java版本Ngrok客户端。
+* [NeoLink](https://github.com/NeoLinkProxy/NeoLink)：NeoLink是一个轻量级的内网穿透客户端，用于将本地TCP、UDP服务暴露给公网NeoServer。
+* [NET Penetrate](https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple)：内网穿透、GUI、一键启动、不限速，内置日志。
+* [Natx](https://github.com/wucao/natx)：Natx是一个基于Java Netty实现的可用于内网穿透的代理工具，支持TCP协议。
+* [SuperTunnel](https://github.com/davidkey/supertunnel)：SuperTunnel是一个可以通过HTTP隧道传输普通TCP流量的程序。
+* [Ecloud](https://github.com/CTF-MissFeng/Ecloud)：Ecloud是一款基于HTTP/1.1协议传输TCP流量工具。
+* [WeNat Client Java](https://github.com/newpanjing/wenat-client-java)：WeNat内网穿透Java版客户端。
+* [Pangolin](https://github.com/gnanquanmama/pangolin)：轻量级内网穿透工具，基于Java 8，Netty 4.x实现。
+* [QyNat Spring Boot Starter](https://github.com/whz11/qynat-spring-boot-starter)：一款可以实现内网穿透的Spring Boot Starter。
+* [OpenNAT](https://github.com/realJackSun/OpenNAT)：OpenNAT是一款轻量级适用于Web开发与部署的内网穿透框架。
+* [JNDC](https://github.com/qiweiview/jndc)：Java内网穿透可视化方案。
+* [Zrp](https://github.com/zhangjun1998/zrp)：Zrp是使用Java开发的一款基于Netty的内网穿透工具。
+* [Ngrok Java](https://github.com/dosgo/ngrok-java)：一个基于Java的Ngrok客户端。
+
+#### 网络监控
+
+* [Nzyme](https://github.com/nzymedefense/nzyme)：Nzyme用于监控以太网和WiFi网络流量。
+* [NetXMS](https://github.com/netxms/netxms)：NetXMS是一款开源网络和基础设施监控和管理解决方案，为IT基础设施的所有层提供性能和可用性监控以及灵活的事件处理、警报、报告和图表。
+* [OpenNMS](https://github.com/OpenNMS/opennms)：OpenNMS是一个开源网络监控平台，可帮助你可视化和监控本地和分布式网络上的所有内容。
+* [SIP3](https://github.com/sip3io/sip3-ansible)：SIP3是一种端到端解决方案，用于实时监控、分析和排除大量流量下的网络性能故障。
+* [Hyperic HQ](https://github.com/hyperic/hq)：Hyperic HQ是一个基于Java的软件资源监测和管理平台。
+* [jNetMap](https://rakudave.ch/jnetmap/)：jNetMap是一个图形网络监控和文档工具，它会每x分钟ping所有注册的设备，并根据ping的结果更新状态。
+* [Hello eBPF](https://github.com/parttimenerd/hello-ebpf)：允许直接用Java编写eBPF程序。
+* [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter)：CICFlowMeter是一种用于异常检测的以太网流量双向流生成器和分析器，由约克大学开发。
+
+#### 网络工具
+
+* [Nomulus](https://github.com/google/nomulus)：Nomulus是一种开源、可扩展、基于云的服务，用于运营顶级域名(TLD)，由Google开源。
+* [ONOS](https://github.com/opennetworkinglab/onos)：ONOS是一个开源SDN网络操作系统，主要面向服务提供商和企业骨干网，由Linux基金会开源。
+* [OpenVirteX](https://github.com/os-libera/OpenVirteX)：OVX是一个网络管理程序，可以在单个物理基础设施之上创建多个虚拟和可编程网络。
+* [Angry IP Scanner](https://github.com/angryip/ipscan)：Angry IP Scanner是适用于Windows、Linux和Mac的快速且友好的网络扫描器。
+* [NMapGUI](https://github.com/daniel-cues/NMapGUI)：NMapGUI是NMap网络分析工具的高级图形用户界面。
+* [Batfish](https://github.com/batfish/batfish)：Batfish是一种网络验证工具，通过分析网络设备的配置，为安全性、可靠性和合规性提供正确性保证。
+* [FDT](https://github.com/fast-data-transfer/fdt)：FDT是一种高效数据传输应用程序，能够通过广域网(使用标准TCP)以磁盘速度读写。
+* [WHOIS](https://github.com/RIPE-NCC/whois)：WHOIS是由RIPE NCC开源的一款WHOIS协议实现工具。
+* [The ONE](https://github.com/akeranen/the-one)：机会网络环境模拟器，由阿尔托大学开源。
+* [Net2Plan](https://github.com/girtel/Net2Plan)：Net2Plan是一个用Java开发的通信网络规划、优化和评估工具。
+
+#### 端口转发
+
+* [Cling](https://github.com/4thline/cling)：Cling致力于用Java创建一个兼容UPnP的软件栈。
+* [UPnP PortMapper](https://github.com/kaklakariada/portmapper)：UPnP PortMapper是一个易于使用的程序，用于管理本地网络中启用UPnP的互联网网关设备的端口映射。
+* [Port Mapper](https://github.com/offbynull/portmapper)：Port Mapper项目是一个Java库，可用于在启用NAT的路由器上转发端口。
+* [WeUPnP](https://github.com/bitletorg/weupnp)：WeUPnP是用Java编写的小型UPnP客户端库。
+* [Cybergarage UPnP](https://github.com/cybergarage/cybergarage-upnp)：Cybergarage UPnP是面向Java开发人员的UPnP开发包。
+* [WaifUPnP](https://github.com/adolfintel/WaifUPnP)：WaifUPnP是UPnP的一个非常基本的实现。
+* [HPPT](https://github.com/codingmiao/hppt)：HPPT是一款可通过任意协议转发TCP端口的工具。
+
+#### P2P
+
+* [I2P](https://github.com/i2p/i2p.i2p)：I2P是一个匿名网络，提供一个简单的层，身份敏感的应用程序可以使用该层进行安全通信。
+* [Peergos](https://github.com/Peergos/Peergos)：Peergos是一个创新性的去中心化文件存储和协作平台，它致力于提供安全、私密和可验证的在线分享与交互体验，由牛津大学、墨尔本大学等开源。
+* [Diztl](https://github.com/gravetii/diztl)：用于LAN的点对点文件发现和共享工具。
+* [Nightweb](https://github.com/oakes/Nightweb)：Nightweb是一款适用于Android设备和PC的应用，可帮助你连接到匿名的点对点社交网络。
+* [JVM Libp2p](https://github.com/libp2p/jvm-libp2p)：用Kotlin编写的JVM的Libp2p实现。
+* [Xeres](https://github.com/zapek/Xeres)：Xeres是一款朋友之间、去中心化且安全的通信和共享应用程序。
+* [Hive2Hive](https://github.com/Hive2Hive/Hive2Hive)：Hive2Hive是一个用Java编写的开源库，用于安全、分布式、基于P2P的文件同步和共享。
+* [Near](https://github.com/adroitandroid/Near)：Near是适用于Android的P2P库，用于使用UDP在本地网络上进行发现，并使用TCP套接字进行传输。
+* [P2P](https://github.com/metanet/p2p)：这是一个使用Java和Netty构建非结构化P2P网络的实验性工作。
+* [JED2K](https://github.com/a-pavlov/jed2k)：ED2K网络的Java库。
+* [TeleHash](https://github.com/quartzjer/TeleHash)：Telehash是一种100%开放、安全的网状网络技术。
+* [Iroh FFI](https://github.com/n0-computer/iroh-ffi)：Iroh的FFI绑定。
+* [Nostr Java](https://github.com/tcheeric/nostr-java)：Nostr Java是一个用于Nostr协议的Java SDK。
+* [I2P+](https://github.com/I2PPlus/i2pplus)：I2P+是Java I2P匿名网络层的软分支。
+* [MuWire](https://github.com/zlatinb/muwire)：MuWire是一款文件发布和网络工具，它利用I2P技术保护用户身份。
+* [Tahrir](https://github.com/sanity/tahrir)：Tahrir是一个去中心化、抗审查、类似Twitter的P2P网络。
+* [I2P Zero](https://github.com/i2p-zero/i2p-zero)：零依赖、小占用空间、跨平台的I2P Java路由器，带有简单的隧道/套接字控制器和SAM接口。
+
+#### BitTorrent
+
+* [Bt](https://github.com/atomashpolskiy/bt)：BitTorrent库和客户端，具有DHT、磁力链接、加密等功能。
+* [BiglyBT](https://github.com/BiglySoftware/BiglyBT)：基于Azureus开源项目的功能齐全的Bittorrent客户端。
+* [PeerBanHelper](https://github.com/PBH-BTN/PeerBanHelper)：PeerBanHelper是一个开源的个人网络防火墙安全软件。
+* [Vuze](https://www.vuze.com/)：Vuze是一个用Java编写的BitTorrent客户端，且支持I2P和Tor匿名网络协议。
+* [Snail](https://gitee.com/acgist/snail)：基于Java、JavaFX开发的下载工具，支持下载协议BT(BitTorrent、磁力链接、种子文件)、HLS(M3U8)、FTP、HTTP。
+* [MLDHT](https://github.com/the8472/mldht)：一个Java库和独立节点，实现了基于Kademlia的BitTorrent主线DHT，并考虑到长期运行的服务器级节点。
+* [Kademlia](https://github.com/JoshuaKissoon/Kademlia)：这是Kademlia路由协议和DHT的实现。
+* [OpenSeedbox](https://github.com/openseedbox/openseedbox)：OpenSeedbox是一个基于Web的BitTorrent用户界面。
+* [BitLet](https://github.com/bitletorg/bitlet)：BitLet是BitTorrent协议的简单Java实现。
+* [Ttorrent](https://github.com/mpetazzoni/ttorrent)：BitTorrent协议的Java实现。
+* [FrostWire JLibTorrent](https://github.com/frostwire/frostwire-jlibtorrent)：FrostWire为libtorrent提供的swig Java接口。
+* [Libtorrent4j](https://github.com/aldenml/libtorrent4j)：Libtorrent的swig Java接口。
+* [FrostWire](https://github.com/frostwire/frostwire)：FrostWir是BitTorrent网络的媒体播放器和点对点(P2P)信息共享客户端。
+* [STorrent](https://github.com/oxlade39/STorrent)：STorrent是一个几乎完全用Akka编写的BitTorrent客户端。
+* [Torrent4j](https://github.com/Rogiel/torrent4j)：用纯Java实现的Bittorrent库。
+* [JavaTorrent](https://github.com/Johnnei/JavaTorrent)：Java Torrent是一个用Java编写的BitTorrent协议实现。
+* [qBittorrent Kotlin](https://github.com/DrewCarlson/qBittorrent-Kotlin)：qBittorrent Web API的Kotlin封装。
+
+#### SDN
+
+* [OpenDaylight](https://github.com/opendaylight)：OpenDaylight由Linux基金会支持，其目标在于开发支援软件定义网络(SDN)的各种软件工具，建立网络功能虚拟化的基础。
+* [Floodlight](https://github.com/floodlight/floodlight)：Floodlight是领先的开源OpenFlow控制器，由Cisco维护。
+* [Lighty](https://github.com/PANTHEONtech/lighty)：Lighty是一个由OpenDaylight提供支持的SDK，用于支持、简化和加速Java中软件定义网络(SDN)解决方案的开发，由PANTHEON开源。
+* [FlowVisor](https://github.com/opennetworkinglab/flowvisor)：FlowVisor是一款专用的OpenFlow控制器，它充当OpenFlow交换机和多个OpenFlow控制器之间的透明代理。
+
+#### SMB
+
+* [jCIFS NG](https://github.com/AgNO3/jcifs-ng)：jCIFS库的清理和改进版本。
+* [SMBJ](https://github.com/hierynomus/smbj)：Java中的服务器消息块(SMB2、SMB3)实现。
+* [JCIFS](https://github.com/codelibs/jcifs)：JCIFS是一个开源客户端库，以纯Java实现CIFS/SMB网络协议。
+
+#### KCP
+
+* [Java KCP](https://github.com/l42111996/java-Kcp)：基于Netty实现的可靠UDP网络库(kcp算法)，包含fec实现。
+* [KCP Netty](https://github.com/szhnet/kcp-netty)：基于Netty的KCP的Java实现。
+* [JKCP](https://github.com/beykery/jkcp)：JKCP直接构建于UDP之上并提供方便的编程接口，只需要继承相关的类即可。
+* [KCP Java](https://github.com/hkspirt/kcp-java)：KCP的Java版本。
+* [KTUCP Netty](https://github.com/hjcenry/ktucp-netty)：KTUCP的Netty实现。
+
+#### QUIC
+
+* [Cronet](https://chromium.googlesource.com/chromium/src/+/master/components/cronet)：Cronet是Google开发的一个网络库，旨在提供高性能、低延迟的网络请求和数据传输。
+* [Kwik](https://github.com/ptrd/kwik)：Kwik是QUIC协议Java的实现，Kwik最初仅作为客户端，但自2021年5月起它支持客户端和服务器。
+* [Quiche4j](https://github.com/kachayev/quiche4j)：QUIC传输协议和HTTP/3的Java实现。
+* [Netty QUIC Codec](https://github.com/netty/netty-incubator-codec-quic)：这是利用quiche的Netty的新型实验性QUIC编解码器。
+* [Quincy](https://github.com/protocol7/quincy)：Quincy是基于Netty框架的QUIC的Java实现。
+* [KNet](https://github.com/VKCOM/KNet)：支持QUIC协议的Android网络库。
+* [Cronet Transport OkHttp](https://github.com/google/cronet-transport-for-okhttp)：该软件包允许OkHttp和Retrofit用户使用Cronet作为其传输层，并受益于QUIC/HTTP3支持和连接迁移等功能，由Google开发。
+* [Java Quic](https://github.com/trensetim/quic)：QUIC的纯Java实现。
+
+#### SNMP
+
+* [SNMP4J](https://www.snmp4j.org/)：SNMP4J是一种企业级、免费开源且最先进的Java SNMP v1/2c/v3实现。
+* [Mibble](https://github.com/cederberg/mibble)：Mibble是一个开源的Java SNMP MIB解析器库。
+* [Tnm4j](https://github.com/soulwing/tnm4j)：基于Tcl Tnm扩展，简化了Java的SNMP API。
+* [NetSNMPj](https://netsnmpj.sourceforge.net/)：NetSNMPj是一个开源Java库，允许Java代码使用net-snmp库执行SNMP v1、v2c和v3操作。
+* [SNMP API](https://ireasoning.com/snmpapi.shtml)：SNMP API是业界领先的SNMP库，它为构建网络管理应用程序提供了高性能、跨平台的SNMP Java API。
+* [DynamicSNMP](https://monfox.com/dsnmp/java-snmp-agent-sdk.html)：DynamicSNMP提供了一组通用的高级Java API，可大大简化平台无关的Java SNMP v1、v2c和v3代理软件的开发。
+* [SNMP Java](https://metricshub.org/snmp-java/)：Westhawk的轻量级SNMP协议栈，基于Java编写。
+
+#### SOCKS
+
+* [JSocks](https://github.com/ravn/jsocks)：JSocks是一个完全用Java编写的SOCKS服务器，同时支持SOCKS4和SOCKS5协议。
+* [SocksLib](https://github.com/fengyouchao/sockslib)：SocksLib是一个针对SOCKS5协议的Java库。
+* [Java SOCKS Proxy Server](https://github.com/bbottema/java-socks-proxy-server)：Java SOCKS Proxy Server是Java的SOCKS 4/5服务器。
+* [FlyingSocks](https://github.com/abc123lzf/flyingsocks)：该项目是基于Java Netty开发的Socks5代理客户端/服务器。
+* [JenTunnel](https://github.com/ggrandes/jentunnel)：JenTunnel是一个用Java编写、非常轻量级的SOCKS和HTTP代理服务器。
+* [Socks5 Netty](https://github.com/xtuhcy/socks5-netty)：基于Netty实现的Socks5代理。
+* [AgentX](https://github.com/ZhangJiupeng/AgentX)：AgentX是一个基于Netty的Socks5网络代理。
+
+#### Radius
+
+* [TinyRadius](https://github.com/ctran/TinyRadius)：TinyRadius是一个简单、小巧且快速的Java Radius库，能够发送和接收所有类型的Radius数据包。
+* [JRadius](https://github.com/coova/jradius)：JRadius是一个用于客户端和服务器的Java Radius框架。
+* [TinyRadius Netty](https://github.com/globalreachtech/tinyradius-netty)：TinyRadius Netty是一个Java Radius库。
+* [AAA4j Radius](https://github.com/aaa4j/aaa4j-radius)：用于构建Radius客户端和Radius服务器的Java库。
+* [jDiameter](https://github.com/RestComm/jdiameter)：jDiameter提供了一个开源的Java实现，用于实现Diameter标准的身份验证、授权和计费(AAA)功能。
+
+#### NETCONF
+
+* [ANX](https://github.com/cisco-ie/anx)：适用于Java的高级NETCONF浏览器和NETCONF客户端库，Cisco开源。
+* [NETCONF Java](https://github.com/Juniper/netconf-java)：一个现代化的NETCONF Java库。
+* [OpenDaylight NETCONF](https://github.com/opendaylight/netconf)：本项目托管了IETF NETCONF工作组定义的协议的实现。
+* [JNC](https://github.com/tail-f-systems/JNC)：Java NETCONF客户端。
+* [NETCONF4J](https://github.com/dana-i2cat/netconf4j)：这是一个从零开始实现的简单版Netconf协议。
+
+#### IP
+
+* [Ip2region](https://github.com/lionsoul2014/ip2region)：Ip2region是一个离线IP地址定位库和IP定位数据管理框架，提供了众多主流编程语言的xdb数据生成和查询客户端实现。
+* [IPAddress](https://github.com/seancfoley/IPAddress)：IPAddress是用于处理IP地址和子网(IPv4和IPv6)的Java库。
+* [Qqwry Java](https://github.com/jarod/qqwry-java)：读取QQWry IP数据库的Java库。
+* [Commons IP Math](https://github.com/jgonian/commons-ip-math)：Commons IP Math提供了丰富、类型安全的API，用于处理对IP资源执行的最常见操作，例如解析、以多种表示法打印、检查范围是否重叠或可以合并等。
+* [Java IPv6](https://github.com/janvanbesien/java-ipv6)：Java IPv6是一个用于IPv6相关概念的Java库，例如IPv6地址、网络掩码、地址池等。
+* [17mon](https://github.com/17mon/java)：17mon IP库解析代码。
+* [IP4s](https://github.com/Comcast/ip4s)：该项目定义了不可变、安全的数据结构，用于描述IP地址、组播连接、套接字地址以及类似的IP和网络相关数据类型。
+* [IPinfo](https://github.com/ipinfo/java)：IPinfo.io IP地址API的官方Java客户端库。
+* [ArtNet4j](https://github.com/cansik/artnet4j)：Art-Net DMX IP Java和Processing库。
+* [IpDB Java](https://github.com/ipipdotnet/ipdb-java)：IPIP.net官方支持的IP数据库ipdb格式解析库。
+* [IP Info](https://gitee.com/jthinking/ip-info)：IP地理位置获取，支持获取IPv4、IPv6地址信息。
+* [JIP Common](https://gitee.com/toktok/jip-common)：JIP Common支持IPv4和IPv6，多种IP格式的解析。
+* [Ineter](https://github.com/maltalex/ineter)：用于处理IP地址、范围和子网的快速Java库。
+* [CZ88.IP](https://github.com/tagphi/czdb-search-java)：CZDB Search是一个用于在CZ88 IP库中搜索数据的Java库。
+* [IP2Location](https://github.com/renfei/ip2location)：IP2Location提供免费的IP地理位置数据库。
+* [IP2Location](https://github.com/ip2location/ip2location-java)：IP2Location组件允许用户查询IP地址以获取访问者的国家、地区、城市、ISP或公司名称等信息。
+* [QQZeng IP](https://github.com/zengzhan/qqzeng-ip)：QQZeng IP地址数据库。
+* [Java DB-IP](https://github.com/ankushs92/Java-DB-IP)：一个用于DB-IP无城市数据库的Java封装。
+
+#### SIP
+
+* [JSS7](https://github.com/RestComm/jss7)：jSS7提供了一个开源软件解决方案，实现了专用设备的M3UA、SCCP、TCAP、CAMEL、MAP、ISUP协议，以及基于IP的M3UA协议。
+* [SIP Servlet](https://github.com/RestComm/sip-servlets)：RestComm SIP Servlet是SIP、IMS和WebRTC应用服务器。
+* [Java SIP MRCP](https://github.com/laoyin/java-sip-mrcp)：Java SIP MRCP是一个基于Java的项目，实现了SIP协议和MRCPv2协议，用于实时语音转写(ASR)的媒体传输。
+* [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
+* [Peers](https://github.com/ymartineau/peers)：Peers是一款SIP、SDP、RTP兼容的软电话。
+* [ICE4j](https://github.com/jitsi/ice4j)：ICE协议的Java实现，可供SIP和XMPP应用程序使用。
+* [CSipSimple](https://github.com/r3gis3r/CSipSimple)：CSipSimple是一款开源的Android原生SIP客户端。
+* [Vonage Java SDK](https://github.com/Vonage/vonage-java-sdk)：Vonage Java服务端SDK，支持SMS、消息、语音、文字转语音、号码、认证、视频等API功能。
+* [SIP Proxy](https://github.com/lunasaw/gb28181-proxy)：GB28181 Proxy是基于SIP实现GB28181的通信框架，区分客户端和服务器。
+* [SoftSwitch Gateway](https://github.com/Atoms-Cat/softswitch-gateway)：基于Netty 4对接的OpenSIP导出事件、导出MI和FreeSWITCH事件套接字库。
+* [OpenVCX](https://github.com/openvcx/openvcx)：OpenVCX是一个基于SIP协议的视频流服务器，用于多方视频聊天、网络直播、录制和实时媒体分发。
+
+#### SMPP
+
+* [Cloudhopper SMPP](https://github.com/twitter-archive/cloudhopper-smpp)：Cloudhopper SMPP是SMPP的高效、可扩展且灵活的Java实现，由Twitter开源。
+* [jSMPP](https://github.com/opentelecoms-org/jsmpp)：jSMPP是SMPP协议的Java实现，它提供与消息中心或ESME通信的接口，并且能够处理每秒3000-5000条消息的流量。
+* [JSMPP](https://github.com/uudashr/jsmpp)：Java SMPP API。
+* [OpenSmpp](https://github.com/OpenSmpp/opensmpp)：OpenSmpp是一个成熟的Java库，可实现SMPP协议，并允许开发外部短信实体(ESME)等。
+* [SMPP Server](https://github.com/elibom/smpp-server)：SMPP Server是一个基于Cloudhopper SMPP库的项目，它接收客户端连接，并允许你轻松处理SMPP数据包。
+* [Spring Boot Starter SMPP](https://github.com/MikeSafonov/spring-boot-starter-smpp)：使用Spring Boot Starter通过SMPP发送短信。
+
 ## 并发编程
 
 * [Concurrent Ruby](https://github.com/ruby-concurrency/concurrent-ruby)：Ruby的现代并发工具，可通过JRuby、TruffleRuby用于Java。
@@ -1544,6 +2135,7 @@
 * [DLSync](https://github.com/Snowflake-Labs/dlsync)：DLSync是一款数据库变更管理工具，旨在简化Snowflake变更的开发和部署。
 * [AutoPatch](https://github.com/tacitknowledge/autopatch)：AutoPatch是一个用于Java的自动化数据库修补框架。
 * [Sqiffy](https://github.com/dzikoysk/sqiffy)：Sqiffy是一个实验性的复合SQL框架，它使用类型安全的DSL API。
+* [Bee](https://github.com/bluesoft/bee)：数据库变更管理器。
 
 #### 数据源增强
 
@@ -3648,6 +4240,7 @@
 * [Brackit](https://github.com/sirixdb/brackit)：Brackit是一个功能强大的JSONiq引擎，用于查询JSON和XML。
 * [Josson](https://github.com/octomix/josson)：Josson是一个完整的JSON查询和转换语言。
 * [Kt JsonQ](https://github.com/shuza/kt-jsonq)：Kt JsonQ是一个简洁优雅的Kotlin库，用于查询任何类型的JSON数据。
+* [SQL4Json](https://github.com/mnesimiyilmaz/sql4json)：SQL4Json允许你使用熟悉的SQL SELECT语法查询内存中的JSON数据。
 
 #### JSON Patch
 
@@ -4810,7 +5403,7 @@
 * [UFLO2](https://github.com/youseries/uflo)：UFLO是一款基于Spring的纯Java流程引擎，支持并行、动态并行、串行、会签等各种流转方式。
 * [NFlow](https://github.com/NitorCreations/nflow)：NFlow是一种经过验证的用于编排业务流程的解决方案，它可以用作微服务编排器(Saga模式)、业务流程引擎或持久有限状态机。
 * [WFlow](http://wflow.willianfu.top/)：WFlow工作流是一个简单易用，面向普通用户的工作流系统。
-* [FlowLong](https://gitee.com/aizuda/flowlong)：由爱组搭开源的工作流引擎
+* [FlowLong](https://gitee.com/aizuda/flowlong)：由爱组搭开源的工作流引擎。
 * [Concord](https://github.com/walmartlabs/concord)：Concord是一个工作流服务器，它是使用用户创建的场景和插件将不同系统连接在一起的编排引擎，由沃尔玛开源。
 * [OpenWebFlow](https://github.com/bluejoe2008/openwebflow)：OpenWebFlow是基于Activiti扩展的工作流引擎。
 * [DataBuilder](https://github.com/flipkart-incubator/databuilderframework)：DataBuilder框架是一个高级逻辑执行引擎，可用于执行多步骤工作流，该引擎目前为Flipkart的结账系统以及诊断和其他工作流提供支持。
@@ -8535,8 +9128,8 @@ Kafka生态管理系统、运维平台。
 * [RESThub](https://github.com/resthub/resthub-spring-stack)：RESThub是一个基于Spring和Backbone.js的技术栈，旨在轻松高效地构建HTML5应用程序。
 * [FlyCloud](https://github.com/mxdldev/spring-cloud-flycloud)：FlyCloud包括了用Spring Cloud构建微服务的一系列基本组件和框架。
 * [Edison MicroService](https://github.com/otto-de/edison-microservice)：Spring Boot之上的独立库集合，可提供更快的JVM微服务设置。
-* [Fw Cloud Framework](https://github.com/liuweijw/fw-cloud-framework)：基于Spring Cloud全家桶开发分布式框架，实现基于Vue全家桶等前后端分离项目工程。
 * [TOTVS Java Framework](https://tjf.totvs.com.br/)：TOTVS Java Framework是一个专为云原生应用程序设计的框架，结合了Java技术和Spring技术。
+* [Fw Cloud Framework](https://github.com/liuweijw/fw-cloud-framework)：基于Spring Cloud全家桶开发分布式框架，实现基于Vue全家桶等前后端分离项目工程。
 * [DevOps Boot](https://github.com/bkdevops-projects/devops-framework)：DevOps Boot是基于Spring Boot的微服务快速开发框架，由腾讯DevOps团队开发。
 * [Hawaii Framework](https://github.com/hawaiifw/hawaii-framework)：Hawaii Framework是一个用于开发基于Spring的应用程序的Java框架，由ilionx开源。
 * [Essencium Backend](https://github.com/Frachtwerk/essencium-backend)：Essencium是一个构建在Spring Boot之上的软件库，允许开发人员快速开始新的软件项目。
@@ -8780,7 +9373,7 @@ Kafka生态管理系统、运维平台。
 * [Nussknacker](https://github.com/TouK/nussknacker)：Nussknacker是一款低代码可视化工具，可供领域专家构建、运行和监控实时决策算法，而不是在代码中实现它们。
 * [JeeLowCode](https://gitee.com/jeelowecode/JeeLowCode)：JeeLowCode是一款基于芋道源码精心二次封装的企业级低代码开发框架。
 * [Gemini](https://github.com/gemini-projects/gemini)：云原生和低代码平台，可在几分钟内创建全栈Web管理应用程序。
-* [Oinone](https://gitee.com/oinone/oinone-pamirs)：Oinone是一个赋能企业标准化研发和敏捷交付的统一低代码平台，由数式科技开发。
+* [Oinone](https://github.com/oinone/oinone-pamirs)：Oinone是一个赋能企业标准化研发和敏捷交付的统一低代码平台，由数式科技开发。
 * [MuYun](https://github.com/ximatai/MuYun)：MuYun是一个云原生、开发者优先、前后端分离、按需插拔的轻代码平台。
 * [Aware IM](https://www.awareim.com/)：Aware IM是一款低代码Web应用构建器，专为快速、稳定且可扩展的开发而设计，由Awaresoft开发。
 * [Informat](https://www.informat.cn/)：织信是基石协作科技自研的低代码应用构建平台。
@@ -8798,6 +9391,10 @@ Kafka生态管理系统、运维平台。
 * [YOMA](https://github.com/msh01/yoma)：YOMA是一个小而美的低代码全栈开发平台。
 * [DaaS Start Kit](https://github.com/doublechaintech/daas-start-kit)：DaaS是一个面向大型软件开发系统和私有部署的开发工具。
 * [Lite API](https://gitee.com/xc_java/lite-api)：Lite API是一个基于JFinal框架的轻量级API敏捷开发框架。
+* [Once](https://github.com/YiiGaa/Once)：一个基于RESTful API的后端低代码框架。
+* [Flow EAD](https://github.com/Linxfeng/flow-eda)：Flow EAD是一种基于事件驱动的流式低代码编程应用程序。
+* [JNPF Platform](https://github.com/Angelo0504/lowCodePlatform)：低代码开发平台项目。
+* [Aizuda Components](https://github.com/aizuda/aizuda-components)：低代码、无代码、零代码开发组件库。
 
 #### 权限管理系统
 
@@ -9437,6 +10034,7 @@ Kafka生态管理系统、运维平台。
 * [SSMBlog](https://github.com/oldbiwang/SSMBlogv2)：基于Spring、Spring MVC、Mybatis、Bootstrap、Ajax的个人响应式博客。
 * [TBlog](https://github.com/xieshuang/t-blog)：简洁的个人博客系统。
 * [Spring Blog](https://github.com/jaycekon/Spring-Blog)：分模块化开发的Spring Boot博客平台。
+* [Dim Stack](https://github.com/lingview/dim_stack)：基于Spring Boot、React的现代化个人博客系统。
 
 #### 论坛系统
 
@@ -10797,12 +11395,6 @@ Kafka生态管理系统、运维平台。
 * [Netty Server](https://github.com/cosmoplat-dev/netty-server)：Netty Server使用Spring Boot、Netty进行搭建，主要做软件和智能硬件之间的通信框架。
 * [Easy IoT](https://gitee.com/damocode/easy-iot)：Easy IoT是一款轻量级物联网开发的SDK。
 
-#### 物联网SDK
-
-* [Azure IoT SDK](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
-* [AWS IoT Device SDK Java](https://github.com/aws/aws-iot-device-sdk-java)：AWS IoT Device SDK使Java开发人员能够通过MQTT或基于WebSocket协议的MQTT访问AWS IoT平台。
-* [IoT Device Java](https://github.com/tencentyun/iot-device-java)：腾讯云物联网通信Java和Android SDK。
-
 #### 物联网平台
 
 * [SmartThings](https://www.samsung.com/us/smartthings/)：SmartThings是一款免费应用程序，它使用Wi-Fi连接基于Matter协议的智能设备，无论其制造商是哪家公司，这是三星的产品。
@@ -10846,6 +11438,12 @@ Kafka生态管理系统、运维平台。
 * [GYJ IoT](https://gitee.com/jishenghua/gyj-iot)：基于Vue 3.4和Spring Boot 2.5框架开发的物联网软件。
 * [FireControl](https://gitee.com/cabrfire/firecontrol)：TMC智慧消防云平台。
 * [Iceburg](https://github.com/Deshan555/IOT-Smart_Farming)：Iceburg是一个智能项目，旨在促进农业农场的互动和管理改进。
+
+#### 物联网SDK
+
+* [Azure IoT SDK](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
+* [AWS IoT Device SDK Java](https://github.com/aws/aws-iot-device-sdk-java)：AWS IoT Device SDK使Java开发人员能够通过MQTT或基于WebSocket协议的MQTT访问AWS IoT平台。
+* [IoT Device Java](https://github.com/tencentyun/iot-device-java)：腾讯云物联网通信Java和Android SDK。
 
 #### 智能家居
 
@@ -11225,6 +11823,7 @@ Kafka生态管理系统、运维平台。
 * [MontiCore](https://github.com/MontiCore/monticore)：MontiCore是一个用于高效开发DSL的语言工作台，它处理定义DSL的扩展语法格式并生成用于处理DSL文档的Java组件，由亚琛工业大学开发。
 * [Spoofax](https://github.com/metaborg/spoofax)：Spoofax是一个帮助开发者快速开发领域特定语言(DSL)的平台。
 * [Dsl.scala](https://github.com/ThoughtWorksInc/Dsl.scala)：Dsl.scala是一个在Scala中创建嵌入式DSL的框架，由ThoughtWorks开源。
+* [DSL DevKit](https://github.com/dsldevkit/dsl-devkit)：用于使用Xtext实现领域特定语言的开发工具包。
 
 ## JMX
 
@@ -11320,6 +11919,7 @@ Kafka生态管理系统、运维平台。
 * [Max Bot API Java Client](https://github.com/max-messenger-client/max-bot-api-client-java)：Max Bot API的Java客户端。
 * [YuQ](https://github.com/YuQWorks/YuQ)：YuQ是一个机器人快速开发框架。
 * [Mail.Ru IM Java](https://github.com/mail-ru-im/bot-java)：Mail.Ru IM机器人API的Java接口。
+* [Xatkit](https://github.com/xatkit-bot-platform/xatkit-runtime)：Xatkit低代码聊天机器人平台的核心运行时引擎。
 
 #### Discord机器人
 
@@ -12536,6 +13136,8 @@ Kafka生态管理系统、运维平台。
 * [FlatSwing](https://github.com/Mommoo/FlatSwing)：一个由平面设计制成的漂亮的Java Swing库。
 * [JTattoo](https://github.com/michael-hagen/JTattoo)：JTattoo是一个基于Swing的应用程序的LaF库。
 * [JGoodies Looks](https://www.jgoodies.com/freeware/libraries/looks/)：JGoodies的Windows L&F系列能让你的Swing应用看起来更美观。
+* [WebLookAndFeel](https://github.com/margelperetto/WebLookAndFeel)：为Swing应用程序设计类似Web风格的Java外观和体验。
+* [ElementUI](https://github.com/gufengchangdao/ElementUI)：Swing的UI组件库。
 
 #### Swing UI库
 
@@ -12578,6 +13180,9 @@ Kafka生态管理系统、运维平台。
 * [JIDE Components](https://www.jidesoft.com/products/component.htm)：JIDE Components包含一系列非常实用的组件。
 * [JIDE Dashboard](https://www.jidesoft.com/products/dashboard.htm)：JIDE Dashboard提供了一个占位符来展示各种小部件。
 * [JIDE Grids](https://www.jidesoft.com/products/grids.htm)：JIDE Grids是一个包含所有JTable相关组件的集合。
+* [JBrowser](https://github.com/caiiiycuk/jbrowser)：JBrowser是一款易于使用的Web浏览器Swing组件。
+* [SwingMaterialDesign](https://github.com/ibilux/SwingMaterialDesign)：一套用于Java Swing的Material Design组件。
+* [Swing Terminal](https://github.com/wille/swing-terminal)：Swing组件，外观和行为都与任何普通终端类似。
 
 #### Swing对话框
 
@@ -12618,6 +13223,7 @@ Kafka生态管理系统、运维平台。
 * [JDatePicker](https://github.com/JDatePicker/JDatePicker)：JDatePicker和JDatePanel是一组用于Java Swing应用程序的高级DatePicker控件。
 * [ColorPick](https://github.com/dheid/colorpicker)：一个使用Java Swing的漂亮颜色选择器，包含可视颜色选择和用于手动输入RGB和HSB值的输入框。
 * [JnaFileChooser](https://github.com/steos/jnafilechooser)：使用Windows原生对话框的Java文件选择器API。
+* [NativeJFileChooser](https://github.com/steffen678/NativeJFileChooser)：这是一个可直接替代Swing文件选择器的插件。
 
 #### Swing图表库
 
@@ -12644,6 +13250,7 @@ Kafka生态管理系统、运维平台。
 * [JIDE Gantt Chart](https://www.jidesoft.com/products/gantt.htm)：JIDE Gantt Chart是一个纯粹的Java Swing库，使你可以在Swing应用中创建甘特图成为可能。
 * [JIDE Charts](https://www.jidesoft.com/products/charts.htm)：JIDE Charts是一个强大且灵活的图表软件。
 * [ChartX](https://github.com/apokalypsix/chartx)：适用于Java Swing应用程序的高性能GPU加速图表库。
+* [Iceberg Charts](https://github.com/oliverwatkins/Iceberg-Charts)：Swing图表库。
 
 #### Swing测试库
 
@@ -12657,11 +13264,9 @@ Kafka生态管理系统、运维平台。
 #### JavaFX
 
 * [Scene Builder](https://github.com/gluonhq/scenebuilder)：Scene Builder是一款拖放式UI设计工具，可实现快速桌面和移动应用程序开发。
-* [RxJavaFX](https://github.com/ReactiveX/RxJavaFX)：RxJavaFX是一个轻量级库，用于将JavaFX事件转换为RxJava Observables/Flowables，反之亦然。
 * [WorkbenchFX](https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX)：用于JavaFX应用程序的轻量级RCP框架。
 * [MVVMFX](https://github.com/sialcasa/mvvmFX)：MVVMFX是一个应用程序框架，它为你提供使用JavaFX实现MVVM模式所需的组件。
 * [JWM](https://github.com/HumbleUI/JWM)：JWM是一个跨平台的Java窗口管理和操作系统集成库。
-* [ReactFX](https://github.com/TomasMikula/ReactFX)：ReactFX是对JavaFX响应式编程技术的补充。
 * [Substrate](https://github.com/gluonhq/substrate)：Gluon Substrate是一款将JavaFX客户端应用程序转换为桌面、移动和嵌入式设备的本机可执行文件的工具。
 * [WebFX](https://github.com/webfx-project/webfx)：WebFX是一个由GWT提供支持的JavaFX应用程序转译器，它可以将JavaFX应用程序转换为传统的独立纯JavaScript Web应用程序。
 * [TestFX](https://github.com/TestFX/TestFX)：TestFX是一个用于简单、干净地测试JavaFX应用程序和组件的库。
@@ -12669,10 +13274,8 @@ Kafka生态管理系统、运维平台。
 * [ValidatorFX](https://github.com/effad/ValidatorFX)：ValidatorFX是JavaFX的表单验证库。
 * [EasyBind](https://github.com/TomasMikula/EasyBind)：EasyBind在创建自定义绑定时利用Lambda来减少样板文件，为Bindings.select*方法提供类型安全的替代方案，并向ObservableValue添加单子操作。
 * [Advanced Bindings](https://github.com/manuel-mauky/advanced-bindings)：Advanced Bindings是一些有用的帮助程序和自定义绑定实现的集合，用于简化大量基于JavaFX的属性和绑定的应用程序的开发。
-* [Gluon Maps](https://github.com/gluonhq/maps)：Gluon Maps提供了一种将OpenStreetMaps集成到JavaFX应用程序中的简单方法，它速度极快，并提供图层叠加、多个图块集等等。
 * [LibRawFX](https://github.com/lanthale/LibRawFX)：集成适用于所有主要操作系统(Linux、Windows、OSX)的JavaFX的LibRaw库。
 * [UpdateFX](https://github.com/vinumeris/updatefx)：UpdateFX是一个小型、简单的JavaFX应用程序自动在线更新框架。
-* [ReduxFX](https://github.com/netopyr/reduxfx)：ReduxFX是一组库，使你能够在JavaFX应用程序中使用函数式响应式编程。
 * [EasyFXML](https://github.com/Tristan971/EasyFXML)：EasyFXML是一组固执己见的工具，旨在简化健壮且模块化的JavaFX应用程序的开发。
 * [FxmlKit](https://github.com/dlsc-software-consulting-gmbh/FxmlKit)：JavaFX FXML加载器，支持FXML/CSS热重载和约定优于配置。
 * [JRebirth](https://github.com/JRebirth/JRebirth)：JRebirth是一个JavaFX应用程序框架。
@@ -12688,7 +13291,8 @@ Kafka生态管理系统、运维平台。
 * [SynchronizeFX](https://github.com/zeiss-digital-innovation/SynchronizeFX)：SynchronizeFX支持在本地计算机和网络上的不同JVM之间进行属性绑定。
 * [JideFX](https://github.com/jidesoft/jidefx-oss)：JideFX通用层是JavaFX平台各种扩展和实用程序的集合。
 * [FX](https://github.com/int4-org/FX)：这是一个JavaFX库，提供流式、类型安全的控件、面板和自定义节点构建器，以及响应式、领域感知模型和可观察实用程序。
-* [FXMaps](https://github.com/fxpresso/FXMaps)：FXMaps允许你将Google地图嵌入到JavaFX应用程序中。
+* [FXRouter](https://github.com/Marcotrombino/FXRouter)：一个简单的JavaFX路由器，用于在应用程序场景之间切换。
+* [Kairos](https://github.com/Kairos-Project/kairos-framework)：Kairos让你能够像在Android中一样，使用Activity和Fragment构建JavaFX应用程序，并使用Material Design创建出色的用户界面。
 
 #### JavaFX主题库
 
@@ -12709,6 +13313,9 @@ Kafka生态管理系统、运维平台。
 * [FlatBee](https://github.com/marcschuler/FlatBee)：一个扁平化、流式的JavaFX CSS主题。
 * [FXThemes](https://github.com/dukke/FXThemes)：用于JavaFX高级主题开发的实用程序类。
 * [GNDecorator](https://github.com/gleidsonmt/GNDecorator)：适用于JavaFX应用程序的现代窗口装饰器。
+* [Fextile](https://github.com/watermint/Fextile)：Fextile是一个类似Twitter Bootstrap的JavaFX UI框架。
+* [AeroFX](https://github.com/Maddosaurus/aerofx)：JavaFX皮肤，打造原生Windows 7外观和感觉。
+* [ElementFX](https://github.com/Anivie/ElementFX)：JavaFX中的ElementUI，只需要一行代码就可以得到一个漂亮的应用程序。
 
 #### JavaFX样式库
 
@@ -12731,6 +13338,7 @@ Kafka生态管理系统、运维平台。
 * [JavaFX Blur](https://github.com/kieferlam/JavaFX-Blur)：该库提供了使用JNI调用本机窗口管理器功能将模糊效果应用于JavaFX Stage的方法。
 
 * [JavaFX UI](https://github.com/xjw580/javafx-ui)：适用于JavaFX的UI组件库。
+* [ITStack Native Chat](https://github.com/itstack-naive-chat)：JavaFX开发的UI端，提供了登录体、聊天框体。
 
 #### JavaFX组件库
 
@@ -12758,7 +13366,6 @@ Kafka生态管理系统、运维平台。
 * [FXOK](https://github.com/comtel2000/fx-experience)：FXOK为带有XML布局配置的触摸显示器提供基于JavaFX 8的虚拟屏幕键盘组件。
 * [FroXty](https://github.com/iAmGio/froxty)：FroXty是一个JavaFX库，可以轻松复制著名的iOS半透明效果。
 * [GestureFX](https://github.com/tom91136/GestureFX)：JavaFX的轻量级捏合缩放窗格。
-* [FXFileChooser](https://github.com/Oliver-Loeffler/FXFileChooser)：自定义JavaFX文件选择器，允许快速手动过滤，允许添加路径谓词作为过滤器。
 * [FXTaskbarProgressBar](https://github.com/Dansoftowner/FXTaskbarProgressBar)：JavaFX的一个库，使你能够在Windows任务栏上显示进度。
 * [Grid](https://github.com/manuel-mauky/Grid)：Grid是一个JavaFX(8)组件，用于基于方格网格的不同类型的小游戏，例如国际象棋或数独。
 * [RichTextArea](https://github.com/gluonhq/rich-text-area)：RichTextArea是一种文本输入控件，它提供富文本功能以及表情符号和非文本对象(如图像、表格和超链接)。
@@ -12769,12 +13376,20 @@ Kafka生态管理系统、运维平台。
 * [NFX](https://github.com/xdsswar/nfx-lib)：NFX是适用于Windows 10/11的JavaFX/JNI库，可让你构建完全自定义、原生感觉的窗口Chrome-标题栏、按钮和框架行为。
 * [JFXC](https://github.com/innFactory/JFXC)：JFXC包含一些新的控件，可以扩展你的GUI。
 * [FX Progress Circle](https://github.com/torakiki/fx-progress-circle)：一些JavaFX进度指示器，以圆弧/圆环或填充圆的形式显示进度。
-* [JavaFxDialog](https://github.com/4ntoine/JavaFxDialog)：JavaFX 2的标准对话框。
 * [FranzXaver](https://github.com/afester/FranzXaver)：FranzXaver是一个JavaFX组件和工具库。
 * [FXSVGImage](https://github.com/hervegirod/fxsvgimage)：此库允许将SVG文件转换为JavaFX节点树或图像。
 * [JavaFXCalendar](https://github.com/poralcode/JavaFXCalendar)：JavaFX中的简单Material风格日历。
 * [Techsenger TabPanePro](https://github.com/techsenger/tabpanepro)：Techsenger TabPanePro是一个轻量级的JavaFX库，它通过自定义控制区域、自定义选项卡形状、带边缘滚动的选项卡拖放、选项卡滚动条等实用功能扩展了标准TabPane。
 * [TouchSlider](https://github.com/HanSolo/regulators)：JavaFX控件，可用于家庭自动化用户界面。
+* [FXComponents](https://github.com/dukke/FXComponents)：JavaFX的新控件。
+* [MarkdownEditorControlFX](https://github.com/Dansoftowner/MarkdownEditorControlFX)：一款适用于JavaFX的高级Markdown编辑器控件。
+* [Techsenger TabShell](https://github.com/techsenger/tabshell)：Techsenger TabShell是一个用于在JavaFX中构建基于选项卡的应用程序的平台。
+* [RadialFx](https://github.com/MrLoNee/RadialFx)：径向设计与JavaFX的完美结合。
+* [Emoji TextFlow JavaFX](https://github.com/pavlobu/emoji-text-flow-javafx)：一个扩展的JavaFX TextFlow，带有自定义表情符号图像，可帮助你在JavaFX跨平台UI应用程序中实现表情符号与文本的一致性。
+* [Simple Media Player](https://github.com/Al-assad/Simple-Media-Player)：JavaFX内嵌多媒体播放器。
+* [VAMaskField](https://github.com/vas7n/VAMaskField)：VAMaskField是JavaFX的一个扩展TextField。
+* [FXTools](https://github.com/HouariZegai/FXTools)：实用工具和用户界面，可以在JavaFX项目中使用它。
+* [JavaFX NeovimPane](https://github.com/jebberjeb/javafx-neovimpane)：这是一个JavaFX组件，允许用户使用Vim命令输入多行纯文本，并由嵌入式Neovim进程提供支持。
 
 #### JavaFX Dock库
 
@@ -12785,6 +13400,7 @@ Kafka生态管理系统、运维平台。
 * [BentoFX](https://github.com/Col-E/BentoFX)：JavaFX的Dock系统。
 * [Cedro Modern Dock](https://github.com/arthurdeka/cedro-modern-dock)：简洁流畅的开源Dock，通过自定义快捷方式，快速访问你常用的应用和系统模块。
 * [SnapFX](https://github.com/Beowolve/SnapFX)：SnapFX是一个轻量级JavaFX Docking框架。
+* [DockSystemFX](https://github.com/Dansoftowner/DockSystemFX)：一个受IntelliJ IDEA的Dock系统启发而开发的JavaFX停靠库。
 
 #### JavaFX图表库
 
@@ -12820,6 +13436,9 @@ Kafka生态管理系统、运维平台。
 * [JLeaflet](https://github.com/makbn/java_leaflet)：JLeaflet是一个用于将Leaflet地图集成到Vaadin和JavaFX应用中的Java库，支持完整的JPMS。
 * [Fancy Chart](https://github.com/tesis-dynaware/fancy-chart)：Fancy Chart是LineChart和TableView控件的组合。
 * [JavaFX Chart Zooming](https://github.com/kerner1000/javafx-chart-zooming)：JavaFX图表缩放。
+* [SmoothCharts](https://github.com/HanSolo/smoothcharts)：一个可平滑处理并具有鼠标交互功能的JavaFX折线/面积图。
+* [FXCharts](https://github.com/dukke/FXCharts)：对JavaFX内置图表库的增强。
+* [VisFX](https://github.com/arocketman/VisFX)：通过JavaFX轻松访问vis.js网络图。
 
 #### JavaFX图标库
 
@@ -12835,6 +13454,8 @@ Kafka生态管理系统、运维平台。
 * [Flowless](https://github.com/FXMisc/Flowless)：JavaFX的高效VirtualFlow，VirtualFlow是一个布局容器，可在垂直或水平流中布局单元格。
 * [FlexBoxFX](https://github.com/onexip/FlexBoxFX)：FlexBoxFX是CSS3弹性框布局管理器的JavaFX实现。
 * [ScaledFX](https://github.com/miho/ScaledFX)：JavaFX窗格，用于通过应用缩放变换来缩放任意内容节点(用于Vworkflow)。
+* [TemplateFX](https://github.com/tferi/templateFX)：TemplateFX是一个用Scala编写的JavaFX UI定义和协调库。
+* [Amaronui Layouts](https://github.com/AmaronUI/amaronui-layouts)：用Java实现的布局算法，可用于JavaFX、iOS和Android。
 
 #### JavaFX动画库
 
@@ -12846,6 +13467,7 @@ Kafka生态管理系统、运维平台。
 * [LitFX](https://github.com/Birdasaur/LitFX)：LitFX可以将其效果作为透明覆盖层应用到你的JavaFX GUI，这样效果就可以与你的各种节点进行交互，而无需事先了解你的布局。
 * [Tray Notification](https://github.com/PlusHaze/TrayNotification)：Tray Notification是JavaFX的一个库，为台式计算机添加了易于使用的托盘通知。
 * [Lottie4J](https://github.com/lottie4j/lottie4j)：Lottie4J是用于处理Lottie文件的Java库。
+* [GNButton](https://github.com/gleidsonmt/GNButton)：JavaFX自定义按钮动画。
 
 #### JavaFX渲染库
 
@@ -12853,6 +13475,33 @@ Kafka生态管理系统、运维平台。
 * [OpenGLFX](https://github.com/husker-dev/openglfx)：该库为JavaFX添加了新元素，用于使用LWJGL、JOGL、LWJGL2或LibGDX渲染OpenGL图形。
 * [NativeFX](https://github.com/miho/NativeFX)：JavaFX的原生渲染集成。
 * [JFXShader](https://github.com/Teragam/JFXShader)：允许在JavaFX中使用OpenGL(GLSL)或DirectX(HLSL)自定义效果着色器。
+* [Wayland JavaFX](https://github.com/udevbe/wayland-javafx)：一个用于JavaFX的Wayland后端。
+
+#### JavaFX选择器
+
+* [FXFileChooser](https://github.com/Oliver-Loeffler/FXFileChooser)：自定义JavaFX文件选择器，允许快速手动过滤，允许添加路径谓词作为过滤器。
+* [DateTimePicker](https://github.com/taipeiben/DateTimePicker)：JavaFX的基本日期和时间选择器控件。
+* [JWheatSheaf](https://github.com/io7m-com/jwheatsheaf)：JavaFX FileChooser的一个替代方案。
+* [PickerFX](https://github.com/dlsc-software-consulting-gmbh/PickerFX)：PickerFX是一个轻量级的框架，用于创建选择器控件。
+
+#### JavaFX地图库
+
+* [WorldFX](https://github.com/HanSolo/worldfx)：一个基于JavaFX的世界地图，支持鼠标交互和地理定位。
+* [FXMaps](https://github.com/fxpresso/FXMaps)：FXMaps允许你将Google地图嵌入到JavaFX应用程序中。
+* [Gluon Maps](https://github.com/gluonhq/maps)：Gluon Maps提供了一种将OpenStreetMaps集成到JavaFX应用程序中的简单方法，它速度极快，并提供图层叠加、多个图块集等等。
+
+#### JavaFX对话框
+
+* [JavaFxDialog](https://github.com/4ntoine/JavaFxDialog)：JavaFX 2的标准对话框。
+* [SimpleDialogFX](https://github.com/Daytron/SimpleDialogFX)：易于使用的轻量级对话框库，适用于JavaFX应用程序。
+
+#### JavaFX响应式库
+
+* [RxJavaFX](https://github.com/ReactiveX/RxJavaFX)：RxJavaFX是一个轻量级库，用于将JavaFX事件转换为RxJava Observables/Flowables，反之亦然。
+* [ReactFX](https://github.com/TomasMikula/ReactFX)：ReactFX是对JavaFX响应式编程技术的补充。
+* [ReduxFX](https://github.com/netopyr/reduxfx)：ReduxFX是一组库，使你能够在JavaFX应用程序中使用函数式响应式编程。
+* [ReactorFX](https://github.com/shadskii/ReactorFX)：这个轻量级的便捷库实现了Project Reactor和JavaFX之间的简单集成。
+* [FluxFX](https://github.com/manuel-mauky/FluxFX)：这是基于JavaFX的Flux架构的实验性实现。
 
 #### JavaFX项目模板
 
@@ -13075,6 +13724,7 @@ Kafka生态管理系统、运维平台。
 * [Kanvas](https://github.com/ftomassetti/kanvas)：Kanvas是一个用Kotlin编写的非常简单的编辑器，旨在方便用户进行扩展和修改。
 * [Markdown Writer FX](https://github.com/JFormDesigner/markdown-writer-fx)：用JavaFX编写的开源Markdown编辑器。
 * [TextMd](https://github.com/jdesive/textmd)：TextMD Markdown编辑器。
+* [JeditFX](https://github.com/lanthale/JeditFX)：JeditFX是一个非常轻量级的文本编辑器，用JavaFX编写。
 
 #### 在线编辑器
 
@@ -13447,6 +14097,8 @@ Kafka生态管理系统、运维平台。
 * [WraithEngine](https://github.com/TheDudeFromCI/WraithEngine)：WraithEngine是一款基于LWJGL的免费开源Java游戏引擎。
 * [JLud2D](https://github.com/rafael-esper/JLud2D)：JLud2D是一款老式游戏引擎。
 * [Ockero](https://github.com/KogeLabs/Ockero)：Ockero是一个用Kotlin开发的2D OpenGL游戏框架，可在Windows、Linux和Mac OS X上运行。
+* [SypherEngine](https://github.com/SypherEngine/SypherEngine)：SypherEngine是一款简单的游戏引擎，采用纯Java编写，设计轻巧、快速且易于使用。
+* [FXGameEngine](https://github.com/eppleton/FXGameEngine)：基于JavaFX Canvas API的游戏引擎。
 
 #### Minecraft
 
@@ -14232,6 +14884,7 @@ Kafka生态管理系统、运维平台。
 * [Java Music Generator](https://github.com/Armaxis/jmg)：JMG基于jMusic库，允许你实时创作音乐、播放音乐并将其保存为MIDI或MP3格式。
 * [Scala Audio File](https://github.com/mziccard/scala-audio-file)：一个极简的Scala音频文件处理库。
 * [Wayang](https://github.com/Deep-Symmetry/wayang)：这是一个用于在Ableton Push 2乐器上显示图像的Java库。
+* [Jipes](https://github.com/hendriks73/jipes)：Jipes是一个Java开源库，可以高效地计算音频特征。
 
 #### 视频库
 
@@ -14935,8 +15588,8 @@ Kafka生态管理系统、运维平台。
 
 * [GeoTools](https://github.com/geotools/geotools)：GeoTools是一个开源Java库，它提供符合标准的方法来操作地理空间数据，例如实现地理信息系统(GIS)，由英国利兹大学开源。
 * [Apache SIS](https://github.com/apache/sis)：SIS是一个用于开发地理空间应用程序的Java语言库。
-* [GeoTrellis](https://github.com/locationtech/geotrellis)：GeoTrellis是一个Scala库和框架，提供用于读取、写入和操作地理空间栅格和矢量数据的API。
 * [Geo Assist](https://github.com/thegeekyasian/geo-assist)：Geo Assist是一个开源Java库，旨在简化空间数据的处理过程。
+* [GeoTrellis](https://github.com/locationtech/geotrellis)：GeoTrellis是一个Scala库和框架，提供用于读取、写入和操作地理空间栅格和矢量数据的API。
 * [GeoMesa](https://github.com/locationtech/geomesa)：GeoMesa是一套开源工具，可在分布式计算系统上进行大规模地理空间查询和分析。
 * [SeaRoute](https://github.com/eurostat/searoute)：SeaRoute可以计算两个地点之间的最短海上路线，由欧盟统计局开源。
 * [MrGeo](https://github.com/ngageoint/mrgeo)：MrGeo是一个地理空间工具包，旨在提供可大规模执行的基于栅格的地理空间功能，由美国国家地理空间情报局与DigitalGlobe合作开发。
@@ -16116,6 +16769,7 @@ Kafka生态管理系统、运维平台。
 * [GWT Maps V3 API](https://github.com/branflake2267/GWT-Maps-V3-Api)：该库为Google地图Javascript API提供Java语言绑定。
 * [GWT OpenLayers](https://github.com/TDesjardins/gwt-ol)：使用JSInterop的OpenLayers 3+ GWT封装。
 * [jQM4GWT](https://github.com/jqm4gwt/jqm4gwt)：jQM4GWT是jQuery Mobile框架的高级封装，它将其转换为可在GWT应用中使用的组件库。
+* [GWTSwing](https://github.com/keinhaar/gwtswing)：这是一个类似于Java Swing API的UI API，但它是基于GWT构建的。
 
 #### JSF库
 
