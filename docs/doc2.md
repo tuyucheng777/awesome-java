@@ -1941,6 +1941,7 @@
 * [Querity](https://github.com/queritylib/querity)：Querity是一个可扩展的查询构建器，用于在Java应用程序中创建和运行数据库查询。
 * [SqlRender](https://github.com/OHDSI/SqlRender)：SqlRender是一个R包和Java库，用于呈现参数化SQL，并将其转换为不同的SQL方言，由OHDSI开源。
 * [APIJSONParser](https://github.com/Zerounary/APIJSONParser)：APIJSON编译器，将JSON动态编译成SQL。
+* [Lambda2SQL](https://github.com/ajermakovics/lambda2sql)：将Java 8 Lambda表达式转换为SQL语句。
 
 #### NoSQL库
 
@@ -6189,6 +6190,11 @@
 * [Transducers](https://github.com/cognitect-labs/transducers-java)：Transducers是可组合的算法变换。
 * [Octarine](https://github.com/poetix/octarine)：Octarine是一个Java 8库，用于处理系统边缘的数据，从CSV文件加载的记录、从通过HTTP发送的JSON消息反序列化的记录，或从数据库中检索的记录。
 * [Shelly](https://github.com/Xiaofei-it/Shelly)：一个面向业务逻辑的编程库，提供了一种新颖的模式，该模式使用方法链来说明每个组件如何随业务对象而变化。
+* [J-Curry](https://github.com/Ahmed-Adel-Ismail/J-Curry)：这是一个支持Java柯里化和部分应用函数的库。
+* [Expressions](https://github.com/benjiman/expressions)：Java函数式表达式库。
+* [FunkyJFunctional](https://github.com/pyricau/FunkyJFunctional)：FunkyJFunctional提供了一种在Java中进行函数式编程的新方法。
+* [LambdaCalculus](https://github.com/noti0na1/LambdaCalculus-java)：一个用Java实现Lambda演算的库。
+* [Roux](https://github.com/CajunSystems/roux)：Roux是一个面向JVM的基础副作用系统，它充分利用了Java的原生特性。
 
 #### 函数式异常处理
 
@@ -6217,6 +6223,7 @@
 * [Better Java Monads](https://github.com/jasongoodwin/better-java-monads)：这个库是在Java 8成为GA之后立即构建的，以帮助填补一些空白(Try、Futures.sequence)。
 * [Throwing Lambdas](https://github.com/fge/throwing-lambdas)：用于在函数式接口中使用的方法/接口/Lambda的包装器，抛出受检异常。
 * [ThrowingStream](https://github.com/JeffFaer/ThrowingStream)：该项目是java.util.stream及其各种支持接口的替代API，允许抛出受检异常。
+* [Sneaky Fun](https://github.com/ciechanowiec/sneakyfun)：Sneaky Fun是一个Java实用工具库，它通过禁用强制执行受检异常处理，使Lambda表达式看起来更加优雅。
 
 #### Stream工具库
 
@@ -6242,6 +6249,12 @@
 * [MapStream](https://github.com/Pyknic/MapStream)：MapStream是Java 8 Stream API的一个便捷扩展，它允许你通过流式传输键值对数据。
 * [CollectorsUtils](https://github.com/JosePaumard/collectors-utils)：CollectorsUtils API提供了一系列可在Java 8 Stream API中使用的收集器。
 * [Essentials4j](https://github.com/essentials4j/essentials4j)：Essentials4j在Java 8 Stream之上添加了一层薄薄的抽象层，以便于操作集合。
+* [StreamJoin](https://github.com/simomat/streamjoin)：用于类似SQL的Java 8 Stream Join，灵感来自C# Enumerable.Join()。
+* [Guava Stream](https://github.com/yanaga/guava-stream)：Java 8 Stream API收集器(适用于Guava不可变集合)。
+* [Parallel Stream Support](https://github.com/ferstl/parallel-stream-support)：使用自定义ForkJoinPool在Java中实现并行流。
+* [Ztream](https://github.com/taowater/ztream)：Java Stream增强库。
+* [StreamJava](https://github.com/1399852153/Streamjava)：Java版本的延迟计算的Stream流实现。
+* [Vinyl](https://github.com/davery22/vinyl)：Vinyl的设计灵感源自SQL，它基于核心的Record类型，扩展了Java Streams的关系操作功能。
 
 #### Lambda扩展
 
@@ -6265,6 +6278,8 @@
 * [Linq4j](https://github.com/julianhyde/linq4j)：LINQ的Java实现库。
 * [Android LINQ](https://github.com/zbra-dev/android-linq)：Android LINQ是受C# LINQ库启发的集合操作实用程序的一小部分。
 * [Linq.J](https://github.com/erupts/Linq.J)：Linq.J是一个基于Linq理念的Java库。
+* [jLinqer](https://github.com/kasecato/jLinqer)：jLinqer是LINQ的Java实现。
+* [Linq](https://github.com/muxiangqiu/linq)：Linq语言集成查询，像Stream API一样。
 
 #### 模式匹配
 
@@ -6286,6 +6301,7 @@
 * [RxTuples](https://github.com/pakoito/RxTuples)：RxTuples是一个库，通过添加简单的元组创建函数来简化RxJava的使用。
 * [FastTuple](https://github.com/boundary/fasttuple)：FastTuple生成原始值的异构集合，并尽可能确保它们在内存中相邻排列。
 * [JTuple](https://gitee.com/pyinjava/jtuple)：Java语言版本的元组数据类型，实现了元组类型的特性以及常用操作方法。
+* [Lambda Tuples](https://github.com/jexenberger/lambda-tuples)：Lambda元组库。
 
 #### 尾调用
 
@@ -6745,6 +6761,7 @@
 * [HPACK](https://github.com/twitter/hpack)：HPACK库提供将header列表压缩为header块的支持，由Twitter开源。
 * [Snappy Java](https://github.com/xerial/snappy-java)：Snappy是Google开发的快速C++压缩器/解压缩器，这是Snappy的Java移植。
 * [LZMA](https://github.com/jponge/lzma-java)：该库为在Java平台上运行的应用程序提供LZMA压缩。
+* [LZMAJIO](https://github.com/league/lzmajio)：Java中的LZMA流。
 * [Brotli4j](https://github.com/hyperxpro/Brotli4j)：Brotli4j为Java提供Brotli压缩和解压缩。
 * [JBrotli](https://github.com/MeteoGroup/jbrotli)：Brotli的Java绑定。
 * [AirCompressor](https://github.com/airlift/aircompressor)：该库包含用纯Java编写的Zstandard(Zstd)、LZ4、Snappy和LZO的实现，它们通常比原生库的JNI包装器快10-40%。
@@ -13543,6 +13560,7 @@ Kafka生态管理系统、运维平台。
 * [Pandomium](https://github.com/dzikoysk/pandomium)：Pandomium是专为Maven项目设计的JCEF实现。
 * [GNGR](https://github.com/gngrOrg/gngr)：这是一款支持隐私的新型跨平台浏览器，GNGR是纯Java的Web标准的独立实现。
 * [JxBrowser](https://teamdev.com/jxbrowser/)：将Chromium Web浏览器添加到你的Java应用程序中。
+* [Fuzio](https://fuzio.tech/)：适用于Java与Kotlin的浏览器组件。
 * [Chromium](https://github.com/equodev/chromium)：Equo Chromium Community小部件是一个跨平台浏览器，允许用户在Java应用程序内创建和呈现基于Web的现代UI。
 * [Gophie](https://github.com/jankammerath/gophie)：Gophie是“The Internet Gopher”的现代图形跨平台客户端或浏览器。
 * [Lobo Evolution](https://github.com/LoboEvolution/LoboEvolution)：Lobo Evolution是一个可扩展的全Java Web浏览器和RIA平台。
@@ -14908,6 +14926,7 @@ Kafka生态管理系统、运维平台。
 * [JGB28181](https://github.com/ydajiang/JGB28181)：基于Java实现的GB28181平台。
 * [Xuggle Xuggler](https://github.com/artclarke/xuggle-xuggler)：Xuggle的Xuggler Java视频API。
 * [M3U Parser](https://github.com/BjoernPetersen/m3u-parser)：一个用Kotlin编写的用于解析简单和扩展M3U播放列表文件的解析器。
+* [QtFastStart Java](https://github.com/ypresto/qtfaststart-java)：QtFastStart Java是一个小型工具，可以使MP4视频文件准备好进行流媒体播放。
 
 #### 多媒体库
 
@@ -14925,6 +14944,7 @@ Kafka生态管理系统、运维平台。
 * [SimpleRtmp](https://github.com/faucamp/SimpleRtmp)：SimpleRtmp是一个用于构建RTMP客户端应用程序的Java库。
 * [SMPTE2022Lib](https://github.com/davidfischer-ch/smpte2022lib)：用C、Python、Java编写的优化型跨平台SMPTE 2022-1 FEC库。
 * [LibBluray](https://github.com/ShiftMediaProject/libbluray)：LibBluray是一个专为媒体播放器播放蓝光光盘而设计的开源库。
+* [Flazr](https://github.com/mconf/flazr)：Flazr库是一个Java实现的多媒体流协议，支持(RTMP)共享远程对象。
 
 #### 视频通讯
 
@@ -14956,6 +14976,7 @@ Kafka生态管理系统、运维平台。
 * [FFCH4J](https://github.com/eguid/FFCH4J)：Java封装的提供FFmpeg命令执行、停止、查询功能的简单管理器。
 * [EasyCV](https://github.com/eguid/easyCV)：基于JavaCV的跨平台视频录像和基于FFmpeg的快照(截图)库。
 * [FFmpeg Kt](https://github.com/zt64/ffmpeg-kt)：Kotlin的FFmpeg多平台封装库。
+* [FFmpeg Transcoder](https://github.com/rajdeeprath/poor-man-transcoder)：FFmpeg Transcoder是一个Maven项目，旨在为基于Java的RTMP服务器构建一个命令行包装器。
 
 #### 音频编解码器
 
@@ -14971,6 +14992,7 @@ Kafka生态管理系统、运维平台。
 * [VorbisJava](https://github.com/Gagravarr/VorbisJava)：一个用于处理Ogg Vorbis文件的库。
 * [JAADec](https://github.com/DV8FromTheWorld/JAADec)：JAAD是一个完全用Java编写的AAC解码器和MP4解复用器库。
 * [JOrbis](http://www.jcraft.com/jorbis/)：JOrbis是一个纯Java Ogg Vorbis解码器。
+* [Oggus](https://github.com/leonfancy/oggus)：Oggus是一个用于读写Ogg Opus流的Java库，支持Opus数据包结构。
 * [Java Apple Lossless Decoder](https://github.com/soiaf/Java-Apple-Lossless-decoder)：Apple Lossless解码器的Java实现。
 * [Silk4j](https://github.com/mzdluo123/silk4j)：Silkv3编码器的Java接口。
 * [Korau](https://github.com/soywiz-archive/korau)：纯Kotlin WAV、MP3和OGG vorbis解码器。
@@ -15301,6 +15323,7 @@ Kafka生态管理系统、运维平台。
 * [G414 Hash](https://github.com/sunnygleason/g414-hash)：一系列实用的64位哈希工具，包括布隆过滤器和HashFile实现。
 * [Similarity Uniform Fuzzy Hash](https://github.com/s3curitybug/similarity-uniform-fuzzy-hash)：Similarity Uniform Fuzzy Hash是一种能够准确高效地计算两个文件之间相似度的工具。
 * [AllGood Consistent-Hash](https://github.com/ishugaliy/allgood-consistent-hash)：AllGood Consistent Hash是一个Java实现的带有虚拟节点的一致性哈希环，支持自定义哈希率和分区率。
+* [SipHash](https://github.com/whitfin/siphash-java)：SipHash加密哈希算法家族的Java实现。
 
 #### 文本排序
 
@@ -15944,6 +15967,7 @@ Kafka生态管理系统、运维平台。
 * [Indexed File Reader](https://github.com/jramoyo/indexed-file-reader)：用于按行号读取字符文件的Java库。
 * [UnicodeBOMInputStream](https://github.com/gpakosz/UnicodeBOMInputStream)：一个辅助类，用于跳过输入流开头的Unicode BOM。
 * [Inject Resources](https://github.com/hosuaby/inject-resources)：一种简单便捷的Java资源内容读取方法。
+* [Binary DSL](https://github.com/smee/binary)：这个库是一个高性能的二进制解析器组合器，它支持从Java的I/O流中读取和写入任意二进制数据。
 
 ## 文件监听
 

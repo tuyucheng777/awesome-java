@@ -4251,7 +4251,6 @@
 
 ## 数据科学
 
-* [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个DataFrame和可视化库，支持加载、清理、转换、过滤和汇总数据。
 * [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充，由Google开源。
 * [Vegas](https://github.com/vegas-viz/Vegas)：Vegas的目标是成为Scala和Spark世界中缺失的Matplotlib。
 * [Incanter](https://github.com/incanter/incanter)：Incanter是一个基于Clojure、类似R的JVM统计计算和图形环境。
@@ -4396,6 +4395,7 @@
 
 #### Dataframe
 
+* [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个DataFrame和可视化库，支持加载、清理、转换、过滤和汇总数据。
 * [CUDF](https://github.com/rapidsai/cudf/tree/branch-24.08/java)：CUDF是一个GPU DataFrame库，用于加载、连接、聚合、过滤和以其他方式处理数据，由NVIDIA提供。
 * [Dataframe](https://github.com/Kotlin/dataframe)：Dataframe旨在利用Kotlin语言的全部功能以及Jupyter Notebook和REPL中间歇性代码执行提供的机会，协调Kotlin的静态类型与数据的动态特性，JetBrains开源。
 * [Morpheus](https://github.com/zavtech/morpheus-core)：Morpheus库旨在促进涉及大型数据集的高性能分析软件的开发，以便在JVM上进行离线和实时分析。
@@ -4412,6 +4412,11 @@
 * [Saddle](https://github.com/saddle/saddle)：Saddle是Scala的一个数据操作库，它提供基于数组、索引、一维和二维的数据结构，这些数据结构在JVM原始类型上经过精心设计，以避免装箱和拆箱的开销。
 * [Paleo](https://github.com/netzwerg/paleo)：具有类型化列的不可变Java 8 Dataframe。
 * [DataFrame](https://github.com/nRo/DataFrame)：一个易于使用的Java DataFrame库。
+* [Product Collections](https://github.com/marklister/product-collections)：一个非常简单、强类型的Scala表格数据框架。
+* [Iskra](https://github.com/VirtusLab/iskra)：Iskra是一个围绕Apache Spark API的Scala 3封装库，允许编写类型安全、无样板代码但仍然高效的Spark代码。
+* [Crossbow](https://github.com/audienceproject/crossbow)：单节点、内存式DataFrame分析库。
+* [DataFrame](https://github.com/biteytech/dataframe)：另一个受Tablesaw启发、基于NIO缓冲区的Java DataFrame库。
+* [DataFrame](https://github.com/ghl3/dataframe)：Clojure的DataFrame库，灵感来自Pandas。
 
 #### Notebook
 
