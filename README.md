@@ -1149,7 +1149,6 @@
 * [Tentackle](https://bitbucket.org/krake-oss/tentackle)：Tentackle是一个开源Java框架，适用于在多个JVM上运行的分层应用程序，其灵感来自领域驱动设计的原理。
 * [Astrix](https://github.com/AvanzaBank/astrix)：Astrix是一个Java框架，旨在简化微服务的开发和维护，由Avanza银行开源。
 * [Uberfire](https://github.com/kiegroup/appformer)：Uberfire是一个Web框架，可在构建可扩展工作台和控制台类型应用程序方面提供卓越的体验，由JBoss社区开源。
-* [TERASOLUNA](https://github.com/terasolunaorg/terasoluna-gfw)：TERASOLUNA是一种通过结合NTT Data的技术和知识来全面支持系统开发的解决方案。
 * [Core NG](https://github.com/neowu/core-ng-project)：Core NG是专为长期可维护性和代码质量控制而设计和优化的Web框架。
 * [AppFuse](https://github.com/appfuse/appfuse)：AppFuse是一个用于在JVM上构建Web应用程序的全栈框架。
 * [HServer](https://gitee.com/HServer/HServer)：HServer是基于Netty开发的一个功能强大、资源丰富、开发灵活、轻量级、低入侵、高并发的新型Web开发框架。
@@ -1720,6 +1719,8 @@
 * [Jinx](https://github.com/dromara/Jinx)：Spring Boot框架采用Netty取代Tomcat。
 * [Spring Boot Starter Netty](https://github.com/DanielThomas/spring-boot-starter-netty)：一个用于Spring Boot的Netty嵌入式Servlet桥接原型。
 * [Nano](https://github.com/AdamBien/nano)：微型Java 8 HTTP服务器。
+* [Nginx4j](https://github.com/houbb/nginx4j)：Nginx4j是基于Netty实现的Nginx的Java版本。
+* [MiniCat](https://github.com/houbb/minicat)：MiniCat是简易版本的Tomcat实现。
 * [LolHTTP](https://github.com/criteo/lolhttp)：一个用于Scala的HTTP服务器和客户端库。
 * [Mirage](https://github.com/six-ddc/mirage)：一个用于轻松编写简单HTTP服务器的Web DSL和命令行工具。
 * [Simple Java HTTP Server](https://github.com/CoderFromScratch/simple-java-http-server)：Java创建的简单HTTP服务器。
@@ -3489,6 +3490,7 @@
 * [Memind](https://github.com/openmemind/memind)：Memind是一个面向人工智能代理的分层认知记忆系统，采用Java原生语言编写。
 * [Sentinel AI](https://github.com/PhonePe/sentinel-ai)：Sentinel AI是一个高级Java框架，它允许你使用各种LLM和工具构建和部署AI代理。
 * [Acorn](https://github.com/DataSQRL/Acorn)：Acorn Agent是一个简单而灵活的框架，用于在JVM上构建AI代理、聊天机器人和LLM微服务。
+* [Aigentic](https://github.com/flock-community/aigentic)：Aigentic是一个Kotlin多平台库，它提供了一个强大的DSL，用于构建AI代理并将其集成到应用程序中。
 
 ### AI智能体
 
@@ -3938,6 +3940,7 @@
 * [Korean Romanizer](https://github.com/crizin/korean-romanizer)：一个将韩语输入转换为罗马字符的Java库。
 * [ZhConverter](https://github.com/program-in-chinese/zhconverter)：中文字符简繁体互相转换工具。
 * [Quick Chinese Transfer](https://github.com/liuyueyi/quick-chinese-transfer)：简体中文、繁体中文、香港繁体、台湾繁体相互转换的Java库。
+* [KanaTools Java](https://github.com/mariten/kanatools-java)：用于在Java中轻松处理日语假名文本的实用程序。
 
 #### 拼音库
 
