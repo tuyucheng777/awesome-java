@@ -3514,6 +3514,7 @@
 * [Whale](https://gitee.com/techarts/whale)：Whale是一个轻量级的依赖注入容器，它完全实现了JSR330，并且同时支持javax.inject和jakarta.inject API。
 * [Pure.IoC](https://gitee.com/wkgcass/Pure.IoC)：Pure.IoC是一个轻量级基于类和注解的自动依赖注入框架。
 * [Houbb Ioc](https://github.com/houbb/ioc)：Houbb Ioc是一款Spring IoC核心功能简化实现版本。
+* [ContainerX](https://github.com/bootsrc/containerx)：ContainerX是一个迷你型Java依赖注入框架。
 
 ## AOP
 
@@ -3524,6 +3525,20 @@
 * [FastAOP](https://github.com/fast-light/fastaop)：FastAOP是一款基于Java注解处理器的轻量级高性能AOP框架。
 * [Lancet](https://github.com/eleme/lancet)：Lancet是一个轻量级的Android AOP框架，由饿了么开源。
 * [Jcabi Aspects](https://github.com/jcabi/jcabi-aspects)：Jcabi Aspects是有用的AspectJ切面和注解的集合。
+* [Dexposed](https://github.com/alibaba/dexposed)：Dexposed是一个功能强大但非侵入式的运行时AOP框架，用于Android应用开发，由阿里开源。
+* [Epic](https://github.com/tiann/epic)：适用于Android的动态Java方法AOP。
+* [HiBeaver](https://github.com/hydraxman/hibeaver)：HiBeaver是一个用于进行Java字节码插桩的Gradle插件。
+* [Xerath](https://github.com/jiangzhengnan/Xerath)：Xerath是一个基于注解、ASM、Gradle Transform API的Android AOP开发框架。
+* [MethodInterceptProxy](https://github.com/zhangke3016/MethodInterceptProxy)：MethodInterceptProxy是一个适用于Android的代理方法。
+* [JAOP](https://github.com/ltshddx/jaop)：JAOP是一个基于Javassist和ASM的Gradle AOP插件。
+* [Disco](https://github.com/awslabs/disco)：Disco包括用于创建Java代理的框架，用于分布式系统的面向切面的工具，由AWS开源。
+* [AndAOP](https://github.com/luckybilly/AndAOP)：AndAOP是一个提供在Android中进行AOP编程的Gradle插件。
+* [EzHook](https://github.com/XDMrWu/EzHook)：EzHook是一个用于KMP的AOP框架，支持Kotlin/Native和Kotlin/JS。
+* [CGLib Android](https://github.com/leo-ouyang/CGLib-for-Android)：CGLib Android是一个用于动态生成子类的高级API，其实现基于DexMaker。
+* [ButcherKnife](https://github.com/LitterSun/butcherknife)：ButcherKnife是一个基于ASM应用于Android开发平台的AOP框架。
+* [EasyAOP](https://github.com/wuba/EasyAOP)：EasyAOP是基于ASM实现切面通用能力的工具，由58同城开源。
+* [Android Aspects](https://github.com/shazam/android-aspects)：该库提供了一种轻量级机制，通过使用注解，无需修改源代码即可添加新功能。
+* [JooFlux](https://github.com/dynamid/jooflux)：JooFlux是一个JVM代理，它既支持动态替换方法实现，也支持应用切面通知。
 * [AspectJX](https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx)：AspectJX是基于AspectJ的AOP框架，同时支持Kotlin应用，由沪江科技开源。
 * [CrepeCake](https://github.com/linisme/CrepeCake)：CrepeCake是一个类似AspectJ的编译时AOP引擎。
 * [Proxy](https://github.com/Ericsson/proxy)：Proxy是一个小而强大的拦截库，可以让你在运行时操作现有的对象和类行为，由爱立信开源。
@@ -4345,6 +4360,7 @@
 * [Moshi JSON-API](https://github.com/kamikat/moshi-jsonapi)：Moshi的JSON API规范v1.0的Java实现。
 * [JSON:API](https://github.com/MarkoMilos/jsonapi)：基于现代JSON库Moshi，使用Kotlin和Java构建的用于简化JSON:API使用的库。
 * [JsonApiX](https://github.com/infinum/kotlin-jsonapix)：JsonApiX是一个Android注解处理器库，旨在将常规Kotlin类转换为其JSON API表示形式。
+* [JSON:API Kotlin](https://github.com/eygraber/jsonapi-kotlin)：JSON:API Kotlin是一个用于处理JSON:API文档的Kotlin多平台库。
 
 #### JSON比较
 
@@ -4422,6 +4438,7 @@
 * [KAConf](https://github.com/mariomac/kaconf)：KickAss Configuration是一个基于注解的配置系统。
 * [Konfigure](https://github.com/TradeMe/konfigure)：基于Kotlin属性委托的应用配置库。
 * [Env Config](https://github.com/sitture/env-config)：一个简单的实用程序，用于通过合并.properties文件和环境变量覆盖来管理基于Java的项目中的环境配置。
+* [Profig](https://github.com/outr/profig)：强大的Scala配置管理库。
 
 #### 分布式配置
 
@@ -7427,6 +7444,7 @@
 * [DD PList](https://github.com/3breadt/dd-plist)：一个提供对ASCII、XML和二进制属性列表支持的Java库。
 * [Android PList Parser](https://github.com/tenaciousRas/android-plist-parser)：Android PList Parser是基于SAX的PList-XML解析器实现。
 * [XML Patch](https://github.com/dnault/xml-patch)：RFC 5261的Java实现。
+* [Xnav](https://github.com/volodya-lombrozo/xnav)：Xnav是一个旨在实现XML文档无缝导航和查询的库，其设计灵感源于XPath的简洁性和优雅性。
 
 ### HTML库
 
@@ -13199,6 +13217,7 @@ Kafka生态管理系统、运维平台。
 * [JImGUI](https://github.com/ice1000/jimgui)：ImGUI的的纯Java绑定。
 * [ImGui Java](https://github.com/SpaiR/imgui-java)：ImGui基于JNI的绑定。
 * [xImGui](https://github.com/xpenatan/xImGui)：xImGui是ImGui的Java绑定。
+* [Kotlin ImGUI](https://github.com/Dominaezzz/kotlin-imgui)：Dear ImGui的Kotlin/多平台绑定和封装。
 * [B4J](https://www.b4x.com/b4j.html)：B4J是一款用于跨平台桌面和服务器解决方案的开发工具。
 * [LEGUI](https://github.com/SpinyOwl/legui)：Java OpenGL GUI库，专为与最新的LWJGL一起使用而创建。
 * [VisUI](https://github.com/kotcrab/vis-ui)：VisUI允许在LibGDX中使用scene2d.ui创建漂亮的界面。
@@ -13210,6 +13229,7 @@ Kafka生态管理系统、运维平台。
 * [LWJGUI](https://github.com/orange451/LWJGUI)：一个基于LWJGL3的JavaFX替代方案，用于在Java中创建用户界面。
 * [Java-GI](https://github.com/jwharm/java-gi)：Java-GI是一个用于为Java生成GObject-Introspection绑定的工具。
 * [Jux Toolkit](https://github.com/xdsswar/jux-toolkit)：Jux Toolkit是基于Java 25的桌面框架，通过Panama FFI实现原生Webview。
+* [JOID](https://github.com/Zeldown/JOID)：JOID是一款灵活、基于组件的LWJGL 2 UI工具包，专为希望掌控渲染路径并交付出众界面的开发者而设计。
 
 #### 移动开发框架
 
@@ -13238,6 +13258,7 @@ Kafka生态管理系统、运维平台。
 * [Marathon](https://github.com/jalian-systems/marathonv5)：Marathon是一款用于录制、回放和重构使用Swing或FX组件开发的Java GUI程序测试用例的工具。
 * [Codion](https://github.com/codion-is/codion)：Codion是一个全栈Java富客户端桌面CRUD应用程序框架。
 * [Tips4Java](https://github.com/tips4java/tips4java)：Tips4Java是一系列在进行Swing编码时可能有所帮助的类的集合。
+* [Universal Tween Engine](https://github.com/AurelienRibon/universal-tween-engine)：Universal Tween Engine支持对任何Java项目中任何对象的所有属性进行插值。
 * [TweenEngine](https://github.com/dorkbox/TweenEngine)：适用于Java 8+的高性能、轻量级动画/补间框架。
 * [Xemantic Kotlin Swing DSL](https://github.com/xemantic/xemantic-kotlin-swing-dsl)：用Kotlin轻松编写Swing代码。
 * [NinePatch](https://github.com/freeseawind/NinePatch)：Swing和JavaFX点九图支持。
@@ -13715,6 +13736,7 @@ Kafka生态管理系统、运维平台。
 * [LLMFX](https://github.com/jesuino/LLMFX)：LLMFX是一个非常简单的桌面应用程序，用于与LLM服务器交互。
 * [Metadata Viewer](https://github.com/erroralex/Metadata-Viewer)：一款JavaFX桌面应用程序，用于提取和管理跨多个平台的AI图像生成元数据。
 * [OmniGraph](https://github.com/Todense/OmniGraph)：OmniGraph是一款多平台桌面应用程序，可用于构建图表和可视化一系列算法。
+* [PromptFx](https://github.com/aplpolaris/promptfx)：PromptFx提供用于测试AI/ML模型和多种基本应用的视图。
 
 #### GUI程序
 
@@ -14032,6 +14054,7 @@ Kafka生态管理系统、运维平台。
 * [NLIDB](https://github.com/DukeNLIDB/NLIDB)：自然语言数据库界面。
 * [KDB+ Studio](https://github.com/CharlesSkelton/studio)：KDB+ Studio是一个快速开发环境，适用于Kx Systems公司的超高速数据库KDB+。
 * [HHDBCS](https://github.com/hh-tech/HHDBCS)：HHDBCS是一款通用的数据库管理工具，专为简化数据库的管理及数据管理成本而设计。
+* [DataStudio](https://gitee.com/opengauss/DataStudio)：OpenGauss数据库管理和开发工具。
 
 #### 数据库建模
 
@@ -14397,6 +14420,7 @@ Kafka生态管理系统、运维平台。
 * [Materia](https://github.com/codeyousef/Materia)：Kotlin多平台3D图形库，提供与Three.js同等的功能，并支持WebGPU/Vulkan后端。
 * [Penumbra](https://github.com/ztellman/penumbra)：Penumbra是Clojure中OpenGL的一个惯用封装器，它使用LWJGL。
 * [Sigil](https://github.com/codeyousef/sigil)：Sigil是一个强大的库，它使用熟悉的声明式语法，为你的Compose多平台应用程序带来3D渲染功能。
+* [Sgine](https://github.com/outr/sgine)：用于基于OpenGL的桌面、Android和iOS游戏及商业开发的Scala引擎。
 * [Photon](https://github.com/XernasDev/Photon)：Photon是一个轻量级的Java图形库封装器。
 
 #### 游戏开发库
@@ -15686,6 +15710,7 @@ Kafka生态管理系统、运维平台。
 * [grCUDA](https://github.com/NVIDIA/grcuda)：GraalVM的多语言CUDA集成，由英伟达开源。
 * [Beehive LevelZero JNI](https://github.com/beehive-lab/levelzero-jni)：该项目是针对Intel LevelZero的JNI绑定，由曼彻斯特大学开源。
 * [WGPU4K](https://github.com/wgpu4k/wgpu4k)：Kotlin多平台WebGPU绑定。
+* [Hybridizer](https://www.altimesh.com/)：Hybridizer是一款面向软件开发人员的生产力工具，旨在帮助启用计算加速器。
 
 ## 硬件操作
 
@@ -16827,8 +16852,6 @@ Kafka生态管理系统、运维平台。
 * [Caja](https://github.com/googlearchive/caja)：Caja是一个用于在你的网站中安全嵌入第三方HTML、CSS和JavaScript的工具，由Google开源。
 * [Wro4j](https://github.com/wro4j/wro4j)：Wro4j是一个免费的开源Java项目，可以帮助缩短Web应用程序页面加载时间。
 * [Nu Html Checker](https://github.com/validator/validator)：Nu Html Checker可帮助你发现HTML、CSS和SVG中的意外错误。
-* [Unicorn](https://github.com/w3c/Unicorn)：Unicorn是W3C的统一验证器，它通过执行各种检查来帮助用户提升网页质量。
-* [CSS Validator](https://github.com/w3c/css-validator)：W3C CSS验证服务。
 * [Chart.java](https://github.com/mdewilde/chart)：Chart.java可以在Java应用程序中与优秀的Chart.js库集成。
 * [Displaytag](https://github.com/hazendaz/displaytag)：Displaytag库是一个开源的自定义标签套件，提供可在MVC模型中工作的高级Web表示模式。
 * [Orbeon Forms](https://github.com/orbeon/orbeon-forms)：Orbeon Forms是一个开源Web表单解决方案。
@@ -16959,6 +16982,12 @@ Kafka生态管理系统、运维平台。
 * [OSBCP CSS Parser](https://github.com/corgrath/osbcp-css-parser)：一个简单的Java CSS解析器。
 * [Sass Compiler](https://github.com/vaadin/sass-compiler)：Java Sass编译器实现。
 * [CSSBox](https://github.com/philborlin/CSSBox)：CSSBox是一个用纯Java编写的(X)HTML/CSS渲染引擎。
+
+#### W3C校验器
+
+* [Unicorn](https://github.com/w3c/Unicorn)：Unicorn是W3C的统一校验器，它通过执行各种检查来帮助用户提升网页质量。
+* [CSS Validator](https://github.com/w3c/css-validator)：W3C CSS校验服务。
+* [Jcabi W3C](https://github.com/jcabi/jcabi-w3c)：Java中的W3C验证器。
 
 ## 对象图导航
 
@@ -17105,7 +17134,6 @@ Kafka生态管理系统、运维平台。
 * [Gradle Doctor](https://github.com/runningcode/gradle-doctor)：适合你的Gradle构建的正确处方。
 * [Gradle BuildConfig Plugin](https://github.com/gmazzo/gradle-buildconfig-plugin)：用于为任何类型的Gradle项目生成BuildConstants的插件。
 * [IHub Plugins](https://github.com/ihub-pub/plugins)：IHub Plugins是一套为Gradle项目提供基础设施的插件集，可以极大简化项目配置。
-* [HiBeaver](https://github.com/hydraxman/hibeaver)：HiBeaver是一个用于进行Java字节码插桩的Gradle插件。
 * [Dependency Management Plugin](https://github.com/spring-gradle-plugins/dependency-management-plugin)：提供类似Maven的依赖管理功能。
 * [Gradle Test Logger Plugin](https://github.com/radarsh/gradle-test-logger-plugin)：用于在运行测试时在控制台上打印漂亮日志的Gradle插件。
 * [JavaFX Gradle Plugin](https://github.com/openjfx/javafx-gradle-plugin)：简化使用JavaFX 11+ Gradle项目的插件。

@@ -1045,6 +1045,7 @@
   * [Vaadin库](docs/doc2.md#Vaadin库)
   * [Wicket库](docs/doc2.md#Wicket库)
   * [CSS库](docs/doc2.md#CSS库)
+  * [W3C校验器](docs/doc2.md#W3C校验器)
 * [对象图导航](docs/doc2.md#对象图导航)
 * [超媒体类型](docs/doc2.md#超媒体类型)
 * [术语服务器](docs/doc2.md#术语服务器)
@@ -1208,6 +1209,8 @@
 * [Scooter](https://github.com/scooter/scooter)：Scooter的灵感来自于RoR所倡导的简单易用的理念，其主要特点是使用了CRUD生成器和ActiveRecord。
 * [NanoFramework](https://github.com/nano-projects/nano-framework)：NanoFramework是一个用于快速开发Web及任务调度项目的框架。
 * [Fast Framework](https://github.com/JeffLi1993/fast-framework)：基于JDK8实现的轻量级Java Web框架。
+* [Festival](https://github.com/bdqfork/festival)：Festival是一个基于Vertx、RxJava等开源库，拥有IOC、AOP功能的响应式Web框架。
+* [EverGreen](https://github.com/baiczsy/evergreenframework)：EverGreen框架涵盖MVC、IOC、AOP、DBHelper。
 
 #### REST框架
 
@@ -1733,6 +1736,7 @@
 * [EmbedHttp](https://github.com/nikkiii/embedhttp)：一个体积小巧、易于嵌入应用程序的Java HTTP服务器。
 * [Kwang](https://github.com/KwangIO/kwang)：Kwang是一个轻量级的Kotlin/Native封装库，用于封装高性能、低开销的Web服务器。
 * [Easy HTTPServer](https://github.com/NotBadPad/easy-httpserver)：Easy HTTPServer是一个Java实现的简单Web服务器。
+* [SHTTPS](https://github.com/truefedex/shttps)：SHTTPS是一个简单的HTTP服务器。
 
 ## 微服务治理
 
@@ -1965,6 +1969,7 @@
 * [FuseBox](https://github.com/potetm/fusebox)：FuseBox是一个极其轻量级的Clojure和Babashka容错库。
 * [Vert.x Circuit Breaker](https://github.com/vert-x3/vertx-circuit-breaker)：Vert.x Circuit Breaker是Vert.x中断路器模式的一种实现。
 * [Breakr](https://github.com/AdamBien/breakr)：适用于Java EE应用的极简断路器。
+* [Circuit Breaker](https://github.com/sptz45/circuit-breaker)：Circuit Breaker是断路器稳定性设计模式的一种实现。
 
 #### 限流
 
@@ -3190,6 +3195,7 @@
 * [Filelize](https://github.com/filelize/filelize-java)：Filelize是一款轻量级数据库，只需一行代码即可将数据写入和读取到易于阅读的文件中。
 * [XitDB](https://github.com/xit-vcs/xitdb-java)：XitDB是一个用Java编写的不可变数据库。
 * [Dyna53](https://github.com/ongres/dyna53)：Route53数据库，并提供与DynamoDB兼容的API。
+* [LightDB](https://github.com/outr/lightdb)：使用可插拔存储的计算型数据库。
 
 #### OLAP数据库
 
