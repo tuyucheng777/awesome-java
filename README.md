@@ -122,6 +122,9 @@
     * [信息提取](#信息提取)
     * [语义解析](#语义解析)
     * [实体链接](#实体链接)
+    * [关键词提取](#关键词提取)
+    * [文本相似度](#文本相似度)
+    * [命名实体识别](#命名实体识别)
     * [敏感词过滤](#敏感词过滤)
     * [语言检测](#语言检测)
     * [拼写检查](#拼写检查)
@@ -749,6 +752,7 @@
   * [ZigBee](docs/doc2.md#ZigBee)
   * [SECS](docs/doc2.md#SECS)
   * [BACnet](docs/doc2.md#BACnet)
+  * [业余无线电](docs/doc2.md#业余无线电)
 * [短信](docs/doc2.md#短信)
 * [邮件库](docs/doc2.md#邮件库)
 * [邮件服务器](docs/doc2.md#邮件服务器)
@@ -773,10 +777,12 @@
   * [Activity小部件](docs/doc2.md#Activity小部件)
   * [Adapter](docs/doc2.md#Adapter)
   * [Android图表库](docs/doc2.md#Android图表库)
+  * [Android对话框](docs/doc2.md#Android对话框)
   * [Android日历库](docs/doc2.md#Android日历库)
   * [Android布局库](docs/doc2.md#Android布局库)
   * [Android富文本组件](docs/doc2.md#Android富文本组件)
   * [Android下拉刷新](docs/doc2.md#Android下拉刷新)
+  * [Android返回库](docs/doc2.md#Android返回库)
   * [Android项目模板](docs/doc2.md#Android项目模板)
   * [Android图像库](docs/doc2.md#Android图像库)
   * [Android ImageView](docs/doc2.md#Android-ImageView)
@@ -804,7 +810,11 @@
   * [Android WebView](docs/doc2.md#Android-WebView)
   * [Android加载库](docs/doc2.md#Android加载库)
   * [Android换肤框架](docs/doc2.md#Android换肤框架)
+  * [Android提及库](docs/doc2.md#Android提及库)
+  * [Android状态栏](docs/doc2.md#Android状态栏)
+  * [Android提醒库](docs/doc2.md#Android提醒库)
   * [APK解析器](docs/doc2.md#APK解析器)
+  * [Android工具库](docs/doc2.md#Android工具库)
   * [ADB](docs/doc2.md#ADB)
 * [GUI开发/程序](docs/doc2.md#GUI开发程序)
   * [GUI框架](docs/doc2.md#GUI框架)
@@ -1772,6 +1782,7 @@
 * [CoSky](https://gitee.com/AhooWang/CoSky)：CoSky是一个轻量级微服务治理平台，为分布式系统提供服务发现和配置管理功能。
 * [DHorse](https://github.com/512team/dhorse)：DHorse是一个轻量级、简单易用的云应用管理平台，具有多云和多环境管理、应用管理和部署、服务治理等功能。
 * [Spring Cloud Gray](https://github.com/SpringCloud/spring-cloud-gray)：Spring Cloud Gray是一套开源的微服务灰度路由解决方案。
+* [EasySOA](https://github.com/easysoa/EasySOA)：EasySOA基于Web和开源技术，使面向服务的架构(SOA)更易于使用。
 
 ## 构建工具
 
@@ -2731,6 +2742,7 @@
 * [RxBus](https://github.com/liuguangli/RxBus)：RxBus是一个针对Android优化的发布/订阅事件总线。
 * [FXEventBus](https://github.com/AlmasB/FXEventBus)：基于JavaFX事件分发机制的简单事件总线实现。
 * [RxBus](https://github.com/xuexiangjys/RxBus)：一个简易的Android事件通知库，使用RxJava和Javassist设计。
+* [Sig4j](https://github.com/msteinbeck/sig4j)：Sig4j是一个受Qt信号与槽机制启发、为Java开发的事件通信库。
 
 #### 消息总线
 
@@ -3234,6 +3246,7 @@
 * [XitDB](https://github.com/xit-vcs/xitdb-java)：XitDB是一个用Java编写的不可变数据库。
 * [Dyna53](https://github.com/ongres/dyna53)：Route53数据库，并提供与DynamoDB兼容的API。
 * [LightDB](https://github.com/outr/lightdb)：使用可插拔存储的计算型数据库。
+* [Telegram Storage](https://github.com/demidko/telegram-storage)：在你的Telegram频道中拥有一个免费、包含100万条记录的NoSQL云数据库。
 
 #### OLAP数据库
 
@@ -3730,6 +3743,7 @@
 * [SimpleDNN](https://github.com/KotlinNLP/SimpleDNN)：SimpleDNN是一个用Kotlin编写的机器学习轻量级开源库，旨在支持自然语言处理任务中的相关神经网络架构。
 * [NeuralNetwork](https://github.com/amten/NeuralNetwork)：用Java实现的神经网络，带有Weka插件。
 * [JCudnn](https://github.com/jcuda/jcudnn)：cuDNN的Java绑定。
+* [FastDNN](https://github.com/ahmetaa/fast-dnn)：FastDNN是一个专为语音识别系统中使用的深度神经网络(DNN)而设计的快速深度神经网络库。
 
 #### 深度学习
 
@@ -3881,7 +3895,6 @@
 * [Mallet](https://github.com/mimno/Mallet)：Mallet是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用，由马萨诸塞大学和宾夕法尼亚大学开发。
 * [KoNLP](https://github.com/haven-jeon/KoNLP)：KoNLP是一款面向韩语文本研究的词性标注器和词法分析器。
 * [S-Space](https://github.com/fozziethebeat/S-Space)：S-Space包是用于构建语义空间的算法的集合，也是用于设计新的分布式语义算法的高度可扩展的库，由加州大学洛杉矶分校开源。
-* [Similarity](https://github.com/shibing624/similarity)：Similarity是由一系列算法组成的Java版相似度计算工具包，目标是传播自然语言处理中相似度计算方法。
 * [Jcseg](https://gitee.com/lionsoul/jcseg)：Jcseg是一个用Java开发的轻量级NLP框架。
 * [Duckling](https://github.com/facebookarchive/duckling_old)：Duckling是一个Clojure库，可将文本解析为结构化数据，Facebook开源。
 * [Neo4j NLP](https://github.com/graphaware/neo4j-nlp)：Neo4j NLP是提供基于图的自然语言处理功能的Neo4j插件。
@@ -3900,16 +3913,15 @@
 * [Twitter NLP](https://github.com/brendano/ark-tweet-nlp)：Tweet NLP是一个快速而强大的基于Java的标记器和词性标记器，由CMU开源。
 * [KoalaNLP](https://github.com/koalanlp/koalanlp)：KoalaNLP是一个Java/Kotlin/Scala库，旨在为韩语处理提供集成接口。
 * [GATE](https://github.com/GateNLP/gate-core)：GATE是一个开源软件工具包，能够解决几乎所有文本处理问题，由谢菲尔德大学开发。
+* [Tint](https://github.com/dhfbk/tint)：Tint是一个基于Java的意大利语自然语言处理流程。
 * [SemanticVectors](https://github.com/semanticvectors/semanticvectors)：SemanticVectors从自由自然语言文本创建语义WordSpace模型，由德克萨斯大学、昆士兰科技大学开源。
 * [AmbiverseNLU](https://github.com/ambiverse-nlu/ambiverse-nlu)：AmbiverseNLU是马克斯普朗克信息学研究所的自然语言理解套件。
 * [Processors](https://github.com/clulab/processors)：Processors是亚利桑那大学开源的自然语言处理器。
 * [LAC](https://github.com/baidu/lac)：LAC是百度自然语言处理部研发的一款联合的词法分析工具，实现中文分词、词性标注、专名识别等功能。
 * [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp)：Spark NLP是一个构建在Spark之上的最先进的自然语言处理库。
 * [Twitter Text](https://github.com/twitter/twitter-text)：Twitter使用此代码对文本进行标记和解析，以满足平台上可用内容的期望。
-* [MetaMapLite](https://github.com/lhncbc/metamaplite)：MetaMapLite的主要目标是提供近乎实时的命名实体识别器，由利斯特山国家生物医学通讯中心开源。
 * [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP)：VnCoreNLP是一个快速、准确的越南语NLP标注管道，通过分词、词性标注、命名实体识别和依存句法分析等关键NLP组件提供丰富的语言标注。
 * [Zemberek NLP](https://github.com/ahmetaa/zemberek-nlp)：Zemberek NLP提供土耳其语自然语言处理工具。
-* [FastText](https://github.com/ivanhk/fastText_java)：Facebook FastText的Java移植。
 * [BerkeleyLM](https://github.com/adampauls/berkeleylm)：用于在内存中估算、存储大型N-Gram语言模型并高效访问它们，由伯克利开源。
 * [BlackLab](https://github.com/instituutnederlandsetaal/BlackLab)：BlackLab是一个基于Apache Lucene构建的语料库检索引擎，由荷兰语言研究所开源。
 * [AHANLP](https://github.com/jsksxs360/AHANLP)：AHANLP自然语言处理包，提供包括分词、依存句法分析、语义角色标注、自动摘要、语义相似度计算、LDA主题预测、词云等服务。
@@ -3926,12 +3938,18 @@
 * [BookNLP](https://github.com/dbamman/book-nlp)：BookNLP是一个自然语言处理流程，可扩展到书籍和其他长篇文档。
 * [KoreanTextMatcher](https://github.com/bangjunyoung/KoreanTextMatcher)：KoreanTextMatcher是一个Java库，提供韩语音节近似匹配和声母搜索功能。
 * [CRF](https://github.com/asher-stern/CRF)：条件随机场(CRF)和词性标注器的实现。
-* [Dicio Numbers](https://github.com/Stypox/dicio-numbers)：这个多语言库实现了从文本中提取数字、日期或持续时间，以及将这些数字、日期或持续时间格式化为人类可读文本的方法。
 * [JStarCraft NLP](https://github.com/HongZhaoHua/jstarcraft-nlp)：JStarCraft NLP是一个面向自然语言处理领域的轻量级引擎。
-* [KeywordExtraction](https://github.com/WuLC/KeywordExtraction)：关键词提取算法的实现，包括TextRank、TF-IDF以及二者的组合。
-* [MainPartExtractor](https://github.com/hankcs/MainPartExtractor)：主谓宾提取器的Java实现。
 * [JaTeCS](https://github.com/jatecs/jatecs)：JaTeCS是一个专注于自动文本分类的开源Java库。
 * [RelEx](https://github.com/opencog/relex)：RelEx是一个英语依存句法分析器。
+* [Talismane](https://github.com/joliciel-informatique/talismane)：Talismane是一个自然语言处理框架，包含句子检测器、分词器、词性标注器和依存句法分析器。
+* [NLP Utils](https://github.com/aria42/nlp-utils)：Java中的NLP工具库。
+* [NLPStack](https://github.com/allenai/nlpstack)：NLPStack是一个自然语言处理工具包，由艾伦人工智能研究院开源。
+* [JSastrawi](https://github.com/jsastrawi/jsastrawi)：JSastrawi是一套用于印尼语的自然语言处理工具集。
+* [Greenback](https://github.com/greenback-inc/greenback-java)：用于构建包含高清明细财务数据的现代化应用程序的Java库，支持OCR、AI和NLP技术，可识别收据、发票、账单和RFC822电子邮件消息。
+* [Syntactic](https://github.com/OmerShapira/Syntactic)：Syntactic是一款能够读取大型文本并将文本中常用词汇分类的程序。
+* [ZAP](https://github.com/zalandoresearch/zap)：ZAP是Zalando开发的一个框架，用于在平行语料库中进行语言标注投影。
+* [PigNLPRoc](https://github.com/ogrisel/pignlproc)：Apache Pig工具，用于从公开的维基百科和DBpedia转储中构建机器学习/自然语言处理的训练语料库。
+* [VaderSentimentJava](https://github.com/apanimesh061/VaderSentimentJava)：VADER是一款基于词典和规则的情感分析工具，专门用于分析社交媒体中表达的情感。
 
 #### 分词器
 
@@ -3942,7 +3960,7 @@
 * [SentencePiece4J](https://github.com/eix128/SentencePiece4J)：纯Java编写的SentencePiece，无需JNI，支持跨平台。
 * [JavaCPP SentencePiece](https://github.com/bytedeco/javacpp-presets/tree/master/sentencepiece)：SentencePiece是一款无监督文本分词器和反分词器。
 * [SentencePiece Java](https://github.com/levyfan/sentencepiece-jni)：SentencePiece的Java JNI封装，用于基于神经网络的文本生成的无监督文本分词器。
-* [Elasticsearch IK Analysis](https://github.com/infinilabs/analysis-ik)：IK Analysis插件集成了Lucene IK分析器，并支持自定义词典，由INFINI Labs维护。
+* [Elasticsearch IK Analysis](https://github.com/infinilabs/analysis-ik)：IK Analysis插件集成了Lucene IK分词器，并支持自定义词典，由INFINI Labs维护。
 * [Pinyin Analysis](https://github.com/infinilabs/analysis-pinyin)：Pinyin Analysis插件方便汉字与拼音之间的转换，由INFINI Labs维护。
 * [Sudachi](https://github.com/WorksApplications/Sudachi)：Sudachi是日语形态分析器。
 * [JTokkit](https://github.com/knuddelsgmbh/jtokkit)：JTokkit是一个专为与OpenAI模型一起使用而设计的Java分词器库。
@@ -3950,7 +3968,7 @@
 * [Word](https://github.com/ysc/word)：Word是一个Java实现的分布式中文分词组件，提供了多种基于词典的分词算法。
 * [Segment](https://github.com/houbb/segment)：Segment是基于结巴分词词库实现的更加灵活、高性能的Java分词实现。
 * [TextRazor](https://www.textrazor.com/docs/java)：TextRazor提供完整的云或自托管文本分词基础设施。
-* [TextAnalyzer](https://github.com/sea-boat/TextAnalyzer)：一款基于机器学习、统计学和词典的文本分析器，能够分析文本。
+* [TextAnalyzer](https://github.com/sea-boat/TextAnalyzer)：一款基于机器学习、统计学和词典的文本分词器，能够分词文本。
 * [IK Analyzer Solr](https://github.com/magese/ik-analyzer-solr)：Solr 7.X-8.X的IK分词器。
 * [Twitter Korean Text](https://github.com/twitter/twitter-korean-text)：Twitter创建的开源韩语处理器。
 * [STConvert](https://github.com/infinilabs/analysis-stconvert)：STConvert是一款将中文字符在繁体和简体之间转换的分词器，由INFINI Labs维护。
@@ -3975,6 +3993,21 @@
 * [GPT2 Tokenizer Java](https://github.com/hyunwoongko/gpt2-tokenizer-java)：GPT2分词器的Java实现。
 * [Cue.Language](https://github.com/vcl-xx/cue.language)：Cue.Language是一个用于简单文本分析的小型Java库。
 * [LC Pinyin Analysis](https://github.com/gitchennan/elasticsearch-analysis-lc-pinyin)：一款运行于Elasticsearch之上的中文拼音智能分词插件，支持全拼、首字母、中文混合搜索。
+* [DetaParser](https://github.com/yaoguangluo/Deta_Parser)：快速中文分词分析库。
+* [Jieba Android](https://github.com/452896915/jieba-android)：结巴分词的Android版本，
+* [HAO ES Analysis](https://github.com/tenlee2012/elasticsearch-analysis-hao)：一个非常好用的ElasticSearch中文分词器插件。
+* [GeorgeBourne](https://github.com/GeorgeBourne)：中文三段式机械分词算法。
+* [ElasticSearch Analysis Hlseg](https://github.com/HylandaOpen/elasticsearch-analysis-hlseg)：Hlseg是天津海量信息公司自主研发的中文分词核心。
+* [Mahjong](https://github.com/yingrui/mahjong)：开源中文分词工具包、中文分词Web API。
+* [XMNLP](https://github.com/JoeWoo/xmnlp)：XMNLP中文分词工具。
+* [ICTCLAS4j](https://github.com/tivenwang/ICTCLAS4j)：中科院分词java客户端。
+* [MMSeg4j Solr](https://github.com/chenlb/mmseg4j-solr)：用于Lucene或Solr的MMSeg4j分词器。
+* [ParsiAnalyzer](https://github.com/NarimanN2/ParsiAnalyzer)：Elasticsearch的波斯语分词器。
+* [ElasticSearch Combo Analyzer](https://github.com/yakaz/elasticsearch-analysis-combo)：Combo Analyzer插件提供了一种新的分词器类型，可以将多个分词器的输出合并为一个。
+* [ElasticSearch Analysis Arirang](https://github.com/HowookJeong/elasticsearch-analysis-arirang)：ElasticSearch韩语分词器。
+* [NLPIR Analysis CN ICTCLAS](https://github.com/NLPIR-team/nlpir-analysis-cn-ictclas)：适用于Lucene/Solr 6.6.0分词器的NLPIR/ICTCLAS插件。
+* [Aot](https://github.com/demidko/aot)：Java俄语词法分词器。
+* [Lucene Arabic Analyzer](https://github.com/msarhan/lucene-arabic-analyzer)：用于阿拉伯语的Apache Lucene分词器，带有基于词根的词干提取器。
 
 #### 语言库
 
@@ -4016,6 +4049,7 @@
 * [Word2VEC](https://github.com/siegfang/word2vec)：Word2VEC的Java并行实现。
 * [Wiki2Vec](https://github.com/idio/wiki2vec)：通过维基百科转储创建Dbpedia实体的Word2Vec向量的实用程序。
 * [JFastText](https://github.com/vinhkhuc/JFastText)：JFastText是Facebook FastText的Java包装器，一个用于高效学习词嵌入和快速句子分类的库。
+* [FastText](https://github.com/ivanhk/fastText_java)：Facebook FastText的Java移植。
 
 #### 信息提取
 
@@ -4035,8 +4069,6 @@
 * [Minie](https://github.com/uma-pi1/minie)：提供简化提取的开放信息提取系统，由德国曼海姆大学开源。
 * [Textricator](https://github.com/measuresforjustice/textricator)：Textricator是一种从文档中提取文本并生成结构化数据的工具。
 * [Baleen](https://github.com/dstl/baleen)：Baleen是一个文本分析框架，允许从非结构化和半结构化数据中提取信息，由英国国防科学技术实验室开源。
-* [TextRank](https://github.com/hankcs/TextRank)：TextRank算法提取关键词与自动摘要的Java实现。
-* [Maui](https://github.com/zelandiya/maui)：Maui可以自动识别文本文档中的主要主题。
 * [Number Words](https://github.com/accelerated-text/numberwords)：Number Words构建自然数、百分比和分数的数字表达式。
 
 #### 语义解析
@@ -4053,6 +4085,47 @@
 * [Inception](https://github.com/inception-project/inception)：Inception提供了一个语义标注平台，提供智能标注帮助和知识管理，由达姆施塔特工业大学开源。
 * [LIMES](https://github.com/dice-group/LIMES)：LIMES是一个用于发现链接数据源中实体之间连接的框架，由帕德博恩大学开源。
 * [Berkeley Entity](https://github.com/gregdurrett/berkeley-entity)：Berkeley Entity Resolution System采用特征丰富的判别模型，联合解决命名实体识别、共指解析和实体链接问题。
+
+#### 关键词提取
+
+* [TextRank](https://github.com/hankcs/TextRank)：TextRank算法提取关键词与自动摘要的Java实现。
+* [TextRank](https://github.com/samxhuan/textrank)：TextRank算法的开源Java实现。
+* [TextRank Java](https://github.com/sing1ee/textrank-java)：一种用于自然语言处理关键词提取的文本排名算法的简单实现。
+* [TextRank](https://github.com/STHSF/TextRank)：基于PageRank的TextRank方法，可以应用于中文关键词、短语、摘要提取程序。
+* [KeywordExtraction](https://github.com/WuLC/KeywordExtraction)：关键词提取算法的实现，包括TextRank、TF-IDF以及二者的组合。
+* [Maui](https://github.com/zelandiya/maui)：Maui可以自动识别文本文档中的主要主题。
+* [Sypht Java Client](https://github.com/sypht-team/sypht-java-client)：Sypht是一款SaaS API，用于从文档中提取关键字段。
+* [TimeExtractor](https://github.com/digamma-ai/timeextractor)：时间提取器NLP项目，在文本文件中查找日期和时间。
+* [W2V TextRank](https://github.com/johnson-xu01/W2V_TextRank)：用Word2Vec改进的TextRank算法。
+* [RAKE Java](https://github.com/Neuw84/RAKE-Java)：快速自动关键词提取框架(RAKE)的Java实现。
+* [Maui2](https://github.com/HIIT/maui-2)：Maui 2.0是一个关键词提取工具。
+* [MainPartExtractor](https://github.com/hankcs/MainPartExtractor)：主谓宾提取器的Java实现。
+* [Dicio Numbers](https://github.com/Stypox/dicio-numbers)：这个多语言库实现了从文本中提取数字、日期或持续时间，以及将这些数字、日期或持续时间格式化为人类可读文本的方法。
+* [Beagle](https://github.com/tokenmill/beagle)：Beagle是一款文本内容检测工具，专为流式搜索应用而设计。
+
+#### 文本相似度
+
+* [Similarity](https://github.com/shibing624/similarity)：Similarity是由一系列算法组成的Java版相似度计算工具包，目标是传播自然语言处理中相似度计算方法。
+* [Java String Similarity](https://github.com/tdebatty/java-string-similarity)：实现不同字符串相似度和距离测量的库。
+* [StringMetric](https://github.com/rockymadden/stringmetric)：StringMetric提供执行近似字符串匹配、字符串相似度/距离测量、按单词发音索引以及发音相似性比较的功能。
+* [SimMetrics](https://github.com/Simmetrics/simmetrics)：相似度和距离度量的Java库，例如Levenshtein距离和余弦相似度。
+* [Xsimilarity](https://github.com/iamxiatian/xsimilarity)：相似度计算软件包。
+* [Java String Similarity](https://github.com/rrice/java-string-similarity)：Java String Similarity是一个实现了多种计算字符串之间相似度算法的Java库。
+* [LevenshteinAutomaton](https://github.com/klawson88/LevenshteinAutomaton)：LevenshteinAutomaton是一个快速且功能全面的Java库，能够执行基于自动机和非自动机的Damerau-Levenshtein距离计算和邻域计算。
+* [NLP HanZi Similar](https://github.com/houbb/nlp-hanzi-similar)：NLP HanZi Similar为汉字提供相似性的计算。
+* [LibLevenshtein](https://github.com/vinary-tree/liblevenshtein-java)：一个基于Levenshtein Automata的有限状态转换器生成库。
+* [HanLP TextSimilarity](https://github.com/mokou591/HanLP-TextSimilarity)：中文分词、统计词频、比对文本相似度。
+* [Semantic Similarity](https://github.com/ml-distribution/semantic-similarity)：中文语义相似度计算框架。
+
+#### 命名实体识别
+
+* [MetaMapLite](https://github.com/lhncbc/metamaplite)：MetaMapLite的主要目标是提供近乎实时的命名实体识别器，由利斯特山国家生物医学通讯中心开源。
+* [Refine NER](https://github.com/RubenVerborgh/Refine-NER-Extension)：适用于Google Refine/OpenRefine的命名实体识别扩展。
+* [Europeana Newspapers NER](https://github.com/KBNLresearch/europeananp-ner)：欧洲报纸命名实体识别标注工具，由荷兰国家图书馆开源。
+* [Indonesia NER](https://github.com/yusufsyaifudin/indonesia-ner)：印度尼西亚语的命名实体识别。
+* [ChemSpot](https://github.com/rockt/ChemSpot)：ChemSpot是一款命名实体识别工具，用于识别自然语言文本中提及的化学品，包括俗名、药物、缩写、分子式和IUPAC命名法名称。
+* [GermaNER](https://github.com/tudarmstadt-lt/GermaNER)：GermaNER是一个免费开源的德语命名实体识别工具。
+* [Talen](https://github.com/CogComp/talen)：Talen是一款轻量级的基于Web的词序列标注工具，由宾夕法尼亚大学开源。
 
 #### 敏感词过滤
 
@@ -4238,7 +4311,6 @@
 * [JavaANPR](https://github.com/oskopek/javaanpr)：JavaANPR是一款自动车牌识别软件。
 * [OpenAnpr](https://gitee.com/open-visual/open-anpr)：基于深度学习的智能车牌识别，支持14种中文车牌类型。
 * [ABBYY Cloud OCR SDK](https://github.com/abbyy/ocrsdk.com)：ABBYY Cloud OCR SDK提供Web API，可轻松在C#、Java、Python或任何其他支持网络通信的开发工具中使用。
-* [Sypht Java Client](https://github.com/sypht-team/sypht-java-client)：Sypht是一款SaaS API，用于从文档中提取关键字段。
 * [PdfOCR](https://github.com/itext/itext-pdfocr-java)：PdfOCR是iText的一个插件，用于识别和提取扫描文档和图像中的文本。
 * [MRZ](https://github.com/ZsBT/mrz-java)：用于解析国际民航组织(ICAO)规范的MRZ记录的Java解析器。
 * [RapidOCR4j](https://github.com/hzkitty/RapidOCR4j)：多平台OCR工具，RapidOCR的Java移植版本。

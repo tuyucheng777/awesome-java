@@ -445,6 +445,7 @@
 * [WHOIS](https://github.com/RIPE-NCC/whois)：WHOIS是由RIPE NCC开源的一款WHOIS协议实现工具。
 * [The ONE](https://github.com/akeranen/the-one)：机会网络环境模拟器，由阿尔托大学开源。
 * [Net2Plan](https://github.com/girtel/Net2Plan)：Net2Plan是一个用Java开发的通信网络规划、优化和评估工具。
+* [ISCXFlowMeter](https://github.com/ahlashkari/ISCXFlowMeter)：ISCXFlowMeter是一个以太网流量生成器和分析器，用于异常检测。
 
 #### 端口转发
 
@@ -1754,6 +1755,7 @@
 * [ADBCj](https://github.com/mheath/adbcj)：Java中的异步数据库连接。
 * [RDBC](https://github.com/rdbc-io/rdbc)：RDBC是一个面向Scala和Java编程语言的SQL级关系数据库连接API。
 * [NDBC](https://github.com/traneio/ndbc)：该项目的目标是提供一种完全异步的数据库处理方法。
+* [Qdrant Java Client](https://github.com/qdrant/java-client)：Qdrant Java客户端。
 
 #### ORM框架
 
@@ -1928,6 +1930,7 @@
 * [TreSQL](https://github.com/mrumkovskis/tresql)：简写式SQL/JDBC封装语言，提供JSON等格式的嵌套结果。
 * [JDBC](https://github.com/bowbahdoe/jdbc)：用于处理原始JDBC API的实用程序。
 * [PolyJDBC](https://github.com/polyjdbc/polyjdbc)：PolyJDBC是一个多语言、轻量级的标准JDBC驱动程序封装器，具有模式检查/创建功能。
+* [LDBC](https://github.com/takapi327/ldbc)：LDBC是一个纯函数式JDBC层，采用Cats Effect 3和Scala 3。
 
 #### DAO框架
 
@@ -2259,6 +2262,7 @@
 * [EXperDB Management](https://github.com/experdb/eXperDB-Management)：EXperDB Management是一款PostgreSQL管理工具。
 * [APGDiff](https://github.com/fordfrog/apgdiff)：APGDiff是免费的PostgreSQL Diff工具，可用于比较/差异数据库模式。
 * [StackGres](https://github.com/ongres/stackgres)：StackGres是Kubernetes的全栈PostgreSQL发行版，打包到一个简单的部署单元中，拥有一组精心挑选和调整的周边PostgreSQL组件。
+* [Dumbo](https://github.com/rolang/dumbo)：适用于JVM和Native平台的Postgres数据库迁移工具。
 
 #### Oracle库/工具
 
@@ -2440,6 +2444,7 @@
 * [ElasticSearch Engine](https://github.com/wanghuan9/elasticsearch-engine)：ElasticSearch Engine是基于HighLevelRestClient封装的ElasticSearch查询引擎框架。
 * [Kt Search](https://github.com/jillesvangurp/kt-search)：Kt Search是一个Kotlin多平台库，用于在任何Kotlin可编译的平台上搜索Opensearch和Elasticsearch生态系统。
 * [Elasticsearch Kotlin Client](https://github.com/jillesvangurp/es-kotlin-client)：用于Elasticsearch的Kotlin客户端，在官方Java客户端的基础上添加了Kotlin DSL、协程支持等功能。
+* [ElasticSearch Update By Query Plugin](https://github.com/yakaz/elasticsearch-action-updatebyquery)：ElasticSearch按查询更新操作插件。
 * [Querqy](https://github.com/querqy/querqy)：Querqy是一个在基于Java的搜索引擎中进行查询预处理的框架。
 * [FastSearch](https://gitee.com/bakerzhu/fast-search)：FastSearch是基于ElasticSearch搜索服务提供的简易API调用。
 * [Spring Elasticsearch](https://github.com/dadoonet/spring-elasticsearch)：Spring ElasticSearch的目标是提供一个简单的Java库，帮助你在启动应用程序时创建索引、映射等。
@@ -2936,6 +2941,7 @@
 * [Robosodium](https://github.com/GerardSoleCa/Robosodium)：Robosodium是Libsodium JNI的一个分支。
 * [JNACL](https://github.com/neilalexander/jnacl)：NaCl网络和密码库的纯Java实现。
 * [Salty Coffee](https://github.com/NeilMadden/salty-coffee)：NaCl加密库的纯Java实现。
+* [XSalsa20Poly1305](https://github.com/codahale/xsalsa20poly1305)：XSalsa20Poly1305是一个纯Java库，提供对称和非对称加密，兼容DJB的NaCl库及其变体。
 * [Caesium](https://github.com/lvh/caesium)：Caesium是一个用于Clojure的现代密码学库。
 * [Jscep](https://github.com/seize-the-dave/jscep)：Jscep是SCEP协议的Java实现。
 * [Noise Java](https://github.com/rweather/noise-java)：Noise Java是Noise协议的纯Java实现。
@@ -2997,6 +3003,7 @@
 * [Hasch](https://github.com/replikativ/hasch)：Clojure和ClojureScript的EDN数据结构的跨平台加密哈希。
 * [Hasher](https://github.com/ihimanshurawat/Hasher)：一个简单、轻量级且易于使用的哈希库。
 * [OpenSC Java](https://github.com/CardContact/opensc-java)：Java PKCS#11封装器和JCE提供程序。
+* [Brisbane](https://github.com/openjdk/brisbane)：Brisbane为Java的JCA框架提供了一个Java加密服务提供程序(CSP)，使Java应用程序能够在受监管的环境中使用符合FIPS标准的加密技术，由Oracle开源。
 
 #### 密码库
 
@@ -3030,6 +3037,7 @@
 * [JOTP](https://github.com/amdelamar/jotp)：Java中的OTP实用程序。
 * [CheckPasswordStrength](https://github.com/venshine/CheckPasswordStrength)：CheckPasswordStrength是一个Java开源库，提供检测密码强度的功能。
 * [Yubico Java Client](https://github.com/Yubico/yubico-java-client)：用于验证YubiKey一次性密码(OTP)的客户端库。
+* [Passpol](https://github.com/codahale/passpol)：一个用于根据NIST SP-800-63B要求验证密码的Java 12库。
 
 #### 加密算法
 
@@ -3193,6 +3201,7 @@
 * [Amnesia](https://github.com/dTsitsigkos/Amnesia)：Amnesia提供了一个REST API，用于处理Web界面发出的匿名化请求。
 * [Data::Anonymization](https://github.com/dataanon/data-anon)：Data::Anonymization可帮助你构建匿名化的生产数据转储。
 * [QualiAnon](https://github.com/pangaea-data-publisher/qualianon)：Qualiservice的文本数据匿名化工具。
+* [Phileas](https://github.com/philterd/phileas)：Phileas是一个Java库，用于对文本进行去标识化和编辑，去除其中的个人身份信息(PII)、个人健康信息(PHI)和其他敏感信息。
 
 #### 电子签名
 
@@ -3400,7 +3409,6 @@
 * [HexaTools](https://github.com/ltearno/hexa.tools)：这是一个Java库，旨在提高开发人员的效率。
 * [Java MyUtils](https://github.com/caipeiming/java-myutils)：Java工具库，包括图像、ID校验等功能。
 * [XUtil](https://github.com/xuexiangjys/XUtil)：一个方便实用的Android工具类库。
-* [AndroidUtilLib](https://github.com/SiberiaDante/AndroidUtilLib)：一款属于Android快速开发的强大工具库。
 * [OkLib](https://github.com/huangweicai/OkLibDemo)：OkLib是一个让开发更简单的工具库。
 * [RJcenter](https://github.com/angcyo/RJcenter)：常用公共类，Android开源项目。
 * [RxUtil2](https://github.com/xuexiangjys/RxUtil2)：一个实用的RxJava 2工具类库。
@@ -3937,6 +3945,7 @@
 * [AOP Logging](https://github.com/nickvl/aop-logging)：AOP Logging是一个基于声明式注解的Java Spring应用日志记录工具。
 * [JBoss Log Manager](https://github.com/jboss-logging/jboss-logmanager)：JBoss Log Manager是Java Util Logging(JUL)的扩展。
 * [MyLogLibrary](https://github.com/Pulimet/MyLogLibrary)：简单的Android Kotlin日志记录器。
+* [Logula](https://github.com/codahale/logula)：Logula是一个Scala库，它提供了一种合理的日志输出格式和一个易于使用的Mixin，用于向代码中添加日志记录功能。
 
 #### 日志门面
 
@@ -4557,6 +4566,7 @@
 * [AirCon](https://github.com/ironSource/aircon)：基于注解处理和代码生成的远程配置管理Android库。
 * [Yyconfig](https://github.com/garyxiong123/yyconfig)：Yyconfig根据携程Apollo进行改造，定制一般符合中小企业的配置服务。
 * [Switch Config](https://github.com/alibaba/switch-config)：Switch Config是一个轻量级的动态配置框架，由阿里提供。
+* [Fig](https://github.com/codahale/fig)：Fig是一个非常小的Scala库，它可以轻松地从基于JSON的配置文件中读取数据，并完全支持JavaScript风格的注释。
 
 #### 配置语言
 
@@ -4750,6 +4760,7 @@
 * [NaturalDateFormat](https://github.com/ZieIony/NaturalDateFormat)：一个用于按照Material Design指南中所述格式化日期的库。
 * [Human Readable](https://github.com/jacobras/Human-Readable)：一套用于KMP的小型数据格式化实用程序。
 * [FuzzyDateFormatter](https://github.com/izacus/FuzzyDateFormatter)：一个简单的格式化库，用于将日期格式化为模糊格式。
+* [Timewords](https://github.com/tokenmill/timewords)：用于将日期字符串解析为java.util.Date对象的库。
 
 #### 假期库
 
@@ -5635,6 +5646,7 @@
 * [Catify](https://github.com/catify/bpmn-engine)：Catify BPMN引擎基于Akka和Neo4j，并完全兼容BPMN2.0。
 * [FluxFlow](https://github.com/lisegmbh/fluxflow)：FluxFlow是一款轻量级、对开发者友好的工作流引擎。
 * [jBPT](https://github.com/jbpt/codebase)：jBPT库是一个技术汇编，支持对业务流程的设计、执行和评估进行研究。
+* [KADAI](https://github.com/kadai-io/kadai)：KADAI是一个开源的任务管理组件库。
 
 ## 编排引擎
 
@@ -6217,6 +6229,7 @@
 * [Ascii Hexagonal Grid Pretty Printer](https://github.com/cmelchior/asciihexgrid)：Ascii Hexagonal Grid Pretty Printer是一个基于Java的工具，可以将六边形网格输出到命令行。
 * [Tree Printer](https://github.com/billvanyo-zz/tree_printer)：一个用于将二叉树打印为ASCII文本的Java类。
 * [Colored Console](https://github.com/marcelmatula/colored-console)：Kotlin DSL ANSI输出彩色控制台。
+* [ANSI4J](https://github.com/techsenger/ansi4j)：Techsenger ANSI4J是一个Java库，它完全按照ISO/IEC 6429:1992标准解析ANSI转义码。
 
 #### 文本打印
 
@@ -6442,6 +6455,7 @@
 * [ET](https://github.com/mscharhag/ET)：ET是一个小型Java 8+库，用于异常转换/翻译。
 * [Expressible](https://github.com/dzikoysk/expressible)：专用于函数式和非函数式代码库的实用库，旨在简化Java/Kotlin中成功和失败响应的建模。
 * [AO Railway](https://github.com/StefanMacke/ao-railway)：一个用于铁路导向编程的Java库。
+* [KIO](https://github.com/colomboe/KIO)：KIO是一个简单、轻量级的Kotlin IO Monad实现。
 
 #### Stream工具库
 
@@ -6823,6 +6837,7 @@
 * [ImageIO JNR](https://github.com/dbmdz/imageio-jnr)：该项目包含ImageIO插件，这些插件使用JNR-FFI封装了各种图像格式的常用原生库。
 * [GM4Java](https://github.com/sharneng/gm4java)：GraphicsMagick交互模式Java集成。
 * [ObfuscationUtils](https://github.com/2195517546/ObfuscationUtils)：一个Java的图片加密解密工具库。
+* [Mpicbg](https://github.com/axtimwalde/mpicbg)：Fiji模块，用于图像变换及相关算法。
 
 #### 图像元数据
 
@@ -7085,7 +7100,7 @@
 * [PatchLib](https://github.com/mariotaku/PatchLib)：PatchLib让Java反射更简单。
 * [Scala Reflection](https://github.com/gzoller/scala-reflection)：Scala 3运行时反射库。
 * [ImagineBreaker](https://github.com/Rongmario/ImagineBreaker)：Java 9-25库，破坏模块系统和反射过滤器。
-* [OkReflect](https://github.com/zeshaoaaa/OkReflect)：OkReflect是一个旨在帮助您轻松使用Java反射API的库。
+* [OkReflect](https://github.com/zeshaoaaa/OkReflect)：OkReflect是一个旨在帮助你轻松使用Java反射API的库。
 * [YukiReflection](https://github.com/HighCapable/YukiReflection)：一个用Kotlin构建的高效的Java和Android反射API。
 * [ReflectionHooks](https://github.com/xxDark/reflectionhooks)：Java反射钩子库。
 * [Portable Scala Reflect](https://github.com/portable-scala/portable-scala-reflect)：该库为Scala中的运行时反射提供了一个统一、可移植的API。
@@ -8372,6 +8387,7 @@ Kafka生态管理系统、运维平台。
 * [JStack Review](https://jstack.review/)：JStack Review从浏览器内分析Java线程转储。
 * [JStackFX](https://github.com/twasyl/jstackfx)：JStackFX是一种用于分析线程转储的工具。
 * [Samurai](https://github.com/yusuke/samurai)：Samurai是一个用于Java线程转储/GC日志的分析工具。
+* [TDV](https://github.com/igr/tdv)：离线线程转储分析器。
 
 #### 火焰图
 
@@ -8430,8 +8446,10 @@ Kafka生态管理系统、运维平台。
 * [SonarJava](https://github.com/SonarSource/sonar-java)：用于Java代码质量和安全性的SonarSource静态分析器。
 * [Spoon](https://github.com/INRIA/spoon)：Spoon是一个用于分析、重写、转换、转译Java源代码的开源库，由法国国家数字科学与技术研究所开源。
 * [Detekt](https://github.com/detekt/detekt)：Detekt是一款适用于Kotlin编程语言的静态代码分析工具。
+* [Konsist](https://github.com/LemonAppDev/konsist)：Konsist是一款代码检查工具，它通过强制执行内聚性强的代码结构和统一的架构来维护Kotlin项目的一致性。
 * [FindBugs](https://github.com/findbugsproject/findbugs)：FindBugs是一个使用静态分析来查找Java代码中的错误的程序，由马里兰大学开源。
 * [jQAssistant](https://github.com/jQAssistant/jqassistant)：jQAssistant是一个开源工具，可帮助你分析和控制软件系统的质量。
+* [PHP Inspections](https://github.com/kalessil/phpinspectionsea)：PHP静态代码分析器。
 * [Scavenger](https://github.com/naver/scavenger)：由Naver开源的运行时死代码分析工具。
 * [DeadCode4J](https://github.com/Scout24/deadcode4j)：DeadCode4J可以帮助你查找应用程序中不再使用的代码。
 * [WalkMod](https://github.com/walkmod/walkmod-core)：WalkMod是一个开源工具，通过自动快速修复编码风格问题来共享和应用代码约定。
@@ -8518,6 +8536,7 @@ Kafka生态管理系统、运维平台。
 * [SWAT](https://github.com/SWAT-project/SWAT)：SWAT是一个用于Java应用程序的动态符号执行引擎。
 * [CodeRadar](https://github.com/adessoSE/coderadar)：Coderadar是一款持续的源代码分析工具。
 * [Hopper](https://github.com/cuplv/hopper)：Hopper是一款面向JVM语言的目标导向型静态分析工具，由科罗拉多大学博尔德分校开源。
+* [Aibolit](https://github.com/cqfn/aibolit)：Aibolit是一款基于机器学习的Java静态分析器。
 * [Naturalize](https://github.com/mast-group/naturalize)：Naturalize是一个与语言无关的框架，用于从代码库中学习编码约定，然后利用这些信息来建议更好的标识符名称和代码格式更改，由爱丁堡大学开源。
 * [EtherSolve](https://github.com/SeUniVr/EtherSolve)：EtherSolve是一款用于从以太坊字节码重建Solidity智能合约的控制流图和静态分析的工具。
 * [Teamscale Java Profiler](https://github.com/cqse/teamscale-java-profiler)：Teamscale为的团队提供支持，帮助你分析、监控和改进软件质量。
@@ -8556,6 +8575,7 @@ Kafka生态管理系统、运维平台。
 * [Ribot Android Guidelines](https://github.com/ribot/android-guidelines)：Ribot为Android平台开发时使用的指南列表。
 * [JsLint4Java](https://github.com/happygiraffe/jslint4java)：这是一个用Java封装的JsLint工具。
 * [Sonatype Codestyle](https://github.com/sonatype/codestyle)：Sonatype代码风格指南。
+* [AndroidLint](https://github.com/RocketZLY/AndroidLint)：这是一个通用Android Lint库，你可以用它来检查代码规范、Bug、资源命名等。
 
 #### 代码异味
 
@@ -8593,6 +8613,7 @@ Kafka生态管理系统、运维平台。
 * [Module Dependency Graph](https://github.com/savvasdalkitsis/module-dependency-graph)：此插件会向你的项目添加一个新任务，该任务会生成一张包含模块依赖关系图的图像。
 * [ClassDependenceAnalyser](https://github.com/JLLK/ClassDependenceAnalyser)：用于Java类依赖性分析的工具。
 * [DepView](https://github.com/nettee/DepView)：分析Java项目中的调用依赖关系，并在依赖关系图中将其可视化。
+* [ProjectGuard](https://github.com/rubensousa/ProjectGuard)：一款Gradle插件，可作为项目依赖项的强大守门人。
 
 #### 迁移&重构
 
@@ -9008,6 +9029,7 @@ Kafka生态管理系统、运维平台。
 * [J2CC](https://github.com/0x3C50/j2cc)：Java到C++转译器和混淆器。
 * [Dart2Java](https://github.com/google/dart2java)：Dart2Java是一个将Dart代码转译为Java源代码的工具，由Google开源。
 * [Java2Typescript](https://github.com/raphaeljolivet/java2typescript)：Java2Typescript提供了一个Java REST服务定义和Typescript客户端之间的桥梁。
+* [SharedType](https://github.com/SharedType/sharedtype)：从Java生成TypeScript/Go/Rust类型。
 
 ## 代码预处理
 
@@ -9793,6 +9815,7 @@ Kafka生态管理系统、运维平台。
 * [CsjIM](https://github.com/kingston-csj/im)：仿QQ即时通讯系统服务端。
 * [BootPush](https://github.com/bootsrc/bootpush)：即时消息推送服务。
 * [Akaxin](https://github.com/DarLiner/openzaly)：Akaxin是一款开源免费的私有聊天软件，可以部署在任意服务器上。
+* [TRIfA Material](https://github.com/Zoxcore/trifa_material)：TRIfA Material是一款使用加密点对点Tox协议的桌面消息客户端。
 
 #### 电商系统
 
@@ -10522,6 +10545,7 @@ Kafka生态管理系统、运维平台。
 * [Epitome](https://github.com/epitome-AISS/epitome)：Epitome是全球首个致力于人工智能与社会科学深度融合的实验性开放平台。
 * [Kaleido AI](https://gitee.com/ou-yucheng/kaleido-ai)：Kaleido AI智能衣柜是一个采用微服务架构的AI智能穿搭管理系统。
 * [Spring Alpha](https://github.com/CadeYu/spring-alpha)：Spring Alpha是一个基于Spring AI与Next.js构建的企业级美股智能分析Agent。
+* [KnowledgeOps Agent](https://github.com/however-yir/knowledgeops-agent)：KnowledgeOps Agent是一个企业级Spring AI RAG平台，可将文档知识转化为可部署、可管控且可衡量的AI工作流。
 
 #### OA系统
 
@@ -11015,6 +11039,8 @@ Kafka生态管理系统、运维平台。
 * [WeiboClient4j](https://github.com/hoverruan/weiboclient4j)：新浪微博的Java客户端。
 * [ForecastIO Java](https://github.com/dvdme/forecastio-lib-java)：用于Forecast.io天气API的Java库。
 * [McReverse](https://github.com/Louuke/McReverse)：用Java对德国麦当劳API进行逆向工程的库。
+* [Keen Java Client](https://github.com/keenlabs/KeenClient-Java)：Keen Java客户端允许你从任何Java应用程序使用Keen记录数据。
+* [iTunes API](https://github.com/mdewilde/itunes-api)：iTunes API是一个Java客户端库，提供对四个不同iTunes API的便捷编程访问。
 
 #### Twitter
 
@@ -12119,6 +12145,11 @@ Kafka生态管理系统、运维平台。
 * [Bacnet4J Wrapper](https://github.com/Code-House/bacnet4j-wrapper)：Bacnet4j是bacnet协议的Java实现，这是Bacnet4j API的简单门面。
 * [BACnet4J](https://github.com/empeeoh/BACnet4J)：用Java编写的BACnet/IP协议栈。
 
+#### 业余无线电
+
+* [AX25IRC](https://github.com/xba1k/ax25irc)：AX25IRC是一个Java项目，旨在通过业余无线电创建一个类似IRC的消息系统。
+* [JavAX25](https://github.com/sivantoledo/javAX25)：Java中的AX25调制解调器。
+
 ## 短信
 
 * [Twilio Java](https://github.com/twilio/twilio-java)：用于与Twilio REST API通信并生成TwiML的Java库。
@@ -12572,6 +12603,120 @@ Kafka生态管理系统、运维平台。
 * [NumAndroidCharts](https://github.com/numetriclabz/numAndroidCharts)：Numetric Technologies推出的强大Android图表库。
 * [Finance.Android](https://github.com/ABTSoftware/Finance.Android)：Finance Charts SDK为原生iOS和Android应用添加了专业级财务图表功能。
 
+#### Android对话框
+
+* [Material Dialogs](https://github.com/afollestad/material-dialogs)：一个美观、流畅且可扩展的Kotlin和Android对话框API。
+* [XPopup](https://github.com/junixapp/XPopup)：内置几种了常用的弹窗，十几种良好的动画，将弹窗和动画的自定义设计的极其简单。
+* [SweetAlert](https://github.com/pedant/sweet-alert-dialog)：SweetAlert是一款适用于Android的美观而巧妙的提示对话框。
+* [DialogPlus](https://github.com/orhanobut/dialogplus)：适用于安卓系统的高级对话框解决方案。
+* [CustomActivityOnCrash](https://github.com/Ereza/CustomActivityOnCrash)：该库允许在应用程序崩溃时启动自定义活动，而不是显示令人讨厌的“Unfortunately, X has stopped”对话框。
+* [FabulousFilter](https://github.com/Krupen/FabulousFilter)：用于实现浮动操作按钮到底部对话框以及底部对话框到浮动操作按钮动画切换的Android库。
+* [NiftyDialogEffects](https://github.com/litao0621/NiftyDialogEffects)：巧妙的模态对话框效果。
+* [DialogX](https://github.com/kongzue/DialogX)：一款简单易用的对话框组件，相比原生对话框使用体验更佳。
+* [FlycoDialog](https://github.com/H07000223/FlycoDialog_Master)：一款简化自定义的Android对话框库。
+* [Android StyledDialogs](https://github.com/avast/android-styled-dialogs)：基于DialogFragment的Material对话框的向后移植，并提供易于使用的API。
+* [BottomDialog](https://github.com/shaohui10086/BottomDialog)：BottomDialog是一个使用DialogFragment实现的底部对话框布局，支持弹出动画，并支持任何布局。
+* [MaterialStyledDialogs](https://github.com/javiersantos/MaterialStyledDialogs)：一个用于显示美观且可自定义的Material Design对话框(带标题)的库。
+* [LovelyDialog](https://github.com/yarolegovich/LovelyDialog)：这个库是一组简单的包装类，旨在帮助你轻松创建精美的Material对话框。
+* [DialogUtil](https://github.com/hss01248/DialogUtil)：常用对话框，采用Material Design风格，iOS风格，自动获取顶层Activity，可在任何位置调用show()方法。
+* [Sheets](https://github.com/maxkeppeler/sheets)：简洁的对话框和底部面板，方便你在应用中快速使用。
+* [Android Material Dialog](https://github.com/PatilShreyas/MaterialDialog-Android)：Android库，可轻松在Android应用程序中实现动画效果、美观、时尚的Material对话框。
+* [Sheets Compose Dialogs](https://github.com/maxkeppeler/sheets-compose-dialogs)：这是一个基于Jetpack Compose构建的Android库，提供适用于各种用例的对话框和视图。
+* [Morphing Material Dialogs](https://github.com/Aditya94A/Morphing-Material-Dialogs)：一个Android Kotlin UI库，用于构建精美的动画，将浮动操作按钮转换为Material对话框。
+* [BottomSheetMenu](https://github.com/Kennyc1012/BottomSheetMenu)：Android的BottomSheetMenu样式对话框。
+* [EasyDialog](https://github.com/michaelye/EasyDialog)：Android中轻量级、灵活的提示对话框。
+* [AppErrorsTracking](https://github.com/KitsunePie/AppErrorsTracking)：为应用程序的错误对话框添加了更多功能，修复了自定义ROM删除对话框，为Android开发者提供最佳体验。
+* [NiceDialog](https://github.com/shehuan/NiceDialog)：一个基于DialogFragment的漂亮对话框。
+* [AestheticDialogs](https://github.com/gabriel-TheCode/AestheticDialogs)：Android库，用于创建流畅、美观、自定义对话框。
+* [React Native Dialogs](https://github.com/react-native-dialogs/react-native-dialogs)：这是一个仅适用于Android的Material Design对话框模块。
+* [L-Dialogs](https://github.com/lewisjdeane/L-Dialogs)：一个小型库，用于复制Android L中的新对话框。
+* [FancyGifDialog Android](https://github.com/Shashank02051997/FancyGifDialog-Android)：让你的原生Android对话框更炫酷、更生动。
+* [Search Dialog](https://github.com/mirrajabi/search-dialog)：功能强大且可自定义的搜索对话框，内置多种搜索选项。
+* [IndicatorDialog](https://github.com/jiang111/IndicatorDialog)：在你想要的位置显示一个带有箭头指示器的对话框。
+* [AlertDialogPro](https://github.com/fengdai/AlertDialogPro)：此项目可轻松实现Android对话框的主题定制和自定义。
+* [ModalBottomSheetDialogFragment](https://github.com/Commit451/ModalBottomSheetDialogFragment)：基于Material Guidelines的模态底部对话框。
+* [FancyDialog](https://github.com/geniusforapp/fancyDialog)：FancyDialog是一个带有精美样式的AlertDialog。
+* [BottomDialog](https://github.com/Curzibn/BottomDialog)：BottomDialog是一个自定义的从底部弹出的Dialog，仿照微博的分享弹框。
+* [PoupoLayer](https://github.com/MrCodeSniper/PoupoLayer)：一个通用的Android端弹窗管理框架。
+* [FancyAlertDialog Android](https://github.com/Shashank02051997/FancyAlertDialog-Android)：让你的原生Android对话框更炫酷。
+* [YCDialog](https://github.com/yangchong211/YCDialog)：自定义弹窗，其中包括自定义Toast、Dialog控件、DialogFragment弹窗、PopupWindow弹窗等。
+* [React Native Add Calendar Event](https://github.com/vonovak/react-native-add-calendar-event)：使用标准的iOS/Android对话框在React Native中创建、查看或编辑事件。
+* [Android Floating Tutorial Activity](https://github.com/klinker24/Android-FloatingTutorialActivity)：一种轻量级、易于实现且易于查看的Android教程分页器或对话框实现方法。
+* [BottomDialog](https://github.com/raphaelbussa/BottomDialog)：这是附加在底部的自定义对话框。
+* [AwesomeDialog](https://github.com/chnouman/AwesomeDialog)：一个漂亮的Kotlin Android对话框库。
+* [EasyDialog](https://github.com/kaleai/EasyDialog)：通过封装DialogFragment实现的Dialog。
+* [Emojicon](https://github.com/ankushsachdeva/emojicon)：用于在软键盘上显示表情符号对话框的Android库。
+* [DialogSheet](https://github.com/marcoscgdev/DialogSheet)：一个用于创建类似Android Pay应用的完全Material Design设计的底部对话框的Android库。
+* [ACProgressLite](https://github.com/cloudist/ACProgressLite)：Android加载或进度对话框组件库，提供了一种高效的方式来实现类似iOS的加载对话框和进度轮。
+* [Place Search Dialog](https://github.com/codemybrainsout/place-search-dialog)：一个使用Google Places API查找结果的地点自动完成搜索对话框。
+* [BottomSheet](https://github.com/michaelbel/BottomSheet)：BottomSheet是一个基于Material Design理念的Android对话框库。
+* [ElegantDialog](https://github.com/muigukenneth/ElegantDialog)：一个用Kotlin/Java编写的美观、可定制且交互式的Android对话框。
+* [GDPRDialog](https://github.com/MFlisar/GDPRDialog)：GDPR片段对话框实现。
+* [Dialog](https://github.com/Alex-Cin/Dialog)：自定义一些常见的Dialog效果，居中显示、顶部显示、仿iOS版淘宝、回弹效果、宽度和高度占屏比等。
+* [Oops No Internet](https://github.com/ImaginativeShohag/Oops-No-Internet)：简单的无网络连接对话框和提示栏，会根据网络连接状态自动显示和隐藏。
+* [SearchableSpinner](https://github.com/MdFarhanRaja/SearchableSpinner)：完全可搜索的加载指示器对话框。
+* [AlipayPassDialog](https://github.com/lzjin/AlipayPassDialog)：Android仿支付宝密码弹框。
+* [Year Month Wheel Dialog](https://github.com/xuningjack/year_month_wheel_dialog)：Year Month Wheel Dialog是通过双滚轮对话框选择年月的视图。
+* [React Native Android Location Services Dialog Box](https://github.com/webyonet/react-native-android-location-services-dialog-box)：一个用于从Android位置服务启用对话框的React Native组件。
+* [QustomDialog](https://github.com/danoz73/QustomDialog)：Qustom可以帮助你快速创建自定义Android对话框。
+* [MaterialDialogBottomSheet](https://github.com/ckdevrel/MaterialDialogBottomSheet)：MaterialDialogBottomSheet是一个自定义对话框实现，用于在Android Lollipop之前的版本以及最新版本中使用BottomSheet MaterialView功能。
+* [Red Screen Of Death](https://github.com/mlegy/red-screen-of-death)：这是一个简单的界面，用于在应用崩溃时代替通常的崩溃对话框。
+* [LottieAlertDialog](https://github.com/mayuce/LottieAlertDialog)：这个库可以帮助你使用Lottie创建大量警告对话框。
+* [KAlertDialog](https://github.com/TutorialsAndroid/KAlertDialog)：一款美观且符合Material Design风格的提示对话框。
+* [EasyWayLocation](https://github.com/prabhat1707/EasyWayLocation)：这个库包含了所有与谷歌定位相关的实用工具，例如获取经纬度、地址和位置设置对话框、绘制路线等等。
+* [Calculator Dialog](https://github.com/maltaisn/calcdialoglib)：一款适用于Android系统、兼容API 14及以上版本的完全可自定义计算器对话框。
+* [AndroidMaterialDialog](https://github.com/michael-rapp/AndroidMaterialDialog)：AndroidMaterialDialog是一个Android库，它提供了用于创建对话框的构建器。
+* [Flat Dialog](https://github.com/mejdi14/Flat-Dialog-Android)：轻松在Android应用中实现精美对话框的Android库。
+* [BottomMenu](https://github.com/caikaidev/BottomMenuTutorial)：Android底部对话框。
+* [Noty](https://github.com/emre1512/Noty)：一个简单的库，用于为Android创建动画警告/对话框/警报。
+* [IOSDialog](https://github.com/qiang/IOSDialog)：Android仿iOS的Dialog，包括BottomSheetDialog和AlertDialog。
+* [GenjiDialog](https://github.com/q876625596/GenjiDialogV2)：一个实用的Dialog库。
+* [Android Slider Preference](https://github.com/jayschwa/AndroidSliderPreference)：一个Android库，允许应用程序在其设置中添加基于对话框的滑块控件。
+* [Fade In Out Dialog](https://github.com/xuningjack/fade_in_out_dialog)：带有淡入淡出动画的Android Dialog。
+* [AndroidTabbedDialog](https://github.com/ashishbhandari/AndroidTabbedDialog)：包含片段的Android选项卡式对话框。
+* [Tooltip](https://github.com/liangjingkanji/Tooltip)：Android快速创建吐司/对话框。
+* [XanderPanel](https://github.com/xanderwang/XanderPanel)：XanderPanel是一个展开对话框。
+* [Panter Dialog](https://github.com/ayaremin/panter-dialog)：Panter Dialog是一个时尚的安卓库，可以帮助用户添加诸如添加页眉和页眉徽标等炫酷功能。
+* [SimpleDialogFragments](https://github.com/eltos/SimpleDialogFragments)：SimpleDialogFragments库是一套易于使用且可扩展的Android对话框片段库。
+* [DialogUtils](https://github.com/glassLake/DialogUtils)：Material风格、iOS风格、传入Context构建、可在任意界面弹出以及Dialog样式的Activity。
+* [CanDialog](https://github.com/canyinghao/CanDialog)：仿照系统Dialog所写，继承于FrameLayout，添加一些动画、一些显示类型。
+* [FullScreenDialog](https://github.com/franmontiel/FullScreenDialog)：一个实现了Material Design指南中定义的全屏对话框模式的DialogFragment。
+* [DialogMusicPlayer](https://github.com/VishnuSanal/DialogMusicPlayer)：一个简洁的音乐播放器对话框。
+* [FeedbackDialog](https://github.com/shivasurya/FeedbackDialog)：受谷歌地图评论区启发，适用于Android的交互式反馈对话框。
+* [AnimatedLoadingIndicator](https://github.com/yash786agg/AnimatedLoadingIndicator)：这是一个简单但有效的动画加载指示器，只需几行代码即可轻松集成使用。
+* [Visual Goodies](https://github.com/alexive/visual-goodies)：这个库的目的是提供一种简便的方法，来实现谷歌在Material Design设计规范中展示的一些美观的列表、卡片和其他组件。
+* [ComposeDialogs](https://github.com/MFlisar/ComposeDialogs)：该库提供了一个易于扩展的模态对话框组合框架，并允许将其显示为对话框、底部面板，甚至全屏对话框。
+* [FRDialog](https://github.com/24Kshign/FRDialog)：使用Builder模式重新打造的Dialog。
+* [FlickableDialog](https://github.com/t-kurimura/flickabledialog)：这个对话框可以轻扫，方便用户轻松关闭。
+* [Android Popup Dialog](https://github.com/saadahmedscse/Android-Popup-Dialog)：Android Popup Dialog是一个功能强大且易于使用的Android库，旨在简化各种对话框的创建，包括弹出窗口和进度对话框。
+* [SearchDialog](https://github.com/ajithvgiri/search-dialog)：Android搜索对话框库。
+* [HtmlDialog](https://github.com/jjobes/HtmlDialog)：HtmlDialog是一个Android库，可以简化在DialogFragment中显示HTML代码的过程。
+* [TiDialogs](https://github.com/dbankier/TiDialogs)：Titanium原生模块，用于解决Android对话框缺失的问题。
+* [Blur Dialog](https://github.com/byvlstr/blurdialog)：Blur Dialog是一个Android对话框式视图，它提供模糊效果作为背景、标题和图标。
+* [Swipe To Dismiss Dialog](https://github.com/andreilisun/Swipe-To-Dismiss-Dialog)：一个Android库，可以将任何视图转换为可拖动的对话框，并具有滑动关闭功能。
+* [Android Ringtone Picker](https://github.com/kevalpatel2106/android-ringtone-picker)：简单的铃声选择对话框，可让你从外部存储设备中选择不同的铃声、闹铃声、通知音和音乐。
+* [MediaRecorderDialog](https://github.com/alhazmy13/MediaRecorderDialog)：MediaRecorderDialog帮助你创建一个录音对话框。
+* [ExtendDialog](https://github.com/yanjiabin/ExtendDialog)：一款使用起来比较方便的Dialog工具。
+* [ShopTagDialog](https://github.com/jj3341332/ShopTagDialog)：高仿淘宝立即购买后的标签选择Dialog。
+* [CustomDialog](https://github.com/SiberiaDante/CustomDialog)：一个万能的通用支持多功能的Dialog。
+* [LDialog](https://github.com/liys666666/LDialog)：Android万能对话框。
+* [DroidDialog](https://github.com/droidbyme/DroidDialog)：这是一个Android库，用于显示Material对话框，并可进行少量自定义，例如图标、颜色和分隔线。
+* [ZProgressHUD](https://github.com/zelic91/zprogresshud)：适用于Android的全新进度对话框，类似于iOS的SVProgressHUD。
+* [MDDialog](https://github.com/Carbs0126/MDDialog)：MDDialog是一款Material Designed风格的Dialog，可以灵活定制其内容以及显示方式。
+* [MultiSelectDialog](https://github.com/abumoallim/Android-Multi-Select-Dialog)：带有搜索和文本高亮显示的多选对话框。
+* [FasterDialog](https://github.com/XXQAQ/FasterDialog)：超越Android官方Dialog设计的弹窗框架。
+* [ProgressDialog](https://github.com/Hanson/ProgressDialog)：ProgressDialog是一个美观的Android加载框。
+* [BaseDialog](https://github.com/xfmax/BaseDialog)：模仿Path的Dialog特效动画。
+* [CrashX](https://github.com/TutorialsAndroid/crashx)：该库允许在应用程序崩溃时启动崩溃活动，而不是显示令人讨厌的“Unfortunately, X has stopped”对话框。
+* [HeaderDialog](https://github.com/marcoscgdev/HeaderDialog)：一个用于显示带有标题的Material Design对话框的Android库。
+* [SimpleHUD](https://github.com/wangvsa/SimpleHUD)：SimpleHUD是一款易于使用且外观精美的安卓HUD。
+* [Android Dialog Builder](https://github.com/mapleqin/android-dialog-builder)：这是一个基于Dialog库的Android应用，它并非基于系统化的方式，而是通过Activity根视图来实现添加对话框，因此具有强大的可扩展性和可定制性。
+* [AdBlockerAdvise](https://github.com/javiersantos/AdBlockerAdvise)：一个Android库，用于检查是否启用了广告拦截器，并显示一个可自定义的Material对话框。
+* [LottieDialog](https://github.com/AmrDeveloper/LottieDialog)：一个Android库，可以轻松创建Lottie动画视图对话框，并提供大量自定义选项。
+* [Pop](https://github.com/00ec454/pop)：一个快速构建Android对话框的库。
+* [SpinnerDialog](https://github.com/hamzaahmedkhan/SpinnerDialog)：Android Spinner对话框库，可用于单选或多选。
+* [DialogPlus](https://github.com/mu7amadfawzy/dialogPlus)：DialogPlus是一个Android库，它允许你以简单易用的方式创建自定义对话框，提供多种类型。
+
 #### Android日历库
 
 * [SuperCalendar](https://github.com/MagicMashRoom/SuperCalendar)：Android自定义日历控件，支持左右无限滑动、周月切换、标记日期显示、自定义显示效果跳转到指定日期。
@@ -12649,6 +12794,7 @@ Kafka生态管理系统、运维平台。
 * [Expandable Compose Calendar](https://github.com/mateusz800/Expandable-Compose-Calendar)：用于渲染可扩展日历组件的Jetpack Compose库。
 * [SuperCalendar](https://github.com/Cmahjong/SuperCalendar)：Android日历控件库。
 * [Android CalendarView](https://github.com/laserwave/calendar_view)：一个显示日历的Android小部件。
+* [CalenderView](https://github.com/Realtime-Coding/CalenderView)：CalendarView是一个自定义库，采用Material Design设计，并具有对话框类型的CalendarView视图。
 
 #### Android布局库
 
@@ -12678,6 +12824,7 @@ Kafka生态管理系统、运维平台。
 * [SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)：一个Android库，可帮助你构建具有滑动返回手势的应用程序。
 * [LayoutManagerGroup](https://github.com/DingMouRen/LayoutManagerGroup)：自定义RecyclerView的LayoutManager。
 * [Android Percent Support Lib Sample](https://github.com/JulienGenoud/android-percent-support-lib-sample)：该库同时提供基于百分比的布局，水平和垂直。
+* [FlowLayout](https://github.com/WassimBeltaief/FlowLayout)：一个自定义布局，包含内容视图、空白视图、进度条和网络连接状态。
 
 #### Android富文本组件
 
@@ -12775,6 +12922,10 @@ Kafka生态管理系统、运维平台。
 * [Nest Refresh](https://github.com/ToDou/nestrefresh)：Nest Scroll的Android刷新套件，通过行为实现下拉刷新和下拉加载更多功能。
 * [RecyclerViewTools](https://github.com/eyeem/RecyclerViewTools)：RecyclerView的工具集合，包括标题栏、区块、下拉刷新等。
 
+#### Android返回库
+
+* [SwipeBackLayout](https://github.com/gongwen/SwipeBackLayout)：SwipeBackLayout是一个Android库，它可以通过手势结束一个Activity。
+
 #### Android项目模板
 
 * [Rosie](https://github.com/Karumi/Rosie)：Rosie是一个Android框架，用于创建遵循清洁架构原则的应用程序。
@@ -12824,6 +12975,8 @@ Kafka生态管理系统、运维平台。
 * [RubberPicker](https://github.com/Chrisvin/RubberPicker)：RubberPicker库包含RubberSeekBar和RubberRangePicker。
 * [Collection Picker](https://github.com/anton46/Foursquare-CollectionPicker)：Collection Picker是一个Android View库，外观类似Foursquare的Tastes Picker。
 * [Icon Picker Dialog](https://github.com/maltaisn/icondialoglib)：一个完全可自定义的图标选择器对话框，让你轻松访问优质图标，无需单独添加图标到项目中。
+* [UltimateRingtonePicker](https://github.com/DeweyReed/UltimateRingtonePicker)：一个Android音乐选择器库，用于使用Activity或对话框选择闹钟、通知或铃声。
+* [StringPicker](https://github.com/hotchemi/StringPicker)：StringPicker是一个库，它提供自定义视图和对话框片段来选择字符串值。
 
 #### Android图片/视频选择器
 
@@ -12928,6 +13081,8 @@ Kafka生态管理系统、运维平台。
 * [Multi ColorPicker](https://github.com/skydoves/Multi-ColorPicker)：Android多颜色选择器，通过点击所需颜色从任何图像中获取颜色。
 * [Chroma](https://github.com/ItsPriyesh/chroma)：用Kotlin编写的用于Android的简单、轻量级颜色选择器。
 * [ColorPickerPreference](https://github.com/skydoves/ColorPickerPreference)：一个允许你实现ColorPickerView、ColorPickerDialog、ColorPickerPreference的库。
+* [SelectionDialogs](https://github.com/coreORB/SelectionDialogs)：Selection Dialogs是一个Android库，允许快速创建颜色和图标选择对话框，并提供简单的视图来显示选定的项目。
+* [Color-O-Matic](https://github.com/GrenderG/Color-O-Matic)：适用于Android 9+的精美颜色选择器对话框。
 
 #### Android日期/时间选择器
 
@@ -12971,6 +13126,10 @@ Kafka生态管理系统、运维平台。
 * [WinKal](https://github.com/rahulrj/WinKal)：Android版Windows Phone日期选择器。
 * [PickerView](https://github.com/jaaksi/pickerview)：一个非常好用的Android PickerView库，内部提供2种常用类型的Picker。
 * [WheelPicker](https://github.com/zyyoona7/WheelPicker)：一个顺滑、高度自定义的滚轮控件和选择器，支持类似iOS的3D效果。
+* [TimeDurationPicker](https://github.com/svenwiegand/time-duration-picker)：TimeDurationPicker是一个Android库，它提供了一个组件，使用户能够快速轻松地输入以小时、分钟和秒为单位的时间段，类似于Android Lollipop自带的计时器应用。
+* [Range Time Picker Dialog](https://github.com/PuffoCyano/Range-Time-Picker-Dialog)：一个简单的Android库，提供一个自定义对话框，允许你设置开始时间和结束时间。
+* [Recurrence Picker](https://github.com/maltaisn/recurpickerlib)：适用于Android的重复日期选择器片段和对话框，以及用于查找重复日期的实用工具。
+* [Compose Persian Date Picker](https://github.com/razaghimahdi/Compose-Persian-Date-Picker)：Compose Persian Date Picker是一个允许开发者向其Jetpack Compose应用添加波斯语日期选择器的库。
 
 #### Android文件/目录选择器
 
@@ -12994,6 +13153,7 @@ Kafka生态管理系统、运维平台。
 * [FilePicker](https://github.com/Atwa/filepicker)：无需权限的Android文件和图像选择器库。
 * [AppChooser](https://github.com/Pigcasso/AppChooser)：自定义打开指定文件的应用选择器。
 * [OneDrive Picker Android](https://github.com/OneDrive/onedrive-picker-android)：该库提供了一组Java API，你的应用可以使用它们浏览、选择、打开和保存用户OneDrive中的文件。
+* [Android Multiple File Selector Dialog](https://github.com/paulasiimwe/Android-Multiple-file-Selector-Dialog)：Android文件选择对话框，支持传递多个文件。
 
 #### Android国家选择器
 
@@ -13196,6 +13356,8 @@ Kafka生态管理系统、运维平台。
 * [AndroidRatingStar](https://github.com/everhad/AndroidRatingStar)：RatingStar 是特定于RatingBar的使用星形绘制作为评级标记。
 * [Smart App Rate](https://github.com/codemybrainsout/smart-app-rate)：适用于Android的智能应用评级对话框，其中考虑了用户评级。
 * [Android RateThisApp](https://github.com/kobakei/Android-RateThisApp)：Android RateThisApp是一个显示“评价此应用”对话框的库。
+* [Rate Me](https://github.com/androidsx/rate-me)：这是一个Android库，用于显示一个对话框，让用户在Google Play商店中为该应用评分。
+* [AppRater Dialog](https://github.com/Lars3n95/AppRater-Dialog)：一个Android库，提供显示对话框的功能，要求用户对应用进行评分。
 
 #### Android路由框架
 
@@ -13275,6 +13437,7 @@ Kafka生态管理系统、运维平台。
 * [JPTabBar](https://github.com/peng8350/JPTabBar)：TabBar Android是一款炫酷的Android底部导航栏。
 * [ExpandableBottomBar](https://github.com/st235/ExpandableBottomBar)：改善应用导航的新方法。
 * [BubbleTabBar](https://github.com/akshay2211/BubbleTabBar)：BubbleTabBar是底部导航栏，带有可自定义的气泡状标签。
+* [Guia](https://github.com/roudikk/guia)：适用于Jetpack Compose的导航组件，支持屏幕、对话框、底部面板、过渡效果和多模块项目。
 
 #### Android抽屉库
 
@@ -13346,6 +13509,7 @@ Kafka生态管理系统、运维平台。
 * [CircularAnim](https://github.com/XunMengWinter/CircularAnim)：Android水波动画帮助类，轻松实现View show/hide/startActivity()特效。
 * [StarWars.Android](https://github.com/Yalantis/StarWars.Android)：该组件实现了过渡动画，将视图分解成小块。
 * [ShootRefreshView](https://github.com/dinuscxj/ShootRefreshView)：ShootRefreshView是一个刷新动画。
+* [Pulsator4Droid](https://github.com/booncol/Pulsator4Droid)：适用于安卓系统的脉冲动画。
 
 #### Android插件框架
 
@@ -13425,12 +13589,69 @@ Kafka生态管理系统、运维平台。
 * [SkinSprite](https://github.com/geminiwen/SkinSprite)：无需重新创建Activity即可更改昼夜模式的另一种解决方案。
 * [Android Skin](https://github.com/MeetYouDevs/Android-Skin)：极简单的Android换肤框架，无缝支持第三方控件，由美柚开源。
 * [PaintedSkin](https://github.com/CoderAlee/PaintedSkin)：一款解决Android App换肤框架，极低的侵入性与学习成本。
+* [QSkinLoader](https://github.com/qqliu10u/QSkinLoader)：一个支持多种场景的Android换肤框架。
+
+#### Android提及库
+
+* [AutoLinkTextView](https://github.com/armcha/AutoLinkTextView)：AutoLinkTextView是一个TextView，它支持自动检测话题标签(#)、提及(@)、网址(http://)、电话号码和电子邮件，并能够处理点击事件。
+* [MentionEditText](https://github.com/andydevacc/MentionEditText)：MentionEditText为提及字符串(@xxxx)添加了一些有用的功能，例如高亮显示、智能删除、智能选择和“@”输入检测等。
+* [Spyglass](https://github.com/linkedin/Spyglass)：一个强大的Android库，提供高度可定制的小部件(带有智能默认值)，可轻松为你的应用添加类似社交媒体的提及(也称为标签)支持，由LinkedIn开源。
+* [SpEditTool](https://github.com/sunhapper/SpEditTool)：一个高效且可扩展的库，用于在图文本混合的TextView/EditText中输入和显示GIF或@提及。
+* [SocialView](https://github.com/hanggrian/socialview)：支持带话题标签、提及和超链接的文本和文本字段。
+* [AutoLinkTextViewV2](https://github.com/armcha/AutoLinkTextViewV2)：AutoLinkTextViewV2是AutoLinkTextView的新版本。
+* [SocialTextView](https://github.com/hasankucuk/SocialTextView)：一个简单的自定义Android TextView，用于突出显示提及、话题标签、电话、电子邮件和网址等内容。
+* [Mentions](https://github.com/percolate/mentions)：这个库提供了一种简单且可自定义的方式，可以在任何EditText中设置@提及。
+* [Android WordToSpan](https://github.com/bachors/Android-WordToSpan)：一个小型且简单的库，用于在文本视图中创建链接URL、邮件、提及、标签和文本高亮显示。
+* [Social Text View](https://github.com/tylersuehr7/social-text-view)：一个自定义的Android TextView，用于突出显示社交媒体术语(#话题标签、@提及、电话号码、电子邮件和网址)。
+* [SocialLinkify](https://github.com/bufferapp/SocialLinkify)：一个用于将@提及和话题标签链接到相应社交网络的Android库。
+* [TextMatcher](https://github.com/santalu/textmatcher)：一个简单的文本监听器，通过定义规则来匹配字符串中的特定目标，例如提及或话题标签。
+* [Mentions](https://github.com/BoBoMEe/Mentions)：提及字符串(@xxxx，#xxx#，链接)，支持Android的EditText和TextView。
+
+#### Android状态栏
+
+* [UltimateBarX](https://github.com/Zackratos/UltimateBarX)：轻松实现Android透明状态栏和导航栏。
+* [FlycoSystemBar](https://github.com/H07000223/FlycoSystemBar)：SystemBar的Helper包括StatusBar和NavigationBar。
+* [AndroidNavigation](https://github.com/listenzz/AndroidNavigation)：一个用于管理Android嵌套Fragment、半透明状态栏和工具栏的库。
+* [ProgressStatusBar](https://github.com/BaselHorany/ProgressStatusBar)：另一种显示进度的方式，在系统状态栏上显示进度视图。
+* [React Native Modal Translucent](https://github.com/listenzz/react-native-modal-translucent)：移除Android模态框的状态栏背景。
+* [CPU Stats](https://github.com/takke/cpustats)：CPU Stats是一款适用于安卓系统的简单工具，可在状态栏中显示CPU使用情况详情。
+* [React Native Android StatusBar](https://github.com/NishanthShankar/react-native-android-statusbar)：一个用于控制安卓状态栏的React Native安卓模块。
+* [React Native Footer Navigation Bar](https://github.com/BhavanPatel/react-native-navbar-color)：一个简单的软件包，用于设置页脚导航栏颜色。
+* [StatusBarUtil](https://github.com/laobie/StatusBarUtil)：一个用于设置Android应用状态栏样式的实用工具。
+* [StatusBarCompat](https://github.com/niorgai/StatusBarCompat)：状态栏实用工具，轻松更改状态栏模式。
+* [StatusBarLyric](https://github.com/Block-Network/StatusBarLyric)：用于在状态栏显示歌词，支持各式各样的自定义样式。
+* [AlphaTabsIndicator](https://github.com/yingLanNull/AlphaTabsIndicator)：高仿微信底部状态栏的轻量级库。
+* [Clean Status Bar](https://github.com/emmaguy/clean-status-bar)：Clean Status Bar会覆盖你的状态栏，只显示电量和时间。
+* [TranslucentBar](https://github.com/Kelin-Hong/TranslucentBar)：该库提供了一种简单的方法来为状态栏设置半透明的系统UI样式和颜色。
+* [React Native Extra Dimensions](https://github.com/Sunhat/react-native-extra-dimensions-android)：在Android设备上访问其他显示指标，状态栏高度、软菜单栏高度、实际屏幕尺寸。
+* [Wattz](https://github.com/dubrowgn/wattz)：Android电池电量状态栏指示器。
+* [MaterialStatusBarCompat](https://github.com/fython/MaterialStatusBarCompat)：完美地使Kitkat与Lollipop上的状态栏同时透明/变色。
+* [StatusBarAlert](https://github.com/fede87/StatusBarAlert)：受Telegram X启发的Android状态栏提醒视图。
+* [React Native Android Notification Listener](https://github.com/leandrosimoes/react-native-android-notification-listener)：React Native Android Notification Listener是一个库，允许你监听所有应用程序的状态栏通知。
+* [Status](https://github.com/fennifith/Status)：一款无需root权限的Android状态栏替代方案。
+* [InterestingTitleBar](https://github.com/markzhai/InterestingTitleBar)：有趣的安卓标题栏，带有沉浸式状态栏和类似Tumblr应用的滚动动画。
+* [Xposed Tinted Status Bar](https://github.com/MohammadAG/Xposed-Tinted-Status-Bar)：使用Xposed实现Android彩色状态栏。
+* [StatusBarHelper](https://github.com/naturs/StatusBarHelper)：一个可以帮助你给状态栏着色的安卓库。
+* [StatusBarCompat](https://github.com/msdx/status-bar-compat)：StatusBarCompat是一个用于设置系统状态栏颜色的兼容库，兼容Android 4.4.2(API 19)以上，使用简单，只需要一行代码的调用。
+
+#### Android提醒库
+
+* [Sneaker](https://github.com/Hamadakram/Sneaker)：一个轻量级的Android库，用于实现可自定义的提醒。
 
 ####  APK解析器
 
 * [APK Parser](https://github.com/hsiafan/apk-parser)：APK解析器库，用于解码二进制XML文件，获取APK元信息。
 * [APKParser](https://github.com/jaredrummler/APKParser)：安卓APK解析器。
 * [Android APK Parser](https://github.com/joakime/android-apk-parser)：从Android APK文件中获取基本信息。
+
+#### Android工具库
+
+* [Caffeine](https://github.com/percolate/caffeine)：一系列实用类，可帮助加快Android开发速度。
+* [Arc Fast](https://github.com/Arcns/arc-fast)：本项目包含一系列开箱即用的便携工具，主要包括Fast Permission、Immersive Dialog、Immersive PopupWindow、Fast Span、Fast Mask等。
+* [AppCompat Extension Library](https://github.com/taltstidl/AppCompat-Extension-Library)：该库基于AppCompat设计库构建，并提供其他常用组件，例如AccountHeaderView、FloatingActionMenu、CircleImageView、Picker Dialogs、FlexibleToolbarLayout、Delightful Detail Drawables和TypefaceCompat。
+* [Base](https://github.com/jenly1314/Base)：Base是针对于Android开发封装好一些常用的基类。
+* [AndroidUtilLib](https://github.com/SiberiaDante/AndroidUtilLib)：一款属于Android快速开发的强大工具库。
+* [CommonApp](https://github.com/binIoter/CommonApp)：CommonApp旨在帮助开发者进行组件化开发，包含了App通用的模块。
 
 #### ADB
 
@@ -14318,7 +14539,7 @@ Kafka生态管理系统、运维平台。
 * [XPipe](https://github.com/xpipe-io/xpipe)：XPipe是一种新型的Shell连接集线器和远程文件管理器，允许你从本地计算机访问整个服务器基础架构。
 * [Cyberduck](https://github.com/iterate-ch/cyberduck)：Cyberduck是一款适用于Mac和Windows的自由FTP、SFTP、WebDAV、Amazon S3、Backblaze B2、Microsoft Azure和OneDrive以及OpenStack Swift文件传输客户端。
 * [FinalShell](https://www.hostbuf.com/)：FinalShell是一款一体化的服务器，网络管理软件。
-* [Bastillion](https://github.com/bastillion-io/Bastillion)：Bastillion 为您提供了一种简洁的、基于浏览器的方式来管理所有系统中的 SSH 访问——就像一个带有友好控制面板的堡垒主机。
+* [Bastillion](https://github.com/bastillion-io/Bastillion)：Bastillion为你提供了一种简洁的、基于浏览器的方式来管理所有系统中的SSH访问，就像一个带有友好控制面板的堡垒主机。
 * [Ultimate Cube](https://github.com/G3G4X5X6/ultimate-cube)：Ultimate Cube是开源的远程服务器管理工具，支持SSH、RDP、Telnet、COM等协议。
 * [Google Drive FTP Adapter](https://github.com/andresoviedo/google-drive-ftp-adapter)：使用Google Drive FTP Adapter，你可以通过FTP协议访问Google Drive。
 * [SpringRemote](https://github.com/HaleyWang/SpringRemote)：SpringRemote是一个开源、选项卡式的远程Linux SSH连接管理器。
@@ -15299,6 +15520,7 @@ Kafka生态管理系统、运维平台。
 * [Jipes](https://github.com/hendriks73/jipes)：Jipes是一个Java开源库，可以高效地计算音频特征。
 * [Kodio](https://github.com/dosier/kodio)：Kotlin多平台音频系统库。
 * [Audio Analysis](https://github.com/Uriopass/audio-analysis)：Audio Analysis具有简单的Wave文件读取功能、单声道音频输出以及一些音频分析类，可帮助进行音频起始点检测。
+* [QRTone](https://github.com/Universite-Gustave-Eiffel/qrtone)：仅使用扬声器和麦克风发送和接收数据的库，由古斯塔夫-埃菲尔大学开源。
 
 #### 视频库
 
@@ -15343,6 +15565,8 @@ Kafka生态管理系统、运维平台。
 * [LibBluray](https://github.com/ShiftMediaProject/libbluray)：LibBluray是一个专为媒体播放器播放蓝光光盘而设计的开源库。
 * [Flazr](https://github.com/mconf/flazr)：Flazr库是一个Java实现的多媒体流协议，支持(RTMP)共享远程对象。
 * [MediaFile](https://github.com/Javernaut/MediaFile)：一个用于读取视频和音频文件基本媒体信息的库。
+* [AirPlayAuth](https://github.com/openairplay/AirPlayAuth)：此库允许与Apple TV配对，并可用于任何支持向Apple TV进行流媒体播放/投屏的应用。
+* [Jolivia](https://github.com/openairplay/jolivia)：Jolivia是一个基于Java的应用程序/库，实现了DMAP系列和RAOP，并集成了Guice、Jetty和Zeroconf/Bonojur。
 
 #### 视频通讯
 
@@ -15683,16 +15907,8 @@ Kafka生态管理系统、运维平台。
 
 #### 字符串算法
 
-* [Java String Similarity](https://github.com/tdebatty/java-string-similarity)：实现不同字符串相似度和距离测量的库。
 * [AhoCorasickDoubleArrayTrie](https://github.com/hankcs/AhoCorasickDoubleArrayTrie)：基于双数组Trie结构的Aho Corasick算法的极快实现。
 * [ByteSeek](https://github.com/nishihatapalmer/byteseek)：ByteSeek是一个Java库，用于有效匹配字节模式并搜索这些模式。
-* [StringMetric](https://github.com/rockymadden/stringmetric)：StringMetric提供执行近似字符串匹配、字符串相似度/距离测量、按单词发音索引以及发音相似性比较的功能。
-* [SimMetrics](https://github.com/Simmetrics/simmetrics)：相似度和距离度量的Java库，例如Levenshtein距离和余弦相似度。
-* [Xsimilarity](https://github.com/iamxiatian/xsimilarity)：相似度计算软件包。
-* [Java String Similarity](https://github.com/rrice/java-string-similarity)：Java String Similarity是一个实现了多种计算字符串之间相似度算法的Java库。
-* [LibLevenshtein](https://github.com/vinary-tree/liblevenshtein-java)：一个基于Levenshtein Automata的有限状态转换器生成库。
-* [LevenshteinAutomaton](https://github.com/klawson88/LevenshteinAutomaton)：LevenshteinAutomaton是一个快速且功能全面的Java库，能够执行基于自动机和非自动机的Damerau-Levenshtein距离计算和邻域计算。
-* [NLP HanZi Similar](https://github.com/houbb/nlp-hanzi-similar)：NLP HanZi Similar为汉字提供相似性的计算。
 * [Apache Commons Text](https://github.com/apache/commons-text)：Commons Text是一个专注于字符串算法的库。
 * [Strman](https://github.com/shekhargulati/strman-java)：Java 8字符串操作库。
 * [Aho Corasick](https://github.com/robert-bor/aho-corasick)：用于高效字符串匹配的Aho-Corasick算法的Java实现。
@@ -16226,6 +16442,7 @@ Kafka生态管理系统、运维平台。
 * [Jpostal](https://github.com/openvenues/jpostal)：Jpostal是libpostal的Java绑定，用于快速国际街道地址解析/规范化。
 * [JavaCPP Libpostal](https://github.com/bytedeco/javacpp-presets/tree/master/libpostal)：Libpostal利用统计自然语言处理和开放数据来解析/规范化世界各地的街道地址。
 * [Address Parser](https://github.com/KanshanOS/address-parse)：Java版智能解析收货地址。
+* [ChineseAddressAnalyzer](https://github.com/IOrzo/chineseaddressanalyzer)：本项目是基于分词插件实现的中文地址解析。
 
 ## 路由引擎
 
@@ -16293,6 +16510,7 @@ Kafka生态管理系统、运维平台。
 * [JHelioviewer](https://github.com/Helioviewer-Project/JHelioviewer-SWHV)：JHelioviewer是基于JPEG 2000图像压缩标准的太阳物理数据可视化工具，由ESA/NASA开源。
 * [Java Astrodynamics Toolkit](https://sourceforge.net/projects/jat/)：JAT是一个开源软件组件库，用于用Java或Matlab编写的航天应用程序，该软件由NASA使用，是德克萨斯大学计算机科学系的主要合作项目。
 * [IDV](https://github.com/Unidata/IDV)：IDV是一个用于分析和显示地球科学数据的框架，由美国国家科学基金会Unidata开源。
+* [FPP](https://github.com/nasa/fpp)：FPP是F Prime飞行软件框架的建模语言，由NASA开源。
 * [Aerie](https://github.com/NASA-AMMOS/aerie)：Aerie是一个用于航天器建模的软件框架，NASA开源。
 * [Orbdetpy](https://github.com/ut-astria/orbdetpy)：Orbdetpy是一个Python轨道确定库，航天先进科学技术研究(ASTRIA)开源。
 * [Yamcs](https://github.com/yamcs/yamcs)：Yamcs是一个用Java开发的任务控制框架。
@@ -16405,6 +16623,7 @@ Kafka生态管理系统、运维平台。
 * [Kotlin Multiplatform IO](https://github.com/fleeksoft/fleeksoft-io)：Kotlin多平台IO库。
 * [IteratorX](https://github.com/iteratorx/iteratorx)：最简单的I/O迭代器。
 * [Bit IO](https://github.com/jinahya/bit-io)：一个用于读取/写入非八位字节对齐值的库。
+* [RIO](https://github.com/cqfn/rio)：Java的响应式输入输出对象。
 
 ## 文件监听
 
@@ -16713,6 +16932,7 @@ Kafka生态管理系统、运维平台。
 * [Gherkin2](https://github.com/cucumber-attic/gherkin2)：Gherkin2是一个基于Ragel的Gherkin语言快速词法分析器和语法分析器。
 * [Org Parser](https://github.com/200ok-ch/org-parser)：Org Parser是Emacs中Org模式标记语言的解析器。
 * [Java APG](https://github.com/ldthomas/apg-java)：Java APG是一个完全用Java编写的ABNF解析器生成器。
+* [Sweble Wikitext](https://github.com/sweble/sweble-wikitext)：Sweble Wikitext模块为MediaWiki的wikitext提供了一个解析器，并提供了一个尝试模拟MediaWiki行为的引擎。
 
 #### 表达式引擎
 
@@ -16967,6 +17187,7 @@ Kafka生态管理系统、运维平台。
 * [Kolobok](https://github.com/ukman/kolobok)：Spring Java注解处理器。
 * [META-INF/Services Generator](https://github.com/kohsuke/metainf-services)：自动生成META-INF/services文件。
 * [LombokEx](https://github.com/houbb/lombok-ex)：LombokEx是一款类似于Lombok的编译时注解框架。
+* [Jipsy](https://github.com/kordamp/jipsy)：可配置的Java注解处理器，用于简化服务提供程序接口的使用。
 
 #### 访问器模式
 
@@ -17156,6 +17377,7 @@ Kafka生态管理系统、运维平台。
 * [ESC/POS Java](https://github.com/stefanosbou/esc-pos-java)：用于ESC/POS兼容热敏打印机的Java库，串行或网络连接。
 * [TSPL2 Driver](https://github.com/fintrace/tspl2-driver)：用于与支持TSPL2(由TSC提供)的标签打印机通信的Java客户端。
 * [ESC/POS Printing](https://gitee.com/power4j/esc-pos-printing)：ESC/POS凭条打印。
+* [POS Printer API](https://github.com/yymmiinngg/pos-printer-driver-api)：POS Printer API中规范了常用的票据格式和标准的连接接口，以达到无限匹配新打印机硬件的目的。
 
 ## Web开发
 
@@ -17424,6 +17646,7 @@ Kafka生态管理系统、运维平台。
 * [Protobuf Maven Plugin](https://github.com/ascopes/protobuf-maven-plugin)：Maven的现代Protobuf集成，包括对二进制和JAR协议插件的支持。
 * [Maven Dependency Plugin](https://github.com/apache/maven-dependency-plugin)：Dependency插件提供了操作工件的能力，它可以将工件从本地或远程仓库复制和/或解压到指定位置。
 * [Maven BuildTime Profiler](https://github.com/khmarbaise/maven-buildtime-profiler)：Maven构建时间分析器。
+* [Pomchecker](https://github.com/kordamp/pomchecker)：Maven POM语法检查器。
 
 ## Gradle插件
 
@@ -17561,7 +17784,6 @@ Kafka生态管理系统、运维平台。
 * [CheckStyle IDEA](https://github.com/jshiell/checkstyle-idea)：IntelliJ IDEA的CheckStyle插件。
 * [Android Parcelable](https://github.com/mcharmas/android-parcelable-intellij-plugin)：用于Android Parcelable样板代码生成的IntelliJ插件。
 * [IntelliJ Plugins](https://github.com/JetBrains/intellij-plugins)：IntelliJ IDEA Ultimate和其他基于IntelliJ平台的IDE发行版中包含的开源插件。
-* [PHP Inspections](https://github.com/kalessil/phpinspectionsea)：PHP静态代码分析器。
 * [Restful Fast Request](https://github.com/dromara/fast-request)：Restful Fast Request是Postman的Intellij IDEA版本，它是一个强大的RESTful API工具包插件，由dromara社区开源。
 * [Devoxx Genie](https://github.com/devoxx/DevoxxGenieIDEAPlugin)：DevoxxGenie是IntelliJ IDEA的一个插件，它使用本地LLM(Ollama、LMStudio、GPT4All、Jan和Llama.cpp)和基于云的LLM来帮助审查、测试和解释你的项目代码。
 * [RunVSAgent](https://github.com/wecode-ai/RunVSAgent)：RunVSAgent是一款创新的跨平台开发工具，使开发人员能够在JetBrains IDE或其他IDE平台中运行基于VSCode的编码代理和扩展，由微博开源。
