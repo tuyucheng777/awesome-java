@@ -15,6 +15,11 @@
 * [JNet](https://gitee.com/eric_ds/jnet)：JNet框架是Java AIO接口的一层薄封装，仅进一步降低其编程复杂性，不提供额外的抽象。
 * [XNIO](https://github.com/xnio/xnio)：XNIO是一个基于Java NIO的框架，支持阻塞和非阻塞IO，由RedHat开源。
 * [Blaze](https://github.com/http4s/blaze)：Blaze是一个用于构建异步管道的Scala库，专注于网络IO。
+* [Carmelo](https://github.com/needmorecode/carmelo)：Carmelo是一个快速、可扩展的Java服务器框架，专为在线游戏而设计。
+* [Okra](https://github.com/ogcs/Okra)：Okra是一个简单的使用Java开发的高性能、高扩展、高并发、低延迟的服务器框架。
+* [Gamioo](https://github.com/jiangguilong2000/gamioo)：游戏服务器框架，基于此框架，可以快速实现一个高可用、易维护、稳定、高性能的游戏服务器。
+* [TenIO](https://github.com/congcoi123/tenio)：TenIO是一个用于创建多人在线游戏的开源项目，其中包括专门为多人游戏设计的基于Java NIO的服务器。
+* [Litchi](https://github.com/phantacix/litchi)：Litchi是一款轻量级的Java游戏服务器框架。
 * [SNF4J](https://github.com/snf4j/snf4j)：SNF4J是一个异步事件驱动的网络应用程序框架，用于快速轻松地开发网络应用程序。
 * [One NIO](https://github.com/odnoklassniki/one-nio)：One NIO是一个用于构建高性能Java服务器的库，由Odnoklassniki开源。
 * [Gecko](https://github.com/killme2008/gecko)：Gecko是一个Java NIO的通讯组件，它在一个轻量级的NIO框架的基础上提供了更高层次的封装和功能，由淘宝开发。
@@ -29,6 +34,9 @@
 * [JXIO](https://github.com/accelio/JXIO)：JXIO是基于AccelIO(C库)的Java API。
 * [Higgs](https://github.com/zcourts/higgs)：Higgs是一个纯JVM(基于NIO)的高性能、面向消息的网络框架。
 * [Net Ops Java](https://github.com/nanosai/net-ops-java)：Net Ops Java是一个工具包，用于在Java NIO之上用Java实现非阻塞网络客户端和服务器。
+* [Bitactor](https://github.com/Bitactor/bitactor-cloud-spring)：Bitactor Cloud是一款适配Spring Boot，网络层基于Netty的分布式NIO服务框架。
+* [JS-Collider](https://github.com/js-labs/js-collider)：JS-Collider是一个异步事件驱动的Java网络(NIO)应用程序框架。
+* [HadroNIO](https://github.com/hhu-bsinfo/hadroNIO)：HadroNIO由杜塞尔多夫海因里希·海涅大学开发，旨在通过开源通信框架UCX透明地加速Java NIO应用程序。
 
 #### 网络库
 
@@ -75,6 +83,7 @@
 * [Flow Network](https://github.com/flowpowered/network)：Flow集合的网络库。
 * [DfActor](https://github.com/lostsky3000/dfactor)：DfActor是一个基于Actor模型的消息处理框架。
 * [RDAP](https://github.com/DNSBelgium/rdap)：这个Java库使得构建与注册表后端通信的RDAP服务器变得非常容易。
+* [PNet](https://github.com/PvdBerg1998/PNet)：PNet是一个易于使用的网络库，适用于Java 1.6或更高版本。
 
 #### WebSocket
 
@@ -148,6 +157,7 @@
 * [SignalJ](https://github.com/chanan/SignalJ)：SignalJ是一个服务器到客户端和客户端到服务器的通信框架。
 * [Jetlang Remoting](https://github.com/jetlang/remoting)：Jetlang Remoting项目提供用于连接分布式系统的API。
 * [JavaPhoenixClient](https://github.com/dsrees/JavaPhoenixClient)：JavaPhoenixClient是phoenix.js客户端的Kotlin实现，用于管理Phoenix通道。
+* [TIO WebSocket Spring Boot Starter](https://gitee.com/zhfish/tio-websocket-spring-boot-starter)：TIO WebSocket Spring Boot项目支持。
 
 #### Socket.IO
 
@@ -195,20 +205,55 @@
 * [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
 * [Netty Chat](https://github.com/tonybase/netty-chat)：使用Netty实现IMServer，支持TCP和WebSocket实现。
 * [Engine.IO Java](https://github.com/socketio/engine.io-client-java)：Java的Engine.IO客户端库。
+* [Engine.IO Java](https://github.com/socketio/engine.io-server-java)：Java的Engine.IO服务器库。
 * [Ballerina TCP](https://github.com/ballerina-platform/module-ballerina-tcp)：Ballerina Socket模块。
 * [Kotlinx.Sockets](https://github.com/cy6erGn0m/kotlinx-sockets)：Kotlinx.Sockets是一个库，旨在为NIO套接字带来丰富的协程体验。
-* [Blink](https://github.com/qiujuer/Blink)：套接字发送和接收协议框架，易于使用的I/O。
+* [Blink](https://github.com/qiujuer/Blink)：Socket发送和接收协议框架，易于使用的I/O。
 * [MinaSocket](https://github.com/Jeromeer/MinaSocket)：MinaSocket一款基于Mina的Socket长连接库。
 * [Bumblebee](https://github.com/EspoirX/Bumblebee)：基于有限状态机和Flow的WebSocket封装。
 * [RxSocketClient](https://github.com/codeestX/RxSocketClient)：适用于Android、Java和Kotlin的Reactive Socket API。
 * [Naga](https://github.com/techery/Naga)：Naga的目标是成为一个非常小的NIO库，它提供少量的Java类来封装常见的Socket和ServerSocket。
 * [AsyncSocket](https://github.com/samigehi/AsyncSocket)：这是一个基于NIO的Java库，它使用SocketChannels以非阻塞方式与服务器通信。
 * [S4 Communication](https://github.com/s4/comm)：S4流处理系统的通信组件。
+* [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
+* [JgServer](https://gitee.com/lizhaoandroid/JgServer)：JgServer是基于Netty、Spring、Mybatis和Redis等框架开发的服务端容器。
+* [JForGame](https://github.com/kingston-csj/jforgame)：JForGame是一个用Java编写的轻量级高性能手游服务端框架，包含游戏服、跨服、匹配服、后台管理系统等模块。
+* [Socket MQTT](https://github.com/daoshenzzg/socket-mqtt)：Socket MQTT是一个基于Netty、MQTT实现的推送基础框架。
+* [React Native TCP Socket](https://github.com/Rapsssito/react-native-tcp-socket)：React Native TCP套接字API，支持Android、iOS和macOS，并提供SSL/TLS支持。
+* [Netty Server](https://github.com/cosmoplat-dev/netty-server)：Netty Server使用Spring Boot、Netty进行搭建，主要做软件和智能硬件之间的通信框架。
+* [React Native Sockets](https://github.com/davidstoneham/react-native-sockets)：React Native的Java Socket服务器和客户端。
+* [JGameEngineServer](https://github.com/JGameEngine/JGameEngineServer)：Netty 4游戏服务端。
+* [Clj Sockets](https://github.com/atroche/clj-sockets)：Clj Sockets是一个封装了Java Socket的Clojure库。
+* [KmnKt](https://github.com/xuankaicat/kmnkt)：KmnKt是基于Kotlin多平台的跨平台Socket通信统一接口的实现。
+* [Halo Turbo](https://github.com/EthanCo/Halo-Turbo)：Android Socket框架，支持TCP、UDP、组播，基于Mina。
+* [AndroidSocket](https://github.com/Zvirtuey/AndroidSocket)：一个简单的安卓套接字通信库。
+* [Tengi](https://github.com/noctarius/tengi)：Tengi被设计为一个跨语言通信平台。
+* [YsCommun](https://gitee.com/yisin/cmm)：YsCommun是集WebSocket、Socket(TCP/IP)为一体的通讯组件。
+* [Mmorpg](https://github.com/kingston-csj/mmorpg)：Mmorpg是一个用Java编写的分布式高性能mmorpg手游服务端框架。
+* [Lightning4j](https://github.com/coder-leehui/lightning4j)：Lightning4j是一个基于Netty的Java服务端轻量级开发框架，用于快速开发手游，页游等服务端程序。
+* [ServerFramework](https://github.com/zhangqi-ulua/ServerFramework)：ServerFramework是可用作全球同服或滚服的分布式Java游戏服务器框架。
+* [GameServer](https://github.com/ksfzhaohui/gameserver)：基于Netty 3.5的游戏服务器端框架。
+* [Raining Sockets](https://jniosocket.sourceforge.net/)：Raining Sockets是一个非阻塞套接字框架，它简化了创建可接收和发送超过10000个套接字连接的高可扩展应用程序的工作。
+* [Cindy](https://cindy.sourceforge.net/)：Cindy是一个强大、可扩展且高效的异步I/O框架，支持TCP、基于TCP的SSL、UDP和管道协议。
+* [xSocket](https://sourceforge.net/projects/xsocket/)：xSocket是一个易于使用的基于NIO的网络库，用于构建高性能、高可扩展性的网络应用程序。
+* [RockSaw](https://www.savarese.com/software/rocksaw/)：RockSaw是一个简单的Java API，用于使用IPv4和IPv6原始套接字执行网络I/O操作。
+* [Java Sockets](https://www.alhem.net/jsockets/)：Java Sockets是一个类库，实现了C++ Sockets库的一个子集，并且基于SUN的java.nio.*非阻塞网络I/O类。
+* [Hydra](https://github.com/marcluque/Hydra)：Hydra基于Netty构建，旨在简化Java中的套接字设置过程。
+* [Mocket](https://github.com/Nishant-Pathak/mocket)：轻量级、类型安全、可靠、保证交付、有序、高性能的Java NIO套接字，构建于UDP之上。
 
 #### TCP/UDP
 
 * [KryoNet](https://github.com/EsotericSoftware/kryonet)：KryoNet是一个Java库，它提供了一个干净、简单的API，用于使用NIO进行高效的TCP和UDP客户端/服务器网络通信。
 * [QuickServer](https://github.com/QuickServerLab/QuickServer-Main)：QuickServer是一个开源Java库/框架，用于快速创建强大的多客户端TCP服务器应用程序。
+* [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：NettyGameServer是基于Netty 4.X实现的手机游戏分布式服务器，支持TCP、UDP、HTTP、WebSocket链接。
+* [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式Java游戏服务器。
+* [Summer](https://github.com/SwingFrog/Summer)：Summer是一个轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
+* [GameServer4j](https://github.com/jzyong/GameServer4j)：分布式Java游戏服务器，包括登录、网关、游戏演示。
+* [Noark](https://gitee.com/xiaoe/noark3)：Noark是一个游戏服务器端框架，可快速开发出一个易维护、易扩展且稳定高能的游戏服务器。
+* [Avalon](https://gitee.com/codeborker/Avalon)：基于Akka的高性能可伸缩的Java网络游戏服务器，简单的单服务器开发与集群开发的切换。
+* [TOAST Haste](https://github.com/nhn/toast-haste.framework)：TOAST Haste是一个易于开发的异步游戏服务器框架。
+* [GameServer](https://github.com/jiayaoguang/gameserver)：GameServer是一个通用游戏服务器框架。
+* [PeonyFramework](https://github.com/xuerong/PeonyFramwork)：PeonyFramework是一个优秀的Java服务器框架。
 * [Chronicle Network](https://github.com/OpenHFT/Chronicle-Network)：Chronicle Network是一个高性能网络(TCP/IP)库。
 * [CoralReactor](https://www.coralblocks.com/index.php/category/coralreactor/)：CoralReactor是一个功能强大、超低延迟、异步、非阻塞的网络I/O库，可通过简单的API提供高性能。
 * [TCP Gateway](https://github.com/SongranZhang/tcp-gateway)：基于Netty 4的高性能TCP网关，用于请求数据或推送消息。
@@ -226,6 +271,8 @@
 * [RUDP](https://github.com/GermanCoding/RUDP)：Java的RUDP库。
 * [IConnection](https://github.com/yeyunHZ/IConnection)：Android长连接TCP Netty通讯SDK。
 * [Serac](https://github.com/geektcp/serac)：Serac是一套Java语言的底层网络封装工具，支持原始套接字，支持SCP协议。
+* [UdpServerSocketChannel](https://github.com/Shevchik/UdpServerSocketChannel)：Netty UDP服务器套接字通道，为每个远程地址分配单独的通道。
+* [XTCP](https://github.com/xuexiangjys/XTCP)：一个便捷的TCP消息包拼装和解析框架。
 
 #### IO_Uring
 
@@ -325,6 +372,7 @@
 * [DrFTPD](https://github.com/drftpd-ng/drftpd)：DrFTPD是一个用Java编写的分布式FTP服务器。
 * [EdtFTPj](https://enterprisedt.com/products/edtftpj/)：EdtFTPj是适用于Java应用程序的成熟FTP库。
 * [ThinServer](https://gitee.com/sanluan/ThinServer)：ThinServer是基于JDK提供的HttpServer开发的Web服务容器和以Socket开发的FTP Server。
+* [ColoradoFTP](https://bitbucket.org/nolife/coloradoftp)：ColoradoFTP是一个开源FTP服务器。
 * [LiteFTPD Unix](https://github.com/adlered/LiteFTPD-UNIX)：基于Java的高性能FTP服务端。
 * [Gripper](https://gitee.com/jingshishengxu/gripper)：Gripper是内嵌式FTP服务器。
 * [Ballerina FTP](https://github.com/ballerina-platform/module-ballerina-ftp)：Ballerina FTP提供FTP/SFTP客户端和FTP/SFTP服务器监听器，以便建立与远程位置的FTP/SFTP连接。
@@ -394,6 +442,8 @@
 * [Netty Proxy Server](https://github.com/kongwu-/netty-proxy-server)：基于Netty实现的代理服务器。
 * [HttpProxyServer](https://github.com/hekewangzi/HttpProxyServer)：Http/Https代理服务器服务端。
 * [Http Liar](https://github.com/dongchenxu/httpliar)：Http Liar项目是基于HTTP Proxy工作模式的一款HTTP协议拦截、篡改工具。
+* [Spring Cloud Netflix Zuul WebSocket](https://github.com/mthizo247/spring-cloud-netflix-zuul-websocket)：一个简单的库，用于在Spring应用程序中启用Zuul反向代理WebSocket支持。
+* [Netty WebSocket Proxy](https://github.com/zhining-lu/netty-websocket-proxy)：基于Netty4框架的Java版前向代理实现。
 
 #### Socks代理
 
@@ -490,6 +540,7 @@
 * [The ONE](https://github.com/akeranen/the-one)：机会网络环境模拟器，由阿尔托大学开源。
 * [Net2Plan](https://github.com/girtel/Net2Plan)：Net2Plan是一个用Java开发的通信网络规划、优化和评估工具。
 * [ISCXFlowMeter](https://github.com/ahlashkari/ISCXFlowMeter)：ISCXFlowMeter是一个以太网流量生成器和分析器，用于异常检测。
+* [MTS](https://github.com/ericsson-mts/mts)：MTS是一款专为电信IP架构设计的多协议测试工具，由爱立信开源。
 
 #### 端口转发
 
@@ -502,6 +553,8 @@
 * [HPPT](https://github.com/codingmiao/hppt)：HPPT是一款可通过任意协议转发TCP端口的工具。
 * [PortForward](https://github.com/sharneng/portforward)：一款流行的基于Java的TCP/IP端口转发实用程序。
 * [Java Port Forwarding](https://gitee.com/matrixy/java-port-forwarding)：通过服务器，转发内网主机的TCP数据包，由服务器作为中间人，完成客户端到主机端的通信。
+* [NakovForwardServer](https://github.com/nakov/NakovForwardServer)：这是一个用Java编写的TCP端口转发软件。
+* [Jrinetd](https://github.com/ggrandes/jrinetd)：Jrinetd是一个开源的Java TCP端口重定向代理程序，无需任何外部库。
 
 #### P2P
 
@@ -636,6 +689,7 @@
 * [OpenVCX](https://github.com/openvcx/openvcx)：OpenVCX是一个基于SIP协议的视频流服务器，用于多方视频聊天、网络直播、录制和实时媒体分发。
 * [Sipstack](https://github.com/aboutsip/sipstack)：Sipstack旨在构建一种新型的基于JVM的SIP协议栈。
 * [Moho](https://github.com/voxeolabs/moho)：Moho是一个用于开发多通道通信应用程序的开源Java框架。
+* [UDP SIP Server](https://github.com/srajat/UDP-SIP-Server)：使用UDP传输协议，并采用Java Socket编程实现SIP协议的服务器。
 
 #### SMPP
 
@@ -2025,6 +2079,7 @@
 * [SqlRender](https://github.com/OHDSI/SqlRender)：SqlRender是一个R包和Java库，用于呈现参数化SQL，并将其转换为不同的SQL方言，由OHDSI开源。
 * [APIJSONParser](https://github.com/Zerounary/APIJSONParser)：APIJSON编译器，将JSON动态编译成SQL。
 * [Lambda2SQL](https://github.com/ajermakovics/lambda2sql)：将Java 8 Lambda表达式转换为SQL语句。
+* [SQL Statement Builder](https://github.com/exasol/sql-statement-builder)：Exasol SQL Statement Builder抽象了SQL语句的程序化创建，旨在取代普遍存在的字符串拼接解决方案。
 
 #### NoSQL库
 
@@ -6269,6 +6324,7 @@
 * [Tree Printer](https://github.com/billvanyo-zz/tree_printer)：一个用于将二叉树打印为ASCII文本的Java类。
 * [Colored Console](https://github.com/marcelmatula/colored-console)：Kotlin DSL ANSI输出彩色控制台。
 * [ANSI4J](https://github.com/techsenger/ansi4j)：Techsenger ANSI4J是一个Java库，它完全按照ISO/IEC 6429:1992标准解析ANSI转义码。
+* [AsciiTerminal](https://github.com/julianmaster/AsciiTerminal)：AsciiTerminal是一个使用LibGDX库的ASCII终端Java显示程序。
 
 #### 文本打印
 
@@ -6300,6 +6356,7 @@
 * [Java Console Table Builder](https://github.com/thousandlemons/Java-Console-Table-Builder)：这个库可以轻松构建时尚的类似Excel的表格，并且可以将所有格式保留并打印成单个字符串。
 * [KFormat](https://github.com/marcelmay/kformat)：KFormat是一个轻量级的Kotlin库，用于格式化文本输出，例如在结构化表格中打印值。
 * [Tabl](https://github.com/justone/tabl)：在终端中根据数据创建表格。
+* [Tables4j](https://github.com/dmkyr20-graveyard/tables4j)：Java Cli Table Builder让创建灵活的命令行表格变得轻而易举。
 
 #### 进度条
 
@@ -7477,6 +7534,7 @@
 * [Mofum Msdom](https://gitee.com/mofum/mofum-msdom)：Microsoft文档操作工具类。
 * [Naruku](https://github.com/shuangshuang-121/naruku)：Naruku是一个专门的Excel解析工具，可以快速的解析上百万条Excl数据和转换成CSV的格式。
 * [Excelr](https://github.com/enderim-archive/excelr)：Java中的基本实用程序，可读取XLSX、XLS和CSV文件并将Excel行转换为Java对象。
+* [Spreadsheet Builder](https://github.com/dsl-builders/spreadsheet)：Spreadsheet Builder提供了一种便捷的方式来创建MS Excel OfficeOpenXML文档(XSLX)，不仅关注内容方面，还关注轻松的样式设置。
 
 ### CSV库
 
@@ -8227,6 +8285,9 @@ Kafka生态管理系统、运维平台。
 * [PBLabsProfiler](https://github.com/bengarney/PBLabsProfiler)：PBLabsProfiler是一个简单的Java/SWT Flash应用性能分析器。
 * [Async Profiler Agent](https://github.com/dpsoft/ap-agent)：Async Profiler Agent是一个极简的Java代理，它允许你通过简洁的REST API代理到Async Profiler。
 * [AP Loader](https://github.com/jvm-profiling-tools/ap-loader)：将Async Profiler及其适用于所有平台的二进制文件打包到一个JAR文件中。
+* [Zabbix Java](https://github.com/hengyunabc/zabbix-api)：适用于Java的Zabbix API。
+* [Zabbix/J](https://github.com/michaelquigley/zabbixj)：Zabbix/J是一个用于将Zabbix监控集成到Java应用程序中的框架。
+* [Zabbix4j](https://github.com/myaaaaa-chan/Zabbix4j)：Zabbix4j是一个用于Java语言的Zabbix API库。
 
 #### APM
 
@@ -8836,6 +8897,10 @@ Kafka生态管理系统、运维平台。
 * [Fluent Interface Proxy](https://github.com/davidmarquis/fluent-interface-proxy)：本项目提供了一个代理，可以动态实现你的构建器接口。
 * [BuilderGen](http://github.com/pyricau/BuilderGen)：BuilderGen使用APT和CodeModel在编译时生成构建器。
 * [Record Util](https://github.com/forax/record-util)：Java记录相关的一些实用类。
+* [Fast Builder](https://github.com/bsobe/fast-builder)：Fast Builder是一个代码生成工具，用于生成构建器类，特别是单元测试类。
+* [InnerBuilder](https://github.com/analytically/innerbuilder)：IntelliJ IDEA插件，用于生成内部构建器类。
+* [Flapi](https://github.com/UnquietCode/Flapi)：Flapi是一个用于创建Java流式API的代码生成库。
+* [Builder Annotation Processor](https://github.com/mirrajabi/annotation-processor-sample)：一个为Java类实现构建器模式的注解处理器。
 
 #### 代理模式
 
@@ -10394,6 +10459,7 @@ Kafka生态管理系统、运维平台。
 * [TBlog](https://github.com/xieshuang/t-blog)：简洁的个人博客系统。
 * [Spring Blog](https://github.com/jaycekon/Spring-Blog)：分模块化开发的Spring Boot博客平台。
 * [Dim Stack](https://github.com/lingview/dim_stack)：基于Spring Boot、React的现代化个人博客系统。
+* [SkyDocs](https://github.com/Skyost/SkyDocs)：SkyDocs是一个轻量级的静态文档构建器，支持Markdown格式。
 
 #### 论坛系统
 
@@ -11023,6 +11089,10 @@ Kafka生态管理系统、运维平台。
 * [AeroGear UnifiedPush Server](https://github.com/aerogear/aerogear-unifiedpush-server)：AeroGear UnifiedPush Server允许向不同的移动平台发送推送通知。
 * [Pushiko](https://github.com/bloomberg/pushiko)：Pushiko是一个JVM库，用于通过APNs和FCM发送推送通知，由彭博社开源。
 * [Pushsphere](https://github.com/line/pushsphere)：Pushsphere是一个用于Kotlin的开源推送通知客户端库和网关服务器，由Line开源。
+* [Akka Stream APNs](https://github.com/reactive-hub/akka-stream-apns)：Akka Stream APNs是一个基于Akka Streams构建的Apple推送通知服务(APNs)连接器。
+* [ZPush](https://github.com/hengyunabc/zpush)：Apple APNs Java客户端。
+* [APNs HTTP2](https://github.com/SongranZhang/apns-http2)：这是一个使用苹果公司新的HTTP/2 API通过APNS发送通知的Java库。
+* [Mobile Push](https://github.com/malliina/mobile-push)：向移动设备发送推送通知。
 
 #### 异常通知
 
@@ -11819,7 +11889,6 @@ Kafka生态管理系统、运维平台。
 * [Eclipse SensiNact](https://eclipse-sensinact.readthedocs.io/en/latest/index.html)：Eclipse SensiNact是一个专注于物联网的横向平台，尤其适用于各种智慧城市和智能家居应用。
 * [MeshNet](https://github.com/mattibal/meshnet)：MeshNet是一套专为家庭自动化和无线传感器网络设计的网络协议栈。
 * [IoT-DC](https://github.com/Theembers/iot-dc)：IoT-DC是一个基于Spring Boot、Netty、RabbitMQ实现的物联网设备数据接入项目。
-* [Netty Server](https://github.com/cosmoplat-dev/netty-server)：Netty Server使用Spring Boot、Netty进行搭建，主要做软件和智能硬件之间的通信框架。
 * [Easy IoT](https://gitee.com/damocode/easy-iot)：Easy IoT是一款轻量级物联网开发的SDK。
 * [WoT Servient](https://github.com/sane-city/wot-servient)：W3C WoT Java实现。
 
@@ -11960,7 +12029,6 @@ Kafka生态管理系统、运维平台。
 * [MQTT Client](https://github.com/fusesource/mqtt-client)：MQTT Client为MQTT提供API，如果发生任何网络故障，它会自动重新连接到MQTT服务器并恢复客户端会话。
 * [HelloIoT](https://github.com/adrianromero/helloiot)：HelloIoT是一个MQTT仪表板应用程序，你可以使用HelloIoT作为MQTT客户端应用程序来发布和订阅主题，也可以使用HelloIoT作为客户端平台来创建自己的仪表板。
 * [WeMQ](https://gitee.com/dromara/WeMQ)：WeMQ是一款面向物联网设备运营商的开源物联网设备调试系统，提供完整的物联网设备调试方案，集成设备管理、MQTT服务器管理、客户管理等功能，由dormara社区开源。
-* [Socket MQTT](https://github.com/daoshenzzg/socket-mqtt)：Socket MQTT是一个基于Netty、MQTT实现的推送基础框架。
 * [Netty MQTT Client](https://github.com/xzc-coder/netty-mqtt-client)：基于Netty实现的MQTT 3及MQTT 5协议的客户端。
 * [Courier](https://github.com/gojek/courier-android)：Courier是一个Kotlin库，用于使用MQTT协议创建长时间运行的连接。
 * [MQTT.fx](https://www.softblade.de/)：MQTT.fx是开发和生产中测试物联网路由的工具。
@@ -13693,6 +13761,7 @@ Kafka生态管理系统、运维平台。
 * [Base](https://github.com/jenly1314/Base)：Base是针对于Android开发封装好一些常用的基类。
 * [AndroidUtilLib](https://github.com/SiberiaDante/AndroidUtilLib)：一款属于Android快速开发的强大工具库。
 * [CommonApp](https://github.com/binIoter/CommonApp)：CommonApp旨在帮助开发者进行组件化开发，包含了App通用的模块。
+* [BaseLibrary](https://github.com/MirkoWu/BaseLibrary)：Android开发常用基础公共库。
 
 #### ADB
 
@@ -14837,43 +14906,19 @@ Kafka生态管理系统、运维平台。
 #### 游戏服务器
 
 * [Lila](https://github.com/lichess-org/lila)：Lila是一款免费的在线国际象棋游戏服务器，专注于实时游戏玩法和易用性。
-* [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：NettyGameServer是基于Netty 4.X实现的手机游戏分布式服务器，支持TCP、UDP、HTTP、WebSocket链接。
-* [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
-* [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式Java游戏服务器。
 * [AiJ](https://gitee.com/xiyoufang/aij)：AiJ是一套完整的房间类游戏解决方案，支持无限水平扩展来满足更大的人数承载，并且提供了良好的调试接口。
-* [Summer](https://github.com/SwingFrog/Summer)：Summer是一个轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
-* [JgServer](https://gitee.com/lizhaoandroid/JgServer)：JgServer是基于Netty、Spring、Mybatis和Redis等框架开发的服务端容器。
-* [JForGame](https://github.com/kingston-csj/jforgame)：JForGame是一个用Java编写的轻量级高性能手游服务端框架，包含游戏服、跨服、匹配服、后台管理系统等模块。
-* [Mmorpg](https://github.com/kingston-csj/mmorpg)：Mmorpg是一个用Java编写的分布式高性能mmorpg手游服务端框架。
-* [GameServer4j](https://github.com/jzyong/GameServer4j)：分布式Java游戏服务器，包括登录、网关、游戏演示。
-* [ZFoo](https://github.com/zfoo-project/zfoo)：ZFoo是一个极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
 * [Apollo](https://github.com/apollo-rsps/apollo)：Apollo是一个高性能、模块化的RuneScape模拟器，具有一系列用于管理数据文件和插件的实用程序。
-* [Noark](https://gitee.com/xiaoe/noark3)：Noark是一个游戏服务器端框架，可快速开发出一个易维护、易扩展且稳定高能的游戏服务器。
 * [AquaDX](https://github.com/MewoLab/AquaDX)：适用于所有.Net游戏的多功能游戏服务器。
-* [Carmelo](https://github.com/needmorecode/carmelo)：Carmelo是一个快速、可扩展的Java服务器框架，专为在线游戏而设计。
-* [Okra](https://github.com/ogcs/Okra)：Okra是一个简单的使用Java开发的高性能、高扩展、高并发、低延迟的服务器框架。
-* [Gamioo](https://github.com/jiangguilong2000/gamioo)：游戏服务器框架，基于此框架，可以快速实现一个高可用、易维护、稳定、高性能的游戏服务器。
-* [TenIO](https://github.com/congcoi123/tenio)：TenIO是一个用于创建多人在线游戏的开源项目，其中包括专门为多人游戏设计的基于Java NIO的服务器。
-* [Avalon](https://gitee.com/codeborker/Avalon)：基于Akka的高性能可伸缩的Java网络游戏服务器，简单的单服务器开发与集群开发的切换。
 * [Grasscutter](https://github.com/Grasscutters/Grasscutter)：Grasscutter是一个实验性游戏服务器，旨在模拟玩某个动漫游戏的体验。
 * [Sorapointa](https://github.com/Sorapointa/Sorapointa)：为某款动漫游戏重新实现服务器软件。
 * [Finisterra](https://github.com/ao-libre/finisterra)：基于热门阿根廷MMORPG Argentum Online的Java游戏客户端和服务器。
 * [RS Mod](https://github.com/rsmod/rsmod)：RS Mod是一款RuneScape游戏服务器模拟器，旨在尽可能在机械上与原版游戏保持一致。
-* [TOAST Haste](https://github.com/nhn/toast-haste.framework)：TOAST Haste是一个易于开发的异步游戏服务器框架。
 * [PretendYoureXyzzy](https://github.com/ajanata/PretendYoureXyzzy)：反人类卡牌克隆、服务器和Web客户端。
 * [LunarCore](https://github.com/Melledy/LunarCore)：某回合制动漫游戏的游戏服务器重新实现。
 * [L2J Server](https://bitbucket.org/l2jserver/l2j-server-game)：L2J Server是一款完全用Java编写的开源服务器模拟器，适用于著名的韩国MMORPG。
-* [Litchi](https://github.com/phantacix/litchi)：Litchi是一款轻量级的Java游戏服务器框架。
-* [JGameEngineServer](https://github.com/JGameEngine/JGameEngineServer)：Netty 4游戏服务端。
-* [Lightning4j](https://github.com/coder-leehui/lightning4j)：Lightning4j是一个基于Netty的Java服务端轻量级开发框架，用于快速开发手游，页游等服务端程序。
 * [Spellsource](https://github.com/hiddenswitch/Spellsource)：Spellsource是一款由社区创作的卡牌游戏。
 * [PokerServer](https://github.com/jacobhyphenated/PokerServer)：PokerServer是一个用于运行德州扑克友谊赛的服务器。
 * [Luna](https://github.com/luna-rs/luna)：Luna是一款#377 RS2服务器，设计轻巧、快速且易于使用。
-* [ServerFramework](https://github.com/zhangqi-ulua/ServerFramework)：ServerFramework是可用作全球同服或滚服的分布式Java游戏服务器框架。
-* [GameServer](https://github.com/ksfzhaohui/gameserver)：基于Netty 3.5的游戏服务器端框架。
-* [PeonyFramework](https://github.com/xuerong/PeonyFramwork)：PeonyFramework是一个优秀的Java服务器框架。
-* [Bitactor](https://github.com/Bitactor/bitactor-cloud-spring)：Bitactor Cloud是一款适配Spring Boot，网络层基于Netty的分布式NIO服务框架。
-* [GameServer](https://github.com/jiayaoguang/gameserver)：GameServer是一个通用游戏服务器框架。
 
 #### 游戏模拟器
 
@@ -15080,11 +15125,43 @@ Kafka生态管理系统、运维平台。
 #### 象棋引擎
 
 * [BlackWidow](https://github.com/amir650/BlackWidow-Chess)：BlackWidow是一个跨平台的象棋引擎。
-* [Public Xiangqi](https://github.com/sojourners/public-Xiangqi)：支持UCI和UCCI协议引擎的象棋界面程序，具有加载引擎、对弈、分析、连线、开局库等功能。
+* [Public Xiangqi](https://github.com/sojourners/public-Xiangqi)：TCHESS是一款支持UCI和UCCI协议引擎的跨平台象棋界面程序。
 * [JFXChess](https://github.com/asdfjkl/jfxchess)：JFXChess是一个跨平台的国际象棋图形用户界面。
 * [Bagatur](https://github.com/bagaturchess/Bagatur)：Bagatur是世界上最强大的Java国际象棋引擎之一。
 * [Chesslib](https://github.com/bhlangonijr/chesslib)：Chesslib是一个简单的Java国际象棋库，用于根据棋盘位置生成合法的国际象棋走法、解析以PGN或FEN格式存储的国际象棋游戏以及许多其他内容。
 * [Chesspresso](http://www.chesspresso.org/)：Chesspresso是一个Java库，旨在帮助开发者编写各种类型的国际象棋程序。
+* [XiangQi Wizard Light](https://github.com/xqbase/xqwlight)：一款简单而强大的象棋人工智能算法，采用C++、Java、JavaScript和ActionScript编写。
+* [ChessEngine](https://github.com/coding-parrot/chess-engine)：国际象棋引擎。
+* [Carballo](https://github.com/albertoruibal/carballo)：Carballo是一款开源的Java国际象棋引擎。
+* [ScalaChess](https://github.com/lichess-org/scalachess)：用Scala编写的国际象棋API。
+* [Intelligent Chinese Chess](https://github.com/zhongyi-tong/IntelligentChineseChessSystem)：一款采用人工智能实现的中国象棋游戏，使用Java 2D渲染，支持人机对战。
+* [Chessmate](https://github.com/theronic/chessmate)：Java国际象棋人工智能。
+* [Chess KMP](https://github.com/xxfast/Chess-KMP)：一款基于Ktor服务器和Kotlinx RPC的CMP国际象棋应用程序。
+* [Pulse Chess](https://github.com/fluxroot/pulse)：Pulse Chess是一款简单易用的国际象棋引擎。
+* [Pirarucu](https://github.com/ratosh/pirarucu)：一款支持通用国际象棋接口协议的Kotlin国际象棋引擎，CCRL等级分超过3000分。
+* [Neat Chess](https://github.com/nomemory/neat-chess)：Java UCI协议实现(通用国际象棋引擎)。
+* [Calvin](https://github.com/kelseyde/calvin-chess-engine)：Calvin是一个用Java编写、符合UCI标准的国际象棋引擎。
+* [Chess](https://github.com/Querz/chess)：一个小型国际象棋游戏，实现了默认规则，限制了棋子的移动，高亮显示了棋盘上的格子。
+* [Chess.kt](https://github.com/krossovochkin/chess.kt)：Kotlin多平台国际象棋后端。
+* [October Chess Engine](https://github.com/skeeto/october-chess-engine)：Java国际象棋引擎。
+* [Serendipity](https://github.com/xu-shawn/Serendipity)：Serendipity是一款用Java编程语言编写的UCI国际象棋引擎。
+* [Bobby](https://github.com/teemoo7/bobby)：国际象棋游戏。
+* [JCPI](https://github.com/fluxroot/jcpi)：Java国际象棋协议接口。
+* [Washer Chess](https://github.com/atarw/washer-chess)：一款允许用户相互对弈或与国际象棋引擎对弈的国际象棋应用程序。
+* [OpenChess](https://github.com/isair/OpenChess)：一个跨平台的开源国际象棋游戏项目。
+* [SJCE](https://github.com/harp077/sjce)：SJCE是一款强大的Java国际象棋引擎，免费便携式跨平台图形化国际象棋游戏，100%纯Java编写。
+* [Chesspresso](https://github.com/BernhardSeybold/Chesspresso)：Chesspresso是一个完全用Java编写的开源国际象棋库。
+* [JavaChessGUI](https://github.com/javachessgui/javachessgui)：Java中的国际象棋图形用户界面。
+* [Chezz](https://github.com/hofiisek/Chezz)：用Kotlin编写的功能齐全的国际象棋。
+* [Nostalgia](https://github.com/melvic-ybanez/Nostalgia)：Nostalgia是一款国际象棋程序。
+* [Cuckoo Chess](https://github.com/sauce-code/cuckoo)：Cuckoo Chess是一个纯Java国际象棋引擎。
+* [Flux Chess](https://github.com/fluxroot/flux)：Flux Chess是一个完全用Java编写的计算机国际象棋引擎。
+* [XXLChess](https://github.com/robotic-wings/XXLChess)：XXLChess是一款基于Java的国际象棋变体游戏，拥有14x14的超大棋盘和独特的棋子。
+* [ChessOOP](https://github.com/ashish1294/ChessOOP)：一款实现了基本面向对象编程概念的简单国际象棋游戏。
+* [Chess](https://github.com/marvk/chess)：一个用Java编写的国际象棋库、国际象棋引擎、Lichess客户端和UCI实现。
+* [Eubos chess](https://github.com/cjbolt/EubosChess)：Eubos chess是一个多线程的Java国际象棋引擎。
+* [Chess4j](https://github.com/jswaff/chess4j)：一款与Xboard兼容的基于Java的国际象棋引擎。
+* [jChessify](https://github.com/puffinsoft/jchessify)：jChessify让用Java编写国际象棋引擎变得充满乐趣。
 
 #### 游戏开发工具
 
@@ -15254,6 +15331,13 @@ Kafka生态管理系统、运维平台。
 * [SlimJar](https://github.com/slimjar/slimjar)：SlimJar允许你在运行时下载并加载依赖项，作为依赖着色的替代方案。
 * [Cabin](https://github.com/esastack/esa-cabin)：Cabin是一款Java类隔离框架，用于隔离各个模块之间、模块和业务之间使用的第三方依赖库。
 * [WebSocket ClassLoader](https://github.com/kawasima/websocket-classloader)：一个通过WebSocket加载远程Java类的ClassLoader。
+
+## 类转储
+
+* [Dumpclass](https://github.com/hengyunabc/dumpclass)：从正在运行的JVM进程中导出类。
+* [Dumper](https://github.com/accessmodifier364/Dumper)：转储已加载的JVM类。
+* [Dumper](https://github.com/momentumdevelopment/dumper)：允许你导出所有通过类加载器传递的Java类的工具。
+* [JvmDumper](https://github.com/hyndor/JvmDumper)：允许你在运行时检查/反编译/转储加载到JVM中的字节码。
 
 ## 芯片模拟器
 
@@ -15743,6 +15827,7 @@ Kafka生态管理系统、运维平台。
 * [JavaQuadTree](https://github.com/metaloom/JavaQuadTree)：Java中的简单四叉树实现。
 * [Generic N-ary Tree](https://github.com/c05mic/GenericN-aryTree)：Java中简单的通用N叉树实现。
 * [Interval Tree](https://github.com/lodborg/interval-tree)：动态中心区间树的Java实现。
+* [LibSsrcKDTree-j](https://www.savarese.com/software/libssrckdtree-j/)：LibSsrcKDTree是一个Java空间数据结构类库，包含符合java.util.Map接口的KD树的实现。
 
 #### Trie
 
@@ -17521,6 +17606,7 @@ Kafka生态管理系统、运维平台。
 * [jQM4GWT](https://github.com/jqm4gwt/jqm4gwt)：jQM4GWT是jQuery Mobile框架的高级封装，它将其转换为可在GWT应用中使用的组件库。
 * [GWTSwing](https://github.com/keinhaar/gwtswing)：这是一个类似于Java Swing API的UI API，但它是基于GWT构建的。
 * [GWTY Leaflet](https://github.com/gwidgets/gwty-leaflet)：Leaflet的GWT JsInterop封装库。
+* [Domino MVP](https://github.com/DominoKit/domino-mvp)：Domino MVP是一个小巧、简单且非常轻量级的框架，用于使用GWT构建简单和复杂的应用程序。
 
 #### JSF库
 
@@ -17854,6 +17940,7 @@ Kafka生态管理系统、运维平台。
 * [Citeproc Java](https://github.com/michel-kraemer/citeproc-java)：Citeproc Java是一个用于Java的引用样式语言(CSL)处理器。
 * [OpenEstate IO](https://github.com/OpenEstate/OpenEstate-IO)：OpenEstate IO提供了一套Java库，用于以常用格式读取和写入房地产数据。
 * [JFLAP](https://github.com/citiususc/jflap-lib)：JFLAP是一款极其有用的形式语言教学软件，由杜克大学开源。
+* [RxSuggestions](https://github.com/arunkumar9t2/rxSuggestions)：使用Google Suggest API获取关键词建议的RxJava库。
 
 ## 教程系列
 

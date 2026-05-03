@@ -902,6 +902,7 @@
 * [JVM代理](docs/doc2.md#JVM代理)
 * [热加载](docs/doc2.md#热加载)
 * [类加载](docs/doc2.md#类加载)
+* [类转储](docs/doc2.md#类转储)
 * [芯片模拟器](docs/doc2.md#芯片模拟器)
 * [MIPS](docs/doc2.md#MIPS)
 * [汇编](docs/doc2.md#汇编)
@@ -1309,6 +1310,7 @@
 * [Nature](https://gitee.com/mvilplss/nature-framework)：Nature是一个基于JDK 8和Servlet 3.0规范，以易用性、代码简洁、开发快速、功能强大、易扩展、低耦合为目标，适用于快速开发的轻量级MVC、ORM框架。
 * [SMVC](https://gitee.com/1028125449/SMVC)：SMVC是基于Java开发的轻量级MVC框架。
 * [FastChar](https://github.com/JanesenGit/FastChar)：FastChar是以Java语言为基础的Web、ORM开源免费的MVC框架。
+* [JessMA](https://gitee.com/ldcsaa/JessMA)：功能强大的Java MVC和REST全栈框架。
 
 #### JSF框架
 
@@ -1632,6 +1634,8 @@
 * [WSO2 HTTPCore NIO](https://github.com/wso2/wso2-httpcore-nio)：WSO HTTPCore NIO是基于NIO的HTTP客户端。
 * [HttpAgent](https://github.com/studioidan/HttpAgent)：用于管理HTTP请求的简单库。
 * [Kine](https://github.com/TechDev009/Kine)：Kine是一个简单而强大的Kotlin/Android HTTP网络库。
+* [Domino REST](https://github.com/DominoKit/domino-rest)：Domino REST是一个用于从JaxRS兼容接口生成REST客户端的库。
+* [DiLib](https://gitee.com/loongzcx/dilib)：强大的接口访问工具，可以大幅降低调用接口的工作量。
 
 ## Web服务器
 
@@ -1770,6 +1774,8 @@
 * [HttpKit](https://github.com/lnwazg/httpkit)：Java版的HTTP服务器，替代Tomcat、Jetty的超轻量级方案。
 * [Quarkus HTTP](https://github.com/quarkusio/quarkus-http)：基于Vert.x的Servlet实现。
 * [QuarantineJ](https://github.com/rongjoker/quarantineJ)：QuarantineJ是一个基于Netty实现了IoC、Router的Reactor模式的Server。
+* [HttpWebserver](https://github.com/arpitbbhayani/HttpWebserver)：使用Socket编程的Java HTTP Web服务器。
+* [JHttp](https://gitee.com/xiaozhuai/JHttp)：JHttp是一个轻量的的HTTP服务器实现。
 
 ## 微服务治理
 
@@ -3388,6 +3394,7 @@
 * [Canal2SQL](https://github.com/zhuchao941/canal2sql)：用Java写的MySQL Binlog解析工具，底层依赖Canal。
 * [BinlogPortal](https://github.com/dothetrick/binlogportal)：BinlogPortal是一个轻量级的MySQL Binlog同步工具。
 * [Spark Binlog](https://github.com/allwefantasy/spark-binlog)：Spark Binlog是一个用于使用Apache Spark结构流查询Binlog的库，支持Spark SQL、DataFrames和MLSQL。
+* [BinLake](https://github.com/jd-tiger/binlake)：BinLake是一个集群化的数据库BinLog管理、采集和分发系统，并且透明集成JMQ和Kafka等消息分发和订阅系统，由京东开源。
 
 #### 灾难备份
 
