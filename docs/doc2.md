@@ -340,11 +340,23 @@
 * [One-FTPServer](https://github.com/benelog/one-ftpserver)：简单、便携式的FTP服务器。
 * [Java FTP Proxy Server](https://github.com/c960657/ftpproxy)：Java FTP代理服务器。
 
+#### SOCKS服务器
+
+* [JSocks](https://github.com/ravn/jsocks)：JSocks是一个完全用Java编写的SOCKS服务器，同时支持SOCKS4和SOCKS5协议。
+* [SocksLib](https://github.com/fengyouchao/sockslib)：SocksLib是一个针对SOCKS5协议的Java库。
+* [Java SOCKS Proxy Server](https://github.com/bbottema/java-socks-proxy-server)：Java SOCKS Proxy Server是Java的SOCKS 4/5服务器。
+* [FlyingSocks](https://github.com/abc123lzf/flyingsocks)：该项目是基于Java Netty开发的Socks5代理客户端/服务器。
+* [VProxy](https://github.com/wkgcass/vproxy)：VProxy是一个零依赖的负载均衡器和SDN虚拟交换机。
+* [Jargyle](https://github.com/jh3nd3rs0n/jargyle)：Jargyle是一个Java SOCKS5服务器和一个Java SOCKS5客户端/服务器API。
+* [SimpleSocks](https://github.com/connectbot/simplesocks)：这是一个简单的SOCKS库，用于ConnectBot。
+* [JSocks](https://github.com/jitsi/jsocks)：这是一个完全用Java编写的SOCKS服务器，支持SOCKS4和SOCKS5协议。
+
 #### HTTP代理
 
 * [Decodo](https://github.com/Decodo/Decodo)：Decodo是一个轮换式住宅代理网络，允许用户使用超过1.15亿个IP地址池从网络收集数据。
 * [Apache Guacamole](https://github.com/apache/guacamole-client)：Guacamole是一个无客户端远程桌面网关，它支持VNC、RDP和SSH等标准协议。
 * [Proxyee](https://github.com/monkeyWie/proxyee)：Proxyee是一个Java编写的HTTP代理服务器库，支持HTTP、HTTPS、WebSocket协议，并支持MITM，可以捕获和篡改HTTP、HTTPS数据包。
+* [I2P Zero](https://github.com/i2p-zero/i2p-zero)：零依赖、小占用空间、跨平台的I2P Java路由器，带有简单的隧道/套接字控制器和SAM接口。
 * [HTTP Proxy Servlet](https://github.com/mitre/HTTP-Proxy-Servlet)：这是Java Servlet形式的HTTP代理，由MITRE公司开发。
 * [Charon](https://github.com/mkopylec/charon-spring-boot-starter)：Charon是一个反向代理实现，它自动将HTTP请求从一个HTTP服务器转发到另一个HTTP服务器，并将收到的HTTP响应返回给客户端。
 * [Suo5](https://github.com/zema1/suo5)：Suo5是一个高性能HTTP隧道代理工具，它基于双向的Chunked-Encoding构建。
@@ -358,9 +370,6 @@
 * [Styx](https://github.com/ExpediaGroup/styx)：Styx是用于JVM的可编程、异步、基于事件的反向代理，由Expedia开源。
 * [Carapaceproxy](https://github.com/diennea/carapaceproxy)：Carapac是一个分布式Java反向代理。
 * [Bouncer](https://github.com/ggrandes/bouncer)：Bouncer是一个开源Java网络代理。
-* [Shadowsocks Java](https://github.com/TongxiJi/shadowsocks-java)：基于Netty 4框架的Java实现的Shadowsocks。
-* [Shadowsocks Java](https://github.com/blakey22/shadowsocks-java)：Shadowsocks Java客户端。
-* [Shadowsocks Netty](https://github.com/ksfzhaohui/shadowsocks-netty)：基于Netty 4.0实现的Shadowsocks客户端。
 * [Proxy Vole](https://github.com/MarkusBernhardt/proxy-vole)：Proxy Vole是一个用于自动检测平台网络代理设置的Java库。
 * [Mallet](https://github.com/sensepost/mallet)：Mallet是一种用于创建任意协议代理的工具，类似于我们熟悉的拦截Web代理，只是更加通用。
 * [WK Proxy](https://github.com/catas-w/WK-Proxy)：WK Proxy是一款用于HTTP代理和数据包捕获的开源桌面工具，可在Windows和macOS平台上使用。
@@ -380,17 +389,41 @@
 * [Jladder](https://github.com/hudaming1/jladder)：基于Netty开发的HTTP/Socks代理服务器。
 * [HTTP Proxy Server](https://github.com/ffay/http-proxy-server)：HTTP代理服务器。
 * [Proxy](https://github.com/lvq410/Proxy)：基于Java的各种代理实现，包括纯TCP反向代理、HTTP、Socks5、内网穿透、私有WebSocket。
-* [Shadowsocks Netty Server](https://github.com/ksfzhaohui/shadowsocks-netty-server)：基于Netty 4.0实现的Shadowsocks服务器端。
-* [Shadowsocks Core](https://github.com/CC-Cheunggg/shadowsockets-core)：Java版的Shadowsocks服务端实现。
-* [Java WS](https://github.com/eooce/java-ws)：这是一个基于Java实现的多协议代理服务器。
-* [Shadowsocks Java](https://github.com/zhihengjiang/shadowsocks-java)：Shadowsocks Java是一个基于SOCKS5代理的使用Java开发的Shadowsocks代理软件。
-* [Shadowsocks Java](https://github.com/nooner2014/shadowsocks-java)：Shadowsocks Java是一个轻量级的隧道代理，可以帮助你穿过防火墙。
-* [Panama](https://github.com/loveinsky100/panama)：Panama是一个高性能的代理服务器，基于ShadowSocks协议，采用Netty实现。
-* [Shadowsocks Server](https://github.com/zk-123/shadowsocks)：Java开发的Shadowsocks。
-* [Shadowsocks Vert.x](https://github.com/Bestoa/shadowsocks-vertx)：Shadowsocks Vert.x是一个轻量级的隧道代理，可以帮助你穿过防火墙。
 * [OpenProxyJ](https://github.com/woshiwzy/OpenProxyJ)：纯Java实现的网络代理小工具。
 * [Java WebSocket Reverse Proxy](https://github.com/barrett-rob/java-websocket-reverse-proxy)：WebSocket反向代理的Java实现。
+* [Netty Proxy Server](https://github.com/kongwu-/netty-proxy-server)：基于Netty实现的代理服务器。
+* [HttpProxyServer](https://github.com/hekewangzi/HttpProxyServer)：Http/Https代理服务器服务端。
+* [Http Liar](https://github.com/dongchenxu/httpliar)：Http Liar项目是基于HTTP Proxy工作模式的一款HTTP协议拦截、篡改工具。
+
+#### Socks代理
+
+* [Socks5 Netty](https://github.com/xtuhcy/socks5-netty)：基于Netty实现的Socks5代理。
+* [AgentX](https://github.com/ZhangJiupeng/AgentX)：AgentX是一个基于Netty的Socks5网络代理。
+* [Shadowsocks Java](https://github.com/TongxiJi/shadowsocks-java)：基于Netty 4框架的Java实现的Shadowsocks。
+* [Shadowsocks Java](https://github.com/blakey22/shadowsocks-java)：Shadowsocks Java客户端。
+* [Shadowsocks Netty](https://github.com/ksfzhaohui/shadowsocks-netty)：基于Netty 4.0实现的Shadowsocks客户端。
+* [Shadowsocks Netty Server](https://github.com/ksfzhaohui/shadowsocks-netty-server)：基于Netty 4.0实现的Shadowsocks服务器端。
+* [Shadowsocks Core](https://github.com/CC-Cheunggg/shadowsockets-core)：Java版的Shadowsocks服务端实现。
+* [Shadowsocks Java](https://github.com/zhihengjiang/shadowsocks-java)：Shadowsocks Java是一个基于SOCKS5代理的使用Java开发的Shadowsocks代理软件。
+* [Shadowsocks Java](https://github.com/nooner2014/shadowsocks-java)：Shadowsocks Java是一个轻量级的隧道代理，可以帮助你穿过防火墙。
+* [Shadowsocks Server](https://github.com/zk-123/shadowsocks)：Java开发的Shadowsocks。
+* [Shadowsocks Vert.x](https://github.com/Bestoa/shadowsocks-vertx)：Shadowsocks Vert.x是一个轻量级的隧道代理，可以帮助你穿过防火墙。
+* [Esocks](https://github.com/fengyouchao/esocks)：Esocks是一个命令行应用程序，可以轻松创建SOCKS5服务器。
+* [MitmSocks4j](https://github.com/Akdeniz/mitmsocks4j)：一个用于拦截SOCKS代理协议的拦截器，允许用户转储任何连接的内容，即使该连接使用SSL进行保护。
+* [JSocksProxy](https://github.com/Kecon/JSocksProxy)：用Java编写的SOCKS代理。
+* [Java Socks Proxy Server](https://github.com/damico/java-socks-proxy-server)：用Java实现Socks 4和Socks 5代理服务器。
+* [JTun2Socks](https://github.com/DrBrad/JTun2Socks)：这是一个网络层SOCKS客户端，它会对数据包进行精简，以便通过SOCKS5服务器进行传输。
+* [Ktor Socks](https://github.com/torsm/ktor-socks)：使用Ktor的挂起套接字API实现SOCKS代理服务器。
+* [JenTunnel](https://github.com/ggrandes/jentunnel)：JenTunnel是一个用Java编写、非常轻量级的SOCKS和HTTP代理服务器。
+* [Socks Proxy](https://github.com/netty-contrib/socks-proxy)：Netty的SOCKS协议编解码器和代理处理程序。
 * [NIOSocks](https://github.com/boldt/niosocks)：NIOSocks是一个开源的Java NIO Socks代理解决方案。
+* [Panama](https://github.com/loveinsky100/panama)：Panama是一个高性能的代理服务器，基于ShadowSocks协议，采用Netty实现。
+* [Java WS](https://github.com/eooce/java-ws)：这是一个基于Java实现的多协议代理服务器。
+* [Shadowsocks Android Java](https://github.com/dawei101/shadowsocks-android-java)：Shadowsocks安卓客户端，纯Java版本。
+* [PMPanel](https://github.com/Project-PMPanel/PMPanel)：PMPanel是一个开源的Web应用程序，可以管理Shadowsocks和V2ray。
+* [Netty Socks](https://github.com/hsupu/netty-socks)：一个基于Netty4的Socks5中继器/服务器和Shadowsocks中继器。
+* [Socks](https://github.com/arloor/socks5)：这是一个使用Netty实现、使用HTTP协议进行混淆的Socks5代理。
+* [Simple Socks5 Netty](https://github.com/gdesatrigraha/simple-socks5-server)：使用Scala和Netty简单实现Socks5代理协议。
 
 #### 内网穿透
 
@@ -421,6 +454,17 @@
 * [JNDC](https://github.com/qiweiview/jndc)：Java内网穿透可视化方案。
 * [Zrp](https://github.com/zhangjun1998/zrp)：Zrp是使用Java开发的一款基于Netty的内网穿透工具。
 * [Ngrok Java](https://github.com/dosgo/ngrok-java)：一个基于Java的Ngrok客户端。
+* [Ngrok Agent SDK](https://github.com/ngrok/ngrok-java)：适用于Java的Ngrok Agent SDK。
+* [Pc5s](https://github.com/yunshangshouji/pc5s)：Pc5s内网穿透，类似于Ngrok。
+* [Ngrok Spring Boot Starter](https://github.com/linux-china/ngrok-spring-boot-starter)：轻松将本地Spring Boot应用程序暴露到互联网。
+* [Quarkus Ngrok](https://github.com/quarkiverse/quarkus-ngrok)：Quarkus扩展程序，将Ngrok集成到Quarkus开发模式中。
+* [LiangNat](https://github.com/LiangYang666/LiangNat)：使用Java实现的内网穿透、端口映射、Socks5代理上网，分为服务端和客户端。
+* [XTunnel](https://github.com/eniac888/xtunnel)：XTunnel内网穿透工具。
+* [Netty NAT](https://github.com/likedan130/netty-nat)：基于Netty的TCP/HTTP请求转发代理程序。
+* [NAT Plus](https://github.com/mysise/nat-plus)：实现基于Netty的内网穿透功能。
+* [Netty Proxy](https://github.com/MrLawrenc/Netty_Proxy)：基于Netty实现TCP请求的内网穿透。
+* [NET Client](https://gitee.com/diaodiaofly/net-client)：NET Client是一个穿透内网的工具。
+* [TIO Proxy](https://gitee.com/qianyingchao/tio-proxy)：TIO Proxy是一款采用Java编写的内网穿透工具。
 
 #### 网络监控
 
@@ -457,6 +501,7 @@
 * [WaifUPnP](https://github.com/adolfintel/WaifUPnP)：WaifUPnP是UPnP的一个非常基本的实现。
 * [HPPT](https://github.com/codingmiao/hppt)：HPPT是一款可通过任意协议转发TCP端口的工具。
 * [PortForward](https://github.com/sharneng/portforward)：一款流行的基于Java的TCP/IP端口转发实用程序。
+* [Java Port Forwarding](https://gitee.com/matrixy/java-port-forwarding)：通过服务器，转发内网主机的TCP数据包，由服务器作为中间人，完成客户端到主机端的通信。
 
 #### P2P
 
@@ -476,7 +521,6 @@
 * [I2P+](https://github.com/I2PPlus/i2pplus)：I2P+是Java I2P匿名网络层的软分支。
 * [MuWire](https://github.com/zlatinb/muwire)：MuWire是一款文件发布和网络工具，它利用I2P技术保护用户身份。
 * [Tahrir](https://github.com/sanity/tahrir)：Tahrir是一个去中心化、抗审查、类似Twitter的P2P网络。
-* [I2P Zero](https://github.com/i2p-zero/i2p-zero)：零依赖、小占用空间、跨平台的I2P Java路由器，带有简单的隧道/套接字控制器和SAM接口。
 
 #### BitTorrent
 
@@ -539,16 +583,6 @@
 * [SNMP API](https://ireasoning.com/snmpapi.shtml)：SNMP API是业界领先的SNMP库，它为构建网络管理应用程序提供了高性能、跨平台的SNMP Java API。
 * [DynamicSNMP](https://monfox.com/dsnmp/java-snmp-agent-sdk.html)：DynamicSNMP提供了一组通用的高级Java API，可大大简化平台无关的Java SNMP v1、v2c和v3代理软件的开发。
 * [SNMP Java](https://metricshub.org/snmp-java/)：Westhawk的轻量级SNMP协议栈，基于Java编写。
-
-#### SOCKS
-
-* [JSocks](https://github.com/ravn/jsocks)：JSocks是一个完全用Java编写的SOCKS服务器，同时支持SOCKS4和SOCKS5协议。
-* [SocksLib](https://github.com/fengyouchao/sockslib)：SocksLib是一个针对SOCKS5协议的Java库。
-* [Java SOCKS Proxy Server](https://github.com/bbottema/java-socks-proxy-server)：Java SOCKS Proxy Server是Java的SOCKS 4/5服务器。
-* [FlyingSocks](https://github.com/abc123lzf/flyingsocks)：该项目是基于Java Netty开发的Socks5代理客户端/服务器。
-* [JenTunnel](https://github.com/ggrandes/jentunnel)：JenTunnel是一个用Java编写、非常轻量级的SOCKS和HTTP代理服务器。
-* [Socks5 Netty](https://github.com/xtuhcy/socks5-netty)：基于Netty实现的Socks5代理。
-* [AgentX](https://github.com/ZhangJiupeng/AgentX)：AgentX是一个基于Netty的Socks5网络代理。
 
 #### Radius
 
@@ -2584,6 +2618,8 @@
 * [Insp4j](https://gitee.com/zengzhihong/insp4j)：Insp4j是一个基于Spring EL、AOP，更加灵活易用的权限控制框架。
 * [JwtPermission](https://gitee.com/ele-admin/JwtPermission)：基于Token验证的Java Web权限控制框架。
 * [Common Security](https://gitee.com/geekerdream/common-security)：Spring Boot通用的权限处理框架。
+* [OPA Java SDK](https://github.com/open-policy-agent/opa-java)：OPA是一个策略引擎，它简化了整个技术栈的策略管理，从而提高了开发、安全性和审计能力。
+* [OPA Java WASM](https://github.com/StyraOSS/opa-java-wasm)：这是一个SDK，用于使用由纯Java Wasm解释器Chicory支持的Java来运行WebAssembly编译的Open Policy Agent策略。
 
 #### JWT库
 
@@ -2672,6 +2708,7 @@
 * [KOAuth](https://github.com/kovacshuni/koauth)：Scala中的OAuth 1.0a提供者和消费者库。
 * [HERE AAA](https://github.com/heremaps/here-aaa-java-sdk)：HERE身份验证、授权和计费Java客户端库。
 * [Java U2FLib Server](https://github.com/Yubico/java-u2flib-server)：用于Java的服务器端U2F库。
+* [KotlinMultiplatformAuth](https://github.com/sunildhiman90/KotlinMultiplatformAuth)：这是一个面向Android、iOS、桌面和Web(支持Kotlin/JS和Kotlin/WASM)的Kotlin多平台身份验证库。
 
 #### 身份管理平台
 
@@ -4065,6 +4102,7 @@
 * [Structlog4j](https://github.com/jacek99/structlog4j)：基于SLF4J API的结构化日志Java。
 * [Maple](https://github.com/Randgalt/maple)：类型安全、命名和格式一致的结构化日志包装器，适用于SLF4J。
 * [SLF4j JSON Logger](https://github.com/savoirtech/slf4j-json-logger)：JSON日志格式库，将日志输出为JSON格式。
+* [KmperTrace](https://github.com/PluralFusion/kmpertrace)：KmperTrace是一款适用于Android、iOS/Swift、桌面和Wasm的追踪和结构化日志工具包。
 
 ## 序列化
 
@@ -4922,6 +4960,7 @@
 * [CGSuite](https://github.com/aaron-siegel/cgsuite)：CGSuite是一个用于组合博弈论研究的计算机代数系统。
 * [Digital](https://github.com/tommyettinger/digital)：用于在Java中处理数学运算和显示数字的实用程序。
 * [Divisibility Rule](https://github.com/lemiorhan/grand-unified-divisibility-rule)：Divisibility Rules是快速简单的计算库，可以帮助你确定一个给定的整数是否能被另一个整数整除。
+* [jOEIS](https://github.com/archmageirvine/joeis)：OEIS中序列的Java实现。
 
 #### 线性代数
 
@@ -8230,6 +8269,7 @@ Kafka生态管理系统、运维平台。
 * [Moneat](https://github.com/moneat-io/moneat)：Moneat是一个与Sentry兼容的可观测性平台，用于错误监控、事件管理、正常运行时间跟踪和结构化日志记录。
 * [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
 * [JavaAgent](https://github.com/dingjs/javaagent)：JavaAgent是一个简单优雅的Java Agent，利用Java自带的Instrument特性、Javassist字节码编辑技术，实现了无侵入的方法级性能监控。
+* [BitDive Java Producer](https://github.com/bitDive/java-producer)：BitDive JVM端组件，用于观察应用程序的实际行为、序列化运行时上下文并将数据传递到BitDive平台。
 
 #### 分布式追踪
 
@@ -9319,6 +9359,7 @@ Kafka生态管理系统、运维平台。
 * [DDD Archetype](https://github.com/feiniaojin/ddd-archetype)：Maven模板，实现了领域驱动设计(DDD)的分层应用程序架构。
 * [Spring Boot Application Template](https://github.com/sivaprasadreddy/spring-boot-application-template)：该仓库是一个用于创建Spring Boot应用程序的模板，其中预配置了常用功能。
 * [MBA Hexagonal Architecture](https://github.com/devfullcycle/MBA-hexagonal-architecture)：六边形架构示例模板。
+* [Spring Kotlin Fullstack](https://github.com/sdeleuze/spring-kotlin-fullstack)：Spring WebFlux Kotlin全栈模板，前端使用Kotlin/Wasm。
 
 #### 脚手架
 
@@ -13692,6 +13733,7 @@ Kafka生态管理系统、运维平台。
 * [Java-GI](https://github.com/jwharm/java-gi)：Java-GI是一个用于为Java生成GObject-Introspection绑定的工具。
 * [Jux Toolkit](https://github.com/xdsswar/jux-toolkit)：Jux Toolkit是基于Java 25的桌面框架，通过Panama FFI实现原生Webview。
 * [JOID](https://github.com/Zeldown/JOID)：JOID是一款灵活、基于组件的LWJGL 2 UI工具包，专为希望掌控渲染路径并交付出众界面的开发者而设计。
+* [LazyGui](https://github.com/KrabCode/LazyGui)：LazyGui是一个用于Processing的GUI库。
 
 #### 移动开发框架
 
@@ -14413,6 +14455,7 @@ Kafka生态管理系统、运维平台。
 * [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution)：Logisim Evolution是用于设计和模拟数字逻辑电路的教育软件。
 * [Digital](https://github.com/hneemann/Digital)：Digital是一款易于使用的数字逻辑设计器和电路模拟器，专为教育目的而设计。
 * [Logisim](https://github.com/lawrancej/logisim)：Logisim是一款用于设计和模拟数字逻辑电路的教育工具。
+* [Logisim.App](https://github.com/De-Rossi-Consulting/logisim.app)：Logisim.App是经典Logisim的一个功能齐全的基于浏览器的移植版本。
 * [Cello](https://github.com/CIDARLAB/cello)：遗传电路设计自动化，由CIDAR实验室开发。
 * [DIYLC](https://github.com/bancika/diy-layout-creator)：DIYLC是一款专为业余爱好者和电子爱好者设计的专用软件工具，用于在条形板、穿孔板、PCB和点对点布线上创建电路布局。
 * [FidoCadJ](https://github.com/DarwinNE/FidoCadJ)：FidoCadJ是一款易于使用的编辑器，拥有庞大的电气符号和封装库(通孔和SMD)。
@@ -14922,7 +14965,6 @@ Kafka生态管理系统、运维平台。
 * [SquidLib](https://github.com/yellowstonegames/SquidLib)：SquidLib是一个功能非常齐全的库，部分目标是制作传统Roguelike和类似类型的游戏。
 * [Game](https://github.com/pacampbell/Game)：用于Java 2D游戏编程的类集合。
 * [SGL](https://github.com/regb/scala-game-library)：SGL是一个使用Scala开发跨平台2D视频游戏的库。
-* [Chesslib](https://github.com/bhlangonijr/chesslib)：Chesslib是一个简单的Java国际象棋库，用于根据棋盘位置生成合法的国际象棋走法、解析以PGN或FEN格式存储的国际象棋游戏以及许多其他内容。
 * [TexasHoldemSolverJava](https://github.com/bupticybee/TexasHoldemSolverJava)：一个完全开源、Java实现的高效标准德州扑克和短牌Solver。
 * [Majiang Algorithms](https://github.com/esrrhs/majiang_algorithm)：麻将胡牌算法以及AI算法。
 * [JBT](https://github.com/gaia-ucm/jbt)：JBT是一个用于构建和运行行为树的Java框架。
@@ -15041,6 +15083,8 @@ Kafka生态管理系统、运维平台。
 * [Public Xiangqi](https://github.com/sojourners/public-Xiangqi)：支持UCI和UCCI协议引擎的象棋界面程序，具有加载引擎、对弈、分析、连线、开局库等功能。
 * [JFXChess](https://github.com/asdfjkl/jfxchess)：JFXChess是一个跨平台的国际象棋图形用户界面。
 * [Bagatur](https://github.com/bagaturchess/Bagatur)：Bagatur是世界上最强大的Java国际象棋引擎之一。
+* [Chesslib](https://github.com/bhlangonijr/chesslib)：Chesslib是一个简单的Java国际象棋库，用于根据棋盘位置生成合法的国际象棋走法、解析以PGN或FEN格式存储的国际象棋游戏以及许多其他内容。
+* [Chesspresso](http://www.chesspresso.org/)：Chesspresso是一个Java库，旨在帮助开发者编写各种类型的国际象棋程序。
 
 #### 游戏开发工具
 
@@ -17412,6 +17456,9 @@ Kafka生态管理系统、运维平台。
 * [Chicory](https://github.com/dylibso/chicory)：Chicory是JVM原生WebAssembly运行时，它允许你以零本机依赖或JNI运行WebAssembly程序。
 * [Wasmer](https://github.com/wasmerio/wasmer-java)：基于Wasmer的完整且成熟的Java WebAssembly运行时。
 * [Extism Java SDK](https://github.com/extism/java-sdk)：Extism Java Host SDK使Java程序能够嵌入和运行WebAssembly插件。
+* [WASM.Clj](https://github.com/helins/wasm.cljc)：一个面向WebAssembly(WASM)生态系统的全新Clojure/脚本库。
+* [HappyNewMoonWithReport](https://github.com/fishjd/HappyNewMoonWithReport)：Happy New Moon with Report是一个完全用Java编写的开源WebAssembly实现，运行于JVM环境。
+* [WebAssembly4j](https://github.com/tegmentum/webassembly4j)：一个统一的Java API，用于在多个运行时环境中执行WebAssembly。
 
 #### JavaScript引擎
 

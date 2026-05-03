@@ -164,7 +164,9 @@
   * [SSH](docs/doc2.md#SSH)
   * [DNS](docs/doc2.md#DNS)
   * [FTP服务器](docs/doc2.md#FTP服务器)
+  * [SOCKS服务器](docs/doc2.md#SOCKS服务器)
   * [HTTP代理](docs/doc2.md#HTTP代理)
+  * [Socks代理](docs/doc2.md#Socks代理)
   * [内网穿透](docs/doc2.md#内网穿透)
   * [网络监控](docs/doc2.md#网络监控)
   * [网络工具](docs/doc2.md#网络工具)
@@ -176,7 +178,6 @@
   * [KCP](docs/doc2.md#KCP)
   * [QUIC](docs/doc2.md#QUIC)
   * [SNMP](docs/doc2.md#SNMP)
-  * [SOCKS](docs/doc2.md#SOCKS)
   * [Radius](docs/doc2.md#Radius)
   * [NETCONF](docs/doc2.md#NETCONF)
   * [IP](docs/doc2.md#IP)
@@ -2125,6 +2126,7 @@
 * [Pipes](https://github.com/tinkerpop/pipes)：Pipes是一个数据流框架，可实现数据从输入到输出的拆分、合并、过滤和转换，由斯阿拉莫斯国家实验室开源。
 * [Transport](https://github.com/linkedin/transport)：Transport是一个用于编写高性能用户定义函数(UDF)的框架，这些函数可跨各种引擎(包括Spark、Hive和Trino)进行移植，由LinkedIn开发。
 * [Eel](https://github.com/51zero/eel-sdk)：Eel是一个用于在Hadoop生态系统中操作数据的工具包。
+* [Fitting](https://github.com/dkhadoop/dk-fitting)：Fitting是一个面向大数据的统一的开发框架，由大快搜索主导并完全开源。
 
 #### 大数据工具
 
@@ -3579,6 +3581,7 @@
 * [LinkWork](https://github.com/momotech/LinkWork)：LinkWork是开源的企业级AI Agent平台，由陌陌开源。
 * [ZhiWei](https://github.com/ntygod/ZhiWei)：ZhiWei是一个自托管的AI Agent系统。
 * [Tron OneAgent](https://github.com/alibaba/tron-one-agent)：Tron OneAgent是一个企业级AI Agent高代码开发框架，提供开箱即用的后端服务与前端交互能力，涵盖Agent构建的完整流程，由阿里开源。
+* [ZhikunCode](https://github.com/zhikunqingtao/zhikuncode)：Claude Code的开源替代方案。
 
 ### OpenClaw
 
@@ -3598,6 +3601,7 @@
 * [Jimi](https://github.com/Leavesfly/Jimi)：Jimi是一个功能强大的AI驱动的命令行智能代理系统。
 * [Solon Code](https://gitee.com/opensolon/soloncode)：Solon Code是基于Solon AI框架构建的高性能、自主式AI终端助手。
 * [Agent Client](https://github.com/spring-ai-community/agent-client)：Agent Client为Spring AI生态系统提供自主的CLI代理集成。
+* [Askimo](https://github.com/haiphucnguyen/askimo)：Askimo是一款本地优先的AI桌面应用程序和命令行界面。
 * [Copilot SDK Java](https://github.com/copilot-community-sdk/copilot-sdk-java)：GitHub Copilot CLI的Java SDK。
 * [Claude Agent SDK Java](https://github.com/spring-ai-community/claude-agent-sdk-java)：用于与Claude Code CLI交互的Java SDK。
 * [Claude Code Java](https://github.com/fluentlc/claude-code-java)：Claude Code Java是一个可嵌入任何Java应用的AI Agent引擎。
@@ -4048,8 +4052,13 @@
 * [Word2Vec](https://github.com/jsksxs360/Word2Vec)：Word2Vec是对Word2VEC Java的进一步包装，同时实现了常用的词语相似度和句子相似度计算。
 * [Word2VEC](https://github.com/siegfang/word2vec)：Word2VEC的Java并行实现。
 * [Wiki2Vec](https://github.com/idio/wiki2vec)：通过维基百科转储创建Dbpedia实体的Word2Vec向量的实用程序。
+* [Pujangga](https://github.com/panggi/pujangga)：InaNLP和Deeplearning4j的Word2Vec的印尼语接口，以REST API的形式提供。
+* [Word2VEC Scala](https://github.com/trananh/word2vec-scala)：这是Word2VEC工具包的模型表示的Scala实现。
+* [Word2VEC](https://github.com/YuyuZha0/word2vec)：一个基于Deeplearning4j和Ansj的中文Word2VEC实现。
 * [JFastText](https://github.com/vinhkhuc/JFastText)：JFastText是Facebook FastText的Java包装器，一个用于高效学习词嵌入和快速句子分类的库。
 * [FastText](https://github.com/ivanhk/fastText_java)：Facebook FastText的Java移植。
+* [FastText4j](https://github.com/linkfluence/fastText4j)：Facebook FastText C++版本的Java移植版。
+* [DJL FastText](https://docs.djl.ai/master/extensions/fasttext/index.html)：DJL FastText包含使用FastText实现的NLP支持。
 
 #### 信息提取
 
@@ -4372,6 +4381,7 @@
 * [Voices](https://github.com/hcoles/voices)：适用于Java 17及更高版本的快速进程内文本转语音。
 * [AndroidMaryTTS](https://github.com/AndroidMaryTTS/AndroidMaryTTS)：AndroidMaryTTS是一款基于MaryTTS构建的开源Android离线文本转语音应用。
 * [Xufei Music](https://gitee.com/52itstyle/xufei_msc)：讯飞语音Java Web语音合成解决方案。
+* [TextToSpeechKt](https://github.com/Marc-JB/TextToSpeechKt)：适用于Kotlin的多平台文本转语音库。
 
 ## 数据科学
 
@@ -4551,4 +4561,4 @@
 * [Spark Notebook](https://github.com/spark-notebook/spark-notebook)：Spark Notebook是针对企业环境的开源笔记本，为数据科学家和数据工程师提供了一个基于Web的交互式编辑器。
 * [Pulse](https://github.com/timestored/pulseui)：Pulse是一款开源工具，用于实时可视化分析、电子邮件报告和警报。
 
-## [并发编程-面试宝典](docs/doc2.md)
+## [网络编程-面试宝典](docs/doc2.md)
