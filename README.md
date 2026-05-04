@@ -1943,6 +1943,7 @@
 * [MerLoc Java](https://github.com/thundra-io/merloc-java)：MerLoc是一款用于开发和调试AWS Lambda函数的实时工具。
 * [Gaelyk](https://github.com/gaelyk/gaelyk)：Gaelyk是一个轻量级工具包，用于在Google App Engine环境中使用Groovy开发应用程序。
 * [JRestless](https://github.com/bbilger/jrestless)：JRestless允许你使用JAX-RS创建Serverless应用程序。
+* [Kubeless](https://github.com/vmware-archive/runtimes)：Kubeless函数运行时，由VMWare开源。
 
 ## API网关
 
@@ -3311,6 +3312,7 @@
 * [Java LangChains](https://github.com/cupybara/java-langchains)：一个基于Java 8+ LangChain的实现。
 * [InterfAIce](https://github.com/mscheong01/interfAIce)：InterfAIce是一个开源、基于GPT的自动代理生成库，支持Kotlin、Java、Spring、Reactor和协程。
 * [PocketFlow](https://github.com/The-Pocket/PocketFlow-Java)：PocketFlow是原始Python PocketFlow框架的直接移植版本。
+* [Naftiko Framework](https://github.com/naftiko/framework)：Naftiko Framework是第一个面向规范驱动集成的开源项目。
 
 ### LLM客户端
 
@@ -3480,6 +3482,7 @@
 * [DataAgent](https://github.com/spring-ai-alibaba/DataAgent)：DataAgent是一个基于Spring AI Alibaba的自然语言转SQL项目，能让你用自然语言直接查询数据库，不需要写复杂的SQL。
 * [DAT](https://github.com/junjiem/dat)：DAT让业务人员能够用自然语言直接与数据库对话，无需编写复杂的SQL查询。
 * [WebSQL](https://gitee.com/boy_0214/websql)：WebSQL管理工具，SQL执行、数据开发、跨库联查、Text2Sql、ETL同步、动态数据源、SQL管理、数据监测等众多功能。
+* [DBchat](https://github.com/skanga/DBchat)：DBChat是一个桥梁，可将任何MCP客户端(Claude Desktop、Gemini CLI等)连接到你的数据库，从而实现自然语言数据库交互。
 
 ### LLMOps
 
@@ -4295,7 +4298,8 @@
 * [Knowage](https://github.com/KnowageLabs/Knowage-Server)：Knowage是开源分析和商业智能套件，可让你将传统数据和大/云数据源组合成有价值且有意义的信息，由OW2开源。
 * [Datafor](https://datafor.com.cn/)：Datafor是一款自助式敏捷BI工具，旨在为用户提供直观易用的数据可视化和探索式分析功能，帮助用户快速进行数据探索、分析和决策。
 * [JRelax-BI](https://gitee.com/zengchao/JRelax-BI)：BI商业智能，自定义表单+自定义流程+自定义报表。
-* [ART](https://art.sourceforge.net/)：ART是一种报告和商业智能解决方案，它可以快速部署SQL查询结果，支持表格报告、图表、仪表板、调度。
+* [ART](https://art.sourceforge.net/)：ART是一种报表和商业智能解决方案，它可以快速部署SQL查询结果，支持表格报告、图表、仪表板、调度。
+* [karma](https://github.com/CyrilFeng/karma)：Karma是一种全新的数据洞察方式，用一句话表述就是可执行的脑图。
 * [FusionView](https://gitee.com/hitsoft1995/fusion-view)：富表智能数据可视化平台是一款面向企业和行业级别的用户，具有AI特色的可视化与BI商业智能敏捷分析的平台。
 * [ReportServer](https://github.com/infofabrik/reportserver)：ReportServer是一个现代、多功能的开源商业智能(BI)平台，具有强大的报告功能，由ReportServer公司开发。
 * [Logi Analytics](https://insightsoftware.com/logi-analytics/)：Logi Analytics提供具有自助分析功能的商业智能和数据发现平台，这是InsightSoftware公司的商业产品。
