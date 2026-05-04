@@ -569,6 +569,7 @@
   * [静态分析](docs/doc2.md#静态分析)
   * [空安全](docs/doc2.md#空安全)
   * [编码规范](docs/doc2.md#编码规范)
+  * [代码格式化](docs/doc2.md#代码格式化)
   * [代码异味](docs/doc2.md#代码异味)
   * [依赖分析](docs/doc2.md#依赖分析)
   * [迁移&重构](docs/doc2.md#迁移重构)
@@ -1679,6 +1680,7 @@
 * [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
 * [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个高度可组合、快速启动的动态应用程序服务器运行时环境，它是IBM WebSphere Liberty的开源实现。
 * [SAP AS](https://www.sap.com/products/technology-platform/netweaver.html)：SAP Web应用服务器是NetWeaver解决方案的一个组件。
+* [Tanzu TC Server](https://enterprise.spring.io/tcserver)：Tanzu TC Server是一款基于开源Tomcat的Web应用服务器和命令行工具的捆绑包，由博通提供。
 * [AISWare FlyingServer](https://www.asiainfo.com/zh_cn/product_aisware_flyingServer.html)：FlyingServer是一款满足Java EE 8标准的国产化Web中间件软件，支持WAR，EAR，JAR等应用的部署，由亚信科技提供。
 * [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html)：Adobe ColdFusion是一款久经考验的高性能应用程序服务器，可让程序员轻松进行Web开发。
 * [Apusic AAS](https://www.apusic.com/list-117.html)：金蝶Apusic应用服务器是一款标准、安全、高效、集成并具丰富功能的企业级应用服务器软件，全面支持Jakarta EE 8/9的技术规范。
@@ -1690,6 +1692,7 @@
 * [Libercat](https://axiomjdk.ru/pages/libercat/)：Libercat是一款安全的俄罗斯制造的应用服务器，它基于Apache Tomcat和Apache TomEE，并实现了Jakarta EE规范。
 * [TongWeb Application Server](https://www.tongtech.com/dft/pctype/25.html)：TongWeb是一款全面符合Java EE、Jakarta EE最新标准规范、轻量易于使用、性能强大、具有高可靠性和高安全性的应用服务器产品，由东方通开发。
 * [JEUS](https://www.tmaxsoft.com/en/solution/view?solutionSeq=27)：JEUS是在Web环境中开发、运行、执行应用程序的平台，提供各种必要服务、符合Java标准的Web应用服务器，由韩国TmaxSoft公司开发。
+* [LENA](https://solution.lgcns.com/en/solution/lena)：LENA是一款创新的云原生Web应用服务器，采用LG CNS的尖端技术开发。
 * [AliEE](https://help.aliyun.com/zh/edas/product-overview/what-is-alibaba-cloud-application-server?spm=a2c4g.11186623.0.0.72385806mPZpST)：阿里云应用服务器是一款企业级Java EE的应用服务器软件，用于构建和部署企业级应用程序。
 * [Cosminexus](https://www.hitachi.com/products/it/software/prod/cosminexus/)：Cosminexus是日立公司提供的用于构建和运行应用程序服务器的中间件产品。
 * [WebOTX Application Server](https://jpn.nec.com/webotx/appserver/index.html)：WebOTX是一个Java应用程序执行平台，非常适合在从本地到云的各种IT资源中推广DX，这是日本电气公司的产品。
@@ -1829,6 +1832,7 @@
 * [Mill](https://github.com/com-lihaoyi/mill)：Mill是一个现代化的构建工具，支持Scala和Java项目的构建和管理。
 * [Pants](https://github.com/pantsbuild/pants)：Pants是一个快速、可扩展、用户友好的构建系统，适用于各种规模的代码库，由Twitter开源。
 * [Amper](https://github.com/JetBrains/amper)：Amper是一个项目配置工具，其目标是改善项目配置体验和工具性，即IDE内部的支持，同时还提供流畅的开箱即用体验，由JetBrains开源。
+* [Blade](https://github.com/blade-build/blade-build)：Blade是腾讯推出的一款功能强大的构建系统，支持多种主流编程语言，例如C/C++、Java、Scala、Python、Protobuf等。
 * [1JPM](https://github.com/Osiris-Team/1JPM)：1JPM是一种Maven/Gradle替代方案，但有所不同，它本身是一个Java文件，你应该编辑该文件来配置你的项目。
 * [Bloop](https://github.com/scalacenter/bloop)：Bloop是一个构建服务器和CLI工具，可从任何编辑器或构建工具快速编译、测试和运行Scala。
 * [Boot](https://github.com/boot-clj/boot)：Boot是一个Clojure构建框架和临时Clojure脚本评估器。
@@ -1897,6 +1901,7 @@
 * [SapMachine](https://github.com/SAP/SapMachine)：SapMachine是SAP维护的OpenJDK的一个发行版。
 * [Apache Harmony](https://harmony.apache.org/)：Apache Harmony旨在创建一个兼容Java SE 5和Java SE 6标准的完整、独立的Java运行时环境，主要由IBM开发。
 * [Canonical OpenJDK](https://ubuntu.com/toolchains/java)：Canonical为Ubuntu构建的OpenJDK，提供长达12年的安全维护。
+* [Xcode OpenJDK](https://github.com/apple/openjdk)：Apple Xcode中使用的OpenJDK修改版本。
 * [Alibaba Dragonwell](https://github.com/dragonwell-project/dragonwell8)：阿里巴巴Dragonwell是OpenJDK的下游版本，也是阿里内部的OpenJDK实现。
 * [Tencent Kona](https://github.com/Tencent/TencentKona-8)：腾讯Kona是OpenJDK的免费、生产就绪发行版，提供长期支持和季度更新。
 * [Huawei Bisheng](https://gitee.com/openeuler/bishengjdk-8)：毕昇JDK是华为内部OpenJDK定制版Huawei JDK的开源版本，是一个高性能、可用于生产环境的OpenJDK发行版。
@@ -3493,6 +3498,7 @@
 * [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
 * [Surogate Studio](https://github.com/invergent-ai/surogate-studio)：Surogate Studio是一个企业级LLMOps平台，旨在加速生成式AI应用的开发和部署。
 * [Tracy](https://github.com/JetBrains/tracy)：Tracy可以帮助你直接从Kotlin或Java项目中跟踪、监控和评估AI驱动的功能，由JetBrains开源。
+* [LangSmith Java SDK](https://github.com/langchain-ai/langsmith-java)：LangSmith是一个与框架无关的平台，用于构建、调试和部署AI代理和LLM应用程序。
 
 ### AI Assistant
 
@@ -4363,6 +4369,7 @@
 * [BIOS Report](http://www.bijetsoft.com/report-features.html)：BIOS Report是新一代的纯Java的企业级报表软件。
 * [AnyChart Export](https://github.com/AnyChart/export-server)：AnyChart Export是一款可以将图表导出为PNG、JPG、PDF、SVG、CSV、Excel、JSON和XML格式的工具。
 * [NopReport](https://github.com/entropy-cloud/nop-entropy)：NopReport是Nop平台内置的报表引擎。
+* [NextReports](https://github.com/nextreports/nextreports-server)：NextReports是一款免费的Java商业报表软件。
 
 #### 电子表格
 
