@@ -8,7 +8,6 @@
 * [Apache MINA](https://github.com/apache/mina)：MINA是一个网络应用框架，可以帮助用户开发高性能和高可扩展性的网络应用程序。
 * [Eclipse Grizzly](https://github.com/eclipse-ee4j/grizzly)：Grizzly的目标是帮助开发人员使用NIO构建可扩展且强大的服务器，Oracle开源。
 * [SOFABolt](https://github.com/sofastack/sofa-bolt)：SOFABolt是蚂蚁金融开发的一套基于Netty实现的网络通信框架。
-* [Aleph](https://github.com/clj-commons/aleph)：Aleph是一个基于Netty构建的客户端和服务器网络编程库。
 * [RxNetty](https://github.com/ReactiveX/RxNetty)：RxNetty是Netty的Rx适配器，由Netflix开源。
 * [Voovan](https://gitee.com/helyho/Voovan)：Voovan是一个高性能异步网络框架和Web服务器框架。
 * [T-IO](https://gitee.com/tywo45/t-io)：T-IO是基于Java开发的一款高性能网络编程框架，由钛特云开源。
@@ -59,7 +58,6 @@
 * [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
 * [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
 * [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，能够做到纳秒级别的端到端延迟。
-* [JRakNet](https://github.com/whirvis/JRakNet)：JRakNet是一个基于Java的网络库，实现了基于UDP的协议RakNet。
 * [Mikrotik](https://github.com/GideonLeGrange/mikrotik-java)：Mikrotik RouterOS API的Java客户端库实现。
 * [Limitart](https://gitee.com/HankXV/Limitart)：Limitart是轻量级、高性能、少依赖、低级封装的服务器开发工具和项目搭建模板，可以开发游戏服务器和小型中间件等。
 * [CCNx](https://github.com/ProjectCCNx/ccnx)：CCNx参考实现，提供了构建和运行使用以及展示基本CCNx协议的应用程序所需的库和组件。
@@ -84,6 +82,7 @@
 * [DfActor](https://github.com/lostsky3000/dfactor)：DfActor是一个基于Actor模型的消息处理框架。
 * [RDAP](https://github.com/DNSBelgium/rdap)：这个Java库使得构建与注册表后端通信的RDAP服务器变得非常容易。
 * [PNet](https://github.com/PvdBerg1998/PNet)：PNet是一个易于使用的网络库，适用于Java 1.6或更高版本。
+* [jBot](https://github.com/Aaron-Akhtar/jBot)：jBot是用Java实现的僵尸网络，旨在方便开发者创建自己的僵尸网络。
 
 #### WebSocket
 
@@ -244,6 +243,7 @@
 #### TCP/UDP
 
 * [KryoNet](https://github.com/EsotericSoftware/kryonet)：KryoNet是一个Java库，它提供了一个干净、简单的API，用于使用NIO进行高效的TCP和UDP客户端/服务器网络通信。
+* [Aleph](https://github.com/clj-commons/aleph)：Aleph是一个基于Netty构建的客户端和服务器网络编程库。
 * [QuickServer](https://github.com/QuickServerLab/QuickServer-Main)：QuickServer是一个开源Java库/框架，用于快速创建强大的多客户端TCP服务器应用程序。
 * [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：NettyGameServer是基于Netty 4.X实现的手机游戏分布式服务器，支持TCP、UDP、HTTP、WebSocket链接。
 * [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式Java游戏服务器。
@@ -260,6 +260,7 @@
 * [LANCOMM](https://github.com/fighter-lee/lancomm)：Android局域网通讯，基于UDP和TCP封装的局域网通讯协议框架。
 * [NettyIM](https://github.com/CWTakiku/NettyIM)：NettyIM是一款基于Netty高度定制化的通讯SDK，支持TCP、UDP和WebSocket协议的通信。
 * [SimpleNet](https://github.com/jhg023/SimpleNet)：SimpleNet是一个用Java编写的简单的客户端/服务器框架。
+* [MQTT/UDP](https://github.com/dzavalishin/mqtt_udp)：MQTT/UDP是源自MQTT的基于UDP广播/组播的协议。
 * [Dragonite](https://github.com/dragonite-network/dragonite-java)：Dragonite是一种基于UDP的可靠应用级数据传输协议，针对有损和不稳定的网络进行了高度优化。
 * [JBoss Remoting](https://github.com/jboss-remoting/jboss-remoting)：JBoss Remoting的目的是提供一个用于通过网络进行对称和非对称通信的通用框架，由RedHat开发。
 * [Extasys](https://github.com/nsiatras/extasys)：Extasys是一个高性能的异步TCP/UDP套接字库。
@@ -273,6 +274,20 @@
 * [Serac](https://github.com/geektcp/serac)：Serac是一套Java语言的底层网络封装工具，支持原始套接字，支持SCP协议。
 * [UdpServerSocketChannel](https://github.com/Shevchik/UdpServerSocketChannel)：Netty UDP服务器套接字通道，为每个远程地址分配单独的通道。
 * [XTCP](https://github.com/xuexiangjys/XTCP)：一个便捷的TCP消息包拼装和解析框架。
+* [JRakNet](https://github.com/whirvis/JRakNet)：JRakNet是一个基于Java的网络库，实现了基于UDP的协议RakNet。
+* [UDPSender](https://github.com/huangdali/UDPSender)：UDPSender是一个基于NIO的UDP发送接收器。
+* [JFastNet](https://github.com/klaus7/jfastnet)：快速、可靠且易于使用的Java UDP消息传递方案。
+* [Netty RakNet](https://github.com/yesdog/netty-raknet)：一个可靠且高性能的RakNet库，其设计严格遵循Netty模式。
+* [jRakNet](https://github.com/gomint/jRakNet)：Java的RakNet移植，并专门针对GoMint的需求进行了调整。
+* [Rmessage](https://github.com/1ssqq1lxr/Rmessage)：Rmessage是采用Reactor 3，基于Reactor Netty项目构建的实时消息API。
+* [ViseUdp](https://github.com/xiaoyaoyou1212/ViseUdp)：UDP通信库，采用非阻塞模式(NIO)进行数据收发，主要针对数据量小且发送密集的场景。
+* [JNetRobust](https://github.com/mucaho/jnetrobust)：适用于Java 6+的快速、可靠且非侵入式的面向消息的虚拟网络协议。
+* [ProxyTransport](https://github.com/NetherGamesMC/ProxyTransport)：Proxy Transport是一种TCP和QUIC传输协议实现，用于取代代理服务器和下游服务器之间效率低下的RakNet协议实现。
+* [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
+* [Clj TCP](https://github.com/gerritjvv/clj-tcp)：一个基于Netty的快速异步TCP客户端库。
+* [TCP Spring Boot Starter](https://github.com/JavaGrinko/tcp-spring-boot-starter)：TCP Spring Boot Starter是一个Spring Boot库，可用于快速部署TCP服务器。
+* [NitroNet](https://github.com/jmrapp1/NitroNet)：这是一个网络库，用于简化需要网络连接的应用程序的开发。
+* [RSocket Transport Akka](https://github.com/rsocket/rsocket-transport-akka)：Akka TCP和WebSocket传输RSocket。
 
 #### IO_Uring
 
@@ -444,6 +459,8 @@
 * [Http Liar](https://github.com/dongchenxu/httpliar)：Http Liar项目是基于HTTP Proxy工作模式的一款HTTP协议拦截、篡改工具。
 * [Spring Cloud Netflix Zuul WebSocket](https://github.com/mthizo247/spring-cloud-netflix-zuul-websocket)：一个简单的库，用于在Spring应用程序中启用Zuul反向代理WebSocket支持。
 * [Netty WebSocket Proxy](https://github.com/zhining-lu/netty-websocket-proxy)：基于Netty4框架的Java版前向代理实现。
+* [Nano Proxy](https://github.com/viniciusccarvalho/nano-proxy)：一个使用Netty的小型TCP代理。
+* [TCP Proxy](https://github.com/oksuz/tcp-proxy)：用Java编写的简单TCP/IP代理服务器。
 
 #### Socks代理
 
@@ -515,6 +532,8 @@
 * [Netty Proxy](https://github.com/MrLawrenc/Netty_Proxy)：基于Netty实现TCP请求的内网穿透。
 * [NET Client](https://gitee.com/diaodiaofly/net-client)：NET Client是一个穿透内网的工具。
 * [TIO Proxy](https://gitee.com/qianyingchao/tio-proxy)：TIO Proxy是一款采用Java编写的内网穿透工具。
+* [TCP Through Server](https://github.com/longshengwang/tcpthrough-server)：TCP内网穿透。
+* [SmartProxy](https://github.com/huangjiaqian/smartproxy)：是基于Java实现的将局域网电脑的端口映射到公网。
 
 #### 网络监控
 
@@ -555,6 +574,8 @@
 * [Java Port Forwarding](https://gitee.com/matrixy/java-port-forwarding)：通过服务器，转发内网主机的TCP数据包，由服务器作为中间人，完成客户端到主机端的通信。
 * [NakovForwardServer](https://github.com/nakov/NakovForwardServer)：这是一个用Java编写的TCP端口转发软件。
 * [Jrinetd](https://github.com/ggrandes/jrinetd)：Jrinetd是一个开源的Java TCP端口重定向代理程序，无需任何外部库。
+* [Ecloud](https://github.com/CTF-MissFeng/Ecloud)：Ecloud是一款基于HTTP/1.1协议传输TCP流量的工具。
+* [XTunnel](https://github.com/quhw/xtunnel)：XTunnel是一个TCP隧道工具，通过部署中间节点使两个无法直接联通的节点可以正常通讯，类似SSH的TUNNEL功能。
 
 #### P2P
 
@@ -943,6 +964,7 @@
 * [Ctries](https://github.com/axel22/Ctries)：Ctrie数据结构的Scala实现。
 * [LockFreeSkipTree](https://github.com/mspiegel/lockfreeskiptree)：java.util.concurrent.ConcurrentSkipList的直接替代品。
 * [AirConcurrentMap](https://github.com/boilerbay/airconcurrentmap)：java.util.concurrent.ConcurrentNavigableMap接口的快速、内存高效、多核实现，兼容Java 1.8及更高版本。
+* [Concurrent](https://github.com/coderplay/concurrent)：Java并发数据结构扩展。
 
 #### 竞争检测
 
@@ -4260,7 +4282,6 @@
 * [Kroto Plus](https://github.com/marcoferrer/kroto-plus)：gRPC Kotlin协程，Protobuf DSL，Protoc脚本。
 * [Protokt](https://github.com/open-toast/protokt)：Kotlin的Protocol Buffer编译器和运行时。
 * [KrotoDC](https://github.com/mscheong01/krotoDC)：KrotoDC是一个protoc插件，用于从.proto输入生成Kotlin数据类和gRPC服务/存根。
-* [Connect Kotlin](https://github.com/connectrpc/connect-kotlin)：Connect Kotlin是一个精简的库，用于生成、类型安全且习语化Kotlin客户端通过Protobuf与你的应用服务器通信。
 * [Protop](https://github.com/protop-io/protop)：Protop是一个开源Protobuf包管理器。
 * [Protobuf4j](https://github.com/roastedroot/protobuf4j)：Protobuf4j是以纯Java字节码运行的Protobuf。
 * [PBJ](https://github.com/hashgraph/pbj)：PBJ是一个替代的Google Protobuf代码生成器、解析器和Gradle模块。
@@ -4539,6 +4560,7 @@
 * [JSONRPCLib](https://github.com/neandertech/jsonrpclib)：这是一个跨平台、跨Scala版本的库，它提供了使用JSON RPC协议进行双向通信的构造。
 * [Retrofit JSON-RPC](https://github.com/segmentio/retrofit-jsonrpc)：使用Retrofit的JSON-RPC。
 * [Brutusin RPC](https://github.com/brutusin/Brutusin-RPC)：JEE Web框架，可轻松创建自描述的JSON-RPC微服务和单页应用程序。
+* [Scala JSON RPC](https://github.com/shogowada/scala-json-rpc)：Scala JSON RPC是一个遵循JSON-RPC 2.0规范的远程过程调用(RPC)库。
 
 #### JSON API
 
@@ -11247,6 +11269,7 @@ Kafka生态管理系统、运维平台。
 * [KDiscordIPC](https://github.com/caoimhebyrne/KDiscordIPC)：KDiscordIPC是一个用于通过IPC与Discord交互的Kotlin库。
 * [Discord.jar](https://github.com/discord-java/discord.jar)：Discord API Java封装器。
 * [Discord J2ME](https://github.com/gtrxAC/discord-j2me)：适用于Java ME设备的Discord客户端。
+* [KizzyRPC](https://github.com/dead8309/KizzyRPC)：KizzyRPC是一个用于在Android系统中实现Discord Rich Presence功能的Kotlin库。
 
 #### Spotify
 
@@ -11495,6 +11518,7 @@ Kafka生态管理系统、运维平台。
 * [Tues Pay](https://github.com/whoiszxl/ex-exchange)：一个应用在中心化系统的加密货币支付Java SDK。
 * [CryptoCurrency](https://github.com/michaelliao/cryptocurrency)：一个简单的Java库，用于与比特币交互。
 * [Signum](https://github.com/signum-network/signum-node)：Signum是世界上第一个使用HDD挖矿的加密货币，采用节能且公平的承诺证明(PoC+)共识算法。
+* [BitcoindClient4J](https://github.com/johba37/BitcoindClient4J)：这是一个用于调用Bitcoind参考实现的JSON RPC API的Java库。
 
 #### 闪电网络
 
@@ -11602,6 +11626,7 @@ Kafka生态管理系统、运维平台。
 * [Web3j Quorum](https://github.com/web3j/web3j-quorum)：Web3j Quorum是Web3j的一个扩展，为摩根大通的Quorum API提供支持。
 * [Web3SDK](https://github.com/FISCO-BCOS/web3sdk)：Web3SDK为FISCO-BCOS提供Java API。
 * [Sidechains SDK](https://github.com/HorizenOfficial/Sidechains-SDK)：Sidechains是一种创新技术，旨在通过创建与主链绑定的并行平台和应用层，在不增加主链负担的情况下，实现区块链的可扩展性。
+* [Polkadot/Substrate Java API](https://github.com/polkadot-java/api)：该库为Polkadot/Subtrate网络客户端公开的所有方法提供了一个Java包装器，并定义了节点公开的所有类型。
 
 #### 智能合约
 
@@ -12009,7 +12034,6 @@ Kafka生态管理系统、运维平台。
 * [Zer0MQTTServer](https://github.com/zer0Black/zer0MQTTServer)：使用Java AIO实现的MQTT协议服务器，用于推送和IM聊天。
 * [IoT Harbor](https://github.com/1ssqq1lxr/iot-harbor)：Reactor Netty库实现的MQTT Server。
 * [Vert.x MQTT](https://github.com/vert-x3/vertx-mqtt)：Vert.x MQTT提供MQTT服务器和客户端组件。
-* [MQTT/UDP](https://github.com/dzavalishin/mqtt_udp)：MQTT/UDP是源自MQTT的基于UDP广播/组播的协议。
 * [JoMQTT](https://github.com/joey-happy/jo-mqtt)：轻量级物联网MQTT服务器，快速部署、支持集群。
 * [TTIoT](https://gitee.com/cloudSj/TTIot)：TTIoT云端物联网组件，为设备提供安全可靠的连接通信能力。
 * [MMQTT](https://github.com/MrHKing/mmqtt)：MMQTT是一款完全开源、高度可伸缩、高可用的分布式MQTT消息服务器，适用于IoT、M2M和移动应用程序。
@@ -15358,6 +15382,7 @@ Kafka生态管理系统、运维平台。
 * [MSPSim](https://github.com/contiki-ng/mspsim)：MSPSim是一款基于Java的指令级仿真器，用于仿真MSP430系列微处理器以及部分传感器网络平台。
 * [EMUStudio](https://github.com/emustudio/emuStudio)：EMUStudio是一款用于计算机模拟和编写模拟计算机程序的桌面应用程序。
 * [Tiny-Emu](https://github.com/jdvillal/8-bit_CPUemu)：Tiny-Emu是8位CPU的模拟器。
+* [GraalRISCV](https://github.com/Glavo/GraalRISCV)：GraalRISCV是一个纯Java RV64用户态模拟器，使用GraalVM的Truffle框架构建。
 
 ## MIPS
 
@@ -16985,6 +17010,7 @@ Kafka生态管理系统、运维平台。
 * [SRTParser](https://github.com/gusthavosouza/SRTParser)：SRTParser是处理SRT文件、图例文件所需的库。
 * [DualSub](https://github.com/bonigarcia/dualsub)：DualSub是一个工具，可以让你在一个文件中合并两个SRT字幕。
 * [Subtitle](https://github.com/zhangliangming/Subtitle)：SRT和ASS字幕文件解析库。
+* [OpenSub4j](https://github.com/wtekiela/opensub4j)：OpenSub4j是一个用于opensubtitles的开源Java库。
 
 ## 字典库
 

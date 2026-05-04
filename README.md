@@ -1442,6 +1442,32 @@
 * [Protobuf Socket RPC](https://github.com/sdeo/protobuf-socket-rpc)：Protobuf Socket RPC是一个基于TCP/IP套接字的简单RPC实现。
 * [MessagePack RPC](https://github.com/msgpack-rpc/msgpack-rpc-java)：MessagePack RPC的Java实现。
 * [SMBJ-RPC](https://github.com/rapid7/smbj-rpc)：DCE-RPC实现，能够通过SMBJ使用SMBv2通过IPC命名管道调用RPC。
+* [NettyThrift](https://github.com/houkx/nettythrift)：这是一个使用Netty和Thrift的Java服务器I/O框架。
+* [Easy RPC](https://github.com/shaogezhu/easy-rpc)：Easy RPC是一款基于Netty、Zookeeper、Spring实现的轻量级Java RPC框架。
+* [Turbo RPC](https://github.com/hank-whu/turbo-rpc)：Turbo RPC是一款速度超凡的异步响应式RPC框架。
+* [Autowire](https://github.com/lihaoyi/autowire)：Autowire是一对宏，它允许你在Scala系统之间执行类型安全、无反射的RPC调用。
+* [Slacker](https://github.com/sunng87/slacker)：Slacker是一个专为Clojure设计并由Clojure创建的简单RPC框架。
+* [bRPC](https://github.com/vincentbin/bRPC)：基于Java和Netty的高性能RPC。
+* [Kraps RPC](https://github.com/neoremind/kraps-rpc)：Kraps RPC是一个从Spark中分离出来的RPC框架。
+* [RPCKids](https://github.com/pyloque/rpckids)：最简单的RPC实现。
+* [BootNettyRpc](https://github.com/forezp/BootNettyRpc)：BootNettyRpc是一个采用Netty实现的RPC框架。
+* [HRPC](https://github.com/wosyingjun/HRPC)：HRPC是一个基于Netty和Zookeeper的轻量级高性能RPC框架。
+* [Buddha](https://github.com/tinylcy/buddha)：Buddha是一个轻量级的RPC框架。
+* [Connect Kotlin](https://github.com/connectrpc/connect-kotlin)：Connect Kotlin是一个精简的库，用于生成、类型安全且习语化Kotlin客户端通过Protobuf与你的应用服务器通信。
+* [McQueenRPC](https://github.com/bluedavy/McQueenRPC)：McQueenRPC是一个基于Netty/Mina/Grizzly的Lightning McQueenRPC。
+* [NettyRPC](https://github.com/dawnbreaks/NettyRPC)：又一个基于Netty的RPC框架。
+* [Houbb RPC](https://github.com/houbb/rpc)：RPC是基于Netty实现的Java RPC框架。
+* [ServicePool](https://github.com/luqinx/sp)：ServicePool是一个SPI框架，具有跨模块创建对象的能力。
+* [KRPC](https://github.com/yangzhenkun/krpc)：KRPC是一个轻量级RPC框架。
+* [RPC Spring Boot Starter](https://github.com/2YSP/rpc-spring-boot-starter)：基于Netty实现的高性能可扩展RPC框架。
+* [Iris](https://github.com/leiwei2094/iris-java)：Iris是一个基于Java的RPC框架。
+* [Sloth](https://github.com/cornerman/sloth)：Scala中的类型安全RPC。
+* [QPRC](https://github.com/redvelvets/qrpc)：QPRC用于实现远程过程调用(RPC)通信。
+* [CommonRPC](https://github.com/commonrpc/commonrpc)：CommonRPC是一个以Netty为基础，Spring自定义Schema为基础标签的RPC框架。
+* [Conjure Java Runtime](https://github.com/palantir/conjure-java-runtime)：Conjure Java Runtime提供了一套基于JAX-RS服务定义的REST类/RPC服务器和客户端库，由Palantir开源。
+* [ZNS](https://github.com/Taiyi1122/zns)：ZNS是分布式RPC的一种实现。
+* [PJRmi](https://github.com/deshaw/pjrmi)：PJRmi是一个API，用于从Python进程向Java进程执行远程方法调用。
+* [Pushy](https://github.com/pushyrpc/pushy)：Pushy是一个适用于Python和Java的RPC包。
 
 ### 微服务框架
 
@@ -1549,7 +1575,6 @@
 * [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
 * [Avaje HttpClient](https://github.com/avaje/avaje-http)：JDK 11 HttpClient的轻量级包装器。
 * [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：Jcabi HTTP是流式的Java HTTP客户端。
-* [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
 * [OkHttps](https://gitee.com/troyzhxu/okhttps)：OkHttps是对OkHttp3轻量封装的框架，包括异步预处理器，特色的标签，灵活的上传下载进度监听与过程控制功能。
 * [RXHttp](https://github.com/liujingxing/rxhttp)：适用于Android的类型安全HTTP客户端，基于OkHttp。
 * [HTTP4K](https://github.com/http4k/http4k)：HTTP4K是一个用纯Kotlin编写的轻量级但功能齐全的HTTP工具包，可以以功能一致的方式提供和使用HTTP服务。
@@ -2133,6 +2158,7 @@
 * [Transport](https://github.com/linkedin/transport)：Transport是一个用于编写高性能用户定义函数(UDF)的框架，这些函数可跨各种引擎(包括Spark、Hive和Trino)进行移植，由LinkedIn开发。
 * [Eel](https://github.com/51zero/eel-sdk)：Eel是一个用于在Hadoop生态系统中操作数据的工具包。
 * [Fitting](https://github.com/dkhadoop/dk-fitting)：Fitting是一个面向大数据的统一的开发框架，由大快搜索主导并完全开源。
+* [Twister2](https://github.com/cylondata/twister2)：Twister2是一个可组合的大数据环境，支持流式处理、数据管道和分析，由印第安纳大学开源。
 
 #### 大数据工具
 
@@ -2834,6 +2860,9 @@
 * [Google Pub/Sub](https://github.com/GoogleCloudPlatform/pubsub)：Google Cloud Pub/Sub开源项目。
 * [Async Google Pub/Sub Client](https://github.com/spotify/async-google-pubsub-client)：一个低级别的Pub/Sub客户端和一个并发的每主题批处理发布者，由Spotify开发。
 * [OpenMAMA](https://github.com/finos/OpenMAMA)：OpenMAMA是一个高性能、与供应商无关的轻量级包装器，它为跨各种平台和语言的不同中间件和消息传递解决方案提供通用API接口，由金融科技基金会开源。
+* [Beanstalkc](https://github.com/dinstone/beanstalkc)：Beanstalkc是Beanstalkd的一个线程安全客户端库，支持连接池。
+* [TrendrrBeanstalk](https://github.com/dustismo/TrendrrBeanstalk)：Java Beanstalk客户端。
+* [JavaBeanstalkClient](https://github.com/RTykulsker/JavaBeanstalkClient)：一个用于Beanstalkd工作队列服务的Java客户端。
 
 ## 分布式开发
 
@@ -4540,6 +4569,7 @@
 
 * [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个DataFrame和可视化库，支持加载、清理、转换、过滤和汇总数据。
 * [CUDF](https://github.com/rapidsai/cudf/tree/branch-24.08/java)：CUDF是一个GPU DataFrame库，用于加载、连接、聚合、过滤和以其他方式处理数据，由NVIDIA提供。
+* [Cylon](https://github.com/cylondata/cylon)：Cylon是一个快速、可扩展的分布式内存数据并行库，用于处理结构化数据，由印第安纳大学开源。
 * [Dataframe](https://github.com/Kotlin/dataframe)：Dataframe旨在利用Kotlin语言的全部功能以及Jupyter Notebook和REPL中间歇性代码执行提供的机会，协调Kotlin的静态类型与数据的动态特性，JetBrains开源。
 * [Morpheus](https://github.com/zavtech/morpheus-core)：Morpheus库旨在促进涉及大型数据集的高性能分析软件的开发，以便在JVM上进行离线和实时分析。
 * [Krangl](https://github.com/holgerbrandl/krangl)：Krangl是一个用于数据处理的Kotlin库，通过使用现代函数式API实现数据操作语法，它允许过滤、转换、聚合和重塑表格数据。
