@@ -54,13 +54,8 @@
   * [数据湖框架](#数据湖框架)
   * [数据Shuffle](#数据Shuffle)
   * [时序数据分析](#时序数据分析)
-* [进程间通信](#进程间通信)
-  * [消息中间件](#消息中间件)
-  * [IPC](#IPC)
-  * [事件总线](#事件总线)
-  * [消息总线](#消息总线)
-  * [应用总线](#应用总线)
-  * [消息队列客户端](#消息队列客户端)
+* [消息中间件](#消息中间件)
+* [消息队列客户端](#消息队列客户端)
 * [分布式开发](#分布式开发)
   * [分布式锁](#分布式锁)
   * [分布式ID](#分布式ID)
@@ -143,6 +138,7 @@
   * [语音合成](#语音合成)
 * [数据科学](#数据科学)
   * [商业智能](#商业智能)
+  * [报表引擎](#报表引擎)
   * [电子表格](#电子表格)
   * [数据可视化](#数据可视化)
   * [数据图表](#数据图表)
@@ -363,6 +359,11 @@
   * [INI库](docs/doc2.md#INI库)
   * [ENV库](docs/doc2.md#ENV库)
   * [Toml库](docs/doc2.md#Toml库)
+* [进程间通信](docs/doc2.md#进程间通信)
+  * [IPC](docs/doc2.md#IPC)
+  * [事件总线](docs/doc2.md#事件总线)
+  * [消息总线](docs/doc2.md#消息总线)
+  * [应用总线](docs/doc2.md#应用总线)
 * [GraphQL](docs/doc2.md#GraphQL)
   * [GraphQL Spring](docs/doc2.md#GraphQL-Spring)
   * [模式优先](docs/doc2.md#模式优先)
@@ -426,7 +427,6 @@
 * [决策引擎](docs/doc2.md#决策引擎)
 * [状态机](docs/doc2.md#状态机)
 * [状态容器](docs/doc2.md#状态容器)
-* [报表引擎](docs/doc2.md#报表引擎)
 * [功能切换](docs/doc2.md#功能切换)
 * [模板引擎](docs/doc2.md#模板引擎)
 * [批处理框架](docs/doc2.md#批处理框架)
@@ -2585,9 +2585,7 @@
 * [STL4j](https://github.com/ServiceNow/stl-decomp-4j)：Seasonal Trend Loess时序分解算法的Java实现。
 * [Java Time Series](https://github.com/signaflo/java-timeseries)：Java中的时序分析。
 
-## 进程间通信
-
-#### 消息中间件
+## 消息中间件
 
 * [Amazon SQS](https://aws.amazon.com/cn/sqs/)：Amazon SQS是亚马逊公司在2004年推出的分布式消息队列服务。
 * [Apache Kafka](https://github.com/apache/kafka)：Kafka是一个开源分布式事件流平台，已被数千家公司用于高性能数据管道、流分析、数据集成和关键任务应用程序，由LinkedIn开源。
@@ -2667,174 +2665,7 @@
 * [DistMQ](https://github.com/wenweihu86/distmq)：基于Raft的分布式消息队列。
 * [Redis MQ](https://github.com/zhaohaoh/redis-mq)：Redis MQ是利用Redis实现MQ功能的中间件。
 
-#### IPC
-
-* [Hermes](https://github.com/Xiaofei-it/Hermes)：Hermes是一个智能、新颖且易用的Android进程间通信框架。
-* [CoralRing](https://github.com/coralblocks/CoralRing)：CoralRing是堆外共享内存中的超低延迟、无锁、无垃圾、批处理和并发循环队列(环)，用于使用内存映射文件跨不同JVM进行Java进程间通信。
-* [Flying Pigeon](https://github.com/Justson/flying-pigeon)：Flying Pigeon是一个IPC跨进程通信组件。
-* [Traffic SHM](https://github.com/peptos/traffic-shm)：Traffic SHM是一个基于Java的消息库，设计用于同一服务器上的进程间通信。
-* [Mycat IPC](https://github.com/MyCATApache/Mycat-IPC)：基于内存的共享IPC框架，具备超高性能。
-* [Eclipse ECF](https://github.com/eclipse-ecf/ecf)：ECF是一组用于支持进程间通信的模块化框架。
-* [Remoter](https://github.com/josesamuel/remoter)：用于使用纯Java接口的Android远程IPC服务的替代方案。
-* [OkBinder](https://github.com/7hens/okbinder)：OkBinder是一个轻量级的跨进程通信方案。
-* [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
-* [AndLinker](https://github.com/codezjx/AndLinker)：AndLinker是Android平台的IPC库。
-* [IPCInvoker](https://github.com/AlbieLiang/IPCInvoker)：IPCInvoker是一个用来简化跨进程调用的组件。
-* [JacORB](https://github.com/JacORB/JacORB)：JacORB是OMG的CORBA标准的免费Java实现。
-* [Eclipse ORB](https://github.com/eclipse-ee4j/orb)：Eclipse ORB是一个CORBA ORB，可用于Jakarta EE、GlassFish以及其他仍然需要ORB的项目。
-* [SIRC](https://github.com/sorcix/sIRC)：SIRC是一个简单的Java IRC库。
-* [Reactive IPC JVM](https://github.com/reactive-ipc/reactive-ipc-jvm)：JVM的响应式进程间通信。
-* [SharedMemory](https://github.com/NewtronLabs/SharedMemory)：Shared Memory库允许创建可供多个Android进程或应用程序同时访问的内存区域。
-* [Reactor Aeron](https://github.com/scalecube/reactor-aeron)：Reactor Aeron提供基于Aeron的无阻塞、支持反压的可靠UDP客户端和服务器，可高效可靠地传输UDP单播、UDP多播和IPC消息。
-* [JavaSharedMemory](https://github.com/ShirasawaSama/JavaSharedMemory)：进程间共享内存，基于Java 19 FFM API。
-
-#### 事件总线
-
-* [EventBus](https://github.com/greenrobot/EventBus)：EventBus是适用于Android和Java的发布/订阅事件总线。
-* [EventBus](https://github.com/MinecraftForge/EventBus)：EventBus是一个简单的订阅者-发布者框架。
-* [Guava EventBus](https://github.com/google/guava/tree/master/guava/src/com/google/common/eventbus)：EventBus允许组件之间进行发布/订阅式通信，而无需显式地相互注册。
-* [MBassador](https://github.com/bennidi/mbassador)：MBassador是一个轻量级、高性能的事件总线，实现了发布订阅模式。
-* [Otto](https://github.com/square/otto)：Otto是一种事件总线，旨在解耦应用程序的不同部分，同时仍然允许它们高效通信，由Square开源。
-* [RxBus](https://github.com/AndroidKnife/RxBus)：RxBus是一个事件总线，旨在让你的应用程序有效地进行通信。
-* [Andromeda](https://github.com/iqiyi/Andromeda)：Andromeda为本地和远程服务提供模块之间的通信，由爱奇艺开源。
-* [HermesEventBus](https://github.com/Xiaofei-it/HermesEventBus)：HermesEventBus是一个在进程之间使用EventBus的库，在IPC或插件开发中很有用。
-* [AndroidEventBus](https://github.com/hehonghui/AndroidEventBus)：AndroidEventBus是适用于Android的轻量级事件总线库，简化了Activity、Fragments、Threads、Services等之间的通信。
-* [Nakadi](https://github.com/zalando/nakadi)：Nakadi是一个分布式事件总线代理，它在类似Kafka的队列之上实现了RESTful API抽象，可用于以可靠且高度可用的方式实时发送、接收和分析流数据，由Zalando开源。
-* [Apollo](https://github.com/Sloaix/Apollo)：RxJava的事件总线。
-* [Mercury](https://github.com/Accenture/mercury)：Mercury是一个用于事件驱动编程的软件开发工具包，由Accenture开源。
-* [TinyBus](https://github.com/sergejsha/tinybus)：TinyBus是Otto事件总线的更快实现，附加了你错过的额外功能。
-* [JFinal Event](https://gitee.com/596392912/JFinal-event)：JFinal Event事件驱动插件，无任何第三方依赖，小巧玲珑。
-* [Netflix EventBus](https://github.com/Netflix/netflix-commons/tree/master/netflix-eventbus/src)：用于进程内的事件总线。
-* [xBus](https://github.com/mcxiaoke/xBus)：简洁的EventBus实现。
-* [ModuleBus](https://github.com/cangwang/ModuleBus)：ModuleBus用于不同模块之间的通信。
-* [Router](https://github.com/SilenceDut/Router)：Router是类似事件总线的替代品，由动态代理实现。
-* [Alpine](https://github.com/ZeroMemes/Alpine)：Alpine是适用于Java 8+的轻量级事件系统。
-* [Broker](https://github.com/adrielcafe/broker)：Broker是一个使用Coroutines构建的适用于Android和JVM的发布-订阅库。
-* [RRiBbit](https://mvnrepository.com/artifact/org.rribbit)：RRiBbit是一个开源的Java应用框架，可以用作事件总线。
-* [Events4J](https://github.com/PhilippHeuer/events4j)：Java事件调度程序/消费者。
-* [DamiBus](https://gitee.com/noear/dami)：DamiBus专为本地多模块之间通讯解耦而设计。
-* [IPC EventBus](https://github.com/Terracotta-OSS/ipc-eventbus)：IPC EventBus为JVM内和JVM外通信提供了一个简单的EventBus API。
-* [Craftgate Modulith Messaging](https://github.com/craftgate/craftgate-modulith-messaging)：用于管理内部模块间通信的Java库。
-* [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
-* [Eventbus](https://github.com/likavn/eventbus)：Eventbus是基于Spring Boot Starter的分布式业务消息分发总线组件(发布/订阅模式)，支持延时消息。
-* [Deezpatch](https://github.com/joel-jeremy/emissary)：Deezpatch是一个简单快速的库，用于将请求和事件分派到相应的处理程序。
-* [Minibus](https://github.com/jneat/minibus)：Java应用实例的简单事件总线。
-* [Evas](https://github.com/sellmair/evas)：Kotlin的现代高性能小型EventBus。
-* [Nepxion EventBus](https://github.com/Nepxion/EventBus)：Nepxion EventBus是一款基于Google Guava通用事件派发机制的事件总线组件。
-* [EasyEvent](https://github.com/openquartz/easy-event)：EasyEvent是一款基于Google Guava的EventBus为蓝本的分布式、可扩展、最终一致性、实时的EventBus解决方案。
-* [LambdaEvents](https://github.com/Lenni0451/LambdaEvents)：快速且模块化的Java事件库。
-* [Orbit](https://github.com/MeteorDevelopment/orbit)：极速事件系统。
-* [DietrichEvents2](https://github.com/florianreuth/DietrichEvents2)：DietrichEvents2是世界上速度最快的Java事件系统之一。
-* [Event Library](https://github.com/SmushyTaco/Event-Library)：一个轻量级、借助反射机制但由LambdaMetafactory加速的Kotlin和JVM事件总线。
-* [SSE-EventBus](https://github.com/ralscha/sse-eventbus)：EventBus库，用于使用SSE将事件从Spring应用程序发送到Web浏览器。
-* [SmartEventBus](https://github.com/JeremyLiao/SmartEventBus)：SmartEventBus是一个Android平台的消息总线框架。
-* [Bekit](https://github.com/zhongxunking/bekit)：Bekit框架致力于解决在应用开发中公共性问题，目前已完成事件总线、流程引擎、服务引擎功能模块。
-* [RxBus2](https://github.com/MFlisar/RxBus2)：RxBus2是一个响应式事件总线实现。
-* [EventBinder](https://github.com/google/gwteventbinder)：EventBinder是一个用于简化GWT中EventBus使用的辅助库，由Google开源。
-* [Kotlin Channel Event Bus](https://github.com/Kotlin-Multiplatform-Foundation/kotlin-channel-event-bus)：一个Kotlin多平台库，它使用KotlinX协程通道提供了一个简单的事件总线实现。
-* [RxBus](https://github.com/Dimezis/RxBus)：RxBus是一个使用Kotlin实现的简单Rx事件总线。
-* [RxBus](https://github.com/florent37/RxBus)：Android响应式事件总线。
-* [BusWear](https://github.com/tajchert/BusWear)：BusWear是一个简单的EventBus库，用于支持Android Wear设备。
-* [EventBus](https://github.com/acionescu/event-bus)：EventBus是一个Java事件总线框架，旨在促进事件驱动编程。
-* [RxBus](https://github.com/Anadea/RxBus)：基于RxJava并针对Android进行了优化的事件总线。
-* [EventKt](https://github.com/DevSrSouza/EventKt)：EventKt是一个简单轻量级的Kotlin多平台事件总线库。
-* [Duramen](https://github.com/SkillPanel/duramen)：适用于Java的持久化事件总线实现。
-* [Eventbus](https://github.com/xiaoxiangyeyu123/Eventbus)：EventBus实现跨进程通讯方案。
-* [Multiplatform Bus](https://github.com/florent37/Multiplatform-Bus)：Kotlin事件总线，兼容Android和iOS。
-* [FlowBus](https://github.com/Kosert/FlowBus)：FlowBus是一个Kotlin事件总线实现。
-* [SuperEventBus](https://github.com/ekuefler/gwt-supereventbus)：SuperEventBus是一个功能强大的GWT事件总线。
-* [SSBus](https://github.com/xxDark/ssbus)：超高速轻量级事件总线。
-* [Event](https://github.com/KyoriPowered/event)：事件总线系统。
-* [FlowEventBus](https://github.com/biubiuqiu0/flow-event-bus)：FlowEventBus是Android的事件总线。
-* [CEventCenter](https://github.com/FreddyChen/CEventCenter)：CEventCenter是一个Android事件发送中心库，基于对象池及接口回调实现。
-* [RxEventBus](https://github.com/wongzy/RxEventBus)：基于RxJava2的EventBus，使用Retention.CLASS注解。
-* [KBus](https://github.com/adrielcafe/KBus)：使用Kotlin和RxJava 2构建的极其简单的Android事件总线。
-* [EventBusKotlin](https://github.com/werbhelius/EventBusKotlin)：EventBusKotlin是一个简单的事件总线。
-* [EventBus](https://github.com/fengzhizi715/EventBus)：使用Kotlin Coroutine开发的EventBus。
-* [Mycila Event](https://github.com/mathieucarbou/pubsub)：Mycila Event是一个功能强大的全新内存事件管理框架。
-* [Govern EventBus](https://github.com/Ahoo-Wang/govern-eventbus)：Govern EventBus是一个事件驱动架构框架。
-* [Service Proxies](https://github.com/vert-x3/vertx-service-proxy)：Vertx事件总线代理生成器。
-* [RHub](https://github.com/apptik/RHub)：Reactive Hub是一组多接收器和多生产者代理。
-* [Kalium](https://github.com/alkal-io/kalium)：Kalium是一个框架，它使微服务之间能够更轻松地进行异步交互。
-* [Async Event](https://gitee.com/bitium/async-event)：进程内异步事件调用组件。
-* [Eventx](https://gitee.com/xuzhigang01/eventx)：Eventx是极简的Java异步事件处理组件。
-* [EventBus](https://github.com/LuckyJayce/EventBus)：事件总线，通过定义事件接口，APT方式生成事件代理分发事件给注册并实现的接口类。
-* [Electrons](https://github.com/carryxyh/Electrons)：Electrons是一个异步高性能事件总线，结合了生产者消费者模型和Pub/Sub模式。
-* [Vaadin4Spring Event Bus](https://github.com/peholmst/vaadin4spring)：Vaadin事件总线。
-* [RxBus](https://github.com/eleventigers/rxbus)：运行在类型安全的RxJava队列上的事件总线。
-* [EventBus](https://github.com/Revxrsal/EventBus)：一个速度极快、体积小巧、支持多线程且功能丰富的Java事件总线。
-* [Autobus](https://github.com/bq/autobus)：Autobus是一种增强型事件总线，旨在实现应用程序中解耦部分之间的通信。
-* [RxBus](https://github.com/ViTess/RxBus)：RxJava的简单事件总线，支持注解。
-* [MicroBus](https://github.com/konmik/MicroBus)：用于在Java应用程序中组织事件总线的最小解决方案。
-* [GimBus](https://github.com/PGSSoft/gimBUS)：GimBus是一个具有细粒度传递线程控制的Android事件总线。
-* [Energy](https://github.com/QuantumClient/Energy)：Energy是一个轻量级且快速的Java事件总线。
-* [JBus](https://github.com/dizitart/jbus)：适用于Java 1.6及更高版本的事件总线。
-* [UFO Eventbus](https://github.com/Rebirth-Project/ufo-event-bus)：UFO Eventbus是一个功能强大的异步、轻量级且可扩展的发布/订阅事件系统。
-* [EbService](https://github.com/wowselim/eventbus-service)：Vertx事件总线的类型安全扩展。
-* [Vert.x EventBus Java](https://github.com/abdlquadri/vertx-eventbus-java)：一个用Java编写的Vert.x EventBus客户端，可在Android上运行。
-* [RxBus2](https://github.com/KingJA/RxBus2)：一个基于RxJava2的简单事件总线库。
-* [RxBus](https://github.com/liuguangli/RxBus)：RxBus是一个针对Android优化的发布/订阅事件总线。
-* [FXEventBus](https://github.com/AlmasB/FXEventBus)：基于JavaFX事件分发机制的简单事件总线实现。
-* [RxBus](https://github.com/xuexiangjys/RxBus)：一个简易的Android事件通知库，使用RxJava和Javassist设计。
-* [Sig4j](https://github.com/msteinbeck/sig4j)：Sig4j是一个受Qt信号与槽机制启发、为Java开发的事件通信库。
-
-#### 消息总线
-
-* [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)：Chronicle Queue是一个适用于高性能应用程序的持久低延迟消息传递框架，由Chronicle软件公司开源。
-* [Aeron](https://github.com/aeron-io/aeron)：Aeron是一个开源高性能消息传输机制(单向)，支持高效可靠的UDP单播、UDP多播和IPC消息传输，由Adaptive公司开源。
-* [LCM](https://github.com/lcm-proj/lcm)：LCM是一组用于消息传递和数据编组的库和工具，针对高带宽和低延迟至关重要的实时系统，由MIT开源。
-* [Jakarta Messaging](https://github.com/jakartaee/messaging)：Jakarta Messaging是一个Java面向消息的中间件API，用于在两个或多个客户端之间发送消息。
-* [DeFiBus](https://github.com/WeBankFinTech/DeFiBus)：DeFiBus是基于开源消息中间件打造的安全可控的分布式金融级消息总线，由微众开源。
-* [Eventuate Tram](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
-* [ZBus](https://gitee.com/openforce/zbus)：ZBus致力于使消息队列和RPC变得快速、轻量级并且易于为许多不同的平台构建你自己的面向服务的架构，由开放金融技术开源。
-* [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
-* [Mappedbus](https://github.com/caplogic/Mappedbus)：Mappedbus是一种用于利用共享内存的Java微服务的低延迟消息总线。
-* [Smallrye Reactive Messaging](https://github.com/smallrye/smallrye-reactive-messaging)：Eclipse MicroProfile Reactive Messaging规范实现，用于构建事件驱动的微服务和数据流应用。
-* [MicroProfile Reactive Messaging](https://github.com/microprofile/microprofile-reactive-messaging)：MicroProfile提供的基于Reactive Streams的异步消息传递支持。
-* [Spring Cloud Stream](https://github.com/spring-cloud/spring-cloud-stream)：Spring Cloud Stream是一个用于构建与共享消息系统连接的高度可扩展的事件驱动微服务的框架，由Pivotal开发。
-* [CoralSequencer](https://www.coralblocks.com/index.php/category/coralsequencer/)：CoralSequencer是一款功能齐全、超低延迟、全序消息传递中间件，适用于基于异步消息的分布式系统。
-* [EBus](https://ebus.sourceforge.io/eBus)：EBus是一个Java中间件API，支持无代理、基于类型+主题的发布/订阅和请求/回复消息传递，用于应用程序内和应用程序间的对象级通信。
-* [Kaka](https://gitee.com/zkpursuit/kaka-core)：服务于后端的事件领域模型，全局事件通知框架，无任何第三方依赖。
-* [NYBus](https://github.com/amitshekhariitbhu/NYBus)：NYBus是一个面向Android和Java应用的Pub-Sub库。
-* [Mats3](https://github.com/centiservice/mats3)：Mats3是一个Java库，可促进异步、无状态、多阶段、基于消息的服务的开发。
-* [Rqueue](https://github.com/sonus21/rqueue)：Rqueue是一个为Spring框架构建的异步任务执行器，基于Redis支持的Spring框架的消息传递库。
-* [Stream](https://github.com/wendy512/stream)：Stream支持基于Spring的应用程序中的轻量级消息传递，并通过声明式适配器支持与外部系统集成。
-* [Message Trunk](https://gitee.com/1028125449/message-trunk)：Message Trunk是基于Java开发的轻量级消息总线框架。
-* [Spring Cloud Bus](https://github.com/spring-cloud/spring-cloud-bus)：Spring Cloud Bus是一种轻量级的消息代理，用于集成和传输微服务之间的消息。
-* [LiveEventBus](https://github.com/JeremyLiao/LiveEventBus)：LiveEventBus是一款Android消息总线，基于LiveData，具有生命周期感知能力，支持Sticky、AndroidX、款进程。
-* [Varadhi](https://github.com/flipkart-incubator/varadhi)：Varadhi是具有REST接口的消息总线实现，由Flipkart开源。
-* [Low Level Design](https://github.com/InterviewReady/Low-Level-Design)：常见数据结构的低级设计，包括事件总线。
-* [Flux Capacitor](https://github.com/flux-capacitor-io/flux-capacitor-client)：该仓库包含Flux Capacitor服务的官方Java客户端。
-* [Message Pipe](https://gitee.com/minbox-projects/message-pipe)：Message Pipe是一款基于Redis实现的分布式顺序消息管道框架。
-* [MessageBus](https://github.com/dorkbox/MessageBus)：MessageBus是一个极其轻量级的消息/事件总线实现。
-* [JPost](https://github.com/janishar/JPost)：Java和Android类通信库。
-* [KillBill Queue](https://github.com/killbill/killbill-commons/tree/master/queue)：KillBill Queue是一个通知队列、持久消息总线库。
-* [Banyan](https://github.com/yanghua/banyan)：Banyan用于跨多个应用程序进行通信和集成。
-* [XOOM Lattice](https://github.com/vlingo/xoom-lattice)：VLINGO XOOM Lattice提供计算网格、Actor缓存、对象空间、跨节点集群消息传递、发布/订阅、CQRS和事件溯源支持。
-* [Omnibus](https://github.com/agourlay/omnibus)：Omnibus是一个对HTTP友好的持久消息总线。
-* [Alibaba RSocket Broker](https://github.com/alibaba/alibaba-rsocket-broker)：Alibaba RSocket Broker是一款基于RSocket协议的响应式对等通讯系统，为通讯多方构建分布式的RPC、Pub/Sub、Streaming等通讯支持。
-* [ElegantBus](https://github.com/codyer/ElegantBus)：ElegantBus是一款Android平台，基于LivaData的消息总线框架。
-* [FastCast](https://github.com/RuedigerMoeller/fast-cast)：FastCast是一个高速无代理消息传递库，涵盖从简单的共享内存到大型LAN集群应用程序的Java进程间通信。
-* [Realtime Channel](https://github.com/goodow/realtime-channel)：分布式消息总线。
-* [Embedded RabbitMQ](https://github.com/AlejandroRivera/embedded-rabbitmq)：一个用于将RabbitMQ用作嵌入式服务的JVM库。
-* [PSC](https://github.com/pinterest/psc)：PSC是一个通用且可扩展的客户端库，允许应用程序通过统一的接口与不同的后端PubSub系统进行交互，由Pinterest开发。
-* [KPipe](https://github.com/eschizoid/kpipe)：KPipe是一个轻量级的Kafka处理库，适用于现代Java，它允许你使用虚拟线程和函数式API构建安全、高性能的消息管道。
-* [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。
-
-#### 应用总线
-
-* [Apache Synapse](https://github.com/apache/synapse)：Synapse是一种轻量级高性能企业服务总线，由WSO2开源。
-* [Plexus Interop](https://github.com/finos/plexus-interop)：Plexus Interop项目旨在定义桌面应用程序互操作性的开放标准，并提供该标准的参考实现，由金融科技基金会开源。
-* [Apache ServiceMix](https://github.com/apache/servicemix)：ServiceMix是一个灵活的开源集成容器，它将ActiveMQ、Camel、CXF和Karaf的特性和功能成为一个强大的运行时平台，你可以使用它来构建自己的集成解决方案。它提供了一个完全由OSGi提供支持的企业级ESB。
-* [JBoss Fuse](https://github.com/jboss-fuse/fuse)：JBoss Fuse是一个开源ESB，其功能基于Apache Camel、Apache CXF、Apache ActiveMQ、Apache Karaf和Fabric8，集成在一个发行版中。
-* [Petals ESB](https://petals.linagora.com/)：Petals ESB是一个开源企业服务总线。
-* [Azure Service Bus Java](https://github.com/Azure/azure-service-bus-java)：Azure服务总线的Java客户端库。
-* [OpenEngSB](https://github.com/openengsb/openengsb)：OpenEngSB实现并连接所有必需的概念和工具，以提供一个通用的集成环境。
-* [Forklift](https://github.com/dcshock/forklift)：Forklift是一款企业服务总线，支持快速轻松地构建和部署微服务。
-* [WSO2 ESB](https://github.com/wso2-attic/product-esb)：WSO2 Enterprise Service Bus是一款轻量级、高性能、近乎零延迟的产品，全面支持SOAP、WS和REST等多种技术。
-* [CSB SDK](https://github.com/aliyun/csb-sdk)：CSB-SDK是一个客户端调用SDK，用于调用阿里云CSB产品开放的HTTP或Web服务API。
-
-#### 消息队列客户端
+## 消息队列客户端
 
 * [RabbitMQ Java](https://github.com/rabbitmq/rabbitmq-java-client)：RabbitMQ Java客户端库。
 * [Lyra](https://github.com/jhalterman/lyra)：Lyra是一个拥抱故障的RabbitMQ客户端，可在发生意外故障时自动恢复AMQP资源，帮助你实现服务的高可用性。
@@ -4481,6 +4312,53 @@
 * [Flair BI](https://github.com/viz-centric/flair-bi)：Flair BI是一款开源、云原生且可扩展的应用程序，旨在提供商业和运营智能洞察。
 * [SpagoBI](https://github.com/SpagoBILabs/SpagoBI)：SpagoBI是一款完全开源的商业智能套件。
 * [GuanYuan BI](https://www.guandata.com/abi)：观远BI是观远数据打造的企业智能化BI解决方案。
+
+#### 报表引擎
+
+* [JimuReport](https://github.com/jeecgboot/JimuReport)：积木报表是一款免费的数据可视化报表，含报表、打印、大屏和仪表盘，由北京国炬公司开发。
+* [UReport2](https://github.com/youseries/ureport)：UReport2是一个基于Spring架构的高性能纯Java报表引擎，可以通过迭代单元格来准备复杂的中式报表和报表。
+* [AJ-Report](https://gitee.com/anji-plus/report)：AJ-Report是一个完全开源，拖拽编辑的可视化设计工具。
+* [EasyReport](https://github.com/xianrendzw/EasyReport)：EasyReport是一个简单易用的Web报表工具，它的主要功能是把SQL语句查询出的行列结构转换成HTML表格，并支持表格的跨行与跨列。
+* [SpringReport](https://gitee.com/springreport/springreport)：SpringReport是一款企业级的报表系统，支持在线设计报表，并绑定动态数据源，无需写代码即可快速生成想要的报表。
+* [VeryReport](https://www.veryreport.com/)：VeryReport是专业级企业Web报表软件，易学易用，轻松解决中国式复杂报表，这是中创微软件公司的商业产品。
+* [JasperReports](https://github.com/TIBCOSoftware/jasperreports)：JasperReports库是世界上最流行的开源报告引擎，由TIBCO软件公司开源。
+* [Eclipse BIRT](https://github.com/eclipse-birt/birt)：BIRT是商业智能报告工具，可以从许多不同的数据源(数据库、文件、Java、Javascript、Web服务等)提取和组合数据，并将这些数据用于报告和图表，由安讯公司开源。
+* [Reports.Java](https://www.stimulsoft.com/en/products/reports-java)：Stimulsoft Reports.Java是一款报表工具，旨在帮助你在Java应用程序中实现业务报表的交互和运行。
+* [Ferris Wheel](https://github.com/littleorca/ferris-wheel)：Ferris Wheel是一个很棒的电子表格框架，由携程开发。
+* [YARG](https://github.com/cuba-platform/yarg)：YARG是一个Java开源报告库，由Haulmont开发。
+* [Pentaho](https://github.com/pentaho/pentaho-reporting)：Pentaho是用于生成报告的Java类库，它使用来自多个来源的数据提供灵活的报告和打印功能，并支持输出到显示设备、打印机、PDF、Excel、XHTML、纯文本、XML和CSV文件。
+* [WasReport](https://gitee.com/felly822/wasreport)：WasReport是一款将数据导出为Excel、Doc、Txt、XML、PDF等常用格式的导出组件。
+* [DynamicJasper](https://github.com/intive-FDV/DynamicJasper)：DynamicJasper是一个隐藏JasperReports复杂性的API，它可以帮助开发人员在设计简单/中等复杂性报表时节省时间，自动生成报表元素的布局。
+* [ExtentReports](https://github.com/extent-framework/extentreports-java)：ExtentReports是一个用于自动化测试的日志记录器样式的报告库。
+* [FineReport](https://www.finereport.com/)：FineReport是一款用于报表制作，分析和展示的工具，这是帆软公司的商业产品。
+* [Logi Report](https://devnet.logianalytics.com/hc/en-us/categories/1500001227442-Logi-Report)：Logi Report被设计为作为独立服务器执行，但可以将其集成到现有WAR项目中。
+* [Report Mill](http://www.reportmill.com/product/)：ReportMill可以平滑地嵌入到每个Java应用程序中，此外，与BIRT一样它非常灵活：可以在运行时自定义报告。
+* [iReport](https://community.jaspersoft.com/project/ireport-designer)：一个开源报表设计器，对于JasperReports库和JasperReports服务器免费。
+* [R3-Query](https://gitee.com/aagagagag/R3-Query)：R3 Query整合了企业报表领域各个周期的支持，其中包括报表设计、报表发布、报表生成、报表管理、订阅发布和报表监控等报表的整个生命周期的步骤。
+* [UReport Kepp](https://gitee.com/summer-T/ureport-keep)：UReport Kepp是UReport的替代项目。
+* [Skyeye Report](https://gitee.com/doc_wei01/skyeye-report)：Skyeye Report是一款高性能的Java报表引擎，提供完善的基于网页的报表设计器，可快速做出各种复杂的中式报表。
+* [Dynamic Reports](https://github.com/dynamicreports/dynamicreports)：DynamicReports是一个基于JasperReports的开源Java报表库，它允许创建动态报表设计，并且不需要可视化报表设计器。
+* [Clear Reports](https://www.inetsoftware.de/products/clear-reports)：Clear Reports是一种灵活且功能强大的报告解决方案，可用于多种不同用途。
+* [Wang Template](https://github.com/52jing/wang-template-backend)：该系统是一个从实际生产平台提取的报表渲染模块，作为独立的报表生成系统。
+* [Report Engine](https://reportengine.sourceforge.net/)：Report Engine是一套Java代码，支持列、分组、总计/小计的报表类和数据透视表。
+* [XMReport](https://www.xmreport.com/index.html)：XMReport是一款轻便但非常灵活且可扩展的模板打印设计器和引擎，你可以轻松构建复杂布局的模板。
+* [Java Report Engine](https://response-systems.com/composer-suite/java-report-engine/)：Java Report Engine是一款运行时软件产品，能够生成和交付使用Gen和Report Composer设计的网页报告。
+* [OpenReports](https://oreports.com/)：OpenReports是一款强大、灵活且易用的开源Web报告解决方案。
+* [Big Faceless Report](https://bfo.com/products/report/)：Big Faceless Report是领先的Java报表工具，可将XML文档转换为PDF文档。
+* [JReport](https://reports.collegenet.com/servlet/sendfile/help/userguide/designer/HTML/intro/jrpt.htm)：JReport是一款功能齐全的Java报表解决方案，提供复杂的企业级报表、即席报表和数据分析功能。
+* [KeepReport](https://gitee.com/march-x/keepReport)：KeepReport是一款Web数据分析报表工具。
+* [OpenHandx Report](https://gitee.com/pengminghua/openhandx-report)：OpenHandx Report是一个轻量级的多维度Excel报表工具，核心采用了POI和OpenHandX Chart。
+* [FreeReportBuilder](https://frb.sourceforge.net/)：FreeReportBuilder是一款免费的Java报表工具，它可以帮助你快速创建简单的报表。
+* [JMagallanes](https://jmagallanes.sourceforge.net/en.html)：JMagallanes是一款基于Java/J2EE编写的面向终端用户的OLAP和动态报表应用程序。
+* [DataVision](https://datavision.sourceforge.net/)：DataVision是一款类似于Crystal Reports的开源报表工具。
+* [SQL Power Wabit](https://bestofbi.com/products/sql-power-wabit-bi-reporting/)：Wabit是一个跨平台开源的报表工具，提供了一个GUI程序和可嵌入式的接口。
+* [BaskReport](https://basksoft.com/doc/report/)：BaskReport是一款企业级报表开发软件，可以帮助用户轻松构建功能强大的报表系统。
+* [Cewolf](https://cewolf.sourceforge.net/)：Cewolf可用于基于Servlet/JSP的Web应用程序，将各种复杂的图形图表(折线图、饼图、条形图、绘图等)嵌入到网页中。
+* [Luck Report](https://gitee.com/LuckyPools/luck-report)：Luck Report是一款基于开源项目UReport2重构的Java高性能报表引擎。
+* [YunCheng Report](http://www.yunchengxc.com/reportengine)：Java的高性能报表引擎。
+* [BIOS Report](http://www.bijetsoft.com/report-features.html)：BIOS Report是新一代的纯Java的企业级报表软件。
+* [AnyChart Export](https://github.com/AnyChart/export-server)：AnyChart Export是一款可以将图表导出为PNG、JPG、PDF、SVG、CSV、Excel、JSON和XML格式的工具。
+* [NopReport](https://github.com/entropy-cloud/nop-entropy)：NopReport是Nop平台内置的报表引擎。
 
 #### 电子表格
 
