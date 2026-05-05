@@ -303,6 +303,7 @@
   * [接口加密](docs/doc2.md#接口加密)
   * [字段加密](docs/doc2.md#字段加密)
   * [字段脱敏](docs/doc2.md#字段脱敏)
+  * [匿名网络](docs/doc2.md#匿名网络)
   * [零知识证明](docs/doc2.md#零知识证明)
   * [XSS](docs/doc2.md#XSS)
   * [TLS/SSL](docs/doc2.md#TLSSSL)
@@ -312,7 +313,7 @@
   * [数据匿名化](docs/doc2.md#数据匿名化)
   * [电子签名](docs/doc2.md#电子签名)
 * [工具库](docs/doc2.md#工具库)
-* [参数校验](docs/doc2.md#参数校验)
+* [对象校验](docs/doc2.md#对象校验)
 * [Bean映射&复制](docs/doc2.md#Bean映射复制)
 * [对象比较](docs/doc2.md#对象比较)
 * [IoC](docs/doc2.md#IoC)
@@ -678,6 +679,7 @@
   * [TikTok](docs/doc2.md#TikTok)
   * [Discord](docs/doc2.md#Discord)
   * [Spotify](docs/doc2.md#Spotify)
+  * [LinkedIn](docs/doc2.md#LinkedIn)
   * [Bilibili](docs/doc2.md#Bilibili)
   * [Skype](docs/doc2.md#Skype)
   * [Trakt](docs/doc2.md#Trakt)
@@ -1284,6 +1286,7 @@
 * [Srb4j](https://github.com/chenjianjx/srb4j)：Srb4j是一个Java RESTful后端代码框架，具有通用响应数据结构、用户/密码/访问令牌支持、社交登录和API文档生成功能。
 * [Archer](https://gitee.com/ArcherGroup/archer-framework)：Archer是一个旨在构建RESTful风格Web服务的轻量级框架。
 * [Nesty](https://github.com/gugemichael/nesty)：使用Netty实现HTTP RESTful API框架。
+* [Vert.x REST](https://github.com/dream-horizon-org/vertx-rest)：Vert.x REST可编写基于JAX-RS应用程序的Vertx REST应用程序，由Dream11开源。
 
 #### MVC框架
 
@@ -1662,6 +1665,7 @@
 * [Kine](https://github.com/TechDev009/Kine)：Kine是一个简单而强大的Kotlin/Android HTTP网络库。
 * [Domino REST](https://github.com/DominoKit/domino-rest)：Domino REST是一个用于从JaxRS兼容接口生成REST客户端的库。
 * [DiLib](https://gitee.com/loongzcx/dilib)：强大的接口访问工具，可以大幅降低调用接口的工作量。
+* [Connekt](https://github.com/Amplicode/connekt)：Connekt是一个由Kotlin脚本驱动的HTTP客户端。
 
 ## Web服务器
 
@@ -3537,6 +3541,7 @@
 * [Oryx 2](https://github.com/OryxProject/oryx)：Oryx 2是基于Spark和Kafka构建的Lambda架构的实现，专门用于实时大规模机器学习，由Cloudera开源。
 * [Seldon](https://github.com/SeldonIO/seldon-server)：Seldon Server是一个机器学习平台，可帮助你的数据科学团队将模型部署到生产中。
 * [Tribuo](https://github.com/oracle/tribuo)：Tribuo是Java中的机器学习库，提供多类分类、回归、聚类、异常检测和多标签分类，Oracle开源。
+* [Darwin](https://github.com/dream-horizon-org/darwin)：Dream11的机器学习平台。
 * [ML Commons](https://github.com/opensearch-project/ml-commons)：ML Commons提供了一组常见的机器学习算法，例如K-Means或线性回归，以帮助开发人员在OpenSearch中构建ML相关功能，由AWS开源。
 * [AeroSolve](https://github.com/airbnb/aerosolve)：AeroSolve是一个人性化机器学习库，由Airbnb开源。
 * [Photon ML](https://github.com/linkedin/photon-ml)：Photon ML是一个基于Spark的机器学习库，由LinkedIn开源。
@@ -3636,6 +3641,7 @@
 * [Apache MXNet](https://mxnet.apache.org/versions/1.9.1/api/java)：Apache MXNet是一个兼顾效率和灵活性的深度学习框架，由AWS开源。
 * [TonY](https://github.com/tony-framework/TonY)：TonY是一个在Hadoop上本地运行深度学习作业的框架，由LinkedIn开源。
 * [Storch](https://github.com/bytedeco/storch)：Storch是一个基于PyTorch的Scala库，用于快速张量计算和深度学习。
+* [Pytorch Lite Multiplatform](https://github.com/voize-gmbh/pytorch-lite-multiplatform)：一个基于Kotlin的多平台封装器，用于在Android和iOS上使用PyTorch Lite库。
 * [Scala Torch](https://github.com/microsoft/scala_torch)：LibTorch的JVM/Scala封装器，由Microsoft开源。
 * [TinyAI](https://github.com/Leavesfly/TinyAI)：TinyAI是一个完全基于Java构建的全栈式AI框架，提供从底层数值计算到前沿AI应用的完整技术栈。
 * [SKaiNET](https://github.com/SKaiNET-developers/SKaiNET)：SKaiNET是一个用Kotlin编写的开源深度学习框架。
