@@ -159,7 +159,7 @@
   * [Pcap](docs/doc2.md#Pcap)
   * [SSH](docs/doc2.md#SSH)
   * [DNS](docs/doc2.md#DNS)
-  * [FTP服务器](docs/doc2.md#FTP服务器)
+  * [FTP](docs/doc2.md#FTP)
   * [SOCKS服务器](docs/doc2.md#SOCKS服务器)
   * [HTTP代理](docs/doc2.md#HTTP代理)
   * [Socks代理](docs/doc2.md#Socks代理)
@@ -507,6 +507,8 @@
   * [PDF库](docs/doc2.md#PDF库)
     * [PDF表格库](docs/doc2.md#PDF表格库)
     * [PDF比较库](docs/doc2.md#PDF比较库)
+    * [PDF布局库](docs/doc2.md#PDF布局库)
+    * [PDF签名](docs/doc2.md#PDF签名)
   * [Excel库](docs/doc2.md#Excel库)
   * [CSV库](docs/doc2.md#CSV库)
   * [Word库](docs/doc2.md#Word库)
@@ -2087,6 +2089,7 @@
 * [IP Limiter](https://github.com/DDAaTao/ip-limiter)：IP Limiter是一个基于JVM缓存的轻量级、基于注解的IP速率限制组件。
 * [Rate Limiter Spring Boot Starter](https://github.com/gengu/rate-limiter-spring-boot-starter)：QPS流量控制Starter。
 * [Kite](https://github.com/williewheeler/kite)：Kite是一个基于Spring的组件库，其中包含名为守卫的组件，用于实现各种管理应用程序/服务可用性、性能和容量的模式。
+* [Ktor Rate Limiting](https://github.com/mantono/ktor-rate-limiting)：Ktor提供的端点速率限制功能。
 
 #### 重试
 
@@ -2280,6 +2283,7 @@
 * [Substrait Java](https://github.com/substrait-io/substrait-java)：Substrait是一种描述结构化数据计算操作的格式，旨在实现不同语言和系统间的互操作性。
 * [CQL](https://github.com/CategoricalData/CQL)：CQL利用范论执行与数据相关的任务-如查询、组合、迁移和演化数据库。
 * [Wvlet](https://github.com/wvlet/wvlet)：Wvlet是一种新型的跨SQL流式查询语言，用于函数式数据建模和交互式数据探索。
+* [Dendrite](https://github.com/jwhitbeck/dendrite)：Dendrite是一个用于在单个主机上以接近交互式的速度查询大型数据集的库。
 
 #### 存储格式
 
@@ -2573,6 +2577,7 @@
 * [Smart Data Lake](https://github.com/smart-data-lake/smart-data-lake)：Smart Data Lake Builder是一个数据湖自动化框架，可轻松实现数据的加载和转换，由瑞士联邦铁路开源。
 * [S3 Tables Catalog](https://github.com/awslabs/s3-tables-catalog)：Amazon S3 Tables Catalog是一个客户端库，它将S3 Tables提供的控制平面操作与Apache Spark、Flink等引擎连接起来，并可与Iceberg Table格式配合使用。
 * [Lighthouse](https://github.com/datamindedbe/lighthouse)：Lighthouse是一个基于Apache Spark构建的数据湖库。
+* [StarLake](https://github.com/engine-plus/StarLake)：StarLake是一个数据湖框架。
 
 #### 数据Shuffle
 
@@ -2693,6 +2698,7 @@
 * [Li Apache Kafka Clients](https://github.com/linkedin/li-apache-kafka-clients)：Li Apache Kafka Clients是一个基于原生Apache Kafka客户端构建的Kafka客户端封装库，由LinkedIn开发。
 * [Kafka Fast](https://github.com/gerritjvv/kafka-fast)：适用于任何JVM语言的快速Kafka库，用Clojure实现。
 * [Vert.x Kafka Client](https://github.com/vert-x3/vertx-kafka-client)：Vert.x的响应式Kafka客户端。
+* [Krackle](https://github.com/blackberry/Krackle)：Krackle是一个低成本的Kafka客户端。
 * [NSQ-J](https://github.com/sproutsocial/nsq-j)：NSQ实时分布式消息传递平台的Java客户端。
 * [NATS Java](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
 * [Amazon SQS Java Messaging Library](https://github.com/awslabs/amazon-sqs-java-messaging-lib)：Amazon SQS Java Messaging Library包含与JMS兼容的类，用于与Amazon SQS进行通信。
@@ -2729,6 +2735,7 @@
 * [Distribute Tool](https://github.com/Motianshi/distribute-tool)：分布式工具类。
 * [Grid Ops](https://github.com/nanosai/grid-ops-java)：Grid Ops是一个开源的Java工具包，用于创建高级分布式系统。
 * [Kevoree](https://github.com/kevoree/kevoree)：Kevoree项目旨在实现分布式可重构软件开发。
+* [JPPF](https://github.com/jppf-grid/JPPF)：JPPF是一个开源网格计算解决方案。
 
 #### 分布式锁
 
@@ -2806,6 +2813,7 @@
 * [Snowcast](https://github.com/noctarius/snowcast)：Snowcast是一个基于Hazelcast的自动配置、分布式、可扩展的ID生成器。
 * [Scala ID Generator](https://github.com/softwaremill/scala-id-generator)：Twitter Snowflake算法的ID生成器。
 * [TinyServices ID](https://gitee.com/tinyservices/tinyservices-id)：TinyServices ID是一个高性能可扩展生成唯一ID的服务。
+* [Spring Boot Redis ID Generator](https://github.com/butter-fly/belling-redis-id-generator)：基于Spring Boot生成分布式下全局的ID，保证ID生成的顺序性、无重复性、高可用。
 
 #### Session集群
 
@@ -2979,6 +2987,7 @@
 * [Vertexium](https://github.com/visallo/vertexium)：Vertexium是一个用于操作图的API。
 * [FluxGraph](https://github.com/datablend/fluxgraph)：基于Datomic的时间图数据库。
 * [AbutionGraph](https://github.com/ThutmoseAI/AbutionGraph)：AbationGraph是一个用于实时数据分析的时序知识图谱数据库。
+* [Tempest](https://github.com/teapot-co/tempest)：Tempest是一个实时图数据库。
 
 #### RDF数据库
 
@@ -3252,6 +3261,7 @@
 * [Oceanus](https://github.com/wuba/Oceanus)：58同城数据库中间件，功能简单、易于上手。
 * [MyBatis Shards](https://github.com/makersoft/mybatis-shards)：MyBatis Shards专业的MyBatis数据库切分框架。
 * [Simple Sharding](https://github.com/hongyuanw/simple-sharding)：Simple Sharding是一个基于JDBC API的简单数据库分片中间件。
+* [HiveDB](https://github.com/britt/hivedb)：HiveDB是一个用于对MySQL系统进行水平分区的开源项目。
 
 #### Binlog
 
@@ -3748,6 +3758,7 @@
 * [FastDTW](https://github.com/rmaestre/FastDTW)：FastDTW是一种近似动态时间规整(DTW)算法。
 * [DBSCAN Spark](https://github.com/irvingc/dbscan-on-spark)：Apache Spark的DBSCAN聚类算法的实现。
 * [Clustering4Ever](https://github.com/Clustering4Ever/Clustering4Ever)：Clustering4Ever是一个大数据聚类库，汇集了聚类算法、无监督算法和质量指标。
+* [DBSCANSD](https://github.com/luborliu/DBSCANSD)：DBSCANSD(一种轨迹聚类算法)的Java实现。
 
 #### 最近邻搜索
 
@@ -3826,6 +3837,7 @@
 * [CRF](https://github.com/asher-stern/CRF)：条件随机场(CRF)和词性标注器的实现。
 * [JStarCraft NLP](https://github.com/HongZhaoHua/jstarcraft-nlp)：JStarCraft NLP是一个面向自然语言处理领域的轻量级引擎。
 * [JaTeCS](https://github.com/jatecs/jatecs)：JaTeCS是一个专注于自动文本分类的开源Java库。
+* [TextClassification](https://github.com/DigitalPebble/TextClassification)：这是一个用Java编写的文本分类API，最初由DigitalPebble开发。
 * [RelEx](https://github.com/opencog/relex)：RelEx是一个英语依存句法分析器。
 * [Talismane](https://github.com/joliciel-informatique/talismane)：Talismane是一个自然语言处理框架，包含句子检测器、分词器、词性标注器和依存句法分析器。
 * [NLP Utils](https://github.com/aria42/nlp-utils)：Java中的NLP工具库。
@@ -3836,6 +3848,7 @@
 * [ZAP](https://github.com/zalandoresearch/zap)：ZAP是Zalando开发的一个框架，用于在平行语料库中进行语言标注投影。
 * [PigNLPRoc](https://github.com/ogrisel/pignlproc)：Apache Pig工具，用于从公开的维基百科和DBpedia转储中构建机器学习/自然语言处理的训练语料库。
 * [VaderSentimentJava](https://github.com/apanimesh061/VaderSentimentJava)：VADER是一款基于词典和规则的情感分析工具，专门用于分析社交媒体中表达的情感。
+* [Londogard NLP Toolkit](https://github.com/londogard/londogard-nlp-toolkit)：Londogard自然语言处理工具包，使用Kotlin语言编写。
 
 #### 分词器
 
@@ -3894,6 +3907,7 @@
 * [NLPIR Analysis CN ICTCLAS](https://github.com/NLPIR-team/nlpir-analysis-cn-ictclas)：适用于Lucene/Solr 6.6.0分词器的NLPIR/ICTCLAS插件。
 * [Aot](https://github.com/demidko/aot)：Java俄语词法分词器。
 * [Lucene Arabic Analyzer](https://github.com/msarhan/lucene-arabic-analyzer)：用于阿拉伯语的Apache Lucene分词器，带有基于词根的词干提取器。
+* [UETsegmenter](https://github.com/phongnt570/UETsegmenter)：UETsegmenter是一个用于越南语分词的工具包。
 
 #### 语言库
 
@@ -3961,6 +3975,8 @@
 * [Textricator](https://github.com/measuresforjustice/textricator)：Textricator是一种从文档中提取文本并生成结构化数据的工具。
 * [Baleen](https://github.com/dstl/baleen)：Baleen是一个文本分析框架，允许从非结构化和半结构化数据中提取信息，由英国国防科学技术实验室开源。
 * [Number Words](https://github.com/accelerated-text/numberwords)：Number Words构建自然数、百分比和分数的数字表达式。
+* [EXEMPLAR](https://github.com/U-Alberta/exemplar)：EXEMPLAR是一个开放式关系抽取系统，源自阿尔伯塔大学的一个研究项目。
+* [Odinson](https://github.com/lum-ai/odinson)：Odinson可用于快速查询自然语言知识库并提取结构化关系。
 
 #### 语义解析
 
@@ -4264,6 +4280,7 @@
 * [AndroidMaryTTS](https://github.com/AndroidMaryTTS/AndroidMaryTTS)：AndroidMaryTTS是一款基于MaryTTS构建的开源Android离线文本转语音应用。
 * [Xufei Music](https://gitee.com/52itstyle/xufei_msc)：讯飞语音Java Web语音合成解决方案。
 * [TextToSpeechKt](https://github.com/Marc-JB/TextToSpeechKt)：适用于Kotlin的多平台文本转语音库。
+* [ZmeetAI TTS](https://github.com/zmeet-ai/tts-demo)：ZmeetAI语音合成Java SDK。
 
 ## 数据科学
 
@@ -4395,6 +4412,7 @@
 * [LJV](https://github.com/atp-mipt/ljv)：LJV是使用Graphviz可视化Java数据结构的工具，由莫斯科物理技术学院开源。
 * [Twig](https://github.com/gavalian/groot)：Twig是用纯Java编写的强大的数据分析和可视化工具。
 * [Plotlykt](https://github.com/SciProgCentre/plotly.kt)：Plotlykt是一个用于Plotly可视化工具的交互式Kotlin封装。
+* [DataViewer](https://github.com/jasrodis/dataviewer)：Dataviewer是一款基于Java的开源数据可视化工具。
 * [Sigbla](https://github.com/sigbla/sigbla-app)：Sigbla是一个使用Kotlin编程语言处理表中数据的框架，它支持各种数据类型、响应式编程和事件、用户输入、图表等。
 * [Lumify](https://github.com/lumifyio/lumify)：Lumify是一个开源大数据分析和可视化平台。
 * [VisNow](https://gitlab.com/visnow.org/VisNow)：VisNow是Java中的通用可视化框架，由华沙大学开发，它是一个模块化数据流驱动平台，使用户能够创建数据可视化、可视化分析、数据处理和简单模拟的方案。
@@ -4433,6 +4451,7 @@
 * [Enso](https://github.com/enso-org/enso)：Enso Analytics是一个专为数据团队设计的自助式数据准备和分析平台。
 * [DataBand](https://gitee.com/475660/databand)：DataBand是一个轻量级一站式大数据分析平台。
 * [Precog](https://github.com/precog/platform)：Precog是一款针对NoSQL数据的高级分析引擎，由SlamData开发。
+* [JPandas](https://github.com/c-bata/jpandas)：JPandas是Pandas在Java上的实现。
 * [MacroBase](https://github.com/stanford-futuredata/macrobase)：MacroBase是一种数据分析工具，它使用机器学习优先考虑大型数据集中的注意力，由斯坦福开源。
 * [Apache Hama](http://hama.apache.org/)：Hama是一个基于批量同步并行(BSP)计算模型的大数据分析框架，由韩国首尔国立大学开发。
 * [DnA](https://github.com/mercedes-benz/DnA)：DnA为分析领域的企业提供A-Z解决方案，从计划和正在进行的活动的透明度到提供实现这些活动的开源组件，由奔驰开源。
