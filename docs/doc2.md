@@ -487,6 +487,7 @@
 * [Shadowsocks Java](https://github.com/nooner2014/shadowsocks-java)：Shadowsocks Java是一个轻量级的隧道代理，可以帮助你穿过防火墙。
 * [Shadowsocks Server](https://github.com/zk-123/shadowsocks)：Java开发的Shadowsocks。
 * [Shadowsocks Vert.x](https://github.com/Bestoa/shadowsocks-vertx)：Shadowsocks Vert.x是一个轻量级的隧道代理，可以帮助你穿过防火墙。
+* [Shadowsocks Java](https://github.com/victor8886/shadowsockr-java)：Java重写的Shadowsocks。
 * [Esocks](https://github.com/fengyouchao/esocks)：Esocks是一个命令行应用程序，可以轻松创建SOCKS5服务器。
 * [MitmSocks4j](https://github.com/Akdeniz/mitmsocks4j)：一个用于拦截SOCKS代理协议的拦截器，允许用户转储任何连接的内容，即使该连接使用SSL进行保护。
 * [JSocksProxy](https://github.com/Kecon/JSocksProxy)：用Java编写的SOCKS代理。
@@ -2241,6 +2242,7 @@
 * [Mybatis Generator](https://github.com/mybatis/generator)：用于Mybatis的代码生成器。
 * [MybatisPlus Generator](https://github.com/baomidou/generator)：用于Mybatis Plus的代码生成器。
 * [Mybatis DSC Generator](https://gitee.com/flying-cattle/mybatis-dsc-generator)：完美集成Lombok，Swagger的代码生成工具。
+* [MyBatis SQLHelper](https://github.com/heykb/mybatis-sqlhelper)：MyBatis SQK注入、多租户、逻辑删除、数据权限插件。
 
 #### Hibernate库
 
@@ -3605,6 +3607,7 @@
 * [Kotlinx.Support](https://github.com/Kotlin/kotlinx.support)：提供扩展和顶级函数，以便在Kotlin 1.0中使用JDK7/JDK8功能。
 * [Util.Commons](https://github.com/qwhai/util.commons)：Java常用工具类集合。
 * [Groovy Common Extensions](https://github.com/timyates/groovy-common-extensions)：Groovy通用扩展函数库。
+* [ZCode Commons](https://github.com/zcode-zjw/zcode-commons)：快速简易开发的最佳后端服务组件库。
 
 ## 对象校验
 
@@ -3905,6 +3908,7 @@
 * [DiskCache](https://github.com/giovcorte/DiskCache)：适用于Kotlin和Android应用程序的简单易读的磁盘缓存。
 * [Kache](https://github.com/yundom/kache)：Kache是一个用Kotlin编写的轻量级缓存库。
 * [LocalCache](https://github.com/lishuo9527/LocalCache)：Java本地缓存工具类。
+* [OkCache](https://github.com/spring2go/okcache)：OkCache是一个高性能二级缓存实现, 内存LRU缓存、磁盘文件持久化缓存。
 
 #### 分布式缓存
 
@@ -6443,6 +6447,7 @@
 * [KSMT](https://github.com/UnitTestBot/ksmt)：满足各种SMT求解器的统一Kotlin/Java API。
 * [ScalaZ3](https://github.com/epfl-lara/ScalaZ3)：使用Z3 SMT求解器进行约束求解的Scala DSL。
 * [OSTRICH](https://github.com/uuverifiers/ostrich)：OSTRICH是一个基于自动机的字符串约束SMT求解器。
+* [Z3 Theorem](https://github.com/tudo-aqua/z3-turnkey)：Z3 Theorem证明器是一个广泛使用的SMT求解器。
 
 ## 命令行开发
 
@@ -6554,6 +6559,7 @@
 * [Colored Console](https://github.com/marcelmatula/colored-console)：Kotlin DSL ANSI输出彩色控制台。
 * [ANSI4J](https://github.com/techsenger/ansi4j)：Techsenger ANSI4J是一个Java库，它完全按照ISO/IEC 6429:1992标准解析ANSI转义码。
 * [AsciiTerminal](https://github.com/julianmaster/AsciiTerminal)：AsciiTerminal是一个使用LibGDX库的ASCII终端Java显示程序。
+* [Embroidery](https://github.com/wi101/embroidery)：为控制台增加艺术气息。
 
 #### 文本打印
 
@@ -7786,6 +7792,7 @@
 * [Naruku](https://github.com/shuangshuang-121/naruku)：Naruku是一个专门的Excel解析工具，可以快速的解析上百万条Excl数据和转换成CSV的格式。
 * [Excelr](https://github.com/enderim-archive/excelr)：Java中的基本实用程序，可读取XLSX、XLS和CSV文件并将Excel行转换为Java对象。
 * [Spreadsheet Builder](https://github.com/dsl-builders/spreadsheet)：Spreadsheet Builder提供了一种便捷的方式来创建MS Excel OfficeOpenXML文档(XSLX)，不仅关注内容方面，还关注轻松的样式设置。
+* [ExcelUtils](https://github.com/xyz0101/excelutils)：一个通用的Excel导入导出工具。
 
 ### CSV库
 
@@ -7950,6 +7957,7 @@
 * [XML Patch](https://github.com/dnault/xml-patch)：RFC 5261的Java实现。
 * [Xnav](https://github.com/volodya-lombrozo/xnav)：Xnav是一个旨在实现XML文档无缝导航和查询的库，其设计灵感源于XPath的简洁性和优雅性。
 * [XQS](https://github.com/fancellu/xqs)：XQS是一个Scala库，用于对XML数据源和Sedna调用XQuery。
+* [Xtract](https://github.com/lucidsoftware/xtract)：Xtract是一个用于反序列化XML的Scala库。
 
 ### HTML库
 
@@ -9682,7 +9690,7 @@ Kafka生态管理系统、运维平台。
 * [Java Swing GUI Starter](https://github.com/4ra1n/java-swing-gui-stater)：本项目是一个Java Swing GUI项目基础模板。
 * [Spring Boot Faster](https://github.com/canuran/spring-boot-faster)：Spring Boot整合常用框架组成完整可用的快速开发模板。
 * [BankOfSpring](https://github.com/SystangoTechnologies/BankOfSpring)：这是一个用于快速启动基于API和事务的Spring Java服务器开发的入门套件。
-* [Klokwrk](https://github.com/croz-ltd/klokwrk-project)：CROZ将 Klokwrk项目设想为一个展示平台和蓝图，用于在JVM上实现复杂的分布式系统。
+* [Klokwrk](https://github.com/croz-ltd/klokwrk-project)：CROZ将Klokwrk项目设想为一个展示平台和蓝图，用于在JVM上实现复杂的分布式系统。
 * [Microservice Skeleton](https://github.com/imrenagi/microservice-skeleton)：本项目是使用Spring Cloud、Spring Boot和Docker构建的微服务架构模式的简单框架代码。
 * [Spring MVC Hibernate Skeleton](https://github.com/shagstrom/spring-mvc-hibernate-skeleton)：一个用于创建带有Hibernate持久层的Spring MVC应用程序的简洁框架。
 * [SpringBoard](https://github.com/SystangoTechnologies/Springboard)：这是一个入门套件，旨在帮助开发者快速启动基于Spring的API型Java服务器的开发。
@@ -10914,6 +10922,7 @@ Kafka生态管理系统、运维平台。
 * [AEAI HR](https://gitee.com/agileai/aeaihr)：AEAI HR是数通畅联软件基于AEAI DP开发的开源Java Web系统，用来协助管理公司人力、薪酬等事务。
 * [HRM](https://github.com/fo11ow-me/hrm)：基于Spring Boot、Vue、ElementUI的人力资源管理系统。
 * [SaaS IHRM](https://github.com/Han-YLun/SaaS_IHRM)：SaaS智能人力资源管理系统。
+* [HrmsProject](https://github.com/Zeynebb/HrmsProject)：人力资源管理系统。
 
 #### AI系统
 
@@ -14090,6 +14099,7 @@ Kafka生态管理系统、运维平台。
 * [Enroscar](https://github.com/stanfy/enroscar)：一套用于简化应用程序开发的Android工具，由Stanfy开源。
 * [Kotlin Android Utils](https://github.com/costular/kotlin-android-utils)：用于更轻松、更快速Kotlin编程的Android工具。
 * [KotlinExtensions](https://github.com/Carleslc/kotlin-extensions)：增强Kotlin编程的实用扩展。
+* [Kotlin Multiplatform](https://github.com/shakurocom/kotlin_multiplatform)：适用于iOS和Android项目的通用原生Kotlin库。
 
 #### ADB
 
@@ -15170,6 +15180,7 @@ Kafka生态管理系统、运维平台。
 * [Blur](https://github.com/BlurEngine/Blur)：Minecraft 1.21.10游戏引擎，使用Java和Kotlin编写。
 * [DwarfGameEngine](https://github.com/Hyrdaboo/DwarfGameEngine)：DwarfGameEngine是一款基于Java的极简游戏引擎和软件渲染器。
 * [MarteEngine](https://github.com/Gornova/MarteEngine)：MarteEngine是一款Java视频游戏引擎，专注于提供简单、清晰的API，以实现快速游戏开发。
+* [BoardGameWork](https://github.com/tudo-aqua/bgw)：BoardGameWork是一个使用Kotlin创建2D棋盘游戏应用程序的框架。
 
 #### Minecraft
 
@@ -15733,6 +15744,7 @@ Kafka生态管理系统、运维平台。
 * [LLJVM](https://github.com/davidar/lljvm)：LLJVM提供了一组工具和库，用于在JVM上运行相对较低级别的语言(例如C)。
 * [LLFI](https://github.com/DependableSystemsLab/LLFI)：LLFI是一个基于LLVM的故障注入工具，它将故障注入到应用程序源代码的LLVM IR中，由不列颠哥伦比亚大学开源。
 * [MiniJavaLLVM](https://github.com/MiniJavaCompiler/MiniJavaLLVM)：MiniJava x86、LLVM编译器和解释器。
+* [KLLVM](https://github.com/ftomassetti/kllvm)：KLLVM是一个用于在Kotlin中使用LLVM的库。
 
 ## PC模拟器
 
@@ -17217,6 +17229,7 @@ Kafka生态管理系统、运维平台。
 
 * [BLE Indoor Positioning](https://github.com/neXenio/BLE-Indoor-Positioning)：BLE Indoor Positioning是一个Java库，能够根据从蓝牙信标接收的广播数据包估算位置。
 * [Kable](https://github.com/JuulLabs/kable)：Kable提供了一个简单的基于协程的API，用于与低功耗蓝牙设备进行交互。
+* [SimpleBLE](https://github.com/simpleble/simpleble)：SimpleBLE是适用于MacOS、iOS、Windows、Linux和Android的一体化蓝牙库。
 * [Bluetooth Manager](https://github.com/sputnikdev/bluetooth-manager)：用于管理蓝牙适配器、蓝牙设备、GATT服务和特性的库/框架。
 * [BlueCove](https://sourceforge.net/projects/bluecove/)：Bluecove是Java的跨平台蓝牙库，最初由英特尔研究院开发。
 * [LiteBle](https://github.com/litesuits/android-lite-bluetoothLE)：Android低功耗蓝牙便捷操作框架，基于回调。

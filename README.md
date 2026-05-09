@@ -3624,6 +3624,7 @@
 * [ProbCog](https://github.com/opcode81/ProbCog)：ProbCog是一个统计关系学习和推理系统，支持在关系领域进行高效的学习和推理。
 * [LiFT](https://github.com/linkedin/LiFT)：LiFT是一个Scala/Spark库，用于衡量大规模机器学习工作流程中的公平性并缓解偏差，由LinkedIn开源。
 * [TAK ML](https://github.com/raytheonbbn/tak-ml)：TAK ML是一个适用于TAK/ATAK的工具包，支持在运行环境中对机器学习模型进行打包、存储、分发和执行，由雷神公司开源。
+* [JavaML](https://github.com/AbeelLab/javaml)：Java机器学习库。
 
 #### 神经网络
 
@@ -4063,6 +4064,7 @@
 * [SpellChecker](https://github.com/bobbylight/SpellChecker)：SpellChecker是RSyntaxTextArea的一个拼写检查插件。
 * [EmailSuggester](https://github.com/fewlaps/quitnow-email-suggester)：更正电子邮件地址中的拼写错误。
 * [JSymSpell](https://github.com/rxp90/jsymspell)：JSymSpell是SymSpell的一个零依赖Java 8+移植版本。
+* [SymSpellKt](https://github.com/Wavesonics/SymSpellKt)：SymSpell算法的Kotlin多平台实现。
 
 #### WordNet
 
