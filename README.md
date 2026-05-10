@@ -109,6 +109,7 @@
     * [聚类算法](#聚类算法)
     * [最近邻搜索](#最近邻搜索)
     * [贝叶斯推理](#贝叶斯推理)
+    * [LDA](#LDA)
   * [自然语言处理](#自然语言处理)
     * [分词器](#分词器)
     * [语言库](#语言库)
@@ -378,6 +379,7 @@
   * [日期/时间解析器](docs/doc2.md#日期时间解析器)
   * [假期库](docs/doc2.md#假期库)
 * [插件框架](docs/doc2.md#插件框架)
+* [多租户](docs/doc2.md#多租户)
 * [MATLAB](docs/doc2.md#MATLAB)
 * [Jupyter](docs/doc2.md#Jupyter)
 * [机器人开发](docs/doc2.md#机器人开发)
@@ -580,6 +582,7 @@
   * [抄袭检测](docs/doc2.md#抄袭检测)
   * [代码属性图](docs/doc2.md#代码属性图)
   * [调用图](docs/doc2.md#调用图)
+  * [程序切片](docs/doc2.md#程序切片)
 * [软件工程](docs/doc2.md#软件工程)
   * [软件架构](docs/doc2.md#软件架构)
   * [软件建模](docs/doc2.md#软件建模)
@@ -691,6 +694,7 @@
   * [Shopify](docs/doc2.md#Shopify)
   * [JIRA](docs/doc2.md#JIRA)
   * [Trello](docs/doc2.md#Trello)
+  * [Strava](docs/doc2.md#Strava)
   * [Jenkins](docs/doc2.md#Jenkins)
   * [TheMovieDb](docs/doc2.md#TheMovieDb)
   * [TeamSpeak](docs/doc2.md#TeamSpeak)
@@ -959,7 +963,6 @@
   * [HyperLogLog算法](docs/doc2.md#HyperLogLog算法)
   * [Simhash算法](docs/doc2.md#Simhash算法)
   * [LSH算法](docs/doc2.md#LSH算法)
-  * [LDA算法](docs/doc2.md#LDA算法)
   * [装箱算法](docs/doc2.md#装箱算法)
   * [下采样](docs/doc2.md#下采样)
 * [互操作](docs/doc2.md#互操作)
@@ -1289,6 +1292,7 @@
 * [Archer](https://gitee.com/ArcherGroup/archer-framework)：Archer是一个旨在构建RESTful风格Web服务的轻量级框架。
 * [Nesty](https://github.com/gugemichael/nesty)：使用Netty实现HTTP RESTful API框架。
 * [Vert.x REST](https://github.com/dream-horizon-org/vertx-rest)：Vert.x REST可编写基于JAX-RS应用程序的Vertx REST应用程序，由Dream11开源。
+* [Resty](https://github.com/takezoe/resty)：超级简单的Scala REST API框架。
 
 #### MVC框架
 
@@ -1317,6 +1321,7 @@
 * [SMVC](https://gitee.com/1028125449/SMVC)：SMVC是基于Java开发的轻量级MVC框架。
 * [FastChar](https://github.com/JanesenGit/FastChar)：FastChar是以Java语言为基础的Web、ORM开源免费的MVC框架。
 * [JessMA](https://gitee.com/ldcsaa/JessMA)：功能强大的Java MVC和REST全栈框架。
+* [Thunder](https://github.com/100cm/thunder)：Thunder是一个微型MVC框架。
 
 #### JSF框架
 
@@ -1668,6 +1673,7 @@
 * [Domino REST](https://github.com/DominoKit/domino-rest)：Domino REST是一个用于从JaxRS兼容接口生成REST客户端的库。
 * [DiLib](https://gitee.com/loongzcx/dilib)：强大的接口访问工具，可以大幅降低调用接口的工作量。
 * [Connekt](https://github.com/Amplicode/connekt)：Connekt是一个由Kotlin脚本驱动的HTTP客户端。
+* [Android REST Client](https://github.com/darko1002001/android-rest-client)：一个简单的REST API客户端库。
 
 ## Web服务器
 
@@ -1810,6 +1816,7 @@
 * [QuarantineJ](https://github.com/rongjoker/quarantineJ)：QuarantineJ是一个基于Netty实现了IoC、Router的Reactor模式的Server。
 * [HttpWebserver](https://github.com/arpitbbhayani/HttpWebserver)：使用Socket编程的Java HTTP Web服务器。
 * [JHttp](https://gitee.com/xiaozhuai/JHttp)：JHttp是一个轻量的的HTTP服务器实现。
+* [FNetServer](https://github.com/570622566/FNetServer)：Android小型HTTP服务器框架。
 
 ## 微服务治理
 
@@ -2090,6 +2097,7 @@
 * [Rate Limiter Spring Boot Starter](https://github.com/gengu/rate-limiter-spring-boot-starter)：QPS流量控制Starter。
 * [Kite](https://github.com/williewheeler/kite)：Kite是一个基于Spring的组件库，其中包含名为守卫的组件，用于实现各种管理应用程序/服务可用性、性能和容量的模式。
 * [Ktor Rate Limiting](https://github.com/mantono/ktor-rate-limiting)：Ktor提供的端点速率限制功能。
+* [Amon](https://gitee.com/lyhome_admin/amon)：Amon方法级限流解决方案。
 
 #### 重试
 
@@ -3332,6 +3340,7 @@
 * [InterfAIce](https://github.com/mscheong01/interfAIce)：InterfAIce是一个开源、基于GPT的自动代理生成库，支持Kotlin、Java、Spring、Reactor和协程。
 * [PocketFlow](https://github.com/The-Pocket/PocketFlow-Java)：PocketFlow是原始Python PocketFlow框架的直接移植版本。
 * [Naftiko Framework](https://github.com/naftiko/framework)：Naftiko Framework是第一个面向规范驱动集成的开源项目。
+* [Aifei](https://github.com/jfinal/aifei)：Aifei是一个AI Coding框架。
 
 ### LLM客户端
 
@@ -3381,6 +3390,7 @@
 * [AI4j](https://github.com/LnYo-Cly/ai4j)：用于快速接入AI大模型应用的Java SDK。
 * [AI Java](https://github.com/mainpropath/AI-java)：AI Java旨在简化与各大模型API的交互。
 * [Intelligent Java](https://github.com/intelligentnode/IntelliJava)：IntelliJava是使用Java与最新语言模型和深度学习框架集成的终极工具。
+* [Google Bard](https://github.com/LarryDpk/Google-Bard)：用于Google Bard提问和接收答案的Java库。
 
 ### 推理引擎
 
@@ -3675,6 +3685,7 @@
 * [DeepDriver](https://github.com/LongJunCai/DeepDriver)：DeepDriver是一个Java深度学习框架，目前支持ANN/CNN/DNN/RNN/LSTM。
 * [JavaCNN](https://github.com/DeepCompute/cnn)：基于Java实现CNN。
 * [Avro2TF](https://github.com/linkedin/Avro2TF)：Avro2TF旨在填补用户训练数据可供深度学习训练框架使用的空白，由LinkedIn开源。
+* [JRAE](https://github.com/sancha/jrae)：JRAE是用Java重新实现的半监督递归自编码器。
 
 #### 推荐系统
 
@@ -3781,6 +3792,13 @@
 * [BartMachine](https://github.com/kapelner/bartMachine)：R-Java贝叶斯加法回归树实现，由纽约市立大学开源。
 * [Java Naive Bayes Classifier](https://github.com/ptnplanet/Java-Naive-Bayes-Classifier)：基于朴素贝叶斯方法的Java分类器。
 * [Bayes Scala](https://github.com/danielkorzekwa/bayes-scala)：Bayes Scala是一个用于贝叶斯网络和概率图模型的Scala库。
+
+#### LDA
+
+* [LDA4j](https://github.com/hankcs/LDA4j)：LDA(潜在狄利克雷分配)的Java实现。
+* [JGibbLDA](https://jgibblda.sourceforge.net/)：JGibbLDA是隐性狄利克雷分配(LDA)的Java实现，使用吉布斯抽样技术进行参数估计和推理，由越南国立大学开源。
+* [JGibbLabeledLDA](https://github.com/myleott/JGibbLabeledLDA)：这是基于流行的JGibbLDA包的Labeled LDA的Java实现。
+* [jLDADMM](https://github.com/datquocnguyen/jLDADMM)：jLDADMM是一个用于LDA和DMM主题模型的Java包。
 
 ### 自然语言处理
 
@@ -3923,6 +3941,7 @@
 * [Quick Chinese Transfer](https://github.com/liuyueyi/quick-chinese-transfer)：简体中文、繁体中文、香港繁体、台湾繁体相互转换的Java库。
 * [KanaTools Java](https://github.com/mariten/kanatools-java)：用于在Java中轻松处理日语假名文本的实用程序。
 * [KanaXS](https://github.com/shogo4405/KanaXS)：KanaXS是一个用于在半角字符和全角字符之间进行转换的库。
+* [JFoolNLTK](https://github.com/rockyzhengwu/JFoolNLTK)：FoolNLTK Java版本。
 
 #### 拼音库
 
