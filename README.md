@@ -1962,6 +1962,7 @@
 * [Gaelyk](https://github.com/gaelyk/gaelyk)：Gaelyk是一个轻量级工具包，用于在Google App Engine环境中使用Groovy开发应用程序。
 * [JRestless](https://github.com/bbilger/jrestless)：JRestless允许你使用JAX-RS创建Serverless应用程序。
 * [Kubeless](https://github.com/vmware-archive/runtimes)：Kubeless函数运行时，由VMWare开源。
+* [Hype](https://github.com/spotify/hype)：Hype允许你在分布式环境中执行任意JVM代码，其中不同的代码部分可以在独立的Docker容器中并发运行，由Spotify开源。
 
 ## API网关
 
@@ -2123,10 +2124,12 @@
 * [SmallRye Stork](https://github.com/smallrye/smallrye-stork)：SmallRye Stork是一个服务发现和客户端负载均衡框架。
 * [Neutrino](https://github.com/eBay/Neutrino)：Neutrino是基于Scala的软件负载均衡器，由eBay开发。
 * [Appactive](https://github.com/alibaba/Appactive)：Appactive是阿里开源的一款标准、通用且功能强大，致力于构建应用多活架构的开源中间件。
+* [Avi SDK](https://github.com/vmware/alb-sdk)：VMware高级负载均衡器SDK和实用程序。
 * [Simple Failover](https://github.com/PhantomThief/simple-failover-java)：Simple Failover是一个简单的Java故障转移库。
 * [Baragon](https://github.com/HubSpot/Baragon)：Baragon是一个用于自动更新负载均衡器配置的系统，由HubSpot开源。
 * [SLB](https://github.com/ctripcorp/zeus)：SLB是携程的软负载系统，主要用于提供HTTP协议的路由负载功能。
 * [Galeb](https://github.com/galeb/galeb)：Galeb是一个开源HTTP负载均衡服务。
+* [Ocelli](https://github.com/Netflix/ocelli)：Ocelli是一个基于RxJava的客户端响应式负载均衡器，由Netflix开源。
 * [Millau](https://github.com/codelev/millau)：Millau是一款免费的入口代理和负载均衡器，专为基于Docker Swarm构建的微服务架构而设计。
 * [ModCluster](https://github.com/modcluster/mod_cluster)：ModCluster是一个基于Apache httpd和纯Java Undertow的智能原生负载均衡器。
 * [Elastic Load Balancing](https://github.com/aws/elastic-load-balancing-tools)：ELB自动在Amazon EC2实例、容器或由IP地址标识的资源之间分配传入应用程序流量。
@@ -2687,6 +2690,7 @@
 * [Redis DQueue](https://github.com/hellokaton/redis-dqueue)：Redis DQueue是一个Redis、Java 8基础延迟队列库。
 * [DistMQ](https://github.com/wenweihu86/distmq)：基于Raft的分布式消息队列。
 * [Redis MQ](https://github.com/zhaohaoh/redis-mq)：Redis MQ是利用Redis实现MQ功能的中间件。
+* [Tarena Pigeon](https://github.com/tarena-tech/tarena-pigeon)：Pigeon是与非科技的开源消息中台。
 
 ## 消息队列客户端
 
@@ -3341,6 +3345,7 @@
 * [PocketFlow](https://github.com/The-Pocket/PocketFlow-Java)：PocketFlow是原始Python PocketFlow框架的直接移植版本。
 * [Naftiko Framework](https://github.com/naftiko/framework)：Naftiko Framework是第一个面向规范驱动集成的开源项目。
 * [Aifei](https://github.com/jfinal/aifei)：Aifei是一个AI Coding框架。
+* [LightRAG4J](https://github.com/taofmvp/lightrag4j)：LightRAG4J是一个Java优先的LightRAG风格检索库。
 
 ### LLM客户端
 
@@ -3450,6 +3455,7 @@
 * [Sentinel AI](https://github.com/PhonePe/sentinel-ai)：Sentinel AI是一个高级Java框架，它允许你使用各种LLM和工具构建和部署AI代理。
 * [Acorn](https://github.com/DataSQRL/Acorn)：Acorn Agent是一个简单而灵活的框架，用于在JVM上构建AI代理、聊天机器人和LLM微服务。
 * [Aigentic](https://github.com/flock-community/aigentic)：Aigentic是一个Kotlin多平台库，它提供了一个强大的DSL，用于构建AI代理并将其集成到应用程序中。
+* [Spring Agent Flow](https://github.com/datallmhub/spring-agent-flow)：基于Spring AI的多智能体编排框架。
 
 ### AI智能体
 
@@ -3480,6 +3486,7 @@
 * [ZhiWei](https://github.com/ntygod/ZhiWei)：ZhiWei是一个自托管的AI Agent系统。
 * [Tron OneAgent](https://github.com/alibaba/tron-one-agent)：Tron OneAgent是一个企业级AI Agent高代码开发框架，提供开箱即用的后端服务与前端交互能力，涵盖Agent构建的完整流程，由阿里开源。
 * [ZhikunCode](https://github.com/zhikunqingtao/zhikuncode)：Claude Code的开源替代方案。
+* [OpenManus Java](https://github.com/leochame/OpenManus-Java)：OpenManusJava是一个基于Spring Boot构建的智能代理框架，采用单代理ReAct循环架构。
 
 ### OpenClaw
 
@@ -3830,6 +3837,7 @@
 * [KoalaNLP](https://github.com/koalanlp/koalanlp)：KoalaNLP是一个Java/Kotlin/Scala库，旨在为韩语处理提供集成接口。
 * [GATE](https://github.com/GateNLP/gate-core)：GATE是一个开源软件工具包，能够解决几乎所有文本处理问题，由谢菲尔德大学开发。
 * [Tint](https://github.com/dhfbk/tint)：Tint是一个基于Java的意大利语自然语言处理流程。
+* [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml)：Stanford Parser是一种能够解析句子语法结构的程序。
 * [SemanticVectors](https://github.com/semanticvectors/semanticvectors)：SemanticVectors从自由自然语言文本创建语义WordSpace模型，由德克萨斯大学、昆士兰科技大学开源。
 * [AmbiverseNLU](https://github.com/ambiverse-nlu/ambiverse-nlu)：AmbiverseNLU是马克斯普朗克信息学研究所的自然语言理解套件。
 * [Processors](https://github.com/clulab/processors)：Processors是亚利桑那大学开源的自然语言处理器。
@@ -3868,6 +3876,8 @@
 * [PigNLPRoc](https://github.com/ogrisel/pignlproc)：Apache Pig工具，用于从公开的维基百科和DBpedia转储中构建机器学习/自然语言处理的训练语料库。
 * [VaderSentimentJava](https://github.com/apanimesh061/VaderSentimentJava)：VADER是一款基于词典和规则的情感分析工具，专门用于分析社交媒体中表达的情感。
 * [Londogard NLP Toolkit](https://github.com/londogard/londogard-nlp-toolkit)：Londogard自然语言处理工具包，使用Kotlin语言编写。
+* [DependenSee](https://github.com/awaisathar/dependensee)：DependenSee是一个用于Stanford Parser的依存在关系可视化工具。
+* [Derand](https://github.com/Netflix/derand)：Derand可用于文本分词和清理，去除随机词语，由Netflix开源。
 
 #### 分词器
 
@@ -4448,6 +4458,7 @@
 * [Seahorse](https://github.com/deepsense-ai/seahorse)：Seahorse是一个开源的可视化框架，可让你以快速、简单和交互式的方式创建Apache Spark应用程序。
 * [Big Faceless Graph](https://bfo.com/products/graph/)：Big Faceless Graph库由完整的3D引擎支持，可以从任何视角快速绘制2D或带阴影的3D饼图、折线图、面积图和柱状图。
 * [Bubble Sets](https://github.com/JosuaKrause/Bubble-Sets)：一个Java实现的Bubble Sets。
+* [Aperture Tiles](https://github.com/unchartedsoftware/aperture-tiles)：Aperture Tiles能够创建基于浏览器的交互式工具，任何分析师都可以使用这些工具来探索包含数十亿个数据点的数据集。
 
 #### 数据图表
 
