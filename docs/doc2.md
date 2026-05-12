@@ -89,6 +89,7 @@
 * [AIFO](https://github.com/netx-repo/AIFO)：AIFO是一种新型的可编程数据包调度方法，它仅使用单个队列。
 * [Oscar](https://github.com/Comcast/Oscar)：OSCAR是一个基于Java的CableLabs配置文件构建器API，适用于DOCSIS、PacketCable、DPoE和DPoG，由Comcast开源。
 * [jNVMf](https://github.com/zrlio/jNVMf)：jNVMf是一个用于远程访问NVMe存储的Java库。
+* [XGameEngine](https://github.com/cuixin/XGameEnginee)：XGameEngine是一个基于Netty进行封装的后台通讯和逻辑执行引擎。
 
 #### WebSocket
 
@@ -971,6 +972,7 @@
 * [Actor](https://github.com/edescourtis/actor)：一个极其精简的Java Actor库。
 * [Reels](https://github.com/davidmoten/reels)：用于Java的Actor框架，非阻塞、高性能。
 * [Dust](https://github.com/dust-ai-mr/dust-core)：Dust是一个适用于Java 21及更高版本的轻量级Actor框架。
+* [Alox](https://github.com/alox-ai/alox-old)：GPU加速的分布式Actor模型语言。
 * [Actors](https://github.com/offbynull/actors)：Actors项目是一个轻量级的Java Actor框架，它极大地简化了可水平扩展软件的设计和开发。
 * [Loom Actor](https://github.com/forax/loom-actor)：一个基于Loom的小型但有趣的Actor框架。
 * [PraxisCORE](https://github.com/praxis-live/praxiscore)：PraxisCORE是一个模块化的JVM运行时环境，专为网络物理编程而设计，支持实时系统的实时编码。
@@ -1379,6 +1381,7 @@
 * [Fixd](https://github.com/lantunes/fixd)：Fixd是一个用于测试Web客户端的HTTP服务器测试工具。
 * [Faker](https://github.com/dotronglong/faker)：用Java构建的Mock API服务器。
 * [Auto](https://github.com/Priytam/auto)：自动化工具，用于编写基于HTTP API、网页操作和命令行应用程序的测试，内置Mock服务器和高度可配置的报告功能。
+* [ZMock](https://github.com/zhangfei19841004/zmock)：HTTP接口的Mock平台。
 * [CDSpace](https://github.com/KevenDo/CDSpace)：CDSpace是一款HTTP接口测试工具，它可以发送HTTP请求并模拟HTTP服务器。
 * [Inspektor](https://github.com/ShreyashKore/inspektor)：Inspektor是一个受Chucker启发、基于Ktor的多平台HTTP检测库，支持请求响应重写/模拟。
 
@@ -2464,6 +2467,7 @@
 * [JOhm](https://github.com/xetorthio/johm)：JOhm是一个速度超快的Java对象哈希映射库。
 * [Scredis](https://github.com/Livestream/scredis)：Scredis是一个基于Akka IO构建的响应式、非阻塞且速度极快的Scala Redis客户端，由Livestream开源。
 * [RedisScala](https://github.com/etaty/rediscala)：RedisScala是具有非阻塞和异步I/O操作的Scala Redis客户端。
+* [Jedis Ext](https://github.com/youaremoon/jedis-ext)：扩展Jedis功能，目前实现了Redis集群在特定场景下的管道操作。
 * [Embedded Redis](https://github.com/kstyrc/embedded-redis)：用于Java集成测试的Redis嵌入式服务器。
 * [Redis Mock](https://github.com/microwww/redis-mock)：纯Java实现的Redis Server，单元测试时嵌入Redis服务。
 * [Redis Mock Java](https://github.com/wilkenstein/redis-mock-java)：这是一个用纯Java编写的、与Redis兼容的内存实现。
@@ -3648,6 +3652,7 @@
 * [Katlib](https://github.com/LukasForst/katlib)：Kotlin扩展函数和实用工具的集合。
 * [Cava](https://github.com/ConsenSysMesh/cava)：ConsenSys Java和Kotlin核心库。
 * [Thanos Common](https://github.com/TianXuan-Chain/thanos-commohanos-common)：天玄区块链中的一些通用功能抽离出来实现的一个通用模块。
+* [Tools](https://github.com/archine/tools)：Java常用工具包。
 
 ## 对象校验
 
@@ -4395,6 +4400,7 @@
 * [ByteKit](https://github.com/fengzhizi715/bytekit)：Java字节操作的工具库。
 * [Spearal](https://github.com/spearal/spearal-java)：Spearal是一种紧凑的二进制格式，用于在各种端点(例如Java EE、JavaScript/HTML、Android和iOS应用程序)之间交换任意复杂数据。
 * [Orderly](https://github.com/ndimiduk/orderly)：用于创建可排序字节数组的模式和类型系统。
+* [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct_java_runtime)：Kaitai Struct是一种声明式语言，用于描述各种二进制数据结构。
 
 #### Protocol Buffer
 
@@ -9997,6 +10003,7 @@ Kafka生态管理系统、运维平台。
 * [AJ-Framework](https://gitee.com/lightweight-components/ajaxjs)：AJ-Framework是一个基于Spring Boot的轻量级框架，旨在增强Spring Boot特性。
 * [GemFrame](https://github.com/gem-team/gem)：GemFrame是一款基于Java开发的开源的微服务架构，其具有功能强大、稳定高效、代码规范等特性。
 * [Flea Framework](https://github.com/huazie/flea-framework)：Flea Framework是一款小巧易用的Java应用基础开发框架。
+* [Ffast](https://github.com/ZhiYiDai/Ffast-Java)：Ffast是基于Soring boot 2、Mybatis Plus前后端分离快速开发解决方案。
 
 #### 后台管理系统
 
@@ -10261,6 +10268,7 @@ Kafka生态管理系统、运维平台。
 * [Mango](https://gitee.com/liuge1988/mango-platform)：Mango是基于Spring Boot、Spring Cloud、Vue.js、Element UI等主流前后端技术，采用前后端分离架构实现的权限管理系统。
 * [Jlight](https://gitee.com/L_goq/Jlight)：Jlight是一款基础权限管理系统。
 * [Belling Admin](https://github.com/butter-fly/belling-admin)：Belling Admin是一款构建在用户、角色、权限、日志、在线用户、用户下线、系统设置、日志管理之基础上等开源权限管理系统。
+* [Shiro Auth](https://github.com/FENGZHIJIE1998/shiro-auth)：使用Spring Boot、JPA、Swagger、Shiro快速搭建前后端分离的权限管理系统。
 
 #### 即时通讯系统
 
@@ -10868,6 +10876,8 @@ Kafka生态管理系统、运维平台。
 * [SkyDocs](https://github.com/Skyost/SkyDocs)：SkyDocs是一个轻量级的静态文档构建器，支持Markdown格式。
 * [Blogging Platform](https://github.com/skarware/spring-boot-blog-app)：使用Java 8、Spring Boot 2.2.6、Spring Web、Spring Data JPA、Spring Security、H2、Lombok、Thymeleaf和Maven构建的博客平台。
 * [Spring Boot Blog App](https://github.com/gtiwari333/spring-boot-blog-app)：这是一个简单的微博应用，你可以在其中发布带有附件的笔记/博客。
+* [SpringBlog](https://github.com/shuaigege1766/BlogV2.0)：前后端分离博客，基于Spring Boot、Vue、Mybatis Plus、Spring Security。
+* [Blog](https://github.com/jxnu-liguobin/blog)：基于Spring Boot、Thymeleaf、Mybatis、LayUI、Lucene的个人博客。
 
 #### 论坛系统
 
@@ -10924,6 +10934,7 @@ Kafka生态管理系统、运维平台。
 * [Beetle](https://github.com/songjilong/community)：Beetle是一个开源的问答社区。
 * [SimpleBBS](https://github.com/MQPearth/SimpleBBS)：Spring Boot构建的简易在线论坛。
 * [NewCoder](https://github.com/Ming-XMU/nowcoder-community)：基于Spring Boot的社区平台，实现了牛客网讨论区的功能。
+* [MyCommunity](https://github.com/UHungLin/MyCommunity)：MyCommunity是一个模仿知乎的简单问答网站，基于Spring Boot、MyBatis实现。
 
 #### 图书系统
 
@@ -11081,6 +11092,7 @@ Kafka生态管理系统、运维平台。
 * [唛盟OA](https://gitee.com/maimengcloud/oa-backend)：唛盟以协同办公为核心，涵盖资产管理、会议管理、绩效管理、人力资源管理、办公用品管理、合同管理、档案管理等日常办公常用功能的企业级协同办公整体解决方案。
 * [OASys](https://github.com/Furinai/OASys)：基于Spring Cloud和Vue 3的OA系统。
 * [Trackr](https://github.com/techdev-solutions/trackr-backend)：Trackr是一款可以追踪公司几乎所有事务的应用程序，它可以记录假期、病假、发票等等。
+* [MiniOA](https://github.com/minioa/MiniOA)：致力于中小企业协同办公，开源OA。
 
 #### DMS系统
 
@@ -14251,6 +14263,7 @@ Kafka生态管理系统、运维平台。
 * [Kotlin Multiplatform](https://github.com/shakurocom/kotlin_multiplatform)：适用于iOS和Android项目的通用原生Kotlin库。
 * [Ceres](https://github.com/teogor/ceres)：Ceres是一个全面的Android开发框架，旨在简化你的应用开发流程。
 * [Android Commons](https://github.com/delight-im/Android-Commons)：Android的可重用组件和实用程序。
+* [Android UtilCode](https://github.com/anhnnt1/Android-UtilCode)：Android工具代码库。
 
 #### ADB
 
@@ -15182,6 +15195,7 @@ Kafka生态管理系统、运维平台。
 
 #### Git客户端
 
+* [Rebased](https://github.com/DetachHead/rebased)：基于IntelliJ平台的Git客户端。
 * [SmartGit](https://www.syntevo.com/smartgit/)：SmartGit是一个Git GUI客户端，支持GitHub、BitBucket、GitLab拉取请求和评论。
 * [Gitnuro](https://github.com/JetpackDuba/Gitnuro)：适合新手和专业人士的FOSS Git多平台客户端。
 * [MeGit](https://github.com/eclipsesource/megit)：基于EGit的独立Git GUI。
@@ -15984,6 +15998,7 @@ Kafka生态管理系统、运维平台。
 * [KSP](https://github.com/google/ksp)：KSP是一个API，可用于开发轻量级编译器插件，由Google开源。
 * [Deptitive](https://github.com/moditect/deptective)：Deptitive是javac的一个插件，它根据允许的依赖的描述来验证项目包之间的依赖关系，并在检测到任何无意的依赖关系时使编译失败。
 * [Turbine](https://github.com/google/turbine)：Turbine是Java的标头编译器，Google开发。
+* [Zircon](https://github.com/122006/Zircon)：Zircon可以让你在Java语言代码中直接使用一些特殊的语法。
 
 ## 语言服务器
 
@@ -16144,6 +16159,7 @@ Kafka生态管理系统、运维平台。
 * [jVSTwRapper](https://jvstwrapper.sourceforge.net/)：jVSTwRapper是一个简单可靠的Java音频插件封装工具。
 * [MP3SPI](https://github.com/umjammer/mp3spi)：MP3 Java音频SPI。
 * [KtMIDI](https://github.com/atsushieno/ktmidi)：KtMIDI是一个Kotlin多平台库，用于MIDI访问API和MIDI数据处理，支持MIDI 1.0和MIDI 2.0。
+* [CoreMidi4J](https://github.com/DerekCook/CoreMidi4J)：适用于OS X系统、Java 1.7及更高版本的核心MIDI服务提供程序接口。
 * [Jopus](https://github.com/kinsleykajiva/jopus)：Jopus使用Project Panama为Opus交互式音频编解码器提供高性能的Java绑定。
 * [Opus JNI](https://github.com/LabyMod/opus-jni)：Opus JNI是一个非常简单易用的Opus编解码器JNI封装库。
 * [JMBE](https://github.com/DSheirer/jmbe)：Java AMBE/IMBE音频解码器。
@@ -16481,6 +16497,7 @@ Kafka生态管理系统、运维平台。
 * [Nalloc](https://github.com/alaisi/nalloc)：Nalloc包含用于从本地堆和内存映射文件分配Java对象的工厂。
 * [Java Direct](https://github.com/peter-lawrey/Java-Direct)：Java堆外支持JEP，可替换Unsafe和其他sun.*方法的部分内容。
 * [Mem Ops Java](https://github.com/nanosai/mem-ops-java)：Mem Ops Java是一个Java内存管理器/分配器，适用于需要稳定内存消耗的系统。
+* [TypedMemory](https://github.com/mamba-studio/TypedMemory)：TypedMemory是一个Java库，用于通过强类型视图操作连续的堆外内存。
 
 ## Unsafe
 
@@ -16873,6 +16890,7 @@ Kafka生态管理系统、运维平台。
 * [JavaCPP OpenCL](https://github.com/bytedeco/javacpp-presets/tree/master/opencl)：OpenCL用于跨CPU、GPU、DSP和FPGA等异构系统进行并行计算编程。
 * [ArrayFire Java](https://github.com/arrayfire/arrayfire-java)：ArrayFire的Java包装器。
 * [JOCL](https://github.com/gpu/JOCL)：OpenCL的Java绑定。
+* [GPUEnabler](https://github.com/IBMSparkGPU/GPUEnabler)：Spark的GPU使能器，由IBM开源。
 * [grCUDA](https://github.com/NVIDIA/grcuda)：GraalVM的多语言CUDA集成，由英伟达开源。
 * [Beehive LevelZero JNI](https://github.com/beehive-lab/levelzero-jni)：该项目是针对Intel LevelZero的JNI绑定，由曼彻斯特大学开源。
 * [WGPU4K](https://github.com/wgpu4k/wgpu4k)：Kotlin多平台WebGPU绑定。
@@ -16996,7 +17014,7 @@ Kafka生态管理系统、运维平台。
 * [OpenStreetMap H3](https://github.com/igor-suhorukov/openstreetmap_h3)：OSM星球转储高性能数据加载器。
 * [OSM4Scala](https://github.com/simplexspatial/osm4scala)：用于OpenStreetMap Pbf文件的高性能Scala库和Spark Polyglot(Scala、Python、SQL等)连接器。
 * [ParallelPBF](https://github.com/woltapp/parallelpbf)：用Java编写的OSM PBF格式多线程读写器。
-* [Ohsome API](https://github.com/GIScience/ohsome-api)：Ohsome API是一个通用的Web API，用于对OpenStreetMap数据进行深度分析，尤其侧重于其历史数据。
+* [Ohsome API](https://github.com/GIScience/ohsome-api)：Ohsome API是一个通用的Web API，用于对OpenStreetMap数据进行深度分析，尤其侧重于其历史数据，由海德堡大学开源。
 * [OSM4j](https://github.com/topobyte/osm4j)：用于处理OpenStreetMap数据和API的库和工具。
 * [OSM Common](https://github.com/karlwettin/osm-common)：用于访问OpenStreetMap服务、解析和处理数据的库。
 * [OSMembrane](https://github.com/openstreetmap/osmembrane)：OSMembrane是Osmosis数据处理工具的前端。
@@ -17406,7 +17424,7 @@ Kafka生态管理系统、运维平台。
 * [Bluez DBus](https://github.com/hypfvieh/bluez-dbus)：使用DBus和Bluez的Linux操作系统蓝牙库。
 * [NV Bluetooth](https://github.com/TakahikoKawasaki/nv-bluetooth)：蓝牙工具库，主要用于安卓。
 * [BLESSED Bluez](https://github.com/weliem/blessed-bluez)：BLESSED Bluez是一个适用于Bluez 5.50及更高版本的蓝牙低功耗库，它简化了Bluez与BLE的交互。
-* [TinyB](https://github.com/intel-iot-devkit/tinyb)：本项目旨在创建简洁、现代且易于使用的蓝牙低功耗API。
+* [TinyB](https://github.com/intel-iot-devkit/tinyb)：本项目旨在创建简洁、现代且易于使用的蓝牙低功耗API，由Intel开源。
 * [Bluetooth GATT Parser](https://github.com/sputnikdev/bluetooth-gatt-parser)：一个简单的库/框架，用于处理蓝牙智能(BLE) GATT服务和特性。
 
 ## IPP

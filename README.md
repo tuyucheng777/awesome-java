@@ -1479,6 +1479,7 @@
 * [ZNS](https://github.com/Taiyi1122/zns)：ZNS是分布式RPC的一种实现。
 * [PJRmi](https://github.com/deshaw/pjrmi)：PJRmi是一个API，用于从Python进程向Java进程执行远程方法调用。
 * [Pushy](https://github.com/pushyrpc/pushy)：Pushy是一个适用于Python和Java的RPC包。
+* [Hetty](https://github.com/xishuixixia/Hetty)：Hetty是一款构建于Netty和Hessian基础上的高性能RPC框架。
 
 ### 微服务框架
 
@@ -3274,6 +3275,7 @@
 * [MyBatis Shards](https://github.com/makersoft/mybatis-shards)：MyBatis Shards专业的MyBatis数据库切分框架。
 * [Simple Sharding](https://github.com/hongyuanw/simple-sharding)：Simple Sharding是一个基于JDBC API的简单数据库分片中间件。
 * [HiveDB](https://github.com/britt/hivedb)：HiveDB是一个用于对MySQL系统进行水平分区的开源项目。
+* [Shardino](https://github.com/pyloque/shardino)：一种简单易懂的分库分表方案。
 
 #### Binlog
 
@@ -3657,6 +3659,7 @@
 * [NeuralNetwork](https://github.com/amten/NeuralNetwork)：用Java实现的神经网络，带有Weka插件。
 * [JCudnn](https://github.com/jcuda/jcudnn)：cuDNN的Java绑定。
 * [FastDNN](https://github.com/ahmetaa/fast-dnn)：FastDNN是一个专为语音识别系统中使用的深度神经网络(DNN)而设计的快速深度神经网络库。
+* [JNN](https://github.com/wlin12/JNN)：Java神经网络工具包。
 
 #### 深度学习
 
@@ -3693,6 +3696,7 @@
 * [JavaCNN](https://github.com/DeepCompute/cnn)：基于Java实现CNN。
 * [Avro2TF](https://github.com/linkedin/Avro2TF)：Avro2TF旨在填补用户训练数据可供深度学习训练框架使用的空白，由LinkedIn开源。
 * [JRAE](https://github.com/sancha/jrae)：JRAE是用Java重新实现的半监督递归自编码器。
+* [Lamp](https://github.com/pityka/lamp)：Lamp是一个用于深度学习和科学计算的Scala库。
 
 #### 推荐系统
 
