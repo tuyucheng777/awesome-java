@@ -79,11 +79,6 @@
   * [Datalog数据库](#Datalog数据库)
   * [OLTP数据库](#OLTP数据库)
   * [其他数据库](#其他数据库)
-* [数据库中间件](#数据库中间件)
-  * [数据同步](#数据同步)
-  * [分库分表](#分库分表)
-  * [Binlog](#Binlog)
-  * [灾难备份](#灾难备份)
 * [人工智能](#人工智能)
   * [LLM框架](#LLM框架)
   * [LLM客户端](#LLM客户端)
@@ -280,6 +275,11 @@
   * [Milvus库/工具](docs/doc2.md#Milvus库工具)
   * [Influx库/工具](docs/doc2.md#Influx库工具)
   * [Vault库/工具](docs/doc2.md#Vault库工具)
+* [数据库中间件](docs/doc2.md#数据库中间件)
+  * [数据同步](docs/doc2.md#数据同步)
+  * [分库分表](docs/doc2.md#分库分表)
+  * [Binlog](docs/doc2.md#Binlog)
+  * [灾难备份](docs/doc2.md#灾难备份)
 * [安全](docs/doc2.md#安全)
   * [安全框架](docs/doc2.md#安全框架)
   * [JWT库](docs/doc2.md#JWT库)
@@ -3238,89 +3238,6 @@
 * [CubeDB](https://github.com/cubedb/cubedb)：CubeDB是一个简单、快速的内存多键计数器存储。
 * [Actionbase](https://github.com/kakao/actionbase)：Actionbase是一个用于提供用户交互的数据库，由Kakao开源。
 * [CATA](https://github.com/cata-network/cata_database)：CATA为元宇宙数据存储提供了一站式完整解决方案。
-
-## 数据库中间件
-
-这里列出数据库相关的中间件。
-
-#### 数据同步
-
-* [ChunJun](https://github.com/DTStack/chunjun)：ChunJun是基于Flink的批流统一打造的数据同步工具，可以实现各种异构数据源之间的数据同步和计算，由袋鼠云开源。
-* [DataX](https://github.com/alibaba/DataX)：DataX是阿里云DataWorks数据集成的开源版本，在阿里内被广泛使用的离线数据同步工具/平台。
-* [DataX Web](https://github.com/WeiYe-Jing/datax-web)：DataX Web是在DataX之上开发的分布式数据同步工具，提供简单易用的操作界面。
-* [Porter](https://gitee.com/sxfad/porter)：Porter是一款数据同步中间件，主要用于解决同构/异构数据库之间的表级别数据同步问题，由随行付开源。
-* [Tunnel](https://github.com/hellobike/tunnel)：Tunnel是一个将PostgreSQL的实时数据同步到ES或Kafka的服务，哈啰单车开源。
-* [DBSyncer](https://gitee.com/ghi/dbsyncer)：DBSyncer是一款开源的数据同步中间件，提供MySQL、Oracle、SqlServer、PostgreSQL、ES、Kafka、File、SQL等同步场景。
-* [Otter](https://github.com/alibaba/otter)：Otter是阿里开源的一个分布式数据库同步系统，尤其是在跨机房数据库同步方面有很强大的功能。
-* [Puma](https://github.com/dianping/puma)：Puma可以获取数据库的变更并通过消息方式发布，并且可以实现数据库同步，由大众点评开源。
-* [DRC](https://github.com/ctripcorp/drc)：DRC是携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件。
-* [Morf](https://github.com/alfasoftware/morf)：Morf是一个用于跨平台演化关系型数据库机制、数据库访问和数据库成像/克隆的库，由Alfa开源。
-* [ReplicaDB](https://github.com/osalvador/ReplicaDB)：ReplicaDB是用于数据库复制的开源工具，旨在在关系型数据库和NoSQL数据库之间高效传输批量数据。
-* [Yugong](https://github.com/alibaba/yugong)：Yugong是阿里开源的去Oracle数据迁移同步工具。
-* [Tapdata](https://github.com/tapdata/tapdata)：Tapdata是一个实时数据集成平台，可以实现数据库、SaaS服务、应用程序、文件等各种系统之间的数据实时同步，由钛铂数据开源。
-* [CloudCanal](https://www.clougence.com/)：CloudCanal是ClouGence公司推出的一款全自研、可视化、自动化数据迁移同步工具。
-* [SymmetricDS](https://github.com/JumpMind/symmetric-ds)：SymmetricDS是数据库复制和文件同步软件，它独立于平台、支持Web且与数据库无关，由JumpMind开源。
-* [DataLink](https://github.com/ucarGroup/DataLink)：DataLink是一个满足各种异构数据源之间的实时增量同步、离线全量同步，分布式、可扩展的数据交换平台，由神州优车开源。
-* [DBSwitch](https://gitee.com/dromara/dbswitch)：DBSwitch工具提供源端数据库向目的端数据库的批量迁移同步功能，支持数据的全量和增量方式同步，由dromara社区开源。
-* [Mongeez](https://github.com/mongeez/mongeez)：Mongeez允许你管理Mongo文档的更改，并在执行部署时与代码更改同步传播这些更改。
-* [DataLoader](https://github.com/forcedotcom/dataloader)：DataLoader是一个客户端应用程序，用于批量导入或导出数据，由Salesforce开源。
-* [Redis Replicator](https://github.com/leonchen83/redis-replicator)：Redis Replicator是一个Redis复制工具，支持同步、psync、psync2，可以解析RDB、AOF、混合RDB和AOF文件。
-* [RedisSyncer](https://github.com/TraceNature/redissyncer-server)：RedisSyncer是一个Redis多任务同步工具集，应用于Redis单实例及集群同步。
-* [MyDataHarbor](https://gitee.com/mydataharbor/mydataharbor)：MyDataHarbor是一个致力于解决异构数据源之间的分布式、高扩展性、高性能、事务级的数据同步中间件。
-* [Canal MySQL NoSQL Sync](https://github.com/liukelin/canal_mysql_nosql_sync)：基于Canal的MySQL、RabbitMQ、Redis/Memcached/MongoDB同步工具。
-* [AMPLI SYNC](https://github.com/sqlite-sync/SQLite-sync.com)：AMPLI-SYNC是一个用于在Sqlite和MS SQL/MySQL/Oracle/PostgreSQL数据库之间同步数据的框架。
-* [DatalinkX](https://gitee.com/atuptown/datalinkx)：基于Flink的异构数据源同步。
-* [ReAir](https://github.com/airbnb/reair)：ReAir是一套易于使用的工具，用于在Hive数据仓库之间复制表和分区，由Airbnb开源。
-* [Bireme](https://github.com/HashDataInc/bireme)：Bireme是Greenplum/HashData数据仓库的增量同步工具，目前支持MySQL、PostgreSQL和MongoDB数据源。
-* [LinkUp](https://gitee.com/wei_fu_wan/link-up)：LinkUp是一款开箱即用的数据同步工具，深度集成Apache SeaTunnel，提供从自动建表、任务调度到日志监控的全链路能力，界面直观，非技术人员也能轻松上手。
-* [AMPLI SYNC](https://github.com/AMPLIFIER-sp-z-o-o/ampli-sync)：AMPLI SYNC是一个开源同步框架，旨在实现本地SQLite数据库(边缘/客户端)与集中式关系型数据库(PostgreSQL、MSSQL、MySQL、Oracle)之间的双向数据复制。
-* [Consilens](https://github.com/datavane/consilens)：Consilens用于验证数据同步、迁移、ETL、回填后的结果是否一致，并输出行级、列级差异，由Datavane大数据组织开源。
-* [DBTransfer](https://github.com/evolute-pt/dbtransfer)：DBTransfer是一个多平台Java工具，旨在通过一对一转换将一个数据库复制到另一个数据库。
-
-#### 分库分表
-
-* [Apache ShardingSphere](https://github.com/apache/shardingsphere)：ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
-* [Cobar](https://github.com/alibaba/cobar)：Cobar是分库分表的代理，兼容MySQL协议和MySQL SQL语法，底层存储仅支持MySQL，支持前台业务更简单、稳定、高效、安全，由阿里开源。
-* [TSharding](https://github.com/baihui212/tsharding)：TSharding是蘑菇街交易平台使用的简单分片组件。
-* [DBLE](https://github.com/actiontech/dble)：DBLE是由爱可生开发的一种高扩展性的MySQL分片中间件。
-* [TDDL](https://github.com/alibaba/tb_tddl)：TDDL是一个分布式数据库中间件，主要是为了解决分布式数据库产生的相关问题，由阿里开源。
-* [Gizzard](https://github.com/twitter-archive/gizzard)：Gizzard是用于创建最终一致的分布式数据存储的灵活分片框架，由Twitter开源。
-* [Mycat2](https://github.com/MyCATApache/Mycat2)：Mycat2是Mycat社区开发的一款分布式关系型数据库中间件。
-* [Heisenberg](https://github.com/brucexx/heisenberg)：Heisenberg是百度开源的一款基于MySQL协议之上的分库分表中间件，支持各种灵活的分库分表规则。
-* [Zdal](https://github.com/xie-summer/zdal)：Zdal是支付宝自主研发的数据中间件产品，采用标准的JDBC规范。
-* [Shark](https://github.com/gaoxianglong/shark)：Shark是一个分布式MySQL分库分表中间件。
-* [Zebra](https://github.com/Meituan-Dianping/Zebra)：Zebra是一个基于JDBC API协议上开发出的高可用、高性能的数据库访问层解决方案，是美团点评内部使用的数据库访问层中间件。
-* [Baymax](https://github.com/tongbanjie/baymax)：Baymax是铜板街开发的轻量级分库分表框架，支持多库多表。
-* [Sharding Method](https://github.com/QNJR-GROUP/sharding-method)：Sharding Method是服务层Sharding框架，全SQL、全数据库兼容，由齐牛金融开源。
-* [Compass](https://github.com/sogou-biztech/compass)：Compass是搜狗商业平台研发部开发的一套轻量级分布式数据库访问框架。
-* [Oceanus](https://github.com/wuba/Oceanus)：58同城数据库中间件，功能简单、易于上手。
-* [MyBatis Shards](https://github.com/makersoft/mybatis-shards)：MyBatis Shards专业的MyBatis数据库切分框架。
-* [Simple Sharding](https://github.com/hongyuanw/simple-sharding)：Simple Sharding是一个基于JDBC API的简单数据库分片中间件。
-* [HiveDB](https://github.com/britt/hivedb)：HiveDB是一个用于对MySQL系统进行水平分区的开源项目。
-* [Shardino](https://github.com/pyloque/shardino)：一种简单易懂的分库分表方案。
-
-#### Binlog
-
-* [Canal](https://github.com/alibaba/canal)：Canal是阿里开发的基于数据库增量日志解析，提供增量数据订阅&消费的中间件。
-* [KKBinLog](https://gitee.com/kekingcn/kkbinlog)：KKBinLog旨在简化监听MySQL、MongoDB数据库的不同表的各种数据变动，由凯京科技开源。
-* [Binlog4j](https://gitee.com/dromara/binlog4j)：Binlog4j是基于Java的轻量级MySQL Binlog客户端，由dromara社区开源。
-* [MySQL BinLog Connector](https://github.com/shyiko/mysql-binlog-connector-java)：MySQL BinLog Connector是一个用Java编写的高性能MySQL Binlog解析器。
-* [Open Replicator](https://github.com/whitesock/open-replicator)：Open Replicator是一个用Java编写的高性能MySQL Binlog解析器。
-* [CDC](https://github.com/rong360/cdc)：CDC是一个MySQL Binlog解析器，它将Binlog事件转换为JSON格式的数据，并写入到RabbitMQ或其他MQ(例如Kafka)中，由融360开源。
-* [Canal2SQL](https://github.com/zhuchao941/canal2sql)：用Java写的MySQL Binlog解析工具，底层依赖Canal。
-* [BinlogPortal](https://github.com/dothetrick/binlogportal)：BinlogPortal是一个轻量级的MySQL Binlog同步工具。
-* [Spark Binlog](https://github.com/allwefantasy/spark-binlog)：Spark Binlog是一个用于使用Apache Spark结构流查询Binlog的库，支持Spark SQL、DataFrames和MLSQL。
-* [BinLake](https://github.com/jd-tiger/binlake)：BinLake是一个集群化的数据库BinLog管理、采集和分发系统，并且透明集成JMQ和Kafka等消息分发和订阅系统，由京东开源。
-
-#### 灾难备份
-
-* [Dataflow Templates](https://github.com/GoogleCloudPlatform/DataflowTemplates)：Dataflow Templates旨在解决简单但大型的云内数据任务，包括数据导入/导出/备份/恢复和批量API操作，而无需开发环境，由Google开源。
-* [Exhibitor](https://github.com/soabase/exhibitor)：ZooKeeper协同处理实例，例如监控、备份/恢复、清理和可视化，由Netflix开源。
-* [Priam](https://github.com/Netflix/Priam)：Priam是一个与Cassandra一起运行的流程/工具，由Netflix开源。
-* [Ptubes](https://github.com/meituan/ptubes)：Ptubes是一款基于PITR的数据库灾难恢复产品，可以用来将整个数据库恢复到特定时间点，美团开源。
-* [Raigad](https://github.com/Netflix/Raigad)：Raigad是一个用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程，由Netflix开源。
-* [InnoDB Java Reader](https://github.com/alibaba/innodb-java-reader)：InnoDB Java Reader是一个直接访问MySQL InnoDB存储引擎文件的Java实现，由阿里开源。
-* [FQLite](https://github.com/pawlaszczyk/fqlite)：FQLite是一款用于查找和恢复SQLite数据库中已删除记录的工具。
 
 ## 人工智能
 
