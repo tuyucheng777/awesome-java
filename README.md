@@ -747,6 +747,7 @@
   * [MQTT服务器](docs/doc2.md#MQTT服务器)
   * [MQTT客户端](docs/doc2.md#MQTT客户端)
   * [充电桩](docs/doc2.md#充电桩)
+  * [工业](docs/doc2.md#工业)
   * [电力系统](docs/doc2.md#电力系统)
   * [环境监测](docs/doc2.md#环境监测)
   * [车联网](docs/doc2.md#车联网)
@@ -1683,6 +1684,7 @@
 * [AsyncHttpClient](https://github.com/scruffyfox/AsyncHttpClient)：X-Library中提取的全新改进版本AsyncHttpClient。
 * [RESTDroid](https://github.com/PCreations/RESTDroid)：RESTDroid提供了一种处理REST调用REST Web服务的方法。
 * [Dialogue](https://github.com/palantir/dialogue)：Dialogue是一个用于基于HTTP的RPC的客户端库，旨在与Conjure定义的API良好配合，由Palantir开源。
+* [HTTP Request](https://github.com/jsunsoftware/http-request)：一个功能强大、流式的Java封装器，构建于Apache HTTP Client 5之上，简化了REST API调用。
 
 ## Web服务器
 
@@ -1826,6 +1828,7 @@
 * [HttpWebserver](https://github.com/arpitbbhayani/HttpWebserver)：使用Socket编程的Java HTTP Web服务器。
 * [JHttp](https://gitee.com/xiaozhuai/JHttp)：JHttp是一个轻量的的HTTP服务器实现。
 * [FNetServer](https://github.com/570622566/FNetServer)：Android小型HTTP服务器框架。
+* [jFastCGI](https://github.com/jFastCGI/jfastcgi)：jFastCGI是用Java语言实现的FastCGI协议。
 
 ## 微服务治理
 
@@ -2127,6 +2130,7 @@
 * [Smart Retry](https://github.com/Gxiaoqiang/smart-retry)：Smart Retry是一个方法重试组件。
 * [NopRetry](https://github.com/entropy-cloud/nop-entropy)：NopRetry是Nop平台内置的重试框架。
 * [ReRetrying](https://github.com/rhuffman/re-retrying)：ReRetrying是一个Java库，允许为任意函数调用创建可配置的重试策略。
+* [Kotlin Backoff](https://github.com/reugn/kotlin-backoff)：一个用于Kotlin的指数退避库。
 
 #### 负载均衡
 
@@ -2278,6 +2282,7 @@
 * [DataQuality](https://github.com/agile-lab-dev/DataQuality)：DQ是一个构建大数据环境中并行和分布式质量检查的框架。
 * [DQOps](https://github.com/dqops/dqo)：DQOps是一款DataOps友好的数据质量监控工具，具有可定制的数据质量检查和数据质量仪表板。
 * [FTA](https://github.com/tsegall/fta)：元数据/数据识别Java库。
+* [OpenDataWorks](https://github.com/opendata-lab/opendataworks)：OpenDataWorks是一个面向大数据平台的统一数据门户系统。
 
 #### 查询引擎
 
@@ -2309,6 +2314,8 @@
 * [CQL](https://github.com/CategoricalData/CQL)：CQL利用范论执行与数据相关的任务-如查询、组合、迁移和演化数据库。
 * [Wvlet](https://github.com/wvlet/wvlet)：Wvlet是一种新型的跨SQL流式查询语言，用于函数式数据建模和交互式数据探索。
 * [Dendrite](https://github.com/jwhitbeck/dendrite)：Dendrite是一个用于在单个主机上以接近交互式的速度查询大型数据集的库。
+* [Bullet](https://github.com/bullet-db/bullet-core)：Bullet是一个流式查询引擎，可以使用Apache Storm、Spark或Flink等流处理框架接入任何单个数据流。
+* [YQL+](https://github.com/yahoo/yql-plus)：YQL+解析器、执行引擎和源代码SDK，由Yahoo开源。
 
 #### 存储格式
 
@@ -2658,6 +2665,7 @@
 * [XXL-MQ](https://gitee.com/xuxueli0323/xxl-mq)：XXL-MQ是一款轻量级分布式消息队列，拥有水平扩展、高可用、海量数据堆积、单机TPS过10万、毫秒级投递等特性。
 * [WeEvent](https://github.com/WeBankBlockchain/WeEvent)：WeEvent是一套分布式事件驱动架构，实现了可信、可靠、高效的跨机构、跨平台事件通知机制，由微众银行开源。
 * [SwiftMQ](https://github.com/iitsoftware/swiftmq-ce)：SwiftMQ CE是一个功能齐全的企业消息传递系统。
+* [OpenDDS](https://github.com/OpenDDS/OpenDDS)：OpenDDS是对象管理组织(OMG)数据分发服务(DDS)的开源C++实现，通过JNI支持Java绑定，由Object Computing开源。
 * [TxEventQ](https://www.oracle.com/database/advanced-queuing/)：TxEventQ是Oracle数据库中内置的消息传递平台，可用于应用程序工作流、微服务和事件触发的操作。
 * [OpenMessaging](https://github.com/openmessaging/openmessaging-java)：OpenMessaging是由阿里发起，由Yahoo、滴滴、Streamlio、微众、Datapipeline等公司共同创建的分布式消息规范。
 * [Metamorphosis](https://github.com/killme2008/Metamorphosis)：Metamorphosis是淘宝开源的一个Java消息中间件。
@@ -2847,6 +2855,7 @@
 * [TinyServices ID](https://gitee.com/tinyservices/tinyservices-id)：TinyServices ID是一个高性能可扩展生成唯一ID的服务。
 * [Spring Boot Redis ID Generator](https://github.com/butter-fly/belling-redis-id-generator)：基于Spring Boot生成分布式下全局的ID，保证ID生成的顺序性、无重复性、高可用。
 * [Timeflake4j](https://github.com/making/timeflake4j)：Timeflake的Java实现。
+* [KSUID](https://github.com/akhawaja/ksuid)：Java实现的K可排序全局唯一ID。
 
 #### Session集群
 
@@ -4209,6 +4218,7 @@
 * [JTesseract](https://github.com/tesseract4java/jtesseract)：Tesseract的BridJ绑定。
 * [MathOCR MyScript](https://github.com/chungkwong/mathocr-myscript)：通过笔画提取和MyScript实现离线手写数学表达式识别。
 * [PaddleOCR JSON Java API](https://github.com/jerrylususu/PaddleOCR-json-java-api)：PaddleOCR Json的简单Java封装。
+* [OculiX](https://github.com/oculix-org/Oculix)：面向现实世界的可视化自动化。
 
 #### 人脸识别
 
