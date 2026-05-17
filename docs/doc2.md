@@ -3810,6 +3810,7 @@
 * [Xnx3](https://github.com/xnx3/xnx3)：常用工具类，方便快速开发。
 * [Jme3 Utilities](https://github.com/stephengold/jme3-utilities)：MonkeyEngine游戏的可重用代码和资源。
 * [Red5 Server Common](https://github.com/Red5/red5-server-common)：Red5服务器通用类。
+* [FalsePatternLib](https://github.com/FalsePattern/FalsePatternLib)：Minecraft模组Java工具库。
 
 ## 对象校验
 
@@ -5217,6 +5218,7 @@
 * [Kraph](https://github.com/VerachadW/kraph)：Kotlin编写的GraphQL请求字符串构建器。
 * [Viaduct](https://github.com/airbnb/viaduct)：Viaduct是一个基于GraphQL的系统，提供统一的接口用于访问和操作任何数据源，由Airbnb开源。
 * [GQ](https://github.com/grooviter/gql)：GQL是一组基于GraphQL Java构建的Groovy DSL和AST转换，它使构建GraphQL Schema和执行GraphQL查询变得更加容易，而不会丢失类型安全。
+* [KGraphQL](https://github.com/stuebingerb/KGraphQL)：KGraphQL是一个纯Kotlin实现的以代码优先的GraphQL服务器，专注于丰富且易于使用的DSL，利用现有代码来设置模式。
 
 #### GraphQL Spring
 
@@ -7054,6 +7056,7 @@
 * [KIO](https://github.com/colomboe/KIO)：KIO是一个简单、轻量级的Kotlin IO Monad实现。
 * [JavaSealedUnions](https://github.com/pakoito/JavaSealedUnions)：JavaSealedUnions将联合体引入Java 8的惯用写法，从而实现更好的领域建模。
 * [RxSealedUnions](https://github.com/pakoito/RxSealedUnions)：该库是Java 8 JavaSealedUnions库的RxJava向后移植版本。
+* [Maybe](https://github.com/andrewcmyers/maybe)：这是Java中Option模式的一个实现，在各个方面改进了内置的Optional类。
 
 #### Stream工具库
 
@@ -9475,6 +9478,7 @@ Kafka生态管理系统、运维平台。
 * [KCQRS](https://github.com/clouway/kcqrs)：CQRS库，采用Kotlin构建，旨在提供更好的开发体验。
 * [Candid CQRS](https://github.com/barsifedron/candid-cqrs)：一个简洁、简单、易于使用的CQS/CQRS Java实现，采用命令总线模式和六边形架构。
 * [Crabzilla](https://github.com/crabzilla/crabzilla)：Crabzilla旨在简化使用Vert.x开发事件溯源/CQRS应用。
+* [Apache Pekko Projections](https://github.com/apache/pekko-projection)：Apache Pekko Projections旨在构建具有CQRS模式的系统，并促进基于事件的服务间通信。
 
 ## 设计模式
 
@@ -13868,6 +13872,7 @@ Kafka生态管理系统、运维平台。
 * [Android Template](https://github.com/uber/android-template)：该模板为Uber的开源Android项目提供了一个起点。
 * [Decompose Multiplatform Template](https://github.com/arkivanov/decompose-multiplatform-template)：Kotlin多平台项目模板，包含Decompose库。
 * [Kmp Starter Template](https://github.com/DevAtrii/Kmp-Starter-Template)：适用于Android和iOS、与项目无关、可用于生产环境的Kotlin多平台入门项目。
+* [KMP Project Template](https://github.com/openMF/kmp-project-template)：终极Kotlin多平台项目生成器，具备生产就绪配置。
 
 #### Android图像库
 
@@ -15790,6 +15795,7 @@ Kafka生态管理系统、运维平台。
 * [Spellsource](https://github.com/hiddenswitch/Spellsource)：Spellsource是一款由社区创作的卡牌游戏。
 * [PokerServer](https://github.com/jacobhyphenated/PokerServer)：PokerServer是一个用于运行德州扑克友谊赛的服务器。
 * [Luna](https://github.com/luna-rs/luna)：Luna是一款#377 RS2服务器，设计轻巧、快速且易于使用。
+* [Argentum Engine](https://github.com/wingedsheep/argentum-engine)：这是一个非官方的《万智牌》规则引擎和在线游戏平台。
 
 #### 游戏模拟器
 
@@ -16193,6 +16199,7 @@ Kafka生态管理系统、运维平台。
 * [JVM ByteSwap Tool](https://github.com/sunwu51/JVMByteSwapTool)：一款可以在JVM运行时热插拔类字节码的工具。
 * [Jcoder](https://github.com/NLPchina/Jcoder)：Jcoder可以快速发布你的API并安排任务，动态编辑你的Java类以及添加或删除JAR文件。
 * [Macaque Hotswap](https://github.com/hhy50/macaque-hotswap)：从本地到远程服务器的热部署框架。
+* [JVM Live Reload](https://github.com/seroperson/jvm-live-reload)：为JVM上的任何Web应用程序提供一致的实时重新加载体验。
 
 ## 类加载
 

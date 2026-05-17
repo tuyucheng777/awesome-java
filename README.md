@@ -3351,6 +3351,7 @@
 * [Intelligent Java](https://github.com/intelligentnode/IntelliJava)：IntelliJava是使用Java与最新语言模型和深度学习框架集成的终极工具。
 * [Google Bard](https://github.com/LarryDpk/Google-Bard)：用于Google Bard提问和接收答案的Java库。
 * [Xunfei Spark4j](https://github.com/briqt/xunfei-spark4j)：科大讯飞星火认知大模型Java SDK。
+* [Gemini Interactions Java SDK](https://github.com/glaforge/gemini-interactions-api-sdk)：适用于Google Gemini Interactions API的现代Java SDK。
 
 ### 推理引擎
 
