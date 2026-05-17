@@ -1247,6 +1247,7 @@
 * [Kool](https://github.com/koolio/kool)：Kool是一个基于Kotlin的开源框架，用于创建实时Web应用程序。
 * [Chill](https://github.com/bigskysoftware/chill)：Chill是一个Java Web和云应用开发平台。
 * [CoffeeBar](https://github.com/fusesource/coffeebar)：CoffeeBar是一个基于CoffeeScript的Web框架，用于快速开发用户界面，它通过JAXRS使用Java实现的REST JSON服务进行通信。
+* [Kora](https://github.com/cao-awa/Kora)：Kora是一个基于Netty构建的高性能、类型安全的Kotlin Web服务器框架。
 
 #### REST框架
 
@@ -1872,6 +1873,7 @@
 * [Kobalt](https://github.com/cbeust/kobalt)：Kobalt是一个受Gradle和Maven启发的构建系统。
 * [Batect](https://github.com/batect/batect)：Batect允许你根据一个或多个Docker容器定义你的开发任务，在任何地方快速、一致地运行这些任务，并轻松地与你的团队共享。
 * [CBT](https://github.com/cvogt/cbt)：CBT是一个构建工具，有助于协调编译、代码和文档生成、打包、部署以及定制工具你的项目。
+* [MDM](https://github.com/polydawn/mdm)：MDM是一个分布式、可重复且安全的依赖管理系统。
 * [Bleep](https://github.com/oyvindberg/bleep)：Bleep是一个超快的Scala构建工具。
 * [Adept](https://github.com/adept-dm/adept)：Adept是一个与平台无关的依赖管理系统。
 * [Seed](https://github.com/tindzk/seed)：Seed是一款用户友好、快速且灵活的Scala项目构建工具。
@@ -2580,6 +2582,7 @@
 * [Wayeb](https://github.com/ElAlev/Wayeb)：Wayeb是一个用Scala编写的复杂事件处理和预测(CEP/F)引擎。
 * [RedBorder CEP](https://github.com/redBorder/cep)：基于Kafka和Siddhi的RESTful复杂事件处理器。
 * [WSO2 CEP](https://github.com/wso2-attic/product-cep)：WSO2 CEP是一款轻量级、易于使用的开源复杂事件处理服务器。
+* [Flowmix](https://github.com/calrissian/flowmix)：Flowmix是一个灵活的Apache Storm事件处理引擎。
 
 #### 监控工具
 
@@ -2805,6 +2808,7 @@
 * [Consul Distributed Lock](https://gitee.com/didispace/consul-distributed-lock)：基于Consul的分布式锁工具。
 * [Distributed Lock](https://github.com/code4wt/distributed_lock)：基于Zookeeper实现的分布式锁，包含独占锁和读写锁。
 * [DistributeLockGenerator](https://github.com/bingyufight/DistributeLockGenerator)：DistributeLockGenerator是一个基于Zookeeper和Redis上的分布式锁。
+* [WlLock](https://github.com/adamswanglin/wllock)：高并发环境下的本地锁、分布式锁。
 
 #### 分布式ID
 
@@ -3597,6 +3601,7 @@
 * [JavaML](https://github.com/AbeelLab/javaml)：Java机器学习库。
 * [MachineLearning](https://github.com/goessl/MachineLearning)：这是一个提供用于开发机器学习算法的Java包的集合。
 * [NaiveBayesClassifier](https://github.com/datumbox/NaiveBayesClassifier)：Java实现的多项式朴素贝叶斯文本分类器。
+* [Aloha](https://github.com/eHarmony/aloha)：Aloha库提供了eHarmony使用的机器学习模型的实现。
 
 #### 神经网络
 
@@ -3615,6 +3620,7 @@
 * [JNN](https://github.com/wlin12/JNN)：Java神经网络工具包。
 * [JavaCNN](https://github.com/DeepCompute/cnn)：基于Java实现CNN。
 * [JavaCNN](https://github.com/BigPeng/JavaCNN)：卷积神经网络的Java实现。
+* [JGNN](https://github.com/MKLab-ITI/JGNN)：一个用原生Java编写的快速图神经网络库。
 
 #### 深度学习
 
@@ -3703,6 +3709,7 @@
 * [Yurita](https://github.com/paypal/yurita)：Yurita是一个用于开发大规模异常检测模型的开源项目，由Paypal开发。
 * [Ad4j](https://github.com/algorithm-tools/ad4j)：Ad4j是一个基于统计和机器学习方法的异常检测算法库，使用Java实现。
 * [Flink HTM](https://github.com/htm-community/flink-htm)：Flink HTM是一个用于Apache Flink中异常检测和预测的库。
+* [Random Forest](https://github.com/ironmanMA/Random-Forest)：Java中的随机森林实现。
 
 #### 遗传算法
 
@@ -3765,6 +3772,8 @@
 * [JGibbLDA](https://jgibblda.sourceforge.net/)：JGibbLDA是隐性狄利克雷分配(LDA)的Java实现，使用吉布斯抽样技术进行参数估计和推理，由越南国立大学开源。
 * [JGibbLabeledLDA](https://github.com/myleott/JGibbLabeledLDA)：这是基于流行的JGibbLDA包的Labeled LDA的Java实现。
 * [jLDADMM](https://github.com/datquocnguyen/jLDADMM)：jLDADMM是一个用于LDA和DMM主题模型的Java包。
+* [ReactiveLDA](https://github.com/kifi/ReactiveLDA)：ReactiveLDA是潜在狄利克雷分配(LDA)算法的轻量级实现。
+* [Ansj Fast LDA](https://github.com/NLPchina/ansj_fast_lda)：LDA的Java实现。
 
 ### 自然语言处理
 
@@ -4180,6 +4189,7 @@
 * [TAIP](https://gitee.com/xshuai/taip)：TAIP是调用腾讯AI接口封装的Java客户端，为调用腾讯AI功能的开发人员提供了一系列的交互方法。
 * [Origami](https://github.com/hellonico/origami)：Origami是JVM上的图像处理、计算机视觉和神经网络库。
 * [PaperVision](https://github.com/deltacv/PaperVision)：PaperVision旨在让计算机视觉更容易被使用。
+* [Image Forensics](https://github.com/MKLab-ITI/image-forensics)：这是一个用于图像取证分析的集成框架。
 * [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
 * [JavaVision](https://gitee.com/javpower/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
 * [VisRec API](https://github.com/JavaVisRec/visrec-api)：Java视觉识别规范API。
@@ -4241,6 +4251,7 @@
 * [InspireFace](https://github.com/HyperInspire/inspireface-android-sdk)：InspireFace是一个用C/C++开发的跨平台人脸识别SDK。
 * [InspireFace4J](https://github.com/metaloom/inspireface4j)：InspireFace4J提供了一个使用FFM的Java原生绑定，用于InspireFace人脸检测库。
 * [MTCNN Java](https://github.com/tzolov/mtcnn-java)：MTCNN人脸检测器的Java和Tensorflow实现。
+* [JViolaJones](https://github.com/tc/jviolajones)：该软件包是Viola-Jones算法的Java实现，能够加载OpenCV XML文件。
 
 ### 语音识别
 
