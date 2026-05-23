@@ -37,6 +37,7 @@
 * [JS-Collider](https://github.com/js-labs/js-collider)：JS-Collider是一个异步事件驱动的Java网络(NIO)应用程序框架。
 * [HadroNIO](https://github.com/hhu-bsinfo/hadroNIO)：HadroNIO由杜塞尔多夫海因里希·海涅大学开发，旨在通过开源通信框架UCX透明地加速Java NIO应用程序。
 * [Net Reactor](https://github.com/sea-boat/net-reactor)：Net Reactor一个简单易用的网络框架，支持NIO模式。
+* [Getty](https://github.com/x-hansong/Getty)：基于Groovy的NIO框架。
 
 #### 网络库
 
@@ -52,7 +53,6 @@
 * [TLS Channel](https://github.com/marianobarrios/tls-channel)：TLS Channel是一个通过TLS连接实现ByteChannel接口的库。
 * [Commons Networking](https://github.com/CiscoSE/commons-networking)：由Cisco开源的公共网络实用程序库。
 * [DiSNI](https://github.com/zrlio/disni)：DiSNI是一个Java库，用于从用户空间直接存储和网络访问，它提供了一个RDMA接口来访问远程内存，由IBM开源。
-* [Barchart UDT](https://github.com/barchart/barchart-udt)：Barchart UDT是原生C++ UDT协议的Java包装器。
 * [URNLib](https://github.com/slub/urnlib)：用于表示、解析和编码RFC 2141和RFC 8141中指定的URN的Java库，由德累斯顿工业大学开源。
 * [Jcabi URN](https://github.com/jcabi/jcabi-urn)：Jcabi URN是根据RFC 2141的URN的不可变实现。
 * [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
@@ -93,6 +93,7 @@
 * [XGameEngine](https://github.com/cuixin/XGameEnginee)：XGameEngine是一个基于Netty进行封装的后台通讯和逻辑执行引擎。
 * [jSCSI](https://github.com/sebastiangraf/jSCSI)：jSCSI是一个功能齐全的iSCSI实现。
 * [Zenoh Java](https://github.com/eclipse-zenoh/zenoh-java)：Zenoh是一个发布/订阅/查询协议，它统一了动态数据、静态数据和计算。
+* [Netty VirtualThread Scheduler](https://github.com/franz1981/Netty-VirtualThread-Scheduler)：Netty和虚拟线程之间的集成库。
 
 #### WebSocket
 
@@ -177,6 +178,7 @@
 * [Play2 SockJS](https://github.com/fdimuccio/play2-sockjs)：Play Framework的SockJS服务器实现。
 * [Centrifuge Java](https://github.com/centrifugal/centrifuge-java)：Centrifugo服务器和Centrifuge库的Websocket客户端。
 * [Red5 WebSocket](https://github.com/Red5/red5-websocket)：Red5的WebSocket插件。
+* [Java Bells](https://github.com/bejayoharen/java-bells)：基于LibJitsi、Ice4J和Smack的Java Jingle实现。
 
 #### Socket.IO
 
@@ -197,6 +199,7 @@
 * [Java Socket.IO Client](https://github.com/clwillingham/java-socket.io.client)：一个用Java编写的Socket.IO客户端。
 * [Socket.IO Spring Boot Starter](https://github.com/hiwepy/socketio-spring-boot-starter)：Netty Socket.IO的Spring Boot Starter。
 * [Socket.IO Java](https://github.com/tadglines/Socket.IO-Java)：Socket.IO Java实现。
+* [Java Socket.IO Client](https://github.com/benkay/java-socket.io.client)：这是一个用Java编写的Socket.IO客户端。
 
 #### Socket
 
@@ -280,6 +283,7 @@
 * [LANCOMM](https://github.com/fighter-lee/lancomm)：Android局域网通讯，基于UDP和TCP封装的局域网通讯协议框架。
 * [NettyIM](https://github.com/CWTakiku/NettyIM)：NettyIM是一款基于Netty高度定制化的通讯SDK，支持TCP、UDP和WebSocket协议的通信。
 * [SimpleNet](https://github.com/jhg023/SimpleNet)：SimpleNet是一个用Java编写的简单的客户端/服务器框架。
+* [Korio](https://github.com/soywiz-archive/korio)：Kotlin协程I/O，虚拟文件系统、异步/同步流、异步TCP客户端/服务器、WebSocket，支持多平台Kotlin 1.3。
 * [MQTT/UDP](https://github.com/dzavalishin/mqtt_udp)：MQTT/UDP是源自MQTT的基于UDP广播/组播的协议。
 * [Dragonite](https://github.com/dragonite-network/dragonite-java)：Dragonite是一种基于UDP的可靠应用级数据传输协议，针对有损和不稳定的网络进行了高度优化。
 * [JBoss Remoting](https://github.com/jboss-remoting/jboss-remoting)：JBoss Remoting的目的是提供一个用于通过网络进行对称和非对称通信的通用框架，由RedHat开发。
@@ -311,6 +315,8 @@
 * [TeensyP](https://github.com/weavejester/teensyp)：一个使用Java NIO的小型、零依赖的Clojure TCP服务器。
 * [TcpServer](https://github.com/EsotericSoftware/tcpserver)：一个简单的基于Java的TCP服务器和客户端，用于传递字符串。
 * [WSO2 Axis2 Transports](https://github.com/wso2/wso2-axis2-transports)：该项目包含基于Axis2的传输实现，广泛应用于WSO2平台。
+* [UDT Java](https://github.com/JohannesBuchner/udt-java)：UDT协议的Java原生实现。
+* [Barchart UDT](https://github.com/barchart/barchart-udt)：Barchart UDT是原生C++ UDT协议的Java包装器。
 
 #### IO_Uring
 
@@ -360,6 +366,7 @@
 * [Matrix ClientServer Java API](https://github.com/JojiiOfficial/Matrix-ClientServer-API-java)：一个用于Matrix客户端/服务器协议的小型且简单的Java API。
 * [Apache Vysper](https://github.com/apache/mina-vysper)：Vysper提供XMPP协议核心部分和IM部分的服务器实现。
 * [SmartQQ Agreement Core](https://github.com/obsolete-acexy/smartqq-agreement-core)：提供一个基于WebQQ协议的Java版SDK。
+* [Pomelo Client](https://github.com/NetEase/pomelo-androidclient)：这是一个适用于Java和Android的Pomelo Socket.IO客户端，由网易开源。
 
 #### Pcap
 
@@ -387,6 +394,8 @@
 * [SSHLib](https://github.com/connectbot/sshlib)：ConnectBot的SSH库，它最初是Trilead SSH2库的延续。
 * [Ganymed SSH-2](https://github.com/hudson/ganymed-ssh-2)：Ganymed SSH-2是一个用纯Java实现SSH-2协议的库。
 * [Jsync](https://github.com/fizzed/jsync)：纯Java类rsync库，用于本地到远程SSH/SFTP。
+* [JSch Extension](https://github.com/lucastheisen/jsch-extension)：JSch库的扩展。
+* [J2SSH Maverick](https://github.com/sshtools/j2ssh-maverick)：J2SSH Maverick包含一个完整且稳定的SSH2客户端实现。
 
 #### DNS
 
@@ -596,6 +605,7 @@
 * [ISCXFlowMeter](https://github.com/ahlashkari/ISCXFlowMeter)：ISCXFlowMeter是一个以太网流量生成器和分析器，用于异常检测。
 * [MTS](https://github.com/ericsson-mts/mts)：MTS是一款专为电信IP架构设计的多协议测试工具，由爱立信开源。
 * [Netshot](https://github.com/netfishers-onl/Netshot)：Netshot是一款网络设备管理器。
+* [Kraken](https://github.com/nchovy/kraken)：Kraken是一个面向Java开发人员的开源信息安全套件。
 
 #### 端口转发
 
@@ -633,6 +643,8 @@
 * [Tahrir](https://github.com/sanity/tahrir)：Tahrir是一个去中心化、抗审查、类似Twitter的P2P网络。
 * [Libp2p](https://github.com/tronprotocol/libp2p)：Libp2p是一个用Java语言实现的P2P网络SDK。
 * [Kotlin IPv8](https://github.com/Tribler/kotlin-ipv8)：Android的P2P通信库。
+* [Web3j Libp2p](https://github.com/web3j/libp2p)：Web3j Libp2p是JVM的Libp2p模块化网络协议栈的实现。
+* [P2P Project](https://github.com/p2p-today/p2p-project)：一个跨语言的对等网络框架。
 
 #### BitTorrent
 
@@ -653,6 +665,7 @@
 * [Torrent4j](https://github.com/Rogiel/torrent4j)：用纯Java实现的Bittorrent库。
 * [JavaTorrent](https://github.com/Johnnei/JavaTorrent)：Java Torrent是一个用Java编写的BitTorrent协议实现。
 * [qBittorrent Kotlin](https://github.com/DrewCarlson/qBittorrent-Kotlin)：qBittorrent Web API的Kotlin封装。
+* [Storrent](https://github.com/danluu/storrent)：BitTorrent客户端。
 
 #### SDN
 
@@ -793,6 +806,7 @@
 * [TaskScheduler](https://github.com/SilenceDut/TaskScheduler)：一个简洁实用的Android项目异步库。
 * [AsyncTaskScheduler](https://github.com/SilenceDut/AsyncTaskScheduler)：AsyncTask的更好替代品。
 * [Operational Transformation](https://github.com/slevental/operational-transformation)：该库是Google Wave中引入的OT协议的参考实现。
+* [Overlock](https://github.com/boundary/overlock)：Overlock是一个用于Scala的并发实用工具库。
 
 #### 响应式
 
@@ -840,6 +854,7 @@
 * [Future Streams](https://github.com/fsist/future-streams)：基于Scala Future的Reactive Stream实现。
 * [EffeKt](https://github.com/bendgk/effekt)：Kotlin响应式库，受Vue.js启发。
 * [Reactive Streams Utils](https://github.com/lightbend/reactive-streams-utils)：Reactive Streams实用程序库，由Lightbend开源。
+* [Reactify](https://github.com/hoangtien2k3/reactify-core)：Reactify是一个基于Spring WebFlux和Reactor Core构建的高性能Java库，旨在通过现代响应式系统的基本工具简化后端开发。
 
 #### Future扩展
 
@@ -935,6 +950,7 @@
 * [Lois](https://github.com/flipkart-incubator/Lois)：Lois是一个Java库，提供类似GoLang的Channel抽象和实现，由Flipkart开源。
 * [JOX](https://github.com/softwaremill/jox)：Java中的快速且可扩展的Channel，设计用于与Project Loom一起使用，由SoftwareMill开源。
 * [ThreadForge](https://github.com/wuuJiawei/ThreadForge)：ThreadForge是一个减少多线程心智负担的结构化并发框架，目标是让并发代码更简单、更安全、更可观测。
+* [Jo](https://github.com/headius/jo)：一个提供类似Go语言中的Goroutine、Channel和Select的库。
 
 #### 线程池
 
@@ -957,6 +973,7 @@
 * [Grails Executor](https://github.com/basejump/grails-executor)：用于Grails的并发插件，允许用户使用ExecutorService。
 * [Collapse Executor](https://github.com/icodening/collapse-executor)：Collapse Executor是一个高性能、低延迟的批量执行器，可有效支持高并发的热点请求。
 * [OpenTracing Java Concurrent](https://github.com/opentracing-contrib/java-concurrent)：与java.util.concurrent相关的支持OpenTracing的辅助函数。
+* [ThreadPoolHelp](https://github.com/rohsuton/ThreadPoolHelp)：ThreadPoolHelp是一款Android平台下简单易用的线程池管理工具。
 
 #### 锁
 
@@ -964,6 +981,7 @@
 * [Conditional](https://github.com/line/conditional)：Conditional是一个超轻量级库，可帮助你组合多个条件表达式并使它们轻松异步，由Line开源。
 * [Concurrent Locks](https://github.com/npgall/concurrent-locks)：该项目为Java提供了额外的Lock实现，扩展了JDK提供的基本功能和性能。
 * [ReactiveLock](https://github.com/kifi/ReactiveLock)：ReactiveLock是一种响应式锁，它允许你使用类似于经典线程/锁并发的模式，而无需实际阻塞任何线程。
+* [JKeyLockManager](https://github.com/mojgh/JKeyLockManager)：JKeyLockManager提供使用应用程序特定Key的细粒度锁定。
 
 #### Actor库
 
@@ -1001,6 +1019,7 @@
 * [Loom Actor](https://github.com/forax/loom-actor)：一个基于Loom的小型但有趣的Actor框架。
 * [PraxisCORE](https://github.com/praxis-live/praxiscore)：PraxisCORE是一个模块化的JVM运行时环境，专为网络物理编程而设计，支持实时系统的实时编码。
 * [Fjage](https://github.com/org-arl/fjage)：Fjage为基于Java和Groovy的面向代理的软件开发提供了一个轻量级且易于学习的框架，由新加坡国立大学开源。
+* [Scalang](https://github.com/boundary/scalang)：Scalang是一个消息传递和Actor库，它允许Scala和Erlang应用程序轻松通信。
 
 #### ThreadLocal
 
@@ -1009,6 +1028,7 @@
 * [Context Propagation](https://github.com/micrometer-metrics/context-propagation)：一个帮助跨不同类型的上下文机制(如ThreadLocal、Reactor Context等)传播上下文的库。
 * [SmallRye Context Propagation](https://github.com/smallrye/smallrye-context-propagation)：MicroProfile上下文传播的SmallRye实现。
 * [MicroProfile Context Propagation](https://github.com/microprofile/microprofile-context-propagation)：该提案引入了用于获取由托管线程支持的CompletableFuture的API，能够从创建CompletableFuture的线程中捕获上下文，并在运行CompletionStage操作时应用该上下文。
+* [Scope](https://github.com/PhantomThief/scope)：ThreadLocal的高级封装。
 
 #### 并发数据结构
 
@@ -1112,6 +1132,7 @@
 * [Embedded DB JUnit](https://github.com/zapodot/embedded-db-junit)：提供内存数据库的JUnit Rule(支持H2和HyperSQL)。
 * [DbSandboxer](https://github.com/misirio/dbsandboxer)：DbSandboxer通过为集成测试创建沙盒数据库实例来为Spring Boot应用程序提供测试隔离。
 * [Acolyte](https://github.com/cchantep/acolyte)：Acolyte是一个JDBC驱动程序，专为模拟、测试或任何你希望能够手动处理JDBC查询的情况而设计。
+* [Embedded Druid](https://github.com/eBay/embedded-druid)：Embedded Druid是一个嵌入式Druid，由eBay开源。
 
 #### 端到端测试
 
@@ -1156,6 +1177,8 @@
 * [Mu2](https://github.com/cmu-pasta/mu2)：Mu2是一个用于突变引导模糊测试的模糊测试平台，构建在用于模糊Java程序的JQF平台之上，由CMU程序分析、软件测试和应用实验室开发。
 * [Snodge](https://github.com/npryce/snodge)：一个小型、可扩展的Kotlin库，用于随机变异JSON和XML文档、文本和二进制数据，适用于模糊测试。
 * [Artemis](https://github.com/test-jitcomp/Artemis)：Artemis是一款专门用于测试JVM JIT编译器的Java程序变异器，由南京大学开源。
+* [Java Warty Pig](https://github.com/cretz/javan-warty-pig)：Java Warty Pig是一个类似AFL的JVM模糊测试工具。
+* [Fuzzino](https://github.com/fraunhoferfokus/Fuzzino)：Fuzzino是一个用于生成模糊测试数据的库。
 
 #### 性能测试
 
@@ -1200,6 +1223,7 @@
 * [Meter](https://github.com/OleksandrKucherenko/meter)：Meter是一个简单的Android微基准测试工具，适用于任何Java项目。
 * [FreeBencher](https://github.com/chenjianjx/freebencher)：一款自由风格的基准测试工具，可以测试任何Java可调用的对象，并生成类似Apache AB的结果。
 * [BumbleBench](https://github.com/adoptium/bumblebench)：BumbleBench是一款微基准测试工具，旨在尽可能简化Java微基准测试过程中常见陷阱的规避过程。
+* [Benchit](https://github.com/T-Spoon/Benchit)：快速简便的Android基准测试框架。
 
 #### 属性测试
 
@@ -1412,6 +1436,9 @@
 * [Inspektor](https://github.com/ShreyashKore/inspektor)：Inspektor是一个受Chucker启发、基于Ktor的多平台HTTP检测库，支持请求响应重写/模拟。
 * [Wilma](https://github.com/epam/Wilma)：Wilma是一款服务虚拟化工具，它结合了服务存根和HTTP/HTTPS透明代理的功能，由EPAM开源。
 * [JavaBank](https://github.com/thejamesthomas/javabank)：Mountebank的原生Java绑定。
+* [Mockingbird](https://github.com/Tinkoff/mockingbird)：Mockingbird是一种用于Mock REST服务和具有队列接口的服务的组件。
+* [Terminator](https://github.com/baidu/terminator)：Terminator是一个服务虚拟化工具，由百度开源。
+* [IrisMock](https://github.com/arildojr7/iris-mock)：一个Kotlin工具，用于拦截Android网络调用、修改请求/响应并Mock整个API。
 
 #### Mock库
 
@@ -1691,6 +1718,8 @@
 * [Aki](https://github.com/letmeNo1/Aki)：Aki是一个基于辅助功能API的桌面自动化测试框架。
 * [Minium](https://github.com/viltgroup/minium)：Minium是VILT开发的一个框架，它可以帮助你以与真人相同的方式测试你的Web应用程序。
 * [Eclipse RedDeer](https://github.com/eclipse-archived/reddeer)：Eclipse RedDeer项目是一个可扩展的框架，用于开发与应用程序用户界面交互的自动化SWT/Eclipse测试。
+* [KoolTest](https://github.com/manycore-maas/KoolTest)：KoolTest支持多种终端的UI自动化测试框架。
+* [Automation Framework Selenium](https://github.com/anhtester/AutomationFrameworkSelenium)：基于Selenium Java和TestNG的测试自动化框架。
 
 #### 自动化工具
 
@@ -1795,6 +1824,7 @@
 * [Fray](https://github.com/cmu-pasta/fray)：Fray是Java的一个并发测试工具，可以帮助你查找和调试表现为断言违规、运行时异常或死锁的棘手竞争条件，由CMU开源。
 * [Concurrent JUnit](https://github.com/ThomasKrieger/concurrent-junit)：一个用于运行并发单元测试的JUnit测试运行器。
 * [DL-Check](https://github.com/devexperts/dlcheck)：DL-Check是一款用于查找多线程程序中潜在死锁的动态工具，由Devexperts开源。
+* [LitmusKt](https://github.com/JetBrains-Research/litmuskt)：LitmusKt是一个用于Kotlin的Litmus测试工具，由JetBrains开源。
 
 #### POJO测试
 
@@ -1878,6 +1908,7 @@
 * [GWT Test Utils](https://github.com/gwt-test-utils/gwt-test-utils)：GWT Test Utils是用于GWT应用程序的Java测试框架。
 * [Kubetest4j](https://github.com/skodjob/kubetest4j)：使用Fabric8 API轻松测试Kubernetes部署和运算符的库。
 * [TimeWarp](https://github.com/puniverse/timewarp)：该库允许你创建虚拟时钟并将其安装为JVM时钟，以帮助进行测试。
+* [Time Test](https://github.com/devexperts/time-test)：Time Test是一个用于测试基于时间的功能的框架。
 
 #### Spring测试
 
@@ -1924,6 +1955,8 @@
 * [JacocoPlus](https://github.com/512433465/JacocoPlus)：JaCoCo二次开发，基于Git分支差分实现增量代码覆盖率。
 * [Delta Coverage](https://github.com/gw-kit/delta-coverage-plugin)：Delta Coverage是一个Gradle插件，它基于Git Diff计算新增/修改代码的代码覆盖率。
 * [Keploy Java Coverage Agent](https://github.com/keploy/java-sdk)：Keploy Java Coverage Agent用于在测试重放期间动态收集代码覆盖率。
+* [Coverage Checker](https://github.com/naver/cover-checker)：CoverChecker为新增代码行提供测试覆盖率，由Naver开源。
+* [Mebius](https://github.com/NetEase/mebius)：Mebius提供代码覆盖率统计、代码影响调用链分析，由网易开源。
 
 ## 数据库开发
 
@@ -1939,7 +1972,6 @@
 * [Snowflake JDBC Driver](https://github.com/snowflakedb/snowflake-jdbc)：Snowflake JDBC驱动程序。
 * [TiKV Java](https://github.com/tikv/client-java)：TiKV的Java客户端库。
 * [VtDriver](https://github.com/jd-opensource/vtdriver)：VtDriver是一套基于分布式数据库Vitess而开发的Vitess Java客户端解决方案，由京东开源。
-* [LevelDB JNI](https://github.com/fusesource/leveldbjni)：LevelDB JNI为你提供了一个Java接口来访问LevelDB C++库。
 * [PGVector Java](https://github.com/pgvector/pgvector-java)：PGVector Java支持。
 * [Aerospike Java Client](https://github.com/aerospike/aerospike-client-java)：Aerospike数据库的Java客户端库。
 * [OpenGauss JDBC](https://gitee.com/opengauss/openGauss-connector-jdbc)：OpenGauss JDBC驱动程序。
@@ -1956,6 +1988,7 @@
 * [NDBC](https://github.com/traneio/ndbc)：该项目的目标是提供一种完全异步的数据库处理方法。
 * [Qdrant Java Client](https://github.com/qdrant/java-client)：Qdrant Java客户端。
 * [Dyno](https://github.com/Netflix/dyno)：Dyno封装了使用Dynomite扩展客户端应用程序所需的功能。
+* [Chroma Vector Database Java Client](https://github.com/amikos-tech/chromadb-java-client)：适用于ChromaDB v2 API的生产就绪Java客户端。
 
 #### ORM框架
 
@@ -2085,6 +2118,9 @@
 * [SmartJdbc](https://gitee.com/icecooly/SmartJdbc)：SmartJdbc一个简单易用的ORM框架，它支持SQL构建、SQL执行、命名参数绑定、查询结果自动映射和自动跨表Join等。
 * [JQuickMybatis](https://github.com/paohaijiao/jquick-mybatis)：JQuickMybatis是面向Java开发者的轻量级、无侵入ORM框架。
 * [eXtended Objects](https://github.com/jQAssistant/extended-objects)：Java领域对象的轻量级且灵活的数据存储映射。
+* [Invesdwin Context Persistence](https://github.com/invesdwin/invesdwin-context-persistence)：该项目为Invesdwin Context模块系统提供持久化模块。
+* [PlayORM](https://github.com/deanhiller/playorm)：用于NoSQL的ORM，支持可扩展SQL。
+* [Data Mediator](https://github.com/LightSun/data-mediator)：一个数据层的框架，利用编译时注解技术，在Java和Android平台自动生成数据实体及相关的代码。
 
 #### JDBC框架
 
@@ -2175,8 +2211,6 @@
 * [Cantor](https://github.com/salesforce/cantor)：Cantor是一个数据服务层，它为各种存储解决方案(例如MySQL和S3)之上的多种基本数据结构提供持久化，由Salesforce开源。
 * [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
-* [MySQL Backup4j](https://github.com/SeunMatt/mysql-backup4j)：MySQL Backup4j是一个用于以编程方式导出MySQL数据库并将压缩转储发送到电子邮件、Amazon S3、Google Drive或任何其他选择的云存储的库。
-* [Ektorp](https://github.com/helun/Ektorp)：Ektorp是一个使用CouchDB作为存储引擎的持久层API。
 * [SQLHelper](https://github.com/bes2008/sqlhelper)：基于Java的SQL工具。
 * [Uni Pagination](https://github.com/taoganio/uni-pagination)：Uni Pagination是一个基于Java的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。
 * [DTT](https://github.com/julxxy/dtt-spring-boot-parent)：DTT是一个面向对象的Java框架，使开发者能够通过注解驱动的开发，基于领域模型自动创建数据库表。
@@ -2186,7 +2220,8 @@
 * [MySQL2H2 Converter](https://github.com/bgranvea/mysql2h2-converter)：一个用Java编写的MySQL到H2 SQL转换库。
 * [ZenQuery](https://github.com/BjoernKW/ZenQuery)：ZenQuery允许你通过REST API轻松访问数据库。
 * [DB Meta](https://github.com/wukenaihe/db-meta)：Db Meta是一款免费的数据库模式发现和易用工具。
-* [MySQL Protocol](https://github.com/sea-boat/mysql-protocol)：用于MySQL协议操作的库。
+* [NexusData](https://github.com/dkharrat/NexusData)：NexusData是一个面向Android的对象图和持久化框架。
+* [IDValue View Builder](https://github.com/kealdishx/idvalue-view-builder)：从模型轻松构建视图。
 
 #### 查询构建器
 
@@ -2207,6 +2242,9 @@
 * [SQL Builder](https://github.com/jonathanhds/sql-builder)：一个用于Java语言的动态SQL构建器。
 * [QueryBuilder](https://github.com/itfsw/QueryBuilder)：jQuery QueryBuilder插件的Java版本后台实现。
 * [SQLiteQueryBuilder](https://github.com/alexfu/SQLiteQueryBuilder)：一个提供简单API的Java库，用于构建SQLite查询语句。
+* [SQLiteBuilder](https://github.com/nhaarman/SQLiteBuilder)：一个用于Java的SQLite语句构建器。
+* [Cursor Iterator](https://github.com/PhantomThief/cursor-iterator)：一个简单的适合移动端无限下拉构建数据的后端支持组件。
+* [HttpQL](https://github.com/HubSpot/httpQL)：HttpQL是一个小型库，用于将URL查询参数转换为SQL查询。
 
 #### NoSQL库
 
@@ -2277,6 +2315,7 @@
 * [Domino](https://github.com/domino-succ/domino)：Domino/SSCC是一个分布式事务处理系统。
 * [JVSTM](https://github.com/inesc-id-esw/jvstm)：JVSTM是一个Java库，实现了STM(软件事务内存)方法，由里斯本大学开源。
 * [Module Saga](https://github.com/nomisRev/Saga)：Kotlin中的Saga模式实现，基于Kotlin的协程。
+* [Simple Sagas](https://github.com/simplesourcing/simplesagas)：Simple Sagas是一个基于Kafka Streams的分布式系统进程协调器构建库。
 
 #### Mybatis库
 
@@ -2353,6 +2392,7 @@
 * [OmniPersistence](https://github.com/omnifaces/omnipersistence)：JPA、JDBC和数据源的实用工具。
 * [JPearl](https://github.com/wimdeblauwe/jpearl)：该项目的目标是提供一些方便的类和接口，以便使用JPA进行早期主键生成。
 * [JPA Nested Set](https://github.com/romanb/JPA-NestedSet)：用于JPA的NestedSet实现。
+* [Spring Repository Plus](https://github.com/ZhongjunTian/spring-repository-plus)：Spring Specification的唯一完整实现，它创建了高度灵活的RESTful API来过滤数据。
 
 #### Spring Data库
 
@@ -2411,12 +2451,15 @@
 * [Sqiffy](https://github.com/dzikoysk/sqiffy)：Sqiffy是一个实验性的复合SQL框架，它使用类型安全的DSL API。
 * [Bee](https://github.com/bluesoft/bee)：数据库变更管理器。
 * [VTS](https://github.com/zilliztech/vts)：VTS是一款专为转换和传输向量和非结构化数据而设计的工具。
+* [TypeDB Loader](https://github.com/typedb-osi/typedb-loader)：TypeDB数据迁移工具。
+* [DBDepoly](https://github.com/tackley/dbdeploy)：用于管理敏捷数据库开发的Java工具。
 
 #### 数据源增强
 
 * [Dynamic DataSource](https://github.com/baomidou/dynamic-datasource)：Dynamic DataSource是一个基于Spring Boot的快速集成多数据源的Starter。
 * [Spring Boot Dynamic DataSource](https://github.com/helloworlde/SpringBoot-DynamicDataSource)：Spring Boot多数据源、动态数据源配置。
 * [Spring DBUtil](https://gitee.com/hand515/spring-dbutil)：基于Spring的AbstractRoutingDataSource进行简单的封装，方便进行数据源的切换。
+* [DynamicDataSource](https://github.com/yeecode/DynamicDataSource)：DynamicDataSource是一个允许你在程序运行过程中动态增删和切换数据源的工具。
 * [Datasource Micrometer](https://github.com/jdbc-observations/datasource-micrometer)：Datasource Micrometer为JDBC操作提供Micrometer Observation API接口。
 
 #### 数据库代理
@@ -2463,6 +2506,9 @@
 * [MariaDB R2DBC](https://github.com/mariadb-corporation/mariadb-connector-r2dbc)：非阻塞MariaDB和MySQL客户端。
 * [R2DBC SPI](https://github.com/r2dbc/r2dbc-spi)：R2DBC实现的SPI。
 * [Embedded MySQL](https://github.com/wix-incubator/wix-embedded-mysql)：用于测试的嵌入式MySQL。
+* [MySQL Backup4j](https://github.com/SeunMatt/mysql-backup4j)：MySQL Backup4j是一个用于以编程方式导出MySQL数据库并将压缩转储发送到电子邮件、Amazon S3、Google Drive或任何其他选择的云存储的库。
+* [MySQL Protocol](https://github.com/sea-boat/mysql-protocol)：用于MySQL协议操作的库。
+* [MysqlProtocolAnalyzer](https://github.com/gloriawish/MysqlProtocolAnalyzer)：MysqlProtocolAnalyzer是一个对MySQL通讯协议的包进行解析的库。
 
 #### PostgreSQL库/工具
 
@@ -2473,6 +2519,7 @@
 * [Postgres Async Driver](https://github.com/alaisi/postgres-async-driver)：Postgres Async Driver是PostgreSQL的非阻塞Java驱动程序。
 * [JAsync-SQL](https://github.com/jasync-sql/jasync-sql)：JAsync-SQL是一个使用Kotlin编写的简单、基于Netty、异步、高性能且可靠的PostgreSQL和MySQL数据库驱动程序。
 * [PG2](https://github.com/igrishaev/pg2)：PG2是一个适用于Clojure的快速PostgreSQL驱动程序。
+* [PgNio](https://github.com/cretz/pgnio)：PgNio是一个用于Java和JVM的异步PostgreSQL客户端。
 * [PgBulkInsert](https://github.com/PgBulkInsert/PgBulkInsert)：PgBulkInsert是一个使用二进制复制协议向PostgreSQL进行批量插入的Java库。
 * [PG Index Health](https://github.com/mfvanek/pg-index-health)：PG Index Health是一个用于分析和维护PostgreSQL数据库中索引和表健康状况的Java库。
 * [Migrate2Postgres](https://github.com/isapir/Migrate2Postgres)：该工具允许你轻松地将数据库从其他兼容JDBC的DBMS迁移到Postgres。
@@ -2529,6 +2576,7 @@
 * [HotKey](https://gitee.com/jd-platform-opensource/hotkey)：京东App后台中间件，毫秒级探测热点数据，毫秒级推送至服务器集群内存，大幅降低热key对数据层查询压力。
 * [HotCaffeine](https://github.com/sohutv/hotcaffeine)：高性能，高可靠的热点数据探测系统，由搜狐开源。
 * [JDBC Redis](https://github.com/mtpettyp/jdbc-redis)：JDBC Redis是为Redis实现JDBC API的一个项目。
+* [JRedisGraph](https://github.com/RedisGraph/JRedisGraph)：RedisGraph Java客户端。
 * [RedisX](https://gitee.com/websterlu/redisx)：Redis线程池实现。
 * [Redis Admin](https://github.com/mauersu/redis-admin)：Redis Admin是一个基于Java EE和Jedis编写的Redis客户端Web工具。
 * [Redis Desktop Client](https://gitee.com/RedisDesktopClient/redis-desktop-client)：Redis Desktop Client是一款颜值较高、使用方便的redis客户端工具。
@@ -2742,6 +2790,28 @@
 * [Spring Boot Etcd](https://github.com/zalando-stups/spring-boot-etcd)：Spring Boot Etcd是一个Spring Boot库，它提供了一个Etcd客户端。
 * [Etcd Viewer](https://github.com/nikfoundas/etcd-viewer)：Etcd Viewer是一个Java Web应用程序，允许你浏览和修改etcd分布式键值存储。
 
+#### CouchDB库/工具
+
+* [Ektorp](https://github.com/helun/Ektorp)：Ektorp是一个使用CouchDB作为存储引擎的持久层API。
+* [LightCouch](https://github.com/lightcouch/LightCouch)：CouchDB数据库的Java客户端。
+* [CouchDB4J](https://github.com/mbreese/couchdb4j)：使用JSON的Java CouchDB库。
+* [CouchDB Scala](https://github.com/beloglazov/couchdb-scala)：一个纯函数式的Scala CouchDB客户端。
+* [ScouchDB](https://github.com/debasishg/scouchdb)：Scala中的CouchDB驱动程序和视图服务器。
+* [Spring Data CouchDB](https://github.com/spring-attic/spring-data-couchdb)：为提高Java开发人员在使用CouchDB时的生产力提供支持。
+* [Couch Slacker](https://github.com/Majlanky/couch-slacker)：Spring Data CouchDB支持和CouchDB连接器。
+* [DroidCouch](https://github.com/kamidev/DroidCouch)：DroidCouch是一个用于使用CouchDB的极简Android库。
+
+#### LevelDB库/工具
+
+* [LevelDB JNI](https://github.com/fusesource/leveldbjni)：LevelDB JNI为你提供了一个Java接口来访问LevelDB C++库。
+* [EZDB](https://github.com/criccomini/ezdb)：EZDB为LevelDB提供了一个优秀的Java封装。
+* [Android LevelDB](https://github.com/hf/leveldb-android)：LevelDB的Java封装库。
+* [LevelDB JNA](https://github.com/protonail/leveldb-jna)：LevelDB的Java JNA适配器。
+* [LevelDB](https://github.com/pcmind/leveldb)：LevelDB到Java的移植。
+* [LevelDB MCPE Java](https://github.com/HiveGamesOSS/leveldb-mcpe-java)：Java中的LevelDB MCPE。
+* [LevelDB Java](https://github.com/wlu-mstr/leveldb-java)：LevelDB的Java版本。
+* [LevelDBViewer](https://github.com/SuperMarcus/LevelDBViewer)：一个用Java编写的简单程序，可以快速查看LevelDB数据库。
+
 #### Milvus库/工具
 
 * [Milvus Java SDK](https://github.com/milvus-io/milvus-sdk-java)：Milvus的Java SDK。
@@ -2833,6 +2903,7 @@
 * [BinlogPortal](https://github.com/dothetrick/binlogportal)：BinlogPortal是一个轻量级的MySQL Binlog同步工具。
 * [Spark Binlog](https://github.com/allwefantasy/spark-binlog)：Spark Binlog是一个用于使用Apache Spark结构流查询Binlog的库，支持Spark SQL、DataFrames和MLSQL。
 * [BinLake](https://github.com/jd-tiger/binlake)：BinLake是一个集群化的数据库BinLog管理、采集和分发系统，并且透明集成JMQ和Kafka等消息分发和订阅系统，由京东开源。
+* [Fountain](https://github.com/neoremind/fountain)：Fountain是一个基于Java的工具包，用于同步MySQL Binlog，并提供一个简单的API来处理/发布事件。
 
 #### 灾难备份
 
@@ -2902,6 +2973,7 @@
 * [Common Security](https://gitee.com/geekerdream/common-security)：Spring Boot通用的权限处理框架。
 * [OPA Java SDK](https://github.com/open-policy-agent/opa-java)：OPA是一个策略引擎，它简化了整个技术栈的策略管理，从而提高了开发、安全性和审计能力。
 * [OPA Java WASM](https://github.com/StyraOSS/opa-java-wasm)：这是一个SDK，用于使用由纯Java Wasm解释器Chicory支持的Java来运行WebAssembly编译的Open Policy Agent策略。
+* [Deadbolt 2 Play](https://github.com/mkurz/deadbolt-2-scala)：Deadbolt 2是一个用于Play 2的授权库，它为基于Java和Scala的应用程序提供了API。
 
 #### JWT库
 
@@ -2925,6 +2997,7 @@
 * [Authentikat JWT](https://github.com/jasongoodwin/authentikat-jwt)：JWT Scala实现。
 * [JWT](https://github.com/iain-logan/jwt)：JWT规范的Scala实现。
 * [Helidon JWT](https://mvnrepository.com/artifact/io.helidon.security/helidon-security-jwt)：Helidon框架中的JWT、JWK实现。
+* [JSON Tokens](https://github.com/google/jsontoken)：JSON Tokens是一种方便的数据结构签名和验证方式，可以轻松包含在HTTP请求和响应中。
 
 #### Paseto
 
@@ -2994,6 +3067,7 @@
 * [Flows](https://github.com/hanbings/flows)：Flows是一个OAuth客户端的辅助工具，通过低耦合的设计给用户高自定义度的接口。
 * [OAuth](https://github.com/EsotericSoftware/oauth)：适用于Java的简单OAuth。
 * [KomposeAuth](https://github.com/pitampoudel/komposeauth)：面向Kotlin多平台的全栈身份验证，Spring Auth服务器、KMP SDK、客户端SDK。
+* [OAuth.io Android SDK](https://github.com/oauth-io/oauth-android)：OAuth.io的官方Android SDK。
 
 #### 身份管理平台
 
@@ -3024,6 +3098,9 @@
 * [Unity](https://github.com/unity-idm/unity)：Unity是一个完整的身份、联合和跨联合管理解决方案。
 * [Kotauth](https://github.com/InumanSoul/kotauth)：Kotauth是一个开源的身份验证和身份平台，它弥合了企业级身份和访问管理(IAM)系统与面向开发者的SaaS工具之间的差距。
 * [Apache Directory Fortress](https://github.com/apache/directory-fortress-core)：FORTRESS是一个基于标准的访问管理系统，使用LDAP后端提供基于角色的访问控制、委托管理和密码策略服务。
+* [MT-Auth](https://github.com/publicdevop2019/mt-auth)：开源、多门户、身份、权限、API管理系统。
+* [MatrixAuth](https://github.com/yeecode/MatrixAuth)：MatrixAuth是一个高性能的分布式权限系统，它以RBAC模型为基础实现权限管理，支持多个业务应用的接入。
+* [Passopolis](https://github.com/WeAreWizards/passopolis-server)：Passopolis(原名Mitro)的服务器组件。
 
 #### 跨域身份管理
 
@@ -3090,6 +3167,13 @@
 * [IABTCF Java](https://github.com/InteractiveAdvertisingBureau/iabtcf-java)：使用IAB EU的GDPR透明度和同意框架对同意信息进行编码/解码。
 * [SQL Injection Safe](https://github.com/rkpunjal/sql-injection-safe)：用于检查数据字符串是否具有SQL注入安全性的注解和实用工具。
 * [CONIKS Java](https://github.com/coniks-sys/coniks-java)：Java中的CONIKS实现。
+* [Spring Security CSRF Token Filter](https://github.com/aditzel/spring-security-csrf-filter)：Spring Security CSRF Token Filter是一个Spring Security过滤器，它将现有的CSRF令牌值绑定到响应标头。
+* [Trident](https://github.com/JoyChou93/trident)：Java通用漏洞修复安全组件。
+* [Java Cookie](https://github.com/js-cookie/java-cookie)：一个简单的Java API，用于处理Cookie。
+* [Ziti SDK JVM](https://github.com/openziti/ziti-sdk-jvm)：Ziti SDK JVM使Java和其他开发人员能够轻松安全地通过Ziti网络将其应用程序连接到后端服务。
+* [Authy Java](https://github.com/twilio/authy-java)：用于Twilio Authy双因素身份验证(2FA) API的Java客户端。
+* [jShodan](https://github.com/fooock/jshodan)：功能强大的Shodan API客户端，采用RxJava和Retrofit。
+* [Groovy Sandbox](https://github.com/jenkinsci/groovy-sandbox)：Groovy Sandbox是一个用于在受控环境中安全执行Groovy代码的编译时转换器库。
 
 #### SAML
 
@@ -3312,6 +3396,7 @@
 * [Ballerina Crypto](https://github.com/ballerina-platform/module-ballerina-crypto)：Ballerina Crypto库提供了API，可以使用不同的加密算法执行哈希、HMAC生成、校验和生成、加密、解密、数字签名数据、验证数字签名数据等操作。
 * [Secure Util](https://gitee.com/FlyTank/secure-util)：Base64编码、消息摘要、对称/非对称加解密、RSA/DSA数字签名、数字证书/密钥库工具类。
 * [Blur](https://github.com/allurx/blur)：Blur是一个Java库，用于对任何数据结构中的敏感数据进行掩码和混淆处理。
+* [Krypto](https://github.com/soywiz-archive/krypto)：适用于多平台的纯Kotlin加密库。
 * [RSA AES Utils](https://github.com/ShenBao/rsa-aes-utils)：RSA、AES加解密库。
 * [Encryption](https://github.com/BullyBoo/Encryption)：加密方法的实现。
 * [JFXCrypto](https://github.com/MasterFlomaster1/JFXCrypto)：JFXCrypto是一款灵活的加密工具，旨在处理各种加密任务。
@@ -3344,6 +3429,7 @@
 * [Buddy Core](https://github.com/funcool/buddy-core)：Buddy Core模块致力于提供Clojure友好的加密API。
 * [PowerAuth Crypto](https://github.com/wultra/powerauth-crypto)：移动端强认证协议的加密库，用于PowerAuth安全方案。
 * [Secp256k1 JDK](https://github.com/bitcoinj/secp256k1-jdk)：Secp256k1 JDK是一个Java库，提供与比特币相关的椭圆曲线密码学功能。
+* [Secp256k1 KMP](https://github.com/ACINQ/secp256k1-kmp)：Kotlin/多平台封装，用于Bitcoin Core的Secp256k1库。
 * [Crypto](https://github.com/appmattus/crypto)：一系列Kotlin多平台加密哈希函数。
 * [OpenSSL JOSTLE](https://github.com/openssl-projects/openssl-jostle)：OpenSSL Jostle是一个Java提供程序，它使用OpenSSL库进行加密实现。
 * [Seekable Crypto](https://github.com/palantir/hadoop-crypto)：Seekable Crypto是一个Java库，它提供了在SeekableInput解密底层内容的同时定位数据的功能，并提供了一些用于存储和生成加密/解密数据流密钥的实用工具，由Palantir开源。
@@ -3352,6 +3438,10 @@
 * [Fernet Java](https://github.com/l0s/fernet-java8)：Java 8对Fernet规范的实现。
 * [Encrypted Config Value](https://github.com/palantir/encrypted-config-value)：此库提供用于加密Dropwizard应用中某些配置参数值的工具，由Palantir开源。
 * [Cryptoshred](https://github.com/prisma-capacity/cryptoshred)：用于透明地对持久化数据的部分内容进行加密/解密的Java库，以符合GDPR的要求。
+* [CBCrypto](https://github.com/CoinbaseWallet/CBCrypto)：一个简单的iOS加密库。
+* [CP-ABE](https://github.com/lengnu/CP-ABE)：基于访问树构造的属性基加密。
+* [JPGPJ](https://github.com/justinludwig/jpgpj)：JPGPJ API用于文件加密、签名、解密和验证。
+* [P2abcEngine](https://github.com/p2abcengine/p2abcengine)：保护隐私的基于属性的凭证引擎。
 
 #### 密码库
 
@@ -3423,6 +3513,7 @@
 * [Javallier](https://github.com/n1analytics/javallier)：Paillier部分同态加密的Java库。
 * [Homomorphic Encryption](https://github.com/ADWISE-VCU/Ciphercraft)：包含ElGamal、Paillier、Goldweiser-Micali和DGK同态加密系统的软件包，由佛罗里达国际大学开源。
 * [PaillierLib](https://github.com/FISCO-BCOS/paillier-lib)：Paillier同态加密算法库。
+* [FHE Core](https://github.com/kryptnostic/fhe-core)：用于全同态加密的库。
 * [jPaillier](https://github.com/kunerd/jpaillier)：Paillier密码系统的Java实现。
 * [GmSSL Java](https://github.com/GmSSL/GmSSL-Java)：本项目是GmSSL密码库的Java语言封装，可以用于Java环境和Android系统上的应用开发。
 * [Java FPE](https://github.com/mysto/java-fpe)：NIST批准的FF3和FF3-1格式保留加密(FPE)算法在Java中的实现。
@@ -3480,7 +3571,6 @@
 * [Desensitized](https://github.com/DannyHoo/desensitized)：基于自定义注解实现日志字段脱敏。
 * [Sensitive Spring Boot Starter](https://github.com/lzhpo/sensitive-spring-boot-starter)：一款强大的数据脱敏插件，支持多种脱敏策略。
 * [Bus Sensitive](https://github.com/818000/bus/tree/main/bus-sensitive)：Bus Sensitive是一款企业级数据脱敏和去敏感化框架，旨在通过可定制的脱敏策略保护敏感信息。
-* [Jackson View Extension Spring Boot Starter](https://github.com/vennarshulytz/json-view-ext-parent)：一个基于Jackson的Spring Boot Starter，提供比@JsonView更灵活的JSON序列化字段控制能力，支持细粒度的字段过滤和敏感数据脱敏。
 * [Mybatis Encrypt Plugin](https://github.com/chenhaiyangs/mybatis-encrypt-plugin)：Mybatis数据脱敏和字段加解密插件。
 * [Mybatis Crypt](https://github.com/miaoxinwei/mybatis-crypt)：Mybatis拦截器，实现数据库数据脱敏。
 
@@ -3511,6 +3601,7 @@
 * [Snuck](https://github.com/mauro-g/snuck)：Snuck是一款自动化工具，能够有效帮助用户查找Web应用程序中的XSS漏洞。
 * [XssRequestFilter](https://github.com/techguy-bhushan/XssRequestFilters)：XssRequestFilter是一个基于Spring的库，只需使用一个简单的@XssFilter注解，即可过滤@Controller/@RestController请求中的跨站脚本。
 * [AntiSamy](https://github.com/nahsra/antisamy)：AntiSamy是一个用于快速、可配置地清理来自不受信任来源的HTML的库。
+* [Safe HTML Types](https://github.com/google/safe-html-types)：Java版本的Safe HTML Types库，由Google开源。
 
 #### TLS/SSL
 
@@ -3551,6 +3642,7 @@
 * [Dogtag PKI](https://github.com/dogtagpki/pki)：Dogtag证书系统是一个企业级开源证书颁发机构(CA)。
 * [ACME4J](https://github.com/shred/acme4j)：ACME Java客户端。
 * [LittleCA](https://github.com/dushitaoyuan/littleca)：LittleCA是一个基于BC的小型CA(证书颁发机构)库。
+* [RPKI Commons](https://github.com/RIPE-NCC/rpki-commons)：该库包含X.509 v3证书扩展的实现，该扩展将IP地址块或前缀列表绑定到证书的主题(IP地址委派扩展)，由欧洲IP网络协调中心开源。
 
 #### 数据匿名化
 
@@ -3632,6 +3724,7 @@
 * [Triava](https://github.com/trivago/triava)：Triava项目包含几个trivago的基于Java项目的核心库：缓存、集合、注解、并发库等等。
 * [Caravan](https://github.com/ctripcorp/caravan)：Caravan是携程框架部门SOA常用开发工具的集合，包含配置、熔断等高度重用组件。
 * [Java Util](https://github.com/jdereg/java-util)：Java Util提供非常多与其他工具库功能不同的实用程序。
+* [JetLinks Core](https://github.com/jetlinks/jetlinks-core)：JetLinks核心模块，提供通用的API和工具封装。
 * [SoftwareMill Common](https://github.com/softwaremill/scala-common)：SoftwareMill开发的一些通用工具类。
 * [LiteCommon](https://github.com/litesuits/android-common)：LiteCommon是一个Android工具库。
 * [Twitter Util](https://github.com/twitter/util)：由Twitter开源的惯用、小型、通用工具库。
@@ -3718,6 +3811,7 @@
 * [Ph Commons](https://github.com/phax/ph-commons)：Java 17库，包含所有项目都需要的大量实用类。
 * [Spring Lemon](https://github.com/naturalprogrammer/spring-lemon)：Spring Boot Web应用程序的工具库。
 * [J8+](https://github.com/kevin-lee/j8plus)：包含适用于Java 8的实用工具的库。
+* [Wisp](https://github.com/cashapp/wisp)：Wisp是一系列Kotlin模块的集合，提供各种功能和实用工具，包括配置、日志记录、功能标志等等。
 * [GoodUtils](https://github.com/gaoxingliang/goodutils)：GoodUtils包含一些有用的工具方法。
 * [DSI Utilities](https://github.com/vigna/dsiutils)：DSI Utilities是米兰大学DSI开发的项目中积累的类的大杂烩。
 * [Dew Common](https://github.com/gudaoxuri/dew-common)：Dew Common的理念是简化Java开发中最常用的操作，同时尽可能少地引入第三方包，做到通用、易用、精简。
@@ -3811,6 +3905,15 @@
 * [Jme3 Utilities](https://github.com/stephengold/jme3-utilities)：MonkeyEngine游戏的可重用代码和资源。
 * [Red5 Server Common](https://github.com/Red5/red5-server-common)：Red5服务器通用类。
 * [FalsePatternLib](https://github.com/FalsePattern/FalsePatternLib)：Minecraft模组Java工具库。
+* [Woodpecker Tools](https://github.com/woodpecker-framework/woodpecker-tools)：Woodpecker Tools封装了漏洞检测与漏洞利用中常见的操作。
+* [Invesdwin Util](https://github.com/invesdwin/invesdwin-util)：使开发更轻松、更统一的实用工具和辅助工具。
+* [JavaLib](https://github.com/fengwenyi/JavaLib)：JavaLib是一个Java开发基础工具类库。
+* [Spring Boot Extend](https://github.com/KevinClair/spring-boot-extend)：Spring Boot功能组件，只需添加依赖即可快速集成。
+* [Thomasjungblut Common](https://github.com/thomasjungblut/thomasjungblut-common)：涵盖了各种数据结构、算法以及其他所有东西的工具库。
+* [FTB Library](https://github.com/FTBTeam/FTB-Library)：一个适用于所有FTB模组的通用库。
+* [Fully Satisfies](https://github.com/frenchy64/fully-satisfies)：Clojure实用函数。
+* [Jadira](https://github.com/JadiraOrg/jadira)：Jadira是一个开源框架，旨在弥补集成常见、广泛应用的Java框架和格式方面的一些不足。
+* [JCommon](https://github.com/jfree/jcommon)：JCommon是一个免费的通用Java类库，被JFreeChart和Pentaho Reporting等多个项目所使用。
 
 ## 对象校验
 
@@ -3854,6 +3957,8 @@
 * [Checklist](https://github.com/davegurnell/checklist)：用于读取和校验数据的库，支持硬约束和软约束。
 * [Validator](https://github.com/devefx/validator)：Validator是基于Java Web的一款校验框架。
 * [ZodKmp](https://github.com/piashcse/ZodKmp)：ZodKmp是流行的Zod TypeScript校验库的Kotlin多平台实现。
+* [Validate Spring Boot Starter](https://github.com/liangbaika/validate)：Validate Spring Boot Starter是一个与Spring Boot框架无缝集成的灵活丰富的验证框架。
+* [Validation Modeling](https://github.com/kawasima/validation-modeling)：Validation Modeling是一个针对同一领域规范，实施和比较不同验证方法的实验性项目。
 
 ## Bean映射&复制
 
@@ -3998,6 +4103,7 @@
 * [Gin](https://github.com/gwtplus/google-gin)：GIN通过使用代码生成而不是反射来引入Guice功能的子集。
 * [Inversion](https://github.com/fabioCollini/Inversion)：Inversion简化了ServiceLoader获取特定接口所有实现的操作。
 * [Hub](https://github.com/SilenceDut/Hub)：Hub是一个简洁的依赖注入库，可以在通过接口调用实现时避免检查空值。
+* [Jam](https://github.com/yakivy/jam)：Jam是一个极其简单的依赖注入Scala库。
 
 ## AOP
 
@@ -4014,7 +4120,6 @@
 * [Xerath](https://github.com/jiangzhengnan/Xerath)：Xerath是一个基于注解、ASM、Gradle Transform API的Android AOP开发框架。
 * [MethodInterceptProxy](https://github.com/zhangke3016/MethodInterceptProxy)：MethodInterceptProxy是一个适用于Android的代理方法。
 * [JAOP](https://github.com/ltshddx/jaop)：JAOP是一个基于Javassist和ASM的Gradle AOP插件。
-* [Disco](https://github.com/awslabs/disco)：Disco包括用于创建Java代理的框架，用于分布式系统的面向切面的工具，由AWS开源。
 * [AndAOP](https://github.com/luckybilly/AndAOP)：AndAOP是一个提供在Android中进行AOP编程的Gradle插件。
 * [EzHook](https://github.com/XDMrWu/EzHook)：EzHook是一个用于KMP的AOP框架，支持Kotlin/Native和Kotlin/JS。
 * [CGLib Android](https://github.com/leo-ouyang/CGLib-for-Android)：CGLib Android是一个用于动态生成子类的高级API，其实现基于DexMaker。
@@ -4033,6 +4138,7 @@
 * [Easy Byte Coder](https://github.com/ymm-tech/easy-byte-coder)：Easy Byte Coder是一个基于JVM的非侵入式字节码注入框架，由满帮开源。
 * [AspectK](https://github.com/Mole-Labs/aspectk)：Kotlin多平台编译时面向切面编程。
 * [JvmXposed](https://github.com/cinit/JvmXposed)：JvmXposed是一个用于OpenJDK HotSpot JVM的运行时Java方法钩子库，其灵感来源于Xposed框架。
+* [MethodInterceptor](https://github.com/zhuguohui/MehodInterceptor)：MethodInterceptor使用ASM来动态修改字节码，以达到方法拦截。
 
 ## 缓存库
 
@@ -4117,6 +4223,7 @@
 * [OkCache](https://github.com/spring2go/okcache)：OkCache是一个高性能二级缓存实现, 内存LRU缓存、磁盘文件持久化缓存。
 * [Spring Boot Redis Caffeine Cache](https://github.com/yudiandemingzi/springboot-redis-caffeine-cache)：Caffeine、Redis实现的二级缓存框架。
 * [Guava Cache Overflow Extension](https://github.com/raphw/guava-cache-overflow-extension)：Guava Cache扩展，允许缓存条目在内存无法存储时仍能持久化。
+* [Jujiu](https://github.com/jcouyang/jujiu)：函数式Scala缓存。
 
 #### 分布式缓存
 
@@ -4143,6 +4250,7 @@
 * [Play Redis](https://github.com/KarelCemus/play-redis)：Play框架的Redis缓存模块。
 * [Mycat JCache](https://github.com/MyCATApache/Mycat-JCache)：Mycat团队开发的高性能Memcached，使用Java NIO和堆外内存。
 * [Atoms](https://gitee.com/jbakwd/atoms)：基于J2Cache重新设计开发的一套分布式缓存。
+* [ZkNotify Cache](https://github.com/PhantomThief/zknotify-cache)：ZooKeeper通知更新的本地缓存。
 
 #### 键值存储
 
@@ -4169,6 +4277,7 @@
 * [HaloDB](https://github.com/yahoo/HaloDB)：HaloDB是一个用Java编写的快速且简单的嵌入式键值存储，由Yahoo开源。
 * [JustinDB](https://github.com/justin-db/JustinDB)：JustinDB是一个最终一致的键值数据库，有利于写入可用性。
 * [Voldemort](https://github.com/voldemort/voldemort)：Voldemort是一个分布式键值存储系统，Amazon Dynamo的开源克隆，由LinkedIn开源。
+* [CoralStore](https://www.coralblocks.com/index.php/category/coralstore/)：CoralStore是一个读写消息存储系统，采用内存和磁盘两种实现方式。
 * [SwayDB](https://github.com/simerplaha/SwayDB)：用于JVM的持久内存键值存储引擎，旨在实现高性能和资源效率。
 * [BabuDB](https://github.com/xtreemfs/babudb)：BabuDB是一个嵌入式非关系型数据库系统，由柏林自由大学开源。
 * [BBoxDB](https://github.com/jnidzwetzki/bboxdb)：BBoxDB是一个高可用的分布式存储管理器，旨在处理多维大数据。
@@ -4229,6 +4338,8 @@
 * [Kites](https://github.com/WyattJia/Kites)：Kites是一个支持一致性和分区容错的分布式键值存储系统。
 * [Slumber DB](https://github.com/RichardHightower/slumberdb)：用于REST和WebSocket存储的JSON/Java数据库。
 * [KVStorage](https://gitee.com/164587694/KVStorage)：KVStorage是一个简单易用的Android键值数据库。
+* [DoKV](https://github.com/leavesCZY/DoKV)：DoKV是一个小巧而强大的Key/Value管理框架。
+* [DataStore4J](https://github.com/theuntamed839/DataStore4J)：DataStore4J是一个基于LSM树架构的线程安全、高性能键值数据存储系统。
 
 #### 数据网格
 
@@ -4280,7 +4391,6 @@
 * [XLog](https://github.com/elvishew/xLog)：XLog是适用于Android和Java的轻量、强大且灵活的记录器。
 * [Hugo](https://github.com/JakeWharton/hugo)：用于调试版本的注解触发方法调用日志记录。
 * [Odin](https://github.com/valskalla/odin)：Odin库支持在Scala应用程序中采用函数式日志记录方法。
-* [P6Spy](https://github.com/p6spy/p6spy)：P6Spy是一个框架，无需对应用程序进行任何代码更改即可无缝拦截和记录数据库数据。
 * [Chronicle Logger](https://github.com/OpenHFT/Chronicle-Logger)：Chronicle Logger是一个亚微秒Java记录器，支持标准日志记录API，例如SLF4j和Log4J。
 * [CoralLog](https://www.coralblocks.com/index.php/category/corallog/)：CoralLog是一个非侵入式、无垃圾且超低延迟的异步Java日志记录/事件源库，可实现极高的吞吐量，而不会给应用程序执行增加延迟或差异。
 * [Jcabi Log](https://github.com/jcabi/jcabi-log)：SLF4J的静态包装器，无需在每个Java类中创建静态LOGGER实例。
@@ -4296,7 +4406,6 @@
 * [Yolo](https://github.com/ustream/yolo)：Java中的日志尾随和解析框架，Ustream开源。
 * [Napier](https://github.com/AAkira/Napier)：Napier是Kotlin Multiplatform的记录器库。
 * [KLogging](https://github.com/klogging/klogging)：KLogging是一个纯Kotlin日志库，它使用Kotlin习惯用法来创建记录器和发送日志事件。
-* [Log4JDBC](https://github.com/arthurblake/log4jdbc)：Log4JDBC是一个Java JDBC驱动程序，可以使用SLF4J记录其他JDBC驱动程序的SQL和/或JDBC调用。
 * [OWASP Security Logging](https://github.com/augustd/owasp-security-logging)：用于记录安全相关事件的标准Java API。
 * [Rainbow Gum](https://github.com/jstachio/rainbowgum)：Rainbow Gum是一个快速、小型、JDK 21+、GraalVM原生友好的SLF4J日志框架。
 * [LogEvents](https://github.com/jhannes/logevents)：LogEvents是一个小型日志记录框架，构建在SLF4J之上。
@@ -4347,6 +4456,7 @@
 * [Khronicle](https://github.com/JuulLabs/khronicle)：简单而强大的Kotlin多平台日志记录库。
 * [ViseLog](https://github.com/xiaoyaoyou1212/ViseLog)：日志系统，使用森林对象维护不同的日志树进行日志输出。
 * [Safe Logging](https://github.com/palantir/safe-logging)：用于安全日志消息的接口和实用程序，由Palantir开源。
+* [KLogger](https://github.com/soywiz-archive/klogger)：Kotlin多平台日志记录器。
 
 #### 日志门面
 
@@ -4410,6 +4520,12 @@
 * [BizLog](https://github.com/mouzt/mzt-biz-log)：Spring Boot注解通用操作日志组件，美团员工开源。
 * [EasyLog](https://github.com/flyhero/easy-log)：EasyLog是基于Spring Boot的一款通用操作日志组件，通过注解优雅地聚合项目中的操作日志。
 
+#### JDBC日志
+
+* [P6Spy](https://github.com/p6spy/p6spy)：P6Spy是一个框架，无需对应用程序进行任何代码更改即可无缝拦截和记录数据库数据。
+* [Jdbcdslog](https://github.com/jdbcdslog/jdbcdslog)：Jdbcdslog是一个用于记录和格式化JDBC调用日志的增强工具。
+* [Log4JDBC](https://github.com/arthurblake/log4jdbc)：Log4JDBC是一个Java JDBC驱动程序，可以使用SLF4J记录其他JDBC驱动程序的SQL和/或JDBC调用。
+
 #### 彩色日志
 
 * [PL4J](https://github.com/ludovicianul/pl4j)：PL4J是一个SLF4j包装器，可以通过jansi使用ANSI格式进行漂亮打印。
@@ -4436,6 +4552,7 @@
 * [Splunk Java SDK](https://github.com/splunk/splunk-sdk-java)：Splunk是一个搜索引擎和分析环境，它使用分布式MapReduce架构来高效地索引、搜索和处理大型时变数据集。
 * [Spring Boot Actuator LogView](https://github.com/lukashinsch/spring-boot-actuator-logview)：简单的日志文件查看器，作为Spring Boot Actuator端点。
 * [LogViewer](https://github.com/satyagraha/logviewer)：提供在Web浏览器中查看日志文件的功能，使用WebSocket实现。
+* [Superlog](https://github.com/wangfei1975/superlog)：一款适用于Android和BB10的日志查看工具。
 
 #### Logback Appender
 
@@ -4455,6 +4572,8 @@
 * [Tjahzi](https://github.com/tkowalcz/tjahzi)：Tjahzi是一组用于记录日志到Grafana Loki的Java工具和附加器。
 * [GELFJ](https://github.com/t0xa/gelfj)：GELFJ是Java中非常简单的GELF实现，带有Log4j附加程序和JDK日志处理程序。
 * [Logback MDC TTL](https://github.com/ofpay/logback-mdc-ttl)：Logback扩展，支持跨线程池的MDC跟踪。
+* [Blacklite](https://github.com/tersesystems/blacklite)：Blacklite是一个SQLite Appender，适用于需要日志数据缓冲区，并且希望能够使用内置查询语言从不同进程查询日志的情况。
+* [Logback AWSLogs Appender](https://github.com/pierredavidbelanger/logback-awslogs-appender)：用于Logback的AWS日志(CloudWatch)附加器。
 
 #### 结构化日志
 
@@ -4564,6 +4683,7 @@
 * [Orderly](https://github.com/ndimiduk/orderly)：用于创建可排序字节数组的模式和类型系统。
 * [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct_java_runtime)：Kaitai Struct是一种声明式语言，用于描述各种二进制数据结构。
 * [KTON](https://github.com/Jire/KTON)：纯Kotlin中的对象表示法。
+* [KEncode](https://github.com/Eignex/kencode)：KEncode是一个Kotlin多平台库，专注于将数据序列化为简短、紧凑、且符合特定字符集限制的文本字符串(如Base62编码)。
 
 #### Protocol Buffer
 
@@ -4735,6 +4855,7 @@
 * [Kson](https://github.com/realtimetech-solution/kson)：Kson是一个Java序列化/反序列化库，可以将Java对象转换为JSON并反向转换。
 * [Cason](https://github.com/cao-awa/Cason)：Cason是一个轻量级、高性能、类型安全的Kotlin JSON/JSON5解析库，具有富有表现力的DSL。
 * [JSON4j](https://github.com/DanielLiu1123/json4j)：一个具有鲜明风格的JSON库。
+* [Scala JSON](https://github.com/MediaMath/scala-json)：为Scala、Scala Native和Scala.js提供编译时JSON序列化和抽象。
 
 #### JSON库
 
@@ -4744,12 +4865,10 @@
 * [JSON Masker](https://github.com/Breus/json-masker)：JSON Masker库允许高度灵活地屏蔽JSON中的敏感数据。
 * [Hope](https://github.com/santanusinha/hope)：Hope是一种用Java编写的用于对JSON进行谓词评估的高级语言。
 * [JSON Canonicalization](https://github.com/cyberphone/json-canonicalization)：JSON Canonicalization Scheme的Java实现。
-* [Squiggly](https://github.com/bohnman/squiggly)：Squiggly是一个Jackson JSON PropertyFilter，它使用Facebook Graph API过滤语法的子集选择对象/列表/映射的属性。
 * [JSON Discoverer](https://github.com/SOM-Research/jsonDiscoverer)：JSON Discoverer是一款可让你获取JSON文档隐式架构的工具，由加泰罗尼亚开放大学开源。
 * [Json Wikipedia](https://github.com/diegoceccarelli/json-wikipedia)：Json Wikipedia包含将Wikipedia XML转储转换为JSON或Avro转储的代码。
 * [JsonTemplate](https://github.com/json-template/JsonTemplate)：一个生成JSON字符串的Java工具。
 * [JSON Repair](https://github.com/HAibiiin/json-repair)：JSON Repair是一个Java库，用于修复由大语言模型在不同应用层生成的异常JSON。
-* [JsonView](https://github.com/monitorjbl/json-view)：使用Jackson实现编程化JSON视图。
 * [JSON Typedef Codegen](https://github.com/jsontypedef/json-typedef-codegen)：一个可以根据JSON Typedef模式生成代码的CLI工具。
 * [JSON2JSONTransformer](https://github.com/intuit/json2jsontransformer)：一个轻量级、配置驱动的Java库，用于使用JSONPath表达式和可插拔的自定义转换逻辑将一个JSON结构转换为另一个JSON结构，由Intuit开源。
 * [Kudos](https://github.com/kanyun-inc/Kudos)：Kudos的设计目的是让使用Gson和Jackson反序列化Kotlin类的过程更安全、更便捷。
@@ -4868,6 +4987,7 @@
 * [JSON:API](https://github.com/MarkoMilos/jsonapi)：基于现代JSON库Moshi，使用Kotlin和Java构建的用于简化JSON:API使用的库。
 * [JsonApiX](https://github.com/infinum/kotlin-jsonapix)：JsonApiX是一个Android注解处理器库，旨在将常规Kotlin类转换为其JSON API表示形式。
 * [JSON:API Kotlin](https://github.com/eygraber/jsonapi-kotlin)：JSON:API Kotlin是一个用于处理JSON:API文档的Kotlin多平台库。
+* [JSONApi](https://github.com/faogustavo/JSONApi)：一种实现JSONApi规范，将模型转换为JSON以及将JSON转换为模型的简单方法。
 
 #### JSON比较
 
@@ -4880,6 +5000,16 @@
 * [Jazon](https://github.com/zendesk/jazon)：一个用于测试JSON负载断言的库。
 * [JsonDiff](https://github.com/algesten/jsondiff)：结构化JSON差异/补丁工具。
 * [JSON Diff](https://github.com/deblockt/json-diff)：一个可定制的库，用于执行JSON比较并输出详细的差异信息。
+
+#### JSON过滤
+
+* [JsonView](https://github.com/monitorjbl/json-view)：使用Jackson实现编程化JSON视图。
+* [Squiggly](https://github.com/bohnman/squiggly)：Squiggly是一个Jackson JSON PropertyFilter，它使用Facebook Graph API过滤语法的子集选择对象/列表/映射的属性。
+* [JFilter](https://github.com/rkonovalov/jfilter)：JFilter库可用于Spring Web服务项目中，对服务响应中的字段进行过滤。
+* [Jackson JAX-RS PropertyFiltering](https://github.com/HubSpot/jackson-jaxrs-propertyfiltering)：此库用于自动过滤来自JAX-RS端点的JSON响应。
+* [Jackson AntPath Property Filter](https://github.com/Antibrumm/jackson-antpathfilter)：Jackson过滤器，将当前要序列化的值的路径与AntPathMatcher进行匹配。
+* [Jackson View Extension Spring Boot Starter](https://github.com/vennarshulytz/json-view-ext-parent)：一个基于Jackson的Spring Boot Starter，提供比@JsonView更灵活的JSON序列化字段控制能力，支持细粒度的字段过滤和敏感数据脱敏。
+* [JSONFilter](https://github.com/Liuyis/jsonfilter)：一个基于FastJSON和Spring Boot的简单POJO属性过滤器，用于RESTful JSON输出。
 
 #### JsonLogic
 
@@ -4902,6 +5032,7 @@
 * [Konfig](https://github.com/npryce/konfig)：Konfig为从多个来源收集的配置属性提供了可扩展、类型安全的API。
 * [NightConfig](https://github.com/TheElectronWill/night-config)：NightConfig是一个功能强大且易于使用的Java配置库，用Java 8编写。
 * [ConfigMe](https://github.com/AuthMe/ConfigMe)：ConfigMe是一个开箱即用的配置管理库，支持YAML。
+* [Jakarta Config](https://github.com/jakartaee/config)：Jakarta Config定义了一个核心框架，允许应用程序和其他Jakarta EE组件以可移植的方式从不同的环境感知源读取配置数据。
 * [Configurate](https://github.com/SpongePowered/Configurate)：Configurate是一个用于Java应用程序的简单配置库，它提供基于节点的数据表示，能够处理各种配置格式。
 * [Avaje Config](https://github.com/avaje/avaje-config)：Avaje Config为JVM应用程序提供外部配置，可以通过YAML或Properties文件提供配置，并使用命令行参数和资源指定要加载的文件。
 * [SmallRye Config](https://github.com/smallrye/smallrye-config)：SmallRye Config是一个提供配置应用程序、框架和容器的方法的库。
@@ -4925,6 +5056,7 @@
 * [Tamaya](https://github.com/apache/incubator-retired-tamaya)：Tamaya是一个非常强大但灵活的配置方案。
 * [ConfigLib](https://github.com/Exlll/ConfigLib)：ConfigLib是一个用于保存、加载、更新和注释YAML配置文件的Minecraft库。
 * [Tscfg](https://github.com/carueda/tscfg)：Tscfg是一个命令行工具，它接收一个Typesafe Config可解析的配置模式，并生成所有样板代码，使定义能够以类型安全、不可变对象的形式存在。
+* [YCB](https://github.com/yahoo/ycb-java)：YCB是一个多维配置库，它能够根据描述各种值的资源文件构建配置包，由Yahoo开源。
 * [JShepherd](https://github.com/bsommerfeld/jshepherd)：JShepherd是一个基于注解的Java配置管理库。
 * [Hutool Settings](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-setting)：Hutool Settings是功能更强大的Setting配置文件和Properties封装。
 * [Bus Setting](https://github.com/818000/bus/tree/main/bus-setting)：Bus Setting提供了一个统一而强大的框架来管理应用程序配置。
@@ -4974,6 +5106,7 @@
 * [ConfigKeeper](https://gitee.com/sxfad/config-keeper)：ConfigKeeper是由随行付基于Spring Cloud研发的分布式配置中心。
 * [Fig](https://github.com/theapache64/fig)：使用Google Sheet作为远程配置。
 * [Duic](https://github.com/zhudyos/duic)：Duic是采用Kotlin与Spring Webflux开发的配置中心。
+* [YiDB](https://github.com/eBay/YiDB)：YiDB是一个基于元数据的配置数据持久化和查询服务，由eBay开源。
 * [Diablo](https://github.com/ihaolin/diablo)：轻量的分布式配置管理平台。
 * [CredHub](https://github.com/cloudfoundry/credhub)：CredHub提供了一个API，可以安全地存储、生成、检索和删除各种类型的凭据。
 * [Infrastructor](https://github.com/infrastructor/infrastructor)：Infrastructor是一款用Groovy编程语言编写的服务器配置管理工具。
@@ -5030,6 +5163,7 @@
 * [TOML JavaLib](https://github.com/TheElectronWill/TOML-javalib)：用于读写TOML数据的Java库。
 * [TOML Clj](https://github.com/tonsky/toml-clj)：TOML Clj是一个快速的JVM Clojure TOML解析器。
 * [Toml4j](https://github.com/johnlcox/toml4j)：这是一个用于解析TOML文件的Java解析器。
+* [TOML Schema](https://github.com/brunoborges/toml-schema)：TOML Schema Definition(TOSD)是一种基于TOML的模式语言，用于描述和验证TOML配置文件的结构、名称和值类型。
 
 ## 进程间通信
 
@@ -5145,6 +5279,8 @@
 * [Sig4j](https://github.com/msteinbeck/sig4j)：Sig4j是一个受Qt信号与槽机制启发、为Java开发的事件通信库。
 * [ModularEventBus](https://github.com/pengxurui/ModularEventBus)：ModularEventBus是一款帮助Android App解决事件总线滥用问题的框架。
 * [Rxbus](https://github.com/wzgiceman/Rxbus)：RxJava实现的时间总线。
+* [KDispatcher](https://github.com/Rasalexman/KDispatcher)：KDispatcher是一个Kotlin事件分发器。
+* [Event Emitter](https://github.com/Zhuinden/event-emitter)：EventEmitter允许你注册多个观察者，当没有观察者时，事件会被放入队列。
 
 #### 消息总线
 
@@ -5204,6 +5340,39 @@
 * [Forklift](https://github.com/dcshock/forklift)：Forklift是一款企业服务总线，支持快速轻松地构建和部署微服务。
 * [WSO2 ESB](https://github.com/wso2-attic/product-esb)：WSO2 Enterprise Service Bus是一款轻量级、高性能、近乎零延迟的产品，全面支持SOAP、WS和REST等多种技术。
 * [CSB SDK](https://github.com/aliyun/csb-sdk)：CSB-SDK是一个客户端调用SDK，用于调用阿里云CSB产品开放的HTTP或Web服务API。
+
+#### 消息队列库
+
+* [RabbitMQ Java](https://github.com/rabbitmq/rabbitmq-java-client)：RabbitMQ Java客户端库。
+* [Lyra](https://github.com/jhalterman/lyra)：Lyra是一个拥抱故障的RabbitMQ客户端，可在发生意外故障时自动恢复AMQP资源，帮助你实现服务的高可用性。
+* [Hop](https://github.com/rabbitmq/hop)：适用于Java、Groovy和其他JVM语言的RabbitMQ HTTP API客户端。
+* [SIA RabbitMQ Plus](https://github.com/siaorg/sia-rabbitmq-plus)：SIA RabbitMQ Plus是宜信开发的一个简单RabbitMQ客户端。
+* [Spring AMQP](https://github.com/spring-projects/spring-amqp)：Spring AMQP项目将核心Spring概念应用于基于AMQP的消息传递解决方案的开发。
+* [RabbitMQ Access](https://github.com/littlersmall/rabbitmq-access)：RabbitMQ手动确认模式Java封装。
+* [RabbitMQ Advanced](https://github.com/societe-generale/rabbitmq-advanced-spring-boot-starter)：一个用于与RabbitMQ进行消息传递的通用库，它是Spring Boot AMQP的扩展，由法国兴业银行开源。
+* [RabbitMQ Kotlin](https://github.com/viartemev/rabbitmq-kotlin)：RabbitMQ Kotlin旨在为Kotlin开发者提供一种高效、基于协程的方式来与RabbitMQ交互。
+* [Spring MultiRabbit](https://github.com/freenowtech/spring-multirabbit)：Spring MultiRabbit是一个用于在Spring Boot应用中启用多个RabbitMQ代理的库。
+* [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
+* [Confluent Parallel Consumer](https://github.com/confluentinc/parallel-consumer)：并行Apache Kafka客户端包装器，具有客户端排队功能、更简单的消费者/生产者API、关键并发性和可扩展的非阻塞IO处理。
+* [Greyhound](https://github.com/wix/greyhound)：Apache Kafka的高级SDK。
+* [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
+* [Li Apache Kafka Clients](https://github.com/linkedin/li-apache-kafka-clients)：Li Apache Kafka Clients是一个基于原生Apache Kafka客户端构建的Kafka客户端封装库，由LinkedIn开发。
+* [Kafka Fast](https://github.com/gerritjvv/kafka-fast)：适用于任何JVM语言的快速Kafka库，用Clojure实现。
+* [Vert.x Kafka Client](https://github.com/vert-x3/vertx-kafka-client)：Vert.x的响应式Kafka客户端。
+* [Priority Kafka Client](https://github.com/flipkart-incubator/priority-kafka-client)：Kafka客户端，允许按照配置的优先级向Kafka生成和从Kafka消费记录，由Flipkart开源。
+* [Krackle](https://github.com/blackberry/Krackle)：Krackle是一个低成本的Kafka客户端。
+* [Jackdaw](https://github.com/obsidiandynamics/jackdaw)：Kafka客户端的简单配置和Mock。
+* [NSQ-J](https://github.com/sproutsocial/nsq-j)：NSQ实时分布式消息传递平台的Java客户端。
+* [NATS Java](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
+* [Amazon SQS Java Messaging Library](https://github.com/awslabs/amazon-sqs-java-messaging-lib)：Amazon SQS Java Messaging Library包含与JMS兼容的类，用于与Amazon SQS进行通信。
+* [IBM MQ JMS Spring Components](https://github.com/ibm-messaging/mq-jms-spring)：用于辅助MQ JMS与Spring框架集成的组件。
+* [Java Pub/Sub](https://github.com/googleapis/java-pubsub)：Google Cloud Pub/Sub的Java惯用客户端。
+* [Google Pub/Sub](https://github.com/GoogleCloudPlatform/pubsub)：Google Cloud Pub/Sub开源项目。
+* [Async Google Pub/Sub Client](https://github.com/spotify/async-google-pubsub-client)：一个低级别的Pub/Sub客户端和一个并发的每主题批处理发布者，由Spotify开发。
+* [OpenMAMA](https://github.com/finos/OpenMAMA)：OpenMAMA是一个高性能、与供应商无关的轻量级包装器，它为跨各种平台和语言的不同中间件和消息传递解决方案提供通用API接口，由金融科技基金会开源。
+* [Beanstalkc](https://github.com/dinstone/beanstalkc)：Beanstalkc是Beanstalkd的一个线程安全客户端库，支持连接池。
+* [TrendrrBeanstalk](https://github.com/dustismo/TrendrrBeanstalk)：Java Beanstalk客户端。
+* [JavaBeanstalkClient](https://github.com/RTykulsker/JavaBeanstalkClient)：一个用于Beanstalkd工作队列服务的Java客户端。
 
 ## GraphQL
 
@@ -5296,6 +5465,7 @@
 * [XK-Time](https://gitee.com/xkzhangsan/xk-time)：XK-Time包含时间转换、时间计算、时间格式化、时间解析、日历、时间Cron表达式和时间NLP等工具。
 * [Date4j](https://github.com/IanDarwin/date4j)：Date4j是Java内置日期类的轻量级替代品。
 * [Time](https://github.com/kizitonwose/Time)：Kotlin中类型安全的时间计算，由泛型代码驱动。
+* [Klock](https://github.com/soywiz-archive/klock)：Klock是一个适用于多平台Kotlin的日期和时间库。
 * [TrueTime](https://github.com/instacart/truetime-android)：Android NTP时间库，获取真实的当前时间，不受设备时钟时间变化的影响。
 * [Adhan Kotlin](https://github.com/batoulapps/adhan-kotlin)：Adhan是一个经过充分测试和记录良好的库，用于计算伊斯兰祈祷时间。
 * [ITL Java](https://github.com/fikr4n/itl-java)：ITL Java是一个用于计算祈祷时间、朝拜方向和伊斯兰回历日期的Java库。
@@ -5395,6 +5565,8 @@
 * [Carbon MultiTenancy](https://github.com/wso2/carbon-multitenancy)：Carbon MultiTenancy的目标是通过允许多个用户(租户)同时登录并使用同一台服务器/集群，并以租户隔离的方式，最大限度地实现资源共享，由WSO2开源。
 * [Spring Tenancy](https://github.com/spring-attic/spring-tenancy)：Spring Tenancy为管理基于Spring的应用程序中的多租户方法提供了一个框架。
 * [Multitenant](https://github.com/muxiangqiu/multitenant)：独立数据库模式实现多租户。
+* [Multi Tenancy Spring Boot Starter](https://github.com/ccwxl/multi-tenancy-spring-boot-starter)：Multi Tenancy Spring Boot Starter是一个基于Spring Boot的多租户的开发组件。
+* [Mybatis Multi Tenancy](https://github.com/Mearalu/mybatis-multi-tenancy)：Mybatis Multi Tenancy是一个Mybatis的基于共享数据表模式的多租户插件。
 
 ## MATLAB
 
@@ -5488,6 +5660,8 @@
 * [JOpenShowVar](https://github.com/aauc-mechlab/JOpenShowVar)：JOpenShowVar是一个Java开源跨平台Kuka机器人通信接口，允许读写受控机械手的变量和数据结构，由奥勒松大学学院开源。
 * [EV3Dev Lang Java](https://github.com/ev3dev-lang-java/ev3dev-lang-java)：EV3Dev Lang Java是一个学习Java并使用EV3Dev和LeJOS方式支持的硬件为Mindstorms机器人创建软件的项目。
 * [Firmata4j](https://github.com/kurbatov/firmata4j)：Firmata4j是用Java编写的Firmata客户端库，该库允许从你的Java程序控制运行Firmata协议的Arduino。
+* [Firmata](https://github.com/4ntoine/Firmata)：Firmata纯Java实现。
+* [Firmata Processing](https://github.com/firmata/processing)：Firmata的Processing客户端。
 * [Astrobee](https://github.com/nasa/astrobee_android)：Astrobee机器人软件公开了一个Java API，以便与基于ROS的机器人内部消息系统进行交互，由NASA开发。
 * [IIWA STACK](https://github.com/IFL-CAMP/iiwa_stack)：适用于KUKA LBR IIWA R800/R820(7/14Kg)的ROS Indigo/Kinetic元软件包。
 * [Robo4J](https://github.com/Robo4J/robo4j)：Robo4J提供了一种简单的方法来开始构建自定义硬件并为其创建在JVM上运行的软件。
@@ -5527,6 +5701,9 @@
 * [RxJavaMath](https://github.com/ReactiveX/RxJavaMath)：RxJava的数学运算符。
 * [SpinalHDL Math](https://github.com/tomverbeure/math)：SpinalHDL硬件数学库。
 * [BigFraction](https://github.com/kiprobinson/BigFraction)：这是一个Java库，用于将分数表示为两个BigInteger的比值，并化简到最简形式。
+* [KBigNum](https://github.com/soywiz-archive/kbignum)：Kotlin中的大整数和小数。
+* [Bewl](https://github.com/fdilke/bewl)：Bewl是一个拓扑斯理论DSL。
+* [Kotlin Unsigned](https://github.com/kotlin-graphics/kotlin-unsigned)：通过装箱类型和无符号运算符对Kotlin提供无符号支持。
 
 #### 线性代数
 
@@ -5613,6 +5790,7 @@
 * [JavaCPP CMINPACK](https://github.com/bytedeco/javacpp-presets/tree/master/cminpack)：Minpack包含用于求解非线性方程和非线性最小二乘问题的软件。
 * [Scalalab](https://github.com/sterglee/scalalab)：在Scala中实现类似Matlab的简单高效的科学计算。
 * [Raster](https://github.com/replikativ/raster)：Clojure的快速数值计算。
+* [JNum](https://github.com/CH-Abhinav/JNum)：JNum是一个完全用Java构建的高性能数值计算库，利用了现代的FFM API和向量API。
 
 #### 多精度
 
@@ -5710,6 +5888,15 @@
 * [GraphStore](https://github.com/gephi/graphstore)：GraphStore是一个用Java编写的内存图结构实现。
 * [Distributed Graph Analytics](https://github.com/Sotera/distributed-graph-analytics)：Distributed Graph Analytics是一套专为Giraph和GraphX等批量同步并行(BSP)处理框架编写的图分析工具。
 * [JPregel](https://github.com/kowshik/JPregel)：基于谷歌Pregel的大规模图处理系统和Java API。
+* [Arabesque](https://github.com/qcri/Arabesque)：Arabesque是一个分布式图挖掘系统，它能够快速轻松地开发图挖掘算法，同时提供在Hadoop之上运行的可扩展、高效的执行引擎，由卡塔尔计算研究所开源。
+* [Okapi](https://github.com/grafos-ml/okapi)：Okapi是一个用于Giraph的机器学习和图挖掘算法库，由西班牙电信研究院开源。
+
+## Graphviz
+
+* [Graphviz Java](https://github.com/nidi3/graphviz-java)：将Graphviz与纯Java一起使用，使用Java代码创建Graphviz模型并将其转换为漂亮的图形。
+* [Graph Support](https://github.com/jamisonjiang/graph-support)：Graphviz的轻量级Java重实现，用于解析、布局和渲染图形。
+* [Digraph Parser](https://github.com/paypal/digraph-parser)：这是一个简单独立的Java解析器，用于解析Graphviz DOT语法的有向图DSL，由Paypal开源。
+* [GraphViz Java API](https://github.com/jabbalaci/graphviz-java-api)：借助这个简单的API，你可以直接从Java程序调用GraphViz的dot函数。
 
 ## 语义Web
 
@@ -5727,6 +5914,7 @@
 * [Racer](https://github.com/ha-mo-we/Racer)：Racer是一个知识表示系统，它为描述逻辑SRIQ(D)实现了高度优化的表格演算。
 * [Bio2RDF](https://github.com/bio2rdf/bio2rdf-scripts)：Bio2RDF是一个开源项目，它使用语义网技术构建并提供生命科学领域最大的关联数据网络。
 * [Anno4j](https://github.com/anno4j/anno4j)：用于读写W3C Web注释模型和W3C开放注释数据模型的API。
+* [qSKOS](https://github.com/cmader/qSKOS)：qSKOS是一个用于查找SKOS词汇表中质量问题的工具。
 
 #### 本体库
 
@@ -5774,6 +5962,7 @@
 * [MELT](https://github.com/dwslab/melt)：MELT是一个强大的Maven框架，用于开发、调整、评估和打包本体匹配系统，由德国曼海姆大学开源。
 * [AgreementMaker](https://github.com/agreementmaker/agreementmaker)：AgreementMaker是一个本体匹配系统，由伊利诺伊大学芝加哥分校开源。
 * [FCA Map](https://github.com/icgw/FCA-Map)：基于形式概念分析的本体匹配系统。
+* [AgreementMakerLight](https://github.com/AgreementMakerLight/AML-Project)：AgreementMakerLight是一款自动化且高效的本体匹配系统。
 
 #### 本体转换
 
@@ -5986,6 +6175,7 @@
 * [Kotlin FHIR](https://github.com/ohs-foundation/kotlin-fhir)：Kotlin FHIR是在Kotlin多平台上对HL7 FHIR数据模型的精简快速实现。
 * [FHIR Gateway](https://github.com/ohs-foundation/fhir-gateway)：FHIR Gateway是一个简单的访问控制代理，它位于FHIR存储的前面，并控制对FHIR资源的访问。
 * [OpenMRS FHIR2](https://github.com/openmrs/openmrs-module-fhir2)：OpenMRS的FHIR REST API及相关服务。
+* [Open mHealth Schema](https://github.com/openmhealth/schemas)：Open mHealth模式库。
 
 ## 化学库
 
@@ -6424,6 +6614,8 @@
 * [FlowRedux](https://github.com/freeletics/FlowRedux)：使用DSL和协程，轻松构建异步Kotlin多平台状态机并运行。
 * [Hierarchical Statemachine](https://github.com/artcom/hsm-java)：Hierarchical Statemachine是一个用于Java的分层状态机框架。
 * [kFSM](https://github.com/block/kfsm)：Kotlin中的有限状态机。
+* [StatusMachine](https://github.com/jettyrun/statusMachine)：Java状态机实现。
+* [Spring Flow StateMachine](https://github.com/domclick/spring-flow-statemachine)：Spring Flow StateMachine是一个增强的Spring Statemachine状态机库。
 
 ## 状态容器
 
@@ -6461,7 +6653,7 @@
 ## 模板引擎
 
 * [Thymeleaf](https://github.com/thymeleaf/thymeleaf)：Thymeleaf是一个现代服务器端Java模板引擎，适用于Web和独立环境。
-* [JSP](https://jakarta.ee/specifications/pages/)：Java应用程序最流行的视图技术之一，也是内置的模板引擎。
+* [JSP](https://github.com/jakartaee/pages)：Java应用程序最流行的视图技术之一，也是内置的模板引擎。
 * [Apache FreeMarker](https://github.com/apache/freemarker)：FreeMarker是一个基于模板生成文本输出(从HTML到自动生成源代码的任何内容)的通用工具。
 * [Pebble](https://github.com/PebbleTemplates/pebble)：Pebble是一个受Twig启发的Java模板引擎，带有内置的自动转义功能以确保安全，并且包括对国际化的集成支持。
 * [Closure Templates](https://github.com/google/closure-templates)：Closure Templates是一种客户端和服务端模板系统，可帮助你动态构建可重用的HTML和UI元素，由Google开源。
@@ -6530,6 +6722,8 @@
 * [Star Template](https://github.com/hstar9527/star-template)：一个轻量级的Java模板引擎。
 * [TeaTrove](https://github.com/teatrove/teatrove)：Tea是一种成熟的类型化模板语言。
 * [GoTemplate4j](https://github.com/verils/gotemplate4j)：一个用于Java的Go模板引擎实现，它可以评估Go模板并生成文本输出。
+* [JHaml](https://github.com/raymyers/JHaml)：Haml(XHTML抽象标记语言)的Java实现。
+* [Kirai](https://github.com/pwittchen/kirai)：kirai是一个用于Java、Android、Web和Unix终端的字符串格式化库。
 
 ## 批处理框架
 
@@ -6641,6 +6835,7 @@
 * [Skatteprosessen Task](https://github.com/Skatteetaten/skatteprosessen-task)：该库实现了一个用于处理有序任务队列的极简框架，既适用于流处理也适用于批处理。
 * [CronScheduler](https://github.com/TimeAndSpaceIO/CronScheduler)：CronScheduler是ScheduledThreadPoolExecutor和Timer的替代方案。
 * [TimeTask](https://github.com/BolexLiu/TimeTask)：TimeTask是一个轻量简洁的定时任务队列框架。
+* [Oddjob](https://github.com/robjg/oddjob)：Oddjob是一款任务自动化和调度解决方案。
 
 #### 作业队列
 
@@ -6727,12 +6922,14 @@
 * [Java Readline](https://github.com/aclemons/java-readline)：Java Readline是GNU Readline命令行库的JNI封装器。
 * [Kotlin CLI Utils](https://github.com/slackhq/kotlin-cli-util)：Kotlin CLI工具，主要用于Clikt。
 * [Prompt View](https://github.com/academia-de-codigo/prompt-view)：一个用于生成交互式命令行提示符的小型Java库。
+* [Cli](https://github.com/tomas-langer/cli)：命令行界面实用程序。
 
 #### TUI
 
 * [Lanterna](https://github.com/mabe02/lanterna)：Lanterna是一个Java库，允许你在纯文本环境中编写简单的半图形用户界面，与C库curses非常相似，但具有更多功能。
 * [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：该库实现了一个基于文本的窗口系统。
 * [TamboUI](https://github.com/tamboui/tamboui)：TamboUI将Rust的Ratatui或Go的Bubble Tea等项目中的TUI范式引入到Java生态系统中。
+* [Jatatui](https://github.com/oyvindberg/jatatui)：Jatatui是Ratatui v0.30.0的Java移植版。
 * [Text-IO](https://github.com/beryx/text-io)：Text-IO是一个用于创建Java控制台应用程序的库，它可用于需要读取用户交互式输入的应用程序。
 * [TUI Scala](https://github.com/oyvindberg/tui-scala)：TUI Scala是用于构建富终端用户界面和仪表盘的Scala库。
 * [Casciian](https://github.com/crramirez/casciian)：Java文本用户界面库。
@@ -6789,6 +6986,8 @@
 * [BotCommands](https://github.com/freya022/BotCommands)：JDA框架，具备构建现代机器人所需的一切。
 * [KCommando](https://github.com/koply/KCommando)：KCommando是一个基于注解的多功能命令处理框架。
 * [Command Framework](https://github.com/Despical/CommandFramework)：Command Framework是一个轻量级、基于注解的命令框架，其灵感来源于Bukkit的事件系统。
+* [Blade](https://github.com/vaperion/blade)：Blade是一个基于注解的易于使用的命令框架。
+* [Triumph CMDs](https://github.com/TriumphTeam/triumph-cmds)：Triumph CMDs是一个适用于多种平台的命令注解框架。
 
 #### ASCII艺术
 
@@ -6815,6 +7014,7 @@
 * [AsciiTerminal](https://github.com/julianmaster/AsciiTerminal)：AsciiTerminal是一个使用LibGDX库的ASCII终端Java显示程序。
 * [Embroidery](https://github.com/wi101/embroidery)：为控制台增加艺术气息。
 * [Kala Ansi](https://github.com/Glavo/kala-ansi)：Kala Ansi是一个轻量级的Java库，使ANSI装饰字符串变得非常容易。
+* [UtilSay](https://github.com/maandree/util-say)：用于为cowsay和类似cowsay的程序创建小马的工具。
 
 #### 文本打印
 
@@ -6938,6 +7138,7 @@
 * [Javolution](https://github.com/javolution/javolution)：用于实时和嵌入式系统的Java核心库。
 * [Trove](https://bitbucket.org/trove4j/trove/src/master/)：Trove库为Java提供高速对象和原始集合。
 * [Yammer Collections](https://github.com/yammer/yammer-collections)：Yammer开发的集合工具库，建立在Guava和标准集合库之上。
+* [HAM-Fisted](https://github.com/cnuernber/ham-fisted)：Clojure风格的不可变集合。
 * [Dexx Collections](https://github.com/andrewoma/dexx)：Dexx Collections是Scala不可变、持久集合类到纯Java的移植。
 * [JCommon Collections](https://github.com/facebookarchive/jcommon/tree/master/collections)：JCommon Collections是Facebook提供的集合库。
 * [Primitive Collections](https://github.com/Speiger/Primitive-Collections)：Primitive Collections是一个原始集合库，可减少内存使用并提高性能。
@@ -7018,6 +7219,8 @@
 * [RxPartialApplication](https://github.com/pakoito/RxPartialApplication)：RxPartialApplication是一个允许对RxJava函数原语进行部分应用的库。
 * [RxComprehensions](https://github.com/pakoito/RxComprehensions)：RxComprehensions是一个用于减少样板代码和简化Observable函数链的库。
 * [RxActions](https://github.com/pakoito/RxActions)：RxActions是一个库，它通过函数式地组合操作来简化RxJava的使用。
+* [Functional Groovy](https://github.com/mperry/functionalgroovy)：Functional Groovy是一个用于在Groovy中进行函数式编程的库。
+* [Mara](https://github.com/txusballesteros/mara)：Mara是一个库，可以为你的Android或Java项目提供特性或组合功能。
 
 #### 函数式异常处理
 
@@ -7101,6 +7304,7 @@
 * [FunctionalJ](https://github.com/NawaMan/FunctionalJ)：FunctionalJ是一个用Java编写函数式代码的库。
 * [Lmbda](https://github.com/LanternPowered/Lmbda)：Lmbda可用于从方法句柄生成Lambda表达式，并支持任何类型的访问修饰符，且不会造成性能损失。
 * [Lambda Type References](https://github.com/benjiman/lambda-type-references)：使用Lambda表达式进行类型引用。
+* [Enumerable](https://github.com/hraberg/enumerable)：使用字节码转换将表达式捕获为闭包的Java 5的Ruby/Smalltalk风格的内部迭代器。
 
 #### LINQ
 
@@ -7192,6 +7396,9 @@
 * [BCTrace](https://github.com/ShiftLeftSecurity/bctrace)：BCTrace一个用于创建生产就绪型Java代理的可扩展框架。
 * [Instrumentation](https://github.com/brutusin/instrumentation)：Instrumentation是一个可扩展的Java代理框架，用于检测在JVM上运行的程序(在类加载时修改字节码)，目的是捕获方法调用事件(开始、结束、错误)并通知自定义监听器。
 * [Micromixin](https://github.com/stianloader/Micromixin)：Micromixin是Spongepowered的Mixin框架的轻量级重新实现版本。
+* [AfterBurner](https://github.com/stephanenicolas/afterburner)：AfterBurner可以通过Javassist以简便的方式将字节码注入到指定的类和目标方法中。
+* [OPAL](https://github.com/opalj/opal)：OPAL是一个用于分析和工程Java字节码的可扩展库。
+* [AccessWidener](https://github.com/FabricMC/access-widener)：AccessWidener提供了一种放宽类访问限制的方法。
 
 ## 反编译
 
@@ -7217,6 +7424,7 @@
 * [Decompiler](https://github.com/sotasan/decompiler)：Decompiler是一个GUI应用程序，允许你使用各种反编译器浏览Java包。
 * [Vineflower](https://github.com/Vineflower/vineflower)：Vineflower是一种现代通用JVM语言反编译器，专注于提供最佳的质量、速度和可用性。
 * [Fernflower](https://github.com/JetBrains/fernflower)：Fernflower是第一个实际工作的Java分析反编译器，也可能是一般高级编程语言的分析反编译器，由JetBrains开源。
+* [ForgeFlower](https://github.com/MinecraftForge/ForgeFlower)：Forge对FernFlower的修改。
 * [Enhanced Class Decompiler](https://github.com/ecd-plugin/ecd)：ECD将JD、Fernflower、Vineflower、CFR和Procyon与Eclipse无缝集成，使Java开发人员无需直接查看源代码即可调试类文件。
 * [Friday](https://github.com/zifeihan/friday)：Friday是一个Java实时反编译工具。
 * [Class Visualizer](https://github.com/jonatan-kazmierczak/class-visualizer)：Class Visualizer是一个免费交互式类图生成器。
@@ -7239,6 +7447,9 @@
 * [ProGuard Assembler](https://github.com/Guardsquare/proguard-assembler)：ProGuard Assembler可以汇编和反汇编Java类文件。
 * [LibreShockwave](https://github.com/Quackster/LibreShockwave)：一款适用于Adobe/Macromedia Shockwave的开源SDK、反编译器和Web播放器。
 * [Jackknife](https://github.com/tomitribe/jackknife)：Jackknife可以让Claude Code检查、反编译和检测JAR依赖项中的类。
+* [Kotlin Decompiler](https://github.com/Earthcomputer/kotlin-decompiler)：基于Vineflower的Kotlin反编译器。
+* [Candle](https://github.com/bradsdavis/candle-decompiler)：Candle是一个开源反编译器。
+* [ADT](https://github.com/stray-coding/ADT)：反编译工具，快速实现对apk反编译，dex2jar，jar2dex，sign，align，patch生成等操作。
 
 ## 代码混淆
 
@@ -7315,6 +7526,7 @@
 * [Obf](https://github.com/CheatBreaker/Obf)：一个简单的Java代码混淆器。
 * [Binscure](https://github.com/willemml/binscure)：Java字节码混淆器。
 * [OpenMYJ2C](https://github.com/MyJ2c/Open-MyJ2c)：OpenMYJ2C将编译的Java的Class字节码转换为C语言代码。
+* [Binscure](https://github.com/Crystallinqq/binscure)：Binscure JVM混淆器。
 
 ## 反混淆
 
@@ -7329,6 +7541,9 @@
 * [Reconstruct](https://github.com/LXGaming/Reconstruct)：ProGuard反混淆器。
 * [Binfix](https://github.com/x4e/binfix)：一个开源的Java字节码反混淆器。
 * [Enigma](https://github.com/QuiltMC/enigma)：用于Java字节码反混淆的工具。
+* [Mapping-IO](https://github.com/FabricMC/mapping-io)：Mapping-IO是一个小巧高效的库，用于处理反混淆映射文件。
+* [Matcher](https://github.com/FabricMC/Matcher)：用于跟踪跨版本混淆Java归档文件中元素的工具。
+* [Srg2Source](https://github.com/MinecraftForge/Srg2Source)：一个使用.srg映射重命名Java源代码中的符号(类、方法、字段、参数和变量)的工具。
 
 ## 逆向工程
 
@@ -7345,6 +7560,7 @@
 * [Slicer](https://github.com/katana-project/slicer)：Slicer是一款现代化的Web端Java逆向工程工具。
 * [Kaiju](https://github.com/cmu-sei/kaiju)：Kaiju是Ghidra软件逆向工程套件的二进制分析框架扩展，由CMU开源。
 * [ABCDE](https://github.com/Yricky/abcde)：ABCDE是一个使用Kotlin编写的OpenHarmony逆向工具包。
+* [Ratel](https://github.com/virjarRatel/ratel-core)：Ratel是一个Android逆向分析工具套件。
 * [SkidSuite](https://github.com/GenericException/SkidSuite)：SkidSuite 3是与Java应用程序逆向工程相关的有用工具的集合。
 * [Java Disassembler](https://github.com/LLVM-but-worse/java-disassembler)：JDA是一款专注、轻量且功能强大的Java静态反汇编器。
 * [Jakstab](https://github.com/jkinder/jakstab)：Jakstab是一个基于抽象解释的集成反汇编和静态分析框架，用于设计可执行文件的分析和恢复可靠的控制流图。
@@ -7357,6 +7573,12 @@
 * [AndroidKiller4J](https://github.com/MaskCyberSecurityTeam/AndroidKiller4J)：Java版的AndroidKiller。
 * [Trinity](https://github.com/firstfault/Trinity)：Trinity是一款功能强大、速度极快的Java字节码架构软件逆向工程套件，能够轻松处理高度混淆的二进制文件。
 * [Elf Editor](https://github.com/ha1vk/Elf-Editor)：一个安卓/Java算法，用于编辑elf、so文件的符号名和字符串常量池。
+* [Diver](https://github.com/thechiselgroup/Diver)：Diver是一套用于调试和逆向工程的高级工具。
+* [Binary Internals Viewer](https://github.com/amosshi/binaryinternals)：一款能够以可视化和交互方式显示二进制文件内部结构、解释每个Bit含义的应用程序。
+* [Spice86](https://github.com/kevinferrare/spice86)：Spice86是一款用于执行、逆向工程和重写没有源代码的实模式DOS程序的工具。
+* [JDex2](https://github.com/J5now/JDex2)：JDex是基于Xpose/Lspose的主动回收抽壳脱壳工具。
+* [Jdifferer](https://github.com/KingBridgeSS/jdifferer)：Jdifferer是一个用来比较两个Java JAR文件的GUI应用。
+* [Kotlin Metadata Printer](https://github.com/Guardsquare/kotlin-metadata-printer)：Kotlin Metadata Printer是一个免费工具，用于以人类可读的格式打印Kotlin元数据。
 
 ## 反向移植
 
@@ -7463,6 +7685,11 @@
 * [KMagick](https://github.com/MolotovCherry/kmagick)：ImageMagick的Kotlin绑定。
 * [PyramidIO](https://github.com/usnistgov/pyramidio)：图像金字塔读取/写入工具，由美国国家标准技术研究院开源。
 * [Java PSD Library](https://github.com/inevo/java-psd-library)：Java PSD Library是一个纯Java PSD格式解析器。
+* [Commons Image IO](https://github.com/cescoffier/Commons-Image-IO)：Commons Image IO是一个用于在Java中管理图像的简单库。
+* [Korim](https://github.com/soywiz-archive/korim)：用于多平台Kotlin的图像处理工具。
+* [JXLatte](https://github.com/Traneptora/jxlatte)：Java JPEG XL解码器。
+* [Photon Core](https://github.com/1000Memories/photon-core)：Photon Core提供了一个JAX-RS资源，可以动态处理(调整大小、旋转和裁剪)图像文件。
+* [JFreeSane](https://github.com/sjamesr/jfreesane)：JFreeSane是SANE客户端的纯Java实现。
 
 #### 图像元数据
 
@@ -7555,6 +7782,7 @@
 * [Xultimate Captcha](https://github.com/daniellitoc/xultimate-captcha)：Xultimate Captcha可分布式部署作为验证码生成服务器和验证服务器，支持图片和声音的验证码框架。
 * [JCaptcha](https://github.com/orclight/jcaptcha)：Java验证码工具类，可选择英文验证码、中文验证码、算术验证码等策略，可继承策略类实现扩展。
 * [Captcha](https://github.com/jsonljd/captcha)：交互验证码、图形验证码、互动验证码、滑动验证码、拼图验证码。
+* [GraphicCR](https://github.com/by-syk/GraphicCR)：基于Java的简单图形验证码识别。
 
 #### 二维码库
 
@@ -7661,6 +7889,7 @@
 * [Kamikaze](https://github.com/javasoze/kamikaze)：Kamikaze是一个实用软件包，它封装了文档列表上的集合实现，还实现了对已排序整数段的P4Delta压缩算法。
 * [GZinga](https://github.com/eBay/GZinga)：GZinga提供对gzip文件最佳的读取/处理性能，由eBay开源。
 * [Byte Transforms](https://github.com/clj-commons/byte-transforms)：这个库可以帮助你对字节流进行哈希、压缩和编码。
+* [JBZip2](https://www.softpedia.com/get/Programming/Components-Libraries/jbzip2.shtml)：JBZip2提供了一个轻量级的Java库，你可以使用它为你的应用程序添加压缩/解压缩功能。
 
 #### 文件压缩
 
@@ -7690,6 +7919,7 @@
 * [Play HTML Compressor](https://github.com/mohiva/play-html-compressor)：Google的Play Framework 2 HTML压缩器。
 * [HTMLCompressor](https://github.com/serg472/htmlcompressor)：HTML压缩器和精简器，既可独立使用，也可作为Java库使用。
 * [CSSMin](https://github.com/barryvan/CSSMin)：CSSMin会读取你的CSS文件，并删除所有不必要的元素(空格、多余的分号、冗余的单位等等)。
+* [Zipalign Java](https://github.com/iyxan23/zipalign-java)：Zipalign Java实现。
 
 #### 图像压缩
 
@@ -7763,6 +7993,8 @@
 * [Javac Warning Annotation](https://github.com/pushtorefresh/javac-warning-annotation)：轻量级javac @warning注解。
 * [Annotation Tools](https://github.com/typetools/annotation-tools)：Java中的类型注解工具。
 * [Google Annotations Gallery](https://github.com/stokito/gag)：Google Annotations Gallery为开发者提供了一套丰富的注解。
+* [Jakarta Annotations](https://github.com/jakartaee/common-annotations-api)：Jakarta Annotations定义了一系列表示常见语义概念的注解，从而实现了适用于各种Java技术的声明式编程风格。
+* [PAAF](https://github.com/nvdh/paaf)：PAAF提供了一组类型安全的注解，开发者可以使用这些注解来表达被动攻击性语句。
 
 ## 接口文档
 
@@ -7777,6 +8009,7 @@
 * [Nextdoc4j](https://github.com/NextDoc4j/nextdoc4j)：Nextdoc4j是一款现代化的API文档后端解决方案，专为SpringDoc和OpenAPI 3设计。
 * [WSDL2HTML](https://github.com/chenjianjx/wsdl2html)：从WSDL生成可读的HTML文档。
 * [Kiota Java](https://github.com/microsoft/kiota-java)：Kiota是一个命令行工具，用于生成API客户端，以便调用任何你感兴趣的OpenAPI定义的API。
+* [Kotlin OpenAPI3 DSL](https://github.com/derveloper/kotlin-openapi3-dsl)：用Kotlin构建你的OpenAPI3规范。
 
 #### 规范优先
 
@@ -7797,6 +8030,7 @@
 * [Light Codegen](https://github.com/networknt/light-codegen)：基于Rocker的代码生成器，可以用作命令行实用程序或Web服务。
 * [GCE2Retrofit](https://github.com/chiuki/gce2retrofit)：Google Cloud Endpoint(GCE)发现文件生成Retrofit接口和相关模型。
 * [Swagger Confluence](https://github.com/starlightknight/swagger-confluence)：该项目的主要目标是简化将Swagger API文档发布到Atlassian Confluence服务器的过程。
+* [SCS MultiApi Plugin](https://github.com/sngular/scs-multiapi-plugin)：这是一个旨在帮助开发者基于AsyncApi和OpenAPI自动从YML文件创建代码类的插件。
 
 #### 接口优先
 
@@ -7835,12 +8069,18 @@
 * [Spring OpenAPI](https://github.com/jrcodeza/spring-openapi)：Spring Boot OpenAPI 3生成器。
 * [Apiee](https://github.com/phillip-kruger/apiee)：Java EE中的简易Swagger和Swagger UI。
 * [OpenAPI](https://github.com/hdwang123/openapi)：致力于提供一个能够快速搭建开放API的SDK。
+* [RestDoc](https://github.com/Willing-Xyz/RestDoc)：该项目用于在运行时使用Javadoc生成Swagger文档。
+* [Web Service Documentation Generator](https://github.com/versly/wsdoc)：Spring MVC REST服务的文档生成器。
+* [GenDoc](https://github.com/easycodingnow/genDoc)：GenDoc帮助你生成API文档。
+* [OAS3 Redoc Spring Boot Starter](https://github.com/hehongyu1995/oas3-redoc-spring-boot-starter)：本Starter集成OAS3和Redoc，为Spring Boot MVC应用提供开箱即用的文档集成。
+* [API Document](https://github.com/liuanxin/api-document)：Spring MVC API文档收集器。
 
 #### 模式解析
 
 * [Swagger Parser](https://github.com/swagger-api/swagger-parser)：Swagger Parser可以将JSON或YAML格式的OpenAPI定义解析为Java POJO的Swagger Core表示形式，返回任何验证警告/错误。
 * [OpenAPI4J](https://github.com/openapi4j/openapi4j)：OpenAPI 3解析器、JSON模式和请求验证器。
 * [KaiZen OpenApi Parser](https://github.com/RepreZen/KaiZen-OpenApi-Parser)：KaiZen OpenApi Parser是一个基于Java的OpenAPI 3.0验证解析器，提供高度统一的读/写编程API。
+* [WebAPI Parser](https://github.com/raml-org/webapi-parser)：基于AMF的API规范解析器，目前支持RAML 0.8、RAML 1.0、OAS 2.0和OAS 3.0。
 
 #### 模式比较
 
@@ -7959,6 +8199,8 @@
 * [PDFjet](https://github.com/edragoev1/pdfjet)：适用于Java、C#、Swift和Go开发人员的PDF库。
 * [FileParseUtil](https://github.com/Deep2018530/FileParseUtil)：可以将Word(Doc、Docx)、Excel、PDF、PPT、CSV、TXT文件的文本内容提取出来，同时能够提取出Word、PDF文件的目录。
 * [Alfresco PDF Toolkit](https://github.com/OrderOfTheBee/alfresco-pdf-toolkit)：Alfresco PDF Toolkit为Alfresco添加了额外的功能，使你可以处理PDF文件。
+* [PdfAct](https://github.com/ad-freiburg/pdfact)：PdfAct是一款用于从PDF文件中选择性提取文本块的工具，由弗莱堡大学开源。
+* [TouchPDF](https://github.com/loicminghetti/touchpdf)：TouchPDF是一款基于jQuery的简单网页版PDF查看器。
 
 #### PDF表格库
 
@@ -8144,6 +8386,7 @@
 * [CSV](https://github.com/sergejsha/csv)：一个轻量级、快速的Kotlin多平台库，用于解析和构建CSV字符串。
 * [Sesseltjonna CSV](https://github.com/skjolber/sesseltjonna-csv)：Sesseltjonna CSV是一个先进、高性能的CSV库，具有对开发者友好的配置选项。
 * [Delimited](https://github.com/tixxit/delimited)：一个快速、易用的Scala CSV解析器。
+* [FuzzyCSV](https://github.com/kayr/fuzzy-csv)：FuzzyCSV是一个简单的轻量级Groovy数据处理库，可以帮助你合并/追加/查询/或操作CSV文件或任何表格数据。
 
 ### Word库
 
@@ -8162,6 +8405,7 @@
 * [Docx4j Template](https://github.com/hiwepy/docx4j-template)：基于Docx4j和各种模板技术实现的Word、PPT、XLS快速输出组件。
 * [WordPOI](https://gitee.com/jenly1314/WordPOI)：WordPOI是一个将Word接口文档转换成Java Bean的工具库。
 * [Wordinator](https://github.com/drmacro/wordinator)：使用简化的XML格式生成高质量的Microsoft Word DOCX文件。
+* [Groovy Document Builder](https://github.com/craigburke/document-builder)：一个用于Groovy的文档生成器，支持生成PDF或Word文档。
 
 ### PPT库
 
@@ -8365,6 +8609,7 @@
 * [X12 Parser](https://github.com/imsweb/x12-parser)：用于ANSI ASC X12文档的解析器。
 * [EDI JSON](https://github.com/BerryWorksSoftware/edi-json)：EDI、JSON相互转换库。
 * [X12 Parser](https://github.com/hzbarcea/x12-parser)：用于解析和创建ASC X12 EDI事务的Java库。
+* [Gozer](https://github.com/walmartlabs/gozer)：EDI X12标准解析库。
 
 ### OBJ库
 
@@ -8402,6 +8647,9 @@
 * [NPY](https://github.com/JetBrains-Research/npy)：NPY允许在JVM上读取和写入NPY和NPZ格式的文件，由JetBrains开源。
 * [JFileHelpers](https://github.com/fcoury/jfilehelpers)：JFileHelpers是一个库，它可以自动完成解析和创建结构化文本文件的繁琐任务。
 * [Parso](https://github.com/epam/parso)：一个用于读取SAS7BDAT数据集的轻量级Java库，由EPAM开源。
+* [Titl](https://github.com/josephw/titl)：一个用于解析iTunes专有库文件的Java库，以及用于修改和提取的命令行工具。
+* [FFPOJO](https://github.com/ffpojo/ffpojo)：FFPOJO项目是一个基于POJO的平面文件解析器库。
+* [BagIt](https://github.com/LibraryOfCongress/bagit-java)：支持BagIt规范的Java库。
 
 ### 文件转换
 
@@ -8804,6 +9052,7 @@ Kafka生态管理系统、运维平台。
 * [LightFish](https://github.com/AdamBien/lightfish)：Payara/GlassFish监控工具。
 * [JavaProbe](https://github.com/0Kee-Team/JavaProbe)：JavaProbe是一个Java运行时信息收集工具，它使用Java Attach API进行信息获取。
 * [InTrace](https://github.com/mchr3k/org.intrace)：Java跟踪代理和实时跟踪客户端。
+* [Jrds](https://github.com/fbacchella/jrds)：Jrds是一款性能数据采集工具，类似于Cacti或Munins。
 
 #### 诊断工具
 
@@ -8873,6 +9122,7 @@ Kafka生态管理系统、运维平台。
 * [Zabbix/J](https://github.com/michaelquigley/zabbixj)：Zabbix/J是一个用于将Zabbix监控集成到Java应用程序中的框架。
 * [Zabbix4j](https://github.com/myaaaaa-chan/Zabbix4j)：Zabbix4j是一个用于Java语言的Zabbix API库。
 * [CamelBee](https://github.com/camelbee/camelbee)：CamelBee是用于微服务监控和调试的Apache Camel库。
+* [JvmEye](https://github.com/gy4j/JvmEye)：Web可视化交互的Java诊断平台。
 
 #### APM
 
@@ -8887,6 +9137,7 @@ Kafka生态管理系统、运维平台。
 * [OCI APM](https://www.oracle.com/manageability/application-performance-monitoring)：OCI APM是Oracle提供的应用程序性能分析和可观测性解决方案。
 * [HoloInsight](https://github.com/traas-stack/holoinsight)：HoloInsight是一个云原生可观测平台，重点专注于实时日志分析和人工智能集成，这是蚂蚁集团观测平台AntMonitor的开源版本。
 * [Matrix](https://github.com/Tencent/matrix)：Matrix是腾讯微信中使用的APM，用于监控、定位和分析性能问题。
+* [Disco](https://github.com/awslabs/disco)：Disco是一套工具，包括一个用于创建Java Agent的框架，用于分布式系统的面向切面工具，由AWS开源。
 * [SkyEye](https://github.com/JThink/SkyEye)：SkyEye是对Java、Scala等运行于JVM的程序进行实时日志采集、索引和可视化，对系统进行进程级别的监控的工具。
 * [Hawkular](https://github.com/hawkular/hawkular-apm)：Hawkular是RedHat开源的应用程序性能管理解决方案。
 * [Wavefront](https://docs.wavefront.com/)：Wavefront是一个高性能流分析平台，支持指标、计数器、直方图和跟踪/跨度的可观察性，由VMware维护。
@@ -8965,6 +9216,7 @@ Kafka生态管理系统、运维平台。
 * [Lightstep Java](https://github.com/lightstep/lightstep-tracer-java)：用于JRE的Lightstep分布式跟踪库。
 * [Lumigo Java](https://github.com/lumigo-io/java-tracer)：Lumigo的JVM分布式追踪和AWS Lambda性能追踪器。
 * [LiteTracer](https://github.com/TaXueWWL/lite-tracer)：LiteTracer轻量级追踪系统，Google Dapper个人实现。
+* [LoongSuite Java Agent](https://github.com/alibaba/loongsuite-java-agent)：LoongSuite Java Agent是阿里巴巴统一可观测性数据收集套件LoongSuite的关键组件，为Java应用程序提供检测功能。
 
 #### 指标库
 
@@ -8983,6 +9235,7 @@ Kafka生态管理系统、运维平台。
 * [KillBill Metrics](https://github.com/killbill/killbill-commons/tree/master/metrics)：KillBill的指标实现。
 * [JDBCMetrics](https://github.com/soulgalore/jdbcmetrics)：JDBCMetrics用于从JDBC驱动程序获取信息。
 * [Semantic Metrics](https://github.com/spotify/semantic-metrics)：Semantic Metrics包含对Dropwizard Metrics项目的修改，由Spotify开源。
+* [Java Monitoring Client Library](https://github.com/google/java-monitoring-client-library)：该库提供了一个功能强大且符合Java规范的API，用于配置和发布应用程序指标，由Google开源。
 
 #### 指标报告
 
@@ -8994,6 +9247,7 @@ Kafka生态管理系统、运维平台。
 * [Metrics](https://github.com/MinXie1209/metrics)：Metrics是一个暴露应用指标的平台，提供业务无侵入方式对生产级Java服务应用进行指标的监控和暴露。
 * [Metrics Kafka](https://github.com/stealthly/metrics-kafka)：Metrics Kafka提供一个端到端的工作环境，使系统能够将其指标/传感器数据发送到Kafka，然后根据这些数据生成警报和图表。
 * [Pepper Metrics](https://github.com/zrbcool/pepper-metrics)：Pepper Metrics基于RED理论，即对每个服务进行RED指标收集，并持久化到数据库，并通过Dashboard进行展示，辅助进行性能趋势分析，由酷划在线开发。
+* [Jmxetric](https://github.com/ganglia/jmxetric)：JMXetric是一个100%纯Java编写、可配置的JVM代理，它会定期轮询MBean属性并将其值报告给Ganglia。
 
 #### 指标收集
 
@@ -9018,6 +9272,7 @@ Kafka生态管理系统、运维平台。
 * [Prometheus Query API Java Client](https://github.com/mckang/promql_java_client)：用于Prometheus HTTP API的Java客户端。
 * [Prometheu4j](https://github.com/anhdat/prometheus4j)：Prometheus4j是用于Java的Prometheus API客户端。
 * [JCollectd](https://github.com/collectd/jcollectd)：Collectd的Java集成。
+* [CollectD Fast JMX](https://github.com/e-gineering/collectd-fast-jmx)：CollectD的GenericJMX的替代品，延迟更低、功能更强大。
 
 #### Spring Boot仪表板
 
@@ -9038,6 +9293,7 @@ Kafka生态管理系统、运维平台。
 * [Boot Actuator](https://github.com/qinxuewu/boot-actuator)：基于Spring Boot 2.0实现的JVM远程监工图形化工具，可以同时监控多个Web应用。
 * [Spring Start Analyser](https://github.com/lwaddicor/spring-startup-analysis)：用于分析Java Spring中Bean构造的简单模块。
 * [Axelix](https://github.com/axelixlabs/axelix)：Axelix是一个开源解决方案，用于实时调试、测试和监控Java/Kotlin Spring Boot应用程序。
+* [Spring Boot User Beans](https://github.com/jabrena/spring-boot-user-beans)：该库将内存中运行的Spring Bean的操作信息作为Spring Boot Actuator中包含的另一个指标公开出来。
 
 #### GC日志分析
 
@@ -9068,6 +9324,7 @@ Kafka生态管理系统、运维平台。
 * [HeapLib](https://github.com/aragozin/heaplib)：HeapLib是一个用于分析JVM堆转储的工具/库。
 * [Goroutine Analyzer](https://github.com/openziti/goroutine-analyzer)：Goroutine Analyzer是一个用于分析Go语言Goroutine转储文件的图形用户界面工具。
 * [JHeappo](https://github.com/AdoptOpenJDK/jheappo)：堆转储分析器。
+* [Hprof Parser](https://github.com/eaftan/hprof-parser)：Hprof堆转储解析器。
 
 #### 线程转储
 
@@ -9080,6 +9337,7 @@ Kafka生态管理系统、运维平台。
 * [Samurai](https://github.com/yusuke/samurai)：Samurai是一个用于Java线程转储/GC日志的分析工具。
 * [TDV](https://github.com/igr/tdv)：离线线程转储分析器。
 * [Java Thread Dump Analyser](https://github.com/mchr3k/javathreaddumpanalyser)：Java线程转储分析器。
+* [ThreadLogic](https://github.com/sparameswaran/threadlogic)：ThreadLogic是一款面向中间件社区的开源线程转储分析工具。
 
 #### 火焰图
 
@@ -9089,6 +9347,7 @@ Kafka生态管理系统、运维平台。
 * [Jeffrey](https://github.com/petrbouda/jeffrey)：Jeffrey利用交互式火焰图、内存分析和深度JFR事件检查来识别性能瓶颈。
 * [JavaFlame](https://github.com/beothorn/javaflame)：Java的简单易用的火焰图，无需服务器或打开连接，只需插入代理并获取结果。
 * [PerfGenie](https://github.com/salesforce-misc/perfGenie)：PerfGenie是一种持续的低开销上下文分析解决方案，可以解析和可视化JFR格式配置文件和Jstack，由Salesforce开源。
+* [JPProf](https://github.com/grafana/JPProf)：JPProf将Go的pprof工具引入Java世界。
 
 #### JFR
 
@@ -9233,6 +9492,7 @@ Kafka生态管理系统、运维平台。
 * [EtherSolve](https://github.com/SeUniVr/EtherSolve)：EtherSolve是一款用于从以太坊字节码重建Solidity智能合约的控制流图和静态分析的工具。
 * [Teamscale Java Profiler](https://github.com/cqse/teamscale-java-profiler)：Teamscale为的团队提供支持，帮助你分析、监控和改进软件质量。
 * [Lint Checks](https://github.com/uber/lint-checks)：Lint Checks提供了一系列基于Android Lint的代码检查，可帮助你避免日常开发中可能遇到的常见陷阱和错误，由Uber开源。
+* [Analysis Model](https://github.com/jenkinsci/analysis-model)：该库提供了一个Java API，用于读取、聚合、筛选和查询静态分析报告。
 
 #### 空安全
 
@@ -9284,6 +9544,8 @@ Kafka生态管理系统、运维平台。
 * [Aspirator](https://github.com/diy1/aspirator)：Aspirator是一款用于检查异常中是否存在细微错误模式的工具。
 * [DesigniteJava](https://github.com/tushartushar/DesigniteJava)：DesigniteJava是一个针对Java的代码质量评估工具。
 * [SpringSentinel](https://github.com/pagano-antonio/SpringSentinel)：Spring Sentinel是一个功能强大的Maven插件，专为Spring Boot开发人员设计，用于执行静态分析并识别性能瓶颈、安全风险和架构异味。
+* [SpringLint](https://github.com/mauricioaniche/springlint)：SpringLint是一款简单易用的工具，可对Spring MVC系统中的代码进行指标分析和代码异味分析。
+* [Paprika](https://github.com/GeoffreyHecht/paprika)：Paprika是一个功能强大的工具包，可以检测分析的Android应用程序中的一些代码异味。
 
 #### 依赖分析
 
@@ -9381,6 +9643,7 @@ Kafka生态管理系统、运维平台。
 * [AasC](https://github.com/finos/architecture-as-code)：AasC旨在通过人类和机器可读且版本控制的代码库来设计和管理软件架构，促进对复杂软件架构的深入了解、高效开发和无缝维护，由金融科技基金会开源。
 * [Taikai](https://github.com/enofex/taikai)：Taikai通过提供针对各种技术定制的一整套预定义规则来扩展流行的ArchUnit库的功能。
 * [NoReDraw](https://github.com/uladzimirFilipchanka/noredraw)：NoReDraw是一款便捷的基于Java的命令行工具，可将你的源代码转换为架构图。
+* [CodeSheriff](https://github.com/mauricioaniche/codesheriff)：CodeSheriff是一个简单的库，可以帮助你编写JUnit测试来检查代码质量。
 
 #### 软件建模
 
@@ -9509,6 +9772,7 @@ Kafka生态管理系统、运维平台。
 * [InnerBuilder](https://github.com/analytically/innerbuilder)：IntelliJ IDEA插件，用于生成内部构建器类。
 * [Flapi](https://github.com/UnquietCode/Flapi)：Flapi是一个用于创建Java流式API的代码生成库。
 * [Builder Annotation Processor](https://github.com/mirrajabi/annotation-processor-sample)：一个为Java类实现构建器模式的注解处理器。
+* [Fluflu](https://github.com/verhas/fluflu)：Fluflu是一款用于生成类的软件，它可以将你的方法链类转换为真正的Fluent API。
 
 #### 代理模式
 
@@ -9517,6 +9781,7 @@ Kafka生态管理系统、运维平台。
 * [Dynamic Proxy](https://github.com/neoremind/dynamic-proxy)：Dynamic Proxy是用于Java生成代理对象的有用库。
 * [Proxology](https://github.com/opencredo/proxology)：一个用于处理动态代理的Java 8库。
 * [Proxy2](https://github.com/forax/proxy2)：比java.lang.reflect.Proxy更好/更快的Java代理生成器。
+* [Dynamic Java Proxy Generator](https://github.com/verhas/djcproxy)：使用此库，你可以在运行时创建现有对象的代理对象。
 
 #### 责任链模式
 
@@ -9545,6 +9810,7 @@ Kafka生态管理系统、运维平台。
 * [Problem Detail](https://github.com/t1/problem-details)：Problem Detail Java API、TCK以及JAX-RS和Spring Boot的实现。
 * [API Error Handler](https://github.com/AzimoLabs/Api-Error-Handler)：声明API的预期错误，并自动生成实现代码。
 * [RxErrorHandler](https://github.com/JessYanCoding/RxErrorHandler)：RxJava的错误处理库。
+* [API Result](https://github.com/fengwenyi/api-result)：一套RESTful风格API接口响应参数规范化的解决方案。
 
 ## REST版本控制
 
@@ -9620,6 +9886,10 @@ Kafka生态管理系统、运维平台。
 * [Parcl](https://github.com/mini2Dx/parcl)：用于将Java应用程序打包以便在Windows、Mac和Linux上分发的Gradle插件。
 * [MojoHaus RPM Maven Plugin](https://github.com/mojohaus/rpm-maven-plugin)：RPM Maven Plugin允许将一个或多个项目的工件打包成RPM包进行分发。
 * [Spring Boot Daemon Windows](https://github.com/JoyLau/joylau-springboot-daemon-windows)：一款将Spring Boot项目打包成Windows Service的Maven插件。
+* [Pack](https://github.com/juxt/pack.alpha)：Pack提供了一种快速、无冲突的方式来打包Clojure程序。
+* [JPack](https://github.com/blinkfox/jpack-maven-plugin)：JPack是一个用于对Spring Boot服务打包为Windows、Linux、Docker、Helm Chart下可部署包的Maven插件。
+* [AppBundler](https://github.com/TheInfiniteKind/appbundler)：AppBundler是一个Ant任务，用于将桌面Java应用程序打包成本地可执行文件。
+* [JarShrink](https://github.com/Deconimus/JarShrink)：通过删除冗余的类文件来缩小JAR文件大小。
 
 ## 部署
 
@@ -9665,6 +9935,7 @@ Kafka生态管理系统、运维平台。
 * [Trampoline](https://github.com/ErnestOrt/Trampoline)：Trampoline是一个开源项目，可帮助你在开发阶段启动和停止基于Spring Boot的服务。
 * [Layrry](https://github.com/moditect/layrry)：Layrry是一个启动器和Java API，用于执行模块化Java应用程序。
 * [Nailgun](https://github.com/facebookarchive/nailgun)：Nailgun是一个客户端、协议和服务器，用于从命令行运行Java程序，而不会产生JVM启动开销，由Facebook开源。
+* [Snailgun](https://github.com/jvican/snailgun)：Snailgun是一个用Scala编写的Nailgun客户端。
 * [SlimFast](https://github.com/HubSpot/SlimFast)：SlimFast是Java应用程序的一个工具，可帮助它们停止构建用于部署的Fat JAR，由HubSpot开源。
 * [Webapp Runner](https://github.com/heroku/webapp-runner)：Webapp Runner旨在让你使用简单的java -jar命令将文件系统上的解压或压缩的WAR文件启动到Tomcat容器中，由Heroku开源。
 * [GroovyServ](https://github.com/kobo/groovyserv)：GroovyServ可以显著缩短运行Groovy的JVM启动时间。
@@ -9685,6 +9956,7 @@ Kafka生态管理系统、运维平台。
 
 * [OpenWebStart](https://github.com/karakun/OpenWebStart)：OpenWebStart提供了一个用户友好的安装程序，可以在更高的Java版本中使用Web Start/JNLP功能。
 * [IcedTeaWeb](https://github.com/AdoptOpenJDK/IcedTea-Web)：IcedTeaWeb是JSR-56(Java Web Start)的开源实现。
+* [Netx](https://jnlp.sourceforge.net/netx/)：Netx是JNLP的高质量实现。
 
 ## 调试工具
 
@@ -9749,6 +10021,9 @@ Kafka生态管理系统、运维平台。
 * [SharedType](https://github.com/SharedType/sharedtype)：从Java生成TypeScript/Go/Rust类型。
 * [Tinyj2c](https://github.com/digitalgust/tinyj2c)：Tinyj2c将Java源代码转换为C源代码。
 * [Java2Typescript](https://github.com/bsorrentino/java2typescript)：Java处理器，用于从任何Java类生成TypeScript定义文件。
+* [Java 2 Rust](https://github.com/cguz/java-to-rust)：Java到Rust转换器。
+* [J2Swift](https://github.com/patniemeyer/j2swift)：Java到Swift语法转换器。
+* [JCGO](https://github.com/ivmai/JCGO)：Java源代码到C代码转换器。
 
 ## 代码预处理
 
@@ -9769,6 +10044,7 @@ Kafka生态管理系统、运维平台。
 * [eXo Platform](https://www.exoplatform.com/)：eXo Platform是一个开源的企业级数字工作场所解决方案，集成了文档管理、协作工具、社交网络和Web内容管理，面向团队和企业。
 * [Waltz](https://github.com/finos/waltz)：Waltz可以帮助你可视化和定义组织的技术架构，你可以把它想象成一个结构化的架构Wiki，由金融科技基金会开源。
 * [Meeds](https://github.com/Meeds-io/meeds)：Meeds是一个模块化的开源平台，旨在激活、吸引和奖励Web3社区的贡献者。
+* [eGov SmartCity eGovernance Suite](https://github.com/egovernments/egov-smartcity-suite)：eGov智慧城市电子政务套件是一个面向地方政府(城市/市政机构)的综合性电子政务解决方案。
 
 #### 项目模板
 
@@ -9780,6 +10056,7 @@ Kafka生态管理系统、运维平台。
 * [Spring MVC Quickstart Maven Archetype](https://github.com/kolorobot/spring-mvc-quickstart-archetype)：该项目是Spring MVC Web应用程序的Maven原型。
 * [Spring Boot Starter Kit](https://github.com/khandelwal-arpit/springboot-starterkit)：适用于Spring Boot应用程序的生产就绪入门套件。
 * [Spring Boot Supabase](https://github.com/ChangeNode/spring-boot-supabase)：现代Java Web应用程序入门模板。
+* [RESTful](https://github.com/Samsung/restful)：该项目提供了一套用于构建RESTful API的完整解决方案，包括数据校验、用户管理、权限控制、数据加密等企业级功能，由Samsung开源。
 * [Celerio Angular Quickstart](https://github.com/jaxio/celerio-angular-quickstart)：从现有数据库模式生成一个Angular 5 CRUD应用。
 * [Spring Boot MicroServices Template](https://github.com/anilallewar/microservices-basics-spring-boot)：使用Spring Boot和Spring Cloud创建完整微服务的基础架构框架。
 * [Spring Boot Template](https://github.com/hmcts/spring-boot-template)：该模板的目的是加快新Spring应用程序的创建速度，并帮助在多个团队之间保持相同的标准，由英国法院及审裁处事务局开源。
@@ -10008,6 +10285,7 @@ Kafka生态管理系统、运维平台。
 * [Quantum Starter Kit](https://github.com/Perfecto-Quantum/Quantum-Starter-Kit)：Quantum Starter Kit旨在让你通过几个简单的步骤使用Quantum框架启动和运行，并使你能够开始使用简单的Cucumber编写测试。
 * [Selenium Tests Framework](https://github.com/tarun3kumar/seleniumtestsframework)：Selenium Tests Framework是一个用于桌面Web、移动网站和移动应用程序自动化测试的测试自动化框架。
 * [Selenium2 Java QuickStart Archetype](https://github.com/sebarmeli/Selenium2-Java-QuickStart-Archetype)：该原型会生成一个嵌入了Selenium 2和TestNG的小型Maven项目，以便轻松开始使用Selenium WebDriver进行测试。
+* [TheOneFramework](https://github.com/amuthansakthivel/TheOneFramework)：使用Selenide、Rest Assured、JUnit 5和Allure实现Web、移动和API自动化。
 * [Spring Boot Archetype](https://github.com/drtrang/maven-archetype-springboot)：Spring Boot Archetype将帮助你快速生成Spring Boot项目。
 * [Tobacco Bootstrap](https://github.com/noroutine/tobacco-bootstrap)：具有最新最强组件的HTML5 Java Web应用程序原型。
 * [JSF 2 Twitter Bootstrap](https://github.com/rkovacevic/JSFBootstrap)：JBoss JSF 2 Web应用原型。
@@ -10070,6 +10348,23 @@ Kafka生态管理系统、运维平台。
 * [Spring WebSocket Template](https://github.com/lahsivjar/spring-websocket-template)：用于使用Spring配置WebSocket的模板项目。
 * [JWT Spring Boot](https://github.com/yoelvysmartinez/jwt-spring-boot-3.0.2)：Spring Boot、Spring Security、JWT的认证和授权实现的基本方案。
 * [Spring MVC Initializer](https://github.com/bkielczewski/example-spring-mvc-initializer)：使用Spring MVC 4.0.x的基本应用程序。
+* [OSS Quickstart](https://github.com/moditect/oss-quickstart)：用于引导新开源项目的Apache Maven原型。
+* [Spring REST Boilerplate](https://github.com/dhavaln/spring-rest-boilerplate)：Spring MVC 3 REST模板，采用基于令牌的安全机制。
+* [Spring Boot Scaffold](https://github.com/cyzaoj/spring-boot-scaffold)：Spring Boot脚手架，集JPA、Freemarker、Dubbo、Security为一体。
+* [Spring Boot REST API PostgreSQL](https://github.com/OKaluzny/spring-boot-rest-api-postgresql)：使用Spring Boot 4构建的纯RESTful Web服务。
+* [Spring Data Hexagonal Architecture](https://github.com/refactorizando-web/spring-data-hexagonal-architecture)：Spring Data应用中的六边形架构。
+* [Spring Security Basic Setting](https://github.com/nahwasa/spring-security-basic-setting-for-spring-boot-3)：Spring Boot 3.0或更高版本中Spring Security的基本设置项目。
+* [Init Spring](https://github.com/Credo-Zhao/init-spring)：Init Spring是一个基于Spring一站式架构快速开发的初始化项目。
+* [Spring Boot API Starter](https://github.com/WongMinHo/spring-boot-api-starter)：Spring Boot API Starter是一个基于Spring Boot，快速构建RESTful API工程的脚手架。
+* [Yogurt](https://github.com/yogurt-dev/yogurt)：搭建一套遵循规范、技术先进、减少工作量的开发框架。
+* [Spring Security JWT Authentication](https://github.com/MossaabFrifita/spring-boot-4-security-7-jwt)：Spring Boot 4和Spring Security 7基于JWT、授权、Spring Data和PostgreSQL的令牌身份验证模板。
+* [Hexagonal DDD](https://github.com/weltraumpirat/hexagonal_ddd)：具有六边形架构的DDD变体。
+* [Hexagonal Architecture Spring](https://github.com/natanielpaiva/arquitetura-hexagonal-spring)：基于Spring的六边形架构模板。
+* [Spring Boot QuickStart](https://github.com/fireshort/spring-boot-quickstart)：Spring Boot QuickStart是基于Spring Boot技术、Pragmatic风格的JavaEE应用参考示例。
+* [JHybrid](https://github.com/Sfeir/jhybrid)：新一代混合应用入门套件。
+* [Spring Microservices](https://github.com/ElinaValieva/spring-microservices)：基于Saga和CQRS模式的简单微服务架构。
+* [Parsec](https://github.com/yahoo/parsec)：Parsec是一套基于Gradle和Jersey2构建的库和实用程序集合，由Yahoo开源。
+* [Java Docker Build](https://github.com/miguno/java-docker-build-tutorial)：这是一个用于创建Java应用程序Docker镜像的模板项目。
 
 #### 脚手架
 
@@ -10165,6 +10460,9 @@ Kafka生态管理系统、运维平台。
 * [Agent Scaffold Engineering](https://github.com/YANGQINZ/agent-scaffold-engineering)：Agent Scaffold Engineering是一套智能体编排与对话开发平台。
 * [JunoYi](https://github.com/Juno-Yi/JunoYi)：基于Spring Boot 3.5、Java 21打造的现代化企业应用开发脚手架。
 * [Generator JVM](https://github.com/daggerok/generator-jvm)：使用Gradle/Maven/SBT构建系统和Docker/Docker Compose生成JVM(Java、Kotlin、Scala)项目，以实现快速开发。
+* [Generator JHipster MultiTenancy](https://github.com/sonalake/generator-jhipster-multitenancy)：JHipster提供的用于创建多租户应用程序的蓝图。
+* [SetupMyProject](https://github.com/asouza/setupmyproject)：SetupMyProject会根据你选择的技术自动生成项目，并在你下载后立即添加所有必要的配置。
+* [Poseidon Spring Boot](https://github.com/muggle0/poseidon-boot-starter)：Spring Boot脚手架。
 
 #### 快速开发框架
 
@@ -10272,6 +10570,11 @@ Kafka生态管理系统、运维平台。
 * [SpringBootFrame](https://github.com/MrCoderStack/SpringBootFrame)：基于Spring Boot 2.1.4搭建的开发框架，集成高频依赖。
 * [Edap](https://github.com/edap-io/edap)：Edap是一个易用的分布式应用平台。
 * [Curiostack](https://github.com/curioswitch/curiostack)：Curiostack能够轻松实现最佳实践，避免各种麻烦。
+* [Zealsay](https://github.com/GodLikeZeal/zealsay_backend)：Zealsay是一套前后端分离的快速开发脚手架。
+* [Coffee](https://github.com/i-Cell-Mobilsoft-Open-Source/coffee)：Coffee是一套基于Jakarta EE的解决方案，旨在收集企业界的通用算法，并为其提供基本解决方案。
+* [NutzSite](https://github.com/TomYule/NutzSite)：NutzSite基于Nutz的Java开源企业级快速开发框架。
+* [jXFW](https://github.com/croc-code/jxfw)：jXFW是一个与平台无关、模型驱动(MDA/MDD)的企业级应用开发框架。
+* [DIGIT](https://github.com/egovernments/Digit-Core)：DIGIT是一个模块化、多租户的微服务API平台，旨在加速面向政府的服务和工作流程的开发和部署。
 
 #### 后台管理系统
 
@@ -10406,6 +10709,7 @@ Kafka生态管理系统、运维平台。
 * [XHan Admin](https://github.com/Alixhan/xh-admin-backend)：XHan Admin是一个开源免费中后台管理系统基础解决方案。
 * [Rancho Web](https://github.com/rancho00/rancho-web)：Rancho Web项目是一个基于Spring Boot、MyBatis、Spring Security、JWT等开发的一个最小管理后台。
 * [Nebula Framework](https://github.com/NeegixOpensourceGroup/nebula-framework)：Nebula Framework是一套基于Spring Boot 3.0和Java 17开发的企业级后台管理开发平台。
+* [ZeroWdd](https://github.com/ZeroWdd/manager-system)：基于Spring Boot、LayUI Admin实现的后台管理系统。
 
 #### 低代码
 
@@ -10605,6 +10909,7 @@ Kafka生态管理系统、运维平台。
 
 * [Broadleaf Commerce](https://github.com/BroadleafCommerce/BroadleafCommerce)：Broadleaf Commerce CE是一个完全用Java编写并利用Spring框架的电子商务框架。
 * [SAP Commerce](https://www.sap.com/products/crm/commerce-cloud.html)：SAP Commerce是一个使用Java、基于Spring MVC框架的电子商务平台。
+* [CommerceTools](https://commercetools.com/)：Commercetools是一款以人工智能为先导的数字商务平台。
 * [Ktor E-Commerce](https://github.com/piashcse/ktor-E-Commerce)：Ktor E-Commerce是一种高性能后端解决方案，专为使用Ktor构建的现代电子商务应用程序而设计。
 * [YAS](https://github.com/nashtech-garage/yas)：YAS是一个商店项目，旨在练习用Java构建典型的微服务应用程序。
 * [Shopizer](https://github.com/shopizer-ecommerce/shopizer)：Java开源电子商务软件。
@@ -10653,6 +10958,13 @@ Kafka生态管理系统、运维平台。
 * [Auction Webite](https://github.com/jimouris/auction-website)：Auction Webite是一个电子商务市场模板。
 * [Online Shopping](https://github.com/dangi-ai/online-shopping)：这是一个使用Spring Boot、Spring Webflow、Spring REST Services和Hibernate构建的在线购物项目。
 * [Microservice Online Store](https://github.com/metao1/microservice-online-store)：基于事件驱动的电子商务平台，采用领域驱动设计(DDD)、Kafka消息传递和基于编排的Saga。
+* [SpringAngularEcommerce](https://github.com/SaiUpadhyayula/SpringAngularEcommerce)：SpringAngularEcommerce是一个购物车应用程序。
+* [eShop Website](https://github.com/ValentineFernandes/eShop-Website)：e-Shop是一个电子商务网站。
+* [Ecommerce Spring Boot React](https://github.com/vladannovi1234/ecommerce-springboot-react)：这是一个使用Java和Spring Boot构建的电子商务REST API。
+* [EcommerceApp](https://github.com/swapnilbamble1438/EcommerceApp)：EcommerceApp是一个基于Java EE的电子商务应用程序。
+* [JCart](https://github.com/sivaprasadreddy/jcart)：JCart是一个使用Spring构建的简单电子商务应用程序。
+* [Spring REST API eCommerce](https://github.com/rene-kt/spring-restapi-ecommerce)：使用Java和Spring Boot构建的电子商务网站。
+* [Commerce](https://github.com/Hyung1Jung/commerce)：这是一个采用MSA和DDD设计的商业服务。
 * [微同商城](https://gitee.com/fuyang_lipengjun/platform)：减少重复造轮子，开源微信小程序商城。
 * [智汇商城](https://gitee.com/catshen/zhsc)：智汇商城是一款持续更新得轻量级、高性能、前后端分离的电商系统。
 * [Mall](https://github.com/macrozheng/mall)：Mall项目致力于打造一个完整的电商系统，采用现阶段主流技术实现。
@@ -10771,6 +11083,9 @@ Kafka生态管理系统、运维平台。
 * [FloreantPOS](https://github.com/fat-tire/floreantpos)：一款面向餐厅的免费开源销售点应用程序。
 * [Streamline POS](https://stlpos.com/)：Streamline POS免费开源POS系统。
 * [AndKasir](https://github.com/andriawan/AndKasir)：AndKasir是一款基于Java技术构建的收银应用程序，设计简洁易用。
+* [KriolosPOS](https://github.com/kriolos-obiz/kriolos-pos)：Kriol开源销售点系统。
+* [PointOfSale Desktop](https://github.com/rizalfahlevi8/PointOfSale-Desktop)：一款高效的销售点应用程序，可简化企业中的库存和收银交易。
+* [Spring Boot POS](https://github.com/parzibyte/sistema-ventas-spring-boot)：一个使用Java、Spring MVC、MySQL和Bootstrap的销售系统。
 
 #### 秒杀系统
 
@@ -10802,6 +11117,8 @@ Kafka生态管理系统、运维平台。
 * [OpenICE](https://github.com/mdpnp/mdpnp)：OpenICE是一项旨在创建集成临床环境的社区实施的倡议，该计划不仅包括软件实现，还包括更广泛的临床生态系统的架构，以实现临床研究的新途径，由哈佛大学开源。
 * [HealthPlus](https://github.com/heshanera/HealthPlus)：HealthPlus是一款旨在简化医疗机构运营的管理系统。
 * [NeusoftCloudHospital](https://github.com/SteveGan/NeusoftCloudHospital)：NeusoftCloudHospital致力于打造一个完整的医院信息服务系统。
+* [OpenDolphin](https://github.com/dolphin-dev/OpenDolphin)：OpenDolphin是一款开源电子病历系统。
+* [OpenMAXIMS](https://github.com/IMS-MAXIMS/openMAXIMS)：OpenMAXIMS是一套专为英国国家医疗服务体系(NHS)设计的完整患者管理系统。
 
 #### 项目管理
 
@@ -10835,6 +11152,8 @@ Kafka生态管理系统、运维平台。
 * [Mk Teamwork](https://gitee.com/wulon/mk-teamwork-server)：Mk Teamwork是任务协同项目管理系统。
 * [AgilePMB](https://github.com/Alanosy/AgilePMB)：基于Spring Boot的项目管理系统。
 * [Kanbanik](https://github.com/kanbanik/kanbanik)：Kanbanik是一款免费开源的看板，可用于个人看板以及小型团队的管理。
+* [Rike](https://github.com/arago/rike)：Rike使团队能够根据看板原则自主管理任务，从而更高效地工作。
+* [Projecty](https://github.com/marcinadd/projecty-web)：Projecty是一款基于Spring的项目管理应用程序。
 
 #### 问题跟踪系统
 
@@ -10863,6 +11182,7 @@ Kafka生态管理系统、运维平台。
 * [Mamute](https://github.com/caelum/mamute)：Mamute是一个基于CDI和VRaptor 4使用Java开发的问答引擎，由Caelum开源。
 * [Openauth](https://gitee.com/yubaolee/openauth.qa)：Openauth是一个简洁实用的问答网站。
 * [OpenEphyra](https://github.com/TScottJ/OpenEphyra)：OpenEphyra是一个开源的QA框架，由CMU开源。
+* [KillBug](https://github.com/tychozzz/killbug)：KillBug是一个易于使用的平台，专为程序员解决日常开发中遇到的问题而设计。
 
 #### CMS系统
 
@@ -11153,6 +11473,8 @@ Kafka生态管理系统、运维平台。
 * [Spring Boot Blog App](https://github.com/gtiwari333/spring-boot-blog-app)：这是一个简单的微博应用，你可以在其中发布带有附件的笔记/博客。
 * [SpringBlog](https://github.com/shuaigege1766/BlogV2.0)：前后端分离博客，基于Spring Boot、Vue、Mybatis Plus、Spring Security。
 * [Blog](https://github.com/jxnu-liguobin/blog)：基于Spring Boot、Thymeleaf、Mybatis、LayUI、Lucene的个人博客。
+* [Blog](https://github.com/macwx/blog)：一个功能丰富的开源博客系统，采用Spring Boot、Vue前后端分离架构。
+* [Blog](https://github.com/min-lj/Blog)：Vue、Spring Boot前后端分离博客。
 
 #### 论坛系统
 
@@ -11210,6 +11532,8 @@ Kafka生态管理系统、运维平台。
 * [SimpleBBS](https://github.com/MQPearth/SimpleBBS)：Spring Boot构建的简易在线论坛。
 * [NewCoder](https://github.com/Ming-XMU/nowcoder-community)：基于Spring Boot的社区平台，实现了牛客网讨论区的功能。
 * [MyCommunity](https://github.com/UHungLin/MyCommunity)：MyCommunity是一个模仿知乎的简单问答网站，基于Spring Boot、MyBatis实现。
+* [Forum](https://github.com/saysky/forum)：Spring Boot、Mybatis、Thymeleaf博客论坛。
+* [Project Forum](https://github.com/DawidStankiewicz/forum)：使用Spring Boot和Thymeleaf创建的简单论坛。
 
 #### 图书系统
 
@@ -11240,6 +11564,9 @@ Kafka生态管理系统、运维平台。
 * [Trsst](https://github.com/TrsstProject/trsst)：Trsst是短暂性、安全、加密、分布式社交平台。
 * [Eureka Streams](https://github.com/lmco/eurekastreams)：Eureka Streams是洛克希德马丁公司专为政府部门打造的一款社交媒体平台。
 * [Apache Shindig](https://github.com/apache/shindig)：Shindig是一个OpenSocial容器，它提供渲染小工具、代理请求以及处理REST和RPC请求的代码，帮助你快速开始托管OpenSocial应用程序。
+* [Abilian SBE](https://github.com/abilian/abilian-sbe)：Abilian SBE是一个企业社交网络/协作平台。
+* [Prostargram](https://github.com/f-lab-edu/Prostargram)：这是一个使用Java、Spring Boot、MySQL和MyBatis构建的开发者社交网络。
+* [BuddyCloud Server Java](https://github.com/buddycloud/buddycloud-server-java)：一个用Java编写的buddycloud服务器，实现了buddycloud通道协议。
 
 #### 实时协作
 
@@ -11314,6 +11641,7 @@ Kafka生态管理系统、运维平台。
 * [Salesforce REST API Connector](https://github.com/jesperfj/force-rest-api)：Salesforce REST API Connector是一个用于访问Salesforce平台REST API的Java客户端库。
 * [CRM](https://github.com/machowina/CRM)：用Java编写的简单客户关系管理项目。
 * [OpenCRX](https://github.com/opencrx/opencrx)：OpenCRX是一款专业的CRM服务。
+* [RuoyiCRM](https://github.com/jundeeliu/RuoyiCRM)：RuoyiCRM是基于若依平台二次开发的开源CRM系统。
 
 #### HRM系统
 
@@ -11325,6 +11653,7 @@ Kafka生态管理系统、运维平台。
 * [SaaS IHRM](https://github.com/Han-YLun/SaaS_IHRM)：SaaS智能人力资源管理系统。
 * [HrmsProject](https://github.com/Zeynebb/HrmsProject)：人力资源管理系统。
 * [HRMS Project](https://github.com/ahmet-cetinkaya/hrms-project-backend)：基于Java的N层架构人力资源管理系统项目。
+* [HRMS.Java](https://github.com/karcan/HRMS.Java)：Java人力资源管理系统。
 
 #### AI系统
 
@@ -11357,6 +11686,7 @@ Kafka生态管理系统、运维平台。
 * [Kaleido AI](https://gitee.com/ou-yucheng/kaleido-ai)：Kaleido AI智能衣柜是一个采用微服务架构的AI智能穿搭管理系统。
 * [Spring Alpha](https://github.com/CadeYu/spring-alpha)：Spring Alpha是一个基于Spring AI与Next.js构建的企业级美股智能分析Agent。
 * [KnowledgeOps Agent](https://github.com/however-yir/knowledgeops-agent)：KnowledgeOps Agent是一个企业级Spring AI RAG平台，可将文档知识转化为可部署、可管控且可衡量的AI工作流。
+* [Snail AI](https://gitee.com/aizuda/snail-ai)：Snail AI是一个灵活、可扩展的企业级AI智能体平台。
 
 #### OA系统
 
@@ -11373,6 +11703,7 @@ Kafka生态管理系统、运维平台。
 * [OASys](https://github.com/Furinai/OASys)：基于Spring Cloud和Vue 3的OA系统。
 * [Trackr](https://github.com/techdev-solutions/trackr-backend)：Trackr是一款可以追踪公司几乎所有事务的应用程序，它可以记录假期、病假、发票等等。
 * [MiniOA](https://github.com/minioa/MiniOA)：致力于中小企业协同办公，开源OA。
+* [RuoYi Office](https://github.com/yuqing2026/ruoyi-office)：RuoYi Office是基于Spring Cloud Alibaba、Gateway、Nacos、RocketMQ、Vue3、Vben Admin构建的中小企业全业务办公一体化平台。
 
 #### DMS系统
 
@@ -11503,6 +11834,7 @@ Kafka生态管理系统、运维平台。
 * [Silverpeas](https://github.com/Silverpeas/Silverpeas-Core)：Silverpeas是一个基于Java的开源协作门户解决方案。
 * [MyWebSite](https://gitee.com/out-project/mywebsite)：Spring Boot搭建的公司官网门户系统。
 * [GateIn Portal](https://github.com/gatein/gatein-portal)：GateIn是一个开源、基于Java的企业级门户平台，由RedHat JBoss维护。
+* [UCCN](https://github.com/HWYWL/uccn)：一个简洁的公司官网主页，使用Spring Boot作为后台框架。
 
 #### 教育软件
 
@@ -11557,6 +11889,7 @@ Kafka生态管理系统、运维平台。
 * [Facto](https://github.com/nymanjens/facto)：家庭会计工具。
 * [QuickBooks Java SDK](https://github.com/intuit/QuickBooks-V3-Java-SDK)：QuickBooks Online Java SDK提供了一系列Java类库，使调用QuickBooks Online API和访问QuickBooks Online数据变得更加容易。
 * [JMoney](https://gitee.com/jflyfox/jmoney)：小型财务管理软件，通过JFinal、Beelt实现，支持收入支出录入和报表展示。
+* [JBudget](https://github.com/GitAlboBis/Jbudget)：JBudget是一款用Java开发的桌面软件应用程序，用于管理和控制家庭预算。
 
 ## 支付
 
@@ -11669,6 +12002,7 @@ Kafka生态管理系统、运维平台。
 * [Apache Stratos](https://github.com/apache/stratos)：Stratos包括多语言和环境支持，以及在多个IaaS运行时上运行的能力。
 * [DoPaaS](https://github.com/wl4g/dopaas)：基于DevSecOps的一站式PaaS平台解决方案。
 * [Roboconf](https://github.com/roboconf/roboconf-platform)：Roboconf既是一个平台，也是一个框架，用于管理云端的弹性应用程序。
+* [PeerOS](https://github.com/subutai-io/peer-os)：Subutai是一个新一代点对点(P2P)云计算和物联网平台。
 
 #### IaaS平台
 
@@ -11680,6 +12014,7 @@ Kafka生态管理系统、运维平台。
 * [OpenStack4j](https://github.com/openstack4j/openstack4j)：OpenStack4j是一个流式的OpenStack客户端，允许配置和控制OpenStack部署，华为开源。
 * [JOSS](https://github.com/javaswift/joss)：JOSS是OpenStack Storage组件REST接口的Java客户端。
 * [FathomCloud](https://github.com/fathomdb/cloud)：FathomCloud是一个易于运行的云平台，支持OpenStack API。
+* [Corsinvest.ProxmoxVE.Api Java](https://github.com/Corsinvest/cv4pve-api-java)：Proxmox VE客户端Java API。
 
 #### 仿真框架
 
@@ -11691,11 +12026,13 @@ Kafka生态管理系统、运维平台。
 * [Repast](https://github.com/Repast/repast.simphony)：Repast是一系列先进、免费、开源的基于代理的建模和仿真平台，由美国阿贡国家实验室开发。
 * [OpenDC](https://github.com/atlarge-research/opendc)：OpenDC是一个用于云数据中心模拟的免费开源平台，由阿姆斯特丹自由大学开源。
 * [Open DIS Java](https://github.com/open-dis/open-dis-java)：IEEE-1278.1分布式交互式仿真(DIS)应用协议v6和v7的Java实现。
+* [SatEdgeSim](https://github.com/wjy491156866/SatEdgeSim)：SatEdgeSim是一个用于卫星边缘计算环境性能评估建模与仿真的工具包，它使用CloudSim Plus和PureEdgeSim作为底层仿真框架。
 
 #### 边缘计算
 
 * [Eclipse ioFog](https://github.com/eclipse-iofog/Agent)：ioFog是一个开源的边缘计算平台，它提供了一套用于管理和编排边缘设备的工具和框架，由IBM开源。
 * [iFogSim](https://github.com/Cloudslab/iFogSim)：iFogSim用于物联网、边缘计算和雾计算环境中资源管理技术的建模和仿真，由墨尔本大学开源。
+* [EdgeSim](https://github.com/XiaofeiTJU/EdgeSim)：EdgeSim是一个开源的边缘计算和缓存模拟器。
 
 #### 虚拟化
 
@@ -11704,6 +12041,7 @@ Kafka生态管理系统、运维平台。
 * [YAVI Java](https://github.com/yavijava/yavijava)：VI Java API是一组旨在简化VI SDK Web服务接口使用的Java库。
 * [Frag Falcon](https://github.com/vaccovecrana/frag-falcon)：Firecracker虚拟机管理，以微型虚拟机的形式运行Docker镜像。
 * [Libvirt Java](https://github.com/libvirt/libvirt-java)：Libvirt提供了一个可移植、长期稳定的C API，用于管理许多操作系统提供的虚拟化技术，这是Libvirt的Java绑定。
+* [QEmu Java](https://github.com/shevek/qemu-java)：QEmu和KVM的Java客户端。
 
 ## 云服务SDK
 
@@ -11762,6 +12100,7 @@ Kafka生态管理系统、运维平台。
 * [WeChat.Hook.SDK](https://github.com/wechathook/wechat.hook.sdk)：微信个人号开发API接口。
 * [Weixin4j](https://github.com/ansitech/weixin4j)：微信公众号开发SDK。
 * [WechatUtils](https://github.com/andyqian/wechatutils)：Java版微信公众号SDK。
+* [WeChat Open SDK](https://github.com/zeemood/wechat-open-sdk)：Java版微信工具，更为优雅的第三方开发常用工具包。
 
 ## 推送与通知
 
@@ -11822,6 +12161,7 @@ Kafka生态管理系统、运维平台。
 * [Alarm](https://github.com/Junety-C/alarm)：Alarm是一个基于Spring Boot的告警项目。
 * [Squash Java](https://github.com/SquareSquash/java)：适用于Java项目的Squash客户端库。
 * [Rollbar Java](https://github.com/rollbar/rollbar-java)：适用于Java和Android的Rollbar客户端SDK。
+* [PagerDuty Incidents](https://github.com/square/pagerduty-incidents)：用于以编程方式触发和解决PagerDuty事件的实用程序，由Square开源。
 
 #### Webhook
 
@@ -11885,6 +12225,32 @@ Kafka生态管理系统、运维平台。
 * [BrasilAPI Java](https://github.com/SavioAndres/BrasilAPI-Java)：一个用于在Java编程语言中访问BrasilAPI API的库。
 * [iCloud4j](https://github.com/tmyroadctfig/icloud4j)：iCloud4j是PyiCloud库的Java版本，它为Java应用程序提供了一种使用iCloud Web服务的方法。
 * [IMDb JSON API](https://github.com/Omertron/api-imdb)：这是IMDb JSON API的Java实现。
+* [OneDrive SDK Java](https://github.com/isac322/OneDrive-SDK-java)：适用于Java的OneDrive SDK。
+* [TestRail API Java Client](https://github.com/codepine/testrail-api-java-client)：TestRail API的Java客户端库。
+* [Square Java Library](https://github.com/square/square-java-sdk)：Square Java库提供了从Java访问Square API的便捷途径。
+* [Google Photos Library API Java Client](https://github.com/google/java-photoslibrary)：Google Photos Library API的Java客户端库。
+* [Canvas API Java](https://github.com/kstateome/canvas-api)：用于与Canvas LMS API交互的Java库。
+* [Massive JVM Client](https://github.com/massive-com/client-jvm)：Massive JVM客户端SDK。
+* [NextCloud Java API](https://github.com/a-schild/nextcloud-java-api)：用于从Java应用程序访问Nextcloud功能的Java API库。
+* [Salesforce Marketing Cloud Java SDK](https://github.com/salesforce-marketingcloud/FuelSDK-Java)：Salesforce Marketing Cloud Java SDK使开发人员能够通过Java平台轻松访问Salesforce Marketing Cloud。
+* [JGoogle](https://github.com/microg/JGoogle)：一个非官方的谷歌客户端库，主要面向安卓平台。
+* [Stream Feeds Java SDK](https://github.com/GetStream/stream-java)：Stream Feeds的官方Java API客户端，Stream Feeds是一款用于构建可扩展新闻源和活动流的Web服务。
+* [JLyrics](https://github.com/jagrosh/JLyrics)：可扩展的Java歌词抓取API。
+* [Assistant Java](https://github.com/mautini/google-assistant-java-demo)：一个简单的Java版Google Assistant客户端。
+* [jPastebin](https://github.com/bravobit/jPastebin)：jPastebin是一个完整的pastebin.com API Java封装库。
+* [Intercom Java Library](https://github.com/intercom/intercom-java)：Intercom Java库提供了从Java访问Intercom API的便捷途径。
+* [Hibersap](https://github.com/hibersap/hibersap)：Hibersap定义了一组Java注解，用于将SAP函数模块映射到Java类，并提供了一个简洁的API来执行这些函数模块并处理事务和安全方面的问题。
+* [MarvelApiClientAndroid](https://github.com/Karumi/MarvelApiClientAndroid)：用Java编写的Marvel API客户端。
+* [SocialSDK](https://github.com/OpenNTF/SocialSDK)：Social Business Toolkit SDK是一套用于连接到IBM Social Platform的库和代码示例。
+* [Domino JNA](https://github.com/klehmann/domino-jna)：从Java跨平台访问HCL Notes/Domino C API方法。
+* [Actioncable Client Java](https://github.com/hosopy/actioncable-client-java)：Java ActionCable客户端库。
+* [Storefront API Java SDK](https://github.com/scayle/storefront-api-java-sdk)：SCAYLE Storefront API Java SDK简化了与Storefront REST API的交互。
+* [SODA Java](https://github.com/socrata/soda-java)：SODA 2.0 API的Java API。
+* [VK SDK Kotlin](https://github.com/vksdk/vk-sdk-kotlin)：只需几行代码即可为VK.com创建一个聊天机器人，无需担心任何限制。
+* [Matomo Java Tracker](https://github.com/matomo-org/matomo-java-tracker)：Matomo Java Tracker是Matomo Tracking HTTP API的官方Java实现。
+* [RxSuggestions](https://github.com/arunkumar9t2/rxSuggestions)：使用Google Suggest API获取关键词建议的RxJava库。
+* [Box Java SDK](https://github.com/box/box-java-sdk)：适用于Java的Box SDK。
+* [AliOpen](https://github.com/alibaba/AliOpen)：阿里巴巴开放平台消息SDK。
 
 #### Twitter
 
@@ -11905,6 +12271,7 @@ Kafka生态管理系统、运维平台。
 * [Tweetstorm](https://github.com/SlashNephy/Tweetstorm)：Twitter UserStream API的一个简单替代实现。
 * [GetOldTweets](https://github.com/Jefferson-Henrique/GetOldTweets-java)：这是一个用Java编写的项目，用于获取旧推文，它绕过了Twitter官方API的一些限制。
 * [Gnip4j](https://github.com/zauberlabs/gnip4j)：Gnip Java客户端库。
+* [Scala TwitterStreamer](https://github.com/acrosa/Scala-TwitterStreamer)：用于Twitter流媒体API的Scala客户端。
 
 #### Facebook
 
@@ -11972,6 +12339,7 @@ Kafka生态管理系统、运维平台。
 * [ByteDanceOpen](https://github.com/yydzxz/ByteDanceOpen)：字节跳动第三方平台Java SDK。
 * [Douyin Web API SDK](https://github.com/Rockedw/douyin-web-api-sdk)：一个基于Java的抖音Web能力SDK，支持私信收发、视频评论、图片上传、用户信息获取、用户作品抓取与WebSocket实时消息接收。
 * [Douyin Open API SDK](https://github.com/LovebuildJ/douyin-open-api-sdk)：抖音Open API对接SDK。
+* [Jinritemai SDK](https://github.com/cnJun/sdk4-jinritemai)：抖店开放平台SDK。
 
 #### Discord
 
@@ -11984,6 +12352,7 @@ Kafka生态管理系统、运维平台。
 * [Discord.jar](https://github.com/discord-java/discord.jar)：Discord API Java封装器。
 * [Discord J2ME](https://github.com/gtrxAC/discord-j2me)：适用于Java ME设备的Discord客户端。
 * [KizzyRPC](https://github.com/dead8309/KizzyRPC)：KizzyRPC是一个用于在Android系统中实现Discord Rich Presence功能的Kotlin库。
+* [DiscordInteractions](https://github.com/jagrosh/DiscordInteractions)：仅支持REST的Discord交互实现。
 
 #### Spotify
 
@@ -12098,6 +12467,7 @@ Kafka生态管理系统、运维平台。
 * [Mastodon4j](https://github.com/sys1yagi/mastodon4j)：Mastodon是Java和Kotlin的Mastodon客户端。
 * [BigBone](https://github.com/PattaFeuFeu/bigbone)：BigBone是适用于Java和Kotlin的Mastodon客户端库。
 * [Twitter Scale Mastodon](https://github.com/redplanetlabs/twitter-scale-mastodon)：该项目是Mastodon实例的生产级实现，可扩展至Twitter规模(5亿用户、700平均扇出、非平衡社交图谱、每秒7000篇帖子)。
+* [Mastodon4J](https://github.com/Mastodon4J/mastodon4j)：Mastodon4J是一个用于Mastodon API的开源Java库。
 
 #### Flickr
 
@@ -12144,6 +12514,7 @@ Kafka生态管理系统、运维平台。
 * [OpenShift Java](https://github.com/openshift/openshift-restclient-java)：基于Kubernetes的OpenShift版本3架构的Java REST客户端。
 * [MicroBean Helm](https://github.com/microbean/microbean-helm)：MicroBean Helm项目让你可以使用Java的Helm服务器端组件。
 * [Helm Java](https://github.com/manusa/helm-java)：使用此客户端库直接从Java运行Helm命令，而无需Helm CLI。
+* [Abstract Operator](https://github.com/jvm-operators/abstract-operator)：用于创建Kubernetes和Openshift操作符的库/SDK。
 
 ## Web3
 
@@ -12212,6 +12583,9 @@ Kafka生态管理系统、运维平台。
 * [Radix DLT](https://github.com/radixdlt/olympia-node)：Olympia版本的Radix节点和引擎。
 * [OPEN Chain](https://github.com/OpenFuturePlatform/open-chain)：OPEN Chain是一种便捷灵活的技术，可用于开发区块链解决方案和去中心化应用程序。
 * [Chronicle Decentred](https://github.com/OpenHFT/Chronicle-Decentred)：Chronicle Decentred是一个基于分布式账本技术的点对点安全可扩展微服务框架。
+* [Recordins](https://github.com/recordins/recordin-EthereumJ-2018)：Recordins是一个基于以太坊协议的纯Java区块链数据和文档存储平台。
+* [GSC](https://github.com/gscsocial/gsc-core)：GSC是新一代社交网络链。
+* [CWV](https://github.com/CryptoWorldChain/chaincore)：CWV是一个致力于构建新一代加密世界的区块链公链项目。
 
 #### 以太坊
 
@@ -12229,6 +12603,7 @@ Kafka生态管理系统、运维平台。
 * [Mantis](https://github.com/input-output-hk/mantis)：Mantis一个基于Scala的以太坊类区块链客户端。
 * [Ethereum Harmony](https://github.com/ether-camp/ethereum-harmony)：以太坊网络私有对等节点，基于EthereumJ实现。
 * [Java EtherScan API](https://github.com/GoodforGod/java-etherscan-api)：Etherscan.io Java API实现。
+* [Starknet JVM](https://github.com/software-mansion/starknet-jvm)：Starknet JVM语言SDK。
 
 #### 比特币
 
@@ -12300,6 +12675,8 @@ Kafka生态管理系统、运维平台。
 * [OKX Trading](https://github.com/ralph-wren/okx-trading)：OKX Trading是一款基于Spring Boot开发的智能加密货币交易策略回测系统，集成了策略实盘交易、AI策略生成、历史数据回测、策略评价等功能。
 * [Orko](https://github.com/gruelbox/orko)：Orko是一款自托管Web应用程序，它提供统一的仪表板来控制众多加密货币交易所。
 * [Nassau](https://github.com/paritytrading/nassau)：Nassau是一个适用于JVM的快速Nasdaq传输协议库。
+* [BTDEX](https://github.com/btdex/btdex)：BTDEX是一个运行在Signum区块链上的去中心化交易系统。
+* [GOAi](https://github.com/goaiquant/GOAi)：GOAi是一款基于Java的开源量化交易系统。
 
 #### 交易机器人
 
@@ -12323,6 +12700,7 @@ Kafka生态管理系统、运维平台。
 * [XChange](https://github.com/knowm/XChange)：XChange是一个Java库，提供简单一致的API，用于与60多个比特币和其他加密货币交易所进行交互，为交易和访问市场数据提供一致的接口。
 * [Java Binance API](https://github.com/joaopsilva/binance-java-api)：Java Binance API是一个轻量级的Java库，用于与币安API交互，提供完整的API覆盖，支持同步和异步请求，以及使用WebSockets进行事件流。
 * [Binance Connector Java](https://github.com/binance/binance-connector-java)：一组自动生成的Binance API Java连接器。
+* [Java Binance Unofficial API Client](https://github.com/webcerebrium/java-binance-api)：Java Binance非官方API客户端。
 * [Huobi Java SDK](https://github.com/HuobiRDCenter/huobi_Java)：火币Java SDK v3，可以使用此SDK查询所有市场数据、进行交易和管理你的账户。
 * [Bitfinex Websocket API Java](https://github.com/jnidzwetzki/bitfinex-v2-wss-api-java)：本项目提供了一个用于Bitfinex WebSocket API(v2)的Java客户端库。
 * [Gate REST API](https://github.com/gateio/rest-v2)：Gate REST API可以获取市场数据、进行交易和管理你的账户。
@@ -12342,6 +12720,9 @@ Kafka生态管理系统、运维平台。
 * [ZB API](https://github.com/zb2017/api)：zb.com交易所API。
 * [Libdynticker](https://github.com/drpout/libdynticker)：用于从比特币、加密货币、加密资产和衍生品交易所检索交易对和最新值的Java库。
 * [IO.Contek.Invoker](https://github.com/contek-io/io.contek.invoker)：一个用于连接加密货币交易所的Java库。
+* [Huobi API](https://github.com/alertisme/sample)：Java火币API调用封装。
+* [VCoinSDK](https://github.com/mumusenlingongyuan/mm-vcoinSDK)：Java语言封装虚拟币多交易所(火币、币安、OKEX、COINEX)统一API。
+* [Kraken API Java](https://github.com/nyg/kraken-api-java)：用于查询Kraken REST API的Java库。
 
 #### 区块链SDK
 
@@ -12375,6 +12756,12 @@ Kafka生态管理系统、运维平台。
 * [Cita Java SDK](https://github.com/citahub/cita-sdk-java)：Cita Java SDK是一个用于处理智能合约并与CITA客户端集成的Java库。
 * [Java Algorand SDK](https://github.com/algorand/java-algorand-sdk)：AlgoSDK是一个用于与Algorand网络通信和交互的Java库。
 * [Ontology Java SDK](https://github.com/ontio/ontology-java-sdk)：用于Ontology区块链的综合性Java库。
+* [Steem Java API Wrapper](https://github.com/marvin-we/steem-java-api-wrapper)：一个用Java编写的Steem API封装器。
+* [Exonum Java](https://github.com/exonum/exonum-java-binding)：Exonum区块链框架的Java绑定。
+* [Caver Java](https://github.com/klaytn/caver-java)：Caver Java是一个轻量级、高度模块化、方便的Java和Android库，用于与Klaytn网络上的客户端进行交互。
+* [Hyperchain Java SDK](https://github.com/hyperchain/javasdk)：Hyperchain的Java SDK。
+* [Radix DLT Java](https://github.com/radixdlt/radixdlt-java)：Radix DLT Java是一个用于与Radix分布式账本交互的Java/Android客户端库。
+* [PolkaJ](https://github.com/splix/polkaj)：用于使用和访问基于Polkadot的网络API的Java客户端库。
 
 #### 智能合约
 
@@ -12401,6 +12788,7 @@ Kafka生态管理系统、运维平台。
 * [DID Core SDK Server](https://github.com/OmniOneID/did-core-sdk-server)：提供用于开发DID、VC和VP的SDK。
 * [Did Common Java](https://github.com/decentralized-identity/did-common-java)：DID核心规范的一种实现。
 * [Hedera Hashgraph DID Java SDK](https://github.com/hashgraph/did-sdk-java)：Hedera Java SDK支持Hedera Hashgraph DID方法和可验证凭证。
+* [VCK](https://github.com/a-sit-plus/vck)：VC-K是一个功能全面的Kotlin多平台库，用于实现数字身份解决方案，并完全支持现代凭证标准和协议。
 
 ## 金融
 
@@ -12428,6 +12816,7 @@ Kafka生态管理系统、运维平台。
 * [Java CME MDP3 Handler](https://github.com/epam/java-cme-mdp3-handler)：CME市场数据的Java市场数据处理器，由EPAM开源。
 * [Juncture](https://github.com/paritytrading/juncture)：Juncture是一个用于JVM的快速交易协议库。
 * [Double Entry Bookkeeping API](https://github.com/imetaxas/double-entry-bookkeeping-api)：Double Entry Bookkeeping API是一个实现复式记账核心逻辑的Java库。
+* [FinTx Accounting](https://github.com/fintx/fintx-accounting)：FinTx Accounting是一个适用于所有FinTx项目的通用会计项目，支持单式记账、复式记账、账户操作/控制等。
 
 #### 金融API
 
@@ -12452,6 +12841,9 @@ Kafka生态管理系统、运维平台。
 * [Tushare Pro Java SDK](https://github.com/QHh6eQ/tushare-pro-java-sdk)：Tushare Pro Java SDK。
 * [StockApiJava](https://github.com/waizao/StockApiJava)：歪枣网，提供全面、准确、稳定的财经数据。
 * [XTick Java SDK](https://github.com/xticktop/DemoXtickJava)：XTick Java SDK是一个专业的金融数据API客户端库，提供了全面、准确、稳定的行情数据接入能力。
+* [OFX4J](https://github.com/stoicflame/ofx4j)：Java的OFX实现。
+* [Barchart OnDemand Java Client](https://github.com/barchart/barchart-ondemand-client-java)：Barchart OnDemand的Java客户端。
+* [Xero Java](https://github.com/XeroAPI/Xero-Java)：用于Xero API的官方Java客户端。
 
 #### 银行API
 
@@ -12485,6 +12877,7 @@ Kafka生态管理系统、运维平台。
 * [QD](https://github.com/devexperts/QD)：QD是Devexperts开源的一个高性能金融数据处理和分发框架，专门为金融行业设计，用于处理市场数据、交易消息和其他金融数据流。
 * [Java Xirr](https://github.com/RayDeCampo/java-xirr)：Xirr的Java实现，并附带牛顿-拉夫逊算法实现。
 * [Investments Java SDK](https://github.com/Tinkoff/invest-openapi-java-sdk)：该项目是一个基于Java的工具包，用于与Tinkoff Investments的OpenAPI配合使用，可用于创建交易机器人。
+* [ZStreamingQuote](https://github.com/instruritesh/ZStreamingQuote)：ZStreamingQuote是一个开源框架，用于处理、加工和存储基于Zerodha Kite Connect WebSocket的流式报价。
 
 #### 算法交易
 
@@ -12507,6 +12900,7 @@ Kafka生态管理系统、运维平台。
 * [Chronicle FIX](https://chronicle.software/fix-engine/)：微秒级延迟，多资产FIX引擎，旨在满足最严苛的交易应用需求。
 * [Artio](https://github.com/artiofix/artio)：Artio是一个高性能的FIX和FIXP网关。
 * [Nanofix](https://github.com/LMAX-Exchange/nanofix)：用于测试FIX服务器的FIX客户端，由英国外汇交易公司LMAX开发。
+* [JetTek Fix](https://jettekfix.com/)：JetTek Fix是一个FIX引擎。
 
 #### 订单匹配引擎
 
@@ -12688,6 +13082,7 @@ Kafka生态管理系统、运维平台。
 * [Embr](https://github.com/mussonindustrial/embr)：Inductive Automation出品的Ignition开源模块，包含图表、热成像、Periscope、SNMP等功能。
 * [Things API](https://github.com/vsenger/things-api)：物联网Java API。
 * [WebThing Java](https://github.com/WebThingsIO/webthing-java)：WebThing服务器的Java实现。
+* [JetLinks Protocol](https://github.com/jetlinks/jetlinks-official-protocol)：JetLinks官方实现的设备接入协议，可用于参考实现自定义协议开发。
 
 #### 物联网平台
 
@@ -12739,6 +13134,7 @@ Kafka生态管理系统、运维平台。
 * [AWS IoT Device SDK Java](https://github.com/aws/aws-iot-device-sdk-java)：AWS IoT Device SDK使Java开发人员能够通过MQTT或基于WebSocket协议的MQTT访问AWS IoT平台。
 * [IoT Device Java](https://github.com/tencentyun/iot-device-java)：腾讯云物联网通信Java和Android SDK。
 * [Emporia Energy API Client](https://github.com/helgew/emporia-downloader)：基于Java的Emporia Energy API客户端。
+* [Huawei Cloud IoT Device SDK Java](https://github.com/huaweicloud/huaweicloud-iot-device-sdk-java)：Huawei Cloud IoT Device SDK Java提供设备接入华为云IoT物联网平台的Java版本的SDK。
 
 #### 智能家居
 
@@ -12762,6 +13158,9 @@ Kafka生态管理系统、运维平台。
 * [Calimero Core](https://github.com/calimero-project/calimero-core)：Calimero Core提供(安全)KNX通信协议、KNX数据点和属性访问以及管理功能。
 * [KNX Core](https://github.com/pitschr/knx-core)：一个用于KNX Net/IP通信的响应式、非阻塞式Java库。
 * [NetHomeServer](http://opennethome.org/)：NetHomeServer是一个用于家庭自动化的开源软硬件项目。
+* [Shade](https://github.com/InkApplications/Shade)：用于控制Hue设备的跨平台CLI和多平台Kotlin SDK。
+* [SmartHome/J](https://github.com/smarthomej/addons)：适用于OpenHAB的SmartHome/J插件。
+* [Yet Another Hue API](https://github.com/ZeroOne3010/yetanotherhueapi)：这是一个用于飞利浦Hue灯的Java 8 API。
 
 #### 数字孪生
 
@@ -12871,6 +13270,9 @@ Kafka生态管理系统、运维平台。
 * [RCSLib](https://github.com/usnistgov/rcslib)：NIST实时控制系统库，包括Posemath、NML通信和Java绘图器，由美国国家标准技术研究院开源。
 * [z21 Drive](https://github.com/grizeldi/z21-drive)：这是一个用于驱动Fleischmann/Roco z21 DCC控制中心的底层Java API，它负责将你的数据封装成z21能够识别的数据。
 * [GRASSMARLIN](https://github.com/nsacyber/GRASSMARLIN)：GRASSMARLIN提供工业控制系统以及监控和数据采集(SCADA)网络的IP网络态势感知，以支持网络安全，由美国国家安全局网络安全局开源。
+* [OPC-DA](https://github.com/SetGeek/OPC-DA)：基于Utgard的OPC-DA客户端。
+* [LibLaserCut](https://github.com/t-oster/LibLaserCut)：一个与平台无关的激光切割机控制库。
+* [OpenTCS Commodapter VDA5050](https://github.com/openTCS/opentcs-commadapter-vda5050)：VDA5050接口的OpenTCS实现。
 
 #### 电力系统
 
@@ -12919,6 +13321,7 @@ Kafka生态管理系统、运维平台。
 * [CDASim](https://github.com/usdot-fhwa-stol/cdasim)：CDASim是一个开源仿真系统，支持协同驾驶自动化应用程序的开发和测试，由美国交通部联邦公路管理局开源。
 * [JT808 Coder](https://gitee.com/yezhihao/jt808-coder)：提供部标JT/T808协议的编码、解码，兼容2011、2013、2019版本协议，支持分包。
 * [NDK SOMEIPLIB](https://github.com/lixiaolia/ndk-someiplib)：基于vsomeip的SOME/IP Java API。
+* [JTTProtocol](https://github.com/azhon/JTTProtocol)：使用Netty封装的部标JTT808、JTT1078。
 
 #### 车载诊断
 
@@ -12985,6 +13388,7 @@ Kafka生态管理系统、运维平台。
 * [JavaForce](https://github.com/pquiring/javaforce)：JavaForce库，用于构建强大的应用程序和服务(相机、OpenGL、OpenCL、FFmpeg的原生绑定)，包含VoIP协议栈、PLC I/O和众多应用程序。
 * [Moka7](https://snap7.sourceforge.net/moka7.html)：Moka7是Snap7客户端的Java移植版。
 * [Moka7 Live](https://github.com/xtrinch/moka7-live)：基于Moka7的Java版S7 PLC通信库。
+* [Mokka7](https://github.com/comtel2000/mokka7)：Mokka7/Snap7是一款开源的32/64位多平台以太网通信套件，用于与西门子S7 PLC进行原生接口连接。
 
 #### Modbus
 
@@ -13138,6 +13542,7 @@ Kafka生态管理系统、运维平台。
 * [EmailAddress](https://github.com/hmrc/emailaddress)：用于对电子邮件地址进行类型检查、验证和混淆的Scala微型库。
 * [Emil](https://github.com/eikek/emil)：Emil是一个用于在Scala中处理电子邮件的库。
 * [Resend Java SDK](https://github.com/resend/resend-java)：Resend的Java SDK。
+* [SimpleKotlinMail](https://github.com/jakobkmar/SimpleKotlinMail)：SimpleKotlinMail是一个Kotlin邮件API，它使用协程并提供DSL。
 
 ## 邮件服务器
 
@@ -13264,6 +13669,7 @@ Kafka生态管理系统、运维平台。
 * [Mail.Ru IM Java](https://github.com/mail-ru-im/bot-java)：Mail.Ru IM机器人API的Java接口。
 * [Xatkit](https://github.com/xatkit-bot-platform/xatkit-runtime)：Xatkit低代码聊天机器人平台的核心运行时引擎。
 * [LineAPI4J](https://github.com/ruyaoyao/LineAPI4J)：LineAPI4J允许你构建自己的Line机器人。
+* [RiveScript Java](https://github.com/aichaos/rivescript-java)：这是一个用Java编程语言编写的RiveScript解释器库。
 
 #### Discord机器人
 
@@ -14583,6 +14989,7 @@ Kafka生态管理系统、运维平台。
 * [APK Parser](https://github.com/hsiafan/apk-parser)：APK解析器库，用于解码二进制XML文件，获取APK元信息。
 * [APKParser](https://github.com/jaredrummler/APKParser)：安卓APK解析器。
 * [Android APK Parser](https://github.com/joakime/android-apk-parser)：从Android APK文件中获取基本信息。
+* [ApkAnalyzer](https://github.com/MartinStyk/ApkAnalyzer)：用于获取有关Android APK文件详细信息的Java应用程序/库。
 
 #### Android工具库
 
@@ -14650,6 +15057,7 @@ Kafka生态管理系统、运维平台。
 * [JOID](https://github.com/Zeldown/JOID)：JOID是一款灵活、基于组件的LWJGL 2 UI工具包，专为希望掌控渲染路径并交付出众界面的开发者而设计。
 * [LazyGui](https://github.com/KrabCode/LazyGui)：LazyGui是一个用于Processing的GUI库。
 * [Pulsar](https://github.com/MeteorDevelopment/pulsar)：使用LWJGL3的Java GUI框架。
+* [GTK-KN](https://github.com/gtk-kn/gtk-kn)：Kotlin/Native为GTK和其他基于GObject的库提供的绑定。
 
 #### 移动开发框架
 
@@ -14663,6 +15071,7 @@ Kafka生态管理系统、运维平台。
 * [GwtMobile](https://github.com/dennisjzh/GwtMobile)：GWT Mobile是一款基于GWT技术的跨平台移动开发工具。
 * [JUniversal](https://github.com/juniversal/juniversal)：JUniversal允许你使用源代码转换功能，用Java编写原生、移动端和跨平台应用程序。
 * [Applause](https://github.com/applause/applause)：Applause是一个用于轻松创建跨平台移动应用程序的工具包。
+* [CrossMobile](https://github.com/crossmob/CrossMobile)：CrossMobile是一个便于开发移动应用程序的框架。
 
 #### Swing
 
@@ -14869,6 +15278,8 @@ Kafka生态管理系统、运维平台。
 * [FXRouter](https://github.com/Marcotrombino/FXRouter)：一个简单的JavaFX路由器，用于在应用程序场景之间切换。
 * [Kairos](https://github.com/Kairos-Project/kairos-framework)：Kairos让你能够像在Android中一样，使用Activity和Fragment构建JavaFX应用程序，并使用Material Design创建出色的用户界面。
 * [JavaFX WebView Debugger](https://github.com/vsch/Javafx-WebView-Debugger)：通过WebSocket连接到Google Chrome开发者工具。
+* [FXGuice](https://github.com/cathive/fx-guice)：该库提供了一些有用的类，可帮助你将Google Guice集成到基于JavaFX的应用程序中。
+* [FXCity](https://github.com/chengenzhao/fxcity)：JavaFX、FXGL、AtlantaFX扩展项目。
 
 #### JavaFX主题库
 
@@ -15094,6 +15505,7 @@ Kafka生态管理系统、运维平台。
 * [JavaFX Maven Archetypes](https://github.com/openjfx/javafx-maven-archetypes)：适用于各种JavaFX项目的Maven原型。
 * [Spring Boot FX](https://github.com/jasrodis/spring-boot-fx)：Spring Boot FX是最简单的样板代码，可用于快速启动基于Spring Boot、JavaFX、MongoDB和众多其他炫酷功能的新应用程序。
 * [FXModules](https://github.com/HanSolo/fxmodules)：这是一个小型项目，可用作模块化JavaFX项目的模板。
+* [JavaFX JLink Starter Gradle](https://github.com/brunoborges/javafx-jlink-starter-gradle)：这是一个入门项目，旨在帮助Java开发人员开始使用JavaFX和Java 11模块构建跨平台图形应用程序。
 
 #### SWT
 
@@ -15139,6 +15551,7 @@ Kafka生态管理系统、运维平台。
 * [WebView](https://github.com/shannah/webviewjar)：Zserge Webview的Java版本。
 * [Java CEF](https://github.com/wjywbs/javacef)：在Java SWT中嵌入Chromium浏览器。
 * [LoboBrowser](https://github.com/lobobrowser/LoboBrowser)：Lobo是一个可扩展的全Java Web浏览器和RIA平台。
+* [WebViewKo](https://github.com/Winterreisender/webviewko)：WebViewKo是轻量跨平台的网页视图库WebView的Kotlin多平台绑定。
 
 #### Processing
 
@@ -15280,11 +15693,14 @@ Kafka生态管理系统、运维平台。
 * [JfxIDE](https://github.com/Zev-G/JfxIDE)：JfxIDE是一个用JavaFX编写的Java函数式代码编辑器。
 * [ToyIDE](https://github.com/pavelfatin/toyide)：ToyIDE是一个功能齐全的集成开发环境的模拟版本。
 * [MySmallBasic](https://github.com/kwanghoon/MySmallBasic)：MySmallBasic是首个面向Small Basic编程环境的开源软件，由韩国光州全南国立大学开源。
+* [UECIDE](https://github.com/UECIDE/UECIDE)：通用嵌入式计算集成开发环境。
+* [Enclojure](https://github.com/ericthorsen/enclojure)：Clojure IDE工具。
 
 #### 可视化编程
 
 * [Processing](https://github.com/processing/processing)：Processing是一个开源的编程语言和开发环境，设计用于视觉艺术、创意编程和电子艺术领域的教学和创作，由麻省理工学院开源。
 * [FlowForge](https://github.com/gufranthakur/FlowForge)：FlowForge是一款用Java编写的简单可视化编程工具，其设计灵感来源于虚幻引擎5的蓝图系统。
+* [VRL-Studio](https://github.com/VRL-Studio/VRL-Studio)：VRL-Studio是一款基于Java平台的创新型IDE，它结合了可视化和文本编程。
 * [Viskell](https://github.com/viskell/viskell)：Viskell是一个实验性的可视化编程环境，适用于类型化(类似Haskell)函数式编程语言，由特文特大学开源。
 * [PraxisLive](https://github.com/praxis-live/praxis-live)：PraxisLive是一种混合视觉实时编程Java IDE。
 * [JavaFBP](https://github.com/jpaulm/javafbp)：基于Java的流程编程(FBP)实现。
@@ -15316,6 +15732,7 @@ Kafka生态管理系统、运维平台。
 * [Markdown Writer FX](https://github.com/JFormDesigner/markdown-writer-fx)：用JavaFX编写的开源Markdown编辑器。
 * [TextMd](https://github.com/jdesive/textmd)：TextMD Markdown编辑器。
 * [JeditFX](https://github.com/lanthale/JeditFX)：JeditFX是一个非常轻量级的文本编辑器，用JavaFX编写。
+* [FxMarkdownEditor](https://github.com/GGXBoo/editor)：使用JavaFX编写的开源Markdown编辑器。
 
 #### 在线编辑器
 
@@ -15465,7 +15882,7 @@ Kafka生态管理系统、运维平台。
 * [DBeaver](https://github.com/dbeaver/dbeaver)：DBeaver是一款免费的跨平台数据库工具。
 * [Datagrip](https://www.jetbrains.com/datagrip/)：Datagrip是JetBrains公司开发的适用于关系数据库和NoSQL数据库的强大跨平台工具。
 * [Chat2DB](https://github.com/CodePhiliaX/Chat2DB)：Chat2DB是一款AI first的数据管理、开发、分析工具，由阿里开源。
-* [CloudDM](https://www.clougence.com/clouddm-personal)：CloudDM是开云集致公司推出的一款一站式多数据源开发管理工具。
+* [CloudDM](https://github.com/ClouGence/open-cdm)：CloudDM是开云集致公司推出的一款一站式多数据源开发管理工具。
 * [MDUT](https://github.com/SafeGroceryStore/MDUT)：MDUT是一款集成多种主流数据库类型的中文数据库跨平台使用工具。
 * [Jailer](https://github.com/Wisser/Jailer)：Jailer是一个用于数据库子集、模式和数据浏览的工具。
 * [SQLeo](https://sqleo.sourceforge.io/)：SQLeo是一个强大的SQL工具，可将复杂查询(由OBIEE、Microstrategy、Cognos、Hyperion、Pentaho...生成)转换或反转为图表，以简化可视化和分析。
@@ -15540,6 +15957,8 @@ Kafka生态管理系统、运维平台。
 * [Xtermjs Spring Boot Starter](https://github.com/linux-china/xtermjs-spring-boot-starter)：提供一个用于管理Spring Boot应用的Web终端。
 * [CloudTerm](https://github.com/javaterminal/cloudterm)：CloudTerm是一个运行在JVM或Docker容器上的Web终端。
 * [JCTerm](https://github.com/jcraft/jcterm)：JCTerm是一个纯Java VT100终端模拟器。
+* [ForceTerm](https://github.com/sebkur/forceterm)：基于JediTerm的全功能终端。
+* [DragonConsole](https://github.com/bbuck/DragonConsole)：DragonConsole是一款基于Java的跨平台终端模拟器。
 
 #### 远程桌面控制
 
@@ -15600,6 +16019,7 @@ Kafka生态管理系统、运维平台。
 * [NodeBox](https://github.com/nodebox/nodebox)：NodeBox系列工具让你能够按照自己想要的方式创建生成设计，由布鲁塞尔圣卢卡斯大学学院开发。
 * [TreeForm](https://github.com/frekky/TreeForm)：TreeForm语法树绘图软件是一个语言语法/语义树绘图编辑器。
 * [Sweet Home 3D](http://www.sweethome3d.com/)：Sweet Home 3D是一款免费的室内设计应用程序，它可以帮助你绘制房屋平面图、在其上布置家具并以3D形式查看结果。
+* [SketchChair](https://github.com/DiatomStudio/SketchChair)：SketchChair是一款开源软件工具，任何人都可以轻松设计和制作自己的数字化家具。
 
 #### 软件定义无线电
 
@@ -15708,6 +16128,7 @@ Kafka生态管理系统、运维平台。
 * [Godot Java](https://github.com/youngledo/godot-java)：Godot的Java绑定。
 * [Scenario4j](https://github.com/YvesBoyadjian/Scenario4j)：Scenario4j是Coin3D的Java移植版，使用LWJGL和OpenGL 3.3核心配置文件。
 * [Star2D](https://github.com/star4droid/Star2D)：Star2D是一款轻量级但功能强大的2D游戏引擎，专为Android移动游戏开发而设计。
+* [Vybe](https://github.com/pfeodrippe/vybe)：Vybe是一个用于游戏开发的Clojure框架。
 
 #### Minecraft
 
@@ -15811,6 +16232,8 @@ Kafka生态管理系统、运维平台。
 * [BJNE Java](https://github.com/tanakh/bjne-java)：NES模拟器的Java实现。
 * [JSpeccy](https://github.com/jsanchezv/JSpeccy)：JSpeccy是一款用Java编写的多平台ZX Spectrum模拟器。
 * [Kinoko](https://github.com/iw2d/kinoko)：Kinoko是一个用于模拟热门蘑菇游戏的服务器模拟器。
+* [KPSPEmu](https://github.com/soywiz-archive/kpspemu)：用Kotlin编写的PSP模拟器，支持JVM、JS和原生应用。
+* [Helios](https://github.com/fedex81/helios)：一款基于Java的多系统模拟器，主要针对世嘉16位系统。
 
 #### 2D/3D渲染
 
@@ -15830,6 +16253,8 @@ Kafka生态管理系统、运维平台。
 * [Nifty GUI](https://github.com/nifty-gui/nifty-gui)：Nifty GUI是一个Java库，支持为游戏或类似应用程序构建交互式用户界面。
 * [GLN](https://github.com/kotlin-graphics/gln)：OpenGL的包装器，旨在通过使GL代码紧凑、更简单和类型安全来改善开发体验。
 * [GLM](https://github.com/kotlin-graphics/glm)：GLM是OpenGL Mathematics的Kotlin端口。
+* [GLI](https://github.com/kotlin-graphics/gli)：OpenGL Image(GLI)的Kotlin移植版。
+* [Assimp](https://github.com/kotlin-graphics/assimp)：Assimp的JVM移植。
 * [Ardor3D](https://github.com/Renanse/Ardor3D)：Ardor3D是一个基于Java的免费、面向专业的开源3D图形引擎。
 * [Clojure2D](https://github.com/Clojure2D/clojure2d)：Clojure2D是一个支持生成式编码或故障艺术的库。
 * [OverrunGL](https://github.com/Over-Run/overrungl)：Overrun Game Library是一个用Java 24实现的高性能库，它支持跨平台访问一组C库绑定，提供各种有用的实用程序。
@@ -15907,6 +16332,9 @@ Kafka生态管理系统、运维平台。
 * [GameAI4j](https://github.com/jzyong/GameAI4j)：java.NavMesh、A*、BehaviorTree、FSM的游戏AI。
 * [ChromaScape](https://github.com/StaticSweep/ChromaScape)：ChromaScape是一个智能的OSRS颜色机器人/颜色机器人框架，它使开发人员能够使用计算机视觉和拓扑学创建强大的脚本。
 * [TextraTypist](https://github.com/tommyettinger/textratypist)：基于typing-label的LibGDX增强文本显示系统。
+* [Behavior3Java](https://github.com/SilenceSu/behavior3java)：Behavior3Java是一套与Behavior3Editor编辑器相配套的行为树框架。
+* [Written Nomai Language Image Generator](https://github.com/YanWittmann/ow-written-nomai-lang)：Written Nomai Language Image Generator可以生成一张图像，图像中包含类似游戏《星际拓荒》中诺麦语文本的螺旋状符号。
+* [Planet Generator](https://github.com/eobermuhlner/planet-generator)：用于程序化生成类地行星的Java库。
 
 #### 游戏API
 
@@ -15926,6 +16354,8 @@ Kafka生态管理系统、运维平台。
 * [R4J](https://github.com/stelar7/R4J)：包含每个Riot游戏API的Java库。
 * [LoL Client Java API](https://github.com/stirante/lol-client-java-api)：这是一个简单的库，提供对英雄联盟客户端内部API的访问。
 * [Gathering Java SDK](https://github.com/MagicTheGathering/mtg-sdk-java)：用于使用magicthegathering.io API的Java SDK。
+* [Valorant Java API](https://github.com/Valorant-API/java-library)：Valorant Java/Kotlin API实现。
+* [PUBG Java](https://github.com/mautini/pubgjava)：PUBG API的Java封装。
 
 #### 物理引擎
 
@@ -15972,6 +16402,7 @@ Kafka生态管理系统、运维平台。
 * [Pathfinding](https://github.com/xaguzman/pathfinding)：一个用于游戏的Java寻路库。
 * [Tektosyne](https://github.com/kynosarges/tektosyne)：Tektosyne库提供了计算几何和基于图形的寻路算法，以及支持数学实用程序和专门的集合。
 * [JWalkable](https://github.com/implicit-invocation/jwalkable)：适用于Java的简易2D多边形寻路算法。
+* [Easy3dNav](https://github.com/SilenceSu/Easy3dNav)：3D游戏服务端寻路组件。
 
 #### 实体框架
 
@@ -16106,6 +16537,7 @@ Kafka生态管理系统、运维平台。
 * [Lukyt](https://github.com/zenith391/lukyt)：Lukyt是一个玩具项目，是用Lua制作的小型JVM，支持Java 6。
 * [JJJVM](https://github.com/raydac/j-j-jvm)：用Java编写的JVM字节码解释器。
 * [Squawk](https://github.com/tomatsu/squawk)：这是一个为微控制器定制Squawk虚拟机的实验性项目。
+* [Ocelot](https://github.com/kittylyst/ocelotvm)：Ocelot是一个非常简单的JVM解释器部分实现。
 
 ## JVM语言
 
@@ -16167,6 +16599,9 @@ Kafka生态管理系统、运维平台。
 * [Fjord](https://github.com/penberg/fjord)：Fjord是F#编程语言在JVM上的实现。
 * [Lift](https://github.com/lift-project/lift)：Lift编程语言和编译器，由爱丁堡大学开源。
 * [Gravel](https://github.com/gravel-st/gravel)：Gravel是JVM上的Smalltalk实现。
+* [Bau](https://github.com/thomasmueller/bau-lang)：Bau是一种简单、简洁、安全、强大且快速的编程语言。
+* [Dyvil](https://github.com/Dyvil/Dyvil)：Dyvil是一种基于Java和JVM的多范式通用编程语言。
+* [Kiss](https://github.com/mikera/kiss)：一个基于Clojure的静态类型、函数式Lisp语言。
 
 ## JVM代理
 
@@ -16176,7 +16611,6 @@ Kafka生态管理系统、运维平台。
 * [RR4J](https://github.com/Kartikvk1996/RR4J)：RR4J是一个记录Java字节码执行情况并允许开发人员在本地重放的工具。
 * [FlowTracker](https://github.com/coekie/flowtracker)：FlowTracker是一个Java代理，用于跟踪程序如何读取、操作和写入数据。
 * [Zorka](https://github.com/jitlogic/zorka)：Zorka是一个用于Java应用程序的可编程通用监控代理。
-* [Disco](https://github.com/awslabs/disco)：Disco包括用于创建Java代理的框架，用于分布式系统的面向切面的工具，由AWS开源。
 * [JVMQuake](https://github.com/Netflix-Skunkworks/jvmquake)：一个JVMTI代理，它附加到你的JVM，并在程序变得不稳定时自动发出信号并终止它，由Netflix开源。
 * [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot)：inspectIT Ocelot是一个零配置Java代理，用于基于OpenCensus库动态收集应用程序性能、跟踪和行为数据。
 * [LinkAgent](https://github.com/shulieTech/LinkAgent)：LinkAgent是一个基于Java的开源代理，旨在通过JVM字节码收集Java应用程序的数据和控制功能，而无需修改应用程序代码。
@@ -16200,6 +16634,7 @@ Kafka生态管理系统、运维平台。
 * [Jcoder](https://github.com/NLPchina/Jcoder)：Jcoder可以快速发布你的API并安排任务，动态编辑你的Java类以及添加或删除JAR文件。
 * [Macaque Hotswap](https://github.com/hhy50/macaque-hotswap)：从本地到远程服务器的热部署框架。
 * [JVM Live Reload](https://github.com/seroperson/jvm-live-reload)：为JVM上的任何Web应用程序提供一致的实时重新加载体验。
+* [Mybatis XMLReload Spring Boot Starter](https://github.com/wayn111/mybatis-xmlreload-spring-boot-starter)：Mybatis XMLReload Spring Boot Starter支持XML文件热更新功能。
 
 ## 类加载
 
@@ -16249,6 +16684,10 @@ Kafka生态管理系统、运维平台。
 * [EMUStudio](https://github.com/emustudio/emuStudio)：EMUStudio是一款用于计算机模拟和编写模拟计算机程序的桌面应用程序。
 * [Tiny-Emu](https://github.com/jdvillal/8-bit_CPUemu)：Tiny-Emu是8位CPU的模拟器。
 * [GraalRISCV](https://github.com/Glavo/GraalRISCV)：GraalRISCV是一个纯Java RV64用户态模拟器，使用GraalVM的Truffle框架构建。
+* [Logi6502](https://github.com/SolraBizna/logi6502)：包含模拟W65C02S CPU的Logisim组件库。
+* [CPUSim](https://github.com/Colby-CPU-Sim/CPUSim)：CPU Sim是一款Java应用程序，它允许用户在微代码级别设计简单的计算机CPU，并通过仿真在这些CPU上运行机器语言或汇编语言程序。
+* [Java 6502 Emulator](https://github.com/DylanSpeiser/Java-6502-Emulator)：用Java编写的Ben Eater 65C02计算机模拟器。
+* [Assembler](https://github.com/hneemann/Assembler)：Assembler是一个用于模拟16位微处理器的汇编器。
 
 ## MIPS
 
@@ -16331,6 +16770,8 @@ Kafka生态管理系统、运维平台。
 * [LemonC](https://github.com/yananlemon/LemonC)：LemonC是一个基于Java实现的编译器，将自定义的Lemon语言编译为JVM字节码，可直接在JVM上运行。
 * [BasicV2](https://github.com/EgonOlsen71/basicv2)：BasicV2是一个基于Java的Commodore BASIC V2解释器和编译器，BASIC V2是C64和VIC-20等系统上使用的方言。
 * [Tiger](https://github.com/bjhua/tiger)：一个用于MiniJava的教学编译器。
+* [Ayame](https://github.com/No-SF-Work/ayame)：一个将SysY翻译成ARMv7a的编译器，用Java 15实现，由北京航空航天大学开源。
+* [J2JS](https://github.com/decatur/j2js-compiler)：Java字节码到JavaScript的交叉编译器。
 
 #### 内存中编译器
 
@@ -16428,6 +16869,8 @@ Kafka生态管理系统、运维平台。
 * [Bus Storage](https://github.com/818000/bus/tree/main/bus-storage)：Bus Storage是一个综合性的云存储组件，可与包括阿里云OSS、秦牛云、腾讯云COS、百度云BOS、华为云OBS、京东云和优云在内的多家云存储服务商进行统一集成。
 * [AWS Java NIO SPI S3](https://github.com/awslabs/aws-java-nio-spi-for-s3)：这是一个用于S3的Java NIO.2服务提供程序，允许Java NIO对使用该协议的路径执行操作S3。
 * [Spring File Storage Service](https://github.com/melthaw/spring-file-storage-service)：FSS API使存储Blob文件变得轻松简单。
+* [Qiniu Suits Java](https://github.com/NigelWu95/qiniu-suits-java)：Qiniu Suits Java是一个多线程的云存储API工具。
+* [Spring Boot Digital Ocean Spaces](https://github.com/gladius/spring-boot-digital-ocean-spaces)：使用AWS S3 Java SDK将DigitalOcean Spaces与Spring Boot集成。
 
 ## 文件系统
 
@@ -16476,6 +16919,7 @@ Kafka生态管理系统、运维平台。
 * [NFS4j Daemon](https://github.com/inetum-orleans/nfs4j-daemon)：纯Java NFS v3/v4.1服务器，由dCache nfs4j提供支持。
 * [DiskMirror](https://github.com/BeardedManZhao/DiskMirror)：DiskMirror是一款开源文件系统管理框架，旨在通过提供一系列适配器来简化不同存储系统间的文件操作。
 * [GitHubFS](https://github.com/gnodet/githubfs)：Java NIO文件系统，用于访问GitHub。
+* [BRFS](https://github.com/Bonree/BRFS)：BRFS是一个主要针对海量小文件存储而设计的高可用、高性能、易扩展的分布式文件系统。
 
 ## S3
 
@@ -16510,11 +16954,15 @@ Kafka生态管理系统、运维平台。
 * [Beat Link](https://github.com/Deep-Symmetry/beat-link)：用于与Pioneer DJ Link设备同步和通信的Java库。
 * [MidiBus](https://github.com/sparks/themidibus)：MidiBus是一个用于Processing的MIDI库，它提供了一种快速简便的方法来发送和接收MIDI数据。
 * [Android MIDI Library](https://github.com/LeffelMania/android-midi-lib)：该项目主要适用于无法访问Java的javax.sound.midi库的Android应用程序。
+* [Clojure Sound](https://github.com/uncomplicate/clojure-sound)：Clojure Sound是一个用于转换数字媒体并与MIDI设备通信的库。
+* [Javax.Sound.MIDI Android](https://github.com/kshoji/javax.sound.midi-for-Android)：Android版javax.sound.midi包移植。
 * [MWEngine](https://github.com/igorski/MWEngine)：适用于Android的音频引擎和DSP库，以C++编写，在音乐环境中提供低延迟性能，同时提供Java/Kotlin API。
 * [Minim](https://github.com/ddf/Minim)：Java音频库，设计用于与Processing一起使用。
 * [JSyn](https://github.com/philburk/jsyn)：Java模块化音频合成器。
 * [Jaudiotagger](https://github.com/RouHim/jaudiotagger)：Jaudiotagger是音频标记库，用于标记音频文件中的数据。
 * [JNAJack](https://github.com/jaudiolibs/jnajack)：JACK音频连接套件的Java绑定。
+* [Audio Servers](https://github.com/jaudiolibs/audioservers)：JAudioLibs AudioServer API提供了一个基于Java回调的音频和DSP编程API，其设计灵感部分来源于PortAudio。
+* [Audio Ops](https://github.com/jaudiolibs/audioops)：一个简单的Java音频处理API，其中包含一系列从各种项目中移植过来的可重用音频滤波器和效果。
 * [SoundLibs](https://github.com/pdudits/soundlibs)：Java声音库的Maven工件。
 * [JOAL](https://github.com/sgothel/joal)：JOAL是OpenAL API的Java绑定的参考实现，旨在为用Java编写的应用程序提供硬件支持的3D空间音频。
 * [jLibrosa](https://github.com/Subtitle-Synchronizer/jlibrosa)：Librosa等效的Java库，用于处理音频文件并从中提取特征。
@@ -16565,6 +17013,7 @@ Kafka生态管理系统、运维平台。
 * [SoundTransform](https://github.com/libetl/soundtransform)：一个用于通过乐器塑造声音的Android和纯Java库。
 * [AudioCue](https://github.com/philfrei/AudioCue-maven)：AudioCue是一个Java音频播放类，其设计基于javax.sound.sampled.Clip，并增强了并发播放功能，以及对音量、声像和频率的动态处理。
 * [QuiFFT](https://github.com/mileshenrichs/QuiFFT)：QuiFFT是一个用于数字音频文件的傅里叶变换(FFT)库。
+* [Gadulka](https://github.com/kkostov/gadulka)：Gadulka是一个极简的Kotlin多平台音频播放器库。
 
 #### 视频库
 
@@ -16595,6 +17044,10 @@ Kafka生态管理系统、运维平台。
 * [MPD Tools](https://github.com/carlanton/mpd-tools)：这是一个用于解析MPEG-DASH清单文件的解析器和对象模型。
 * [Red5 HLS](https://github.com/Red5/red5-hls-plugin)：Red5的HLS插件支持。
 * [IMF Conversion Utility](https://github.com/DSRCorporation/imf-conversion)：IMF Conversion Utility允许从IMF包中指定的CPL创建平面文件。
+* [Mp4Coder](https://github.com/zuichu/Mp4Coder)：Mp4Coder、H264和AAC合成MP4视频库。
+* [AndroidVimeoExtractor](https://github.com/ed-george/AndroidVimeoExtractor)：获取Vimeo的MP4 URL。
+* [OBS Video Scheduler](https://github.com/pashkal/obs-video-scheduler)：用于管理Open Broadcaster Software广播中预录制视频播放的库和Web应用程序。
+* [Devolay](https://github.com/WalkerKnapp/devolay)：这是一个使用Newtek NDI SDK通过网络发送和接收视频的Java库。
 
 #### 多媒体库
 
@@ -16636,6 +17089,7 @@ Kafka生态管理系统、运维平台。
 * [JazminServer](https://github.com/guooscar/JazminServer)：JazminServer是一个基于Java的应用程序/消息/RPC/SIP/RTMP/UDP中继服务器。
 * [Taoyao](https://gitee.com/acgist/taoyao)：桃夭是套基于Mediasoup开发的WebRTC音视频信令服务，可以非常方便的扩展信令接入更多智能终端。
 * [WebRTC](https://github.com/BeiKeJieDeLiuLangMao/WebRTC)：这是一个基于WebRTC M70的JNI WebRTC Java封装库。
+* [PipeCast](https://github.com/TeamNewPipe/PipeCast)：PipeCast是一个用于将流媒体投射到设备(例如Chromecast)的库。
 
 #### FFmpeg包装器
 
@@ -16687,6 +17141,7 @@ Kafka生态管理系统、运维平台。
 * [RTSP Client Server](https://github.com/mutaphore/RTSP-Client-Server)：实现一个流媒体视频服务器和客户端，它们使用实时流传输协议(RTSP)进行通信，并使用实时传输协议(RTP)发送数据。
 * [RestComm Media](https://github.com/RestComm/media-core)：Restcomm媒体服务器，用于实时云通信。
 * [ZLM4J](https://gitee.com/aizuda/zlm4j)：ZLM4J是开源流媒体服务框架ZLMediaKit C API的Java实现。
+* [ZLMedia4j](https://github.com/jetlinks/zlmedia4j)：基于Projector Reactor封装的Java版ZLMediaKit客户端SDK。
 * [Supersonic](https://github.com/Mach5/supersonic)：Supersonic可将你的媒体即时传输到任何HTTP连接设备，不受比特率限制。
 * [MyLive](https://github.com/YuboLong/MyLive)：MyLive是一个用于直播的RTMP服务器Java实现。
 * [Netty Stream](https://github.com/wangdxh/netty-stream)：基于Netty框架的媒体服务器、支持RTSP、HTTPFLV和WebSocketFLV。
@@ -16729,6 +17184,7 @@ Kafka生态管理系统、运维平台。
 * [Java DS Algorithms](https://github.com/anthonynsimon/java-ds-algorithms)：Java中的数据结构和算法。
 * [JDKGDXDS](https://github.com/tommyettinger/jdkgdxds)：用于原始类型和/或对象的Java数据结构。
 * [Scala Packed](https://github.com/findify/scala-packed)：用于内存高效数据结构的Scala库。
+* [Kds](https://github.com/soywiz-archive/kds)：Kds是一个面向多平台Kotlin的数据结构库。
 
 #### 树
 
@@ -16871,10 +17327,12 @@ Kafka生态管理系统、运维平台。
 
 ## 堆外内存库
 
+* [TypedMemory](https://github.com/mamba-studio/TypedMemory)：TypedMemory是一个Java库，用于通过强类型视图操作连续的堆外内存。
 * [Unsafe Tool](https://github.com/alexkasko/unsafe-tools)：使用sun.misc.Unsafe处理堆外内存的工具。
 * [LLPL](https://github.com/pmem/llpl)：LLPL是一个Java库，提供对堆外持久性内存的访问，由Intel开源。
 * [Slice](https://github.com/airlift/slice)：Slice是一个用于高效处理Java字节数组的Java库。
 * [FFI Kotlin](https://github.com/whyoleg/ffi-kotlin)：Kotlin多平台外部函数接口。
+* [CoralBits](https://www.coralblocks.com/index.php/category/coralbits/)：CoralBits提供高性能、功能强大且易于使用的库，用于构建零垃圾的超低延迟系统。
 * [Chronicle Core](https://github.com/OpenHFT/Chronicle-Core)：Chronicle Core是一个先进的低级库，为开发人员提供了与操作系统交互、管理内存、处理资源等功能强大的工具。
 * [DataSketches Java Memory Component](https://github.com/apache/datasketches-memory)：Java的高性能本机内存访问库。
 * [LArray](https://github.com/xerial/larray)：用于管理大型堆外数组的库，可以在Java和Scala中容纳超过2G(2^31)的条目。
@@ -16884,14 +17342,15 @@ Kafka生态管理系统、运维平台。
 * [Nalloc](https://github.com/alaisi/nalloc)：Nalloc包含用于从本地堆和内存映射文件分配Java对象的工厂。
 * [Java Direct](https://github.com/peter-lawrey/Java-Direct)：Java堆外支持JEP，可替换Unsafe和其他sun.*方法的部分内容。
 * [Mem Ops Java](https://github.com/nanosai/mem-ops-java)：Mem Ops Java是一个Java内存管理器/分配器，适用于需要稳定内存消耗的系统。
-* [TypedMemory](https://github.com/mamba-studio/TypedMemory)：TypedMemory是一个Java库，用于通过强类型视图操作连续的堆外内存。
 * [Native Memory Allocator](https://github.com/target/native_memory_allocator)：Kotlin中用于堆外存储的O(1) malloc，以及基于Caffeine的NativeMemoryMap。
+* [Mem4J](https://github.com/ChristopherProject/Mem4J)：Mem4J是一个Java库，专门用于安全、可控地操作进程内存。
 
 ## Unsafe
 
 * [Unsafe](https://github.com/bramp/unsafe)：这是一个利用sun.misc.Unsafe类的工具合集。
 * [Unsafe Accessor](https://github.com/karlamoe/unsafe-accessor)：Unsafe Accessor是一个用于访问Unsafe(jdk.internal.misc.Unsafe)的桥梁。
 * [UnsafeJava](https://github.com/dreamlike-ocean/UnsafeJava)：UnsafeJava提供无需添加额外启动参数就可以使用JDK带来的各种内部API的解决方案。
+* [Unsafe](https://github.com/iamironz/unsafe)：Android对内部sun.misc.Unsafe API的不安全封装。
 
 ## 结构体
 
@@ -16989,6 +17448,7 @@ Kafka生态管理系统、运维平台。
 * [BM25](https://github.com/stephanj/BM25)：BM25是搜索引擎使用的一种排名函数，用于根据文档与给定搜索查询的相关性对匹配文档进行排名。
 * [BK Tree](https://github.com/gtri/bk-tree)：一个Java BK树库。
 * [JAC Core](https://github.com/qwhai/jac-core)：基于Java实现AhoCorasick自动机框架。
+* [Natorder](https://github.com/paour/natorder)：Java自然顺序比较器。
 
 #### 模糊匹配
 
@@ -17000,12 +17460,14 @@ Kafka生态管理系统、运维平台。
 * [PreDict](https://github.com/searchhub/preDict)：PreDict基于拼写纠错模糊搜索库SymSpell。
 * [FuzzyKot](https://github.com/terrakok/FuzzyKot)：Kotlin多平台模糊字符串匹配。
 * [TLSH](https://github.com/idealista/tlsh)：TLSH是由Trend Micro设计的模糊匹配库。
+* [FuzzyDB](https://github.com/whirlwind-match/fuzzydb)：FuzzyDB是一个模糊匹配数据库引擎。
 
 #### 组合优化算法
 
 * [Min2phase](https://github.com/cs0x7f/min2phase)：Kociemba两阶段算法的优化实现。
 * [Sudoku](https://github.com/sfuhrm/sudoku)：一个用于创建数独谜题的超快速算法的Java实现，同时还具有解答数独谜题的功能。
 * [Dancing Links Java](https://github.com/rafalio/dancing-links-java)：这是Knuth的Dancing Links算法的Java实现，用于有效解决精确覆盖问题。
+* [RACOS](https://github.com/eyounx/RACOS)：一种基于理论基础的无导数优化方法，源于进化算法的统计视角。
 
 #### 哈希算法
 
@@ -17028,6 +17490,8 @@ Kafka生态管理系统、运维平台。
 * [Java CRC](https://github.com/snksoft/java-crc)：Java语言的通用CRC实现(包括CRC16、CRC32、CRC64等)。
 * [CRC](https://github.com/galaxy-sea/crc)：所有CRC算法的Java实现。
 * [FNV Java](https://github.com/jakedouglas/fnv-java)：Java中的fnv1和fnv1a哈希函数。
+* [Scala Hashing](https://github.com/desmondyeung/scala-hashing)：用于Scala的快速非加密哈希函数。
+* [KPermute](https://github.com/Eignex/kpermute)：KPermute使用双射哈希混合在任意整数域上生成快速、确定性、可逆的整数排列。
 
 #### 文本排序
 
@@ -17036,6 +17500,7 @@ Kafka生态管理系统、运维平台。
 * [Java Merge Sort](https://github.com/cowtowncoder/java-merge-sort)：Java Merge Sort项目实现了基于磁盘的基本多路归并排序，并支持可配置的输入和输出格式(不仅仅是文本排序)。
 * [WikiSort](https://github.com/BonzaiThePenguin/WikiSort)：WikiSort是块合并排序的一种实现。
 * [Burstsort4j](https://github.com/nlfiedler/burstsort4j)：Burstsort4j包含了原始Burstsort算法的实现。
+* [HqRank](https://github.com/xuerong/hqrank)：支持并发的实时排行、排名、排行榜、排序工具。
 
 #### 图算法
 
@@ -17144,6 +17609,7 @@ Kafka生态管理系统、运维平台。
 * [GlueGen](https://jogamp.org/gluegen/www/)：GlueGen是一个函数和数据结构声明编译器，可在编译时离线生成Java和JNI C代码，并允许在Java应用程序中使用本地库。
 * [Slinc](https://github.com/scala-interop/slinc)：Slinc是一个Scala 3库，它允许用户通过Java 17+的FFM API与C代码进行互操作。
 * [Roray FFM Utils](https://github.com/mvp-express/roray-ffm-utils)：适用于Java外部函数和内存API的高性能内存工具包。
+* [Jack](https://github.com/badlogic/jack)：Java字节码到C++转译器。
 
 #### Python
 
@@ -17157,6 +17623,7 @@ Kafka生态管理系统、运维平台。
 * [QPython](https://github.com/qpython-android/qpython)：QPython是适用于Android的Python引擎。
 * [Pyrolite](https://github.com/irmen/Pyrolite)：该库允许你的Java或.NET程序非常轻松地与Python程序交互，使用Pyro协议调用远程对象上的方法。
 * [JPy](https://github.com/bcdev/jpy)：JPy是一个双向Python/Java桥接器，可用于在Python程序中嵌入Java代码，反之亦然。
+* [JPServe](https://github.com/johnhuang-cn/jpserve)：Jpserve提供了一种在Java中执行Python脚本的简单高效的方法。
 
 #### Swift
 
@@ -17247,6 +17714,9 @@ Kafka生态管理系统、运维平台。
 * [Spawn](https://github.com/spotify/spawn)：一个用于管理子进程的Java库，由Spotify开源。
 * [Schale](https://github.com/HouzuoGuo/schale)：Schale是Scala的一个子进程接口。
 * [Kotlin Process](https://github.com/pgreze/kotlin-process)：Kotlin协程友好地运行外部进程。
+* [Command](https://github.com/airlift/command)：用于执行外部进程的便捷库。
+* [Gressil](https://github.com/brianm/gressil)：Gressil使用JNR FFI为Java进程提供守护进程化和派生功能。
+* [Kotmem](https://github.com/Jire/Kotmem)：Kotmem通过Kotlin在JVM上轻松实现进程、模块和内存接口。
 
 ## 守护进程
 
@@ -17312,6 +17782,7 @@ Kafka生态管理系统、运维平台。
 * [JPen](https://github.com/nicarran/jpen)：JPen是一个用于访问手写笔/数字化仪平板电脑和指点设备的Java库。
 * [Clippy](https://github.com/EsotericSoftware/clippy)：Clippy是一款小巧而多功能的Windows效率工具。
 * [iOS Device Control](https://github.com/google/ios-device-control)：iOS Device Control是一个Java库，用于控制iOS模拟器和连接到运行macOS设备的真实iOS设备，由Google开源。
+* [IPMI4j](https://github.com/shevek/ipmi4j)：Java IPMI/RMCP客户端和协议处理程序。
 
 ## 操作系统
 
@@ -17401,6 +17872,7 @@ Kafka生态管理系统、运维平台。
 * [GeoGrid](https://github.com/mocnik-science/geogrid)：GeoGrid库提供了使用逆斯奈德等面积投影(ISEA)生成和处理ISEA孔径3六边形离散全球网格系统(ISEA3H DGGS)的方法。
 * [Supl Client](https://github.com/google/supl-client)：Supl客户端库。
 * [ArcGIS Maps Java SDK](https://github.com/Esri/arcgis-maps-sdk-java-samples)：ArcGIS Maps SDK用于构建可在Windows、Mac或Linux系统上运行的桌面应用程序的地图、定位和GIS应用程序。
+* [Geo](https://github.com/HWYWL/geo)：地区与该地区编码的相互转换。
 
 #### OpenStreetMap
 
@@ -17446,12 +17918,14 @@ Kafka生态管理系统、运维平台。
 * [GTFS Validator](https://github.com/MobilityData/gtfs-validator)：用于调度(静态)文件的规范GTFS验证器项目。
 * [GTFS Validator](https://github.com/conveyal/gtfs-validator)：用于GTFS验证和统计的Java框架。
 * [GTFS Lib](https://github.com/conveyal/gtfs-lib)：一个使用磁盘存储加载和保存任意大小的GTFS提要的库。
+* [Transitime](https://github.com/Transitime/core)：Transitime的目标是利用任何类型的实时GPS数据生成有用的公共交通信息，由Swiftly开源。
 
 #### 坐标库
 
 * [Proj4J](https://github.com/locationtech/proj4j)：Proj4J是一个用于在不同地理空间坐标参考系之间转换坐标的Java库，这是一个Eclipse基金会项目。
 * [Timeshape](https://github.com/RomanIakovlev/timeshape)：Timeshape是一个Java库，可用于确定给定地理坐标属于哪个时区。
 * [Proj4J](https://github.com/Proj4J/proj4j)：Proj4J是一个Java库，用于将点坐标从一个地理坐标系转换到另一个地理坐标系，包括基准面转换。
+* [OfflineReverseGeocode](https://github.com/AReallyGoodName/OfflineReverseGeocode)：离线反向地理编码Java库。
 * [GeoGeometry](https://github.com/jillesvangurp/geogeometry)：GeoGeometry是一组用于处理地理哈希和具有地理坐标的几何形状的算法和函数。
 * [Sunrise/SunsetLib Java](https://github.com/mikereedell/sunrisesunsetlib-java)：用于计算给定纬度/经度和日期组合的当地日出和日落的Java库。
 * [RTree2D](https://github.com/plokhotnyuk/rtree2d)：RTree2D是二维不可变R树，用于平面和球面坐标中的超快速最近和相交查询。
@@ -17478,6 +17952,7 @@ Kafka生态管理系统、运维平台。
 * [Geo](https://github.com/davidmoten/geo)：用于地理哈希的Java实用方法。
 * [Location4j](https://github.com/tomaytotomato/location4j)：Location4j是一个简单的Java库，旨在高效、准确地查找国家、州和城市的地理数据。
 * [Location](https://github.com/turgos/Location)：本项目旨在根据给定的经纬度确定城市/国家。
+* [GeoSense](https://github.com/eBay/geosense)：一个独立的容器，用于通过经纬度查找时区，由eBay开源。
 
 #### GeoJson
 
@@ -17590,6 +18065,7 @@ Kafka生态管理系统、运维平台。
 * [ModelbuilderMk2](https://github.com/mariuswatz/modelbuilderMk2)：ModelbuilderMk2是一个用于Processing的计算几何库。
 * [Voronoi Treemap Library](https://github.com/ArlindNocaj/Voronoi-Treemap-Library)：JVoroTreemap是一个快速的独立Java库，用于计算Voronoi树状图。
 * [Fortune](https://github.com/ajwerner/fortune)：Fortune算法在Java中的实现，用于创建Voronoi图。
+* [Korma](https://github.com/soywiz-archive/korma)：Korma是一个主要专注于几何的数学库，适用于多平台Kotlin。
 
 ## 航空航天
 
@@ -17694,6 +18170,7 @@ Kafka生态管理系统、运维平台。
 * [AisLib](https://github.com/dma-ais/AisLib)：AisLib是一个用于处理AIS消息的Java库，由丹麦海事局开源。
 * [Java Marine API](https://github.com/ktuukkan/marine-api)：Java Marine API是一个NMEA 0183解析器库，用于对各种电子海洋设备(例如GPS、回声测深仪和气象仪器)提供的数据进行解码和编码。
 * [Risky](https://github.com/amsa-code/risky)：用于分析带有时间戳的位置数据的工具，例如来自AIS的船舶位置报告。
+* [SUMO](https://github.com/ec-europa/sumo)：SUMO是一款用于在卫星合成孔径雷达(SAR)图像上进行船舶检测的Java软件包，由欧盟委员会开源。
 
 ## 转换库
 
@@ -17732,6 +18209,7 @@ Kafka生态管理系统、运维平台。
 * [IteratorX](https://github.com/iteratorx/iteratorx)：最简单的I/O迭代器。
 * [Bit IO](https://github.com/jinahya/bit-io)：一个用于读取/写入非八位字节对齐值的库。
 * [RIO](https://github.com/cqfn/rio)：Java的响应式输入输出对象。
+* [IO API](https://github.com/oldratlee/io-api)：Java的通用IO API设计。
 
 ## 文件监听
 
@@ -17776,6 +18254,7 @@ Kafka生态管理系统、运维平台。
 * [Atom Hopper](https://github.com/rackerlabs/atom-hopper)：Atom Hopper是一个用于访问、处理、聚合和索引Atom格式事件的框架。
 * [RSSMiner](https://github.com/shenfeng/rssminer)：一个用Clojure、JavaScript和Java编写的在线RSS阅读器。
 * [Apache Abdera](https://github.com/apache/abdera)：Apache Abdera是IETF Atom联合发布格式(RFC 4287)和Atom发布协议规范的高性能、功能完整的实现。
+* [Podcast Feed Library](https://github.com/MarkusLewis/Podcast-Feed-Library)：用于解析播客订阅源的Java库。
 
 ## SSE
 
@@ -17785,6 +18264,7 @@ Kafka生态管理系统、运维平台。
 * [RxSSE](https://github.com/EnricSala/RxSSE)：适用于Android和Java应用程序的SSE客户端。
 * [Vertx SSE](https://github.com/aesteve/vertx-sse)：在Vert.x Web中添加对服务器发送事件(SSE)的支持。
 * [OkSSE](https://github.com/biowink/oksse)：OkSSE是一个用Kotlin Multiplatform编写的服务器发送事件协议客户端。
+* [jEaSSE](https://github.com/mariomac/jeasse)：Java的简单SSE实现。
 
 ## EPC
 
@@ -17843,6 +18323,7 @@ Kafka生态管理系统、运维平台。
 * [TinyB](https://github.com/intel-iot-devkit/tinyb)：本项目旨在创建简洁、现代且易于使用的蓝牙低功耗API，由Intel开源。
 * [Bluetooth GATT Parser](https://github.com/sputnikdev/bluetooth-gatt-parser)：一个简单的库/框架，用于处理蓝牙智能(BLE) GATT服务和特性。
 * [Eclipse SmartHome Bluetooth Binding](https://github.com/sputnikdev/eclipse-smarthome-bluetooth-binding)：Advanced Bluetooth Binding为Eclipse SmartHome框架引入了对蓝牙技术的支持。
+* [MetaWear Android API](https://github.com/mbientlab/MetaWear-SDK-Android)：MetaWear Android API是一个用于在Android设备上与MbientLab蓝牙传感器开发板进行交互的库。
 
 ## IPP
 
@@ -17901,6 +18382,7 @@ Kafka生态管理系统、运维平台。
 * [Kotlin Multiplatform Charset](https://github.com/fleeksoft/charset)：Kotlin多平台字符集库，用于编码和解码字符集。
 * [JCodings](https://github.com/jruby/jcodings)：用于Joni和JRuby的基于Java的编码辅助类。
 * [CpDetector](https://cpdetector.sourceforge.net/)：CpDetector是一个用于检测文档代码页的代理程序。
+* [UTF-8 Java](https://github.com/AugustNagro/utf8.java)：Java的向量化UTF-8校验。
 
 ## 表情库
 
@@ -17960,6 +18442,8 @@ Kafka生态管理系统、运维平台。
 * [Language Time](https://github.com/adetuyiTolu/Language_Time)：一个可以将时间转换为其对应的当地语言的库，首先支持一些基本的尼日利亚语言，例如(约鲁巴语、豪萨语、伊博语、埃菲克语和英语)。
 * [Fluid I18N](https://github.com/fluidsonic/fluid-i18n)：基于Unicode CLDR数据的Kotlin多平台国际化支持。
 * [PrettyPersianNumbers](https://github.com/yamin8000/PrettyPersianNumbers)：PrettyPersianNumbers是一个Android库，用于使用Kotlin/JVM将数字转换为波斯语/法尔西语单词。
+* [Jabylon](https://github.com/jutzig/jabylon)：Jabylon是一款可扩展的基于Web的翻译工具，可帮助用户管理和翻译Java属性文件，支持多种语言环境。
+* [SimpleLocalize CLI](https://github.com/simplelocalize/simplelocalize-cli)：SimpleLocalize CLI是一款对开发者友好的命令行工具，用于上传和下载翻译文件。
 
 ## 翻译库
 
@@ -18005,6 +18489,7 @@ Kafka生态管理系统、运维平台。
 * [ColorMine](https://github.com/colormine/colormine)：ColorMine是一个开源库，旨在让颜色处理变得简单。
 * [Color Names](https://github.com/UwUAroze/Color-Names)：这个库的主要用途是能够指定一种颜色，并最终得到一个与该颜色相符的名称。
 * [RandomKolor](https://github.com/brian-norman/RandomKolor)：一个用于生成吸引人颜色的小型库。
+* [M3Color](https://github.com/Kyant0/m3color)：Material 3颜色调色板Java库。
 
 ## 短链接
 
@@ -18030,6 +18515,7 @@ Kafka生态管理系统、运维平台。
 * [KotUniL](https://github.com/vsirotin/si-units)：KotUniL是一个Kotlin函数和对象库，用于处理SI单位(如米、秒)以及货币和通用单位。
 * [Clyoudu Util](https://github.com/clyoudu/clyoudu-util)：将字节大小格式化为人类可读格式，或将单位从X转换为Y。
 * [Converter](https://github.com/HanSolo/converter)：一个用于单位换算的Java工具。
+* [Units](https://github.com/airlift/units)：Units是一个Java库，用于创建不可变、易于理解的单位。
 
 ## 解析库
 
@@ -18070,6 +18556,11 @@ Kafka生态管理系统、运维平台。
 * [PEX](https://github.com/ghadishayban/pex)：Clojure的LPEG。
 * [Grampa](https://github.com/mpe85/grampa)：一个用于Kotlin/JVM的PEG解析器库。
 * [Mocha](https://github.com/unnamed/mocha)：Mocha是一个轻量级、快速且高效的Molang词法分析器、语法分析器、解释器和编译器，适用于Java 8+。
+* [Rekex](https://github.com/zhong-j-yu/rekex)：用于Java 17的PEG解析器生成器。
+* [Utah Parser](https://github.com/sonalake/utah-parser)：一个用于解析半结构化文本文件的Java库。
+* [JagTag](https://github.com/jagrosh/JagTag)：JagTag是一种简单而强大且可定制的解释型文本解析语言。
+* [Markup Blitz](https://github.com/GuntherRademacher/markup-blitz)：Markup Blitz是一个用Java实现的解析器生成器。
+* [Antlr4 AutoSuggest](https://github.com/oranoran/antlr4-autosuggest)：用于ANTLR4语法的Java自动建议引擎。
 
 #### 表达式引擎
 
@@ -18116,6 +18607,8 @@ Kafka生态管理系统、运维平台。
 * [Luau](https://github.com/hollow-cube/luau-java)：Luau的低级绑定。
 * [Fluxon](https://github.com/TabooLib/fluxon)：Fluxon是一个运行在JVM上的轻量脚本语言实现。
 * [Groovity](https://github.com/disney/groovity)：Groovity是一种脚本语言和运行时环境，由迪士尼开源。
+* [Blade Ink](https://github.com/bladecoder/blade-ink-java)：Ink是一种用于编写交互式叙事的脚本语言。
+* [Java ScriptEngine](https://github.com/eobermuhlner/java-scriptengine)：用于在运行时编译和执行用Java编写的脚本的脚本引擎(兼容JSR-223)。
 
 #### 数学表达式
 
@@ -18212,6 +18705,7 @@ Kafka生态管理系统、运维平台。
 * [SQLParser](https://github.com/kishida/sqlparser)：微型SQL解析器。
 * [Zql](https://github.com/gibello/zql)：Zql是一个使用JavaCC生成的Java SQL解析器。
 * [PLSQLParser](https://github.com/developeron29/PLSQLParser)：一个使用Java和ANTLR4构建的PL/SQL解析器。
+* [GQL Parser](https://github.com/OlofMorra/GQL-parser)：使用ANTLR 4构建的GQL解析器。
 
 #### 解析器组合器
 
@@ -18281,6 +18775,7 @@ Kafka生态管理系统、运维平台。
 * [LiquidJava](https://github.com/liquid-java/liquidjava)：LiquidJava是一个基于Liquid类型和类型状态的Java附加类型检查器，它通过在编译时进行细化，为Java程序提供额外的安全保证。
 * [K Framework](https://github.com/runtimeverification/k)：K Framework是一个用于设计和建模编程语言以及软硬件系统的工具。
 * [JMC](https://github.com/mpi-sws-rse/jmc)：一个简单易用、直观的Java模型检查器。
+* [SymbolicAutomata](https://github.com/lorisdanto/symbolicautomata)：符号自动机和符号可见下推自动机的库。
 
 ## 印章生成
 
@@ -18345,6 +18840,7 @@ Kafka生态管理系统、运维平台。
 
 * [Immutables](https://github.com/immutables/immutables)：Immutables是用于创建不可变对象和构建器的注解处理器。
 * [Deoplice](https://github.com/chriskiehl/Deoplice)：Deoplice是一个Java库，它会自动生成用于转换不可变POJO的API。
+* [Immutator](https://github.com/verhas/immutator)：Immutator是一个Java库，用于在运行时创建对象的不可变版本。
 
 #### 配置对象模式
 
@@ -18432,6 +18928,7 @@ Kafka生态管理系统、运维平台。
 * [WikiBrain](https://github.com/shilad/wikibrain)：WikiBrain Java库使研究人员和开发人员能够在几行代码中整合最先进的基于维基百科的算法和技术。
 * [Wiki Java](https://github.com/MER-C/wiki-java)：Java中的MediaWiki机器人框架。
 * [Wikokit](https://github.com/componavt/wikokit)：该程序解析维基词典，构建并填充机器可读的维基词典。
+* [DKPro JWKTL](https://github.com/dkpro/dkpro-jwktl)：Java维基词典库，由达姆施塔特工业大学开源。
 
 ## 用户代理解析
 
@@ -18518,6 +19015,7 @@ Kafka生态管理系统、运维平台。
 * [Bencode](https://github.com/dampcake/bencode)：用于Java的Bencode输入/输出流。
 * [Raoh](https://github.com/kawasima/raoh)：Raoh是一个Java解码器库，用于将无类型边界输入转换为有类型域值。
 * [Java Multibase](https://github.com/multiformats/java-multibase)：Multibase是一种协议，用于从表达式本身中消除用于以文本格式表示二进制数据的基本编码(例如Base32、Base36、Base64、Base58等)的歧义。
+* [Base91](https://github.com/bwaldvogel/base91)：Base91编解码器。
 
 ## 打印机
 
@@ -18551,6 +19049,8 @@ Kafka生态管理系统、运维平台。
 * [Yoga](https://github.com/skyscreamer/yoga)：Yoga扩展了JAX-RS和Spring MVC RESTful服务器，以提供GData和LinkedIn风格的字段选择器。
 * [Bootstrap.jsp](https://github.com/Mrdigs/Bootstrap.jsp)：Bootstrap.jsp是一个用于生成Bootstrap用户界面的JSP标签库。
 * [RedQueryBuilder](https://github.com/salk31/RedQueryBuilder)：SQL查询构建器UI JavaScript组件。
+* [X-Forwarded Filter](https://github.com/qaware/x-forwarded-filter)：面向大众的X-Forwarded过滤器。
+* [AngularSEO](https://github.com/johnhuang-cn/AngularSEO)：AngularSEO Filter是一款适用于采用JavaEE后端、前端使用AJAX框架的网站的SEO解决方案。
 
 #### WebAssembly
 
@@ -18601,6 +19101,7 @@ Kafka生态管理系统、运维平台。
 * [Keight](https://github.com/alexzhirkevich/keight)：适用于Kotlin的多平台JavaScript运行时。
 * [GWT Node](https://github.com/cretz/gwt-node)：GWT实现的标准Node.js库。
 * [NodeJVM](https://github.com/mikehearn/nodejvm)：从Java/Kotlin启动GraalVM并访问NodeJS模块。
+* [ES6draft](https://github.com/anba/es6draft)：ECMAScript编译器和运行时。
 
 #### GWT库
 
@@ -18698,6 +19199,9 @@ Kafka生态管理系统、运维平台。
 * [Wicket Bootstrap](https://github.com/martin-g/wicket-bootstrap)：Wicket Bootstrap基于Bootstrap工具包和Apache Wicket框架。
 * [Wicket JQuery UI](https://github.com/sebfz1/wicket-jquery-ui)：Wicket中jQuery UI和Kendo UI的集成。
 * [WiQuery](https://github.com/WiQuery/wiquery)：WiQuery是一个旨在简化Wicket与jQuery和jQuery UI集成的项目。
+* [FiftyFive Wicket](https://github.com/55minutes/fiftyfive-wicket)：FiftyFive Wicket是用于提升Apache Wicket框架使用效率的一系列工具和库。
+* [Wicket Select2](https://github.com/ivaynberg/wicket-select2)：该项目提供Apache Wicket组件，利用Select2 JavaScript库构建选择框，提供Ajax选择过滤、自定义渲染等功能。
+* [Invesdwin NoWicket](https://github.com/invesdwin/invesdwin-nowicket)：这是一个基于裸对象框架的Wicket框架，它使开发者在实现复杂网站时能够编写更少的Wicket样板代码，同时保留Wicket一贯的灵活性和控制力。
 
 #### CSS库
 
@@ -19002,9 +19506,8 @@ Kafka生态管理系统、运维平台。
 * [Citeproc Java](https://github.com/michel-kraemer/citeproc-java)：Citeproc Java是一个用于Java的引用样式语言(CSL)处理器。
 * [OpenEstate IO](https://github.com/OpenEstate/OpenEstate-IO)：OpenEstate IO提供了一套Java库，用于以常用格式读取和写入房地产数据。
 * [JFLAP](https://github.com/citiususc/jflap-lib)：JFLAP是一款极其有用的形式语言教学软件，由杜克大学开源。
-* [RxSuggestions](https://github.com/arunkumar9t2/rxSuggestions)：使用Google Suggest API获取关键词建议的RxJava库。
-* [JFilter](https://github.com/rkonovalov/jfilter)：JFilter库可用于Spring Web服务项目中，对服务响应中的字段进行过滤。
 * [ObjectFabric](https://github.com/cypof/objectfabric)：ObjectFabric是一个用于处理数据结构变更的库。
+* [JSword](https://github.com/crosswire/jsword)：JSword是一个用于圣经学习软件的Java库，它提供丰富的API，用于访问、搜索和显示圣经文本及相关资源。
 
 ## 教程系列
 
