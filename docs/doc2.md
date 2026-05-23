@@ -1482,6 +1482,7 @@
 * [KotlinFixture](https://github.com/appmattus/kotlinfixture)：一种根据约束非确定性思想生成明确定义但本质上随机的输入的工具。
 * [Burst](https://github.com/square/burst)：Burst是用于不同测试数据的单元测试库，由Square开源。
 * [Nyaya](https://github.com/japgolly/nyaya)：Nyaya是一个Scala/Scala.JS库，用于使用随机数据测试属性。
+* [Lorem](https://github.com/mdeanda/lorem)：一个非常有用的Java Lorem Ipsum生成器。
 * [Log Synth](https://github.com/tdunning/log-synth)：Log Synth的主要用途是根据指定的模式生成数据。
 * [EasyModeling](https://github.com/easymodeling/easy-modeling)：EasyModeling是一个Java注解处理器，可生成随机填充的对象以供测试使用。
 * [Beanmother](https://github.com/keepcosmos/beanmother)：Beanmother有助于创建各种对象，可以非常轻松地使用用于测试的夹具。
@@ -5010,6 +5011,10 @@
 * [Jackson AntPath Property Filter](https://github.com/Antibrumm/jackson-antpathfilter)：Jackson过滤器，将当前要序列化的值的路径与AntPathMatcher进行匹配。
 * [Jackson View Extension Spring Boot Starter](https://github.com/vennarshulytz/json-view-ext-parent)：一个基于Jackson的Spring Boot Starter，提供比@JsonView更灵活的JSON序列化字段控制能力，支持细粒度的字段过滤和敏感数据脱敏。
 * [JSONFilter](https://github.com/Liuyis/jsonfilter)：一个基于FastJSON和Spring Boot的简单POJO属性过滤器，用于RESTful JSON输出。
+* [JSON Filter](https://github.com/arakelian/json-filter)：对任意大的JSON文档进行高速流式过滤。
+* [Jackson Dynamic Property Filter](https://github.com/shihyuho/jackson-dynamic-filter)：使用Jackson动态确定过滤器的简便方法。
+* [Jackson Field Security](https://github.com/JahnelGroup/jackson-field-security)：借助Jackson过滤器，为Spring Boot应用程序添加字段级安全性提供了一种简单的方法。
+* [Surgical](https://github.com/ksprider/Surgical)：一款基于Jackson的动态筛选实体属性的工具。
 
 #### JsonLogic
 
@@ -8510,6 +8515,7 @@
 * [Xnav](https://github.com/volodya-lombrozo/xnav)：Xnav是一个旨在实现XML文档无缝导航和查询的库，其设计灵感源于XPath的简洁性和优雅性。
 * [XQS](https://github.com/fancellu/xqs)：XQS是一个Scala库，用于对XML数据源和Sedna调用XQuery。
 * [Xtract](https://github.com/lucidsoftware/xtract)：Xtract是一个用于反序列化XML的Scala库。
+* [DSM](https://github.com/mfatihercik/dsm)：DSM是一个流反序列化库，它简化了XML和JSON的解析。
 
 ### HTML库
 
@@ -12251,6 +12257,7 @@ Kafka生态管理系统、运维平台。
 * [RxSuggestions](https://github.com/arunkumar9t2/rxSuggestions)：使用Google Suggest API获取关键词建议的RxJava库。
 * [Box Java SDK](https://github.com/box/box-java-sdk)：适用于Java的Box SDK。
 * [AliOpen](https://github.com/alibaba/AliOpen)：阿里巴巴开放平台消息SDK。
+* [Amadeus Java](https://github.com/amadeus4dev/amadeus-java)：Amadeus为旅游行业提供了丰富的API。
 
 #### Twitter
 
@@ -15591,6 +15598,7 @@ Kafka生态管理系统、运维平台。
 * [Metadata Viewer](https://github.com/erroralex/Metadata-Viewer)：一款JavaFX桌面应用程序，用于提取和管理跨多个平台的AI图像生成元数据。
 * [OmniGraph](https://github.com/Todense/OmniGraph)：OmniGraph是一款多平台桌面应用程序，可用于构建图表和可视化一系列算法。
 * [PromptFx](https://github.com/aplpolaris/promptfx)：PromptFx提供用于测试AI/ML模型和多种基本应用的视图。
+* [OllamaFX](https://github.com/fredericksalazar/OllamaFX)：OllamaFX是一款基于JavaFX构建的现代化Ollama原生桌面客户端。
 
 #### GUI程序
 
@@ -16296,6 +16304,7 @@ Kafka生态管理系统、运维平台。
 * [Clj3D](https://github.com/adinapoli/clj3D)：Clj3D是一个用于操作3D和2D对象的Clojure图形库。
 * [V-Sport](https://github.com/stephengold/V-Sport)：V-Sport项目为Libbulletjme 3D物理库实现了一个基于Vulkan的图形引擎。
 * [GDX GLTF](https://github.com/mgsx-dev/gdx-gltf)：GDX GLTF是一个为LibGDX游戏框架开发的高级3D渲染库。
+* [AbFab3D](https://github.com/AbFab3D/AbFab3D)：AbFab3D是一个用于帮助开发3D打印编辑器和工具的库。
 
 #### 游戏开发库
 
@@ -16871,6 +16880,7 @@ Kafka生态管理系统、运维平台。
 * [Spring File Storage Service](https://github.com/melthaw/spring-file-storage-service)：FSS API使存储Blob文件变得轻松简单。
 * [Qiniu Suits Java](https://github.com/NigelWu95/qiniu-suits-java)：Qiniu Suits Java是一个多线程的云存储API工具。
 * [Spring Boot Digital Ocean Spaces](https://github.com/gladius/spring-boot-digital-ocean-spaces)：使用AWS S3 Java SDK将DigitalOcean Spaces与Spring Boot集成。
+* [STEM](https://github.com/odiszapc/stem)：STEM是一个分布式对象存储系统，旨在存储不可变的二进制数据。
 
 ## 文件系统
 
@@ -18118,7 +18128,7 @@ Kafka生态管理系统、运维平台。
 * [Vollt](https://github.com/gmantele/vollt)：实现IVOA协议的Java库。
 * [AstroImageJ](https://astroimagej.com/)：AstroImageJ是一个用于天文图像分析的开源平台。
 
-## 水文学
+## 水文/气象学
 
 * [SOS](https://github.com/52North/SOS)：SOS提供了一个可互操作的基于Web的界面，用于插入和查询传感器数据和传感器描述。
 * [Unidata AWIPS](https://github.com/Unidata/awips2)：AWIPS是一个气象软件包，它用于解码、显示和分析数据，最初由雷神公司为国家气象局(NWS)开发。
@@ -18129,6 +18139,7 @@ Kafka生态管理系统、运维平台。
 * [Vortex](https://github.com/HydrologicEngineeringCenter/Vortex)：Vortex是针对水文工程中心应用程序的数据处理实用程序的集合，例如HEC-HMS、HEC-RAS。
 * [SeaDAS](https://github.com/seadas/seadas)：SeaDAS软件由NASA开发，专门用于海洋水色数据的处理、可视化、分析和质量保证。
 * [JGribX](https://github.com/spidru/JGribX)：JGribX是一个用Java编写的GRIB解码器。
+* [MetarParser](https://github.com/mivek/MetarParser)：这个Java库提供了Metar和TAF解码器。
 
 ## 地震学
 
@@ -18535,6 +18546,7 @@ Kafka生态管理系统、运维平台。
 * [JCPP](https://github.com/shevek/jcpp)：JCPP是C预处理器的完整、兼容、独立、纯Java实现。
 * [JLex](https://www.cs.princeton.edu/~appel/modern/java/JLex/)：JLex是一个用Java编写的词法分析器生成器，由普林斯顿大学开发。
 * [RSQL Parser](https://github.com/jirutka/rsql-parser)：RSQL是一种用于对RESTful API中的条目进行参数化过滤的查询语言。
+* [Nginx Java Parser](https://github.com/odiszapc/nginx-java-parser)：基于ANTLR4语法的Nginx配置解析器。
 * [Parboiled](https://github.com/sirthias/parboiled)：Parboiled是一个混合Java/Scala库，提供基于解析表达式语法(PEG)的轻量级且易于使用但功能强大且优雅的任意输入文本解析。
 * [Parboiled2](https://github.com/sirthias/parboiled2)：Parboiled2是一个基于宏的Scala 2.12+ PEG解析器生成器。
 * [CUP](http://www2.cs.tum.edu/projects/cup/)：CUP是Java的一个LALR解析器生成器，慕尼黑工业大学开发。
@@ -19498,11 +19510,6 @@ Kafka生态管理系统、运维平台。
 * [Alf.io](https://github.com/alfio-event/alf.io)：Alf.io是一款免费开源活动出席管理系统，专为关心客户隐私、安全和公平定价政策的活动组织者而开发。
 * [JIDT](https://github.com/jlizier/jidt)：JIDT提供了复杂系统中分布式计算的信息论测量的独立、开源代码Java实现。
 * [Metis](https://github.com/europeana/metis-framework)：Metis是数据发布框架，包括客户端应用程序和许多数据处理服务，由欧洲数位图书馆开源。
-* [MetarParser](https://github.com/mivek/MetarParser)：这个Java库提供了Metar和TAF解码器。
-* [Nginx Java Parser](https://github.com/odiszapc/nginx-java-parser)：基于ANTLR4语法的Nginx配置解析器。
-* [Lorem](https://github.com/mdeanda/lorem)：一个非常有用的Java Lorem Ipsum生成器。
-* [Amadeus Java](https://github.com/amadeus4dev/amadeus-java)：Amadeus为旅游行业提供了丰富的API。
-* [SourceAFIS](https://github.com/robertvazan/sourceafis-java)：SourceAFIS Java是SourceAFIS(一种用于识别人类指纹的算法)的纯Java端口，它可以1:1比较两个指纹或1:N在大型数据库中搜索匹配的指纹。
 * [Citeproc Java](https://github.com/michel-kraemer/citeproc-java)：Citeproc Java是一个用于Java的引用样式语言(CSL)处理器。
 * [OpenEstate IO](https://github.com/OpenEstate/OpenEstate-IO)：OpenEstate IO提供了一套Java库，用于以常用格式读取和写入房地产数据。
 * [JFLAP](https://github.com/citiususc/jflap-lib)：JFLAP是一款极其有用的形式语言教学软件，由杜克大学开源。

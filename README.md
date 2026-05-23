@@ -1012,7 +1012,7 @@
 * [几何学](docs/doc2.md#几何学)
 * [航空航天](docs/doc2.md#航空航天)
 * [天文学](docs/doc2.md#天文学)
-* [水文学](docs/doc2.md#水文学)
+* [水文/气象学](docs/doc2.md#水文气象学)
 * [地震学](docs/doc2.md#地震学)
 * [物理库](docs/doc2.md#物理库)
 * [无人机](docs/doc2.md#无人机)
@@ -4249,6 +4249,7 @@
 * [OpenCV](https://github.com/openpnp/opencv)：OpenCV是一个跨平台的计算机视觉库，这是OpenCV的Java绑定。
 * [JavaCV](https://github.com/bytedeco/javacv)：JavaCV包含OpenCV、FFmpeg等的Java接口。
 * [BoofCV](https://github.com/lessthanoptimal/BoofCV)：BoofCV是一个开源实时计算机视觉库，功能包括低级图像处理、相机校准、特征检测/跟踪、运动结构、分类和识别。
+* [SourceAFIS](https://github.com/robertvazan/sourceafis-java)：SourceAFIS Java是SourceAFIS(一种用于识别人类指纹的算法)的纯Java端口，它可以1:1比较两个指纹或1:N在大型数据库中搜索匹配的指纹。
 * [Yolo ONNX Java](https://gitee.com/agricultureiot/yolo-onnx-java)：Java开发视觉智能识别项目，纯Java调用Yolo ONNX模型。
 * [BGSLibrary](https://github.com/andrewssobral/bgslibrary)：BGSLibrary是一个全面的C++框架，专为计算机视觉应用中的背景减法而设计，尤其适用于检测视频流中的运动物体。
 * [TAIP](https://gitee.com/xshuai/taip)：TAIP是调用腾讯AI接口封装的Java客户端，为调用腾讯AI功能的开发人员提供了一系列的交互方法。
