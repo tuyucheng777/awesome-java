@@ -12299,6 +12299,7 @@ Kafka生态管理系统、运维平台。
 * [AliOpen](https://github.com/alibaba/AliOpen)：阿里巴巴开放平台消息SDK。
 * [Amadeus Java](https://github.com/amadeus4dev/amadeus-java)：Amadeus为旅游行业提供了丰富的API。
 * [Zowe Java Client SDK](https://github.com/zowe/zowe-client-java-sdk)：Java SDK允许你利用az/OS系统上的底层z/OSMF REST API来构建与z/OS实例无缝交互的客户端应用程序和脚本。
+* [EasyPost Java](https://github.com/easypost/easypost-java)：EasyPost Java版发货API客户端库。
 
 #### Twitter
 
@@ -17795,6 +17796,7 @@ Kafka生态管理系统、运维平台。
 * [JCuda](https://github.com/jcuda/jcuda)：CUDA的Java绑定。
 * [JavaCPP CUDA](https://github.com/bytedeco/javacpp-presets/tree/master/cuda)：CUDA工具包提供了一个用于创建高性能GPU加速应用程序的开发环境。
 * [Aparapi](https://github.com/Syncleus/aparapi)：Aparapi允许开发人员通过在运行时动态地将Java字节代码转换为OpenCL内核来编写能够直接在显卡GPU上执行的本机Java代码。
+* [Babylon](https://github.com/openjdk/babylon)：Babylon的主要目标是将Java的应用范围扩展到SQL、可微分编程、机器学习模型和GPU等其他编程模型。
 * [PixelFlow](https://github.com/diwi/PixelFlow)：PixelFlow是一款用于高性能GPU计算的Processing/Java库。
 * [JavaCL](https://github.com/nativelibs4java/JavaCL)：Java的OpenCL绑定。
 * [JavaCPP OpenCL](https://github.com/bytedeco/javacpp-presets/tree/master/opencl)：OpenCL用于跨CPU、GPU、DSP和FPGA等异构系统进行并行计算编程。
@@ -17899,7 +17901,7 @@ Kafka生态管理系统、运维平台。
 * [GeoScala](https://github.com/TsingJyujing/GeoScala)：一个用Java和Scala编写的地理库。
 * [NASA WorldWind Server Kit](https://github.com/NASAWorldWind/WorldWindServerKit)：NASA WorldWind Server Kit是一个开源Java项目，它组装了GeoServer，以便于分发和实施。
 * [OGC Schemas](https://github.com/highsource/ogc-schemas)：OGC Schemas项目为OGC定义的一些XML Schema提供JAXB和Jsonix绑定。
-* [Cesium Point Cloud Generator](https://github.com/tum-gis/cesium-point-cloud-generator)：Cesium Point Cloud Generator是一款基于Java的小型工具，用于根据Cesium 3D Tiles生成点云可视化数据集。
+* [Cesium Point Cloud Generator](https://github.com/tum-gis/cesium-point-cloud-generator)：Cesium Point Cloud Generator是一款基于Java的小型工具，用于根据Cesium 3D Tiles生成点云可视化数据集，由慕尼黑工业大学开源。
 * [HMMLib](https://github.com/bmwcarit/hmm-lib)：该库实现了用于时间非齐次马尔可夫过程的隐马尔可夫模型，由宝马开源。
 * [MapMatcher](https://github.com/julienperret/mapmatcher)：这是一个简单的地图匹配库，使用了Paul Newson和John Krumm的隐马尔可夫模型地图匹配算法。
 * [GISCat](https://github.com/codingmiao/giscat)：GISCat是一套简洁快速的Java GIS工具集。
