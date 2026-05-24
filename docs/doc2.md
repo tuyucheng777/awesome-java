@@ -1439,6 +1439,7 @@
 * [Mockingbird](https://github.com/Tinkoff/mockingbird)：Mockingbird是一种用于Mock REST服务和具有队列接口的服务的组件。
 * [Terminator](https://github.com/baidu/terminator)：Terminator是一个服务虚拟化工具，由百度开源。
 * [IrisMock](https://github.com/arildojr7/iris-mock)：一个Kotlin工具，用于拦截Android网络调用、修改请求/响应并Mock整个API。
+* [WiretapKMP](https://github.com/skymansandy/wiretapKMP)：WiretapKMP是一款适用于Kotlin多平台应用的即插即用型网络检查器和模拟器。
 
 #### Mock库
 
@@ -2213,7 +2214,6 @@
 * [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
 * [SQLHelper](https://github.com/bes2008/sqlhelper)：基于Java的SQL工具。
-* [Uni Pagination](https://github.com/taoganio/uni-pagination)：Uni Pagination是一个基于Java的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。
 * [DTT](https://github.com/julxxy/dtt-spring-boot-parent)：DTT是一个面向对象的Java框架，使开发者能够通过注解驱动的开发，基于领域模型自动创建数据库表。
 * [DBMetadata](https://gitee.com/free/DBMetadata)：DBMetadata可用于数据库表和字段的查询。
 * [jDialects](https://gitee.com/drinkjava2/jdialects)：jDialects支持多达80多种数据库方言的DDL创建、实体源码生成、分页、函数变换、类型变换及主要的JPA注解解析功能。
@@ -2318,13 +2318,21 @@
 * [Module Saga](https://github.com/nomisRev/Saga)：Kotlin中的Saga模式实现，基于Kotlin的协程。
 * [Simple Sagas](https://github.com/simplesourcing/simplesagas)：Simple Sagas是一个基于Kafka Streams的分布式系统进程协调器构建库。
 
+#### 分页
+
+* [Mybatis PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)：Mybatis通用分页插件。
+* [Uni Pagination](https://github.com/taoganio/uni-pagination)：Uni Pagination是一个基于Java的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。
+* [Thymeleaf Spring Data Dialect](https://github.com/jpenren/thymeleaf-spring-data-dialect)：这是一种Thymeleaf的方言，提供了一些属性，用于创建分页和排序元素。
+* [Mybatis Generator Limit Plugin](https://github.com/wucao/mybatis-generator-limit-plugin)：一个用于MySQL分页的MyBatis Generator插件。
+* [Archelix RSQL](https://github.com/vineey/archelix-rsql)：该库以RSQL的形式将SQL声明式的便捷性引入RESTful API，并通过与QueryDSL库集成，使用类型安全的字段路径映射。
+* [MybatisPlus Plus](https://github.com/jeffreyning/mybatisplus-plus)：MybatisPlus的功能补充，包括根据多个字段联合主键增删改查、优化分页插件等。
+
 #### Mybatis库
 
 * [Mybatis Plus](https://github.com/baomidou/mybatis-plus)：MyBatis Plus是MyBatis的一个强大的增强工具包，用于简化开发。
 * [Mybatis Flex](https://github.com/mybatis-flex/mybatis-flex)：Mybatis Flex是一个优雅的Mybatis增强框架。
 * [Fluent Mybatis](https://gitee.com/fluent-mybatis/fluent-mybatis)：Fluent MyBatis是一个MyBatis增强工具。
 * [MybatisPlus Ext](https://gitee.com/dromara/mybatis-plus-ext)：MybatisPlus Ext对MybatisPlus做了进一步的拓展封装，即保留原功能，又添加了更多有用便捷的功能。
-* [Mybatis PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)：Mybatis通用分页插件。
 * [Mapper](https://github.com/abel533/Mapper)：易于使用的Mybatis通用Mapper。
 * [Mapper](https://gitee.com/free/Mapper)：极其方便的使用Mybatis单表的增删改查工具。
 * [MyBatis Mapper](https://github.com/mybatis-mapper/mapper)：这是一个不需要任何配置就可以直接使用的通用Mapper。
@@ -2399,7 +2407,6 @@
 
 * [Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus)：Spring JDBC Plus提供基于Spring Data JDBC的扩展，由Naver开源。
 * [Infobip Spring Data Querydsl](https://github.com/infobip/infobip-spring-data-querydsl)：Infobip Spring Data Querydsl使用户能够在Spring Data Repository之上利用Querydsl API的全部功能。
-* [Thymeleaf Spring Data Dialect](https://github.com/jpenren/thymeleaf-spring-data-dialect)：这是一种Thymeleaf的方言，提供了一些属性，用于创建分页和排序元素。
 * [NestedJ](https://github.com/eXsio/nestedj)：NestedJ是一个Java库，它提供Spring Data类型的Repository，用于使用嵌套集模型管理读取优化的有序树。
 * [Spring Native Query](https://github.com/gasparbarancelli/spring-native-query)：Spring Native Query库旨在简化原生查询的执行。
 * [Spring Data JDBC MyBatis](https://github.com/VonChange/spring-data-jdbc-mybatis)：一个轻量级的Spring Data JDBC扩展，具有MyBatis动态SQL功能。
@@ -3621,6 +3628,7 @@
 * [Let's Encrypt Helper](https://github.com/valb3r/letsencrypt-helper)：生成并更新Spring Boot应用程序的Let's Encrypt或其他符合ACME标准的SSL证书。
 * [TaSK](https://github.com/BSI-Bund/TaSK)：TaSK是一款可配置的测试工具，用于执行基于技术指南TR-03116-TS的TLS一致性测试，由德国信息技术安全局开源。
 * [CompositeJKS](https://github.com/1and1/CompositeJKS)：CompositeJKS允许你将自定义Java密钥库加载到SSL上下文中，而无需替换系统CA列表。
+* [Agent15](https://github.com/ptrd/agent15)：Agent15是TLS 1.3握手协议的开源实现。
 
 #### CORS
 
@@ -3915,6 +3923,8 @@
 * [Fully Satisfies](https://github.com/frenchy64/fully-satisfies)：Clojure实用函数。
 * [Jadira](https://github.com/JadiraOrg/jadira)：Jadira是一个开源框架，旨在弥补集成常见、广泛应用的Java框架和格式方面的一些不足。
 * [JCommon](https://github.com/jfree/jcommon)：JCommon是一个免费的通用Java类库，被JFreeChart和Pentaho Reporting等多个项目所使用。
+* [EzyFox](https://github.com/youngmonkeys/ezyfox)：EzyFox是一个基础库，支持创建所有用Java、Kotlin和Scala编写的项目。
+* [Embabel Common](https://github.com/embabel/embabel-common)：Embabel平台开发的基础库和实用程序。
 
 ## 对象校验
 
@@ -5369,6 +5379,7 @@
 * [Jackdaw](https://github.com/obsidiandynamics/jackdaw)：Kafka客户端的简单配置和Mock。
 * [NSQ-J](https://github.com/sproutsocial/nsq-j)：NSQ实时分布式消息传递平台的Java客户端。
 * [NATS Java](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
+* [NATS.kt](https://github.com/n-hass/nats.kt)：NATS.kt是一款专为Kotlin多平台构建的高性能NATS客户端。
 * [Amazon SQS Java Messaging Library](https://github.com/awslabs/amazon-sqs-java-messaging-lib)：Amazon SQS Java Messaging Library包含与JMS兼容的类，用于与Amazon SQS进行通信。
 * [IBM MQ JMS Spring Components](https://github.com/ibm-messaging/mq-jms-spring)：用于辅助MQ JMS与Spring框架集成的组件。
 * [Java Pub/Sub](https://github.com/googleapis/java-pubsub)：Google Cloud Pub/Sub的Java惯用客户端。
@@ -5572,6 +5583,26 @@
 * [Multitenant](https://github.com/muxiangqiu/multitenant)：独立数据库模式实现多租户。
 * [Multi Tenancy Spring Boot Starter](https://github.com/ccwxl/multi-tenancy-spring-boot-starter)：Multi Tenancy Spring Boot Starter是一个基于Spring Boot的多租户的开发组件。
 * [Mybatis Multi Tenancy](https://github.com/Mearalu/mybatis-multi-tenancy)：Mybatis Multi Tenancy是一个Mybatis的基于共享数据表模式的多租户插件。
+
+## 幂等
+
+* [Idempotent](https://github.com/it4alla/idempotent)：幂等处理方案。
+* [Idempotent Spring Boot Starter](https://github.com/pig-mesh/idempotent-spring-boot-starter)：对原有idempotent代码重构和功能增强。
+* [Jdempotent](https://github.com/Trendyol/Jdempotent)：轻松使你的端点幂等，由Trendyol开源。
+* [Idempotence4j](https://github.com/transferwise/idempotence4j)：Idempotence4j是一个轻量级库，为处理幂等操作提供支持。
+* [Tomato](https://github.com/lxchinesszz/tomato)：Tomato是一款专门为Spring Boot项目设计的幂等组件。
+* [Idempotent](https://github.com/arun0009/idempotent)：Idempotent是一个轻量级的Java库，它在API中提供对幂等性的支持，从而更容易处理重复请求并确保分布式系统的可靠运行。
+* [ReSubmit](https://github.com/houbb/resubmit)：ReSubmit是一款为Java设计的渐进式防止重复配置框架。
+* [Idempotent Spring Boot Starter](https://github.com/WangJi92/idempotent-spring-boot-starter)：Spring Boot幂等防重复提交组件。
+* [Quidem](https://github.com/hydromatic/quidem)：Quidem是一个幂等查询执行器。
+* [RocketMQDedupListener](https://github.com/Jaskey/RocketMQDedupListener)：RocketMQ消息幂等去重消费者，支持使用MySQL或者Redis做幂等表，开箱即用。
+* [MQ Idempotent](https://github.com/weihubeats/mq-idempotent)：MQ幂等框架，开箱即用。
+* [Dis](https://github.com/liuyukuai/dis)：基于Spring Boot、Redis幂等性框架。
+* [Fency](https://github.com/fencyio/fency)：为RabbitMQ消费者提供幂等性屏障。
+* [Seraph](https://gitee.com/nageoffer/seraph)：分布式幂等组件，支持HTTP接口以及消息队列幂等行为。
+* [Idempotency4j](https://github.com/josipmusa/idempotency4j)：一个具有可插拔存储后端和Spring Web/Spring Boot支持的Java幂等库。
+* [Spring Idempotency Kit](https://github.com/Atlancia-Labs/spring-idempotency-kit)：适用于Spring Boot 3.x应用程序的轻量级、生产就绪的幂等性解决方案。
+* [Elegent Idem](https://gitee.com/myelegent/elegent-idem)：Elegent Idem是一个基于Spring Boot的优雅的幂等性框架。
 
 ## MATLAB
 
@@ -6029,6 +6060,7 @@
 * [Graphster](https://github.com/wisecubeai/graphster)：Graphster是一个开源知识图谱库。
 * [Ontopia](https://github.com/ontopia/ontopia)：Ontopia是一个用于构建、维护和部署基于主题映射的应用程序的开源工具。
 * [KGPro](https://github.com/zzzvvvxxxd/KGPro)：知识图谱轻量框架。
+* [DICE](https://github.com/embabel/dice)：基于命题架构和Prolog推理的知识图谱构建和推理库。
 
 ## 生物信息学
 
@@ -6481,6 +6513,7 @@
 * [Solon Flow](https://gitee.com/opensolon/solon-flow)：Java Flow通用流编排应用开发框架，支持已知流编排的各种场景。
 * [Titan](https://github.com/ramn51/titan-orchestrator)：Titan是一个轻量级的分布式执行运行时环境。
 * [Apache ODE](https://github.com/apache/ode)：Apache ODE是一个符合WS-BPEL标准的Web服务编排引擎。
+* [AgentFlow4J](https://github.com/datallmhub/agentflow4j)：使用Java构建有状态的多代理工作流，支持图、重试和持久化。
 
 ## 规则引擎
 
@@ -7990,6 +8023,10 @@
 * [Kotlin JVM Reflect Tools](https://github.com/wuseal/Kotlin-Reflect-Tools-For-JVM)：这是一个用于Kotlin的工具库，允许在Kotlin中以简单的方式使用Java反射API。
 * [Skript Reflect](https://github.com/SkriptLang/skript-reflect)：功能强大的Skript反射工具。
 * [AnyDoor](https://github.com/lgp547/any-door)：执行Spring项目任意对象的任意方法。
+* [Skript Mirror](https://github.com/btk5h/skript-mirror)：Skript Mirror是一个功能强大的反射插件，专为高级脚本编写者设计。
+* [SMirror](https://github.com/fwbrasil/smirror)：SMirror是一种更简单的反射方式，它比Scala 2.10运行时反射提供了更高层次的抽象。
+* [Aide](https://github.com/CrissNamon/aide)：Aide是一套实用的工具集，用于快速反射、扩展可选类型和条件语句。
+* [Reflection Utils](https://github.com/Ekryd/reflection-utils)：这个库可以让你更轻松地使用Java反射来获取和设置类中的内部字段。
 
 ## 注解库
 
@@ -10371,6 +10408,8 @@ Kafka生态管理系统、运维平台。
 * [Spring Microservices](https://github.com/ElinaValieva/spring-microservices)：基于Saga和CQRS模式的简单微服务架构。
 * [Parsec](https://github.com/yahoo/parsec)：Parsec是一套基于Gradle和Jersey2构建的库和实用程序集合，由Yahoo开源。
 * [Java Docker Build](https://github.com/miguno/java-docker-build-tutorial)：这是一个用于创建Java应用程序Docker镜像的模板项目。
+* [Hexagonal Architecture Template](https://github.com/kamilmazurek/hexagonal-architecture-template)：这是一个基于Java的微服务模板，使用Spring Boot构建，遵循六边形架构。
+* [Generated Agent Project](https://github.com/embabel/java-agent-template)：使用Embabel框架开发你自己的代理的起点。
 
 #### 脚手架
 
@@ -10581,6 +10620,7 @@ Kafka生态管理系统、运维平台。
 * [NutzSite](https://github.com/TomYule/NutzSite)：NutzSite基于Nutz的Java开源企业级快速开发框架。
 * [jXFW](https://github.com/croc-code/jxfw)：jXFW是一个与平台无关、模型驱动(MDA/MDD)的企业级应用开发框架。
 * [DIGIT](https://github.com/egovernments/Digit-Core)：DIGIT是一个模块化、多租户的微服务API平台，旨在加速面向政府的服务和工作流程的开发和部署。
+* [Spring Boot Freemarker](https://github.com/tobeflyboy/springboot-freemarker)：Spring Boot Freemarker是一个经典的MVC三层快速开发框架。
 
 #### 后台管理系统
 
@@ -12258,6 +12298,7 @@ Kafka生态管理系统、运维平台。
 * [Box Java SDK](https://github.com/box/box-java-sdk)：适用于Java的Box SDK。
 * [AliOpen](https://github.com/alibaba/AliOpen)：阿里巴巴开放平台消息SDK。
 * [Amadeus Java](https://github.com/amadeus4dev/amadeus-java)：Amadeus为旅游行业提供了丰富的API。
+* [Zowe Java Client SDK](https://github.com/zowe/zowe-client-java-sdk)：Java SDK允许你利用az/OS系统上的底层z/OSMF REST API来构建与z/OS实例无缝交互的客户端应用程序和脚本。
 
 #### Twitter
 
@@ -12475,6 +12516,7 @@ Kafka生态管理系统、运维平台。
 * [BigBone](https://github.com/PattaFeuFeu/bigbone)：BigBone是适用于Java和Kotlin的Mastodon客户端库。
 * [Twitter Scale Mastodon](https://github.com/redplanetlabs/twitter-scale-mastodon)：该项目是Mastodon实例的生产级实现，可扩展至Twitter规模(5亿用户、700平均扇出、非平衡社交图谱、每秒7000篇帖子)。
 * [Mastodon4J](https://github.com/Mastodon4J/mastodon4j)：Mastodon4J是一个用于Mastodon API的开源Java库。
+* [Mastodonk](https://github.com/outadoc/mastodonk)：一个Kotlin/多平台Mastodon API客户端。
 
 #### Flickr
 
@@ -12593,6 +12635,7 @@ Kafka生态管理系统、运维平台。
 * [Recordins](https://github.com/recordins/recordin-EthereumJ-2018)：Recordins是一个基于以太坊协议的纯Java区块链数据和文档存储平台。
 * [GSC](https://github.com/gscsocial/gsc-core)：GSC是新一代社交网络链。
 * [CWV](https://github.com/CryptoWorldChain/chaincore)：CWV是一个致力于构建新一代加密世界的区块链公链项目。
+* [Fruzhin](https://github.com/LimeChain/Fruzhin)：Fruzhin是Polkadot Host的Java实现。
 
 #### 以太坊
 
@@ -12743,6 +12786,7 @@ Kafka生态管理系统、运维平台。
 * [Sava](https://github.com/sava-software/sava)：Solana Java SDK。
 * [SolanaKT](https://github.com/metaplex-foundation/SolanaKT)：这是一个基于Kotlin的Solana协议开源库。
 * [Solana4J](https://github.com/LMAX-Exchange/solana4j)：一个用于原生与Solana区块链交互的Java库。
+* [Solanaj](https://github.com/dongyuhao66/solanaj)：Solanaj是一个用纯Java编写的Solana区块链客户端。
 * [Java Stellar SDK](https://github.com/lightsail-network/java-stellar-sdk)：Java Stellar SDK库提供了用于构建交易并连接到Horizon和Soroban-RPC服务器的API。
 * [Server Blockchain SDK](https://github.com/OmniOneID/did-blockchain-sdk-server)：Server Blockchain SDK提供与区块链网络交互和调用智能合约的SDK。
 * [TON4j](https://github.com/ton-blockchain/ton4j)：用于与TON区块链交互的Java库和包装器。
@@ -13624,29 +13668,12 @@ Kafka生态管理系统、运维平台。
 * [Pbbl](https://github.com/jhg023/Pbbl)：Pbbl是一个线程安全的ByteBuffer池，允许自动重用ByteBuffer。
 * [PP4J](https://github.com/ViktorC/PP4J)：PP4J包含一个Java进程池实现，它使用JVM实例在独立的进程中执行任务。
 
-## 幂等处理
-
-* [Idempotent](https://github.com/it4alla/idempotent)：幂等处理方案。
-* [Idempotent Spring Boot Starter](https://github.com/pig-mesh/idempotent-spring-boot-starter)：对原有idempotent代码重构和功能增强。
-* [Jdempotent](https://github.com/Trendyol/Jdempotent)：轻松使你的端点幂等，由Trendyol开源。
-* [Idempotence4j](https://github.com/transferwise/idempotence4j)：Idempotence4j是一个轻量级库，为处理幂等操作提供支持。
-* [Tomato](https://github.com/lxchinesszz/tomato)：Tomato是一款专门为Spring Boot项目设计的幂等组件。
-* [Idempotent](https://github.com/arun0009/idempotent)：Idempotent是一个轻量级的Java库，它在API中提供对幂等性的支持，从而更容易处理重复请求并确保分布式系统的可靠运行。
-* [ReSubmit](https://github.com/houbb/resubmit)：ReSubmit是一款为Java设计的渐进式防止重复配置框架。
-* [Idempotent Spring Boot Starter](https://github.com/WangJi92/idempotent-spring-boot-starter)：Spring Boot幂等防重复提交组件。
-* [Quidem](https://github.com/hydromatic/quidem)：Quidem是一个幂等查询执行器。
-* [RocketMQDedupListener](https://github.com/Jaskey/RocketMQDedupListener)：RocketMQ消息幂等去重消费者，支持使用MySQL或者Redis做幂等表，开箱即用。
-* [MQ Idempotent](https://github.com/weihubeats/mq-idempotent)：MQ幂等框架，开箱即用。
-* [Dis](https://github.com/liuyukuai/dis)：基于Spring Boot、Redis幂等性框架。
-* [Seraph](https://gitee.com/nageoffer/seraph)：分布式幂等组件，支持HTTP接口以及消息队列幂等行为。
-* [Idempotency4j](https://github.com/josipmusa/idempotency4j)：一个具有可插拔存储后端和Spring Web/Spring Boot支持的Java幂等库。
-* [Spring Idempotency Kit](https://github.com/Atlancia-Labs/spring-idempotency-kit)：适用于Spring Boot 3.x应用程序的轻量级、生产就绪的幂等性解决方案。
-
 ## 数据字典
 
 * [EasyTrans](https://gitee.com/dromara/easy_trans)：EasyTrans是一款用于做数据翻译的代码辅助插件，由dromara社区开源。
 * [Dict Trans](https://gitee.com/aizuda/dict-trans)：由爱组搭开源的简单字典翻译组件。
 * [Transformer](https://github.com/luo-zhan/Transformer)：Transformer是一款功能全面的字段转换工具，只需要几个简单的注解，让开发更简单。
+* [DictMapper](https://github.com/power4j/DictMapper)：将枚举映射为数据字典，可用于前后端共享数据字典。
 
 ## Bot
 
@@ -16365,6 +16392,7 @@ Kafka生态管理系统、运维平台。
 * [Gathering Java SDK](https://github.com/MagicTheGathering/mtg-sdk-java)：用于使用magicthegathering.io API的Java SDK。
 * [Valorant Java API](https://github.com/Valorant-API/java-library)：Valorant Java/Kotlin API实现。
 * [PUBG Java](https://github.com/mautini/pubgjava)：PUBG API的Java封装。
+* [Chariot](https://github.com/tors42/chariot)：Chariot是一个用于Lichess API的Java客户端。
 
 #### 物理引擎
 
@@ -16781,6 +16809,7 @@ Kafka生态管理系统、运维平台。
 * [Tiger](https://github.com/bjhua/tiger)：一个用于MiniJava的教学编译器。
 * [Ayame](https://github.com/No-SF-Work/ayame)：一个将SysY翻译成ARMv7a的编译器，用Java 15实现，由北京航空航天大学开源。
 * [J2JS](https://github.com/decatur/j2js-compiler)：Java字节码到JavaScript的交叉编译器。
+* [JVMBASIC](https://github.com/teverett/jvmBASIC)：一个BASIC到JVM字节码编译器。
 
 #### 内存中编译器
 
@@ -17883,6 +17912,7 @@ Kafka生态管理系统、运维平台。
 * [Supl Client](https://github.com/google/supl-client)：Supl客户端库。
 * [ArcGIS Maps Java SDK](https://github.com/Esri/arcgis-maps-sdk-java-samples)：ArcGIS Maps SDK用于构建可在Windows、Mac或Linux系统上运行的桌面应用程序的地图、定位和GIS应用程序。
 * [Geo](https://github.com/HWYWL/geo)：地区与该地区编码的相互转换。
+* [CountryCode](https://github.com/TakahikoKawasaki/CountryCode)：Java中的ISO 3166-1国家代码枚举。
 
 #### OpenStreetMap
 
@@ -17963,6 +17993,7 @@ Kafka生态管理系统、运维平台。
 * [Location4j](https://github.com/tomaytotomato/location4j)：Location4j是一个简单的Java库，旨在高效、准确地查找国家、州和城市的地理数据。
 * [Location](https://github.com/turgos/Location)：本项目旨在根据给定的经纬度确定城市/国家。
 * [GeoSense](https://github.com/eBay/geosense)：一个独立的容器，用于通过经纬度查找时区，由eBay开源。
+* [Reverse Country Code](https://github.com/bencampion/reverse-country-code)：反向地理编码器，可将纬度和经度坐标转换为国家/地区信息，例如名称、ISO代码和语言区域。
 
 #### GeoJson
 
@@ -18444,7 +18475,7 @@ Kafka生态管理系统、运维平台。
 * [I18N4k](https://github.com/comahe-de/i18n4k)：I18N4k是一个Kotlin多平台(JVM、JS、Native)库和代码生成器，用于在你的程序中处理国际化。
 * [OmegaT](https://github.com/omegat-org/omegat)：OmegaT是一款免费开源多平台计算机辅助翻译工具，具有模糊匹配、翻译记忆库、关键字搜索、术语表以及翻译到更新项目中的功能。
 * [Singleton](https://github.com/vmware/singleton)：Singleton是一个用于简化软件全球化的开源应用程序，由VMWare开源。
-* [OpenXLIFF](https://github.com/rmraya/OpenXLIFF)：一组用于创建、合并和验证XLIFF 1.2、2.0、2.1和2.2文件的Java过滤器。
+* [OpenXLIFF](https://github.com/maxprograms-com/OpenXLIFF)：一组用于创建、合并和验证XLIFF 1.2、2.0、2.1和2.2文件的Java过滤器。
 * [Play JsMessages library](https://github.com/julienrf/play-jsmessages)：该库允许你在Play项目中于客户端计算本地化消息。
 * [Scala Java Locales](https://github.com/cquiroz/scala-java-locales)：为Scala.js实现Java Locale。
 * [TafqeetJ](https://github.com/osamabmaq/TafqeetJ)：Java库，用于将阿拉伯语中的数字从数字格式转换为单词格式。
