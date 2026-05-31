@@ -921,6 +921,7 @@
   * [物理引擎](docs/doc2.md#物理引擎)
   * [噪声库](docs/doc2.md#噪声库)
   * [寻路算法](docs/doc2.md#寻路算法)
+  * [麻将算法](docs/doc2.md#麻将算法)
   * [实体框架](docs/doc2.md#实体框架)
   * [游戏编辑器](docs/doc2.md#游戏编辑器)
   * [开源游戏](docs/doc2.md#开源游戏)
@@ -1590,6 +1591,7 @@
 * [MFW](https://github.com/CryptoWorldChain/mfw)：MFW是基于TFW的微服务框架。
 * [Alogic](https://github.com/anylogic/alogic)：Alogic提供了分布式Web服务开发的一整套方法和思路。
 * [NHMicro](https://github.com/jeffreyning/nh-micro)：NHMicro是一个基于Groovy脚本驱动的Java微服务开发框架。
+* [Restate Java](https://github.com/restatedev/sdk-java)：Restate是一个利用分布式持久化Async/Await轻松构建弹性应用程序的系统。
 
 ## HTTP客户端
 
@@ -3695,6 +3697,7 @@
 * [EDUX](https://github.com/Samyssmile/edux)：EDUX是一个用户友好的库，用于通过机器学习方法解决问题。
 * [KeLP](https://github.com/SAG-KeLP/kelp-full)：KeLP是罗马第二大学语义分析小组开发的基于内核的学习平台。
 * [SparseML](https://github.com/intel-spark/SparseML)：Spark MLlib代码优化，可高效支持稀疏数据，由Intel开源。
+* [Lolo](https://github.com/CitrineInformatics/lolo)：Lolo是一个以随机森林为中心的Scala机器学习库。
 
 #### 神经网络
 
@@ -3867,6 +3870,7 @@
 * [BartMachine](https://github.com/kapelner/bartMachine)：R-Java贝叶斯加法回归树实现，由纽约市立大学开源。
 * [Java Naive Bayes Classifier](https://github.com/ptnplanet/Java-Naive-Bayes-Classifier)：基于朴素贝叶斯方法的Java分类器。
 * [Bayes Scala](https://github.com/danielkorzekwa/bayes-scala)：Bayes Scala是一个用于贝叶斯网络和概率图模型的Scala库。
+* [Jayes](https://github.com/kutschkem/Jayes)：Jayes是一个用于Java的贝叶斯网络库，由Eclipse开源。
 
 #### LDA
 
@@ -4105,6 +4109,7 @@
 * [Number Words](https://github.com/accelerated-text/numberwords)：Number Words构建自然数、百分比和分数的数字表达式。
 * [EXEMPLAR](https://github.com/U-Alberta/exemplar)：EXEMPLAR是一个开放式关系抽取系统，源自阿尔伯塔大学的一个研究项目。
 * [Odinson](https://github.com/lum-ai/odinson)：Odinson可用于快速查询自然语言知识库并提取结构化关系。
+* [RelationFactory](https://github.com/uds-lsv/relationfactory)：RelationFactory是一个关系抽取和知识库填充系统，由萨尔兰大学开源。
 
 #### 文本分类
 
