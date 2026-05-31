@@ -2107,6 +2107,7 @@
 * [Discovery](https://github.com/airlift/discovery)：Discovery是一个服务发现组件。
 * [Service Locator DNS](https://github.com/lightbend/service-locator-dns)：一个完全基于Akka的服务定位器，用于按名称定位服务并返回其主机和端口，由Lightbend开源。
 * [Vert.x GraphQL Service Discovery](https://github.com/engagingspaces/vertx-graphql-service-discovery)：Vert.x GraphQL Service Discovery允许你在基于Vert.x的微服务环境中将GraphQL Schema发布为独立服务，并通过Vert.x事件总线从远程服务客户端执行查询。
+* [Disco](https://github.com/librato/disco-java)：基于Zookeeper的简单服务发现。
 
 ## 容错组件
 
@@ -3693,6 +3694,7 @@
 * [ʎzy](https://github.com/lambdazy/lzy)：ʎzy是一个混合执行机器学习工作流的平台。
 * [EDUX](https://github.com/Samyssmile/edux)：EDUX是一个用户友好的库，用于通过机器学习方法解决问题。
 * [KeLP](https://github.com/SAG-KeLP/kelp-full)：KeLP是罗马第二大学语义分析小组开发的基于内核的学习平台。
+* [SparseML](https://github.com/intel-spark/SparseML)：Spark MLlib代码优化，可高效支持稀疏数据，由Intel开源。
 
 #### 神经网络
 
@@ -4045,6 +4047,8 @@
 * [Kakasi Java](https://github.com/nicolas-raoul/kakasi-java)：Kakasi Java将日语汉字转换为罗马字。
 * [WanaKanaJava](https://github.com/MasterKale/WanaKanaJava)：用于检测和转写平假名、片假名和罗马字的实用工具库。
 * [WanaKana Kt](https://github.com/esnaultdev/wanakana-kt)：Kotlin实用库，用于检测和转写平假名、片假名和罗马字。
+* [ChineseStrokeSorting](https://github.com/ouyangpeng/ChineseStrokeSorting)：中文笔划排序、20902个汉字的笔画数目以及编码表。
+* [Kotlin Pluralizer](https://github.com/cesarferreira/kotlin-pluralizer)：用于将字符串复数化和单数化的Kotlin扩展。
 
 #### 拼音库
 
