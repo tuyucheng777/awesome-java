@@ -282,6 +282,7 @@
   * [Milvus库/工具](docs/doc2.md#Milvus库工具)
   * [Influx库/工具](docs/doc2.md#Influx库工具)
   * [Vault库/工具](docs/doc2.md#Vault库工具)
+  * [OpenTSDB库/工具](docs/doc2.md#OpenTSDB库工具)
 * [数据库中间件](docs/doc2.md#数据库中间件)
   * [数据同步](docs/doc2.md#数据同步)
   * [分库分表](docs/doc2.md#分库分表)
@@ -3837,6 +3838,7 @@
 * [Genetic Draw](https://github.com/kennycason/genetic_draw)：用于绘制图像的遗传算法。
 * [AHNI](https://github.com/OliverColeman/ahni)：AHNI实现了HyperNEAT神经进化算法。
 * [Quaelite](https://github.com/mitre/quaerite)：搜索相关性评估工具包。
+* [GeneticTSP](https://github.com/onlylemi/GeneticTSP)：用于TSP的遗传算法。
 
 #### 聚类算法
 
@@ -4366,6 +4368,7 @@
 * [JFeatureLib](https://github.com/locked-fg/JFeatureLib)：JFeatureLib是一个免费库，提供了几种图像特征的实现，以及主要用于计算机视觉研究领域的几种点/区域检测器。
 * [YUV2Mat](https://github.com/QuickBirdEng/yuvToMat)：用于将YUV_420_888 Android相机图像转换为OpenCV RGB材质的高性能库。
 * [NyARToolkit](https://github.com/nyatla/NyARToolkit)：NyARToolkit是一个基于ARToolKit 5.3.2的AR应用类库。
+* [EyeTribe Java SDK](https://github.com/EyeTribe/tet-java-client)：The Eye Tribe Tacker的Java SDK。
 
 #### OCR
 
