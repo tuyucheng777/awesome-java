@@ -623,6 +623,7 @@
 * [GoIm Java SDK](https://github.com/roamdy/goim-java-sdk)：GoIm系统的Java SDK。
 * [Pusher Chatkit Android](https://github.com/pusher/chatkit-android)：适用于Pusher Chatkit的Android客户端SDK。
 * [Sissi](https://github.com/KimShen/sissi)：Sissi是由Java编写的XMPP服务器。
+* [Trixnity](https://github.com/benkuly/trixnity)：Trixnity是一个用Kotlin编写的多平台Matrix SDK。
 
 #### Pcap
 
@@ -4348,6 +4349,7 @@
 * [Mill](https://github.com/scottashipp/mill)：一个用于简化日常任务的Java库。
 * [Jodie](https://github.com/mrpowers-io/jodie)：该库提供了有用的Delta Lake和文件系统实用程序函数。
 * [Spark Daria](https://github.com/mrpowers-io/spark-daria)：Spark辅助方法，旨在最大限度地提高开发人员的工作效率。
+* [Util4j](https://gitee.com/juebanlin/util4j)：Util4j是用于服务端开发的常用工具包。
 
 ## 对象校验
 
@@ -4395,6 +4397,8 @@
 * [Validation Modeling](https://github.com/kawasima/validation-modeling)：Validation Modeling是一个针对同一领域规范，实施和比较不同验证方法的实验性项目。
 * [JaRB](https://github.com/42BV/jarb)：JaRB旨在提高Java企业应用程序中的数据库使用率。
 * [Fields](https://github.com/jap-company/fields)：Fields是一个Scala校验库。
+* [jValid](https://gitee.com/sfmjp/jValid)：jValid是一个Java Bean校验库。
+* [Validation](https://gitee.com/msimw/validation)：基于Spring通用数据校验框架。
 
 ## Bean映射&复制
 
@@ -5326,6 +5330,7 @@
 * [Kudos](https://github.com/kanyun-inc/Kudos)：Kudos的设计目的是让使用Gson和Jackson反序列化Kotlin类的过程更安全、更便捷。
 * [JSONForms Kotlin](https://github.com/GerardPaligot/jsonforms-kotlin)：JSONForms Kotlin是Eclipse基金会JSONForms标准的Kotlin多平台实现。
 * [Catnap](https://github.com/gregwhitaker/catnap)：Catnap是一个框架，它允许用户在URL中提供任意查询，从而支持RESTful Web服务中的部分JSON和JSONP响应。
+* [GSON Plugin](https://github.com/LianjiaTech/gson-plugin)：GSON库的Gradle插件，防止JSON数据解析类型异常，由链家开源。
 
 #### JSON Schema
 
@@ -5546,6 +5551,7 @@
 * [ReloadablePropertiesAnnotation](https://github.com/jamesmorgan/ReloadablePropertiesAnnotation)：利用Java 7 WatchService API、Google Guava和Spring 3.2.5在运行时重新加载动态属性配置。
 * [Java Ordered Properties](https://github.com/etiennestuder/java-ordered-properties)：JDK java.util.Properties类的替代方案。
 * [ConfigJSR](https://github.com/eclipse-archived/ConfigJSR)：JSR382 Java配置API。
+* [Conf4j](https://gitee.com/dingnate/conf4j)：Properties文件的配置工具库。
 
 #### 分布式配置
 
@@ -5609,6 +5615,7 @@
 * [Ini4j](https://github.com/facebookarchive/ini4j)：Ini4j是一个简单的Java API，用于处理Windows .ini格式的配置文件，由Facebook开发。
 * [JIniFile](https://github.com/SubZane/JIniFile)：JIniFile从INI文件中存储和检索特定于应用程序的信息和设置。
 * [Java INI Parser](https://github.com/vincentrussell/java-ini-parser)：Java INI Parser帮助你在Java中解析ini文件。
+* [Mini INI](https://gitee.com/ForteScarlet/mini-ini)：Mini INI是一个用于操作.ini格式文件的工具。
 
 #### ENV库
 
@@ -8160,7 +8167,8 @@
 * [Marvin](https://github.com/gabrielarchanjo/marvin-framework)：Marvin图像处理框架提供实时处理图像和视频的功能。
 * [Picasso](https://github.com/square/picasso)：Picasso是一个强大的Android图像下载和缓存库，由Square开源。
 * [EasyImage](https://github.com/aviyehuda/EasyImage)：EasyImage可让你执行所有基本图像操作-转换、裁剪、调整大小、旋转、翻转等。
-* [Bus Image](https://github.com/818000/bus/tree/main/bus-image)：Bus Image是一个企业级医学影像和DICOM处理框架，专为医疗保健应用而设计。
+* [Trainable Weka Segmentation](https://github.com/fiji/Trainable_Segmentation)：Trainable Weka Segmentation是一个Fiji插件和库，它结合了一系列机器学习算法和一组选定的图像特征，以生成基于像素的分割结果。
+* [BoneJ](https://bonej.org/)：ImageJ中用于骨骼图像分析的插件。
 * [JMagick](https://github.com/techblue/jmagick)：JMagick是ImageMagick的开源Java接口。
 * [Jrawio](https://github.com/tidalwave-it/jrawio-src)：Java Image I/O API的服务提供者，用来处理数码相机拍摄的RAW格式的图片，包括NEF、CRW、CR2、PEF、SRF、MRW。
 * [JJIL](https://github.com/litmanowicziv/jjil)：JJIL是一个Java图像处理库，它包括图像处理架构和60多个用于各种图像处理任务的例程。
@@ -8244,6 +8252,7 @@
 * [JFreeSane](https://github.com/sjamesr/jfreesane)：JFreeSane是SANE客户端的纯Java实现。
 * [Vash](https://github.com/thevash/vash)：Vash是一系列视觉哈希算法，它可以将数据转换为图像。
 * [GlitchKernel](https://github.com/scriptkittie/GlitchKernel)：Glitch Kernel是一款艺术工具，它通过像素排序和其他图像失真技术来弯曲、制造故障和扭曲静态图像。
+* [Cloudinary Java SDK](https://github.com/cloudinary/cloudinary_java)：Cloudinary Java SDK让你能够快速轻松地将你的应用程序与Cloudinary集成。
 
 #### 图像元数据
 
@@ -8552,6 +8561,7 @@
 * [SMirror](https://github.com/fwbrasil/smirror)：SMirror是一种更简单的反射方式，它比Scala 2.10运行时反射提供了更高层次的抽象。
 * [Aide](https://github.com/CrissNamon/aide)：Aide是一套实用的工具集，用于快速反射、扩展可选类型和条件语句。
 * [Reflection Utils](https://github.com/Ekryd/reflection-utils)：这个库可以让你更轻松地使用Java反射来获取和设置类中的内部字段。
+* [HP Reflect](https://gitee.com/kkk001/hp-reflect)：HP Reflect是一个高性能的反射工具。
 
 ## 注解库
 
@@ -8922,6 +8932,7 @@
 * [Easyexcel](https://github.com/Dorae132/easyexcel)：简单、高效、易扩展且支持百万数据读写的ExcelUtils。
 * [Excel Export](https://github.com/TouK/excel-export)：Apache POI的Grails插件，用于导出Excel文件。
 * [POI](https://github.com/subtlelib/poi)：Java Excel报表生成器库。
+* [Officejj](https://gitee.com/javaex/officejj)：POI工具类，Excel的快速导入导出。
 
 ### CSV库
 
@@ -8989,6 +9000,7 @@
 * [Groovy Document Builder](https://github.com/craigburke/document-builder)：一个用于Groovy的文档生成器，支持生成PDF或Word文档。
 * [Merlin](https://github.com/micromata/Merlin)：Merlin是一个轻量级库，可将强大的Excel和Word功能嵌入到你自己的应用程序中。
 * [Templ4docx](https://github.com/jsolve/templ4docx)：用于填充DOCX文件中模板的实用库。
+* [Docx4j Wisewe](https://gitee.com/PasseRR/docx4j-wisewe)：快速导出Excel、Word、PDF、ZIP，支持Word页眉页脚、PDF水印等功能。
 
 ### PPT库
 
@@ -9344,6 +9356,7 @@
 * [H5TransferPDF](https://github.com/tal-tech/h5-transfer-pdf)：H5TransferPDF是一个将网页HTML渲染为PDF和各种图像格式的API工具。
 * [PPT2Image](https://github.com/kkstudy/PPT2Image)：PPT2Image是一个可以将PPT或PPTX文件逐张转换为图像的库。
 * [PPTToImgConverter](https://github.com/Hansanshi/pptutil)：这个工具类可以将PPT或者PPTX文件转换为图片。
+* [HTML Convert Image](https://gitee.com/hengboy/html-covert-image)：HTML转图像工具库。
 
 ### Mime解析
 
@@ -10324,6 +10337,7 @@ Kafka生态管理系统、运维平台。
 * [Geekhalo DDD](https://gitee.com/litao851025/geekhalo-ddd)：Geekhalo DDD主要对DDD相关理念进行抽象，并提供多种基础服务。
 * [Chomolungma Development Platform](https://github.com/kushu001/cdp)：Chomolungma Development Platform是一款以DDD领域驱动设计为思想进行开发的开源框架。
 * [DDD Library](https://github.com/Microservice-API-Patterns/DDD-Library)：该库包含一系列接口和抽象类，用于在Java代码中表达领域驱动设计(DDD)概念。
+* [Arc](https://github.com/wangyuheng/Arc)：Arc通过GraphQL Schema描述业务领域，并提供一套基于GraphQL、Dgraph的开发框架，快速落地DDD。
 
 #### CQRS
 
@@ -11136,6 +11150,7 @@ Kafka生态管理系统、运维平台。
 * [Celerio](https://github.com/jaxio/celerio)：Celerio是一款用于数据驱动型应用程序的代码生成工具。
 * [MyDog](https://github.com/PowerShenli/MyDog)：MyDog是一个自动代码生成工具。
 * [Spring Boot Admin](https://github.com/huoyunhao/springboot-admin)：Spring Boot Admin是基于Spring Boot 2.0.1、前端采用Vue Element Admin组件的快速开发脚手架单体服务。
+* [Pap4j Boot3](https://gitee.com/alexgaoyh/pap4j-boot3)：Pap4j Boot3是一个基于Java 17+和Spring Boot 3.5.x构建的工业级全栈工程脚手架。
 
 #### 快速开发框架
 
@@ -12776,7 +12791,6 @@ Kafka生态管理系统、运维平台。
 * [Luna Fans API](https://github.com/lunasaw/luna-fans-api)：Luna Fans API基于各个开放平台的API整合优化，大部分采用原生HTTP调用。
 * [AliyunDrive4j](https://github.com/StickPoint/aliyundrive4j)：最好用的AliyunDrive阿里云盘第三方API SDK。
 * [CloudflareAPI](https://github.com/robinbraemer/CloudflareAPI)：最完整、可扩展的Cloudflare API v4 Java客户端库。
-* [Cloudinary Java SDK](https://github.com/cloudinary/cloudinary_java)：Cloudinary Java SDK让你能够快速轻松地将你的应用程序与Cloudinary集成。
 * [Terraform Spring Boot](https://github.com/microsoft/terraform-spring-boot)：Terraform客户端的Spring Boot Starter，由Microsoft开源。
 
 ## 微信开发
@@ -15864,6 +15878,7 @@ Kafka生态管理系统、运维平台。
 * [EasyAndroid](https://github.com/gycold/EasyAndroid)：包含各种工具类的集合。
 * [CommonUtils](https://github.com/aminography/CommonUtils)：CommonUtils包含Android应用中常用的实用函数。
 * [AndroidUtils](https://github.com/D-clock/AndroidUtils)：本库主要汇总Android开发经常会用到的代码。
+* [KMPUtils](https://github.com/respawn-llc/KMPUtils)：KMPUtils是一个集合，它弥补了Kotlin STL、流行的KMP库和平台SDK中缺失的所有功能。
 
 #### ADB
 
@@ -19602,6 +19617,7 @@ Kafka生态管理系统、运维平台。
 * [Tweakflow](https://github.com/twineworks/tweakflow)：Tweakflow为JVM应用程序提供了一种以类似公式的符号来评估用户提供的表达式的方法。
 * [Starscript](https://github.com/MeteorDevelopment/starscript)：Java的快速文本格式化语言。
 * [Kelp](https://github.com/ldzsai/kelp)：Kelp是一个轻量级、高性能的Java表达式解析和执行引擎，支持变量访问、函数调用、数学运算等特性，适用于规则引擎、模板渲染等场景。
+* [JExParser](https://gitee.com/drinkjava2/jexparser)：JExParser是一个简单的Java表达式解析求值程序。
 
 #### 脚本引擎
 
