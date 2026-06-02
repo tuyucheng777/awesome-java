@@ -912,6 +912,7 @@
 * [Sneer](https://github.com/sneerteam/sneer)：Sneer是一个开源平台，可以让你与任何你关心的人分享媒体、数据、应用程序或任何你想分享的东西。
 * [P2P](https://github.com/huangyingcai/p2p)：一个用C语言编写的点对点文件共享服务器，以及一个用Java语言编写的客户端。
 * [Blaubot](https://github.com/Blaubot/Blaubot)：Blaubot是一款中间件，用于通过P2P连接(例如蓝牙-RFCOMM、Adhoc-WiFi或简单的套接字连接)创建小型自组网。
+* [Transmission RPC Java](https://github.com/stil4m/transmission-rpc-java)：Transmission RPC API的Java实现。
 
 #### BitTorrent
 
@@ -5800,6 +5801,7 @@
 * [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。
 * [CustomHandler](https://github.com/xuningjack/CustomHandler)：自定义Handler机制，实现线程间的通信。
 * [NMessage](https://github.com/unnamed/nmessage)：NMessage是一个简单、灵活且实用的库，用于处理消息，并支持国际化。
+* [NS4Frame](https://github.com/newsettle/ns4_frame)：NS4是一个性能卓越的服务框架，主要适用于以流式业务为核心模型的消息流或业务系统。
 
 #### 应用总线
 
@@ -10134,12 +10136,9 @@ Kafka生态管理系统、运维平台。
 
 #### 编码规范
 
-* [Google Java Format](https://github.com/google/google-java-format)：Google Java Format是一个重新格式化Java源代码以符合Google Java风格的程序。
-* [Spring Java Format](https://github.com/spring-io/spring-javaformat)：一组可应用于任何Java项目以提供一致的Spring风格的插件。
 * [Square Java Code Style](https://github.com/square/java-code-styles)：Square的Java和Android项目的IntelliJ IDEA代码样式设置。
 * [P3C](https://github.com/alibaba/p3c)：阿里巴巴Java编码指南PMD实现和IDE插件。
 * [Cookpad Style Guide](https://github.com/cookpad/styleguide)：Cookpad的编码风格指南。
-* [CodeBuff](https://github.com/antlr/codebuff)：Codebuff是一种使用机器学习算法的格式化工具。
 * [Cornell Java Code Style](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)：康奈尔大学Java编程风格指南。
 * [Oracle Java Code Convention](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)：Oracle官方Java代码约定。
 * [Android AOSP Style Guide](https://source.android.com/docs/setup/contribute/code-style?hl=zh-cn)：面向贡献者的AOSP Java代码样式指南。
@@ -10150,8 +10149,6 @@ Kafka生态管理系统、运维平台。
 * [Databricks Scala Guide](https://github.com/databricks/scala-style-guide)：Databricks Scala编码风格指南。
 * [CMU Java Code Style](https://www.cs.cmu.edu/~rdriley/121/resources/styleguide/)：CMU 15-121源代码编码标准的完整定义。
 * [Chromium Java Style Guide](https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/java/java.md)：Chromium Java编码风格指南。
-* [CIS Java Style Guide]()：CIS 120 Java风格指南。
-* [Palantir Java Format](https://github.com/palantir/palantir-java-format)：一个现代、Lambda友好、120个字符的Java格式化器。
 * [CodingStyle](https://github.com/uhafner/codingstyle)：慕尼黑应用科技大学使用的Java编码风格和模板项目。
 * [Ribot Android Guidelines](https://github.com/ribot/android-guidelines)：Ribot为Android平台开发时使用的指南列表。
 * [JsLint4Java](https://github.com/happygiraffe/jslint4java)：这是一个用Java封装的JsLint工具。
@@ -10161,11 +10158,16 @@ Kafka生态管理系统、运维平台。
 
 #### 代码格式化
 
+* [Google Java Format](https://github.com/google/google-java-format)：Google Java Format是一个重新格式化Java源代码以符合Google Java风格的程序。
+* [Spring Java Format](https://github.com/spring-io/spring-javaformat)：一组可应用于任何Java项目以提供一致的Spring风格的插件。
 * [Spotless](https://github.com/diffplug/spotless)：Spotless是支持多种语言的代码格式化工具。
 * [Prettier Java](https://github.com/jhipster/prettier-java)：Prettier是一个代码格式化程序，它通过解析代码并使用自己的规则重新打印代码来强制执行一致的样式。
+* [Palantir Java Format](https://github.com/palantir/palantir-java-format)：一个现代、Lambda友好、120个字符的Java格式化器，由Palantir开源。
 * [CodeShittifier](https://github.com/sharp-edge/CodeShittifier)：CodeShittifier是一款Java和Kotlin代码格式化工具。
 * [Android Javafmt Plugin](https://github.com/f2prateek/gradle-android-javafmt-plugin)：自动格式化Java源文件Gradle插件。
 * [JALOPY2](https://github.com/notzippy/JALOPY2-MAIN)：Java源代码格式化程序。
+* [JHarmonizer](https://github.com/lemon-ant/JHarmonizer)：JHarmonizer可以对Java源文件进行排序和格式化，同时确保代码安全。
+* [CodeBuff](https://github.com/antlr/codebuff)：Codebuff是一种使用机器学习算法的格式化工具。
 
 #### 代码异味
 
@@ -12987,7 +12989,6 @@ Kafka生态管理系统、运维平台。
 * [EasyPost Java](https://github.com/easypost/easypost-java)：EasyPost Java版发货API客户端库。
 * [Redmine/Chiliproject Java API](https://github.com/taskadapter/redmine-java-api)：Redmine Java API。
 * [Darksky Forecast API](https://github.com/200Puls/darksky-forecast-api)：Darksky Forecast API是一个用于访问darksky.net天气API的Java库。
-* [SoundCloud Java](https://github.com/nok/soundcloud-java-library)：非官方Java库，简化了官方SoundCloud Java API封装器的使用。
 * [Shippo Java API](https://github.com/goshippo/shippo-java-client)：Shippo是一个运输API，它通过一个接口将你与多个运输承运商(例如USPS、UPS、DHL、加拿大邮政、澳大利亚邮政、UberRUSH等)连接起来。
 * [Hetzner Cloud Java](https://github.com/sinuscosinustan/hetznercloud-java)：一个简单的Hetzner Cloud API Java客户端。
 * [Android Weather Underground Client](https://github.com/xebia-functional/android-wunderground-client)：适用于Weather Underground天气API的Android客户端。
@@ -13210,6 +13211,14 @@ Kafka生态管理系统、运维平台。
 * [MusicBrainz Android](https://github.com/jdamcd/musicbrainz-android)：MusicBrainz API的官方Android客户端。
 * [MusicBrainz2 Java](https://github.com/schnatterer/musicbrainzws2-java)：MusicBrainz XML Web Services/版本2的Java绑定。
 * [MusicBrainz API Client](https://github.com/aesy/musicbrainz-api-client)：一个用于MusicBrainz Web服务API的Java 8+封装库。
+
+#### SoundCloud
+
+* [SoundCloud Java](https://github.com/nok/soundcloud-java-library)：非官方Java库，简化了官方SoundCloud Java API封装器的使用。
+* [SoundCloud API](https://github.com/vpaliy/SoundCloud-API)：适用于Android的SoundCloud API。
+* [SoundCloud Web API Android](https://github.com/birdcage/soundcloud-web-api-android)：适用于Android的SoundCloud Web API。
+* [Soundroid](https://github.com/Alelak/Soundroid)：适用于Android系统的非官方SoundCloud API封装器。
+* [SoundCloud API Android](https://github.com/chemalarrea/soundcloudapi-android)：用于访问SoundCloud API的库。
 
 #### JIRA
 
@@ -13539,6 +13548,8 @@ Kafka生态管理系统、运维平台。
 * [Huobi API](https://github.com/alertisme/sample)：Java火币API调用封装。
 * [VCoinSDK](https://github.com/mumusenlingongyuan/mm-vcoinSDK)：Java语言封装虚拟币多交易所(火币、币安、OKEX、COINEX)统一API。
 * [Kraken API Java](https://github.com/nyg/kraken-api-java)：用于查询Kraken REST API的Java库。
+* [OKX V5 Java](https://github.com/forestwanglin/okx-v5-java)：OKX v5 Java SDK。
+* [OKX Open](https://github.com/chen-banxia/okx-open)：OKX的开源项目，基于Ruoyi Vue Plus开发，封装了OKX的API。
 
 #### 区块链SDK
 
@@ -13659,6 +13670,9 @@ Kafka生态管理系统、运维平台。
 * [Java CTP API](https://github.com/nicai0609/JAVA-CTPAPI)：Java CTP API是国内期货交易CTP接口的Java封装。
 * [Banking Swift Messages Java](https://github.com/qoomon/banking-swift-messages-java)：银行SWIFT消息解析器和写入器。
 * [JCTP](https://github.com/ktrader-tech/jctp)：CTP的Java封装。
+* [CTPJA](https://github.com/tradercoder/CTPJA)：提供Java调用接口，方便Java开发人员使用CTP API。
+* [FTDC](https://github.com/haoziwlh/ftdc)：用Java实现CTP的FTDC协议。
+* [KTrader Broker CTP](https://github.com/ktrader-tech/ktrader-broker-ctp)：KTrader Broker API的CTP实现。
 * [TOSDataBridge](https://github.com/jeog/TOSDataBridge)：TOSDataBridge是一个开源资源集合，用于从TDAmeritrade的ThinkOrSwim平台提取实时流数据，提供C、C++、Java和Python接口。
 * [Nasdaq Data Link Java SDK](https://github.com/Nasdaq/NasdaqCloudDataService-SDK-Java)：Nasdaq Data Link提供了一种现代化且高效的实时交易所数据和其他金融信息交付方式。
 * [Marketing API Java SDKs](https://github.com/Hyq0719/marketing-api-java-sdks)：Marketing API Java SDKs对国内主流的Marketing API进行封装。
@@ -14330,6 +14344,7 @@ Kafka生态管理系统、运维平台。
 
 #### 业余无线电
 
+* [DMRDecode](https://github.com/IanWraith/DMRDecode)：一个用于解码DMR无线电信号的Java程序。
 * [AX25IRC](https://github.com/xba1k/ax25irc)：AX25IRC是一个Java项目，旨在通过业余无线电创建一个类似IRC的消息系统。
 * [JavAX25](https://github.com/sivantoledo/javAX25)：Java中的AX25调制解调器。
 * [Android FSKModem](https://github.com/cytecbg/android-fskmodem)：用于编码和解码FSK音频信号的Android/Java库。
@@ -17421,6 +17436,7 @@ Kafka生态管理系统、运维平台。
 * [JOVR](https://github.com/jherico/jovr)：Java访问Oculus Rift传感器设备。
 * [JRift](https://github.com/38leinaD/JRift)：Oculus Rift HMD和传感器的Java封装器。
 * [GDXVR](https://github.com/badlogic/gdx-vr)：一系列用于将OpenVR与LibGDX结合使用的辅助工具。
+* [VRidge API](https://github.com/RiftCat/vridge-api)：VRidge API提供了一种使用你选择的任何编程语言与VRidge进行交互的方式。
 
 ## JVM实现
 
@@ -18371,6 +18387,7 @@ Kafka生态管理系统、运维平台。
 * [KSUID Creator](https://github.com/f4b6a3/ksuid-creator)：这是Segment的K-Sortable全局唯一标识符的Java实现。
 * [Reverse Regexp](https://github.com/GitHub-Laziji/reverse-regexp)：从正则表达式生成随机数据。
 * [TimeID](https://github.com/codahale/time-id)：生成27个字符、按时间顺序排列、K可排序、URL安全、全球唯一的标识符。
+* [TypeID Java](https://github.com/fxlae/typeid-java)：TypeID的Java实现。
 
 ## 算法库
 

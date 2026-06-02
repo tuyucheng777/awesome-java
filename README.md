@@ -708,6 +708,7 @@
   * [Shopify](docs/doc2.md#Shopify)
   * [Bandcamp](docs/doc2.md#Bandcamp)
   * [MusicBrainz](docs/doc2.md#MusicBrainz)
+  * [SoundCloud](docs/doc2.md#SoundCloud)
   * [JIRA](docs/doc2.md#JIRA)
   * [Trello](docs/doc2.md#Trello)
   * [Strava](docs/doc2.md#Strava)
