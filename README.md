@@ -178,6 +178,7 @@
   * [IP](docs/doc2.md#IP)
   * [SIP](docs/doc2.md#SIP)
   * [SMPP](docs/doc2.md#SMPP)
+  * [SCTP](docs/doc2.md#SCTP)
   * [ICAP](docs/doc2.md#ICAP)
   * [SNTP](docs/doc2.md#SNTP)
   * [EPP](docs/doc2.md#EPP)
@@ -805,53 +806,6 @@
   * [QQ机器人](docs/doc2.md#QQ机器人)
   * [微信机器人](docs/doc2.md#微信机器人)
   * [Kook机器人](docs/doc2.md#Kook机器人)
-* [Android开发](docs/doc2.md#Android开发)
-  * [Android框架](docs/doc2.md#Android框架)
-  * [Android测试库](docs/doc2.md#Android测试库)
-  * [Android UI库](docs/doc2.md#Android-UI库)
-  * [ActionBar小部件](docs/doc2.md#ActionBar小部件)
-  * [Activity小部件](docs/doc2.md#Activity小部件)
-  * [Adapter](docs/doc2.md#Adapter)
-  * [Android图表库](docs/doc2.md#Android图表库)
-  * [Android对话框](docs/doc2.md#Android对话框)
-  * [Android日历库](docs/doc2.md#Android日历库)
-  * [Android布局库](docs/doc2.md#Android布局库)
-  * [Android富文本组件](docs/doc2.md#Android富文本组件)
-  * [Android下拉刷新](docs/doc2.md#Android下拉刷新)
-  * [Android返回库](docs/doc2.md#Android返回库)
-  * [Android项目模板](docs/doc2.md#Android项目模板)
-  * [Android图像库](docs/doc2.md#Android图像库)
-  * [Android ImageView](docs/doc2.md#Android-ImageView)
-  * [Android选择器](docs/doc2.md#Android选择器)
-  * [Android图片/视频选择器](docs/doc2.md#Android图片视频选择器)
-  * [Android颜色选择器](docs/doc2.md#Android颜色选择器)
-  * [Android日期/时间选择器](docs/doc2.md#Android日期时间选择器)
-  * [Android文件/目录选择器](docs/doc2.md#Android文件目录选择器)
-  * [Android国家选择器](docs/doc2.md#Android国家选择器)
-  * [Android城市选择器](docs/doc2.md#Android城市选择器)
-  * [Android位置选择器](docs/doc2.md#Android位置选择器)
-  * [Android数字选择器](docs/doc2.md#Android数字选择器)
-  * [Android滚动选择器](docs/doc2.md#Android滚动选择器)
-  * [Android联系人选择器](docs/doc2.md#Android联系人选择器)
-  * [Android更新库](docs/doc2.md#Android更新库)
-  * [Android热修复](docs/doc2.md#Android热修复)
-  * [Android运行时权限](docs/doc2.md#Android运行时权限)
-  * [Android下载库](docs/doc2.md#Android下载库)
-  * [Android评分库](docs/doc2.md#Android评分库)
-  * [Android路由框架](docs/doc2.md#Android路由框架)
-  * [Android导航库](docs/doc2.md#Android导航库)
-  * [Android抽屉库](docs/doc2.md#Android抽屉库)
-  * [Android动画库](docs/doc2.md#Android动画库)
-  * [Android插件框架](docs/doc2.md#Android插件框架)
-  * [Android WebView](docs/doc2.md#Android-WebView)
-  * [Android加载库](docs/doc2.md#Android加载库)
-  * [Android换肤框架](docs/doc2.md#Android换肤框架)
-  * [Android提及库](docs/doc2.md#Android提及库)
-  * [Android状态栏](docs/doc2.md#Android状态栏)
-  * [Android提醒库](docs/doc2.md#Android提醒库)
-  * [APK解析器](docs/doc2.md#APK解析器)
-  * [Android工具库](docs/doc2.md#Android工具库)
-  * [ADB](docs/doc2.md#ADB)
 * [GUI开发/程序](docs/doc2.md#GUI开发程序)
   * [GUI框架](docs/doc2.md#GUI框架)
   * [移动开发框架](docs/doc2.md#移动开发框架)
@@ -1086,6 +1040,7 @@
 * [类路径扫描](docs/doc2.md#类路径扫描)
 * [行为分析](docs/doc2.md#行为分析)
 * [URL库](docs/doc2.md#URL库)
+* [Sitemap](docs/doc2.md#Sitemap)
 * [Expect库](docs/doc2.md#Expect库)
 * [Wikipedia](docs/doc2.md#Wikipedia)
 * [用户代理解析](docs/doc2.md#用户代理解析)
@@ -1363,6 +1318,7 @@
 * [JessMA](https://gitee.com/ldcsaa/JessMA)：功能强大的Java MVC和REST全栈框架。
 * [Thunder](https://github.com/100cm/thunder)：Thunder是一个微型MVC框架。
 * [AisMVC](https://github.com/javagaorui5944/AisMVC)：AisMVC是一款仿Spring MVC轻便的MVC开发框架。
+* [PureMVC](https://github.com/PureMVC/puremvc-java-multicore-framework)：PureMVC是一个轻量级框架，用于创建基于经典MVC设计元模式的应用程序。
 
 #### JSF框架
 
@@ -1534,6 +1490,7 @@
 * [AfyBroker](https://github.com/AfyerDev/AfyBroker)：AfyBroker是一个适用于Minecraft集群服务器的RPC跨服通信框架。
 * [Firefly](https://github.com/meituan/Firefly)：适用于Android和Java的轻量级Thrift客户端代码生成器和运行时库，由美团开源。
 * [Yar RPC Client](https://github.com/starlight36/yar-client-java)：Yar RPC框架的Java客户端。
+* [Nucleus](https://github.com/gideondk/nucleus)：Nucleus是一个基于Akka IO和Sentinel构建的小型响应式RPC类技术栈。
 
 ### 微服务框架
 
@@ -1603,6 +1560,7 @@
 * [NHMicro](https://github.com/jeffreyning/nh-micro)：NHMicro是一个基于Groovy脚本驱动的Java微服务开发框架。
 * [Restate Java](https://github.com/restatedev/sdk-java)：Restate是一个利用分布式持久化Async/Await轻松构建弹性应用程序的系统。
 * [Jadex](https://github.com/actoron/jadex)：Jadex为分布式和并发系统提供编程和执行功能。
+* [SwitchYard](https://switchyard.jboss.org/)：SwitchYard是一个基于组件的开发框架，专注于使用面向服务的架构(SOA)的概念和最佳实践来构建结构化、可维护的服务和应用程序，由JBoss社区开源。
 
 ## HTTP客户端
 
@@ -2102,6 +2060,7 @@
 * [Kong Client](https://github.com/taofen8/kong-client)：Kong Client是一个用于Kong的Java SDK，由淘粉吧开源。
 * [Infor ION API Gateway SDK](https://github.com/infor-cloud/ion-api-sdk)：Infor ION API Gateway是一款功能强大的API管理工具。
 * [Arrivals](https://github.com/dvgica/arrivals)：Arrivals提供了使用Akka HTTP构建API网关所需的构建模块。
+* [GraphQL Gateway](https://github.com/joaquin-alfaro/graphql-gateway)：使用GraphQL公开REST服务的网关。
 
 ## 服务发现
 
@@ -2392,6 +2351,7 @@
 * [Blaze](https://github.com/kwai/blaze)：Blaze加速器利用本机矢量化执行来加速查询处理，由快手开源。
 * [Coral](https://github.com/linkedin/coral)：Coral是一个SQL翻译、分析和重写引擎，由LinkedIn开源。
 * [Gimel](https://github.com/paypal/gimel)：Gimel提供统一的数据API来访问来自任何存储的数据，由Paypal开源。
+* [Cascalog](https://github.com/nathanmarz/cascalog)：Cascalog是一个功能齐全的数据处理和查询库，支持Clojure和Java语言。
 * [OpenHuFu](https://github.com/BUAA-BDA/OpenHuFu)：OpenHuFu是一个开源的数据联邦系统，支持多数据库协同查询，并具有安全保障，由清华大学开源。
 * [OpenLooKeng](https://github.com/openlookeng/hetu-core)：OpenLooKeng是一个嵌入式引擎，可以对任何地方的任何数据进行现场分析，包括地理上远程的数据源，由华为开源。
 * [TrainDB](https://github.com/traindb-project/traindb)：TrainDB是一个基于ML的近似查询处理引擎，旨在在几秒钟内回答耗时的分析查询，由延世大学、光云大学、ETRI、RealTimeTech、BI Matrix开源。
@@ -2835,6 +2795,7 @@
 * [FFMQ](https://github.com/timewalker74/ffmq)：FFMQ是一个完全用Java编写、轻量级、快速的JMS 1.1队列实现。
 * [DubSub](https://github.com/alexanderjarvis/DubSub)：基于Akka集群的分布式PubSub。
 * [Orkes Queues](https://github.com/orkes-io/orkes-queues)：Orkes Queues是一个基于Redis作为底层存储的高性能队列方案。
+* [Delay Queue](https://github.com/JianSphere/delay-queue)：基于Redis的延迟队列系统。
 
 ## 分布式开发
 
@@ -3231,6 +3192,7 @@
 * [Ahwen](https://github.com/komu/ahwen)：一个非常简单的SQL数据库。
 * [EasyDB](https://github.com/blockCloth/EasyDB)：EasyDB是一个基于Java实现的轻量级数据库。
 * [GaianDB](https://github.com/gaiandb/gaiandb)：Gaian是一种基于Apache Derby的轻量级数据联邦技术，由IBM开源。
+* [CosyanDB](https://github.com/gsvigruha/cosyan)：CosyanDB是一个基于SQL的事务型关系型数据库管理系统，具有复杂的多表约束逻辑和语言增强功能，并大量运用了外键。
 
 #### NoSQL数据库
 
@@ -3607,6 +3569,7 @@
 * [Surogate Studio](https://github.com/invergent-ai/surogate-studio)：Surogate Studio是一个企业级LLMOps平台，旨在加速生成式AI应用的开发和部署。
 * [Tracy](https://github.com/JetBrains/tracy)：Tracy可以帮助你直接从Kotlin或Java项目中跟踪、监控和评估AI驱动的功能，由JetBrains开源。
 * [LangSmith Java SDK](https://github.com/langchain-ai/langsmith-java)：LangSmith是一个与框架无关的平台，用于构建、调试和部署AI代理和LLM应用程序。
+* [Apache Marvin](https://github.com/apache/incubator-marvin)：Marvin是一个开源人工智能平台，致力于帮助数据科学家为复杂问题提供有效的解决方案。
 
 ### AI Assistant
 
@@ -3910,6 +3873,7 @@
 * [Java Naive Bayes Classifier](https://github.com/ptnplanet/Java-Naive-Bayes-Classifier)：基于朴素贝叶斯方法的Java分类器。
 * [Bayes Scala](https://github.com/danielkorzekwa/bayes-scala)：Bayes Scala是一个用于贝叶斯网络和概率图模型的Scala库。
 * [Jayes](https://github.com/kutschkem/Jayes)：Jayes是一个用于Java的贝叶斯网络库，由Eclipse开源。
+* [Blayze](https://github.com/Tradeshift/blayze)：适用于JVM的快速灵活的朴素贝叶斯实现。
 
 #### LDA
 
