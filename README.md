@@ -102,6 +102,7 @@
     * [遗传算法](#遗传算法)
     * [聚类算法](#聚类算法)
     * [最近邻搜索](#最近邻搜索)
+    * [条件随机场](#条件随机场)
     * [贝叶斯推理](#贝叶斯推理)
     * [LDA](#LDA)
     * [PMML](#PMML)
@@ -179,6 +180,7 @@
   * [SMPP](docs/doc2.md#SMPP)
   * [ICAP](docs/doc2.md#ICAP)
   * [SNTP](docs/doc2.md#SNTP)
+  * [EPP](docs/doc2.md#EPP)
 * [并发编程](docs/doc2.md#并发编程)
   * [响应式](docs/doc2.md#响应式)
   * [Future扩展](docs/doc2.md#Future扩展)
@@ -771,6 +773,7 @@
   * [环境监测](docs/doc2.md#环境监测)
   * [车联网](docs/doc2.md#车联网)
   * [车载诊断](docs/doc2.md#车载诊断)
+  * [车辆识别码](docs/doc2.md#车辆识别码)
   * [嵌入式](docs/doc2.md#嵌入式)
   * [串口](docs/doc2.md#串口)
   * [PLC](docs/doc2.md#PLC)
@@ -792,7 +795,6 @@
 * [DSL](docs/doc2.md#DSL)
 * [JMX](docs/doc2.md#JMX)
 * [RMI](docs/doc2.md#RMI)
-* [SPI](docs/doc2.md#SPI)
 * [gRPC](docs/doc2.md#gRPC)
 * [对象池](docs/doc2.md#对象池)
 * [数据字典](docs/doc2.md#数据字典)
@@ -802,6 +804,7 @@
   * [Facebook机器人](docs/doc2.md#Facebook机器人)
   * [QQ机器人](docs/doc2.md#QQ机器人)
   * [微信机器人](docs/doc2.md#微信机器人)
+  * [Kook机器人](docs/doc2.md#Kook机器人)
 * [Android开发](docs/doc2.md#Android开发)
   * [Android框架](docs/doc2.md#Android框架)
   * [Android测试库](docs/doc2.md#Android测试库)
@@ -999,6 +1002,7 @@
   * [R](docs/doc2.md#R)
   * [Lua](docs/doc2.md#Lua)
   * [.NET](docs/doc2.md#NET)
+  * [PHP](docs/doc2.md#PHP)
   * [Objective-C](docs/doc2.md#Objective-C)
 * [操作系统信息](docs/doc2.md#操作系统信息)
 * [外部进程执行](docs/doc2.md#外部进程执行)
@@ -1105,7 +1109,6 @@
 * [术语服务器](docs/doc2.md#术语服务器)
 * [Maven插件](docs/doc2.md#Maven插件)
 * [Gradle插件](docs/doc2.md#Gradle插件)
-* [Intellij插件](docs/doc2.md#Intellij插件)
 * [其他](docs/doc2.md#其他)
 * [教程系列](docs/doc2.md#教程系列)
   * [Java教程](docs/doc2.md#Java教程)
@@ -1202,6 +1205,7 @@
 * [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
 * [Aspectran](https://github.com/aspectran/aspectran)：Aspectran是一个用于开发Java应用程序的框架，可用于构建简单的shell应用程序和大型企业Web应用程序。
 * [Tentackle](https://bitbucket.org/krake-oss/tentackle)：Tentackle是一个开源Java框架，适用于在多个JVM上运行的分层应用程序，其灵感来自领域驱动设计的原理。
+* [LeapFramework](https://github.com/leapframework/framework)：Leap是一个开源的Java全栈开发框架，目标是简化企业应用开发。
 * [Astrix](https://github.com/AvanzaBank/astrix)：Astrix是一个Java框架，旨在简化微服务的开发和维护，由Avanza银行开源。
 * [Uberfire](https://github.com/kiegroup/appformer)：Uberfire是一个Web框架，可在构建可扩展工作台和控制台类型应用程序方面提供卓越的体验，由JBoss社区开源。
 * [Core NG](https://github.com/neowu/core-ng-project)：Core NG是专为长期可维护性和代码质量控制而设计和优化的Web框架。
@@ -1284,6 +1288,7 @@
 * [Dropwizard](https://github.com/dropwizard/dropwizard)：Dropwizard是一个Java框架，用于开发操作友好、高性能、RESTful Web Service，由Yammer开源。
 * [RESTEasy](https://github.com/resteasy/resteasy)：RESTEasy是一个JBoss项目，旨在为使用Java开发客户端和服务器RESTful应用程序和服务提供生产力框架，由RedHat开源。
 * [Apache CXF](https://github.com/apache/cxf)：CXF是一个开源服务框架，可帮助你使用前端编程API(例如JAX-WS和JAX-RS)构建和开发服务，最初由IONA开发。
+* [Light4j REST](https://github.com/networknt/light-rest-4j)：Light4j REST是一个基于Light4j构建的RESTful框架，同时支持Swagger 2.0和OpenAPI 3.0。
 * [Bootique](https://github.com/bootique/bootique)：Bootique是一种最简单的Java启动器和集成技术，它旨在构建无容器的可运行Java应用程序，由ObjectStyle开源。
 * [Liberator](https://github.com/clojure-liberator/liberator)：Liberator是一个用于构建RESTful应用程序的Clojure库。
 * [RESTX](https://github.com/restx/restx)：RESTX是一个完整的轻量级颠覆性堆栈，其中包括类似Swagger的UI并将REST规范测试视为文档。
@@ -1327,6 +1332,7 @@
 * [Vert.x REST](https://github.com/dream-horizon-org/vertx-rest)：Vert.x REST可编写基于JAX-RS应用程序的Vertx REST应用程序，由Dream11开源。
 * [Resty](https://github.com/takezoe/resty)：超级简单的Scala REST API框架。
 * [JRest](https://github.com/orange451/JRest)：超小型轻量级的Java REST库。
+* [Zoot](https://github.com/fwbrasil/zoot)：用于提供和使用REST服务的轻量级响应式框架。
 
 #### MVC框架
 
@@ -1526,6 +1532,8 @@
 * [JRPC](https://github.com/dinstone/jrpc)：JRPC是一个轻量级的Java RPC框架。
 * [Forest](https://github.com/dempeZheng/forest)：基于Netty轻量的高性能分布式RPC服务框架。
 * [AfyBroker](https://github.com/AfyerDev/AfyBroker)：AfyBroker是一个适用于Minecraft集群服务器的RPC跨服通信框架。
+* [Firefly](https://github.com/meituan/Firefly)：适用于Android和Java的轻量级Thrift客户端代码生成器和运行时库，由美团开源。
+* [Yar RPC Client](https://github.com/starlight36/yar-client-java)：Yar RPC框架的Java客户端。
 
 ### 微服务框架
 
@@ -1594,6 +1602,7 @@
 * [Alogic](https://github.com/anylogic/alogic)：Alogic提供了分布式Web服务开发的一整套方法和思路。
 * [NHMicro](https://github.com/jeffreyning/nh-micro)：NHMicro是一个基于Groovy脚本驱动的Java微服务开发框架。
 * [Restate Java](https://github.com/restatedev/sdk-java)：Restate是一个利用分布式持久化Async/Await轻松构建弹性应用程序的系统。
+* [Jadex](https://github.com/actoron/jadex)：Jadex为分布式和并发系统提供编程和执行功能。
 
 ## HTTP客户端
 
@@ -1667,8 +1676,6 @@
 * [Axios](https://github.com/xiao-akatsuki/axios)：使Java更容易发送HTTPS。
 * [DavidWebb](https://github.com/hgoebl/DavidWebb)：轻量级Java HTTP客户端，用于调用JSON REST服务。
 * [Spring Boot HTTP Clients](https://github.com/maciejwalkowiak/spring-boot-http-clients)：Spring Boot HTTP Clients为Spring Boot应用程序中基于WebClient和Spring 6 HTTP接口的HTTP客户端提供零样板自动配置。
-* [Hutool HTTP](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-http)：Hutool HTTP针对JDK的HttpUrlConnection做一层封装，简化了HTTPS请求、文件上传、Cookie记忆等操作。
-* [Bus HTTP](https://github.com/818000/bus/tree/main/bus-http)：Bus HTTP是一个高性能的Java应用程序HTTP客户端库。
 * [Kalle](https://github.com/yanzhenjie/Kalle)：Kalle是一个Android平台的HttpClient，它遵循HTTP标准协议，支持同步请求和异步请求。
 * [Unfiltered](https://github.com/unfiltered/unfiltered)：Unfiltered是一个用于在Scala中处理HTTP请求的工具包。
 * [HttpHelper](https://gitee.com/wolfsmoke/WSHttpHelper)：HttpHelper是一个轻量级Http请求框架，致力于为Http请求提供简洁明了的接口。
@@ -1743,6 +1750,9 @@
 * [MHttp](https://github.com/jymot/MHttp)：Android HTTP的包装器。
 * [Java RESTClient](https://github.com/mercadolibre/java-restclient)：适用于Java 1.7+的轻量级REST客户端实现。
 * [Spring Boot Starter HttpClient](https://github.com/linux-china/spring-boot-starter-httpclient)：在Spring Boot下整合HTTP Client，方便客户端使用。
+* [OkHttp Extension](https://github.com/fengzhizi715/okhttp-extension)：OkHttp Extension是针对OkHttp3增强的网络框架。
+* [Shine](https://github.com/FreddyChen/Shine-Java)：Shine是基于Retrofit、RxJava实现的Java网络请求封装库。
+* [Glin](https://github.com/qibin0506/Glin)：Glin是一款灵活、支持中间件的Java/Android动态代理网络框架。
 
 ## Web服务器
 
@@ -1891,6 +1901,7 @@
 * [LWebServer](https://github.com/defineYIDA/LWebServer)：BIO、NIO、AIO三种模式下的Web服务器。
 * [Netty HTTP Server](https://github.com/farsunset/netty-http-server)：Spring Boot项目中使用Netty来替代传统Web容器，提升性能、简化配置。
 * [JerryServer](https://github.com/onblog/JerryServer)：JerryServer是类似Tomcat的Web服务器。
+* [Minit](https://github.com/YaleGuo/Minit)：Minit是一个迷你版Tomcat。
 
 ## 微服务治理
 
@@ -2046,6 +2057,7 @@
 * [Kubeless](https://github.com/vmware-archive/runtimes)：Kubeless函数运行时，由VMWare开源。
 * [Hype](https://github.com/spotify/hype)：Hype允许你在分布式环境中执行任意JVM代码，其中不同的代码部分可以在独立的Docker容器中并发运行，由Spotify开源。
 * [AWS Lambda Java Runtime](https://github.com/andthearchitect/aws-lambda-java-runtime)：适用于AWS Lambda的自定义Java 11运行时。
+* [App Engine Plugins](https://github.com/GoogleCloudPlatform/appengine-plugins)：一个用于管理App Engine Java应用程序的客户端Java库。
 
 ## API网关
 
@@ -2168,7 +2180,6 @@
 * [ServiceKeeper](https://github.com/esastack/esa-servicekeeper)：ServiceKeeper是一个轻量级的服务治理框架，提供了许多很棒的功能，比如速率限制、并发限制、断路器、重试并撤退。
 * [Upperbound](https://github.com/SystemFw/upperbound)：Upperbound是一个纯函数式的基于区间速率限制器。
 * [Distributed Limit](https://github.com/forezp/distributed-limit)：分布式限流解决方案。
-* [Bus Limiter](https://github.com/818000/bus/tree/main/bus-limiter)：Bus Limiter是一款轻量级、局部化的热点检测和性能下降框架，专为高流量场景而设计。
 * [QPS Helper](https://github.com/wujiuye/qps-helper)：通用的QPS、TPS统计工具包。
 * [Guardian](https://github.com/BigGG-Guardian/guardian)：轻量级Spring Boot API请求层防护框架。
 * [SYJ ReteLimit](https://github.com/shiyujun/syj-ratelimit)：无侵入的应用级网关限流框架。
@@ -2191,6 +2202,8 @@
 * [Ktor Rate Limiting](https://github.com/mantono/ktor-rate-limiting)：Ktor提供的端点速率限制功能。
 * [Amon](https://gitee.com/lyhome_admin/amon)：Amon方法级限流解决方案。
 * [Manerfan Booster](https://github.com/manerfan/manerfan-booster)：机遇Redis的分布式限流Starter。
+* [RedLimiter](https://github.com/diracccc/redis-rate-limiter)：RedLimiter与Guava RateLimiter功能类似，基于Redis、Lua、令牌桶算法实现的分布式限流器。
+* [Akka Throttler](https://github.com/hbf/akka-throttler)：适用于Akka 2.0+的节流器。
 
 #### 重试
 
@@ -2282,6 +2295,7 @@
 * [Apache Lens](https://github.com/apache/lens)：Apache Lens是一个统一的分析平台，由InMobi开源。
 * [CueSheet](https://github.com/kakao/cuesheet)：CueSheet是一个框架，旨在更便捷地编写Apache Spark 2.x应用程序，由Kakao开源。
 * [Bespin](https://github.com/lintool/bespin)：Bespin是一个库，其中包含MapReduce和Spark中大数据算法的参考实现。
+* [Cloud9](https://github.com/lintool/Cloud9)：Cloud9是一个用于处理大数据的Hadoop工具包。
 
 #### 大数据工具
 
@@ -2430,6 +2444,8 @@
 * [Hub](https://github.com/flightstats/hub)：Hub是一个容错性强、高可用的HTTP API，用于数据分发和存储。
 * [Block Storage](https://github.com/greglook/blocks)：该库为Clojure实现了内容寻址存储类型和协议。
 * [DFS Datastores](https://github.com/nathanmarz/dfs-datastores)：一种在分布式文件系统上存储记录的更简单、更强大的方法。
+* [SCADS](https://github.com/radlab/SCADS)：SCADS是加州大学伯克利分校RAD实验室和AMP实验室使用的一种分布式存储系统研究原型。
+* [SilverKing](https://github.com/morganstanley/SilverKing)：SilverKing是一种可扩展、高吞吐量的数据存储和协调机制，专为分布式应用而设计，由摩根士丹利开源。
 
 #### 流处理
 
@@ -2560,6 +2576,8 @@
 * [SkaETL](https://github.com/skalogs/SkaETL)：SkaLogs ETL是一款独特的实时ETL，专为日志和事件而设计和使用。
 * [MongoSyphon](https://github.com/johnlpage/MongoSyphon)：MongoSyphon是一款专为将数据合并和转换成文档格式而设计的ETL引擎。
 * [Pramen](https://github.com/AbsaOSS/pramen)：Pramen是一个基于Spark的数据管道定义框架，由南非联合银行集团开源。
+* [PocketETL](https://github.com/amazon-archives/pocket-etl)：PocketETL是一个可扩展的Java库，它使用原生流式Java来协调服务之间的批量ETL数据，由AWS开源。
+* [SmartETL](https://github.com/dennisk28/SmartETL)：轻量级ETL引擎和智能转换框架。
 
 #### CDC组件
 
@@ -2878,6 +2896,7 @@
 * [DistributeLockGenerator](https://github.com/bingyufight/DistributeLockGenerator)：DistributeLockGenerator是一个基于Zookeeper和Redis上的分布式锁。
 * [WlLock](https://github.com/adamswanglin/wllock)：高并发环境下的本地锁、分布式锁。
 * [Spring Data Redis Tools](https://github.com/WellJay/spring-data-redis-tools)：Spring Data Redis封装工具类，包含分布式锁、分布式唯一键。
+* [DistributedLock](https://github.com/wyzssw/DistributedLock)：Redis分布式锁。
 
 #### 分布式ID
 
@@ -2949,6 +2968,7 @@
 * [Tomcat Redis Session](https://github.com/zinin/tomcat-redis-session)：Tomcat Redis Session是Tomcat Manager Component使用Redis键值存储的实现。
 * [RedisHttpSession](https://github.com/x-hansong/RedisHttpSession)：RedisHttpSession提供了一种将HTTP会话透明地存储在Redis中的方法，从而允许多个客户端共享会话。
 * [HttpSessionReplacer](https://github.com/AmadeusITGroup/HttpSessionReplacer)：本项目提供会话管理功能，包括可能用于JEE和其他Java容器的分布式会话存储库。
+* [Tomcat Redis Session Manager](https://github.com/cc-chen/tomcat8.5-redis-session-manager)：Tomcat的Redis会话管理器。
 
 #### Raft算法
 
@@ -2995,6 +3015,7 @@
 * [JGossip](https://github.com/monkeymq/jgossip)：Gossip协议的Java实现。
 * [ScaleCube Cluster](https://github.com/scalecube/scalecube-cluster)：ScaleCube Cluster是一个轻量级的去中心化集群成员资格、故障检测和Gossip协议库。
 * [Gossip](https://github.com/geertvos/gossip)：基于Gossip网络的集群框架的Java实现。
+* [Gossip](https://github.com/dongjinyong/Gossip)：Java实现的Gossip协议，基于Cassandra V1.1.1源码修改实现。
 
 #### CRDT
 
@@ -3180,6 +3201,7 @@
 * [HanboDB](https://github.com/3kuai/hanbo-db)：HanboDB是一个高可用性、低延迟的内存数据库系统。
 * [JFile](https://github.com/laforge49/JFile)：JFile基于JActor和Jid构建，增加了文件持久化和内存数据库功能。
 * [Rider](https://github.com/alchemystar/Rider)：Rider文件数据库。
+* [ShoeBox](https://github.com/kwebio/shoebox)：ShoeBox是一个Kotlin持久化数据存储库，支持视图和观察者模式。
 
 #### 关系型数据库
 
@@ -3260,6 +3282,7 @@
 * [Ties.DB](https://github.com/TiesNetwork/ties.db)：Ties.DB是一个去中心化的分布式数据库管理系统。
 * [TouchDB](https://github.com/couchbaselabs/TouchDB-Android)：TouchDB Android是Jens Alfke开发的TouchDB的Android移植版本。
 * [Iron](https://github.com/FabianTerhorst/Iron)：快速易用的NoSQL数据存储，支持RxJava和Kotlin。
+* [TOJOs](https://github.com/yegor256/tojos)：Tojos是一个轻量级的Java库，用于将CSV、JSON等文本文件作为简单的NoSQL文档数据库进行管理。
 
 #### OLAP数据库
 
@@ -3343,6 +3366,8 @@
 * [TrustyAI](https://github.com/trustyai-explainability/trustyai-explainability)：TrustyAI的核心是一个面向可解释人工智能的Java库和服务。
 * [AGI](https://github.com/Cerenaut/agi)：AGI包含用于开发通用人工智能的代码。
 * [Greta](https://github.com/isir/greta)：Greta是一个实时三维具身对话智能体，拥有符合MPEG-4动画标准的3D女性模型，由ISIR开源。
+* [MaDKit](https://github.com/fmichel/MaDKit)：MaDKit被设计为一个轻量级的Java库，用于开发使用多智能体范式的分布式应用程序和仿真。
+* [AutoMan](https://github.com/automan-lang/AutoMan)：AutoMan是一个全自动的众包编程系统。
 
 ### LLM框架
 
@@ -3418,6 +3443,7 @@
 * [Reactive OpenAI API](https://github.com/reactiveclown/openai-webflux-java)：Java中的响应式WebFlux OpenAI API客户端。
 * [ChatGPT Java API](https://github.com/CJCrafter/ChatGPT-Java-API)：一个非官方、易于使用的Java/Kotlin OpenAI API。
 * [Java ChatGPT API](https://github.com/linweiyuan/java-chatgpt-api)：ChatGPT Java非官方API。
+* [Fast OpenAI SDK](https://github.com/KylinShinlyLin/fast-openai-sdk)：Fast OpenAI SDK是一个专为Java开发者设计的轻量级、高性能SDK，旨在提供与OpenAI及Jina API完美兼容的客户端调用接口。
 * [OGTwelveUtilPack](https://github.com/OGtwelve/OGTwelveUtilPack)：OGtwelve工具包，包含许多在现实开发环境中可能使用的各种工具。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
 * [ChatGLM SDK Java](https://github.com/1321928757/chatglm-sdk-java)：智谱AI大模型开放SDK。
@@ -3502,6 +3528,7 @@
 * [Spring Agent Flow](https://github.com/datallmhub/spring-agent-flow)：基于Spring AI的多智能体编排框架。
 * [SwarmAI](https://github.com/intelliswarm-ai/swarm-ai)：这是一个面向Java的多智能体编排框架，专为企业级应用而设计。
 * [Agentic Flink](https://github.com/Ugbot/Agentic-Flink)：Agentic Flink是一个用于在Apache Flink上构建基于LLM的AI代理的框架。
+* [Spring AI AgentX](https://github.com/bigchuidw3/spring-ai-agentx)：Spring AI AgentX是一款面向Java开发者的AI Agent开发框架。
 
 ### AI智能体
 
@@ -3595,6 +3622,7 @@
 * [Bibliothecarius](https://github.com/coderabbit214/bibliothecarius)：Bibliothecarius是一款本地数据分析工具，可根据自定义提示展开对话。
 * [DeskChan](https://github.com/DeskChan/DeskChan)：开源多平台个人助理框架。
 * [Aiml Java Interpreter](https://github.com/AIMLang/aiml-java-interpreter)：用于Java的AIML 2.0解释器。
+* [Conversation Kit](https://github.com/pdtyreus/conversation-kit)：Conversation Kit旨在为处理人类用户与聊天机器人和语音代理之间的对话提供灵活的结构。
 
 ### 机器学习
 
@@ -3704,7 +3732,6 @@
 #### 神经网络
 
 * [Neural Networks](https://github.com/ivan-vasilev/neuralnetworks)：Neural Networks是一些用于训练深度神经网络的算法的Java实现。
-* [JavaCPP NGraph](https://github.com/bytedeco/javacpp-presets/tree/master/ngraph)：NGraph是英特尔面向人工神经网络的图编译器。
 * [Cortex](https://github.com/originrose/cortex)：Cortex是Clojure中的神经网络、回归和特征学习框架，由ThinkTopic开源。
 * [Neuroph](https://github.com/neuroph/neuroph)：Neuroph是一个开源Java神经网络框架和神经网络开发环境。
 * [NeuroFlow](https://github.com/zenecture/neuroflow)：NeuroFlow是一个用于设计、训练和评估人工神经网络的Scala库。
@@ -3722,6 +3749,7 @@
 * [CupDnn](https://github.com/sunnythree/CupDnn)：深度神经网络的Java实现。
 * [RecurrentJava](https://github.com/evolvingstuff/RecurrentJava)：RecurrentJava是Andrej Karpathy的RecurrentJS的Java版本。
 * [Basic Neural Network Library](https://github.com/kim-marcel/basic_neural_network)：一个非常基础的Java神经网络库。
+* [Pacaya](https://github.com/mgormley/pacaya)：Pacaya是一个用于联合建模的库，它结合了图形模型、结构化因子、神经网络和超图。
 
 #### 深度学习
 
@@ -3778,10 +3806,10 @@
 * [Storch Recommend](https://github.com/bytedeco/storch-recommend)：Storch Recommend是一个基于Scala的深度学习项目，专注于构建推荐系统。
 * [R4tings Recommender](https://github.com/r4tings/r4tings-recommender)：R4tings是使用Apache Spark和Java的开源推荐引擎。
 * [EasyRec](https://github.com/hernad/easyrec)：EasyRec是一个开源推荐系统。
+* [MyMediaLiteJava](https://github.com/jcnewell/MyMediaLiteJava)：MyMediaLite推荐系统库的Java移植版。
 
 #### 强化学习
 
-* [JavaCPP Gym](https://github.com/bytedeco/javacpp-presets/tree/master/gym)：Gym是一个开源的Python库，用于开发和比较强化学习算法。
 * [Java Reinforcement Learning](https://github.com/chen0040/java-reinforcement-learning)：该软件包提供了强化学习算法的Java实现，例如Q-Learn、R-Learn、SARSA、Actor-Critic。
 * [BURLAP](https://github.com/jmacglashan/burlap)：BURLAP是一个Java代码库，用于开发单智能体或多智能体规划与学习算法及其相关领域，由布朗大学开源。
 * [JADE](https://jade.tilab.com/)：JADE是一个用Java实现的软件代理开发框架，由意大利电信开发。
@@ -3863,6 +3891,14 @@
 * [Spark Neighbors](https://github.com/karlhigley/spark-neighbors)：基于Spark的近似最近邻算法(ANN)，采用局部敏感哈希(LSH)。
 * [Faiss4j](https://github.com/thenetcircle/faiss4j)：Facebook Faiss的Java封装。
 * [Hnswlib JNA](https://github.com/stepstone-tech/hnswlib-jna)：使用Hnswlib和JNA在Java应用程序中实现类似原生应用的最近邻搜索性能。
+* [Jvptree](https://github.com/jchambers/jvptree)：Jvptree是一个用Java编写的通用视点树实现，它能够快速搜索给定点的最近邻节点。
+
+#### 条件随机场
+
+* [CRF](https://github.com/asher-stern/CRF)：条件随机场(CRF)和词性标注器的实现。
+* [JCRFsuite](https://github.com/vinhkhuc/jcrfsuite)：CRFsuite的Java接口。
+* [CRF4j](https://github.com/zhifac/crf4j)：Java的CRF模型训练和测试。
+* [CRF](https://github.com/witgo/CRF)：CRF是条件随机场的Java实现，它是一种用于从带标签的示例序列中学习的算法。
 
 #### 贝叶斯推理
 
@@ -3951,7 +3987,6 @@
 * [AIDR](https://github.com/qcri-social/AIDR)：AIDR是一个免费开源平台，用于过滤和分类与自然灾害和人道主义危机相关的社交媒体信息，由卡塔尔计算研究所开源。
 * [BookNLP](https://github.com/dbamman/book-nlp)：BookNLP是一个自然语言处理流程，可扩展到书籍和其他长篇文档。
 * [KoreanTextMatcher](https://github.com/bangjunyoung/KoreanTextMatcher)：KoreanTextMatcher是一个Java库，提供韩语音节近似匹配和声母搜索功能。
-* [CRF](https://github.com/asher-stern/CRF)：条件随机场(CRF)和词性标注器的实现。
 * [JStarCraft NLP](https://github.com/HongZhaoHua/jstarcraft-nlp)：JStarCraft NLP是一个面向自然语言处理领域的轻量级引擎。
 * [RelEx](https://github.com/opencog/relex)：RelEx是一个英语依存句法分析器。
 * [Talismane](https://github.com/joliciel-informatique/talismane)：Talismane是一个自然语言处理框架，包含句子检测器、分词器、词性标注器和依存句法分析器。
@@ -3973,6 +4008,7 @@
 * [Stan CN NLP](https://github.com/guokr/stan-cn-nlp)：Stanford NLP包的API封装，旨在方便中国用户使用。
 * [BetterKoreanKotlin](https://github.com/daangn/betterkoreankotlin)：BetterKoreanKotlin是一个用于韩语语法中自动选择正确助词的Kotlin多平台库。
 * [OpenXBOW](https://github.com/openXBOW/openXBOW)：OpenXBOW可以根据一系列数值和/或文本特征(例如声学LLD、视觉特征和自然语音转录)生成词袋模型，由奥格斯堡大学开源。
+* [JHazm](https://github.com/mojtaba-khallash/JHazm)：Hazm(用于解析波斯语文本的Python库)的Java版本。
 
 #### 分词器
 
@@ -3981,7 +4017,6 @@
 * [Jieba Analysis](https://github.com/huaban/jieba-analysis)：结巴分词Java版，由花瓣网开源。
 * [Segmenter](https://nlp.stanford.edu/software/segmenter.shtml)：Segmenter用于对中文或阿拉伯语文本中的单词进行标记化或分段，由斯坦福开源。
 * [SentencePiece4J](https://github.com/eix128/SentencePiece4J)：纯Java编写的SentencePiece，无需JNI，支持跨平台。
-* [JavaCPP SentencePiece](https://github.com/bytedeco/javacpp-presets/tree/master/sentencepiece)：SentencePiece是一款无监督文本分词器和反分词器。
 * [SentencePiece Java](https://github.com/levyfan/sentencepiece-jni)：SentencePiece的Java JNI封装，用于基于神经网络的文本生成的无监督文本分词器。
 * [Elasticsearch IK Analysis](https://github.com/infinilabs/analysis-ik)：IK Analysis插件集成了Lucene IK分词器，并支持自定义词典，由INFINI Labs维护。
 * [Pinyin Analysis](https://github.com/infinilabs/analysis-pinyin)：Pinyin Analysis插件方便汉字与拼音之间的转换，由INFINI Labs维护。
@@ -4036,6 +4071,8 @@
 * [IKAnalyzer](https://github.com/yozhao/IKAnalyzer)：一款支持Lucene的开源断词器。
 * [TreeSplitWord](https://github.com/ansjsun/tree_split)：一个Tire树结构的分词。
 * [Seunjeon](https://bitbucket.org/eunjeon/seunjeon)：这是一个基于mecab-ko-dic构建的韩语词法分析器，运行于JVM平台。
+* [Yiya](https://github.com/naosense/Yiya)：一个中文无字典分词程序。
+* [Jmorphy2](https://github.com/anti-social/jmorphy2)：Pymorphy2的Java移植版。
 
 #### 语言库
 
@@ -4123,6 +4160,7 @@
 * [DKPro TC](https://github.com/dkpro/dkpro-tc)：DKPro TC是一个基于UIMA的文本分类框架，由达姆施塔特工业大学开源。
 * [Classifier4J](https://classifier4j.sourceforge.net/)：Classifier4J是一个用于文本分类的Java库。
 * [MinorThird](https://github.com/TeamCohen/MinorThird)：MinorThird是一组Java类，用于存储文本、注释文本以及学习提取实体和对文本进行分类，由CMU开源。
+* [Text Classification SVM](https://github.com/hankcs/text-classification-svm)：HanLP基于SVM的文本分类模块。
 
 #### 语义解析
 
@@ -4176,6 +4214,7 @@
 * [DKPro Similarity](https://github.com/dkpro/dkpro-similarity)：DKPro Similarity是一个开源的文本相似度框架，由达姆施塔特工业大学开发。
 * [Spark StringMetric](https://github.com/MrPowers/spark-stringmetric)：Spark的字符串相似度函数和语音算法。
 * [ADW](https://github.com/pilehvar/ADW)：ADW的Java实现。
+* [Similarity](https://github.com/yanleping/similarity)：Similarity是由一系列算法组成的Java版相似度计算工具包。
 
 #### 命名实体识别
 
@@ -4222,6 +4261,7 @@
 * [HunspellJNA](https://github.com/dren-dk/HunspellJNA)：基于JNA的Java版Hunspell库。
 * [SymSpell Clj](https://github.com/juji-io/symspell-clj)：Clojure中的SymSpell拼写检查器。
 * [PlatformSpellCheckerKt](https://github.com/Wavesonics/PlatformSpellCheckerKt)：一个基于Kotlin的多平台封装器，用于封装不同平台的原生拼写检查系统。
+* [SpellingCorrector](https://github.com/unrelatedlabs/SpellingCorrector-Java8)：Java中的基本拼写纠错。
 
 #### WordNet
 
@@ -4259,6 +4299,9 @@
 * [Saul](https://github.com/CogComp/saul)：Saul是一种用Scala实现的DSL建模语言，方便应用程序员设计具有任意配置的机器学习模型，由宾夕法尼亚大学开源。
 * [ForestFlow](https://github.com/ForestFlow/ForestFlow)：ForestFlow是一个可扩展、基于策略的云原生机器学习模型服务器。
 * [Tensorflow Keras](https://github.com/dhruvrajan/tensorflow-keras-java)：Keras是一个用于构建和训练深度学习模型的高级API。
+* [Spark ML Serving](https://github.com/Hydrospheredata/spark-ml-serving)：Spark ML的无上下文机器学习实现。
+* [Lightning Server](https://github.com/lightningkite/lightning-server)：一个能够大幅提升服务器开发速度的项目，堪比Python版的Django。
+* [Tensorflow Deploy](https://github.com/handong0123/tensorflow_deploy)：简化与优化Tensorflow模型的Java部署。
 
 ### 因果推理
 
@@ -4348,7 +4391,6 @@
 ### 计算机视觉
 
 * [OpenCV](https://github.com/opencv/opencv)：OpenCV是一个包含数百种计算机视觉算法的开源库，提供官方Java API，由Intel开发。
-* [JavaCPP OpenCV](https://github.com/bytedeco/javacpp-presets/tree/master/opencv)：OpenCV是一个包含数百种计算机视觉算法的开源库。
 * [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个屡获殊荣的库和工具集合，用于多媒体(图像、文本、视频、音频等)内容分析和内容生成，由南安普顿大学开发。
 * [OpenCV](https://github.com/openpnp/opencv)：OpenCV是一个跨平台的计算机视觉库，这是OpenCV的Java绑定。
 * [JavaCV](https://github.com/bytedeco/javacv)：JavaCV包含OpenCV、FFmpeg等的Java接口。
@@ -4363,8 +4405,6 @@
 * [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
 * [JavaVision](https://gitee.com/javpower/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
 * [VisRec API](https://github.com/JavaVisRec/visrec-api)：Java视觉识别规范API。
-* [Bus OpenCV](https://github.com/818000/bus/tree/main/bus-opencv)：Bus OpenCV为OpenCV提供了一个简化的Java接口。
-* [JavaCPP Chilitags](https://github.com/bytedeco/javacpp-presets/tree/master/chilitags)：Chilitags是一个用于检测和识别二维基准标记的跨平台软件库。
 * [OpenCV](https://github.com/PatternConsulting/opencv)：OpenCV Java绑定，与本地库打包在一起。
 * [JFeatureLib](https://github.com/locked-fg/JFeatureLib)：JFeatureLib是一个免费库，提供了几种图像特征的实现，以及主要用于计算机视觉研究领域的几种点/区域检测器。
 * [YUV2Mat](https://github.com/QuickBirdEng/yuvToMat)：用于将YUV_420_888 Android相机图像转换为OpenCV RGB材质的高性能库。
@@ -4374,7 +4414,6 @@
 #### OCR
 
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
-* [JavaCPP Tesseract](https://github.com/bytedeco/javacpp-presets/tree/master/tesseract)：Tesseract是一个开源文本识别引擎。
 * [C-OCR](https://github.com/ctripcorp/C-OCR)：C-OCR是携程自研的OCR项目，主要包括身份证、护照、火车票、签证等旅游相关证件、材料的识别。
 * [Aspose.OCR](https://products.aspose.com/ocr/java/)：Aspose OCR是一种高效、用户友好且经济高效的OCR API。
 * [Spire.OCR](https://www.e-iceblue.com/Introduce/ocr-for-java.html)：Spire.OCR是一个专业的OCR库，可从JPG、PNG、GIF、BMP和TIFF格式的图像中读取文本。
@@ -4420,7 +4459,6 @@
 * [SeetaFace6 Java SDK](https://github.com/tracy100/seetaface6SDK)：基于SeetaFace6的Java语言SDK封装，提供完整的人脸识别解决方案。
 * [Face++](https://github.com/FacePlusPlus/facepp-java-sdk)：适用于Java的Face++ SDK。
 * [FaceLog](https://gitee.com/l0km/facelog)：FaceLog是一个用于人脸识别验证的跨平台跨语言的开发框架。
-* [JavaCPP Flandmark](https://github.com/bytedeco/javacpp-presets/tree/master/flandmark)：人脸关键点检测器的开源实现。
 * [Face Recognition System](https://github.com/prasadus92/face-recognition)：适用于Java的生产就绪型人脸识别库，包含多种算法和企业级功能。
 * [JSeetaface6](https://github.com/CongCongBig/JSeetaface6)：基于中科院Seetaface6进行封装的Java人脸识别算法库。
 * [InspireFace](https://github.com/HyperInspire/inspireface-android-sdk)：InspireFace是一个用C/C++开发的跨平台人脸识别SDK。
