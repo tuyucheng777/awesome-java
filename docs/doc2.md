@@ -353,6 +353,60 @@
 * [Java DDP Client](https://github.com/kutrumbo/java-ddp-client)：一个用Java编写的、基于Meteor框架的DDP客户端。
 * [Carbon Transports](https://github.com/wso2/carbon-transports)：WSO2中间件产品，支持多种不同的传输协议。
 
+#### Socket
+
+* [Smart Socket](https://gitee.com/smartboot/smart-socket)：Smart Socket是一款极简、易用、高性能的AIO通信框架。
+* [Jocket](https://github.com/pcdv/jocket)：Jocket是使用共享内存的低延迟Java套接字实现。
+* [OkSocket](https://github.com/xuuhaoo/OkSocket)：OkSocket是一个Java库，旨在解决轻量级的Socket通信。
+* [BizSocket](https://github.com/typ0520/bizsocket)：异步Socket，对一些业务场景做了支持。
+* [Socket.D](https://gitee.com/noear/socket.d)：Socket.D是基于事件和语义消息流的网络应用协议。
+* [JUDS](https://github.com/mcfunley/juds)：JUDS提供类来满足Java中访问Unix域套接字的需求。
+* [JUnixSocket](https://github.com/kohlschutter/junixsocket)：JUnixSocket是一个Java/JNI库，允许在Java中使用Unix域套接字(AF_UNIX套接字)和其他地址/协议系列(AF_TIPC、AF_VSOCK和AF_SYSTEM)。
+* [JNR UnixSocket](https://github.com/jnr/jnr-unixsocket)：Java的本机I/O访问。
+* [Epoll](https://github.com/wizzardo/epoll)：基于事件的套接字服务器，使用epoll。
+* [JNanomsg](https://github.com/niwinz/jnanomsg)：用于Nanomsg的Clojure和Java绑定。
+* [JNano](https://github.com/gonzus/jnano)：Nanomsg库的Java绑定。
+* [NNG Java](https://github.com/voutilad/nng-java)：JNA实现的NNG Java封装。
+* [CocoSocket](https://github.com/beykery/cocosocket)：CocoSocket是一个为Cocos2d-x和Unity 3D手机网络游戏准备的底层通信框架。
+* [Hxy Socket](https://github.com/a805748009/hxy-socket)：基于Spring Boot和Netty的Socket通信框架。
+* [ASocket](https://github.com/jenly1314/ASocket)：ASocket是一个TCP/UDP协议的封装库，方便快速实现TCP的长连接与UDP的单播、组播、广播等相关通信。
+* [AIO Socket](https://gitee.com/starboot/aio-socket)：AIO Socket是Java AIO通讯内核，采用了内存池、线程池、对象池、缓存池以及插件化增添模块等思想进行设计。
+* [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
+* [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
+* [Engine.IO Java](https://github.com/socketio/engine.io-client-java)：Java的Engine.IO客户端库。
+* [Engine.IO Java](https://github.com/socketio/engine.io-server-java)：Java的Engine.IO服务器库。
+* [Ballerina TCP](https://github.com/ballerina-platform/module-ballerina-tcp)：Ballerina Socket模块。
+* [Kotlinx.Sockets](https://github.com/cy6erGn0m/kotlinx-sockets)：Kotlinx.Sockets是一个库，旨在为NIO套接字带来丰富的协程体验。
+* [Blink](https://github.com/qiujuer/Blink)：Socket发送和接收协议框架，易于使用的I/O。
+* [MinaSocket](https://github.com/Jeromeer/MinaSocket)：MinaSocket一款基于Mina的Socket长连接库。
+* [Bumblebee](https://github.com/EspoirX/Bumblebee)：基于有限状态机和Flow的WebSocket封装。
+* [RxSocketClient](https://github.com/codeestX/RxSocketClient)：适用于Android、Java和Kotlin的Reactive Socket API。
+* [Naga](https://github.com/techery/Naga)：Naga的目标是成为一个非常小的NIO库，它提供少量的Java类来封装常见的Socket和ServerSocket。
+* [AsyncSocket](https://github.com/samigehi/AsyncSocket)：这是一个基于NIO的Java库，它使用SocketChannels以非阻塞方式与服务器通信。
+* [S4 Communication](https://github.com/s4/comm)：S4流处理系统的通信组件。
+* [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
+* [JgServer](https://gitee.com/lizhaoandroid/JgServer)：JgServer是基于Netty、Spring、Mybatis和Redis等框架开发的服务端容器。
+* [JForGame](https://github.com/kingston-csj/jforgame)：JForGame是一个用Java编写的轻量级高性能手游服务端框架，包含游戏服、跨服、匹配服、后台管理系统等模块。
+* [Socket MQTT](https://github.com/daoshenzzg/socket-mqtt)：Socket MQTT是一个基于Netty、MQTT实现的推送基础框架。
+* [Netty Server](https://github.com/cosmoplat-dev/netty-server)：Netty Server使用Spring Boot、Netty进行搭建，主要做软件和智能硬件之间的通信框架。
+* [JGameEngineServer](https://github.com/JGameEngine/JGameEngineServer)：Netty 4游戏服务端。
+* [Clj Sockets](https://github.com/atroche/clj-sockets)：Clj Sockets是一个封装了Java Socket的Clojure库。
+* [KmnKt](https://github.com/xuankaicat/kmnkt)：KmnKt是基于Kotlin多平台的跨平台Socket通信统一接口的实现。
+* [Tengi](https://github.com/noctarius/tengi)：Tengi被设计为一个跨语言通信平台。
+* [YsCommun](https://gitee.com/yisin/cmm)：YsCommun是集WebSocket、Socket(TCP/IP)为一体的通讯组件。
+* [Mmorpg](https://github.com/kingston-csj/mmorpg)：Mmorpg是一个用Java编写的分布式高性能mmorpg手游服务端框架。
+* [Lightning4j](https://github.com/coder-leehui/lightning4j)：Lightning4j是一个基于Netty的Java服务端轻量级开发框架，用于快速开发手游，页游等服务端程序。
+* [ServerFramework](https://github.com/zhangqi-ulua/ServerFramework)：ServerFramework是可用作全球同服或滚服的分布式Java游戏服务器框架。
+* [GameServer](https://github.com/ksfzhaohui/gameserver)：基于Netty 3.5的游戏服务器端框架。
+* [Raining Sockets](https://jniosocket.sourceforge.net/)：Raining Sockets是一个非阻塞套接字框架，它简化了创建可接收和发送超过10000个套接字连接的高可扩展应用程序的工作。
+* [Cindy](https://cindy.sourceforge.net/)：Cindy是一个强大、可扩展且高效的异步I/O框架，支持TCP、基于TCP的SSL、UDP和管道协议。
+* [xSocket](https://sourceforge.net/projects/xsocket/)：xSocket是一个易于使用的基于NIO的网络库，用于构建高性能、高可扩展性的网络应用程序。
+* [RockSaw](https://www.savarese.com/software/rocksaw/)：RockSaw是一个简单的Java API，用于使用IPv4和IPv6原始套接字执行网络I/O操作。
+* [Java Sockets](https://www.alhem.net/jsockets/)：Java Sockets是一个类库，实现了C++ Sockets库的一个子集，并且基于SUN的java.nio.*非阻塞网络I/O类。
+* [Hydra](https://github.com/marcluque/Hydra)：Hydra基于Netty构建，旨在简化Java中的套接字设置过程。
+* [Mocket](https://github.com/Nishant-Pathak/mocket)：轻量级、类型安全、可靠、保证交付、有序、高性能的Java NIO套接字，构建于UDP之上。
+* [Netty Spring Boot Starter](https://github.com/wangmingco/netty-spring-boot-starter)：将Netty嵌入到Spring Boot环境中，可以在Spring环境中收发Socket原生消息，支持自定义消息解析，派发扩展。
+
 #### WebSocket
 
 * [Pushy](https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658)：Pushy是Netflix的WebSocket服务器，可与运行Netflix应用程序的设备保持持久的WebSocket连接。
@@ -465,60 +519,6 @@
 * [Socket.IO Spring Boot Starter](https://github.com/hiwepy/socketio-spring-boot-starter)：Netty Socket.IO的Spring Boot Starter。
 * [Socket.IO Java](https://github.com/tadglines/Socket.IO-Java)：Socket.IO Java实现。
 * [Java Socket.IO Client](https://github.com/benkay/java-socket.io.client)：这是一个用Java编写的Socket.IO客户端。
-
-#### Socket
-
-* [Smart Socket](https://gitee.com/smartboot/smart-socket)：Smart Socket是一款极简、易用、高性能的AIO通信框架。
-* [Jocket](https://github.com/pcdv/jocket)：Jocket是使用共享内存的低延迟Java套接字实现。
-* [OkSocket](https://github.com/xuuhaoo/OkSocket)：OkSocket是一个Java库，旨在解决轻量级的Socket通信。
-* [BizSocket](https://github.com/typ0520/bizsocket)：异步Socket，对一些业务场景做了支持。
-* [Socket.D](https://gitee.com/noear/socket.d)：Socket.D是基于事件和语义消息流的网络应用协议。
-* [JUDS](https://github.com/mcfunley/juds)：JUDS提供类来满足Java中访问Unix域套接字的需求。
-* [JUnixSocket](https://github.com/kohlschutter/junixsocket)：JUnixSocket是一个Java/JNI库，允许在Java中使用Unix域套接字(AF_UNIX套接字)和其他地址/协议系列(AF_TIPC、AF_VSOCK和AF_SYSTEM)。
-* [JNR UnixSocket](https://github.com/jnr/jnr-unixsocket)：Java的本机I/O访问。
-* [Epoll](https://github.com/wizzardo/epoll)：基于事件的套接字服务器，使用epoll。
-* [JNanomsg](https://github.com/niwinz/jnanomsg)：用于Nanomsg的Clojure和Java绑定。
-* [JNano](https://github.com/gonzus/jnano)：Nanomsg库的Java绑定。
-* [NNG Java](https://github.com/voutilad/nng-java)：JNA实现的NNG Java封装。
-* [CocoSocket](https://github.com/beykery/cocosocket)：CocoSocket是一个为Cocos2d-x和Unity 3D手机网络游戏准备的底层通信框架。
-* [Hxy Socket](https://github.com/a805748009/hxy-socket)：基于Spring Boot和Netty的Socket通信框架。
-* [ASocket](https://github.com/jenly1314/ASocket)：ASocket是一个TCP/UDP协议的封装库，方便快速实现TCP的长连接与UDP的单播、组播、广播等相关通信。
-* [AIO Socket](https://gitee.com/starboot/aio-socket)：AIO Socket是Java AIO通讯内核，采用了内存池、线程池、对象池、缓存池以及插件化增添模块等思想进行设计。
-* [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
-* [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
-* [Engine.IO Java](https://github.com/socketio/engine.io-client-java)：Java的Engine.IO客户端库。
-* [Engine.IO Java](https://github.com/socketio/engine.io-server-java)：Java的Engine.IO服务器库。
-* [Ballerina TCP](https://github.com/ballerina-platform/module-ballerina-tcp)：Ballerina Socket模块。
-* [Kotlinx.Sockets](https://github.com/cy6erGn0m/kotlinx-sockets)：Kotlinx.Sockets是一个库，旨在为NIO套接字带来丰富的协程体验。
-* [Blink](https://github.com/qiujuer/Blink)：Socket发送和接收协议框架，易于使用的I/O。
-* [MinaSocket](https://github.com/Jeromeer/MinaSocket)：MinaSocket一款基于Mina的Socket长连接库。
-* [Bumblebee](https://github.com/EspoirX/Bumblebee)：基于有限状态机和Flow的WebSocket封装。
-* [RxSocketClient](https://github.com/codeestX/RxSocketClient)：适用于Android、Java和Kotlin的Reactive Socket API。
-* [Naga](https://github.com/techery/Naga)：Naga的目标是成为一个非常小的NIO库，它提供少量的Java类来封装常见的Socket和ServerSocket。
-* [AsyncSocket](https://github.com/samigehi/AsyncSocket)：这是一个基于NIO的Java库，它使用SocketChannels以非阻塞方式与服务器通信。
-* [S4 Communication](https://github.com/s4/comm)：S4流处理系统的通信组件。
-* [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
-* [JgServer](https://gitee.com/lizhaoandroid/JgServer)：JgServer是基于Netty、Spring、Mybatis和Redis等框架开发的服务端容器。
-* [JForGame](https://github.com/kingston-csj/jforgame)：JForGame是一个用Java编写的轻量级高性能手游服务端框架，包含游戏服、跨服、匹配服、后台管理系统等模块。
-* [Socket MQTT](https://github.com/daoshenzzg/socket-mqtt)：Socket MQTT是一个基于Netty、MQTT实现的推送基础框架。
-* [Netty Server](https://github.com/cosmoplat-dev/netty-server)：Netty Server使用Spring Boot、Netty进行搭建，主要做软件和智能硬件之间的通信框架。
-* [JGameEngineServer](https://github.com/JGameEngine/JGameEngineServer)：Netty 4游戏服务端。
-* [Clj Sockets](https://github.com/atroche/clj-sockets)：Clj Sockets是一个封装了Java Socket的Clojure库。
-* [KmnKt](https://github.com/xuankaicat/kmnkt)：KmnKt是基于Kotlin多平台的跨平台Socket通信统一接口的实现。
-* [Tengi](https://github.com/noctarius/tengi)：Tengi被设计为一个跨语言通信平台。
-* [YsCommun](https://gitee.com/yisin/cmm)：YsCommun是集WebSocket、Socket(TCP/IP)为一体的通讯组件。
-* [Mmorpg](https://github.com/kingston-csj/mmorpg)：Mmorpg是一个用Java编写的分布式高性能mmorpg手游服务端框架。
-* [Lightning4j](https://github.com/coder-leehui/lightning4j)：Lightning4j是一个基于Netty的Java服务端轻量级开发框架，用于快速开发手游，页游等服务端程序。
-* [ServerFramework](https://github.com/zhangqi-ulua/ServerFramework)：ServerFramework是可用作全球同服或滚服的分布式Java游戏服务器框架。
-* [GameServer](https://github.com/ksfzhaohui/gameserver)：基于Netty 3.5的游戏服务器端框架。
-* [Raining Sockets](https://jniosocket.sourceforge.net/)：Raining Sockets是一个非阻塞套接字框架，它简化了创建可接收和发送超过10000个套接字连接的高可扩展应用程序的工作。
-* [Cindy](https://cindy.sourceforge.net/)：Cindy是一个强大、可扩展且高效的异步I/O框架，支持TCP、基于TCP的SSL、UDP和管道协议。
-* [xSocket](https://sourceforge.net/projects/xsocket/)：xSocket是一个易于使用的基于NIO的网络库，用于构建高性能、高可扩展性的网络应用程序。
-* [RockSaw](https://www.savarese.com/software/rocksaw/)：RockSaw是一个简单的Java API，用于使用IPv4和IPv6原始套接字执行网络I/O操作。
-* [Java Sockets](https://www.alhem.net/jsockets/)：Java Sockets是一个类库，实现了C++ Sockets库的一个子集，并且基于SUN的java.nio.*非阻塞网络I/O类。
-* [Hydra](https://github.com/marcluque/Hydra)：Hydra基于Netty构建，旨在简化Java中的套接字设置过程。
-* [Mocket](https://github.com/Nishant-Pathak/mocket)：轻量级、类型安全、可靠、保证交付、有序、高性能的Java NIO套接字，构建于UDP之上。
-* [Netty Spring Boot Starter](https://github.com/wangmingco/netty-spring-boot-starter)：将Netty嵌入到Spring Boot环境中，可以在Spring环境中收发Socket原生消息，支持自定义消息解析，派发扩展。
 
 #### TCP/UDP
 
@@ -4453,6 +4453,7 @@
 * [Fields](https://github.com/jap-company/fields)：Fields是一个Scala校验库。
 * [jValid](https://gitee.com/sfmjp/jValid)：jValid是一个Java Bean校验库。
 * [Validation](https://gitee.com/msimw/validation)：基于Spring通用数据校验框架。
+* [Bean Validation Scala](https://github.com/bean-validation-scala/bean-validation-scala)：Scala的JSR 303和349 Bean校验。
 
 ## Bean映射&复制
 
@@ -7458,6 +7459,7 @@
 * [Wisp](https://github.com/Coreoz/Wisp)：Wisp是一个用于管理重复性Java作业执行的库。
 * [Hashed Wheel Timer](https://github.com/ifesdjeen/hashed-wheel-timer)：与ScheduledExecutorService兼容的高性能计时器/调度程序库。
 * [Cron4j](http://www.sauronsoftware.it/projects/cron4j/)：Cron4j是Java平台的调度程序，与UNIX Cron守护程序非常相似。
+* [Ratchet](https://ratchet.run/)：Ratchet为Jakarta EE 10/11应用程序提供了一个简洁、基于注解的API，用于后台作业调度。
 * [Database Queue](https://github.com/yoomoney/db-queue)：该库在Java和数据库之上提供了工作队列实现，由YooMoney开源。
 * [Helidon Scheduling](https://github.com/helidon-io/helidon/tree/main/scheduling)：Helidon基于Cron Utils实现的调度功能。
 * [Atlassian Scheduler](https://bitbucket.org/atlassian/atlassian-scheduler)：Atlassian Scheduler库是用于在Atlassian应用程序中创建调度任务的API。
@@ -8642,14 +8644,10 @@
 
 #### 图像压缩
 
-* [Compressor](https://github.com/zetbaitsu/Compressor)：Compressor是一款轻量级且功能强大的Android图像压缩库。
-* [CompressHelper](https://github.com/nanchen2251/CompressHelper)：文件、图片压缩工具类。
-* [AdvancedLuban](https://github.com/shaohui10086/AdvancedLuban)：AdvancedLuban是一个方便简单的Android图像压缩工具库。
-* [SiliCompressor](https://github.com/Tourenathan-G5organisation/SiliCompressor)：SiliCompressor是一个功能强大、灵活且易于使用的Android视频和图像压缩库。
-* [TurboJPEG](https://github.com/libjpeg-turbo/libjpeg-turbo/tree/main/java)：TurboJPEG是一个JPEG图像编解码器，它使用SIMD指令来加速x86、x86-64、Arm、PowerPC和MIPS系统上的基线JPEG压缩和解压缩，以及x86、x86-64和Arm系统上的渐进式JPEG压缩。
-* [Compressor](https://github.com/Shouheng88/Compressor)：适用于Android的高级图像压缩库。
+* [TurboJPEG](https://github.com/libjpeg-turbo/libjpeg-turbo)：TurboJPEG是一个JPEG图像编解码器，它使用SIMD指令来加速x86、x86-64、Arm、PowerPC和MIPS系统上的基线JPEG压缩和解压缩，以及x86、x86-64和Arm系统上的渐进式JPEG压缩。
 * [ShadowyCompression](https://github.com/qianfei11/ShadowyCompression)：一种使用部分同态加密的JPEG图像压缩服务。
 * [JPEGOptimizer](https://github.com/collicalex/JPEGOptimizer)：在不损失视觉质量的前提下减小JPEG文件大小。
+* [IVCompressor](https://github.com/techgnious/IVCompressor)：用于将图像/视频压缩到较小分辨率的Java库。
 
 ## 反射库
 
@@ -14121,6 +14119,7 @@ Kafka生态管理系统、运维平台。
 * [Kotlin Money](https://github.com/tobiasschuerg/android-money)：适用于Kotlin/JVM的简单货币库。
 * [Bankster](https://github.com/randomseed-io/bankster)：一个实用、对EDN友好的Clojure货币工具包。
 * [Fluid Currency](https://github.com/fluidsonic/fluid-currency)：Kotlin多平台货币库。
+* [Money Kotlin](https://github.com/hiddewie/money-kotlin)：JSR 354 javax.money Kotlin扩展。
 
 #### FinTS
 
@@ -14555,6 +14554,7 @@ Kafka生态管理系统、运维平台。
 * [JEF](https://github.com/java-embedded-framework/jef)：JEF为Java程序提供了一种便捷的高级访问方式，可以直接从代码访问SPI、I2C、串口、GPIO或OneWire等硬件接口。
 * [Eclipse Edje](https://github.com/eclipse-archived/edje)：Edje项目的目标是定义一个名为硬件抽象层(HAL)的标准高级Java API，用于访问微控制器提供的硬件功能。
 * [Java Arduino Communication Library](https://github.com/HirdayGupta/Java-Arduino-Communication-Library)：Java Arduino通信库。
+* [JSR 377 API](https://github.com/jsr377/jsr377-api)：JSR 377桌面、嵌入式应用程序API。
 
 #### 串口
 

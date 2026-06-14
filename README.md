@@ -149,9 +149,9 @@
 * [网络编程](docs/doc2.md#网络编程)
   * [NIO框架](docs/doc2.md#NIO框架)
   * [网络库](docs/doc2.md#网络库)
+  * [Socket](docs/doc2.md#Socket)
   * [WebSocket](docs/doc2.md#WebSocket)
   * [Socket.IO](docs/doc2.md#SocketIO)
-  * [Socket](docs/doc2.md#Socket)
   * [TCP/UDP](docs/doc2.md#TCPUDP)
   * [IO_Uring](docs/doc2.md#IO_Uring)
   * [IM](docs/doc2.md#IM)
@@ -1263,6 +1263,7 @@
 * [Resty](https://github.com/takezoe/resty)：超级简单的Scala REST API框架。
 * [JRest](https://github.com/orange451/JRest)：超小型轻量级的Java REST库。
 * [Zoot](https://github.com/fwbrasil/zoot)：用于提供和使用REST服务的轻量级响应式框架。
+* [Webbit REST](https://github.com/webbit/webbit-rest)：Webbit REST是一个受Sinatra启发的小型Webbit Web服务器API。
 
 #### MVC框架
 
@@ -2100,6 +2101,7 @@
 * [Circuit Breaker](https://github.com/sptz45/circuit-breaker)：Circuit Breaker是断路器稳定性设计模式的一种实现。
 * [Meerkat](https://github.com/ChanningBJ/meerkat)：Meerkat是用于服务监控以及服务降级基础组件。
 * [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker)：DropWizard的断路器设计模式库。
+* [Failurewall](https://github.com/failurewall/failurewall)：Failurewall是一个用于保护应用程序免受故障影响的库，有助于开发稳定、响应迅速且具有弹性的系统。
 
 #### 限流
 
@@ -3180,6 +3182,7 @@
 * [EasyDB](https://github.com/blockCloth/EasyDB)：EasyDB是一个基于Java实现的轻量级数据库。
 * [GaianDB](https://github.com/gaiandb/gaiandb)：Gaian是一种基于Apache Derby的轻量级数据联邦技术，由IBM开源。
 * [CosyanDB](https://github.com/gsvigruha/cosyan)：CosyanDB是一个基于SQL的事务型关系型数据库管理系统，具有复杂的多表约束逻辑和语言增强功能，并大量运用了外键。
+* [NullDB](https://github.com/NullPointer-Labs/nulldb)：NullDB是一个完全用Java从零开始构建的原始、高性能的关系型数据库存储引擎。
 
 #### NoSQL数据库
 
@@ -3484,6 +3487,7 @@
 * [SwarmAI](https://github.com/intelliswarm-ai/swarm-ai)：这是一个面向Java的多智能体编排框架，专为企业级应用而设计。
 * [Agentic Flink](https://github.com/Ugbot/Agentic-Flink)：Agentic Flink是一个用于在Apache Flink上构建基于LLM的AI代理的框架。
 * [Spring AI AgentX](https://github.com/bigchuidw3/spring-ai-agentx)：Spring AI AgentX是一款面向Java开发者的AI Agent开发框架。
+* [Easy Agent](https://github.com/songrongzhen/easy-agent)：Easy Agent是一个即插即用的Java智能体开发组件，旨在让任何基于Spring Boot的应用系统快速接入AI能力。
 
 ### AI智能体
 
