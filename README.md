@@ -164,7 +164,6 @@
   * [Socks代理](docs/doc2.md#Socks代理)
   * [内网穿透](docs/doc2.md#内网穿透)
   * [网络监控](docs/doc2.md#网络监控)
-  * [网络工具](docs/doc2.md#网络工具)
   * [端口转发](docs/doc2.md#端口转发)
   * [P2P](docs/doc2.md#P2P)
   * [BitTorrent](docs/doc2.md#BitTorrent)
@@ -241,7 +240,6 @@
   * [大数据测试](docs/doc2.md#大数据测试)
   * [其他测试库](docs/doc2.md#其他测试库)
   * [Spring测试](docs/doc2.md#Spring测试)
-  * [测试套件](docs/doc2.md#测试套件)
   * [代码覆盖率](docs/doc2#代码覆盖率)
 * [数据库开发](docs/doc2.md#数据库开发)
   * [数据库驱动](docs/doc2.md#数据库驱动)
@@ -307,7 +305,6 @@
   * [安全工具](docs/doc2.md#安全工具)
   * [SBOM](docs/doc2.md#SBOM)
   * [漏洞工具](docs/doc2.md#漏洞工具)
-  * [安全培训](docs/doc2.md#安全培训)
   * [自保护](docs/doc2.md#自保护)
   * [加密库](docs/doc2.md#加密库)
   * [密码库](docs/doc2.md#密码库)
@@ -470,7 +467,6 @@
   * [Shell](docs/doc2.md#Shell)
 * [版本控制系统](docs/doc2.md#版本控制系统)
   * [Git服务器](docs/doc2.md#Git服务器)
-  * [Git工具](docs/doc2.md#Git工具)
   * [Git API](docs/doc2.md#Git-API)
   * [语义版本控制](docs/doc2.md#语义版本控制)
 * [集合库](docs/doc2.md#集合库)
@@ -545,6 +541,7 @@
   * [EDI库](docs/doc2.md#EDI库)
   * [OBJ库](docs/doc2.md#OBJ库)
   * [OFD库](docs/doc2.md#OFD库)
+  * [HWP库](docs/doc2.md#HWP库)
   * [文件库](docs/doc2.md#文件库)
   * [文件转换](docs/doc2.md#文件转换)
     * [PDF/HTML转换](docs/doc2#PDFHTML转换)
@@ -679,7 +676,6 @@
   * [BaaS平台](docs/doc2.md#BaaS平台)
   * [PaaS平台](docs/doc2.md#PaaS平台)
   * [IaaS平台](docs/doc2.md#IaaS平台)
-  * [仿真框架](docs/doc2.md#仿真框架)
   * [边缘计算](docs/doc2.md#边缘计算)
   * [虚拟化](docs/doc2.md#虚拟化)
 * [云服务SDK](docs/doc2.md#云服务SDK)
@@ -790,6 +786,9 @@
   * [SECS](docs/doc2.md#SECS)
   * [BACnet](docs/doc2.md#BACnet)
   * [业余无线电](docs/doc2.md#业余无线电)
+* [仿真框架](docs/doc2.md#仿真框架)
+* [CAD](docs/doc2.md#CAD)
+* [仪器](docs/doc2.md#仪器)
 * [短信](docs/doc2.md#短信)
 * [邮件库](docs/doc2.md#邮件库)
 * [邮件服务器](docs/doc2.md#邮件服务器)
@@ -838,37 +837,15 @@
   * [SWT](docs/doc2.md#SWT)
   * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
   * [浏览器](docs/doc2.md#浏览器)
-  * [Processing](docs/doc2.md#Processing)
-  * [JavaFX程序](docs/doc2.md#JavaFX程序)
-  * [GUI程序](docs/doc2.md#GUI程序)
-  * [IDE](docs/doc2.md#IDE)
-  * [可视化编程](docs/doc2.md#可视化编程)
-  * [文本编辑器](docs/doc2.md#文本编辑器)
-  * [在线编辑器](docs/doc2.md#在线编辑器)
-  * [数学软件](docs/doc2.md#数学软件)
-  * [仿真软件](docs/doc2.md#仿真软件)
-  * [UML工具](docs/doc2.md#UML工具)
-  * [数电](docs/doc2.md#数电)
-  * [数控](docs/doc2.md#数控)
-  * [CAD](docs/doc2.md#CAD)
-  * [办公软件](docs/doc2.md#办公软件)
-  * [思维导图](docs/doc2.md#思维导图)
-  * [音视频软件](docs/doc2.md#音视频软件)
-  * [数据库软件](docs/doc2.md#数据库软件)
-  * [数据库建模](docs/doc2.md#数据库建模)
-  * [远程连接](docs/doc2.md#远程连接)
-  * [终端模拟器](docs/doc2.md#终端模拟器)
-  * [远程桌面控制](docs/doc2.md#远程桌面控制)
-  * [Git客户端](docs/doc2.md#Git客户端)
-  * [下载器](docs/doc2.md#下载器)
-  * [LaTeX编辑器](docs/doc2.md#LaTeX编辑器)
-  * [字幕软件](docs/doc2.md#字幕软件)
-  * [学术软件](docs/doc2.md#学术软件)
-  * [图形与设计](docs/doc2.md#图形与设计)
-  * [软件定义无线电](docs/doc2.md#软件定义无线电)
-  * [文本处理与校对](docs/doc2.md#文本处理与校对)
-  * [工业控制与实验室](docs/doc2.md#工业控制与实验室)
-  * [文件与数据管理](docs/doc2.md#文件与数据管理)
+* [Processing](docs/doc2.md#Processing)
+* [IDE](docs/doc2.md#IDE)
+* [可视化编程](docs/doc2.md#可视化编程)
+* [文本编辑器](docs/doc2.md#文本编辑器)
+* [数学软件](docs/doc2.md#数学软件)
+* [UML工具](docs/doc2.md#UML工具)
+* [数据库软件](docs/doc2.md#数据库软件)
+* [数据库建模](docs/doc2.md#数据库建模)
+* [终端模拟器](docs/doc2.md#终端模拟器)
 * [游戏开发](docs/doc2.md#游戏开发)
   * [游戏引擎](docs/doc2.md#游戏引擎)
   * [Minecraft](docs/doc2.md#Minecraft)
@@ -882,10 +859,7 @@
   * [寻路算法](docs/doc2.md#寻路算法)
   * [麻将算法](docs/doc2.md#麻将算法)
   * [实体框架](docs/doc2.md#实体框架)
-  * [游戏编辑器](docs/doc2.md#游戏编辑器)
-  * [开源游戏](docs/doc2.md#开源游戏)
   * [象棋引擎](docs/doc2.md#象棋引擎)
-  * [游戏开发工具](docs/doc2.md#游戏开发工具)
   * [虚拟现实](docs/doc2.md#虚拟现实)
 * [JVM实现](docs/doc2.md#JVM实现)
 * [JVM语言](docs/doc2.md#JVM语言)
@@ -914,7 +888,6 @@
   * [视频库](docs/doc2.md#视频库)
   * [多媒体库](docs/doc2.md#多媒体库)
   * [视频通讯](docs/doc2.md#视频通讯)
-  * [FFmpeg包装器](docs/doc2.md#FFmpeg包装器)
   * [音频编解码器](docs/doc2.md#音频编解码器)
   * [媒体服务器](docs/doc2.md#媒体服务器)
   * [呼叫中心](docs/doc2.md#呼叫中心)
@@ -1137,6 +1110,7 @@
 * [Wasabi](https://github.com/wasabifx/wasabi)：Wasabi是一个用Kotlin为JVM构建的HTTP框架。
 * [Sitebricks](https://github.com/dhanji/sitebricks)：Sitebricks是一套简单的Web应用库。
 * [Java Express](https://github.com/simonwep/java-express)：基于Express.js的HTTP框架，无依赖，使用简单。
+* [JExpress](https://github.com/forax/jexpress)：JExpress是一个用Java 25编写的轻量级且速度较慢的Express.js克隆。
 * [HappyX](https://github.com/HapticX/happyx)：HappyX是一个异步、面向宏、全栈支持的Web框架。
 * [Severell](https://github.com/severell/severell)：Severell是一个Web应用框架，旨在让Java Web应用开发变得轻松有趣。
 * [Pedestal](https://github.com/pedestal/pedestal)：Pedestal是一组用Clojure编写的库，旨在将语言及其原则引入服务器端开发。
@@ -1234,6 +1208,7 @@
 * [Sinetja](https://github.com/sinetja/sinetja)：Sinetja是一个类似Sinatra的Web框架。
 * [HongsCORE](https://github.com/ihongs/HongsCORE)：HongsCORE是一个Java Web全栈开发框架。
 * [WebUtils](https://github.com/edificeio/web-utils)：Vert.x Web框架，基于注解API。
+* [Kog](https://github.com/danneu/kog)：Kog是一个受Clojure Ring启发而开发的简单Kotlin Web框架。
 
 #### REST框架
 
@@ -1319,6 +1294,7 @@
 * [Thunder](https://github.com/100cm/thunder)：Thunder是一个微型MVC框架。
 * [AisMVC](https://github.com/javagaorui5944/AisMVC)：AisMVC是一款仿Spring MVC轻便的MVC开发框架。
 * [PureMVC](https://github.com/PureMVC/puremvc-java-multicore-framework)：PureMVC是一个轻量级框架，用于创建基于经典MVC设计元模式的应用程序。
+* [NettyHTTP](https://github.com/myan9527/nettyhttp)：Netty的HTTP服务器和MVC框架。
 
 #### JSF框架
 
@@ -1561,6 +1537,8 @@
 * [Restate Java](https://github.com/restatedev/sdk-java)：Restate是一个利用分布式持久化Async/Await轻松构建弹性应用程序的系统。
 * [Jadex](https://github.com/actoron/jadex)：Jadex为分布式和并发系统提供编程和执行功能。
 * [SwitchYard](https://switchyard.jboss.org/)：SwitchYard是一个基于组件的开发框架，专注于使用面向服务的架构(SOA)的概念和最佳实践来构建结构化、可维护的服务和应用程序，由JBoss社区开源。
+* [Saluki](https://github.com/spring-avengers/saluki)：Saluki是一个基于gRPC Java的微服务框架。
+* [Trooper](https://github.com/regunathb/Trooper)：Trooper是一个Java模块式框架，提供多种运行时配置文件用于构建应用程序。
 
 ## HTTP客户端
 
@@ -1711,6 +1689,7 @@
 * [OkHttp Extension](https://github.com/fengzhizi715/okhttp-extension)：OkHttp Extension是针对OkHttp3增强的网络框架。
 * [Shine](https://github.com/FreddyChen/Shine-Java)：Shine是基于Retrofit、RxJava实现的Java网络请求封装库。
 * [Glin](https://github.com/qibin0506/Glin)：Glin是一款灵活、支持中间件的Java/Android动态代理网络框架。
+* [Advanced HttpURLConnection](https://github.com/VishnuSivadasVS/Advanced-HttpURLConnection)：HttpURLConnection的封装库，更安全、更简单。
 
 ## Web服务器
 
@@ -1860,6 +1839,8 @@
 * [Netty HTTP Server](https://github.com/farsunset/netty-http-server)：Spring Boot项目中使用Netty来替代传统Web容器，提升性能、简化配置。
 * [JerryServer](https://github.com/onblog/JerryServer)：JerryServer是类似Tomcat的Web服务器。
 * [Minit](https://github.com/YaleGuo/Minit)：Minit是一个迷你版Tomcat。
+* [NIO Http Server](https://github.com/shenfeng/nio-httpserver)：一个简单的异步Java HTTP服务器。
+* [Dimdwarf](https://github.com/luontola/dimdwarf)：Dimdwarf是一个非侵入式的Java分布式应用服务器。
 
 ## 微服务治理
 
@@ -2118,6 +2099,7 @@
 * [Breakr](https://github.com/AdamBien/breakr)：适用于Java EE应用的极简断路器。
 * [Circuit Breaker](https://github.com/sptz45/circuit-breaker)：Circuit Breaker是断路器稳定性设计模式的一种实现。
 * [Meerkat](https://github.com/ChanningBJ/meerkat)：Meerkat是用于服务监控以及服务降级基础组件。
+* [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker)：DropWizard的断路器设计模式库。
 
 #### 限流
 
@@ -2163,6 +2145,7 @@
 * [Manerfan Booster](https://github.com/manerfan/manerfan-booster)：机遇Redis的分布式限流Starter。
 * [RedLimiter](https://github.com/diracccc/redis-rate-limiter)：RedLimiter与Guava RateLimiter功能类似，基于Redis、Lua、令牌桶算法实现的分布式限流器。
 * [Akka Throttler](https://github.com/hbf/akka-throttler)：适用于Akka 2.0+的节流器。
+* [RateLimiter](https://github.com/ZhuBaker/rate-limiter)：限制瞬时并发数/限制某个接口的时间窗口最大请求数。
 
 #### 重试
 
@@ -2826,6 +2809,7 @@
 * [Tickloom](https://github.com/unmeshjoshi/tickloom)：Tickloom是一个轻量级的Java框架，用于构建确定性、可测试的分布式系统。
 * [Suuchi](https://github.com/ashwanthkumar/suuchi)：Suuchi是一个用于构建分布式数据系统的工具包，其底层使用gRPC作为通信媒介。
 * [Jzab](https://github.com/zk1931/jzab)：Java中的ZooKeeper原子广播。
+* [Chinese Whispers](https://github.com/ChiralBehaviors/Chinese-Whispers)：Chinese Whispers是一个基于Gossip协议的通用状态复制和故障检测服务。
 
 #### 分布式锁
 
@@ -2858,6 +2842,7 @@
 * [WlLock](https://github.com/adamswanglin/wllock)：高并发环境下的本地锁、分布式锁。
 * [Spring Data Redis Tools](https://github.com/WellJay/spring-data-redis-tools)：Spring Data Redis封装工具类，包含分布式锁、分布式唯一键。
 * [DistributedLock](https://github.com/wyzssw/DistributedLock)：Redis分布式锁。
+* [Redis Distributed Kit](https://github.com/jsrdxzw/redis-kit)：Redis Distributed Kit是一个用于分布式环境的Redis工具集合。
 
 #### 分布式ID
 
@@ -2930,6 +2915,7 @@
 * [RedisHttpSession](https://github.com/x-hansong/RedisHttpSession)：RedisHttpSession提供了一种将HTTP会话透明地存储在Redis中的方法，从而允许多个客户端共享会话。
 * [HttpSessionReplacer](https://github.com/AmadeusITGroup/HttpSessionReplacer)：本项目提供会话管理功能，包括可能用于JEE和其他Java容器的分布式会话存储库。
 * [Tomcat Redis Session Manager](https://github.com/cc-chen/tomcat8.5-redis-session-manager)：Tomcat的Redis会话管理器。
+* [Jetty NoSQL Memcached](https://github.com/yyuu/jetty-nosql-memcached)：基于Jetty NoSQL的Jetty SessionManager实现。
 
 #### Raft算法
 
@@ -2990,6 +2976,7 @@
 * [Automerge Java](https://github.com/automerge/automerge-java)：Automerge是一种无冲突复制数据类型，它允许在不同设备上同时进行的更改自动合并，而无需任何中央服务器。
 * [CRDTs](https://github.com/ajermakovics/crdts)：Java的简单无冲突复制数据类型。
 * [Itc4j](https://github.com/sinabz/itc4j)：用Java实现的区间树时钟。
+* [Java CRDT Library](https://github.com/dclements/riak-java-crdt)：专注于支持Riak的Java CRDT库。
 
 ## 数据库
 
@@ -3245,6 +3232,7 @@
 * [TouchDB](https://github.com/couchbaselabs/TouchDB-Android)：TouchDB Android是Jens Alfke开发的TouchDB的Android移植版本。
 * [Iron](https://github.com/FabianTerhorst/Iron)：快速易用的NoSQL数据存储，支持RxJava和Kotlin。
 * [TOJOs](https://github.com/yegor256/tojos)：Tojos是一个轻量级的Java库，用于将CSV、JSON等文本文件作为简单的NoSQL文档数据库进行管理。
+* [Snapper](https://github.com/techery/snapper)：NoSQL快速可序列化存储，具有投影、排序、筛选等功能。
 
 #### OLAP数据库
 
@@ -3330,6 +3318,7 @@
 * [Greta](https://github.com/isir/greta)：Greta是一个实时三维具身对话智能体，拥有符合MPEG-4动画标准的3D女性模型，由ISIR开源。
 * [MaDKit](https://github.com/fmichel/MaDKit)：MaDKit被设计为一个轻量级的Java库，用于开发使用多智能体范式的分布式应用程序和仿真。
 * [AutoMan](https://github.com/automan-lang/AutoMan)：AutoMan是一个全自动的众包编程系统。
+* [BPjs](https://github.com/bThink-BGU/BPjs)：BPjs是一个基于JavaScript的行为编程运行时，由内盖夫本-古里安大学开源。
 
 ### LLM框架
 
@@ -3369,6 +3358,7 @@
 * [Aifei](https://github.com/jfinal/aifei)：Aifei是一个AI Coding框架。
 * [LightRAG4J](https://github.com/taofmvp/lightrag4j)：LightRAG4J是一个Java优先的LightRAG风格检索库。
 * [Autogen4j](https://github.com/HamaWhiteGG/autogen4j)：Java版Microsoft AutoGen，支持下一代大语言模型应用程序。
+* [Txtai.Java](https://github.com/neuml/txtai.java)：Txtai是一个集语义搜索、LLM编排和语言模型工作流程于一体的AI框架。
 
 ### LLM客户端
 
@@ -3389,6 +3379,7 @@
 * [EDDI](https://github.com/labsai/eddi)：EDDI是一个中间件，用于连接和管理LLM API机器人，为OpenAI ChatGPT、Facebook Hugging Face、Anthropic Claude、Google Gemini和Ollama等API提供高级提示和对话管理。
 * [OpenAI4j](https://github.com/ai-for-java/openai4j)：这是一个非官方的Java客户端库，可帮助你的Java应用程序与OpenAI API连接。
 * [Ollama4j](https://github.com/ollama4j/ollama4j)：用于与Ollama服务器交互的Java库。
+* [Nirmato Ollama](https://github.com/nirmato/nirmato-ollama)：一款Ollama客户端SDK，可让你轻松地与Ollama API进行交互。
 * [OpenAi4J](https://github.com/Lambdua/openai4j)：OpenAi4J是一个非官方Java库，旨在促进与OpenAI的GPT模型的交互，包括GPT4-Turbo Vision、Assistant v2等最新功能。
 * [Simple OpenAI](https://github.com/sashirestela/simple-openai)：Simple OpenAI是一个Java HTTP客户端库，用于向OpenAI API发送请求并接收响应。
 * [JVM OpenAI](https://github.com/StefanBratanov/jvm-openai)：一个针对JVM的简约非官方OpenAI API客户端，使用Java编写。
@@ -3427,6 +3418,7 @@
 * [Gemini Java Client](https://github.com/anahata-os/gemini-java-client)：JVM的自主AI代理引擎。
 * [DashScope SDK Java](https://github.com/dashscope/dashscope-sdk-java)：DashScope模型的Java SDK。
 * [Z.ai Open Platform Java SDK](https://github.com/zai-org/z-ai-sdk-java)：Z.ai AI平台官方Java SDK，提供统一接口访问强大的AI能力，包括对话补全、向量嵌入、图像生成、音频处理等功能。
+* [ComfyUI Spring Boot](https://github.com/Sun-12138/comfyui-spring-boot)：ComfyUI Spring Boot支持Spring Boot调用ComfyUI服务API、提交绘图任务到队列、实时获取任务进度。
 
 ### 推理引擎
 
@@ -3444,6 +3436,7 @@
 * [Deliverance](https://github.com/edwardcapriolo/deliverance)：Deliverance是一个Java推理引擎，能够生成文本、对输入进行分词、计算嵌入等。
 * [LLM.Java](https://github.com/harryjackson/llm.java)：Java中的LLM推理移植。
 * [Micronaut Llama3](https://github.com/seehiong/micronaut-llama3)：使用Micronaut和GraalVM原生镜像的高性能Llama3实现。
+* [LightMetal](https://github.com/AdamBien/lightmetal)：Lightmetal是一个让Java开发者能够在Apple Silicon上，利用Metal和Llama.cpp进行GPU加速的LLM推理的工具。
 
 ### MCP
 
@@ -3526,6 +3519,7 @@
 * [OpenGPA](https://github.com/eschnou/OpenGPA)：OpenGPA是一个开源通用代理。
 * [ReachAI](https://github.com/w8123/EnterpriseAgentFramework)：ReachAI是面向Java/Spring Boot企业系统的AI能力注册、治理与Agent编排平台。
 * [Runify](https://github.com/runify-dev/runify)：Runify的核心设计目标是极力降低本地资源占用，让开发者无负担地拉起一套Agent环境。
+* [Spring Boot Dify API](https://github.com/Pitayafruits/springboot-dify-api)：基于Spring Boot封装了调用Dify服务的API。
 
 ### OpenClaw
 
@@ -3691,6 +3685,8 @@
 * [KeLP](https://github.com/SAG-KeLP/kelp-full)：KeLP是罗马第二大学语义分析小组开发的基于内核的学习平台。
 * [SparseML](https://github.com/intel-spark/SparseML)：Spark MLlib代码优化，可高效支持稀疏数据，由Intel开源。
 * [Lolo](https://github.com/CitrineInformatics/lolo)：Lolo是一个以随机森林为中心的Scala机器学习库。
+* [Java Decision Tree](https://github.com/saebyn/java-decision-tree)：Java中的决策树类。
+* [Mustard](https://github.com/Data2Semantics/mustard)：Mustard是一个机器学习库，用于使用核方法从RDF数据中进行学习。
 
 #### 神经网络
 
@@ -3770,6 +3766,7 @@
 * [R4tings Recommender](https://github.com/r4tings/r4tings-recommender)：R4tings是使用Apache Spark和Java的开源推荐引擎。
 * [EasyRec](https://github.com/hernad/easyrec)：EasyRec是一个开源推荐系统。
 * [MyMediaLiteJava](https://github.com/jcnewell/MyMediaLiteJava)：MyMediaLite推荐系统库的Java移植版。
+* [StreamingRec](https://github.com/mjugo/StreamingRec)：StreamingRec是一个新闻推荐评估框架。
 
 #### 强化学习
 
@@ -3847,6 +3844,7 @@
 #### 最近邻搜索
 
 * [Annoy](https://github.com/spotify/annoy-java)：Annoy是一种最近邻搜索算法，用于搜索空间中与给定查询点接近的点，由Spotify开源。
+* [CuVS](https://github.com/rapidsai/cuvs)：CuVS包含多种用于在GPU上运行近似最近邻和聚类算法的先进实现。
 * [TarsosLSH](https://github.com/JorenSix/TarsosLSH)：TarsosLSH是一个实现次线性最近邻搜索算法的Java库。
 * [ScANNS](https://github.com/LinkedInAttic/scanns)：ScANNS是Apache Spark的一个最近邻搜索库，最初由LinkedIn开发。
 * [Voyager](https://github.com/spotify/voyager)：Voyager是一个适用于Python和Java的近似最近邻搜索库，注重易用性、简单性和可部署性，由Spotify开源。
@@ -3855,6 +3853,7 @@
 * [Faiss4j](https://github.com/thenetcircle/faiss4j)：Facebook Faiss的Java封装。
 * [Hnswlib JNA](https://github.com/stepstone-tech/hnswlib-jna)：使用Hnswlib和JNA在Java应用程序中实现类似原生应用的最近邻搜索性能。
 * [Jvptree](https://github.com/jchambers/jvptree)：Jvptree是一个用Java编写的通用视点树实现，它能够快速搜索给定点的最近邻节点。
+* [JNA Faiss](https://github.com/gameofdimension/jni-faiss)：Faiss的Java本地接口。
 
 #### 条件随机场
 
@@ -3883,6 +3882,7 @@
 * [jLDADMM](https://github.com/datquocnguyen/jLDADMM)：jLDADMM是一个用于LDA和DMM主题模型的Java包。
 * [ReactiveLDA](https://github.com/kifi/ReactiveLDA)：ReactiveLDA是潜在狄利克雷分配(LDA)算法的轻量级实现。
 * [Ansj Fast LDA](https://github.com/NLPchina/ansj_fast_lda)：LDA的Java实现。
+* [LDAGibbsSampling](https://github.com/yangliuy/LDAGibbsSampling)：用于LDA吉布斯采样的开源软件包。
 
 #### PMML
 
@@ -3973,6 +3973,8 @@
 * [BetterKoreanKotlin](https://github.com/daangn/betterkoreankotlin)：BetterKoreanKotlin是一个用于韩语语法中自动选择正确助词的Kotlin多平台库。
 * [OpenXBOW](https://github.com/openXBOW/openXBOW)：OpenXBOW可以根据一系列数值和/或文本特征(例如声学LLD、视觉特征和自然语音转录)生成词袋模型，由奥格斯堡大学开源。
 * [JHazm](https://github.com/mojtaba-khallash/JHazm)：Hazm(用于解析波斯语文本的Python库)的Java版本。
+* [TrNLtk Java](https://github.com/aliok/trnltk-java)：土耳其语自然语言工具包。
+* [TermSuite](https://github.com/termsuite/termsuite-core)：TermSuite是一个基于Java UIMA的工具箱，用于术语提取和多语言术语对齐。
 
 #### 分词器
 
@@ -4037,6 +4039,7 @@
 * [Seunjeon](https://bitbucket.org/eunjeon/seunjeon)：这是一个基于mecab-ko-dic构建的韩语词法分析器，运行于JVM平台。
 * [Yiya](https://github.com/naosense/Yiya)：一个中文无字典分词程序。
 * [Jmorphy2](https://github.com/anti-social/jmorphy2)：Pymorphy2的Java移植版。
+* [Kss Java](https://github.com/sangdee/kss-java)：使用启发式算法将韩文文本分割成句子。
 
 #### 语言库
 
@@ -4057,6 +4060,8 @@
 * [WanaKana Kt](https://github.com/esnaultdev/wanakana-kt)：Kotlin实用库，用于检测和转写平假名、片假名和罗马字。
 * [ChineseStrokeSorting](https://github.com/ouyangpeng/ChineseStrokeSorting)：中文笔划排序、20902个汉字的笔画数目以及编码表。
 * [Kotlin Pluralizer](https://github.com/cesarferreira/kotlin-pluralizer)：用于将字符串复数化和单数化的Kotlin扩展。
+* [Gimei Java](https://github.com/moznion/gimei-java)：Gimei的Java移植版，它可以生成包含三种类型字符的虚构信息，汉字、平假名和片假名。
+* [Kanjirecog](https://github.com/quen/kanjirecog)：能够识别用户绘制的日语汉字的Java库。
 
 #### 拼音库
 
@@ -4114,6 +4119,7 @@
 * [EXEMPLAR](https://github.com/U-Alberta/exemplar)：EXEMPLAR是一个开放式关系抽取系统，源自阿尔伯塔大学的一个研究项目。
 * [Odinson](https://github.com/lum-ai/odinson)：Odinson可用于快速查询自然语言知识库并提取结构化关系。
 * [RelationFactory](https://github.com/uds-lsv/relationfactory)：RelationFactory是一个关系抽取和知识库填充系统，由萨尔兰大学开源。
+* [CATENA](https://github.com/paramitamirza/CATENA)：CATENA是一个基于筛法的系统，用于从英文文本中执行时间关系和因果关系的抽取和分类，利用时间模型和因果模型之间的交互作用。
 
 #### 文本分类
 
@@ -4364,38 +4370,31 @@
 * [BGSLibrary](https://github.com/andrewssobral/bgslibrary)：BGSLibrary是一个全面的C++框架，专为计算机视觉应用中的背景减法而设计，尤其适用于检测视频流中的运动物体。
 * [TAIP](https://gitee.com/xshuai/taip)：TAIP是调用腾讯AI接口封装的Java客户端，为调用腾讯AI功能的开发人员提供了一系列的交互方法。
 * [Origami](https://github.com/hellonico/origami)：Origami是JVM上的图像处理、计算机视觉和神经网络库。
-* [PaperVision](https://github.com/deltacv/PaperVision)：PaperVision旨在让计算机视觉更容易被使用。
 * [Image Forensics](https://github.com/MKLab-ITI/image-forensics)：这是一个用于图像取证分析的集成框架。
-* [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
-* [JavaVision](https://gitee.com/javpower/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
 * [VisRec API](https://github.com/JavaVisRec/visrec-api)：Java视觉识别规范API。
 * [OpenCV](https://github.com/PatternConsulting/opencv)：OpenCV Java绑定，与本地库打包在一起。
 * [JFeatureLib](https://github.com/locked-fg/JFeatureLib)：JFeatureLib是一个免费库，提供了几种图像特征的实现，以及主要用于计算机视觉研究领域的几种点/区域检测器。
 * [YUV2Mat](https://github.com/QuickBirdEng/yuvToMat)：用于将YUV_420_888 Android相机图像转换为OpenCV RGB材质的高性能库。
 * [NyARToolkit](https://github.com/nyatla/NyARToolkit)：NyARToolkit是一个基于ARToolKit 5.3.2的AR应用类库。
 * [EyeTribe Java SDK](https://github.com/EyeTribe/tet-java-client)：The Eye Tribe Tacker的Java SDK。
+* [Cognitive Vision Android](https://github.com/microsoft/Cognitive-Vision-Android)：Microsoft Computer Vision API的Android客户端库。
 
 #### OCR
 
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
+* [JavaCPP Presets](https://github.com/bytedeco/javacpp-presets)：JavaCPP Presets模块包含常用C/C++库的Java配置和接口类。
 * [C-OCR](https://github.com/ctripcorp/C-OCR)：C-OCR是携程自研的OCR项目，主要包括身份证、护照、火车票、签证等旅游相关证件、材料的识别。
 * [Aspose.OCR](https://products.aspose.com/ocr/java/)：Aspose OCR是一种高效、用户友好且经济高效的OCR API。
 * [Spire.OCR](https://www.e-iceblue.com/Introduce/ocr-for-java.html)：Spire.OCR是一个专业的OCR库，可从JPG、PNG、GIF、BMP和TIFF格式的图像中读取文本。
-* [Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix)：Image2LaTeX提供将图像转换为某些LaTeX方程格式和OCR的核心功能。
-* [Tesseract4java](https://github.com/tesseract4java/tesseract4java)：Tesseract4java是用于Tesseract OCR的Java GUI和工具。
-* [OCR4All](https://github.com/OCR4all/OCR4all)：OCR4All允许任何给定用户对各种历史印刷品独立执行OCR，并以合理的时间支出获得高质量的结果，由维尔茨堡大学开源。
 * [EasyOCR](https://github.com/ushelp/EasyOCR)：EasyOCR是一个使用Java语言实现的OCR识别引擎，能自动完成图片清理、识别CAPTCHA验证码图片内容的一体化工作。
-* [TreeHole OCR](https://github.com/AnyListen/tools-ocr)：TreeHole OCR是一款跨平台的OCR小工具，调用本地OCR进行识别，无需联网即可使用用到的技术和框架。
 * [RapidOcr Java](https://github.com/MyMonsterCat/RapidOcr-Java)：Java代码实现调用RapidOCR。
 * [Java OCR API](https://github.com/Asprise/java-ocr-api)：Java OCR允许你对图像(JPEG、PNG、TIFF、PDF等)执行OCR和条形码识别，并输出为纯文本、具有完整坐标的XML以及可搜索的PDF。
 * [Ocular](https://github.com/tberg12/ocular)：Ocular是一款先进的历史OCR系统。
 * [KanjiTomo OCR](https://github.com/sakarika/kanjitomo-ocr)：KanjiTomo OCR是一个用于从图像中识别日语字符的Java库。
-* [MathOCR](https://github.com/chungkwong/MathOCR)：MathOCR是一个用Java语言编写的印刷体科技文档识别系统。
 * [NewOCR](https://github.com/MSPaintIDE/NewOCR)：NewOCR是一款用Java制作的OCR，无需使用机器学习。
 * [JiaJiaOCR](https://github.com/jiangnanboy/JiaJiaOCR)：JiaJiaOCR完全用Java代码实现OCR功能，无需调用DLL或者EXE文件。
 * [Tess Two](https://github.com/rmtheis/tess-two)：Android版Tesseract工具是一组用于Tesseract OCR和Leptonica图像处理库的Android API和构建文件。
 * [Vlpr4j](https://github.com/eguid/vlpr4j)：基于OpenCV的Java车牌检测识别库。
-* [JavaANPR](https://github.com/oskopek/javaanpr)：JavaANPR是一款自动车牌识别软件。
 * [OpenAnpr](https://gitee.com/open-visual/open-anpr)：基于深度学习的智能车牌识别，支持14种中文车牌类型。
 * [ABBYY Cloud OCR SDK](https://github.com/abbyy/ocrsdk.com)：ABBYY Cloud OCR SDK提供Web API，可轻松在C#、Java、Python或任何其他支持网络通信的开发工具中使用。
 * [PdfOCR](https://github.com/itext/itext-pdfocr-java)：PdfOCR是iText的一个插件，用于识别和提取扫描文档和图像中的文本。
@@ -4413,12 +4412,9 @@
 * [CompreFace](https://github.com/exadel-inc/CompreFace)：Exadel CompreFace是一项免费的开源人脸识别服务，无需具备机器学习技能即可轻松集成到任何系统中。
 * [SeetaFace2 Engine](https://github.com/seetaface/SeetaFaceEngine2)：SeetaFace2 Engine包含三个关键部分，即SeetaFace2检测、SeetaFace2对齐和SeetaFace2识别，由中国科学院开源。
 * [ArcFace](https://github.com/itboyst/ArcSoftFaceDemo)：ArcFace 3.0免费离线人脸识别SDK。
-* [Face Recognition](https://github.com/Qualeams/Android-Face-Recognition-with-Deep-Learning-Library)：Face Recognition是用于Android和Java的人脸识别库，由苏黎世应用科学大学开源。
 * [FaceRecognition](https://github.com/wihoho/FaceRecognition)：FaceRecognition是使用PCA、LDA和LPP实现的人脸识别项目。
 * [SeetafaceJNI](https://gitee.com/cnsugar/seetafaceJNI)：SeetafaceJNI是基于中科院Seetaface 2进行封装的Java人脸识别库。
 * [FaceSearch](https://gitee.com/open-visual/face-search)：FaceSearch是阿里云视觉智能开放平台的人脸搜索M:N的开源替代。
-* [FaceRecognition LivenessDetection Android](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android)：适用于Android的本地人脸识别人脸活体检测SDK，由FacePlugIn开源。
-* [Red5](https://gitee.com/endlesshh/red5-rtmp-push)：Java版天网人脸识别系统，可以获取视频流进行人脸识别后推送到流媒体服务器实时展示。
 * [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：千搜科技第五代人脸识别引擎Java接口。
 * [SeetaFace6 Java SDK](https://github.com/tracy100/seetaface6SDK)：基于SeetaFace6的Java语言SDK封装，提供完整的人脸识别解决方案。
 * [Face++](https://github.com/FacePlusPlus/facepp-java-sdk)：适用于Java的Face++ SDK。
@@ -4441,14 +4437,13 @@
 * [OpenDial](https://github.com/plison/opendial)：OpenDial是一个基于Java、领域无关的工具包，用于开发语音对话系统，由奥斯陆大学开源。
 * [Recognito](https://github.com/amaurycrickx/recognito)：Java中的文本独立说话人识别。
 * [ElevateAI Java SDK](https://github.com/NICEElevateAI/ElevateAIJavaSDK)：ElevateAI提供了用于语音转文本、语音交互的行为分析和情感分析的API。
+* [讯飞开放平台AI能力Java SDK](https://github.com/iFLYTEK-OP/websdk-java)：提供各种讯飞开放平台能力的Java SDK。
 * [WhisperJNI](https://github.com/GiviMAD/whisper-jni)：whisper.cpp的JNI包装器，允许将语音转录为Java中的文本。
 * [AIUIChatSDK](https://github.com/wowo3129/AIUIChatSDK)：讯飞语音AIUI、百度语音封装。
-* [WhisperCat](https://github.com/ddxy/whispercat)：WhisperCat是你捕捉音频、转录和管理音频的得力助手，所有功能都集成在一个简洁流畅的界面中。
 * [Actions On Google Client Library](https://github.com/ticketmaster/actions-on-google-kotlin)：用于Google Actions的JVM客户端库。
 * [Rivr](https://github.com/nuecho/rivr)：Rivr是一个轻量级的开源对话引擎，使Java开发人员能够轻松创建企业级VoiceXML应用程序。
 * [JVoiceXML](https://github.com/JVoiceXML/JVoiceXML)：开源VoiceXML解释器。
 * [Dialogflow Java Client](https://github.com/dialogflow/dialogflow-java-client)：Dialogflow的Java客户端库。
-* [SpeechToText](https://gitee.com/yzd_org/speechToText)：基于WebSocket实现浏览器端文本、视频、语音的即时通讯，以及实时语音转文字。
 * [ASRT SDK Java](https://github.com/nl8590687/ASRT_SDK_Java)：用于ASRT语音识别系统的Java SDK。
 
 ### 语音合成
@@ -4456,14 +4451,9 @@
 * [Supertonic](https://github.com/supertone-inc/supertonic)：Supertonic是一款速度极快的设备端多语言文本转语音系统，专为本地推理而设计，开销极低。
 * [MaryTTS](https://github.com/marytts/marytts)：MaryTTS是一个用纯Java编写的开源、多语言文本到语音合成系统。
 * [FreeTTS](https://freetts.sourceforge.io/)：FreeTTS是一个完全用Java编程语言编写的语音合成系统。
-* [VeloVoice](https://github.com/Mai-Onsyn/VeloVoice)：一个用于解析中文小说并通过TTS转换为语音的JavaFX软件。
 * [Java TTS](https://github.com/ikfly/java-tts)：参考其他语言版本写的Java版文字转语音，使用Edge API。
-* [Edge-TTS](https://github.com/yynag/edge-tts-android)：Edge-TTS是一款文本转语音服务，它使用Edge-TTS API将文本转换为语音。
-* [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
 * [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
 * [Voices](https://github.com/hcoles/voices)：适用于Java 17及更高版本的快速进程内文本转语音。
-* [AndroidMaryTTS](https://github.com/AndroidMaryTTS/AndroidMaryTTS)：AndroidMaryTTS是一款基于MaryTTS构建的开源Android离线文本转语音应用。
-* [Xufei Music](https://gitee.com/52itstyle/xufei_msc)：讯飞语音Java Web语音合成解决方案。
 * [TextToSpeechKt](https://github.com/Marc-JB/TextToSpeechKt)：适用于Kotlin的多平台文本转语音库。
 * [ZmeetAI TTS](https://github.com/zmeet-ai/tts-demo)：ZmeetAI语音合成Java SDK。
 * [Java TTS](https://github.com/ekk0/java-tts)：一个基于Java的粤语发音TTS，文字转语音。
