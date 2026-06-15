@@ -260,6 +260,7 @@
   * [数据源增强](docs/doc2.md#数据源增强)
   * [数据库代理](docs/doc2.md#数据库代理)
   * [数据库工具](docs/doc2.md#数据库工具)
+  * [数据库逆向工程](docs/doc2.md#数据库逆向工程)
   * [存储过程](docs/doc2.md#存储过程)
   * [N+1检测](docs/doc2.md#N1检测)
   * [MySQL库/工具](docs/doc2.md#MySQL库工具)
@@ -542,6 +543,7 @@
   * [OBJ库](docs/doc2.md#OBJ库)
   * [OFD库](docs/doc2.md#OFD库)
   * [HWP库](docs/doc2.md#HWP库)
+  * [平面文件](docs/doc2.md#平面文件)
   * [文件库](docs/doc2.md#文件库)
   * [文件转换](docs/doc2.md#文件转换)
     * [PDF/HTML转换](docs/doc2#PDFHTML转换)
@@ -1540,6 +1542,7 @@
 * [SwitchYard](https://switchyard.jboss.org/)：SwitchYard是一个基于组件的开发框架，专注于使用面向服务的架构(SOA)的概念和最佳实践来构建结构化、可维护的服务和应用程序，由JBoss社区开源。
 * [Saluki](https://github.com/spring-avengers/saluki)：Saluki是一个基于gRPC Java的微服务框架。
 * [Trooper](https://github.com/regunathb/Trooper)：Trooper是一个Java模块式框架，提供多种运行时配置文件用于构建应用程序。
+* [Cougar](https://github.com/betfair/cougar)：Cougar是一个框架，旨在简化构建网络暴露服务接口的过程，由Betfair开源。
 
 ## HTTP客户端
 
@@ -1998,6 +2001,8 @@
 * [Hype](https://github.com/spotify/hype)：Hype允许你在分布式环境中执行任意JVM代码，其中不同的代码部分可以在独立的Docker容器中并发运行，由Spotify开源。
 * [AWS Lambda Java Runtime](https://github.com/andthearchitect/aws-lambda-java-runtime)：适用于AWS Lambda的自定义Java 11运行时。
 * [App Engine Plugins](https://github.com/GoogleCloudPlatform/appengine-plugins)：一个用于管理App Engine Java应用程序的客户端Java库。
+* [Funcatron](https://github.com/funcatron/funcatron)：Funcatron是一个Java Serverless框架。
+* [Nimbus](https://github.com/thomasjallerton/nimbus-framework)：Nimbus是一个Java框架，它允许轻松部署和测试Serverless应用程序。
 
 ## API网关
 
@@ -3979,6 +3984,7 @@
 * [JHazm](https://github.com/mojtaba-khallash/JHazm)：Hazm(用于解析波斯语文本的Python库)的Java版本。
 * [TrNLtk Java](https://github.com/aliok/trnltk-java)：土耳其语自然语言工具包。
 * [TermSuite](https://github.com/termsuite/termsuite-core)：TermSuite是一个基于Java UIMA的工具箱，用于术语提取和多语言术语对齐。
+* [JInsect](https://github.com/ayushoriginal/Ngram-Graphs)：JINSECT是一个基于Java的工具包和库，它支持并演示了在自然语言处理应用中使用N-Gram图的方法，应用范围涵盖摘要生成、摘要评估、文本分类和索引等。
 
 #### 分词器
 
@@ -4449,12 +4455,13 @@
 * [JVoiceXML](https://github.com/JVoiceXML/JVoiceXML)：开源VoiceXML解释器。
 * [Dialogflow Java Client](https://github.com/dialogflow/dialogflow-java-client)：Dialogflow的Java客户端库。
 * [ASRT SDK Java](https://github.com/nl8590687/ASRT_SDK_Java)：用于ASRT语音识别系统的Java SDK。
+* [MRCP4j](https://github.com/JVoiceXML/mrcp4j)：MRCP4J提供了一个封装了MRCPv2协议的Java API，可用于实现MRCP客户端和/或服务器。
 
 ### 语音合成
 
 * [Supertonic](https://github.com/supertone-inc/supertonic)：Supertonic是一款速度极快的设备端多语言文本转语音系统，专为本地推理而设计，开销极低。
 * [MaryTTS](https://github.com/marytts/marytts)：MaryTTS是一个用纯Java编写的开源、多语言文本到语音合成系统。
-* [FreeTTS](https://freetts.sourceforge.io/)：FreeTTS是一个完全用Java编程语言编写的语音合成系统。
+* [FreeTTS](https://github.com/JVoiceXML/FreeTTS)：FreeTTS是一个完全用Java编程语言编写的语音合成系统。
 * [Java TTS](https://github.com/ikfly/java-tts)：参考其他语言版本写的Java版文字转语音，使用Edge API。
 * [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
 * [Voices](https://github.com/hcoles/voices)：适用于Java 17及更高版本的快速进程内文本转语音。
