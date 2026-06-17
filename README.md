@@ -85,6 +85,7 @@
   * [MCP](#MCP)
   * [A2A](#A2A)
   * [代理框架](#代理框架)
+  * [RAG](#RAG)
   * [AI智能体](#AI智能体)
   * [OpenClaw](#OpenClaw)
   * [AI网关](#AI网关)
@@ -501,7 +502,6 @@
   * [二维码库](docs/doc2.md#二维码库)
   * [条形码库](docs/doc2.md#条形码库)
   * [水印](docs/doc2.md#水印)
-  * [图像操作软件](docs/doc2.md#图像操作软件)
 * [压缩库](docs/doc2.md#压缩库)
   * [数据压缩](docs/doc2.md#数据压缩)
   * [文件压缩](docs/doc2.md#文件压缩)
@@ -523,7 +523,6 @@
     * [PDF表格库](docs/doc2.md#PDF表格库)
     * [PDF比较库](docs/doc2.md#PDF比较库)
     * [PDF布局库](docs/doc2.md#PDF布局库)
-    * [PDF签名](docs/doc2.md#PDF签名)
   * [Excel库](docs/doc2.md#Excel库)
   * [CSV库](docs/doc2.md#CSV库)
   * [Word库](docs/doc2.md#Word库)
@@ -626,7 +625,6 @@
 * [API变更管理](docs/doc2.md#API变更管理)
 * [源代码转换](docs/doc2.md#源代码转换)
 * [代码预处理](docs/doc2.md#代码预处理)
-* [源代码浏览器](docs/doc2.md#源代码浏览器)
 * [企业软件开发](docs/doc2.md#企业软件开发)
   * [项目模板](docs/doc2.md#项目模板)
   * [脚手架](docs/doc2.md#脚手架)
@@ -1375,6 +1373,7 @@
 * [Apache Axis2](https://github.com/apache/axis-axis2-java-core)：Apache Axis2是一个Web Services JSON/SOAP/WSDL引擎。
 * [JBossWS](https://jbossws.github.io/)：JBossWS是一个框架，它为WildFly和Red Hat JBoss企业应用平台(JBoss EAP)提供符合Eclipse Enterprise标准的Web Services技术。
 * [IceSoap](https://github.com/AlexGilleran/IceSoap)：IceSoap为Android设备提供对SOAP Web Services的快速、简便的异步访问。
+* [WSO2 WSDL4j](https://github.com/wso2/wso2-wsdl4j)：WSDL4J库用于解析、创建和操作WSDL文档。
 
 ### RPC框架
 
@@ -1694,6 +1693,7 @@
 * [Shine](https://github.com/FreddyChen/Shine-Java)：Shine是基于Retrofit、RxJava实现的Java网络请求封装库。
 * [Glin](https://github.com/qibin0506/Glin)：Glin是一款灵活、支持中间件的Java/Android动态代理网络框架。
 * [Advanced HttpURLConnection](https://github.com/VishnuSivadasVS/Advanced-HttpURLConnection)：HttpURLConnection的封装库，更安全、更简单。
+* [Rapa](https://github.com/harikrishnan83/rapa)：ActiveResource风格的Java REST Client。
 
 ## Web服务器
 
@@ -1845,6 +1845,7 @@
 * [Minit](https://github.com/YaleGuo/Minit)：Minit是一个迷你版Tomcat。
 * [NIO Http Server](https://github.com/shenfeng/nio-httpserver)：一个简单的异步Java HTTP服务器。
 * [Dimdwarf](https://github.com/luontola/dimdwarf)：Dimdwarf是一个非侵入式的Java分布式应用服务器。
+* [Jet](https://petersoj.github.io/jet/)：Jet是一个简单、轻量级、现代化的即用型Java Web客户端和服务器库。
 
 ## 微服务治理
 
@@ -2194,6 +2195,7 @@
 * [SDS](https://gitee.com/wangliang1991/sds)：SDS是高可用的Socket负载均衡框架。
 * [TNS](https://github.com/jerrysearch/tns)：TNS为Thrift提供分布式解决方案，支持查找服务、高可用性、负载均衡、灰度发布、水平扩展等。
 * [PlayPen](https://github.com/PlayPen/playpen-core)：PlayPen是一个通用的跨平台服务器管理和负载均衡框架。
+* [Gatekeeper](https://github.com/Xorlev/gatekeeper)：Gatekeeper将NGINX变成你的边缘服务。
 
 #### 健康检查
 
@@ -2528,6 +2530,8 @@
 * [Pramen](https://github.com/AbsaOSS/pramen)：Pramen是一个基于Spark的数据管道定义框架，由南非联合银行集团开源。
 * [PocketETL](https://github.com/amazon-archives/pocket-etl)：PocketETL是一个可扩展的Java库，它使用原生流式Java来协调服务之间的批量ETL数据，由AWS开源。
 * [SmartETL](https://github.com/dennisk28/SmartETL)：轻量级ETL引擎和智能转换框架。
+* [Sope](https://github.com/mayur2810/sope)：Sope是一套实用工具和库函数，旨在帮助使用Apache Spark进行ETL开发。
+* [SharpETL](https://github.com/SharpData/SharpETL)：Sharp ETL是一个ETL框架，它通过编写SQL工作流文件来简化ETL的编写和执行。
 
 #### CDC组件
 
@@ -2699,6 +2703,7 @@
 * [Timeseries Forecast](https://github.com/Workday/timeseries-forecast)：这是一个Java开源库，提供时序预测功能。
 * [STL4j](https://github.com/ServiceNow/stl-decomp-4j)：Seasonal Trend Loess时序分解算法的Java实现。
 * [Java Time Series](https://github.com/signaflo/java-timeseries)：Java中的时序分析。
+* [Hawkular Data Mining](https://github.com/hawkular/hawkular-datamining)：Data Mining是Hawkular的时序预测引擎。
 
 ## 消息中间件
 
@@ -2786,6 +2791,7 @@
 * [DubSub](https://github.com/alexanderjarvis/DubSub)：基于Akka集群的分布式PubSub。
 * [Orkes Queues](https://github.com/orkes-io/orkes-queues)：Orkes Queues是一个基于Redis作为底层存储的高性能队列方案。
 * [Delay Queue](https://github.com/JianSphere/delay-queue)：基于Redis的延迟队列系统。
+* [Simple Message Queue](https://github.com/RealTimeLogic/SMQ)：Simple Message Queue是一种轻量级的发布/订阅协议，用于设备、应用程序和浏览器之间的实时通信。
 
 ## 分布式开发
 
@@ -2984,6 +2990,7 @@
 * [CRDTs](https://github.com/ajermakovics/crdts)：Java的简单无冲突复制数据类型。
 * [Itc4j](https://github.com/sinabz/itc4j)：用Java实现的区间树时钟。
 * [Java CRDT Library](https://github.com/dclements/riak-java-crdt)：专注于支持Riak的Java CRDT库。
+* [C-CRDTLib](https://github.com/concordant/c-crdtlib)：这是一个用Kotlin编写的CRDT库，用于Concordant平台API。
 
 ## 数据库
 
@@ -3352,7 +3359,6 @@
 * [DriftKit](https://github.com/driftkit-ai/driftkit-framework)：DriftKit是适用于Java的生产级AI框架。
 * [SmartFuse](https://github.com/mainpropath/AI-SmartFuse-Framework)：SmartFuse是一个大模型应用框架。
 * [Dokimos](https://github.com/dokimos-dev/dokimos)：Dokimos是一个开源的Java大语言模型应用评估框架。
-* [Java RAG](https://github.com/ChinaYiqun/java-rag)：RAG项目，它提供了RAG流水线和Agent模式。
 * [Rage4J](https://github.com/explore-de/rage4j)：Rage4J提供多种工具，用于评估和衡量语言模型输出的质量。
 * [OxyJen](https://github.com/11divyansh/OxyJen)：OxyJen是Java和JVM企业所缺失的AI框架。
 * [LLMChain](https://github.com/wangmuy/llmchain)：这是LangChain到Android/JVM/Kotlin多平台的实验性移植版本。
@@ -3364,7 +3370,6 @@
 * [PocketFlow](https://github.com/The-Pocket/PocketFlow-Java)：PocketFlow是原始Python PocketFlow框架的直接移植版本。
 * [Naftiko Framework](https://github.com/naftiko/framework)：Naftiko Framework是第一个面向规范驱动集成的开源项目。
 * [Aifei](https://github.com/jfinal/aifei)：Aifei是一个AI Coding框架。
-* [LightRAG4J](https://github.com/taofmvp/lightrag4j)：LightRAG4J是一个Java优先的LightRAG风格检索库。
 * [Autogen4j](https://github.com/HamaWhiteGG/autogen4j)：Java版Microsoft AutoGen，支持下一代大语言模型应用程序。
 * [Txtai.Java](https://github.com/neuml/txtai.java)：Txtai是一个集语义搜索、LLM编排和语言模型工作流程于一体的AI框架。
 
@@ -3494,6 +3499,13 @@
 * [Spring AI AgentX](https://github.com/bigchuidw3/spring-ai-agentx)：Spring AI AgentX是一款面向Java开发者的AI Agent开发框架。
 * [Easy Agent](https://github.com/songrongzhen/easy-agent)：Easy Agent是一个即插即用的Java智能体开发组件，旨在让任何基于Spring Boot的应用系统快速接入AI能力。
 
+### RAG
+
+* [Java RAG](https://github.com/ChinaYiqun/java-rag)：RAG项目，它提供了RAG流水线和Agent模式。
+* [LightRAG4J](https://github.com/taofmvp/lightrag4j)：LightRAG4J是一个Java优先的LightRAG风格检索库。
+* [Ragflow4j](https://github.com/aaronshan/ragflow4j)：Ragflow4j是一个开源的RAG引擎。
+* [Spring AI LoomAgent](https://github.com/wb04307201/spring-ai-loom-agent)：Spring AI LoomAgent是一个Spring Boot自动配置库，它将RAG知识库、MCP工具调用和Skill库注入到Spring AI应用程序中，并提供开箱即用的聊天UI。
+
 ### AI智能体
 
 * [JoyAgent JDGenie](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
@@ -3529,6 +3541,7 @@
 * [ReachAI](https://github.com/w8123/EnterpriseAgentFramework)：ReachAI是面向Java/Spring Boot企业系统的AI能力注册、治理与Agent编排平台。
 * [Runify](https://github.com/runify-dev/runify)：Runify的核心设计目标是极力降低本地资源占用，让开发者无负担地拉起一套Agent环境。
 * [Spring Boot Dify API](https://github.com/Pitayafruits/springboot-dify-api)：基于Spring Boot封装了调用Dify服务的API。
+* [AgentNexus](https://github.com/wozhenbang2004/AgentNexus)：AgentNexus是一个功能完备、可热插拔、生产级的企业智能体基础设施。
 
 ### OpenClaw
 
@@ -3603,6 +3616,7 @@
 * [TensorFlow Java](https://github.com/tensorflow/java)：TensorFlow可以在任何JVM上运行，用于构建、训练和运行机器学习模型，Google开源。
 * [TensorFlow Scala](https://github.com/eaplatanios/tensorflow_scala)：适用于Scala编程语言的TensorFlow API。
 * [Guildsman](https://github.com/bpiel/guildsman)：Clojure的TensorFlow库。
+* [TensorFlow Kotlin](https://github.com/TensorFlow-Kotlin/tensorflow-kotlin)：TensorFlow的Kotlin API。
 * [Apache Mahout](https://github.com/apache/mahout)：Mahout的目标是构建一个用于快速创建可扩展、高性能机器学习应用程序的环境。
 * [Apache SystemDS](https://github.com/apache/systemds)：SystemDS是一个开源ML系统，适用于端到端数据科学生命周期。
 * [Alink](https://github.com/alibaba/Alink)：Alink是基于Flink的机器学习算法平台，由阿里计算平台PAI团队开发。
@@ -3696,6 +3710,7 @@
 * [Lolo](https://github.com/CitrineInformatics/lolo)：Lolo是一个以随机森林为中心的Scala机器学习库。
 * [Java Decision Tree](https://github.com/saebyn/java-decision-tree)：Java中的决策树类。
 * [Mustard](https://github.com/Data2Semantics/mustard)：Mustard是一个机器学习库，用于使用核方法从RDF数据中进行学习。
+* [EasyML](https://github.com/tomLamprecht/Easy-ML-For-Java)：一个使用神经网络和遗传算法实现机器学习的Java框架。
 
 #### 神经网络
 
@@ -3783,6 +3798,7 @@
 * [BURLAP](https://github.com/jmacglashan/burlap)：BURLAP是一个Java代码库，用于开发单智能体或多智能体规划与学习算法及其相关领域，由布朗大学开源。
 * [JADE](https://jade.tilab.com/)：JADE是一个用Java实现的软件代理开发框架，由意大利电信开发。
 * [Computoser](https://github.com/Glamdring/computoser)：Computoser混合概率/规则算法参考实现。
+* [Mcts4j](https://github.com/avianey/mcts4j)：蒙特卡洛树搜索算法的纯Java实现。
 
 #### 联邦学习
 
@@ -4072,6 +4088,8 @@
 * [Kotlin Pluralizer](https://github.com/cesarferreira/kotlin-pluralizer)：用于将字符串复数化和单数化的Kotlin扩展。
 * [Gimei Java](https://github.com/moznion/gimei-java)：Gimei的Java移植版，它可以生成包含三种类型字符的虚构信息，汉字、平假名和片假名。
 * [Kanjirecog](https://github.com/quen/kanjirecog)：能够识别用户绘制的日语汉字的Java库。
+* [Iuliia Java](https://github.com/Homyakin/iuliia-java)：Iuliia Java可将西里尔字母转写为拉丁字母。
+* [JcJcCuoBieZiJavaClient](https://github.com/textproofreading/JcJcCuoBieZiJavaClient)：JCJC错别字检测Java接口代码。
 
 #### 拼音库
 
@@ -4227,6 +4245,7 @@
 * [Language Detector](https://github.com/optimaize/language-detector)：Java语言检测库。
 * [JLangDetect](https://github.com/melix/jlangdetect)：JLangDetect是JVM的语言检测库。
 * [Language Detection CLD2](https://github.com/commoncrawl/language-detection-cld2)：自然语言检测，CLD2的Java绑定。
+* [Language Detection](https://github.com/rmtheis/language-detection)：Android语言检测库。
 
 #### 拼写检查
 
@@ -4402,6 +4421,7 @@
 * [Ocular](https://github.com/tberg12/ocular)：Ocular是一款先进的历史OCR系统。
 * [KanjiTomo OCR](https://github.com/sakarika/kanjitomo-ocr)：KanjiTomo OCR是一个用于从图像中识别日语字符的Java库。
 * [NewOCR](https://github.com/MSPaintIDE/NewOCR)：NewOCR是一款用Java制作的OCR，无需使用机器学习。
+* [MathOCR](https://github.com/chungkwong/MathOCR)：MathOCR是一款用纯Java编写的印刷科学文档识别系统。
 * [JiaJiaOCR](https://github.com/jiangnanboy/JiaJiaOCR)：JiaJiaOCR完全用Java代码实现OCR功能，无需调用DLL或者EXE文件。
 * [Tess Two](https://github.com/rmtheis/tess-two)：Android版Tesseract工具是一组用于Tesseract OCR和Leptonica图像处理库的Android API和构建文件。
 * [Vlpr4j](https://github.com/eguid/vlpr4j)：基于OpenCV的Java车牌检测识别库。
