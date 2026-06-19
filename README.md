@@ -425,7 +425,6 @@
   * [RDF库](docs/doc2.md#RDF库)
   * [知识图谱](docs/doc2.md#知识图谱)
 * [生物信息学](docs/doc2.md#生物信息学)
-  * [生物工具](docs/doc2.md#生物工具)
   * [生物工作流](docs/doc2.md#生物工作流)
   * [基因组](docs/doc2.md#基因组)
   * [NGS](docs/doc2.md#NGS)
@@ -542,6 +541,8 @@
   * [OBJ库](docs/doc2.md#OBJ库)
   * [OFD库](docs/doc2.md#OFD库)
   * [HWP库](docs/doc2.md#HWP库)
+  * [ELF库](docs/doc2.md#ELF库)
+  * [vCards库](docs/doc2.md#vCards库)
   * [平面文件](docs/doc2.md#平面文件)
   * [文件库](docs/doc2.md#文件库)
   * [文件转换](docs/doc2.md#文件转换)
@@ -730,7 +731,6 @@
   * [闪电网络](docs/doc2.md#闪电网络)
   * [钱包应用](docs/doc2.md#钱包应用)
   * [交易所](docs/doc2.md#交易所)
-  * [交易机器人](docs/doc2.md#交易机器人)
   * [交易所API](docs/doc2.md#交易所API)
   * [区块链SDK](docs/doc2.md#区块链SDK)
   * [智能合约](docs/doc2.md#智能合约)
@@ -837,7 +837,6 @@
   * [SWT](docs/doc2.md#SWT)
   * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
   * [浏览器](docs/doc2.md#浏览器)
-* [Processing](docs/doc2.md#Processing)
 * [IDE](docs/doc2.md#IDE)
 * [可视化编程](docs/doc2.md#可视化编程)
 * [文本编辑器](docs/doc2.md#文本编辑器)
@@ -948,8 +947,6 @@
   * [坐标库](docs/doc2.md#坐标库)
   * [经纬度库](docs/doc2.md#经纬度库)
   * [GeoJson](docs/doc2.md#GeoJson)
-  * [GIS系统](docs/doc2.md#GIS系统)
-  * [GIS GUI](docs/doc2.md#GIS-GUI)
   * [大地测量](docs/doc2.md#大地测量)
   * [地址解析](docs/doc2.md#地址解析)
 * [路由引擎](docs/doc2.md#路由引擎)
@@ -972,7 +969,6 @@
 * [OSGI](docs/doc2.md#OSGI)
 * [RAML](docs/doc2.md#RAML)
 * [OData](docs/doc2.md#OData)
-* [海关](docs/doc2.md#海关)
 * [蓝牙](docs/doc2.md#蓝牙)
 * [IPP](docs/doc2.md#IPP)
 * [OSC](docs/doc2.md#OSC)
@@ -1694,6 +1690,7 @@
 * [Glin](https://github.com/qibin0506/Glin)：Glin是一款灵活、支持中间件的Java/Android动态代理网络框架。
 * [Advanced HttpURLConnection](https://github.com/VishnuSivadasVS/Advanced-HttpURLConnection)：HttpURLConnection的封装库，更安全、更简单。
 * [Rapa](https://github.com/harikrishnan83/rapa)：ActiveResource风格的Java REST Client。
+* [Interceptable HTTP Client](https://github.com/raphw/interceptable-http-client)：用于创建可拦截的Java HttpClient的包装API。
 
 ## Web服务器
 
@@ -2374,6 +2371,7 @@
 * [Arrow Java](https://github.com/apache/arrow-java)：Arrow是一种通用的列式格式和多语言工具箱，用于快速数据交换和内存分析。
 * [Apache Parquet](https://github.com/apache/parquet-java)：Parquet是Hadoop生态系统中的任何项目都可以使用的列式存储格式，由Twitter和Cloudera共同开源。
 * [Carpet](https://github.com/jerolba/parquet-carpet)：Java的Parquet序列化和反序列化库。
+* [Vortex](https://github.com/vortex-data/vortex)：Vortex是一种新一代列式文件格式和工具包，专为高性能数据处理而设计。
 * [Hardwood](https://github.com/hardwood-hq/hardwood)：Apache Parquet的最小依赖实现。
 * [Parquet IO Java](https://github.com/exasol/parquet-io-java)：该项目提供了一个库，可以将Parquet文件读取到Java对象中。
 * [Parquet Floor](https://github.com/strategicblue/parquet-floor)：一个轻量级的Java库，无需Hadoop依赖即可轻松读写Apache Parquet文件。
@@ -3594,6 +3592,7 @@
 * [Alexa Skills Kit SDK](https://github.com/amzn/alexa-skills-kit-java)：ASK SDK Java让你能够更轻松地培养极具吸引力的技能，让你有更多时间专注于实现功能，而不是编写样板代码，由Amazon开源。
 * [ECA](https://github.com/editor-code-assistant/eca)：编辑器代码助手，与编辑器无关的AI配对编程能力。
 * [Brokk](https://github.com/BrokkAi/brokk)：Brokk是一个能够从语义上理解代码而非仅仅将其理解为文本块的代码助手。
+* [Eliza](https://github.com/codeanticode/eliza)：这是一个基于Charles Hayden的Eliza程序Java实现的Processing库。
 * [Claudine](https://github.com/xemantic/claudine)：Claudine是一个AI助手。
 * [PVA](https://github.com/Cyborgscode/Personal-Voice-Assistent)：PVA是一个开源的Linux/Unix语音辅助软件。
 * [IBM Watsonx Assistant Toolkit](https://github.com/watson-developer-cloud/assistant-toolkit)：IBM Watsonx Assistant Toolkit旨在帮助使用IBM Watsonx助手的开发者和数据科学家构建、部署和维护更高效的AI解决方案，以实现业务需求。
@@ -4395,6 +4394,7 @@
 * [JavaCV](https://github.com/bytedeco/javacv)：JavaCV包含OpenCV、FFmpeg等的Java接口。
 * [BoofCV](https://github.com/lessthanoptimal/BoofCV)：BoofCV是一个开源实时计算机视觉库，功能包括低级图像处理、相机校准、特征检测/跟踪、运动结构、分类和识别。
 * [SourceAFIS](https://github.com/robertvazan/sourceafis-java)：SourceAFIS Java是SourceAFIS(一种用于识别人类指纹的算法)的纯Java端口，它可以1:1比较两个指纹或1:N在大型数据库中搜索匹配的指纹。
+* [OpenCV Processing](https://github.com/atduskgreg/opencv-processing)：OpenCV Processing基于OpenCV的官方Java绑定，为常见的OpenCV函数提供方便的包装器。
 * [Yolo ONNX Java](https://gitee.com/agricultureiot/yolo-onnx-java)：Java开发视觉智能识别项目，纯Java调用Yolo ONNX模型。
 * [BGSLibrary](https://github.com/andrewssobral/bgslibrary)：BGSLibrary是一个全面的C++框架，专为计算机视觉应用中的背景减法而设计，尤其适用于检测视频流中的运动物体。
 * [TAIP](https://gitee.com/xshuai/taip)：TAIP是调用腾讯AI接口封装的Java客户端，为调用腾讯AI功能的开发人员提供了一系列的交互方法。
@@ -4436,6 +4436,7 @@
 * [OculiX](https://github.com/oculix-org/Oculix)：面向现实世界的可视化自动化。
 * [DdddOcr Java](https://github.com/GCS-ZHN/ddddocr-for-java)：基于DdddOcr构建的Java开源项目。
 * [Sikuli OCR](https://github.com/sarxos/sikuli-ocr)：基于Sikuli的OCR引擎。
+* [EasyPR Java](https://github.com/fan-wenjie/EasyPR-Java)：EasyPR是一个中文的开源车牌识别系统。
 
 #### 人脸识别
 
