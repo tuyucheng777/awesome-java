@@ -1099,7 +1099,7 @@
 * [GPars](https://github.com/GPars/GPars)：GPars框架为Java开发人员提供了直观且安全的方法来同时处理Java或Groovy任务。
 * [Async](https://github.com/OpenTSDB/async)：受Twisted API启发的异步Java处理构建块。
 * [FastAsync](https://gitee.com/china2010pan/fact-async)：FastAsync是一个基于Spring的异步并行框架。
-* [ConcurrentUtil](https://github.com/Tuinity/ConcurrentUtil)：适用于多线程安全编程的高性能实用程序。
+* [LeafPile](https://github.com/Tuinity/LeafPile)：适用于多线程安全编程的高性能实用程序。
 * [AsyncService](https://github.com/JoanZapata/android-asyncservice)：AsyncService使用注解来缩短启动异步长时间任务并返回结果所需的代码。
 * [Caesar](https://github.com/vbauer/caesar)：Caesar是一个小型的Java库，允许创建某个同步Bean的异步代理版本。
 * [Dactor](https://gitee.com/handyun/dactor)：Dactor是基于Java的轻量级同步异步统一编程框架。
@@ -1543,6 +1543,7 @@
 * [ContiPerf](https://github.com/lucaspouzac/contiperf)：ContiPerf是一个持续性能测试工具。
 * [Berserker](https://github.com/smartcat-labs/berserker)：Berserker是一款具有可插拔输入源和可配置输出的负载生成器。
 * [Pea](https://github.com/ojlm/pea)：Pea以Gatling为引擎，多节点场景下的压测工具。
+* [OG](https://github.com/IBM/og)：OG是一款HTTP负载测试工具，专为对象存储API的负载测试而设计，由IBM开源。
 
 #### 基准测试
 
@@ -2609,12 +2610,10 @@
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
 * [SQLHelper](https://github.com/bes2008/sqlhelper)：基于Java的SQL工具。
 * [DTT](https://github.com/julxxy/dtt-spring-boot-parent)：DTT是一个面向对象的Java框架，使开发者能够通过注解驱动的开发，基于领域模型自动创建数据库表。
-* [DBMetadata](https://gitee.com/free/DBMetadata)：DBMetadata可用于数据库表和字段的查询。
 * [jDialects](https://gitee.com/drinkjava2/jdialects)：jDialects支持多达80多种数据库方言的DDL创建、实体源码生成、分页、函数变换、类型变换及主要的JPA注解解析功能。
 * [DBSHOP](https://github.com/LeYunone/dbshop)：DBSHOP是一个数据库比对工具。
 * [MySQL2H2 Converter](https://github.com/bgranvea/mysql2h2-converter)：一个用Java编写的MySQL到H2 SQL转换库。
 * [ZenQuery](https://github.com/BjoernKW/ZenQuery)：ZenQuery允许你通过REST API轻松访问数据库。
-* [DB Meta](https://github.com/wukenaihe/db-meta)：Db Meta是一款免费的数据库模式发现和易用工具。
 * [NexusData](https://github.com/dkharrat/NexusData)：NexusData是一个面向Android的对象图和持久化框架。
 * [IDValue View Builder](https://github.com/kealdishx/idvalue-view-builder)：从模型轻松构建视图。
 * [SQL Code Intelligence](https://github.com/allwefantasy/sql-code-intelligence)：SQL Code Intelligence是一个代码补全后端引擎。
@@ -2795,6 +2794,7 @@
 * [Yawn](https://github.com/Faire/yawn)：Yawn是将Hibernate Criteria Query API封装成一个Kotlin友好、类型安全且直观的接口。
 * [EAV Model](https://github.com/ssledz/eav-model-pattern)：EAV Model是一种用于描述实体的数据模型。
 * [Fluent Hibernate](https://github.com/v-ladynev/fluent-hibernate)：一个用于通过流式API操作Hibernate的库。
+* [Reactive Components](https://github.com/IBM/reactive-components)：一个使用Java持久化API(Hibernate)的响应式组件(Project Reactor)为JDBC提供包装器的库，由IBM开源。
 
 #### JPA库
 
@@ -2929,6 +2929,9 @@
 #### 数据库逆向工程
 
 * [ScrewDriver](https://github.com/MirrenTools/screw-driver)：ScrewDriver是一个用于生成代码、创建或读取数据库表信息的工具包。
+* [DBMetadata](https://gitee.com/free/DBMetadata)：DBMetadata可用于数据库表和字段的查询。
+* [SQLDump](https://github.com/tbrugz/sqldump)：用于从关系型数据库管理系统(RDBMS)导出模式和数据的实用程序。
+* [DB Meta](https://github.com/wukenaihe/db-meta)：Db Meta是一款免费的数据库模式发现和易用工具。
 
 #### 存储过程
 
@@ -4436,6 +4439,7 @@
 * [Haxademic](https://github.com/cacheflowe/haxademic)：Haxademic是一个用于Java/Processing项目的个人工具包。
 * [DC/OS Commons](https://github.com/d2iq-archive/dcos-commons)：DC/OS SDK是一套工具、库和文档的集合，用于轻松地将Kafka、Cassandra、HDFS、Spark和TensorFlow等技术与DC/OS集成。
 * [iStack Common Utility](https://github.com/eclipse-ee4j/jaxb-istack-commons)：该项目是Eclipse JAXB实现的一部分。
+* [Akarnokd Misc](https://github.com/akarnokd/akarnokd-misc)：Akarnokd Misc包含各种工具类。
 
 ## 对象校验
 
@@ -6319,6 +6323,7 @@
 * [Robo4J](https://github.com/Robo4J/robo4j)：Robo4J提供了一种简单的方法来开始构建自定义硬件并为其创建在JVM上运行的软件。
 * [MuJoCo Java](https://github.com/CommonWealthRobotics/mujoco-java)：MuJoCo物理系统的Java JNI绑定。
 * [Java Bag Reader](https://github.com/swri-robotics/bag-reader-java)：这是一个用于读取ROS Bag文件信息并反序列化的Java库。
+* [Java Bowler](https://github.com/NeuronRobotics/java-bowler)：一个用于使用Java控制Bowler设备的库。
 
 ## 数学库
 
@@ -6603,6 +6608,7 @@
 * [ELK Reasoner](https://github.com/liveontologies/elk-reasoner)：ELK是一个本体推理器，旨在支持OWL 2 EL配置文件，由乌尔姆大学人工智能研究所和牛津大学计算机科学系知识表示和推理小组开源。
 * [Aristotle](https://github.com/arachne-framework/aristotle)：Clojure的RDF/OWL库，为Apache Jena提供面向数据的包装器。
 * [Whelk](https://github.com/INCATools/whelk)：Whelk是一个OWL EL推理器。
+* [JFact](https://jfact.sourceforge.net/)：JFact是FaCT++ OWL DL推理器的Java移植版。
 
 #### 本体匹配
 
@@ -6652,6 +6658,7 @@
 * [XLS2RDF](https://github.com/sparna-git/xls2rdf)：从Excel表格创建RDF数据。
 * [SesameTools](https://github.com/joshsh/sesametools)：SesameTools是一套用于Sesame RDF框架的通用组件集合。
 * [JRDF](http://jrdf.sourceforge.net/)：JRDF旨在利用最新版本的Java语言，为RDF创建一套标准的API和基础实现。
+* [Quetzal](https://github.com/Quetzal-RDF/quetzal)：支持多种后端(如DB2、PostgreSQL和Apache Spark)的SPARQL到SQL转换引擎。
 
 #### 知识图谱
 
@@ -7071,6 +7078,7 @@
 * [Flowset Control](https://github.com/flowset/flowset-control-community)：Flowset Control是一个Web应用程序，它为外部BPM引擎提供管理功能。
 * [OSWorkflow](https://github.com/ailohq/osworkflow)：OSWorkflow是一个开源的工作流框架。
 * [MDW](https://github.com/CenturyLinkCloud/mdw)：MDW是一个BPM工作流框架，具有精确的REST服务编排功能。
+* [Process Engine API](https://github.com/bpm-crafters/process-engine-api)：该库提供了一个现代化、与引擎无关的API，可用于实现流程应用程序。
 
 ## 编排引擎
 
@@ -7747,6 +7755,7 @@
 * [Spring Social Github](https://github.com/spring-attic/spring-social-github)：Spring Social Github项目是Spring Social的一个扩展，能够与Github集成。
 * [GithubAndroidSdk](https://github.com/gitskarios/GithubAndroidSdk)：GitHub API的Android SDK。
 * [GHAPI](https://github.com/EddieRingle/ghapi)：GitHub API的Java封装。
+* [Git LFS Java](https://github.com/git-as-svn/git-lfs-java)：Git LFS Java API的实现。
 
 #### 语义版本控制
 
@@ -7927,6 +7936,7 @@
 * [Pragmatica](https://github.com/pragmaticalabs/pragmatica)：包含Result、Option和Promise Monad的函数式编程库。
 * [DMX Fun](https://github.com/domix/dmx-fun)：DMX Fun是一个Java库，它在类型系统中明确地表示失败、缺失和验证。
 * [Ferrous](https://github.com/kusoroadeolu/ferrous)：一个轻量级的Java库，引入Rust风格的Option和Result类型，以实现更安全、更具表现力的代码。
+* [Omittable](https://github.com/Osmerion/Omittable)：一个小型Kotlin多平台库，提供可省略类型，用于值缺失在语义上与NULL值不同的情况。
 
 #### Stream工具库
 
@@ -10583,6 +10593,8 @@ Kafka生态管理系统、运维平台。
 * [Synapse](https://github.com/otto-de/synapse)：Spring Boot微服务的事件溯源和消息传递。
 * [Jes](https://github.com/egetman/jes)：Jes是一个框架，用于在CQRS和ES范式下构建健壮、事件驱动的微服务。
 * [Tiny Event Sourcing](https://github.com/andrsuh/tiny-event-sourcing)：微型事件溯源库。
+* [FactStore](https://github.com/factstore-io/factstore)：FactStore是一个模块化的事件溯源系统。
+* [Grooves](https://github.com/rahulsom/grooves)：Java事件溯源库。
 
 ## 设计模式
 
@@ -11311,6 +11323,7 @@ Kafka生态管理系统、运维平台。
 * [Project Web Starter Template](https://github.com/kyungseo/project-web-starter)：Project Web Starter旨在实现一个入门模板，该模板可以立即应用于中小型开发项目的实践中。
 * [Processing Library Template Ant](https://github.com/processing/processing-library-template-ant)：Eclipse Processing库模板。
 * [Micronaut Project Template](https://github.com/micronaut-projects/micronaut-project-template)：用于新Micronaut模块的模板项目。
+* [Java Spring Microservice Starter Kit](https://github.com/IBM/template-java-spring)：本仓库为创建基于Spring的Java微服务应用程序提供了一个起点，由IBM开源。
 
 #### 脚手架
 
@@ -13354,6 +13367,7 @@ Kafka生态管理系统、运维平台。
 * [Jacc](https://github.com/gvsumasl/jacc)：Java AppEngine Channel客户端。
 * [Java Vimeo API](https://github.com/clickntap/Vimeo)：Vimeo API 3.4的Java SDK。
 * [OneDrive Java Client](https://github.com/nuxeo/onedrive-java-client)：OneDrive Java Client是一个用于REST API的Java客户端库。
+* [Alquran Cloud API](https://github.com/0x61nas/alquran-cloud-api)：一个简单的Alquran Cloud API Java封装库。
 
 #### Twitter
 
@@ -13416,6 +13430,7 @@ Kafka生态管理系统、运维平台。
 * [Whatsapp Business Java API](https://github.com/Bindambc/whatsapp-business-java-api)：此SDK实现了官方Whatsapp Cloud API和WhatsApp Business Management API。
 * [Whatsapp API](https://github.com/omegaes/Whatsapp-API)：一个带有演示应用的安卓库，用于在已root设备上通过WhatsApp发送媒体和文本消息。
 * [WAPI](https://github.com/ben221199/WAPI)：将你的项目连接到WhatsApp。
+* [JaWa](https://github.com/jochris/JaWa)：用于WhatsApp Web多设备协议的非官方Java 21库。
 
 #### Slack
 
@@ -13464,6 +13479,7 @@ Kafka生态管理系统、运维平台。
 * [DiscordInteraKTions](https://github.com/LorittaBot/DiscordInteraKTions)：Kotlin库，用于通过Web服务器/网关接收和处理Discord交互，支持Kord。
 * [Lavalink.kt](https://github.com/kordlib/Lavalink.kt)：Lavakord是一个基于协程的LavaLink客户端，主要用于与Kord配合使用。
 * [DBL Java Library](https://github.com/top-gg-community/java-sdk)：top.gg API的Java封装。
+* [Dicoshot](https://github.com/DicoShot/dicoshot-spring)：这是一个SDK，它会在Spring Boot应用启动或停止时自动向Discord频道发送通知。
 
 #### Spotify
 
@@ -15014,6 +15030,7 @@ Kafka生态管理系统、运维平台。
 * [Falowp Bot](https://github.com/falowp-bot/falowp-bot-system)：QQ机器人框架。
 * [OneBot Client](https://github.com/cnlimiter/onebot-client)：基于Java开发的OneBot协议客户端。
 * [Kritor Kotlin](https://github.com/KarinJS/kritor-kotlin)：Kritor是一个聊天机器人应用接口标准，旨在统一腾讯QQ IM平台上的机器人应用开发接口，使开发者只需编写一次业务逻辑代码即可应用到多种机器人平台。
+* [Saltify](https://github.com/SaltifyDev/saltify)：跨平台、可扩展的Kotlin QQ Bot框架&Milky SDK。
 
 #### 微信机器人
 
@@ -16640,6 +16657,7 @@ Kafka生态管理系统、运维平台。
 * [Dante OSS](https://gitee.com/herodotus/dante-oss)：Dante OSS是一款简化对象存储操作的开源框架。
 * [OSS Server](https://gitee.com/xiaoym/oss-server)：OSS Server是针对项目开发时提供的小型对象存储系统。
 * [UPYUN Java SDK](https://github.com/upyun/java-sdk)：又拍云存储Java SDK。
+* [IBM Cloud Object Storage Java SDK](https://github.com/IBM/ibm-cos-sdk-java)：该软件包允许Java开发人员编写与IBM Cloud Object Storage交互的软件。
 * [Pithos](https://github.com/exoscale/pithos)：Pithos是一个与S3兼容的对象存储，利用Cassandra水平分发内容。
 * [Spring Boot Starter Minio](https://github.com/jlefebure/spring-boot-starter-minio)：Spring Boot Starter，允许连接到Minio存储桶，以保存、获取或删除对象。
 * [Radosgw Admin4j](https://github.com/twonote/radosgw-admin4j)：Radosgw Admin4j是一款强大的Ceph对象存储管理客户端。
@@ -18165,7 +18183,7 @@ Kafka生态管理系统、运维平台。
 * [Kable](https://github.com/JuulLabs/kable)：Kable提供了一个简单的基于协程的API，用于与低功耗蓝牙设备进行交互。
 * [SimpleBLE](https://github.com/simpleble/simpleble)：SimpleBLE是适用于MacOS、iOS、Windows、Linux和Android的一体化蓝牙库。
 * [Bluetooth Manager](https://github.com/sputnikdev/bluetooth-manager)：用于管理蓝牙适配器、蓝牙设备、GATT服务和特性的库/框架。
-* [BlueCove](https://sourceforge.net/projects/bluecove/)：Bluecove是Java的跨平台蓝牙库，最初由英特尔研究院开发。
+* [BlueCove](https://github.com/hcarver/bluecove)：Bluecove是Java的跨平台蓝牙库，最初由英特尔研究院开发。
 * [SmartGattLib](https://github.com/movisens/SmartGattLib)：SmartGattLib是一个Java库，可简化与蓝牙SMAR设备的协作。
 * [Bluez DBus](https://github.com/hypfvieh/bluez-dbus)：使用DBus和Bluez的Linux操作系统蓝牙库。
 * [NV Bluetooth](https://github.com/TakahikoKawasaki/nv-bluetooth)：蓝牙工具库，主要用于安卓。

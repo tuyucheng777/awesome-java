@@ -1734,7 +1734,7 @@
 * [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
 * [Red5](https://github.com/Red5/red5-server)：Red5是一个用Java编写的开源Flash服务器。
 * [Microhttp](https://github.com/ebarlas/microhttp)：Microhttp是一种快速、可扩展、事件驱动、独立的Java Web服务器。
-* [WebSwing](https://www.webswing.org/en)：Webswing是一个Web服务器，它允许你仅使用纯HTML5在Web浏览器中运行任何Java桌面应用程序。
+* [WebSwing](https://www.webswing.org)：Webswing是一个Web服务器，它允许你仅使用纯HTML5在Web浏览器中运行任何Java桌面应用程序。
 * [WebObjects](https://wiki.wocommunity.org/xwiki/bin/view/WO/Home/)：WebObjects是一套集成的Java框架，用于快速开发可扩展、复杂的互联网和企业应用程序，最初由NeXT开发并由Apple维护。
 * [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，它是一个非常流行的支持Servlet和JSP的服务器。
 * [ZFoo](https://github.com/zfoo-project/zfoo)：ZFoo是一个极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
@@ -2068,6 +2068,7 @@
 * [Service Locator DNS](https://github.com/lightbend/service-locator-dns)：一个完全基于Akka的服务定位器，用于按名称定位服务并返回其主机和端口，由Lightbend开源。
 * [Vert.x GraphQL Service Discovery](https://github.com/engagingspaces/vertx-graphql-service-discovery)：Vert.x GraphQL Service Discovery允许你在基于Vert.x的微服务环境中将GraphQL Schema发布为独立服务，并通过Vert.x事件总线从远程服务客户端执行查询。
 * [Disco](https://github.com/librato/disco-java)：基于Zookeeper的简单服务发现。
+* [Trouve](https://github.com/SuperMarioYL/trouve)：一个内置的、集成了服务发现、服务注册和服务转发功能的通用组件，适用于Spring项目。
 
 ## 容错组件
 
