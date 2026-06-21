@@ -237,6 +237,7 @@
 * [Mini Panda](https://github.com/chengyc17/mini-panda)：Mini Panda是一个Java库，复刻了Python Pandas的核心API，用于表格数据处理。
 * [CasperDatasets](https://github.com/liangjh/casperdatasets)：CasperDatasets是一个用于JVM语言的小型Dataframe库，用于处理内存中的表格数据集。
 * [Fahmatrix](https://github.com/moustafa-nasr/Fahmatrix)：Fahmatrix是一个轻量级的现代化Java表格数据处理库，其灵感源自Python的Pandas。
+* [DataForge](https://github.com/SciProgCentre/dataforge-core)：DataForge是一个面向科学数据处理自动化的声明式框架。
 
 #### Notebook
 
@@ -287,6 +288,7 @@
 * [Getty](https://github.com/x-hansong/Getty)：基于Groovy的NIO框架。
 * [Monix NIO](https://github.com/monix/monix-nio)：Monix NIO可以将Monix的强大功能与底层Java NIO库相结合。
 * [Framework NIO](https://github.com/qumingxing/framework-nio)：基于Java NIO的轻量级消息传输框架。
+* [Mini Netty](https://github.com/DerekYRC/mini-netty)：Mini Netty是一个从零开始实现的简化版Netty网络编程框架。
 
 #### 网络库
 
@@ -2262,6 +2264,7 @@
 * [JUnit4Git](https://github.com/rpau/junit4git)：这是一个JUnit扩展，它会忽略与Git仓库中最新更改无关的测试。
 * [JUnit5 Extension](https://github.com/JeffFaer/junit5-extensions)：JUnit 5扩展集合。
 * [JConditions](https://github.com/vbauer/jconditions)：JConditions是JUnit框架的一个扩展，它允许使用特定的条件注解来标记测试方法。
+* [gRPC Test](https://github.com/asarkar/grpc-test)：gRPC Test包含一个JUnit 5扩展，可在测试结束时自动释放gRPC资源。
 
 #### 测试运行器
 
@@ -2577,6 +2580,7 @@
 * [KDBC](https://github.com/edvin/kdbc)：KDBC为Kotlin提供类型安全的SQL查询。
 * [Butterfly Persistence](https://github.com/jjenkov/butterfly-persistence)：Butterfly Persistence是一个简洁易用的Java JDBC持久化API。
 * [RabbitSQL](https://github.com/chengyuxing/rabbit-sql)：RabbitSQL是一个轻量级的持久层框架，提供了完整的数据库操作解决方案。
+* [Dustman JDBC](https://github.com/selfly/sonsure-dustman)：简单、快速、易用的JDBC持久化操作层。
 
 #### DAO框架
 
@@ -2905,6 +2909,7 @@
 * [VTS](https://github.com/zilliztech/vts)：VTS是一款专为转换和传输向量和非结构化数据而设计的工具。
 * [TypeDB Loader](https://github.com/typedb-osi/typedb-loader)：TypeDB数据迁移工具。
 * [DBDepoly](https://github.com/tackley/dbdeploy)：用于管理敏捷数据库开发的Java工具。
+* [DB Migration](https://github.com/mengweijin/db-migration)：Flyway、Liquibase扩展支持达梦、南大通用、OpenGauss等国产数据库。
 
 #### 数据源增强
 
@@ -3495,6 +3500,7 @@
 * [WebAuthn Kotlin Multiplatform](https://github.com/szijpeter/webauthn-kotlin-multiplatform)：以标准为先的Kotlin多平台构建模块，用于WebAuthn和密码集成。
 * [JPassport](https://github.com/bootsrc/jpassport)：JPassport是根据Token机制实现的登录权限校验模块。
 * [Grails Spring Security Facebook](https://github.com/splix/grails-spring-security-facebook)：适用于Grails的Facebook身份验证插件。
+* [Tapestry Security](https://github.com/tynamo/tapestry-security)：Tapestry Security是一个基于Apache Shiro的Apache Tapestry 5安全模块。
 
 #### JWT库
 
@@ -3563,6 +3569,7 @@
 * [Watchdog](https://github.com/yuequan1997/watchdog-spring-boot-starter)：Watchdog是Spring Boot的OAuth 2提供者。
 * [Passwordless Authentication Service](https://github.com/maximthomas/passwordless)：无密码认证服务器，支持OTP、WebAuthn和TOTP。
 * [Auth Server](https://github.com/gigsterous/auth-server)：Spring Boot身份验证服务器。
+* [ArmorAuth](https://github.com/AutismSuperman/armor-auth)：ArmorAuth是一个基于Spring Security与Spring Authorization Server构建的开源身份认证与授权平台。
 
 #### 资源服务器
 
@@ -4459,6 +4466,7 @@
 * [Akarnokd Misc](https://github.com/akarnokd/akarnokd-misc)：Akarnokd Misc包含各种工具类。
 * [Kotlin Extra Library](https://github.com/kotlin-extra-library/kotlin-extlib)：Kotlin社区通用多平台库。
 * [Java SDK](https://github.com/Kestrong/java-sdk)：一些常用的Java SDK和工具类。
+* [Norconex Commons Lang](https://github.com/Norconex/commons-lang)：通用库，为Java API提供实用工具。
 
 ## 对象校验
 
@@ -5776,12 +5784,15 @@
 * [KToml](https://github.com/orchestr7/ktoml)：完全原生且跨平台的Kotlin序列化库，用于序列化/反序列化Toml格式。
 * [JToml](https://github.com/agrison/jtoml)：这是使用Java的TOML标记语言的解析器。
 * [JToml](https://github.com/WasabiThumb/jtoml)：JToml是一个适用于Java 8及更高版本的模块化TOML库。
-* [Tomlkt](https://github.com/Peanuuutz/tomlkt)：内置支持kotlinx.serialization的多平台TOML库。
+* [Tomlkt](https://github.com/eav-eav-eav/tomlkt)：内置支持kotlinx.serialization的多平台TOML库。
 * [4koma](https://github.com/valderman/4koma)：一个小型、独立、易于使用的Kotlin TOML解析器库。
 * [TOML JavaLib](https://github.com/TheElectronWill/TOML-javalib)：用于读写TOML数据的Java库。
 * [TOML Clj](https://github.com/tonsky/toml-clj)：TOML Clj是一个快速的JVM Clojure TOML解析器。
 * [Toml4j](https://github.com/johnlcox/toml4j)：这是一个用于解析TOML文件的Java解析器。
 * [TOML Schema](https://github.com/brunoborges/toml-schema)：TOML Schema Definition(TOSD)是一种基于TOML的模式语言，用于描述和验证TOML配置文件的结构、名称和值类型。
+* [STOML](https://github.com/jvican/stoml)：Scala的TOML解析器。
+* [TOML Scala](https://github.com/sparsetech/toml-scala)：TOML Scala是Scala平台上功能完整的TOML实现。
+* [JTOML](https://github.com/asafh/jtoml)：Java TOML解析器。
 
 ## 进程间通信
 
@@ -6468,6 +6479,7 @@
 * [2D Elliptic Mesh Generator](https://github.com/cvarier/2D-Elliptic-Mesh-Generator)：这是一个二维正交椭圆网格生成器，其工作原理是求解Winslow偏微分方程(椭圆型PDE)。
 * [NGen](https://github.com/astojanov/NGen)：JVM中的SIMD内联函数。
 * [Geex](https://github.com/jonasseglare/geex)：Geex是一个用于编写高级Clojure代码并生成快速低级代码(如Java)的代码生成工具。
+* [jSciPy](https://github.com/hissain/jscipy)：jSciPy是一个功能全面的Java科学计算和信号处理库，专为JVM和Android上的机器学习而设计。
 
 #### 多精度
 
@@ -9462,6 +9474,7 @@
 * [AFPLib](https://github.com/yan74/afplib)：用于读写AFP文件的Java库。
 * [AFP Parser](https://github.com/afpdev/alpheusafpparser)：AFP Parser是一个用于IBM高级功能演示(AFP)文档/打印流格式的库和解析器。
 * [DjVu HTML5](https://github.com/mateusz-matela/djvu-html5)：基于HTML5的DjVu文件查看器。
+* [IsoFileReader](https://github.com/palantir/isofilereader)：IsoFileReader是欧洲计算机制造商协会(ECMA)标准119的一个实现，由Palantir开源。
 
 ### 文件转换
 
@@ -11362,6 +11375,7 @@ Kafka生态管理系统、运维平台。
 * [Java Spring Microservice Starter Kit](https://github.com/IBM/template-java-spring)：本仓库为创建基于Spring的Java微服务应用程序提供了一个起点，由IBM开源。
 * [GWT Archetypes](https://github.com/branflake2267/Archetypes)：GWT原型项目，帮助你快速上手GWT应用程序。
 * [Cloudx](https://github.com/chachae/cloudx)：Spring Cloud Hoxton、Alibaba快速构建分布式微服务工程的种子项目。
+* [Pi4J Template JavaFX](https://github.com/Pi4J/pi4j-template-javafx)：本模板项目旨在帮助你快速上手Pi4J V2和JavaFX，并采用MVC模型。
 
 #### 脚手架
 
@@ -14352,6 +14366,7 @@ Kafka生态管理系统、运维平台。
 * [HCNetSDK Java](https://github.com/lkqm/hcnetsdk-java)：海康网络HCNetSDK二次封装的Java库。
 * [GIoT](https://github.com/GerryYuan/giot)：GIoT是一个开源的物联网平台，支持设备管理、对象模型、规则引擎、多存储、多接收器、多协议等，并提供插件开发功能。
 * [Sedona](https://github.com/linsong/sedona)：Sedona框架旨在简化智能联网嵌入式设备的构建。
+* [Controls.kt](https://github.com/SciProgCentre/controls-kt)：Controls.kt是一个数据采集框架。
 
 #### 物联网平台
 
@@ -16057,6 +16072,7 @@ Kafka生态管理系统、运维平台。
 * [JHotDraw](https://github.com/wumpz/jhotdraw)：JHotDraw是一个用Java编写的二维图形框架，适用于结构化绘图编辑器。
 * [Proscene](https://github.com/remixlab/proscene)：ProScene是一个开源Java库，它提供类来简化Processing中交互式2D/3D场景的创建。
 * [Nub](https://github.com/VisualComputing/nub)：Nub是一个简单、富有表现力、与语言无关且可扩展的视觉计算库，具有交互、可视化和动画框架，并支持高级渲染技术，例如视锥体剔除。
+* [OpenStrat](https://github.com/Rich2/openstrat)：跨平台Scala 2D图形、基本几何图形、地图、地球地图、六边形平铺和策略库。
 
 #### 游戏开发库
 
@@ -17781,6 +17797,7 @@ Kafka生态管理系统、运维平台。
 * [ShapeFileReader](https://github.com/diwi/diewald_shapeFileReader)：用于读取ESRI-shapeFile的Java库。
 * [EDAL Java](https://github.com/Reading-eScience-Centre/edal-java)：EDAL项目包含一系列用于处理和可视化环境数据的库，由英国雷丁大学开源。
 * [Geo Atlas](https://github.com/geoatlas-cloud/geo-atlas)：用于构建矢量切片服务的Java基础库。
+* [Maps.kt](https://github.com/SciProgCentre/maps-kt)：Kotlin多平台地图库。
 
 #### OpenStreetMap
 
@@ -17988,6 +18005,7 @@ Kafka生态管理系统、运维平台。
 * [Vollt](https://github.com/gmantele/vollt)：实现IVOA协议的Java库。
 * [AstroAPI](https://github.com/Kibo/AstroAPI)：AstroAPI是一个简单的API，允许用户获取行星和行星交点的位置。
 * [TMT Common Software](https://github.com/tmtsoftware/csw)：TMT Common Software是整合TMT软件系统的服务和基础设施软件包。
+* [NASA PDS Validate](https://github.com/NASA-PDS/validate)：本项目包含用于验证PDS4产品和PDS3卷的软件，由NASA开源。
 
 ## 水文/气象学
 
@@ -18398,6 +18416,7 @@ Kafka生态管理系统、运维平台。
 * [Units](https://github.com/airlift/units)：Units是一个Java库，用于创建不可变、易于理解的单位。
 * [Storage Units](https://github.com/metio/storage-units.java)：按照ISO/IEC 80000-13:2008标准，使用Java实现的存储单元。
 * [UOM System](https://github.com/unitsofmeasurement/uom-systems)：Unit Systems汇集了JSR 385的一系列库、扩展模块和单位类型。
+* [Utils Java](https://github.com/fabian-barney/utils-java)：Utils Java是一个小型Java实用程序库，用于在基于字节和基于比特的尺度之间转换存储和传输单位。
 
 ## 解析库
 

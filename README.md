@@ -3464,6 +3464,7 @@
 * [Server2MCP](https://github.com/TheEterna/api2mcp4j)：Server2MCP是一个Spring Boot Starter，用于自动集成MCP服务。
 * [MCP Annotation Java SDK](https://github.com/thought2code/mcp-annotated-java-sdk)：基于注解的MCP开发，无需Spring，零样板代码，纯Java。
 * [MCP Task Orchestrator](https://github.com/jpicklyk/task-orchestrator)：一款轻量级的MCP任务编排服务器，专为AI智能体设计。
+* [MCP Toolbox SDK Java](https://github.com/googleapis/mcp-toolbox-sdk-java)：MCP Toolbox的官方Java客户端SDK。
 
 ### A2A
 
@@ -3500,6 +3501,7 @@
 * [Agentic Flink](https://github.com/Ugbot/Agentic-Flink)：Agentic Flink是一个用于在Apache Flink上构建基于LLM的AI代理的框架。
 * [Spring AI AgentX](https://github.com/bigchuidw3/spring-ai-agentx)：Spring AI AgentX是一款面向Java开发者的AI Agent开发框架。
 * [Easy Agent](https://github.com/songrongzhen/easy-agent)：Easy Agent是一个即插即用的Java智能体开发组件，旨在让任何基于Spring Boot的应用系统快速接入AI能力。
+* [EvoX](https://github.com/Leavesfly/EvoX)：EvoX是一个以Agent自进化为核心理念的企业级智能代理框架，基于Java 17、Spring Boot 3.2+和Project Reactor构建。
 
 ### RAG
 
