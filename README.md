@@ -847,7 +847,6 @@
 * [终端模拟器](docs/doc2.md#终端模拟器)
 * [游戏开发](docs/doc2.md#游戏开发)
   * [游戏引擎](docs/doc2.md#游戏引擎)
-  * [Minecraft](docs/doc2.md#Minecraft)
   * [游戏服务器](docs/doc2.md#游戏服务器)
   * [游戏模拟器](docs/doc2.md#游戏模拟器)
   * [2D/3D渲染](docs/doc2.md#2D3D渲染)
@@ -1843,6 +1842,7 @@
 * [NIO Http Server](https://github.com/shenfeng/nio-httpserver)：一个简单的异步Java HTTP服务器。
 * [Dimdwarf](https://github.com/luontola/dimdwarf)：Dimdwarf是一个非侵入式的Java分布式应用服务器。
 * [Jet](https://petersoj.github.io/jet/)：Jet是一个简单、轻量级、现代化的即用型Java Web客户端和服务器库。
+* [LightWebServer](https://github.com/liujunlingx/LightWebServer)：LightWebServer是一个轻量级的嵌入式Web服务器，同时提供了简单的MVC框架。
 
 ## 微服务治理
 
@@ -1859,6 +1859,7 @@
 * [EasySOA](https://github.com/easysoa/EasySOA)：EasySOA基于Web和开源技术，使面向服务的架构(SOA)更易于使用。
 * [Thalossphere](https://github.com/thalossphere-projects/thalossphere)：Thalossphere是一个无侵入云原生微服务流量治理解决方案(灰度发布、熔断限流、故障隔离、优雅上下线、Spring Cloud控制台)。
 * [Easyhome Spring Cloud Gray](https://github.com/EASYHOME-DOORVERSE/easyhome-springcloud-gray)：Spring Cloud灰度发布组件。
+* [JSwitcher](https://github.com/xincao9/jswitcher)：灰度发布、服务降级工具。
 
 ## 构建工具
 
@@ -2234,7 +2235,6 @@
 * [Fire](https://gitee.com/fire-framework/fire)：Fire框架是由中通大数据自主研发并开源、专门用于进行Spark和Flink任务开发的大数据框架。
 * [SuperSQL](https://my.oschina.net/u/4956788/blog/5510918)：天穹SuperSQL是腾讯自研、基于统一SQL语言模型、面向机器学习智能调优、提供虚拟化数据和开放式计算引擎的大数据智能融合平台。
 * [Apache OODT](https://github.com/apache/oodt)：OODT可以实现数据库链接、工作流处理以及硬件/文件管理等功能，由NASA的喷气机推力研究室开源。
-* [Apache Sedona](https://github.com/apache/sedona)：Sedona是一种空间计算引擎，使开发人员能够在Apache Spark和Apache Flink等现代集群计算系统中轻松处理任何规模的空间数据，由亚利桑那州立大学开源。
 * [Pipes](https://github.com/tinkerpop/pipes)：Pipes是一个数据流框架，可实现数据从输入到输出的拆分、合并、过滤和转换，由斯阿拉莫斯国家实验室开源。
 * [Transport](https://github.com/linkedin/transport)：Transport是一个用于编写高性能用户定义函数(UDF)的框架，这些函数可跨各种引擎(包括Spark、Hive和Trino)进行移植，由LinkedIn开发。
 * [Eel](https://github.com/51zero/eel-sdk)：Eel是一个用于在Hadoop生态系统中操作数据的工具包。
@@ -2397,6 +2397,7 @@
 * [DFS Datastores](https://github.com/nathanmarz/dfs-datastores)：一种在分布式文件系统上存储记录的更简单、更强大的方法。
 * [SCADS](https://github.com/radlab/SCADS)：SCADS是加州大学伯克利分校RAD实验室和AMP实验室使用的一种分布式存储系统研究原型。
 * [SilverKing](https://github.com/morganstanley/SilverKing)：SilverKing是一种可扩展、高吞吐量的数据存储和协调机制，专为分布式应用而设计，由摩根士丹利开源。
+* [RDFS](https://github.com/iVCE/RDFS)：RDFS是一种基于纠删码的云存储系统。
 
 #### 流处理
 
@@ -2458,6 +2459,8 @@
 * [Honu](https://github.com/jboulon/Honu)：Honu是一个大规模流数据采集和处理管道，由Netflix开源。
 * [TrajEdge](https://github.com/ZJU-DAILY/TrajEdge)：TrajEdge是一种高效轻量级的边缘环境轨迹数据分析框架，由浙江大学开源。
 * [Fabric](https://github.com/olacabs/fabric)：Fabric是一个可扩展、实用且安全的实时计算框架，设计易于操作和扩展。
+* [Streams Bootstrap](https://github.com/bakdata/streams-bootstrap)：Streams Bootstrap为Kafka Streams应用程序提供基本类和实用函数。
+* [Ziggrid](https://github.com/Ziniki-Network/Ziggrid)：Ziggrid是一种用于大数据处理的函数式响应式编程范式。
 
 #### ETL工具
 
@@ -3733,6 +3736,7 @@
 * [RecurrentJava](https://github.com/evolvingstuff/RecurrentJava)：RecurrentJava是Andrej Karpathy的RecurrentJS的Java版本。
 * [Basic Neural Network Library](https://github.com/kim-marcel/basic_neural_network)：一个非常基础的Java神经网络库。
 * [Pacaya](https://github.com/mgormley/pacaya)：Pacaya是一个用于联合建模的库，它结合了图形模型、结构化因子、神经网络和超图。
+* [FANNJ](https://github.com/krenfro/fannj)：FANN的Java绑定。
 
 #### 深度学习
 
@@ -4001,6 +4005,7 @@
 * [TrNLtk Java](https://github.com/aliok/trnltk-java)：土耳其语自然语言工具包。
 * [TermSuite](https://github.com/termsuite/termsuite-core)：TermSuite是一个基于Java UIMA的工具箱，用于术语提取和多语言术语对齐。
 * [JInsect](https://github.com/ayushoriginal/Ngram-Graphs)：JINSECT是一个基于Java的工具包和库，它支持并演示了在自然语言处理应用中使用N-Gram图的方法，应用范围涵盖摘要生成、摘要评估、文本分类和索引等。
+* [Semantria SDK](https://github.com/Semantria/semantria-sdk)：Semantria是一款文本分析和情感分析API。
 
 #### 分词器
 
@@ -4490,5 +4495,6 @@
 * [TextToSpeechKt](https://github.com/Marc-JB/TextToSpeechKt)：适用于Kotlin的多平台文本转语音库。
 * [ZmeetAI TTS](https://github.com/zmeet-ai/tts-demo)：ZmeetAI语音合成Java SDK。
 * [Java TTS](https://github.com/ekk0/java-tts)：一个基于Java的粤语发音TTS，文字转语音。
+* [ElevenLabs API](https://github.com/Andrewcpu/elevenlabs-api)：ElevenLabs API是一个开源的Java封装程序，它围绕ElevenLabs语音合成和克隆Web API构建。
 
 ## [数据科学-面试宝典](docs/doc2.md)
