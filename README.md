@@ -544,6 +544,7 @@
   * [ELF库](docs/doc2.md#ELF库)
   * [vCards库](docs/doc2.md#vCards库)
   * [平面文件](docs/doc2.md#平面文件)
+  * [WARC库](docs/doc2.md#WARC库)
   * [文件库](docs/doc2.md#文件库)
   * [文件转换](docs/doc2.md#文件转换)
     * [PDF/HTML转换](docs/doc2#PDFHTML转换)
@@ -1259,6 +1260,7 @@
 * [JRest](https://github.com/orange451/JRest)：超小型轻量级的Java REST库。
 * [Zoot](https://github.com/fwbrasil/zoot)：用于提供和使用REST服务的轻量级响应式框架。
 * [Webbit REST](https://github.com/webbit/webbit-rest)：Webbit REST是一个受Sinatra启发的小型Webbit Web服务器API。
+* [Ameba](https://github.com/icode/ameba)：Ameba是一个实用的全栈RESTful框架。
 
 #### MVC框架
 
@@ -1369,6 +1371,7 @@
 * [JBossWS](https://jbossws.github.io/)：JBossWS是一个框架，它为WildFly和Red Hat JBoss企业应用平台(JBoss EAP)提供符合Eclipse Enterprise标准的Web Services技术。
 * [IceSoap](https://github.com/AlexGilleran/IceSoap)：IceSoap为Android设备提供对SOAP Web Services的快速、简便的异步访问。
 * [WSO2 WSDL4j](https://github.com/wso2/wso2-wsdl4j)：WSDL4J库用于解析、创建和操作WSDL文档。
+* [Libre WSDL4J](https://github.com/librewsdl4j/libre-wsdl4j)：Libre WSDL4J是一个用于WSDL的Java存根生成器。
 
 ### RPC框架
 
@@ -1690,6 +1693,8 @@
 * [Advanced HttpURLConnection](https://github.com/VishnuSivadasVS/Advanced-HttpURLConnection)：HttpURLConnection的封装库，更安全、更简单。
 * [Rapa](https://github.com/harikrishnan83/rapa)：ActiveResource风格的Java REST Client。
 * [Interceptable HTTP Client](https://github.com/raphw/interceptable-http-client)：用于创建可拦截的Java HttpClient的包装API。
+* [HTTPLite](https://github.com/alexclin0188/httplite)：Android HTTP库。
+* [WSO2 HTTPCore IO](https://github.com/wso2/wso2-httpcore-nio)：WSO2对Apache HttpCore NIO的定制分支，为WSO2产品提供基于NIO的非阻塞HTTP传输实现。
 
 ## Web服务器
 
@@ -1843,6 +1848,7 @@
 * [Dimdwarf](https://github.com/luontola/dimdwarf)：Dimdwarf是一个非侵入式的Java分布式应用服务器。
 * [Jet](https://petersoj.github.io/jet/)：Jet是一个简单、轻量级、现代化的即用型Java Web客户端和服务器库。
 * [LightWebServer](https://github.com/liujunlingx/LightWebServer)：LightWebServer是一个轻量级的嵌入式Web服务器，同时提供了简单的MVC框架。
+* [Ring JDK Adapter](https://github.com/igrishaev/ring-jdk-adapter)：Ring JDK Adapter是一个基于Java内置HTTP服务器的轻量级封装。
 
 ## 微服务治理
 
@@ -2206,6 +2212,8 @@
 * [Heart Netty](https://gitee.com/zjz0812/heart-netty)：基于Netty4，ProtoBuf的Netty心跳服务器。
 * [Dropwizard Health](https://github.com/dropwizard/dropwizard-health)：Dropwizard Health提供健康检查实现。
 * [Watcher](https://github.com/bohrqiu/watcher)：Watcher提供Java应用暴露监控/健康检查的能力。
+* [HealthChecker](https://github.com/renmeijian/HealthChecker)：HealthChecker能检查集群中所有服务的所有实例健康状态。
+* [Kafka Health Check](https://github.com/deviceinsight/kafka-health-check)：该库为Spring Boot Actuator提供Kafka健康检查。
 
 ## 大数据
 
@@ -2634,6 +2642,7 @@
 * [Mondrian](https://github.com/pentaho/mondrian)：Mondrian是一款OLAP服务器，使业务用户能够实时分析大量数据。
 * [Pivot4J](https://github.com/mysticfall/pivot4j)：Pivot4J提供了一个用于OLAP服务器的通用API，可用于构建带有透视表风格GUI的分析服务前端。
 * [Druidry](https://github.com/zapr-oss/druidry)：Druidry是一个基于Java的开源实用程序库，它支持自动创建对Druid的查询。
+* [ParaFlow](https://github.com/dbiir/paraflow)：ParaFlow是DBIIR实验室在RUC开发的用于OLAP的交互式分析系统。
 
 #### CEP引擎
 
@@ -2684,6 +2693,7 @@
 * [S3 Tables Catalog](https://github.com/awslabs/s3-tables-catalog)：Amazon S3 Tables Catalog是一个客户端库，它将S3 Tables提供的控制平面操作与Apache Spark、Flink等引擎连接起来，并可与Iceberg Table格式配合使用。
 * [Lighthouse](https://github.com/datamindedbe/lighthouse)：Lighthouse是一个基于Apache Spark构建的数据湖库。
 * [StarLake](https://github.com/engine-plus/StarLake)：StarLake是一个数据湖框架。
+* [Mini Pixels](https://github.com/pixelsdb/mini-pixels)：Mini Pixels是Pixels的简化版，旨在为OLAP数据库内核的教学提供实验框架。
 
 #### 数据Shuffle
 
@@ -2706,6 +2716,7 @@
 * [STL4j](https://github.com/ServiceNow/stl-decomp-4j)：Seasonal Trend Loess时序分解算法的Java实现。
 * [Java Time Series](https://github.com/signaflo/java-timeseries)：Java中的时序分析。
 * [Hawkular Data Mining](https://github.com/hawkular/hawkular-datamining)：Data Mining是Hawkular的时序预测引擎。
+* [Time Series](https://github.com/carldata/timeseries)：Scala的时序库。
 
 ## 消息中间件
 
@@ -2912,6 +2923,7 @@
 * [EasyIdGenerator](https://github.com/lookingatstarts/easyIdGenerator)：EasyIdGenerator生成全局唯一ID。
 * [FinTx Identifier](https://github.com/fintx/fintx-identifier)：FinTx Identifier用于在高性能分布式环境中生成唯一ID。
 * [Sequence](https://github.com/power4j/sequence)：Java序号工具包，高性能、无锁。
+* [IdWorker Client](https://github.com/bingoohuang/idworker-client)：IdWorker Java客户端。
 
 #### Session集群
 
@@ -3197,6 +3209,7 @@
 * [GaianDB](https://github.com/gaiandb/gaiandb)：Gaian是一种基于Apache Derby的轻量级数据联邦技术，由IBM开源。
 * [CosyanDB](https://github.com/gsvigruha/cosyan)：CosyanDB是一个基于SQL的事务型关系型数据库管理系统，具有复杂的多表约束逻辑和语言增强功能，并大量运用了外键。
 * [NullDB](https://github.com/NullPointer-Labs/nulldb)：NullDB是一个完全用Java从零开始构建的原始、高性能的关系型数据库存储引擎。
+* [LunarBase](https://github.com/LunarBaseEngin/LunarBase)：LunarBase引擎是一个实时、自由风格的数据库引擎。
 
 #### NoSQL数据库
 
@@ -3559,6 +3572,7 @@
 * [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
 * [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku是一款面向AI应用的路由器，采用MCP提供支持。
 * [ReShapr](https://github.com/reshaprio/reshapr)：用于AI原生API访问的开源、无代码MCP服务器。
+* [JamJet](https://github.com/jamjet-labs/jamjet)：AI代理的开源安全层，阻止不安全工具调用、要求批准、强制执行预算、审计、重放。
 
 ### 终端助手
 
@@ -3622,6 +3636,7 @@
 * [TensorFlow Scala](https://github.com/eaplatanios/tensorflow_scala)：适用于Scala编程语言的TensorFlow API。
 * [Guildsman](https://github.com/bpiel/guildsman)：Clojure的TensorFlow库。
 * [TensorFlow Kotlin](https://github.com/TensorFlow-Kotlin/tensorflow-kotlin)：TensorFlow的Kotlin API。
+* [TensorFlow Serving Client](https://github.com/junwan01/tensorflow-serve-client)：用于TensorFlow Serving gRPC API的Java客户端。
 * [Apache Mahout](https://github.com/apache/mahout)：Mahout的目标是构建一个用于快速创建可扩展、高性能机器学习应用程序的环境。
 * [Apache SystemDS](https://github.com/apache/systemds)：SystemDS是一个开源ML系统，适用于端到端数据科学生命周期。
 * [Alink](https://github.com/alibaba/Alink)：Alink是基于Flink的机器学习算法平台，由阿里计算平台PAI团队开发。
@@ -3859,6 +3874,7 @@
 * [AHNI](https://github.com/OliverColeman/ahni)：AHNI实现了HyperNEAT神经进化算法。
 * [Quaelite](https://github.com/mitre/quaerite)：搜索相关性评估工具包。
 * [GeneticTSP](https://github.com/onlylemi/GeneticTSP)：用于TSP的遗传算法。
+* [EVO NEAT](https://github.com/vishnugh/evo-NEAT)：NEAT(增强拓扑结构的神经进化)的Java实现，用于生成演化的神经网络。
 
 #### 聚类算法
 
@@ -4220,6 +4236,7 @@
 * [Spark StringMetric](https://github.com/MrPowers/spark-stringmetric)：Spark的字符串相似度函数和语音算法。
 * [ADW](https://github.com/pilehvar/ADW)：ADW的Java实现。
 * [Similarity](https://github.com/yanleping/similarity)：Similarity是由一系列算法组成的Java版相似度计算工具包。
+* [ESALib](https://github.com/ticcky/esalib)：ESALib是一个显式语义分析(ESA)库，用于生成在NTCIR-9 CrossLink任务中的提交作品。
 
 #### 命名实体识别
 
@@ -4268,6 +4285,8 @@
 * [SymSpell Clj](https://github.com/juji-io/symspell-clj)：Clojure中的SymSpell拼写检查器。
 * [PlatformSpellCheckerKt](https://github.com/Wavesonics/PlatformSpellCheckerKt)：一个基于Kotlin的多平台封装器，用于封装不同平台的原生拼写检查系统。
 * [SpellingCorrector](https://github.com/unrelatedlabs/SpellingCorrector-Java8)：Java中的基本拼写纠错。
+* [ChineseSpellingCheck](https://github.com/zhangsonglei/ChineseSpellingCheck)：中文拼写检查工具，用于对中文文本中的错误用语进行检测并给出纠正建议。
+* [Spell Correct](https://github.com/amarjeetanandsingh/spell_correct)：编写Java代码，针对拼写错误的单词给出正确的英文单词建议。
 
 #### WordNet
 
@@ -4485,6 +4504,8 @@
 * [Dialogflow Java Client](https://github.com/dialogflow/dialogflow-java-client)：Dialogflow的Java客户端库。
 * [ASRT SDK Java](https://github.com/nl8590687/ASRT_SDK_Java)：用于ASRT语音识别系统的Java SDK。
 * [MRCP4j](https://github.com/JVoiceXML/mrcp4j)：MRCP4J提供了一个封装了MRCPv2协议的Java API，可用于实现MRCP客户端和/或服务器。
+* [FreeSR](https://github.com/nonday/FreeSR)：FreeSR是一个免费的说话人识别库。
+* [JOpenFST](https://github.com/steveash/jopenfst)：C++ OpenFST库的部分Java移植版本，它提供了一个用于构建加权有限状态转换器(WFST)并执行各种常见FST/FSA任务的库。
 
 ### 语音合成
 
