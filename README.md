@@ -283,6 +283,7 @@
   * [CouchDB库/工具](docs/doc2.md#CouchDB库工具)
   * [LevelDB库/工具](docs/doc2.md#LevelDB库工具)
   * [Milvus库/工具](docs/doc2.md#Milvus库工具)
+  * [Firebase库/工具](docs/doc2.md#Firebase库工具)
   * [Influx库/工具](docs/doc2.md#Influx库工具)
   * [Vault库/工具](docs/doc2.md#Vault库工具)
   * [OpenTSDB库/工具](docs/doc2.md#OpenTSDB库工具)
@@ -303,6 +304,7 @@
   * [单点登录](docs/doc2.md#单点登录)
   * [安全库](docs/doc2.md#安全库)
   * [SAML](docs/doc2.md#SAML)
+  * [ACL](docs/doc2.md#ACL)
   * [LDAP](docs/doc2.md#LDAP)
   * [安全工具](docs/doc2.md#安全工具)
   * [SBOM](docs/doc2.md#SBOM)
@@ -448,6 +450,7 @@
 * [模板引擎](docs/doc2.md#模板引擎)
 * [批处理框架](docs/doc2.md#批处理框架)
 * [语法高亮](docs/doc2.md#语法高亮)
+* [自动补全](docs/doc2.md#自动补全)
 * [任务调度](docs/doc2.md#任务调度)
   * [分布式调度](docs/doc2.md#分布式调度)
   * [嵌入式调度](docs/doc2.md#嵌入式调度)
@@ -1009,6 +1012,7 @@
 * [类路径扫描](docs/doc2.md#类路径扫描)
 * [行为分析](docs/doc2.md#行为分析)
 * [URL库](docs/doc2.md#URL库)
+* [路由](docs/doc2.md#路由)
 * [Sitemap](docs/doc2.md#Sitemap)
 * [Expect库](docs/doc2.md#Expect库)
 * [Wikipedia](docs/doc2.md#Wikipedia)
@@ -1097,6 +1101,7 @@
 * [Skinny](https://github.com/skinny-framework/skinny-framework)：Skinny是一个用于构建Servlet应用程序的全栈Web应用程序框架。
 * [Xitrum](https://github.com/xitrum-framework/xitrum)：Xitrum是一个基于Netty、Akka和Hazelcast的异步集群Scala Web框架。
 * [Firefly](https://github.com/hypercube1024/firefly)：Firefly是一个异步Web框架，用于快速开发高性能Web应用程序。
+* [Barista](https://github.com/markelliot/barista)：Barista是一个设计精良的库，旨在简化Java服务的创建，帮助开发者专注于业务逻辑，而非服务器配置和设置。
 * [Airframe](https://github.com/wvlet/airframe)：Airframe是Scala应用程序开发的基本构建块，包括日志记录、使用JSON或MessagePack进行对象序列化、依赖注入、支持RPC的HTTP服务器/客户端、使用AirSpec进行功能测试等。
 * [Deft](https://github.com/rschildmeijer/deft)：Deft是一个在JVM上运行的单线程、异步、事件驱动的高性能Web服务器。
 * [Alpas](https://github.com/alpas/alpas)：Alpas是一个基于Kotlin的Web框架，可让你简单、快速地创建Web应用程序和API。
@@ -1205,6 +1210,8 @@
 * [HongsCORE](https://github.com/ihongs/HongsCORE)：HongsCORE是一个Java Web全栈开发框架。
 * [WebUtils](https://github.com/edificeio/web-utils)：Vert.x Web框架，基于注解API。
 * [Kog](https://github.com/danneu/kog)：Kog是一个受Clojure Ring启发而开发的简单Kotlin Web框架。
+* [Edge](https://github.com/edgeframework/edge)：Edge是一个面向Vert.x平台的Web应用程序框架，其灵感来源于Node.js的ExpressJS。
+* [Irked](https://github.com/GreenfieldTech/irked)：Irked是一个非常注重特性的框架，用于配置Vert.x Web路由和调用分发。
 
 #### REST框架
 
@@ -1261,6 +1268,7 @@
 * [Zoot](https://github.com/fwbrasil/zoot)：用于提供和使用REST服务的轻量级响应式框架。
 * [Webbit REST](https://github.com/webbit/webbit-rest)：Webbit REST是一个受Sinatra启发的小型Webbit Web服务器API。
 * [Ameba](https://github.com/icode/ameba)：Ameba是一个实用的全栈RESTful框架。
+* [Hypersocket Framework](https://github.com/ludup/hypersocket-framework)：Hypersocket Framework基于Netty、Spring和Hibernate构建，提供了一种快速简便的方法来构建基于Web的JSON服务。
 
 #### MVC框架
 
@@ -1347,6 +1355,7 @@
 * [Server Components](https://github.com/vadimv/server-components)：Server Components是一个Java Web服务器端渲染(SSR)框架，用于构建具有最少依赖的响应式UI。
 * [SiteMesh](https://github.com/sitemesh/sitemesh3)：SiteMesh是一个网页布局和装饰框架以及Web应用程序集成框架，可帮助创建由需要一致外观/感觉、导航和布局方案的页面组成的网站，由OpenSymphony开源。
 * [Efw](https://github.com/efwGrp/efw4.X)：EFW采用以目标为导向的方法，使用Ajax和服务器端JavaScript构建高速Web系统，由Escco开源。
+* [Quinoa](https://github.com/quarkiverse/quarkus-quinoa)：Quinoa是一个Quarkus扩展，它简化了单页应用或Web组件(React、Angular、Vue、Lit、Svelte、Astro、SolidJS等)与Quarkus的集成，使其更易于开发、构建和部署。
 * [Jaggery](https://github.com/wso2/jaggery)：Jaggery是一个用于编写Web应用和基于HTTP的Web服务的框架，由WSO2开源。
 * [PurpleJS](https://github.com/purplejs/purplejs)：PurpleJS是一个简单而强大的框架，无需脱离JavaScript即可创建高性能Web应用程序。
 * [Inertia4J](https://github.com/Inertia4J/inertia4j)：Inertia提供了一个协议，可以直接从后端渲染现代前端框架编写的组件，Inertia4J是一个实现此类协议的JVM适配器。
@@ -1372,6 +1381,7 @@
 * [IceSoap](https://github.com/AlexGilleran/IceSoap)：IceSoap为Android设备提供对SOAP Web Services的快速、简便的异步访问。
 * [WSO2 WSDL4j](https://github.com/wso2/wso2-wsdl4j)：WSDL4J库用于解析、创建和操作WSDL文档。
 * [Libre WSDL4J](https://github.com/librewsdl4j/libre-wsdl4j)：Libre WSDL4J是一个用于WSDL的Java存根生成器。
+* [SAAJ](https://github.com/eclipse-ee4j/metro-saaj)：Eclipse中Jakarta SOAP及其附件的实现。
 
 ### RPC框架
 
@@ -1553,6 +1563,7 @@
 * [RxEasyHttp](https://github.com/zhou-you/RxEasyHttp)：RxEasyHttp是一款基于RxJava 2、Retrofit 2实现简单易用的网络请求框架。
 * [Android Asynchronous HttpClient](https://github.com/android-async-http/android-async-http)：基于Apache HttpClient库的Android异步、基于回调的HTTP客户端。
 * [Google HTTP Java Client](https://github.com/googleapis/google-http-java-client)：Google HTTP Client由Google开源，是一个灵活、高效且功能强大的Java库，用于通过HTTP访问网络上的任何资源。
+* [Retrofit Spring Boot Starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)：用于Retrofit的Spring Boot Starter，支持快速集成和功能增强，由链家开源。
 * [Google API Java Client](https://github.com/googleapis/google-api-java-client)：Google API Java Client是一个灵活、高效且功能强大的Java客户端库，用于访问网络上任何基于HTTP的API。
 * [HttpClientUtil](https://github.com/Arronlong/httpclientutil)：HttpClientUtil是基于HttpClient 4.4.1封装的工具类。
 * [RoboSpice](https://github.com/stephanenicolas/robospice)：RoboSpice是一个模块化的Android库，可以轻松编写异步长时间运行的任务。
@@ -1695,6 +1706,9 @@
 * [Interceptable HTTP Client](https://github.com/raphw/interceptable-http-client)：用于创建可拦截的Java HttpClient的包装API。
 * [HTTPLite](https://github.com/alexclin0188/httplite)：Android HTTP库。
 * [WSO2 HTTPCore IO](https://github.com/wso2/wso2-httpcore-nio)：WSO2对Apache HttpCore NIO的定制分支，为WSO2产品提供基于NIO的非阻塞HTTP传输实现。
+* [Retrofit Spring Boot Starter](https://github.com/easyretrofit/retrofit-spring-boot-starter)：Retrofit Spring Boot Starter提供了在Spring Boot项目中更轻松地使用和增强Retrofit2的常用功能，并通过更多的注解实现了常用功能的增强。
+* [OkHttp Spring Boot](https://github.com/freefair/okhttp-spring-boot)：适用于OkHttp的Spring Boot Starter。
+* [EzyHttp](https://github.com/youngmonkeys/ezyhttp)：EzyHttp是EzyFox生态系统中的一个库，它支持与HTTP(包括HTTP服务器和HTTP客户端)进行交互。
 
 ## Web服务器
 
@@ -1849,6 +1863,7 @@
 * [Jet](https://petersoj.github.io/jet/)：Jet是一个简单、轻量级、现代化的即用型Java Web客户端和服务器库。
 * [LightWebServer](https://github.com/liujunlingx/LightWebServer)：LightWebServer是一个轻量级的嵌入式Web服务器，同时提供了简单的MVC框架。
 * [Ring JDK Adapter](https://github.com/igrishaev/ring-jdk-adapter)：Ring JDK Adapter是一个基于Java内置HTTP服务器的轻量级封装。
+* [JDK HttpServer Utilities](https://github.com/bowbahdoe/jdk-httpserver)：JDK HTTP服务器实用程序。
 
 ## 微服务治理
 
@@ -1866,6 +1881,7 @@
 * [Thalossphere](https://github.com/thalossphere-projects/thalossphere)：Thalossphere是一个无侵入云原生微服务流量治理解决方案(灰度发布、熔断限流、故障隔离、优雅上下线、Spring Cloud控制台)。
 * [Easyhome Spring Cloud Gray](https://github.com/EASYHOME-DOORVERSE/easyhome-springcloud-gray)：Spring Cloud灰度发布组件。
 * [JSwitcher](https://github.com/xincao9/jswitcher)：灰度发布、服务降级工具。
+* [Nepxion DiscoveryPlatform](https://github.com/Nepxion/DiscoveryPlatform)：Nepxion DiscoveryPlatform是Nepxion Discovery的一个平台，具有服务治理、发布编排、流量巡检、实例黑名单、网关路由功能。
 
 ## 构建工具
 
@@ -2053,6 +2069,8 @@
 * [Infor ION API Gateway SDK](https://github.com/infor-cloud/ion-api-sdk)：Infor ION API Gateway是一款功能强大的API管理工具。
 * [Arrivals](https://github.com/dvgica/arrivals)：Arrivals提供了使用Akka HTTP构建API网关所需的构建模块。
 * [GraphQL Gateway](https://github.com/joaquin-alfaro/graphql-gateway)：使用GraphQL公开REST服务的网关。
+* [Spring Cloud APISIX](https://github.com/galaxy-sea/spring-cloud-apisix)：Spring Cloud APISIX是一个基于Apache APISIX的Spring Cloud框架。
+* [FastGateway](https://github.com/xmopher/FastGateway)：FastGateway是一个轻量级、高性能的API网关服务，基于Spring Boot 3.x和Spring Cloud构建。
 
 ## 服务发现
 
@@ -2155,7 +2173,7 @@
 * [Kite](https://github.com/williewheeler/kite)：Kite是一个基于Spring的组件库，其中包含名为守卫的组件，用于实现各种管理应用程序/服务可用性、性能和容量的模式。
 * [Ktor Rate Limiting](https://github.com/mantono/ktor-rate-limiting)：Ktor提供的端点速率限制功能。
 * [Amon](https://gitee.com/lyhome_admin/amon)：Amon方法级限流解决方案。
-* [Manerfan Booster](https://github.com/manerfan/manerfan-booster)：机遇Redis的分布式限流Starter。
+* [Manerfan Booster](https://github.com/manerfan/manerfan-booster)：基于Redis的分布式限流Starter。
 * [RedLimiter](https://github.com/diracccc/redis-rate-limiter)：RedLimiter与Guava RateLimiter功能类似，基于Redis、Lua、令牌桶算法实现的分布式限流器。
 * [Akka Throttler](https://github.com/hbf/akka-throttler)：适用于Akka 2.0+的节流器。
 * [RateLimiter](https://github.com/ZhuBaker/rate-limiter)：限制瞬时并发数/限制某个接口的时间窗口最大请求数。
@@ -2214,6 +2232,7 @@
 * [Watcher](https://github.com/bohrqiu/watcher)：Watcher提供Java应用暴露监控/健康检查的能力。
 * [HealthChecker](https://github.com/renmeijian/HealthChecker)：HealthChecker能检查集群中所有服务的所有实例健康状态。
 * [Kafka Health Check](https://github.com/deviceinsight/kafka-health-check)：该库为Spring Boot Actuator提供Kafka健康检查。
+* [Akka HTTP Health](https://github.com/lhotari/akka-http-health)：用于为Akka HTTP应用程序创建健康端点检查的库。
 
 ## 大数据
 
@@ -2717,6 +2736,7 @@
 * [Java Time Series](https://github.com/signaflo/java-timeseries)：Java中的时序分析。
 * [Hawkular Data Mining](https://github.com/hawkular/hawkular-datamining)：Data Mining是Hawkular的时序预测引擎。
 * [Time Series](https://github.com/carldata/timeseries)：Scala的时序库。
+* [JDemetra Core](https://github.com/jdemetra/jdemetra-core)：JDemetra+ Core库包含了软件的所有算法部分以及围绕时序的众多外围服务(例如访问数据提供商、数据格式化等)。
 
 ## 消息中间件
 
@@ -2805,6 +2825,7 @@
 * [Orkes Queues](https://github.com/orkes-io/orkes-queues)：Orkes Queues是一个基于Redis作为底层存储的高性能队列方案。
 * [Delay Queue](https://github.com/JianSphere/delay-queue)：基于Redis的延迟队列系统。
 * [Simple Message Queue](https://github.com/RealTimeLogic/SMQ)：Simple Message Queue是一种轻量级的发布/订阅协议，用于设备、应用程序和浏览器之间的实时通信。
+* [CoronaMQ](https://github.com/jklingsporn/coronamq)：使用Java、Vertx和PostgreSQL实现任务队列的最简单方法。
 
 ## 分布式开发
 
@@ -2869,6 +2890,8 @@
 * [Spring Data Redis Tools](https://github.com/WellJay/spring-data-redis-tools)：Spring Data Redis封装工具类，包含分布式锁、分布式唯一键。
 * [DistributedLock](https://github.com/wyzssw/DistributedLock)：Redis分布式锁。
 * [Redis Distributed Kit](https://github.com/jsrdxzw/redis-kit)：Redis Distributed Kit是一个用于分布式环境的Redis工具集合。
+* [Redis Distributed Lock](https://github.com/lihaimian/redis-distributed-lock)：集成Spring Boot框架的Redis分布式锁。
+* [Redisson Spring Boot Starter](https://github.com/z744489075/redisson-spring-boot-starter)：Redisson的Spring Boot Starter。
 
 #### 分布式ID
 
@@ -2943,6 +2966,7 @@
 * [HttpSessionReplacer](https://github.com/AmadeusITGroup/HttpSessionReplacer)：本项目提供会话管理功能，包括可能用于JEE和其他Java容器的分布式会话存储库。
 * [Tomcat Redis Session Manager](https://github.com/cc-chen/tomcat8.5-redis-session-manager)：Tomcat的Redis会话管理器。
 * [Jetty NoSQL Memcached](https://github.com/yyuu/jetty-nosql-memcached)：基于Jetty NoSQL的Jetty SessionManager实现。
+* [Vertx Session Manager](https://github.com/campudus/vertx-session-manager)：用于Vert.x的会话管理器模块，用于存储临时数据。
 
 #### Raft算法
 
@@ -3005,6 +3029,7 @@
 * [Itc4j](https://github.com/sinabz/itc4j)：用Java实现的区间树时钟。
 * [Java CRDT Library](https://github.com/dclements/riak-java-crdt)：专注于支持Riak的Java CRDT库。
 * [C-CRDTLib](https://github.com/concordant/c-crdtlib)：这是一个用Kotlin编写的CRDT库，用于Concordant平台API。
+* [Akka CRDT](https://github.com/jboner/akka-crdt)：Akka CRDT旨在提供一个基于Akka集群的服务器管理型CRDT数据库。
 
 ## 数据库
 
@@ -3240,6 +3265,7 @@
 * [InfinityDB](https://boilerbay.com/infinitydb/manual/)：InfinityDB Embedded是一个Java NoSQL DBMS组件，其灵活性远超文档数据库，由加州大学开源。
 * [Kronotop](https://github.com/kronotop/kronotop)：Kronotop是一个与Redis兼容的分布式事务文档数据库，由FoundationDB支持。
 * [KitDB](https://github.com/frost373/KitDB)：KitDB是一个内嵌式持久型的高速NoSQL存储库，以jar包方式嵌入到应用中。
+* [ChaNa](https://github.com/dcaoyuan/chana)：基于Akka的实时数据存储。
 * [Android NoSQL](https://github.com/florent37/Android-NoSql)：适用于Android的轻量级、简单结构化的NoSQL数据库。
 * [Kodein](https://github.com/kosi-libs/Kodein-DB)：多平台NoSQL数据库。
 * [FleetDB](https://github.com/mmcgrana/fleetdb)：FleetDB是一个用Clojure实现的无模式数据库。
@@ -3263,6 +3289,7 @@
 * [Iron](https://github.com/FabianTerhorst/Iron)：快速易用的NoSQL数据存储，支持RxJava和Kotlin。
 * [TOJOs](https://github.com/yegor256/tojos)：Tojos是一个轻量级的Java库，用于将CSV、JSON等文本文件作为简单的NoSQL文档数据库进行管理。
 * [Snapper](https://github.com/techery/snapper)：NoSQL快速可序列化存储，具有投影、排序、筛选等功能。
+* [Cloudata](https://github.com/gruter/cloudata)：Cloudata是一个分布式大规模结构化数据存储系统，实现了Google Bigtable。
 
 #### OLAP数据库
 
@@ -3465,6 +3492,7 @@
 * [LLM.Java](https://github.com/harryjackson/llm.java)：Java中的LLM推理移植。
 * [Micronaut Llama3](https://github.com/seehiong/micronaut-llama3)：使用Micronaut和GraalVM原生镜像的高性能Llama3实现。
 * [LightMetal](https://github.com/AdamBien/lightmetal)：Lightmetal是一个让Java开发者能够在Apple Silicon上，利用Metal和Llama.cpp进行GPU加速的LLM推理的工具。
+* [Quixotic](https://github.com/qxoticai/qxotic)：Quixotic提供核心构建模块，用于在JVM上原生运行LLM推理、模型加载、分词和张量操作，并在需要时提供原生性能的CPU/GPU后端。
 
 ### MCP
 
@@ -3478,6 +3506,8 @@
 * [MCP Annotation Java SDK](https://github.com/thought2code/mcp-annotated-java-sdk)：基于注解的MCP开发，无需Spring，零样板代码，纯Java。
 * [MCP Task Orchestrator](https://github.com/jpicklyk/task-orchestrator)：一款轻量级的MCP任务编排服务器，专为AI智能体设计。
 * [MCP Toolbox SDK Java](https://github.com/googleapis/mcp-toolbox-sdk-java)：MCP Toolbox的官方Java客户端SDK。
+* [OpenAPI MCP](https://github.com/infobip/infobip-openapi-mcp)：OpenAPI MCP是一个开源框架，用于将任何符合OpenAPI文档规范的HTTP API公开为MCP服务器。
+* [Tachyon](https://github.com/kpavlov/tachyon)：Tachyon MCP是一个基于Netty构建的Java 21 MCP服务器。
 
 ### A2A
 
@@ -3515,6 +3545,7 @@
 * [Spring AI AgentX](https://github.com/bigchuidw3/spring-ai-agentx)：Spring AI AgentX是一款面向Java开发者的AI Agent开发框架。
 * [Easy Agent](https://github.com/songrongzhen/easy-agent)：Easy Agent是一个即插即用的Java智能体开发组件，旨在让任何基于Spring Boot的应用系统快速接入AI能力。
 * [EvoX](https://github.com/Leavesfly/EvoX)：EvoX是一个以Agent自进化为核心理念的企业级智能代理框架，基于Java 17、Spring Boot 3.2+和Project Reactor构建。
+* [Zsmith](https://github.com/AdamBien/zsmith)：零依赖AI代理框架，支持工具执行、SKILL.md和代理循环。
 
 ### RAG
 
@@ -4089,6 +4120,7 @@
 * [Yiya](https://github.com/naosense/Yiya)：一个中文无字典分词程序。
 * [Jmorphy2](https://github.com/anti-social/jmorphy2)：Pymorphy2的Java移植版。
 * [Kss Java](https://github.com/sangdee/kss-java)：使用启发式算法将韩文文本分割成句子。
+* [Yandex.MyStem Scala](https://github.com/alexeyev/mystem-scala)：Yandex.MyStem的Scala/JVM分词器封装。
 
 #### 语言库
 
@@ -4131,7 +4163,6 @@
 * [PinyinUtils](https://github.com/GuoGuang/pinyinUtils)：汉字转换为拼音，支持多音字、首字母模式，支持标点模式、无标点模式。
 * [PinyinSearcher](https://github.com/yaochenkun/pinyin-searcher)：PinyinSearcher是一个支持以汉字、拼音首字母、拼音前缀、非汉字串前缀、非汉字串后缀等及他们混合进行关键字搜索的Java包。
 * [Pinyin2Hanzi](https://github.com/lovejing0306/pinyin2hanzi)：Java版拼音转汉字。
-* [T9SearchLibrary](https://github.com/handsomezhou/T9SearchLibrary)：T9Search是一个Java库，它为T9拼音搜索提供数据分析方法、数据匹配方法等。
 
 #### 词嵌入
 
