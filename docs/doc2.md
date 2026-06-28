@@ -174,6 +174,7 @@
 * [SessionAnalytics](https://github.com/Tencent/SessionAnalytics)：SessionAnalytics是一个基于互联网用户Session会话的用户路径分析和挖掘框架，由腾讯开源。
 * [KEEL](https://github.com/SCI2SUGR/KEEL)：KEEL是一款开源Java软件工具，可用于多种不同的知识数据发现任务。
 * [SPMF](https://github.com/philfv9/spmf-software)：SPMF是一款用Java编写的流行且高效的数据挖掘软件，专门用于模式挖掘。
+* [SAX](https://github.com/jMotif/SAX)：SAX、HOT-SAX和EMMA的Java实现。
 
 #### 数据分析
 
@@ -1605,6 +1606,7 @@
 * [Kwik](https://github.com/jcornaz/kwik)：Kotlin的基于属性的测试库。
 * [Probably](https://github.com/propensive/probably)：Probably是一个测试库，旨在以非侵入式的方式为任何代码库提供测试记录和报告功能，而无需考虑用户选择的库或编程范式。
 * [Hegel Java](https://github.com/hegeldev/hegel-java)：Hegel是一个基于属性的Java测试库。
+* [PUnit](https://github.com/mavai-org/punit)：一个与JUnit兼容的实验和概率测试框架，用于对非确定性特征和服务进行回归测试。
 
 #### 验收测试
 
@@ -2993,6 +2995,7 @@
 * [DBMetadata](https://gitee.com/free/DBMetadata)：DBMetadata可用于数据库表和字段的查询。
 * [SQLDump](https://github.com/tbrugz/sqldump)：用于从关系型数据库管理系统(RDBMS)导出模式和数据的实用程序。
 * [DB Meta](https://github.com/wukenaihe/db-meta)：Db Meta是一款免费的数据库模式发现和易用工具。
+* [Database Metadata Bind](https://github.com/jinahya/database-metadata-bind)：用于绑定DatabaseMetaData中定义的方法的结果的库。
 
 #### 存储过程
 
@@ -3144,6 +3147,7 @@
 * [MongoWP](https://github.com/torodb/mongowp)：MongoWP是一个Java层，它支持开发MongoDB网络协议应用程序。
 * [Vert.x Mongo Client](https://github.com/vert-x3/vertx-mongo-client)：用于与MongoDB数据库交互的异步客户端。
 * [Mongo Util](https://github.com/mhelmstetter/mongo-util)：MongoDB工具集。
+* [BsonCodec](https://github.com/ralscha/bsoncodec)：MongoDB的org.bson.codecs.Codec实现集合。
 * [Embedded MongoDB](https://github.com/flapdoodle-oss/de.flapdoodle.embed.mongo)：Embedded MongoDB提供一种平台中立的方式在单元测试中运行MongoDB。
 * [Fongo](https://github.com/fakemongo/fongo)：Fongo是MongoDB的内存中Java实现，主要用途是轻量级集成测试，由Foursquare开源。
 * [JMockMongo](https://github.com/thiloplanz/jmockmongo)：用于单元测试的模拟进程内内存MongoDB。
@@ -8970,6 +8974,7 @@
 * [Java Class Enumerator](https://github.com/ddopson/java-class-enumerator)：Java Class Enumerator是一个用于动态发现Java类的简单库。
 * [Grip](https://github.com/michaelrocks/grip)：使用Kotlin DSL对JVM类元数据进行类似SQL的查询。
 * [JLinker](https://github.com/xxDark/jlinker)：Java方法和字段解析库。
+* [EggG](https://gitee.com/noear/eggg)：一个Java类型元数据分析与构建、及流式反射调用工具。
 
 ## 注解库
 
@@ -9227,6 +9232,7 @@
 * [ComposePDF](https://github.com/kdroidFilter/ComposePdf)：ComposePDF是一个基于Pdfium和Compose Multiplatform构建的Kotlin多平台PDF渲染和文本提取库。
 * [PDFFigures](https://github.com/allenai/pdffigures2)：PDFFigures是一个基于Scala的项目，旨在从学术文献中提取图表、图解、表格和章节标题，尤其侧重于计算机科学领域的文档，由艾伦人工智能研究院开源。
 * [PDF Parser](https://github.com/ethanhwang1024/pdf-parser)：一款能够提取段落、表格和图片的PDF解析器。
+* [JPDFium](https://github.com/Stirling-Tools/JPDFium)：JPDFium提供了一个安全、符合人体工程学的Java API，用于PDF渲染、文本提取、真正的内容剥离和编辑等诸多功能。
 
 #### PDF比较库
 
@@ -11002,6 +11008,77 @@ Kafka生态管理系统、运维平台。
 * [ForeUI](https://www.foreui.com/)：ForeUI是一款易于使用的UI原型工具，旨在为你想要的任何应用程序或网站创建模型/线框/原型。
 * [CogTool](https://github.com/cogtool/cogtool)：CogTool是一款通用的UI原型设计工具，由CMU开源。
 * [HCCD](https://github.com/vaemendis/hccd)：HCCD是一个小型工具，旨在通过几行HTML和CSS代码，自动从CSV文件中创建游戏卡片。
+
+## 构建工具
+
+* [Apache Maven](https://github.com/apache/maven)：Maven是一个软件项目管理和理解工具。
+* [Gradle](https://github.com/gradle/gradle)：Gradle是一个构建工具，专注于构建自动化并支持多语言开发。
+* [Bazel](https://github.com/bazelbuild/bazel)：Bazel是一个快速、多语言且可扩展的构建系统，由Google开发。
+* [Apache Mvnd](https://github.com/apache/maven-mvnd)：Mvnd是Maven团队借鉴了Gradle和Takari后衍生出的更快的构建工具。
+* [SBT](https://github.com/sbt/sbt)：SBT是一个适用于Scala、Java的构建工具。
+* [Leiningen](https://github.com/technomancy/leiningen)：Leiningen是一种构建自动化和依赖管理工具，用于以Clojure编程语言编写的软件项目的简单配置。
+* [Apache Ant](https://github.com/apache/ant)：Ant是一个基于Java的构建工具。
+* [Buck](https://github.com/facebook/buck)：Buck是一个快速构建系统，鼓励在各种平台和语言上创建小型、可重用的模块，由Facebook开发。
+* [Mill](https://github.com/com-lihaoyi/mill)：Mill是一个现代化的构建工具，支持Scala和Java项目的构建和管理。
+* [Pants](https://github.com/pantsbuild/pants)：Pants是一个快速、可扩展、用户友好的构建系统，适用于各种规模的代码库，由Twitter开源。
+* [Amper](https://github.com/JetBrains/amper)：Amper是一个项目配置工具，其目标是改善项目配置体验和工具性，即IDE内部的支持，同时还提供流畅的开箱即用体验，由JetBrains开源。
+* [Blade](https://github.com/blade-build/blade-build)：Blade是腾讯推出的一款功能强大的构建系统，支持多种主流编程语言，例如C/C++、Java、Scala、Python、Protobuf等。
+* [1JPM](https://github.com/Osiris-Team/1JPM)：1JPM是一种Maven/Gradle替代方案，但有所不同，它本身是一个Java文件，你应该编辑该文件来配置你的项目。
+* [Bloop](https://github.com/scalacenter/bloop)：Bloop是一个构建服务器和CLI工具，可从任何编辑器或构建工具快速编译、测试和运行Scala。
+* [Boot](https://github.com/boot-clj/boot)：Boot是一个Clojure构建框架和临时Clojure脚本评估器。
+* [JeKa](https://github.com/jeka-dev/jeka)：JeKa是一个Java构建工具，用于直接从源代码构建或执行Java应用程序和脚本，由OW2开发。
+* [BLD](https://github.com/rife2/bld)：BLD是一个新的构建系统，允许你用纯Java编写构建逻辑。
+* [Pro](https://github.com/forax/pro)：Pro是与Java 9模块无缝协作的Java构建工具。
+* [Fury](https://github.com/propensive/fury-old)：Fury是下一代构建工具，以解决在不断变化的环境中构建软件的最大挑战，同时保持构建的可预测性、可靠性和简单性。
+* [Bach](https://github.com/sormuras/bach)：Bach是一个编排JDK工具以构建模块化Java项目的工具。
+* [Savant](https://github.com/savant-build/savant-core)：Savant是一个用Java编写的构建工具，它使用Groovy DSL来构建文件，由Inversoft公司开源。
+* [Saker.build](https://github.com/sakerbuild/saker.build)：Saker.build是一个与语言无关的构建系统，专注于可扩展性和可扩展的增量构建。
+* [Kobalt](https://github.com/cbeust/kobalt)：Kobalt是一个受Gradle和Maven启发的构建系统。
+* [Batect](https://github.com/batect/batect)：Batect允许你根据一个或多个Docker容器定义你的开发任务，在任何地方快速、一致地运行这些任务，并轻松地与你的团队共享。
+* [CBT](https://github.com/cvogt/cbt)：CBT是一个构建工具，有助于协调编译、代码和文档生成、打包、部署以及定制工具你的项目。
+* [MDM](https://github.com/polydawn/mdm)：MDM是一个分布式、可重复且安全的依赖管理系统。
+* [Bleep](https://github.com/oyvindberg/bleep)：Bleep是一个超快的Scala构建工具。
+* [Adept](https://github.com/adept-dm/adept)：Adept是一个与平台无关的依赖管理系统。
+* [Seed](https://github.com/tindzk/seed)：Seed是一款用户友好、快速且灵活的Scala项目构建工具。
+* [JCompilo](https://github.com/bodar/jcompilo)：一款纯Java 7/Java 8构建工具，具有高级编译器功能。
+* [Jenesis](https://github.com/raphw/jenesis)：Jenesis是一个用于Java项目的概念验证构建工具。
+* [Maker](https://github.com/cage433/maker)：Maker是一个Scala构建工具。
+* [ZB](https://github.com/AdamBien/zb)：一个轻量级的Java构建工具，无需任何外部依赖。
+* [Gant](https://github.com/Gant/Gant)：Gant是一个适用于Groovy和Java系统的轻量级依赖关系编程框架。
+
+## 包管理器
+
+* [Coursier](https://github.com/coursier/coursier)：Coursier是Scala应用程序和工件管理器。
+* [Apache Ivy](https://github.com/apache/ant-ivy)：Apache Ivy是一个用于管理项目依赖关系的工具。
+* [Nuts](https://github.com/thevpc/nuts)：Nuts是一个Java包管理器，可帮助以简单直接的方式发现、下载、组装和执行本地和远程工件(包)。
+* [JPM](https://github.com/codejive/java-jpm)：JPM是一个简单的命令行工具，用于管理不使用Maven或Gradle等构建系统的Java项目的Maven依赖。
+* [Nix](https://github.com/fzakaria/mvn2nix)：Nix包管理器用于轻松打包Maven Java应用程序。
+* [CDep](https://github.com/google/cdep)：CDep是一个去中心化的原生包依赖管理器，专注于Android平台，由Google开源。
+
+## CI/CD
+
+* [Jenkins](https://github.com/jenkinsci/jenkins)：Jenkins是领先的开源自动化服务器，使用Java构建，提供超过2000个插件来支持几乎所有事情的自动化。
+* [Spinnaker](https://github.com/spinnaker/spinnaker)：Spinnaker是一个开源持续交付平台，用于快速、可靠地发布软件变更，由Netflix和Google开源。
+* [CloudBees](https://docs.cloudbees.com/)：CloudBees是一种功能齐全的云原生功能，可托管在本地或公共云中，用于大规模交付CI。
+* [CircleCI](https://circleci.com/)：CircleCI是一个持续集成和持续交付平台，可用于实施DevOps实践。
+* [TeamCity](https://www.jetbrains.com/teamcity/)：TeamCity是一个通用CI/CD软件平台，可实现灵活的工作流程、协作和开发实践，这是JetBrains的商业产品。
+* [Bamboo](https://www.atlassian.com/software/bamboo)：Bamboo是一款持续集成构建服务器软件，Atlassian提供的商业软件，也有免费版本。
+* [GoCD](https://github.com/gocd/gocd)：GoCD可帮助你自动化和简化构建-测试-发布周期，从而无忧、持续地交付产品，由ThoughtWork开源。
+* [OneDev](https://github.com/theonedev/onedev)：OneDev是一个具有CI/CD、看板的自托管Git服务器。
+* [FlowCI](https://github.com/FlowCI/flow-core-x)：FlowCI是一个开源CI/CD自动化服务器，旨在以最简单、最快、最轻松的方式建立自托管CI/CD服务。
+* [BK CI](https://github.com/TencentBlueKing/bk-ci)：BlueKing是一个免费并开源的CI服务，可助你自动化构建-测试-发布工作流，持续、快速、高质量地交付你的产品，由腾讯开源。
+* [JReleaser](https://github.com/jreleaser/jreleaser)：JReleaser是一个用于Java和非Java项目的自动化发布工具。
+* [Hudson](https://github.com/hudson/hudson-2.x)：Hudson是用Java编写的一个持续集成工具，由Sun开源。
+* [Arbess](https://github.com/tiklab-project/tiklab-arbess)：Arbess是一款强大的开源CI/CD工具，旨在帮助开发团队高效管理构建、测试和部署流程。
+* [Apache Continuum](https://continuum.apache.org/)：Continuum是一款企业级持续集成服务器，具有自动构建、发布管理、基于角色的安全性以及与流行构建工具和源代码控制管理系统的集成等功能。
+* [Harness CD Community Edition](https://github.com/harness/harness-core)：Harness CD是一种现代自助式持续交付解决方案，允许开发人员在他们选择的任何公共或私有云基础设施上部署、验证和自动回滚Kubernetes和其他云原生应用程序。
+* [Bob](https://github.com/bob-cd/bob)：Bob允许你构建自己的自定义CI/CD基础设施，从而允许你将Bob用于各种不同的目的。
+* [LambdaCD](https://github.com/flosell/lambdacd)：LambdaCD是一个工具箱，可帮助你构建自己的构建服务器。
+* [CruiseControl](https://cruisecontrol.sourceforge.net/)：CruiseControl既是一个持续集成工具，也是一个用于创建自定义持续构建流程的可扩展框架，由ThoughtWorks开源。
+* [Nelson](https://github.com/getnelson/nelson)：Nelson是一个用于持续部署容器并自动管理其生命周期的系统。
+* [Orkestra](https://github.com/Orkestra-Tech/orkestra)：Orkestra是一个开源的持续集成/持续部署服务器，以库的形式运行在Kubernetes上。
+* [Blazar](https://github.com/HubSpot/Blazar-Archive)：Blazar是一款持续集成工具，旨在与GitHub和Singularity集成。
+* [Yontrack](https://github.com/nemerosa/ontrack)：Yontrack的目标是简化交付流程，提供快速、高层次的洞察，为团队带来透明度和信心。
 
 ## 工件仓库
 
@@ -14620,6 +14697,7 @@ Kafka生态管理系统、运维平台。
 * [Java8583](https://github.com/Ajsgn/Java8583)：基于Java语言实现的iso8583协议框架包。
 * [jBSBE](https://github.com/keyhan/jBSBE)：jBSBE是一个基于j8583的库。
 * [ISO8583 JSON XML](https://github.com/kamshory/ISO8583-JSON-XML)：该库用于将消息从一种格式转换为另一种格式，支持的格式包括ISO 8583、JSON和XML。
+* [ISO8583 Processor](https://github.com/artivisi/iso8583-processor)：用于处理ISO-8583消息的库。
 
 #### 金融信息交换
 
@@ -16329,7 +16407,7 @@ Kafka生态管理系统、运维平台。
 
 ## 游戏开发
 
-这里列出来Java中用于开发游戏的引擎、库、工具，以及Java开发的一些免费游戏
+这里列出来Java中用于开发游戏的引擎、库、工具，以及Java开发的一些免费游戏。
 
 #### 游戏引擎
 
@@ -17252,6 +17330,7 @@ Kafka生态管理系统、运维平台。
 * [Clojure Sound](https://github.com/uncomplicate/clojure-sound)：Clojure Sound是一个用于转换数字媒体并与MIDI设备通信的库。
 * [MidiDroid](https://github.com/pdrogfer/MidiDroid)：Java中的MIDI库。
 * [Minim](https://github.com/ddf/Minim)：Java音频库，设计用于与Processing一起使用。
+* [ZenGarden](https://github.com/mhroth/ZenGarden)：ZenGarden是Pure Data(Pd)音频编程语言的运行时环境。
 * [JSyn](https://github.com/philburk/jsyn)：Java模块化音频合成器。
 * [Jaudiotagger](https://github.com/RouHim/jaudiotagger)：Jaudiotagger是音频标记库，用于标记音频文件中的数据。
 * [Jaudiotagger](https://bitbucket.org/ijabz/jaudiotagger)：Jaudiotagger是一个用于音频元数据标记的Java API。
@@ -17767,6 +17846,7 @@ Kafka生态管理系统、运维平台。
 * [Slicez](https://github.com/richardstartin/slicez)：Z布局位切片索引，用于评估对未排序数值数据的点和范围查询。
 * [Splitmap](https://github.com/richardstartin/splitmap)：该库基于RoaringBitmap构建，提供布尔电路(多维滤波器)的并行实现以及对滤波器的任意聚合。
 * [Reduce Rule](https://github.com/gaols/reduce-rule)：Java版本的拼多多砍价规则。
+* [GI](https://github.com/jMotif/GI)：Sequitur和RePair语法归纳算法的实现。
 
 #### 字符串算法
 
