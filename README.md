@@ -284,6 +284,7 @@
   * [Influx库/工具](docs/doc2.md#Influx库工具)
   * [Vault库/工具](docs/doc2.md#Vault库工具)
   * [OpenTSDB库/工具](docs/doc2.md#OpenTSDB库工具)
+  * [Gremlin库/工具](docs/doc2.md#Gremlin库工具)
 * [数据库中间件](docs/doc2.md#数据库中间件)
   * [数据同步](docs/doc2.md#数据同步)
   * [分库分表](docs/doc2.md#分库分表)
@@ -607,7 +608,6 @@
   * [CQRS](docs/doc2.md#CQRS)
 * [设计模式](docs/doc2.md#设计模式)
   * [构建器模式](docs/doc2.md#构建器模式)
-  * [代理模式](docs/doc2.md#代理模式)
   * [责任链模式](docs/doc2.md#责任链模式)
 * [REST错误处理](docs/doc2.md#REST错误处理)
 * [REST版本控制](docs/doc2.md#REST版本控制)
@@ -748,8 +748,7 @@
   * [算法交易](docs/doc2.md#算法交易)
   * [FIX引擎](docs/doc2.md#FIX引擎)
   * [订单匹配引擎](docs/doc2.md#订单匹配引擎)
-  * [信用卡数据交换](docs/doc2.md#信用卡数据交换)
-  * [金融信息交换](docs/doc2.md#金融信息交换)
+  * [金融消息格式](docs/doc2.md#金融消息格式)
   * [货币](docs/doc2.md#货币)
   * [FinTS](docs/doc2.md#FinTS)
   * [电子发票](docs/doc2.md#电子发票)
@@ -1212,6 +1211,8 @@
 * [Kog](https://github.com/danneu/kog)：Kog是一个受Clojure Ring启发而开发的简单Kotlin Web框架。
 * [Edge](https://github.com/edgeframework/edge)：Edge是一个面向Vert.x平台的Web应用程序框架，其灵感来源于Node.js的ExpressJS。
 * [Irked](https://github.com/GreenfieldTech/irked)：Irked是一个非常注重特性的框架，用于配置Vert.x Web路由和调用分发。
+* [Fastboot](https://github.com/stylesmile/fastboot)：一个速度极快的Java Web框架。
+* [Yupiik Fusion](https://github.com/yupiik/fusion)：Yupiik Fusion是一个现代化的轻量级Java框架，旨在基于GraalVM，能够轻松快速地构建高效、模块化且易于维护的应用程序。
 
 #### REST框架
 
@@ -1301,6 +1302,7 @@
 * [AisMVC](https://github.com/javagaorui5944/AisMVC)：AisMVC是一款仿Spring MVC轻便的MVC开发框架。
 * [PureMVC](https://github.com/PureMVC/puremvc-java-multicore-framework)：PureMVC是一个轻量级框架，用于创建基于经典MVC设计元模式的应用程序。
 * [NettyHTTP](https://github.com/myan9527/nettyhttp)：Netty的HTTP服务器和MVC框架。
+* [Htmleasy](https://github.com/voodoodyne/htmleasy)：Htmleasy是一个简单、优雅的基于HTML的MVC微框架，它基于Resteasy(JAX-RS)构建。
 
 #### JSF框架
 
@@ -1325,6 +1327,7 @@
 * [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
 * [Kweb](https://github.com/kwebio/kweb-core)：Kweb旨在让开发者轻松创建现代化网站，无需担心服务器和浏览器之间复杂的通信问题。
 * [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
+* [JWebMP](https://jwebmp.com)：JWebMP允许你使用纯Java构建完整的Web应用程序。
 * [Oorian](https://oorian.com/)：Oorian是一个基于Java的框架，用于创建动态、交互式、数据驱动的Web应用程序。
 * [SmartClient](https://smartclient.com/product/smartclient.jsp)：SmartClient将业界最丰富的跨浏览器UI组件集与Java服务器框架相结合，为构建企业Web应用程序提供端到端的解决方案。
 * [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。
@@ -1551,6 +1554,7 @@
 * [Saluki](https://github.com/spring-avengers/saluki)：Saluki是一个基于gRPC Java的微服务框架。
 * [Trooper](https://github.com/regunathb/Trooper)：Trooper是一个Java模块式框架，提供多种运行时配置文件用于构建应用程序。
 * [Cougar](https://github.com/betfair/cougar)：Cougar是一个框架，旨在简化构建网络暴露服务接口的过程，由Betfair开源。
+* [Uship](https://github.com/yupiik/uship)：Uship是一个面向现代应用程序的轻量级微服务栈。
 
 ## HTTP客户端
 
@@ -1710,6 +1714,8 @@
 * [Retrofit Spring Boot Starter](https://github.com/easyretrofit/retrofit-spring-boot-starter)：Retrofit Spring Boot Starter提供了在Spring Boot项目中更轻松地使用和增强Retrofit2的常用功能，并通过更多的注解实现了常用功能的增强。
 * [OkHttp Spring Boot](https://github.com/freefair/okhttp-spring-boot)：适用于OkHttp的Spring Boot Starter。
 * [EzyHttp](https://github.com/youngmonkeys/ezyhttp)：EzyHttp是EzyFox生态系统中的一个库，它支持与HTTP(包括HTTP服务器和HTTP客户端)进行交互。
+* [Resilient HttpClient](https://github.com/nhenneaux/resilient-httpclient)：具有底层IP地址池和自动刷新功能的Java HTTP客户端。
+* [Http2Client Java8](https://github.com/stefan-zobel/http2client-java8)：Java 10高级HTTP和WebSocket API的实验性Java 8向后移植版本。
 
 ## Web服务器
 
@@ -2150,6 +2156,7 @@
 * [TNS](https://github.com/jerrysearch/tns)：TNS为Thrift提供分布式解决方案，支持查找服务、高可用性、负载均衡、灰度发布、水平扩展等。
 * [PlayPen](https://github.com/PlayPen/playpen-core)：PlayPen是一个通用的跨平台服务器管理和负载均衡框架。
 * [Gatekeeper](https://github.com/Xorlev/gatekeeper)：Gatekeeper将NGINX变成你的边缘服务。
+* [RestComm Load Balancer](https://github.com/RestComm/load-balancer)：RestComm融合(SIP/HTTP/WebSockets/SMPP)负载均衡器。
 
 #### 健康检查
 
@@ -2419,6 +2426,7 @@
 * [Fabric](https://github.com/olacabs/fabric)：Fabric是一个可扩展、实用且安全的实时计算框架，设计易于操作和扩展。
 * [Streams Bootstrap](https://github.com/bakdata/streams-bootstrap)：Streams Bootstrap为Kafka Streams应用程序提供基本类和实用函数。
 * [Ziggrid](https://github.com/Ziniki-Network/Ziggrid)：Ziggrid是一种用于大数据处理的函数式响应式编程范式。
+* [Meteor](https://github.com/obsidiandynamics/meteor)：Meteor是一个无需代理、轻量级、可嵌入的Kafka/Kinesis替代方案，它在内存数据网格中运行。
 
 #### ETL工具
 
@@ -2492,6 +2500,7 @@
 * [SmartETL](https://github.com/dennisk28/SmartETL)：轻量级ETL引擎和智能转换框架。
 * [Sope](https://github.com/mayur2810/sope)：Sope是一套实用工具和库函数，旨在帮助使用Apache Spark进行ETL开发。
 * [SharpETL](https://github.com/SharpData/SharpETL)：Sharp ETL是一个ETL框架，它通过编写SQL工作流文件来简化ETL的编写和执行。
+* [Bublik](https://github.com/dimarudik/bublik)：Bublik是一个用于在多种异构数据库(如Oracle、PostgreSQL、Cassandra、YDB)之间进行高效数据传输的工具。
 
 #### CDC组件
 
@@ -2823,6 +2832,7 @@
 * [Redis Distributed Kit](https://github.com/jsrdxzw/redis-kit)：Redis Distributed Kit是一个用于分布式环境的Redis工具集合。
 * [Redis Distributed Lock](https://github.com/lihaimian/redis-distributed-lock)：集成Spring Boot框架的Redis分布式锁。
 * [Redisson Spring Boot Starter](https://github.com/z744489075/redisson-spring-boot-starter)：Redisson的Spring Boot Starter。
+* [Leader Only Spring Boot Starter](https://github.com/allegro/leader-only-spring-boot-starter)：Leader Only Spring Boot Starter是一个基于Apache Curator和ZooKeeper的Spring Boot Starter，用于在分布式应用集群中，确保只有一个节点执行特定的任务，由Allegro开源。
 
 #### 分布式ID
 
@@ -3221,6 +3231,8 @@
 * [TOJOs](https://github.com/yegor256/tojos)：Tojos是一个轻量级的Java库，用于将CSV、JSON等文本文件作为简单的NoSQL文档数据库进行管理。
 * [Snapper](https://github.com/techery/snapper)：NoSQL快速可序列化存储，具有投影、排序、筛选等功能。
 * [Cloudata](https://github.com/gruter/cloudata)：Cloudata是一个分布式大规模结构化数据存储系统，实现了Google Bigtable。
+* [Kiara DB](https://github.com/kapoorlabs/kiara)：Kiara DB的设计目标是在不构建复合索引的情况下，对多种字段组合进行快速内存搜索。
+* [Maryk](https://github.com/marykdb/maryk)：Maryk允许你定义一次强类型数据模型，然后使用同一个模型在Kotlin多平台目标中进行验证、序列化、查询、存储、工具和同步。
 
 #### OLAP数据库
 
@@ -3966,7 +3978,6 @@
 * [NLP Utils](https://github.com/aria42/nlp-utils)：Java中的NLP工具库。
 * [NLPStack](https://github.com/allenai/nlpstack)：NLPStack是一个自然语言处理工具包，由艾伦人工智能研究院开源。
 * [JSastrawi](https://github.com/jsastrawi/jsastrawi)：JSastrawi是一套用于印尼语的自然语言处理工具集。
-* [Greenback](https://github.com/greenback-inc/greenback-java)：用于构建包含高清明细财务数据的现代化应用程序的Java库，支持OCR、AI和NLP技术，可识别收据、发票、账单和RFC822电子邮件消息。
 * [Syntactic](https://github.com/OmerShapira/Syntactic)：Syntactic是一款能够读取大型文本并将文本中常用词汇分类的程序。
 * [ZAP](https://github.com/zalandoresearch/zap)：ZAP是Zalando开发的一个框架，用于在平行语料库中进行语言标注投影。
 * [PigNLPRoc](https://github.com/ogrisel/pignlproc)：Apache Pig工具，用于从公开的维基百科和DBpedia转储中构建机器学习/自然语言处理的训练语料库。
