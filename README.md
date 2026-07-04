@@ -1716,6 +1716,7 @@
 * [EzyHttp](https://github.com/youngmonkeys/ezyhttp)：EzyHttp是EzyFox生态系统中的一个库，它支持与HTTP(包括HTTP服务器和HTTP客户端)进行交互。
 * [Resilient HttpClient](https://github.com/nhenneaux/resilient-httpclient)：具有底层IP地址池和自动刷新功能的Java HTTP客户端。
 * [Http2Client Java8](https://github.com/stefan-zobel/http2client-java8)：Java 10高级HTTP和WebSocket API的实验性Java 8向后移植版本。
+* [Avaje Http Client](https://github.com/avaje/avaje-http-client)：一个轻量级的JDK HttpClient封装库。
 
 ## Web服务器
 
@@ -3436,6 +3437,7 @@
 * [Micronaut Llama3](https://github.com/seehiong/micronaut-llama3)：使用Micronaut和GraalVM原生镜像的高性能Llama3实现。
 * [LightMetal](https://github.com/AdamBien/lightmetal)：Lightmetal是一个让Java开发者能够在Apple Silicon上，利用Metal和Llama.cpp进行GPU加速的LLM推理的工具。
 * [Quixotic](https://github.com/qxoticai/qxotic)：Quixotic提供核心构建模块，用于在JVM上原生运行LLM推理、模型加载、分词和张量操作，并在需要时提供原生性能的CPU/GPU后端。
+* [DeepJ](https://github.com/KirstenAli/DeepJ)：一个轻量级的纯Java Transformer库。
 
 ### MCP
 
