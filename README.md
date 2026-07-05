@@ -184,12 +184,13 @@
     * [Async/Await](docs/doc2.md#AsyncAwait)
     * [并行编排](docs/doc2.md#并行编排)
     * [线程库](docs/doc2.md#线程库)
-    * [结构化并发](docs/doc2.md#结构化并发)
     * [线程池](docs/doc2.md#线程池)
     * [锁](docs/doc2.md#锁)
     * [Actor库](docs/doc2.md#Actor库)
     * [ThreadLocal](docs/doc2.md#ThreadLocal)
     * [并发数据结构](docs/doc2.md#并发数据结构)
+    * [虚拟线程](docs/doc2.md#虚拟线程)
+    * [结构化并发](docs/doc2.md#结构化并发)
     * [竞争检测](docs/doc2.md#竞争检测)
 * [测试](docs/doc2.md#测试)
     * [单元测试](docs/doc2.md#单元测试)
@@ -1853,6 +1854,7 @@
 * [LightWebServer](https://github.com/liujunlingx/LightWebServer)：LightWebServer是一个轻量级的嵌入式Web服务器，同时提供了简单的MVC框架。
 * [Ring JDK Adapter](https://github.com/igrishaev/ring-jdk-adapter)：Ring JDK Adapter是一个基于Java内置HTTP服务器的轻量级封装。
 * [JDK HttpServer Utilities](https://github.com/bowbahdoe/jdk-httpserver)：JDK HTTP服务器实用程序。
+* [NoMagicHTTP](https://github.com/martinandersson/nomagichttp)：优雅的Java HTTP请求处理库，使用虚拟线程。
 
 ## 微服务治理
 

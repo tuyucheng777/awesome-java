@@ -352,7 +352,6 @@
 * [XGameEngine](https://github.com/cuixin/XGameEnginee)：XGameEngine是一个基于Netty进行封装的后台通讯和逻辑执行引擎。
 * [jSCSI](https://github.com/sebastiangraf/jSCSI)：jSCSI是一个功能齐全的iSCSI实现。
 * [Zenoh Java](https://github.com/eclipse-zenoh/zenoh-java)：Zenoh是一个发布/订阅/查询协议，它统一了动态数据、静态数据和计算。
-* [Netty VirtualThread Scheduler](https://github.com/franz1981/Netty-VirtualThread-Scheduler)：Netty和虚拟线程之间的集成库。
 * [Saturnine](https://github.com/texodus/saturnine)：Saturnine是一个Clojure库，旨在促进异步网络应用程序的快速开发。
 * [NetBench](https://github.com/ndal-eth/netbench)：NetBench是一个数据包级模拟器，专注于模拟拥塞和排队。
 * [SP-PIFO](https://github.com/nsg-ethz/SP-PIFO)：使用严格优先级队列近似实现入站先进先出行为。
@@ -1241,7 +1240,7 @@
 * [LibContinuations](https://github.com/riven8192/LibContinuations)：LibContinuations是一个小型库，它允许在Java中使用绿色线程。
 * [Vertx Async Await](https://github.com/AugustNagro/vertx-async-await)：使用Project Loom为Vertx提供Async-Await支持。
 * [Nepxion Coroutine](https://github.com/Nepxion/Coroutine)：Nepxion Coroutine是一款基于Kilim、Promise JDeferred、Zookeeper、Spring Boot的协程分布式调用的聚合框架。
-* [Vert.x Virtual Threads](https://github.com/vert-x3/vertx-virtual-threads-incubator)：Vert.x Virtual Threads是一个为Vert.x框架探索与Java虚拟线程集成的原型项目。
+* [Loomoroutines](https://github.com/Anamorphosee/loomoroutines)：使用Project Loom的原生Java协程库。
 
 #### Promise
 
@@ -1301,14 +1300,6 @@
 * [JBoss Threads](https://github.com/jbossas/jboss-threads)：JBoss Threads是一个管理和执行Java线程的库。
 * [IHMCRealtime](https://github.com/ihmcrobotics/ihmc-realtime)：IHMCRealtime提供JNI支持的线程库，用于将实时POSIX线程附加到正在运行的JVM进程，从而实现任务的确定性计算，由IHMC机器人实验室开源。
 * [Thread Ops](https://github.com/nanosai/thread-ops-java)：Thread Ops是一个开源工具包，提供多线程工具以支持实现同线程、异步、非阻塞I/O分布式系统。
-
-#### 结构化并发
-
-* [Ox](https://github.com/softwaremill/ox)：开发人员友好的JVM结构化并发库，基于Project Loom，由SoftwareMill开源。
-* [Lois](https://github.com/flipkart-incubator/Lois)：Lois是一个Java库，提供类似GoLang的Channel抽象和实现，由Flipkart开源。
-* [JOX](https://github.com/softwaremill/jox)：Java中的快速且可扩展的Channel，设计用于与Project Loom一起使用，由SoftwareMill开源。
-* [ThreadForge](https://github.com/wuuJiawei/ThreadForge)：ThreadForge是一个减少多线程心智负担的结构化并发框架，目标是让并发代码更简单、更安全、更可观测。
-* [Jo](https://github.com/headius/jo)：一个提供类似Go语言中的Goroutine、Channel和Select的库。
 
 #### 线程池
 
@@ -1418,6 +1409,25 @@
 * [SDisruptor](https://github.com/jamie-allen/sdisruptor)：LMAX Disruptor并发模式的Scala实现。
 * [Libkestrel](https://github.com/twitter-archive/libkestrel)：Libkestrel是一个用于Scala/Java的库，包含ConcurrentBlockingQueue、JournaledQueue，由Twitter开源。
 * [LeftRight Map Java](https://github.com/bowbahdoe/leftright-map-java)：LeftRight Map是一个快速、线程安全的Map。
+
+#### 虚拟线程
+
+* [Vert.x Virtual Threads](https://github.com/vert-x3/vertx-virtual-threads-incubator)：Vert.x Virtual Threads是一个为Vert.x框架探索与Java虚拟线程集成的原型项目。
+* [Netty VirtualThread Scheduler](https://github.com/franz1981/Netty-VirtualThread-Scheduler)：Netty和虚拟线程之间的集成库。
+* [Virtually](https://github.com/japplis/Virtually)：Virtually是一个包含各种类的库，旨在简化代码迁移，使其更兼容虚拟线程。
+* [Virtuoso](https://github.com/igrishaev/virtuoso)：这是对Java 21中引入的虚拟线程的简单封装。
+* [RxJavaFiberInterop](https://github.com/akarnokd/RxJavaFiberInterop)：用于RxJava 3和JDK 21的虚拟线程之间互操作的库。
+* [Sus4s](https://github.com/rcardin/sus4s)：一个基于Project Loom结构化并发的直接风格Scala封装。
+* [Loomania](https://github.com/loomania/loomania)：Loomania提供对虚拟线程和Continuations的选定内部结构的访问权限，以便对Loom系统中尚未公开的API进行实验。
+* [Virtual Thread Bridge](https://github.com/thunkware/virtual-threads-bridge)：该库允许你在Java 8+中使用Java 21的虚拟线程API。
+
+#### 结构化并发
+
+* [Ox](https://github.com/softwaremill/ox)：开发人员友好的JVM结构化并发库，基于Project Loom，由SoftwareMill开源。
+* [Lois](https://github.com/flipkart-incubator/Lois)：Lois是一个Java库，提供类似GoLang的Channel抽象和实现，由Flipkart开源。
+* [JOX](https://github.com/softwaremill/jox)：Java中的快速且可扩展的Channel，设计用于与Project Loom一起使用，由SoftwareMill开源。
+* [ThreadForge](https://github.com/wuuJiawei/ThreadForge)：ThreadForge是一个减少多线程心智负担的结构化并发框架，目标是让并发代码更简单、更安全、更可观测。
+* [Jo](https://github.com/headius/jo)：一个提供类似Go语言中的Goroutine、Channel和Select的库。
 
 #### 竞争检测
 
@@ -2586,6 +2596,7 @@
 * [Java Object Mapper](https://github.com/aerospike/java-object-mapper)：Java Object Mapper是一个简单轻量级的框架，用于将POJO对象映射到Aerospike数据库。
 * [BoostDB](https://github.com/Areeb-Gillani/vertx-boost-db)：BoostDB项目提供了一种更简便的数据访问层代码编写方式。
 * [Kormium](https://github.com/kormium/kormium)：Kormium提供类似Exposed的Kotlin API，用于管理表、实体、类型化谓词、事务、迁移、连接和聚合，同时保持核心代码在JVM和Kotlin/Native之间的可移植性。
+* [ZhiqimORM](https://gitee.com/zhiqim/zhiqim_orm)：ZhiqimORM既有比MyBatis更简单的动态SQL，又有比Hibernate更彻底的对象关系映射。
 
 #### JDBC框架
 
@@ -4554,6 +4565,7 @@
 * [Fig](https://github.com/percyliang/fig)：一套通用的Java库和工具集，旨在简化科研代码的编写和管理实验。
 * [Pitaya](https://github.com/kocakosm/pitaya)：一个适用于Java 6+的简单通用实用程序库。
 * [Dough](https://github.com/Slimefun/dough)：Dough是一个非常强大的库，旨在帮助日常的Spigot/插件开发者。
+* [ZhiqimKernel](https://gitee.com/zhiqim/zhiqim_kernel)：ZhiqimKernel提供基础开发工具，包括工具类、日志类、线程池、JSON/XML编解析、HTTP客户端、时钟任务定时器等。
 * [OpenSearch Common Utils](https://github.com/opensearch-project/common-utils)：OpenSearch Common Utils专注于为OpenSearch插件提供可重用的Java组件。
 * [Nobark](https://github.com/tools4j/nobark)：Nobark是一个具有低延迟零垃圾回收数据结构和实用程序的库。
 * [Samskivert](https://github.com/samskivert/samskivert)：Samskivert旨在提供有用的可重用Java例程。
@@ -7764,6 +7776,7 @@
 * [Chronus](https://github.com/360digitech/chronus)：Chronus是360数科技术团队基于阿里开源项目TBSchedule重写的分布式调度。
 * [Earth Frost](https://gitee.com/justlive1/earth-frost)：Earth Frost是一个轻量级分布式任务调度框架。
 * [Hodor](https://github.com/dromara/hodor)：Hodor是一个专注于任务调度以及任务编排的一站式分布式任务调度系统，由dromara社区开源。
+* [Thain](https://github.com/XiaoMi/thain)：Thain是一个分布式流程调度平台，由小米开源。
 * [Uncode Schedule](https://gitee.com/uncode/uncode-schedule)：Uncode Schedule是基于Zookeeper、Quartz/Spring Task的分布式任务调度组件。
 * [Snail Job](https://gitee.com/aizuda/snail-job)：Snail Job是一个功能强大的分布式重试和任务调度平台，为支持提高分布式业务系统一致性和分布式任务调度而设计，由爱组搭开源。
 * [Niubi Job](https://github.com/xiaolongzuo/niubi-job)：Niubi Job是一个具备高可用特性的专门针对定时任务的任务调度框架。
@@ -8661,7 +8674,6 @@
 * [Retrolambda](https://github.com/luontola/retrolambda)：Retrolambda允许你在Java 7、6或5上运行使用Lambda表达式、方法引用和Try-With-Resources语句的Java 8代码。
 * [Jabel](https://github.com/bsideup/jabel)：以Java 8为目标时使用现代Java 9-14语法。
 * [JvmDowngrader](https://github.com/unimined/JvmDowngrader)：将现代Java字节码降级为旧版本。
-* [Virtual Thread Bridge](https://github.com/thunkware/virtual-threads-bridge)：该库允许你在Java 8+中使用Java 21的虚拟线程API。
 * [JDK Classfile Preview](https://github.com/dmlloyd/jdk-classfile-preview)：JDK Classfile API非官方反向移植到Java 17。
 * [ThreeTen](https://github.com/ThreeTen/threetenbp)：ThreeTen Backport提供Java 8日期时间类到Java 6和7的向后移植。
 * [ThreeTenABP](https://github.com/JakeWharton/ThreeTenABP)：针对Android的JSR-310反向移植的改编版。
@@ -9999,6 +10011,7 @@
 * [Liubai Upload](https://github.com/liubai00/liubai-upload)：Liubai Upload是一个高性能、易集成的大文件断点续传组件，专为Spring Boot应用设计。
 * [FileUpload.Sys](https://github.com/xiatiansong/fileupload.sys)：文件上传和一些工具类。
 * [YMP FileUploader](https://gitee.com/suninformation/ymate-module-fileuploader)：基于YMP框架实现的文件上传及资源访问服务模块。
+* [Zhiqim UploadLarge](https://gitee.com/zhiqim/zhiqim_upload_large)：Zhiqim UploadLarge实现了大文件分片上传，包含服务端接收碎片上传和管理功能。
 
 #### 文件下载
 
@@ -10381,6 +10394,7 @@ Kafka生态管理系统、运维平台。
 * [JVM Inspector](https://github.com/houqianming/jvm-inspector)：Java进程运行期窥探器。
 * [Async Profiler Actuator Endpoint](https://github.com/taboola/async-profiler-actuator-endpoint)：该项目包含一个Spring Boot Actuator端点实现，它作为Async Profiler的包装器。
 * [Argus](https://github.com/rlaope/Argus)：最佳的JVM可观测性、故障排除和优化工具。
+* [FindInstancesOfClass](https://github.com/Liubsyy/FindInstancesOfClass)：运行时根据Java类获取这个类所有实例化的对象。
 
 #### APM
 
@@ -14071,6 +14085,9 @@ Kafka生态管理系统、运维平台。
 * [Thunder](https://github.com/dream-horizon-org/raven-thunder)：Thunder是一个功能强大的开源平台，采用Java 17和Vert.x构建，用于管理用户旅程、用户引导和用户行为，由Dream11开源。
 * [Lattice SDK Java](https://github.com/anduril/lattice-sdk-java)：Lattice SDK Java库提供了从Java访问Lattice SDK API的便捷途径。
 * [AWS APA](https://github.com/making/aws-apa)：是一个用于Amazon Advertising Product API的库。
+* [Misskey4J](https://github.com/uakihir0/misskey4j)：Misskey4J是一个用Java编写的客户端库，用于调用Misskey的API。
+* [Jumblr](https://github.com/tumblr/jumblr)：Tumblr API v2 Java客户端。
+* [SocialHub](https://github.com/uakihir0/SocialHub)：SocialHub是一个用Java编写的多社交网络服务API库，可以通过J2ObjC编译成Objective-C，也可以与Kotlin和Swift一起使用。
 
 #### Twitter
 
@@ -14093,6 +14110,7 @@ Kafka生态管理系统、运维平台。
 * [Gnip4j](https://github.com/zauberlabs/gnip4j)：Gnip Java客户端库。
 * [Scala TwitterStreamer](https://github.com/acrosa/Scala-TwitterStreamer)：用于Twitter流媒体API的Scala客户端。
 * [Agorava Twitter](https://github.com/agorava/agorava-twitter)：用于连接到Twitter的Agorava模块。
+* [Twitter Web Client](https://github.com/uakihir0/twitter-web-client)：Twitter Web Client是一个用Java编写的客户端库，用于调用Twitter Web API。
 
 #### Facebook
 
@@ -14942,6 +14960,7 @@ Kafka生态管理系统、运维平台。
 * [Prebid Server](https://github.com/prebid/prebid-server-java)：Prebid Server是一个开源的服务器端标头竞价实现。
 * [OpenDSP](https://github.com/javagossip/opendsp)：OpenDSP是一款开源的移动DSP广告平台，内置主流ADX对接和开箱即用的Dashboard。
 * [Marketing Java SDK](https://github.com/TencentAd/marketing-api-java-sdk)：腾讯广告API Java SDK。
+* [BaiduAds SDK](https://github.com/baidu/baiduads-sdk)：百度商业API SDK。
 
 ## JavaCard
 
