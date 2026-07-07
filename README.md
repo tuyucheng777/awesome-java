@@ -711,6 +711,7 @@
     * [Bandcamp](docs/doc2.md#Bandcamp)
     * [MusicBrainz](docs/doc2.md#MusicBrainz)
     * [SoundCloud](docs/doc2.md#SoundCloud)
+    * [Salesforce](docs/doc2.md#Salesforce)
     * [JIRA](docs/doc2.md#JIRA)
     * [Trello](docs/doc2.md#Trello)
     * [Strava](docs/doc2.md#Strava)
@@ -1261,6 +1262,8 @@
 * [Inertia4J](https://github.com/Inertia4J/inertia4j)：Inertia提供了一个协议，可以直接从后端渲染现代前端框架编写的组件，Inertia4J是一个实现此类协议的JVM适配器。
 * [JReact](https://github.com/KnisterPeter/jreact)：在服务器端的Java上使用React.js。
 * [WffWeb](https://github.com/webfirmframework/wff)：WffWeb是一个用于实时应用程序开发的开源Java框架，可以从Java代码生成HTML5和CSS3。
+* [Pellet](https://github.com/lopcode/pellet)：Pellet是一个有主见的Kotlin优先的Web框架，可帮助你编写快速、简洁、正确的后端服务。
+* [Snitch](https://github.com/memoizr/snitch)：Snitch能帮助你以最小的努力为应用程序和(微)服务创建生产级HTTP层，并轻松创建完整的文档。
 
 #### REST框架
 
@@ -1520,6 +1523,7 @@
 * [Firefly](https://github.com/meituan/Firefly)：适用于Android和Java的轻量级Thrift客户端代码生成器和运行时库，由美团开源。
 * [Yar RPC Client](https://github.com/starlight36/yar-client-java)：Yar RPC框架的Java客户端。
 * [Nucleus](https://github.com/gideondk/nucleus)：Nucleus是一个基于Akka IO和Sentinel构建的小型响应式RPC类技术栈。
+* [Connect RPC Java](https://github.com/igor-vovk/connect-rpc-java)：Java ConnectRPC服务器和客户端。
 
 ### WebService框架
 
@@ -1699,6 +1703,7 @@
 * [Resilient HttpClient](https://github.com/nhenneaux/resilient-httpclient)：具有底层IP地址池和自动刷新功能的Java HTTP客户端。
 * [Http2Client Java8](https://github.com/stefan-zobel/http2client-java8)：Java 10高级HTTP和WebSocket API的实验性Java 8向后移植版本。
 * [Avaje Http Client](https://github.com/avaje/avaje-http-client)：一个轻量级的JDK HttpClient封装库。
+* [Easy HTTP](https://github.com/justlive1/easy-http)：Easy HTTP是一个基于Spring MVC注解的HTTP REST API客户端库，它让你能通过声明接口的方式，像调用本地方法一样调用远程HTTP服务。
 
 ## Web服务器
 
@@ -2014,6 +2019,7 @@
 * [Vert.x GraphQL Service Discovery](https://github.com/engagingspaces/vertx-graphql-service-discovery)：Vert.x GraphQL Service Discovery允许你在基于Vert.x的微服务环境中将GraphQL Schema发布为独立服务，并通过Vert.x事件总线从远程服务客户端执行查询。
 * [Disco](https://github.com/librato/disco-java)：基于Zookeeper的简单服务发现。
 * [Trouve](https://github.com/SuperMarioYL/trouve)：一个内置的、集成了服务发现、服务注册和服务转发功能的通用组件，适用于Spring项目。
+* [Lagom Service Locator ZooKeeper](https://github.com/jboner/lagom-service-locator-zookeeper)：该项目实现了Apache ZooKeeper的Lagom ServiceLocator接口，并提供了一个基于ZooKeeper的服务注册表，用于从服务内部注册和注销服务。
 
 ## 容错组件
 
@@ -2277,6 +2283,7 @@
 * [DQOps](https://github.com/dqops/dqo)：DQOps是一款DataOps友好的数据质量监控工具，具有可定制的数据质量检查和数据质量仪表板。
 * [FTA](https://github.com/tsegall/fta)：元数据/数据识别Java库。
 * [OpenDataWorks](https://github.com/opendata-lab/opendataworks)：OpenDataWorks是一个面向大数据平台的统一数据门户系统。
+* [SQLLineage4J](https://github.com/reata/sqllineage4j)：SQLLineage4J是一个概念验证，用于使用Antlr4实现SQLLineage。
 
 #### 查询引擎
 
@@ -2485,6 +2492,7 @@
 * [Sope](https://github.com/mayur2810/sope)：Sope是一套实用工具和库函数，旨在帮助使用Apache Spark进行ETL开发。
 * [SharpETL](https://github.com/SharpData/SharpETL)：Sharp ETL是一个ETL框架，它通过编写SQL工作流文件来简化ETL的编写和执行。
 * [Bublik](https://github.com/dimarudik/bublik)：Bublik是一个用于在多种异构数据库(如Oracle、PostgreSQL、Cassandra、YDB)之间进行高效数据传输的工具。
+* [JesterJ](https://github.com/nsoft/jesterj)：专为搜索而设计的高度灵活、可扩展、容错的文档导入系统。
 
 #### CDC组件
 
@@ -3403,6 +3411,7 @@
 * [Z.ai Open Platform Java SDK](https://github.com/zai-org/z-ai-sdk-java)：Z.ai AI平台官方Java SDK，提供统一接口访问强大的AI能力，包括对话补全、向量嵌入、图像生成、音频处理等功能。
 * [ComfyUI Spring Boot](https://github.com/Sun-12138/comfyui-spring-boot)：ComfyUI Spring Boot支持Spring Boot调用ComfyUI服务API、提交绘图任务到队列、实时获取任务进度。
 * [Spring AI AgentCore SDK](https://github.com/spring-ai-community/spring-ai-agentcore)：一个开源库，通过熟悉的模式将Amazon Bedrock AgentCore的功能引入Spring AI。
+* [Dashscope4j](https://github.com/oldmanpushcart/dashscope4j)：阿里云百炼平台的Java SDK，提供客户端库和智能体框架两个模块。
 
 ### 推理引擎
 
@@ -3423,6 +3432,7 @@
 * [LightMetal](https://github.com/AdamBien/lightmetal)：Lightmetal是一个让Java开发者能够在Apple Silicon上，利用Metal和Llama.cpp进行GPU加速的LLM推理的工具。
 * [Quixotic](https://github.com/qxoticai/qxotic)：Quixotic提供核心构建模块，用于在JVM上原生运行LLM推理、模型加载、分词和张量操作，并在需要时提供原生性能的CPU/GPU后端。
 * [DeepJ](https://github.com/KirstenAli/DeepJ)：一个轻量级的纯Java Transformer库。
+* [Cyc Java API Suite](https://github.com/cycorp/api-suite)：Cyc Java API Suite包含一系列Java API，用于开发基于Cyc的应用程序或以其他方式访问Cyc功能，并提供分层功能套件。
 
 ### MCP
 
@@ -3985,6 +3995,7 @@
 * [TermSuite](https://github.com/termsuite/termsuite-core)：TermSuite是一个基于Java UIMA的工具箱，用于术语提取和多语言术语对齐。
 * [JInsect](https://github.com/ayushoriginal/Ngram-Graphs)：JINSECT是一个基于Java的工具包和库，它支持并演示了在自然语言处理应用中使用N-Gram图的方法，应用范围涵盖摘要生成、摘要评估、文本分类和索引等。
 * [Semantria SDK](https://github.com/Semantria/semantria-sdk)：Semantria是一款文本分析和情感分析API。
+* [MTFN](https://github.com/ruliana/MTFN)：Metaphone算法在葡萄牙语中的实现。
 
 #### 分词器
 
@@ -4154,6 +4165,7 @@
 * [Montague](https://github.com/Workday/upshot-montague)：Montague是一个用于Scala的小型CCG语义解析库。
 * [EasySRL](https://github.com/uwnlp/EasySRL)：EasySRL通过联合建模CCG和语义角色标注，为自然语言句子构建逻辑形式，由华盛顿大学开源。
 * [AIDA](https://github.com/codepie/aida)：AIDA是由德国萨尔比肯马克斯普朗克信息学研究所开发的命名实体消歧系统。
+* [Probabilistic Earley parser](https://github.com/cacfd3a/java-probabilistic-earley-parser)：高效的Java实现概率Earley算法，用于解析随机上下文无关文法。
 
 #### 实体链接
 
@@ -4396,6 +4408,7 @@
 * [EyeTribe Java SDK](https://github.com/EyeTribe/tet-java-client)：The Eye Tribe Tacker的Java SDK。
 * [Cognitive Vision Android](https://github.com/microsoft/Cognitive-Vision-Android)：Microsoft Computer Vision API的Android客户端库。
 * [GDX RealSense](https://github.com/libgdx/gdx-realsense)：LibGDX RealSense SDK集成。
+* [Jestures](https://github.com/meltingbots/Jestures)：一个简单的Java手势识别框架。
 
 #### OCR
 
