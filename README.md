@@ -1264,6 +1264,7 @@
 * [WffWeb](https://github.com/webfirmframework/wff)：WffWeb是一个用于实时应用程序开发的开源Java框架，可以从Java代码生成HTML5和CSS3。
 * [Pellet](https://github.com/lopcode/pellet)：Pellet是一个有主见的Kotlin优先的Web框架，可帮助你编写快速、简洁、正确的后端服务。
 * [Snitch](https://github.com/memoizr/snitch)：Snitch能帮助你以最小的努力为应用程序和(微)服务创建生产级HTTP层，并轻松创建完整的文档。
+* [Summon](https://github.com/codeyousef/summon)：Summon是一个功能强大、类型安全的Kotlin多平台前端框架，它将Jetpack Compose的优雅特性带到了浏览器和JVM环境中。
 
 #### REST框架
 
@@ -2284,6 +2285,7 @@
 * [FTA](https://github.com/tsegall/fta)：元数据/数据识别Java库。
 * [OpenDataWorks](https://github.com/opendata-lab/opendataworks)：OpenDataWorks是一个面向大数据平台的统一数据门户系统。
 * [SQLLineage4J](https://github.com/reata/sqllineage4j)：SQLLineage4J是一个概念验证，用于使用Antlr4实现SQLLineage。
+* [Apache Ossie](https://github.com/apache/ossie)：Apache Ossie是一个协作式的开源项目，致力于标准化和简化数据分析、人工智能和商业智能生态系统中各种工具和平台之间的语义模型交换和使用。
 
 #### 查询引擎
 
@@ -3412,6 +3414,7 @@
 * [ComfyUI Spring Boot](https://github.com/Sun-12138/comfyui-spring-boot)：ComfyUI Spring Boot支持Spring Boot调用ComfyUI服务API、提交绘图任务到队列、实时获取任务进度。
 * [Spring AI AgentCore SDK](https://github.com/spring-ai-community/spring-ai-agentcore)：一个开源库，通过熟悉的模式将Amazon Bedrock AgentCore的功能引入Spring AI。
 * [Dashscope4j](https://github.com/oldmanpushcart/dashscope4j)：阿里云百炼平台的Java SDK，提供客户端库和智能体框架两个模块。
+* [SAP Cloud AI SDK](https://github.com/SAP/ai-sdk-java)：SAP Cloud SDK AI是SAP AI Core、SAP Generative AI Hub和Orchestration Service的官方软件开发工具包。
 
 ### 推理引擎
 
@@ -3487,6 +3490,8 @@
 * [EvoX](https://github.com/Leavesfly/EvoX)：EvoX是一个以Agent自进化为核心理念的企业级智能代理框架，基于Java 17、Spring Boot 3.2+和Project Reactor构建。
 * [Zsmith](https://github.com/AdamBien/zsmith)：零依赖AI代理框架，支持工具执行、SKILL.md和代理循环。
 * [Core AI](https://github.com/chancetop-com/core-ai)：Core AI为你提供一个运行在终端中的AI驱动型编码代理，以及一个带有Web用户界面的自托管代理服务器。
+* [TramAI](https://github.com/GionaGranchelli/tramAI)：TramAI是一个以Kotlin为核心的JVM运行时环境，专为受控AI工作流而设计。
+* [Agents.KT](https://github.com/Deep-CodeAI/Agents.KT)：用于人工智能代理系统的类型化Kotlin DSL框架。
 
 ### RAG
 
@@ -3996,6 +4001,7 @@
 * [JInsect](https://github.com/ayushoriginal/Ngram-Graphs)：JINSECT是一个基于Java的工具包和库，它支持并演示了在自然语言处理应用中使用N-Gram图的方法，应用范围涵盖摘要生成、摘要评估、文本分类和索引等。
 * [Semantria SDK](https://github.com/Semantria/semantria-sdk)：Semantria是一款文本分析和情感分析API。
 * [MTFN](https://github.com/ruliana/MTFN)：Metaphone算法在葡萄牙语中的实现。
+* [Vietnamese Accent Prediction](https://github.com/tienthanhdhcn/Vietnamese-Accent-Prediction)：一个简单/快速/准确的越南语无重音文本重音预测工具。
 
 #### 分词器
 
@@ -4439,6 +4445,7 @@
 * [DdddOcr Java](https://github.com/GCS-ZHN/ddddocr-for-java)：基于DdddOcr构建的Java开源项目。
 * [Sikuli OCR](https://github.com/sarxos/sikuli-ocr)：基于Sikuli的OCR引擎。
 * [EasyPR Java](https://github.com/fan-wenjie/EasyPR-Java)：EasyPR是一个中文的开源车牌识别系统。
+* [Flux](https://github.com/ningpp/flux)：Java OCR库。
 
 #### 人脸识别
 
