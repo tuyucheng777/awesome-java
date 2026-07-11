@@ -3694,6 +3694,7 @@
 * [JWT Scala](https://github.com/reallylabs/jwt-scala)：JWT Scala实现。
 * [JWT Spring Boot Starter](https://github.com/smitroy4/jwt-spring-boot-starter)：适用于Spring Boot的生产就绪型JWT身份验证入门方案。
 * [SD-JWT](https://github.com/authlete/sd-jwt)：用于SD-JWT的Java库。
+* [JWT Kotlin Multiplatform](https://github.com/Appstractive/jwt-kt)：一个用于创建、解析、签名和验证 JWT的Kotlin多平台库。
 
 #### Paseto
 
@@ -4745,6 +4746,7 @@
 * [Lambda](https://github.com/lambda-client/lambda)：Lambda是一款免费开源的Minecraft Fabric实用工具模组，专注于高级自动化，能够以最少的人工干预执行复杂且可重复的任务。
 * [Vertigo Libs](https://github.com/vertigo-io/vertigo-libs)：Vertigo Libs提供功能丰富的组件，可以无缝集成到任何Vertigo应用程序中。
 * [Parsec](https://github.com/yahoo/parsec)：Parsec是一套基于Gradle和Jersey2构建的库和实用程序集合，由Yahoo开源。
+* [](https://github.com/dongfangding/ddf-common)：DDF Common是一个面向Spring Boot 3的多模块通用基础组件库。
 
 ## 对象校验
 
@@ -12170,6 +12172,7 @@ Kafka生态管理系统、运维平台。
 * [Better Spring Initializr](https://github.com/henriquearthur/better-spring-initializr)：Better Spring Initializr是一款增强型Spring项目生成器，专注于速度和清晰度。
 * [Kybernus CLI](https://github.com/ViniMTrevisan/Kybernus-CLI)：开源后端脚手架命令行工具，可在数秒内生成可用于生产环境的项目。
 * [GDX Liftoff](https://github.com/libgdx/gdx-liftoff)：LibGDX Gradle项目的安装工具。
+* [FrameworkJava](https://github.com/zmbdp/frameworkjava)：企业级Spring Boot微服务工程脚手架。
 
 #### 快速开发框架
 
@@ -14558,6 +14561,7 @@ Kafka生态管理系统、运维平台。
 * [Java CID](https://github.com/ipld/java-cid)：Content-ID的Java实现。
 * [USC Utils API](https://github.com/UlordChain/usc-utils-api)：USC Utils API是一个Java API，用于将Ulord私钥转换为Ulord侧链私钥。
 * [Ulordj](https://github.com/UlordChain/ulordj-thin)：Ulordj库是Ulord协议的Java实现，它无需本地安装Ulord Core即可维护钱包并收发交易。
+* [Chainsync](https://github.com/wx5352/chainsync)：Chainsync为Java/Spring团队提供可靠、可恢复、无损的链上数据，几乎无需编写任何代码。
 
 #### 区块链
 
@@ -14636,15 +14640,10 @@ Kafka生态管理系统、运维平台。
 * [Ethereumj](https://github.com/ethereum/ethereumj)：EthereumJ是以太坊协议的纯Java实现。
 * [Besu](https://github.com/hyperledger/besu)：Besu是一个兼容MainNet、用Java编写的以太坊客户端。
 * [Teku](https://github.com/Consensys/teku)：Teku是一个用Java编写的开源以太坊共识客户端，包含完整的信标节点和验证器客户端实现。
-* [Tessera](https://github.com/Consensys/tessera)：Tessera是一个无状态的Java系统，用于实现Quorum的私有交易的加密、解密和分发。
 * [KEthereum](https://github.com/komputing/KEthereum)：KEthereum是以太坊的Kotlin库。
-* [FundRequest](https://github.com/FundRequest/platform)：FundRequest是一个去中心化市场。
 * [Eventeum](https://github.com/eventeum/eventeum)：Eventeum是一个以太坊事件监听器，用于连接你的智能合约事件和后端微服务。
-* [Presto Ethereum Connector](https://github.com/xiaoyao1991/presto-ethereum)：释放以太坊区块链上Presto交互式SQL查询的强大功能。
 * [EtherJar](https://github.com/emeraldpay/etherjar)：适用于以太坊区块链的框架无关的模块化Java 17+集成库。
 * [Headlong](https://github.com/esaulpaugh/headlong)：以太坊高性能ABI和RLP。
-* [Mantis](https://github.com/input-output-hk/mantis)：Mantis一个基于Scala的以太坊类区块链客户端。
-* [Ethereum Harmony](https://github.com/ether-camp/ethereum-harmony)：以太坊网络私有对等节点，基于EthereumJ实现。
 * [Java EtherScan API](https://github.com/GoodforGod/java-etherscan-api)：Etherscan.io Java API实现。
 * [Starknet JVM](https://github.com/software-mansion/starknet-jvm)：Starknet JVM语言SDK。
 * [ZKsync2 Java](https://github.com/zksync-sdk/zksync2-java)：ZKsync2是一个适配ZKsync Era的Web3j库。
@@ -14826,13 +14825,11 @@ Kafka生态管理系统、运维平台。
 
 #### 智能合约
 
-* [RskJ](https://github.com/rsksmart/rskj)：RskJ是Rootstock节点的Java实现。
 * [Daml](https://github.com/digital-asset/daml)：Daml是一种开源智能合约语言，用于在安全且注重隐私的运行时构建面向未来的分布式应用程序。
 * [Neow3j](https://github.com/neow3j/neow3j)：Neow3j是一个开发工具包，提供简单可靠的工具来使用Java平台构建Neo dApp和智能合约。
 * [SmartJ](https://github.com/signum-network/signum-smartj)：Signum的Java智能合约。
 * [Java4Ever](https://github.com/deplant/java4ever-framework)：Java4Ever是一个功能丰富的框架，用于智能合约开发、测试和访问TVM兼容的区块链，例如Everscale、Venom、GOSH等。
 * [Hyperledger Fabric Chaincode Java](https://github.com/hyperledger/fabric-chaincode-java)：Hyperledger Fabric Contract和Chaincode的Java实现。
-* [Securify](https://github.com/eth-sri/securify)：Securify是由以太坊基金会和ChainSecurity支持的以太坊智能合约安全扫描器。
 * [Canton](https://github.com/digital-asset/canton)：Canton是下一代Daml账本互操作性协议，它忠实地实现了Daml内置的授权和隐私模型。
 * [EthereumJ Contract API](https://github.com/adridadou/eth-contract-api)：EthereumJ原生API，可轻松使用和测试智能合约。
 
@@ -19526,6 +19523,7 @@ Kafka生态管理系统、运维平台。
 * [Java ScriptEngine](https://github.com/eobermuhlner/java-scriptengine)：用于在运行时编译和执行用Java编写的脚本的脚本引擎(兼容JSR-223)。
 * [FakeJava](https://github.com/esrrhs/fakejava)：FakeJava是一款轻量级的嵌入式脚本语言，使用Java语言编写。
 * [RuneScript](https://github.com/waleedyaseen/RuneScript)：RuneScript脚本语言。
+* [TinyScript](https://gitee.com/tinyframework/tinyscript)：TinyScript是一款基于Java的脚本语言。
 
 #### 数学表达式
 
