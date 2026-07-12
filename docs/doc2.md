@@ -1488,6 +1488,7 @@
 * [Shadow Tool](https://github.com/rabobank/shadow-tool)：Shadow Tool可以轻松集成到你的Java/Kotlin项目中，让你可以比较应用程序当前使用的后端服务与计划使用的新后端服务，由荷兰合作银行开源。
 * [Spring Boot Keycloak Server](https://github.com/suchorski/springboot-keycloak-server)：嵌入到Spring Boot应用程序中的Keycloak服务器。
 * [Ladybug](https://github.com/wearefrank/ladybug)：Ladybug由集成公司WeAreFrank开发和维护，它为你的Java应用程序添加了基于消息的调试、单元测试、系统测试和回归测试功能。
+* [Docker Proxy JUnit Rule](https://github.com/palantir/docker-proxy-rule)：这是一个用于执行与Docker容器交互的JUnit测试的小型库，由Palantir开源。
 
 #### 接口测试
 
@@ -4746,7 +4747,8 @@
 * [Lambda](https://github.com/lambda-client/lambda)：Lambda是一款免费开源的Minecraft Fabric实用工具模组，专注于高级自动化，能够以最少的人工干预执行复杂且可重复的任务。
 * [Vertigo Libs](https://github.com/vertigo-io/vertigo-libs)：Vertigo Libs提供功能丰富的组件，可以无缝集成到任何Vertigo应用程序中。
 * [Parsec](https://github.com/yahoo/parsec)：Parsec是一套基于Gradle和Jersey2构建的库和实用程序集合，由Yahoo开源。
-* [](https://github.com/dongfangding/ddf-common)：DDF Common是一个面向Spring Boot 3的多模块通用基础组件库。
+* [DDF Common](https://github.com/dongfangding/ddf-common)：DDF Common是一个面向Spring Boot 3的多模块通用基础组件库。
+* [AnvilLib](https://github.com/Anvil-Dev/AnvilLib)：AnvilLib是一个由Anvil Dev开发的NeoForge模组库，为Minecraft模组开发者提供一系列实用的工具和框架。
 
 ## 对象校验
 
@@ -6974,8 +6976,20 @@
 * [SHACL](https://github.com/TopQuadrant/shacl)：基于Apache Jena的W3C形状约束语言(SHACL)的开源实现。
 * [Anno4j](https://github.com/anno4j/anno4j)：用于读写W3C Web注释模型和W3C开放注释数据模型的API。
 * [qSKOS](https://github.com/cmader/qSKOS)：qSKOS是一个用于查找SKOS词汇表中质量问题的工具。
-* [KBox](https://github.com/AKSW/KBox)：KBox是一个数据管理框架，旨在简化数据部署，无论是在云端、个人电脑还是智能设备上。
+* [KBox](https://github.com/AKSW/KBox)：KBox是一个数据管理框架，旨在简化数据部署，无论是在云端、个人电脑还是智能设备上，由莱比锡大学开源。
 * [LDP4j](https://github.com/ldp4j/ldp4j)：一个基于Java的框架，用于开发基于W3C Linked Data Platform 1.0(LDP)规范的读写Linked Data应用程序。
+* [Jena SPARQL API](https://github.com/Scaseco/jena-sparql-api)：基于Jena的先进SPARQL处理栈，用于构建语义网应用程序。
+* [AtomGraph Processor](https://github.com/AtomGraph/Processor)：AtomGraph Processor是一个声明式、读写链接数据应用程序的服务器。
+* [Web-Client](https://github.com/AtomGraph/Web-Client)：AtomGraph Web-Client是一个链接数据Web客户端。
+* [AtomGraph Core](https://github.com/AtomGraph/Core)：AtomGraph Core是一个链接数据框架。
+* [Flint](https://github.com/yetanalytics/flint)：Clojure的SPARQL DSL库。
+* [YeSPARQL](https://github.com/joelkuiper/yesparql)：YeSPARQL是一个用于对端点或TDB存储执行SPARQL查询的库，深受Yesql的影响。
+* [GroovySparql](https://github.com/AlBaker/GroovySparql)：GroovySPARQL为Groovy开发者提供了一个简单的API，用于与SPARQL端点和RDF进行交互。
+* [LSQ)](https://github.com/AKSW/LSQ)：用于RDF化三元组存储(Web)日志并执行SPARQL查询提取、分析和基准测试以生成关联SPARQL查询数据集的框架，由莱比锡大学开源。
+* [OWL2SPARQL](https://github.com/AKSW/OWL2SPARQL)：该项目提供了一个简单的转换器，可以将OWL公理和OWL类表达式转换为SPARQL查询，由莱比锡大学开源。
+* [DBpedia Lookup](https://github.com/dbpedia/lookup)：DBpedia Lookup是一项Web服务，可用于通过相关关键词查找DBpedia URI。
+* [Corese](https://github.com/corese-stack/corese-core)：一个功能强大的Java库，用于RDF数据操作、SPARQL查询、推理和语义网标准合规性。
+* [SPARQL2NL](https://github.com/AKSW/SPARQL2NL)：SPARQL到自然语言转换器，由莱比锡大学开源。
 
 #### 本体库
 
@@ -7169,6 +7183,7 @@
 * [Glow](https://github.com/projectglow/glow)：Glow是一个开源工具包，用于实现生物库规模及更大范围的生物信息学，由Regeneron开发。
 * [Systems Genetics](https://github.com/molgenis/systemsgenetics)：通用Java基因型读取器/写入器、QTL映射软件、链比对工具，由格罗宁根大学开源。
 * [CRAMTools](https://github.com/vadimzalunin/crammer)：CRAMTools是一套用于高效压缩序列读取数据的Java工具和API。
+* [Genestrip](https://github.com/pfeiferd/genestrip)：针对特定物种群的高效读取分类、过滤和k-mer计数。
 
 #### NGS
 
@@ -8554,6 +8569,7 @@
 * [RuntimeTransformer](https://github.com/Yamakaja/RuntimeTransformer)：用于在运行时轻松修改已加载类的库。
 * [ASM DefUse](https://github.com/saeg/asm-defuse)：ASM DefUse通过控制流和数据流算法扩展了ASM分析API，用于定义/用途分析。
 * [Classfile](https://github.com/xxDark/classfile)：类似ASM的抗混淆类文件库。
+* [Hypo](https://github.com/DenWav/Hypo)：Hypo是一个用于Java字节码检查的模型。
 
 ## 反编译
 
@@ -19359,6 +19375,7 @@ Kafka生态管理系统、运维平台。
 * [DualSub](https://github.com/bonigarcia/dualsub)：DualSub是一个工具，可以让你在一个文件中合并两个SRT字幕。
 * [Subtitle](https://github.com/zhangliangming/Subtitle)：SRT和ASS字幕文件解析库。
 * [OpenSub4j](https://github.com/wtekiela/opensub4j)：OpenSub4j是一个用于opensubtitles的开源Java库。
+* [Timed Text Toolkit](https://github.com/skynav/ttt)：一系列支持或使用W3C定时文本标记语言(TTML)的相关工具。
 
 ## 字典库
 

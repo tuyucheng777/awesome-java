@@ -1429,6 +1429,7 @@
 * [Trooper](https://github.com/regunathb/Trooper)：Trooper是一个Java模块式框架，提供多种运行时配置文件用于构建应用程序。
 * [Cougar](https://github.com/betfair/cougar)：Cougar是一个框架，旨在简化构建网络暴露服务接口的过程，由Betfair开源。
 * [Uship](https://github.com/yupiik/uship)：Uship是一个面向现代应用程序的轻量级微服务栈。
+* [Cloud Runtimes JVM](https://github.com/capa-cloud/cloud-runtimes-jvm)：Cloud Runtimes JVM为JVM上的Mecha架构项目提供多运行时标准API。
 
 ### RPC框架
 
@@ -1918,6 +1919,7 @@
 * [Foremast](https://github.com/intuit/foremast)：Foremast是一个基于Kubernetes的云原生应用健康管理器，由Intuit开源。
 * [CloudEvents Java](https://github.com/cloudevents/sdk-java)：CloudEvents是一种以通用格式描述事件数据的规范，以提供跨服务、平台和系统的互操作性。
 * [Janus](https://github.com/evoila/janus)：Janus是一个多租户可观测性代理，为Prometheus、Loki和Tempo提供基于标签的访问控制和查询强制执行。
+* [Capa Java](https://github.com/capa-cloud/capa-java)：Capa是一个为Java应用提供多运行时标准API的SDK层。
 
 ## Serverless
 
