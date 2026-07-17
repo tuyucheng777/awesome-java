@@ -8,8 +8,8 @@
 
 * [开发框架](#开发框架)
     * [Web框架](#Web框架)
-        * [REST框架](#REST框架)
         * [MVC框架](#MVC框架)
+        * [REST框架](#REST框架)
     * [微服务框架](#微服务框架)
     * [RPC框架](#RPC框架)
     * [WebService框架](#WebService框架)
@@ -1265,6 +1265,40 @@
 * [Pellet](https://github.com/lopcode/pellet)：Pellet是一个有主见的Kotlin优先的Web框架，可帮助你编写快速、简洁、正确的后端服务。
 * [Snitch](https://github.com/memoizr/snitch)：Snitch能帮助你以最小的努力为应用程序和(微)服务创建生产级HTTP层，并轻松创建完整的文档。
 * [Summon](https://github.com/codeyousef/summon)：Summon是一个功能强大、类型安全的Kotlin多平台前端框架，它将Jetpack Compose的优雅特性带到了浏览器和JVM环境中。
+* [Shade](https://github.com/ScottPeterJohnson/shade)：Shade是一个用于JVM平台Kotlin的实验性Web库框架。
+
+#### MVC框架
+
+* [Apache Struts](https://github.com/apache/struts)：Struts是一个用于创建Java Web应用程序的免费开源解决方案。
+* [Jakarta MVC](https://github.com/jakartaee/mvc)：Jakarta MVC主要用于构建HTML应用程序。
+* [Eclipse Krazo](https://github.com/eclipse-ee4j/krazo)：Eclipse Krazo是Jakarta MVC 2.0指定的基于操作的MVC实现。
+* [Vraptor4](https://github.com/caelum/vraptor4)：VRaptor是一个开源MVC框架，构建于CDI之上，由Caelum开源。
+* [ACT](https://gitee.com/actframework/actframework)：ACT是一个简洁易用，具有强大表达力的Java MVC全栈框架。
+* [BBoss](https://github.com/bbossgroups/bboss)：BBoss是一个Java EE框架，包括AOP/IoC、MVC、持久层、RPC等。
+* [Mapper](https://github.com/JetBrains/mapper)：JetBrains Mapper MVC框架。
+* [YangMVC](https://gitee.com/yangtf/YangMVC)：YangMVC是一个现代化的Java Web框架，采用约定优于配置的设计理念，让Web开发变得简单高效。
+* [Apache Shale](https://shale.apache.org/)：Shale是一个现代化的Web应用框架，其底层基于JavaServer Faces。
+* [ServiceFramework](https://github.com/allwefantasy/ServiceFramework)：ServiceFramework是一个敏捷、快速、富领域模型的Java MVC框架。
+* [Doodle](https://github.com/zzzzbw/doodle)：Doodle是一个简易的Java MVC框架，它提供了类似于Spring的Bean容器、IoC、AOP、MVC等功能。
+* [Nettice](https://github.com/cyfonly/nettice)：基于Netty HTTP协议栈的轻量级MVC组件。
+* [JKMVC](https://github.com/shigebeyond/jkmvc)：JKMVC是一个优雅、强大且轻量级的MVC Web框架，使用Kotlin构建。
+* [Stapler](https://github.com/jenkinsci/stapler)：Stapler Web框架，由Jenkins组织开源。
+* [Prime MVC](https://github.com/prime-framework/prime-mvc)：Prime MVC是一个用Java构建的高性能MVC框架，由Inversoft公司开源。
+* [Induction](http://inductionframework.org/)：Induction是一个功能强大、高性能的Java MVC Web应用框架。
+* [Netmc](https://gitee.com/yezhihao/netmc)：基于Netty实现MVC开发模式的框架。
+* [Micro](https://github.com/florinpatrascu/micro)：Micro是一个模块化的MVC框架，用于快速Web开发。
+* [Aquiver](https://github.com/i1619khz/aquiver)：Aquiver是一个基于Java 8和Netty的MVC框架。
+* [Dreamvc](https://github.com/Yaccc/Dreamvc)：一个简单且支持Java MVC框架RESTful结构的框架。
+* [ServletIO](https://github.com/zerh/ServletIO)：ServletIO将你的Servlet转换为MVC控制器。
+* [Nature](https://gitee.com/mvilplss/nature-framework)：Nature是一个基于JDK 8和Servlet 3.0规范，以易用性、代码简洁、开发快速、功能强大、易扩展、低耦合为目标，适用于快速开发的轻量级MVC、ORM框架。
+* [SMVC](https://gitee.com/1028125449/SMVC)：SMVC是基于Java开发的轻量级MVC框架。
+* [FastChar](https://github.com/JanesenGit/FastChar)：FastChar是以Java语言为基础的Web、ORM开源免费的MVC框架。
+* [JessMA](https://gitee.com/ldcsaa/JessMA)：功能强大的Java MVC和REST全栈框架。
+* [Thunder](https://github.com/100cm/thunder)：Thunder是一个微型MVC框架。
+* [AisMVC](https://github.com/javagaorui5944/AisMVC)：AisMVC是一款仿Spring MVC轻便的MVC开发框架。
+* [PureMVC](https://github.com/PureMVC/puremvc-java-multicore-framework)：PureMVC是一个轻量级框架，用于创建基于经典MVC设计元模式的应用程序。
+* [NettyHTTP](https://github.com/myan9527/nettyhttp)：Netty的HTTP服务器和MVC框架。
+* [Htmleasy](https://github.com/voodoodyne/htmleasy)：Htmleasy是一个简单、优雅的基于HTML的MVC微框架，它基于Resteasy(JAX-RS)构建。
 
 #### REST框架
 
@@ -1322,39 +1356,6 @@
 * [Webbit REST](https://github.com/webbit/webbit-rest)：Webbit REST是一个受Sinatra启发的小型Webbit Web服务器API。
 * [Ameba](https://github.com/icode/ameba)：Ameba是一个实用的全栈RESTful框架。
 * [Hypersocket Framework](https://github.com/ludup/hypersocket-framework)：Hypersocket Framework基于Netty、Spring和Hibernate构建，提供了一种快速简便的方法来构建基于Web的JSON服务。
-
-#### MVC框架
-
-* [Apache Struts](https://github.com/apache/struts)：Struts是一个用于创建Java Web应用程序的免费开源解决方案。
-* [Jakarta MVC](https://github.com/jakartaee/mvc)：Jakarta MVC主要用于构建HTML应用程序。
-* [Eclipse Krazo](https://github.com/eclipse-ee4j/krazo)：Eclipse Krazo是Jakarta MVC 2.0指定的基于操作的MVC实现。
-* [Vraptor4](https://github.com/caelum/vraptor4)：VRaptor是一个开源MVC框架，构建于CDI之上，由Caelum开源。
-* [ACT](https://gitee.com/actframework/actframework)：ACT是一个简洁易用，具有强大表达力的Java MVC全栈框架。
-* [BBoss](https://github.com/bbossgroups/bboss)：BBoss是一个Java EE框架，包括AOP/IoC、MVC、持久层、RPC等。
-* [Mapper](https://github.com/JetBrains/mapper)：JetBrains Mapper MVC框架。
-* [YangMVC](https://gitee.com/yangtf/YangMVC)：YangMVC是一个现代化的Java Web框架，采用约定优于配置的设计理念，让Web开发变得简单高效。
-* [Apache Shale](https://shale.apache.org/)：Shale是一个现代化的Web应用框架，其底层基于JavaServer Faces。
-* [ServiceFramework](https://github.com/allwefantasy/ServiceFramework)：ServiceFramework是一个敏捷、快速、富领域模型的Java MVC框架。
-* [Doodle](https://github.com/zzzzbw/doodle)：Doodle是一个简易的Java MVC框架，它提供了类似于Spring的Bean容器、IoC、AOP、MVC等功能。
-* [Nettice](https://github.com/cyfonly/nettice)：基于Netty HTTP协议栈的轻量级MVC组件。
-* [JKMVC](https://github.com/shigebeyond/jkmvc)：JKMVC是一个优雅、强大且轻量级的MVC Web框架，使用Kotlin构建。
-* [Stapler](https://github.com/jenkinsci/stapler)：Stapler Web框架，由Jenkins组织开源。
-* [Prime MVC](https://github.com/prime-framework/prime-mvc)：Prime MVC是一个用Java构建的高性能MVC框架，由Inversoft公司开源。
-* [Induction](http://inductionframework.org/)：Induction是一个功能强大、高性能的Java MVC Web应用框架。
-* [Netmc](https://gitee.com/yezhihao/netmc)：基于Netty实现MVC开发模式的框架。
-* [Micro](https://github.com/florinpatrascu/micro)：Micro是一个模块化的MVC框架，用于快速Web开发。
-* [Aquiver](https://github.com/i1619khz/aquiver)：Aquiver是一个基于Java 8和Netty的MVC框架。
-* [Dreamvc](https://github.com/Yaccc/Dreamvc)：一个简单且支持Java MVC框架RESTful结构的框架。
-* [ServletIO](https://github.com/zerh/ServletIO)：ServletIO将你的Servlet转换为MVC控制器。
-* [Nature](https://gitee.com/mvilplss/nature-framework)：Nature是一个基于JDK 8和Servlet 3.0规范，以易用性、代码简洁、开发快速、功能强大、易扩展、低耦合为目标，适用于快速开发的轻量级MVC、ORM框架。
-* [SMVC](https://gitee.com/1028125449/SMVC)：SMVC是基于Java开发的轻量级MVC框架。
-* [FastChar](https://github.com/JanesenGit/FastChar)：FastChar是以Java语言为基础的Web、ORM开源免费的MVC框架。
-* [JessMA](https://gitee.com/ldcsaa/JessMA)：功能强大的Java MVC和REST全栈框架。
-* [Thunder](https://github.com/100cm/thunder)：Thunder是一个微型MVC框架。
-* [AisMVC](https://github.com/javagaorui5944/AisMVC)：AisMVC是一款仿Spring MVC轻便的MVC开发框架。
-* [PureMVC](https://github.com/PureMVC/puremvc-java-multicore-framework)：PureMVC是一个轻量级框架，用于创建基于经典MVC设计元模式的应用程序。
-* [NettyHTTP](https://github.com/myan9527/nettyhttp)：Netty的HTTP服务器和MVC框架。
-* [Htmleasy](https://github.com/voodoodyne/htmleasy)：Htmleasy是一个简单、优雅的基于HTML的MVC微框架，它基于Resteasy(JAX-RS)构建。
 
 ### 微服务框架
 
@@ -1448,6 +1449,7 @@
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint/tree/master/rpc)：Naver开源的RPC框架，服务于Pinpoint。
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
+* [Nifty](https://github.com/facebookarchive/nifty)：Nifty是Netty上Thrift客户端和服务器的实现，由Facebook开源。
 * [Joynr](https://github.com/bmwcarit/joynr)：Joynr是一个与传输协议无关(MQTT、HTTP、WebSockets等)、基于Franca IDL的通信框架，支持多种通信范例，由宝马开源。
 * [Stitch](https://github.com/twitter/stitch)：Stitch是一个Scala库，用于优雅高效地组合对服务的RPC调用，由Twitter开发。
 * [DubboX](https://github.com/dangdangdotcom/dubbox)：DubboX在Dubbo框架中添加了RESTful远程处理、Kyro/FST序列化等功能，由当当开发。
@@ -1706,6 +1708,7 @@
 * [Http2Client Java8](https://github.com/stefan-zobel/http2client-java8)：Java 10高级HTTP和WebSocket API的实验性Java 8向后移植版本。
 * [Avaje Http Client](https://github.com/avaje/avaje-http-client)：一个轻量级的JDK HttpClient封装库。
 * [Easy HTTP](https://github.com/justlive1/easy-http)：Easy HTTP是一个基于Spring MVC注解的HTTP REST API客户端库，它让你能通过声明接口的方式，像调用本地方法一样调用远程HTTP服务。
+* [CoApi](https://gitee.com/AhooWang/CoApi)：CoApi提供了类似于Spring Cloud OpenFeign的零样板代码自动配置的支持，同时支持响应式和同步编程模型。
 
 ## Web服务器
 
@@ -1952,6 +1955,7 @@
 * [App Engine Plugins](https://github.com/GoogleCloudPlatform/appengine-plugins)：一个用于管理App Engine Java应用程序的客户端Java库。
 * [Funcatron](https://github.com/funcatron/funcatron)：Funcatron是一个Java Serverless框架。
 * [Nimbus](https://github.com/thomasjallerton/nimbus-framework)：Nimbus是一个Java框架，它允许轻松部署和测试Serverless应用程序。
+* [Luffy](https://github.com/solonlab/luffy)：Luffy是一个嵌入式FaaS引擎、扩展中心、发布系统。
 
 ## API网关
 
@@ -2124,6 +2128,7 @@
 * [ReRetrying](https://github.com/rhuffman/re-retrying)：ReRetrying是一个Java库，允许为任意函数调用创建可配置的重试策略。
 * [Kotlin Backoff](https://github.com/reugn/kotlin-backoff)：一个用于Kotlin的指数退避库。
 * [Atmos](https://github.com/zmanio/atmos)：Scala的极简重试失败行为。
+* [Java Retrying](https://github.com/lowzj/java-retrying)：基于Guava Retrying的Java重试模块，支持同步/异步重试。
 
 #### 负载均衡
 
@@ -2793,6 +2798,7 @@
 * [Suuchi](https://github.com/ashwanthkumar/suuchi)：Suuchi是一个用于构建分布式数据系统的工具包，其底层使用gRPC作为通信媒介。
 * [Jzab](https://github.com/zk1931/jzab)：Java中的ZooKeeper原子广播。
 * [Chinese Whispers](https://github.com/ChiralBehaviors/Chinese-Whispers)：Chinese Whispers是一个基于Gossip协议的通用状态复制和故障检测服务。
+* [Swarm](https://github.com/sanity/Swarm)：Swarm是一个框架，它通过一种新颖的基于可移植延续的方法，创建能够透明扩展的应用程序。
 
 #### 分布式锁
 
@@ -2931,6 +2937,7 @@
 * [C5 Replicator](https://github.com/cloud-software-foundation/c5-replicator)：C5 Replicator是一个基于Raft协议的复制库。
 * [Java Raft](https://github.com/nicktindall/java-raft)：Raft共识算法的Java实现。
 * [Raft](https://github.com/archie/raft)：Scala和Akka实现的分布式共识算法。
+* [S2C](https://github.com/io-s2c/s2c)：S2C是一个基于S3的分布式共识和状态机复制系统。
 
 #### Paxos算法
 
@@ -3172,6 +3179,7 @@
 * [CosyanDB](https://github.com/gsvigruha/cosyan)：CosyanDB是一个基于SQL的事务型关系型数据库管理系统，具有复杂的多表约束逻辑和语言增强功能，并大量运用了外键。
 * [NullDB](https://github.com/NullPointer-Labs/nulldb)：NullDB是一个完全用Java从零开始构建的原始、高性能的关系型数据库存储引擎。
 * [LunarBase](https://github.com/LunarBaseEngin/LunarBase)：LunarBase引擎是一个实时、自由风格的数据库引擎。
+* [PonySQLDB](https://github.com/IllayDevel/ponysql)：基于Java的小型关系型数据库管理系统引擎。
 
 #### NoSQL数据库
 
@@ -3229,6 +3237,7 @@
 * [Cloudata](https://github.com/gruter/cloudata)：Cloudata是一个分布式大规模结构化数据存储系统，实现了Google Bigtable。
 * [Kiara DB](https://github.com/kapoorlabs/kiara)：Kiara DB的设计目标是在不构建复合索引的情况下，对多种字段组合进行快速内存搜索。
 * [Maryk](https://github.com/marykdb/maryk)：Maryk允许你定义一次强类型数据模型，然后使用同一个模型在Kotlin多平台目标中进行验证、序列化、查询、存储、工具和同步。
+* [Nibiru](https://github.com/edwardcapriolo/nibiru)：Nibiru是一个NoSQL数据库，其设计目标是实现最大的可插拔性和可配置性。
 
 #### OLAP数据库
 
@@ -3453,6 +3462,7 @@
 * [MCP Toolbox SDK Java](https://github.com/googleapis/mcp-toolbox-sdk-java)：MCP Toolbox的官方Java客户端SDK。
 * [OpenAPI MCP](https://github.com/infobip/infobip-openapi-mcp)：OpenAPI MCP是一个开源框架，用于将任何符合OpenAPI文档规范的HTTP API公开为MCP服务器。
 * [Tachyon](https://github.com/kpavlov/tachyon)：Tachyon MCP是一个基于Netty构建的Java 21 MCP服务器。
+* [Spector](https://github.com/spectrayan/spector)：Spector是一个零开销、可直接用于AI代理的认知记忆与搜索引擎。
 
 ### A2A
 
@@ -3494,6 +3504,10 @@
 * [Core AI](https://github.com/chancetop-com/core-ai)：Core AI为你提供一个运行在终端中的AI驱动型编码代理，以及一个带有Web用户界面的自托管代理服务器。
 * [TramAI](https://github.com/GionaGranchelli/tramAI)：TramAI是一个以Kotlin为核心的JVM运行时环境，专为受控AI工作流而设计。
 * [Agents.KT](https://github.com/Deep-CodeAI/Agents.KT)：用于人工智能代理系统的类型化Kotlin DSL框架。
+* [Agent4j](https://github.com/onlyGuo/agent4j)：Agent4j是一个轻量级的Java框架，只需几行代码即可构建自主AI代理。
+* [OpenAI Agent SDK](https://github.com/bnbarak/openai-agent-sdk)：OpenAI Agent SDK是一个现代化的Java SDK，用于使用OpenAI的API构建AI代理。
+* [Lumina](https://github.com/zwl467135974/lumina)：Lumina是一个企业级AI Agent开发框架，基于AgentScope和Spring Cloud构建，提供开箱即用的Agent能力、微服务架构和企业级特性。
+* [Coday](https://github.com/whoz-oss/coday)：Coday是一个基于对话的智能体框架，旨在帮助开发者在现有项目中与AI智能体协作。
 
 ### RAG
 
@@ -4070,6 +4084,7 @@
 * [Jmorphy2](https://github.com/anti-social/jmorphy2)：Pymorphy2的Java移植版。
 * [Kss Java](https://github.com/sangdee/kss-java)：使用启发式算法将韩文文本分割成句子。
 * [Yandex.MyStem Scala](https://github.com/alexeyev/mystem-scala)：Yandex.MyStem的Scala/JVM分词器封装。
+* [Bert Tokenizer](https://github.com/ankiteciitkgp/bertTokenizer)：Bert分词器的Java实现。
 
 #### 语言库
 
@@ -4308,6 +4323,8 @@
 * [Spark ML Serving](https://github.com/Hydrospheredata/spark-ml-serving)：Spark ML的无上下文机器学习实现。
 * [Lightning Server](https://github.com/lightningkite/lightning-server)：一个能够大幅提升服务器开发速度的项目，堪比Python版的Django。
 * [Tensorflow Deploy](https://github.com/handong0123/tensorflow_deploy)：简化与优化Tensorflow模型的Java部署。
+* [Onnx4j](https://github.com/onnx4j/onnx4j)：Onnx4j是一个面向ONNX的Java表达项目，其并不提供具体的运算实现。
+* [Petrify](https://github.com/exabrial/petrify)：Petrify是一个超轻量级的JVM机器学习模型编译器。
 
 ### 因果推理
 
@@ -4428,6 +4445,7 @@
 * [EasyOCR](https://github.com/ushelp/EasyOCR)：EasyOCR是一个使用Java语言实现的OCR识别引擎，能自动完成图片清理、识别CAPTCHA验证码图片内容的一体化工作。
 * [RapidOcr Java](https://github.com/MyMonsterCat/RapidOcr-Java)：Java代码实现调用RapidOCR。
 * [Java OCR API](https://github.com/Asprise/java-ocr-api)：Java OCR允许你对图像(JPEG、PNG、TIFF、PDF等)执行OCR和条形码识别，并输出为纯文本、具有完整坐标的XML以及可搜索的PDF。
+* [RapidOcrOnnx](https://github.com/RapidAI/RapidOcrOnnx)：RapidOcrOnnx是一个基于ONNX Runtime和OpenCV的跨平台OCR推理库。
 * [Ocular](https://github.com/tberg12/ocular)：Ocular是一款先进的历史OCR系统。
 * [KanjiTomo OCR](https://github.com/sakarika/kanjitomo-ocr)：KanjiTomo OCR是一个用于从图像中识别日语字符的Java库。
 * [NewOCR](https://github.com/MSPaintIDE/NewOCR)：NewOCR是一款用Java制作的OCR，无需使用机器学习。
@@ -4456,6 +4474,8 @@
 * [ArcFace](https://github.com/itboyst/ArcSoftFaceDemo)：ArcFace 3.0免费离线人脸识别SDK。
 * [FaceRecognition](https://github.com/wihoho/FaceRecognition)：FaceRecognition是使用PCA、LDA和LPP实现的人脸识别项目。
 * [SeetafaceJNI](https://gitee.com/cnsugar/seetafaceJNI)：SeetafaceJNI是基于中科院Seetaface 2进行封装的Java人脸识别库。
+* [Seetaface6JNI](https://gitee.com/cnsugar/seetaface6JNI)：基于中科院Seetaface6进行封装的Java人脸识别算法库。
+* [SeetaFace6 Java SDK](https://gitee.com/crazy-of-pig/seeta-sdk-platform)：基于SeetaFace6的Java语言SDK封装，提供完整的人脸识别解决方案。
 * [FaceSearch](https://gitee.com/open-visual/face-search)：FaceSearch是阿里云视觉智能开放平台的人脸搜索M:N的开源替代。
 * [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：千搜科技第五代人脸识别引擎Java接口。
 * [SeetaFace6 Java SDK](https://github.com/tracy100/seetaface6SDK)：基于SeetaFace6的Java语言SDK封装，提供完整的人脸识别解决方案。
