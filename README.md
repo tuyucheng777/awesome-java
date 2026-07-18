@@ -3508,6 +3508,7 @@
 * [OpenAI Agent SDK](https://github.com/bnbarak/openai-agent-sdk)：OpenAI Agent SDK是一个现代化的Java SDK，用于使用OpenAI的API构建AI代理。
 * [Lumina](https://github.com/zwl467135974/lumina)：Lumina是一个企业级AI Agent开发框架，基于AgentScope和Spring Cloud构建，提供开箱即用的Agent能力、微服务架构和企业级特性。
 * [Coday](https://github.com/whoz-oss/coday)：Coday是一个基于对话的智能体框架，旨在帮助开发者在现有项目中与AI智能体协作。
+* [Anahata ASI](https://github.com/anahata-os/anahata-asi)：Anahata ASI是一个有状态、运行在JVM内部的AI智能体容器。
 
 ### RAG
 
@@ -3566,6 +3567,7 @@
 * [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku是一款面向AI应用的路由器，采用MCP提供支持。
 * [ReShapr](https://github.com/reshaprio/reshapr)：用于AI原生API访问的开源、无代码MCP服务器。
 * [JamJet](https://github.com/jamjet-labs/jamjet)：AI代理的开源安全层，阻止不安全工具调用、要求批准、强制执行预算、审计、重放。
+* [Confer Proxy](https://github.com/ConferLabs/confer-proxy)：Confer隐私AI平台的核心网关组件。
 
 ### 终端助手
 

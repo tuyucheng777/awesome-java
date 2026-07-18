@@ -15,12 +15,8 @@
 * [Datavines](https://github.com/datavane/datavines)：DataVines是一个易于使用的数据质量服务平台，支持多种指标，由Datavane大数据组织开源。
 * [Koma](https://github.com/kyonifer/koma)：Koma是Kotlin的科学计算环境。
 * [Classifai](https://github.com/CertifaiAI/classifai)：Classifai是最全面的开源数据标注平台之一。
-* [Kandy](https://github.com/Kotlin/kandy)：Kandy是Kotlin的一个开源绘图库，它提供了用于创建图形的强大而灵活的DSL，并利用了各种流行的引擎，由JetBrains开源。
-* [Kravis](https://github.com/holgerbrandl/kravis)：Kravis实现一种语法，使用一组标准化的动词来创建各种各样的图表。
 * [ERDDAP](https://github.com/ERDDAP/erddap)：ERDDAP是一款科学数据服务器，它为用户提供了一种简单、一致的方式，可以下载常见文件格式的网格化和表格化科学数据集子集，并制作图表和地图，由美国国家海洋和大气管理局开源。
-* [Javelit](https://github.com/javelit/javelit)：Javelit是一个Java闪电般快速的数据应用程序开发框架，深受Streamlit的启发。
 * [Studio9](https://github.com/NashTech-Labs/Studio-9)：Studio9是一个开源平台，支持随时随地进行协作式数据管理和AI/ML开发。
-* [CLJPLOT](https://github.com/generateme/cljplot)：JVM Clojure图表库。
 * [GroovyLab](https://github.com/sterglee/GroovyLab)：GroovyLab是用Groovy实现简单高效的类MATLAB科学编程库。
 * [STIL](https://www.star.bris.ac.uk/~mbt/stil/)：STIL是一个纯Java库，用于通用的表格数据输入、输出和处理。
 
@@ -146,16 +142,12 @@
 * [McIDAS-V](https://www.ssec.wisc.edu/%7Ebillh/visad.html)：McIDAS-V是一款免费、开源、可视化和数据分析软件包，是SSEC 50年复杂McIDAS软件包历史中的下一代产品，由威斯康星大学麦迪逊分校开源。
 * [TelemetryViewer](https://github.com/farrellf/TelemetryViewer)：TelemetryViewer是一个数据可视化工具。
 * [MDSplus](https://github.com/MDSplus/mdsplus)：MDSplus是一套用于数据采集和存储的软件工具，以及管理复杂科学数据的方法，由麻省理工学院、意大利帕多瓦聚变研究小组和洛斯阿拉莫斯国家实验室联合开发。
-* [AAChartCore](https://github.com/AAChartModel/AAChartCore)：AAChartCore是AAChartKit的Java语言版本，基于流行的开源前端图表库Highcharts的一套易于使用、极其优雅的图形绘制控件。
-* [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
 * [Constellation](https://github.com/constellation-app/constellation)：Constellation是一款以图形为中心的数据可视化和交互式分析应用程序，支持跨大型复杂数据集的数据访问、联合和操作功能。
 * [Seahorse](https://github.com/deepsense-ai/seahorse)：Seahorse是一个开源的可视化框架，可让你以快速、简单和交互式的方式创建Apache Spark应用程序。
-* [Big Faceless Graph](https://bfo.com/products/graph/)：Big Faceless Graph库由完整的3D引擎支持，可以从任何视角快速绘制2D或带阴影的3D饼图、折线图、面积图和柱状图。
 * [Bubble Sets](https://github.com/JosuaKrause/Bubble-Sets)：一个Java实现的Bubble Sets。
 * [Aperture Tiles](https://github.com/unchartedsoftware/aperture-tiles)：Aperture Tiles能够创建基于浏览器的交互式工具，任何分析师都可以使用这些工具来探索包含数十亿个数据点的数据集。
 * [Zenvisage](https://github.com/zenvisage/zenvisage)：Zenvisage是一款可视化数据探索系统，能够自动识别并推荐符合用户需求的视觉化内容。
 * [AbstractRendering](https://github.com/JosephCottam/AbstractRendering)：AbstractRendering是一个专注于信息可视化的Java库。
-* [DISLIN](https://www.dislin.de/)：DISLIN是一个高级绘图库，用于将数据显示为曲线、极坐标图、条形图、饼图、3D彩色图、曲面、等高线和地图。
 * [SwiftVis](https://github.com/MarkCLewis/SwiftVis2)：利用图形数据流分析进行绘图/可视化。
 
 #### 数据图表
@@ -165,6 +157,17 @@
 * [DHM ECharts](https://gitee.com/duhongming/dhm-echarts)：图表封装，前台Ajax通过自定义Div属性实现传值，后台通过各种数据适配器自动组装达到图表封装，以实现Echarts图表展示，也可以自定义适配器。
 * [EChartsAnnotation](https://gitee.com/zaoying/EChartsAnnotation)：ECharts的Java注解框架，用原生Java注解来映射ECharts的Option类，提供Annotation到JSON的转换功能。
 * [Wicked Charts](https://github.com/adessoSE/wicked-charts)：适用于基于Java的Web应用程序的美观且交互式的JavaScript图表。
+* [Javelit](https://github.com/javelit/javelit)：Javelit是一个Java闪电般快速的数据应用程序开发框架，深受Streamlit的启发。
+* [Kandy](https://github.com/Kotlin/kandy)：Kandy是Kotlin的一个开源绘图库，它提供了用于创建图形的强大而灵活的DSL，并利用了各种流行的引擎，由JetBrains开源。
+* [SnapCharts](https://github.com/reportmill/SnapCharts)：一个用于Java和JavaScript的图表软件包。
+* [CLJPLOT](https://github.com/generateme/cljplot)：JVM Clojure图表库。
+* [Kravis](https://github.com/holgerbrandl/kravis)：Kravis实现一种语法，使用一组标准化的动词来创建各种各样的图表。
+* [AAChartCore](https://github.com/AAChartModel/AAChartCore)：AAChartCore是AAChartKit的Java语言版本，基于流行的开源前端图表库Highcharts的一套易于使用、极其优雅的图形绘制控件。
+* [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
+* [Big Faceless Graph](https://bfo.com/products/graph/)：Big Faceless Graph库由完整的3D引擎支持，可以从任何视角快速绘制2D或带阴影的3D饼图、折线图、面积图和柱状图。
+* [DISLIN](https://www.dislin.de/)：DISLIN是一个高级绘图库，用于将数据显示为曲线、极坐标图、条形图、饼图、3D彩色图、曲面、等高线和地图。
+* [Chart.java](https://github.com/mdewilde/chart)：Chart.java可以在Java应用程序中与优秀的Chart.js库集成。
+* [Chart.js Java Model](https://github.com/xdev-software/chartjs-java-model)：Chart.js Java Model为Chart.js提供Java模型。
 
 #### 数据挖掘
 
@@ -841,6 +844,7 @@
 * [HTTP Proxy](https://github.com/geosolutions-it/http-proxy)：HTTP Proxy是一个基于Java的简单HTTP代理，可用于从基于JavaScript的Web应用程序发出跨域请求。
 * [Scotty](https://github.com/SSilence/scotty)：Scotty是一个Java网络代理。
 * [Torchestrator](https://github.com/lspahija/torchestrator)：Torchestrator可以启动Tor容器，并暴露端口以通过这些Tor实例代理HTTP请求。
+* [Bouncer](https://github.com/kawasima/bouncr)：具有身份验证和授权功能的反向代理。
 
 #### Socks代理
 
@@ -1217,6 +1221,7 @@
 * [Reactify](https://github.com/hoangtien2k3/reactify-core)：Reactify是一个基于Spring WebFlux和Reactor Core构建的高性能Java库，旨在通过现代响应式系统的基本工具简化后端开发。
 * [Kotlin Observable](https://github.com/lightningkite/kotlin-observable)：Kotlin Observable包含两个主要部分ObservableProperty和ObservableList，它们主要用于将组织接口与数据无缝、无忧地连接起来，就像使用Rx一样。
 * [Freactive.Core](https://github.com/aaronc/freactive.core)：Freactive是一个专注于Clojure、Java的响应式编程库。
+* [SmallRye Mutiny Vert.x Bindings](https://github.com/smallrye/smallrye-mutiny-vertx-bindings)：Smallrye Mutiny为Eclipse Vert.x提供的绑定。
 
 #### Future扩展
 
@@ -8058,6 +8063,7 @@
 * [Assimbly Runtime](https://github.com/assimbly/runtime)：用于创建和运行集成的Java和REST API。
 * [Eclipse Lyo](https://github.com/eclipse-lyo/lyo)：Eclipse Lyo项目致力于提供一个SDK，以支持OSLC规范的采用。
 * [Blended](https://github.com/woq-blended/blended)：Blended提供了一个基于Scala的集成框架，可以轻松地在 Akka、AkkaHttp、JMS和其他通信库之上开发基于组件的应用程序。
+* [Mercury Composable](https://github.com/Accenture/mercury-composable)：一个Java框架，用于构建可组合的、事件驱动的应用程序，由Accenture开源。
 
 ## SMT求解器
 
@@ -11540,6 +11546,7 @@ Kafka生态管理系统、运维平台。
 * [LiveREPL](https://github.com/djpowell/liverepl)：启动一个连接到任何正在运行的Java或Clojure进程的Clojure REPL。
 * [GraalVM REPL](https://github.com/lazar-mitrovic/GraalVMREPL)：基于JavaFX技术栈、GraalJS、GraalPython、TruffleRuby和FastR构建的REPL Shell。
 * [JShellStandalone](https://github.com/shathor/JShellStandalone)：JShellStandalone提供一个独立的JShell REPL版本。
+* [JetShell](https://github.com/kawasima/jetshell)：具有Maven工件解析功能的交互式JShell。
 
 ## Java Web Start
 
@@ -12559,6 +12566,7 @@ Kafka生态管理系统、运维平台。
 * [Magic Admin](https://github.com/makemyownlife/magic-admin)：基于RuoYi Vue Pro深度定制的后台管理系统。
 * [XunLuAdmin](https://github.com/KillerTwo/XunLuAdmin)：XunLu是一套基于RuoYi Vue、Ant Design Pro全部开源的快速开发平台。
 * [LZ Litchi](https://github.com/SpringSunYY/LZ-litchi)：LZ Litchi是基于JDK21、Spring Boot 3、Vue3和Vben Admin构建的企业级开发平台。
+* [Jimuqu Admin](https://gitee.com/opensolon/jimuqu-admin)：Jimuqu Admin是基于Java 17、Solon 3、Xbatis、AutoTable与Sa-Token的企业管理后台。
 
 #### 低代码
 
@@ -13840,6 +13848,9 @@ Kafka生态管理系统、运维平台。
 * [Midtrans Java](https://github.com/Midtrans/midtrans-java)：Midtrans支付API的官方Java API客户端/库。
 * [Spring Boot Payment Starter](https://github.com/NormanGyllenhaal/spring-boot-payment-starter)：Google Pay和iOS支付校验SDK。
 * [GoPay Java API](https://github.com/gopaycommunity/gopay-java-api)：GoPay支付REST API的Java SDK。
+* [DarajaMultiplatform](https://github.com/VictorKabata/DarajaMultiplatform)：Kotlin多平台封装的Mpesa API，名为Daraja API，支持与你的Android(Kotlin/Java)、iOS和JVM应用程序集成。
+* [Java M-Pesa SDK](https://github.com/paymentsds/mpesa-java-sdk)：这是一个可以帮助你将Vodacom M-Pesa操作集成到你的应用程序中的库。
+* [M‑Pesa Multiplatform SDK](https://github.com/nand-industries/mpesa-multiplatform-sdk)：非官方的开源Compose多平台SDK，可简化与Vodacom Mozambique M-Pesa API在Android和iOS上的结账集成(并可扩展到Web、桌面和JVM系统)。
 
 #### 微信支付
 
@@ -15055,6 +15066,7 @@ Kafka生态管理系统、运维平台。
 * [QuantScale](https://github.com/choucrifahed/quantscale)：QuantScale库是将C++ QuantLib库移植到Scala的版本。
 * [FXyou](https://github.com/apssouza22/trading-system)：用Java编写的简单高频交易引擎，带有回测模拟和实时交易功能。
 * [TradingMachine](https://github.com/NicolaNardino/TradingMachine)：TradingMachine是一个小型交易系统模拟器。
+* [Alis](https://github.com/alphatica/alis)：一系列基本构建模块，旨在帮助进行投资组合管理、测试和市场分析。
 
 #### 算法交易
 
@@ -15760,6 +15772,7 @@ Kafka生态管理系统、运维平台。
 * [Portico](https://github.com/openlvc/portico)：Portico是一个开源HLA运行时基础设施(RTI)实现，它旨在确保开源和免费访问驱动HLA联盟所需的必要基础设施。
 * [MATSim UAM](https://github.com/BauhausLuftfahrt/MATSim-UAM)：MATSim的扩展，允许加入空中载客车辆，即需要使用传统地面交通方式进行车站进出行程的车站和网络导向型交通方式。
 * [k.LAB](https://github.com/integratedmodelling/klab)：k.LAB旨在解决集成建模活动的问题，它将强大的语义与建模实践相结合，从而实现模块化、互操作性、可重用性以及多种范式和尺度的集成等优势。
+* [Alchemist](https://github.com/AlchemistSimulator/Alchemist)：Alchemist是一个普适计算、聚合计算和自然启发式计算的模拟器。
 
 ## CAD
 
@@ -16151,6 +16164,7 @@ Kafka生态管理系统、运维平台。
 * [Cyclone](https://github.com/theapache64/cyclone)：Cyclone可以用Android方式编写JVM应用。
 * [Desku](https://github.com/Osiris-Team/Desku)：Java UI框架，统一Web、桌面和移动应用。
 * [Valkyrie RCP](https://github.com/lievendoclo/Valkyrie-RCP)：Valkyrie RCP的使命是利用Spring框架以及丰富的UI工厂和支持类库，提供一种优雅的方式来更快地构建高度可配置、符合GUI标准的富客户端应用程序。
+* [DomUI](https://github.com/fjalvingh/domui)：DomUI Java用户界面库。
 
 #### 移动开发框架
 
@@ -18158,6 +18172,7 @@ Kafka生态管理系统、运维平台。
 * [JGraLab](https://github.com/jgralab/jgralab)：JGraLab是一个Java图形库，实现了所谓的TGraphs：类型化、属性化、有序和有向图，由科布伦茨兰道大学开源。
 * [Traverser](https://github.com/intuit/Traverser)：Traverser是一个Java库，可帮助软件工程师实现数据结构的高级迭代，由Intuit开发。
 * [Simple Graphs](https://github.com/earlygrey/simple-graphs)：Simple Graphs是一个Java库，包含基本的图数据结构和算法。
+* [FlatGraph](https://github.com/joernio/flatgraph)：FlatGraph是一个专门为图结构数据设计的高性能存储与访问库。
 
 #### BitSet
 
@@ -18620,6 +18635,7 @@ Kafka生态管理系统、运维平台。
 * [Lua Android](https://github.com/qtiuto/lua-for-android)：一款高性能的Android Lua和Java或C桥接器，支持多线程和几乎所有Java特性。
 * [Cobalt](https://github.com/cc-tweaked/Cobalt)：Cobalt是一个用于Java的Lua实现。
 * [TENUM](https://github.com/TENUM-Dev/tenum)：TENUM是一个基于Kotlin的多平台Lua 5.4.8解释器和全栈工具包。
+* [GraalLua](https://github.com/Glavo/GraalLua)：基于GraalVM的Lua实现。
 
 #### .NET
 
@@ -20142,8 +20158,6 @@ Kafka生态管理系统、运维平台。
 * [Caja](https://github.com/googlearchive/caja)：Caja是一个用于在你的网站中安全嵌入第三方HTML、CSS和JavaScript的工具，由Google开源。
 * [Wro4j](https://github.com/wro4j/wro4j)：Wro4j是一个免费的开源Java项目，可以帮助缩短Web应用程序页面加载时间。
 * [Nu Html Checker](https://github.com/validator/validator)：Nu Html Checker可帮助你发现HTML、CSS和SVG中的意外错误。
-* [Chart.java](https://github.com/mdewilde/chart)：Chart.java可以在Java应用程序中与优秀的Chart.js库集成。
-* [Chart.js Java Model](https://github.com/xdev-software/chartjs-java-model)：Chart.js Java Model为Chart.js提供Java模型。
 * [Displaytag](https://github.com/hazendaz/displaytag)：Displaytag库是一个开源的自定义标签套件，提供可在MVC模型中工作的高级Web表示模式。
 * [Orbeon Forms](https://github.com/orbeon/orbeon-forms)：Orbeon Forms是一个开源Web表单解决方案。
 * [HAR Reader](https://github.com/sdstoehr/har-reader)：用于使用Java访问HTTP存档(HAR)的库。
@@ -20157,7 +20171,6 @@ Kafka生态管理系统、运维平台。
 * [AngularSEO](https://github.com/johnhuang-cn/AngularSEO)：AngularSEO Filter是一款适用于采用JavaEE后端、前端使用AJAX框架的网站的SEO解决方案。
 * [Webpage2HTML Java](https://github.com/cedricblondeau/webpage2html-java)：通过将外部资源(CSS、JS、图像、字体)转换为内联内容，并在必要时使用Base64对其进行编码，为给定的URL生成单个HTML文件。
 * [WUIC](https://github.com/wuic/wuic)：Web UI压缩器。
-* [Akasha](https://github.com/akasha/akasha)：Akasha是一个类型化的浏览器API层，始终与最新的Web规范保持同步。
 * [Vite Spring Boot](https://github.com/wimdeblauwe/vite-spring-boot)：该库允许使用Vite作为前端构建工具来实现实时重载。
 
 #### WebAssembly
@@ -20238,6 +20251,7 @@ Kafka生态管理系统、运维平台。
 * [SmartGWT](https://smartclient.com/product/smartgwt.jsp)：SmartGWT将业界最丰富的GWT UI组件集与Java服务器框架相结合，为构建企业Web应用程序提供端到端的解决方案。
 * [Domino UI](https://github.com/DominoKit/domino-ui)：类型安全且功能丰富的UI组件库，供Java开发人员使用流式API，并且不依赖于外部JavaScript。
 * [React4j](https://github.com/react4j/react4j)：该项目的目标是能够从GWT无缝使用React的组件模型，并利用React开发支持工具(例如React的Devtools)生态系统。
+* [Akasha](https://github.com/akasha/akasha)：Akasha是一个类型化的浏览器API层，始终与最新的Web规范保持同步。
 * [RestyGWT](https://github.com/resty-gwt/resty-gwt)：RestyGWT是一个用于生成REST服务和JSON编码数据传输对象的GWT生成器。
 * [GWT Material](https://github.com/GwtMaterialDesign/gwt-material)：GWT的Google Material Design包装器。
 * [Vue GWT](https://github.com/VueGWT/vue-gwt)：Vue GWT使用JsInterop和Elemental2将Vue.js与GWT 2.9集成，它允许你用Java编写Vue组件。
