@@ -1501,6 +1501,7 @@
 * [Spring Boot Keycloak Server](https://github.com/suchorski/springboot-keycloak-server)：嵌入到Spring Boot应用程序中的Keycloak服务器。
 * [Ladybug](https://github.com/wearefrank/ladybug)：Ladybug由集成公司WeAreFrank开发和维护，它为你的Java应用程序添加了基于消息的调试、单元测试、系统测试和回归测试功能。
 * [Docker Proxy JUnit Rule](https://github.com/palantir/docker-proxy-rule)：这是一个用于执行与Docker容器交互的JUnit测试的小型库，由Palantir开源。
+* [Creaper](https://github.com/wildfly-extras/creaper)：Creaper是一个小型WildFly管理库，略微侧重于测试。
 
 #### 接口测试
 
@@ -1819,6 +1820,7 @@
 * [JMockit](https://github.com/jmockit/jmockit1)：JMockit是用于集成测试、Mock、伪造和代码覆盖率的高级Java库。
 * [Jukito](https://github.com/ArcBees/Jukito)：JUnit、Guice和Mockito的强强联手。
 * [Mokkery](https://github.com/lupuuss/Mokkery)：Kotlin Multiplatform的Mock库，易于使用、无样板且由编译器插件驱动。
+* [MocKMP](https://github.com/kosi-libs/MocKMP)：一个用于生成Mock对象和伪对象的Kotlin/多平台Kotlin符号处理器。
 * [Expectations](https://github.com/clojure-expectations/expectations)：Expectations是一个经典的期望库。
 * [Mockative](https://github.com/mockative/mockative)：使用KSP实现Kotlin/Native和Kotlin Multiplatform的Mock。
 * [Mockrunner](https://github.com/mockrunner/mockrunner)：Mockrunner是用于企业级应用程序的Mock工具。
@@ -2375,6 +2377,8 @@
 * [JUnit5 Spring Boot Extensions](https://github.com/jupiter-tools/spring-boot-extensions)：JUnit5 Spring Boot扩展。
 * [JUnit Utils](https://github.com/oswaldobapvicjr/junit-utils)：JUnit的常用工具。
 * [JUnit Foundation](https://github.com/sbabcoc/JUnit-Foundation)：JUnit Foundation是一个轻量级的JUnit观察器、接口和静态实用程序类的集合，用于补充和增强JUnit 4 API提供的功能。
+* [Rulz](https://github.com/AdamBien/rulz)：可重用的JUnit Rule。
+* [CDI Test](https://github.com/guhilling/cdi-test)：用于轻松高效地测试CDI组件的JUnit扩展。
 
 #### 测试运行器
 
@@ -2928,6 +2932,7 @@
 * [Mybatis JPA](https://github.com/littlenb/mybatis-jpa)：Mybatis插件，提供Mybatis处理JPA的能力。
 * [MMPT](https://github.com/manniwood/mmpt)：Manni的MyBatis PostgreSQL类型。
 * [Tigon MyBatis](https://gitee.com/chyxion/tigon-mybatis)：Tigon MyBatis是一个面向Spring/Spring Boot的轻量MyBatis Mapper增强库。
+* [MyBatisGX](https://github.com/cris-xue/mybatisgx)：MyBatisGX是一个基于MyBatis的增强框架。
 
 #### Hibernate库
 
@@ -3641,6 +3646,8 @@
 * [OACC](https://github.com/acciente/oacc-core)：OACC是一个功能齐全的API，可强制执行和管理应用程序的身份验证和授权需求。
 * [Easy Security](https://gitee.com/aizuda/easy-security)：Easy Security是基于过滤器实现的一款配合Spring快速开发的安全认证框架，由爱组搭开源。
 * [Micronaut Security](https://github.com/micronaut-projects/micronaut-security)：Micronaut Security是一款功能齐全且可定制的安全解决方案。
+* [Jakarta Authentication](https://github.com/jakartaee/authentication)：Jakarta Authentication定义了一个通用的底层身份验证机制SPI。
+* [Epicyro](https://github.com/eclipse-ee4j/epicyro)：Epicyro是Jakarta Authentication的实现。
 * [WebAuthn4J](https://github.com/webauthn4j/webauthn4j)：WebAuthn4J是一个用于WebAuthn和Apple App Attest服务器端验证的可移植Java库。
 * [Google Auth Library](https://github.com/googleapis/google-auth-library-java)：Google提供的Java开源身份验证客户端库。
 * [Spotify Auth Library](https://github.com/spotify/android-auth)：适用于Android系统的Spotify身份验证和授权功能，由Spotify开源。
@@ -5024,6 +5031,7 @@
 * [Okaeri Injector](https://github.com/OkaeriPoland/okaeri-injector)：Okaeri Injector是最基本、最简单的依赖注入器。
 * [Inject](https://github.com/SuppieRK/inject)：Java JSR 330依赖注入库。
 * [Warehouse](https://github.com/osama-raddad/Warehouse)：Warehouse是一个轻量级的Kotlin DSL依赖注入库。
+* [Open DI](https://github.com/eclipse-ee4j/odi)：Open DI是一个CDI Lite实现，由Micronaut的编译时依赖注入运行时提供支持。
 
 ## AOP
 
@@ -6103,6 +6111,7 @@
 * [Propertied](https://github.com/michaelklishin/propertied)：Propertyed是一个小型Clojure库，用于处理Java属性列表。
 * [JProperties](https://www.io7m.com/software/jproperties)：以类型化的方式访问java.util.Properties集合中的值的Java函数。
 * [Confectory](https://github.com/oswaldobapvicjr/confectory)：Java应用程序的模块化配置框架。
+* [Config Extensions](https://github.com/microprofile-extensions/config-ext)：MicroProfile Config额外的配置源和实用程序。
 
 #### 分布式配置
 
@@ -6652,6 +6661,7 @@
 * [ApiManager](https://github.com/MoerFinance/ApiManager)：ApiManager是一款简单易用、安全高效组件间通信框架，支持组件间以暴露接口提供服务的方式进行通信，帮助组件化架构的实现。
 * [Brick Bootkit Spring Boot](https://github.com/v18268185209/brick-bootkit-springboot)：一个强大的Spring Boot插件化开发框架，支持插件动态加载、热插拔、类隔离等功能。
 * [Winter Framework](https://github.com/thewinterframework/winter)：Winter Framework是一个现代化、以依赖注入为先的Minecraft服务器插件框架。
+* [Weaverbird](https://github.com/techsenger/weaverbird)：Techsenger Weaverbird是一个基于JPMS的框架，它通过动态模块层管理模块化组件。
 
 ## 多租户
 
@@ -6998,6 +7008,7 @@
 * [JMathTeX](https://jmathtex.sourceforge.net/)：JMathTeX库提供了一组Java类，用于将数学公式作为Java应用程序的一部分显示。
 * [JBibTeX](https://github.com/jbibtex/jbibtex)：Java BibTeX和LaTeX解析器和格式化程序库。
 * [Pretty Formula](https://github.com/mzur/pretty-formula)：一个小型Java库，用于将数学公式解析为LaTeX并将其显示为图像。
+* [TeXParser](https://github.com/nlct/texparser)：用于解析(La)TeX文件的Java代码。
 
 ## 图处理
 
@@ -7602,6 +7613,7 @@
 * [Process Engine API](https://github.com/bpm-crafters/process-engine-api)：该库提供了一个现代化、与引擎无关的API，可用于实现流程应用程序。
 * [Inngest Kotlin SDK](https://github.com/inngest/inngest-kt)：Inngest的Kotlin/Java SDK。
 * [Centit Workflow](https://github.com/ndxt/centit-workflow)：基于职能型组织架构的工作流引擎服务器。
+* [Noleme Flow](https://github.com/noleme/noleme-flow)：该库提供了支持对ETL等数据处理程序进行DAG结构化的功能。
 
 ## 编排引擎
 
@@ -9492,6 +9504,7 @@
 * [XMLDoclet](https://manticore-projects.com/XMLDoclet/index.html)：XMLDoclet是一个用于从Java源代码文档生成XML文件的Doclet。
 * [XML Doclet](https://github.com/MarkusBernhardt/xml-doclet)：用于将Javadoc输出为XML的Doclet。
 * [SpringDoclet](https://github.com/scottfrederick/springdoclet)：SpringDoclet是一个Javadoc文档生成器，用于生成项目中Spring组件的文档。
+* [GenJavadoc](https://github.com/lightbend/genjavadoc)：GenJavadoc是一个Scala编译器插件，它可以为项目中的所有Scala源文件生成结构等效的Java代码，同时保留Scaladoc注释，由Lightbend开源。
 
 ## 文件操作
 
@@ -10524,6 +10537,7 @@ Kafka生态管理系统、运维平台。
 * [JVM Sounds](https://github.com/tersesystems/jvmsounds)：这是一个非常简单的JVM库，可以将JVM事件播放成音频。
 * [Spring HTTP Server Timings](https://github.com/sercasti/spring-httpserver-timings)：Spring HTTP Server Timings是一个为Spring Boot应用提供Server-Timing HTTP头支持的库。
 * [Continuous Async Profiler](https://github.com/krzysztofslusarski/continuous-async-profiler)：Spring Boot库，用于使用Async Profiler进行持续性能分析。
+* [Perceptor](https://github.com/AdamBien/perceptor)：Java EE性能测量拦截器。
 
 #### 诊断工具
 
@@ -12190,6 +12204,9 @@ Kafka生态管理系统、运维平台。
 * [Spring Boot Template](https://github.com/shepherdviolet/spring-boot-template)：Spring Boot 3.X Gradle工程模板。
 * [KMP Project Template](https://github.com/openMF/kmp-project-template)：这是一个基于Kotlin多平台的开源金融实用工具模板。
 * [WildFly Archetypes](https://github.com/wildfly/wildfly-archetypes)：本项目包含Maven原型，用于生成Maven项目，以便使用WildFly开发Jakarta EE应用程序。
+* [JakartaEE Essentials Archetype](https://github.com/AdamBien/JakartaEE-essentials-archetype)：用于创建全新Jakarta EE和MicroProfile项目的Maven快速入门原型。
+* [Jakarta EE Project Template](https://github.com/AdamBien/jakartaee-essentials)：适用于Jakarta EE 10、Java 21项目的极简Maven pom.xml文件。
+* [JavaEE BCE Archetype](https://github.com/AdamBien/javaee-bce-archetype)：JavaEE BCE Pom项目的Maven原型。
 
 #### 脚手架
 
@@ -12609,6 +12626,7 @@ Kafka生态管理系统、运维平台。
 * [XunLuAdmin](https://github.com/KillerTwo/XunLuAdmin)：XunLu是一套基于RuoYi Vue、Ant Design Pro全部开源的快速开发平台。
 * [LZ Litchi](https://github.com/SpringSunYY/LZ-litchi)：LZ Litchi是基于JDK21、Spring Boot 3、Vue3和Vben Admin构建的企业级开发平台。
 * [Jimuqu Admin](https://gitee.com/opensolon/jimuqu-admin)：Jimuqu Admin是基于Java 17、Solon 3、Xbatis、AutoTable与Sa-Token的企业管理后台。
+* [Lanjii](https://gitee.com/leven2018/lanjii)：Lanjii是一个基于Spring Boot、Vue3构建的前后端分离企业级后台脚手架，内置完整的RBAC权限体系、多租户架构及常用系统功能。
 
 #### 低代码
 
@@ -17076,6 +17094,8 @@ Kafka生态管理系统、运维平台。
 * [Pine](https://github.com/Prozilla/Pine)：Pine是一个轻量级的Java游戏引擎。
 * [Valthorne](https://github.com/tehnewb/Valthorne)：一个基于LWJGL构建、受LibGDX启发的轻量级2D Java游戏引擎。
 * [Jengen](https://github.com/ayman-art/Jengen-2DGameEngine)：Jengen是一个用Java编写的简单2D游戏引擎，用于创建基于图块的2D桌面游戏。
+* [Solarnet](https://github.com/MartianZoo/solarnet)：Solarnet是一个开源游戏引擎，用于桌面游戏《火星殖民》。
+* [LibFDX](https://github.com/libfdx/libfdx)：LibFDX是一个模块化的Java游戏框架。
 
 #### 游戏服务器
 
@@ -17127,6 +17147,7 @@ Kafka生态管理系统、运维平台。
 * [F3D](https://github.com/f3d-app/f3d)：F3D是一个简单的网格渲染库，支持Java绑定。
 * [JOGL](https://github.com/sgothel/jogl)：JOGL项目负责Java高性能图形绑定的开发，旨在为用Java编写的应用程序提供硬件支持的3D图形和多媒体，最初由Sun开发。
 * [jPCT](https://www.jpct.net/)：jPCT是一款适用于桌面Java和谷歌Android系统的3D引擎。
+* [Skiko](https://github.com/JetBrains/skiko)：Skiko是一个图形库，它将Skia库API的重要部分暴露给Kotlin，以及渲染上下文的粘合代码，由JetBrains开源。
 * [PanamaGL](https://gitlab.com/jzy3d/panama-gl)：PanamaGL旨在使用适用于JDK 22及更高版本的FFM API提供与OpenGL的多平台绑定。
 * [OPENRNDR](https://github.com/openrndr/openrndr)：OPENRNDR是一个用于创意编码、实时和交互式图形的Kotlin/JVM库。
 * [VK²](https://github.com/kotlin-graphics/vkk)：VK²的目标是为Vulkan C API提供一个库，以提升开发者的Vulkan体验，且不会带来任何显著的CPU运行时开销。
@@ -18564,6 +18585,7 @@ Kafka生态管理系统、运维平台。
 * [KShortestPaths](https://github.com/bsmock/k-shortest-paths)：一系列算法，用于计算加权有向图中两个节点之间的K条最短路径。
 * [MDAG](https://github.com/klawson88/MDAG)：MDAG是一个Java库，能够构建存储字符序列的最小规模有向无环图。
 * [Contraction Hierarchies](https://github.com/michaeltandy/contraction-hierarchies)：一个简单的Java实现的收缩层次结构算法。
+* [FastGraph](https://github.com/sooniln/fastgraph)：FastGraph是一个用于JVM的高性能数学图论库。
 
 #### 随机流算法
 
@@ -19490,6 +19512,7 @@ Kafka生态管理系统、运维平台。
 * [EmojiRegex](https://github.com/zly394/EmojiRegex)：表情符号正则表达式。
 * [Emoji.kt](https://github.com/kosi-libs/Emoji.kt)：Kotlin多平台表情符号支持。
 * [UnicodeEmoji](https://github.com/gzu-liyujiang/UnicodeEmoji)：Unicode、Emoji处理工具类，可用于解决微信登录Emoji表情昵称乱码问题。
+* [Emoji Clock](https://github.com/Philippus/emoji-clock)：Emoji Clock可以根据给定的日期时间生成相应的表情符号短代码。
 
 ## 字体库
 

@@ -1628,6 +1628,7 @@
 * [DavidWebb](https://github.com/hgoebl/DavidWebb)：轻量级Java HTTP客户端，用于调用JSON REST服务。
 * [Spring Boot HTTP Clients](https://github.com/maciejwalkowiak/spring-boot-http-clients)：Spring Boot HTTP Clients为Spring Boot应用程序中基于WebClient和Spring 6 HTTP接口的HTTP客户端提供零样板自动配置。
 * [Kalle](https://github.com/yanzhenjie/Kalle)：Kalle是一个Android平台的HttpClient，它遵循HTTP标准协议，支持同步请求和异步请求。
+* [Hammock](https://github.com/pepegar/hammock)：Hammock是另一个用于Scala的HTTP客户端。
 * [Unfiltered](https://github.com/unfiltered/unfiltered)：Unfiltered是一个用于在Scala中处理HTTP请求的工具包。
 * [HttpHelper](https://gitee.com/wolfsmoke/WSHttpHelper)：HttpHelper是一个轻量级Http请求框架，致力于为Http请求提供简洁明了的接口。
 * [Mechanize](https://github.com/GistLabs/mechanize)：Mechanize是一个有状态的HTTP Web服务客户端，支持HTML、JSON和XML服务。
@@ -3477,6 +3478,8 @@
 * [OpenAPI MCP](https://github.com/infobip/infobip-openapi-mcp)：OpenAPI MCP是一个开源框架，用于将任何符合OpenAPI文档规范的HTTP API公开为MCP服务器。
 * [Tachyon](https://github.com/kpavlov/tachyon)：Tachyon MCP是一个基于Netty构建的Java 21 MCP服务器。
 * [Spector](https://github.com/spectrayan/spector)：Spector是一个零开销、可直接用于AI代理的认知记忆与搜索引擎。
+* [ZMCP](https://github.com/AdamBien/zmcp)：纯Java/零依赖MCP实现。
+* [AJ-MCP](https://github.com/lightweight-component/aj-mcp)：AJ-MCP是一个轻量级的Java MCP SDK。
 
 ### A2A
 
