@@ -578,7 +578,7 @@
     * [指标库](docs/doc2.md#指标库)
     * [指标报告](docs/doc2.md#指标报告)
     * [指标收集](docs/doc2.md#指标收集)
-    * [Spring Boot仪表板](docs/doc2.md#Spring-Boot仪表板)
+    * [监控仪表板](docs/doc2.md#监控仪表板)
     * [GC日志分析](docs/doc2.md#GC日志分析)
     * [堆转储](docs/doc2.md#堆转储)
     * [线程转储](docs/doc2.md#线程转储)
@@ -1077,6 +1077,7 @@
 * [Vaadin](https://github.com/vaadin/framework)：Vaadin允许你使用纯Java高效构建现代Web应用程序，而无需接触低级Web技术。
 * [Apache Wicket](https://github.com/apache/wicket)：Wicket是一个开源、基于组件的Java Web应用程序框架。
 * [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
+* [Foy](https://doc.vidocq.dev/foy)：Foy是Vidocq生态系统的Jakarta Servlet 6.1实现。
 * [Kweb](https://github.com/kwebio/kweb-core)：Kweb旨在让开发者轻松创建现代化网站，无需担心服务器和浏览器之间复杂的通信问题。
 * [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
 * [JWebMP](https://jwebmp.com)：JWebMP允许你使用纯Java构建完整的Web应用程序。
@@ -1314,6 +1315,7 @@
 * [RESTX](https://github.com/restx/restx)：RESTX是一个完整的轻量级颠覆性堆栈，其中包括类似Swagger的UI并将REST规范测试视为文档。
 * [Spray](https://github.com/spray/spray)：Spray是一套轻量级的Scala库，用于在Akka之上构建和使用RESTful Web服务。
 * [Xenon](https://github.com/vmware-archive/xenon)：Xenon是一个用于编写小型REST服务的框架，由VMware开发。
+* [Cassini](https://doc.vidocq.dev/cassini)：Cassini是Vidocq生态系统的Jakarta REST 4.0实现。
 * [Restlet](https://github.com/restlet/restlet-framework-java)：Restlet框架帮助Java开发人员构建更好的遵循REST架构风格的Web API，由Talend开源。
 * [RESTHeart](https://github.com/SoftInstigate/restheart)：RESTHeart是一个用于构建HTTP微服务的框架，旨在为开发人员提供开箱即用的直观API。
 * [JsonApi4j](https://github.com/MoonWorm/jsonapi4j)：JsonApi4j是一个现代、轻量级的Java框架，用于构建结构良好、可扩展且可用于生产环境的RESTful API。
@@ -1397,7 +1399,9 @@
 * [GreenLightning](https://oci-pronghorn.gitbook.io/greenlightning)：GreenLightning是一个可嵌入的高性能微服务框架，内置HTTP和MQTT支持。
 * [Light-4J](https://github.com/networknt/light-4j)：Light-4J是快速、轻量级且更高效的微服务框架。
 * [MSF4J](https://github.com/wso2/msf4j)：MSF4J是一个用于开发和运行微服务的轻量级高性能框架，由WSO2开源。
+* [Vidocq](https://vidocq.dev)：Vidocq是一套用纯Java 25编写的Jakarta EE和MicroProfile运行时，采用原生Java模块，基于静态代码生成(Classfile API、APT)和虚拟线程构建。
 * [NutzBoot](https://gitee.com/nutz/nutzboot)：NutzBoot是可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、流控熔断、分布式事务等解决方案。
+* [Thorntail](https://github.com/thorntail/thorntail)：Thorntail的核心目标是简化Java EE应用向微服务架构的迁移和开发，由RedHat开源。
 * [Starlight](https://github.com/baidu/starlight)：Starlight是一套面向云原生的微服务通信框架，兼容Spring生态，由百度开源。
 * [KumuluzEE](https://github.com/kumuluz/kumuluzee)：KumuluzEE是一个轻量级框架，用于使用标准Java、Java EE/Jakarta EE技术开发微服务并将现有Java应用程序迁移到微服务，由SUNESIS公司开发。
 * [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行REST微服务，由AOL开源。
@@ -1528,6 +1532,9 @@
 * [Yar RPC Client](https://github.com/starlight36/yar-client-java)：Yar RPC框架的Java客户端。
 * [Nucleus](https://github.com/gideondk/nucleus)：Nucleus是一个基于Akka IO和Sentinel构建的小型响应式RPC类技术栈。
 * [Connect RPC Java](https://github.com/igor-vovk/connect-rpc-java)：Java ConnectRPC服务器和客户端。
+* [Jaws](https://github.com/javahongxi/jaws)：Jaws是一个基于Java 17和Netty的高性能RPC框架，提供服务注册与发现、负载均衡、容错等完整的微服务通信能力。
+* [JBoss EJB Client](https://github.com/wildfly/jboss-ejb-client)：JBoss EJB Client是一个库，它能够调用位于远程WildFly服务器上的Jakarta Enterprise Beans。
+* [Mobility RPC](https://github.com/npgall/mobility-rpc)：Mobility RPC是一个Java库，旨在为任何应用程序带来无缝的代码移动性。
 
 ### WebService框架
 
@@ -1590,6 +1597,7 @@
 * [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
 * [Avaje HttpClient](https://github.com/avaje/avaje-http)：JDK 11 HttpClient的轻量级包装器。
 * [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：Jcabi HTTP是流式的Java HTTP客户端。
+* [Cyrano](https://doc.vidocq.dev/cyrano)：Cyrano是Vidocq生态系统的MicroProfile REST Client 4.0实现。
 * [OkHttps](https://gitee.com/troyzhxu/okhttps)：OkHttps是对OkHttp3轻量封装的框架，包括异步预处理器，特色的标签，灵活的上传下载进度监听与过程控制功能。
 * [RXHttp](https://github.com/liujingxing/rxhttp)：适用于Android的类型安全HTTP客户端，基于OkHttp。
 * [HTTP4K](https://github.com/http4k/http4k)：HTTP4K是一个用纯Kotlin编写的轻量级但功能齐全的HTTP工具包，可以以功能一致的方式提供和使用HTTP服务。
@@ -1752,6 +1760,7 @@
 * [Zhiqim Httpd](https://gitee.com/zhiqim/zhiqim_httpd)：Zhiqim Httpd WEB容器，纯Java开发，全面实现HTTP服务，比Tomcat/Jetty更轻便、配置更简单和规范。
 * [Red5](https://github.com/Red5/red5-server)：Red5是一个用Java编写的开源Flash服务器。
 * [Microhttp](https://github.com/ebarlas/microhttp)：Microhttp是一种快速、可扩展、事件驱动、独立的Java Web服务器。
+* [Chappe](https://doc.vidocq.dev/chappe)：Chappe是一个高性能HTTP服务器，完全用Java 25编写。
 * [WebSwing](https://www.webswing.org)：Webswing是一个Web服务器，它允许你仅使用纯HTML5在Web浏览器中运行任何Java桌面应用程序。
 * [WebObjects](https://wiki.wocommunity.org/xwiki/bin/view/WO/Home/)：WebObjects是一套集成的Java框架，用于快速开发可扩展、复杂的互联网和企业应用程序，最初由NeXT开发并由Apple维护。
 * [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，它是一个非常流行的支持Servlet和JSP的服务器。
@@ -1915,6 +1924,7 @@
 * [Dapr Java](https://github.com/dapr/java-sdk)：Dapr是Microsoft开源的一个可移植、事件驱动的运行时，用于跨云和边缘构建分布式应用程序。
 * [Linkerd](https://github.com/linkerd/linkerd)：Linkerd是一个提供弹性云端原生应用服务网格的开源项目，也是面向微服务的开源RPC代理。
 * [Ballerina](https://github.com/ballerina-platform/ballerina-lang)：Ballerina是一种针对集成进行了优化的开源云原生编程语言，它由WSO2开发和支持。
+* [MicroProfile Service Mesh](https://github.com/microprofile/microprofile-service-mesh)：MicroProfile用于开发云原生微服务的编程模型。
 * [Prana](https://github.com/Netflix/Prana)：Prana是Netflix开源的一个Sidecar代理，专门为非JVM应用程序提供与Netflix OSS生态系统的集成能力。
 * [Envoy Control](https://github.com/allegro/envoy-control)：Envoy Control是一个用于Service Mesh的生产就绪控制平面，基于与平台无关的Envoy Proxy数据平面，由Allegro开源。
 * [Java Control Plane](https://github.com/envoyproxy/java-control-plane)：Envoy gRPC控制平面的Java实现。
@@ -2036,7 +2046,8 @@
 * [Discovery](https://github.com/Nepxion/Discovery)：蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移。
 * [BFT SMaRt](https://github.com/bft-smart/library)：BFT SMaRt是一个用Java开发的高性能拜占庭容错状态机复制库，以简单性和健壮性为首要要求，由里斯本大学开源。
 * [ScalarDL](https://github.com/scalar-labs/scalardl)：ScalarDL是一种可扩展且实用的拜占庭故障检测中间件，适用于事务数据库系统，可实现正确性、可扩展性和数据库不可知性，由韩国Scalar公司维护。
-* [MicroProfile Fault Tolerance](https://github.com/eclipse/microprofile-fault-tolerance)：MicroProfile中提供的容错组件。
+* [MicroProfile Fault Tolerance](https://github.com/microprofile/microprofile-fault-tolerance)：MicroProfile Fault Tolerance提供了一系列策略，通过优雅地处理故障来增强微服务的弹性。
+* [Heisenberg](https://doc.vidocq.dev/heisenberg)：Heisenberg是Vidocq生态系统的MicroProfile Fault Tolerance 4.1实现。
 * [PBScaler](https://github.com/WHU-AISE/PBScaler)：PBScaler是一个瓶颈感知自动扩展框架，旨在防止基于微服务的应用程序性能下降，由武汉大学开发。
 * [Senries](https://github.com/erikvanoosten/sentries)：Senries是一个独立的Scala库，它将处理调用数据库和远程服务等资源时的所有故障处理。
 * [Rezilience](https://github.com/svroonland/rezilience)：Rezilience是ZIO原生的一系列策略，旨在使异步系统更具故障恢复能力。
@@ -2162,6 +2173,7 @@
 * [MicroProfile Health](https://github.com/microprofile/microprofile-health)：MicroProfile Health用于从另一台机器(即Kubernetes服务控制器)探测计算节点的状态。
 * [SmallRye Health](https://github.com/smallrye/smallrye-health)：SmallRye Health是Eclipse MicroProfile Health的一个实现。
 * [Health Check](https://github.com/Netflix/runtime-health)：HealthCheck公开一个REST端点，用于外部监控，由Netflix开源。
+* [Knock](https://doc.vidocq.dev/knock)：Knock是Vidocq运行时的健康子系统，它实现了MicroProfile Health 4.0。
 * [HeartBeat](https://gitee.com/mkk/HeartBeat)：心跳检测各类应用服务器(如Tomcat、Jetty)，Web服务器(如Apache、Nginx)的Java Web应用程序。
 * [Heart Netty](https://gitee.com/zjz0812/heart-netty)：基于Netty4，ProtoBuf的Netty心跳服务器。
 * [Dropwizard Health](https://github.com/dropwizard/dropwizard-health)：Dropwizard Health提供健康检查实现。
@@ -3342,6 +3354,7 @@
 * [OmniHai](https://github.com/omnifaces/omnihai)：OmniHai提供单一且一致的API，用于与多个AI提供商进行交互。
 * [XEF](https://github.com/xebia-functional/xef)：XEF是一站式库，以LLM、图像生成等形式将现代AI的力量带入你的应用程序或服务，由Xebia开源。
 * [LangStream](https://github.com/LangStream/langstream)：LangStream是一个用于构建和运行GenAI应用程序的框架，DataStax开源。
+* [SmallRye LLM](https://github.com/smallrye/smallrye-llm)：SmallRye LLM实验性框架。
 * [Java LangChain](https://github.com/Starcloud-Cloud/java-langchain)：Java LangChain是一个Java 8+的LangChain实现，在Java环境中构建强大的基于LLM的应用程序。
 * [ChocoBuilder](https://github.com/unit-mesh/choco-builder)：ChocoBuilder是一款开源的LLM应用开发框架，旨在帮助你轻松打造强大的软件开发SDLC、LLM生成助手。
 * [OpenSandbox](https://github.com/alibaba/OpenSandbox)：OpenSandbox是一个通用的AI应用场景沙盒平台，提供多语言SDK、统一沙盒协议和沙盒运行时，支持与LLM相关的能力(命令执行、文件操作、代码执行、浏览器操作、代理执行等)，由阿里开源。
@@ -3447,6 +3460,7 @@
 * [Quixotic](https://github.com/qxoticai/qxotic)：Quixotic提供核心构建模块，用于在JVM上原生运行LLM推理、模型加载、分词和张量操作，并在需要时提供原生性能的CPU/GPU后端。
 * [DeepJ](https://github.com/KirstenAli/DeepJ)：一个轻量级的纯Java Transformer库。
 * [Cyc Java API Suite](https://github.com/cycorp/api-suite)：Cyc Java API Suite包含一系列Java API，用于开发基于Cyc的应用程序或以其他方式访问Cyc功能，并提供分层功能套件。
+* [Libargus](https://github.com/ProjectArgus-cc/libargus.cc)：Libargus是一个超精简、高性能、与模型无关的推理包装器。
 
 ### MCP
 
