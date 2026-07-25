@@ -775,6 +775,7 @@
     * [车辆识别码](docs/doc2.md#车辆识别码)
     * [嵌入式](docs/doc2.md#嵌入式)
     * [串口](docs/doc2.md#串口)
+    * [蓝牙](docs/doc2.md#蓝牙)
     * [PLC](docs/doc2.md#PLC)
     * [OPC](docs/doc2.md#OPC)
     * [Modbus](docs/doc2.md#Modbus)
@@ -970,8 +971,6 @@
 * [OSGI](docs/doc2.md#OSGI)
 * [RAML](docs/doc2.md#RAML)
 * [OData](docs/doc2.md#OData)
-* [蓝牙](docs/doc2.md#蓝牙)
-* [IPP](docs/doc2.md#IPP)
 * [OSC](docs/doc2.md#OSC)
 * [CalDAV](docs/doc2.md#CalDAV)
 * [WebDav](docs/doc2.md#WebDav)
@@ -2014,6 +2013,7 @@
 * [GraphQL Gateway](https://github.com/joaquin-alfaro/graphql-gateway)：使用GraphQL公开REST服务的网关。
 * [Spring Cloud APISIX](https://github.com/galaxy-sea/spring-cloud-apisix)：Spring Cloud APISIX是一个基于Apache APISIX的Spring Cloud框架。
 * [FastGateway](https://github.com/xmopher/FastGateway)：FastGateway是一个轻量级、高性能的API网关服务，基于Spring Boot 3.x和Spring Cloud构建。
+* [Route Service](https://github.com/help-lixin/route-service)：Route Service主要解决微服务路由问题。
 
 ## 服务发现
 
@@ -2221,6 +2221,7 @@
 * [CueSheet](https://github.com/kakao/cuesheet)：CueSheet是一个框架，旨在更便捷地编写Apache Spark 2.x应用程序，由Kakao开源。
 * [Bespin](https://github.com/lintool/bespin)：Bespin是一个库，其中包含MapReduce和Spark中大数据算法的参考实现。
 * [Cloud9](https://github.com/lintool/Cloud9)：Cloud9是一个用于处理大数据的Hadoop工具包。
+* [Spark Extension](https://github.com/G-Research/spark-extension)：一个为Apache Spark和PySpark提供有用扩展的库。
 
 #### 大数据工具
 
@@ -2440,6 +2441,7 @@
 * [Streams Bootstrap](https://github.com/bakdata/streams-bootstrap)：Streams Bootstrap为Kafka Streams应用程序提供基本类和实用函数。
 * [Ziggrid](https://github.com/Ziniki-Network/Ziggrid)：Ziggrid是一种用于大数据处理的函数式响应式编程范式。
 * [Meteor](https://github.com/obsidiandynamics/meteor)：Meteor是一个无需代理、轻量级、可嵌入的Kafka/Kinesis替代方案，它在内存数据网格中运行。
+* [Numaflow Java](https://github.com/numaproj/numaflow-java)：该SDK提供了在Java中编写UDSource、UDTransformer、UDF和UDSink的接口。
 
 #### ETL工具
 
@@ -2848,6 +2850,7 @@
 * [Redis Distributed Lock](https://github.com/lihaimian/redis-distributed-lock)：集成Spring Boot框架的Redis分布式锁。
 * [Redisson Spring Boot Starter](https://github.com/z744489075/redisson-spring-boot-starter)：Redisson的Spring Boot Starter。
 * [Leader Only Spring Boot Starter](https://github.com/allegro/leader-only-spring-boot-starter)：Leader Only Spring Boot Starter是一个基于Apache Curator和ZooKeeper的Spring Boot Starter，用于在分布式应用集群中，确保只有一个节点执行特定的任务，由Allegro开源。
+* [Redlock4j](https://github.com/Codarama/redlock4j)：Redis Redlock分布式锁算法的Java实现。
 
 #### 分布式ID
 
@@ -3321,6 +3324,8 @@
 * [CubeDB](https://github.com/cubedb/cubedb)：CubeDB是一个简单、快速的内存多键计数器存储。
 * [Actionbase](https://github.com/kakao/actionbase)：Actionbase是一个用于提供用户交互的数据库，由Kakao开源。
 * [CATA](https://github.com/cata-network/cata_database)：CATA为元宇宙数据存储提供了一站式完整解决方案。
+* [SimhashDB](https://github.com/jsubercaze/simhashdb)：SimhashDB是一个快速且可扩展的框架，它使用Simhash算法搜索最近邻文档。
+* [JACIS](https://github.com/JanWiemer/jacis)：JACIS是一个用于Java对象的瞬态事务存储系统。
 
 ## 人工智能
 
@@ -3347,8 +3352,10 @@
 * [Agents Flex](https://gitee.com/agents-flex/agents-flex)：Agents Flex是一个用Java开发的AI应用开发框架，旨在简化AI应用开发。
 * [Solon AI](https://gitee.com/opensolon/solon-ai)：Solon AI是一个Java AI(智能体)全场景应用开发框架。
 * [FIT](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
+* [LLM4S](https://github.com/llm4s/llm4s)：LLM4S是一个功能全面的Scala AI框架。
 * [JoySafety](https://github.com/jd-opensource/JoySafety)：JoySafety是京东开源的大模型安全框架。
 * [LangGraph4j](https://github.com/langgraph4j/langgraph4j)：Java版LangGraph，一个使用LLM构建有状态、多参与者应用程序的库。
+* [OpenJiuwen Core Java](https://atomgit.com/openJiuwen/agent-core-java)：OpenJiuwen Core Java是一款面向大模型应用的Java软件开发工具包。
 * [Genkit Java](https://github.com/genkit-ai/genkit-java)：Genkit是一个用于构建全栈AI应用的开源框架，由Google的Firebase构建并投入生产使用。
 * [LangChain Java](https://github.com/HamaWhiteGG/langchain-java)：LangChain的Java语言实现，它使得开发LLM驱动的应用程序变得尽可能简单。
 * [Langtorch](https://github.com/li2109/langtorch)：Langtorch是一个Java库，可让你轻松构建可组合的LLM应用程序。
@@ -3488,6 +3495,8 @@
 * [A2A4J](https://github.com/a2ap/a2a4j)：A2A4J是一个全面的A2A协议实现。
 * [A2A4K](https://github.com/a2a-4k/a2a-4k)：A2A4K是A2A协议的Kotlin实现。
 * [Spring AI A2A](https://github.com/spring-ai-community/spring-ai-a2a)：Spring AI A2A提供服务器端支持，用于通过A2A协议暴露Spring AI代理。
+* [A2A4j](https://github.com/PheonixHkbxoic/a2a4j)：这是一个基于Java实现的A2A协议，适用于Google A2A协议下的代理间通信场景。
+* [Java A2A](https://github.com/creativescenius/java-a2a)：Java实现的A2A协议，通过标准化的接口实现AI代理之间的交互。
 
 ### 代理框架
 
@@ -4415,6 +4424,7 @@
 * [Gulava](https://github.com/google/gulava)：Gulava允许你在Java中编写关系谓词，由Google开源。
 * [AbcDatalog](https://github.com/HarvardPL/AbcDatalog)：AbcDatalog是Datalog(一种逻辑编程语言)的开源Java实现，由哈佛大学开源。
 * [Jatalog](https://github.com/wernsey/Jatalog)：Jatalog是Java中Datalog的实现。
+* [JProl](https://github.com/raydac/jprol)：JProl是一个基于Java的Prolog引擎。
 
 ### 模糊逻辑
 
@@ -4453,6 +4463,7 @@
 * [Cognitive Vision Android](https://github.com/microsoft/Cognitive-Vision-Android)：Microsoft Computer Vision API的Android客户端库。
 * [GDX RealSense](https://github.com/libgdx/gdx-realsense)：LibGDX RealSense SDK集成。
 * [Jestures](https://github.com/meltingbots/Jestures)：一个简单的Java手势识别框架。
+* [DeepImageJ](https://github.com/deepimagej/deepimagej-plugin)：DeepImageJ是一款用户友好的插件，它支持在ImageJ中使用各种预训练的深度学习模型。
 
 #### OCR
 
