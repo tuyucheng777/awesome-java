@@ -1966,6 +1966,7 @@
 * [Funcatron](https://github.com/funcatron/funcatron)：Funcatron是一个Java Serverless框架。
 * [Nimbus](https://github.com/thomasjallerton/nimbus-framework)：Nimbus是一个Java框架，它允许轻松部署和测试Serverless应用程序。
 * [Luffy](https://github.com/solonlab/luffy)：Luffy是一个嵌入式FaaS引擎、扩展中心、发布系统。
+* [Osiris](https://github.com/cjkent/osiris)：Osiris是一个Kotlin库，它可以轻松地在AWS上编写和部署Serverless Web应用程序。
 
 ## API网关
 
@@ -2814,6 +2815,7 @@
 * [Jzab](https://github.com/zk1931/jzab)：Java中的ZooKeeper原子广播。
 * [Chinese Whispers](https://github.com/ChiralBehaviors/Chinese-Whispers)：Chinese Whispers是一个基于Gossip协议的通用状态复制和故障检测服务。
 * [Swarm](https://github.com/sanity/Swarm)：Swarm是一个框架，它通过一种新颖的基于可移植延续的方法，创建能够透明扩展的应用程序。
+* [Itara](https://github.com/itara-project/itara)：Itara使分布式系统拓扑结构清晰、明确、可验证且可执行。
 
 #### 分布式锁
 
