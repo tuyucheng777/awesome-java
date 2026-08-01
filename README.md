@@ -231,6 +231,7 @@
     * [多线程测试](docs/doc2.md#多线程测试)
     * [POJO测试](docs/doc2.md#POJO测试)
     * [日志测试](docs/doc2.md#日志测试)
+    * [架构测试](docs/doc2.md#架构测试)
     * [JUnit扩展](docs/doc2.md#JUnit扩展)
     * [测试运行器](docs/doc2.md#测试运行器)
     * [大数据测试](docs/doc2.md#大数据测试)
@@ -2015,6 +2016,7 @@
 * [Spring Cloud APISIX](https://github.com/galaxy-sea/spring-cloud-apisix)：Spring Cloud APISIX是一个基于Apache APISIX的Spring Cloud框架。
 * [FastGateway](https://github.com/xmopher/FastGateway)：FastGateway是一个轻量级、高性能的API网关服务，基于Spring Boot 3.x和Spring Cloud构建。
 * [Route Service](https://github.com/help-lixin/route-service)：Route Service主要解决微服务路由问题。
+* [Jumper](https://github.com/telekom/gateway-jumper)：Jumper是一个云原生可扩展API网关，预计作为Kong API网关的边车运行，由德国电信开源。
 
 ## 服务发现
 
@@ -2223,6 +2225,7 @@
 * [Bespin](https://github.com/lintool/bespin)：Bespin是一个库，其中包含MapReduce和Spark中大数据算法的参考实现。
 * [Cloud9](https://github.com/lintool/Cloud9)：Cloud9是一个用于处理大数据的Hadoop工具包。
 * [Spark Extension](https://github.com/G-Research/spark-extension)：一个为Apache Spark和PySpark提供有用扩展的库。
+* [Flink SQL Runner](https://github.com/DataSQRL/flink-sql-runner)：用于运行Apache Flink SQL应用程序的工具和扩展，包括Docker镜像、数据类型、连接器、函数库和格式。
 
 #### 大数据工具
 
@@ -2378,6 +2381,7 @@
 * [SCADS](https://github.com/radlab/SCADS)：SCADS是加州大学伯克利分校RAD实验室和AMP实验室使用的一种分布式存储系统研究原型。
 * [SilverKing](https://github.com/morganstanley/SilverKing)：SilverKing是一种可扩展、高吞吐量的数据存储和协调机制，专为分布式应用而设计，由摩根士丹利开源。
 * [RDFS](https://github.com/iVCE/RDFS)：RDFS是一种基于纠删码的云存储系统。
+* [IGinX](https://github.com/IGinX-THU/IGinX)：IGinX是一个开源的多存储系统，由清华大学开源。
 
 #### 流处理
 
@@ -2783,6 +2787,7 @@
 * [Delay Queue](https://github.com/JianSphere/delay-queue)：基于Redis的延迟队列系统。
 * [Simple Message Queue](https://github.com/RealTimeLogic/SMQ)：Simple Message Queue是一种轻量级的发布/订阅协议，用于设备、应用程序和浏览器之间的实时通信。
 * [CoronaMQ](https://github.com/jklingsporn/coronamq)：使用Java、Vertx和PostgreSQL实现任务队列的最简单方法。
+* [Kunefe](https://github.com/selimsahindev/kunefe-mq)：一个轻量级、低延迟的基于gRPC的微服务消息代理。
 
 ## 分布式开发
 
@@ -3256,6 +3261,7 @@
 * [Kiara DB](https://github.com/kapoorlabs/kiara)：Kiara DB的设计目标是在不构建复合索引的情况下，对多种字段组合进行快速内存搜索。
 * [Maryk](https://github.com/marykdb/maryk)：Maryk允许你定义一次强类型数据模型，然后使用同一个模型在Kotlin多平台目标中进行验证、序列化、查询、存储、工具和同步。
 * [Nibiru](https://github.com/edwardcapriolo/nibiru)：Nibiru是一个NoSQL数据库，其设计目标是实现最大的可插拔性和可配置性。
+* [Onyx Database](https://github.com/OnyxDevTools/onyx-database-parent)：Onyx Database是一款功能强大的开源面向对象数据库管理系统，设计兼顾灵活性和高性能。
 
 #### OLAP数据库
 
@@ -3386,6 +3392,7 @@
 * [Autogen4j](https://github.com/HamaWhiteGG/autogen4j)：Java版Microsoft AutoGen，支持下一代大语言模型应用程序。
 * [Txtai.Java](https://github.com/neuml/txtai.java)：Txtai是一个集语义搜索、LLM编排和语言模型工作流程于一体的AI框架。
 * [BoxLang AI](https://github.com/ortus-boxlang/bx-ai)：BoxLang AI消除了供应商锁定，并通过提供跨16家以上AI提供商的单一、一致的接口，简化了AI集成。
+* [XWiki LLM](https://github.com/xwiki-contrib/ai-llm)：LLM项目旨在将人工智能以LLM的形式集成到XWiki平台中。
 
 ### LLM客户端
 
@@ -3460,6 +3467,7 @@
 * [LLama Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
 * [Triton](https://github.com/triton-inference-server/client)：Triton Python、C++和Java客户端库。
 * [SD4J](https://github.com/oracle/sd4j)：此仓库包含在ONNX运行时之上运行的Stable Diffusion推理的实现，由Oracle开源。
+* [cuBERT](https://github.com/zhihu/cuBERT)：在NVIDIA和Intel MKL上直接快速实现BERT推理，由知乎开源。
 * [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
 * [Inference4j](https://github.com/inference4j/inference4j)：Inference4j是一个基于ONNX Runtime构建的Java推理专用AI库。
 * [Gemma4.java](https://github.com/mukel/gemma4.java)：用纯Java编写的快速、零依赖的Gemma 4推理引擎。
@@ -3537,6 +3545,7 @@
 * [Lumina](https://github.com/zwl467135974/lumina)：Lumina是一个企业级AI Agent开发框架，基于AgentScope和Spring Cloud构建，提供开箱即用的Agent能力、微服务架构和企业级特性。
 * [Coday](https://github.com/whoz-oss/coday)：Coday是一个基于对话的智能体框架，旨在帮助开发者在现有项目中与AI智能体协作。
 * [Anahata ASI](https://github.com/anahata-os/anahata-asi)：Anahata ASI是一个有状态、运行在JVM内部的AI智能体容器。
+* [MCP Mesh](https://github.com/dhyansraj/mcp-mesh)：MCP Mesh是一个专注于构建和部署AI代理网络的平台。
 
 ### RAG
 
@@ -3754,6 +3763,7 @@
 * [Java Decision Tree](https://github.com/saebyn/java-decision-tree)：Java中的决策树类。
 * [Mustard](https://github.com/Data2Semantics/mustard)：Mustard是一个机器学习库，用于使用核方法从RDF数据中进行学习。
 * [EasyML](https://github.com/tomLamprecht/Easy-ML-For-Java)：一个使用神经网络和遗传算法实现机器学习的Java框架。
+* [Kumulant](https://github.com/Eignex/kumulant)：Kumulant是一个用于流式机器学习的Kotlin多平台库。
 
 #### 神经网络
 
