@@ -75,10 +75,10 @@
 * [人工智能](#人工智能)
     * [LLM框架](#LLM框架)
     * [LLM客户端](#LLM客户端)
+    * [代理框架](#代理框架)
     * [推理引擎](#推理引擎)
     * [MCP](#MCP)
     * [A2A](#A2A)
-    * [代理框架](#代理框架)
     * [RAG](#RAG)
     * [AI智能体](#AI智能体)
     * [OpenClaw](#OpenClaw)
@@ -2017,6 +2017,7 @@
 * [FastGateway](https://github.com/xmopher/FastGateway)：FastGateway是一个轻量级、高性能的API网关服务，基于Spring Boot 3.x和Spring Cloud构建。
 * [Route Service](https://github.com/help-lixin/route-service)：Route Service主要解决微服务路由问题。
 * [Jumper](https://github.com/telekom/gateway-jumper)：Jumper是一个云原生可扩展API网关，预计作为Kong API网关的边车运行，由德国电信开源。
+* [Lemon](https://gitee.com/yu120/lemon)：Lemon是一个高性能、基于Java的开源网关框架。
 
 ## 服务发现
 
@@ -2858,6 +2859,7 @@
 * [Redisson Spring Boot Starter](https://github.com/z744489075/redisson-spring-boot-starter)：Redisson的Spring Boot Starter。
 * [Leader Only Spring Boot Starter](https://github.com/allegro/leader-only-spring-boot-starter)：Leader Only Spring Boot Starter是一个基于Apache Curator和ZooKeeper的Spring Boot Starter，用于在分布式应用集群中，确保只有一个节点执行特定的任务，由Allegro开源。
 * [Redlock4j](https://github.com/Codarama/redlock4j)：Redis Redlock分布式锁算法的Java实现。
+* [Lock Provider](https://github.com/inomera/lock-provider)：分布式和本地锁提供者。
 
 #### 分布式ID
 
@@ -3232,7 +3234,7 @@
 * [JasDB](https://github.com/oberasoftware/jasdb)：JasDB是一款超快的多平台NoSQL数据库，可以嵌入到你的软件中或进行扩展，并且还具有完整的Android支持。
 * [InfinityDB](https://boilerbay.com/infinitydb/manual/)：InfinityDB Embedded是一个Java NoSQL DBMS组件，其灵活性远超文档数据库，由加州大学开源。
 * [Kronotop](https://github.com/kronotop/kronotop)：Kronotop是一个与Redis兼容的分布式事务文档数据库，由FoundationDB支持。
-* [KitDB](https://github.com/frost373/KitDB)：KitDB是一个内嵌式持久型的高速NoSQL存储库，以jar包方式嵌入到应用中。
+* [KitDB](https://github.com/frost373/KitDB)：KitDB是一个内嵌式持久型的高速NoSQL存储库，以Jar包方式嵌入到应用中。
 * [ChaNa](https://github.com/dcaoyuan/chana)：基于Akka的实时数据存储。
 * [Android NoSQL](https://github.com/florent37/Android-NoSql)：适用于Android的轻量级、简单结构化的NoSQL数据库。
 * [Kodein](https://github.com/kosi-libs/Kodein-DB)：多平台NoSQL数据库。
@@ -3378,7 +3380,6 @@
 * [DriftKit](https://github.com/driftkit-ai/driftkit-framework)：DriftKit是适用于Java的生产级AI框架。
 * [SmartFuse](https://github.com/mainpropath/AI-SmartFuse-Framework)：SmartFuse是一个大模型应用框架。
 * [Dokimos](https://github.com/dokimos-dev/dokimos)：Dokimos是一个开源的Java大语言模型应用评估框架。
-* [Rage4J](https://github.com/explore-de/rage4j)：Rage4J提供多种工具，用于评估和衡量语言模型输出的质量。
 * [OxyJen](https://github.com/11divyansh/OxyJen)：OxyJen是Java和JVM企业所缺失的AI框架。
 * [LLMChain](https://github.com/wangmuy/llmchain)：这是LangChain到Android/JVM/Kotlin多平台的实验性移植版本。
 * [LangChain4kt](https://github.com/CJGroup/langchain4kt)：LangChain的Kotlin版本，多平台。
@@ -3393,6 +3394,8 @@
 * [Txtai.Java](https://github.com/neuml/txtai.java)：Txtai是一个集语义搜索、LLM编排和语言模型工作流程于一体的AI框架。
 * [BoxLang AI](https://github.com/ortus-boxlang/bx-ai)：BoxLang AI消除了供应商锁定，并通过提供跨16家以上AI提供商的单一、一致的接口，简化了AI集成。
 * [XWiki LLM](https://github.com/xwiki-contrib/ai-llm)：LLM项目旨在将人工智能以LLM的形式集成到XWiki平台中。
+* [Aimux](https://github.com/arcships/aimux)：Aimux是一个用Rust实现的统一LLM提供程序访问层。
+* [AI-Mocks](https://github.com/mokksy/ai-mocks)：AI-Mocks是基于Mokksy构建的LLM Mock服务器。
 
 ### LLM客户端
 
@@ -3457,6 +3460,46 @@
 * [Dashscope4j](https://github.com/oldmanpushcart/dashscope4j)：阿里云百炼平台的Java SDK，提供客户端库和智能体框架两个模块。
 * [SAP Cloud AI SDK](https://github.com/SAP/ai-sdk-java)：SAP Cloud SDK AI是SAP AI Core、SAP Generative AI Hub和Orchestration Service的官方软件开发工具包。
 
+### 代理框架
+
+* [Embabel](https://github.com/embabel/embabel-agent)：Embabel是一个在JVM上编写代理流的框架，它将LLM触发的交互与代码和领域模型无缝融合。
+* [Koog](https://github.com/JetBrains/koog)：Koog是一个基于Kotlin的框架，旨在完全使用惯用的Kotlin语言构建和运行AI代理，由JetBrains开源。
+* [AG-UI](https://github.com/ag-ui-protocol/ag-ui)：AG-UI是一种开放、轻量级、基于事件的协议，标准化了AI代理如何连接面向用户的应用程序。
+* [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
+* [AgentScope](https://github.com/agentscope-ai/agentscope-java)：AgentScope是一个由阿里开源的新一代多智能体应用开发框架。
+* [Agentic ADK](https://github.com/AIDC-AI/Agentic-ADK)：Agentic ADK是阿里巴巴国际站AI事业部推出的Agent应用开发框架，基于Google ADK和Ali LangEngine。
+* [JDOxyGent4J](https://github.com/jd-opensource/JDOxyGent4J)：OxyGent是一个开源框架，将工具、模型和代理统一为模块化的Oxy，由京东开源。
+* [Spring AI Agent Utils](https://github.com/spring-ai-community/spring-ai-agent-utils)：Spring AI Agent Utils是一个Spring AI库，它将Claude Code启发的工具和代理技能引入到你的AI应用程序中。
+* [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
+* [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
+* [Jakarta Agentic AI](https://github.com/jakartaee/agentic-ai)：Jakarta Agentic AI项目提供了一组厂商中立的API，使得在Jakarta EE运行时上构建、部署和运行AI代理变得简单、一致且可靠。
+* [Apache Flink Agents](https://github.com/apache/flink-agents)：Apache Flink Agents是一个基于Apache Flink的Agentic AI框架。
+* [Veadk Java](https://github.com/volcengine/veadk-java)：VeADK是由火山引擎推出的为Agent智能体的应用构建提供开发、部署、观测、评测等全流程云原生解决方案。
+* [ACP Kotlin SDK](https://github.com/agentclientprotocol/kotlin-sdk)：ACP规范了AI代理与客户端交换消息、协商能力和文件传输的方式。
+* [Mem4j](https://github.com/LangMem/mem4j)：Mem4j是一个Java库，为AI代理和应用程序提供长期记忆功能。
+* [AgentScope Runtime Java](https://github.com/agentscope-ai/agentscope-runtime-java)：AgentScope Runtime是用于代理部署和工具沙箱的运行时框架。
+* [Memind](https://github.com/openmemind/memind)：Memind是一个面向人工智能代理的分层认知记忆系统，采用Java原生语言编写。
+* [Sentinel AI](https://github.com/PhonePe/sentinel-ai)：Sentinel AI是一个高级Java框架，它允许你使用各种LLM和工具构建和部署AI代理。
+* [Acorn](https://github.com/DataSQRL/Acorn)：Acorn Agent是一个简单而灵活的框架，用于在JVM上构建AI代理、聊天机器人和LLM微服务。
+* [Aigentic](https://github.com/flock-community/aigentic)：Aigentic是一个Kotlin多平台库，它提供了一个强大的DSL，用于构建AI代理并将其集成到应用程序中。
+* [Spring Agent Flow](https://github.com/datallmhub/spring-agent-flow)：基于Spring AI的多智能体编排框架。
+* [SwarmAI](https://github.com/intelliswarm-ai/swarm-ai)：这是一个面向Java的多智能体编排框架，专为企业级应用而设计。
+* [Agentic Flink](https://github.com/Ugbot/Agentic-Flink)：Agentic Flink是一个用于在Apache Flink上构建基于LLM的AI代理的框架。
+* [Spring AI AgentX](https://github.com/bigchuidw3/spring-ai-agentx)：Spring AI AgentX是一款面向Java开发者的AI Agent开发框架。
+* [Easy Agent](https://github.com/songrongzhen/easy-agent)：Easy Agent是一个即插即用的Java智能体开发组件，旨在让任何基于Spring Boot的应用系统快速接入AI能力。
+* [EvoX](https://github.com/Leavesfly/EvoX)：EvoX是一个以Agent自进化为核心理念的企业级智能代理框架，基于Java 17、Spring Boot 3.2+和Project Reactor构建。
+* [Zsmith](https://github.com/AdamBien/zsmith)：零依赖AI代理框架，支持工具执行、SKILL.md和代理循环。
+* [Core AI](https://github.com/chancetop-com/core-ai)：Core AI为你提供一个运行在终端中的AI驱动型编码代理，以及一个带有Web用户界面的自托管代理服务器。
+* [TramAI](https://github.com/GionaGranchelli/tramAI)：TramAI是一个以Kotlin为核心的JVM运行时环境，专为受控AI工作流而设计。
+* [Agents.KT](https://github.com/Deep-CodeAI/Agents.KT)：用于人工智能代理系统的类型化Kotlin DSL框架。
+* [Agent4j](https://github.com/onlyGuo/agent4j)：Agent4j是一个轻量级的Java框架，只需几行代码即可构建自主AI代理。
+* [OpenAI Agent SDK](https://github.com/bnbarak/openai-agent-sdk)：OpenAI Agent SDK是一个现代化的Java SDK，用于使用OpenAI的API构建AI代理。
+* [Lumina](https://github.com/zwl467135974/lumina)：Lumina是一个企业级AI Agent开发框架，基于AgentScope和Spring Cloud构建，提供开箱即用的Agent能力、微服务架构和企业级特性。
+* [Coday](https://github.com/whoz-oss/coday)：Coday是一个基于对话的智能体框架，旨在帮助开发者在现有项目中与AI智能体协作。
+* [Anahata ASI](https://github.com/anahata-os/anahata-asi)：Anahata ASI是一个有状态、运行在JVM内部的AI智能体容器。
+* [MCP Mesh](https://github.com/dhyansraj/mcp-mesh)：MCP Mesh是一个专注于构建和部署AI代理网络的平台。
+* [Android Agent Harness](https://github.com/susyimes/android-agent-harness)：Android Agent Harness是一个与平台无关的Kotlin SDK，用于在JVM和Android上构建有界代理。
+
 ### 推理引擎
 
 * [JLama](https://github.com/tjake/Jlama)：JLama是Java的现代LLM推理引擎，由DataStax开发。
@@ -3508,51 +3551,13 @@
 * [A2A4j](https://github.com/PheonixHkbxoic/a2a4j)：这是一个基于Java实现的A2A协议，适用于Google A2A协议下的代理间通信场景。
 * [Java A2A](https://github.com/creativescenius/java-a2a)：Java实现的A2A协议，通过标准化的接口实现AI代理之间的交互。
 
-### 代理框架
-
-* [Embabel](https://github.com/embabel/embabel-agent)：Embabel是一个在JVM上编写代理流的框架，它将LLM触发的交互与代码和领域模型无缝融合。
-* [Koog](https://github.com/JetBrains/koog)：Koog是一个基于Kotlin的框架，旨在完全使用惯用的Kotlin语言构建和运行AI代理，由JetBrains开源。
-* [AG-UI](https://github.com/ag-ui-protocol/ag-ui)：AG-UI是一种开放、轻量级、基于事件的协议，标准化了AI代理如何连接面向用户的应用程序。
-* [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
-* [AgentScope](https://github.com/agentscope-ai/agentscope-java)：AgentScope是一个由阿里开源的新一代多智能体应用开发框架。
-* [Agentic ADK](https://github.com/AIDC-AI/Agentic-ADK)：Agentic ADK是阿里巴巴国际站AI事业部推出的Agent应用开发框架，基于Google ADK和Ali LangEngine。
-* [JDOxyGent4J](https://github.com/jd-opensource/JDOxyGent4J)：OxyGent是一个开源框架，将工具、模型和代理统一为模块化的Oxy，由京东开源。
-* [Spring AI Agent Utils](https://github.com/spring-ai-community/spring-ai-agent-utils)：Spring AI Agent Utils是一个Spring AI库，它将Claude Code启发的工具和代理技能引入到你的AI应用程序中。
-* [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
-* [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
-* [Jakarta Agentic AI](https://github.com/jakartaee/agentic-ai)：Jakarta Agentic AI项目提供了一组厂商中立的API，使得在Jakarta EE运行时上构建、部署和运行AI代理变得简单、一致且可靠。
-* [Apache Flink Agents](https://github.com/apache/flink-agents)：Apache Flink Agents是一个基于Apache Flink的Agentic AI框架。
-* [Veadk Java](https://github.com/volcengine/veadk-java)：VeADK是由火山引擎推出的为Agent智能体的应用构建提供开发、部署、观测、评测等全流程云原生解决方案。
-* [ACP Kotlin SDK](https://github.com/agentclientprotocol/kotlin-sdk)：ACP规范了AI代理与客户端交换消息、协商能力和文件传输的方式。
-* [Mem4j](https://github.com/LangMem/mem4j)：Mem4j是一个Java库，为AI代理和应用程序提供长期记忆功能。
-* [AgentScope Runtime Java](https://github.com/agentscope-ai/agentscope-runtime-java)：AgentScope Runtime是用于代理部署和工具沙箱的运行时框架。
-* [Memind](https://github.com/openmemind/memind)：Memind是一个面向人工智能代理的分层认知记忆系统，采用Java原生语言编写。
-* [Sentinel AI](https://github.com/PhonePe/sentinel-ai)：Sentinel AI是一个高级Java框架，它允许你使用各种LLM和工具构建和部署AI代理。
-* [Acorn](https://github.com/DataSQRL/Acorn)：Acorn Agent是一个简单而灵活的框架，用于在JVM上构建AI代理、聊天机器人和LLM微服务。
-* [Aigentic](https://github.com/flock-community/aigentic)：Aigentic是一个Kotlin多平台库，它提供了一个强大的DSL，用于构建AI代理并将其集成到应用程序中。
-* [Spring Agent Flow](https://github.com/datallmhub/spring-agent-flow)：基于Spring AI的多智能体编排框架。
-* [SwarmAI](https://github.com/intelliswarm-ai/swarm-ai)：这是一个面向Java的多智能体编排框架，专为企业级应用而设计。
-* [Agentic Flink](https://github.com/Ugbot/Agentic-Flink)：Agentic Flink是一个用于在Apache Flink上构建基于LLM的AI代理的框架。
-* [Spring AI AgentX](https://github.com/bigchuidw3/spring-ai-agentx)：Spring AI AgentX是一款面向Java开发者的AI Agent开发框架。
-* [Easy Agent](https://github.com/songrongzhen/easy-agent)：Easy Agent是一个即插即用的Java智能体开发组件，旨在让任何基于Spring Boot的应用系统快速接入AI能力。
-* [EvoX](https://github.com/Leavesfly/EvoX)：EvoX是一个以Agent自进化为核心理念的企业级智能代理框架，基于Java 17、Spring Boot 3.2+和Project Reactor构建。
-* [Zsmith](https://github.com/AdamBien/zsmith)：零依赖AI代理框架，支持工具执行、SKILL.md和代理循环。
-* [Core AI](https://github.com/chancetop-com/core-ai)：Core AI为你提供一个运行在终端中的AI驱动型编码代理，以及一个带有Web用户界面的自托管代理服务器。
-* [TramAI](https://github.com/GionaGranchelli/tramAI)：TramAI是一个以Kotlin为核心的JVM运行时环境，专为受控AI工作流而设计。
-* [Agents.KT](https://github.com/Deep-CodeAI/Agents.KT)：用于人工智能代理系统的类型化Kotlin DSL框架。
-* [Agent4j](https://github.com/onlyGuo/agent4j)：Agent4j是一个轻量级的Java框架，只需几行代码即可构建自主AI代理。
-* [OpenAI Agent SDK](https://github.com/bnbarak/openai-agent-sdk)：OpenAI Agent SDK是一个现代化的Java SDK，用于使用OpenAI的API构建AI代理。
-* [Lumina](https://github.com/zwl467135974/lumina)：Lumina是一个企业级AI Agent开发框架，基于AgentScope和Spring Cloud构建，提供开箱即用的Agent能力、微服务架构和企业级特性。
-* [Coday](https://github.com/whoz-oss/coday)：Coday是一个基于对话的智能体框架，旨在帮助开发者在现有项目中与AI智能体协作。
-* [Anahata ASI](https://github.com/anahata-os/anahata-asi)：Anahata ASI是一个有状态、运行在JVM内部的AI智能体容器。
-* [MCP Mesh](https://github.com/dhyansraj/mcp-mesh)：MCP Mesh是一个专注于构建和部署AI代理网络的平台。
-
 ### RAG
 
 * [Java RAG](https://github.com/ChinaYiqun/java-rag)：RAG项目，它提供了RAG流水线和Agent模式。
 * [LightRAG4J](https://github.com/taofmvp/lightrag4j)：LightRAG4J是一个Java优先的LightRAG风格检索库。
 * [Ragflow4j](https://github.com/aaronshan/ragflow4j)：Ragflow4j是一个开源的RAG引擎。
 * [Spring AI LoomAgent](https://github.com/wb04307201/spring-ai-loom-agent)：Spring AI LoomAgent是一个Spring Boot自动配置库，它将RAG知识库、MCP工具调用和Skill库注入到Spring AI应用程序中，并提供开箱即用的聊天UI。
+* [Rage4J](https://github.com/explore-de/rage4j)：Rage4J提供多种工具，用于评估和衡量语言模型输出的质量。
 
 ### AI智能体
 
@@ -4424,6 +4429,7 @@
 * [TSPLIB4J](https://github.com/dhadka/TSPLIB4J)：TSPLIB是旅行商问题、车辆路径问题和哈密顿循环问题实例的集合，以及用于存储实例数据的文件格式。
 * [Vehicle Routing Problem Solvers](https://github.com/emarkou/Large-Scale-Optimization-Vehicle-Routing-Problem)：用于车辆路径问题(VRP)的Java约束求解器。
 * [E-VRPTW](https://github.com/fuvidani/e-vrptw)：带时间窗的电动汽车路径问题的求解器。
+* [Xfvrp](https://github.com/hschneid/xfvrp)：Xfvrp是一个快速易用的复杂车辆路径问题求解器。
 
 ### 逻辑编程
 
@@ -4476,6 +4482,7 @@
 * [GDX RealSense](https://github.com/libgdx/gdx-realsense)：LibGDX RealSense SDK集成。
 * [Jestures](https://github.com/meltingbots/Jestures)：一个简单的Java手势识别框架。
 * [DeepImageJ](https://github.com/deepimagej/deepimagej-plugin)：DeepImageJ是一款用户友好的插件，它支持在ImageJ中使用各种预训练的深度学习模型。
+* [OJL](https://github.com/hakmesyo/OJL)：OJL是一个专为JVM语言设计的综合框架。
 
 #### OCR
 
