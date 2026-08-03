@@ -391,6 +391,7 @@
     * [日期/时间解析器](docs/doc2.md#日期时间解析器)
     * [假期库](docs/doc2.md#假期库)
 * [插件框架](docs/doc2.md#插件框架)
+* [SPI框架](docs/doc2.md#SPI框架)
 * [多租户](docs/doc2.md#多租户)
 * [幂等](docs/doc2.md#幂等)
 * [MATLAB](docs/doc2.md#MATLAB)
@@ -586,6 +587,7 @@
     * [火焰图](docs/doc2.md#火焰图)
     * [JFR](docs/doc2.md#JFR)
     * [对象测量](docs/doc2.md#对象测量)
+    * [慢SQL](docs/doc2.md#慢SQL)
 * [软件质量](docs/doc2.md#软件质量)
     * [静态分析](docs/doc2.md#静态分析)
     * [空安全](docs/doc2.md#空安全)
@@ -2860,6 +2862,8 @@
 * [Leader Only Spring Boot Starter](https://github.com/allegro/leader-only-spring-boot-starter)：Leader Only Spring Boot Starter是一个基于Apache Curator和ZooKeeper的Spring Boot Starter，用于在分布式应用集群中，确保只有一个节点执行特定的任务，由Allegro开源。
 * [Redlock4j](https://github.com/Codarama/redlock4j)：Redis Redlock分布式锁算法的Java实现。
 * [Lock Provider](https://github.com/inomera/lock-provider)：分布式和本地锁提供者。
+* [Nicelock](https://github.com/knifeopen/nicelock)：一个注解，即可使用Java的分布式锁。
+* [Distributed Lock](https://github.com/siegluo/distributed-lock)：分布式锁的注解实现。
 
 #### 分布式ID
 
@@ -3522,6 +3526,7 @@
 * [DeepJ](https://github.com/KirstenAli/DeepJ)：一个轻量级的纯Java Transformer库。
 * [Cyc Java API Suite](https://github.com/cycorp/api-suite)：Cyc Java API Suite包含一系列Java API，用于开发基于Cyc的应用程序或以其他方式访问Cyc功能，并提供分层功能套件。
 * [Libargus](https://github.com/ProjectArgus-cc/libargus.cc)：Libargus是一个超精简、高性能、与模型无关的推理包装器。
+* [KMPLiteRT](https://github.com/leitingzi/kmplitert)：高性能、类型安全的Kotlin多平台库，适用于Google LiteRT。
 
 ### MCP
 
@@ -3550,6 +3555,7 @@
 * [Spring AI A2A](https://github.com/spring-ai-community/spring-ai-a2a)：Spring AI A2A提供服务器端支持，用于通过A2A协议暴露Spring AI代理。
 * [A2A4j](https://github.com/PheonixHkbxoic/a2a4j)：这是一个基于Java实现的A2A协议，适用于Google A2A协议下的代理间通信场景。
 * [Java A2A](https://github.com/creativescenius/java-a2a)：Java实现的A2A协议，通过标准化的接口实现AI代理之间的交互。
+* [A2A-T SDK Java](https://github.com/project-openan/a2a-t-sdk-java)：基于A2A-T协议用于生成任务提示词并处理任务协商流程的Java SDK。
 
 ### RAG
 
@@ -3769,6 +3775,7 @@
 * [Mustard](https://github.com/Data2Semantics/mustard)：Mustard是一个机器学习库，用于使用核方法从RDF数据中进行学习。
 * [EasyML](https://github.com/tomLamprecht/Easy-ML-For-Java)：一个使用神经网络和遗传算法实现机器学习的Java框架。
 * [Kumulant](https://github.com/Eignex/kumulant)：Kumulant是一个用于流式机器学习的Kotlin多平台库。
+* [AlgorithmStar](https://github.com/BeardedManZhao/algorithmStar)：AS机器学习库提供了一个针对机器学习各种算法的Java API。
 
 #### 神经网络
 
@@ -4311,6 +4318,7 @@
 * [JLangDetect](https://github.com/melix/jlangdetect)：JLangDetect是JVM的语言检测库。
 * [Language Detection CLD2](https://github.com/commoncrawl/language-detection-cld2)：自然语言检测，CLD2的Java绑定。
 * [Language Detection](https://github.com/rmtheis/language-detection)：Android语言检测库。
+* [Weslang](https://github.com/deezer/weslang)：Weslang是一个独立的Web服务，用于检测给定文本的语言。
 
 #### 拼写检查
 
