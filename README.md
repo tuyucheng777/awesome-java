@@ -685,7 +685,6 @@
     * [边缘计算](docs/doc2.md#边缘计算)
     * [虚拟化](docs/doc2.md#虚拟化)
 * [云服务SDK](docs/doc2.md#云服务SDK)
-* [微信开发](docs/doc2.md#微信开发)
 * [推送与通知](docs/doc2.md#推送与通知)
     * [推送](docs/doc2.md#推送)
     * [APN](docs/doc2.md#APN)
@@ -695,6 +694,7 @@
     * [Twitter](docs/doc2.md#Twitter)
     * [Facebook](docs/doc2.md#Facebook)
     * [Instagram](docs/doc2.md#Instagram)
+    * [Wechat](docs/doc2.md#Wechat)
     * [Telegram](docs/doc2.md#Telegram)
     * [Whatsapp](docs/doc2.md#Whatsapp)
     * [Slack](docs/doc2.md#Slack)
@@ -4070,6 +4070,7 @@
 * [Semantria SDK](https://github.com/Semantria/semantria-sdk)：Semantria是一款文本分析和情感分析API。
 * [MTFN](https://github.com/ruliana/MTFN)：Metaphone算法在葡萄牙语中的实现。
 * [Vietnamese Accent Prediction](https://github.com/tienthanhdhcn/Vietnamese-Accent-Prediction)：一个简单/快速/准确的越南语无重音文本重音预测工具。
+* [Babel Street Analysis](https://github.com/rosette-api/java)：Babel Street Analysis是一个面向开发者的文本分析云服务Java客户端库，封装了对Babel Street文本分析平台API的调用。
 
 #### 分词器
 
@@ -4332,10 +4333,10 @@
 * [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker)：土耳其语拼写检查库。
 * [HunspellJNA](https://github.com/dren-dk/HunspellJNA)：基于JNA的Java版Hunspell库。
 * [SymSpell Clj](https://github.com/juji-io/symspell-clj)：Clojure中的SymSpell拼写检查器。
-* [PlatformSpellCheckerKt](https://github.com/Wavesonics/PlatformSpellCheckerKt)：一个基于Kotlin的多平台封装器，用于封装不同平台的原生拼写检查系统。
 * [SpellingCorrector](https://github.com/unrelatedlabs/SpellingCorrector-Java8)：Java中的基本拼写纠错。
 * [ChineseSpellingCheck](https://github.com/zhangsonglei/ChineseSpellingCheck)：中文拼写检查工具，用于对中文文本中的错误用语进行检测并给出纠正建议。
 * [Spell Correct](https://github.com/amarjeetanandsingh/spell_correct)：编写Java代码，针对拼写错误的单词给出正确的英文单词建议。
+* [Platform Spell Checker Kt](https://github.com/Darkrock-Studios/PlatformSpellCheckerKt)：这个Kotlin多平台库封装了每个受支持平台上操作系统自带的拼写检查器，并提供了一个Kotlin友好的API。
 
 #### WordNet
 

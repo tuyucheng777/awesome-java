@@ -1528,6 +1528,7 @@
 * [Docker Proxy JUnit Rule](https://github.com/palantir/docker-proxy-rule)：这是一个用于执行与Docker容器交互的JUnit测试的小型库，由Palantir开源。
 * [Creaper](https://github.com/wildfly-extras/creaper)：Creaper是一个小型WildFly管理库，略微侧重于测试。
 * [Testcontainers Git](https://github.com/sparsick/testcontainers-git)：该项目包含针对多个Git服务器的Testcontainers实现。
+* [Galasa](https://github.com/galasa-dev/galasa)：Galasa是一个开源的深度集成测试框架，由IBM开发。
 
 #### 接口测试
 
@@ -3001,7 +3002,7 @@
 * [Hibernate Hydrate](https://github.com/arey/hibernate-hydrate)：Hibernate Hydrate项目的主要目标是填充持久实体图，从而避免著名的LazyInitializationException。
 * [Hibernate Redis](https://github.com/debop/hibernate-redis)：使用Redis的Hibernate二级缓存权限。
 * [SQLite Dialect](https://github.com/gwenn/sqlite-dialect)：受NHibernate启发的SQLite的Hibernate方言。
-* [Yawn](https://github.com/Faire/yawn)：Yawn是将Hibernate Criteria Query API封装成一个Kotlin友好、类型安全且直观的接口。
+* [Yawn](https://github.com/Faire/yawn)：Yawn是一个Kotlin ORM包装器，它使用自定义KSP生成的实体元数据提供类型安全、富有表现力的Criteria风格的查询语法。
 * [EAV Model](https://github.com/ssledz/eav-model-pattern)：EAV Model是一种用于描述实体的数据模型。
 * [Fluent Hibernate](https://github.com/v-ladynev/fluent-hibernate)：一个用于通过流式API操作Hibernate的库。
 * [Reactive Components](https://github.com/IBM/reactive-components)：一个使用Java持久化API(Hibernate)的响应式组件(Project Reactor)为JDBC提供包装器的库，由IBM开源。
@@ -3338,6 +3339,7 @@
 * [Mongo Migration Stream](https://github.com/allegro/mongo-migration-stream)：Mongo Migration Stream是一个用于MongoDB数据库在线迁移的工具，由Allegro开源。
 * [Embedded Mongodb](https://github.com/svenkubiak/embedded-mongodb)：用于单元测试和开发的嵌入式MongoDB。
 * [Ox](https://github.com/fernandonogueira/Ox)：轻松控制和迁移MongoDB模式版本，确保正确创建索引，并确保数据完全符合你的预期。
+* [Mongration](https://github.com/KuliginStepan/mongration)：适用于Spring Boot项目的MongoDB数据迁移工具。
 
 #### Cassandra库/工具
 
@@ -6236,6 +6238,7 @@
 * [Guardian Configuration](https://github.com/guardian/guardian-configuration)：支持标准Web应用程序配置方案的框架，由卫报开源。
 * [Config Manager](https://github.com/inomera/config-manager)：Config Manager是一个轻量级库，旨在高效地将应用程序属性和配置存储在内存中。
 * [ReflecT](https://github.com/CubeEngine/ReflecT)：Java数据的类型安全序列化。
+* [ClearConfig](https://github.com/japgolly/clear-config-java)：一个现代化、类型安全、高度可组合的配置库，注重运行时清晰度。
 
 #### 分布式配置
 
@@ -7462,6 +7465,7 @@
 * [Repofyr](https://github.com/srdc/repofyr)：Repofyr是一个符合FHIR标准、安全的健康数据存储库，设计为医疗保健应用程序的中央数据服务。
 * [Kotlin FHIRPath](https://github.com/ohs-foundation/kotlin-fhirpath)：Kotlin FHIRPath是HL7 FHIR的FHIRPath在Kotlin多平台上的实现。
 * [Husky](https://github.com/project-husky/husky)：这个便捷的IHE交易和CDA文档API可轻松访问并符合eHealth相关领域标准。
+* [Data Sharing Framework](https://github.com/datasharingframework/dsf)：DSF基于BPMN 2.0和FHIR R4标准实现了一个分布式流程引擎。
 
 ## 化学库
 
@@ -9585,6 +9589,7 @@
 * [Rap2 Generator](https://github.com/kings1990/rap2-generator)：基于淘宝Rap2的通过配置形式将实体类一键录入Rap2的插件，支持复杂的对象解析、继承解析。
 * [Play Swagger](https://github.com/iheartradio/play-swagger)：用于Play框架的Swagger规范生成器。
 * [HttpDoc](https://github.com/core-lib/httpdoc)：HttpDoc基于Javadoc注释生成HTTP RESTful API在线测试文档。
+* [JDoc](https://gitee.com/lianghao2016/JDoc)：JDoc是一个用Java语言开发的接口文档生成器。
 
 #### 模式解析
 
@@ -10554,6 +10559,7 @@
 * [Solidblocks](https://github.com/pellepelster/solidblocks)：Solidblocks是一个用于基础设施运维、自动化和开发者体验的可重用组件库。
 * [DevOps Platform](https://github.com/ken-xue/devops-platform)：DevOps Platform是一款企业级开发、效能、运维平台。
 * [Gerrit Events](https://github.com/sonyxperiadev/gerrit-events)：这是一个Java库，主要用于监听Gerrit代码审查的流事件，并通过SSH CLI或REST API发送代码审查，由Sony开源。
+* [Sauron](https://github.com/freenowtech/sauron)：Sauron是一项用于生成自动化报告并跟踪后端服务的迁移、变更和依赖版本，以及报告已知CVE和安全问题的服务。
 
 #### 管理面板
 
@@ -12405,6 +12411,7 @@ Kafka生态管理系统、运维平台。
 * [Spring Boot 3 & Web3j Integration Application](https://github.com/MoizHsu/java-template)：本项目是一个基于Spring Boot 3.2.6、Web3j 4.12.0和PostgreSQL搭建的高性能企业级RESTful API服务模板。
 * [Spring Boot Init](https://github.com/lhccong/springboot-init)：Spring Boot项目初始模板。
 * [Sample Skeleton Projects](https://github.com/MSaifAsif/sample-skeleton-projects)：一系列小型框架项目，可帮助你快速启动开发。
+* [AlesInfiny Maia](https://github.com/AlesInfiny/maia)：AlesInfiny Maia为现代Java系统开发提供了一个标准的应用程序架构。
 
 #### 脚手架
 
@@ -12533,6 +12540,7 @@ Kafka生态管理系统、运维平台。
 * [Demoiselle](https://github.com/demoiselle/framework)：Demoiselle框架实现了集成框架的概念，其目标是通过最大限度地减少选择和集成专业框架的时间来促进应用程序的构建，从而提高生产力并保证系统的可维护性。
 * [Karyon](https://github.com/Netflix/karyon)：Karyon是一个框架和库，它本质上包含了实现云就绪Web服务的蓝图，由Netflix开源。
 * [Synapse](https://github.com/americanexpress/synapse)：Synapse是一组用于快速开发的轻量级基础框架模块，内置企业级成熟度和质量，由美国运通开源。
+* [Graal Dev Kit](https://github.com/oracle/graal-dev-kit)：Graal Development Kit Micronaut是一套精选的开源Micronaut框架模块。
 * [TAC](https://github.com/alibaba/tac)：TAC是一个基于Tangram的服务器端解决方案，由阿里开源。
 * [Tiny](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
 * [CXBOX](https://github.com/CX-Box/cxbox)：CXBOX的主要目标是加速基于Spring Boot的典型企业级应用程序的开发。
@@ -12701,6 +12709,8 @@ Kafka生态管理系统、运维平台。
 * [MRoot](https://gitee.com/yangyanr/mroot)：MRoot是基于Spring Boot 2编写的快速开发平台。
 * [Lumin](https://gitee.com/xfcode-projects/lumin)：Lumin是基于Java构建的标准化企业级开发平台。
 * [UltiTools API](https://github.com/UltiKits/UltiTools-Reborn)：像写Spring Boot一样写Minecraft插件，注解驱动、依赖注入、ORM、定时任务。
+* [HDIS Framework](https://gitee.com/w6513017/HDIS-Framework)：HDIS Framework是一个基于Spring Boot、Kubernetes、阿里云服务编写的一个用于支撑微服务的极速开发框架。
+* [Soraka](https://gitee.com/beiyoufx/soraka)：Soraka是一个基于Spring Cloud的基础微服务开发框架。
 
 #### 后台管理系统
 
@@ -14199,6 +14209,7 @@ Kafka生态管理系统、运维平台。
 * [Payflow Gateway SDKs](https://github.com/paypal/payflow-gateway)：Payflow支付网关SDK。
 * [CoinPayments Java](https://github.com/bvolpato/coinpayments-java)：CoinPayments.net的Java封装。
 * [DigitalShield-Pay](https://github.com/DigitalShieldOfficial/Crypto-Payment-Gateway)：DigitalShieldPay是一个开源加密货币支付网关，专为希望接受USDT和其他基于区块链的支付方式的企业而设计。
+* [CyberSource Simple Order API Java](https://github.com/CyberSource/cybersource-sdk-java)：Cyber Source Simple Order API的Java SDK。
 
 #### 银行卡/信用卡
 
@@ -14311,50 +14322,6 @@ Kafka生态管理系统、运维平台。
 * [Micronaut AWS SDK](https://github.com/agorapulse/micronaut-aws-sdk)：一套适用于Micronaut的实用库。
 * [CloudBridge](https://github.com/jacobras/CloudBridge)：多云平台，一个Kotlin多平台桥接器。
 
-## 微信开发
-
-* [Weixin SDK](https://github.com/borball/weixin-sdk)：Weixin SDK是对微信公众平台(订阅号、服务号、企业号、小程序)、微信开放平台和微信支付的Java版封装。
-* [WxJava](https://github.com/binarywang/WxJava)：微信开发Java SDK，支持包括微信支付、开放平台、小程序、企业微信、公众号等的后端开发。
-* [Gewechat](https://github.com/Devo919/Gewechat)：个人微信免费开源框架，支持二次开发、任意语言都可接入，REST API接入。
-* [Weixin Java Tools](https://github.com/chanjarster/weixin-java-tools)：微信公众号、企业号Java SDK。
-* [JFinal Weixin](https://gitee.com/jfinal/jfinal-weixin)：JFinal Weixin是基于JFinal的微信公众号极速开发SDK，只需浏览Demo代码即可进行极速开发。
-* [Wafer Java Server SDK](https://github.com/tencentyun/wafer-java-server-sdk)：Wafer是腾讯云面向广大开发者提供的小程序开发全栈资源套件。
-* [Java Wechaty](https://github.com/wechaty/java-wechaty)：Java Wechaty是一个用Kotlin编写的聊天机器人开发者对话式SDK。
-* [FastBootWeixin](https://gitee.com/kingshine/FastBootWeixin)：基于Spring Boot的注解驱动式公众号极速开发框架，用注解重新定义公众号开发。
-* [Weixin Popular](https://github.com/liyiorg/weixin-popular)：微信Java SDK(公众平台、开放平台、商户平台、服务商平台)。
-* [WeiXin4j](https://github.com/foxinmy/weixin4j)：WeiXin4j是一个用Java编写针对微信开发的工具包。
-* [WeiXin4j](https://gitee.com/jeecg/weixin4j)：微信和钉钉开发Java SDK，主要提供微信公众号、企业微信、钉钉、微信小程序、支付的Java封装，降低集成难度，由北京国炬公司开发。
-* [WeChat4j](https://github.com/sword-org/wechat4j)：WeChat4j是一个微信开发框架。
-* [WX Dump4j](https://github.com/xuchengsheng/wx-dump-4j)：WX Dump4j是一款基于Java开发的微信数据分析工具。
-* [JeewxBoot](https://gitee.com/jeecg/jeewx-boot)：JeewxBoot是一款免费的Java微信管家平台，支持微信公众号、小程序、微信第三方平台、抽奖活动等，由北京国炬公司开源。
-* [QYWX](https://github.com/shuaidd/qywx)：企业微信API封装。
-* [Wechat](https://github.com/ihaolin/wechat)：轻量的微信公众号组件。
-* [ItChat4j](https://github.com/yaphone/itchat4j)：ItChat4j提供了简单易用的API，可以很方便地对个人微信号进行扩展，实现自动回复，微信挂机机器人等。
-* [WeChat API](https://github.com/hellokaton/wechat-api)：WeChat API是微信个人号的Java版本API，让个人号具备更多能力，提供方便的接口调用。
-* [WeCOM SDK](https://gitee.com/felord/wecom-sdk)：WeCOM SDK是开源的企业微信开放API的Java实现。
-* [FastWeixin](https://github.com/sd4324530/fastweixin)：FastWeixin可以简化微信公众平台服务端开发。
-* [Wx API](https://github.com/niefy/wx-api)：Wx API是一个轻量级的公众号开发种子项目，可快速接入微信公众号管理功能。
-* [Wechattty](https://github.com/chensheng/wechatty-project)：Wechattty是一个基于Java的微信公众号和微信企业号的开发框架。
-* [Wx Tools](https://github.com/antgan/wx-tools)：Wx Tools是基于微信公众平台API的轻量级框架。
-* [Weixin4J](https://gitee.com/weixin4j/weixin4j)：Weixin4J为Java微信开发爱好者提供的微信公众开发平台SDK，简化了Java对微信的开发。
-* [MPSDK4J](https://gitee.com/lisenhui/mpsdk4j)：Java微信公共平台开发SDK。
-* [Wechat Core](https://github.com/151376liujie/wechat-core)：Wechat Core是一款轻量级的微信消息处理框架，可以让业务代码与微信微信处理框架代码解耦。
-* [CasWechat](https://github.com/caspar-chen/caswechat)：CasWechat是一个简单易用的Java微信公众平台SDK。
-* [OpenWeixin](https://github.com/michaelliao/openweixin)：微信公众号Java开发包。
-* [WeChat SDK](https://github.com/victorymakes/wechat-sdk)：微信公众平台/开放平台Java SDK。
-* [WeChat.Hook.SDK](https://github.com/wechathook/wechat.hook.sdk)：微信个人号开发API接口。
-* [Weixin4j](https://github.com/ansitech/weixin4j)：微信公众号开发SDK。
-* [WechatUtils](https://github.com/andyqian/wechatutils)：Java版微信公众号SDK。
-* [WeChat Open SDK](https://github.com/zeemood/wechat-open-sdk)：Java版微信工具，更为优雅的第三方开发常用工具包。
-* [Weixinmp4Java](https://github.com/caijianqing/weixinmp4java)：微信公众平台API接口Java版。
-* [WeixinAPI](https://github.com/wuweiit/weixinapi)：Java实现的微信API接口SDK。
-* [Wechat Spring Boot Starter](https://github.com/lcy19930619/wechat-spring-boot-starter)：微信公众号相关组件。
-* [Spring Boot Starter Wechatmp](https://github.com/linux-china/spring-boot-starter-wechatmp)：Spring Boot对微信公众号(订阅号、服务号)的支持。
-* [WeworkChatSDK](https://github.com/chinayin/WeworkChatSDK)：WeworkChatSDK企业微信会话存档服务，提供一键接入Java版SDK。
-* [Spring Security Wechat](https://github.com/sutra/spring-security-wechat)：在微信应用内使用Spring Security实现微信身份验证。
-* [Weixin SDK](https://gitee.com/black-c/weixin-sdk)：Weixin SDK使用Spring Boot Starter的形式封装了微信公众平台的常用API。
-* [Wechat4j](https://gitee.com/hotlcc/wechat4j)：一个基于Web微信API的Java版微信客户端。
-
 ## 推送与通知
 
 这里列出了应用程序消息推送和通知相关的库。
@@ -14454,6 +14421,7 @@ Kafka生态管理系统、运维平台。
 * [GMusic.API](https://github.com/jkiddo/gmusic.api)：一个非官方的Google Play Music Java API。
 * [Last.fm Java](https://github.com/jkovacs/lastfm-java)：Last.fm Web服务的Java绑定。
 * [VK Java SDK](https://github.com/VKCOM/vk-java-sdk)：用于VK API交互的Java库，包含OAuth 2.0授权和API方法。
+* [Kotatsu Parsers](https://github.com/KotatsuApp/kotatsu-parsers)：该库提供了一系列漫画解析器，方便用户访问网络上的漫画。
 * [Rides Java SDK](https://github.com/uber/rides-java-sdk)：该SDK可帮助你的Java应用程序向Uber Rides API发出HTTP请求。
 * [Feishu OpenPlatform Server SDK](https://github.com/larksuite/oapi-sdk-java)：飞书开放接口SDK。
 * [Java Google Trends API](https://github.com/elibus/j-google-trends-api)：Java Google Trends API是一个基于Java的非官方谷歌趋势API实现。
@@ -14620,6 +14588,7 @@ Kafka生态管理系统、运维平台。
 * [ORCID Model](https://github.com/ORCID/orcid-model)：用于从API编组和反编组XML/JSON的所有类的容器。
 * [Amex API Java Client](https://github.com/americanexpress/amex-api-java-client-core)：该库封装了创建用于对发布到Amex for Developers门户的API进行身份验证所需的标头，由美国运通开源。
 * [Express Java Tools](https://gitee.com/mr-xiaoyu/express-java-tools)：京东物流、顺丰物流API Java封装。
+* [Dadata Client](https://github.com/KuliginStepan/dadata-client)：Dadata Client是一个用于访问Dadata API的Spring WebClient客户端库。
 
 #### Twitter
 
@@ -14667,6 +14636,51 @@ Kafka生态管理系统、运维平台。
 * [Spring Social Instagram](https://github.com/mattupstate/spring-social-instagram)：Spring Social的Instagram API绑定。
 * [Retrogram](https://github.com/wearemakery/retrogram)：基于Retrofit的Instagram客户端，支持Java和Android系统。
 
+#### Wechat
+
+* [Weixin SDK](https://github.com/borball/weixin-sdk)：Weixin SDK是对微信公众平台(订阅号、服务号、企业号、小程序)、微信开放平台和微信支付的Java版封装。
+* [WxJava](https://github.com/binarywang/WxJava)：微信开发Java SDK，支持包括微信支付、开放平台、小程序、企业微信、公众号等的后端开发。
+* [Gewechat](https://github.com/Devo919/Gewechat)：个人微信免费开源框架，支持二次开发、任意语言都可接入，REST API接入。
+* [Weixin Java Tools](https://github.com/chanjarster/weixin-java-tools)：微信公众号、企业号Java SDK。
+* [JFinal Weixin](https://gitee.com/jfinal/jfinal-weixin)：JFinal Weixin是基于JFinal的微信公众号极速开发SDK，只需浏览Demo代码即可进行极速开发。
+* [Wafer Java Server SDK](https://github.com/tencentyun/wafer-java-server-sdk)：Wafer是腾讯云面向广大开发者提供的小程序开发全栈资源套件。
+* [Java Wechaty](https://github.com/wechaty/java-wechaty)：Java Wechaty是一个用Kotlin编写的聊天机器人开发者对话式SDK。
+* [FastBootWeixin](https://gitee.com/kingshine/FastBootWeixin)：基于Spring Boot的注解驱动式公众号极速开发框架，用注解重新定义公众号开发。
+* [Weixin Popular](https://github.com/liyiorg/weixin-popular)：微信Java SDK(公众平台、开放平台、商户平台、服务商平台)。
+* [WeiXin4j](https://github.com/foxinmy/weixin4j)：WeiXin4j是一个用Java编写针对微信开发的工具包。
+* [WeiXin4j](https://gitee.com/jeecg/weixin4j)：微信和钉钉开发Java SDK，主要提供微信公众号、企业微信、钉钉、微信小程序、支付的Java封装，降低集成难度，由北京国炬公司开发。
+* [WeChat4j](https://github.com/sword-org/wechat4j)：WeChat4j是一个微信开发框架。
+* [WX Dump4j](https://github.com/xuchengsheng/wx-dump-4j)：WX Dump4j是一款基于Java开发的微信数据分析工具。
+* [JeewxBoot](https://gitee.com/jeecg/jeewx-boot)：JeewxBoot是一款免费的Java微信管家平台，支持微信公众号、小程序、微信第三方平台、抽奖活动等，由北京国炬公司开源。
+* [QYWX](https://github.com/shuaidd/qywx)：企业微信API封装。
+* [Wechat](https://github.com/ihaolin/wechat)：轻量的微信公众号组件。
+* [ItChat4j](https://github.com/yaphone/itchat4j)：ItChat4j提供了简单易用的API，可以很方便地对个人微信号进行扩展，实现自动回复，微信挂机机器人等。
+* [WeChat API](https://github.com/hellokaton/wechat-api)：WeChat API是微信个人号的Java版本API，让个人号具备更多能力，提供方便的接口调用。
+* [WeCOM SDK](https://gitee.com/felord/wecom-sdk)：WeCOM SDK是开源的企业微信开放API的Java实现。
+* [FastWeixin](https://github.com/sd4324530/fastweixin)：FastWeixin可以简化微信公众平台服务端开发。
+* [Wx API](https://github.com/niefy/wx-api)：Wx API是一个轻量级的公众号开发种子项目，可快速接入微信公众号管理功能。
+* [Wechattty](https://github.com/chensheng/wechatty-project)：Wechattty是一个基于Java的微信公众号和微信企业号的开发框架。
+* [Wx Tools](https://github.com/antgan/wx-tools)：Wx Tools是基于微信公众平台API的轻量级框架。
+* [Weixin4J](https://gitee.com/weixin4j/weixin4j)：Weixin4J为Java微信开发爱好者提供的微信公众开发平台SDK，简化了Java对微信的开发。
+* [MPSDK4J](https://gitee.com/lisenhui/mpsdk4j)：Java微信公共平台开发SDK。
+* [Wechat Core](https://github.com/151376liujie/wechat-core)：Wechat Core是一款轻量级的微信消息处理框架，可以让业务代码与微信微信处理框架代码解耦。
+* [CasWechat](https://github.com/caspar-chen/caswechat)：CasWechat是一个简单易用的Java微信公众平台SDK。
+* [OpenWeixin](https://github.com/michaelliao/openweixin)：微信公众号Java开发包。
+* [WeChat SDK](https://github.com/victorymakes/wechat-sdk)：微信公众平台/开放平台Java SDK。
+* [WeChat.Hook.SDK](https://github.com/wechathook/wechat.hook.sdk)：微信个人号开发API接口。
+* [Weixin4j](https://github.com/ansitech/weixin4j)：微信公众号开发SDK。
+* [WechatUtils](https://github.com/andyqian/wechatutils)：Java版微信公众号SDK。
+* [WeChat Open SDK](https://github.com/zeemood/wechat-open-sdk)：Java版微信工具，更为优雅的第三方开发常用工具包。
+* [Weixinmp4Java](https://github.com/caijianqing/weixinmp4java)：微信公众平台API接口Java版。
+* [WeixinAPI](https://github.com/wuweiit/weixinapi)：Java实现的微信API接口SDK。
+* [Wechat Spring Boot Starter](https://github.com/lcy19930619/wechat-spring-boot-starter)：微信公众号相关组件。
+* [Spring Boot Starter Wechatmp](https://github.com/linux-china/spring-boot-starter-wechatmp)：Spring Boot对微信公众号(订阅号、服务号)的支持。
+* [WeworkChatSDK](https://github.com/chinayin/WeworkChatSDK)：WeworkChatSDK企业微信会话存档服务，提供一键接入Java版SDK。
+* [Spring Security Wechat](https://github.com/sutra/spring-security-wechat)：在微信应用内使用Spring Security实现微信身份验证。
+* [Weixin SDK](https://gitee.com/black-c/weixin-sdk)：Weixin SDK使用Spring Boot Starter的形式封装了微信公众平台的常用API。
+* [Wechat4j](https://gitee.com/hotlcc/wechat4j)：一个基于Web微信API的Java版微信客户端。
+* [JFinal QyWeixin](https://gitee.com/javen205/jfinal_qyweixin)：JFinal QyWeixin基于JFinal Weixin二次开发，同时支持微信企业号以及企业微信。
+
 #### Telegram
 
 * [TelegramApi](https://github.com/rubenlagus/TelegramApi)：实现Telegram API来创建Telegram客户端的Java库。
@@ -14690,6 +14704,7 @@ Kafka生态管理系统、运维平台。
 * [JaWa](https://github.com/jochris/JaWa)：用于WhatsApp Web多设备协议的非官方Java 21库。
 * [WhatsJava](https://github.com/Louuke/WhatsJava)：WhatsJava是WhatsApp Web API的重新实现，并为开发人员提供了一个直接接口。
 * [Whatsapp API Client Java](https://github.com/green-api/whatsapp-api-client-java)：Whatsapp API Client Java是一个用于集成WhatsApp Messenger的库。
+* [Whatsapp Business Java API SDK](https://github.com/harmonyzhang/whatsapp-business-java-sdk)：这是一个用Java编写的WhatsApp Business API SDK。
 
 #### Slack
 
@@ -16784,6 +16799,7 @@ Kafka生态管理系统、运维平台。
 * [FXValidation](https://github.com/dukke/FXValidation)：JavaFX的校验支持。
 * [Language Manager](https://github.com/Snoopy137/language-manager)：Language Manager是一个JavaFX库，它支持在运行时动态切换语言，允许你更新应用程序语言而无需刷新场景。
 * [FxDriver](https://github.com/1C-Company/FxDriver)：FxDriver是一个用于测试JavaFX桌面应用程序的Selenium WebDriver驱动程序项目。
+* [FXML Compiler](https://github.com/jfxcore/fxml-compiler)：FXML/2是一种标签语言，它使JavaFX应用程序的声明式构建变得简单。
 
 #### JavaFX主题库
 
