@@ -2819,6 +2819,7 @@
 * [Kunefe](https://github.com/selimsahindev/kunefe-mq)：一个轻量级、低延迟的基于gRPC的微服务消息代理。
 * [FastMQ](https://github.com/DisasterCamp/fast-mq)：FastMQ是一个消息中间件的实现库，旨在通过Redis提供轻量级、易用的消息队列能力。
 * [Funfix](https://github.com/funfix/database)：Funfix是一个基于关系型数据库构建的高性能、可靠、可延迟的FIFO消息队列。
+* [MD-SAL](https://github.com/opendaylight/mdsal)：MD-SAL是OpenDaylight SDN控制器项目中的核心中间件组件。
 
 ## 分布式开发
 
@@ -3847,6 +3848,7 @@
 * [Basic Neural Network Library](https://github.com/kim-marcel/basic_neural_network)：一个非常基础的Java神经网络库。
 * [Pacaya](https://github.com/mgormley/pacaya)：Pacaya是一个用于联合建模的库，它结合了图形模型、结构化因子、神经网络和超图。
 * [FANNJ](https://github.com/krenfro/fannj)：FANN的Java绑定。
+* [DeepBoof](https://github.com/lessthanoptimal/DeepBoof)：DeepBoof是一个Java库，用于运行使用其他项目(例如Torch和Caffe)训练的深度神经网络，专注于图像数据处理。
 
 #### 深度学习
 
@@ -10706,6 +10708,7 @@
 * [MultiTypeJsonParser](https://github.com/sososeen09/MultiTypeJsonParser)：一个用于解析包含多种类型JSON对象的JSON数据的工具。
 * [Jason](https://github.com/dwing4g/jason)：一款超快速、轻量级的JSON解析器和绑定器。
 * [ODA](https://github.com/mpenet/oda)：用于Clojure的快速JSON解析器/写入器。
+* [Kotlin JSON5](https://github.com/lisonge/kotlin-json5)：Kotlin多平台JSON 5库，用于Kotlinx.Serialization。
 
 #### JSON库
 
@@ -10976,6 +10979,7 @@
 * [Guice Configuration](https://github.com/yyvess/Guice-configuration)：Guice配置模块，支持JSON、HOCON和Properties格式，基于Typesafe Config构建。
 * [Geronimo Config](https://github.com/apache/geronimo-config)：MicroProfile Config的Geronimo实现。
 * [Pixie](https://github.com/tomitribe/pixie)：Pixie是一个体积仅为100k的小型Jar包，用于处理配置、依赖注入和事件。
+* [YamlConfig](https://github.com/Tuinity/YamlConfig)：借助注解读写YAML配置文件。
 
 #### 分布式配置
 
@@ -11768,6 +11772,7 @@
 * [Tensor](https://github.com/idsc-frazzoli/tensor)：用于Java张量计算的库。
 * [JOCLBlast](https://github.com/gpu/JOCLBlast)：CLBlast的Java绑定。
 * [Uni](https://github.com/philwalk/uni)：NumPy启发的线性代数库。
+* [Scholar MW](https://github.com/thevpc/scholar-mw)：Scholar MW是一个面向微波工程和电磁学研究的专业计算库。
 
 #### 矩阵
 
@@ -15244,6 +15249,7 @@
 * [JDownload](https://www.io7m.com/software/jdownload)：JDownload实现了对JDK HTTP客户端的简单封装，提供下载、校验和验证和传输统计信息。
 * [MMDownloader](https://github.com/occidere/MMDownloader)：Marumaru下载器。
 * [JDDL](https://github.com/kamranzafar/jddl)：JDDL是一个简单轻量的Java库，它可以轻松便捷地通过HTTP直接下载多个文件并跟踪下载进度。
+* [Invesdwin WebProxy](https://github.com/invesdwin/invesdwin-webproxy)：一款支持代理服务器的并行网络爬虫下载管理器。
 
 ### 文件比较
 
@@ -16347,6 +16353,7 @@ Kafka生态管理系统、运维平台。
 * [TS Reactive](https://github.com/Tradeshift/ts-reaktive)：TS Reactive是一个基于Akka和Akka Persistence构建的响应式应用程序工具集。
 * [Events Caravan](https://github.com/SagynyshBaitursinov/events-caravan)：Events Caravan是一个专为可扩展性和高性能而设计的事件溯源框架，同时依赖于最终一致性。
 * [Eventstore](https://github.com/sliceworkz/eventstore)：一个符合DCB(动态一致性边界)标准的Java版EventStore实现。
+* [C4Proto](https://github.com/conecenter/c4proto)：C4Proto是一个基于事件溯源思想的微服务框架。
 
 ## 设计模式
 
@@ -17383,6 +17390,7 @@ Kafka生态管理系统、运维平台。
 * [Ok CLI](https://gitee.com/wudibo/ok-cli)：一个基于RBAC设计的前后端分离开发脚手架。
 * [XLauch](https://gitee.com/huangxy3/xlauch)：XLauch是基于Spring Boot、Mybatis、Beetls的快速开发脚手架。
 * [SmartDev Scaffold](https://github.com/WeBankBlockchain/SmartDev-Scaffold)：应用开发脚手架，可基于智能合约文件，一键生成区块链应用的代码，由微众银行开源。
+* [Apache Maven Initializer](https://github.com/support-and-care/maven-initializer)：Apache Maven Initializer是一款现代化、用户友好的Web应用程序，旨在简化创建新Apache Maven项目的过程。
 
 #### 快速开发框架
 
@@ -21739,6 +21747,8 @@ Kafka生态管理系统、运维平台。
 * [FXML Compiler](https://github.com/jfxcore/fxml-compiler)：FXML/2是一种标签语言，它使JavaFX应用程序的声明式构建变得简单。
 * [Gluon Ignite](https://github.com/gluonhq/ignite)：Gluon Ignite允许开发者在JavaFX应用程序中使用流行的依赖注入框架。
 * [ReactiveDeskFX](https://github.com/TangoraBox/ReactiveDeskFX)：JavaFX微框架，用于以最少的代码，按照MVVM架构模式和被动视图，开发速度非常快的JavaFX组件。
+* [JavaFX Customcaption](https://github.com/YetiHafen/javafx-customcaption)：JavaFX Customcaption旨在允许自定义Microsoft Windows上的原生窗口标题栏。
+* [FX Gson](https://github.com/joffrey-bion/fx-gson)：FX Gson是一组用于Google Gson的类型适配器，用于将JavaFX属性序列化为其值，并将值反序列化为属性。
 
 #### JavaFX主题库
 
@@ -23396,6 +23406,7 @@ Kafka生态管理系统、运维平台。
 * [Minim Android](https://github.com/DASAR-zz/Minim-Android)：适用于Android的Java Minim移植版。
 * [Rekognition Processing](https://github.com/shiffman/Rekognition-for-Processing)：这是一个简化在Processing中使用Rekognition API的库。
 * [Cineast](https://github.com/vitrivr/cineast)：Cineast是一款多功能、基于内容的多媒体检索引擎。
+* [PotPlayerControl](https://github.com/ld3l/PotPlayerControl)：PotPlayerControl是一个用于控制PotPlayer的开源Java库。
 
 #### 视频通讯
 
@@ -23985,6 +23996,7 @@ Kafka生态管理系统、运维平台。
 * [jParser](https://github.com/xpenatan/jParser)：一个Java代码生成库，可将C/C++本地代码桥接到JVM平台(桌面、移动和Web)。
 * [Nucleus Native Access](https://github.com/NucleusFramework/NucleusNativeAccess)：Gradle插件，用于通过FFM从JVM透明地使用Kotlin/原生代码。
 * [Kotlin JNI](https://github.com/dshatz/Kotlin-JNI)：Kotlin JNI是一个功能强大的Kotlin多平台库，旨在简化和统一Android、桌面(Linux、macOS、Windows)和Kotlin/Native之间的JNI开发。
+* [SmallRye FFM](https://github.com/smallrye/smallrye-ffm)：SmallRye FFM是一个用于简化Java FFM API使用的实用程序。
 
 #### Python
 
