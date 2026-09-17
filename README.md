@@ -2060,6 +2060,7 @@
 * [Lambada](https://github.com/ingenieux/lambada)：Lambada是一个使用Apache Maven和Java编写AWS Lambda函数的平台。
 * [Power Jambda](https://github.com/visionarts/power-jambda)：适用于AWS Lambda的Java Serverless微框架。
 * [FC Java SDK](https://github.com/aliyun/fc-java-sdk)：Aliyun FunctionCompute的Java SDK。
+* [FuncHole](https://github.com/stoopid-computers/funchole)：FuncHole是一个开源自托管的Serverless函数执行平台，可将Function编排为Flow并通过Gateway对外暴露，并内置MCP服务器，让编程Agent通过工具调用完成同样的操作。
 
 ## API网关
 
