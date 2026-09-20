@@ -50,7 +50,6 @@
   * [时序数据分析](#时序数据分析)
 * [分布式开发](#分布式开发)
   * [分布式锁](#分布式锁)
-  * [分布式ID](#分布式ID)
   * [Session集群](#Session集群)
   * [Raft算法](#Raft算法)
   * [Paxos算法](#Paxos算法)
@@ -437,6 +436,8 @@
 * [对象池](#对象池)
 * [数据字典](#数据字典)
 * [随机生成器](#随机生成器)
+* [ID生成器](#ID生成器)
+* [分布式ID](#分布式ID)
 * [图处理](#图处理)
 * [Graphviz](#Graphviz)
 * [语义Web](#语义Web)
@@ -1392,6 +1393,7 @@
 * [Chaos](https://github.com/d2iq-archive/chaos)：用Scala编写REST服务的轻量级框架，由Mesosphere开源。
 * [Hammock](https://github.com/hammock-project/hammock)：Hammock是一个简单易用的框架，用于引导CDI、启动Web服务器并能够部署REST API。
 * [GWizard](https://github.com/gwizard/gwizard)：GWizard是一个模块化的、具有明确设计方向的工具包，用于在Guice框架下构建RESTful Web服务。
+* [Clothesline](https://github.com/b20n/Clothesline)：Clothesline是Clojure语言对流行的HTTP服务框架WebMachine的移植，并支持Scala和Java。
 * [Octohipster](https://github.com/valpackett/octohipster)：Octohipster是一个用于Clojure的REST库。
 * [Apache Sling](https://sling.apache.org/)：Sling是一个基于可扩展内容树的RESTful Web应用程序框架，由Adobe维护。
 * [Apache Wink](https://wink.apache.org/)：Wink是一个简单而可靠的框架，用于构建RESTful Web服务。
@@ -2964,65 +2966,6 @@
 * [Spring Redis Distributed Lock](https://gitee.com/sense7/spring-redis-distributed-lock)：基于Redis的分布式锁，注解使用。
 * [RedPulsar](https://github.com/himadieievsv/redpulsar)：RedPulsar为Redis和其他云计算或各种分布式系统提供分布式锁功能。
 
-#### 分布式ID
-
-* [Snowflake](https://github.com/twitter-archive/snowflake)：Snowflake是一种网络服务，用于大规模生成唯一ID号并提供一些简单的保证，由Twitter开源。
-* [Leaf](https://github.com/Meituan-Dianping/Leaf)：Leaf是美团开源的分布式ID生成服务。
-* [Tinyid](https://github.com/didi/tinyid)：Tinyid是一个ID生成器服务，它提供了一个REST API和一个用于获取ids的Java客户端，由滴滴开源。
-* [IdGenerator](https://github.com/yitter/IdGenerator)：IdGenerator是一个多语言的分布式ID生成库。
-* [Icicle](https://github.com/intenthq/icicle)：Icicle是一个使用Redis的Lua脚本以分布式方式生成64位、可排序的唯一ID的项目，由Intent HQ开源。
-* [Chronos](https://github.com/XiaoMi/chronos)：Chronos是实现高可用、高性能、提供全局唯一而且严格单调递增Timestamp的服务，由小米开源。
-* [IdCenter](https://github.com/adyliu/idcenter)：IdCenter是用于生成唯一ID号的网络服务，由搜狐开源。
-* [Sequence](https://gitee.com/yu120/sequence)：Sequence是一个高效GUID生成算法，基于Snowflake实现64位自增ID算法。
-* [IDWorker](https://github.com/imadcn/idworker)：IDWorker是一个基于Zookeeper和雪花算法的分布式ID生成工具。
-* [Snowizard](https://github.com/GeneralElectric/snowizard)：Snowizard是一项基于HTTP的服务，可以大规模生成唯一ID号码，由通用电气开源。
-* [Snowflake4J](https://github.com/PhilippHeuer/snowflake4j)：Snowflake4J是一个用于大规模生成唯一ID号码的库，并提供一些简单的保证。
-* [Redis ID Generator](https://github.com/hengyunabc/redis-id-generator)：基于Redis的分布式ID生成器。
-* [UidGenerator](https://github.com/baidu/uid-generator)：UidGenerator是一个Java实现的、基于Snowflake的唯一ID生成器，由百度开源。
-* [CosId](https://gitee.com/AhooWang/CosId)：CosId旨在提供通用、灵活、高性能的分布式ID生成器。
-* [Cantor](https://github.com/ManbangGroup/cantor)：Cantor是一个全局序列生成器服务，具有分布式、无状态、高可用性，由满帮集团开源。
-* [NanoId](https://github.com/zelark/nano-id)：NanoId是一个适用于Clojure和ClojureScript的小型、安全、URL友好型唯一字符串ID生成器。
-* [Java Snowflake](https://github.com/callicoder/java-snowflake)：基于雪花算法的分布式ID生成器。
-* [SnowFlake](https://github.com/beyondfengyu/SnowFlake)：Twitter的雪花算法SnowFlake，使用Java语言实现。
-* [Snowflake](https://github.com/downgoon/snowflake)：Twitter Snowflake的Java版本，一种用于大规模生成唯一ID号的Web服务，并具有一些简单的保证。
-* [TSID Creator](https://github.com/f4b6a3/tsid-creator)：TSID Creator是用于生成TSID的Java库。
-* [KSUID](https://github.com/ksuid/ksuid)：KSUID是一种生成全局唯一ID的方法，类似于RFC 4122 UUID。
-* [Butterfly](https://github.com/simonalong/Butterfly)：Butterfly是一个超高性能的发号器框架。
-* [Snowflake](https://github.com/relops/snowflake)：用于生成K阶唯一64位整数的Java库。
-* [SnowflakeId](https://github.com/phxql/snowflake-id)：使用Java生成类似Twitter的Snowflake ID。
-* [DistributedID](https://github.com/beyondfengyu/DistributedID)：DistributedID提供一个轻量级、高并发、高可用的生成唯一ID的服务。
-* [ECP UID](https://github.com/linhuaichuan/ecp-uid)：基于美团Leaf、百度Uid Generator、原生Snowflake进行整合的唯一ID生成器。
-* [GeneratorsId](https://github.com/shimu200/generatorsId)：GeneratorsId是一款基于雪花算法生成唯一ID的Java库。
-* [Vesta](https://github.com/iweisi/vesta-id-generator)：Vesta是一款通用的ID生成器。
-* [Leaf Snowflake](https://github.com/weizhenyi/leaf-snowflake)：Leaf Snowflake是一个分布式、单调递增的长整型整数ID生成器。
-* [ID Generator](https://gitee.com/darkranger/id-generator)：分布式ID生成器。
-* [XSequence](https://gitee.com/xuan698400/xsequence)：XSequence是一个简单的分布式序列号生成组件。
-* [Sequence](https://gitee.com/xianglin/sequence)：分布式系统唯一ID生成方法。
-* [ID Generator](https://gitee.com/simpleweb/id-generator)：基于Twitter SnowFlake算法实现的分布式ID发号器。
-* [Flake Java](https://github.com/mumrah/flake-java)：基于Twitter Snowflake的ID生成器。
-* [JavaSnowFlake](https://github.com/Predictor/javasnowflake)：基于Twitter Snowflake ID生成算法的64位顺序ID生成器。
-* [ID Generator](https://github.com/haozi2015/id-generator)：ID Generator分布式ID生成器，解决在分布式系统唯一性标识生成复杂、不统一的问题。
-* [Snowflake IdWorker](https://github.com/zzxadi/Snowflake-IdWorker)：基于Twitter Snowflake的分布式ID生成器。
-* [Snowflake ID Generator](https://github.com/keets2012/snowflake-id-generator)：Snowflake升级版全局ID生成器。
-* [Sequence](https://github.com/izern/sequence)：高效GUID生成算法，基于Snowflake实现64位自增ID算法。
-* [ASnowflake](https://github.com/zjutkz/ASnowflake)：一个用于基于Snowflake生成全局唯一ID的库，是UUID的替代方案。
-* [Snowflake-UID Generator](https://github.com/johnhuang-cn/snowflake-uid)：UidGenerator是基于Twitter Snowflake算法的全局ID生成器。
-* [UC](https://github.com/sumory/uc)：UC是一个用于处理分布式系统中ID生成，唯一性字段值管理的通用模块。
-* [LeafServer](https://github.com/Yaccc/leafserver)：高性能分布式唯一ID生成系统。
-* [Snowcast](https://github.com/noctarius/snowcast)：Snowcast是一个基于Hazelcast的自动配置、分布式、可扩展的ID生成器。
-* [Scala ID Generator](https://github.com/softwaremill/scala-id-generator)：Twitter Snowflake算法的ID生成器。
-* [TinyServices ID](https://gitee.com/tinyservices/tinyservices-id)：TinyServices ID是一个高性能可扩展生成唯一ID的服务。
-* [Spring Boot Redis ID Generator](https://github.com/butter-fly/belling-redis-id-generator)：基于Spring Boot生成分布式下全局的ID，保证ID生成的顺序性、无重复性、高可用。
-* [Timeflake4j](https://github.com/making/timeflake4j)：Timeflake的Java实现。
-* [KSUID](https://github.com/akhawaja/ksuid)：Java实现的K可排序全局唯一ID。
-* [EasyIdGenerator](https://github.com/lookingatstarts/easyIdGenerator)：EasyIdGenerator生成全局唯一ID。
-* [FinTx Identifier](https://github.com/fintx/fintx-identifier)：FinTx Identifier用于在高性能分布式环境中生成唯一ID。
-* [Sequence](https://github.com/power4j/sequence)：Java序号工具包，高性能、无锁。
-* [IdWorker Client](https://github.com/bingoohuang/idworker-client)：IdWorker Java客户端。
-* [Mykit Serial](https://github.com/binghe001/mykit-serial)：Mykit Serial是一个开源的分布式全局有序序列号服务。
-* [Vlok](https://github.com/gideondk/vlok)：Vlok是一种去中心化服务，用于生成唯一、按时间顺序排列的ID。
-* [Camflake](https://github.com/cam-inc/camflake)：Camflake是一个用Java实现的分布式唯一ID生成器。
-
 #### Session集群
 
 * [Redis Session Manager](https://github.com/jcoleman/tomcat-redis-session-manager)：Session管理器实现，将Session存储在Redis中，以便在Tomcat服务器集群中轻松分发请求。
@@ -3841,7 +3784,7 @@
 * [LLM4S](https://github.com/llm4s/llm4s)：LLM4S是一个功能全面的Scala AI框架。
 * [JoySafety](https://github.com/jd-opensource/JoySafety)：JoySafety是京东开源的大模型安全框架。
 * [LangGraph4j](https://github.com/langgraph4j/langgraph4j)：Java版LangGraph，一个使用LLM构建有状态、多参与者应用程序的库。
-* [OpenJiuwen Core Java](https://atomgit.com/openJiuwen/agent-core-java)：OpenJiuwen Core Java是一款面向大模型应用的Java软件开发工具包。
+* [OpenJiuwen Core Java](https://github.com/openJiuwen-ai/agent-core-java)：OpenJiuwen Core Java是一款面向大模型应用的Java软件开发工具包。
 * [Genkit Java](https://github.com/genkit-ai/genkit-java)：Genkit是一个用于构建全栈AI应用的开源框架，由Google的Firebase构建并投入生产使用。
 * [LangChain Java](https://github.com/HamaWhiteGG/langchain-java)：LangChain的Java语言实现，它使得开发LLM驱动的应用程序变得尽可能简单。
 * [Langtorch](https://github.com/li2109/langtorch)：Langtorch是一个Java库，可让你轻松构建可组合的LLM应用程序。
@@ -5714,6 +5657,7 @@
 * [Java VPNDetection](https://github.com/faiqsohail/Java-VPNDetection)：此库允许你检测指定的IPv4地址是否属于托管服务商或 VPN/代理机构。
 * [JSSMP](https://github.com/redbooth/jssmp)：JSSMP是Stupid-Simple Messaging Protocol的Java实现。
 * [Java PGM](https://github.com/steve-o/javapgm)：PGM协议的Java实现。
+* [InterLink](https://github.com/SpigotRCE/InterLink)：一个非常简单但功能强大的Java网络API。
 
 #### Socket
 
@@ -6484,6 +6428,7 @@
 * [Daemon Lib](https://github.com/LiveRamp/daemon_lib)：Daemon Lib是一个Java库，它简化了并行任务处理器的编写。
 * [jSpace](https://github.com/pSpaces/jSpace)：jSpace是一个Java库，支持使用空间进行并发和分布式应用程序的编程。
 * [F](https://github.com/wkgcass/f)：一个用于编写类似于使用Java语法的异步Vert.x代码的库。
+* [Lunaria](https://github.com/cao-awa/Lunaria)：Lunaria是一个功能强大且灵活的并发库。
 
 #### 响应式
 
@@ -6580,6 +6525,7 @@
 * [ForkJoin.rb](https://github.com/headius/forkjoin.rb)：一个围绕Java 7 Fork/Join框架的JRuby扩展/封装。
 * [J2Executor](https://gitee.com/virjar/j2executor)：J2Executor是对Java原生的线程池的一个包装。
 * [ThreadExecutor](https://github.com/ppamorim/ThreadExecutor)：一个简单的库，用于暴露线程池，使用Dagger 2。
+* [Medusa](https://github.com/amitrathore/medusa)：Clojure的受监管线程池。
 
 #### ThreadLocal
 
@@ -7190,6 +7136,8 @@
 * [Chernobyl](https://github.com/artjimlop/chernobyl)：这是一个简单的前提条件库，用于在遇到意外值时触发崩溃。
 * [BizAssert](https://github.com/vennarshulytz/biz-assert)：一个轻量级、生产就绪的Java业务断言工具类。
 * [Any](https://github.com/igrishaev/any)：Any是一个Clojure测试辅助库，提供一系列具有伪造相等性逻辑的对象。
+* [Assertions](https://github.com/pjstadig/assertions)：Assertions是一个Clojure的零性能惩罚运行时断言库。
+* [Matcha](https://github.com/yeller/matcha)：一个Clojure库，用于编写可组合的测试断言，并提供易读的错误信息。
 
 #### Mock框架
 
@@ -7400,6 +7348,7 @@
 * [Data Processer](https://gitee.com/CloudWise/Data-Processer)：Data Processer是一个模拟数据生成器。
 * [KMinRandom](https://github.com/utwyko/KMinRandom)：KMinRandom是一个用于生成Kotlin数据类最小实例的库。
 * [Fixtures](https://github.com/bluegroundltd/fixtures)：Fixtures是一个可以帮助轻松实例化测试数据类的库。
+* [Stereotype](https://github.com/josephwilk/stereotype)：用于在Clojure中设置测试数据的Fixture库。
 * [Object Bot](https://github.com/dreamhead/object-bot)：Object Bot是一个用于将Java对象设置为测试数据的库。
 * [TestABean](https://github.com/sergiandreplace/TestABean)：TestABean是一个旨在帮助你对普通数据对象执行基本测试的库。
 * [Blah-Blah](https://github.com/getspherelabs/blahblah)：Blah-Blah是一个Kotlin多平台库，旨在生成用于稳健测试和开发的模拟数据。
@@ -7446,6 +7395,7 @@
 * [LoremIpsumObjectCreator](https://github.com/bbottema/lorem-ipsum-objects)：LoremIpsumObjectCreator是一个小型工具，它通过创建给定类型的填充虚拟对象来帮助你生成测试数据。
 * [Grails Fixtures](https://github.com/gpc/fixtures)：用于指定测试域数据的插件。
 * [Java Factory Bot](https://github.com/topicusoverheid/java-factory-bot)：一个用于创建对象作为测试数据的库，支持将对象持久化到数据库中。
+* [Fixpoint](https://github.com/stalefruits/fixpoint)：Fixpoint是一个库，它提供了一种简单而强大的方法来设置测试数据存储和数据。
 
 #### BDD框架
 
@@ -10837,6 +10787,7 @@
 * [Cobble](https://gitee.com/zycgit/cobble)：Cobble是一个Java工具库。
 * [SpringUltron](https://github.com/brucewuu520/spring-ultron)：Spring Boot多模块通用库。
 * [Spine Base](https://github.com/SpineEventEngine/base-libraries)：Spine框架的基本类型和实用程序。
+* [Cljext](https://github.com/jbester/cljext)：Cljext是一个包含Clojure本地代码和Java函数封装的库。
 
 ## 集合库
 
@@ -10995,6 +10946,7 @@
 * [UnsafeReflect](https://github.com/835127729/UnsafeReflect)：UnsafeReflect是一个通过Unsafe API来实现Java反射功能的库。
 * [Reflect](https://github.com/yawkat/reflect)：易于使用的Java 8反射库。
 * [Clj Wallhack](https://github.com/arohner/clj-wallhack)：一个用于绕过Java类中私有和受保护字段及方法的库。
+* [Mountiplex](https://github.com/bergerhealer/Mountiplex)：Mountiplex提供了一种两步解决方案，用于访问Java中隐藏实现的内部结构。
 
 ## 注解库
 
@@ -11130,6 +11082,7 @@
 * [Komodo](https://github.com/Shengaero/komodo)：一个简单的JVM文件监视库。
 * [Hawk](https://github.com/wkf/hawk)：一个用于监视文件和目录的Clojure库。
 * [Dirwatch](https://github.com/juxt/dirwatch)：一个Clojure目录监视器，封装了JDK 7 java.nio.file.WatchService。
+* [Ojo](https://github.com/rplevy/ojo)：Ojo是一个简单且可扩展的框架，用于监视文件并响应事件。
 
 ## 目录库
 
@@ -11560,6 +11513,16 @@
 * [Aspect Cache](https://gitee.com/gosalelab/aspect-cache)：Aspect Cache是一个针对Spring Boot，基于AOP注解方式的轻量级缓存。
 * [Req Shield](https://github.com/line/req-shield)：Req-Shield是一个通过请求折叠来规范应用程序接收到的基于缓存的请求的库，由Line开源。
 * [Labijie Caching](https://github.com/endink/caching-kotlin)：Kotlin缓存库。
+* [Crache](https://github.com/strongh/crache)：Redis支持的缓存和记忆化。
+* [Kachetor](https://github.com/vipulasri/kachetor)：Kachetor是一个易于使用的Kotlin多平台缓存库。
+* [Carbon Cache](https://carbon.sourceforge.net/)：Carbon Cache为JVM提供高速、线程安全的信息存储库，而无需承担远程调用的成本。
+* [CacheMate](https://github.com/cowtowncoder/java-cachemate)：CacheMate是一个多级内存进程内缓存，具有可选的辅助键访问功能。
+* [RxMemoization](https://github.com/pakoito/RxMemoization)：RxMemoization是一个允许对RxJava函数原语进行记忆化的库。
+* [CacheAsMulti](https://github.com/ms100/cache-as-multi)：CacheAsMulti是一个Spring缓存扩展库，核心是让批量缓存操作变得优雅。
+* [Mnemosyne](https://github.com/malandrakisgeo/mnemosyne)：Mnemosyne是一个小巧且可定制的Java应用程序缓存库。
+* [N-way Set Associative Cache](https://github.com/Novotarskyi/n-way-set-associative-cache)：Java实现的N路组相联缓存。
+* [EasyCache](https://gitee.com/whiteblue/EasyCache)：Ehcache的极简封装，基于注解形式的缓存框架。
+* [Jad Cache](https://gitee.com/457049726/jad-cache)：Jad Cache是Spring 3中缓存模块的扩展。
 
 #### 分布式缓存
 
@@ -11591,6 +11554,7 @@
 * [Play Memcached](https://github.com/playframework/play2-memcached)：Play 2.x的Memcached缓存API实现。
 * [Guava Cache Redis](https://github.com/levyfan/guava-cache-redis)：实现基于Redis的Guava缓存接口。
 * [Spring Boot RedisCache Starter](https://gitee.com/huicode/spring-boot-rediscache-starter)：RedisCache是一个简易、易上手、高效使用的缓存组件。
+* [Aldica](https://github.com/aldica/aldica)：Alfresco社区版的替代分布式缓存。
 
 #### 键值存储
 
@@ -11725,6 +11689,7 @@
 * [HTTPCache4j](https://github.com/httpcache4j/httpcache4j)：HTTPCache4j是一个Java浏览器缓存。
 * [HttpResponseCache](https://github.com/candrews/HttpResponseCache)：HttpResponseCache库为使用java.net.HttpUrlConnection类的HTTP和HTTPS请求提供透明且自动的缓存。
 * [Cachecontrol](https://github.com/playframework/cachecontrol)：用Scala编写的极简HTTP缓存管理库。
+* [Etag Cache](https://github.com/kevinsawicki/etag-cache)：Etag Cache是一个透明的HTTP缓存库。
 
 ## 日志库
 
@@ -12637,6 +12602,8 @@
 * [Kofiko](https://github.com/davidohana/kofiko-kotlin)：Kotlin的代码优先配置库。
 * [Config](https://github.com/lambdaisland/config)：Clojure配置库。
 * [1Config](https://github.com/BrunoBonacci/1config)：1Config是一个用于安全有效地管理应用程序密钥和配置的命令行工具和库。
+* [ReConf JVM](https://github.com/blocks4j/reconf-jvm)：ReConf JVM是一个用于Java应用程序的智能配置库。
+* [Resourceful Config](https://github.com/Team-Resourceful/Resourceful-Config)：Resourceful Config是一个跨平台配置库。
 
 #### 分布式配置
 
@@ -13305,30 +13272,40 @@
 
 ## 随机生成器
 
-* [JNanoId](https://github.com/aventrix/jnanoid)：Java的唯一字符串ID生成器。
-* [UUID Creator](https://github.com/f4b6a3/uuid-creator)：这是一个用于生成通用唯一标识符的Java库。
-* [ULID Creator](https://github.com/f4b6a3/ulid-creator)：这是一个用于生成ULID的Java库。
 * [Apache Commons RNG](https://github.com/apache/commons-rng)：Commons RNG项目提供伪随机生成器的纯Java实现。
-* [Kotlin Multiplatform UUID](https://github.com/benasher44/uuid)：Kotlin多平台UUID。
-* [Java UUID Generator](https://github.com/cowtowncoder/java-uuid-generator)：JUG是一组用于处理UUID的Java类：使用任何标准方法生成UUID、高效输出、排序等。
-* [FastUUID](https://github.com/jchambers/fast-uuid)：FastUUID是一个用于快速有效地解析和写入UUID的Java库。
-* [FriendlyID](https://github.com/SkillPanel/friendly-id)：FriendlyID库将给定的UUID(36个字符)转换为基于Base62(最多22个字符)的URL友好ID。
 * [Juniper](https://github.com/tommyettinger/juniper)：Juniper提供了java.util.Random功能的超集，其中包含EnhancedRandom抽象类和各种具体实现。
-* [Clj UUID](https://github.com/danlentz/clj-uuid)：Clj UUID是一个Clojure库，用于生成和使用UUID(通用唯一标识符)。
-* [RandomGenKt](https://github.com/EranBoudjnah/RandomGenKt)：这是一个用Kotlin移植的Java库，旨在生成任何类的随机实例。
 * [Random Number Generator](https://github.com/Gear61/Random-Number-Generator)：一款简洁易用的安卓随机数生成器。
 * [DRNGLib](https://github.com/cambecc/drnglib)：DRNGLib是一个Java库，它提供了对Intel数字随机数生成器的访问。
 * [Humanize](https://github.com/clj-commons/humanize)：一个Clojure库，用于生成人类可读的数字、日期等字符串。
 * [BetterRandom](https://github.com/Pr0methean/BetterRandom)：BetterRandom是一个库，可以帮助你从伪随机数生成器及其种子源中获得最佳性能和最佳伪随机性。
+* [Biski64](https://github.com/danielcota/biski64)：Biski64是一个极快的伪随机数生成器(PRNG)，保证最小周期为2^64。
+* [Name Machine](https://github.com/ajbrown/name-machine)：Name Machine是一个Java工具，用于生成具有合理出现概率的随机名称。
+* [Fortuna PRNG](https://github.com/grunka/fortuna)：Fortuna RNG的一种实现。
+* [Reverse Regexp](https://github.com/GitHub-Laziji/reverse-regexp)：从正则表达式生成随机数据。
+* [Java Random String](https://github.com/moznion/java-random-string)：根据模式生成随机字符串。
+* [Cringe](https://github.com/tommyettinger/cringe)：仅依赖于LibGDX的随机数生成器。
+* [Fast RNG Java](https://github.com/komiya-atsushi/fast-rng-java)：Java快速随机数生成器。
+* [BfGex](https://github.com/six2six/bfgex)：使用正则表达式生成随机数据。
+* [Resource Identifiers](https://github.com/palantir/resource-identifier)：Resource Identifiers提供了一种通用编码方式，用于将现有的唯一标识符与一些额外的上下文信息封装起来，以便在其他应用程序中存储这些标识符时非常有用，由Palantir开源。
+* [Data.Generators](https://github.com/clojure/data.generators)：Clojure随机数据生成器。
+* [RandomGenKt](https://github.com/EranBoudjnah/RandomGenKt)：这是一个用Kotlin移植的Java库，旨在生成任何类的随机实例。
+
+## ID生成器
+
+* [JNanoId](https://github.com/aventrix/jnanoid)：Java的唯一字符串ID生成器。
+* [UUID Creator](https://github.com/f4b6a3/uuid-creator)：这是一个用于生成通用唯一标识符的Java库。
+* [ULID Creator](https://github.com/f4b6a3/ulid-creator)：这是一个用于生成ULID的Java库。
+* [Java UUID Generator](https://github.com/cowtowncoder/java-uuid-generator)：JUG是一组用于处理UUID的Java类：使用任何标准方法生成UUID、高效输出、排序等。
+* [Kotlin Multiplatform UUID](https://github.com/benasher44/uuid)：Kotlin多平台UUID。
+* [FastUUID](https://github.com/jchambers/fast-uuid)：FastUUID是一个用于快速有效地解析和写入UUID的Java库。
+* [FriendlyID](https://github.com/SkillPanel/friendly-id)：FriendlyID库将给定的UUID(36个字符)转换为基于Base62(最多22个字符)的URL友好ID。
+* [Clj UUID](https://github.com/danlentz/clj-uuid)：Clj UUID是一个Clojure库，用于生成和使用UUID(通用唯一标识符)。
 * [Sqids Java](https://github.com/sqids/sqids-java)：Sqids是一个小型库，可让你从数字生成唯一的ID。
 * [ULIDJ](https://github.com/azam/ulidj)：Java的ULID生成器和解析器。
-* [Biski64](https://github.com/danielcota/biski64)：Biski64是一个极快的伪随机数生成器(PRNG)，保证最小周期为2^64。
 * [GraphAware UUID](https://github.com/graphaware/neo4j-uuid)：GraphAware UUID是一个简单的库，它透明地为图中新创建的节点和关系分配一个UUID。
-* [Locality UUID Java](https://github.com/groupon/locality-uuid.java)：这是一个UUID类，旨在帮助在插入分布式数据系统(例如MongoDB或HBase)时控制数据位置，由Groupon开源。
 * [Kotlinx UUID](https://github.com/hfhbd/kotlinx-uuid)：Kotlinx UUID是一个多平台Kotlin库，为kotlin.uuid.Uuid添加了辅助方法。
+* [Locality UUID Java](https://github.com/groupon/locality-uuid.java)：这是一个UUID类，旨在帮助在插入分布式数据系统(例如MongoDB或HBase)时控制数据位置，由Groupon开源。
 * [CUID Java](https://github.com/thibaultmeyer/cuid-java)：CUID的Java实现。
-* [IDGenerator](https://github.com/jingpeicomp/id-generator)：生成19位的Long ID、22位的短UUID、卡号、短卡号、带校验码卡号、激活码、付款码、数据加密、手机号加密、带失效时间的数字加密。
-* [Name Machine](https://github.com/ajbrown/name-machine)：Name Machine是一个Java工具，用于生成具有合理出现概率的随机名称。
 * [Memeid](https://github.com/47degrees/memeid)：Memeid是一个用于生成符合RFC标准的通用唯一标识符(UUID)的JVM库。
 * [Scala UUID](https://github.com/melezov/scala-uuid)：一个针对java.util.UUID的优化Scala封装。
 * [ShortId](https://github.com/snimavat/shortid)：短ID生成器。
@@ -13345,24 +13322,76 @@
 * [ULID Kotlin](https://github.com/aallam/ulid-kotlin)：支持多平台的Kotlin版ULID。
 * [ULID4s](https://github.com/petitviolet/ulid4s)：Scala的ULID生成器和解析器。
 * [KULID](https://github.com/JonasSchubert/kULID)：Kotlin的ULID生成器和解析器。
-* [Fortuna PRNG](https://github.com/grunka/fortuna)：Fortuna RNG的一种实现。
 * [KSUID Creator](https://github.com/f4b6a3/ksuid-creator)：这是Segment的K-Sortable全局唯一标识符的Java实现。
-* [Reverse Regexp](https://github.com/GitHub-Laziji/reverse-regexp)：从正则表达式生成随机数据。
-* [TimeID](https://github.com/codahale/time-id)：生成27个字符、按时间顺序排列、K可排序、URL安全、全球唯一的标识符。
 * [TypeID Java](https://github.com/fxlae/typeid-java)：TypeID的Java实现。
 * [NanoID Kotlin](https://github.com/viascom/nanoid-kotlin)：一个适用于Kotlin的小型、安全、URL友好且唯一的字符串ID生成器。
-* [Hashids.java](https://github.com/peet/hashids.java)：一个小型Java类，可以根据一个或多个数字生成类似YouTube的哈希值。
-* [Hashids.Clj](https://github.com/jstrutz/hashids.clj)：一个Clojure库，用于从整数生成简短的唯一ID，以简化数据库ID并对其进行混淆处理。
-* [Java Random String](https://github.com/moznion/java-random-string)：根据模式生成随机字符串。
-* [Cringe](https://github.com/tommyettinger/cringe)：仅依赖于LibGDX的随机数生成器。
 * [UUIDv7](https://github.com/robsonkades/uuidv7)：UUIDv7是一个小型、无依赖的Java库，用于生成RFC 9562 UUID版本7标识符。
-* [jULID](https://github.com/Lewiscowles1986/jULID)：Java通用唯一字典序可排序标识符。
 * [ToUUID](https://github.com/atomfinger/toUUID)：一个用于在Java和Kotlin自动化测试中生成UUID的小型库。
-* [Fast RNG Java](https://github.com/komiya-atsushi/fast-rng-java)：Java快速随机数生成器。
-* [BfGex](https://github.com/six2six/bfgex)：使用正则表达式生成随机数据。
-* [Resource Identifiers](https://github.com/palantir/resource-identifier)：Resource Identifiers提供了一种通用编码方式，用于将现有的唯一标识符与一些额外的上下文信息封装起来，以便在其他应用程序中存储这些标识符时非常有用，由Palantir开源。
-* [Data.Generators](https://github.com/clojure/data.generators)：Clojure随机数据生成器。
+* [jULID](https://github.com/Lewiscowles1986/jULID)：Java通用唯一字典序可排序标识符。
 * [Colossal SQUUID](https://github.com/yetanalytics/colossal-squuid)：用于生成顺序UUID的库。
+* [Hashids.java](https://github.com/peet/hashids.java)：一个小型Java类，可以根据一个或多个数字生成类似YouTube的哈希值。
+* [TimeID](https://github.com/codahale/time-id)：生成27个字符、按时间顺序排列、K可排序、URL安全、全局唯一的标识符。
+* [IDGenerator](https://github.com/jingpeicomp/id-generator)：生成19位的Long ID、22位的短UUID、卡号、短卡号、带校验码卡号、激活码、付款码、数据加密、手机号加密、带失效时间的数字加密。
+* [Hashids.Clj](https://github.com/jstrutz/hashids.clj)：一个Clojure库，用于从整数生成简短的唯一ID，以简化数据库ID并对其进行混淆处理。
+
+## 分布式ID
+
+* [Snowflake](https://github.com/twitter-archive/snowflake)：Snowflake是一种网络服务，用于大规模生成唯一ID号并提供一些简单的保证，由Twitter开源。
+* [Leaf](https://github.com/Meituan-Dianping/Leaf)：Leaf是美团开源的分布式ID生成服务。
+* [Tinyid](https://github.com/didi/tinyid)：Tinyid是一个ID生成器服务，它提供了一个REST API和一个用于获取ids的Java客户端，由滴滴开源。
+* [IdGenerator](https://github.com/yitter/IdGenerator)：IdGenerator是一个多语言的分布式ID生成库。
+* [Icicle](https://github.com/intenthq/icicle)：Icicle是一个使用Redis的Lua脚本以分布式方式生成64位、可排序的唯一ID的项目，由Intent HQ开源。
+* [Chronos](https://github.com/XiaoMi/chronos)：Chronos是实现高可用、高性能、提供全局唯一而且严格单调递增Timestamp的服务，由小米开源。
+* [IdCenter](https://github.com/adyliu/idcenter)：IdCenter是用于生成唯一ID号的网络服务，由搜狐开源。
+* [Sequence](https://gitee.com/yu120/sequence)：Sequence是一个高效GUID生成算法，基于Snowflake实现64位自增ID算法。
+* [IDWorker](https://github.com/imadcn/idworker)：IDWorker是一个基于Zookeeper和雪花算法的分布式ID生成工具。
+* [Snowizard](https://github.com/GeneralElectric/snowizard)：Snowizard是一项基于HTTP的服务，可以大规模生成唯一ID号码，由通用电气开源。
+* [Snowflake4J](https://github.com/PhilippHeuer/snowflake4j)：Snowflake4J是一个用于大规模生成唯一ID号码的库，并提供一些简单的保证。
+* [Redis ID Generator](https://github.com/hengyunabc/redis-id-generator)：基于Redis的分布式ID生成器。
+* [UidGenerator](https://github.com/baidu/uid-generator)：UidGenerator是一个Java实现的、基于Snowflake的唯一ID生成器，由百度开源。
+* [CosId](https://gitee.com/AhooWang/CosId)：CosId旨在提供通用、灵活、高性能的分布式ID生成器。
+* [Cantor](https://github.com/ManbangGroup/cantor)：Cantor是一个全局序列生成器服务，具有分布式、无状态、高可用性，由满帮集团开源。
+* [NanoId](https://github.com/zelark/nano-id)：NanoId是一个适用于Clojure和ClojureScript的小型、安全、URL友好型唯一字符串ID生成器。
+* [Java Snowflake](https://github.com/callicoder/java-snowflake)：基于雪花算法的分布式ID生成器。
+* [SnowFlake](https://github.com/beyondfengyu/SnowFlake)：Twitter的雪花算法SnowFlake，使用Java语言实现。
+* [Snowflake](https://github.com/downgoon/snowflake)：Twitter Snowflake的Java版本，一种用于大规模生成唯一ID号的Web服务，并具有一些简单的保证。
+* [TSID Creator](https://github.com/f4b6a3/tsid-creator)：TSID Creator是用于生成TSID的Java库。
+* [KSUID](https://github.com/ksuid/ksuid)：KSUID是一种生成全局唯一ID的方法，类似于RFC 4122 UUID。
+* [Butterfly](https://github.com/simonalong/Butterfly)：Butterfly是一个超高性能的发号器框架。
+* [Snowflake](https://github.com/relops/snowflake)：用于生成K阶唯一64位整数的Java库。
+* [SnowflakeId](https://github.com/phxql/snowflake-id)：使用Java生成类似Twitter的Snowflake ID。
+* [DistributedID](https://github.com/beyondfengyu/DistributedID)：DistributedID提供一个轻量级、高并发、高可用的生成唯一ID的服务。
+* [ECP UID](https://github.com/linhuaichuan/ecp-uid)：基于美团Leaf、百度Uid Generator、原生Snowflake进行整合的唯一ID生成器。
+* [GeneratorsId](https://github.com/shimu200/generatorsId)：GeneratorsId是一款基于雪花算法生成唯一ID的Java库。
+* [Vesta](https://github.com/iweisi/vesta-id-generator)：Vesta是一款通用的ID生成器。
+* [Leaf Snowflake](https://github.com/weizhenyi/leaf-snowflake)：Leaf Snowflake是一个分布式、单调递增的长整型整数ID生成器。
+* [ID Generator](https://gitee.com/darkranger/id-generator)：分布式ID生成器。
+* [XSequence](https://gitee.com/xuan698400/xsequence)：XSequence是一个简单的分布式序列号生成组件。
+* [Sequence](https://gitee.com/xianglin/sequence)：分布式系统唯一ID生成方法。
+* [ID Generator](https://gitee.com/simpleweb/id-generator)：基于Twitter SnowFlake算法实现的分布式ID发号器。
+* [Flake Java](https://github.com/mumrah/flake-java)：基于Twitter Snowflake的ID生成器。
+* [JavaSnowFlake](https://github.com/Predictor/javasnowflake)：基于Twitter Snowflake ID生成算法的64位顺序ID生成器。
+* [ID Generator](https://github.com/haozi2015/id-generator)：ID Generator分布式ID生成器，解决在分布式系统唯一性标识生成复杂、不统一的问题。
+* [Snowflake IdWorker](https://github.com/zzxadi/Snowflake-IdWorker)：基于Twitter Snowflake的分布式ID生成器。
+* [Snowflake ID Generator](https://github.com/keets2012/snowflake-id-generator)：Snowflake升级版全局ID生成器。
+* [Sequence](https://github.com/izern/sequence)：高效GUID生成算法，基于Snowflake实现64位自增ID算法。
+* [ASnowflake](https://github.com/zjutkz/ASnowflake)：一个用于基于Snowflake生成全局唯一ID的库，是UUID的替代方案。
+* [Snowflake-UID Generator](https://github.com/johnhuang-cn/snowflake-uid)：UidGenerator是基于Twitter Snowflake算法的全局ID生成器。
+* [UC](https://github.com/sumory/uc)：UC是一个用于处理分布式系统中ID生成，唯一性字段值管理的通用模块。
+* [LeafServer](https://github.com/Yaccc/leafserver)：高性能分布式唯一ID生成系统。
+* [Snowcast](https://github.com/noctarius/snowcast)：Snowcast是一个基于Hazelcast的自动配置、分布式、可扩展的ID生成器。
+* [Scala ID Generator](https://github.com/softwaremill/scala-id-generator)：Twitter Snowflake算法的ID生成器。
+* [TinyServices ID](https://gitee.com/tinyservices/tinyservices-id)：TinyServices ID是一个高性能可扩展生成唯一ID的服务。
+* [Spring Boot Redis ID Generator](https://github.com/butter-fly/belling-redis-id-generator)：基于Spring Boot生成分布式下全局的ID，保证ID生成的顺序性、无重复性、高可用。
+* [Timeflake4j](https://github.com/making/timeflake4j)：Timeflake的Java实现。
+* [KSUID](https://github.com/akhawaja/ksuid)：Java实现的K可排序全局唯一ID。
+* [EasyIdGenerator](https://github.com/lookingatstarts/easyIdGenerator)：EasyIdGenerator生成全局唯一ID。
+* [FinTx Identifier](https://github.com/fintx/fintx-identifier)：FinTx Identifier用于在高性能分布式环境中生成唯一ID。
+* [Sequence](https://github.com/power4j/sequence)：Java序号工具包，高性能、无锁。
+* [IdWorker Client](https://github.com/bingoohuang/idworker-client)：IdWorker Java客户端。
+* [Mykit Serial](https://github.com/binghe001/mykit-serial)：Mykit Serial是一个开源的分布式全局有序序列号服务。
+* [Vlok](https://github.com/gideondk/vlok)：Vlok是一种去中心化服务，用于生成唯一、按时间顺序排列的ID。
+* [Camflake](https://github.com/cam-inc/camflake)：Camflake是一个用Java实现的分布式唯一ID生成器。
 
 ## 图处理
 
@@ -14415,6 +14444,7 @@
 * [Compliment](https://github.com/alexander-yakushev/compliment)：Compliment是一个快速智能的Clojure代码补全库。
 * [Spring Boot Redis Auto Complete](https://github.com/okihouse/spring-boot-redis-auto-complete)：使用Spring Boot和Redis实现单词自动补全。
 * [JavaCompletions](https://github.com/tyron12233/JavaCompletions)：Java代码补全库。
+* [Completely](https://github.com/fmmfonseca/completely)：Completely是一个Java自动完成库。
 
 ## 任务调度
 
@@ -15398,6 +15428,7 @@
 * [HDRITools](https://github.com/edgarv/hdritools)：HDRITools是一套用于处理HDR图像的简单工具，由康奈尔大学开源。
 * [Imgix Java](https://github.com/imgix/imgix-java)：Imgix Java是一个使用Imgix生成图像URL的客户端库。
 * [Waifu2x](https://github.com/soywiz-archive/kaifu2x)：Waifu2x是一款基于卷积神经网络的动漫风格图像放大/降噪工具。
+* [JIPipe](https://github.com/applied-systems-biology/JIPipe)：JIPipe是一套面向科学图像分析的图形化批处理框架。
 
 #### 图像元数据
 
@@ -16699,6 +16730,7 @@
 * [Jsouper](https://github.com/ekchang/jsouper)：一个功能增强的HTML到Java反序列化器。
 * [Kotlin HTML](https://github.com/ScottPierce/kotlin-html)：Kotlin DSL用于HTML和CSS。
 * [Jericho](https://jericho.htmlparser.net/)：Jericho是一个Java库，它允许分析和操作HTML文档的各个部分，包括服务器端标签，并能原封不动地重现任何无法识别或无效的HTML代码。
+* [CaperTML](https://github.com/cao-awa/CaperTML)：CaperTML是一个DSL风格的强类型HTML模板生成器，适用于Kotlin。
 
 ### RTF库
 
@@ -21977,6 +22009,7 @@ Kafka库、管理系统、运维平台。
 * [Cover Art Archive API](https://github.com/lastfm/coverartarchive-api)：Cover Art Archive的Java数据绑定。
 * [GPlayMusic](https://github.com/FelixGail/gplaymusic)：非官方的Java版GPlayMusic API。
 * [Metalarchives](https://github.com/Loki-Afro/metalarchives)：非官方百科全书Metallum API。
+* [Qilletni](https://github.com/Qilletni/Qilletni)：Qilletni是一种领域特定语言，旨在协调和操作跨多个流媒体平台的音乐队列、播放列表和元数据。
 
 #### 天气API
 
@@ -22732,6 +22765,7 @@ Kafka库、管理系统、运维平台。
 * [FTDC](https://github.com/haoziwlh/ftdc)：用Java实现CTP的FTDC协议。
 * [Algowin API WS](https://github.com/caspianchu/algowin-api-ws)：基于Algowin API升级，对接了多家交易所的WebSocket API。
 * [JForexUtils](https://github.com/juxeii/JForexUtils)：JForexUtils是一套用户友好、功能强大且实用的工具，用于处理Dukascopy的JForex API。
+* [Clj Forex](https://github.com/Storkle/clj-forex)：Clj Forex是一个连接MetaTrader和Clojure的接口桥。
 * [Bitso Java](https://github.com/bitsoex/bitso-java)：Bitso官方Java封装器，用于与Bitso REST API v3进行交互。
 * [Bittrex4j](https://github.com/CCob/bittrex4j)：用于访问Bittrex Web API和Web Socket的Java库。
 * [Bittrex Java Client](https://github.com/forgemo/bittrex-java-client)：用于bittrex.com API的Java客户端。
@@ -22987,6 +23021,7 @@ Kafka库、管理系统、运维平台。
 * [Apple Ads Platform API Java](https://github.com/apple/apple-ads-platform-api-java)：一个用于Apple Ads Platform API的Java客户端库。
 * [Twitter4j ADS](https://github.com/sprinklr-inc/twitter4j-ads)：Twitter4j ADS是一个稳定且经过充分测试的Java SDK，用于Twitter的广告API。
 * [Bing Ads Java SDK](https://github.com/BingAds/BingAds-Java-SDK)：Bing Ads Java SDK可增强使用Java开发Bing Ads应用程序的体验。
+* [IAB GPP Java](https://github.com/IABTechLab/iabgpp-java)：使用IAB GPP框架对同意信息进行编码/解码。
 
 ## JavaCard
 
@@ -23668,6 +23703,7 @@ Kafka库、管理系统、运维平台。
 * [Ivy](https://github.com/Pedro-Pathing/Ivy)：Ivy是一个简单易用、功能强大的基于命令的FTC控制流库。
 * [Dairy](https://github.com/Dairy-Foundation/Dairy)：Dairy是一个面向FTC机器人竞赛的开源Kotlin库生态系统。
 * [ezAuton](https://github.com/ezAuton/ezAuton)：一系列用于帮助Kotlin机器人进行FRC/FTC自主训练的工具。
+* [FrcCatalyst](https://github.com/TomAs-1226/FrcCatalyst)：FrcCatalyst是一个即插即用的Java库，适用于使用CTRE Phoenix 6硬件的FRC团队。
 
 #### 运动规划与路径生成
 
@@ -24680,6 +24716,7 @@ Kafka库、管理系统、运维平台。
 * [SceneMax3D](https://github.com/scenemax3d/scenemax3d-desktop)：SceneMax3D是一个开源的3D游戏创作工作室，其核心是编舞编程。
 * [MiniGDX](https://github.com/minigdx/minigdx)：MiniGDX是一款基于Kotlin/Multiplatform的极简3D游戏引擎。
 * [DD Poker](https://github.com/dougdonohoe/ddpoker)：DD Poker电脑游戏源代码、底层游戏引擎以及支持的后端服务器和配套网站。
+* [GameComposer](https://github.com/mirkosertic/GameComposer)：GameComposer是一款游戏创作工具，同时也是一个面向桌面和移动设备的游戏运行时环境。
 * [Chunk Stories](https://github.com/Hugobros3/chunkstories)：Chunk Stories是一款高级版Minecraft克隆版，其定制引擎拥有一流的模组支持。
 * [CosPlay](https://github.com/nivanov/cosplay)：CosPlay是用Scala 3编写的2D ASCII游戏引擎。
 * [Engine](https://github.com/UnknownDomainGames/Engine)：本项目为一款模组化游戏引擎，开发语言为Java，渲染后端为OpenGL 4.2及Vulkan。
@@ -25385,6 +25422,7 @@ Kafka库、管理系统、运维平台。
 * [Grip](https://github.com/joomcode/grip)：使用Kotlin DSL对JVM类元数据进行类似SQL的查询。
 * [MiniKotlin](https://github.com/bezsahara/minikotlin)：MiniKotlin是一个使用类型安全的Kotlin DSL微型语言生成JVM字节码的库。
 * [Bat](https://github.com/netomi/bat)：Bat的目标是提供用于处理各种Java相关字节码格式的工具，主要是JVM和Dalvik字节码。
+* [Codebook](https://github.com/PaperMC/codebook)：Codebook是一个小型应用程序/库，用于在不同的Paper项目之间轻松共享JAR包重映射逻辑。
 
 ## 反编译
 
@@ -26051,11 +26089,9 @@ Kafka库、管理系统、运维平台。
 * [Time-Utilities](https://github.com/Breinify/brein-time-utilities)：包含多个时间相关数据和索引结构(例如IntervalTree、BucketTimeSeries)以及算法的库。
 * [Funcj](https://github.com/typemeta/funcj)：用于Java的面向函数的数据结构、算法和库的集合。
 * [Athena](https://github.com/sanity/Athena)：支持任意布尔查询的高效内存数据结构。
-* [HyperMinHash Java](https://github.com/LiveRamp/HyperMinHash-java)：用于计算对数空间中的并集、交集和集合基数的概率数据结构。
 * [Dictomaton](https://github.com/danieldk/dictomaton)：该Java库实现存储在有限状态自动机中的字典。
 * [ObjectLayout](https://github.com/ObjectLayout/ObjectLayout)：ObjectLayout提供了一组数据结构类，这些类的设计考虑了优化的内存布局。
 * [Zero-Allocation Hashing](https://github.com/OpenHFT/Zero-Allocation-Hashing)：用于对Java中的任何字节序列进行哈希处理，包括各种原始数组、缓冲区、CharSequence等。
-* [Completely](https://github.com/fmmfonseca/completely)：Completely是一个Java自动完成库。
 * [SimpleHashSet](https://github.com/liaohuqiu/SimpleHashSet)：SimpleHashSet是内存占用更小的HashSet。
 * [Structures](https://github.com/ashish-chopra/Structures)：Structures是用Java实现的抽象数据结构集合。
 * [Java DS Algorithms](https://github.com/anthonynsimon/java-ds-algorithms)：Java中的数据结构和算法。
@@ -26445,6 +26481,7 @@ Kafka库、管理系统、运维平台。
 * [Simhash Java](https://github.com/sing1ee/simhash-java)：Simhash算法的Java简单实现。
 * [Simhash4J](https://github.com/xlturing/Simhash4J)：Simhash Java单机实现。
 * [Simhash](https://github.com/CreekLou/simhash)：高效的文本相似度去重算法实现。
+* [Cascading Simhash](https://github.com/jashmenn/cascading-simhash)：Cascading Simhash是一个基于SimHash的文档聚类库，用于在Hadoop上通过Minhash对大规模文档语料进行分组。
 
 #### LSH算法
 
