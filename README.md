@@ -1668,6 +1668,7 @@
 * [OkHttp](https://github.com/square/okhttp)：Square为JVM、Android和GraalVM精心设计的HTTP客户端。
 * [Fuel](https://github.com/kittinunf/fuel)：由Kotlinx Coroutines支持的最简单的Kotlin HTTP网络库。
 * [Retrofit](https://github.com/square/retrofit)：Retrofit是适用于Android和JVM的类型安全HTTP客户端，由Square开源。
+* [REST-in-peace](https://github.com/shrinivas93/REST-in-peace)：声明式Java REST客户端，通过编译时代码生成实现零反射调用，内置重试、熔断、缓存等弹性特性，并原生支持GraalVM Native Image。
 * [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient库允许Java应用程序轻松执行HTTP请求并异步处理HTTP响应。
 * [RxEasyHttp](https://github.com/zhou-you/RxEasyHttp)：RxEasyHttp是一款基于RxJava 2、Retrofit 2实现简单易用的网络请求框架。
 * [Android Asynchronous HttpClient](https://github.com/android-async-http/android-async-http)：基于Apache HttpClient库的Android异步、基于回调的HTTP客户端。
